@@ -1,0 +1,27 @@
+begin_unit
+comment|'# testing xmlrpc finger'
+nl|'\n'
+nl|'\n'
+name|'import'
+name|'xmlrpclib'
+newline|'\n'
+DECL|variable|server
+name|'server'
+op|'='
+name|'xmlrpclib'
+op|'.'
+name|'Server'
+op|'('
+string|"'http://127.0.0.1:8000/RPC2'"
+op|')'
+newline|'\n'
+name|'print'
+name|'server'
+op|'.'
+name|'getUser'
+op|'('
+string|"'moshez'"
+op|')'
+newline|'\n'
+endmarker|''
+end_unit

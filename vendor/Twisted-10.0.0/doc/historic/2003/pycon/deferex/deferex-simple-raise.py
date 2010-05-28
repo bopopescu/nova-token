@@ -1,0 +1,19 @@
+begin_unit
+DECL|variable|x
+name|'x'
+op|'='
+number|'1'
+op|'+'
+number|'3'
+newline|'\n'
+name|'raise'
+name|'Exception'
+op|'('
+string|'"I can\'t go on!"'
+op|')'
+newline|'\n'
+name|'print'
+name|'x'
+newline|'\n'
+endmarker|''
+end_unit

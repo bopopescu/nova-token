@@ -1,0 +1,22 @@
+begin_unit
+comment|'# fodder for test_script, which parses files for emacs local variable'
+nl|'\n'
+comment|'# declarations.  This one is supposed to have none.'
+nl|'\n'
+comment|'# The class declaration is irrelevant'
+nl|'\n'
+nl|'\n'
+DECL|class|Bar
+name|'class'
+name|'Bar'
+op|'('
+name|'object'
+op|')'
+op|':'
+newline|'\n'
+indent|'    '
+name|'pass'
+newline|'\n'
+dedent|''
+endmarker|''
+end_unit

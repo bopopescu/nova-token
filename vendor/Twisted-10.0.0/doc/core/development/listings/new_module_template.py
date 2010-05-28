@@ -1,0 +1,22 @@
+begin_unit
+comment|'# -*- test-case-name: <test module> -*-'
+nl|'\n'
+nl|'\n'
+comment|'# Copyright (c) 2008 Twisted Matrix Laboratories.'
+nl|'\n'
+comment|'# See LICENSE for details.'
+nl|'\n'
+nl|'\n'
+nl|'\n'
+string|'"""\nDocstring goes here.\n"""'
+newline|'\n'
+nl|'\n'
+nl|'\n'
+DECL|variable|__all__
+name|'__all__'
+op|'='
+op|'['
+op|']'
+newline|'\n'
+endmarker|''
+end_unit
