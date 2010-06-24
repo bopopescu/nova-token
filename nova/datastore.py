@@ -349,6 +349,11 @@ op|'='
 op|'{'
 string|"'state'"
 op|':'
+number|'0'
+op|','
+nl|'\n'
+string|"'state_description'"
+op|':'
 string|"'pending'"
 op|','
 nl|'\n'
