@@ -228,7 +228,7 @@ name|'ip'
 op|','
 name|'username'
 op|'='
-string|"'ubuntu'"
+string|"'root'"
 op|','
 name|'pkey'
 op|'='
