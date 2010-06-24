@@ -280,6 +280,16 @@ string|"'default instance type to use, testing only'"
 op|')'
 newline|'\n'
 nl|'\n'
+name|'DEFINE_string'
+op|'('
+string|"'vpn_image_id'"
+op|','
+string|"'ami-CLOUDPIPE'"
+op|','
+string|"'AMI for cloudpipe vpn server'"
+op|')'
+newline|'\n'
+nl|'\n'
 comment|'# UNUSED'
 nl|'\n'
 name|'DEFINE_string'
