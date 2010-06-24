@@ -3860,7 +3860,7 @@ name|'get'
 op|'('
 string|"'instance_type'"
 op|','
-string|"''"
+string|"'m1.small'"
 op|')'
 newline|'\n'
 name|'inst'
