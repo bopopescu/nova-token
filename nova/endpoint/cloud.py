@@ -4738,8 +4738,16 @@ op|'}'
 op|')'
 newline|'\n'
 nl|'\n'
-DECL|member|describe_image_attribute
 dedent|''
+op|'@'
+name|'rbac'
+op|'.'
+name|'allow'
+op|'('
+string|"'all'"
+op|')'
+newline|'\n'
+DECL|member|describe_image_attribute
 name|'def'
 name|'describe_image_attribute'
 op|'('
@@ -4946,7 +4954,7 @@ name|'in'
 op|'['
 string|"'add'"
 op|','
-string|"'delete'"
+string|"'remove'"
 op|']'
 op|':'
 newline|'\n'
@@ -4956,7 +4964,7 @@ name|'exception'
 op|'.'
 name|'ApiError'
 op|'('
-string|"'operation_type must be add or delete'"
+string|"'operation_type must be add or remove'"
 op|')'
 newline|'\n'
 dedent|''
