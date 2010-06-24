@@ -2588,7 +2588,7 @@ op|'.'
 name|'NotFound'
 op|':'
 newline|'\n'
-comment|"# If the instance doesn't exist anymore, "
+comment|"# If the instance doesn't exist anymore,"
 nl|'\n'
 comment|'# then we need to call detach blind'
 nl|'\n'
@@ -4831,7 +4831,7 @@ name|'in'
 op|'['
 string|"'add'"
 op|','
-string|"'remove'"
+string|"'delete'"
 op|']'
 op|':'
 newline|'\n'
@@ -4841,7 +4841,7 @@ name|'exception'
 op|'.'
 name|'ApiError'
 op|'('
-string|"'operation_type must be add or remove'"
+string|"'operation_type must be add or delete'"
 op|')'
 newline|'\n'
 dedent|''
