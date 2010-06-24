@@ -227,6 +227,30 @@ op|','
 string|"'cn for Cloud Admins'"
 op|')'
 newline|'\n'
+name|'flags'
+op|'.'
+name|'DEFINE_string'
+op|'('
+string|"'ldap_sysadmin'"
+op|','
+nl|'\n'
+string|"'cn=sysadmins,ou=Groups,dc=example,dc=com'"
+op|','
+string|"'cn for Sysadmins'"
+op|')'
+newline|'\n'
+name|'flags'
+op|'.'
+name|'DEFINE_string'
+op|'('
+string|"'ldap_netadmin'"
+op|','
+nl|'\n'
+string|"'cn=netadmins,ou=Groups,dc=example,dc=com'"
+op|','
+string|"'cn for NetAdmins'"
+op|')'
+newline|'\n'
 nl|'\n'
 comment|'# a user with one of these roles will be a superuser and have access to all api commands'
 nl|'\n'
