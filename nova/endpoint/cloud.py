@@ -1814,7 +1814,7 @@ string|"'attachTime'"
 op|':'
 name|'volume'
 op|'['
-string|"'attachTime'"
+string|"'attach_time'"
 op|']'
 op|','
 nl|'\n'
@@ -1822,7 +1822,7 @@ string|"'deleteOnTermination'"
 op|':'
 name|'volume'
 op|'['
-string|"'deleteOnTermination'"
+string|"'delete_on_termination'"
 op|']'
 op|','
 nl|'\n'
@@ -2406,7 +2406,7 @@ string|"'attachTime'"
 op|':'
 name|'volume'
 op|'['
-string|"'attachTime'"
+string|"'attach_time'"
 op|']'
 op|','
 nl|'\n'
@@ -2434,7 +2434,7 @@ string|"'status'"
 op|':'
 name|'volume'
 op|'['
-string|"'attachStatus'"
+string|"'attach_status'"
 op|']'
 op|','
 nl|'\n'
@@ -2618,7 +2618,7 @@ string|"'attachTime'"
 op|':'
 name|'volume'
 op|'['
-string|"'attachTime'"
+string|"'attach_time'"
 op|']'
 op|','
 nl|'\n'
@@ -2646,7 +2646,7 @@ string|"'status'"
 op|':'
 name|'volume'
 op|'['
-string|"'attachStatus'"
+string|"'attach_status'"
 op|']'
 op|','
 nl|'\n'

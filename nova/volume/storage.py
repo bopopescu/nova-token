@@ -1109,14 +1109,14 @@ string|'"in-use"'
 newline|'\n'
 name|'self'
 op|'['
-string|"'attachStatus'"
+string|"'attach_status'"
 op|']'
 op|'='
 string|'"attaching"'
 newline|'\n'
 name|'self'
 op|'['
-string|"'attachTime'"
+string|"'attach_time'"
 op|']'
 op|'='
 name|'time'
@@ -1134,7 +1134,7 @@ op|')'
 newline|'\n'
 name|'self'
 op|'['
-string|"'deleteOnTermination'"
+string|"'delete_on_termination'"
 op|']'
 op|'='
 string|"'False'"
@@ -1160,7 +1160,7 @@ string|'""" """'
 newline|'\n'
 name|'self'
 op|'['
-string|"'attachStatus'"
+string|"'attach_status'"
 op|']'
 op|'='
 string|'"attached"'
@@ -1186,7 +1186,7 @@ string|'""" """'
 newline|'\n'
 name|'self'
 op|'['
-string|"'attachStatus'"
+string|"'attach_status'"
 op|']'
 op|'='
 string|'"detaching"'
@@ -1231,7 +1231,7 @@ string|'"available"'
 newline|'\n'
 name|'self'
 op|'['
-string|"'attachStatus'"
+string|"'attach_status'"
 op|']'
 op|'='
 string|'"detached"'
