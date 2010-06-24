@@ -3053,7 +3053,7 @@ name|'instance'
 op|'.'
 name|'get'
 op|'('
-string|"'owner_id'"
+string|"'project_id'"
 op|','
 name|'None'
 op|')'
