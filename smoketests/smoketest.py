@@ -2604,7 +2604,7 @@ op|'['
 string|"'image_id'"
 op|']'
 op|','
-name|'size'
+name|'instance_type'
 op|'='
 string|"'m1.tiny'"
 op|','
