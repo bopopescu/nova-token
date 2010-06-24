@@ -231,6 +231,18 @@ name|'flags'
 op|'.'
 name|'DEFINE_string'
 op|'('
+string|"'ldap_itsec'"
+op|','
+nl|'\n'
+string|"'cn=itsec,ou=Groups,dc=example,dc=com'"
+op|','
+string|"'cn for ItSec'"
+op|')'
+newline|'\n'
+name|'flags'
+op|'.'
+name|'DEFINE_string'
+op|'('
 string|"'ldap_sysadmin'"
 op|','
 nl|'\n'
@@ -249,6 +261,18 @@ nl|'\n'
 string|"'cn=netadmins,ou=Groups,dc=example,dc=com'"
 op|','
 string|"'cn for NetAdmins'"
+op|')'
+newline|'\n'
+name|'flags'
+op|'.'
+name|'DEFINE_string'
+op|'('
+string|"'ldap_developer'"
+op|','
+nl|'\n'
+string|"'cn=developers,ou=Groups,dc=example,dc=com'"
+op|','
+string|"'cn for Developers'"
 op|')'
 newline|'\n'
 nl|'\n'
@@ -278,6 +302,8 @@ string|"'global_roles'"
 op|','
 op|'['
 string|"'cloudadmin'"
+op|','
+string|"'itsec'"
 op|']'
 op|','
 string|"'roles that apply to all projects'"
