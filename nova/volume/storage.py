@@ -939,6 +939,13 @@ string|"'none'"
 newline|'\n'
 name|'vol'
 op|'['
+string|"'attachTime'"
+op|']'
+op|'='
+string|"'none'"
+newline|'\n'
+name|'vol'
+op|'['
 string|'"create_time"'
 op|']'
 op|'='
@@ -970,6 +977,13 @@ op|']'
 op|'='
 string|'"detached"'
 comment|'# attaching | attached | detaching | detached'
+newline|'\n'
+name|'vol'
+op|'['
+string|"'deleteOnTermination'"
+op|']'
+op|'='
+string|"'False'"
 newline|'\n'
 name|'vol'
 op|'.'
