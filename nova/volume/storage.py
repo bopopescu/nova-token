@@ -977,7 +977,7 @@ string|"'none'"
 newline|'\n'
 name|'vol'
 op|'['
-string|"'attachTime'"
+string|"'attach_time'"
 op|']'
 op|'='
 string|"'none'"
@@ -1010,7 +1010,7 @@ comment|'# creating | available | in-use'
 newline|'\n'
 name|'vol'
 op|'['
-string|"'attachStatus'"
+string|"'attach_status'"
 op|']'
 op|'='
 string|'"detached"'
@@ -1018,7 +1018,7 @@ comment|'# attaching | attached | detaching | detached'
 newline|'\n'
 name|'vol'
 op|'['
-string|"'deleteOnTermination'"
+string|"'delete_on_termination'"
 op|']'
 op|'='
 string|"'False'"

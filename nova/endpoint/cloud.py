@@ -1796,7 +1796,7 @@ dedent|''
 name|'if'
 name|'volume'
 op|'['
-string|"'status'"
+string|"'attach_status'"
 op|']'
 op|'=='
 string|"'attached'"
