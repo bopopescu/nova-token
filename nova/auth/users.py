@@ -2300,7 +2300,9 @@ name|'exception'
 op|'.'
 name|'NotFound'
 op|'('
-string|"'No user found for access key'"
+string|"'No user found for access key %s'"
+op|'%'
+name|'access_key'
 op|')'
 newline|'\n'
 dedent|''
