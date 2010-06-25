@@ -298,9 +298,6 @@ op|','
 string|"'AMI for cloudpipe vpn server'"
 op|')'
 newline|'\n'
-nl|'\n'
-name|'flags'
-op|'.'
 name|'DEFINE_string'
 op|'('
 string|"'vpn_key_suffix'"
