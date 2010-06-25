@@ -299,6 +299,20 @@ string|"'AMI for cloudpipe vpn server'"
 op|')'
 newline|'\n'
 nl|'\n'
+name|'flags'
+op|'.'
+name|'DEFINE_string'
+op|'('
+string|"'vpn_key_suffix'"
+op|','
+nl|'\n'
+string|"'-key'"
+op|','
+nl|'\n'
+string|"'Suffix to add to project name for vpn key'"
+op|')'
+newline|'\n'
+nl|'\n'
 comment|'# UNUSED'
 nl|'\n'
 name|'DEFINE_string'
