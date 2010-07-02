@@ -261,7 +261,7 @@ op|','
 string|"'br100'"
 op|','
 nl|'\n'
-string|"'Bridge for instances'"
+string|"'Bridge for simple network instances'"
 op|')'
 newline|'\n'
 name|'flags'
@@ -271,11 +271,89 @@ op|'('
 string|"'simple_network_ips'"
 op|','
 op|'['
-string|"'192.168.1.1'"
+string|"'192.168.0.2'"
 op|']'
 op|','
 nl|'\n'
-string|"'Available ips for network'"
+string|"'Available ips for simple network'"
+op|')'
+newline|'\n'
+name|'flags'
+op|'.'
+name|'DEFINE_string'
+op|'('
+string|"'simple_network_template'"
+op|','
+nl|'\n'
+name|'utils'
+op|'.'
+name|'abspath'
+op|'('
+string|"'compute/interfaces.template'"
+op|')'
+op|','
+nl|'\n'
+string|"'Template file for simple network'"
+op|')'
+newline|'\n'
+name|'flags'
+op|'.'
+name|'DEFINE_string'
+op|'('
+string|"'simple_network_netmask'"
+op|','
+string|"'255.255.255.0'"
+op|','
+nl|'\n'
+string|"'Netmask for simple network'"
+op|')'
+newline|'\n'
+name|'flags'
+op|'.'
+name|'DEFINE_string'
+op|'('
+string|"'simple_network_network'"
+op|','
+string|"'192.168.0.0'"
+op|','
+nl|'\n'
+string|"'Network for simple network'"
+op|')'
+newline|'\n'
+name|'flags'
+op|'.'
+name|'DEFINE_string'
+op|'('
+string|"'simple_network_gateway'"
+op|','
+string|"'192.168.0.1'"
+op|','
+nl|'\n'
+string|"'Broadcast for simple network'"
+op|')'
+newline|'\n'
+name|'flags'
+op|'.'
+name|'DEFINE_string'
+op|'('
+string|"'simple_network_broadcast'"
+op|','
+string|"'192.168.0.255'"
+op|','
+nl|'\n'
+string|"'Broadcast for simple network'"
+op|')'
+newline|'\n'
+name|'flags'
+op|'.'
+name|'DEFINE_string'
+op|'('
+string|"'simple_network_dns'"
+op|','
+string|"'8.8.8.8'"
+op|','
+nl|'\n'
+string|"'Dns for simple network'"
 op|')'
 newline|'\n'
 nl|'\n'
