@@ -350,7 +350,7 @@ name|'DEFINE_string'
 op|'('
 string|"'simple_network_dns'"
 op|','
-string|"'8.8.8.8'"
+string|"'8.8.4.4'"
 op|','
 nl|'\n'
 string|"'Dns for simple network'"
