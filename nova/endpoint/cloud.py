@@ -3871,7 +3871,7 @@ op|'{'
 string|"'leaseResponse'"
 op|':'
 op|'['
-string|'"Address lease."'
+string|'"Address leased."'
 op|']'
 op|'}'
 op|')'
