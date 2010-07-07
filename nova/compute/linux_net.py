@@ -609,16 +609,13 @@ nl|'\n'
 string|"' --except-interface=lo'"
 op|','
 nl|'\n'
-string|"' --dhcp-range=%s,static,120s'"
+string|"' --dhcp-range=%s,static,600s'"
 op|'%'
 op|'('
 name|'net'
 op|'.'
 name|'dhcp_range_start'
 op|')'
-op|','
-nl|'\n'
-string|"' --dhcp-lease-max=61'"
 op|','
 nl|'\n'
 string|"' --dhcp-hostsfile=%s'"
@@ -634,25 +631,15 @@ string|"'conf'"
 op|')'
 op|','
 nl|'\n'
-string|"' --dhcp-leasefile=%s'"
-op|'%'
-name|'dhcp_file'
-op|'('
-name|'net'
-op|'['
-string|"'vlan'"
-op|']'
-op|','
-string|"'leases'"
-op|')'
-op|','
-nl|'\n'
-string|"' ---dhcp-script=%s'"
+string|"' --dhcp-script=%s'"
 op|'%'
 name|'bin_file'
 op|'('
 string|"'dhcpleasor.py'"
 op|')'
+op|','
+nl|'\n'
+string|"' --leasefile-ro'"
 op|']'
 newline|'\n'
 name|'return'
