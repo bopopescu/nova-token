@@ -81,6 +81,45 @@ op|'.'
 name|'FLAGS'
 newline|'\n'
 nl|'\n'
+name|'flags'
+op|'.'
+name|'DEFINE_string'
+op|'('
+string|"'admin_access_key'"
+op|','
+string|"'admin'"
+op|','
+string|"'Access key for admin user'"
+op|')'
+newline|'\n'
+name|'flags'
+op|'.'
+name|'DEFINE_string'
+op|'('
+string|"'admin_secret_key'"
+op|','
+string|"'admin'"
+op|','
+string|"'Secret key for admin user'"
+op|')'
+newline|'\n'
+name|'flags'
+op|'.'
+name|'DEFINE_string'
+op|'('
+string|"'clc_ip'"
+op|','
+string|"'127.0.0.1'"
+op|','
+string|"'IP of cloud controller API'"
+op|')'
+newline|'\n'
+comment|"#flags.DEFINE_string('vpn_image_id', 'ami-CLOUDPIPE',"
+nl|'\n'
+comment|"#                    'AMI for cloudpipe vpn server')"
+nl|'\n'
+nl|'\n'
+nl|'\n'
 DECL|variable|nova_admin
 name|'nova_admin'
 op|'='
