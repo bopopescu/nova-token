@@ -414,6 +414,7 @@ nl|'\n'
 string|"'/C=US/ST=California/L=MountainView/O=AnsoLabs/'"
 nl|'\n'
 string|"'OU=NovaDev/CN=%s-%s'"
+op|','
 nl|'\n'
 string|"'Subject for certificate for users'"
 op|')'
