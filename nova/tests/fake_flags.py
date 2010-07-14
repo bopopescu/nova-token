@@ -83,12 +83,8 @@ name|'True'
 newline|'\n'
 comment|"#FLAGS.keeper_backend = 'sqlite'"
 nl|'\n'
-name|'FLAGS'
-op|'.'
-name|'datastore_path'
-op|'='
-string|"':memory:'"
-newline|'\n'
+comment|"# FLAGS.datastore_path = ':memory:'"
+nl|'\n'
 name|'FLAGS'
 op|'.'
 name|'verbose'
