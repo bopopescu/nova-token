@@ -3350,7 +3350,7 @@ comment|'#             it seems to be assumed that vlan<=>project is'
 nl|'\n'
 comment|'#             always a 1:1 mapping.  It could be made way'
 nl|'\n'
-comment|"#             sexier if it didn't fight agains the way"
+comment|"#             sexier if it didn't fight against the way"
 nl|'\n'
 comment|'#             BasicModel worked and used associate_with'
 nl|'\n'
