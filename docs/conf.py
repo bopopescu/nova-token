@@ -167,7 +167,7 @@ newline|'\n'
 DECL|variable|copyright
 name|'copyright'
 op|'='
-string|"u'2010, Anso Labs, LLC'"
+string|"u'2010, United States Government as represented by the Administrator of the National Aeronautics and Space Administration.'"
 newline|'\n'
 nl|'\n'
 comment|"# The version info for the project you're documenting, acts as replacement for"
