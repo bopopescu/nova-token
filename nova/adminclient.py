@@ -70,7 +70,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'""" \n    Information about a Nova user, as parsed through SAX\n    fields include:\n        username\n        accesskey\n        secretkey\n\n    and an optional field containing a zip with X509 cert & rc\n        file\n    """'
+string|'"""\n    Information about a Nova user, as parsed through SAX\n    fields include:\n        username\n        accesskey\n        secretkey\n\n    and an optional field containing a zip with X509 cert & rc\n        file\n    """'
 newline|'\n'
 nl|'\n'
 DECL|member|__init__
