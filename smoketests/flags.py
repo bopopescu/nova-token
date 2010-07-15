@@ -4,7 +4,7 @@ nl|'\n'
 nl|'\n'
 comment|'# Copyright 2010 United States Government as represented by the'
 nl|'\n'
-comment|'# Administrator of the National Aeronautics and Space Administration.'
+comment|'# Administrator of the National Aeronautics and Space Administration. '
 nl|'\n'
 comment|'# All Rights Reserved.'
 nl|'\n'
@@ -38,10 +38,6 @@ comment|'#    under the License.'
 nl|'\n'
 nl|'\n'
 string|'"""\nPackage-level global flags are defined here, the rest are defined\nwhere they\'re used.\n"""'
-newline|'\n'
-nl|'\n'
-name|'import'
-name|'socket'
 newline|'\n'
 nl|'\n'
 name|'from'
@@ -84,16 +80,6 @@ comment|'# Define any app-specific flags in their own files, docs at:'
 nl|'\n'
 comment|'# http://code.google.com/p/python-gflags/source/browse/trunk/gflags.py#39'
 nl|'\n'
-nl|'\n'
-name|'DEFINE_bool'
-op|'('
-string|"'verbose'"
-op|','
-name|'False'
-op|','
-string|"'show debug output'"
-op|')'
-newline|'\n'
 name|'DEFINE_string'
 op|'('
 string|"'admin_access_key'"
@@ -123,12 +109,28 @@ op|')'
 newline|'\n'
 name|'DEFINE_string'
 op|'('
-string|"'vpn_image_id'"
+string|"'bundle_kernel'"
 op|','
-string|"'ami-CLOUDPIPE'"
+string|"'openwrt-x86-vmlinuz'"
 op|','
-string|"'AMI for cloudpipe vpn server'"
+nl|'\n'
+string|"'Local kernel file to use for bundling tests'"
 op|')'
 newline|'\n'
+name|'DEFINE_string'
+op|'('
+string|"'bundle_image'"
+op|','
+string|"'openwrt-x86-ext2.image'"
+op|','
+nl|'\n'
+string|"'Local image file to use for bundling tests'"
+op|')'
+newline|'\n'
+comment|"#DEFINE_string('vpn_image_id', 'ami-CLOUDPIPE',"
+nl|'\n'
+comment|"#                    'AMI for cloudpipe vpn server')"
+nl|'\n'
+nl|'\n'
 endmarker|''
 end_unit
