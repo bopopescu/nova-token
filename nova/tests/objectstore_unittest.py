@@ -999,7 +999,7 @@ name|'image'
 op|'.'
 name|'Image'
 op|'.'
-name|'create'
+name|'register_aws_image'
 op|'('
 string|"'i-testing'"
 op|','
