@@ -44,6 +44,7 @@ name|'import'
 name|'Error'
 newline|'\n'
 nl|'\n'
+nl|'\n'
 DECL|class|NoMoreAddresses
 name|'class'
 name|'NoMoreAddresses'
