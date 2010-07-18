@@ -77,6 +77,15 @@ nl|'\n'
 comment|'# http://code.google.com/p/python-gflags/source/browse/trunk/gflags.py#39'
 nl|'\n'
 nl|'\n'
+name|'DEFINE_string'
+op|'('
+string|"'connection_type'"
+op|','
+string|"'libvirt'"
+op|','
+string|"'libvirt or fake'"
+op|')'
+newline|'\n'
 name|'DEFINE_integer'
 op|'('
 string|"'s3_port'"
@@ -122,16 +131,6 @@ op|','
 string|"'storage'"
 op|','
 string|"'the topic storage nodes listen on'"
-op|')'
-newline|'\n'
-name|'DEFINE_bool'
-op|'('
-string|"'fake_libvirt'"
-op|','
-name|'False'
-op|','
-nl|'\n'
-string|"'whether to use a fake libvirt or not'"
 op|')'
 newline|'\n'
 name|'DEFINE_bool'
