@@ -83,7 +83,7 @@ string|"'connection_type'"
 op|','
 string|"'libvirt'"
 op|','
-string|"'libvirt or fake'"
+string|"'libvirt, xenapi or fake'"
 op|')'
 newline|'\n'
 name|'DEFINE_integer'
