@@ -3046,7 +3046,7 @@ name|'_pool'
 op|'.'
 name|'simpleExecute'
 op|'('
-string|"'curl --silent %s -o %s'"
+string|"'curl --silent --fail %s -o %s'"
 op|'%'
 op|'('
 name|'url'
