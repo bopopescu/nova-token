@@ -294,6 +294,24 @@ name|'flags'
 op|'.'
 name|'DEFINE_string'
 op|'('
+string|"'simple_network_dns_template'"
+op|','
+nl|'\n'
+name|'utils'
+op|'.'
+name|'abspath'
+op|'('
+string|"'compute/resolv.conf.template'"
+op|')'
+op|','
+nl|'\n'
+string|"'Template file for DNS settings for simple network'"
+op|')'
+newline|'\n'
+name|'flags'
+op|'.'
+name|'DEFINE_string'
+op|'('
 string|"'simple_network_netmask'"
 op|','
 string|"'255.255.255.0'"
