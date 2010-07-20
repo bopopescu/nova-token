@@ -4186,6 +4186,8 @@ string|"'kernel_id'"
 op|']'
 op|'='
 name|'kernel_id'
+name|'or'
+string|"''"
 newline|'\n'
 name|'inst'
 op|'['
@@ -4193,6 +4195,8 @@ string|"'ramdisk_id'"
 op|']'
 op|'='
 name|'ramdisk_id'
+name|'or'
+string|"''"
 newline|'\n'
 name|'inst'
 op|'['
