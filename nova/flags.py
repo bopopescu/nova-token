@@ -108,13 +108,23 @@ op|')'
 newline|'\n'
 name|'DEFINE_string'
 op|'('
-string|"'storage_topic'"
+string|"'volume_topic'"
 op|','
-string|"'storage'"
+string|"'volume'"
 op|','
-string|"'the topic storage nodes listen on'"
+string|"'the topic volume nodes listen on'"
 op|')'
 newline|'\n'
+name|'DEFINE_string'
+op|'('
+string|"'network_topic'"
+op|','
+string|"'network'"
+op|','
+string|"'the topic network nodes listen on'"
+op|')'
+newline|'\n'
+nl|'\n'
 name|'DEFINE_bool'
 op|'('
 string|"'fake_libvirt'"
