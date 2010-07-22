@@ -207,6 +207,14 @@ op|')'
 newline|'\n'
 nl|'\n'
 nl|'\n'
+comment|'# TODO(vish): make an abstract base class with the same public methods'
+nl|'\n'
+comment|"#             to define a set interface for AuthDrivers. I'm delaying"
+nl|'\n'
+comment|"#             creating this now because I'm expecting an auth refactor"
+nl|'\n'
+comment|'#             in which we may want to change the interface a bit more.'
+nl|'\n'
 DECL|class|AuthDriver
 name|'class'
 name|'AuthDriver'
