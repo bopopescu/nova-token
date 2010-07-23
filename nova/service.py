@@ -119,9 +119,9 @@ number|'1'
 op|')'
 newline|'\n'
 nl|'\n'
-DECL|class|Node
+DECL|class|Service
 name|'class'
-name|'Node'
+name|'Service'
 op|'('
 name|'object'
 op|','
