@@ -95,15 +95,6 @@ op|','
 string|"'s3 port'"
 op|')'
 newline|'\n'
-name|'DEFINE_integer'
-op|'('
-string|"'s3_internal_port'"
-op|','
-number|'3334'
-op|','
-string|"'s3 port'"
-op|')'
-newline|'\n'
 name|'DEFINE_string'
 op|'('
 string|"'s3_host'"
