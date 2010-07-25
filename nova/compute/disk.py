@@ -209,6 +209,7 @@ newline|'\n'
 nl|'\n'
 comment|'# create an empty file'
 nl|'\n'
+name|'yield'
 name|'execute'
 op|'('
 string|"'dd if=/dev/zero of=%s count=1 seek=%d bs=%d'"
