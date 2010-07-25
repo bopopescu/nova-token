@@ -146,7 +146,7 @@ op|','
 nl|'\n'
 name|'auth_driver'
 op|'='
-string|"'nova.auth.fakeldapdriver'"
+string|"'nova.auth.ldapdriver.FakeLdapDriver'"
 op|','
 nl|'\n'
 name|'network_size'
