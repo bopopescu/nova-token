@@ -75,7 +75,7 @@ op|'('
 string|"'dhcpbridge_flagfile'"
 op|','
 nl|'\n'
-string|"'/etc/nova-dhcpbridge.conf'"
+string|"'/etc/nova/nova-dhcpbridge.conf'"
 op|','
 nl|'\n'
 string|"'location of flagfile for dhcpbridge'"
