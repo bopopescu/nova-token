@@ -152,15 +152,6 @@ op|','
 string|"'should we use fake network devices and addresses'"
 op|')'
 newline|'\n'
-name|'DEFINE_bool'
-op|'('
-string|"'fake_users'"
-op|','
-name|'False'
-op|','
-string|"'use fake users'"
-op|')'
-newline|'\n'
 name|'DEFINE_string'
 op|'('
 string|"'rabbit_host'"

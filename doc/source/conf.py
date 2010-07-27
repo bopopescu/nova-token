@@ -42,22 +42,6 @@ name|'path'
 op|'.'
 name|'append'
 op|'('
-name|'os'
-op|'.'
-name|'path'
-op|'.'
-name|'abspath'
-op|'('
-string|"'/Users/jmckenty/Projects/cc'"
-op|')'
-op|')'
-newline|'\n'
-name|'sys'
-op|'.'
-name|'path'
-op|'.'
-name|'append'
-op|'('
 op|'['
 name|'os'
 op|'.'
@@ -74,7 +58,7 @@ name|'path'
 op|'.'
 name|'abspath'
 op|'('
-string|"'../'"
+string|"'..'"
 op|')'
 op|','
 name|'os'
@@ -83,7 +67,7 @@ name|'path'
 op|'.'
 name|'abspath'
 op|'('
-string|"'../vendor'"
+string|"'../bin'"
 op|')'
 op|']'
 op|')'
@@ -114,8 +98,6 @@ op|','
 string|"'sphinx.ext.ifconfig'"
 op|']'
 newline|'\n'
-comment|'#sphinx_to_github = False'
-nl|'\n'
 DECL|variable|todo_include_todos
 name|'todo_include_todos'
 op|'='
@@ -220,7 +202,6 @@ DECL|variable|exclude_trees
 name|'exclude_trees'
 op|'='
 op|'['
-string|"'_build'"
 op|']'
 newline|'\n'
 nl|'\n'
@@ -433,9 +414,9 @@ nl|'\n'
 op|'('
 string|"'index'"
 op|','
-string|"'nova.tex'"
+string|"'Nova.tex'"
 op|','
-string|"u'nova Documentation'"
+string|"u'Nova Documentation'"
 op|','
 nl|'\n'
 string|"u'Anso Labs, LLC'"
@@ -483,10 +464,24 @@ DECL|variable|intersphinx_mapping
 name|'intersphinx_mapping'
 op|'='
 op|'{'
-string|"'http://docs.python.org/'"
+string|"'python'"
 op|':'
+op|'('
+string|"'http://docs.python.org/'"
+op|','
 name|'None'
+op|')'
+op|','
+nl|'\n'
+string|"'swift'"
+op|':'
+op|'('
+string|"'http://swift.openstack.org'"
+op|','
+name|'None'
+op|')'
 op|'}'
 newline|'\n'
+nl|'\n'
 endmarker|''
 end_unit
