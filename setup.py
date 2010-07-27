@@ -88,31 +88,31 @@ nl|'\n'
 DECL|variable|version
 name|'version'
 op|'='
-string|"'0.3.0'"
+string|"'0.9.0'"
 op|','
 nl|'\n'
 DECL|variable|description
 name|'description'
 op|'='
-string|"'None Other, Vaguely Awesome'"
+string|"'cloud computing fabric controller'"
 op|','
 nl|'\n'
 DECL|variable|author
 name|'author'
 op|'='
-string|"'nova-core'"
+string|"'OpenStack'"
 op|','
 nl|'\n'
 DECL|variable|author_email
 name|'author_email'
 op|'='
-string|"'nova-core@googlegroups.com'"
+string|"'nova@lists.launchpad.net'"
 op|','
 nl|'\n'
 DECL|variable|url
 name|'url'
 op|'='
-string|"'http://novacc.org/'"
+string|"'http://www.openstack.org/'"
 op|','
 nl|'\n'
 DECL|variable|packages
@@ -122,7 +122,6 @@ name|'find_packages'
 op|'('
 op|')'
 op|','
-nl|'\n'
 nl|'\n'
 op|')'
 newline|'\n'
