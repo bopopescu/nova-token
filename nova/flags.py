@@ -294,6 +294,16 @@ string|"'Suffix to add to project name for vpn key'"
 op|')'
 newline|'\n'
 nl|'\n'
+name|'DEFINE_integer'
+op|'('
+string|"'auth_token_ttl'"
+op|','
+number|'3600'
+op|','
+string|"'Seconds for auth tokens to linger'"
+op|')'
+newline|'\n'
+nl|'\n'
 comment|'# UNUSED'
 nl|'\n'
 name|'DEFINE_string'
