@@ -51,7 +51,7 @@ nl|'\n'
 DECL|variable|version
 name|'version'
 op|'='
-string|"'0.9.0'"
+string|"'0.9.1'"
 op|','
 nl|'\n'
 DECL|variable|description
