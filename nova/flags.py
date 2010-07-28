@@ -117,13 +117,23 @@ op|')'
 newline|'\n'
 name|'DEFINE_string'
 op|'('
-string|"'storage_topic'"
+string|"'volume_topic'"
 op|','
-string|"'storage'"
+string|"'volume'"
 op|','
-string|"'the topic storage nodes listen on'"
+string|"'the topic volume nodes listen on'"
 op|')'
 newline|'\n'
+name|'DEFINE_string'
+op|'('
+string|"'network_topic'"
+op|','
+string|"'network'"
+op|','
+string|"'the topic network nodes listen on'"
+op|')'
+newline|'\n'
+nl|'\n'
 name|'DEFINE_bool'
 op|'('
 string|"'verbose'"
@@ -149,15 +159,6 @@ op|','
 name|'False'
 op|','
 string|"'should we use fake network devices and addresses'"
-op|')'
-newline|'\n'
-name|'DEFINE_bool'
-op|'('
-string|"'fake_users'"
-op|','
-name|'False'
-op|','
-string|"'use fake users'"
 op|')'
 newline|'\n'
 name|'DEFINE_string'
@@ -289,6 +290,16 @@ string|"'-key'"
 op|','
 nl|'\n'
 string|"'Suffix to add to project name for vpn key'"
+op|')'
+newline|'\n'
+nl|'\n'
+name|'DEFINE_integer'
+op|'('
+string|"'auth_token_ttl'"
+op|','
+number|'3600'
+op|','
+string|"'Seconds for auth tokens to linger'"
 op|')'
 newline|'\n'
 nl|'\n'
