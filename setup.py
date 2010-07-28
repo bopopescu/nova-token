@@ -57,6 +57,7 @@ name|'import'
 name|'subprocess'
 newline|'\n'
 nl|'\n'
+nl|'\n'
 DECL|class|local_sdist
 name|'class'
 name|'local_sdist'
@@ -242,10 +243,7 @@ string|"'bin/nova-rsapi'"
 op|','
 nl|'\n'
 string|"'bin/nova-volume'"
-op|','
-nl|'\n'
 op|']'
-nl|'\n'
 op|')'
 newline|'\n'
 endmarker|''
