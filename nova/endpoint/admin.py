@@ -144,6 +144,13 @@ op|'.'
 name|'id'
 op|','
 nl|'\n'
+string|"'project_manager_id'"
+op|':'
+name|'project'
+op|'.'
+name|'project_manager_id'
+op|','
+nl|'\n'
 string|"'description'"
 op|':'
 name|'project'
