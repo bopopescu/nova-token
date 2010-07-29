@@ -75,7 +75,7 @@ op|'('
 string|"'dhcpbridge_flagfile'"
 op|','
 nl|'\n'
-string|"'/etc/nova-dhcpbridge.conf'"
+string|"'/etc/nova/nova-dhcpbridge.conf'"
 op|','
 nl|'\n'
 string|"'location of flagfile for dhcpbridge'"
@@ -589,7 +589,7 @@ indent|'    '
 name|'cmd'
 op|'='
 op|'['
-string|"'sudo dnsmasq'"
+string|"'sudo -E dnsmasq'"
 op|','
 nl|'\n'
 string|"' --strict-order'"
@@ -879,7 +879,7 @@ name|'lease_file'
 op|')'
 newline|'\n'
 nl|'\n'
-comment|'# FLAGFILE in env'
+comment|'# FLAGFILE and DNSMASQ_INTERFACE in env'
 nl|'\n'
 dedent|''
 name|'env'
@@ -890,6 +890,14 @@ op|':'
 name|'FLAGS'
 op|'.'
 name|'dhcpbridge_flagfile'
+op|','
+nl|'\n'
+string|"'DNSMASQ_INTERFACE'"
+op|':'
+name|'network'
+op|'['
+string|"'bridge_name'"
+op|']'
 op|'}'
 newline|'\n'
 name|'execute'
