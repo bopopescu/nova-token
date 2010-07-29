@@ -245,6 +245,8 @@ op|'='
 op|'['
 string|"'/usr/bin/curl'"
 op|','
+string|"'--fail'"
+op|','
 string|"'--silent'"
 op|','
 name|'url'
