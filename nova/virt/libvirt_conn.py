@@ -52,9 +52,6 @@ newline|'\n'
 name|'import'
 name|'shutil'
 newline|'\n'
-name|'import'
-name|'sys'
-newline|'\n'
 nl|'\n'
 name|'from'
 name|'twisted'
@@ -171,10 +168,10 @@ op|'('
 string|"'libvirt_type'"
 op|','
 nl|'\n'
-string|"'hvm'"
+string|"'kvm'"
 op|','
 nl|'\n'
-string|"'Libvirt virtualization type (hvm, qemu, etc)'"
+string|"'Libvirt domain type (kvm, qemu, etc)'"
 op|')'
 newline|'\n'
 nl|'\n'
