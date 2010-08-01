@@ -229,6 +229,17 @@ newline|'\n'
 nl|'\n'
 name|'DEFINE_string'
 op|'('
+string|"'null_kernel'"
+op|','
+nl|'\n'
+string|"'aki-00000000'"
+op|','
+nl|'\n'
+string|"'Kernel image that indicates not to use a kernel (use a raw disk image instead)'"
+op|')'
+newline|'\n'
+name|'DEFINE_string'
+op|'('
 string|"'default_image'"
 op|','
 nl|'\n'
