@@ -656,9 +656,14 @@ nl|'\n'
 name|'self'
 op|'.'
 name|'initial_state'
-op|'['
+op|'.'
+name|'get'
+op|'('
 string|"'node_name'"
-op|']'
+op|','
+string|"'unassigned'"
+op|')'
+nl|'\n'
 op|'=='
 string|"'unassigned'"
 op|')'
