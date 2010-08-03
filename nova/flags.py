@@ -40,11 +40,7 @@ name|'import'
 name|'socket'
 newline|'\n'
 nl|'\n'
-name|'from'
-name|'nova'
-name|'import'
-name|'vendor'
-newline|'\n'
+nl|'\n'
 name|'from'
 name|'gflags'
 name|'import'
@@ -81,20 +77,20 @@ nl|'\n'
 comment|'# http://code.google.com/p/python-gflags/source/browse/trunk/gflags.py#39'
 nl|'\n'
 nl|'\n'
+name|'DEFINE_string'
+op|'('
+string|"'connection_type'"
+op|','
+string|"'libvirt'"
+op|','
+string|"'libvirt, xenapi or fake'"
+op|')'
+newline|'\n'
 name|'DEFINE_integer'
 op|'('
 string|"'s3_port'"
 op|','
 number|'3333'
-op|','
-string|"'s3 port'"
-op|')'
-newline|'\n'
-name|'DEFINE_integer'
-op|'('
-string|"'s3_internal_port'"
-op|','
-number|'3334'
 op|','
 string|"'s3 port'"
 op|')'
@@ -121,23 +117,23 @@ op|')'
 newline|'\n'
 name|'DEFINE_string'
 op|'('
-string|"'storage_topic'"
+string|"'volume_topic'"
 op|','
-string|"'storage'"
+string|"'volume'"
 op|','
-string|"'the topic storage nodes listen on'"
+string|"'the topic volume nodes listen on'"
 op|')'
 newline|'\n'
-name|'DEFINE_bool'
+name|'DEFINE_string'
 op|'('
-string|"'fake_libvirt'"
+string|"'network_topic'"
 op|','
-name|'False'
+string|"'network'"
 op|','
-nl|'\n'
-string|"'whether to use a fake libvirt or not'"
+string|"'the topic network nodes listen on'"
 op|')'
 newline|'\n'
+nl|'\n'
 name|'DEFINE_bool'
 op|'('
 string|"'verbose'"
@@ -163,15 +159,6 @@ op|','
 name|'False'
 op|','
 string|"'should we use fake network devices and addresses'"
-op|')'
-newline|'\n'
-name|'DEFINE_bool'
-op|'('
-string|"'fake_users'"
-op|','
-name|'False'
-op|','
-string|"'use fake users'"
 op|')'
 newline|'\n'
 name|'DEFINE_string'
@@ -303,6 +290,16 @@ string|"'-key'"
 op|','
 nl|'\n'
 string|"'Suffix to add to project name for vpn key'"
+op|')'
+newline|'\n'
+nl|'\n'
+name|'DEFINE_integer'
+op|'('
+string|"'auth_token_ttl'"
+op|','
+number|'3600'
+op|','
+string|"'Seconds for auth tokens to linger'"
 op|')'
 newline|'\n'
 nl|'\n'
