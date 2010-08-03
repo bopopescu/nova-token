@@ -101,6 +101,19 @@ name|'flags'
 op|'.'
 name|'DEFINE_string'
 op|'('
+string|"'network_type'"
+op|','
+nl|'\n'
+string|"'flat'"
+op|','
+nl|'\n'
+string|"'Service Class for Networking'"
+op|')'
+newline|'\n'
+name|'flags'
+op|'.'
+name|'DEFINE_string'
+op|'('
 string|"'flat_network_bridge'"
 op|','
 string|"'br100'"
