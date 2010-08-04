@@ -1291,12 +1291,10 @@ name|'data'
 op|'.'
 name|'get'
 op|'('
-string|"'network_type'"
+string|"'inject_network'"
 op|','
-name|'None'
+name|'False'
 op|')'
-op|'=='
-string|"'injected'"
 op|':'
 newline|'\n'
 indent|'            '
