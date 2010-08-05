@@ -125,7 +125,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""\n    Manages the running instances.\n    """'
+string|'"""\n    Picks nodes for instances to run.\n    """'
 newline|'\n'
 DECL|member|__init__
 name|'def'
