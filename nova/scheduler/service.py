@@ -420,7 +420,7 @@ name|'rpc'
 op|'.'
 name|'cast'
 op|'('
-string|"'%s:%s'"
+string|"'%s.%s'"
 op|'%'
 op|'('
 name|'FLAGS'
