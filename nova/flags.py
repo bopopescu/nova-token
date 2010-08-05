@@ -117,6 +117,15 @@ op|')'
 newline|'\n'
 name|'DEFINE_string'
 op|'('
+string|"'scheduler_topic'"
+op|','
+string|"'scheduler'"
+op|','
+string|"'the topic scheduler nodes listen on'"
+op|')'
+newline|'\n'
+name|'DEFINE_string'
+op|'('
 string|"'volume_topic'"
 op|','
 string|"'volume'"
