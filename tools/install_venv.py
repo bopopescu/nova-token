@@ -210,7 +210,7 @@ newline|'\n'
 indent|'  '
 string|'"""Make sure pip and virtualenv are on the path."""'
 newline|'\n'
-comment|'# Perl also has a pip program.  Hopefully the user has installed the right one!'
+comment|'# Perl also has a pip program. Hopefully the user has installed the right one!'
 nl|'\n'
 name|'print'
 string|"'Checking for pip...'"
