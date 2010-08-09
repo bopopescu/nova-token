@@ -203,7 +203,9 @@ op|','
 string|"'run_tests.err.log'"
 op|','
 nl|'\n'
-string|'\'Path to where to pipe STDERR during test runs. Default = "run_tests.err.log"\''
+string|"'Path to where to pipe STDERR during test runs. '"
+nl|'\n'
+string|'\'Default = "run_tests.err.log"\''
 op|')'
 newline|'\n'
 nl|'\n'
