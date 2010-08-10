@@ -613,11 +613,9 @@ op|','
 nl|'\n'
 string|"' --dhcp-range=%s,static,600s'"
 op|'%'
-op|'('
 name|'net'
 op|'.'
 name|'dhcp_range_start'
-op|')'
 op|','
 nl|'\n'
 string|"' --dhcp-hostsfile=%s'"
