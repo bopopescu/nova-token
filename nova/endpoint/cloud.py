@@ -763,11 +763,9 @@ nl|'\n'
 string|"'hostname'"
 op|':'
 name|'i'
-op|'['
-string|"'private_dns_name'"
-op|']'
+op|'.'
+name|'hostname'
 op|','
-comment|'# is this public sometimes?'
 nl|'\n'
 string|"'instance-action'"
 op|':'
@@ -797,9 +795,8 @@ nl|'\n'
 string|"'local-hostname'"
 op|':'
 name|'i'
-op|'['
-string|"'private_dns_name'"
-op|']'
+op|'.'
+name|'hostname'
 op|','
 nl|'\n'
 string|"'local-ipv4'"
@@ -846,12 +843,7 @@ string|"'public-hostname'"
 op|':'
 name|'i'
 op|'.'
-name|'get'
-op|'('
-string|"'dns_name'"
-op|','
-string|"''"
-op|')'
+name|'hostname'
 op|','
 nl|'\n'
 string|"'public-ipv4'"
