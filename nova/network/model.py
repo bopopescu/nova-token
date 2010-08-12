@@ -2086,7 +2086,7 @@ op|'['
 string|"'state'"
 op|']'
 op|'!='
-string|"'allocated'"
+string|"'leased'"
 op|':'
 newline|'\n'
 comment|"# NOTE(vish): address hasn't been leased, so release it"
