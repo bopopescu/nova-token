@@ -184,7 +184,7 @@ name|'utils'
 op|'.'
 name|'abspath'
 op|'('
-string|"'compute/interfaces.template'"
+string|"'virt/interfaces.template'"
 op|')'
 op|','
 nl|'\n'
