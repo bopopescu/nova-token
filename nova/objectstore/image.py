@@ -733,7 +733,7 @@ op|':'
 string|"'x86_64'"
 op|','
 nl|'\n'
-string|"'type'"
+string|"'imageType'"
 op|':'
 name|'image_type'
 op|','
@@ -1036,7 +1036,7 @@ string|"'x86_64'"
 op|','
 comment|'# FIXME: grab architecture from manifest'
 nl|'\n'
-string|"'type'"
+string|"'imageType'"
 op|':'
 name|'image_type'
 nl|'\n'
