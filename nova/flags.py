@@ -1035,6 +1035,7 @@ string|"'fake_network'"
 op|','
 name|'False'
 op|','
+nl|'\n'
 string|"'should we use fake network devices and addresses'"
 op|')'
 newline|'\n'
@@ -1096,7 +1097,6 @@ name|'DEFINE_string'
 op|'('
 string|"'ec2_url'"
 op|','
-nl|'\n'
 string|"'http://127.0.0.1:8773/services/Cloud'"
 op|','
 nl|'\n'
@@ -1108,7 +1108,6 @@ name|'DEFINE_string'
 op|'('
 string|"'default_image'"
 op|','
-nl|'\n'
 string|"'ami-11111'"
 op|','
 nl|'\n'
@@ -1119,7 +1118,6 @@ name|'DEFINE_string'
 op|'('
 string|"'default_kernel'"
 op|','
-nl|'\n'
 string|"'aki-11111'"
 op|','
 nl|'\n'
@@ -1130,7 +1128,6 @@ name|'DEFINE_string'
 op|'('
 string|"'default_ramdisk'"
 op|','
-nl|'\n'
 string|"'ari-11111'"
 op|','
 nl|'\n'
@@ -1141,7 +1138,6 @@ name|'DEFINE_string'
 op|'('
 string|"'default_instance_type'"
 op|','
-nl|'\n'
 string|"'m1.small'"
 op|','
 nl|'\n'
@@ -1186,7 +1182,6 @@ name|'DEFINE_string'
 op|'('
 string|"'node_availability_zone'"
 op|','
-nl|'\n'
 string|"'nova'"
 op|','
 nl|'\n'
@@ -1197,7 +1192,6 @@ name|'DEFINE_string'
 op|'('
 string|"'node_name'"
 op|','
-nl|'\n'
 name|'socket'
 op|'.'
 name|'gethostname'
