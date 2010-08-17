@@ -117,6 +117,7 @@ string|"'path to decrypted images'"
 op|')'
 newline|'\n'
 nl|'\n'
+nl|'\n'
 DECL|class|Image
 name|'class'
 name|'Image'
