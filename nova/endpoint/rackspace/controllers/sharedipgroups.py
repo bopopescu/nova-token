@@ -1,0 +1,12 @@
+begin_unit
+DECL|class|SharedIpGroupsController
+name|'class'
+name|'SharedIpGroupsController'
+op|'('
+name|'object'
+op|')'
+op|':'
+name|'pass'
+newline|'\n'
+endmarker|''
+end_unit
