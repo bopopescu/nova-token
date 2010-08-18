@@ -1169,6 +1169,7 @@ name|'yield'
 name|'x'
 newline|'\n'
 nl|'\n'
+nl|'\n'
 DECL|class|SessionToken
 dedent|''
 dedent|''

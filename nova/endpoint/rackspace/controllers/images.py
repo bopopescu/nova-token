@@ -1,0 +1,12 @@
+begin_unit
+DECL|class|ImagesController
+name|'class'
+name|'ImagesController'
+op|'('
+name|'object'
+op|')'
+op|':'
+name|'pass'
+newline|'\n'
+endmarker|''
+end_unit

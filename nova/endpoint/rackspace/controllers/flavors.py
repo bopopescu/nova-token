@@ -1,0 +1,12 @@
+begin_unit
+DECL|class|FlavorsController
+name|'class'
+name|'FlavorsController'
+op|'('
+name|'object'
+op|')'
+op|':'
+name|'pass'
+newline|'\n'
+endmarker|''
+end_unit
