@@ -1025,7 +1025,7 @@ comment|'#             to support vlans separately from dhcp, instead of having'
 nl|'\n'
 comment|'#             both of them together in this class.'
 nl|'\n'
-comment|'# pylint: disable=W0221'
+comment|'# pylint: disable-msg=W0221'
 nl|'\n'
 DECL|member|allocate_fixed_ip
 name|'def'
