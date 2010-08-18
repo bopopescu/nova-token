@@ -83,5 +83,11 @@ name|'verbose'
 op|'='
 name|'True'
 newline|'\n'
+name|'FLAGS'
+op|'.'
+name|'sql_connection'
+op|'='
+string|"'sqlite:///:memory:'"
+newline|'\n'
 endmarker|''
 end_unit
