@@ -87,7 +87,9 @@ name|'FLAGS'
 op|'.'
 name|'sql_connection'
 op|'='
-string|"'sqlite:///:memory:'"
+string|"'sqlite:///nova.sqlite'"
 newline|'\n'
+comment|"#FLAGS.sql_connection = 'mysql://root@localhost/test'"
+nl|'\n'
 endmarker|''
 end_unit
