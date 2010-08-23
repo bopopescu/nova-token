@@ -1924,12 +1924,12 @@ op|')'
 newline|'\n'
 nl|'\n'
 nl|'\n'
-DECL|class|ElasticIp
+DECL|class|FloatingIp
 dedent|''
 dedent|''
 dedent|''
 name|'class'
-name|'ElasticIp'
+name|'FloatingIp'
 op|'('
 name|'Base'
 op|','
@@ -1941,7 +1941,7 @@ DECL|variable|__tablename__
 indent|'    '
 name|'__tablename__'
 op|'='
-string|"'elastic_ips'"
+string|"'floating_ips'"
 newline|'\n'
 DECL|variable|id
 name|'id'
@@ -1998,7 +1998,7 @@ name|'backref'
 op|'='
 name|'backref'
 op|'('
-string|"'elastic_ips'"
+string|"'floating_ips'"
 op|')'
 op|')'
 newline|'\n'
@@ -2158,8 +2158,8 @@ op|'='
 name|'False'
 op|')'
 newline|'\n'
-DECL|variable|network_str
-name|'network_str'
+DECL|variable|cidr
+name|'cidr'
 op|'='
 name|'Column'
 op|'('
