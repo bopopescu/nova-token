@@ -74,6 +74,19 @@ comment|'# TODO(vish): where should these flags go'
 nl|'\n'
 name|'flags'
 op|'.'
+name|'DEFINE_string'
+op|'('
+string|"'network_type'"
+op|','
+nl|'\n'
+string|"'vlan'"
+op|','
+nl|'\n'
+string|"'Service Class for Networking'"
+op|')'
+newline|'\n'
+name|'flags'
+op|'.'
 name|'DEFINE_integer'
 op|'('
 string|"'vlan_start'"
