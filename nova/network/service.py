@@ -83,7 +83,7 @@ op|'('
 string|"'network_type'"
 op|','
 nl|'\n'
-string|"'flat'"
+string|"'vlan'"
 op|','
 nl|'\n'
 string|"'Service Class for Networking'"
