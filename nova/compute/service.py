@@ -315,7 +315,7 @@ newline|'\n'
 name|'if'
 name|'instance_ref'
 op|'['
-string|"'name'"
+string|"'str_id'"
 op|']'
 name|'in'
 name|'self'
@@ -425,7 +425,7 @@ op|'%'
 nl|'\n'
 name|'instance_ref'
 op|'['
-string|"'name'"
+string|"'str_id'"
 op|']'
 op|')'
 newline|'\n'
@@ -647,7 +647,7 @@ nl|'\n'
 op|'('
 name|'instance_ref'
 op|'['
-string|"'name'"
+string|"'str_id'"
 op|']'
 op|','
 nl|'\n'
@@ -673,7 +673,7 @@ string|"'rebooting instance %s'"
 op|'%'
 name|'instance_ref'
 op|'['
-string|"'name'"
+string|"'str_id'"
 op|']'
 op|')'
 newline|'\n'
@@ -792,7 +792,7 @@ op|','
 nl|'\n'
 name|'instance_ref'
 op|'['
-string|"'name'"
+string|"'str_id'"
 op|']'
 op|','
 nl|'\n'
