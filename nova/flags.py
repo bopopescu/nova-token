@@ -1227,5 +1227,37 @@ string|"'connection string for sql database'"
 op|')'
 newline|'\n'
 nl|'\n'
+name|'DEFINE_string'
+op|'('
+string|"'compute_manager'"
+op|','
+string|"'nova.compute.manager.ComputeManager'"
+op|','
+nl|'\n'
+string|"'Manager for compute'"
+op|')'
+newline|'\n'
+name|'DEFINE_string'
+op|'('
+string|"'network_manager'"
+op|','
+string|"'nova.network.manager.VlanManager'"
+op|','
+nl|'\n'
+string|"'Manager for network'"
+op|')'
+newline|'\n'
+name|'DEFINE_string'
+op|'('
+string|"'volume_manager'"
+op|','
+string|"'nova.volume.manager.AOEManager'"
+op|','
+nl|'\n'
+string|"'Manager for volume'"
+op|')'
+newline|'\n'
+nl|'\n'
+nl|'\n'
 endmarker|''
 end_unit
