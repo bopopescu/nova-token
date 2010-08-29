@@ -1,3 +1,12 @@
 begin_unit
+name|'from'
+name|'models'
+name|'import'
+name|'register_models'
+newline|'\n'
+nl|'\n'
+name|'register_models'
+op|'('
+op|')'
 endmarker|''
 end_unit
