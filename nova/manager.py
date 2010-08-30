@@ -62,6 +62,7 @@ op|'('
 string|"'db_driver'"
 op|','
 string|"'nova.db.api'"
+op|','
 nl|'\n'
 string|"'driver to use for volume creation'"
 op|')'

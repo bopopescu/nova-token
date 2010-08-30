@@ -116,6 +116,7 @@ op|'('
 string|"'volume_driver'"
 op|','
 string|"'nova.volume.driver.AOEDriver'"
+op|','
 nl|'\n'
 string|"'Driver to use for volume creation'"
 op|')'
@@ -255,7 +256,7 @@ op|'='
 name|'FLAGS'
 op|'.'
 name|'num_shelves'
-op|','
+op|'*'
 name|'FLAGS'
 op|'.'
 name|'blades_per_shelf'
