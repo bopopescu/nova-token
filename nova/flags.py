@@ -781,8 +781,18 @@ name|'_wrapped'
 newline|'\n'
 nl|'\n'
 nl|'\n'
-DECL|variable|DEFINE_string
+DECL|variable|DEFINE
 dedent|''
+name|'DEFINE'
+op|'='
+name|'_wrapper'
+op|'('
+name|'gflags'
+op|'.'
+name|'DEFINE'
+op|')'
+newline|'\n'
+DECL|variable|DEFINE_string
 name|'DEFINE_string'
 op|'='
 name|'_wrapper'
@@ -984,8 +994,6 @@ op|','
 string|"'s3 host'"
 op|')'
 newline|'\n'
-comment|"#DEFINE_string('cloud_topic', 'cloud', 'the topic clouds listen on')"
-nl|'\n'
 name|'DEFINE_string'
 op|'('
 string|"'compute_topic'"
