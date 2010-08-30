@@ -248,9 +248,9 @@ name|'simple_execute'
 op|'('
 string|"'cat BAD_FILE'"
 op|','
-name|'error_ok'
+name|'check_exit_code'
 op|'='
-number|'1'
+name|'False'
 op|')'
 newline|'\n'
 DECL|function|_check
