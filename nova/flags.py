@@ -778,8 +778,18 @@ name|'_wrapped'
 newline|'\n'
 nl|'\n'
 nl|'\n'
-DECL|variable|DEFINE_string
+DECL|variable|DEFINE
 dedent|''
+name|'DEFINE'
+op|'='
+name|'_wrapper'
+op|'('
+name|'gflags'
+op|'.'
+name|'DEFINE'
+op|')'
+newline|'\n'
+DECL|variable|DEFINE_string
 name|'DEFINE_string'
 op|'='
 name|'_wrapper'
@@ -981,8 +991,6 @@ op|','
 string|"'s3 host'"
 op|')'
 newline|'\n'
-comment|"#DEFINE_string('cloud_topic', 'cloud', 'the topic clouds listen on')"
-nl|'\n'
 name|'DEFINE_string'
 op|'('
 string|"'compute_topic'"
@@ -1035,6 +1043,7 @@ string|"'fake_network'"
 op|','
 name|'False'
 op|','
+nl|'\n'
 string|"'should we use fake network devices and addresses'"
 op|')'
 newline|'\n'
@@ -1096,7 +1105,6 @@ name|'DEFINE_string'
 op|'('
 string|"'ec2_url'"
 op|','
-nl|'\n'
 string|"'http://127.0.0.1:8773/services/Cloud'"
 op|','
 nl|'\n'
@@ -1108,7 +1116,6 @@ name|'DEFINE_string'
 op|'('
 string|"'default_image'"
 op|','
-nl|'\n'
 string|"'ami-11111'"
 op|','
 nl|'\n'
@@ -1119,7 +1126,6 @@ name|'DEFINE_string'
 op|'('
 string|"'default_kernel'"
 op|','
-nl|'\n'
 string|"'aki-11111'"
 op|','
 nl|'\n'
@@ -1130,7 +1136,6 @@ name|'DEFINE_string'
 op|'('
 string|"'default_ramdisk'"
 op|','
-nl|'\n'
 string|"'ari-11111'"
 op|','
 nl|'\n'
@@ -1141,7 +1146,6 @@ name|'DEFINE_string'
 op|'('
 string|"'default_instance_type'"
 op|','
-nl|'\n'
 string|"'m1.small'"
 op|','
 nl|'\n'
@@ -1186,7 +1190,6 @@ name|'DEFINE_string'
 op|'('
 string|"'node_availability_zone'"
 op|','
-nl|'\n'
 string|"'nova'"
 op|','
 nl|'\n'
@@ -1197,7 +1200,6 @@ name|'DEFINE_string'
 op|'('
 string|"'node_name'"
 op|','
-nl|'\n'
 name|'socket'
 op|'.'
 name|'gethostname'
