@@ -851,10 +851,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|"''' returns the actual ip of the local machine.\n    '''"
-newline|'\n'
-name|'return'
-string|"'127.0.0.1'"
+string|'"""Returns the actual ip of the local machine."""'
 newline|'\n'
 name|'if'
 name|'getattr'
