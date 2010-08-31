@@ -2839,7 +2839,7 @@ name|'return'
 op|'('
 name|'network_ref'
 op|'['
-string|"'vpn_public_ip_str'"
+string|"'vpn_public_address'"
 op|']'
 op|','
 nl|'\n'
