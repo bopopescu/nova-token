@@ -36,10 +36,6 @@ nl|'\n'
 string|'"""\nSQLAlchemy models for nova data\n"""'
 newline|'\n'
 nl|'\n'
-name|'import'
-name|'logging'
-newline|'\n'
-nl|'\n'
 name|'from'
 name|'sqlalchemy'
 op|'.'
@@ -122,6 +118,7 @@ op|'.'
 name|'FLAGS'
 newline|'\n'
 nl|'\n'
+nl|'\n'
 DECL|variable|Base
 name|'Base'
 op|'='
@@ -129,6 +126,7 @@ name|'declarative_base'
 op|'('
 op|')'
 newline|'\n'
+nl|'\n'
 nl|'\n'
 DECL|class|NovaBase
 name|'class'
@@ -677,7 +675,6 @@ op|'('
 number|'255'
 op|')'
 op|')'
-comment|"#, ForeignKey('users.id'), nullable=False)"
 newline|'\n'
 DECL|variable|project_id
 name|'project_id'
@@ -689,7 +686,6 @@ op|'('
 number|'255'
 op|')'
 op|')'
-comment|"#, ForeignKey('projects.id'), nullable=False)"
 newline|'\n'
 DECL|variable|image_type
 name|'image_type'
@@ -946,6 +942,7 @@ name|'True'
 op|')'
 newline|'\n'
 nl|'\n'
+nl|'\n'
 DECL|class|Daemon
 dedent|''
 name|'class'
@@ -985,7 +982,7 @@ op|'('
 number|'255'
 op|')'
 op|')'
-comment|"#, ForeignKey('physical_node.id'))"
+comment|"# , ForeignKey('physical_node.id'))"
 newline|'\n'
 DECL|variable|binary
 name|'binary'
@@ -1179,7 +1176,6 @@ op|'('
 number|'255'
 op|')'
 op|')'
-comment|"#, ForeignKey('users.id'), nullable=False)"
 newline|'\n'
 DECL|variable|project_id
 name|'project_id'
@@ -1191,7 +1187,6 @@ op|'('
 number|'255'
 op|')'
 op|')'
-comment|"#, ForeignKey('projects.id'))"
 newline|'\n'
 nl|'\n'
 op|'@'
@@ -1253,8 +1248,6 @@ name|'project_id'
 op|')'
 newline|'\n'
 nl|'\n'
-comment|'# TODO(vish): make this opaque somehow'
-nl|'\n'
 dedent|''
 op|'@'
 name|'property'
@@ -1273,7 +1266,6 @@ name|'self'
 op|'.'
 name|'str_id'
 newline|'\n'
-nl|'\n'
 nl|'\n'
 DECL|variable|image_id
 dedent|''
@@ -1408,7 +1400,7 @@ op|'('
 number|'255'
 op|')'
 op|')'
-comment|"#, ForeignKey('physical_node.id'))"
+comment|"# , ForeignKey('physical_node.id'))"
 newline|'\n'
 nl|'\n'
 DECL|variable|instance_type
@@ -1510,13 +1502,11 @@ name|'save'
 op|'('
 op|')'
 newline|'\n'
-nl|'\n'
 comment|"#    ramdisk = relationship(Ramdisk, backref=backref('instances', order_by=id))"
 nl|'\n'
 comment|"#    kernel = relationship(Kernel, backref=backref('instances', order_by=id))"
 nl|'\n'
 comment|"#    project = relationship(Project, backref=backref('instances', order_by=id))"
-nl|'\n'
 nl|'\n'
 comment|"#TODO - see Ewan's email about state improvements"
 nl|'\n'
@@ -1531,7 +1521,10 @@ comment|"#@validates('state')"
 nl|'\n'
 comment|'#def validate_state(self, key, state):'
 nl|'\n'
-comment|"#    assert(state in ['nostate', 'running', 'blocked', 'paused', 'shutdown', 'shutoff', 'crashed'])"
+comment|"#    assert(state in ['nostate', 'running', 'blocked', 'paused',"
+nl|'\n'
+comment|"#                     'shutdown', 'shutoff', 'crashed'])"
+nl|'\n'
 nl|'\n'
 nl|'\n'
 DECL|class|Volume
@@ -1580,7 +1573,6 @@ op|'('
 number|'255'
 op|')'
 op|')'
-comment|"#, ForeignKey('users.id'), nullable=False)"
 newline|'\n'
 DECL|variable|project_id
 name|'project_id'
@@ -1592,7 +1584,6 @@ op|'('
 number|'255'
 op|')'
 op|')'
-comment|"#, ForeignKey('projects.id'))"
 newline|'\n'
 nl|'\n'
 DECL|variable|node_name
@@ -1605,7 +1596,7 @@ op|'('
 number|'255'
 op|')'
 op|')'
-comment|"#, ForeignKey('physical_node.id'))"
+comment|"# , ForeignKey('physical_node.id'))"
 newline|'\n'
 DECL|variable|size
 name|'size'
@@ -1625,7 +1616,7 @@ op|'('
 number|'255'
 op|')'
 op|')'
-comment|'# TODO(vish) foreign key?'
+comment|'# TODO(vish): foreign key?'
 newline|'\n'
 DECL|variable|instance_id
 name|'instance_id'
@@ -1665,7 +1656,7 @@ op|'('
 number|'255'
 op|')'
 op|')'
-comment|'# TODO(vish) datetime'
+comment|'# TODO(vish): datetime'
 newline|'\n'
 DECL|variable|status
 name|'status'
@@ -1677,7 +1668,7 @@ op|'('
 number|'255'
 op|')'
 op|')'
-comment|'# TODO(vish) enum?'
+comment|'# TODO(vish): enum?'
 newline|'\n'
 DECL|variable|attach_status
 name|'attach_status'
@@ -1689,8 +1680,9 @@ op|'('
 number|'255'
 op|')'
 op|')'
-comment|'# TODO(vish) enum'
+comment|'# TODO(vish): enum'
 newline|'\n'
+nl|'\n'
 nl|'\n'
 DECL|class|ExportDevice
 dedent|''
@@ -2116,7 +2108,6 @@ op|'('
 number|'255'
 op|')'
 op|')'
-comment|"#, ForeignKey('projects.id'), nullable=False)"
 newline|'\n'
 DECL|variable|node_name
 name|'node_name'
@@ -2128,7 +2119,7 @@ op|'('
 number|'255'
 op|')'
 op|')'
-comment|"#, ForeignKey('physical_node.id'))"
+comment|"# , ForeignKey('physical_node.id'))"
 newline|'\n'
 nl|'\n'
 op|'@'
@@ -2422,7 +2413,6 @@ op|'('
 number|'255'
 op|')'
 op|')'
-comment|"#, ForeignKey('projects.id'), nullable=False)"
 newline|'\n'
 DECL|variable|node_name
 name|'node_name'
@@ -2434,7 +2424,7 @@ op|'('
 number|'255'
 op|')'
 op|')'
-comment|"#, ForeignKey('physical_node.id'))"
+comment|"# , ForeignKey('physical_node.id'))"
 newline|'\n'
 nl|'\n'
 DECL|variable|fixed_ips

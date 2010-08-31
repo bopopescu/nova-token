@@ -8,5 +8,6 @@ nl|'\n'
 name|'register_models'
 op|'('
 op|')'
+newline|'\n'
 endmarker|''
 end_unit

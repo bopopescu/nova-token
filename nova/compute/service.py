@@ -58,7 +58,6 @@ string|'"""\n    Compute Service automatically passes commands on to the Compute
 newline|'\n'
 name|'pass'
 newline|'\n'
-nl|'\n'
 dedent|''
 endmarker|''
 end_unit
