@@ -381,11 +381,11 @@ name|'instance_id'
 op|','
 nl|'\n'
 op|'{'
-string|"'node_name'"
+string|"'host'"
 op|':'
 name|'FLAGS'
 op|'.'
-name|'node_name'
+name|'host'
 op|'}'
 op|')'
 newline|'\n'

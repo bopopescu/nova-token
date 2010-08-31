@@ -1450,7 +1450,7 @@ op|','
 nl|'\n'
 name|'instance_ref'
 op|'['
-string|"'node_name'"
+string|"'host'"
 op|']'
 op|')'
 op|','
@@ -1666,7 +1666,7 @@ string|"'user_id'"
 op|']'
 op|','
 nl|'\n'
-string|"'node_name'"
+string|"'host'"
 op|','
 nl|'\n'
 name|'volume'
@@ -2788,7 +2788,7 @@ op|'.'
 name|'project_id'
 op|','
 nl|'\n'
-string|"'node_name'"
+string|"'host'"
 op|')'
 comment|'# FIXME'
 newline|'\n'

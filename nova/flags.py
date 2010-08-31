@@ -1201,7 +1201,7 @@ op|')'
 newline|'\n'
 name|'DEFINE_string'
 op|'('
-string|"'node_name'"
+string|"'host'"
 op|','
 name|'socket'
 op|'.'
