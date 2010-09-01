@@ -153,17 +153,6 @@ name|'flags'
 op|'.'
 name|'FLAGS'
 newline|'\n'
-name|'flags'
-op|'.'
-name|'DEFINE_string'
-op|'('
-string|"'cloud_topic'"
-op|','
-string|"'cloud'"
-op|','
-string|"'the topic clouds listen on'"
-op|')'
-newline|'\n'
 nl|'\n'
 nl|'\n'
 DECL|function|_gen_key
