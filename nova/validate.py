@@ -317,6 +317,7 @@ name|'return'
 name|'onDecorator'
 newline|'\n'
 nl|'\n'
+nl|'\n'
 DECL|function|typetest
 dedent|''
 name|'def'

@@ -40,6 +40,9 @@ name|'import'
 name|'getopt'
 newline|'\n'
 name|'import'
+name|'os'
+newline|'\n'
+name|'import'
 name|'socket'
 newline|'\n'
 name|'import'
@@ -62,7 +65,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""Extension of gflags.FlagValues that allows undefined and runtime flags.\n\n    Unknown flags will be ignored when parsing the command line, but the\n    command line will be kept so that it can be replayed if new flags are\n    defined after the initial parsing.\n    \n    """'
+string|'"""Extension of gflags.FlagValues that allows undefined and runtime flags.\n\n    Unknown flags will be ignored when parsing the command line, but the\n    command line will be kept so that it can be replayed if new flags are\n    defined after the initial parsing.\n\n    """'
 newline|'\n'
 nl|'\n'
 DECL|member|__init__
@@ -302,7 +305,7 @@ op|':'
 number|'1'
 op|']'
 op|'+'
-name|'unparsed'
+name|'unparsed_args'
 newline|'\n'
 dedent|''
 name|'else'
@@ -778,8 +781,18 @@ name|'_wrapped'
 newline|'\n'
 nl|'\n'
 nl|'\n'
-DECL|variable|DEFINE_string
+DECL|variable|DEFINE
 dedent|''
+name|'DEFINE'
+op|'='
+name|'_wrapper'
+op|'('
+name|'gflags'
+op|'.'
+name|'DEFINE'
+op|')'
+newline|'\n'
+DECL|variable|DEFINE_string
 name|'DEFINE_string'
 op|'='
 name|'_wrapper'
@@ -981,8 +994,6 @@ op|','
 string|"'s3 host'"
 op|')'
 newline|'\n'
-comment|"#DEFINE_string('cloud_topic', 'cloud', 'the topic clouds listen on')"
-nl|'\n'
 name|'DEFINE_string'
 op|'('
 string|"'compute_topic'"
@@ -1044,6 +1055,7 @@ string|"'fake_network'"
 op|','
 name|'False'
 op|','
+nl|'\n'
 string|"'should we use fake network devices and addresses'"
 op|')'
 newline|'\n'
@@ -1105,7 +1117,6 @@ name|'DEFINE_string'
 op|'('
 string|"'ec2_url'"
 op|','
-nl|'\n'
 string|"'http://127.0.0.1:8773/services/Cloud'"
 op|','
 nl|'\n'
@@ -1117,7 +1128,6 @@ name|'DEFINE_string'
 op|'('
 string|"'default_image'"
 op|','
-nl|'\n'
 string|"'ami-11111'"
 op|','
 nl|'\n'
@@ -1128,7 +1138,6 @@ name|'DEFINE_string'
 op|'('
 string|"'default_kernel'"
 op|','
-nl|'\n'
 string|"'aki-11111'"
 op|','
 nl|'\n'
@@ -1139,7 +1148,6 @@ name|'DEFINE_string'
 op|'('
 string|"'default_ramdisk'"
 op|','
-nl|'\n'
 string|"'ari-11111'"
 op|','
 nl|'\n'
@@ -1150,7 +1158,6 @@ name|'DEFINE_string'
 op|'('
 string|"'default_instance_type'"
 op|','
-nl|'\n'
 string|"'m1.small'"
 op|','
 nl|'\n'
@@ -1195,7 +1202,6 @@ name|'DEFINE_string'
 op|'('
 string|"'node_availability_zone'"
 op|','
-nl|'\n'
 string|"'nova'"
 op|','
 nl|'\n'
@@ -1204,9 +1210,8 @@ op|')'
 newline|'\n'
 name|'DEFINE_string'
 op|'('
-string|"'node_name'"
+string|"'host'"
 op|','
-nl|'\n'
 name|'socket'
 op|'.'
 name|'gethostname'
@@ -1217,6 +1222,59 @@ nl|'\n'
 string|"'name of this node'"
 op|')'
 newline|'\n'
+nl|'\n'
+name|'DEFINE_string'
+op|'('
+string|"'sql_connection'"
+op|','
+nl|'\n'
+string|"'sqlite:///%s/nova.sqlite'"
+op|'%'
+name|'os'
+op|'.'
+name|'path'
+op|'.'
+name|'abspath'
+op|'('
+string|'"./"'
+op|')'
+op|','
+nl|'\n'
+string|"'connection string for sql database'"
+op|')'
+newline|'\n'
+nl|'\n'
+name|'DEFINE_string'
+op|'('
+string|"'compute_manager'"
+op|','
+string|"'nova.compute.manager.ComputeManager'"
+op|','
+nl|'\n'
+string|"'Manager for compute'"
+op|')'
+newline|'\n'
+name|'DEFINE_string'
+op|'('
+string|"'network_manager'"
+op|','
+string|"'nova.network.manager.VlanManager'"
+op|','
+nl|'\n'
+string|"'Manager for network'"
+op|')'
+newline|'\n'
+name|'DEFINE_string'
+op|'('
+string|"'volume_manager'"
+op|','
+string|"'nova.volume.manager.AOEManager'"
+op|','
+nl|'\n'
+string|"'Manager for volume'"
+op|')'
+newline|'\n'
+nl|'\n'
 nl|'\n'
 endmarker|''
 end_unit
