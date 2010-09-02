@@ -383,7 +383,7 @@ nl|'\n'
 op|'{'
 string|"'host'"
 op|':'
-name|'FLAGS'
+name|'self'
 op|'.'
 name|'host'
 op|'}'
