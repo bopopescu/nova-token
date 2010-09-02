@@ -1274,6 +1274,16 @@ nl|'\n'
 string|"'Manager for volume'"
 op|')'
 newline|'\n'
+name|'DEFINE_string'
+op|'('
+string|"'scheduler_manager'"
+op|','
+string|"'nova.scheduler.manager.SchedulerManager'"
+op|','
+nl|'\n'
+string|"'Manager for scheduler'"
+op|')'
+newline|'\n'
 nl|'\n'
 nl|'\n'
 endmarker|''
