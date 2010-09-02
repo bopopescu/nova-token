@@ -1008,10 +1008,10 @@ op|')'
 newline|'\n'
 nl|'\n'
 nl|'\n'
-DECL|class|Daemon
+DECL|class|Service
 dedent|''
 name|'class'
-name|'Daemon'
+name|'Service'
 op|'('
 name|'BASE'
 op|','
@@ -1025,7 +1025,7 @@ newline|'\n'
 DECL|variable|__tablename__
 name|'__tablename__'
 op|'='
-string|"'daemons'"
+string|"'services'"
 newline|'\n'
 DECL|variable|id
 name|'id'
@@ -2711,7 +2711,7 @@ name|'Image'
 op|','
 name|'Host'
 op|','
-name|'Daemon'
+name|'Service'
 op|','
 name|'Instance'
 op|','
