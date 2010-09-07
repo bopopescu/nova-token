@@ -121,6 +121,15 @@ name|'flags'
 op|'.'
 name|'FLAGS'
 newline|'\n'
+name|'flags'
+op|'.'
+name|'DECLARE'
+op|'('
+string|"'storage_availability_zone'"
+op|','
+string|"'nova.volume.manager'"
+op|')'
+newline|'\n'
 nl|'\n'
 nl|'\n'
 DECL|function|_gen_key
@@ -1709,10 +1718,7 @@ op|','
 nl|'\n'
 string|"'deleteOnTermination'"
 op|':'
-name|'volume'
-op|'['
-string|"'delete_on_termination'"
-op|']'
+name|'False'
 op|','
 nl|'\n'
 string|"'device'"
@@ -1740,7 +1746,7 @@ string|"'volume_id'"
 op|':'
 name|'volume'
 op|'['
-string|"'volume_id'"
+string|"'str_id'"
 op|']'
 op|'}'
 op|']'
@@ -1959,7 +1965,7 @@ nl|'\n'
 name|'if'
 name|'volume_ref'
 op|'['
-string|"'status'"
+string|"'attach_status'"
 op|']'
 op|'=='
 string|'"attached"'
@@ -2083,7 +2089,7 @@ string|"'instanceId'"
 op|':'
 name|'instance_ref'
 op|'['
-string|"'id_str'"
+string|"'id'"
 op|']'
 op|','
 nl|'\n'
@@ -2316,7 +2322,7 @@ string|"'instanceId'"
 op|':'
 name|'instance_ref'
 op|'['
-string|"'id_str'"
+string|"'str_id'"
 op|']'
 op|','
 nl|'\n'
