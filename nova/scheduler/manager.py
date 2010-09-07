@@ -104,7 +104,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""\n    Chooses a host to run instances on.\n    """'
+string|'"""Chooses a host to run instances on."""'
 newline|'\n'
 DECL|member|__init__
 name|'def'
