@@ -1196,33 +1196,6 @@ string|"'Seconds for auth tokens to linger'"
 op|')'
 newline|'\n'
 nl|'\n'
-comment|'# UNUSED'
-nl|'\n'
-name|'DEFINE_string'
-op|'('
-string|"'node_availability_zone'"
-op|','
-string|"'nova'"
-op|','
-nl|'\n'
-string|"'availability zone of this node'"
-op|')'
-newline|'\n'
-name|'DEFINE_string'
-op|'('
-string|"'host'"
-op|','
-name|'socket'
-op|'.'
-name|'gethostname'
-op|'('
-op|')'
-op|','
-nl|'\n'
-string|"'name of this node'"
-op|')'
-newline|'\n'
-nl|'\n'
 name|'DEFINE_string'
 op|'('
 string|"'sql_connection'"
@@ -1285,6 +1258,32 @@ string|"'Manager for scheduler'"
 op|')'
 newline|'\n'
 nl|'\n'
+name|'DEFINE_string'
+op|'('
+string|"'host'"
+op|','
+name|'socket'
+op|'.'
+name|'gethostname'
+op|'('
+op|')'
+op|','
 nl|'\n'
+string|"'name of this node'"
+op|')'
+newline|'\n'
+nl|'\n'
+comment|'# UNUSED'
+nl|'\n'
+name|'DEFINE_string'
+op|'('
+string|"'node_availability_zone'"
+op|','
+string|"'nova'"
+op|','
+nl|'\n'
+string|"'availability zone of this node'"
+op|')'
+newline|'\n'
 endmarker|''
 end_unit

@@ -94,8 +94,6 @@ op|')'
 newline|'\n'
 nl|'\n'
 nl|'\n'
-comment|'# TODO(vish): where should these exceptions go?'
-nl|'\n'
 DECL|class|NoMoreAddresses
 name|'class'
 name|'NoMoreAddresses'
