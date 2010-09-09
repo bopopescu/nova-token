@@ -1300,7 +1300,7 @@ op|')'
 newline|'\n'
 name|'logging'
 op|'.'
-name|'error'
+name|'info'
 op|'('
 string|"'backend %s'"
 op|','
