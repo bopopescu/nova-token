@@ -1900,16 +1900,16 @@ op|')'
 op|')'
 comment|'# "tcp", "udp", or "icmp"'
 newline|'\n'
-DECL|variable|fromport
-name|'fromport'
+DECL|variable|from_port
+name|'from_port'
 op|'='
 name|'Column'
 op|'('
 name|'Integer'
 op|')'
 newline|'\n'
-DECL|variable|toport
-name|'toport'
+DECL|variable|to_port
+name|'to_port'
 op|'='
 name|'Column'
 op|'('
@@ -1917,21 +1917,10 @@ name|'Integer'
 op|')'
 newline|'\n'
 nl|'\n'
-comment|"# Note: This is not the parent SecurityGroup's owner. It's the owner of"
+comment|"# Note: This is not the parent SecurityGroup. It's SecurityGroup we're"
 nl|'\n'
-comment|"# the SecurityGroup we're granting access."
+comment|'# granting access for.'
 nl|'\n'
-DECL|variable|user_id
-name|'user_id'
-op|'='
-name|'Column'
-op|'('
-name|'String'
-op|'('
-number|'255'
-op|')'
-op|')'
-newline|'\n'
 DECL|variable|group_id
 name|'group_id'
 op|'='
