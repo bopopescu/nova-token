@@ -40,6 +40,7 @@ name|'import'
 name|'random'
 newline|'\n'
 nl|'\n'
+nl|'\n'
 DECL|class|APIRequestContext
 name|'class'
 name|'APIRequestContext'
