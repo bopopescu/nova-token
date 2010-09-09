@@ -2389,10 +2389,10 @@ name|'vpn_image_id'
 newline|'\n'
 nl|'\n'
 nl|'\n'
-DECL|function|instance_state
+DECL|function|instance_set_state
 dedent|''
 name|'def'
-name|'instance_state'
+name|'instance_set_state'
 op|'('
 name|'context'
 op|','
