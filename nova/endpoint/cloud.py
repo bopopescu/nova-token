@@ -4222,7 +4222,7 @@ name|'type_data'
 op|'='
 name|'INSTANCE_TYPES'
 op|'['
-string|"'instance_type'"
+name|'instance_type'
 op|']'
 newline|'\n'
 name|'base_options'
