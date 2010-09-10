@@ -400,6 +400,9 @@ name|'context'
 op|','
 name|'inst'
 op|')'
+op|'['
+string|"'id'"
+op|']'
 newline|'\n'
 nl|'\n'
 DECL|member|_create_volume
