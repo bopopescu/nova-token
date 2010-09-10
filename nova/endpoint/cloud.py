@@ -614,7 +614,7 @@ string|"'ami-launch-index'"
 op|':'
 name|'instance_ref'
 op|'['
-string|"'ami_launch_index'"
+string|"'launch_index'"
 op|']'
 op|','
 nl|'\n'
@@ -698,13 +698,10 @@ string|"'placement'"
 op|':'
 op|'{'
 nl|'\n'
-string|"'availaibility-zone'"
+string|"'availability-zone'"
 op|':'
-name|'instance_ref'
-op|'['
-string|"'availability_zone'"
-op|']'
-op|','
+string|"'nova'"
+comment|'# TODO(vish): real zone'
 nl|'\n'
 op|'}'
 op|','
