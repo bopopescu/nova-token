@@ -1622,10 +1622,10 @@ op|')'
 newline|'\n'
 nl|'\n'
 nl|'\n'
-DECL|class|Keypair
+DECL|class|KeyPair
 dedent|''
 name|'class'
-name|'Keypair'
+name|'KeyPair'
 op|'('
 name|'BASE'
 op|','
@@ -1634,12 +1634,12 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""Represents a keypair"""'
+string|'"""Represents a public key pair for ssh"""'
 newline|'\n'
 DECL|variable|__tablename__
 name|'__tablename__'
 op|'='
-string|"'keypairs'"
+string|"'key_pairs'"
 newline|'\n'
 DECL|variable|id
 name|'id'
