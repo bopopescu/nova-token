@@ -1069,7 +1069,7 @@ name|'region'
 op|'.'
 name|'partition'
 op|'('
-string|"','"
+string|"'|'"
 op|')'
 newline|'\n'
 name|'regions'
@@ -1082,7 +1082,7 @@ op|':'
 name|'name'
 op|','
 nl|'\n'
-string|"'regionUrl'"
+string|"'regionEndpoint'"
 op|':'
 name|'url'
 op|'}'
@@ -1103,7 +1103,7 @@ op|':'
 string|"'nova'"
 op|','
 nl|'\n'
-string|"'regionUrl'"
+string|"'regionEndpoint'"
 op|':'
 name|'FLAGS'
 op|'.'
