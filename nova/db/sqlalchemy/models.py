@@ -1729,7 +1729,7 @@ newline|'\n'
 DECL|variable|__tablename__
 name|'__tablename__'
 op|'='
-string|"'security_group_rule'"
+string|"'security_group_rules'"
 newline|'\n'
 DECL|variable|id
 name|'id'
@@ -1744,8 +1744,8 @@ name|'True'
 op|')'
 newline|'\n'
 nl|'\n'
-DECL|variable|group_id
-name|'group_id'
+DECL|variable|parent_group_id
+name|'parent_group_id'
 op|'='
 name|'Column'
 op|'('
@@ -1757,8 +1757,8 @@ string|"'security_group.id'"
 op|')'
 op|')'
 newline|'\n'
-DECL|variable|group
-name|'group'
+DECL|variable|parent_group
+name|'parent_group'
 op|'='
 name|'relationship'
 op|'('
@@ -1772,12 +1772,12 @@ nl|'\n'
 DECL|variable|foreign_keys
 name|'foreign_keys'
 op|'='
-name|'group_id'
+name|'parent_group_id'
 op|','
 nl|'\n'
 name|'primaryjoin'
 op|'='
-name|'group_id'
+name|'parent_group_id'
 op|'=='
 name|'SecurityGroup'
 op|'.'
@@ -1829,8 +1829,8 @@ comment|"# Note: This is not the parent SecurityGroup. It's SecurityGroup we're"
 nl|'\n'
 comment|'# granting access for.'
 nl|'\n'
-DECL|variable|source_group_id
-name|'source_group_id'
+DECL|variable|group_id
+name|'group_id'
 op|'='
 name|'Column'
 op|'('

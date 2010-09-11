@@ -4325,7 +4325,7 @@ name|'session'
 op|'.'
 name|'execute'
 op|'('
-string|"'update security_group_rule set deleted=1 '"
+string|"'update security_group_rules set deleted=1 '"
 nl|'\n'
 string|"'where group_id=:id'"
 op|','
