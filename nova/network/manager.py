@@ -281,9 +281,9 @@ op|')'
 newline|'\n'
 name|'flags'
 op|'.'
-name|'DEFINE_boool'
+name|'DEFINE_bool'
 op|'('
-string|"'update_dhcp_on_disassocate'"
+string|"'update_dhcp_on_disassociate'"
 op|','
 name|'False'
 op|','
