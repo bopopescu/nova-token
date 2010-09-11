@@ -40,6 +40,9 @@ name|'import'
 name|'getopt'
 newline|'\n'
 name|'import'
+name|'os'
+newline|'\n'
+name|'import'
 name|'socket'
 newline|'\n'
 name|'import'
@@ -62,7 +65,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""Extension of gflags.FlagValues that allows undefined and runtime flags.\n\n    Unknown flags will be ignored when parsing the command line, but the\n    command line will be kept so that it can be replayed if new flags are\n    defined after the initial parsing.\n    \n    """'
+string|'"""Extension of gflags.FlagValues that allows undefined and runtime flags.\n\n    Unknown flags will be ignored when parsing the command line, but the\n    command line will be kept so that it can be replayed if new flags are\n    defined after the initial parsing.\n\n    """'
 newline|'\n'
 nl|'\n'
 DECL|member|__init__
@@ -302,7 +305,7 @@ op|':'
 number|'1'
 op|']'
 op|'+'
-name|'unparsed'
+name|'unparsed_args'
 newline|'\n'
 dedent|''
 name|'else'
@@ -778,8 +781,18 @@ name|'_wrapped'
 newline|'\n'
 nl|'\n'
 nl|'\n'
-DECL|variable|DEFINE_string
+DECL|variable|DEFINE
 dedent|''
+name|'DEFINE'
+op|'='
+name|'_wrapper'
+op|'('
+name|'gflags'
+op|'.'
+name|'DEFINE'
+op|')'
+newline|'\n'
+DECL|variable|DEFINE_string
 name|'DEFINE_string'
 op|'='
 name|'_wrapper'
@@ -981,8 +994,6 @@ op|','
 string|"'s3 host'"
 op|')'
 newline|'\n'
-comment|"#DEFINE_string('cloud_topic', 'cloud', 'the topic clouds listen on')"
-nl|'\n'
 name|'DEFINE_string'
 op|'('
 string|"'compute_topic'"
@@ -1176,21 +1187,61 @@ string|"'Seconds for auth tokens to linger'"
 op|')'
 newline|'\n'
 nl|'\n'
-comment|'# UNUSED'
+name|'DEFINE_string'
+op|'('
+string|"'sql_connection'"
+op|','
+nl|'\n'
+string|"'sqlite:///%s/nova.sqlite'"
+op|'%'
+name|'os'
+op|'.'
+name|'path'
+op|'.'
+name|'abspath'
+op|'('
+string|'"./"'
+op|')'
+op|','
+nl|'\n'
+string|"'connection string for sql database'"
+op|')'
+newline|'\n'
 nl|'\n'
 name|'DEFINE_string'
 op|'('
-string|"'node_availability_zone'"
+string|"'compute_manager'"
 op|','
-string|"'nova'"
+string|"'nova.compute.manager.ComputeManager'"
 op|','
 nl|'\n'
-string|"'availability zone of this node'"
+string|"'Manager for compute'"
 op|')'
 newline|'\n'
 name|'DEFINE_string'
 op|'('
-string|"'node_name'"
+string|"'network_manager'"
+op|','
+string|"'nova.network.manager.VlanManager'"
+op|','
+nl|'\n'
+string|"'Manager for network'"
+op|')'
+newline|'\n'
+name|'DEFINE_string'
+op|'('
+string|"'volume_manager'"
+op|','
+string|"'nova.volume.manager.AOEManager'"
+op|','
+nl|'\n'
+string|"'Manager for volume'"
+op|')'
+newline|'\n'
+nl|'\n'
+name|'DEFINE_string'
+op|'('
+string|"'host'"
 op|','
 name|'socket'
 op|'.'
@@ -1203,5 +1254,17 @@ string|"'name of this node'"
 op|')'
 newline|'\n'
 nl|'\n'
+comment|'# UNUSED'
+nl|'\n'
+name|'DEFINE_string'
+op|'('
+string|"'node_availability_zone'"
+op|','
+string|"'nova'"
+op|','
+nl|'\n'
+string|"'availability zone of this node'"
+op|')'
+newline|'\n'
 endmarker|''
 end_unit
