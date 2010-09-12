@@ -408,7 +408,7 @@ string|"'compute'"
 newline|'\n'
 name|'label'
 op|'='
-string|"'instance_count'"
+string|"'instance_cores'"
 newline|'\n'
 name|'subq'
 op|'='
@@ -425,9 +425,9 @@ op|','
 nl|'\n'
 name|'func'
 op|'.'
-name|'count'
+name|'sum'
 op|'('
-string|"'*'"
+string|"'cores'"
 op|')'
 op|'.'
 name|'label'
@@ -614,7 +614,7 @@ string|"'volume'"
 newline|'\n'
 name|'label'
 op|'='
-string|"'volume_count'"
+string|"'volume_gigabytes'"
 newline|'\n'
 name|'subq'
 op|'='
@@ -633,7 +633,7 @@ name|'func'
 op|'.'
 name|'count'
 op|'('
-string|"'*'"
+string|"'size'"
 op|')'
 op|'.'
 name|'label'
