@@ -1493,17 +1493,9 @@ name|'get_session'
 op|'('
 op|')'
 newline|'\n'
-comment|"# NOTE(vish): The annoying nested select here is because SQLite doesn't"
+comment|"# NOTE(vish): The nested select is because sqlite doesn't support"
 nl|'\n'
-comment|"#             support JOINs in UPDATEs and Mysql doesn't support SELECT"
-nl|'\n'
-comment|'#             from the same table you are updating without using a temp'
-nl|'\n'
-comment|'#             table.  It would be great if we can coax sqlalchemy into'
-nl|'\n'
-comment|'#             generating this update for us without having to update'
-nl|'\n'
-comment|'#             each fixed_ip individually.'
+comment|'#             JOINs in UPDATEs.'
 nl|'\n'
 name|'result'
 op|'='
@@ -1515,23 +1507,15 @@ string|"'UPDATE fixed_ips SET instance_id = NULL, '"
 nl|'\n'
 string|"'leased = 0 '"
 nl|'\n'
-string|"'WHERE id IN (SELECT x.id FROM '"
+string|"'WHERE network_id IN (SELECT id FROM networks '"
 nl|'\n'
-string|"'(SELECT fixed_ips.id FROM fixed_ips '"
+string|"'WHERE host = :host) '"
 nl|'\n'
-string|"'INNER JOIN networks '"
+string|"'AND updated_at < :time '"
 nl|'\n'
-string|"'ON fixed_ips.network_id = '"
+string|"'AND instance_id IS NOT NULL '"
 nl|'\n'
-string|"'networks.id '"
-nl|'\n'
-string|"'WHERE networks.host = :host '"
-nl|'\n'
-string|"'AND fixed_ip.updated_at < :time '"
-nl|'\n'
-string|"'AND fixed_ip.instance_id IS NOT NULL '"
-nl|'\n'
-string|"'AND fixed_ip.allocated = 0) as x) '"
+string|"'AND allocated = 0'"
 op|','
 nl|'\n'
 op|'{'
