@@ -2154,6 +2154,7 @@ name|'get_all_security_groups'
 op|'('
 op|')'
 newline|'\n'
+nl|'\n'
 comment|"# I don't bother checkng that we actually find it here,"
 nl|'\n'
 comment|'# because the create/delete unit test further up should '
