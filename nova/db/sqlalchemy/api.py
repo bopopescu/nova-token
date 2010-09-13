@@ -1511,7 +1511,9 @@ name|'session'
 op|'.'
 name|'execute'
 op|'('
-string|"'UPDATE fixed_ips SET instance_id = NULL '"
+string|"'UPDATE fixed_ips SET instance_id = NULL, '"
+nl|'\n'
+string|"'leased = 0 '"
 nl|'\n'
 string|"'WHERE id IN (SELECT x.id FROM '"
 nl|'\n'
