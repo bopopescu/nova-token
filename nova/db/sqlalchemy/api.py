@@ -1523,11 +1523,13 @@ string|"'ON fixed_ips.network_id = '"
 nl|'\n'
 string|"'networks.id '"
 nl|'\n'
-string|"'WHERE host = :host) as x) '"
+string|"'WHERE networks.host = :host '"
 nl|'\n'
-string|"'AND updated_at < :time '"
+string|"'AND fixed_ip.updated_at < :time '"
 nl|'\n'
-string|"'AND instance_id IS NOT NULL'"
+string|"'AND fixed_ip.instance_id IS NOT NULL'"
+nl|'\n'
+string|"'AND fixed_ip.allocated = 0) as x) '"
 op|','
 nl|'\n'
 op|'{'
