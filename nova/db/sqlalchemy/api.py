@@ -1529,7 +1529,7 @@ string|"'WHERE networks.host = :host '"
 nl|'\n'
 string|"'AND fixed_ip.updated_at < :time '"
 nl|'\n'
-string|"'AND fixed_ip.instance_id IS NOT NULL'"
+string|"'AND fixed_ip.instance_id IS NOT NULL '"
 nl|'\n'
 string|"'AND fixed_ip.allocated = 0) as x) '"
 op|','
