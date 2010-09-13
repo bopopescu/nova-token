@@ -1493,15 +1493,29 @@ name|'get_session'
 op|'('
 op|')'
 newline|'\n'
+comment|"# NOTE(vish): The annoying nested select here is because SQLite doesn't"
+nl|'\n'
+comment|"#             support JOINs in UPDATEs and Mysql doesn't support SELECT"
+nl|'\n'
+comment|'#             from the same table you are updating without using a temp'
+nl|'\n'
+comment|'#             table.  It would be great if we can coax sqlalchemy into'
+nl|'\n'
+comment|'#             generating this update for us without having to update'
+nl|'\n'
+comment|'#             each fixed_ip individually.'
+nl|'\n'
 name|'result'
 op|'='
 name|'session'
 op|'.'
 name|'execute'
 op|'('
-string|"'update fixed_ips set instance_id = NULL '"
+string|"'UPDATE fixed_ips SET instance_id = NULL '"
 nl|'\n'
-string|"'WHERE id IN (SELECT fixed_ips.id FROM fixed_ips '"
+string|"'WHERE id IN (SELECT x.id FROM '"
+nl|'\n'
+string|"'(SELECT fixed_ips.id FROM fixed_ips '"
 nl|'\n'
 string|"'INNER JOIN networks '"
 nl|'\n'
@@ -1509,7 +1523,7 @@ string|"'ON fixed_ips.network_id = '"
 nl|'\n'
 string|"'networks.id '"
 nl|'\n'
-string|"'WHERE host = :host) '"
+string|"'WHERE host = :host) as x) '"
 nl|'\n'
 string|"'AND updated_at < :time '"
 nl|'\n'
