@@ -739,7 +739,7 @@ op|'('
 string|"'action'"
 op|')'
 op|','
-string|"'allow'"
+string|"'accept'"
 op|')'
 newline|'\n'
 name|'self'
@@ -792,7 +792,7 @@ op|']'
 op|'.'
 name|'getElementsByTagName'
 op|'('
-string|"'ip'"
+string|"'tcp'"
 op|')'
 newline|'\n'
 name|'self'
@@ -818,10 +818,10 @@ op|']'
 op|'.'
 name|'getAttribute'
 op|'('
-string|"'protocol'"
+string|"'srcipaddr'"
 op|')'
 op|','
-string|"'tcp'"
+string|"'0.0.0.0/0'"
 op|')'
 newline|'\n'
 name|'self'
