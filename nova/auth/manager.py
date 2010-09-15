@@ -2600,9 +2600,8 @@ nl|'\n'
 string|"'project_id'"
 op|':'
 name|'project'
-op|'['
-string|"'id'"
-op|']'
+op|'.'
+name|'id'
 op|'}'
 newline|'\n'
 name|'db'
