@@ -292,6 +292,8 @@ DECL|member|__call__
 name|'def'
 name|'__call__'
 op|'('
+name|'self'
+op|','
 name|'req'
 op|')'
 op|':'
