@@ -1106,9 +1106,37 @@ op|')'
 newline|'\n'
 name|'DEFINE_string'
 op|'('
+string|"'cc_ip'"
+op|','
+string|"'127.0.0.1'"
+op|','
+string|"'ip of api server'"
+op|')'
+newline|'\n'
+name|'DEFINE_integer'
+op|'('
+string|"'cc_port'"
+op|','
+number|'8773'
+op|','
+string|"'cloud controller port'"
+op|')'
+newline|'\n'
+name|'DEFINE_string'
+op|'('
 string|"'ec2_url'"
 op|','
-string|"'http://127.0.0.1:8773/services/Cloud'"
+string|"'http://%s:%s/services/Cloud'"
+op|'%'
+op|'('
+name|'FLAGS'
+op|'.'
+name|'cc_ip'
+op|','
+name|'FLAGS'
+op|'.'
+name|'cc_port'
+op|')'
 op|','
 nl|'\n'
 string|"'Url to ec2 api server'"
@@ -1266,5 +1294,6 @@ nl|'\n'
 string|"'availability zone of this node'"
 op|')'
 newline|'\n'
+nl|'\n'
 endmarker|''
 end_unit
