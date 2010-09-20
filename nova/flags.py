@@ -1294,6 +1294,5 @@ nl|'\n'
 string|"'availability zone of this node'"
 op|')'
 newline|'\n'
-nl|'\n'
 endmarker|''
 end_unit
