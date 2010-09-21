@@ -58,7 +58,9 @@ newline|'\n'
 name|'from'
 name|'nova'
 op|'.'
-name|'endpoint'
+name|'api'
+op|'.'
+name|'ec2'
 name|'import'
 name|'cloud'
 newline|'\n'
@@ -1193,11 +1195,15 @@ string|"'user_id'"
 op|':'
 string|"'fake'"
 op|','
+nl|'\n'
 string|"'project_id'"
 op|':'
 string|"'fake'"
 op|'}'
 op|')'
+op|'['
+string|"'id'"
+op|']'
 newline|'\n'
 name|'security_group'
 op|'='
