@@ -967,6 +967,18 @@ nl|'\n'
 nl|'\n'
 dedent|''
 dedent|''
+name|'DEFINE_list'
+op|'('
+string|"'region_list'"
+op|','
+nl|'\n'
+op|'['
+op|']'
+op|','
+nl|'\n'
+string|"'list of region=url pairs separated by commas'"
+op|')'
+newline|'\n'
 name|'DEFINE_string'
 op|'('
 string|"'connection_type'"
