@@ -1106,7 +1106,7 @@ op|')'
 newline|'\n'
 name|'DEFINE_string'
 op|'('
-string|"'cc_ip'"
+string|"'cc_host'"
 op|','
 string|"'127.0.0.1'"
 op|','
@@ -1131,7 +1131,7 @@ op|'%'
 op|'('
 name|'FLAGS'
 op|'.'
-name|'cc_ip'
+name|'cc_host'
 op|','
 name|'FLAGS'
 op|'.'
