@@ -896,7 +896,7 @@ name|'region'
 op|'.'
 name|'partition'
 op|'('
-string|"'|'"
+string|"'='"
 op|')'
 newline|'\n'
 name|'regions'
