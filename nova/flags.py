@@ -967,6 +967,18 @@ nl|'\n'
 nl|'\n'
 dedent|''
 dedent|''
+name|'DEFINE_list'
+op|'('
+string|"'region_list'"
+op|','
+nl|'\n'
+op|'['
+op|']'
+op|','
+nl|'\n'
+string|"'list of region=url pairs separated by commas'"
+op|')'
+newline|'\n'
 name|'DEFINE_string'
 op|'('
 string|"'connection_type'"
@@ -1001,6 +1013,15 @@ op|','
 string|"'compute'"
 op|','
 string|"'the topic compute nodes listen on'"
+op|')'
+newline|'\n'
+name|'DEFINE_string'
+op|'('
+string|"'scheduler_topic'"
+op|','
+string|"'scheduler'"
+op|','
+string|"'the topic scheduler nodes listen on'"
 op|')'
 newline|'\n'
 name|'DEFINE_string'
@@ -1236,6 +1257,16 @@ string|"'nova.volume.manager.AOEManager'"
 op|','
 nl|'\n'
 string|"'Manager for volume'"
+op|')'
+newline|'\n'
+name|'DEFINE_string'
+op|'('
+string|"'scheduler_manager'"
+op|','
+string|"'nova.scheduler.manager.SchedulerManager'"
+op|','
+nl|'\n'
+string|"'Manager for scheduler'"
 op|')'
 newline|'\n'
 nl|'\n'
