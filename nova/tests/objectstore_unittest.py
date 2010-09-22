@@ -1177,7 +1177,6 @@ op|'.'
 name|'auth_driver'
 op|'='
 string|"'nova.auth.ldapdriver.FakeLdapDriver'"
-op|','
 newline|'\n'
 name|'FLAGS'
 op|'.'
