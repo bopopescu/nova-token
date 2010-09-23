@@ -155,7 +155,6 @@ string|'"""Do any initialization that needs to be run if this is a standalone se
 newline|'\n'
 name|'pass'
 newline|'\n'
-nl|'\n'
 dedent|''
 dedent|''
 endmarker|''
