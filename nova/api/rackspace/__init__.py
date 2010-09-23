@@ -142,7 +142,8 @@ name|'DEFINE_string'
 op|'('
 string|"'nova_api_auth'"
 op|','
-string|"'nova.api.rackspace.auth.FakeAuth'"
+nl|'\n'
+string|"'nova.api.rackspace.auth.BasicApiAuthManager'"
 op|','
 nl|'\n'
 string|"'The auth mechanism to use for the Rackspace API implemenation'"
@@ -196,7 +197,6 @@ op|'('
 name|'app'
 op|')'
 newline|'\n'
-nl|'\n'
 nl|'\n'
 DECL|class|AuthMiddleware
 dedent|''
@@ -287,6 +287,8 @@ newline|'\n'
 indent|'            '
 name|'return'
 name|'self'
+op|'.'
+name|'auth_driver'
 op|'.'
 name|'authenticate'
 op|'('
