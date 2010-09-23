@@ -1213,7 +1213,7 @@ nl|'\n'
 dedent|''
 name|'if'
 name|'project_id'
-name|'is'
+op|'=='
 string|"''"
 op|':'
 newline|'\n'
