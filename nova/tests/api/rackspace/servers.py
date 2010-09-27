@@ -331,6 +331,15 @@ op|'('
 string|"'/v1.0/servers/1'"
 op|')'
 newline|'\n'
+name|'req'
+op|'.'
+name|'headers'
+op|'['
+string|"'content-type'"
+op|']'
+op|'='
+string|"'application/json'"
+newline|'\n'
 name|'res'
 op|'='
 name|'req'
