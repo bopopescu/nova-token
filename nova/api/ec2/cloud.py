@@ -1874,12 +1874,12 @@ name|'else'
 op|':'
 newline|'\n'
 indent|'            '
-name|'return'
-op|'{'
-string|"'return'"
-op|':'
-name|'False'
-op|'}'
+name|'values'
+op|'['
+string|"'cidr'"
+op|']'
+op|'='
+string|"'0.0.0.0/0'"
 newline|'\n'
 nl|'\n'
 dedent|''
