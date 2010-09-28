@@ -1467,7 +1467,7 @@ name|'context'
 op|','
 name|'inst'
 op|'['
-string|"'id'"
+string|"'str_id'"
 op|']'
 op|','
 nl|'\n'
