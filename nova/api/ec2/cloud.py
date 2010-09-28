@@ -482,7 +482,7 @@ op|'['
 string|"'fixed_ip'"
 op|']'
 op|'['
-string|"'str_id'"
+string|"'address'"
 op|']'
 op|','
 nl|'\n'
@@ -2728,7 +2728,7 @@ op|'['
 string|"'fixed_ip'"
 op|']'
 op|'['
-string|"'str_id'"
+string|"'address'"
 op|']'
 newline|'\n'
 name|'if'
@@ -2759,7 +2759,7 @@ op|'['
 number|'0'
 op|']'
 op|'['
-string|"'str_id'"
+string|"'address'"
 op|']'
 newline|'\n'
 dedent|''
@@ -3082,7 +3082,7 @@ name|'address'
 op|'='
 name|'floating_ip_ref'
 op|'['
-string|"'str_id'"
+string|"'address'"
 op|']'
 newline|'\n'
 name|'instance_id'
@@ -3362,7 +3362,7 @@ string|'"floating_address"'
 op|':'
 name|'floating_ip_ref'
 op|'['
-string|"'str_id'"
+string|"'address'"
 op|']'
 op|'}'
 op|'}'
@@ -3467,7 +3467,7 @@ string|'"floating_address"'
 op|':'
 name|'floating_ip_ref'
 op|'['
-string|"'str_id'"
+string|"'address'"
 op|']'
 op|','
 nl|'\n'
@@ -3475,7 +3475,7 @@ string|'"fixed_address"'
 op|':'
 name|'fixed_ip_ref'
 op|'['
-string|"'str_id'"
+string|"'address'"
 op|']'
 op|'}'
 op|'}'
@@ -3553,7 +3553,7 @@ string|'"floating_address"'
 op|':'
 name|'floating_ip_ref'
 op|'['
-string|"'str_id'"
+string|"'address'"
 op|']'
 op|'}'
 op|'}'

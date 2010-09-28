@@ -1165,7 +1165,7 @@ indent|'        '
 name|'return'
 name|'self'
 op|'.'
-name|'str_id'
+name|'ec2_id'
 newline|'\n'
 nl|'\n'
 DECL|variable|image_id
