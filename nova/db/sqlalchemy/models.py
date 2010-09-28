@@ -1186,6 +1186,18 @@ op|')'
 op|')'
 newline|'\n'
 nl|'\n'
+DECL|variable|server_name
+name|'server_name'
+op|'='
+name|'Column'
+op|'('
+name|'String'
+op|'('
+number|'255'
+op|')'
+op|')'
+newline|'\n'
+nl|'\n'
 comment|"#    image_id = Column(Integer, ForeignKey('images.id'), nullable=True)"
 nl|'\n'
 comment|"#    kernel_id = Column(Integer, ForeignKey('images.id'), nullable=True)"
