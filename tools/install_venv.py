@@ -439,6 +439,32 @@ indent|'  '
 name|'print'
 string|"'Installing dependencies with pip (this can take a while)...'"
 newline|'\n'
+comment|'# Install greenlet by hand - just listing it in the requires file does not'
+nl|'\n'
+comment|'# get it in stalled in the right order'
+nl|'\n'
+name|'run_command'
+op|'('
+op|'['
+string|"'tools/with_venv.sh'"
+op|','
+string|"'pip'"
+op|','
+string|"'install'"
+op|','
+string|"'-E'"
+op|','
+name|'venv'
+op|','
+string|"'greenlet'"
+op|']'
+op|','
+nl|'\n'
+name|'redirect_output'
+op|'='
+name|'False'
+op|')'
+newline|'\n'
 name|'run_command'
 op|'('
 op|'['
