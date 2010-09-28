@@ -267,7 +267,7 @@ nl|'\n'
 string|"'bin/nova-objectstore'"
 op|','
 nl|'\n'
-string|"'bin/nova-api-new'"
+string|"'bin/nova-scheduler'"
 op|','
 nl|'\n'
 string|"'bin/nova-volume'"
