@@ -1147,18 +1147,7 @@ name|'DEFINE_string'
 op|'('
 string|"'ec2_url'"
 op|','
-string|"'http://%s:%s/services/Cloud'"
-op|'%'
-op|'('
-name|'FLAGS'
-op|'.'
-name|'cc_host'
-op|','
-name|'FLAGS'
-op|'.'
-name|'cc_port'
-op|')'
-op|','
+string|"'http://127.0.0.1:8773/services/Cloud'"
 nl|'\n'
 string|"'Url to ec2 api server'"
 op|')'

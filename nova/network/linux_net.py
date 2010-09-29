@@ -130,11 +130,7 @@ name|'DEFINE_string'
 op|'('
 string|"'routing_source_ip'"
 op|','
-name|'utils'
-op|'.'
-name|'get_my_ip'
-op|'('
-op|')'
+string|"'127.0.0.1'"
 op|','
 nl|'\n'
 string|"'Public IP of network host'"
