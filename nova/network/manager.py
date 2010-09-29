@@ -1731,7 +1731,7 @@ op|','
 nl|'\n'
 name|'fixed_ip_ref'
 op|'['
-string|"'str_id'"
+string|"'address'"
 op|']'
 op|','
 nl|'\n'
