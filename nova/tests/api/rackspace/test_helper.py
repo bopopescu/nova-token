@@ -261,8 +261,6 @@ op|'.'
 name|'application'
 newline|'\n'
 nl|'\n'
-nl|'\n'
-nl|'\n'
 DECL|function|stub_out_key_pair_funcs
 dedent|''
 name|'def'
