@@ -1127,6 +1127,24 @@ op|')'
 newline|'\n'
 name|'DEFINE_string'
 op|'('
+string|"'cc_host'"
+op|','
+string|"'127.0.0.1'"
+op|','
+string|"'ip of api server'"
+op|')'
+newline|'\n'
+name|'DEFINE_integer'
+op|'('
+string|"'cc_port'"
+op|','
+number|'8773'
+op|','
+string|"'cloud controller port'"
+op|')'
+newline|'\n'
+name|'DEFINE_string'
+op|'('
 string|"'ec2_url'"
 op|','
 string|"'http://127.0.0.1:8773/services/Cloud'"
