@@ -142,7 +142,7 @@ op|')'
 newline|'\n'
 name|'flags'
 op|'.'
-name|'DEFINE_boo'
+name|'DEFINE_bool'
 op|'('
 string|"'use_nova_chains'"
 op|','
