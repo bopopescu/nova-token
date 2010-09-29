@@ -676,7 +676,7 @@ name|'_host_dhcp'
 op|'('
 name|'fixed_ip'
 op|'['
-string|"'str_id'"
+string|"'address'"
 op|']'
 op|')'
 op|')'
