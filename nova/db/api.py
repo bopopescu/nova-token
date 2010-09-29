@@ -2674,10 +2674,10 @@ op|')'
 newline|'\n'
 nl|'\n'
 nl|'\n'
-DECL|function|securitygroup_exists
+DECL|function|security_group_exists
 dedent|''
 name|'def'
-name|'securitygroup_exists'
+name|'security_group_exists'
 op|'('
 name|'context'
 op|','
