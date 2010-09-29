@@ -391,7 +391,7 @@ name|'create_volume'
 op|'('
 name|'volume_ref'
 op|'['
-string|"'str_id'"
+string|"'ec2_id'"
 op|']'
 op|','
 name|'size'
@@ -460,7 +460,7 @@ name|'create_export'
 op|'('
 name|'volume_ref'
 op|'['
-string|"'str_id'"
+string|"'ec2_id'"
 op|']'
 op|','
 nl|'\n'
@@ -647,7 +647,7 @@ name|'remove_export'
 op|'('
 name|'volume_ref'
 op|'['
-string|"'str_id'"
+string|"'ec2_id'"
 op|']'
 op|','
 nl|'\n'
@@ -666,7 +666,7 @@ name|'delete_volume'
 op|'('
 name|'volume_ref'
 op|'['
-string|"'str_id'"
+string|"'ec2_id'"
 op|']'
 op|')'
 newline|'\n'
@@ -732,7 +732,7 @@ name|'discover_volume'
 op|'('
 name|'volume_ref'
 op|'['
-string|"'str_id'"
+string|"'ec2_id'"
 op|']'
 op|')'
 newline|'\n'
