@@ -1090,8 +1090,8 @@ number|'255'
 op|')'
 op|')'
 newline|'\n'
-DECL|variable|rs_root_password
-name|'rs_root_password'
+DECL|variable|admin_pass
+name|'admin_pass'
 op|'='
 name|'Column'
 op|'('
