@@ -1212,7 +1212,7 @@ string|"'nova-instance-%s'"
 op|'%'
 name|'instance_ref'
 op|'['
-string|"'str_id'"
+string|"'name'"
 op|']'
 newline|'\n'
 name|'secgroup_filter'
