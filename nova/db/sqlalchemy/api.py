@@ -6767,7 +6767,7 @@ name|'session'
 op|'.'
 name|'execute'
 op|'('
-string|"'update security_group set deleted=1 where id=:id'"
+string|"'update security_groups set deleted=1 where id=:id'"
 op|','
 nl|'\n'
 op|'{'
@@ -6826,7 +6826,7 @@ name|'session'
 op|'.'
 name|'execute'
 op|'('
-string|"'update security_group set deleted=1'"
+string|"'update security_groups set deleted=1'"
 op|')'
 newline|'\n'
 name|'session'

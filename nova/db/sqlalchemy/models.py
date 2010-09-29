@@ -66,8 +66,6 @@ op|','
 name|'Integer'
 op|','
 name|'String'
-op|','
-name|'Table'
 newline|'\n'
 name|'from'
 name|'sqlalchemy'
@@ -2047,7 +2045,7 @@ name|'Integer'
 op|','
 name|'ForeignKey'
 op|'('
-string|"'security_group.id'"
+string|"'security_groups.id'"
 op|')'
 op|')'
 newline|'\n'
@@ -2083,7 +2081,7 @@ newline|'\n'
 DECL|variable|__tablename__
 name|'__tablename__'
 op|'='
-string|"'security_group'"
+string|"'security_groups'"
 newline|'\n'
 DECL|variable|id
 name|'id'
@@ -2278,7 +2276,7 @@ name|'Integer'
 op|','
 name|'ForeignKey'
 op|'('
-string|"'security_group.id'"
+string|"'security_groups.id'"
 op|')'
 op|')'
 newline|'\n'
@@ -2362,7 +2360,7 @@ name|'Integer'
 op|','
 name|'ForeignKey'
 op|'('
-string|"'security_group.id'"
+string|"'security_groups.id'"
 op|')'
 op|')'
 newline|'\n'
@@ -3525,6 +3523,8 @@ op|','
 name|'SecurityGroupIngressRule'
 op|','
 nl|'\n'
+name|'SecurityGroupInstanceAssociation'
+op|','
 name|'AuthToken'
 op|')'
 comment|'# , Image, Host'
