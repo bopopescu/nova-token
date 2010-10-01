@@ -349,7 +349,7 @@ name|'db'
 op|'.'
 name|'api'
 op|','
-string|"'instance_get_by_ec2_id'"
+string|"'instance_get_by_internal_id'"
 op|','
 name|'return_server'
 op|')'
