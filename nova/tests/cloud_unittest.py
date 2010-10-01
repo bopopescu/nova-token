@@ -1544,7 +1544,7 @@ name|'context'
 op|','
 name|'inst'
 op|'['
-string|"'ec2_id'"
+string|"'internal_id'"
 op|']'
 op|','
 nl|'\n'
