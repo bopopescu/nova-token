@@ -126,7 +126,7 @@ name|'DEFINE_string'
 op|'('
 string|"'glance_parallax_port'"
 op|','
-string|"'9191'"
+string|"'9292'"
 op|','
 nl|'\n'
 string|"'Port for Glance\\'s Parallax service'"
