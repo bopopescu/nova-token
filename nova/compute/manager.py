@@ -333,7 +333,7 @@ newline|'\n'
 name|'if'
 name|'instance_ref'
 op|'['
-string|"'str_id'"
+string|"'ec2_id'"
 op|']'
 name|'in'
 name|'self'
@@ -725,7 +725,7 @@ nl|'\n'
 op|'('
 name|'instance_ref'
 op|'['
-string|"'str_id'"
+string|"'ec2_id'"
 op|']'
 op|','
 nl|'\n'
@@ -931,7 +931,7 @@ name|'attach_volume'
 op|'('
 name|'instance_ref'
 op|'['
-string|"'str_id'"
+string|"'ec2_id'"
 op|']'
 op|','
 nl|'\n'
@@ -1031,6 +1031,7 @@ op|','
 name|'volume_id'
 op|')'
 newline|'\n'
+name|'yield'
 name|'self'
 op|'.'
 name|'driver'
@@ -1039,7 +1040,7 @@ name|'detach_volume'
 op|'('
 name|'instance_ref'
 op|'['
-string|"'str_id'"
+string|"'ec2_id'"
 op|']'
 op|','
 nl|'\n'

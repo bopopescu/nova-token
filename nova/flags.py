@@ -967,6 +967,18 @@ nl|'\n'
 nl|'\n'
 dedent|''
 dedent|''
+name|'DEFINE_list'
+op|'('
+string|"'region_list'"
+op|','
+nl|'\n'
+op|'['
+op|']'
+op|','
+nl|'\n'
+string|"'list of region=url pairs separated by commas'"
+op|')'
+newline|'\n'
 name|'DEFINE_string'
 op|'('
 string|"'connection_type'"
@@ -1111,6 +1123,24 @@ op|','
 string|"'nova'"
 op|','
 string|"'the main exchange to connect to'"
+op|')'
+newline|'\n'
+name|'DEFINE_string'
+op|'('
+string|"'cc_host'"
+op|','
+string|"'127.0.0.1'"
+op|','
+string|"'ip of api server'"
+op|')'
+newline|'\n'
+name|'DEFINE_integer'
+op|'('
+string|"'cc_port'"
+op|','
+number|'8773'
+op|','
+string|"'cloud controller port'"
 op|')'
 newline|'\n'
 name|'DEFINE_string'
