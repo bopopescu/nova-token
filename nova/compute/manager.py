@@ -1024,7 +1024,7 @@ name|'attach_volume'
 op|'('
 name|'instance_ref'
 op|'['
-string|"'internal_id'"
+string|"'ec2_id'"
 op|']'
 op|','
 nl|'\n'
@@ -1133,7 +1133,7 @@ name|'detach_volume'
 op|'('
 name|'instance_ref'
 op|'['
-string|"'internal_id'"
+string|"'ec2_id'"
 op|']'
 op|','
 nl|'\n'
