@@ -333,7 +333,7 @@ newline|'\n'
 name|'if'
 name|'instance_ref'
 op|'['
-string|"'ec2_id'"
+string|"'internal_id'"
 op|']'
 name|'in'
 name|'self'
@@ -725,7 +725,7 @@ nl|'\n'
 op|'('
 name|'instance_ref'
 op|'['
-string|"'ec2_id'"
+string|"'internal_id'"
 op|']'
 op|','
 nl|'\n'
@@ -872,7 +872,7 @@ op|','
 nl|'\n'
 name|'instance_ref'
 op|'['
-string|"'ec2_id'"
+string|"'internal_id'"
 op|']'
 op|','
 nl|'\n'
