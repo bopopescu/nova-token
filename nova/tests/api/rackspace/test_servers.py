@@ -447,7 +447,7 @@ op|'['
 string|"'id'"
 op|']'
 op|','
-string|"'1'"
+number|'1'
 op|')'
 newline|'\n'
 name|'self'
@@ -626,7 +626,7 @@ DECL|variable|internal_id
 indent|'                '
 name|'internal_id'
 op|'='
-number|'1'
+string|"'1'"
 newline|'\n'
 dedent|''
 name|'return'
