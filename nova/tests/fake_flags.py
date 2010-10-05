@@ -78,7 +78,7 @@ name|'FLAGS'
 op|'.'
 name|'auth_driver'
 op|'='
-string|"'nova.auth.ldapdriver.FakeLdapDriver'"
+string|"'nova.auth.dbdriver.DbDriver'"
 newline|'\n'
 name|'flags'
 op|'.'
