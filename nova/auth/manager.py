@@ -269,7 +269,7 @@ name|'DEFINE_string'
 op|'('
 string|"'auth_driver'"
 op|','
-string|"'nova.auth.ldapdriver.FakeLdapDriver'"
+string|"'nova.auth.dbdriver.DbDriver'"
 op|','
 nl|'\n'
 string|"'Driver that auth manager uses'"
