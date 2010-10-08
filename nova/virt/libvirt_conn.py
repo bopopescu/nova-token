@@ -1782,7 +1782,7 @@ name|'instances_path'
 op|','
 name|'instance'
 op|'['
-string|"'name'"
+string|"'internal_id'"
 op|']'
 op|','
 string|"'console.log'"
