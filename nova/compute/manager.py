@@ -122,6 +122,23 @@ nl|'\n'
 string|"'Driver to use for volume creation'"
 op|')'
 newline|'\n'
+name|'flags'
+op|'.'
+name|'DEFINE_string'
+op|'('
+string|"'images_path'"
+op|','
+name|'utils'
+op|'.'
+name|'abspath'
+op|'('
+string|"'../images'"
+op|')'
+op|','
+nl|'\n'
+string|"'path to decrypted local images if not using s3'"
+op|')'
+newline|'\n'
 nl|'\n'
 nl|'\n'
 DECL|class|ComputeManager
