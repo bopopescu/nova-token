@@ -602,7 +602,7 @@ name|'FLAGS'
 op|'.'
 name|'FAKE_subdomain'
 op|'='
-string|"'rs'"
+string|"'api'"
 newline|'\n'
 nl|'\n'
 nl|'\n'
