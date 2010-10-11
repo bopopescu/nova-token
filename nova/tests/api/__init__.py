@@ -219,7 +219,7 @@ name|'_request'
 op|'('
 string|"'/v1.0/cloud'"
 op|','
-string|"'rs'"
+string|"'api'"
 op|')'
 newline|'\n'
 name|'self'
@@ -363,7 +363,7 @@ name|'_request'
 op|'('
 string|"'/'"
 op|','
-string|"'rs'"
+string|"'api'"
 op|')'
 newline|'\n'
 name|'self'
