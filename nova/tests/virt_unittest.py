@@ -214,7 +214,7 @@ op|'='
 op|'{'
 string|"'internal_id'"
 op|':'
-string|"'1'"
+number|'1'
 op|','
 nl|'\n'
 string|"'memory_kb'"

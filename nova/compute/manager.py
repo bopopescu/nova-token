@@ -371,7 +371,7 @@ newline|'\n'
 name|'if'
 name|'instance_ref'
 op|'['
-string|"'internal_id'"
+string|"'name'"
 op|']'
 name|'in'
 name|'self'
