@@ -502,8 +502,10 @@ name|'self'
 op|')'
 op|':'
 newline|'\n'
-DECL|function|fetch_repeatedly
 indent|'        '
+string|'"""Only needed for unit tests!"""'
+newline|'\n'
+DECL|function|fetch_repeatedly
 name|'def'
 name|'fetch_repeatedly'
 op|'('
