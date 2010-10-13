@@ -427,6 +427,11 @@ op|'='
 number|'4'
 op|','
 nl|'\n'
+name|'network_manager'
+op|'='
+string|"'nova.network.manager.FlatManager'"
+op|','
+nl|'\n'
 name|'volume_driver'
 op|'='
 string|"'nova.volume.driver.FakeAOEDriver'"
