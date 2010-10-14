@@ -40,6 +40,9 @@ name|'import'
 name|'getopt'
 newline|'\n'
 name|'import'
+name|'os'
+newline|'\n'
+name|'import'
 name|'socket'
 newline|'\n'
 name|'import'
@@ -62,7 +65,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""Extension of gflags.FlagValues that allows undefined and runtime flags.\n\n    Unknown flags will be ignored when parsing the command line, but the\n    command line will be kept so that it can be replayed if new flags are\n    defined after the initial parsing.\n    \n    """'
+string|'"""Extension of gflags.FlagValues that allows undefined and runtime flags.\n\n    Unknown flags will be ignored when parsing the command line, but the\n    command line will be kept so that it can be replayed if new flags are\n    defined after the initial parsing.\n\n    """'
 newline|'\n'
 nl|'\n'
 DECL|member|__init__
@@ -302,7 +305,7 @@ op|':'
 number|'1'
 op|']'
 op|'+'
-name|'unparsed'
+name|'unparsed_args'
 newline|'\n'
 dedent|''
 name|'else'
@@ -778,8 +781,18 @@ name|'_wrapped'
 newline|'\n'
 nl|'\n'
 nl|'\n'
-DECL|variable|DEFINE_string
+DECL|variable|DEFINE
 dedent|''
+name|'DEFINE'
+op|'='
+name|'_wrapper'
+op|'('
+name|'gflags'
+op|'.'
+name|'DEFINE'
+op|')'
+newline|'\n'
+DECL|variable|DEFINE_string
 name|'DEFINE_string'
 op|'='
 name|'_wrapper'
@@ -954,6 +967,18 @@ nl|'\n'
 nl|'\n'
 dedent|''
 dedent|''
+name|'DEFINE_list'
+op|'('
+string|"'region_list'"
+op|','
+nl|'\n'
+op|'['
+op|']'
+op|','
+nl|'\n'
+string|"'list of region=url pairs separated by commas'"
+op|')'
+newline|'\n'
 name|'DEFINE_string'
 op|'('
 string|"'connection_type'"
@@ -981,8 +1006,6 @@ op|','
 string|"'s3 host'"
 op|')'
 newline|'\n'
-comment|"#DEFINE_string('cloud_topic', 'cloud', 'the topic clouds listen on')"
-nl|'\n'
 name|'DEFINE_string'
 op|'('
 string|"'compute_topic'"
@@ -990,6 +1013,15 @@ op|','
 string|"'compute'"
 op|','
 string|"'the topic compute nodes listen on'"
+op|')'
+newline|'\n'
+name|'DEFINE_string'
+op|'('
+string|"'scheduler_topic'"
+op|','
+string|"'scheduler'"
+op|','
+string|"'the topic scheduler nodes listen on'"
 op|')'
 newline|'\n'
 name|'DEFINE_string'
@@ -1095,6 +1127,24 @@ op|')'
 newline|'\n'
 name|'DEFINE_string'
 op|'('
+string|"'cc_host'"
+op|','
+string|"'127.0.0.1'"
+op|','
+string|"'ip of api server'"
+op|')'
+newline|'\n'
+name|'DEFINE_integer'
+op|'('
+string|"'cc_port'"
+op|','
+number|'8773'
+op|','
+string|"'cloud controller port'"
+op|')'
+newline|'\n'
+name|'DEFINE_string'
+op|'('
 string|"'ec2_url'"
 op|','
 string|"'http://127.0.0.1:8773/services/Cloud'"
@@ -1186,21 +1236,84 @@ string|"'Seconds for auth tokens to linger'"
 op|')'
 newline|'\n'
 nl|'\n'
-comment|'# UNUSED'
+name|'DEFINE_string'
+op|'('
+string|"'sql_connection'"
+op|','
+nl|'\n'
+string|"'sqlite:///%s/nova.sqlite'"
+op|'%'
+name|'os'
+op|'.'
+name|'path'
+op|'.'
+name|'abspath'
+op|'('
+string|'"./"'
+op|')'
+op|','
+nl|'\n'
+string|"'connection string for sql database'"
+op|')'
+newline|'\n'
 nl|'\n'
 name|'DEFINE_string'
 op|'('
-string|"'node_availability_zone'"
+string|"'compute_manager'"
 op|','
-string|"'nova'"
+string|"'nova.compute.manager.ComputeManager'"
 op|','
 nl|'\n'
-string|"'availability zone of this node'"
+string|"'Manager for compute'"
 op|')'
 newline|'\n'
 name|'DEFINE_string'
 op|'('
-string|"'node_name'"
+string|"'network_manager'"
+op|','
+string|"'nova.network.manager.VlanManager'"
+op|','
+nl|'\n'
+string|"'Manager for network'"
+op|')'
+newline|'\n'
+name|'DEFINE_string'
+op|'('
+string|"'volume_manager'"
+op|','
+string|"'nova.volume.manager.AOEManager'"
+op|','
+nl|'\n'
+string|"'Manager for volume'"
+op|')'
+newline|'\n'
+name|'DEFINE_string'
+op|'('
+string|"'scheduler_manager'"
+op|','
+string|"'nova.scheduler.manager.SchedulerManager'"
+op|','
+nl|'\n'
+string|"'Manager for scheduler'"
+op|')'
+newline|'\n'
+nl|'\n'
+comment|'# The service to use for image search and retrieval'
+nl|'\n'
+name|'DEFINE_string'
+op|'('
+string|"'image_service'"
+op|','
+string|"'nova.image.service.LocalImageService'"
+op|','
+nl|'\n'
+string|"'The service to use for retrieving and searching for images.'"
+op|')'
+newline|'\n'
+nl|'\n'
+name|'DEFINE_string'
+op|'('
+string|"'host'"
 op|','
 name|'socket'
 op|'.'
@@ -1213,5 +1326,17 @@ string|"'name of this node'"
 op|')'
 newline|'\n'
 nl|'\n'
+comment|'# UNUSED'
+nl|'\n'
+name|'DEFINE_string'
+op|'('
+string|"'node_availability_zone'"
+op|','
+string|"'nova'"
+op|','
+nl|'\n'
+string|"'availability zone of this node'"
+op|')'
+newline|'\n'
 endmarker|''
 end_unit
