@@ -1288,6 +1288,19 @@ string|"'Manager for scheduler'"
 op|')'
 newline|'\n'
 nl|'\n'
+comment|'# The service to use for image search and retrieval'
+nl|'\n'
+name|'DEFINE_string'
+op|'('
+string|"'image_service'"
+op|','
+string|"'nova.image.service.LocalImageService'"
+op|','
+nl|'\n'
+string|"'The service to use for retrieving and searching for images.'"
+op|')'
+newline|'\n'
+nl|'\n'
 name|'DEFINE_string'
 op|'('
 string|"'host'"

@@ -151,6 +151,11 @@ op|'('
 name|'connection_type'
 op|'='
 string|"'fake'"
+op|','
+nl|'\n'
+name|'network_manager'
+op|'='
+string|"'nova.network.manager.FlatManager'"
 op|')'
 newline|'\n'
 name|'self'
