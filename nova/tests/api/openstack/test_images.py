@@ -773,7 +773,7 @@ name|'utils'
 op|'.'
 name|'import_object'
 op|'('
-string|"'nova.image.service.GlanceImageService'"
+string|"'nova.image.services.glance.GlanceImageService'"
 op|')'
 newline|'\n'
 name|'self'
@@ -986,7 +986,7 @@ name|'FLAGS'
 op|'.'
 name|'image_service'
 op|'='
-string|"'nova.image.service.GlanceImageService'"
+string|"'nova.image.services.glance.GlanceImageService'"
 newline|'\n'
 name|'self'
 op|'.'
