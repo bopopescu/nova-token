@@ -855,7 +855,7 @@ op|')'
 op|')'
 op|','
 nl|'\n'
-string|"'modified_at'"
+string|"'updated_at'"
 op|':'
 name|'str'
 op|'('
@@ -921,7 +921,7 @@ op|')'
 op|')'
 op|','
 nl|'\n'
-string|"'modified_at'"
+string|"'updated_at'"
 op|':'
 name|'str'
 op|'('
