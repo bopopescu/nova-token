@@ -1070,6 +1070,7 @@ string|"'scheduler_topic'"
 op|','
 string|"'scheduler'"
 op|','
+nl|'\n'
 string|"'the topic scheduler nodes listen on'"
 op|')'
 newline|'\n'
