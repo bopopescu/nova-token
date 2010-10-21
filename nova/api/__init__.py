@@ -120,7 +120,9 @@ op|','
 name|'None'
 op|','
 nl|'\n'
-string|"'set to api or ec2 to fake the subdomain of the host for testing'"
+string|"'set to api or ec2 to fake the subdomain of the host '"
+nl|'\n'
+string|"'for testing'"
 op|')'
 newline|'\n'
 DECL|variable|FLAGS
@@ -550,8 +552,6 @@ name|'in'
 name|'versions'
 op|')'
 newline|'\n'
-nl|'\n'
-nl|'\n'
 dedent|''
 dedent|''
 endmarker|''
