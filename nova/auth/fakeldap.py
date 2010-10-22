@@ -91,6 +91,7 @@ string|"'Multiple DB keeps tests away'"
 op|')'
 newline|'\n'
 nl|'\n'
+nl|'\n'
 DECL|class|Redis
 name|'class'
 name|'Redis'
@@ -205,7 +206,7 @@ DECL|variable|SCOPE_ONELEVEL
 name|'SCOPE_ONELEVEL'
 op|'='
 number|'1'
-comment|'# not implemented'
+comment|'# Not implemented'
 newline|'\n'
 DECL|variable|SCOPE_SUBTREE
 name|'SCOPE_SUBTREE'
@@ -1266,8 +1267,6 @@ newline|'\n'
 name|'return'
 string|"'ldap:'"
 newline|'\n'
-nl|'\n'
-nl|'\n'
 dedent|''
 dedent|''
 endmarker|''

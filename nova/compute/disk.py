@@ -881,7 +881,6 @@ op|','
 name|'net'
 op|')'
 newline|'\n'
-nl|'\n'
 dedent|''
 endmarker|''
 end_unit
