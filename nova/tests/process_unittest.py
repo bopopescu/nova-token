@@ -166,6 +166,7 @@ op|'('
 string|"'echo test'"
 op|')'
 newline|'\n'
+nl|'\n'
 DECL|function|_check
 name|'def'
 name|'_check'
@@ -253,6 +254,7 @@ op|'='
 name|'False'
 op|')'
 newline|'\n'
+nl|'\n'
 DECL|function|_check
 name|'def'
 name|'_check'
@@ -431,6 +433,7 @@ op|'='
 op|'['
 op|']'
 newline|'\n'
+nl|'\n'
 DECL|function|_called
 name|'def'
 name|'_called'

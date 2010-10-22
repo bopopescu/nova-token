@@ -68,6 +68,7 @@ string|"'for testing purposes only'"
 op|')'
 newline|'\n'
 nl|'\n'
+nl|'\n'
 DECL|class|FlagsTestCase
 name|'class'
 name|'FlagsTestCase'
@@ -78,6 +79,7 @@ name|'TrialTestCase'
 op|')'
 op|':'
 newline|'\n'
+nl|'\n'
 DECL|member|setUp
 indent|'    '
 name|'def'
@@ -187,6 +189,7 @@ string|"'default'"
 op|','
 string|"'desc'"
 op|','
+nl|'\n'
 name|'flag_values'
 op|'='
 name|'self'

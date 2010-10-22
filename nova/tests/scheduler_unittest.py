@@ -112,6 +112,7 @@ string|"'nova.scheduler.simple'"
 op|')'
 newline|'\n'
 nl|'\n'
+nl|'\n'
 DECL|class|TestDriver
 name|'class'
 name|'TestDriver'
@@ -163,6 +164,7 @@ indent|'        '
 name|'return'
 string|"'named_host'"
 newline|'\n'
+nl|'\n'
 nl|'\n'
 DECL|class|SchedulerTestCase
 dedent|''
