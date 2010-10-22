@@ -894,7 +894,6 @@ name|'routing_key'
 op|')'
 newline|'\n'
 nl|'\n'
-nl|'\n'
 DECL|variable|__instance
 dedent|''
 dedent|''

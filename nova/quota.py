@@ -127,6 +127,7 @@ string|"'number of floating ips allowed per project'"
 op|')'
 newline|'\n'
 nl|'\n'
+nl|'\n'
 DECL|function|get_quota
 name|'def'
 name|'get_quota'
@@ -239,6 +240,7 @@ dedent|''
 name|'return'
 name|'rval'
 newline|'\n'
+nl|'\n'
 nl|'\n'
 DECL|function|allowed_instances
 dedent|''
@@ -528,7 +530,6 @@ op|','
 name|'allowed_floating_ips'
 op|')'
 newline|'\n'
-nl|'\n'
 dedent|''
 endmarker|''
 end_unit
