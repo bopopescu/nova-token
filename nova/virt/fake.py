@@ -492,6 +492,7 @@ name|'return'
 string|"'FAKE CONSOLE OUTPUT'"
 newline|'\n'
 nl|'\n'
+nl|'\n'
 DECL|class|FakeInstance
 dedent|''
 dedent|''

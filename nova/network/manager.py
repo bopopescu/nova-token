@@ -201,6 +201,7 @@ string|"'floating_range'"
 op|','
 string|"'4.4.4.0/24'"
 op|','
+nl|'\n'
 string|"'Floating IP address block'"
 op|')'
 newline|'\n'
@@ -1812,7 +1813,6 @@ op|')'
 newline|'\n'
 nl|'\n'
 nl|'\n'
-nl|'\n'
 DECL|class|FlatDHCPManager
 dedent|''
 dedent|''
@@ -2890,7 +2890,6 @@ name|'FLAGS'
 op|'.'
 name|'cnt_vpn_clients'
 newline|'\n'
-nl|'\n'
 dedent|''
 dedent|''
 endmarker|''

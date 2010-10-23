@@ -111,6 +111,7 @@ string|'"maximum number of networks to allow per host"'
 op|')'
 newline|'\n'
 nl|'\n'
+nl|'\n'
 DECL|class|SimpleScheduler
 name|'class'
 name|'SimpleScheduler'
