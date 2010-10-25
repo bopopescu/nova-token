@@ -173,10 +173,10 @@ name|'DEFINE_string'
 op|'('
 string|"'iscsi_ip_prefix'"
 op|','
-string|"'127.0.0'"
+string|"'127.0'"
 op|','
 nl|'\n'
-string|"'only connect to the specified ip'"
+string|"'discover volumes on the ip that starts with this prefix'"
 op|')'
 newline|'\n'
 nl|'\n'
@@ -522,6 +522,9 @@ op|')'
 op|':'
 newline|'\n'
 indent|'        '
+name|'yield'
+comment|'# NOTE(vish): stops deprecation warning'
+newline|'\n'
 name|'defer'
 op|'.'
 name|'returnValue'
@@ -1514,7 +1517,7 @@ name|'context'
 op|','
 name|'volume'
 op|'['
-string|"'name'"
+string|"'id'"
 op|']'
 op|')'
 newline|'\n'
@@ -1679,7 +1682,7 @@ name|'_get_name_and_portal'
 op|'('
 name|'volume'
 op|'['
-string|"'id'"
+string|"'name'"
 op|']'
 op|','
 nl|'\n'
