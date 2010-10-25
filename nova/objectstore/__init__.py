@@ -33,7 +33,7 @@ nl|'\n'
 comment|'#    under the License.'
 nl|'\n'
 nl|'\n'
-string|'"""\n:mod:`nova.objectstore` -- S3-type object store\n=====================================================\n\n.. automodule:: nova.objectstore\n   :platform: Unix\n   :synopsis: Currently a trivial file-based system, getting extended w/ mongo.\n.. moduleauthor:: Jesse Andrews <jesse@ansolabs.com>\n.. moduleauthor:: Devin Carlen <devin.carlen@gmail.com>\n.. moduleauthor:: Vishvananda Ishaya <vishvananda@yahoo.com>\n.. moduleauthor:: Joshua McKenty <joshua@cognition.ca>\n.. moduleauthor:: Manish Singh <yosh@gimp.org>\n.. moduleauthor:: Andy Smith <andy@anarkystic.com>\n"""'
+string|'"""\n:mod:`nova.objectstore` -- S3-type object store\n=====================================================\n\n.. automodule:: nova.objectstore\n   :platform: Unix\n   :synopsis: Currently a trivial file-based system, getting extended w/ swift.\n.. moduleauthor:: Jesse Andrews <jesse@ansolabs.com>\n.. moduleauthor:: Devin Carlen <devin.carlen@gmail.com>\n.. moduleauthor:: Vishvananda Ishaya <vishvananda@yahoo.com>\n.. moduleauthor:: Joshua McKenty <joshua@cognition.ca>\n.. moduleauthor:: Manish Singh <yosh@gimp.org>\n.. moduleauthor:: Andy Smith <andy@anarkystic.com>\n"""'
 newline|'\n'
 endmarker|''
 end_unit

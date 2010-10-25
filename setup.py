@@ -194,7 +194,7 @@ op|','
 nl|'\n'
 name|'version'
 op|'='
-string|"'0.9.1'"
+string|"'2010.1'"
 op|','
 nl|'\n'
 name|'description'
@@ -267,7 +267,7 @@ nl|'\n'
 string|"'bin/nova-objectstore'"
 op|','
 nl|'\n'
-string|"'bin/nova-api-new'"
+string|"'bin/nova-scheduler'"
 op|','
 nl|'\n'
 string|"'bin/nova-volume'"

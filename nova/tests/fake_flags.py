@@ -51,16 +51,16 @@ name|'flags'
 op|'.'
 name|'DECLARE'
 op|'('
-string|"'fake_storage'"
+string|"'volume_driver'"
 op|','
 string|"'nova.volume.manager'"
 op|')'
 newline|'\n'
 name|'FLAGS'
 op|'.'
-name|'fake_storage'
+name|'volume_driver'
 op|'='
-name|'True'
+string|"'nova.volume.driver.FakeAOEDriver'"
 newline|'\n'
 name|'FLAGS'
 op|'.'
@@ -78,7 +78,7 @@ name|'FLAGS'
 op|'.'
 name|'auth_driver'
 op|'='
-string|"'nova.auth.ldapdriver.FakeLdapDriver'"
+string|"'nova.auth.dbdriver.DbDriver'"
 newline|'\n'
 name|'flags'
 op|'.'
@@ -167,7 +167,5 @@ name|'sql_connection'
 op|'='
 string|"'sqlite:///nova.sqlite'"
 newline|'\n'
-comment|"#FLAGS.sql_connection = 'mysql://root@localhost/test'"
-nl|'\n'
 endmarker|''
 end_unit
