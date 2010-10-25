@@ -1429,7 +1429,6 @@ name|'ec2_id'
 newline|'\n'
 nl|'\n'
 nl|'\n'
-nl|'\n'
 DECL|class|Quota
 dedent|''
 dedent|''
