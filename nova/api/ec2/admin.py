@@ -58,6 +58,7 @@ name|'import'
 name|'manager'
 newline|'\n'
 nl|'\n'
+nl|'\n'
 DECL|function|user_dict
 name|'def'
 name|'user_dict'
