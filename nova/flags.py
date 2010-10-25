@@ -1321,7 +1321,7 @@ name|'DEFINE_string'
 op|'('
 string|"'volume_manager'"
 op|','
-string|"'nova.volume.manager.AOEManager'"
+string|"'nova.volume.manager.VolumeManager'"
 op|','
 nl|'\n'
 string|"'Manager for volume'"
