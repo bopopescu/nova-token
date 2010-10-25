@@ -62,6 +62,7 @@ op|'.'
 name|'service'
 newline|'\n'
 nl|'\n'
+nl|'\n'
 DECL|class|Controller
 name|'class'
 name|'Controller'

@@ -121,8 +121,6 @@ nl|'\n'
 name|'CRASHED'
 op|':'
 string|"'crashed'"
-op|','
-nl|'\n'
 op|'}'
 newline|'\n'
 name|'return'

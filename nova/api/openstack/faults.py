@@ -238,7 +238,7 @@ op|']'
 op|'='
 name|'retry'
 newline|'\n'
-comment|"# 'code' is an attribute on the fault tag itself "
+comment|"# 'code' is an attribute on the fault tag itself"
 nl|'\n'
 dedent|''
 name|'metadata'

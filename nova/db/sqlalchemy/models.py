@@ -586,9 +586,7 @@ comment|"#    __tablename__ = 'hosts'"
 nl|'\n'
 comment|'#    id = Column(String(255), primary_key=True)'
 nl|'\n'
-comment|'#'
 nl|'\n'
-comment|'#'
 nl|'\n'
 DECL|class|Service
 dedent|''
@@ -1509,6 +1507,7 @@ op|','
 string|'"blade_id"'
 op|')'
 op|','
+nl|'\n'
 op|'{'
 string|"'mysql_engine'"
 op|':'
@@ -1749,17 +1748,23 @@ nl|'\n'
 DECL|variable|primaryjoin
 name|'primaryjoin'
 op|'='
-string|'"and_(SecurityGroup.id == SecurityGroupInstanceAssociation.security_group_id,"'
+string|"'and_('"
 nl|'\n'
-string|'"SecurityGroup.deleted == False)"'
+string|"'SecurityGroup.id == '"
+nl|'\n'
+string|"'SecurityGroupInstanceAssociation.security_group_id,'"
+nl|'\n'
+string|"'SecurityGroup.deleted == False)'"
 op|','
 nl|'\n'
 DECL|variable|secondaryjoin
 name|'secondaryjoin'
 op|'='
-string|'"and_(SecurityGroupInstanceAssociation.instance_id == Instance.id,"'
+string|"'and_('"
 nl|'\n'
-string|'"Instance.deleted == False)"'
+string|"'SecurityGroupInstanceAssociation.instance_id == Instance.id,'"
+nl|'\n'
+string|"'Instance.deleted == False)'"
 op|','
 nl|'\n'
 DECL|variable|backref
@@ -1896,9 +1901,11 @@ nl|'\n'
 DECL|variable|primaryjoin
 name|'primaryjoin'
 op|'='
-string|'"and_(SecurityGroupIngressRule.parent_group_id == SecurityGroup.id,"'
+string|"'and_('"
 nl|'\n'
-string|'"SecurityGroupIngressRule.deleted == False)"'
+string|"'SecurityGroupIngressRule.parent_group_id == SecurityGroup.id,'"
+nl|'\n'
+string|"'SecurityGroupIngressRule.deleted == False)'"
 op|')'
 newline|'\n'
 nl|'\n'
@@ -2487,9 +2494,11 @@ nl|'\n'
 DECL|variable|primaryjoin
 name|'primaryjoin'
 op|'='
-string|"'and_(FixedIp.instance_id==Instance.id,'"
+string|"'and_('"
 nl|'\n'
-string|"'FixedIp.deleted==False)'"
+string|"'FixedIp.instance_id == Instance.id,'"
+nl|'\n'
+string|"'FixedIp.deleted == False)'"
 op|')'
 newline|'\n'
 DECL|variable|allocated
@@ -3005,7 +3014,6 @@ op|')'
 newline|'\n'
 nl|'\n'
 nl|'\n'
-nl|'\n'
 DECL|class|FloatingIp
 dedent|''
 name|'class'
@@ -3091,9 +3099,11 @@ nl|'\n'
 DECL|variable|primaryjoin
 name|'primaryjoin'
 op|'='
-string|"'and_(FloatingIp.fixed_ip_id==FixedIp.id,'"
+string|"'and_('"
 nl|'\n'
-string|"'FloatingIp.deleted==False)'"
+string|"'FloatingIp.fixed_ip_id == FixedIp.id,'"
+nl|'\n'
+string|"'FloatingIp.deleted == False)'"
 op|')'
 newline|'\n'
 DECL|variable|project_id
