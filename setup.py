@@ -271,6 +271,9 @@ string|"'bin/nova-scheduler'"
 op|','
 nl|'\n'
 string|"'bin/nova-volume'"
+op|','
+nl|'\n'
+string|"'tools/nova-debug'"
 op|']'
 op|')'
 newline|'\n'
