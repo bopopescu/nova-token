@@ -147,7 +147,7 @@ name|'flags'
 op|'.'
 name|'DECLARE'
 op|'('
-string|"'iscsi_target_ids'"
+string|"'iscsi_num_targets'"
 op|','
 string|"'nova.volume.driver'"
 op|')'
@@ -166,7 +166,7 @@ number|'4'
 newline|'\n'
 name|'FLAGS'
 op|'.'
-name|'iscsi_target_ids'
+name|'iscsi_num_targets'
 op|'='
 number|'8'
 newline|'\n'
