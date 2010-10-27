@@ -49,7 +49,7 @@ name|'path'
 op|'.'
 name|'abspath'
 op|'('
-string|"'../nova'"
+string|"'../../'"
 op|')'
 op|','
 name|'os'
@@ -58,16 +58,7 @@ name|'path'
 op|'.'
 name|'abspath'
 op|'('
-string|"'..'"
-op|')'
-op|','
-name|'os'
-op|'.'
-name|'path'
-op|'.'
-name|'abspath'
-op|'('
-string|"'../bin'"
+string|"'../../bin'"
 op|')'
 op|']'
 op|')'
