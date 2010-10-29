@@ -32,7 +32,7 @@ comment|'#    License for the specific language governing permissions and limita
 nl|'\n'
 comment|'#    under the License.'
 nl|'\n'
-string|'"""\nDefines interface for DB access.\n"""'
+string|'"""\nDefines interface for DB access.\n\nThe underlying driver is loaded as a :class:`LazyPluggable`.\n\n**Related Flags**\n\n:db_backend:  string to lookup in the list of LazyPluggable backends.\n              `sqlalchemy` is the only supported backend right now.\n\n:sql_connection:  string specifying the sqlalchemy connection to use, like:\n                  `sqlite:///var/lib/nova/nova.sqlite`.\n"""'
 newline|'\n'
 nl|'\n'
 name|'from'
