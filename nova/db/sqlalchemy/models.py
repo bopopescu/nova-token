@@ -2436,7 +2436,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""Represents an authorization token for all API transactions.\n    \n    Fields are a string representing the actual token and a user id for\n    mapping to the actual user\n    \n    """'
+string|'"""Represents an authorization token for all API transactions.\n\n    Fields are a string representing the actual token and a user id for\n    mapping to the actual user\n\n    """'
 newline|'\n'
 DECL|variable|__tablename__
 name|'__tablename__'
