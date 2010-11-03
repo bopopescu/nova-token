@@ -278,7 +278,7 @@ nl|'\n'
 DECL|variable|html_theme
 name|'html_theme'
 op|'='
-string|"'default'"
+string|"'sphinxdoc'"
 newline|'\n'
 nl|'\n'
 comment|'# Theme options are theme-specific and customize the look and feel of a theme'
