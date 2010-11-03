@@ -197,6 +197,7 @@ name|'api'
 op|'.'
 name|'API'
 op|'('
+string|"'os'"
 op|')'
 op|')'
 newline|'\n'
