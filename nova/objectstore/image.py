@@ -105,12 +105,7 @@ name|'DEFINE_string'
 op|'('
 string|"'images_path'"
 op|','
-name|'utils'
-op|'.'
-name|'abspath'
-op|'('
-string|"'../images'"
-op|')'
+string|"'$state_path/images'"
 op|','
 nl|'\n'
 string|"'path to decrypted images'"
