@@ -54,7 +54,28 @@ string|"'../../'"
 op|')'
 op|')'
 newline|'\n'
-nl|'\n'
+name|'sys'
+op|'.'
+name|'path'
+op|'.'
+name|'insert'
+op|'('
+number|'0'
+op|','
+string|"'../'"
+op|')'
+newline|'\n'
+name|'sys'
+op|'.'
+name|'path'
+op|'.'
+name|'insert'
+op|'('
+number|'0'
+op|','
+string|"'./'"
+op|')'
+newline|'\n'
 nl|'\n'
 comment|'# -- General configuration -----------------------------------------------------'
 nl|'\n'
@@ -71,7 +92,7 @@ string|"'sphinx.ext.autodoc'"
 op|','
 string|"'sphinx.ext.intersphinx'"
 op|','
-string|"'sphinx.ext.todo'"
+string|"'ext.nova_todo'"
 op|','
 string|"'sphinx.ext.coverage'"
 op|','
@@ -275,10 +296,17 @@ comment|'# The theme to use for HTML and HTML Help pages.  Major themes that com
 nl|'\n'
 comment|"# Sphinx are currently 'default' and 'sphinxdoc'."
 nl|'\n'
+DECL|variable|html_theme_path
+name|'html_theme_path'
+op|'='
+op|'['
+string|'"."'
+op|']'
+newline|'\n'
 DECL|variable|html_theme
 name|'html_theme'
 op|'='
-string|"'sphinxdoc'"
+string|"'_theme'"
 newline|'\n'
 nl|'\n'
 comment|'# Theme options are theme-specific and customize the look and feel of a theme'
