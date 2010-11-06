@@ -1071,7 +1071,16 @@ string|"'s3_host'"
 op|','
 string|"'127.0.0.1'"
 op|','
-string|"'s3 host'"
+string|"'s3 host (for infrastructure)'"
+op|')'
+newline|'\n'
+name|'DEFINE_string'
+op|'('
+string|"'s3_dmz'"
+op|','
+string|"'127.0.0.1'"
+op|','
+string|"'s3 dmz ip (for instances)'"
 op|')'
 newline|'\n'
 name|'DEFINE_string'
@@ -1200,7 +1209,16 @@ string|"'cc_host'"
 op|','
 string|"'127.0.0.1'"
 op|','
-string|"'ip of api server'"
+string|"'ip of api server (for infrastructure'"
+op|')'
+newline|'\n'
+name|'DEFINE_string'
+op|'('
+string|"'cc_dmz'"
+op|','
+string|"'127.0.0.1'"
+op|','
+string|"'ip of api server (for instances)'"
 op|')'
 newline|'\n'
 name|'DEFINE_integer'
@@ -1268,7 +1286,7 @@ name|'DEFINE_string'
 op|'('
 string|"'vpn_image_id'"
 op|','
-string|"'ami-CLOUDPIPE'"
+string|"'ami-cloudpipe'"
 op|','
 string|"'AMI for cloudpipe vpn server'"
 op|')'
@@ -1278,10 +1296,10 @@ op|'('
 string|"'vpn_key_suffix'"
 op|','
 nl|'\n'
-string|"'-key'"
+string|"'-vpn'"
 op|','
 nl|'\n'
-string|"'Suffix to add to project name for vpn key'"
+string|"'Suffix to add to project name for vpn key and secgroups'"
 op|')'
 newline|'\n'
 nl|'\n'
