@@ -113,10 +113,10 @@ op|','
 string|"'sphinx.ext.pngmath'"
 op|','
 string|"'sphinx.ext.ifconfig'"
+op|','
+string|"'ext.nova_autodoc'"
 op|']'
 newline|'\n'
-comment|"#extensions = ['sphinx.ext.autodoc', 'sphinx.ext.intersphinx', 'sphinx.ext.coverage', 'sphinx.ext.pngmath', 'sphinx.ext.ifconfig']"
-nl|'\n'
 DECL|variable|todo_include_todos
 name|'todo_include_todos'
 op|'='
