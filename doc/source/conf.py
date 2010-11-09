@@ -99,6 +99,8 @@ op|','
 string|"'sphinx.ext.pngmath'"
 op|','
 string|"'sphinx.ext.ifconfig'"
+op|','
+string|"'sphinx.ext.graphviz'"
 op|']'
 newline|'\n'
 DECL|variable|todo_include_todos
