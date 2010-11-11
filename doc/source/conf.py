@@ -115,8 +115,6 @@ op|','
 string|"'sphinx.ext.ifconfig'"
 op|','
 string|"'sphinx.ext.graphviz'"
-op|','
-string|"'ext.nova_autodoc'"
 op|']'
 newline|'\n'
 DECL|variable|todo_include_todos
