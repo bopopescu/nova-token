@@ -99,7 +99,6 @@ nl|'\n'
 comment|"# coming with Sphinx (named 'sphinx.ext.*') or your custom ones."
 nl|'\n'
 DECL|variable|extensions
-indent|' '
 name|'extensions'
 op|'='
 op|'['
@@ -122,7 +121,6 @@ op|']'
 newline|'\n'
 nl|'\n'
 DECL|variable|todo_include_todos
-dedent|''
 name|'todo_include_todos'
 op|'='
 name|'True'
