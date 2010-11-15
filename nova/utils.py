@@ -1411,6 +1411,7 @@ name|'return'
 name|'value'
 newline|'\n'
 nl|'\n'
+nl|'\n'
 DECL|function|fix_wsgify_docstr
 dedent|''
 name|'def'
