@@ -180,6 +180,7 @@ name|'api'
 op|'.'
 name|'API'
 op|'('
+string|"'ec2'"
 op|')'
 op|')'
 newline|'\n'
