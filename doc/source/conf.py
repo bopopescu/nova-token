@@ -98,7 +98,6 @@ comment|'# Add any Sphinx extension module names here, as strings. They can be e
 nl|'\n'
 comment|"# coming with Sphinx (named 'sphinx.ext.*') or your custom ones."
 nl|'\n'
-comment|"# extensions = ['sphinx.ext.autodoc', 'sphinx.ext.intersphinx', 'ext.nova_todo', 'sphinx.ext.coverage', 'sphinx.ext.pngmath', 'sphinx.ext.ifconfig','sphinx.ext.graphviz', 'ext.nova_autodoc']"
 nl|'\n'
 DECL|variable|extensions
 name|'extensions'
@@ -120,7 +119,30 @@ string|"'sphinx.ext.graphviz'"
 op|']'
 newline|'\n'
 nl|'\n'
+comment|'# autodoc generation is a bit aggressive and a nuisance when doing heavy text edit cycles.'
+nl|'\n'
+comment|'# execute "export SPHINX_DEBUG=1" in your terminal to disable'
+nl|'\n'
+name|'if'
+name|'not'
+name|'os'
+op|'.'
+name|'getenv'
+op|'('
+string|"'SPHINX_DEBUG'"
+op|')'
+op|':'
+newline|'\n'
+indent|'    '
+name|'extensions'
+op|'+='
+op|'['
+string|"'ext.nova_autodoc'"
+op|']'
+newline|'\n'
+nl|'\n'
 DECL|variable|todo_include_todos
+dedent|''
 name|'todo_include_todos'
 op|'='
 name|'True'
