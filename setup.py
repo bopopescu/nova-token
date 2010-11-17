@@ -194,7 +194,7 @@ op|','
 nl|'\n'
 name|'version'
 op|'='
-string|"'2010.1'"
+string|"'2011.1'"
 op|','
 nl|'\n'
 name|'description'
