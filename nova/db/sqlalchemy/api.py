@@ -2135,7 +2135,7 @@ name|'exception'
 op|'.'
 name|'NotFound'
 op|'('
-string|"'No fixed ip for address %s'"
+string|"'No floating ip for address %s'"
 op|'%'
 name|'address'
 op|')'
