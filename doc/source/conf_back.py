@@ -345,7 +345,7 @@ nl|'\n'
 op|'('
 string|"'man/novamanage'"
 op|','
-string|"'novamanage'"
+string|"'nova-manage'"
 op|','
 string|"u'Cloud controller fabric'"
 op|','
