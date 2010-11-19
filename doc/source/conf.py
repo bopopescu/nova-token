@@ -329,6 +329,36 @@ string|"'nova.'"
 op|']'
 newline|'\n'
 nl|'\n'
+comment|'# -- Options for man page output -----------------------------------------------'
+nl|'\n'
+nl|'\n'
+comment|'# Grouping the document tree for man pages. '
+nl|'\n'
+comment|"# List of tuples 'sourcefile', 'target', u'title', u'Authors name', 'manual'"
+nl|'\n'
+nl|'\n'
+DECL|variable|man_pages
+name|'man_pages'
+op|'='
+op|'['
+nl|'\n'
+op|'('
+string|"'man/novamanage'"
+op|','
+string|"'novamanage'"
+op|','
+string|"u'Cloud controller fabric'"
+op|','
+nl|'\n'
+op|'['
+string|"u'OpenStack'"
+op|']'
+op|','
+number|'1'
+op|')'
+nl|'\n'
+op|']'
+newline|'\n'
 nl|'\n'
 comment|'# -- Options for HTML output ---------------------------------------------------'
 nl|'\n'
