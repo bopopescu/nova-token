@@ -149,6 +149,7 @@ string|"'image_id'"
 op|':'
 name|'image_id'
 op|','
+nl|'\n'
 string|"'operation'"
 op|':'
 name|'operation'
