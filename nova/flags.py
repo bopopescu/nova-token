@@ -1185,6 +1185,24 @@ op|','
 string|"'rabbit virtual host'"
 op|')'
 newline|'\n'
+name|'DEFINE_integer'
+op|'('
+string|"'rabbit_retry_interval'"
+op|','
+number|'10'
+op|','
+string|"'rabbit connection retry interval'"
+op|')'
+newline|'\n'
+name|'DEFINE_integer'
+op|'('
+string|"'rabbit_max_retries'"
+op|','
+number|'12'
+op|','
+string|"'rabbit connection attempts'"
+op|')'
+newline|'\n'
 name|'DEFINE_string'
 op|'('
 string|"'control_exchange'"
