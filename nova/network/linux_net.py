@@ -151,12 +151,12 @@ name|'flags'
 op|'.'
 name|'DEFINE_string'
 op|'('
-string|"'bridge_dev'"
+string|"'vlan_interface'"
 op|','
-name|'None'
+string|"'eth0'"
 op|','
 nl|'\n'
-string|"'network device for bridges'"
+string|"'network device for vlans'"
 op|')'
 newline|'\n'
 name|'flags'
@@ -676,7 +676,7 @@ op|'%'
 op|'('
 name|'FLAGS'
 op|'.'
-name|'bridge_dev'
+name|'vlan_interface'
 op|','
 name|'vlan_num'
 op|')'
