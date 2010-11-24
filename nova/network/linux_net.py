@@ -229,6 +229,7 @@ op|')'
 op|']'
 newline|'\n'
 nl|'\n'
+nl|'\n'
 DECL|function|metadata_forward
 name|'def'
 name|'metadata_forward'
