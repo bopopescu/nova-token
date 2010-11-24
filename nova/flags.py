@@ -774,6 +774,25 @@ name|'FlagValues'
 op|'('
 op|')'
 newline|'\n'
+name|'gflags'
+op|'.'
+name|'FLAGS'
+op|'='
+name|'FLAGS'
+newline|'\n'
+name|'gflags'
+op|'.'
+name|'DEFINE_flag'
+op|'('
+name|'gflags'
+op|'.'
+name|'HelpFlag'
+op|'('
+op|')'
+op|','
+name|'FLAGS'
+op|')'
+newline|'\n'
 nl|'\n'
 nl|'\n'
 DECL|function|_wrapper
@@ -1037,6 +1056,24 @@ op|','
 string|"'libvirt, xenapi or fake'"
 op|')'
 newline|'\n'
+name|'DEFINE_string'
+op|'('
+string|"'aws_access_key_id'"
+op|','
+string|"'admin'"
+op|','
+string|"'AWS Access ID'"
+op|')'
+newline|'\n'
+name|'DEFINE_string'
+op|'('
+string|"'aws_secret_access_key'"
+op|','
+string|"'admin'"
+op|','
+string|"'AWS Access Key'"
+op|')'
+newline|'\n'
 name|'DEFINE_integer'
 op|'('
 string|"'s3_port'"
@@ -1164,6 +1201,24 @@ op|','
 string|"'/'"
 op|','
 string|"'rabbit virtual host'"
+op|')'
+newline|'\n'
+name|'DEFINE_integer'
+op|'('
+string|"'rabbit_retry_interval'"
+op|','
+number|'10'
+op|','
+string|"'rabbit connection retry interval'"
+op|')'
+newline|'\n'
+name|'DEFINE_integer'
+op|'('
+string|"'rabbit_max_retries'"
+op|','
+number|'12'
+op|','
+string|"'rabbit connection attempts'"
 op|')'
 newline|'\n'
 name|'DEFINE_string'
@@ -1321,7 +1376,7 @@ name|'DEFINE_string'
 op|'('
 string|"'volume_manager'"
 op|','
-string|"'nova.volume.manager.AOEManager'"
+string|"'nova.volume.manager.VolumeManager'"
 op|','
 nl|'\n'
 string|"'Manager for volume'"
@@ -1344,7 +1399,7 @@ name|'DEFINE_string'
 op|'('
 string|"'image_service'"
 op|','
-string|"'nova.image.service.LocalImageService'"
+string|"'nova.image.local.LocalImageService'"
 op|','
 nl|'\n'
 string|"'The service to use for retrieving and searching for images.'"
