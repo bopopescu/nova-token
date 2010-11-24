@@ -3616,7 +3616,7 @@ string|"'name'"
 op|':'
 name|'attr'
 op|'['
-string|"'uid'"
+string|"'cn'"
 op|']'
 op|'['
 number|'0'
