@@ -124,12 +124,7 @@ name|'DEFINE_string'
 op|'('
 string|"'networks_path'"
 op|','
-name|'utils'
-op|'.'
-name|'abspath'
-op|'('
-string|"'../networks'"
-op|')'
+string|"'$state_path/networks'"
 op|','
 nl|'\n'
 string|"'Location to keep network config files'"
