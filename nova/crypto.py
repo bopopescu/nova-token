@@ -32,8 +32,7 @@ comment|'#    License for the specific language governing permissions and limita
 nl|'\n'
 comment|'#    under the License.'
 nl|'\n'
-nl|'\n'
-string|'"""\nWrappers around standard crypto, including root and project CAs,\nSSH key_pairs and x509 certificates.\n"""'
+string|'"""\nWrappers around standard crypto data elements.\n\nIncludes root and intermediate CAs, SSH key_pairs and x509 certificates.\n"""'
 newline|'\n'
 nl|'\n'
 name|'import'
@@ -143,12 +142,7 @@ name|'DEFINE_string'
 op|'('
 string|"'keys_path'"
 op|','
-name|'utils'
-op|'.'
-name|'abspath'
-op|'('
-string|"'../keys'"
-op|')'
+string|"'$state_path/keys'"
 op|','
 nl|'\n'
 string|"'Where we keep our keys'"
@@ -160,12 +154,7 @@ name|'DEFINE_string'
 op|'('
 string|"'ca_path'"
 op|','
-name|'utils'
-op|'.'
-name|'abspath'
-op|'('
-string|"'../CA'"
-op|')'
+string|"'$state_path/CA'"
 op|','
 nl|'\n'
 string|"'Where we keep our root CA'"
@@ -2095,7 +2084,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""\n    @type fp: file\n    @param fp: File pointer to the file to MD5 hash.  The file pointer will be\n               reset to the beginning of the file before the method returns.\n\n    @rtype: tuple\n    @return: the hex digest version of the MD5 hash\n    """'
+string|'"""\n    :type fp: file\n    :param fp: File pointer to the file to MD5 hash.  The file pointer will be\n               reset to the beginning of the file before the method returns.\n\n    :rtype: tuple\n    :return: the hex digest version of the MD5 hash\n    """'
 newline|'\n'
 name|'m'
 op|'='

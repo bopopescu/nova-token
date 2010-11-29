@@ -138,7 +138,7 @@ name|'DEFINE_string'
 op|'('
 string|"'monitoring_rrd_path'"
 op|','
-string|"'/var/nova/monitor/instances'"
+string|"'$state_path/monitor/instances'"
 op|','
 nl|'\n'
 string|"'Location of RRD files'"
@@ -910,12 +910,16 @@ op|'('
 nl|'\n'
 name|'aws_access_key_id'
 op|'='
-string|"'admin'"
+name|'FLAGS'
+op|'.'
+name|'aws_access_key_id'
 op|','
 nl|'\n'
 name|'aws_secret_access_key'
 op|'='
-string|"'admin'"
+name|'FLAGS'
+op|'.'
+name|'aws_secret_access_key'
 op|','
 nl|'\n'
 name|'is_secure'
