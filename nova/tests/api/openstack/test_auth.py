@@ -485,7 +485,7 @@ string|"'X-Server-Management-Url'"
 op|']'
 op|','
 nl|'\n'
-string|'"https://foo/v1.0/"'
+string|'"http://foo/v1.0/"'
 op|')'
 newline|'\n'
 name|'self'
