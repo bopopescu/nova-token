@@ -409,6 +409,12 @@ op|'.'
 name|'blank'
 op|'('
 string|"'/v1.0/'"
+op|','
+op|'{'
+string|"'HTTP_HOST'"
+op|':'
+string|"'foo'"
+op|'}'
 op|')'
 newline|'\n'
 name|'req'
