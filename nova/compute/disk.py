@@ -600,10 +600,11 @@ name|'exception'
 op|'.'
 name|'Error'
 op|'('
+string|"'Mapped device was not found (we can'"
 nl|'\n'
-string|"'Mapped device was not found (we can only inject raw disk images): %s'"
-nl|'\n'
+string|"' only inject raw disk images): %s'"
 op|'%'
+nl|'\n'
 name|'mapped_device'
 op|')'
 newline|'\n'
