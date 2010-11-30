@@ -1454,7 +1454,7 @@ op|','
 string|"'aki-00000000'"
 op|','
 nl|'\n'
-string|"'kernel image that indicates not to use a kernel, '"
+string|"'kernel image that indicates not to use a kernel,'"
 nl|'\n'
 string|"' but to use a raw disk image instead'"
 op|')'

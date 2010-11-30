@@ -577,9 +577,9 @@ op|'='
 name|'device'
 newline|'\n'
 nl|'\n'
-comment|"# We can only loopback mount raw images.  If the device isn't there,"
+comment|"# We can only loopback mount raw images. If the device isn't there,"
 nl|'\n'
-comment|"#  it's normally because it's a .vmdk or a .vdi etc"
+comment|"# it's normally because it's a .vmdk or a .vdi etc"
 nl|'\n'
 dedent|''
 name|'if'
