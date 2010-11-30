@@ -103,12 +103,7 @@ name|'DEFINE_string'
 op|'('
 string|"'keys_path'"
 op|','
-name|'utils'
-op|'.'
-name|'abspath'
-op|'('
-string|"'../keys'"
-op|')'
+string|"'$state_path/keys'"
 op|','
 nl|'\n'
 string|"'Where we keep our keys'"
@@ -120,12 +115,7 @@ name|'DEFINE_string'
 op|'('
 string|"'ca_path'"
 op|','
-name|'utils'
-op|'.'
-name|'abspath'
-op|'('
-string|"'../CA'"
-op|')'
+string|"'$state_path/CA'"
 op|','
 nl|'\n'
 string|"'Where we keep our root CA'"

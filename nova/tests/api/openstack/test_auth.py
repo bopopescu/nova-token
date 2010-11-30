@@ -409,6 +409,12 @@ op|'.'
 name|'blank'
 op|'('
 string|"'/v1.0/'"
+op|','
+op|'{'
+string|"'HTTP_HOST'"
+op|':'
+string|"'foo'"
+op|'}'
 op|')'
 newline|'\n'
 name|'req'
@@ -485,7 +491,7 @@ string|"'X-Server-Management-Url'"
 op|']'
 op|','
 nl|'\n'
-string|'"https://foo/v1.0/"'
+string|'"http://foo/v1.0/"'
 op|')'
 newline|'\n'
 name|'self'

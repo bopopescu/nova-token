@@ -138,7 +138,7 @@ name|'DEFINE_string'
 op|'('
 string|"'monitoring_rrd_path'"
 op|','
-string|"'/var/nova/monitor/instances'"
+string|"'$state_path/monitor/instances'"
 op|','
 nl|'\n'
 string|"'Location of RRD files'"
