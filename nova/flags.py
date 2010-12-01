@@ -1451,7 +1451,7 @@ name|'DEFINE_string'
 op|'('
 string|"'null_kernel'"
 op|','
-string|"'aki-00000000'"
+string|"'nokernel'"
 op|','
 nl|'\n'
 string|"'kernel image that indicates not to use a kernel,'"
