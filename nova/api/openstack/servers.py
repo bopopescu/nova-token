@@ -301,7 +301,7 @@ string|"'instance_type'"
 op|','
 name|'name'
 op|'='
-string|"'server_name'"
+string|"'display_name'"
 op|','
 name|'id'
 op|'='
@@ -421,7 +421,7 @@ name|'name'
 op|'='
 name|'inst'
 op|'['
-string|"'server_name'"
+string|"'display_name'"
 op|']'
 op|')'
 op|')'
@@ -1487,19 +1487,6 @@ op|')'
 newline|'\n'
 nl|'\n'
 dedent|''
-name|'inst'
-op|'['
-string|"'server_name'"
-op|']'
-op|'='
-name|'env'
-op|'['
-string|"'server'"
-op|']'
-op|'['
-string|"'name'"
-op|']'
-newline|'\n'
 name|'inst'
 op|'['
 string|"'image_id'"
