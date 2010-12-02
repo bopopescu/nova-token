@@ -221,7 +221,7 @@ name|'image_id'
 op|'='
 number|'10'
 op|','
-name|'server_name'
+name|'display_name'
 op|'='
 string|"'server%s'"
 op|'%'

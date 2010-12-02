@@ -97,12 +97,7 @@ name|'DEFINE_string'
 op|'('
 string|"'instances_path'"
 op|','
-name|'utils'
-op|'.'
-name|'abspath'
-op|'('
-string|"'../instances'"
-op|')'
+string|"'$state_path/instances'"
 op|','
 nl|'\n'
 string|"'where instances are stored on disk'"

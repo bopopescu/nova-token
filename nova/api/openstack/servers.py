@@ -310,7 +310,7 @@ string|"'instance_type'"
 op|','
 name|'name'
 op|'='
-string|"'server_name'"
+string|"'display_name'"
 op|','
 name|'id'
 op|'='
@@ -430,7 +430,7 @@ name|'name'
 op|'='
 name|'inst'
 op|'['
-string|"'server_name'"
+string|"'display_name'"
 op|']'
 op|')'
 op|')'
