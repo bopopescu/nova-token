@@ -124,12 +124,7 @@ name|'DEFINE_string'
 op|'('
 string|"'networks_path'"
 op|','
-name|'utils'
-op|'.'
-name|'abspath'
-op|'('
-string|"'../networks'"
-op|')'
+string|"'$state_path/networks'"
 op|','
 nl|'\n'
 string|"'Location to keep network config files'"
@@ -172,6 +167,32 @@ op|')'
 op|','
 nl|'\n'
 string|"'location of nova-dhcpbridge'"
+op|')'
+newline|'\n'
+name|'flags'
+op|'.'
+name|'DEFINE_string'
+op|'('
+string|"'cc_host'"
+op|','
+name|'utils'
+op|'.'
+name|'get_my_ip'
+op|'('
+op|')'
+op|','
+string|"'ip of api server'"
+op|')'
+newline|'\n'
+name|'flags'
+op|'.'
+name|'DEFINE_integer'
+op|'('
+string|"'cc_port'"
+op|','
+number|'8773'
+op|','
+string|"'cloud controller port'"
 op|')'
 newline|'\n'
 name|'flags'
