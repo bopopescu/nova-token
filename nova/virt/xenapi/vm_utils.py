@@ -731,7 +731,7 @@ newline|'\n'
 dedent|''
 dedent|''
 name|'raise'
-name|'Exception'
+name|'StorageError'
 op|'('
 string|"'VBD not found in instance %s'"
 op|'%'
