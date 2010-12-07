@@ -28,19 +28,5 @@ comment|'#    License for the specific language governing permissions and limita
 nl|'\n'
 comment|'#    under the License.'
 nl|'\n'
-nl|'\n'
-string|'"""\nThis is loaded late so that there\'s no need to install this library\nwhen not using XenAPI\n"""'
-newline|'\n'
-nl|'\n'
-DECL|variable|XenAPI
-name|'XenAPI'
-op|'='
-name|'__import__'
-op|'('
-string|"'XenAPI'"
-op|')'
-newline|'\n'
-name|'global'
-name|'XenAPI'
 endmarker|''
 end_unit
