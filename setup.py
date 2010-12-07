@@ -74,6 +74,7 @@ op|','
 name|'str_dict_replace'
 newline|'\n'
 nl|'\n'
+nl|'\n'
 DECL|class|local_BuildDoc
 name|'class'
 name|'local_BuildDoc'
