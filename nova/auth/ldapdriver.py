@@ -68,7 +68,7 @@ name|'DEFINE_integer'
 op|'('
 string|"'ldap_schema_version'"
 op|','
-number|'1'
+number|'2'
 op|','
 nl|'\n'
 string|"'Current version of the LDAP schema'"
