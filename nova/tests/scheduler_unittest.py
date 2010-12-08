@@ -451,7 +451,7 @@ op|','
 nl|'\n'
 name|'volume_driver'
 op|'='
-string|"'nova.volume.driver.FakeAOEDriver'"
+string|"'nova.volume.driver.FakeISCSIDriver'"
 op|','
 nl|'\n'
 name|'scheduler_driver'
