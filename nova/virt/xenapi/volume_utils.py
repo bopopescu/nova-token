@@ -327,7 +327,7 @@ string|"'targetIQN'"
 op|':'
 name|'info'
 op|'['
-string|"'targeIQN'"
+string|"'targetIQN'"
 op|']'
 op|','
 nl|'\n'
@@ -376,7 +376,7 @@ string|"'targetIQN'"
 op|':'
 name|'info'
 op|'['
-string|"'targeIQN'"
+string|"'targetIQN'"
 op|']'
 nl|'\n'
 op|'}'
@@ -1181,7 +1181,7 @@ name|'target_port'
 newline|'\n'
 name|'volume_info'
 op|'['
-string|"'targeIQN'"
+string|"'targetIQN'"
 op|']'
 op|'='
 name|'target_iqn'
