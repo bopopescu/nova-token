@@ -479,7 +479,7 @@ name|'__find_object'
 op|'('
 name|'dn'
 op|','
-string|"'(objectclass=novaProject)'"
+string|"'(owner=*)'"
 op|')'
 newline|'\n'
 name|'return'
@@ -577,7 +577,7 @@ string|'"""Retrieve list of projects"""'
 newline|'\n'
 name|'pattern'
 op|'='
-string|"'(objectclass=novaProject)'"
+string|"'(owner=*)'"
 newline|'\n'
 name|'if'
 name|'uid'
@@ -1241,7 +1241,7 @@ op|'('
 string|"'objectclass'"
 op|','
 op|'['
-string|"'novaProject'"
+string|"'groupOfNames'"
 op|']'
 op|')'
 op|','
@@ -1265,7 +1265,7 @@ op|')'
 op|','
 nl|'\n'
 op|'('
-string|"'projectManager'"
+string|"'owner'"
 op|','
 op|'['
 name|'manager_dn'
@@ -1400,7 +1400,7 @@ name|'ldap'
 op|'.'
 name|'MOD_REPLACE'
 op|','
-string|"'projectManager'"
+string|"'owner'"
 op|','
 name|'manager_dn'
 op|')'
@@ -1843,7 +1843,7 @@ op|','
 nl|'\n'
 string|"'(&(&(objectclass=groupOfNames)'"
 nl|'\n'
-string|"'(!(objectclass=novaProject)))'"
+string|"'(!(owner=*)))'"
 nl|'\n'
 string|"'(member=%s))'"
 op|'%'
@@ -2626,7 +2626,7 @@ op|'('
 name|'tree'
 op|','
 nl|'\n'
-string|"'(&(objectclass=groupOfNames)(!(objectclass=novaProject)))'"
+string|"'(&(objectclass=groupOfNames)(!(owner=*)))'"
 op|')'
 newline|'\n'
 nl|'\n'
@@ -3760,7 +3760,7 @@ name|'__dn_to_uid'
 op|'('
 name|'attr'
 op|'['
-string|"'projectManager'"
+string|"'owner'"
 op|']'
 op|'['
 number|'0'
