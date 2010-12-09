@@ -217,7 +217,7 @@ string|"'display_name'"
 op|','
 name|'id'
 op|'='
-string|"'internal_id'"
+string|"'id'"
 op|')'
 newline|'\n'
 nl|'\n'
@@ -326,7 +326,7 @@ name|'id'
 op|'='
 name|'inst'
 op|'['
-string|"'internal_id'"
+string|"'id'"
 op|']'
 op|','
 name|'name'
