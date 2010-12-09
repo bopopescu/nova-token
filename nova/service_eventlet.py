@@ -1605,6 +1605,7 @@ nl|'\n'
 comment|'#    greenthread.sleep(5)'
 nl|'\n'
 nl|'\n'
+nl|'\n'
 DECL|function|wait
 dedent|''
 dedent|''
