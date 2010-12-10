@@ -102,7 +102,7 @@ op|'('
 string|"'xenapi_use_fake_session'"
 op|','
 nl|'\n'
-name|'True'
+name|'False'
 op|','
 nl|'\n'
 string|"'Set to true in order to use the fake XenAPI SDK'"
