@@ -1494,10 +1494,6 @@ comment|'#if not FLAGS.prefix:'
 nl|'\n'
 comment|'#    FLAGS.prefix = name'
 nl|'\n'
-comment|"#elif FLAGS.prefix.endswith('twisted'):"
-nl|'\n'
-comment|"#    FLAGS.prefix = FLAGS.prefix.replace('twisted', name)"
-nl|'\n'
 nl|'\n'
 dedent|''
 name|'action'
