@@ -203,7 +203,7 @@ op|'('
 string|"'iqn_prefix'"
 op|','
 nl|'\n'
-string|"'iqn.2010-10.org.openstack'"
+string|"'iqn.2010-12.org.openstack'"
 op|','
 nl|'\n'
 string|"'IQN Prefix'"

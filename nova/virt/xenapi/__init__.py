@@ -28,5 +28,8 @@ comment|'#    License for the specific language governing permissions and limita
 nl|'\n'
 comment|'#    under the License.'
 nl|'\n'
+nl|'\n'
+string|'"""\n:mod:`xenapi` -- Nova support for XenServer and XCP through XenAPI\n==================================================================\n"""'
+newline|'\n'
 endmarker|''
 end_unit
