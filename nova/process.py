@@ -114,6 +114,8 @@ comment|'#  capture both stdout and stderr, without odd stderr handling, and als
 nl|'\n'
 comment|'#  handle stdin'
 nl|'\n'
+nl|'\n'
+nl|'\n'
 DECL|class|BackRelayWithInput
 name|'class'
 name|'BackRelayWithInput'
