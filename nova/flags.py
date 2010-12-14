@@ -1401,26 +1401,6 @@ op|')'
 newline|'\n'
 name|'DEFINE_string'
 op|'('
-string|"'default_kernel'"
-op|','
-string|"'aki-11111'"
-op|','
-nl|'\n'
-string|"'default kernel to use, testing only'"
-op|')'
-newline|'\n'
-name|'DEFINE_string'
-op|'('
-string|"'default_ramdisk'"
-op|','
-string|"'ari-11111'"
-op|','
-nl|'\n'
-string|"'default ramdisk to use, testing only'"
-op|')'
-newline|'\n'
-name|'DEFINE_string'
-op|'('
 string|"'default_instance_type'"
 op|','
 string|"'m1.small'"
