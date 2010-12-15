@@ -1441,19 +1441,6 @@ nl|'\n'
 string|"' but to use a raw disk image instead'"
 op|')'
 newline|'\n'
-name|'DEFINE_string'
-op|'('
-string|"'null_kernel_pv'"
-op|','
-string|"'aki-00000001'"
-op|','
-nl|'\n'
-string|"'kernel image that indicates not to use a kernel, '"
-nl|'\n'
-string|"' but to use a raw disk image for a paravirtualized guest'"
-op|')'
-newline|'\n'
-nl|'\n'
 nl|'\n'
 name|'DEFINE_string'
 op|'('
