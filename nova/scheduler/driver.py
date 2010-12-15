@@ -78,6 +78,7 @@ string|"'maximum time since last checkin for up service'"
 op|')'
 newline|'\n'
 nl|'\n'
+nl|'\n'
 DECL|class|NoValidHost
 name|'class'
 name|'NoValidHost'
@@ -93,6 +94,7 @@ string|'"""There is no valid host for the command."""'
 newline|'\n'
 name|'pass'
 newline|'\n'
+nl|'\n'
 nl|'\n'
 DECL|class|Scheduler
 dedent|''

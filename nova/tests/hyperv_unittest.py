@@ -148,7 +148,7 @@ op|':'
 string|"'02:12:34:46:56:67'"
 op|','
 nl|'\n'
-string|"'vcpus'"
+string|"'vcpu'"
 op|':'
 number|'2'
 op|','
