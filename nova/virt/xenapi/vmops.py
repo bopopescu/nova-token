@@ -678,7 +678,6 @@ name|'call_xenapi'
 op|'('
 string|"'Async.VDI.destroy'"
 op|','
-nl|'\n'
 name|'vdi'
 op|')'
 newline|'\n'

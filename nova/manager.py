@@ -140,7 +140,7 @@ newline|'\n'
 indent|'        '
 string|'"""Tasks to be run at a periodic interval"""'
 newline|'\n'
-name|'return'
+name|'pass'
 newline|'\n'
 nl|'\n'
 DECL|member|init_host

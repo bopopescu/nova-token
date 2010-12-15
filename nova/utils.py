@@ -1554,7 +1554,7 @@ name|'logging'
 op|'.'
 name|'exception'
 op|'('
-string|"'hhmm'"
+string|"'in looping call'"
 op|')'
 newline|'\n'
 name|'done'
