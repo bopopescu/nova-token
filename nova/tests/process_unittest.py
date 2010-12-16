@@ -247,7 +247,7 @@ name|'pool'
 op|'.'
 name|'simple_execute'
 op|'('
-string|"'cat BAD_FILE'"
+string|"'LC_ALL=C cat BAD_FILE'"
 op|','
 name|'check_exit_code'
 op|'='
