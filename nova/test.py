@@ -191,6 +191,7 @@ name|'return'
 name|'_skipper'
 newline|'\n'
 nl|'\n'
+nl|'\n'
 DECL|class|TestCase
 dedent|''
 name|'class'
