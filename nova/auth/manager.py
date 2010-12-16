@@ -250,7 +250,9 @@ op|','
 string|"'%src'"
 op|','
 nl|'\n'
-string|"'Filename of rc in credentials zip'"
+string|"'Filename of rc in credentials zip, %s will be '"
+nl|'\n'
+string|"'replaced by name of the region (nova by default)'"
 op|')'
 newline|'\n'
 name|'flags'
