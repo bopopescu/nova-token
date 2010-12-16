@@ -673,8 +673,8 @@ number|'255'
 op|')'
 op|')'
 newline|'\n'
-DECL|variable|cpu
-name|'cpu'
+DECL|variable|vcpus
+name|'vcpus'
 op|'='
 name|'Column'
 op|'('
@@ -707,8 +707,8 @@ op|'-'
 number|'1'
 op|')'
 newline|'\n'
-DECL|variable|hdd_gb
-name|'hdd_gb'
+DECL|variable|local_gb
+name|'local_gb'
 op|'='
 name|'Column'
 op|'('

@@ -576,7 +576,7 @@ name|'int'
 op|'('
 name|'host_ref'
 op|'['
-string|"'cpu'"
+string|"'vcpus'"
 op|']'
 op|')'
 newline|'\n'
@@ -596,7 +596,7 @@ name|'int'
 op|'('
 name|'host_ref'
 op|'['
-string|"'hdd_gb'"
+string|"'local_gb'"
 op|']'
 op|')'
 newline|'\n'
@@ -809,11 +809,11 @@ dedent|''
 name|'h_resource'
 op|'='
 op|'{'
-string|"'cpu'"
+string|"'vcpus'"
 op|':'
 name|'host_ref'
 op|'['
-string|"'cpu'"
+string|"'vcpus'"
 op|']'
 op|','
 nl|'\n'
@@ -825,11 +825,11 @@ string|"'memory_mb'"
 op|']'
 op|','
 nl|'\n'
-string|"'hdd_gb'"
+string|"'local_gb'"
 op|':'
 name|'host_ref'
 op|'['
-string|"'hdd_gb'"
+string|"'local_gb'"
 op|']'
 op|'}'
 newline|'\n'
@@ -914,7 +914,7 @@ name|'project_ids'
 op|':'
 newline|'\n'
 indent|'            '
-name|'cpu'
+name|'vcpus'
 op|'='
 name|'db'
 op|'.'
@@ -965,15 +965,17 @@ name|'p_id'
 op|']'
 op|'='
 op|'{'
-string|"'cpu'"
+string|"'vcpus'"
 op|':'
-name|'cpu'
+name|'vcpus'
 op|','
+nl|'\n'
 string|"'memory_mb'"
 op|':'
 name|'mem'
 op|','
-string|"'hdd_gb'"
+nl|'\n'
+string|"'local_gb'"
 op|':'
 name|'hdd'
 op|'}'
