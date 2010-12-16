@@ -1488,6 +1488,7 @@ name|'Event'
 op|'('
 op|')'
 newline|'\n'
+nl|'\n'
 DECL|function|_inner
 name|'def'
 name|'_inner'
