@@ -4,7 +4,7 @@ nl|'\n'
 nl|'\n'
 comment|'# Copyright 2010 United States Government as represented by the'
 nl|'\n'
-comment|'# Administrator of the National Aeronautics and Space Administration. '
+comment|'# Administrator of the National Aeronautics and Space Administration.'
 nl|'\n'
 comment|'# All Rights Reserved.'
 nl|'\n'
@@ -74,55 +74,22 @@ comment|'# http://code.google.com/p/python-gflags/source/browse/trunk/gflags.py#
 nl|'\n'
 name|'DEFINE_string'
 op|'('
-string|"'admin_access_key'"
+string|"'region'"
 op|','
-string|"'admin'"
+string|"'nova'"
 op|','
-string|"'Access key for admin user'"
+string|"'Region to use'"
 op|')'
 newline|'\n'
 name|'DEFINE_string'
 op|'('
-string|"'admin_secret_key'"
+string|"'test_image'"
 op|','
-string|"'admin'"
+string|"'ami-tiny'"
 op|','
-string|"'Secret key for admin user'"
+string|"'Image to use for launch tests'"
 op|')'
 newline|'\n'
-name|'DEFINE_string'
-op|'('
-string|"'clc_ip'"
-op|','
-string|"'127.0.0.1'"
-op|','
-string|"'IP of cloud controller API'"
-op|')'
-newline|'\n'
-name|'DEFINE_string'
-op|'('
-string|"'bundle_kernel'"
-op|','
-string|"'openwrt-x86-vmlinuz'"
-op|','
-nl|'\n'
-string|"'Local kernel file to use for bundling tests'"
-op|')'
-newline|'\n'
-name|'DEFINE_string'
-op|'('
-string|"'bundle_image'"
-op|','
-string|"'openwrt-x86-ext2.image'"
-op|','
-nl|'\n'
-string|"'Local image file to use for bundling tests'"
-op|')'
-newline|'\n'
-comment|"#DEFINE_string('vpn_image_id', 'ami-CLOUDPIPE',"
-nl|'\n'
-comment|"#                    'AMI for cloudpipe vpn server')"
-nl|'\n'
 nl|'\n'
 endmarker|''
 end_unit

@@ -173,6 +173,21 @@ name|'flags'
 op|'.'
 name|'DEFINE_string'
 op|'('
+string|"'cc_host'"
+op|','
+name|'utils'
+op|'.'
+name|'get_my_ip'
+op|'('
+op|')'
+op|','
+string|"'ip of api server'"
+op|')'
+newline|'\n'
+name|'flags'
+op|'.'
+name|'DEFINE_string'
+op|'('
 string|"'routing_source_ip'"
 op|','
 string|"'127.0.0.1'"
