@@ -56,6 +56,11 @@ name|'import'
 name|'gflags'
 newline|'\n'
 nl|'\n'
+name|'from'
+name|'nova'
+name|'import'
+name|'utils'
+newline|'\n'
 nl|'\n'
 DECL|class|FlagValues
 name|'class'
@@ -1269,7 +1274,11 @@ name|'DEFINE_string'
 op|'('
 string|"'s3_host'"
 op|','
-string|"'127.0.0.1'"
+name|'utils'
+op|'.'
+name|'get_my_ip'
+op|'('
+op|')'
 op|','
 string|"'s3 host (for infrastructure)'"
 op|')'
@@ -1278,7 +1287,11 @@ name|'DEFINE_string'
 op|'('
 string|"'s3_dmz'"
 op|','
-string|"'127.0.0.1'"
+name|'utils'
+op|'.'
+name|'get_my_ip'
+op|'('
+op|')'
 op|','
 string|"'s3 dmz ip (for instances)'"
 op|')'
@@ -1423,11 +1436,37 @@ op|')'
 newline|'\n'
 name|'DEFINE_string'
 op|'('
+string|"'ec2_prefix'"
+op|','
+string|"'http'"
+op|','
+string|"'prefix for ec2'"
+op|')'
+newline|'\n'
+name|'DEFINE_string'
+op|'('
+string|"'cc_host'"
+op|','
+name|'utils'
+op|'.'
+name|'get_my_ip'
+op|'('
+op|')'
+op|','
+string|"'ip of api server'"
+op|')'
+newline|'\n'
+name|'DEFINE_string'
+op|'('
 string|"'cc_dmz'"
 op|','
-string|"'127.0.0.1'"
+name|'utils'
+op|'.'
+name|'get_my_ip'
+op|'('
+op|')'
 op|','
-string|"'ip of api server (for instances)'"
+string|"'internal ip of api server'"
 op|')'
 newline|'\n'
 name|'DEFINE_integer'
@@ -1441,12 +1480,11 @@ op|')'
 newline|'\n'
 name|'DEFINE_string'
 op|'('
-string|"'ec2_url'"
+string|"'ec2_suffix'"
 op|','
-string|"'http://127.0.0.1:8773/services/Cloud'"
+string|"'/services/Cloud'"
 op|','
-nl|'\n'
-string|"'Url to ec2 api server'"
+string|"'suffix for ec2'"
 op|')'
 newline|'\n'
 nl|'\n'
