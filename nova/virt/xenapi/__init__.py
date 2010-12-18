@@ -37,6 +37,7 @@ DECL|class|HelperBase
 name|'class'
 name|'HelperBase'
 op|'('
+name|'object'
 op|')'
 op|':'
 newline|'\n'
