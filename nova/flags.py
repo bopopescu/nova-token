@@ -1274,6 +1274,33 @@ op|','
 string|"'s3 host'"
 op|')'
 newline|'\n'
+name|'DEFINE_integer'
+op|'('
+string|"'glance_port'"
+op|','
+number|'9292'
+op|','
+string|"'glance port'"
+op|')'
+newline|'\n'
+name|'DEFINE_string'
+op|'('
+string|"'glance_host'"
+op|','
+string|"'127.0.0.1'"
+op|','
+string|"'glance host'"
+op|')'
+newline|'\n'
+name|'DEFINE_string'
+op|'('
+string|"'glance_storage_location'"
+op|','
+string|"'swift://username:api_key@auth.api.rackspacecloud.com/v1.0/cloudservers'"
+op|','
+string|"'glance storage location'"
+op|')'
+newline|'\n'
 name|'DEFINE_string'
 op|'('
 string|"'compute_topic'"
