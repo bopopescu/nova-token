@@ -282,6 +282,7 @@ name|'id'
 op|')'
 newline|'\n'
 nl|'\n'
+nl|'\n'
 DECL|function|fake_compute_api
 dedent|''
 name|'def'
