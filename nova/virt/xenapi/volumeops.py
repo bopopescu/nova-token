@@ -81,6 +81,7 @@ newline|'\n'
 indent|'    '
 string|'"""\n    Management class for Volume-related tasks\n    """'
 newline|'\n'
+nl|'\n'
 DECL|member|__init__
 name|'def'
 name|'__init__'

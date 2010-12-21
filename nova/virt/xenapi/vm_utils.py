@@ -165,6 +165,7 @@ newline|'\n'
 indent|'    '
 string|'"""\n    The class that wraps the helper methods together.\n    """'
 newline|'\n'
+nl|'\n'
 DECL|member|__init__
 name|'def'
 name|'__init__'
