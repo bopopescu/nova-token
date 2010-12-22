@@ -89,12 +89,7 @@ name|'DEFINE_string'
 op|'('
 string|"'buckets_path'"
 op|','
-name|'utils'
-op|'.'
-name|'abspath'
-op|'('
-string|"'../buckets'"
-op|')'
+string|"'$state_path/buckets'"
 op|','
 nl|'\n'
 string|"'path to s3 buckets'"
@@ -390,7 +385,7 @@ name|'path'
 op|')'
 op|':'
 newline|'\n'
-indent|'                '
+indent|'            '
 name|'raise'
 name|'exception'
 op|'.'
