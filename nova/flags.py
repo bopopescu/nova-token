@@ -1281,7 +1281,6 @@ name|'get_my_ip'
 op|'('
 op|')'
 op|','
-op|','
 string|"'glance host'"
 op|')'
 newline|'\n'
