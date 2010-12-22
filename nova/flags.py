@@ -1435,32 +1435,24 @@ op|')'
 newline|'\n'
 name|'DEFINE_string'
 op|'('
-string|"'default_kernel'"
-op|','
-string|"'aki-11111'"
-op|','
-nl|'\n'
-string|"'default kernel to use, testing only'"
-op|')'
-newline|'\n'
-name|'DEFINE_string'
-op|'('
-string|"'default_ramdisk'"
-op|','
-string|"'ari-11111'"
-op|','
-nl|'\n'
-string|"'default ramdisk to use, testing only'"
-op|')'
-newline|'\n'
-name|'DEFINE_string'
-op|'('
 string|"'default_instance_type'"
 op|','
 string|"'m1.small'"
 op|','
 nl|'\n'
 string|"'default instance type to use, testing only'"
+op|')'
+newline|'\n'
+name|'DEFINE_string'
+op|'('
+string|"'null_kernel'"
+op|','
+string|"'nokernel'"
+op|','
+nl|'\n'
+string|"'kernel image that indicates not to use a kernel,'"
+nl|'\n'
+string|"' but to use a raw disk image instead'"
 op|')'
 newline|'\n'
 nl|'\n'
