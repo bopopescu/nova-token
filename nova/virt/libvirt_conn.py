@@ -266,19 +266,6 @@ nl|'\n'
 string|"'Whether to allow in project network traffic'"
 op|')'
 newline|'\n'
-name|'flags'
-op|'.'
-name|'DEFINE_string'
-op|'('
-string|"'console_dmz'"
-op|','
-nl|'\n'
-string|"'tonbuntu:8000'"
-op|','
-nl|'\n'
-string|"'location of console proxy'"
-op|')'
-newline|'\n'
 nl|'\n'
 nl|'\n'
 DECL|function|get_connection
@@ -2656,20 +2643,24 @@ name|'True'
 op|')'
 newline|'\n'
 name|'return'
-string|"'http://%s/?token=%s&host=%s&port=%s'"
-op|'%'
-op|'('
-name|'FLAGS'
-op|'.'
-name|'console_dmz'
-op|','
+op|'{'
+string|"'token'"
+op|':'
 name|'token'
 op|','
+string|"'host'"
+op|':'
 name|'host'
 op|','
+string|"'port'"
+op|':'
 name|'port'
-op|')'
+op|'}'
 newline|'\n'
+comment|"#return 'http://%s/?token=%s&host=%s&port=%s' \\"
+nl|'\n'
+comment|'#       % (FLAGS.console_dmz, token, host, port)'
+nl|'\n'
 nl|'\n'
 DECL|member|_create_image
 dedent|''

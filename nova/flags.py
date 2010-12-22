@@ -1313,12 +1313,23 @@ op|')'
 newline|'\n'
 name|'DEFINE_string'
 op|'('
-string|"'ajax_proxy_topic'"
+string|"'ajax_console_proxy_topic'"
 op|','
 string|"'ajax_proxy'"
 op|','
 nl|'\n'
 string|"'the topic ajax proxy nodes listen on'"
+op|')'
+newline|'\n'
+name|'DEFINE_string'
+op|'('
+string|"'ajax_console_proxy_url'"
+op|','
+nl|'\n'
+string|"'http://tonbuntu:8000'"
+op|','
+nl|'\n'
+string|'\'location of ajax console proxy, in the form "http://tonbuntu:8000"\''
 op|')'
 newline|'\n'
 name|'DEFINE_bool'
