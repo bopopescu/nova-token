@@ -206,6 +206,18 @@ nl|'\n'
 string|"'if set, uses specific dns server for dnsmasq'"
 op|')'
 newline|'\n'
+name|'flags'
+op|'.'
+name|'DEFINE_string'
+op|'('
+string|"'dmz_cidr'"
+op|','
+string|"'10.128.0.0/24'"
+op|','
+nl|'\n'
+string|"'dmz range that should be accepted'"
+op|')'
+newline|'\n'
 nl|'\n'
 nl|'\n'
 DECL|function|metadata_forward
