@@ -380,7 +380,6 @@ name|'instance'
 op|')'
 newline|'\n'
 nl|'\n'
-nl|'\n'
 DECL|member|snapshot
 dedent|''
 name|'def'
