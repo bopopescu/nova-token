@@ -56,6 +56,12 @@ name|'import'
 name|'gflags'
 newline|'\n'
 nl|'\n'
+name|'from'
+name|'nova'
+name|'import'
+name|'utils'
+newline|'\n'
+nl|'\n'
 nl|'\n'
 DECL|class|FlagValues
 name|'class'
@@ -1269,9 +1275,26 @@ name|'DEFINE_string'
 op|'('
 string|"'s3_host'"
 op|','
-string|"'127.0.0.1'"
+name|'utils'
+op|'.'
+name|'get_my_ip'
+op|'('
+op|')'
 op|','
-string|"'s3 host'"
+string|"'s3 host (for infrastructure)'"
+op|')'
+newline|'\n'
+name|'DEFINE_string'
+op|'('
+string|"'s3_dmz'"
+op|','
+name|'utils'
+op|'.'
+name|'get_my_ip'
+op|'('
+op|')'
+op|','
+string|"'s3 dmz ip (for instances)'"
 op|')'
 newline|'\n'
 name|'DEFINE_string'
@@ -1414,12 +1437,55 @@ op|')'
 newline|'\n'
 name|'DEFINE_string'
 op|'('
-string|"'ec2_url'"
+string|"'ec2_prefix'"
 op|','
-string|"'http://127.0.0.1:8773/services/Cloud'"
+string|"'http'"
 op|','
-nl|'\n'
-string|"'Url to ec2 api server'"
+string|"'prefix for ec2'"
+op|')'
+newline|'\n'
+name|'DEFINE_string'
+op|'('
+string|"'cc_host'"
+op|','
+name|'utils'
+op|'.'
+name|'get_my_ip'
+op|'('
+op|')'
+op|','
+string|"'ip of api server'"
+op|')'
+newline|'\n'
+name|'DEFINE_string'
+op|'('
+string|"'cc_dmz'"
+op|','
+name|'utils'
+op|'.'
+name|'get_my_ip'
+op|'('
+op|')'
+op|','
+string|"'internal ip of api server'"
+op|')'
+newline|'\n'
+name|'DEFINE_integer'
+op|'('
+string|"'cc_port'"
+op|','
+number|'8773'
+op|','
+string|"'cloud controller port'"
+op|')'
+newline|'\n'
+name|'DEFINE_string'
+op|'('
+string|"'ec2_suffix'"
+op|','
+string|"'/services/Cloud'"
+op|','
+string|"'suffix for ec2'"
 op|')'
 newline|'\n'
 nl|'\n'
@@ -1460,7 +1526,7 @@ name|'DEFINE_string'
 op|'('
 string|"'vpn_image_id'"
 op|','
-string|"'ami-CLOUDPIPE'"
+string|"'ami-cloudpipe'"
 op|','
 string|"'AMI for cloudpipe vpn server'"
 op|')'
@@ -1470,10 +1536,10 @@ op|'('
 string|"'vpn_key_suffix'"
 op|','
 nl|'\n'
-string|"'-key'"
+string|"'-vpn'"
 op|','
 nl|'\n'
-string|"'Suffix to add to project name for vpn key'"
+string|"'Suffix to add to project name for vpn key and secgroups'"
 op|')'
 newline|'\n'
 nl|'\n'
