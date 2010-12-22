@@ -1294,15 +1294,6 @@ op|')'
 newline|'\n'
 name|'DEFINE_string'
 op|'('
-string|"'glance_storage_location'"
-op|','
-string|"'swift://username:api_key@auth.api.rackspacecloud.com/v1.0/cloudservers'"
-op|','
-string|"'glance storage location'"
-op|')'
-newline|'\n'
-name|'DEFINE_string'
-op|'('
 string|"'compute_topic'"
 op|','
 string|"'compute'"
@@ -1450,6 +1441,15 @@ string|"'Url to ec2 api server'"
 op|')'
 newline|'\n'
 nl|'\n'
+name|'DEFINE_string'
+op|'('
+string|"'default_project'"
+op|','
+string|"'openstack'"
+op|','
+string|"'default project for openstack'"
+op|')'
+newline|'\n'
 name|'DEFINE_string'
 op|'('
 string|"'default_image'"
