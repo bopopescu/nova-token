@@ -72,6 +72,7 @@ op|'{'
 op|'}'
 newline|'\n'
 nl|'\n'
+nl|'\n'
 DECL|class|Message
 name|'class'
 name|'Message'
