@@ -269,6 +269,11 @@ op|'='
 string|"'default'"
 op|','
 nl|'\n'
+name|'user_data'
+op|'='
+name|'None'
+op|','
+nl|'\n'
 name|'generate_hostname'
 op|'='
 name|'generate_default_hostname'
@@ -668,6 +673,13 @@ nl|'\n'
 string|"'display_description'"
 op|':'
 name|'description'
+op|','
+nl|'\n'
+string|"'user_data'"
+op|':'
+name|'user_data'
+name|'or'
+string|"''"
 op|','
 nl|'\n'
 string|"'key_name'"
