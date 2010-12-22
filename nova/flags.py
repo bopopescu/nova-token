@@ -1311,7 +1311,16 @@ op|','
 string|"'the topic network nodes listen on'"
 op|')'
 newline|'\n'
+name|'DEFINE_string'
+op|'('
+string|"'ajax_proxy_topic'"
+op|','
+string|"'ajax_proxy'"
+op|','
 nl|'\n'
+string|"'the topic ajax proxy nodes listen on'"
+op|')'
+newline|'\n'
 name|'DEFINE_bool'
 op|'('
 string|"'verbose'"
