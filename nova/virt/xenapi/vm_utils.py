@@ -126,9 +126,8 @@ string|"'Suspended'"
 op|':'
 name|'power_state'
 op|'.'
-name|'SHUTDOWN'
+name|'SUSPENDED'
 op|','
-comment|'# FIXME'
 nl|'\n'
 string|"'Crashed'"
 op|':'
