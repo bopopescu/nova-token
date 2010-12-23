@@ -220,6 +220,10 @@ string|"'name'"
 op|':'
 number|'1'
 op|','
+string|"'id'"
+op|':'
+number|'1'
+op|','
 nl|'\n'
 string|"'project_id'"
 op|':'
@@ -1095,6 +1099,10 @@ name|'values'
 op|'='
 op|'{'
 string|"'name'"
+op|':'
+number|'1'
+op|','
+string|"'id'"
 op|':'
 number|'1'
 op|','
