@@ -1332,6 +1332,17 @@ nl|'\n'
 string|'\'location of ajax console proxy, in the form "http://tonbuntu:8000"\''
 op|')'
 newline|'\n'
+name|'DEFINE_string'
+op|'('
+string|"'ajax_console_proxy_port'"
+op|','
+nl|'\n'
+number|'8000'
+op|','
+nl|'\n'
+string|"'port that ajax_console_proxy binds'"
+op|')'
+newline|'\n'
 name|'DEFINE_bool'
 op|'('
 string|"'verbose'"
