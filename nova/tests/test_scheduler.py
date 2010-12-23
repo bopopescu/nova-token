@@ -207,7 +207,7 @@ name|'flags'
 op|'('
 name|'scheduler_driver'
 op|'='
-string|"'nova.tests.scheduler_unittest.TestDriver'"
+string|"'nova.tests.test_scheduler.TestDriver'"
 op|')'
 newline|'\n'
 nl|'\n'
