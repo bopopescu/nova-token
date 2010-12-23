@@ -84,7 +84,7 @@ name|'DEFINE_string'
 op|'('
 string|'"fake_manager"'
 op|','
-string|'"nova.tests.service_unittest.FakeManager"'
+string|'"nova.tests.test_service.FakeManager"'
 op|','
 nl|'\n'
 string|'"Manager for testing"'
@@ -186,7 +186,7 @@ nl|'\n'
 string|"'test'"
 op|','
 nl|'\n'
-string|"'nova.tests.service_unittest.FakeManager'"
+string|"'nova.tests.test_service.FakeManager'"
 op|')'
 newline|'\n'
 name|'self'
@@ -228,7 +228,7 @@ nl|'\n'
 string|"'test'"
 op|','
 nl|'\n'
-string|"'nova.tests.service_unittest.FakeManager'"
+string|"'nova.tests.test_service.FakeManager'"
 op|')'
 newline|'\n'
 name|'serv'
@@ -274,7 +274,7 @@ nl|'\n'
 string|"'test'"
 op|','
 nl|'\n'
-string|"'nova.tests.service_unittest.FakeManager'"
+string|"'nova.tests.test_service.FakeManager'"
 op|')'
 newline|'\n'
 name|'serv'
@@ -841,7 +841,7 @@ nl|'\n'
 name|'topic'
 op|','
 nl|'\n'
-string|"'nova.tests.service_unittest.FakeManager'"
+string|"'nova.tests.test_service.FakeManager'"
 op|')'
 newline|'\n'
 name|'serv'
@@ -1031,7 +1031,7 @@ nl|'\n'
 name|'topic'
 op|','
 nl|'\n'
-string|"'nova.tests.service_unittest.FakeManager'"
+string|"'nova.tests.test_service.FakeManager'"
 op|')'
 newline|'\n'
 name|'serv'
@@ -1255,7 +1255,7 @@ nl|'\n'
 name|'topic'
 op|','
 nl|'\n'
-string|"'nova.tests.service_unittest.FakeManager'"
+string|"'nova.tests.test_service.FakeManager'"
 op|')'
 newline|'\n'
 name|'serv'
