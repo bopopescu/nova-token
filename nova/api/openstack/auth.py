@@ -108,6 +108,7 @@ op|'.'
 name|'FLAGS'
 newline|'\n'
 nl|'\n'
+nl|'\n'
 DECL|class|AuthMiddleware
 name|'class'
 name|'AuthMiddleware'
