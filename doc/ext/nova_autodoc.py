@@ -1,6 +1,17 @@
 begin_unit
 name|'import'
+name|'gettext'
+newline|'\n'
+name|'import'
 name|'os'
+newline|'\n'
+nl|'\n'
+name|'gettext'
+op|'.'
+name|'install'
+op|'('
+string|"'nova'"
+op|')'
 newline|'\n'
 nl|'\n'
 name|'from'

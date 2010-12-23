@@ -29,7 +29,7 @@ nl|'\n'
 comment|'#    under the License.'
 nl|'\n'
 nl|'\n'
-string|'"""Stubouts, mocks and fixtures for the test suite"""'
+string|'"""\n:mod:`db` -- Stubs for DB API\n=============================\n"""'
 newline|'\n'
 endmarker|''
 end_unit

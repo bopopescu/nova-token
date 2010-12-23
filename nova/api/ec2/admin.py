@@ -985,6 +985,7 @@ comment|"# FIXME(vish): these host commands don't work yet, perhaps some of the"
 nl|'\n'
 comment|'#              required data can be retrieved from service objects?'
 nl|'\n'
+nl|'\n'
 DECL|member|describe_hosts
 dedent|''
 name|'def'

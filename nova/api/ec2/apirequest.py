@@ -495,6 +495,7 @@ newline|'\n'
 indent|'            '
 name|'_error'
 op|'='
+name|'_'
 op|'('
 string|"'Unsupported API request: controller = %s,'"
 nl|'\n'
