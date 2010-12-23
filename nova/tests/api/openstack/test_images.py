@@ -1416,7 +1416,7 @@ string|"'available'"
 op|':'
 newline|'\n'
 indent|'                            '
-name|'next'
+name|'continue'
 newline|'\n'
 dedent|''
 name|'return'
