@@ -55,7 +55,7 @@ name|'ProjectTestCase'
 op|'('
 name|'test'
 op|'.'
-name|'TrialTestCase'
+name|'TestCase'
 op|')'
 op|':'
 newline|'\n'
@@ -76,7 +76,7 @@ name|'path'
 op|'.'
 name|'exists'
 op|'('
-string|"'../.bzr'"
+string|"'.bzr'"
 op|')'
 op|':'
 newline|'\n'
@@ -92,7 +92,7 @@ name|'mailmap'
 op|'='
 name|'parse_mailmap'
 op|'('
-string|"'../.mailmap'"
+string|"'.mailmap'"
 op|')'
 newline|'\n'
 nl|'\n'
@@ -111,7 +111,7 @@ name|'WorkingTree'
 op|'.'
 name|'open'
 op|'('
-string|"'..'"
+string|"'.'"
 op|')'
 newline|'\n'
 name|'tree'
@@ -241,7 +241,7 @@ name|'authors_file'
 op|'='
 name|'open'
 op|'('
-string|"'../Authors'"
+string|"'Authors'"
 op|','
 string|"'r'"
 op|')'
