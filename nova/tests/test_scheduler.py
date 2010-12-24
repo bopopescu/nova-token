@@ -720,13 +720,17 @@ nl|'\n'
 op|'{'
 string|"'method'"
 op|':'
-string|"'create_instance'"
+string|"'run_instance'"
 op|','
-comment|'#TODO: check it'
 nl|'\n'
 string|"'args'"
 op|':'
 op|'{'
+string|"'instance_id'"
+op|':'
+string|"'i-ffffffff'"
+op|','
+nl|'\n'
 string|"'availability_zone'"
 op|':'
 string|"'zone1'"
@@ -744,11 +748,15 @@ op|')'
 newline|'\n'
 name|'scheduler'
 op|'.'
-name|'create_instance'
+name|'run_instance'
 op|'('
 name|'ctxt'
 op|','
 string|"'compute'"
+op|','
+name|'instance_id'
+op|'='
+string|"'i-ffffffff'"
 op|','
 name|'availability_zone'
 op|'='
