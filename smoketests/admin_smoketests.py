@@ -484,7 +484,6 @@ name|'suites'
 op|')'
 op|')'
 newline|'\n'
-nl|'\n'
 dedent|''
 endmarker|''
 end_unit
