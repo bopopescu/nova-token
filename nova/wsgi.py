@@ -340,7 +340,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""Base WSGI middleware.\n    \n    Modelled after Django\'s middleware this class allows you to \n    These classes require an application to be\n    initialized that will be called next.  By default the middleware will\n    simply call its wrapped app, or you can override __call__ to customize its\n    behavior.\n    """'
+string|'"""Base WSGI middleware.\n\n    These classes require an application to be\n    initialized that will be called next.  By default the middleware will\n    simply call its wrapped app, or you can override __call__ to customize its\n    behavior.\n    """'
 newline|'\n'
 nl|'\n'
 DECL|member|__init__
