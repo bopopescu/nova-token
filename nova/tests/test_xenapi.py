@@ -429,7 +429,7 @@ name|'parse_volume_info'
 op|'('
 name|'vol'
 op|'['
-string|"'ec2_id'"
+string|"'id'"
 op|']'
 op|','
 string|"'/dev/sdc'"
@@ -441,7 +441,7 @@ string|"'SR-%s'"
 op|'%'
 name|'vol'
 op|'['
-string|"'ec2_id'"
+string|"'id'"
 op|']'
 newline|'\n'
 name|'description'
@@ -581,7 +581,7 @@ op|','
 nl|'\n'
 name|'vol'
 op|'['
-string|"'ec2_id'"
+string|"'id'"
 op|']'
 op|','
 nl|'\n'
@@ -681,10 +681,9 @@ name|'name'
 op|','
 name|'volume'
 op|'['
-string|"'ec2_id'"
+string|"'id'"
 op|']'
 op|','
-nl|'\n'
 string|"'/dev/sdc'"
 op|')'
 newline|'\n'
@@ -845,7 +844,7 @@ op|','
 nl|'\n'
 name|'volume'
 op|'['
-string|"'ec2_id'"
+string|"'id'"
 op|']'
 op|','
 nl|'\n'

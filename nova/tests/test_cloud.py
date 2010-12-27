@@ -869,7 +869,7 @@ op|'='
 op|'['
 name|'vol2'
 op|'['
-string|"'ec2_id'"
+string|"'id'"
 op|']'
 op|']'
 op|')'
@@ -906,7 +906,7 @@ op|']'
 op|','
 name|'vol2'
 op|'['
-string|"'ec2_id'"
+string|"'id'"
 op|']'
 op|')'
 newline|'\n'
