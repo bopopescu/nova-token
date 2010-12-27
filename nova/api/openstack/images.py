@@ -249,7 +249,7 @@ op|']'
 op|'='
 name|'status_mapping'
 op|'['
-name|'mapped_inst'
+name|'inst'
 op|'['
 string|"'status'"
 op|']'
