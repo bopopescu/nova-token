@@ -681,6 +681,7 @@ name|'snapshot'
 op|')'
 newline|'\n'
 nl|'\n'
+nl|'\n'
 DECL|function|stub_out_glance
 dedent|''
 name|'def'

@@ -219,7 +219,6 @@ op|'.'
 name|'RUNNING'
 newline|'\n'
 nl|'\n'
-nl|'\n'
 DECL|member|snapshot
 dedent|''
 name|'def'
@@ -238,7 +237,6 @@ string|'"""\n        Snapshots the specified instance.\n\n        The given para
 newline|'\n'
 name|'pass'
 newline|'\n'
-nl|'\n'
 nl|'\n'
 DECL|member|reboot
 dedent|''
