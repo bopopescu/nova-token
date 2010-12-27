@@ -1266,7 +1266,6 @@ string|"'2097152'"
 op|')'
 op|']'
 newline|'\n'
-nl|'\n'
 name|'if'
 name|'rescue'
 op|':'

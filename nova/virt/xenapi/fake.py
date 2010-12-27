@@ -1293,6 +1293,7 @@ name|'not'
 name|'None'
 op|':'
 newline|'\n'
+nl|'\n'
 DECL|function|callit
 indent|'                '
 name|'def'
