@@ -154,6 +154,11 @@ op|'='
 string|"'fake'"
 op|','
 nl|'\n'
+name|'stub_network'
+op|'='
+name|'True'
+op|','
+nl|'\n'
 name|'network_manager'
 op|'='
 string|"'nova.network.manager.FlatManager'"
