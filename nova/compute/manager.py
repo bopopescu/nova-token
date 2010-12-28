@@ -1726,6 +1726,7 @@ op|'('
 string|"'instance %s: suspending'"
 op|')'
 op|','
+nl|'\n'
 name|'instance_ref'
 op|'['
 string|"'internal_id'"
