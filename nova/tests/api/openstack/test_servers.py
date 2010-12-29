@@ -2609,7 +2609,6 @@ name|'True'
 op|')'
 newline|'\n'
 nl|'\n'
-nl|'\n'
 DECL|member|test_lock
 dedent|''
 name|'def'
