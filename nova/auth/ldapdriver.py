@@ -4166,6 +4166,7 @@ number|'1'
 op|']'
 newline|'\n'
 nl|'\n'
+nl|'\n'
 DECL|class|FakeLdapDriver
 dedent|''
 dedent|''
