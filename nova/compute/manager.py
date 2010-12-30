@@ -2323,14 +2323,10 @@ name|'debug'
 op|'('
 name|'_'
 op|'('
-string|"'instance %s: getting locked'"
+string|"'instance %s: getting locked state'"
 op|')'
 op|','
-nl|'\n'
-name|'instance_ref'
-op|'['
-string|"'internal_id'"
-op|']'
+name|'instance_id'
 op|')'
 newline|'\n'
 name|'instance_ref'
