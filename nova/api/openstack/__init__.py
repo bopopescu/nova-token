@@ -715,6 +715,7 @@ op|'('
 op|')'
 newline|'\n'
 nl|'\n'
+nl|'\n'
 DECL|function|versions_factory
 dedent|''
 name|'def'

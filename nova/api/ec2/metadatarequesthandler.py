@@ -437,6 +437,7 @@ name|'data'
 op|')'
 newline|'\n'
 nl|'\n'
+nl|'\n'
 DECL|function|metadata_factory
 dedent|''
 dedent|''
