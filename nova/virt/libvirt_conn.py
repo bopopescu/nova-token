@@ -279,7 +279,7 @@ nl|'\n'
 string|"'nova.virt.libvirt_conn.IptablesFirewallDriver'"
 op|','
 nl|'\n'
-string|"'Firewall driver (defaults to nwfilter)'"
+string|"'Firewall driver (defaults to iptables)'"
 op|')'
 newline|'\n'
 nl|'\n'
