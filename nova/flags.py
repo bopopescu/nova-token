@@ -1264,6 +1264,28 @@ op|')'
 newline|'\n'
 name|'DEFINE_integer'
 op|'('
+string|"'glance_port'"
+op|','
+number|'9292'
+op|','
+string|"'glance port'"
+op|')'
+newline|'\n'
+name|'DEFINE_string'
+op|'('
+string|"'glance_host'"
+op|','
+name|'utils'
+op|'.'
+name|'get_my_ip'
+op|'('
+op|')'
+op|','
+string|"'glance host'"
+op|')'
+newline|'\n'
+name|'DEFINE_integer'
+op|'('
 string|"'s3_port'"
 op|','
 number|'3333'
@@ -1519,6 +1541,15 @@ string|"'suffix for ec2'"
 op|')'
 newline|'\n'
 nl|'\n'
+name|'DEFINE_string'
+op|'('
+string|"'default_project'"
+op|','
+string|"'openstack'"
+op|','
+string|"'default project for openstack'"
+op|')'
+newline|'\n'
 name|'DEFINE_string'
 op|'('
 string|"'default_image'"
