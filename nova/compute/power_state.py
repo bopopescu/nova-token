@@ -73,6 +73,11 @@ name|'CRASHED'
 op|'='
 number|'0x06'
 newline|'\n'
+DECL|variable|SUSPENDED
+name|'SUSPENDED'
+op|'='
+number|'0x07'
+newline|'\n'
 nl|'\n'
 nl|'\n'
 DECL|function|name
@@ -121,6 +126,11 @@ nl|'\n'
 name|'CRASHED'
 op|':'
 string|"'crashed'"
+op|','
+nl|'\n'
+name|'SUSPENDED'
+op|':'
+string|"'suspended'"
 op|'}'
 newline|'\n'
 name|'return'
