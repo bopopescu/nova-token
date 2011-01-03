@@ -519,6 +519,7 @@ op|']'
 op|')'
 newline|'\n'
 nl|'\n'
+nl|'\n'
 DECL|class|ServiceTestCase
 dedent|''
 dedent|''
