@@ -1700,10 +1700,12 @@ newline|'\n'
 name|'values'
 op|'='
 op|'{'
+nl|'\n'
 string|"'name'"
 op|':'
 number|'1'
 op|','
+nl|'\n'
 string|"'id'"
 op|':'
 number|'1'
@@ -1750,7 +1752,6 @@ nl|'\n'
 string|"'mac_address'"
 op|':'
 string|"'aa:bb:cc:dd:ee:ff'"
-nl|'\n'
 op|'}'
 newline|'\n'
 name|'instance'
