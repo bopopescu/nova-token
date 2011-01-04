@@ -126,6 +126,7 @@ string|'"nova.virt.xenapi.vmops"'
 op|')'
 newline|'\n'
 nl|'\n'
+nl|'\n'
 DECL|class|VMOps
 name|'class'
 name|'VMOps'

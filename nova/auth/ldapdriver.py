@@ -261,7 +261,6 @@ string|"'cn for Developers'"
 op|')'
 newline|'\n'
 nl|'\n'
-nl|'\n'
 DECL|variable|LOG
 name|'LOG'
 op|'='

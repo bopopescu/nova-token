@@ -272,7 +272,6 @@ string|"'Driver that auth manager uses'"
 op|')'
 newline|'\n'
 nl|'\n'
-nl|'\n'
 DECL|variable|LOG
 name|'LOG'
 op|'='
@@ -280,7 +279,7 @@ name|'logging'
 op|'.'
 name|'getLogger'
 op|'('
-string|"'nova.authmanager'"
+string|"'nova.auth.manager'"
 op|')'
 newline|'\n'
 nl|'\n'

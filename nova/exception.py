@@ -54,6 +54,7 @@ string|"'nova.exception'"
 op|')'
 newline|'\n'
 nl|'\n'
+nl|'\n'
 DECL|class|ProcessExecutionError
 name|'class'
 name|'ProcessExecutionError'

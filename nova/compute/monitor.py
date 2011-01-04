@@ -273,7 +273,7 @@ name|'logging'
 op|'.'
 name|'getLogger'
 op|'('
-string|"'nova.instancemonitor'"
+string|"'nova.compute.monitor'"
 op|')'
 newline|'\n'
 nl|'\n'
