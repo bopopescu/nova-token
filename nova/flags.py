@@ -1468,6 +1468,15 @@ op|')'
 newline|'\n'
 name|'DEFINE_string'
 op|'('
+string|"'os_prefix'"
+op|','
+string|"'http'"
+op|','
+string|"'prefix for openstack'"
+op|')'
+newline|'\n'
+name|'DEFINE_string'
+op|'('
 string|"'cc_host'"
 op|','
 name|'utils'
@@ -1508,6 +1517,15 @@ op|','
 string|"'/services/Cloud'"
 op|','
 string|"'suffix for ec2'"
+op|')'
+newline|'\n'
+name|'DEFINE_string'
+op|'('
+string|"'os_suffix'"
+op|','
+string|"'/v1.0/'"
+op|','
+string|"'suffix for openstack'"
 op|')'
 newline|'\n'
 nl|'\n'
