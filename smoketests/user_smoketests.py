@@ -1362,7 +1362,7 @@ name|'self'
 op|'.'
 name|'fail'
 op|'('
-string|"'could not ssh to instance'"
+string|"'could not ssh to instance v6'"
 op|')'
 newline|'\n'
 nl|'\n'
