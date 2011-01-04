@@ -352,6 +352,9 @@ nl|'\n'
 string|"'bin/nova-instancemonitor'"
 op|','
 nl|'\n'
+string|"'bin/nova-logspool'"
+op|','
+nl|'\n'
 string|"'bin/nova-manage'"
 op|','
 nl|'\n'
@@ -362,6 +365,9 @@ string|"'bin/nova-objectstore'"
 op|','
 nl|'\n'
 string|"'bin/nova-scheduler'"
+op|','
+nl|'\n'
+string|"'bin/nova-spoolsentry'"
 op|','
 nl|'\n'
 string|"'bin/nova-volume'"
