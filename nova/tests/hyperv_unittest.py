@@ -73,17 +73,6 @@ name|'connection_type'
 op|'='
 string|"'hyperv'"
 newline|'\n'
-comment|'# Redis is probably not  running on Hyper-V host.'
-nl|'\n'
-comment|'# Change this to the actual Redis host'
-nl|'\n'
-name|'FLAGS'
-op|'.'
-name|'redis_host'
-op|'='
-string|"'127.0.0.1'"
-newline|'\n'
-nl|'\n'
 nl|'\n'
 DECL|class|HyperVTestCase
 name|'class'
