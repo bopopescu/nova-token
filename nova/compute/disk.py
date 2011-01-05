@@ -964,6 +964,7 @@ op|')'
 op|']'
 newline|'\n'
 nl|'\n'
+nl|'\n'
 DECL|function|_allocate_device
 name|'def'
 name|'_allocate_device'
