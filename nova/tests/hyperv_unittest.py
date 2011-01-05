@@ -74,6 +74,7 @@ op|'='
 string|"'hyperv'"
 newline|'\n'
 nl|'\n'
+nl|'\n'
 DECL|class|HyperVTestCase
 name|'class'
 name|'HyperVTestCase'
