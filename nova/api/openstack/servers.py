@@ -208,7 +208,7 @@ name|'power_state'
 op|'.'
 name|'PAUSED'
 op|':'
-string|"'error'"
+string|"'paused'"
 op|','
 nl|'\n'
 name|'power_state'
