@@ -1466,7 +1466,6 @@ name|'replace'
 op|'('
 string|"'twistd.pid'"
 op|','
-nl|'\n'
 string|"'%s.pid'"
 op|'%'
 name|'name'
@@ -1535,7 +1534,6 @@ name|'replace'
 op|'('
 string|"'twistd.log'"
 op|','
-nl|'\n'
 string|"'%s.log'"
 op|'%'
 name|'name'
