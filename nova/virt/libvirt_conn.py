@@ -2884,7 +2884,7 @@ newline|'\n'
 nl|'\n'
 name|'ajaxterm_cmd'
 op|'='
-string|"'socat - %s'"
+string|"'sudo socat - %s'"
 op|'%'
 name|'get_pty_for_instance'
 op|'('
