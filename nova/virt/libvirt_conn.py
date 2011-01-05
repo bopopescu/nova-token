@@ -4291,6 +4291,42 @@ name|'security_group_id'
 op|')'
 newline|'\n'
 nl|'\n'
+DECL|member|get_console_pool_info
+dedent|''
+name|'def'
+name|'get_console_pool_info'
+op|'('
+name|'self'
+op|','
+name|'console_type'
+op|')'
+op|':'
+newline|'\n'
+comment|'#TODO(mdragon): console proxy should be implemented for libvirt,'
+nl|'\n'
+comment|'#               in case someone wants to use it with kvm or'
+nl|'\n'
+comment|'#               such. For now return fake data. '
+nl|'\n'
+indent|'        '
+name|'return'
+op|'{'
+string|"'address'"
+op|':'
+string|"'127.0.0.1'"
+op|','
+nl|'\n'
+string|"'username'"
+op|':'
+string|"'fakeuser'"
+op|','
+nl|'\n'
+string|"'password'"
+op|':'
+string|"'fakepassword'"
+op|'}'
+newline|'\n'
+nl|'\n'
 nl|'\n'
 DECL|class|NWFilterFirewall
 dedent|''
