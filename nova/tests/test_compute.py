@@ -97,6 +97,15 @@ name|'flags'
 op|'.'
 name|'FLAGS'
 newline|'\n'
+name|'flags'
+op|'.'
+name|'DECLARE'
+op|'('
+string|"'stub_network'"
+op|','
+string|"'nova.compute.manager'"
+op|')'
+newline|'\n'
 nl|'\n'
 nl|'\n'
 DECL|class|ComputeTestCase
