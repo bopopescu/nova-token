@@ -160,7 +160,7 @@ nl|'\n'
 string|"'sqlalchemy=WARN'"
 op|','
 nl|'\n'
-string|"'audit=INFO'"
+string|"'eventlet.wsgi.server=WARN'"
 op|']'
 op|','
 nl|'\n'
