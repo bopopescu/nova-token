@@ -252,6 +252,7 @@ name|'exc'
 op|')'
 newline|'\n'
 nl|'\n'
+nl|'\n'
 DECL|class|APIRouter
 dedent|''
 dedent|''
