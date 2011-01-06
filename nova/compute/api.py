@@ -1250,7 +1250,7 @@ name|'logging'
 op|'.'
 name|'debug'
 op|'('
-string|"'Going to try and terminate %s'"
+string|"'Going to try to terminate %s'"
 op|'%'
 name|'instance_id'
 op|')'
