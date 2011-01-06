@@ -2322,10 +2322,7 @@ op|'('
 string|"'instance %s: locking'"
 op|')'
 op|','
-name|'instance_ref'
-op|'['
-string|"'internal_id'"
-op|']'
+name|'instance_id'
 op|')'
 newline|'\n'
 name|'self'
@@ -2398,10 +2395,7 @@ op|'('
 string|"'instance %s: unlocking'"
 op|')'
 op|','
-name|'instance_ref'
-op|'['
-string|"'internal_id'"
-op|']'
+name|'instance_id'
 op|')'
 newline|'\n'
 name|'self'
