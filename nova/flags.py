@@ -1334,6 +1334,7 @@ string|"'console_topic'"
 op|','
 string|"'console'"
 op|','
+nl|'\n'
 string|"'the topic console proxy nodes listen on'"
 op|')'
 newline|'\n'

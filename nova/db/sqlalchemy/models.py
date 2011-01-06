@@ -3358,6 +3358,7 @@ op|')'
 comment|"# , ForeignKey('hosts.id'))"
 newline|'\n'
 nl|'\n'
+nl|'\n'
 DECL|class|ConsolePool
 dedent|''
 name|'class'
@@ -3455,6 +3456,7 @@ number|'255'
 op|')'
 op|')'
 newline|'\n'
+nl|'\n'
 nl|'\n'
 DECL|class|Console
 dedent|''
@@ -3557,6 +3559,7 @@ string|"'consoles'"
 op|')'
 op|')'
 newline|'\n'
+nl|'\n'
 nl|'\n'
 DECL|function|register_models
 dedent|''
