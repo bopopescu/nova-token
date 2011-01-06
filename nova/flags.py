@@ -1622,6 +1622,35 @@ nl|'\n'
 string|"'connection string for sql database'"
 op|')'
 newline|'\n'
+name|'DEFINE_string'
+op|'('
+string|"'sql_idle_timeout'"
+op|','
+nl|'\n'
+string|"'3600'"
+op|','
+nl|'\n'
+string|"'timeout for idle sql database connections'"
+op|')'
+newline|'\n'
+name|'DEFINE_integer'
+op|'('
+string|"'sql_max_retries'"
+op|','
+number|'12'
+op|','
+string|"'sql connection attempts'"
+op|')'
+newline|'\n'
+name|'DEFINE_integer'
+op|'('
+string|"'sql_retry_interval'"
+op|','
+number|'10'
+op|','
+string|"'sql connection retry interval'"
+op|')'
+newline|'\n'
 nl|'\n'
 name|'DEFINE_string'
 op|'('
