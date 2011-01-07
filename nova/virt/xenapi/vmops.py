@@ -3225,7 +3225,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""This class wraps all the functionality needed to implement\n    basic Diffie-Hellman-Merkle key exchange in Python. It features\n    intelligent defaults for the prime and base numbers needed for the\n    calculation, while allowing you to supply your own. It requires that\n    the openssl binary be installed on the system on which this is run,\n    as it uses that to handle the encryption and decryption. If openssl\n    is not available, a RuntimeError will be raised.\n    """'
+string|'"""This class wraps all the functionality needed to implement\n    basic Diffie-Hellman-Merkle key exchange in Python. It features\n    intelligent defaults for the prime and base numbers needed for the\n    calculation, while allowing you to supply your own. It requires that\n    the openssl binary be installed on the system on which this is run,\n    as it uses that to handle the encryption and decryption. If openssl\n    is not available, a RuntimeError will be raised.\n\n    Please note that nova already uses the M2Crypto library for most\n    cryptographic functions, and that it includes a Diffie-Hellman\n    implementation. However, that is a much more complex implementation,\n    and is not compatible with the DH algorithm that the agent uses. Hence\n    the need for this \'simple\' version.\n    """'
 newline|'\n'
 DECL|member|__init__
 name|'def'
