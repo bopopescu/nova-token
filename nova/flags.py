@@ -1633,6 +1633,24 @@ nl|'\n'
 string|"'timeout for idle sql database connections'"
 op|')'
 newline|'\n'
+name|'DEFINE_integer'
+op|'('
+string|"'sql_max_retries'"
+op|','
+number|'12'
+op|','
+string|"'sql connection attempts'"
+op|')'
+newline|'\n'
+name|'DEFINE_integer'
+op|'('
+string|"'sql_retry_interval'"
+op|','
+number|'10'
+op|','
+string|"'sql connection retry interval'"
+op|')'
+newline|'\n'
 nl|'\n'
 name|'DEFINE_string'
 op|'('
