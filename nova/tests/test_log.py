@@ -345,6 +345,7 @@ op|')'
 comment|"# didn't raise exception"
 newline|'\n'
 nl|'\n'
+nl|'\n'
 DECL|class|NovaFormatterTestCase
 dedent|''
 dedent|''
@@ -606,6 +607,7 @@ op|')'
 op|')'
 newline|'\n'
 nl|'\n'
+nl|'\n'
 DECL|class|NovaLoggerTestCase
 dedent|''
 dedent|''
@@ -757,6 +759,7 @@ op|'.'
 name|'level'
 op|')'
 newline|'\n'
+nl|'\n'
 nl|'\n'
 DECL|class|VerboseLoggerTestCase
 dedent|''
