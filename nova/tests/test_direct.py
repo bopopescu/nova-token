@@ -439,10 +439,10 @@ string|"'foo'"
 op|')'
 newline|'\n'
 nl|'\n'
-DECL|member|test_req_params
+DECL|member|test_post_params
 dedent|''
 name|'def'
-name|'test_req_params'
+name|'test_post_params'
 op|'('
 name|'self'
 op|')'
