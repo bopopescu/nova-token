@@ -1787,7 +1787,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""The poll-function passed to LoopingCall can raise this exception to\n    break out of the loop normally. This is somewhat analogous to StopIteration.\n\n    An optional return-value can be included as the argument to the exception;\n    this return-value will be returned by LoopingCall.wait()\n    """'
+string|'"""The poll-function passed to LoopingCall can raise this exception to\n    break out of the loop normally. This is somewhat analogous to\n    StopIteration.\n\n    An optional return-value can be included as the argument to the exception;\n    this return-value will be returned by LoopingCall.wait()\n    """'
 newline|'\n'
 nl|'\n'
 DECL|member|__init__
