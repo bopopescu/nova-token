@@ -1721,8 +1721,6 @@ string|"'name of this node'"
 op|')'
 newline|'\n'
 nl|'\n'
-comment|'# UNUSED'
-nl|'\n'
 name|'DEFINE_string'
 op|'('
 string|"'node_availability_zone'"

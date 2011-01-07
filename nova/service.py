@@ -687,6 +687,13 @@ nl|'\n'
 string|"'report_count'"
 op|':'
 number|'0'
+op|','
+nl|'\n'
+string|"'availability_zone'"
+op|':'
+name|'FLAGS'
+op|'.'
+name|'node_availability_zone'
 op|'}'
 op|')'
 newline|'\n'
