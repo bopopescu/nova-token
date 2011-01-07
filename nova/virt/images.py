@@ -512,7 +512,7 @@ op|'+='
 op|'['
 string|"'-H'"
 op|','
-string|"'%s: %s'"
+string|"'\\'%s: %s\\''"
 op|'%'
 op|'('
 name|'k'
