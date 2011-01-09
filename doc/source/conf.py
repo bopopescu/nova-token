@@ -259,7 +259,7 @@ DECL|variable|version
 name|'version'
 op|'='
 name|'nova'
-op|','
+op|'.'
 name|'version'
 op|'.'
 name|'canonical_version_string'
