@@ -56,12 +56,6 @@ name|'import'
 name|'gflags'
 newline|'\n'
 nl|'\n'
-name|'from'
-name|'nova'
-name|'import'
-name|'utils'
-newline|'\n'
-nl|'\n'
 nl|'\n'
 DECL|class|FlagValues
 name|'class'
@@ -1275,11 +1269,7 @@ name|'DEFINE_string'
 op|'('
 string|"'glance_host'"
 op|','
-name|'utils'
-op|'.'
-name|'get_my_ip'
-op|'('
-op|')'
+string|"'127.0.0.1'"
 op|','
 string|"'glance host'"
 op|')'
@@ -1297,11 +1287,7 @@ name|'DEFINE_string'
 op|'('
 string|"'s3_host'"
 op|','
-name|'utils'
-op|'.'
-name|'get_my_ip'
-op|'('
-op|')'
+string|"'127.0.0.1'"
 op|','
 string|"'s3 host (for infrastructure)'"
 op|')'
@@ -1310,11 +1296,7 @@ name|'DEFINE_string'
 op|'('
 string|"'s3_dmz'"
 op|','
-name|'utils'
-op|'.'
-name|'get_my_ip'
-op|'('
-op|')'
+string|"'127.0.0.1'"
 op|','
 string|"'s3 dmz ip (for instances)'"
 op|')'
@@ -1500,11 +1482,7 @@ name|'DEFINE_string'
 op|'('
 string|"'cc_host'"
 op|','
-name|'utils'
-op|'.'
-name|'get_my_ip'
-op|'('
-op|')'
+string|"'127.0.0.1'"
 op|','
 string|"'ip of api server'"
 op|')'
@@ -1513,11 +1491,7 @@ name|'DEFINE_string'
 op|'('
 string|"'cc_dmz'"
 op|','
-name|'utils'
-op|'.'
-name|'get_my_ip'
-op|'('
-op|')'
+string|"'127.0.0.1'"
 op|','
 string|"'internal ip of api server'"
 op|')'
@@ -1650,6 +1624,35 @@ string|"'sqlite:///$state_path/nova.sqlite'"
 op|','
 nl|'\n'
 string|"'connection string for sql database'"
+op|')'
+newline|'\n'
+name|'DEFINE_string'
+op|'('
+string|"'sql_idle_timeout'"
+op|','
+nl|'\n'
+string|"'3600'"
+op|','
+nl|'\n'
+string|"'timeout for idle sql database connections'"
+op|')'
+newline|'\n'
+name|'DEFINE_integer'
+op|'('
+string|"'sql_max_retries'"
+op|','
+number|'12'
+op|','
+string|"'sql connection attempts'"
+op|')'
+newline|'\n'
+name|'DEFINE_integer'
+op|'('
+string|"'sql_retry_interval'"
+op|','
+number|'10'
+op|','
+string|"'sql connection retry interval'"
 op|')'
 newline|'\n'
 nl|'\n'
