@@ -1744,7 +1744,7 @@ name|'self'
 op|'.'
 name|'_cast_compute_message'
 op|'('
-string|"'snapshot_instance'"
+string|"'terminate_instance'"
 op|','
 name|'context'
 op|','
