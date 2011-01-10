@@ -226,7 +226,7 @@ name|'xenapi_conn'
 op|'.'
 name|'XenAPISession'
 op|','
-string|"'stop_loop'"
+string|"'_stop_loop'"
 op|','
 name|'fake_loop'
 op|')'
