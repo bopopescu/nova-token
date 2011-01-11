@@ -185,11 +185,7 @@ name|'DEFINE_string'
 op|'('
 string|"'routing_source_ip'"
 op|','
-name|'utils'
-op|'.'
-name|'get_my_ip'
-op|'('
-op|')'
+string|"'$my_ip'"
 op|','
 nl|'\n'
 string|"'Public IP of network host'"
