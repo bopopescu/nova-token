@@ -628,8 +628,6 @@ nl|'\n'
 comment|'#    id = Column(String(255), primary_key=True)'
 nl|'\n'
 nl|'\n'
-comment|'# this class is created by masumotok'
-nl|'\n'
 DECL|class|Host
 dedent|''
 dedent|''

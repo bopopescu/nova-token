@@ -2713,8 +2713,6 @@ op|'}'
 op|')'
 newline|'\n'
 nl|'\n'
-comment|'#def setup_compute_network(self, context, instance_id):'
-nl|'\n'
 DECL|member|setup_compute_network
 dedent|''
 name|'def'
