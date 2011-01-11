@@ -666,6 +666,36 @@ name|'return'
 string|"'FAKE CONSOLE OUTPUT'"
 newline|'\n'
 nl|'\n'
+DECL|member|get_console_pool_info
+dedent|''
+name|'def'
+name|'get_console_pool_info'
+op|'('
+name|'self'
+op|','
+name|'console_type'
+op|')'
+op|':'
+newline|'\n'
+indent|'        '
+name|'return'
+op|'{'
+string|"'address'"
+op|':'
+string|"'127.0.0.1'"
+op|','
+nl|'\n'
+string|"'username'"
+op|':'
+string|"'fakeuser'"
+op|','
+nl|'\n'
+string|"'password'"
+op|':'
+string|"'fakepassword'"
+op|'}'
+newline|'\n'
+nl|'\n'
 nl|'\n'
 DECL|class|FakeInstance
 dedent|''
