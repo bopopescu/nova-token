@@ -1400,6 +1400,16 @@ op|')'
 newline|'\n'
 name|'DEFINE_string'
 op|'('
+string|"'console_topic'"
+op|','
+string|"'console'"
+op|','
+nl|'\n'
+string|"'the topic console proxy nodes listen on'"
+op|')'
+newline|'\n'
+name|'DEFINE_string'
+op|'('
 string|"'scheduler_topic'"
 op|','
 string|"'scheduler'"
@@ -1722,6 +1732,16 @@ string|"'nova.compute.manager.ComputeManager'"
 op|','
 nl|'\n'
 string|"'Manager for compute'"
+op|')'
+newline|'\n'
+name|'DEFINE_string'
+op|'('
+string|"'console_manager'"
+op|','
+string|"'nova.console.manager.ConsoleProxyManager'"
+op|','
+nl|'\n'
+string|"'Manager for console proxy'"
 op|')'
 newline|'\n'
 name|'DEFINE_string'
