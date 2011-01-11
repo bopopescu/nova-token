@@ -315,7 +315,6 @@ op|')'
 newline|'\n'
 nl|'\n'
 nl|'\n'
-nl|'\n'
 DECL|function|service_get_all_compute_sorted
 dedent|''
 name|'def'

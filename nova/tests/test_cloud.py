@@ -965,7 +965,7 @@ op|','
 op|'{'
 string|"'host'"
 op|':'
-string|"'host1_describe_zones'"
+string|"'host1_zones'"
 op|','
 nl|'\n'
 string|"'binary'"
@@ -1002,7 +1002,7 @@ op|','
 op|'{'
 string|"'host'"
 op|':'
-string|"'host2_describe_zones'"
+string|"'host2_zones'"
 op|','
 nl|'\n'
 string|"'binary'"
@@ -1083,7 +1083,6 @@ op|']'
 op|')'
 newline|'\n'
 nl|'\n'
-nl|'\n'
 DECL|member|test_describe_instances
 dedent|''
 name|'def'
@@ -1111,6 +1110,7 @@ string|"'reservation_id'"
 op|':'
 string|"'a'"
 op|','
+nl|'\n'
 string|"'host'"
 op|':'
 string|"'host1'"
@@ -1132,13 +1132,14 @@ string|"'reservation_id'"
 op|':'
 string|"'a'"
 op|','
+nl|'\n'
 string|"'host'"
 op|':'
 string|"'host2'"
 op|'}'
 op|')'
 newline|'\n'
-name|'compute1'
+name|'comp1'
 op|'='
 name|'db'
 op|'.'
@@ -1165,7 +1166,7 @@ string|'"compute"'
 op|'}'
 op|')'
 newline|'\n'
-name|'compute2'
+name|'comp2'
 op|'='
 name|'db'
 op|'.'
@@ -1317,6 +1318,7 @@ op|']'
 op|'['
 number|'0'
 op|']'
+nl|'\n'
 op|'['
 string|"'placement'"
 op|']'
@@ -1363,7 +1365,7 @@ name|'self'
 op|'.'
 name|'context'
 op|','
-name|'compute1'
+name|'comp1'
 op|'['
 string|"'id'"
 op|']'
@@ -1377,13 +1379,12 @@ name|'self'
 op|'.'
 name|'context'
 op|','
-name|'compute2'
+name|'comp2'
 op|'['
 string|"'id'"
 op|']'
 op|')'
 newline|'\n'
-nl|'\n'
 nl|'\n'
 DECL|member|test_console_output
 dedent|''
@@ -2047,7 +2048,6 @@ name|'instance_id'
 op|')'
 newline|'\n'
 nl|'\n'
-nl|'\n'
 DECL|member|test_describe_instances
 dedent|''
 dedent|''
@@ -2079,7 +2079,7 @@ string|"'host2'"
 op|'}'
 op|')'
 newline|'\n'
-name|'service1'
+name|'comp1'
 op|'='
 name|'db'
 op|'.'
@@ -2130,12 +2130,14 @@ op|']'
 op|'['
 number|'0'
 op|']'
+nl|'\n'
 op|'['
 string|"'instancesSet'"
 op|']'
 op|'['
 number|'0'
 op|']'
+nl|'\n'
 op|'['
 string|"'placement'"
 op|']'
@@ -2168,13 +2170,12 @@ name|'self'
 op|'.'
 name|'context'
 op|','
-name|'service1'
+name|'comp1'
 op|'['
 string|"'id'"
 op|']'
 op|')'
 newline|'\n'
-nl|'\n'
 nl|'\n'
 DECL|member|test_instance_update_state
 dedent|''
@@ -2365,7 +2366,6 @@ nl|'\n'
 comment|"#    data = self.cloud.get_metadata(instance(i)['private_dns_name'])"
 nl|'\n'
 comment|"#    self.assert_(data['meta-data']['ami-id'] == 'ami-%s' % i)"
-nl|'\n'
 nl|'\n'
 nl|'\n'
 dedent|''

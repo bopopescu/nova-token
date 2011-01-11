@@ -740,6 +740,7 @@ string|"'nova'"
 op|')'
 newline|'\n'
 nl|'\n'
+nl|'\n'
 DECL|class|Certificate
 dedent|''
 name|'class'
