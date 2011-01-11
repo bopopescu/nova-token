@@ -153,6 +153,7 @@ nl|'\n'
 string|"'Suspended'"
 op|':'
 number|'32769'
+op|','
 nl|'\n'
 op|'}'
 newline|'\n'
