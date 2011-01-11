@@ -663,6 +663,7 @@ name|'return'
 string|"'http://fakeajaxconsole.com/?token=FAKETOKEN'"
 newline|'\n'
 nl|'\n'
+nl|'\n'
 DECL|class|FakeInstance
 dedent|''
 dedent|''
