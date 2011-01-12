@@ -2036,6 +2036,12 @@ string|"'host'"
 op|']'
 newline|'\n'
 nl|'\n'
+comment|'# TODO(sirp): When Glance supports images tied to servers, this should'
+nl|'\n'
+comment|"# be replaced by something like 'is_public': False, 'server_id':"
+nl|'\n'
+comment|'# instance_id'
+nl|'\n'
 name|'data'
 op|'='
 op|'{'
