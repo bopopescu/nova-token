@@ -666,6 +666,22 @@ name|'return'
 string|"'FAKE CONSOLE OUTPUT'"
 newline|'\n'
 nl|'\n'
+DECL|member|get_ajax_console
+dedent|''
+name|'def'
+name|'get_ajax_console'
+op|'('
+name|'self'
+op|','
+name|'instance'
+op|')'
+op|':'
+newline|'\n'
+indent|'        '
+name|'return'
+string|"'http://fakeajaxconsole.com/?token=FAKETOKEN'"
+newline|'\n'
+nl|'\n'
 DECL|member|get_console_pool_info
 dedent|''
 name|'def'
