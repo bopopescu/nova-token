@@ -96,7 +96,7 @@ name|'self'
 op|'.'
 name|'get_list'
 op|'('
-string|"'DescribeInstances'"
+string|"'DescribeInstancesV6'"
 op|','
 name|'params'
 op|','
