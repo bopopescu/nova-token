@@ -1208,15 +1208,103 @@ op|')'
 newline|'\n'
 nl|'\n'
 nl|'\n'
+DECL|function|_get_my_ip
+dedent|''
+dedent|''
+name|'def'
+name|'_get_my_ip'
+op|'('
+op|')'
+op|':'
+newline|'\n'
+indent|'    '
+string|'"""Returns the actual ip of the local machine."""'
+newline|'\n'
+name|'try'
+op|':'
+newline|'\n'
+indent|'        '
+name|'csock'
+op|'='
+name|'socket'
+op|'.'
+name|'socket'
+op|'('
+name|'socket'
+op|'.'
+name|'AF_INET'
+op|','
+name|'socket'
+op|'.'
+name|'SOCK_DGRAM'
+op|')'
+newline|'\n'
+name|'csock'
+op|'.'
+name|'connect'
+op|'('
+op|'('
+string|"'8.8.8.8'"
+op|','
+number|'80'
+op|')'
+op|')'
+newline|'\n'
+op|'('
+name|'addr'
+op|','
+name|'port'
+op|')'
+op|'='
+name|'csock'
+op|'.'
+name|'getsockname'
+op|'('
+op|')'
+newline|'\n'
+name|'csock'
+op|'.'
+name|'close'
+op|'('
+op|')'
+newline|'\n'
+name|'return'
+name|'addr'
+newline|'\n'
+dedent|''
+name|'except'
+name|'socket'
+op|'.'
+name|'gaierror'
+name|'as'
+name|'ex'
+op|':'
+newline|'\n'
+indent|'        '
+name|'return'
+string|'"127.0.0.1"'
+newline|'\n'
+nl|'\n'
+nl|'\n'
 comment|'# __GLOBAL FLAGS ONLY__'
 nl|'\n'
 comment|'# Define any app-specific flags in their own files, docs at:'
 nl|'\n'
-comment|'# http://code.google.com/p/python-gflags/source/browse/trunk/gflags.py#39'
-nl|'\n'
+comment|'# http://code.google.com/p/python-gflags/source/browse/trunk/gflags.py#a9'
 nl|'\n'
 dedent|''
 dedent|''
+name|'DEFINE_string'
+op|'('
+string|"'my_ip'"
+op|','
+name|'_get_my_ip'
+op|'('
+op|')'
+op|','
+string|"'host ip address'"
+op|')'
+newline|'\n'
 name|'DEFINE_list'
 op|'('
 string|"'region_list'"
@@ -1269,7 +1357,7 @@ name|'DEFINE_string'
 op|'('
 string|"'glance_host'"
 op|','
-string|"'127.0.0.1'"
+string|"'$my_ip'"
 op|','
 string|"'glance host'"
 op|')'
@@ -1287,7 +1375,7 @@ name|'DEFINE_string'
 op|'('
 string|"'s3_host'"
 op|','
-string|"'127.0.0.1'"
+string|"'$my_ip'"
 op|','
 string|"'s3 host (for infrastructure)'"
 op|')'
@@ -1296,7 +1384,7 @@ name|'DEFINE_string'
 op|'('
 string|"'s3_dmz'"
 op|','
-string|"'127.0.0.1'"
+string|"'$my_ip'"
 op|','
 string|"'s3 dmz ip (for instances)'"
 op|')'
@@ -1308,6 +1396,16 @@ op|','
 string|"'compute'"
 op|','
 string|"'the topic compute nodes listen on'"
+op|')'
+newline|'\n'
+name|'DEFINE_string'
+op|'('
+string|"'console_topic'"
+op|','
+string|"'console'"
+op|','
+nl|'\n'
+string|"'the topic console proxy nodes listen on'"
 op|')'
 newline|'\n'
 name|'DEFINE_string'
@@ -1480,9 +1578,18 @@ op|')'
 newline|'\n'
 name|'DEFINE_string'
 op|'('
+string|"'os_prefix'"
+op|','
+string|"'http'"
+op|','
+string|"'prefix for openstack'"
+op|')'
+newline|'\n'
+name|'DEFINE_string'
+op|'('
 string|"'cc_host'"
 op|','
-string|"'127.0.0.1'"
+string|"'$my_ip'"
 op|','
 string|"'ip of api server'"
 op|')'
@@ -1491,7 +1598,7 @@ name|'DEFINE_string'
 op|'('
 string|"'cc_dmz'"
 op|','
-string|"'127.0.0.1'"
+string|"'$my_ip'"
 op|','
 string|"'internal ip of api server'"
 op|')'
@@ -1512,6 +1619,15 @@ op|','
 string|"'/services/Cloud'"
 op|','
 string|"'suffix for ec2'"
+op|')'
+newline|'\n'
+name|'DEFINE_string'
+op|'('
+string|"'os_suffix'"
+op|','
+string|"'/v1.0/'"
+op|','
+string|"'suffix for openstack'"
 op|')'
 newline|'\n'
 nl|'\n'
@@ -1664,6 +1780,16 @@ string|"'nova.compute.manager.ComputeManager'"
 op|','
 nl|'\n'
 string|"'Manager for compute'"
+op|')'
+newline|'\n'
+name|'DEFINE_string'
+op|'('
+string|"'console_manager'"
+op|','
+string|"'nova.console.manager.ConsoleProxyManager'"
+op|','
+nl|'\n'
+string|"'Manager for console proxy'"
 op|')'
 newline|'\n'
 name|'DEFINE_string'
