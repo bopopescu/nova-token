@@ -176,7 +176,7 @@ name|'DEFINE_string'
 op|'('
 string|"'iscsi_ip_prefix'"
 op|','
-string|"'127.0'"
+string|"'$my_ip'"
 op|','
 nl|'\n'
 string|"'discover volumes on the ip that starts with this prefix'"
@@ -1661,11 +1661,12 @@ op|')'
 op|')'
 newline|'\n'
 name|'return'
-string|'"/dev/by-path/ip-%s-iscsi-%s-lun-0"'
+string|'"/dev/disk/by-path/ip-%s-iscsi-%s-lun-0"'
 op|'%'
 op|'('
 name|'iscsi_portal'
 op|','
+nl|'\n'
 name|'iscsi_name'
 op|')'
 newline|'\n'
