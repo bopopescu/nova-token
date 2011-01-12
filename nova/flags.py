@@ -1569,25 +1569,7 @@ op|')'
 newline|'\n'
 name|'DEFINE_string'
 op|'('
-string|"'ec2_prefix'"
-op|','
-string|"'http'"
-op|','
-string|"'prefix for ec2'"
-op|')'
-newline|'\n'
-name|'DEFINE_string'
-op|'('
-string|"'os_prefix'"
-op|','
-string|"'http'"
-op|','
-string|"'prefix for openstack'"
-op|')'
-newline|'\n'
-name|'DEFINE_string'
-op|'('
-string|"'cc_host'"
+string|"'ec2_host'"
 op|','
 string|"'$my_ip'"
 op|','
@@ -1596,7 +1578,7 @@ op|')'
 newline|'\n'
 name|'DEFINE_string'
 op|'('
-string|"'cc_dmz'"
+string|"'ec2_dmz_host'"
 op|','
 string|"'$my_ip'"
 op|','
@@ -1605,7 +1587,7 @@ op|')'
 newline|'\n'
 name|'DEFINE_integer'
 op|'('
-string|"'cc_port'"
+string|"'ec2_port'"
 op|','
 number|'8773'
 op|','
@@ -1614,7 +1596,16 @@ op|')'
 newline|'\n'
 name|'DEFINE_string'
 op|'('
-string|"'ec2_suffix'"
+string|"'ec2_scheme'"
+op|','
+string|"'http'"
+op|','
+string|"'prefix for ec2'"
+op|')'
+newline|'\n'
+name|'DEFINE_string'
+op|'('
+string|"'ec2_path'"
 op|','
 string|"'/services/Cloud'"
 op|','
@@ -1623,7 +1614,34 @@ op|')'
 newline|'\n'
 name|'DEFINE_string'
 op|'('
-string|"'os_suffix'"
+string|"'osapi_host'"
+op|','
+string|"'$my_ip'"
+op|','
+string|"'ip of api server'"
+op|')'
+newline|'\n'
+name|'DEFINE_string'
+op|'('
+string|"'osapi_scheme'"
+op|','
+string|"'http'"
+op|','
+string|"'prefix for openstack'"
+op|')'
+newline|'\n'
+name|'DEFINE_integer'
+op|'('
+string|"'osapi_port'"
+op|','
+number|'8774'
+op|','
+string|"'OpenStack API port'"
+op|')'
+newline|'\n'
+name|'DEFINE_string'
+op|'('
+string|"'osapi_path'"
 op|','
 string|"'/v1.0/'"
 op|','
