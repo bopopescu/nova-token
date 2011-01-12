@@ -41,9 +41,6 @@ name|'import'
 name|'datetime'
 newline|'\n'
 name|'import'
-name|'logging'
-newline|'\n'
-name|'import'
 name|'unittest'
 newline|'\n'
 nl|'\n'
@@ -942,6 +939,11 @@ op|':'
 string|"'23g2ogk23k4hhkk4k42l'"
 op|','
 nl|'\n'
+string|"'imageId'"
+op|':'
+string|"'23g2ogk23k4hhkk4k42l'"
+op|','
+nl|'\n'
 string|"'name'"
 op|':'
 string|"'public image #1'"
@@ -1003,6 +1005,11 @@ op|','
 nl|'\n'
 op|'{'
 string|"'id'"
+op|':'
+string|"'slkduhfas73kkaskgdas'"
+op|','
+nl|'\n'
+string|"'imageId'"
 op|':'
 string|"'slkduhfas73kkaskgdas'"
 op|','
