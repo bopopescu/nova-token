@@ -4003,6 +4003,7 @@ op|'['
 string|"'id'"
 op|']'
 op|','
+nl|'\n'
 string|"'vol-%s'"
 op|')'
 op|'}'
