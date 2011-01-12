@@ -6405,7 +6405,8 @@ nl|'\n'
 name|'if'
 name|'icmp_type'
 op|'=='
-string|"'-1'"
+op|'-'
+number|'1'
 op|':'
 newline|'\n'
 indent|'                        '
@@ -6428,7 +6429,8 @@ name|'if'
 name|'not'
 name|'icmp_code'
 op|'=='
-string|"'-1'"
+op|'-'
+number|'1'
 op|':'
 newline|'\n'
 indent|'                            '
@@ -6453,7 +6455,7 @@ string|"'-m'"
 op|','
 string|"'icmp'"
 op|','
-string|"'--icmp_type'"
+string|"'--icmp-type'"
 op|','
 name|'icmp_type_arg'
 op|']'
