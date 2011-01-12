@@ -4312,9 +4312,9 @@ op|')'
 op|'.'
 name|'options'
 op|'('
-name|'joinedload'
+name|'joinedload_all'
 op|'('
-string|"'fixed_ip'"
+string|"'fixed_ip.floating_ips'"
 op|')'
 op|')'
 op|'.'
@@ -4369,9 +4369,9 @@ op|')'
 op|'.'
 name|'options'
 op|'('
-name|'joinedload'
+name|'joinedload_all'
 op|'('
-string|"'fixed_ip'"
+string|"'fixed_ip.floating_ips'"
 op|')'
 op|')'
 op|'.'
