@@ -83,6 +83,30 @@ nl|'\n'
 string|"'Services to be added to the available pool on create'"
 op|')'
 newline|'\n'
+name|'flags'
+op|'.'
+name|'DEFINE_string'
+op|'('
+string|"'instance_name_template'"
+op|','
+string|"'instance-%08x'"
+op|','
+nl|'\n'
+string|"'Template string to be used to generate instance names'"
+op|')'
+newline|'\n'
+name|'flags'
+op|'.'
+name|'DEFINE_string'
+op|'('
+string|"'volume_name_template'"
+op|','
+string|"'volume-%08x'"
+op|','
+nl|'\n'
+string|"'Template string to be used to generate instance names'"
+op|')'
+newline|'\n'
 nl|'\n'
 nl|'\n'
 DECL|variable|IMPL
