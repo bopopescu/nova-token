@@ -16,7 +16,7 @@ op|'=='
 string|"'__main__'"
 op|':'
 newline|'\n'
-indent|'  '
+indent|'    '
 name|'main'
 op|'('
 name|'debug'
