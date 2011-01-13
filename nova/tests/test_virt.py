@@ -1929,6 +1929,7 @@ string|"'COMMIT'"
 op|','
 nl|'\n'
 string|"'# Completed on Mon Dec  6 11:54:13 2010'"
+op|','
 nl|'\n'
 op|']'
 newline|'\n'

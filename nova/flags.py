@@ -1400,6 +1400,16 @@ op|')'
 newline|'\n'
 name|'DEFINE_string'
 op|'('
+string|"'console_topic'"
+op|','
+string|"'console'"
+op|','
+nl|'\n'
+string|"'the topic console proxy nodes listen on'"
+op|')'
+newline|'\n'
+name|'DEFINE_string'
+op|'('
 string|"'scheduler_topic'"
 op|','
 string|"'scheduler'"
@@ -1426,7 +1436,37 @@ op|','
 string|"'the topic network nodes listen on'"
 op|')'
 newline|'\n'
+name|'DEFINE_string'
+op|'('
+string|"'ajax_console_proxy_topic'"
+op|','
+string|"'ajax_proxy'"
+op|','
 nl|'\n'
+string|"'the topic ajax proxy nodes listen on'"
+op|')'
+newline|'\n'
+name|'DEFINE_string'
+op|'('
+string|"'ajax_console_proxy_url'"
+op|','
+nl|'\n'
+string|"'http://127.0.0.1:8000'"
+op|','
+nl|'\n'
+string|'\'location of ajax console proxy, \\\n               in the form "http://127.0.0.1:8000"\''
+op|')'
+newline|'\n'
+name|'DEFINE_string'
+op|'('
+string|"'ajax_console_proxy_port'"
+op|','
+nl|'\n'
+number|'8000'
+op|','
+string|"'port that ajax_console_proxy binds'"
+op|')'
+newline|'\n'
 name|'DEFINE_bool'
 op|'('
 string|"'verbose'"
@@ -1538,6 +1578,15 @@ op|')'
 newline|'\n'
 name|'DEFINE_string'
 op|'('
+string|"'os_prefix'"
+op|','
+string|"'http'"
+op|','
+string|"'prefix for openstack'"
+op|')'
+newline|'\n'
+name|'DEFINE_string'
+op|'('
 string|"'cc_host'"
 op|','
 string|"'$my_ip'"
@@ -1563,6 +1612,15 @@ op|','
 string|"'cloud controller port'"
 op|')'
 newline|'\n'
+name|'DEFINE_integer'
+op|'('
+string|"'osapi_port'"
+op|','
+number|'8774'
+op|','
+string|"'OpenStack API port'"
+op|')'
+newline|'\n'
 name|'DEFINE_string'
 op|'('
 string|"'ec2_suffix'"
@@ -1570,6 +1628,15 @@ op|','
 string|"'/services/Cloud'"
 op|','
 string|"'suffix for ec2'"
+op|')'
+newline|'\n'
+name|'DEFINE_string'
+op|'('
+string|"'os_suffix'"
+op|','
+string|"'/v1.0/'"
+op|','
+string|"'suffix for openstack'"
 op|')'
 newline|'\n'
 nl|'\n'
@@ -1726,6 +1793,16 @@ op|')'
 newline|'\n'
 name|'DEFINE_string'
 op|'('
+string|"'console_manager'"
+op|','
+string|"'nova.console.manager.ConsoleProxyManager'"
+op|','
+nl|'\n'
+string|"'Manager for console proxy'"
+op|')'
+newline|'\n'
+name|'DEFINE_string'
+op|'('
 string|"'network_manager'"
 op|','
 string|"'nova.network.manager.VlanManager'"
@@ -1782,8 +1859,6 @@ nl|'\n'
 string|"'name of this node'"
 op|')'
 newline|'\n'
-nl|'\n'
-comment|'# UNUSED'
 nl|'\n'
 name|'DEFINE_string'
 op|'('
