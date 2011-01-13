@@ -6157,7 +6157,7 @@ name|'info'
 op|'('
 name|'_'
 op|'('
-string|"'Attempted to untiler instance %s which is not '"
+string|"'Attempted to unfilter instance %s which is not '"
 nl|'\n'
 string|"'filtered'"
 op|')'
