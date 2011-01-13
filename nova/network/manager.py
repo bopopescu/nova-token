@@ -199,11 +199,7 @@ name|'DEFINE_string'
 op|'('
 string|"'vpn_ip'"
 op|','
-name|'utils'
-op|'.'
-name|'get_my_ip'
-op|'('
-op|')'
+string|"'$my_ip'"
 op|','
 nl|'\n'
 string|"'Public IP for the cloudpipe VPN servers'"
