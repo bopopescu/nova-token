@@ -72,6 +72,7 @@ comment|'# Define any app-specific flags in their own files, docs at:'
 nl|'\n'
 comment|'# http://code.google.com/p/python-gflags/source/browse/trunk/gflags.py#39'
 nl|'\n'
+nl|'\n'
 name|'DEFINE_string'
 op|'('
 string|"'region'"
@@ -90,6 +91,14 @@ op|','
 string|"'Image to use for launch tests'"
 op|')'
 newline|'\n'
-nl|'\n'
+name|'DEFINE_string'
+op|'('
+string|"'use_ipv6'"
+op|','
+name|'True'
+op|','
+string|"'use the ipv6 or not'"
+op|')'
+newline|'\n'
 endmarker|''
 end_unit
