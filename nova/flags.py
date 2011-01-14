@@ -1612,6 +1612,15 @@ op|','
 string|"'cloud controller port'"
 op|')'
 newline|'\n'
+name|'DEFINE_integer'
+op|'('
+string|"'osapi_port'"
+op|','
+number|'8774'
+op|','
+string|"'OpenStack API port'"
+op|')'
+newline|'\n'
 name|'DEFINE_string'
 op|'('
 string|"'ec2_suffix'"
