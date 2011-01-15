@@ -5677,7 +5677,6 @@ string|"'no-arp-spoofing'"
 op|','
 nl|'\n'
 string|"'allow-dhcp-server'"
-nl|'\n'
 op|']'
 op|')'
 op|')'
