@@ -148,6 +148,7 @@ op|')'
 newline|'\n'
 nl|'\n'
 nl|'\n'
+nl|'\n'
 DECL|class|local_BuildDoc
 dedent|''
 dedent|''
