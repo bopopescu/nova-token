@@ -333,7 +333,7 @@ op|'('
 string|"'firewall_driver'"
 op|','
 nl|'\n'
-name|'None'
+string|"'nova.virt.libvirt_conn.IptablesFirewallDriver'"
 op|','
 nl|'\n'
 string|"'Firewall driver (defaults to iptables)'"
