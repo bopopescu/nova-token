@@ -856,6 +856,7 @@ string|"'This method is supported only libvirt.'"
 op|')'
 newline|'\n'
 nl|'\n'
+nl|'\n'
 DECL|class|FakeInstance
 dedent|''
 dedent|''
