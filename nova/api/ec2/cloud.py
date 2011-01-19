@@ -5290,7 +5290,7 @@ op|'['
 string|"'instance'"
 op|']'
 op|'['
-string|"'id'"
+string|"'ec2_id'"
 op|']'
 newline|'\n'
 name|'ec2_id'
