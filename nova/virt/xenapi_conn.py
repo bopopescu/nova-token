@@ -190,6 +190,19 @@ op|')'
 newline|'\n'
 name|'flags'
 op|'.'
+name|'DEFINE_string'
+op|'('
+string|"'xenapi_image_service'"
+op|','
+nl|'\n'
+string|"'glance'"
+op|','
+nl|'\n'
+string|"'Where to get VM images: glance or objectstore.'"
+op|')'
+newline|'\n'
+name|'flags'
+op|'.'
 name|'DEFINE_float'
 op|'('
 string|"'xenapi_vhd_coalesce_poll_interval'"

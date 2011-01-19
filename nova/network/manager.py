@@ -317,7 +317,7 @@ name|'DEFINE_bool'
 op|'('
 string|"'use_ipv6'"
 op|','
-name|'True'
+name|'False'
 op|','
 nl|'\n'
 string|"'use the ipv6'"
