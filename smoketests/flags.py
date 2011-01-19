@@ -86,7 +86,7 @@ name|'DEFINE_string'
 op|'('
 string|"'test_image'"
 op|','
-string|"'ami-tiny'"
+string|"'ami-tty'"
 op|','
 string|"'Image to use for launch tests'"
 op|')'
