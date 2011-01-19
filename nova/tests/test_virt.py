@@ -2555,9 +2555,9 @@ name|'self'
 op|'.'
 name|'assertTrue'
 op|'('
-string|"'-A %s -p icmp -s 192.168.11.0/24 -m icmp --icmp-type'"
+string|"'-A %s -p icmp -s 192.168.11.0/24 -m icmp --icmp-type '"
 nl|'\n'
-string|"' 8 -j ACCEPT'"
+string|"'8 -j ACCEPT'"
 op|'%'
 name|'security_group_chain'
 name|'in'
@@ -3545,7 +3545,6 @@ name|'teardown_security_group'
 op|'('
 op|')'
 newline|'\n'
-nl|'\n'
 dedent|''
 dedent|''
 endmarker|''
