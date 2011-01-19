@@ -1413,7 +1413,6 @@ name|'return'
 name|'False'
 newline|'\n'
 nl|'\n'
-nl|'\n'
 DECL|member|block_external_addresses
 dedent|''
 name|'def'
