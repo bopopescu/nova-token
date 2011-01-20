@@ -132,7 +132,7 @@ op|'('
 string|"'logging_exception_prefix'"
 op|','
 nl|'\n'
-string|"'%(asctime)s TRACE %(name)s: '"
+string|"'(%(name)s): TRACE: '"
 op|','
 nl|'\n'
 string|"'prefix each line of exception output with this format'"
