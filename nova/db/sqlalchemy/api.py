@@ -786,7 +786,7 @@ nl|'\n'
 nl|'\n'
 dedent|''
 op|'@'
-name|'require_admin_context'
+name|'require_context'
 newline|'\n'
 DECL|function|service_get_all_by_host
 name|'def'
