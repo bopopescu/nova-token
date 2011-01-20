@@ -661,7 +661,9 @@ name|'vdi_ref'
 op|')'
 newline|'\n'
 nl|'\n'
-comment|"# Configure the VM's xenstore  data before start for, e.g. network configuration"
+comment|"# Configure the VM's xenstore  data before start for,"
+nl|'\n'
+comment|'# e.g. network configuration'
 nl|'\n'
 name|'VMHelper'
 op|'.'
