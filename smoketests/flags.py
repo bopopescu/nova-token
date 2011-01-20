@@ -91,7 +91,7 @@ op|','
 string|"'Image to use for launch tests'"
 op|')'
 newline|'\n'
-name|'DEFINE_string'
+name|'DEFINE_bool'
 op|'('
 string|"'use_ipv6'"
 op|','
