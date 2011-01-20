@@ -939,6 +939,11 @@ op|':'
 string|"'23g2ogk23k4hhkk4k42l'"
 op|','
 nl|'\n'
+string|"'imageId'"
+op|':'
+string|"'23g2ogk23k4hhkk4k42l'"
+op|','
+nl|'\n'
 string|"'name'"
 op|':'
 string|"'public image #1'"
@@ -1000,6 +1005,11 @@ op|','
 nl|'\n'
 op|'{'
 string|"'id'"
+op|':'
+string|"'slkduhfas73kkaskgdas'"
+op|','
+nl|'\n'
+string|"'imageId'"
 op|':'
 string|"'slkduhfas73kkaskgdas'"
 op|','
@@ -1221,13 +1231,10 @@ name|'req'
 op|'.'
 name|'get_response'
 op|'('
-name|'nova'
+name|'fakes'
 op|'.'
-name|'api'
-op|'.'
-name|'API'
+name|'wsgi_app'
 op|'('
-string|"'os'"
 op|')'
 op|')'
 newline|'\n'
@@ -1333,13 +1340,10 @@ name|'req'
 op|'.'
 name|'get_response'
 op|'('
-name|'nova'
+name|'fakes'
 op|'.'
-name|'api'
-op|'.'
-name|'API'
+name|'wsgi_app'
 op|'('
-string|"'os'"
 op|')'
 op|')'
 newline|'\n'
