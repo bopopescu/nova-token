@@ -663,9 +663,7 @@ op|','
 nl|'\n'
 string|"'ip'"
 op|':'
-number|'192.168'
-number|'.3'
-number|'.3'
+string|"'192.168.3.3'"
 op|'}'
 op|']'
 op|'}'
