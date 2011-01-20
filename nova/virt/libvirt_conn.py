@@ -5343,10 +5343,10 @@ name|'security_group_id'
 op|')'
 newline|'\n'
 nl|'\n'
-DECL|member|refresh_provier_fw_rules
+DECL|member|refresh_provider_fw_rules
 dedent|''
 name|'def'
-name|'refresh_provier_fw_rules'
+name|'refresh_provider_fw_rules'
 op|'('
 name|'self'
 op|')'
