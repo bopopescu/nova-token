@@ -270,6 +270,38 @@ nl|'\n'
 string|"'IQN Prefix'"
 op|')'
 newline|'\n'
+comment|'# NOTE(sirp): This is a work-around for a bug in Ubuntu Maverick, when we pull'
+nl|'\n'
+comment|'# support for it, we should remove this'
+nl|'\n'
+name|'flags'
+op|'.'
+name|'DEFINE_bool'
+op|'('
+string|"'xenapi_remap_vbd_dev'"
+op|','
+name|'False'
+op|','
+nl|'\n'
+string|"'Used to enable the remapping of VBD dev '"
+nl|'\n'
+string|"'(Works around an issue in Ubuntu Maverick)'"
+op|')'
+newline|'\n'
+name|'flags'
+op|'.'
+name|'DEFINE_string'
+op|'('
+string|"'xenapi_remap_vbd_dev_prefix'"
+op|','
+string|"'sd'"
+op|','
+nl|'\n'
+string|"'Specify prefix to remap VBD dev to '"
+nl|'\n'
+string|"'(ex. /dev/xvdb -> /dev/sdb)'"
+op|')'
+newline|'\n'
 nl|'\n'
 nl|'\n'
 DECL|function|get_connection
