@@ -286,6 +286,11 @@ string|"'instance_type'"
 op|']'
 op|','
 nl|'\n'
+string|"'key_data'"
+op|':'
+name|'None'
+op|','
+nl|'\n'
 string|"'memory_mb'"
 op|':'
 name|'type_data'
@@ -347,6 +352,10 @@ string|"'bridge'"
 op|':'
 string|"'xenbr0'"
 op|','
+nl|'\n'
+string|"'injected'"
+op|':'
+name|'False'
 nl|'\n'
 op|'}'
 newline|'\n'
