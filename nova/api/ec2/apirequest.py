@@ -510,7 +510,7 @@ name|'_error'
 op|'='
 name|'_'
 op|'('
-string|"'Unsupported API request: controller = %(contorller)s,'"
+string|"'Unsupported API request: controller = %(controller)s,'"
 nl|'\n'
 string|"' action = %(action)s'"
 op|')'
