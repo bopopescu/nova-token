@@ -8067,8 +8067,6 @@ op|'['
 string|"'gateway'"
 op|']'
 newline|'\n'
-nl|'\n'
-nl|'\n'
 dedent|''
 dedent|''
 endmarker|''
