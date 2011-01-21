@@ -4440,7 +4440,7 @@ name|'options'
 op|'('
 name|'joinedload_all'
 op|'('
-string|"'fixed_ip.floating_ips'"
+string|"'fixed_ip.network'"
 op|')'
 op|')'
 op|'.'
@@ -4498,6 +4498,14 @@ op|'('
 name|'joinedload_all'
 op|'('
 string|"'fixed_ip.floating_ips'"
+op|')'
+op|')'
+op|'.'
+name|'options'
+op|'('
+name|'joinedload_all'
+op|'('
+string|"'fixed_ip.network'"
 op|')'
 op|')'
 op|'.'
