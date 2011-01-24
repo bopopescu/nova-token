@@ -1179,7 +1179,6 @@ string|"'22:33:2a:b3:CC:dd'"
 op|','
 nl|'\n'
 string|"'44:44:2a:b3:CC:dd'"
-nl|'\n'
 op|')'
 op|'['
 name|'int'
@@ -1218,6 +1217,7 @@ op|','
 name|'value'
 op|')'
 newline|'\n'
+nl|'\n'
 nl|'\n'
 DECL|class|FakeSessionForVolumeTests
 dedent|''

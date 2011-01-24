@@ -1850,7 +1850,6 @@ nl|'\n'
 string|"'SubnetMask/type'"
 op|':'
 string|"'multi_sz'"
-nl|'\n'
 op|'}'
 op|')'
 newline|'\n'

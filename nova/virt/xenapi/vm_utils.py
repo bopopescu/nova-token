@@ -2858,6 +2858,7 @@ name|'if'
 name|'mount_required'
 op|':'
 newline|'\n'
+nl|'\n'
 DECL|function|_mounted_processing
 indent|'            '
 name|'def'
@@ -2976,9 +2977,9 @@ name|'path'
 op|'.'
 name|'join'
 op|'('
+nl|'\n'
 name|'tmpdir'
 op|','
-nl|'\n'
 string|"'usr'"
 op|','
 string|"'sbin'"
@@ -3018,7 +3019,9 @@ string|"'XenServer tools installed in this '"
 nl|'\n'
 string|"'image are capable of network injection.  '"
 nl|'\n'
-string|"'Networking files will not be manipulated'"
+string|"'Networking files will not be'"
+nl|'\n'
+string|"'manipulated'"
 op|')'
 op|')'
 newline|'\n'
@@ -3037,9 +3040,9 @@ name|'join'
 op|'('
 name|'tmpdir'
 op|','
+nl|'\n'
 string|"'usr'"
 op|','
-nl|'\n'
 string|"'sbin'"
 op|','
 string|"'xe-daemon'"
@@ -3063,11 +3066,11 @@ name|'info'
 op|'('
 name|'_'
 op|'('
-string|"'XenServer tools are present in '"
+string|"'XenServer tools are present '"
 nl|'\n'
-string|"'this image but are not capable of '"
+string|"'in this image but are not capable '"
 nl|'\n'
-string|"'network injection'"
+string|"'of network injection'"
 op|')'
 op|')'
 newline|'\n'
@@ -3159,10 +3162,10 @@ name|'vdi_ref'
 op|','
 name|'False'
 op|','
+nl|'\n'
 name|'_mounted_processing'
 op|')'
 newline|'\n'
-nl|'\n'
 nl|'\n'
 dedent|''
 dedent|''
@@ -3219,7 +3222,6 @@ nl|'\n'
 string|"'SubnetMask'"
 op|':'
 string|"'multi_sz'"
-nl|'\n'
 op|'}'
 newline|'\n'
 nl|'\n'
@@ -3326,7 +3328,6 @@ name|'network_ref'
 op|'['
 string|"'dns'"
 op|']'
-nl|'\n'
 op|'}'
 newline|'\n'
 nl|'\n'
