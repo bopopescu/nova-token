@@ -82,14 +82,14 @@ op|'('
 string|"'logging_context_format_string'"
 op|','
 nl|'\n'
-string|"'(%(name)s %(nova_version)s): %(levelname)s '"
+string|"'%(asctime)s %(levelname)s %(name)s '"
 nl|'\n'
 string|"'[%(request_id)s %(user)s '"
 nl|'\n'
 string|"'%(project)s] %(message)s'"
 op|','
 nl|'\n'
-string|"'format string to use for log messages'"
+string|"'format string to use for log messages with context'"
 op|')'
 newline|'\n'
 nl|'\n'
@@ -100,12 +100,12 @@ op|'('
 string|"'logging_default_format_string'"
 op|','
 nl|'\n'
-string|"'(%(name)s %(nova_version)s): %(levelname)s [N/A] '"
+string|"'%(asctime)s %(levelname)s %(name)s [-] '"
 nl|'\n'
 string|"'%(message)s'"
 op|','
 nl|'\n'
-string|"'format string to use for log messages'"
+string|"'format string to use for log messages without context'"
 op|')'
 newline|'\n'
 nl|'\n'
