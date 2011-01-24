@@ -405,6 +405,11 @@ nl|'\n'
 string|"'dns'"
 op|':'
 string|"'10.0.0.2'"
+op|','
+nl|'\n'
+string|"'ra_server'"
+op|':'
+name|'None'
 nl|'\n'
 op|'}'
 op|')'
