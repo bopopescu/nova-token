@@ -8115,6 +8115,7 @@ name|'network'
 op|'['
 string|"'cidr_v6'"
 op|']'
+newline|'\n'
 dedent|''
 dedent|''
 endmarker|''
