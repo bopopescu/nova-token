@@ -7322,7 +7322,7 @@ op|'+='
 op|'['
 string|"'-A %s -s %s -p udp --sport 67 --dport 68 '"
 nl|'\n'
-string|"'-j ACCEPT'"
+string|"'-j ACCEPT '"
 op|'%'
 op|'('
 name|'chain_name'
