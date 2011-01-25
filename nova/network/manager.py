@@ -268,7 +268,7 @@ name|'DEFINE_integer'
 op|'('
 string|"'cnt_vpn_clients'"
 op|','
-number|'5'
+number|'0'
 op|','
 nl|'\n'
 string|"'Number of addresses reserved for vpn clients'"
