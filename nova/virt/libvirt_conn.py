@@ -7314,9 +7314,10 @@ newline|'\n'
 name|'our_rules'
 op|'+='
 op|'['
-string|"'-A %s -s %s -p udp --sport 67 --dport 68'"
-op|'%'
+string|"'-A %s -s %s -p udp --sport 67 --dport 68 '"
 nl|'\n'
+string|"'-j ACCEPT'"
+op|'%'
 op|'('
 name|'chain_name'
 op|','
@@ -7348,9 +7349,10 @@ newline|'\n'
 name|'our_rules'
 op|'+='
 op|'['
-string|"'-A %s -s %s -p icmpv6'"
-op|'%'
+string|"'-A %s -s %s -p icmpv6 '"
 nl|'\n'
+string|"'-j ACCEPT'"
+op|'%'
 op|'('
 name|'chain_name'
 op|','
