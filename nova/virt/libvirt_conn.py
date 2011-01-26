@@ -7622,7 +7622,7 @@ indent|'                    '
 name|'our_rules'
 op|'+='
 op|'['
-string|"'-A %s -s %s -p icmpv6'"
+string|"'-A %s -s %s -p icmpv6 -j ACCEPT'"
 op|'%'
 nl|'\n'
 op|'('
