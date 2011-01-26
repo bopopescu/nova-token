@@ -151,19 +151,6 @@ name|'FLAGS'
 newline|'\n'
 name|'flags'
 op|'.'
-name|'DEFINE_string'
-op|'('
-string|"'os_krm_mapping_file'"
-op|','
-nl|'\n'
-string|"'krm_mapping.json'"
-op|','
-nl|'\n'
-string|"'Location of OpenStack Flavor/OS:EC2 Kernel/Ramdisk/Machine JSON file.'"
-op|')'
-newline|'\n'
-name|'flags'
-op|'.'
 name|'DEFINE_bool'
 op|'('
 string|"'allow_admin_api'"
