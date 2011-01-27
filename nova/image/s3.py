@@ -427,7 +427,7 @@ newline|'\n'
 indent|'            '
 name|'return'
 op|'{'
-string|"'imageId'"
+string|"'id'"
 op|':'
 string|"'bar'"
 op|'}'
@@ -453,7 +453,7 @@ name|'result'
 name|'if'
 name|'i'
 op|'['
-string|"'imageId'"
+string|"'id'"
 op|']'
 op|'=='
 name|'image_id'
