@@ -183,7 +183,7 @@ name|'image_id'
 op|'='
 name|'image'
 op|'['
-string|"'imageId'"
+string|"'id'"
 op|']'
 newline|'\n'
 name|'if'
