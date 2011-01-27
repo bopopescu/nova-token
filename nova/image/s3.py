@@ -320,25 +320,15 @@ name|'image'
 op|':'
 newline|'\n'
 indent|'                '
-name|'image_id'
-op|'='
-name|'image'
-op|'['
-string|"'imageId'"
-op|']'
-newline|'\n'
-name|'del'
-name|'image'
-op|'['
-string|"'imageId'"
-op|']'
-newline|'\n'
 name|'image'
 op|'['
 string|"'id'"
 op|']'
 op|'='
-name|'image_id'
+name|'image'
+op|'['
+string|"'imageId'"
+op|']'
 newline|'\n'
 dedent|''
 dedent|''
@@ -427,7 +417,7 @@ newline|'\n'
 indent|'            '
 name|'return'
 op|'{'
-string|"'id'"
+string|"'imageId'"
 op|':'
 string|"'bar'"
 op|'}'
@@ -453,7 +443,7 @@ name|'result'
 name|'if'
 name|'i'
 op|'['
-string|"'id'"
+string|"'imageId'"
 op|']'
 op|'=='
 name|'image_id'
