@@ -302,6 +302,7 @@ name|'setup_command'
 name|'import'
 name|'BuildDoc'
 newline|'\n'
+nl|'\n'
 DECL|class|local_BuildDoc
 name|'class'
 name|'local_BuildDoc'
