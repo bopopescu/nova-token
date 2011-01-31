@@ -207,8 +207,6 @@ string|"'floating_ips'"
 op|','
 string|"'instances'"
 op|','
-string|"'iscsi_targets'"
-op|','
 nl|'\n'
 string|"'key_pairs'"
 op|','
@@ -219,11 +217,14 @@ op|','
 string|"'quotas'"
 op|','
 nl|'\n'
-string|"'security_group_rules'"
-op|','
-nl|'\n'
 string|"'security_group_instance_association'"
 op|','
+nl|'\n'
+string|"'security_group_rules'"
+op|','
+string|"'security_groups'"
+op|','
+nl|'\n'
 string|"'services'"
 op|','
 nl|'\n'
@@ -234,6 +235,10 @@ op|','
 nl|'\n'
 string|"'user_project_role_association'"
 op|','
+nl|'\n'
+string|"'user_role_association'"
+op|','
+nl|'\n'
 string|"'volumes'"
 op|')'
 op|':'
