@@ -417,7 +417,7 @@ name|'db'
 op|'.'
 name|'api'
 op|','
-string|"'instance_get_by_id'"
+string|"'instance_get'"
 op|','
 name|'return_server'
 op|')'
