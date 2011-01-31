@@ -980,7 +980,7 @@ op|'('
 string|"'/'"
 op|')'
 op|'['
-number|'0'
+number|'2'
 op|']'
 newline|'\n'
 name|'_execute'
