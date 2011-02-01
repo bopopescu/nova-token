@@ -2026,7 +2026,7 @@ string|"'and_('"
 nl|'\n'
 string|"'SecurityGroupInstanceAssociation.instance_id == Instance.id,'"
 nl|'\n'
-comment|"# (anthony) the condition below shouldn't be necessary now that the "
+comment|"# (anthony) the condition below shouldn't be necessary now that the"
 nl|'\n'
 comment|'# association is being marked as deleted.  However, removing this'
 nl|'\n'
