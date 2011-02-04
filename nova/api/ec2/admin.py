@@ -312,6 +312,8 @@ name|'return'
 string|"'AdminController'"
 newline|'\n'
 nl|'\n'
+comment|'# FIX-ME(kpepple) for dynamic flavors'
+nl|'\n'
 DECL|member|describe_instance_types
 dedent|''
 name|'def'
