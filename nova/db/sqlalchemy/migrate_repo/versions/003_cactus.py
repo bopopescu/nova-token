@@ -475,6 +475,10 @@ op|'['
 string|'"vcpus"'
 op|']'
 op|','
+string|"'deleted'"
+op|':'
+number|'0'
+op|','
 nl|'\n'
 string|"'local_gb'"
 op|':'
