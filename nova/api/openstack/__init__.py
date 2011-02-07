@@ -423,9 +423,9 @@ string|"'GET'"
 op|'}'
 op|','
 nl|'\n'
-name|'member'
+name|'collection_name'
 op|'='
-name|'zone_members'
+string|"'zones'"
 op|')'
 newline|'\n'
 nl|'\n'
