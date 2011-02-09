@@ -925,6 +925,7 @@ name|'stderr'
 op|')'
 newline|'\n'
 nl|'\n'
+nl|'\n'
 DECL|function|abspath
 dedent|''
 name|'def'
