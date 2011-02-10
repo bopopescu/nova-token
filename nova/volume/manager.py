@@ -323,7 +323,7 @@ op|'('
 string|'"volume %s: skipping export"'
 op|')'
 op|','
-name|'volume_ref'
+name|'volume'
 op|'['
 string|"'name'"
 op|']'
