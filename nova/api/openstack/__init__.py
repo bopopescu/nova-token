@@ -421,11 +421,6 @@ string|"'detail'"
 op|':'
 string|"'GET'"
 op|'}'
-op|','
-nl|'\n'
-name|'collection_name'
-op|'='
-string|"'zones'"
 op|')'
 newline|'\n'
 nl|'\n'
