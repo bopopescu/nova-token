@@ -2412,7 +2412,7 @@ op|','
 nl|'\n'
 name|'service'
 op|'['
-string|"'id'"
+string|"'host'"
 op|']'
 op|')'
 newline|'\n'
@@ -2579,7 +2579,7 @@ op|','
 nl|'\n'
 name|'service'
 op|'['
-string|"'id'"
+string|"'host'"
 op|']'
 op|')'
 newline|'\n'
