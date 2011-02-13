@@ -325,6 +325,18 @@ op|')'
 newline|'\n'
 name|'i'
 op|'['
+string|"'name'"
+op|']'
+op|'='
+name|'image'
+op|'.'
+name|'get'
+op|'('
+string|"'imageId'"
+op|')'
+newline|'\n'
+name|'i'
+op|'['
 string|"'kernel_id'"
 op|']'
 op|'='
@@ -349,7 +361,7 @@ op|')'
 newline|'\n'
 name|'i'
 op|'['
-string|"'image_location'"
+string|"'location'"
 op|']'
 op|'='
 name|'image'
@@ -361,7 +373,7 @@ op|')'
 newline|'\n'
 name|'i'
 op|'['
-string|"'image_owner_id'"
+string|"'owner_id'"
 op|']'
 op|'='
 name|'image'
@@ -373,7 +385,7 @@ op|')'
 newline|'\n'
 name|'i'
 op|'['
-string|"'image_state'"
+string|"'status'"
 op|']'
 op|'='
 name|'image'
