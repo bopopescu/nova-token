@@ -3614,7 +3614,7 @@ newline|'\n'
 DECL|variable|__tablename__
 name|'__tablename__'
 op|'='
-string|"'childzones'"
+string|"'child_zones'"
 newline|'\n'
 DECL|variable|id
 name|'id'
