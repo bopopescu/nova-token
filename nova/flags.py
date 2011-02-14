@@ -1760,12 +1760,12 @@ nl|'\n'
 string|"'connection string for sql database'"
 op|')'
 newline|'\n'
-name|'DEFINE_string'
+name|'DEFINE_integer'
 op|'('
 string|"'sql_idle_timeout'"
 op|','
 nl|'\n'
-string|"'3600'"
+number|'3600'
 op|','
 nl|'\n'
 string|"'timeout for idle sql database connections'"
