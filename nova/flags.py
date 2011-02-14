@@ -1275,7 +1275,7 @@ dedent|''
 name|'except'
 name|'socket'
 op|'.'
-name|'gaierror'
+name|'error'
 name|'as'
 name|'ex'
 op|':'
@@ -1314,7 +1314,7 @@ op|'['
 op|']'
 op|','
 nl|'\n'
-string|"'list of region=url pairs separated by commas'"
+string|"'list of region=fqdn pairs separated by commas'"
 op|')'
 newline|'\n'
 name|'DEFINE_string'
@@ -1760,12 +1760,12 @@ nl|'\n'
 string|"'connection string for sql database'"
 op|')'
 newline|'\n'
-name|'DEFINE_string'
+name|'DEFINE_integer'
 op|'('
 string|"'sql_idle_timeout'"
 op|','
 nl|'\n'
-string|"'3600'"
+number|'3600'
 op|','
 nl|'\n'
 string|"'timeout for idle sql database connections'"
