@@ -1613,7 +1613,7 @@ name|'_session'
 op|'.'
 name|'async_call_plugin'
 op|'('
-string|"'data_transfer'"
+string|"'migration'"
 op|','
 string|"'transfer_vhd'"
 op|','
