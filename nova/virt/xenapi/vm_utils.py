@@ -3305,7 +3305,7 @@ op|')'
 newline|'\n'
 name|'session'
 op|'.'
-name|'call_xen_api'
+name|'call_xenapi'
 op|'('
 string|"'SR.scan'"
 op|','
