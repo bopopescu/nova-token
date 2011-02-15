@@ -1879,5 +1879,27 @@ nl|'\n'
 string|"'availability zone of this node'"
 op|')'
 newline|'\n'
+nl|'\n'
+name|'DEFINE_string'
+op|'('
+string|"'zone_name'"
+op|','
+string|"'nova'"
+op|','
+string|"'name of this zone'"
+op|')'
+newline|'\n'
+name|'DEFINE_string'
+op|'('
+string|"'zone_capabilities'"
+op|','
+string|"'xen, linux'"
+op|','
+nl|'\n'
+string|"'comma-delimited list of tags which represent boolean'"
+nl|'\n'
+string|"' capabilities of this zone'"
+op|')'
+newline|'\n'
 endmarker|''
 end_unit
