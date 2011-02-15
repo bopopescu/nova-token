@@ -3597,10 +3597,10 @@ op|')'
 newline|'\n'
 nl|'\n'
 nl|'\n'
-DECL|class|ChildZone
+DECL|class|Zone
 dedent|''
 name|'class'
-name|'ChildZone'
+name|'Zone'
 op|'('
 name|'BASE'
 op|','
@@ -3614,7 +3614,7 @@ newline|'\n'
 DECL|variable|__tablename__
 name|'__tablename__'
 op|'='
-string|"'child_zones'"
+string|"'zones'"
 newline|'\n'
 DECL|variable|id
 name|'id'
@@ -3722,7 +3722,7 @@ name|'ConsolePool'
 op|','
 name|'Console'
 op|','
-name|'ChildZone'
+name|'Zone'
 op|')'
 newline|'\n'
 name|'engine'

@@ -198,7 +198,7 @@ name|'in'
 op|'('
 string|"'auth_tokens'"
 op|','
-string|"'child_zones'"
+string|"'zones'"
 op|','
 string|"'export_devices'"
 op|','
