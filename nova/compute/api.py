@@ -586,7 +586,7 @@ name|'image'
 op|'.'
 name|'get'
 op|'('
-string|"'kernelId'"
+string|"'kernel_id'"
 op|','
 name|'None'
 op|')'
@@ -605,7 +605,7 @@ name|'image'
 op|'.'
 name|'get'
 op|'('
-string|"'ramdiskId'"
+string|"'ramdisk_id'"
 op|','
 name|'None'
 op|')'
