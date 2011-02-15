@@ -39,9 +39,6 @@ name|'import'
 name|'datetime'
 newline|'\n'
 name|'import'
-name|'routes'
-newline|'\n'
-name|'import'
 name|'webob'
 newline|'\n'
 name|'import'
@@ -1291,7 +1288,7 @@ string|"'CloudController'"
 op|':'
 op|'{'
 nl|'\n'
-string|"'DescribeAvailabilityzones'"
+string|"'DescribeAvailabilityZones'"
 op|':'
 op|'['
 string|"'all'"
