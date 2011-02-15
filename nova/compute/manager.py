@@ -2589,7 +2589,7 @@ op|','
 nl|'\n'
 name|'migration_ref'
 op|'['
-string|"'dest_host'"
+string|"'dest_compute'"
 op|']'
 op|','
 name|'FLAGS'
