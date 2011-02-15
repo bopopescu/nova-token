@@ -221,6 +221,18 @@ nl|'\n'
 string|"'use the nova_ routing chains instead of default'"
 op|')'
 newline|'\n'
+name|'flags'
+op|'.'
+name|'DEFINE_string'
+op|'('
+string|"'input_chain'"
+op|','
+string|"'INPUT'"
+op|','
+nl|'\n'
+string|"'chain to add nova_input to'"
+op|')'
+newline|'\n'
 nl|'\n'
 name|'flags'
 op|'.'
