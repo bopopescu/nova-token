@@ -2220,7 +2220,7 @@ op|'.'
 name|'wrap_exception'
 newline|'\n'
 op|'@'
-name|'echecks_instance_lock'
+name|'checks_instance_lock'
 newline|'\n'
 DECL|member|confirm_resize
 name|'def'
