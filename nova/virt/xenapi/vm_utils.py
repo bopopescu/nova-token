@@ -1127,6 +1127,8 @@ op|']'
 op|'='
 string|"'0'"
 newline|'\n'
+comment|'#network_ref should be the appropriate reference (network with VLAN)'
+nl|'\n'
 name|'vif_rec'
 op|'['
 string|"'network'"
