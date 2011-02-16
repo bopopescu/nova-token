@@ -127,7 +127,7 @@ string|"'nova.rpc'"
 op|')'
 newline|'\n'
 nl|'\n'
-name|'FLAGS'
+name|'flags'
 op|'.'
 name|'DEFINE_integer'
 op|'('
