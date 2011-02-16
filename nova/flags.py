@@ -1748,6 +1748,17 @@ nl|'\n'
 string|'"Top-level directory for maintaining nova\'s state"'
 op|')'
 newline|'\n'
+name|'DEFINE_string'
+op|'('
+string|"'logdir'"
+op|','
+name|'None'
+op|','
+string|"'output to a per-service log file in named '"
+nl|'\n'
+string|"'directory'"
+op|')'
+newline|'\n'
 nl|'\n'
 name|'DEFINE_string'
 op|'('
