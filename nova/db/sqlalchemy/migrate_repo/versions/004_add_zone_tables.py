@@ -1,7 +1,5 @@
 begin_unit
-comment|'# Copyright 2010 United States Government as represented by the'
-nl|'\n'
-comment|'# Administrator of the National Aeronautics and Space Administration.'
+comment|'# Copyright 2010 OpenStack LLC.'
 nl|'\n'
 comment|'# All Rights Reserved.'
 nl|'\n'
