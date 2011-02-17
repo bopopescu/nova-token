@@ -1,8 +1,6 @@
 begin_unit
 comment|'# Copyright 2010 United States Government as represented by the'
 nl|'\n'
-comment|'# Administrator of the National Aeronautics and Space Administration.'
-nl|'\n'
 comment|'# All Rights Reserved.'
 nl|'\n'
 comment|'#'
