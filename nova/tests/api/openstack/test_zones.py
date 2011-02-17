@@ -738,7 +738,6 @@ number|'2'
 op|')'
 newline|'\n'
 nl|'\n'
-nl|'\n'
 DECL|member|test_get_zone_by_id
 dedent|''
 name|'def'
