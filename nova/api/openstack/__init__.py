@@ -345,6 +345,7 @@ string|'"Including admin operations in API."'
 op|')'
 op|')'
 newline|'\n'
+nl|'\n'
 name|'server_members'
 op|'['
 string|"'pause'"
@@ -383,6 +384,13 @@ newline|'\n'
 name|'server_members'
 op|'['
 string|"'resume'"
+op|']'
+op|'='
+string|"'POST'"
+newline|'\n'
+name|'server_members'
+op|'['
+string|"'reset_network'"
 op|']'
 op|'='
 string|"'POST'"
