@@ -2014,6 +2014,8 @@ string|"'SecurityGroup.id == '"
 nl|'\n'
 string|"'SecurityGroupInstanceAssociation.security_group_id,'"
 nl|'\n'
+string|"'SecurityGroupInstanceAssociation.deleted == False,'"
+nl|'\n'
 string|"'SecurityGroup.deleted == False)'"
 op|','
 nl|'\n'
@@ -2023,6 +2025,12 @@ op|'='
 string|"'and_('"
 nl|'\n'
 string|"'SecurityGroupInstanceAssociation.instance_id == Instance.id,'"
+nl|'\n'
+comment|"# (anthony) the condition below shouldn't be necessary now that the"
+nl|'\n'
+comment|'# association is being marked as deleted.  However, removing this'
+nl|'\n'
+comment|"# may cause existing deployments to choke, so I'm leaving it"
 nl|'\n'
 string|"'Instance.deleted == False)'"
 op|','
@@ -2356,6 +2364,17 @@ op|','
 name|'primary_key'
 op|'='
 name|'True'
+op|')'
+newline|'\n'
+DECL|variable|label
+name|'label'
+op|'='
+name|'Column'
+op|'('
+name|'String'
+op|'('
+number|'255'
+op|')'
 op|')'
 newline|'\n'
 nl|'\n'
