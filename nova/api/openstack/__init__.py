@@ -387,6 +387,13 @@ op|']'
 op|'='
 string|"'POST'"
 newline|'\n'
+name|'server_members'
+op|'['
+string|"'reset_network'"
+op|']'
+op|'='
+string|"'POST'"
+newline|'\n'
 nl|'\n'
 dedent|''
 name|'mapper'
