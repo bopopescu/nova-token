@@ -2424,7 +2424,7 @@ nl|'\n'
 op|'{'
 string|"'method'"
 op|':'
-string|"'resize_instance'"
+string|"'revert_resize'"
 op|','
 nl|'\n'
 string|"'args'"
