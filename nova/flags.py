@@ -1904,12 +1904,10 @@ name|'DEFINE_string'
 op|'('
 string|"'zone_capabilities'"
 op|','
-string|"'xen, linux'"
+string|"'kypervisor:xenserver;os:linux'"
 op|','
 nl|'\n'
-string|"'comma-delimited list of tags which represent boolean'"
-nl|'\n'
-string|"' capabilities of this zone'"
+string|"'Key/Value tags which represent capabilities of this zone'"
 op|')'
 newline|'\n'
 endmarker|''
