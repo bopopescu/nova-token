@@ -394,6 +394,13 @@ op|']'
 op|'='
 string|"'POST'"
 newline|'\n'
+name|'server_members'
+op|'['
+string|"'inject_network_info'"
+op|']'
+op|'='
+string|"'POST'"
+newline|'\n'
 nl|'\n'
 dedent|''
 name|'mapper'
