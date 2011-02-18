@@ -2308,6 +2308,7 @@ op|'('
 op|')'
 newline|'\n'
 nl|'\n'
+nl|'\n'
 DECL|class|XenAPIMigrateInstance
 dedent|''
 dedent|''
