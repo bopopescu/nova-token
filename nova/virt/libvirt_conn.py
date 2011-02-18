@@ -7902,13 +7902,13 @@ dedent|''
 name|'ipv4_rules'
 op|'+='
 op|'['
-string|"'-j $fallback'"
+string|"'-j $sg-fallback'"
 op|']'
 newline|'\n'
 name|'ipv6_rules'
 op|'+='
 op|'['
-string|"'-j $fallback'"
+string|"'-j $sg-fallback'"
 op|']'
 newline|'\n'
 nl|'\n'
