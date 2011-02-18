@@ -245,11 +245,13 @@ name|'in'
 op|'('
 string|"'auth_tokens'"
 op|','
+string|"'zones'"
+op|','
 string|"'export_devices'"
 op|','
+nl|'\n'
 string|"'fixed_ips'"
 op|','
-nl|'\n'
 string|"'floating_ips'"
 op|','
 string|"'instances'"
