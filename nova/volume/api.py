@@ -208,9 +208,7 @@ string|"'user_id'"
 op|':'
 name|'context'
 op|'.'
-name|'user'
-op|'.'
-name|'id'
+name|'user_id'
 op|','
 nl|'\n'
 string|"'project_id'"
