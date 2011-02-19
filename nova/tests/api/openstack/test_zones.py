@@ -278,7 +278,6 @@ name|'password'
 op|'='
 string|"'qwerty'"
 op|')'
-nl|'\n'
 op|']'
 newline|'\n'
 nl|'\n'
