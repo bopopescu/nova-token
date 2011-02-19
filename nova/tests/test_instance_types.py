@@ -348,7 +348,6 @@ string|"'instance type not purged'"
 op|')'
 newline|'\n'
 nl|'\n'
-nl|'\n'
 DECL|member|test_get_all_instance_types
 dedent|''
 name|'def'
