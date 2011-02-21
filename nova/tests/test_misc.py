@@ -271,7 +271,7 @@ string|"'nova-core'"
 op|':'
 newline|'\n'
 indent|'                        '
-name|'pass'
+name|'continue'
 newline|'\n'
 dedent|''
 name|'if'
