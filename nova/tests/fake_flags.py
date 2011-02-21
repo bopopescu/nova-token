@@ -189,7 +189,7 @@ name|'FLAGS'
 op|'.'
 name|'sql_connection'
 op|'='
-string|"'sqlite:///nova.sqlite'"
+string|"'sqlite:///tests.sqlite'"
 newline|'\n'
 name|'FLAGS'
 op|'.'
@@ -201,7 +201,7 @@ name|'FLAGS'
 op|'.'
 name|'logfile'
 op|'='
-string|"'run_tests.err'"
+string|"'tests.log'"
 newline|'\n'
 endmarker|''
 end_unit
