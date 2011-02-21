@@ -79,7 +79,8 @@ name|'sys'
 op|'.'
 name|'stderr'
 op|','
-string|"'To build nova you need https://launchpad.net/python-distutils-extra'"
+string|"'To build nova you need '"
+string|"'https://launchpad.net/python-distutils-extra'"
 newline|'\n'
 name|'sys'
 op|'.'
