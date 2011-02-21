@@ -203,15 +203,5 @@ name|'logfile'
 op|'='
 string|"'run_tests.err'"
 newline|'\n'
-comment|"# NOTE(vish): pretend like we've loaded flags from command line"
-nl|'\n'
-name|'flags'
-op|'.'
-name|'FlagValues'
-op|'.'
-name|'initialized'
-op|'='
-name|'True'
-newline|'\n'
 endmarker|''
 end_unit
