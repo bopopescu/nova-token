@@ -143,19 +143,6 @@ name|'flags'
 op|'.'
 name|'FLAGS'
 newline|'\n'
-name|'flags'
-op|'.'
-name|'DEFINE_string'
-op|'('
-string|"'logdir'"
-op|','
-name|'None'
-op|','
-string|"'directory to keep log files in '"
-nl|'\n'
-string|"'(will be prepended to $logfile)'"
-op|')'
-newline|'\n'
 nl|'\n'
 nl|'\n'
 DECL|class|TwistdServerOptions

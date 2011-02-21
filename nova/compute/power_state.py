@@ -78,6 +78,11 @@ name|'SUSPENDED'
 op|'='
 number|'0x07'
 newline|'\n'
+DECL|variable|FAILED
+name|'FAILED'
+op|'='
+number|'0x08'
+newline|'\n'
 nl|'\n'
 nl|'\n'
 DECL|function|name
@@ -131,6 +136,11 @@ nl|'\n'
 name|'SUSPENDED'
 op|':'
 string|"'suspended'"
+op|','
+nl|'\n'
+name|'FAILED'
+op|':'
+string|"'failed to spawn'"
 op|'}'
 newline|'\n'
 name|'return'
