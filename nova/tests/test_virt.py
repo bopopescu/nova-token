@@ -2500,6 +2500,7 @@ op|'('
 string|"'#'"
 op|')'
 op|','
+nl|'\n'
 name|'self'
 op|'.'
 name|'in_filter_rules'
