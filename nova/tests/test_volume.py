@@ -2060,12 +2060,6 @@ nl|'\n'
 name|'mountpoint'
 op|')'
 newline|'\n'
-comment|'#iscsi_target = db.volume_allocate_iscsi_target(self.context,'
-nl|'\n'
-comment|"#                                               vol_ref['id'],"
-nl|'\n'
-comment|"#                                               vol_ref['host'])"
-nl|'\n'
 name|'volume_id_list'
 op|'.'
 name|'append'
