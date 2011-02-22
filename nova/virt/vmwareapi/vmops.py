@@ -31,6 +31,8 @@ nl|'\r\n'
 comment|'#    under the License.'
 nl|'\r\n'
 nl|'\r\n'
+string|'"""\r\nClass for VM tasks like spawn, snapshot, suspend, resume etc.\r\n\r\n"""'
+newline|'\r\n'
 name|'import'
 name|'logging'
 newline|'\r\n'
@@ -61,7 +63,6 @@ name|'compute'
 name|'import'
 name|'power_state'
 newline|'\r\n'
-nl|'\r\n'
 name|'from'
 name|'nova'
 op|'.'
@@ -433,9 +434,9 @@ op|'['
 string|"'bridge'"
 op|']'
 newline|'\r\n'
-comment|"#TODO: Shouldn't we consider any public network in case the network"
+comment|"#TODO(sateesh): Shouldn't we consider any public network in case"
 nl|'\r\n'
-comment|"#name supplied isn't there"
+comment|"#the network name supplied isn't there"
 nl|'\r\n'
 name|'network_ref'
 op|'='
