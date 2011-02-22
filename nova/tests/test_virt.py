@@ -2552,12 +2552,9 @@ op|'.'
 name|'out_rules'
 op|':'
 newline|'\n'
-indent|'            '
-name|'print'
-name|'rule'
-newline|'\n'
 comment|"# This is pretty crude, but it'll do for now"
 nl|'\n'
+indent|'            '
 name|'if'
 string|"'-d 10.11.12.13 -j'"
 name|'in'
