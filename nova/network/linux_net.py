@@ -164,7 +164,7 @@ name|'DEFINE_string'
 op|'('
 string|"'public_interface'"
 op|','
-string|"'vlan1'"
+string|"'eth0'"
 op|','
 nl|'\n'
 string|"'Interface for public IP addresses'"
@@ -219,6 +219,18 @@ name|'False'
 op|','
 nl|'\n'
 string|"'use the nova_ routing chains instead of default'"
+op|')'
+newline|'\n'
+name|'flags'
+op|'.'
+name|'DEFINE_string'
+op|'('
+string|"'input_chain'"
+op|','
+string|"'INPUT'"
+op|','
+nl|'\n'
+string|"'chain to add nova_input to'"
 op|')'
 newline|'\n'
 nl|'\n'
