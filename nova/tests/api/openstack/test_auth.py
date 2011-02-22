@@ -249,8 +249,6 @@ name|'f'
 op|'.'
 name|'add_user'
 op|'('
-string|"'derp'"
-op|','
 name|'nova'
 op|'.'
 name|'auth'
@@ -263,9 +261,9 @@ number|'1'
 op|','
 string|"'herp'"
 op|','
-name|'None'
+string|"'herp'"
 op|','
-name|'None'
+string|"'derp'"
 op|','
 name|'None'
 op|')'
@@ -394,8 +392,6 @@ name|'f'
 op|'.'
 name|'add_user'
 op|'('
-string|"'derp'"
-op|','
 name|'nova'
 op|'.'
 name|'auth'
@@ -408,9 +404,9 @@ number|'1'
 op|','
 string|"'herp'"
 op|','
-name|'None'
+string|"'herp'"
 op|','
-name|'None'
+string|"'derp'"
 op|','
 name|'None'
 op|')'
@@ -1111,8 +1107,6 @@ name|'f'
 op|'.'
 name|'add_user'
 op|'('
-string|"'derp'"
-op|','
 name|'nova'
 op|'.'
 name|'auth'
@@ -1125,9 +1119,9 @@ number|'1'
 op|','
 string|"'herp'"
 op|','
-name|'None'
+string|"'herp'"
 op|','
-name|'None'
+string|"'derp'"
 op|','
 name|'None'
 op|')'
