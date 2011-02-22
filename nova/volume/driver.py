@@ -1214,7 +1214,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""Executes commands relating to ISCSI volumes. We make use of model\n    provider properties as follows:\n    provider_location - if present, contains the iSCSI target information\n    in the same format as an ietadm discovery\n    i.e. \'<target iqn>,<target portal> <target name>\'\n    provider_auth - if present, contains a space-separated triple:\n    \'<auth method> <auth username> <auth password>\'.  CHAP is the only\n    auth_method in use at the moment."""'
+string|'"""Executes commands relating to ISCSI volumes. We make use of model\n    provider properties as follows:\n    provider_location - if present, contains the iSCSI target information\n    in the same format as an ietadm discovery\n    i.e. \'<target ip/port>,<target portal> <target IQN>\'\n    provider_auth - if present, contains a space-separated triple:\n    \'<auth method> <auth username> <auth password>\'.  CHAP is the only\n    auth_method in use at the moment."""'
 newline|'\n'
 nl|'\n'
 DECL|member|ensure_export
