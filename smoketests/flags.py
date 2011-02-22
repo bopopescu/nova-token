@@ -95,7 +95,7 @@ name|'DEFINE_bool'
 op|'('
 string|"'use_ipv6'"
 op|','
-name|'True'
+name|'False'
 op|','
 string|"'use the ipv6 or not'"
 op|')'
