@@ -746,6 +746,7 @@ name|'text'
 op|')'
 newline|'\n'
 nl|'\n'
+nl|'\n'
 DECL|class|NovaTestResult
 dedent|''
 dedent|''
