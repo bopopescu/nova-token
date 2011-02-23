@@ -125,7 +125,7 @@ op|'('
 string|"'logging_debug_format_suffix'"
 op|','
 nl|'\n'
-string|"'from %(processName)s (pid=%(process)d) %(funcName)s'"
+string|"'from (pid=%(process)d) %(funcName)s'"
 nl|'\n'
 string|"' %(pathname)s:%(lineno)d'"
 op|','
