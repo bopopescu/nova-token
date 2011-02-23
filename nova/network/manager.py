@@ -1755,7 +1755,6 @@ op|']'
 op|')'
 newline|'\n'
 nl|'\n'
-nl|'\n'
 DECL|member|allocate_fixed_ip
 dedent|''
 dedent|''
