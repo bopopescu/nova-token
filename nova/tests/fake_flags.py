@@ -197,11 +197,5 @@ name|'use_ipv6'
 op|'='
 name|'True'
 newline|'\n'
-name|'FLAGS'
-op|'.'
-name|'logfile'
-op|'='
-string|"'tests.log'"
-newline|'\n'
 endmarker|''
 end_unit
