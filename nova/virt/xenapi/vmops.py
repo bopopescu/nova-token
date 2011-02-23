@@ -3032,8 +3032,6 @@ op|','
 name|'vbd_ref'
 op|')'
 newline|'\n'
-name|'pass'
-newline|'\n'
 nl|'\n'
 DECL|member|unrescue
 dedent|''
