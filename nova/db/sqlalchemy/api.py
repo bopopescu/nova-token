@@ -6021,6 +6021,11 @@ op|'{'
 string|"'project_id'"
 op|':'
 name|'None'
+op|','
+nl|'\n'
+string|"'host'"
+op|':'
+name|'None'
 op|'}'
 op|')'
 newline|'\n'
