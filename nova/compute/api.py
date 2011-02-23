@@ -2739,7 +2739,7 @@ name|'return'
 op|'{'
 string|"'url'"
 op|':'
-string|"'%s?token=%s'"
+string|"'%s/?token=%s'"
 op|'%'
 op|'('
 name|'FLAGS'
