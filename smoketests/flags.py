@@ -86,16 +86,16 @@ name|'DEFINE_string'
 op|'('
 string|"'test_image'"
 op|','
-string|"'ami-tiny'"
+string|"'ami-tty'"
 op|','
 string|"'Image to use for launch tests'"
 op|')'
 newline|'\n'
-name|'DEFINE_string'
+name|'DEFINE_bool'
 op|'('
 string|"'use_ipv6'"
 op|','
-name|'True'
+name|'False'
 op|','
 string|"'use the ipv6 or not'"
 op|')'
