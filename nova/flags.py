@@ -1762,10 +1762,19 @@ newline|'\n'
 nl|'\n'
 name|'DEFINE_string'
 op|'('
+string|"'sqlite_db'"
+op|','
+string|"'nova.sqlite'"
+op|','
+string|"'file name for sqlite'"
+op|')'
+newline|'\n'
+name|'DEFINE_string'
+op|'('
 string|"'sql_connection'"
 op|','
 nl|'\n'
-string|"'sqlite:///$state_path/nova.sqlite'"
+string|"'sqlite:///$state_path/$sqlite_db'"
 op|','
 nl|'\n'
 string|"'connection string for sql database'"
