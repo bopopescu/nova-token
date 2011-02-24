@@ -2073,7 +2073,7 @@ name|'DEFINE_string'
 op|'('
 string|"'zone_capabilities'"
 op|','
-string|"'kypervisor:xenserver;os:linux'"
+string|"'hypervisor:xenserver;os:linux'"
 op|','
 nl|'\n'
 string|"'Key/Value tags which represent capabilities of this zone'"
