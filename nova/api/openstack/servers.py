@@ -1057,9 +1057,11 @@ name|'env'
 op|'['
 string|"'server'"
 op|']'
-op|'['
+op|'.'
+name|'get'
+op|'('
 string|"'metadata'"
-op|']'
+op|')'
 op|':'
 newline|'\n'
 indent|'            '
