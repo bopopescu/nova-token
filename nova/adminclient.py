@@ -867,7 +867,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""\n    Information about a Vpn, as parsed through SAX\n    \n    **Fields Include**\n\n    * instance_id\n    * project_id\n    * public_ip\n    * public_port\n    * created_at\n    * internal_ip\n    * state\n    """'
+string|'"""\n    Information about a Vpn, as parsed through SAX\n\n    **Fields Include**\n\n    * instance_id\n    * project_id\n    * public_ip\n    * public_port\n    * created_at\n    * internal_ip\n    * state\n    """'
 newline|'\n'
 nl|'\n'
 DECL|member|__init__
