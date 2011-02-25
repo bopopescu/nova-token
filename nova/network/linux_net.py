@@ -164,7 +164,7 @@ name|'DEFINE_string'
 op|'('
 string|"'public_interface'"
 op|','
-string|"'vlan1'"
+string|"'eth0'"
 op|','
 nl|'\n'
 string|"'Interface for public IP addresses'"
