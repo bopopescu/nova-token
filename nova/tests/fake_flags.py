@@ -189,7 +189,7 @@ name|'FLAGS'
 op|'.'
 name|'sql_connection'
 op|'='
-string|"'sqlite:///nova.sqlite'"
+string|"'sqlite:///tests.sqlite'"
 newline|'\n'
 name|'FLAGS'
 op|'.'
