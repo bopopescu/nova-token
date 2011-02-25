@@ -742,7 +742,7 @@ name|'fakes'
 op|'.'
 name|'FakeAuthDatabase'
 op|','
-string|"'auth_destroy_token'"
+string|"'auth_token_destroy'"
 op|','
 nl|'\n'
 name|'destroy_token_mock'
@@ -759,7 +759,7 @@ name|'fakes'
 op|'.'
 name|'FakeAuthDatabase'
 op|','
-string|"'auth_get_token'"
+string|"'auth_token_get'"
 op|','
 nl|'\n'
 name|'bad_token'
