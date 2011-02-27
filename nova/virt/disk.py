@@ -686,7 +686,6 @@ name|'nbd'
 op|')'
 newline|'\n'
 nl|'\n'
-nl|'\n'
 DECL|function|_link_device
 dedent|''
 dedent|''
