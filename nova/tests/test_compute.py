@@ -2085,7 +2085,6 @@ op|','
 string|"'m1.tiny'"
 op|')'
 newline|'\n'
-nl|'\n'
 dedent|''
 dedent|''
 endmarker|''
