@@ -564,9 +564,6 @@ nl|'\n'
 string|"'bin/nova-api'"
 op|','
 nl|'\n'
-string|"'bin/nova-combined'"
-op|','
-nl|'\n'
 string|"'bin/nova-compute'"
 op|','
 nl|'\n'
