@@ -233,7 +233,7 @@ op|')'
 newline|'\n'
 name|'flags'
 op|'.'
-name|'DEFINE_integer'
+name|'DEFINE_bool'
 op|'('
 string|"'xenapi_inject_image'"
 op|','
@@ -250,12 +250,13 @@ op|')'
 newline|'\n'
 name|'flags'
 op|'.'
-name|'DEFINE_integer'
+name|'DEFINE_string'
 op|'('
 string|"'xenapi_agent_path'"
 op|','
 nl|'\n'
 string|"'/usr/sbin/xe-update-networking'"
+op|','
 nl|'\n'
 string|"'Specifies the path in which the xenapi guest agent'"
 nl|'\n'
