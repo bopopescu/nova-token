@@ -774,7 +774,21 @@ op|':'
 newline|'\n'
 indent|'        '
 name|'return'
-string|"'http://fakeajaxconsole.com/?token=FAKETOKEN'"
+op|'{'
+string|"'token'"
+op|':'
+string|"'FAKETOKEN'"
+op|','
+nl|'\n'
+string|"'host'"
+op|':'
+string|"'fakeajaxconsole.com'"
+op|','
+nl|'\n'
+string|"'port'"
+op|':'
+number|'6969'
+op|'}'
 newline|'\n'
 nl|'\n'
 DECL|member|get_console_pool_info
