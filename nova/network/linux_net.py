@@ -1462,8 +1462,16 @@ op|'('
 op|')'
 newline|'\n'
 nl|'\n'
-DECL|member|apply
 dedent|''
+op|'@'
+name|'utils'
+op|'.'
+name|'synchronized'
+op|'('
+string|"'iptables'"
+op|')'
+newline|'\n'
+DECL|member|apply
 name|'def'
 name|'apply'
 op|'('
