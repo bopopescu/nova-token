@@ -235,6 +235,18 @@ name|'flags'
 op|'.'
 name|'DEFINE_string'
 op|'('
+string|"'xenapi_sr_base_path'"
+op|','
+string|"'/var/run/sr-mount'"
+op|','
+nl|'\n'
+string|"'Base path to the storage repository'"
+op|')'
+newline|'\n'
+name|'flags'
+op|'.'
+name|'DEFINE_string'
+op|'('
 string|"'target_host'"
 op|','
 nl|'\n'
