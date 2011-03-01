@@ -255,7 +255,7 @@ op|'('
 string|"'xenapi_agent_path'"
 op|','
 nl|'\n'
-string|"'/usr/sbin/xe-update-networking'"
+string|"'usr/sbin/xe-update-networking'"
 op|','
 nl|'\n'
 string|"'Specifies the path in which the xenapi guest agent'"
