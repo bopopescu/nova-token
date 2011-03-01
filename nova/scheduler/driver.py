@@ -1301,10 +1301,11 @@ string|'"method"'
 op|':'
 string|"'confirm_tmpfile'"
 op|','
+nl|'\n'
 string|'"args"'
 op|':'
 op|'{'
-string|"'path'"
+string|"'filename'"
 op|':'
 name|'filename'
 op|'}'
