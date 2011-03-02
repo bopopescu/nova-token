@@ -1627,6 +1627,27 @@ op|','
 string|"'port that ajax_console_proxy binds'"
 op|')'
 newline|'\n'
+name|'DEFINE_string'
+op|'('
+string|"'vnc_console_proxy_topic'"
+op|','
+string|"'vnc_proxy'"
+op|','
+nl|'\n'
+string|"'the topic vnc proxy nodes listen on'"
+op|')'
+newline|'\n'
+name|'DEFINE_string'
+op|'('
+string|"'vnc_console_proxy_url'"
+op|','
+nl|'\n'
+string|"'http://127.0.0.1:6080'"
+op|','
+nl|'\n'
+string|'\'location of vnc console proxy, \\\n               in the form "http://127.0.0.1:6080"\''
+op|')'
+newline|'\n'
 name|'DEFINE_bool'
 op|'('
 string|"'verbose'"
