@@ -1919,7 +1919,7 @@ dedent|''
 dedent|''
 name|'return'
 op|'{'
-string|"'keypairsSet'"
+string|"'keySet'"
 op|':'
 name|'result'
 op|'}'
