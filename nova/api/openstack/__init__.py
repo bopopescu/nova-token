@@ -354,6 +354,7 @@ string|'"Including admin operations in API."'
 op|')'
 op|')'
 newline|'\n'
+nl|'\n'
 name|'server_members'
 op|'['
 string|"'pause'"
