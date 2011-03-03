@@ -2059,5 +2059,16 @@ nl|'\n'
 string|"'availability zone of this node'"
 op|')'
 newline|'\n'
+nl|'\n'
+name|'DEFINE_string'
+op|'('
+string|"'notification_driver'"
+op|','
+string|"'nova.notifier.no_op_driver.NoopDriver'"
+op|','
+nl|'\n'
+string|"'Default driver for sending notifications'"
+op|')'
+newline|'\n'
 endmarker|''
 end_unit
