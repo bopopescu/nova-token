@@ -868,7 +868,7 @@ name|'kwargs'
 op|'.'
 name|'get'
 op|'('
-string|"'onset_files'"
+string|"'personality_files'"
 op|','
 op|'['
 op|']'

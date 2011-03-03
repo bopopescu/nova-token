@@ -1347,7 +1347,7 @@ op|'='
 string|"'fake'"
 op|','
 nl|'\n'
-name|'onset_files'
+name|'personality_files'
 op|'='
 name|'files'
 op|')'
