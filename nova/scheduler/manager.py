@@ -390,11 +390,11 @@ newline|'\n'
 nl|'\n'
 comment|'# Getting physical resource information'
 nl|'\n'
-name|'compute_service_ref'
+name|'compute_node_ref'
 op|'='
 name|'compute_ref'
 op|'['
-string|"'compute_service'"
+string|"'compute_node'"
 op|']'
 op|'['
 number|'0'
@@ -405,7 +405,7 @@ op|'='
 op|'{'
 string|"'vcpus'"
 op|':'
-name|'compute_service_ref'
+name|'compute_node_ref'
 op|'['
 string|"'vcpus'"
 op|']'
@@ -413,7 +413,7 @@ op|','
 nl|'\n'
 string|"'memory_mb'"
 op|':'
-name|'compute_service_ref'
+name|'compute_node_ref'
 op|'['
 string|"'memory_mb'"
 op|']'
@@ -421,7 +421,7 @@ op|','
 nl|'\n'
 string|"'local_gb'"
 op|':'
-name|'compute_service_ref'
+name|'compute_node_ref'
 op|'['
 string|"'local_gb'"
 op|']'
@@ -429,7 +429,7 @@ op|','
 nl|'\n'
 string|"'vcpus_used'"
 op|':'
-name|'compute_service_ref'
+name|'compute_node_ref'
 op|'['
 string|"'vcpus_used'"
 op|']'
@@ -437,7 +437,7 @@ op|','
 nl|'\n'
 string|"'memory_mb_used'"
 op|':'
-name|'compute_service_ref'
+name|'compute_node_ref'
 op|'['
 string|"'memory_mb_used'"
 op|']'
@@ -445,7 +445,7 @@ op|','
 nl|'\n'
 string|"'local_gb_used'"
 op|':'
-name|'compute_service_ref'
+name|'compute_node_ref'
 op|'['
 string|"'local_gb_used'"
 op|']'

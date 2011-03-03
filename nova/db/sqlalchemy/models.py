@@ -702,10 +702,10 @@ op|')'
 newline|'\n'
 nl|'\n'
 nl|'\n'
-DECL|class|ComputeService
+DECL|class|ComputeNode
 dedent|''
 name|'class'
-name|'ComputeService'
+name|'ComputeNode'
 op|'('
 name|'BASE'
 op|','
@@ -720,7 +720,7 @@ nl|'\n'
 DECL|variable|__tablename__
 name|'__tablename__'
 op|'='
-string|"'compute_services'"
+string|"'compute_nodes'"
 newline|'\n'
 DECL|variable|id
 name|'id'
@@ -764,7 +764,7 @@ name|'backref'
 op|'='
 name|'backref'
 op|'('
-string|"'compute_service'"
+string|"'compute_node'"
 op|')'
 op|','
 nl|'\n'
@@ -779,9 +779,9 @@ name|'primaryjoin'
 op|'='
 string|"'and_('"
 nl|'\n'
-string|"'ComputeService.service_id == Service.id,'"
+string|"'ComputeNode.service_id == Service.id,'"
 nl|'\n'
-string|"'ComputeService.deleted == False)'"
+string|"'ComputeNode.deleted == False)'"
 op|')'
 newline|'\n'
 nl|'\n'
