@@ -1698,7 +1698,7 @@ name|'NotFound'
 op|'('
 name|'_'
 op|'('
-string|"'No computeService for id %s'"
+string|"'No computeNode for id %s'"
 op|')'
 op|'%'
 name|'compute_id'
