@@ -6393,6 +6393,8 @@ op|'['
 string|"'isPublic'"
 op|']'
 op|'='
+name|'str'
+op|'('
 name|'image'
 op|'['
 string|"'properties'"
@@ -6401,6 +6403,9 @@ op|'.'
 name|'get'
 op|'('
 string|"'is_public'"
+op|','
+string|"''"
+op|')'
 op|')'
 op|'=='
 string|"'True'"
