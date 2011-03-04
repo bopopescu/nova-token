@@ -160,15 +160,6 @@ op|','
 string|"'nova.compute.manager'"
 op|')'
 newline|'\n'
-name|'flags'
-op|'.'
-name|'DECLARE'
-op|'('
-string|"'compute_driver'"
-op|','
-string|"'nova.compute.manager'"
-op|')'
-newline|'\n'
 nl|'\n'
 nl|'\n'
 DECL|class|LibvirtConnTestCase
