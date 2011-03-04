@@ -2064,7 +2064,8 @@ name|'DEFINE_string'
 op|'('
 string|"'notification_driver'"
 op|','
-string|"'nova.notifier.no_op_driver.NoopDriver'"
+nl|'\n'
+string|"'nova.notifier.no_op_notifier.NoopNotifier'"
 op|','
 nl|'\n'
 string|"'Default driver for sending notifications'"
