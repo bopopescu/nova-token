@@ -334,7 +334,7 @@ op|'['
 string|"'image_id'"
 op|']'
 op|'='
-string|"'ami-test'"
+string|"'ami-1'"
 newline|'\n'
 name|'inst'
 op|'['
@@ -933,7 +933,7 @@ op|','
 nl|'\n'
 name|'image_id'
 op|'='
-string|"'fake'"
+string|"'ami-1'"
 op|')'
 newline|'\n'
 name|'for'
@@ -1026,7 +1026,7 @@ op|','
 nl|'\n'
 name|'image_id'
 op|'='
-string|"'fake'"
+string|"'ami-1'"
 op|')'
 newline|'\n'
 name|'for'
