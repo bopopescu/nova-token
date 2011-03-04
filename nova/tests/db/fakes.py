@@ -318,6 +318,13 @@ string|"'local_gb'"
 op|']'
 op|','
 nl|'\n'
+string|"'os_type'"
+op|':'
+name|'values'
+op|'['
+string|"'os_type'"
+op|']'
+nl|'\n'
 op|'}'
 newline|'\n'
 name|'return'
