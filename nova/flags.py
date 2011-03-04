@@ -2027,7 +2027,7 @@ name|'DEFINE_string'
 op|'('
 string|"'image_service'"
 op|','
-string|"'nova.image.glance.GlanceImageService'"
+string|"'nova.image.local.LocalImageService'"
 op|','
 nl|'\n'
 string|"'The service to use for retrieving and searching for images.'"
