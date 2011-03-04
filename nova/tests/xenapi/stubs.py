@@ -1486,7 +1486,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'""" Stubs out a XenAPISession for Migration tests """'
+string|'"""Stubs out a XenAPISession for Migration tests"""'
 newline|'\n'
 DECL|member|__init__
 name|'def'
