@@ -32,6 +32,5 @@ comment|'#    under the License.'
 nl|'\n'
 string|'"""\n:mod:`vmwareapi` -- Nova support for VMware ESX/ESXi Server through vSphere API\n"""'
 newline|'\n'
-nl|'\n'
 endmarker|''
 end_unit
