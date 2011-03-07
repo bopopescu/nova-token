@@ -39,6 +39,7 @@ name|'import'
 name|'exception'
 newline|'\n'
 nl|'\n'
+nl|'\n'
 DECL|function|ec2_id_to_id
 name|'def'
 name|'ec2_id_to_id'

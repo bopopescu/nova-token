@@ -6458,7 +6458,6 @@ name|'ec2_id'
 op|')'
 newline|'\n'
 nl|'\n'
-nl|'\n'
 DECL|member|_format_image
 dedent|''
 dedent|''
