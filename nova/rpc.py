@@ -599,7 +599,7 @@ name|'False'
 newline|'\n'
 comment|"# NOTE(vish): This is catching all errors because we really don't"
 nl|'\n'
-comment|'#             exceptions to be logged 10 times a second if some'
+comment|'#             want exceptions to be logged 10 times a second if some'
 nl|'\n'
 comment|'#             persistent failure occurs.'
 nl|'\n'
