@@ -1609,6 +1609,7 @@ op|'='
 name|'False'
 newline|'\n'
 nl|'\n'
+nl|'\n'
 DECL|function|stub_out_migration_methods
 dedent|''
 dedent|''

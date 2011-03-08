@@ -2598,6 +2598,7 @@ op|'.'
 name|'FakeGlance'
 op|')'
 newline|'\n'
+nl|'\n'
 DECL|member|tearDown
 dedent|''
 name|'def'
@@ -2764,6 +2765,7 @@ string|"'durr'"
 op|')'
 op|')'
 newline|'\n'
+nl|'\n'
 nl|'\n'
 DECL|class|XenAPIDetermineDiskImageTestCase
 dedent|''
