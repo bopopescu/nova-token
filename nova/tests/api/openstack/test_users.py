@@ -427,7 +427,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.0/testacct/users'"
+string|"'/v1.0/users'"
 op|')'
 newline|'\n'
 name|'res'
@@ -500,7 +500,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.0/testacct/users/guy2'"
+string|"'/v1.0/users/guy2'"
 op|')'
 newline|'\n'
 name|'res'
@@ -618,7 +618,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.0/testacct/users/guy1'"
+string|"'/v1.0/users/guy1'"
 op|')'
 newline|'\n'
 name|'req'
@@ -726,7 +726,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.0/testacct/users'"
+string|"'/v1.0/users'"
 op|')'
 newline|'\n'
 name|'req'
@@ -947,7 +947,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.0/testacct/users/guy2'"
+string|"'/v1.0/users/guy2'"
 op|')'
 newline|'\n'
 name|'req'

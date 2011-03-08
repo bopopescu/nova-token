@@ -967,7 +967,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.0/testacct/servers/1'"
+string|"'/v1.0/servers/1'"
 op|')'
 newline|'\n'
 name|'res'
@@ -1079,7 +1079,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.0/testacct/servers/1'"
+string|"'/v1.0/servers/1'"
 op|')'
 newline|'\n'
 name|'res'
@@ -1231,7 +1231,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.0/testacct/servers'"
+string|"'/v1.0/servers'"
 op|')'
 newline|'\n'
 name|'res'
@@ -1689,7 +1689,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.0/testacct/servers'"
+string|"'/v1.0/servers'"
 op|')'
 newline|'\n'
 name|'req'
@@ -1754,7 +1754,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.0/testacct/servers/1'"
+string|"'/v1.0/servers/1'"
 op|')'
 newline|'\n'
 name|'req'
@@ -1904,7 +1904,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.0/testacct/servers/1'"
+string|"'/v1.0/servers/1'"
 op|')'
 newline|'\n'
 name|'req'
@@ -2037,7 +2037,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.0/testacct/servers/1'"
+string|"'/v1.0/servers/1'"
 op|')'
 newline|'\n'
 name|'req'
@@ -2084,7 +2084,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.0/testacct/servers/1/backup_schedules'"
+string|"'/v1.0/servers/1/backup_schedules'"
 op|')'
 newline|'\n'
 name|'req'
@@ -2136,7 +2136,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.0/testacct/servers/1/backup_schedules'"
+string|"'/v1.0/servers/1/backup_schedules'"
 op|')'
 newline|'\n'
 name|'req'
@@ -2188,7 +2188,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.0/testacct/servers/1/backup_schedules'"
+string|"'/v1.0/servers/1/backup_schedules'"
 op|')'
 newline|'\n'
 name|'res'
@@ -2234,7 +2234,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.0/testacct/servers/detail'"
+string|"'/v1.0/servers/detail'"
 op|')'
 newline|'\n'
 name|'res'
@@ -2469,7 +2469,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.0/testacct/servers/detail'"
+string|"'/v1.0/servers/detail'"
 op|')'
 newline|'\n'
 name|'res'
@@ -2685,7 +2685,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.0/testacct/servers/1/pause'"
+string|"'/v1.0/servers/1/pause'"
 op|')'
 newline|'\n'
 name|'req'
@@ -2794,7 +2794,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.0/testacct/servers/1/unpause'"
+string|"'/v1.0/servers/1/unpause'"
 op|')'
 newline|'\n'
 name|'req'
@@ -2903,7 +2903,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.0/testacct/servers/1/suspend'"
+string|"'/v1.0/servers/1/suspend'"
 op|')'
 newline|'\n'
 name|'req'
@@ -3012,7 +3012,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.0/testacct/servers/1/resume'"
+string|"'/v1.0/servers/1/resume'"
 op|')'
 newline|'\n'
 name|'req'
@@ -3121,7 +3121,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.0/testacct/servers/1/reset_network'"
+string|"'/v1.0/servers/1/reset_network'"
 op|')'
 newline|'\n'
 name|'req'
@@ -3231,7 +3231,7 @@ op|'.'
 name|'blank'
 op|'('
 nl|'\n'
-string|"'/v1.0/testacct/servers/1/inject_network_info'"
+string|"'/v1.0/servers/1/inject_network_info'"
 op|')'
 newline|'\n'
 name|'req'
@@ -3300,7 +3300,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|'"/v1.0/testacct/servers/1/diagnostics"'
+string|'"/v1.0/servers/1/diagnostics"'
 op|')'
 newline|'\n'
 name|'req'
@@ -3352,7 +3352,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|'"/v1.0/testacct/servers/1/actions"'
+string|'"/v1.0/servers/1/actions"'
 op|')'
 newline|'\n'
 name|'req'
@@ -3438,7 +3438,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.0/testacct/servers/1/action'"
+string|"'/v1.0/servers/1/action'"
 op|')'
 newline|'\n'
 name|'req'
@@ -3530,7 +3530,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.0/testacct/servers/1/action'"
+string|"'/v1.0/servers/1/action'"
 op|')'
 newline|'\n'
 name|'req'
@@ -3622,7 +3622,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.0/testacct/servers/1/action'"
+string|"'/v1.0/servers/1/action'"
 op|')'
 newline|'\n'
 name|'req'
@@ -3680,7 +3680,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.0/testacct/servers/1'"
+string|"'/v1.0/servers/1'"
 op|')'
 newline|'\n'
 name|'req'

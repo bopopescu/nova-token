@@ -560,7 +560,7 @@ string|"'X-Server-Management-Url'"
 op|']'
 op|','
 nl|'\n'
-string|'"http://foo/v1.0/test/"'
+string|'"http://foo/v1.0/"'
 op|')'
 newline|'\n'
 name|'self'

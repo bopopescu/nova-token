@@ -224,7 +224,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.0/testacct/flavors'"
+string|"'/v1.0/flavors'"
 op|')'
 newline|'\n'
 name|'res'
@@ -270,7 +270,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.0/testacct/flavors/1'"
+string|"'/v1.0/flavors/1'"
 op|')'
 newline|'\n'
 name|'res'

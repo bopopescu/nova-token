@@ -433,7 +433,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.0/test1'"
+string|"'/v1.0/accounts/test1'"
 op|')'
 newline|'\n'
 name|'res'
@@ -536,7 +536,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.0/test1'"
+string|"'/v1.0/accounts/test1'"
 op|')'
 newline|'\n'
 name|'req'
@@ -621,7 +621,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.0/newacct'"
+string|"'/v1.0/accounts/newacct'"
 op|')'
 newline|'\n'
 name|'req'
@@ -810,7 +810,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.0/test1'"
+string|"'/v1.0/accounts/test1'"
 op|')'
 newline|'\n'
 name|'req'

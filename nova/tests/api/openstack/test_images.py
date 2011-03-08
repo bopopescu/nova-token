@@ -1297,7 +1297,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.0/testacct/images'"
+string|"'/v1.0/images'"
 op|')'
 newline|'\n'
 name|'res'
@@ -1406,7 +1406,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.0/testacct/images/detail'"
+string|"'/v1.0/images/detail'"
 op|')'
 newline|'\n'
 name|'res'
