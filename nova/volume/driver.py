@@ -275,6 +275,7 @@ name|'_try_execute'
 op|'('
 name|'self'
 op|','
+op|'*'
 name|'command'
 op|')'
 op|':'
@@ -303,6 +304,7 @@ name|'self'
 op|'.'
 name|'_execute'
 op|'('
+op|'*'
 name|'command'
 op|')'
 newline|'\n'
@@ -381,7 +383,15 @@ name|'self'
 op|'.'
 name|'_execute'
 op|'('
-string|'"sudo vgs --noheadings -o name"'
+string|"'sudo'"
+op|','
+string|"'vgs'"
+op|','
+string|"'--noheadings'"
+op|','
+string|"'-o'"
+op|','
+string|"'name'"
 op|')'
 newline|'\n'
 name|'volume_groups'
@@ -519,6 +529,7 @@ string|"'sudo'"
 op|','
 string|"'lvdisplay'"
 op|','
+errortoken|' '
 errortoken|"'"
 op|'%'
 name|'s'
@@ -1596,9 +1607,16 @@ name|'self'
 op|'.'
 name|'_execute'
 op|'('
-string|'"sudo ietadm --op new "'
+string|"'sudo'"
+op|','
+string|"'ietadm'"
+op|','
+string|"'--op'"
+op|','
+string|"'new'"
+op|','
 nl|'\n'
-string|'"--tid=%s --params Name=%s"'
+string|"'--tid=%s --params Name=%s'"
 op|'%'
 nl|'\n'
 op|'('
@@ -1612,16 +1630,28 @@ name|'self'
 op|'.'
 name|'_execute'
 op|'('
-string|'"sudo ietadm --op new --tid=%s "'
+string|"'sudo'"
+op|','
+string|"'ietadm'"
+op|','
+string|"'--op'"
+op|','
+string|"'new'"
+op|','
 nl|'\n'
-string|'"--lun=0 --params Path=%s,Type=fileio"'
+string|"'--tid=%s'"
 op|'%'
-nl|'\n'
-op|'('
 name|'iscsi_target'
 op|','
+nl|'\n'
+string|"'--lun=0'"
+op|','
+string|"'--params'"
+op|','
+nl|'\n'
+string|"'Path=%s,Type=fileio'"
+op|'%'
 name|'volume_path'
-op|')'
 op|')'
 newline|'\n'
 nl|'\n'
@@ -1704,7 +1734,16 @@ name|'self'
 op|'.'
 name|'_execute'
 op|'('
-string|'"sudo ietadm --op show --tid=%s "'
+string|"'sudo'"
+op|','
+string|"'ietadm'"
+op|','
+string|"'--op'"
+op|','
+string|"'show'"
+op|','
+nl|'\n'
+string|"'--tid=%s'"
 op|'%'
 name|'iscsi_target'
 op|')'
@@ -1743,20 +1782,38 @@ name|'self'
 op|'.'
 name|'_execute'
 op|'('
-string|'"sudo ietadm --op delete --tid=%s "'
+string|"'sudo'"
+op|','
+string|"'ietadm'"
+op|','
+string|"'--op'"
+op|','
+string|"'delete'"
+op|','
 nl|'\n'
-string|'"--lun=0"'
+string|"'--tid=%s'"
 op|'%'
 name|'iscsi_target'
+op|','
+nl|'\n'
+string|"'--lun=0'"
 op|')'
 newline|'\n'
 name|'self'
 op|'.'
 name|'_execute'
 op|'('
-string|'"sudo ietadm --op delete --tid=%s"'
-op|'%'
+string|"'sudo'"
+op|','
+string|"'ietadm'"
+op|','
+string|"'--op'"
+op|','
+string|"'delete'"
+op|','
 nl|'\n'
+string|"'--tid=%s'"
+op|'%'
 name|'iscsi_target'
 op|')'
 newline|'\n'
@@ -1806,16 +1863,25 @@ name|'self'
 op|'.'
 name|'_execute'
 op|'('
-string|'"sudo iscsiadm -m discovery -t "'
+string|"'sudo'"
+op|','
+string|"'iscsiadm'"
+op|','
+string|"'-m'"
+op|','
+string|"'discovery'"
+op|','
 nl|'\n'
-string|'"sendtargets -p %s"'
-op|'%'
-op|'('
+string|"'-t'"
+op|','
+string|"'sendtargets'"
+op|','
+string|"'-p'"
+op|','
 name|'volume'
 op|'['
 string|"'host'"
 op|']'
-op|')'
 op|')'
 newline|'\n'
 name|'for'
@@ -2665,7 +2731,9 @@ name|'self'
 op|'.'
 name|'_execute'
 op|'('
-string|'"rados lspools"'
+string|"'rados'"
+op|','
+string|"'lspools'"
 op|')'
 newline|'\n'
 name|'pools'

@@ -535,14 +535,15 @@ string|"'-q'"
 op|','
 string|"'-b'"
 op|','
-string|'"%d"'
+string|"'%d'"
 op|'%'
 name|'bits'
 op|','
 string|"'-N'"
 op|','
-string|'\'""\''
+string|"''"
 op|','
+nl|'\n'
 string|"'-f'"
 op|','
 name|'keyfile'
@@ -566,7 +567,8 @@ string|"'-l'"
 op|','
 string|"'-f'"
 op|','
-string|'"%s.pub"'
+nl|'\n'
+string|"'%s.pub'"
 op|'%'
 op|'('
 name|'keyfile'
@@ -629,7 +631,7 @@ comment|'# key.save_pub_key_bio(bio)'
 nl|'\n'
 comment|'# public_key = bio.read()'
 nl|'\n'
-comment|"# public_key, err = execute('ssh-keygen','-y','-f','/dev/stdin', private_key)"
+comment|"# public_key, err = execute('ssh-keygen', '-y', '-f', '/dev/stdin', private_key)"
 nl|'\n'
 nl|'\n'
 name|'return'
@@ -800,7 +802,8 @@ string|"'./openssl.cnf'"
 op|','
 string|"'-revoke'"
 op|','
-string|'"\'%s\'"'
+nl|'\n'
+string|"'%s'"
 op|'%'
 name|'file_name'
 op|')'
@@ -819,11 +822,11 @@ string|"'-config'"
 op|','
 string|"'./openssl.cnf'"
 op|','
+nl|'\n'
 string|"'-out'"
 op|','
-string|'"\'%s\'"'
+string|"'%s'"
 op|'%'
-nl|'\n'
 name|'FLAGS'
 op|'.'
 name|'crl_file'
@@ -1188,6 +1191,7 @@ string|"'-out'"
 op|','
 name|'csrfile'
 op|','
+nl|'\n'
 string|"'-batch'"
 op|','
 string|"'-subj'"
@@ -1348,6 +1352,7 @@ string|"'geninter.sh'"
 op|','
 name|'project_id'
 op|','
+nl|'\n'
 name|'_project_cert_subject'
 op|'('
 name|'project_id'
@@ -1708,6 +1713,7 @@ op|','
 name|'outbound'
 op|','
 string|"'-config'"
+op|','
 nl|'\n'
 string|"'./openssl.cnf'"
 op|','
@@ -1731,13 +1737,11 @@ op|','
 string|"'-in'"
 op|','
 name|'outbound'
-string|"','"
-op|'-'
-name|'serial'
-string|"','"
-op|'-'
-name|'noout'
-errortoken|"'"
+op|','
+nl|'\n'
+string|"'-serial'"
+op|','
+string|"'-noout'"
 op|')'
 newline|'\n'
 name|'serial'
