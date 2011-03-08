@@ -859,6 +859,10 @@ op|'('
 name|'manifest'
 op|')'
 newline|'\n'
+name|'image_format'
+op|'='
+string|"'ami'"
+newline|'\n'
 name|'image_type'
 op|'='
 string|"'machine'"
@@ -886,6 +890,10 @@ string|"'true'"
 op|':'
 newline|'\n'
 indent|'                '
+name|'image_format'
+op|'='
+string|"'aki'"
+newline|'\n'
 name|'image_type'
 op|'='
 string|"'kernel'"
@@ -928,6 +936,10 @@ string|"'true'"
 op|':'
 newline|'\n'
 indent|'                '
+name|'image_format'
+op|'='
+string|"'ari'"
+newline|'\n'
 name|'image_type'
 op|'='
 string|"'ramdisk'"
@@ -1043,14 +1055,26 @@ op|']'
 op|'='
 name|'False'
 newline|'\n'
+name|'properties'
+op|'['
+string|"'type'"
+op|']'
+op|'='
+name|'image_type'
+newline|'\n'
 name|'metadata'
 op|'.'
 name|'update'
 op|'('
 op|'{'
-string|"'type'"
+string|"'disk_format'"
 op|':'
-name|'image_type'
+name|'image_format'
+op|','
+nl|'\n'
+string|"'container_format'"
+op|':'
+name|'image_format'
 op|','
 nl|'\n'
 string|"'status'"
