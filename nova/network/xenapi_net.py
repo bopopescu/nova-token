@@ -111,7 +111,7 @@ op|','
 string|"'eth0'"
 op|','
 nl|'\n'
-string|"'network device for vlans'"
+string|"'Physical network interface for vlans'"
 op|')'
 newline|'\n'
 nl|'\n'
