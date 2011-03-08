@@ -99,10 +99,6 @@ nl|'\n'
 op|')'
 newline|'\n'
 nl|'\n'
-comment|'# FIXME(dubs) should this be not null?  Maybe create as nullable, then'
-nl|'\n'
-comment|"#   populate all existing rows with 'linux', then adding not null constraint."
-nl|'\n'
 DECL|variable|instances_os_type
 name|'instances_os_type'
 op|'='
@@ -228,7 +224,6 @@ op|'('
 string|"'os_type'"
 op|')'
 newline|'\n'
-nl|'\n'
 dedent|''
 endmarker|''
 end_unit
