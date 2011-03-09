@@ -974,8 +974,6 @@ op|','
 string|"'authorized_keys'"
 op|')'
 newline|'\n'
-comment|'# TODO:EWINDISCH: not sure about the following /w execv patch'
-nl|'\n'
 name|'utils'
 op|'.'
 name|'execute'
@@ -988,6 +986,9 @@ string|"'-a'"
 op|','
 name|'keyfile'
 op|','
+nl|'\n'
+name|'process_input'
+op|'='
 string|"'\\n'"
 op|'+'
 name|'key'
