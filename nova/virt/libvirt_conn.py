@@ -2745,11 +2745,19 @@ name|'utils'
 op|'.'
 name|'execute'
 op|'('
-string|'"sudo dd if=%s iflag=nonblock"'
-op|'%'
+string|"'sudo'"
+op|','
+string|"'dd'"
+op|','
 nl|'\n'
+string|'"if=%s"'
+op|'%'
 name|'virsh_output'
 op|','
+nl|'\n'
+string|"'iflag=nonblock'"
+op|','
+nl|'\n'
 name|'check_exit_code'
 op|'='
 name|'False'
@@ -2906,17 +2914,17 @@ name|'utils'
 op|'.'
 name|'execute'
 op|'('
-string|"'sudo chown %d %s'"
-op|'%'
-op|'('
-name|'os'
+string|"'sudo'"
+op|','
+string|"'chown'"
+op|','
+name|'s'
 op|'.'
 name|'getuid'
 op|'('
 op|')'
 op|','
 name|'console_log'
-op|')'
 op|')'
 newline|'\n'
 nl|'\n'
@@ -2937,8 +2945,10 @@ name|'utils'
 op|'.'
 name|'execute'
 op|'('
-string|'"virsh ttyconsole %s"'
-op|'%'
+string|"'virsh'"
+op|','
+string|"'ttyconsole'"
+op|','
 nl|'\n'
 name|'instance'
 op|'['
@@ -3060,12 +3070,20 @@ comment|'# so a nonzero return value implies it is unused'
 nl|'\n'
 name|'cmd'
 op|'='
-string|"'netcat 0.0.0.0 %s -w 1 </dev/null || echo free'"
-op|'%'
-op|'('
+string|"'netcat'"
+op|','
+string|"'0.0.0.0'"
+op|','
 name|'port'
-op|')'
+op|','
+string|"'-w'"
+op|','
+string|"'1'"
 newline|'\n'
+name|'try'
+op|':'
+newline|'\n'
+indent|'                    '
 name|'stdout'
 op|','
 name|'stderr'
@@ -3074,17 +3092,17 @@ name|'utils'
 op|'.'
 name|'execute'
 op|'('
+op|'*'
 name|'cmd'
+op|','
+name|'process_input'
+op|'='
+string|"''"
 op|')'
 newline|'\n'
-name|'if'
-name|'stdout'
-op|'.'
-name|'strip'
-op|'('
-op|')'
-op|'=='
-string|"'free'"
+dedent|''
+name|'except'
+name|'ProcessExecutionError'
 op|':'
 newline|'\n'
 indent|'                    '
@@ -3401,16 +3419,23 @@ name|'utils'
 op|'.'
 name|'execute'
 op|'('
-string|"'qemu-img create -f qcow2 -o '"
+string|"'qemu-img'"
+op|','
+string|"'create'"
+op|','
+string|"'-f'"
+op|','
+string|"'qcow2'"
+op|','
+string|"'-o'"
+op|','
 nl|'\n'
-string|"'cluster_size=2M,backing_file=%s %s'"
-nl|'\n'
+string|"'cluster_size=2M,backing_file=%s'"
 op|'%'
-op|'('
 name|'base'
 op|','
+nl|'\n'
 name|'target'
-op|')'
 op|')'
 newline|'\n'
 dedent|''
@@ -3422,13 +3447,11 @@ name|'utils'
 op|'.'
 name|'execute'
 op|'('
-string|"'cp %s %s'"
-op|'%'
-op|'('
+string|"'cp'"
+op|','
 name|'base'
 op|','
 name|'target'
-op|')'
 op|')'
 newline|'\n'
 nl|'\n'
@@ -3507,13 +3530,15 @@ name|'utils'
 op|'.'
 name|'execute'
 op|'('
-string|"'truncate %s -s %dG'"
-op|'%'
-op|'('
+string|"'truncate'"
+op|','
 name|'target'
 op|','
+string|"'-s'"
+op|','
+string|'"%dG"'
+op|'%'
 name|'local_gb'
-op|')'
 op|')'
 newline|'\n'
 comment|'# TODO(vish): should we format disk by default?'
@@ -3589,8 +3614,10 @@ name|'utils'
 op|'.'
 name|'execute'
 op|'('
-string|"'mkdir -p %s'"
-op|'%'
+string|"'mkdir'"
+op|','
+string|"'-p'"
+op|','
 name|'basepath'
 op|'('
 name|'suffix'
@@ -4314,8 +4341,12 @@ name|'utils'
 op|'.'
 name|'execute'
 op|'('
-string|"'sudo chown root %s'"
-op|'%'
+string|"'sudo'"
+op|','
+string|"'chown'"
+op|','
+string|"'root'"
+op|','
 name|'basepath'
 op|'('
 string|"'disk'"
@@ -7137,7 +7168,14 @@ name|'self'
 op|'.'
 name|'execute'
 op|'('
-string|"'sudo iptables-save -t filter'"
+string|"'sudo'"
+op|','
+string|"'iptables-save'"
+op|','
+nl|'\n'
+string|"'-t'"
+op|','
+string|"'filter'"
 op|')'
 newline|'\n'
 name|'current_lines'
@@ -7164,7 +7202,9 @@ name|'self'
 op|'.'
 name|'execute'
 op|'('
-string|"'sudo iptables-restore'"
+string|"'sudo'"
+op|','
+string|"'iptables-restore'"
 op|','
 nl|'\n'
 name|'process_input'
@@ -7194,7 +7234,14 @@ name|'self'
 op|'.'
 name|'execute'
 op|'('
-string|"'sudo ip6tables-save -t filter'"
+string|"'sudo'"
+op|','
+string|"'ip6tables-save'"
+op|','
+nl|'\n'
+string|"'-t'"
+op|','
+string|"'filter'"
 op|')'
 newline|'\n'
 name|'current_lines'
@@ -7221,7 +7268,9 @@ name|'self'
 op|'.'
 name|'execute'
 op|'('
-string|"'sudo ip6tables-restore'"
+string|"'sudo'"
+op|','
+string|"'ip6tables-restore'"
 op|','
 nl|'\n'
 name|'process_input'
