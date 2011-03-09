@@ -535,8 +535,6 @@ string|"'-q'"
 op|','
 string|"'-b'"
 op|','
-string|"'%d'"
-op|'%'
 name|'bits'
 op|','
 string|"'-N'"
@@ -805,8 +803,6 @@ op|','
 string|"'-revoke'"
 op|','
 nl|'\n'
-string|"'%s'"
-op|'%'
 name|'file_name'
 op|')'
 newline|'\n'
@@ -827,8 +823,6 @@ op|','
 nl|'\n'
 string|"'-out'"
 op|','
-string|"'%s'"
-op|'%'
 name|'FLAGS'
 op|'.'
 name|'crl_file'
