@@ -529,14 +529,8 @@ string|"'sudo'"
 op|','
 string|"'lvdisplay'"
 op|','
-errortoken|' '
-errortoken|"'"
-op|'%'
-name|'s'
-op|'/'
-op|'%'
-name|'s'
-errortoken|'"'
+nl|'\n'
+string|"'%s/%s'"
 op|'%'
 nl|'\n'
 op|'('
@@ -3163,9 +3157,6 @@ string|"'create'"
 op|','
 nl|'\n'
 string|'"sheepdog:%s"'
-op|'%'
-name|'s'
-errortoken|'"'
 op|'%'
 name|'volume'
 op|'['

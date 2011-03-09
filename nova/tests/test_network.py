@@ -2667,6 +2667,7 @@ string|"'nova-dhcpbridge'"
 op|')'
 op|','
 string|"'add'"
+op|','
 nl|'\n'
 name|'instance_ref'
 op|'['
