@@ -3092,10 +3092,10 @@ dedent|''
 name|'if'
 name|'image'
 op|'['
-string|"'type'"
+string|"'disk_format'"
 op|']'
 op|'!='
-string|"'machine'"
+string|"'ami'"
 op|':'
 newline|'\n'
 indent|'            '
