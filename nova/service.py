@@ -1325,7 +1325,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""Base class for WSGI based services."""'
+string|'"""Base class for WSGI based services.\n\n    For each api you define, you must also define these flags:\n    :<api>_listen:            The address on which to listen\n    :<api>_listen_port:       The port on which to listen\n    """'
 newline|'\n'
 nl|'\n'
 DECL|member|__init__
