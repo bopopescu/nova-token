@@ -3142,6 +3142,10 @@ op|':'
 string|"'aa:bb:cc:dd:ee:ff'"
 op|','
 nl|'\n'
+string|"'os_type'"
+op|':'
+string|"'linux'"
+nl|'\n'
 op|'}'
 newline|'\n'
 name|'stubs'
