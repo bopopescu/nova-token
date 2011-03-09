@@ -989,6 +989,11 @@ name|'or'
 string|"''"
 op|','
 nl|'\n'
+string|"'state'"
+op|':'
+string|'"0"'
+op|','
+nl|'\n'
 string|"'state_description'"
 op|':'
 string|"'scheduling'"
