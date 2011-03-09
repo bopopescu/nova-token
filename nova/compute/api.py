@@ -991,7 +991,7 @@ op|','
 nl|'\n'
 string|"'state'"
 op|':'
-string|'"0"'
+number|'0'
 op|','
 nl|'\n'
 string|"'state_description'"
