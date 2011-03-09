@@ -631,7 +631,9 @@ comment|'# key.save_pub_key_bio(bio)'
 nl|'\n'
 comment|'# public_key = bio.read()'
 nl|'\n'
-comment|"# public_key, err = execute('ssh-keygen', '-y', '-f', '/dev/stdin', private_key)"
+comment|"# public_key, err = execute('ssh-keygen', '-y', '-f',"
+nl|'\n'
+comment|"#                           '/dev/stdin', private_key)"
 nl|'\n'
 nl|'\n'
 name|'return'

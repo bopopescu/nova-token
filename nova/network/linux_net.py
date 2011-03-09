@@ -307,6 +307,7 @@ op|','
 nl|'\n'
 string|"'--to-destination'"
 op|','
+nl|'\n'
 string|"'%s:%s'"
 op|'%'
 op|'('
@@ -458,6 +459,7 @@ string|"'-N'"
 op|','
 string|"'nova_output'"
 op|','
+nl|'\n'
 name|'check_exit_code'
 op|'='
 name|'False'
@@ -1600,6 +1602,7 @@ string|"'link'"
 op|','
 string|"'set'"
 op|','
+nl|'\n'
 string|"'dev'"
 op|','
 name|'bridge'
@@ -1765,6 +1768,7 @@ string|"'ip'"
 op|','
 string|"'addr'"
 op|','
+nl|'\n'
 string|"'del'"
 op|','
 name|'params'
@@ -1786,6 +1790,7 @@ string|"'ip'"
 op|','
 string|"'addr'"
 op|','
+nl|'\n'
 string|"'add'"
 op|','
 name|'params'
