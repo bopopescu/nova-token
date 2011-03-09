@@ -1506,15 +1506,27 @@ name|'self'
 op|'.'
 name|'execute'
 op|'('
-string|"'sudo %s-save -t %s'"
-op|'%'
+string|"'sudo'"
+op|','
 nl|'\n'
+string|"'%s-save'"
+op|'%'
 op|'('
 name|'cmd'
 op|','
-name|'table'
 op|')'
 op|','
+nl|'\n'
+string|"'-t'"
+op|','
+string|"'%s'"
+op|'%'
+op|'('
+name|'table'
+op|','
+op|')'
+op|','
+nl|'\n'
 name|'attempts'
 op|'='
 number|'5'
@@ -1548,7 +1560,9 @@ name|'self'
 op|'.'
 name|'execute'
 op|'('
-string|"'sudo %s-restore'"
+string|"'sudo'"
+op|','
+string|"'%s-restore'"
 op|'%'
 op|'('
 name|'cmd'
@@ -1962,7 +1976,6 @@ newline|'\n'
 indent|'    '
 string|'"""Basic networking setup goes here"""'
 newline|'\n'
-nl|'\n'
 comment|'# NOTE(devcamcar): Cloud public SNAT entries and the default'
 nl|'\n'
 comment|'# SNAT rule for outbound traffic.'
@@ -2071,16 +2084,22 @@ string|'"""Bind ip to public interface"""'
 newline|'\n'
 name|'_execute'
 op|'('
-string|'"sudo ip addr add %s dev %s"'
-op|'%'
-op|'('
+string|"'sudo'"
+op|','
+string|"'ip'"
+op|','
+string|"'addr'"
+op|','
+string|"'add'"
+op|','
 name|'floating_ip'
 op|','
 nl|'\n'
+string|"'dev'"
+op|','
 name|'FLAGS'
 op|'.'
 name|'public_interface'
-op|')'
 op|','
 nl|'\n'
 name|'check_exit_code'
@@ -2104,16 +2123,22 @@ string|'"""Unbind a public ip from public interface"""'
 newline|'\n'
 name|'_execute'
 op|'('
-string|'"sudo ip addr del %s dev %s"'
-op|'%'
-op|'('
+string|"'sudo'"
+op|','
+string|"'ip'"
+op|','
+string|"'addr'"
+op|','
+string|"'del'"
+op|','
 name|'floating_ip'
 op|','
 nl|'\n'
+string|"'dev'"
+op|','
 name|'FLAGS'
 op|'.'
 name|'public_interface'
-op|')'
 op|')'
 newline|'\n'
 nl|'\n'
@@ -2424,27 +2449,43 @@ op|')'
 newline|'\n'
 name|'_execute'
 op|'('
-string|'"sudo vconfig set_name_type VLAN_PLUS_VID_NO_PAD"'
+string|"'sudo'"
+op|','
+string|"'vconfig'"
+op|','
+string|"'set_name_type'"
+op|','
+string|"'VLAN_PLUS_VID_NO_PAD'"
 op|')'
 newline|'\n'
 name|'_execute'
 op|'('
-string|'"sudo vconfig add %s %s"'
-op|'%'
-op|'('
+string|"'sudo'"
+op|','
+string|"'vconfig'"
+op|','
+string|"'add'"
+op|','
 name|'FLAGS'
 op|'.'
 name|'vlan_interface'
 op|','
 name|'vlan_num'
 op|')'
-op|')'
 newline|'\n'
 name|'_execute'
 op|'('
-string|'"sudo ip link set %s up"'
-op|'%'
+string|"'sudo'"
+op|','
+string|"'ip'"
+op|','
+string|"'link'"
+op|','
+string|"'set'"
+op|','
 name|'interface'
+op|','
+string|"'up'"
 op|')'
 newline|'\n'
 dedent|''
@@ -2494,32 +2535,56 @@ op|')'
 newline|'\n'
 name|'_execute'
 op|'('
-string|'"sudo brctl addbr %s"'
-op|'%'
+string|"'sudo'"
+op|','
+string|"'brctl'"
+op|','
+string|"'addbr'"
+op|','
 name|'bridge'
 op|')'
 newline|'\n'
 name|'_execute'
 op|'('
-string|'"sudo brctl setfd %s 0"'
-op|'%'
+string|"'sudo'"
+op|','
+string|"'brctl'"
+op|','
+string|"'setfd'"
+op|','
 name|'bridge'
+op|','
+number|'0'
 op|')'
 newline|'\n'
 comment|'# _execute("sudo brctl setageing %s 10" % bridge)'
 nl|'\n'
 name|'_execute'
 op|'('
-string|'"sudo brctl stp %s off"'
-op|'%'
+string|"'sudo'"
+op|','
+string|"'brctl'"
+op|','
+string|"'stp'"
+op|','
 name|'bridge'
+op|','
+string|"'off'"
 op|')'
 newline|'\n'
 name|'_execute'
 op|'('
-string|'"sudo ip link set %s up"'
-op|'%'
+string|"'sudo'"
+op|','
+string|"'ip'"
+op|','
+string|"'link'"
+op|','
+string|"'set'"
+op|','
 name|'bridge'
+op|','
+name|'up'
 op|')'
 newline|'\n'
 dedent|''
@@ -2553,7 +2618,16 @@ name|'err'
 op|'='
 name|'_execute'
 op|'('
-string|'"sudo ip addr add %s/%s brd %s dev %s"'
+string|"'sudo'"
+op|','
+string|"'ip'"
+op|','
+string|"'addr'"
+op|','
+string|"'add'"
+op|','
+nl|'\n'
+string|'"%s/%s"'
 op|'%'
 nl|'\n'
 op|'('
@@ -2562,8 +2636,11 @@ op|'['
 string|"'gateway'"
 op|']'
 op|','
-nl|'\n'
 name|'suffix'
+op|')'
+op|','
+nl|'\n'
+string|"'brd'"
 op|','
 nl|'\n'
 name|'net_attrs'
@@ -2572,8 +2649,10 @@ string|"'broadcast'"
 op|']'
 op|','
 nl|'\n'
+string|"'dev'"
+op|','
+nl|'\n'
 name|'bridge'
-op|')'
 op|','
 nl|'\n'
 name|'check_exit_code'
@@ -2612,17 +2691,28 @@ newline|'\n'
 indent|'            '
 name|'_execute'
 op|'('
-string|'"sudo ip -f inet6 addr change %s dev %s"'
-op|'%'
+string|"'sudo'"
+op|','
+string|"'ip'"
+op|','
+string|"'-f'"
+op|','
+string|"'inet6'"
+op|','
+string|"'addr'"
+op|','
 nl|'\n'
-op|'('
+string|"'change'"
+op|','
 name|'net_attrs'
 op|'['
 string|"'cidr_v6'"
 op|']'
 op|','
+nl|'\n'
+string|"'dev'"
+op|','
 name|'bridge'
-op|')'
 op|')'
 newline|'\n'
 comment|'# NOTE(vish): If the public interface is the same as the'
@@ -2645,9 +2735,22 @@ newline|'\n'
 indent|'            '
 name|'_execute'
 op|'('
-string|'"sudo ip link set dev %s promisc on"'
-op|'%'
+string|"'sudo'"
+op|','
+string|"'ip'"
+op|','
+string|"'link'"
+op|','
+string|"'set'"
+op|','
+nl|'\n'
+string|"'dev'"
+op|','
 name|'bridge'
+op|','
+string|"'promisc'"
+op|','
+string|"'on'"
 op|')'
 newline|'\n'
 dedent|''
@@ -2671,7 +2774,11 @@ name|'err'
 op|'='
 name|'_execute'
 op|'('
-string|'"sudo route -n"'
+string|"'sudo'"
+op|','
+string|"'route'"
+op|','
+string|"'-n'"
 op|')'
 newline|'\n'
 name|'for'
@@ -2729,10 +2836,22 @@ name|'err'
 op|'='
 name|'_execute'
 op|'('
-string|'"sudo ip addr show dev %s scope global"'
-op|'%'
-nl|'\n'
+string|"'sudo'"
+op|','
+string|"'ip'"
+op|','
+string|"'addr'"
+op|','
+string|"'show'"
+op|','
+string|"'dev'"
+op|','
 name|'interface'
+op|','
+nl|'\n'
+string|"'scope'"
+op|','
+string|"'global'"
 op|')'
 newline|'\n'
 name|'for'
@@ -2784,10 +2903,18 @@ op|')'
 newline|'\n'
 name|'_execute'
 op|'('
-string|'"sudo ip addr del %s dev %s"'
-op|'%'
-op|'('
+string|"'sudo'"
+op|','
+string|"'ip'"
+op|','
+string|"'addr'"
+op|','
+nl|'\n'
+string|"'del'"
+op|','
 name|'params'
+op|','
+string|"'dev'"
 op|','
 name|'fields'
 op|'['
@@ -2795,17 +2922,23 @@ op|'-'
 number|'1'
 op|']'
 op|')'
-op|')'
 newline|'\n'
 name|'_execute'
 op|'('
-string|'"sudo ip addr add %s dev %s"'
-op|'%'
-op|'('
+string|"'sudo'"
+op|','
+string|"'ip'"
+op|','
+string|"'addr'"
+op|','
+nl|'\n'
+string|"'add'"
+op|','
 name|'params'
 op|','
+string|"'dev'"
+op|','
 name|'bridge'
-op|')'
 op|')'
 newline|'\n'
 dedent|''
@@ -2817,8 +2950,16 @@ newline|'\n'
 indent|'            '
 name|'_execute'
 op|'('
-string|'"sudo route add 0.0.0.0 gw %s"'
-op|'%'
+string|"'sudo'"
+op|','
+string|"'route'"
+op|','
+string|"'add'"
+op|','
+string|"'0.0.0.0'"
+op|','
+string|"'gw'"
+op|','
 name|'gateway'
 op|')'
 newline|'\n'
@@ -2829,14 +2970,15 @@ name|'err'
 op|'='
 name|'_execute'
 op|'('
-string|'"sudo brctl addif %s %s"'
-op|'%'
-nl|'\n'
-op|'('
+string|"'sudo'"
+op|','
+string|"'brctl'"
+op|','
+string|"'addif'"
+op|','
 name|'bridge'
 op|','
 name|'interface'
-op|')'
 op|','
 nl|'\n'
 name|'check_exit_code'
@@ -3074,7 +3216,9 @@ name|'_err'
 op|'='
 name|'_execute'
 op|'('
-string|"'cat /proc/%d/cmdline'"
+string|"'cat'"
+op|','
+string|'"/proc/%d/cmdline"'
 op|'%'
 name|'pid'
 op|','
@@ -3097,8 +3241,12 @@ newline|'\n'
 indent|'                '
 name|'_execute'
 op|'('
-string|"'sudo kill -HUP %d'"
-op|'%'
+string|"'sudo'"
+op|','
+string|"'kill'"
+op|','
+string|"'-HUP'"
+op|','
 name|'pid'
 op|')'
 newline|'\n'
@@ -3294,7 +3442,9 @@ name|'_err'
 op|'='
 name|'_execute'
 op|'('
-string|"'cat /proc/%d/cmdline'"
+string|"'cat'"
+op|','
+string|"'/proc/%d/cmdline'"
 nl|'\n'
 op|'%'
 name|'pid'
@@ -3317,8 +3467,10 @@ newline|'\n'
 indent|'                '
 name|'_execute'
 op|'('
-string|"'sudo kill %d'"
-op|'%'
+string|"'sudo'"
+op|','
+string|"'kill'"
+op|','
 name|'pid'
 op|')'
 newline|'\n'
@@ -3456,10 +3608,8 @@ dedent|''
 name|'def'
 name|'_execute'
 op|'('
-name|'cmd'
-op|','
 op|'*'
-name|'args'
+name|'cmd'
 op|','
 op|'**'
 name|'kwargs'
@@ -3482,7 +3632,17 @@ name|'debug'
 op|'('
 string|'"FAKE NET: %s"'
 op|','
+string|'" "'
+op|'.'
+name|'join'
+op|'('
+name|'map'
+op|'('
+name|'str'
+op|','
 name|'cmd'
+op|')'
+op|')'
 op|')'
 newline|'\n'
 name|'return'
@@ -3500,10 +3660,8 @@ name|'utils'
 op|'.'
 name|'execute'
 op|'('
-name|'cmd'
-op|','
 op|'*'
-name|'args'
+name|'cmd'
 op|','
 op|'**'
 name|'kwargs'
@@ -3532,8 +3690,14 @@ op|')'
 op|'='
 name|'_execute'
 op|'('
-string|'"ip link show dev %s"'
-op|'%'
+string|"'ip'"
+op|','
+string|"'link'"
+op|','
+string|"'show'"
+op|','
+string|"'dev'"
+op|','
 name|'device'
 op|','
 nl|'\n'
@@ -3753,8 +3917,12 @@ newline|'\n'
 indent|'            '
 name|'_execute'
 op|'('
-string|"'sudo kill -TERM %d'"
-op|'%'
+string|"'sudo'"
+op|','
+string|"'kill'"
+op|','
+string|"'-TERM'"
+op|','
 name|'pid'
 op|')'
 newline|'\n'

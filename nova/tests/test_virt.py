@@ -2315,23 +2315,38 @@ DECL|function|fake_iptables_execute
 name|'def'
 name|'fake_iptables_execute'
 op|'('
+op|'*'
 name|'cmd'
 op|','
-name|'process_input'
-op|'='
-name|'None'
-op|','
-name|'attempts'
-op|'='
-number|'5'
+op|'**'
+name|'kwargs'
 op|')'
 op|':'
 newline|'\n'
 indent|'            '
+name|'process_input'
+op|'='
+name|'kwargs'
+op|'.'
+name|'get'
+op|'('
+string|"'process_input'"
+op|','
+name|'None'
+op|')'
+newline|'\n'
 name|'if'
 name|'cmd'
 op|'=='
-string|"'sudo ip6tables-save -t filter'"
+op|'('
+string|"'sudo'"
+op|','
+string|"'ip6tables-save'"
+op|','
+string|"'-t'"
+op|','
+string|"'filter'"
+op|')'
 op|':'
 newline|'\n'
 indent|'                '
@@ -2351,7 +2366,15 @@ dedent|''
 name|'if'
 name|'cmd'
 op|'=='
-string|"'sudo iptables-save -t filter'"
+op|'('
+string|"'sudo'"
+op|','
+string|"'iptables-save'"
+op|','
+string|"'-t'"
+op|','
+string|"'filter'"
+op|')'
 op|':'
 newline|'\n'
 indent|'                '
@@ -2371,7 +2394,15 @@ dedent|''
 name|'if'
 name|'cmd'
 op|'=='
-string|"'sudo iptables-save -t nat'"
+op|'('
+string|"'sudo'"
+op|','
+string|"'iptables-save'"
+op|','
+string|"'-t'"
+op|','
+string|"'nat'"
+op|')'
 op|':'
 newline|'\n'
 indent|'                '
@@ -2391,7 +2422,11 @@ dedent|''
 name|'if'
 name|'cmd'
 op|'=='
-string|"'sudo iptables-restore'"
+op|'('
+string|"'sudo'"
+op|','
+string|"'iptables-restore'"
+op|')'
 op|':'
 newline|'\n'
 indent|'                '
@@ -2427,7 +2462,11 @@ dedent|''
 name|'if'
 name|'cmd'
 op|'=='
-string|"'sudo ip6tables-restore'"
+op|'('
+string|"'sudo'"
+op|','
+string|"'ip6tables-restore'"
+op|')'
 op|':'
 newline|'\n'
 indent|'                '
@@ -2459,8 +2498,13 @@ string|"''"
 op|','
 string|"''"
 newline|'\n'
-nl|'\n'
 dedent|''
+name|'print'
+name|'cmd'
+op|','
+name|'kwargs'
+newline|'\n'
+nl|'\n'
 dedent|''
 name|'from'
 name|'nova'
