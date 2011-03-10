@@ -1489,6 +1489,7 @@ op|'.'
 name|'Request'
 op|'.'
 name|'blank'
+op|'('
 string|"'/v1.0/fake'"
 op|')'
 newline|'\n'
@@ -1545,4 +1546,7 @@ op|','
 string|"'True'"
 op|')'
 newline|'\n'
+dedent|''
+dedent|''
+endmarker|''
 end_unit
