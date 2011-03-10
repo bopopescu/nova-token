@@ -1443,7 +1443,7 @@ string|"'set'"
 op|','
 name|'bridge'
 op|','
-name|'up'
+string|"'up'"
 op|')'
 newline|'\n'
 dedent|''
