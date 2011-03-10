@@ -203,7 +203,7 @@ string|"'e2fsck'"
 op|','
 string|"'-fp'"
 op|','
-name|'mage'
+name|'image'
 op|','
 name|'check_exit_code'
 op|'='
