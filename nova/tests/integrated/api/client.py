@@ -624,6 +624,8 @@ newline|'\n'
 nl|'\n'
 comment|"# Until bug732866 is fixed, we can't check this properly..."
 nl|'\n'
+comment|'# bug732866'
+nl|'\n'
 comment|'#if http_status == 401:'
 nl|'\n'
 name|'if'
