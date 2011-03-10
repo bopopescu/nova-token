@@ -96,14 +96,11 @@ name|'FLAGS'
 newline|'\n'
 name|'flags'
 op|'.'
-name|'DEFINE_string'
+name|'DECLARE'
 op|'('
 string|"'images_path'"
 op|','
-string|"'$state_path/images'"
-op|','
-nl|'\n'
-string|"'path to decrypted images'"
+string|"'nova.image.local'"
 op|')'
 newline|'\n'
 nl|'\n'
