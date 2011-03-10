@@ -1443,7 +1443,7 @@ string|"'set'"
 op|','
 name|'bridge'
 op|','
-name|'up'
+string|"'up'"
 op|')'
 newline|'\n'
 dedent|''
@@ -2274,6 +2274,7 @@ op|')'
 newline|'\n'
 name|'_execute'
 op|'('
+op|'*'
 name|'command'
 op|','
 name|'addl_env'
@@ -2476,6 +2477,7 @@ op|')'
 newline|'\n'
 name|'_execute'
 op|'('
+op|'*'
 name|'command'
 op|')'
 newline|'\n'
@@ -2828,26 +2830,30 @@ newline|'\n'
 name|'cmd'
 op|'='
 op|'['
-string|"'sudo -E dnsmasq'"
+string|"'sudo'"
+op|','
+string|"'-E'"
+op|','
+string|"'dnsmasq'"
 op|','
 nl|'\n'
-string|"' --strict-order'"
+string|"'--strict-order'"
 op|','
 nl|'\n'
-string|"' --bind-interfaces'"
+string|"'--bind-interfaces'"
 op|','
 nl|'\n'
-string|"' --conf-file='"
+string|"'--conf-file='"
 op|','
 nl|'\n'
-string|"' --domain=%s'"
+string|"'--domain=%s'"
 op|'%'
 name|'FLAGS'
 op|'.'
 name|'dhcp_domain'
 op|','
 nl|'\n'
-string|"' --pid-file=%s'"
+string|"'--pid-file=%s'"
 op|'%'
 name|'_dhcp_file'
 op|'('
@@ -2860,7 +2866,7 @@ string|"'pid'"
 op|')'
 op|','
 nl|'\n'
-string|"' --listen-address=%s'"
+string|"'--listen-address=%s'"
 op|'%'
 name|'net'
 op|'['
@@ -2868,10 +2874,10 @@ string|"'gateway'"
 op|']'
 op|','
 nl|'\n'
-string|"' --except-interface=lo'"
+string|"'--except-interface=lo'"
 op|','
 nl|'\n'
-string|"' --dhcp-range=%s,static,120s'"
+string|"'--dhcp-range=%s,static,120s'"
 op|'%'
 name|'net'
 op|'['
@@ -2879,7 +2885,7 @@ string|"'dhcp_start'"
 op|']'
 op|','
 nl|'\n'
-string|"' --dhcp-hostsfile=%s'"
+string|"'--dhcp-hostsfile=%s'"
 op|'%'
 name|'_dhcp_file'
 op|'('
@@ -2892,14 +2898,14 @@ string|"'conf'"
 op|')'
 op|','
 nl|'\n'
-string|"' --dhcp-script=%s'"
+string|"'--dhcp-script=%s'"
 op|'%'
 name|'FLAGS'
 op|'.'
 name|'dhcpbridge'
 op|','
 nl|'\n'
-string|"' --leasefile-ro'"
+string|"'--leasefile-ro'"
 op|']'
 newline|'\n'
 name|'if'
@@ -2910,24 +2916,22 @@ op|':'
 newline|'\n'
 indent|'        '
 name|'cmd'
-op|'.'
-name|'append'
-op|'('
-string|"' -h -R --server=%s'"
+op|'+='
+op|'['
+string|"'-h'"
+op|','
+string|"'-R'"
+op|','
+string|"'--server=%s'"
 op|'%'
 name|'FLAGS'
 op|'.'
 name|'dns_server'
-op|')'
+op|']'
 newline|'\n'
 dedent|''
 name|'return'
-string|"''"
-op|'.'
-name|'join'
-op|'('
 name|'cmd'
-op|')'
 newline|'\n'
 nl|'\n'
 nl|'\n'
@@ -2946,12 +2950,18 @@ newline|'\n'
 name|'cmd'
 op|'='
 op|'['
-string|"'sudo -E radvd'"
+string|"'sudo'"
+op|','
+string|"'-E'"
+op|','
+string|"'radvd'"
 op|','
 nl|'\n'
-comment|"#           ' -u nobody',"
+comment|"#           '-u', 'nobody',"
 nl|'\n'
-string|"' -C %s'"
+string|"'-C'"
+op|','
+string|"'%s'"
 op|'%'
 name|'_ra_file'
 op|'('
@@ -2964,7 +2974,9 @@ string|"'conf'"
 op|')'
 op|','
 nl|'\n'
-string|"' -p %s'"
+string|"'-p'"
+op|','
+string|"'%s'"
 op|'%'
 name|'_ra_file'
 op|'('
@@ -2978,12 +2990,7 @@ op|')'
 op|']'
 newline|'\n'
 name|'return'
-string|"''"
-op|'.'
-name|'join'
-op|'('
 name|'cmd'
-op|')'
 newline|'\n'
 nl|'\n'
 nl|'\n'

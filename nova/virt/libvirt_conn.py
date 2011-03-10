@@ -2913,7 +2913,7 @@ string|"'sudo'"
 op|','
 string|"'chown'"
 op|','
-name|'s'
+name|'os'
 op|'.'
 name|'getuid'
 op|'('
