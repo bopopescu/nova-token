@@ -98,7 +98,7 @@ op|','
 nl|'\n'
 name|'version'
 op|'='
-string|"'1.1'"
+name|'None'
 op|')'
 op|':'
 newline|'\n'
