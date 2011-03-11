@@ -287,7 +287,7 @@ op|'['
 string|"'image_id'"
 op|']'
 op|'='
-string|"'ami-test'"
+number|'1'
 newline|'\n'
 name|'inst'
 op|'['
