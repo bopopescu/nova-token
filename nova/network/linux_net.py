@@ -145,6 +145,9 @@ nl|'\n'
 string|"'domain to use for building the hostnames'"
 op|')'
 newline|'\n'
+comment|"#flags.DEFINE_string('vlan_interface', 'eth0',"
+nl|'\n'
+comment|"#                    'network device for vlans')"
 nl|'\n'
 name|'flags'
 op|'.'
@@ -168,18 +171,6 @@ string|"'eth0'"
 op|','
 nl|'\n'
 string|"'Interface for public IP addresses'"
-op|')'
-newline|'\n'
-name|'flags'
-op|'.'
-name|'DEFINE_string'
-op|'('
-string|"'vlan_interface'"
-op|','
-string|"'eth0'"
-op|','
-nl|'\n'
-string|"'network device for vlans'"
 op|')'
 newline|'\n'
 name|'flags'

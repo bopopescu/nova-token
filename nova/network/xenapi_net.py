@@ -95,27 +95,6 @@ string|'"nova.xenapi_net"'
 op|')'
 newline|'\n'
 nl|'\n'
-DECL|variable|FLAGS
-name|'FLAGS'
-op|'='
-name|'flags'
-op|'.'
-name|'FLAGS'
-newline|'\n'
-name|'flags'
-op|'.'
-name|'DEFINE_string'
-op|'('
-string|"'vlan_interface'"
-op|','
-string|"'eth0'"
-op|','
-nl|'\n'
-string|"'Physical network interface for vlans'"
-op|')'
-newline|'\n'
-nl|'\n'
-nl|'\n'
 DECL|function|ensure_vlan_bridge
 name|'def'
 name|'ensure_vlan_bridge'
