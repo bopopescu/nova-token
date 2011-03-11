@@ -7159,7 +7159,7 @@ op|'['
 string|"'id'"
 op|']'
 op|','
-name|'False'
+name|'None'
 op|')'
 op|':'
 newline|'\n'
