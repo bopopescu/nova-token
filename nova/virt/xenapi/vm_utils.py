@@ -566,7 +566,7 @@ name|'use_pv_kernel'
 op|':'
 newline|'\n'
 indent|'            '
-name|'vm_rec'
+name|'rec'
 op|'['
 string|"'platform'"
 op|']'
