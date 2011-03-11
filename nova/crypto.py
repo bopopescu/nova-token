@@ -529,13 +529,22 @@ name|'utils'
 op|'.'
 name|'execute'
 op|'('
-string|'\'ssh-keygen -q -b %d -N "" -f %s\''
-op|'%'
-op|'('
+string|"'ssh-keygen'"
+op|','
+string|"'-q'"
+op|','
+string|"'-b'"
+op|','
 name|'bits'
 op|','
+string|"'-N'"
+op|','
+string|"''"
+op|','
+nl|'\n'
+string|"'-f'"
+op|','
 name|'keyfile'
-op|')'
 op|')'
 newline|'\n'
 op|'('
@@ -548,7 +557,16 @@ name|'utils'
 op|'.'
 name|'execute'
 op|'('
-string|"'ssh-keygen -q -l -f %s.pub'"
+string|"'ssh-keygen'"
+op|','
+string|"'-q'"
+op|','
+string|"'-l'"
+op|','
+string|"'-f'"
+op|','
+nl|'\n'
+string|"'%s.pub'"
 op|'%'
 op|'('
 name|'keyfile'
@@ -611,7 +629,9 @@ comment|'# key.save_pub_key_bio(bio)'
 nl|'\n'
 comment|'# public_key = bio.read()'
 nl|'\n'
-comment|"# public_key, err = execute('ssh-keygen -y -f /dev/stdin', private_key)"
+comment|"# public_key, err = execute('ssh-keygen', '-y', '-f',"
+nl|'\n'
+comment|"#                           '/dev/stdin', private_key)"
 nl|'\n'
 nl|'\n'
 name|'return'
@@ -772,8 +792,17 @@ name|'utils'
 op|'.'
 name|'execute'
 op|'('
-string|'"openssl ca -config ./openssl.cnf -revoke \'%s\'"'
-op|'%'
+string|"'openssl'"
+op|','
+string|"'ca'"
+op|','
+string|"'-config'"
+op|','
+string|"'./openssl.cnf'"
+op|','
+string|"'-revoke'"
+op|','
+nl|'\n'
 name|'file_name'
 op|')'
 newline|'\n'
@@ -781,9 +810,19 @@ name|'utils'
 op|'.'
 name|'execute'
 op|'('
-string|'"openssl ca -gencrl -config ./openssl.cnf -out \'%s\'"'
-op|'%'
+string|"'openssl'"
+op|','
+string|"'ca'"
+op|','
+string|"'-gencrl'"
+op|','
+string|"'-config'"
+op|','
+string|"'./openssl.cnf'"
+op|','
 nl|'\n'
+string|"'-out'"
+op|','
 name|'FLAGS'
 op|'.'
 name|'crl_file'
@@ -1119,11 +1158,16 @@ name|'utils'
 op|'.'
 name|'execute'
 op|'('
-string|'"openssl genrsa -out %s %s"'
-op|'%'
-op|'('
+string|"'openssl'"
+op|','
+string|"'genrsa'"
+op|','
+string|"'-out'"
+op|','
 name|'keyfile'
 op|','
+name|'str'
+op|'('
 name|'bits'
 op|')'
 op|')'
@@ -1132,16 +1176,26 @@ name|'utils'
 op|'.'
 name|'execute'
 op|'('
-string|'"openssl req -new -key %s -out %s -batch -subj %s"'
-op|'%'
-nl|'\n'
-op|'('
+string|"'openssl'"
+op|','
+string|"'req'"
+op|','
+string|"'-new'"
+op|','
+string|"'-key'"
+op|','
 name|'keyfile'
+op|','
+string|"'-out'"
 op|','
 name|'csrfile'
 op|','
+nl|'\n'
+string|"'-batch'"
+op|','
+string|"'-subj'"
+op|','
 name|'subject'
-op|')'
 op|')'
 newline|'\n'
 name|'private_key'
@@ -1291,16 +1345,16 @@ name|'utils'
 op|'.'
 name|'execute'
 op|'('
-string|'"sh geninter.sh %s %s"'
-op|'%'
-nl|'\n'
-op|'('
+string|"'sh'"
+op|','
+string|"'geninter.sh'"
+op|','
 name|'project_id'
 op|','
+nl|'\n'
 name|'_project_cert_subject'
 op|'('
 name|'project_id'
-op|')'
 op|')'
 op|')'
 newline|'\n'
@@ -1401,16 +1455,16 @@ name|'utils'
 op|'.'
 name|'execute'
 op|'('
-string|'"sh genvpn.sh %s %s"'
-op|'%'
+string|"'sh'"
+op|','
+string|"'genvpn.sh'"
+op|','
 nl|'\n'
-op|'('
 name|'project_id'
 op|','
 name|'_vpn_cert_subject'
 op|'('
 name|'project_id'
-op|')'
 op|')'
 op|')'
 newline|'\n'
@@ -1647,15 +1701,24 @@ name|'utils'
 op|'.'
 name|'execute'
 op|'('
-string|'"openssl ca -batch -out %s -config "'
-nl|'\n'
-string|'"./openssl.cnf -infiles %s"'
-op|'%'
-op|'('
+string|"'openssl'"
+op|','
+string|"'ca'"
+op|','
+string|"'-batch'"
+op|','
+string|"'-out'"
+op|','
 name|'outbound'
 op|','
+string|"'-config'"
+op|','
+nl|'\n'
+string|"'./openssl.cnf'"
+op|','
+string|"'-infiles'"
+op|','
 name|'inbound'
-op|')'
 op|')'
 newline|'\n'
 name|'out'
@@ -1666,9 +1729,18 @@ name|'utils'
 op|'.'
 name|'execute'
 op|'('
-string|'"openssl x509 -in %s -serial -noout"'
-op|'%'
+string|"'openssl'"
+op|','
+string|"'x509'"
+op|','
+string|"'-in'"
+op|','
 name|'outbound'
+op|','
+nl|'\n'
+string|"'-serial'"
+op|','
+string|"'-noout'"
 op|')'
 newline|'\n'
 name|'serial'

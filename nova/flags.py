@@ -1910,6 +1910,32 @@ op|')'
 newline|'\n'
 name|'DEFINE_string'
 op|'('
+string|"'lock_path'"
+op|','
+name|'os'
+op|'.'
+name|'path'
+op|'.'
+name|'join'
+op|'('
+name|'os'
+op|'.'
+name|'path'
+op|'.'
+name|'dirname'
+op|'('
+name|'__file__'
+op|')'
+op|','
+string|"'../'"
+op|')'
+op|','
+nl|'\n'
+string|'"Directory for lock files"'
+op|')'
+newline|'\n'
+name|'DEFINE_string'
+op|'('
 string|"'logdir'"
 op|','
 name|'None'
@@ -2027,7 +2053,7 @@ name|'DEFINE_string'
 op|'('
 string|"'image_service'"
 op|','
-string|"'nova.image.s3.S3ImageService'"
+string|"'nova.image.local.LocalImageService'"
 op|','
 nl|'\n'
 string|"'The service to use for retrieving and searching for images.'"
@@ -2057,6 +2083,26 @@ string|"'nova'"
 op|','
 nl|'\n'
 string|"'availability zone of this node'"
+op|')'
+newline|'\n'
+nl|'\n'
+name|'DEFINE_string'
+op|'('
+string|"'zone_name'"
+op|','
+string|"'nova'"
+op|','
+string|"'name of this zone'"
+op|')'
+newline|'\n'
+name|'DEFINE_string'
+op|'('
+string|"'zone_capabilities'"
+op|','
+string|"'kypervisor:xenserver;os:linux'"
+op|','
+nl|'\n'
+string|"'Key/Value tags which represent capabilities of this zone'"
 op|')'
 newline|'\n'
 endmarker|''

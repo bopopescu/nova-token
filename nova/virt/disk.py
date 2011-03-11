@@ -184,13 +184,13 @@ name|'utils'
 op|'.'
 name|'execute'
 op|'('
-string|"'truncate -s %s %s'"
-op|'%'
-op|'('
+string|"'truncate'"
+op|','
+string|"'-s'"
+op|','
 name|'size'
 op|','
 name|'image'
-op|')'
 op|')'
 newline|'\n'
 comment|'# NOTE(vish): attempts to resize filesystem'
@@ -199,8 +199,10 @@ name|'utils'
 op|'.'
 name|'execute'
 op|'('
-string|"'e2fsck -fp %s'"
-op|'%'
+string|"'e2fsck'"
+op|','
+string|"'-fp'"
+op|','
 name|'image'
 op|','
 name|'check_exit_code'
@@ -212,8 +214,8 @@ name|'utils'
 op|'.'
 name|'execute'
 op|'('
-string|"'resize2fs %s'"
-op|'%'
+string|"'resize2fs'"
+op|','
 name|'image'
 op|','
 name|'check_exit_code'
@@ -282,8 +284,12 @@ name|'utils'
 op|'.'
 name|'execute'
 op|'('
-string|"'sudo kpartx -a %s'"
-op|'%'
+string|"'sudo'"
+op|','
+string|"'kpartx'"
+op|','
+string|"'-a'"
+op|','
 name|'device'
 op|')'
 newline|'\n'
@@ -379,8 +385,19 @@ name|'utils'
 op|'.'
 name|'execute'
 op|'('
-string|"'sudo tune2fs -c 0 -i 0 %s'"
-op|'%'
+string|"'sudo'"
+op|','
+string|"'tune2fs'"
+op|','
+nl|'\n'
+string|"'-c'"
+op|','
+number|'0'
+op|','
+string|"'-i'"
+op|','
+number|'0'
+op|','
 name|'mapped_device'
 op|')'
 newline|'\n'
@@ -408,13 +425,13 @@ op|'.'
 name|'execute'
 op|'('
 nl|'\n'
-string|"'sudo mount %s %s'"
-op|'%'
-op|'('
+string|"'sudo'"
+op|','
+string|"'mount'"
+op|','
 name|'mapped_device'
 op|','
 name|'tmpdir'
-op|')'
 op|')'
 newline|'\n'
 name|'if'
@@ -481,8 +498,10 @@ name|'utils'
 op|'.'
 name|'execute'
 op|'('
-string|"'sudo umount %s'"
-op|'%'
+string|"'sudo'"
+op|','
+string|"'umount'"
+op|','
 name|'mapped_device'
 op|')'
 newline|'\n'
@@ -498,8 +517,8 @@ name|'utils'
 op|'.'
 name|'execute'
 op|'('
-string|"'rmdir %s'"
-op|'%'
+string|"'rmdir'"
+op|','
 name|'tmpdir'
 op|')'
 newline|'\n'
@@ -517,8 +536,12 @@ name|'utils'
 op|'.'
 name|'execute'
 op|'('
-string|"'sudo kpartx -d %s'"
-op|'%'
+string|"'sudo'"
+op|','
+string|"'kpartx'"
+op|','
+string|"'-d'"
+op|','
 name|'device'
 op|')'
 newline|'\n'
@@ -568,13 +591,15 @@ name|'utils'
 op|'.'
 name|'execute'
 op|'('
-string|"'sudo qemu-nbd -c %s %s'"
-op|'%'
-op|'('
+string|"'sudo'"
+op|','
+string|"'qemu-nbd'"
+op|','
+string|"'-c'"
+op|','
 name|'device'
 op|','
 name|'image'
-op|')'
 op|')'
 newline|'\n'
 comment|'# NOTE(vish): this forks into another process, so give it a chance'
@@ -652,8 +677,14 @@ name|'utils'
 op|'.'
 name|'execute'
 op|'('
-string|"'sudo losetup --find --show %s'"
-op|'%'
+string|"'sudo'"
+op|','
+string|"'losetup'"
+op|','
+string|"'--find'"
+op|','
+string|"'--show'"
+op|','
 name|'image'
 op|')'
 newline|'\n'
@@ -710,8 +741,12 @@ name|'utils'
 op|'.'
 name|'execute'
 op|'('
-string|"'sudo qemu-nbd -d %s'"
-op|'%'
+string|"'sudo'"
+op|','
+string|"'qemu-nbd'"
+op|','
+string|"'-d'"
+op|','
 name|'device'
 op|')'
 newline|'\n'
@@ -729,8 +764,12 @@ name|'utils'
 op|'.'
 name|'execute'
 op|'('
-string|"'sudo losetup --detach %s'"
-op|'%'
+string|"'sudo'"
+op|','
+string|"'losetup'"
+op|','
+string|"'--detach'"
+op|','
 name|'device'
 op|')'
 newline|'\n'
@@ -886,8 +925,12 @@ name|'utils'
 op|'.'
 name|'execute'
 op|'('
-string|"'sudo mkdir -p %s'"
-op|'%'
+string|"'sudo'"
+op|','
+string|"'mkdir'"
+op|','
+string|"'-p'"
+op|','
 name|'sshdir'
 op|')'
 comment|"# existing dir doesn't matter"
@@ -896,8 +939,12 @@ name|'utils'
 op|'.'
 name|'execute'
 op|'('
-string|"'sudo chown root %s'"
-op|'%'
+string|"'sudo'"
+op|','
+string|"'chown'"
+op|','
+string|"'root'"
+op|','
 name|'sshdir'
 op|')'
 newline|'\n'
@@ -905,8 +952,12 @@ name|'utils'
 op|'.'
 name|'execute'
 op|'('
-string|"'sudo chmod 700 %s'"
-op|'%'
+string|"'sudo'"
+op|','
+string|"'chmod'"
+op|','
+string|"'700'"
+op|','
 name|'sshdir'
 op|')'
 newline|'\n'
@@ -927,10 +978,17 @@ name|'utils'
 op|'.'
 name|'execute'
 op|'('
-string|"'sudo tee -a %s'"
-op|'%'
+string|"'sudo'"
+op|','
+string|"'tee'"
+op|','
+string|"'-a'"
+op|','
 name|'keyfile'
 op|','
+nl|'\n'
+name|'process_input'
+op|'='
 string|"'\\n'"
 op|'+'
 name|'key'
@@ -984,8 +1042,12 @@ name|'utils'
 op|'.'
 name|'execute'
 op|'('
-string|"'sudo mkdir -p %s'"
-op|'%'
+string|"'sudo'"
+op|','
+string|"'mkdir'"
+op|','
+string|"'-p'"
+op|','
 name|'netdir'
 op|')'
 comment|"# existing dir doesn't matter"
@@ -994,8 +1056,12 @@ name|'utils'
 op|'.'
 name|'execute'
 op|'('
-string|"'sudo chown root:root %s'"
-op|'%'
+string|"'sudo'"
+op|','
+string|"'chown'"
+op|','
+string|"'root:root'"
+op|','
 name|'netdir'
 op|')'
 newline|'\n'
@@ -1003,8 +1069,12 @@ name|'utils'
 op|'.'
 name|'execute'
 op|'('
-string|"'sudo chmod 755 %s'"
-op|'%'
+string|"'sudo'"
+op|','
+string|"'chmod'"
+op|','
+number|'755'
+op|','
 name|'netdir'
 op|')'
 newline|'\n'
@@ -1025,8 +1095,10 @@ name|'utils'
 op|'.'
 name|'execute'
 op|'('
-string|"'sudo tee %s'"
-op|'%'
+string|"'sudo'"
+op|','
+string|"'tee'"
+op|','
 name|'netfile'
 op|','
 name|'net'
