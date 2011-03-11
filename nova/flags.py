@@ -1774,6 +1774,16 @@ op|')'
 newline|'\n'
 name|'DEFINE_string'
 op|'('
+string|"'osapi_extensions_path'"
+op|','
+string|"'/var/lib/nova/extensions'"
+op|','
+nl|'\n'
+string|"'default directory for nova extensions'"
+op|')'
+newline|'\n'
+name|'DEFINE_string'
+op|'('
 string|"'osapi_host'"
 op|','
 string|"'$my_ip'"
