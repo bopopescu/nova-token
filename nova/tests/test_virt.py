@@ -2422,6 +2422,7 @@ string|"':OUTPUT ACCEPT [5149:405186]'"
 op|','
 nl|'\n'
 string|"':POSTROUTING ACCEPT [5063:386098]'"
+op|','
 nl|'\n'
 op|']'
 newline|'\n'
