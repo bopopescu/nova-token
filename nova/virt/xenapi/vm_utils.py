@@ -5213,7 +5213,7 @@ name|'debug'
 op|'('
 name|'_'
 op|'('
-string|"'VBD %(vbd)s plugged as %(orig_dev)s'"
+string|"'VBD %(vbd_ref)s plugged as %(orig_dev)s'"
 op|')'
 op|'%'
 name|'locals'
@@ -5241,7 +5241,7 @@ name|'debug'
 op|'('
 name|'_'
 op|'('
-string|"'VBD %(vbd)s plugged into wrong dev, '"
+string|"'VBD %(vbd_ref)s plugged into wrong dev, '"
 nl|'\n'
 string|"'remapping to %(dev)s'"
 op|')'
