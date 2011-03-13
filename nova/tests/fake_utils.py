@@ -1,419 +1,106 @@
-begin_unit
-comment|'# vim: tabstop=4 shiftwidth=4 softtabstop=4'
-nl|'\n'
-nl|'\n'
-comment|'# Copyright (c) 2011 Citrix Systems, Inc.'
-nl|'\n'
-comment|'#'
-nl|'\n'
-comment|'#    Licensed under the Apache License, Version 2.0 (the "License"); you may'
-nl|'\n'
-comment|'#    not use this file except in compliance with the License. You may obtain'
-nl|'\n'
-comment|'#    a copy of the License at'
-nl|'\n'
-comment|'#'
-nl|'\n'
-comment|'#         http://www.apache.org/licenses/LICENSE-2.0'
-nl|'\n'
-comment|'#'
-nl|'\n'
-comment|'#    Unless required by applicable law or agreed to in writing, software'
-nl|'\n'
-comment|'#    distributed under the License is distributed on an "AS IS" BASIS, WITHOUT'
-nl|'\n'
-comment|'#    WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the'
-nl|'\n'
-comment|'#    License for the specific language governing permissions and limitations'
-nl|'\n'
-comment|'#    under the License.'
-nl|'\n'
-nl|'\n'
-string|'"""This modules stubs out functions in nova.utils\n"""'
-newline|'\n'
-nl|'\n'
-name|'import'
-name|'re'
-newline|'\n'
-name|'import'
-name|'types'
-newline|'\n'
-nl|'\n'
-name|'from'
-name|'eventlet'
-name|'import'
-name|'greenthread'
-newline|'\n'
-nl|'\n'
-name|'from'
-name|'nova'
-name|'import'
-name|'exception'
-newline|'\n'
-name|'from'
-name|'nova'
-name|'import'
-name|'log'
-name|'as'
-name|'logging'
-newline|'\n'
-name|'from'
-name|'nova'
-name|'import'
-name|'utils'
-newline|'\n'
-nl|'\n'
-DECL|variable|LOG
-name|'LOG'
-op|'='
-name|'logging'
-op|'.'
-name|'getLogger'
-op|'('
-string|"'nova.tests.fake_utils'"
-op|')'
-newline|'\n'
-nl|'\n'
-DECL|variable|_fake_execute_repliers
-name|'_fake_execute_repliers'
-op|'='
-op|'['
-op|']'
-newline|'\n'
-DECL|variable|_fake_execute_log
-name|'_fake_execute_log'
-op|'='
-op|'['
-op|']'
-newline|'\n'
-nl|'\n'
-nl|'\n'
-DECL|function|fake_execute_get_log
-name|'def'
-name|'fake_execute_get_log'
-op|'('
-op|')'
-op|':'
-newline|'\n'
-indent|'    '
-name|'global'
-name|'_fake_execute_log'
-newline|'\n'
-name|'return'
-name|'_fake_execute_log'
-newline|'\n'
-nl|'\n'
-nl|'\n'
-DECL|function|fake_execute_clear_log
-dedent|''
-name|'def'
-name|'fake_execute_clear_log'
-op|'('
-op|')'
-op|':'
-newline|'\n'
-indent|'    '
-name|'global'
-name|'_fake_execute_log'
-newline|'\n'
-name|'_fake_execute_log'
-op|'='
-op|'['
-op|']'
-newline|'\n'
-nl|'\n'
-nl|'\n'
-DECL|function|fake_execute_set_repliers
-dedent|''
-name|'def'
-name|'fake_execute_set_repliers'
-op|'('
-name|'repliers'
-op|')'
-op|':'
-newline|'\n'
-indent|'    '
-string|'"""Allows the client to configure replies to commands"""'
-newline|'\n'
-name|'global'
-name|'_fake_execute_repliers'
-newline|'\n'
-name|'_fake_execute_repliers'
-op|'='
-name|'repliers'
-newline|'\n'
-nl|'\n'
-nl|'\n'
-DECL|function|fake_execute_default_reply_handler
-dedent|''
-name|'def'
-name|'fake_execute_default_reply_handler'
-op|'('
-op|'*'
-name|'ignore_args'
-op|')'
-op|':'
-newline|'\n'
-indent|'    '
-string|'"""A reply handler for commands that haven\'t been added to the reply\n    list.  Returns empty strings for stdout and stderr\n    """'
-newline|'\n'
-name|'return'
-string|"''"
-op|','
-string|"''"
-newline|'\n'
-nl|'\n'
-nl|'\n'
-DECL|function|fake_execute
-dedent|''
-name|'def'
-name|'fake_execute'
-op|'('
-name|'cmd'
-op|','
-name|'process_input'
-op|'='
-name|'None'
-op|','
-name|'addl_env'
-op|'='
-name|'None'
-op|','
-name|'check_exit_code'
-op|'='
-name|'True'
-op|')'
-op|':'
-newline|'\n'
-indent|'    '
-string|'"""This function stubs out execute, optionally executing\n    a preconfigued function to return expected data\n    """'
-newline|'\n'
-name|'global'
-name|'_fake_execute_repliers'
-newline|'\n'
-nl|'\n'
-name|'LOG'
-op|'.'
-name|'debug'
-op|'('
-name|'_'
-op|'('
-string|'"Faking execution of cmd (subprocess): %s"'
-op|')'
-op|','
-name|'cmd'
-op|')'
-newline|'\n'
-name|'_fake_execute_log'
-op|'.'
-name|'append'
-op|'('
-name|'cmd'
-op|')'
-newline|'\n'
-nl|'\n'
-name|'reply_handler'
-op|'='
-name|'fake_execute_default_reply_handler'
-newline|'\n'
-nl|'\n'
-name|'for'
-name|'fake_replier'
-name|'in'
-name|'_fake_execute_repliers'
-op|':'
-newline|'\n'
-indent|'        '
-name|'if'
-name|'re'
-op|'.'
-name|'match'
-op|'('
-name|'fake_replier'
-op|'['
-number|'0'
-op|']'
-op|','
-name|'cmd'
-op|')'
-op|':'
-newline|'\n'
-indent|'            '
-name|'reply_handler'
-op|'='
-name|'fake_replier'
-op|'['
-number|'1'
-op|']'
-newline|'\n'
-name|'LOG'
-op|'.'
-name|'debug'
-op|'('
-name|'_'
-op|'('
-string|"'Faked command matched %s'"
-op|')'
-op|'%'
-name|'fake_replier'
-op|'['
-number|'0'
-op|']'
-op|')'
-newline|'\n'
-name|'break'
-newline|'\n'
-nl|'\n'
-dedent|''
-dedent|''
-name|'if'
-name|'isinstance'
-op|'('
-name|'reply_handler'
-op|','
-name|'types'
-op|'.'
-name|'StringTypes'
-op|')'
-op|':'
-newline|'\n'
-comment|'# If the reply handler is a string, return it as stdout'
-nl|'\n'
-indent|'        '
-name|'reply'
-op|'='
-name|'reply_handler'
-op|','
-string|"''"
-newline|'\n'
-dedent|''
-name|'else'
-op|':'
-newline|'\n'
-indent|'        '
-name|'try'
-op|':'
-newline|'\n'
-comment|'# Alternative is a function, so call it'
-nl|'\n'
-indent|'            '
-name|'reply'
-op|'='
-name|'reply_handler'
-op|'('
-name|'cmd'
-op|','
-name|'process_input'
-op|','
-name|'addl_env'
-op|','
-nl|'\n'
-name|'check_exit_code'
-op|')'
-newline|'\n'
-dedent|''
-name|'except'
-name|'exception'
-op|'.'
-name|'ProcessExecutionError'
-name|'as'
-name|'e'
-op|':'
-newline|'\n'
-indent|'            '
-name|'LOG'
-op|'.'
-name|'debug'
-op|'('
-name|'_'
-op|'('
-string|"'Faked command raised an exception %s'"
-op|'%'
-name|'str'
-op|'('
-name|'e'
-op|')'
-op|')'
-op|')'
-newline|'\n'
-name|'raise'
-newline|'\n'
-nl|'\n'
-dedent|''
-dedent|''
-name|'LOG'
-op|'.'
-name|'debug'
-op|'('
-name|'_'
-op|'('
-string|'"Reply to faked command is stdout=\'%(0)s\' stderr=\'%(1)s\'"'
-op|')'
-op|'%'
-nl|'\n'
-op|'{'
-string|"'0'"
-op|':'
-name|'reply'
-op|'['
-number|'0'
-op|']'
-op|','
-string|"'1'"
-op|':'
-name|'reply'
-op|'['
-number|'1'
-op|']'
-op|'}'
-op|')'
-newline|'\n'
-nl|'\n'
-comment|'# Replicate the sleep call in the real function'
-nl|'\n'
-name|'greenthread'
-op|'.'
-name|'sleep'
-op|'('
-number|'0'
-op|')'
-newline|'\n'
-name|'return'
-name|'reply'
-newline|'\n'
-nl|'\n'
-nl|'\n'
-DECL|function|stub_out_utils_execute
-dedent|''
-name|'def'
-name|'stub_out_utils_execute'
-op|'('
-name|'stubs'
-op|')'
-op|':'
-newline|'\n'
-indent|'    '
-name|'fake_execute_set_repliers'
-op|'('
-op|'['
-op|']'
-op|')'
-newline|'\n'
-name|'fake_execute_clear_log'
-op|'('
-op|')'
-newline|'\n'
-name|'stubs'
-op|'.'
-name|'Set'
-op|'('
-name|'utils'
-op|','
-string|"'execute'"
-op|','
-name|'fake_execute'
-op|')'
-newline|'\n'
-dedent|''
-endmarker|''
-end_unit
+# vim: tabstop=4 shiftwidth=4 softtabstop=4
+
+# Copyright (c) 2011 Citrix Systems, Inc.
+#
+#    Licensed under the Apache License, Version 2.0 (the "License"); you may
+#    not use this file except in compliance with the License. You may obtain
+#    a copy of the License at
+#
+#         http://www.apache.org/licenses/LICENSE-2.0
+#
+#    Unless required by applicable law or agreed to in writing, software
+#    distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+#    WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+#    License for the specific language governing permissions and limitations
+#    under the License.
+
+"""This modules stubs out functions in nova.utils
+"""
+
+import re
+import types
+
+from eventlet import greenthread
+
+from nova import exception
+from nova import log as logging
+from nova import utils
+
+LOG = logging.getLogger('nova.tests.fake_utils')
+
+_fake_execute_repliers = []
+_fake_execute_log = []
+
+
+def fake_execute_get_log():
+    global _fake_execute_log
+    return _fake_execute_log
+
+
+def fake_execute_clear_log():
+    global _fake_execute_log
+    _fake_execute_log = []
+
+
+def fake_execute_set_repliers(repliers):
+    """Allows the client to configure replies to commands"""
+    global _fake_execute_repliers
+    _fake_execute_repliers = repliers
+
+
+def fake_execute_default_reply_handler(*ignore_args, **ignore_kwargs):
+    """A reply handler for commands that haven't been added to the reply
+    list.  Returns empty strings for stdout and stderr
+    """
+    return '', ''
+
+
+def fake_execute(*cmd, **kwargs):
+    """This function stubs out execute, optionally executing
+    a preconfigued function to return expected data
+    """
+    global _fake_execute_repliers
+
+    process_input = kwargs.get('process_input', None)
+    addl_env = kwargs.get('addl_env', None)
+    check_exit_code = kwargs.get('check_exit_code', 0)
+    cmd_map = map(str, cmd)
+    cmd_str = ' '.join(cmd_map)
+
+    LOG.debug(_("Faking execution of cmd (subprocess): %s"), cmd_str)
+    _fake_execute_log.append(cmd_str)
+
+    reply_handler = fake_execute_default_reply_handler
+
+    for fake_replier in _fake_execute_repliers:
+        if re.match(fake_replier[0], cmd_str):
+            reply_handler = fake_replier[1]
+            LOG.debug(_('Faked command matched %s') % fake_replier[0])
+            break
+
+    if isinstance(reply_handler, types.StringTypes):
+        # If the reply handler is a string, return it as stdout
+        reply = reply_handler, ''
+    else:
+        try:
+            # Alternative is a function, so call it
+            reply = reply_handler(cmd,
+                                  process_input=process_input,
+                                  addl_env=addl_env,
+                                  check_exit_code=check_exit_code)
+        except exception.ProcessExecutionError as e:
+            LOG.debug(_('Faked command raised an exception %s' % str(e)))
+            raise
+
+    LOG.debug(_("Reply to faked command is stdout='%(0)s' stderr='%(1)s'") %
+        {'0': reply[0], '1': reply[1]})
+
+    # Replicate the sleep call in the real function
+    greenthread.sleep(0)
+    return reply
+
+
+def stub_out_utils_execute(stubs):
+    fake_execute_set_repliers([])
+    fake_execute_clear_log()
+    stubs.Set(utils, 'execute', fake_execute)

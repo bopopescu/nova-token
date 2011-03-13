@@ -231,7 +231,7 @@ string|"'e2fsck'"
 op|','
 string|"'-fp'"
 op|','
-name|'mage'
+name|'image'
 op|','
 name|'check_exit_code'
 op|'='
@@ -1340,6 +1340,9 @@ string|"'tee'"
 op|','
 name|'netfile'
 op|','
+nl|'\n'
+name|'process_input'
+op|'='
 name|'net'
 op|')'
 newline|'\n'
