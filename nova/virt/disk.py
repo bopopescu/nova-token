@@ -1340,7 +1340,6 @@ string|"'tee'"
 op|','
 name|'netfile'
 op|','
-nl|'\n'
 name|'process_input'
 op|'='
 name|'net'
