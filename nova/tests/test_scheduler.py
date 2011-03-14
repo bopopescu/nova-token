@@ -1035,17 +1035,6 @@ string|"'m1.tiny'"
 newline|'\n'
 name|'inst'
 op|'['
-string|"'mac_address'"
-op|']'
-op|'='
-name|'utils'
-op|'.'
-name|'generate_mac'
-op|'('
-op|')'
-newline|'\n'
-name|'inst'
-op|'['
 string|"'ami_launch_index'"
 op|']'
 op|'='
