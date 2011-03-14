@@ -1105,7 +1105,6 @@ op|'('
 string|"'This method is supported only by libvirt.'"
 op|')'
 newline|'\n'
-nl|'\n'
 dedent|''
 dedent|''
 endmarker|''
