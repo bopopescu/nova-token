@@ -2529,6 +2529,10 @@ op|','
 string|"'is_public'"
 op|':'
 name|'False'
+op|','
+string|"'instance_id'"
+op|':'
+name|'instance_id'
 op|'}'
 newline|'\n'
 name|'image_meta'
