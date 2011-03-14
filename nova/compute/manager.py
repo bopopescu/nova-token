@@ -2864,7 +2864,7 @@ string|"'old_flavor_id'"
 op|':'
 name|'instance_type'
 op|'['
-string|"'flavor_id'"
+string|"'flavorid'"
 op|']'
 op|','
 nl|'\n'
