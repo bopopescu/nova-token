@@ -474,6 +474,7 @@ name|'values'
 op|'['
 string|"'os_type'"
 op|']'
+op|','
 nl|'\n'
 op|'}'
 newline|'\n'

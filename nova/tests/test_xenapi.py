@@ -399,6 +399,7 @@ nl|'\n'
 string|"'os_type'"
 op|':'
 string|"'linux'"
+op|','
 nl|'\n'
 op|'}'
 newline|'\n'
@@ -2398,6 +2399,7 @@ nl|'\n'
 string|"'os_type'"
 op|':'
 name|'os_type'
+op|','
 nl|'\n'
 op|'}'
 newline|'\n'
@@ -3361,6 +3363,7 @@ nl|'\n'
 string|"'os_type'"
 op|':'
 string|"'linux'"
+op|','
 nl|'\n'
 op|'}'
 newline|'\n'
