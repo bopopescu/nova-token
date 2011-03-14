@@ -434,6 +434,13 @@ name|'api'
 newline|'\n'
 name|'mapper'
 op|'['
+string|"'/v1.1'"
+op|']'
+op|'='
+name|'api'
+newline|'\n'
+name|'mapper'
+op|'['
 string|"'/'"
 op|']'
 op|'='
