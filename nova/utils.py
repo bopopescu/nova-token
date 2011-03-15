@@ -1552,11 +1552,13 @@ newline|'\n'
 indent|'    '
 string|'"""Generate a random alphanumeric password, avoiding \'confusing\' O,0,I,1.\n\n    Believed to be reasonably secure (with a reasonable password length!)\n    """'
 newline|'\n'
-comment|'# 26 letters, 10 digits = 36'
+comment|'# 26 letters, 10 digits = 36 choices'
 nl|'\n'
-comment|'# Remove O, 0, I, 1 => 32 digits'
+comment|'# Remove O, 0, I, 1 => 32 choices'
 nl|'\n'
-comment|"# 32 digits means we're just using the low 5 bit of each byte"
+comment|"# 32 choices means we're just using the low 5 bit of each byte,"
+nl|'\n'
+comment|"# so there's no bias introduced by using a modulo"
 nl|'\n'
 name|'chrs'
 op|'='
