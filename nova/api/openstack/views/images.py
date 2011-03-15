@@ -18,10 +18,8 @@ name|'req'
 op|'.'
 name|'environ'
 op|'['
-string|"'nova.context'"
+string|"'version'"
 op|']'
-op|'.'
-name|'version'
 newline|'\n'
 name|'base_url'
 op|'='
