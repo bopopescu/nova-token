@@ -605,7 +605,7 @@ string|"'sudo'"
 op|','
 string|"'mount'"
 op|','
-name|'mapped_device'
+name|'device'
 op|','
 name|'container_dir'
 op|')'
