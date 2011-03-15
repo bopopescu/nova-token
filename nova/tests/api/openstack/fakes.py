@@ -349,7 +349,7 @@ name|'environ'
 op|'.'
 name|'get'
 op|'('
-string|"'version'"
+string|"'api.version'"
 op|')'
 op|':'
 newline|'\n'
@@ -358,7 +358,7 @@ name|'req'
 op|'.'
 name|'environ'
 op|'['
-string|"'version'"
+string|"'api.version'"
 op|']'
 op|'='
 string|"'1.0'"

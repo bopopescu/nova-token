@@ -1309,7 +1309,7 @@ name|'req'
 op|'.'
 name|'environ'
 op|'['
-string|"'version'"
+string|"'api.version'"
 op|']'
 op|'='
 string|"'1.1'"
@@ -3021,7 +3021,7 @@ name|'req'
 op|'.'
 name|'environ'
 op|'['
-string|"'version'"
+string|"'api.version'"
 op|']'
 op|'='
 string|"'1.1'"
