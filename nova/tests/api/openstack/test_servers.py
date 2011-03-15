@@ -5486,7 +5486,6 @@ name|'expected'
 op|')'
 newline|'\n'
 nl|'\n'
-nl|'\n'
 DECL|function|test_request_with_one_personality_missing_path
 dedent|''
 name|'def'
