@@ -553,7 +553,6 @@ string|"'xenstore_data'"
 op|':'
 op|'{'
 op|'}'
-nl|'\n'
 op|'}'
 newline|'\n'
 nl|'\n'
