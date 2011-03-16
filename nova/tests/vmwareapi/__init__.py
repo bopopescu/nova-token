@@ -30,5 +30,8 @@ comment|'#    License for the specific language governing permissions and limita
 nl|'\r\n'
 comment|'#    under the License.'
 nl|'\r\n'
+nl|'\r\n'
+string|'"""\r\n:mod:`vmwareapi` -- Stubs for VMware API\r\n=======================================\r\n"""'
+newline|'\r\n'
 endmarker|''
 end_unit
