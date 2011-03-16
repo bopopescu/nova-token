@@ -1826,7 +1826,7 @@ nl|'\n'
 string|"'lxc'"
 op|':'
 op|'('
-string|"'lxc://;'"
+string|"'lxc:///'"
 op|','
 nl|'\n'
 op|'['
