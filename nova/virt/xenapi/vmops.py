@@ -1748,7 +1748,7 @@ name|'base_copy_uuid'
 op|'='
 name|'template_vdi_uuids'
 op|'['
-string|"'snap'"
+string|"'image'"
 op|']'
 newline|'\n'
 name|'vdi_ref'
