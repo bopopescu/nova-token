@@ -300,9 +300,9 @@ name|'extensions'
 op|'.'
 name|'ResponseExtension'
 op|'('
-string|"'/v1.0/flavors/:(id)'"
-op|','
 string|"'GET'"
+op|','
+string|"'/flavors/:(id)'"
 op|','
 nl|'\n'
 name|'_resp_handler'
