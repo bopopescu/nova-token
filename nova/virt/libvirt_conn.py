@@ -5978,7 +5978,7 @@ name|'xml'
 op|'.'
 name|'xpathEval'
 op|'('
-string|"'//cpu'"
+string|"'//host/cpu'"
 op|')'
 newline|'\n'
 name|'if'
@@ -6033,7 +6033,7 @@ name|'xml'
 op|'.'
 name|'xpathEval'
 op|'('
-string|"'//cpu/arch'"
+string|"'//host/cpu/arch'"
 op|')'
 op|'['
 number|'0'
@@ -6052,7 +6052,7 @@ name|'xml'
 op|'.'
 name|'xpathEval'
 op|'('
-string|"'//cpu/model'"
+string|"'//host/cpu/model'"
 op|')'
 op|'['
 number|'0'
@@ -6071,7 +6071,7 @@ name|'xml'
 op|'.'
 name|'xpathEval'
 op|'('
-string|"'//cpu/vendor'"
+string|"'//host/cpu/vendor'"
 op|')'
 op|'['
 number|'0'
@@ -6088,7 +6088,7 @@ name|'xml'
 op|'.'
 name|'xpathEval'
 op|'('
-string|"'//cpu/topology'"
+string|"'//host/cpu/topology'"
 op|')'
 op|'['
 number|'0'
@@ -6211,7 +6211,7 @@ name|'xml'
 op|'.'
 name|'xpathEval'
 op|'('
-string|"'//cpu/feature'"
+string|"'//host/cpu/feature'"
 op|')'
 newline|'\n'
 name|'features'
