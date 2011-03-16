@@ -41,6 +41,7 @@ name|'import'
 name|'common'
 newline|'\n'
 nl|'\n'
+nl|'\n'
 DECL|function|get_view_builder
 name|'def'
 name|'get_view_builder'
