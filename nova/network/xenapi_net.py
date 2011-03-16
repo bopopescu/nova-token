@@ -103,6 +103,7 @@ op|'.'
 name|'FLAGS'
 newline|'\n'
 nl|'\n'
+nl|'\n'
 DECL|function|ensure_vlan_bridge
 name|'def'
 name|'ensure_vlan_bridge'
@@ -266,7 +267,7 @@ op|'('
 nl|'\n'
 name|'_'
 op|'('
-string|"'Found no PID for device %s'"
+string|"'Found no PIF for device %s'"
 op|')'
 op|'%'
 name|'FLAGS'
