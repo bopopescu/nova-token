@@ -3886,8 +3886,10 @@ name|'utils'
 op|'.'
 name|'execute'
 op|'('
-string|"'mkdir -p %s'"
-op|'%'
+string|"'mkdir'"
+op|','
+string|"'-p'"
+op|','
 name|'container_dir'
 op|')'
 newline|'\n'
