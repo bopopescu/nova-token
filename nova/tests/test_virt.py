@@ -1826,7 +1826,7 @@ nl|'\n'
 string|"'lxc'"
 op|':'
 op|'('
-string|"'lxc://'"
+string|"'lxc://;'"
 op|','
 nl|'\n'
 op|'['
@@ -1863,7 +1863,7 @@ op|')'
 op|'.'
 name|'text'
 op|','
-string|"'lxc'"
+string|"'exe'"
 op|')'
 op|']'
 op|')'
