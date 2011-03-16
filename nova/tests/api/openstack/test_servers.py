@@ -1671,8 +1671,10 @@ name|'self'
 op|')'
 op|':'
 newline|'\n'
-DECL|function|instance_create
 indent|'        '
+string|'"""Shared implementation for tests below that create instance"""'
+newline|'\n'
+DECL|function|instance_create
 name|'def'
 name|'instance_create'
 op|'('
