@@ -211,6 +211,7 @@ name|'return'
 name|'instance_types'
 newline|'\n'
 nl|'\n'
+nl|'\n'
 DECL|function|return_instance_type_not_found
 dedent|''
 name|'def'
