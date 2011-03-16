@@ -2067,7 +2067,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""\n    ResourceExtension objects can be used to add add top level resources\n    to the OpenStack API in nova.\n    """'
+string|'"""\n    ResourceExtension objects can be used to add top level resources\n    to the OpenStack API in nova.\n    """'
 newline|'\n'
 nl|'\n'
 DECL|member|__init__
