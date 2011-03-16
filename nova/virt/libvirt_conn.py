@@ -8820,6 +8820,36 @@ op|','
 string|"'-j DROP'"
 op|')'
 newline|'\n'
+name|'self'
+op|'.'
+name|'iptables'
+op|'.'
+name|'ipv6'
+op|'['
+string|"'filter'"
+op|']'
+op|'.'
+name|'add_chain'
+op|'('
+string|"'sg-fallback'"
+op|')'
+newline|'\n'
+name|'self'
+op|'.'
+name|'iptables'
+op|'.'
+name|'ipv6'
+op|'['
+string|"'filter'"
+op|']'
+op|'.'
+name|'add_rule'
+op|'('
+string|"'sg-fallback'"
+op|','
+string|"'-j DROP'"
+op|')'
+newline|'\n'
 nl|'\n'
 DECL|member|setup_basic_filtering
 dedent|''
