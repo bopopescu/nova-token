@@ -301,7 +301,7 @@ name|'joeuser'
 op|'='
 name|'User'
 op|'('
-string|"'guy1'"
+number|'1'
 op|','
 string|"'guy1'"
 op|','
@@ -316,7 +316,7 @@ name|'superuser'
 op|'='
 name|'User'
 op|'('
-string|"'guy2'"
+number|'2'
 op|','
 string|"'guy2'"
 op|','

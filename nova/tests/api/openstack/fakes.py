@@ -1554,13 +1554,12 @@ name|'acc1'
 op|'='
 name|'User'
 op|'('
-string|"'guy1'"
+number|'1'
 op|','
 string|"'guy1'"
 op|','
 string|"'acc1'"
 op|','
-nl|'\n'
 string|"'fortytwo!'"
 op|','
 name|'False'
