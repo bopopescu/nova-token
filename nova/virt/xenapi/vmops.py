@@ -4216,7 +4216,6 @@ name|'admin_context'
 op|','
 nl|'\n'
 name|'instance'
-op|'.'
 op|'['
 string|"'instance_type'"
 op|']'
