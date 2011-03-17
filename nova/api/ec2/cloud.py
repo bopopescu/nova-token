@@ -7345,12 +7345,7 @@ string|"'id'"
 op|']'
 op|')'
 newline|'\n'
-name|'raise'
-name|'Exception'
-op|'('
-name|'image'
-op|')'
-newline|'\n'
+nl|'\n'
 name|'image'
 op|'['
 string|"'properties'"
