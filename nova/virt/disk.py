@@ -640,6 +640,7 @@ name|'nbd'
 op|')'
 newline|'\n'
 nl|'\n'
+nl|'\n'
 DECL|function|destroy_container
 dedent|''
 dedent|''
