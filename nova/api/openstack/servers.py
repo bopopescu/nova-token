@@ -334,6 +334,7 @@ string|"'resize-confirm'"
 newline|'\n'
 dedent|''
 name|'else'
+op|':'
 newline|'\n'
 indent|'        '
 name|'inst_dict'
