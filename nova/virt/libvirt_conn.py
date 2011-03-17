@@ -6123,7 +6123,7 @@ name|'xml'
 op|'.'
 name|'xpathEval'
 op|'('
-string|"'//cpu/topology'"
+string|"'//host/cpu/topology'"
 op|')'
 newline|'\n'
 name|'topology'
