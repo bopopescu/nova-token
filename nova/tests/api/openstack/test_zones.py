@@ -1301,7 +1301,11 @@ name|'FLAGS'
 op|'.'
 name|'zone_capabilities'
 op|'='
-string|"'cap1:a,b;cap2:c,d'"
+op|'['
+string|"'cap1=a;b'"
+op|','
+string|"'cap2=c;d'"
+op|']'
 newline|'\n'
 name|'self'
 op|'.'
@@ -1409,7 +1413,7 @@ op|'['
 string|"'cap1'"
 op|']'
 op|','
-string|"'a,b'"
+string|"'a;b'"
 op|')'
 newline|'\n'
 name|'self'
@@ -1424,7 +1428,7 @@ op|'['
 string|"'cap2'"
 op|']'
 op|','
-string|"'c,d'"
+string|"'c;d'"
 op|')'
 newline|'\n'
 dedent|''
