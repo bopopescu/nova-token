@@ -144,8 +144,6 @@ name|'import'
 name|'base'
 newline|'\n'
 nl|'\n'
-nl|'\n'
-nl|'\n'
 DECL|variable|FLAGS
 name|'FLAGS'
 op|'='
@@ -215,6 +213,8 @@ string|"'%s_group'"
 op|'%'
 name|'TEST_PREFIX'
 newline|'\n'
+nl|'\n'
+nl|'\n'
 DECL|class|ImageTests
 name|'class'
 name|'ImageTests'
