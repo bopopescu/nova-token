@@ -1760,7 +1760,6 @@ name|'text'
 op|','
 string|"'exe'"
 op|')'
-nl|'\n'
 op|']'
 newline|'\n'
 nl|'\n'
