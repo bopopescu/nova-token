@@ -83,7 +83,7 @@ nl|'\r\n'
 DECL|variable|RESP_NOT_XML_ERROR
 name|'RESP_NOT_XML_ERROR'
 op|'='
-string|'\'Response is "text/html", not "text/xml\''
+string|'\'Response is "text/html", not "text/xml"\''
 newline|'\r\n'
 DECL|variable|CONN_ABORT_ERROR
 name|'CONN_ABORT_ERROR'
