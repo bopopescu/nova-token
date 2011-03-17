@@ -1002,8 +1002,8 @@ name|'__tablename__'
 op|'='
 string|"'instances'"
 newline|'\n'
-DECL|variable|onset_files
-name|'onset_files'
+DECL|variable|injected_files
+name|'injected_files'
 op|'='
 op|'['
 op|']'
