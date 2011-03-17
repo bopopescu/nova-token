@@ -4521,6 +4521,7 @@ op|')'
 op|')'
 op|')'
 newline|'\n'
+nl|'\n'
 DECL|function|fake_migration_get
 name|'def'
 name|'fake_migration_get'
@@ -4592,7 +4593,6 @@ op|','
 string|"'resize-confirm'"
 op|')'
 newline|'\n'
-nl|'\n'
 nl|'\n'
 DECL|member|test_confirm_resize_server
 dedent|''
