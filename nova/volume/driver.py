@@ -2878,6 +2878,7 @@ string|"'--op'"
 op|','
 string|"'show'"
 op|','
+nl|'\n'
 string|"'--tid=%(tid)d'"
 op|'%'
 name|'locals'
