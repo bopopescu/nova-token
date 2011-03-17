@@ -418,7 +418,7 @@ name|'req'
 op|'.'
 name|'environ'
 op|'['
-string|"'nova.api.openstack.version'"
+string|"'api.version'"
 op|']'
 op|'='
 name|'version'

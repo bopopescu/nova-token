@@ -310,6 +310,7 @@ name|'image_hash'
 op|')'
 newline|'\n'
 nl|'\n'
+nl|'\n'
 DECL|function|get_api_version
 dedent|''
 name|'def'
