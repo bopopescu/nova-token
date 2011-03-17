@@ -16,6 +16,7 @@ name|'import'
 name|'glance'
 newline|'\n'
 nl|'\n'
+nl|'\n'
 DECL|class|StubGlanceClient
 name|'class'
 name|'StubGlanceClient'
