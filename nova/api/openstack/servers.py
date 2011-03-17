@@ -1331,8 +1331,6 @@ op|'['
 op|']'
 newline|'\n'
 nl|'\n'
-comment|"# NOTE(dprince): handle case where 'personality: null' is in JSON req"
-nl|'\n'
 name|'if'
 name|'not'
 name|'personality'
