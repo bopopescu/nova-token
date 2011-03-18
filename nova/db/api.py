@@ -2655,7 +2655,7 @@ op|')'
 newline|'\n'
 nl|'\n'
 nl|'\n'
-comment|'# pylint: disable-msg=C0103'
+comment|'# pylint: disable=C0103'
 nl|'\n'
 DECL|function|network_get_associated_fixed_ips
 dedent|''
