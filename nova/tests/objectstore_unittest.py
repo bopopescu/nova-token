@@ -1332,7 +1332,7 @@ op|'='
 string|"'127.0.0.1'"
 op|')'
 newline|'\n'
-comment|'# pylint: enable-msg=E1101'
+comment|'# pylint: enable=E1101'
 nl|'\n'
 name|'self'
 op|'.'
