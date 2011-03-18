@@ -216,6 +216,7 @@ op|'.'
 name|'FLAGS'
 newline|'\n'
 nl|'\n'
+nl|'\n'
 DECL|class|_AnsiColorizer
 name|'class'
 name|'_AnsiColorizer'
