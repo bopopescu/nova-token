@@ -3913,12 +3913,12 @@ op|','
 string|"'ext2,ext3'"
 op|','
 nl|'\n'
-string|'\'"%s"\''
+string|"'%s'"
 op|'%'
 name|'dev_path'
 op|','
 nl|'\n'
-string|'\'"%s"\''
+string|"'%s'"
 op|'%'
 name|'tmpdir'
 op|')'
