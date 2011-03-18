@@ -183,7 +183,7 @@ op|'='
 string|"'test_username'"
 op|','
 nl|'\r\n'
-name|'vmware_host_password'
+name|'vmwareapi_host_password'
 op|'='
 string|"'test_pass'"
 op|')'
