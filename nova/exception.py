@@ -210,7 +210,7 @@ string|"'Unknown'"
 op|','
 name|'code'
 op|'='
-string|"'Unknown'"
+string|"'ApiError'"
 op|')'
 op|':'
 newline|'\n'
