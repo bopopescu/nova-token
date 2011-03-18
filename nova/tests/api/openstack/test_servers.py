@@ -1924,7 +1924,6 @@ name|'expected_links'
 op|')'
 newline|'\n'
 nl|'\n'
-nl|'\n'
 DECL|member|test_get_servers_with_limit
 dedent|''
 name|'def'
