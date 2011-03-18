@@ -895,7 +895,6 @@ op|')'
 newline|'\n'
 nl|'\n'
 nl|'\n'
-nl|'\n'
 DECL|class|Versions
 dedent|''
 dedent|''
