@@ -1,5 +1,5 @@
 begin_unit
-comment|'# Copyright 2010 OpenStack LLC.'
+comment|'# Copyright (c) 2011 NTT.'
 nl|'\n'
 comment|'# All Rights Reserved.'
 nl|'\n'
