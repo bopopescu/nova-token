@@ -8475,8 +8475,6 @@ string|"'fake'"
 op|')'
 op|')'
 newline|'\n'
-nl|'\n'
-nl|'\n'
 dedent|''
 dedent|''
 endmarker|''
