@@ -302,7 +302,11 @@ op|'='
 op|'{'
 string|"'xyz'"
 op|':'
-string|'"image"'
+op|'{'
+string|"'foo'"
+op|':'
+string|"'bar'"
+op|'}'
 op|'}'
 newline|'\n'
 name|'self'
@@ -321,7 +325,11 @@ op|','
 string|"'xyz'"
 op|')'
 op|','
-string|'"image"'
+op|'{'
+string|"'foo'"
+op|':'
+string|"'bar'"
+op|'}'
 op|')'
 newline|'\n'
 nl|'\n'
@@ -344,7 +352,11 @@ op|'='
 op|'{'
 number|'1'
 op|':'
-string|'"an image"'
+op|'{'
+string|"'foo'"
+op|':'
+string|"'bar'"
+op|'}'
 op|'}'
 newline|'\n'
 name|'self'
@@ -365,7 +377,11 @@ op|')'
 op|')'
 op|','
 op|'['
-string|'"an image"'
+op|'{'
+string|"'foo'"
+op|':'
+string|"'bar'"
+op|'}'
 op|']'
 op|')'
 newline|'\n'
