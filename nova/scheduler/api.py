@@ -734,6 +734,7 @@ op|')'
 op|')'
 newline|'\n'
 nl|'\n'
+nl|'\n'
 DECL|class|reroute_compute
 dedent|''
 dedent|''
