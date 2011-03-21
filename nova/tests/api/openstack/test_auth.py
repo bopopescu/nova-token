@@ -1005,10 +1005,10 @@ name|'TestCase'
 op|')'
 op|':'
 newline|'\n'
-DECL|member|test_token_lp718999
+DECL|member|test_token_expiry
 indent|'    '
 name|'def'
-name|'test_token_lp718999'
+name|'test_token_expiry'
 op|'('
 name|'self'
 op|')'
