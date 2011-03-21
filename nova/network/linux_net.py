@@ -3171,8 +3171,16 @@ comment|'#           configuration options (like dchp-range, vlan, ...)'
 nl|'\n'
 comment|"#           aren't reloaded."
 nl|'\n'
-DECL|function|update_dhcp
 dedent|''
+op|'@'
+name|'utils'
+op|'.'
+name|'synchronized'
+op|'('
+string|"'dnsmasq_start'"
+op|')'
+newline|'\n'
+DECL|function|update_dhcp
 name|'def'
 name|'update_dhcp'
 op|'('
