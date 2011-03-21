@@ -1146,7 +1146,9 @@ name|'self'
 op|'.'
 name|'_execute'
 op|'('
-string|'"sudo aoe-discover"'
+string|"'sudo'"
+op|','
+string|"'aoe-discover'"
 op|')'
 newline|'\n'
 name|'out'
@@ -1157,7 +1159,9 @@ name|'self'
 op|'.'
 name|'_execute'
 op|'('
-string|'"sudo aoe-stat"'
+string|"'sudo'"
+op|','
+string|"'aoe-stat'"
 op|','
 name|'check_exit_code'
 op|'='
@@ -1252,7 +1256,15 @@ op|')'
 newline|'\n'
 name|'cmd'
 op|'='
-string|'"sudo vblade-persist ls --no-header"'
+op|'('
+string|"'sudo'"
+op|','
+string|"'vblade-persist'"
+op|','
+string|"'ls'"
+op|','
+string|"'--no-header'"
+op|')'
 newline|'\n'
 name|'out'
 op|','
@@ -1262,6 +1274,7 @@ name|'self'
 op|'.'
 name|'_execute'
 op|'('
+op|'*'
 name|'cmd'
 op|')'
 newline|'\n'
@@ -1852,14 +1865,16 @@ op|','
 string|"'new'"
 op|','
 nl|'\n'
-string|"'--tid=%s --params Name=%s'"
+string|"'--tid=%s'"
 op|'%'
-nl|'\n'
-op|'('
 name|'iscsi_target'
 op|','
+nl|'\n'
+string|"'--params'"
+op|','
+string|"'Name=%s'"
+op|'%'
 name|'iscsi_name'
-op|')'
 op|')'
 newline|'\n'
 name|'self'
@@ -2855,7 +2870,16 @@ name|'self'
 op|'.'
 name|'_execute'
 op|'('
-string|'"sudo ietadm --op show --tid=%(tid)d"'
+string|"'sudo'"
+op|','
+string|"'ietadm'"
+op|','
+string|"'--op'"
+op|','
+string|"'show'"
+op|','
+nl|'\n'
+string|"'--tid=%(tid)d'"
 op|'%'
 name|'locals'
 op|'('
@@ -3196,7 +3220,7 @@ op|','
 nl|'\n'
 string|"'rm'"
 op|','
-name|'voluname'
+name|'volume'
 op|'['
 string|"'name'"
 op|']'
