@@ -317,10 +317,10 @@ name|'fake_execute'
 op|')'
 newline|'\n'
 nl|'\n'
-DECL|member|test_same_fname_concurrency
+DECL|member|notest_same_fname_concurrency
 dedent|''
 name|'def'
-name|'test_same_fname_concurrency'
+name|'notest_same_fname_concurrency'
 op|'('
 name|'self'
 op|')'
