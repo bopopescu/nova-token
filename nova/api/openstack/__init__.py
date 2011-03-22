@@ -787,8 +787,11 @@ name|'APIRouter'
 op|')'
 op|':'
 newline|'\n'
-DECL|member|_setup_routes
 indent|'    '
+string|"''' Defines routes specific to OpenStack API V1.0 '''"
+newline|'\n'
+nl|'\n'
+DECL|member|_setup_routes
 name|'def'
 name|'_setup_routes'
 op|'('
@@ -854,8 +857,11 @@ name|'APIRouter'
 op|')'
 op|':'
 newline|'\n'
-DECL|member|_setup_routes
 indent|'    '
+string|"''' Defines routes specific to OpenStack API V1.1 '''"
+newline|'\n'
+nl|'\n'
+DECL|member|_setup_routes
 name|'def'
 name|'_setup_routes'
 op|'('
