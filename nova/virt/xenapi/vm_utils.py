@@ -1268,8 +1268,6 @@ name|'mac_address'
 op|','
 nl|'\n'
 name|'dev'
-op|'='
-string|'"0"'
 op|','
 name|'rxtx_cap'
 op|'='
@@ -1290,7 +1288,10 @@ op|'['
 string|"'device'"
 op|']'
 op|'='
+name|'str'
+op|'('
 name|'dev'
+op|')'
 newline|'\n'
 name|'vif_rec'
 op|'['
@@ -3913,13 +3914,8 @@ op|','
 string|"'ext2,ext3'"
 op|','
 nl|'\n'
-string|"'%s'"
-op|'%'
 name|'dev_path'
 op|','
-nl|'\n'
-string|"'%s'"
-op|'%'
 name|'tmpdir'
 op|')'
 newline|'\n'
@@ -6315,6 +6311,8 @@ nl|'\n'
 dedent|''
 name|'execute'
 op|'('
+string|"'sudo'"
+op|','
 string|"'parted'"
 op|','
 string|"'--script'"
@@ -6328,6 +6326,8 @@ op|')'
 newline|'\n'
 name|'execute'
 op|'('
+string|"'sudo'"
+op|','
 string|"'parted'"
 op|','
 string|"'--script'"
