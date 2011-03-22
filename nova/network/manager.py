@@ -200,7 +200,7 @@ name|'DEFINE_integer'
 op|'('
 string|"'num_networks'"
 op|','
-number|'1000'
+number|'1'
 op|','
 string|"'Number of networks to support'"
 op|')'
