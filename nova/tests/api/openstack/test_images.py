@@ -1030,20 +1030,26 @@ op|')'
 op|':'
 newline|'\n'
 indent|'        '
-string|'"""\n        Ensure that a instance_id is stored in Glance as a image property\n        string and then converted back to an instance_id integer attribute.\n        """'
+string|'"""Ensure instance_id is persisted as an image-property"""'
 newline|'\n'
 name|'fixture'
 op|'='
 op|'{'
-string|"'instance_id'"
-op|':'
-number|'42'
-op|','
 string|"'name'"
 op|':'
 string|"'test image'"
+op|','
+nl|'\n'
+string|"'properties'"
+op|':'
+op|'{'
+string|"'instance_id'"
+op|':'
+string|"'42'"
+op|'}'
 op|'}'
 newline|'\n'
+nl|'\n'
 name|'image_id'
 op|'='
 name|'self'
@@ -1100,26 +1106,6 @@ name|'expected'
 op|')'
 newline|'\n'
 nl|'\n'
-comment|"# The ImageService shouldn't leak the fact that the instance_id"
-nl|'\n'
-comment|'# happens to be stored as a property in Glance'
-nl|'\n'
-name|'expected'
-op|'='
-op|'{'
-string|"'id'"
-op|':'
-name|'image_id'
-op|','
-string|"'instance_id'"
-op|':'
-number|'42'
-op|','
-string|"'name'"
-op|':'
-string|"'test image'"
-op|'}'
-newline|'\n'
 name|'image_meta'
 op|'='
 name|'self'
