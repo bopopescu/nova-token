@@ -163,7 +163,7 @@ name|'compute'
 name|'import'
 name|'power_state'
 newline|'\n'
-name|'prom'
+name|'from'
 name|'nova'
 op|'.'
 name|'quota'
@@ -198,7 +198,8 @@ name|'FLAGS'
 newline|'\n'
 nl|'\n'
 nl|'\n'
-name|'plass'
+DECL|class|Controller
+name|'class'
 name|'Controller'
 op|'('
 name|'wsgi'
@@ -254,7 +255,7 @@ op|'}'
 op|'}'
 newline|'\n'
 nl|'\n'
-DECL|function|__init__
+DECL|member|__init__
 name|'def'
 name|'__init__'
 op|'('
@@ -298,7 +299,7 @@ op|'('
 op|')'
 newline|'\n'
 nl|'\n'
-DECL|function|ips
+DECL|member|ips
 dedent|''
 name|'def'
 name|'ips'
@@ -374,7 +375,7 @@ name|'instance'
 op|')'
 newline|'\n'
 nl|'\n'
-DECL|function|index
+DECL|member|index
 dedent|''
 name|'def'
 name|'index'
@@ -401,7 +402,7 @@ name|'False'
 op|')'
 newline|'\n'
 nl|'\n'
-DECL|function|detail
+DECL|member|detail
 dedent|''
 name|'def'
 name|'detail'
@@ -428,7 +429,7 @@ name|'True'
 op|')'
 newline|'\n'
 nl|'\n'
-DECL|function|_items
+DECL|member|_items
 dedent|''
 name|'def'
 name|'_items'
@@ -510,7 +511,7 @@ name|'servers'
 op|')'
 newline|'\n'
 nl|'\n'
-DECL|function|show
+DECL|member|show
 dedent|''
 name|'def'
 name|'show'
@@ -590,7 +591,7 @@ op|')'
 op|')'
 newline|'\n'
 nl|'\n'
-DECL|function|delete
+DECL|member|delete
 dedent|''
 dedent|''
 name|'def'
@@ -656,7 +657,7 @@ op|'('
 op|')'
 newline|'\n'
 nl|'\n'
-DECL|function|create
+DECL|member|create
 dedent|''
 name|'def'
 name|'create'
@@ -1078,7 +1079,7 @@ name|'return'
 name|'server'
 newline|'\n'
 nl|'\n'
-DECL|function|_deserialize_create
+DECL|member|_deserialize_create
 dedent|''
 name|'def'
 name|'_deserialize_create'
@@ -1139,7 +1140,7 @@ op|')'
 op|')'
 newline|'\n'
 nl|'\n'
-DECL|function|_get_injected_files
+DECL|member|_get_injected_files
 dedent|''
 dedent|''
 name|'def'
@@ -1291,7 +1292,7 @@ name|'return'
 name|'injected_files'
 newline|'\n'
 nl|'\n'
-DECL|function|_handle_quota_errors
+DECL|member|_handle_quota_errors
 dedent|''
 name|'def'
 name|'_handle_quota_errors'
@@ -1392,7 +1393,7 @@ name|'raise'
 name|'error'
 newline|'\n'
 nl|'\n'
-DECL|function|update
+DECL|member|update
 dedent|''
 name|'def'
 name|'update'
@@ -1608,7 +1609,7 @@ op|'('
 op|')'
 newline|'\n'
 nl|'\n'
-DECL|function|action
+DECL|member|action
 dedent|''
 name|'def'
 name|'action'
@@ -1730,7 +1731,7 @@ op|')'
 op|')'
 newline|'\n'
 nl|'\n'
-DECL|function|_action_confirm_resize
+DECL|member|_action_confirm_resize
 dedent|''
 name|'def'
 name|'_action_confirm_resize'
@@ -1807,7 +1808,7 @@ op|'('
 op|')'
 newline|'\n'
 nl|'\n'
-DECL|function|_action_revert_resize
+DECL|member|_action_revert_resize
 dedent|''
 name|'def'
 name|'_action_revert_resize'
@@ -1884,7 +1885,7 @@ op|'('
 op|')'
 newline|'\n'
 nl|'\n'
-DECL|function|_action_rebuild
+DECL|member|_action_rebuild
 dedent|''
 name|'def'
 name|'_action_rebuild'
@@ -1913,7 +1914,7 @@ op|')'
 op|')'
 newline|'\n'
 nl|'\n'
-DECL|function|_action_resize
+DECL|member|_action_resize
 dedent|''
 name|'def'
 name|'_action_resize'
@@ -2052,7 +2053,7 @@ op|')'
 op|')'
 newline|'\n'
 nl|'\n'
-DECL|function|_action_reboot
+DECL|member|_action_reboot
 dedent|''
 name|'def'
 name|'_action_reboot'
@@ -2151,7 +2152,7 @@ op|'('
 op|')'
 newline|'\n'
 nl|'\n'
-DECL|function|lock
+DECL|member|lock
 dedent|''
 name|'def'
 name|'lock'
@@ -2237,7 +2238,7 @@ op|'('
 op|')'
 newline|'\n'
 nl|'\n'
-DECL|function|unlock
+DECL|member|unlock
 dedent|''
 name|'def'
 name|'unlock'
@@ -2323,7 +2324,7 @@ op|'('
 op|')'
 newline|'\n'
 nl|'\n'
-DECL|function|get_lock
+DECL|member|get_lock
 dedent|''
 name|'def'
 name|'get_lock'
@@ -2409,7 +2410,7 @@ op|'('
 op|')'
 newline|'\n'
 nl|'\n'
-DECL|function|reset_network
+DECL|member|reset_network
 dedent|''
 name|'def'
 name|'reset_network'
@@ -2495,7 +2496,7 @@ op|'('
 op|')'
 newline|'\n'
 nl|'\n'
-DECL|function|inject_network_info
+DECL|member|inject_network_info
 dedent|''
 name|'def'
 name|'inject_network_info'
@@ -2581,7 +2582,7 @@ op|'('
 op|')'
 newline|'\n'
 nl|'\n'
-DECL|function|pause
+DECL|member|pause
 dedent|''
 name|'def'
 name|'pause'
@@ -2667,7 +2668,7 @@ op|'('
 op|')'
 newline|'\n'
 nl|'\n'
-DECL|function|unpause
+DECL|member|unpause
 dedent|''
 name|'def'
 name|'unpause'
@@ -2753,7 +2754,7 @@ op|'('
 op|')'
 newline|'\n'
 nl|'\n'
-DECL|function|suspend
+DECL|member|suspend
 dedent|''
 name|'def'
 name|'suspend'
@@ -2839,7 +2840,7 @@ op|'('
 op|')'
 newline|'\n'
 nl|'\n'
-DECL|function|resume
+DECL|member|resume
 dedent|''
 name|'def'
 name|'resume'
@@ -2925,7 +2926,7 @@ op|'('
 op|')'
 newline|'\n'
 nl|'\n'
-DECL|function|rescue
+DECL|member|rescue
 dedent|''
 name|'def'
 name|'rescue'
@@ -3011,7 +3012,7 @@ op|'('
 op|')'
 newline|'\n'
 nl|'\n'
-DECL|function|unrescue
+DECL|member|unrescue
 dedent|''
 name|'def'
 name|'unrescue'
@@ -3097,7 +3098,7 @@ op|'('
 op|')'
 newline|'\n'
 nl|'\n'
-DECL|function|get_ajax_console
+DECL|member|get_ajax_console
 dedent|''
 name|'def'
 name|'get_ajax_console'
@@ -3166,7 +3167,7 @@ op|'('
 op|')'
 newline|'\n'
 nl|'\n'
-DECL|function|diagnostics
+DECL|member|diagnostics
 dedent|''
 name|'def'
 name|'diagnostics'
@@ -3204,7 +3205,7 @@ name|'id'
 op|')'
 newline|'\n'
 nl|'\n'
-DECL|function|actions
+DECL|member|actions
 dedent|''
 name|'def'
 name|'actions'
@@ -3300,7 +3301,7 @@ name|'actions'
 op|')'
 newline|'\n'
 nl|'\n'
-DECL|function|_get_kernel_ramdisk_from_image
+DECL|member|_get_kernel_ramdisk_from_image
 dedent|''
 name|'def'
 name|'_get_kernel_ramdisk_from_image'
