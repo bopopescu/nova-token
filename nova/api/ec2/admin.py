@@ -237,7 +237,7 @@ newline|'\n'
 name|'rv'
 op|'='
 op|'{'
-string|"'hostanme'"
+string|"'hostname'"
 op|':'
 name|'host'
 op|','
