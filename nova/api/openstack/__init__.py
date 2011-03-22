@@ -788,7 +788,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|"''' Defines routes specific to OpenStack API V1.0 '''"
+string|'"""Define routes specific to OpenStack API V1.0."""'
 newline|'\n'
 nl|'\n'
 DECL|member|_setup_routes
@@ -858,7 +858,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|"''' Defines routes specific to OpenStack API V1.1 '''"
+string|'"""Define routes specific to OpenStack API V1.1."""'
 newline|'\n'
 nl|'\n'
 DECL|member|_setup_routes
