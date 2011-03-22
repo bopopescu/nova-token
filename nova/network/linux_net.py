@@ -1444,6 +1444,10 @@ op|'.'
 name|'synchronized'
 op|'('
 string|"'iptables'"
+op|','
+name|'external'
+op|'='
+name|'True'
 op|')'
 newline|'\n'
 DECL|member|apply
