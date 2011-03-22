@@ -159,6 +159,7 @@ name|'new_flavor_id'
 op|')'
 newline|'\n'
 nl|'\n'
+nl|'\n'
 DECL|function|downgrade
 dedent|''
 name|'def'

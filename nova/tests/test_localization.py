@@ -55,6 +55,7 @@ name|'import'
 name|'test'
 newline|'\n'
 nl|'\n'
+nl|'\n'
 DECL|class|LocalizationTestCase
 name|'class'
 name|'LocalizationTestCase'
