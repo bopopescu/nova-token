@@ -1650,7 +1650,7 @@ op|')'
 newline|'\n'
 name|'DEFINE_string'
 op|'('
-string|"'vnc_host_iface'"
+string|"'vnc_compute_host_iface'"
 op|','
 string|"'0.0.0.0'"
 op|','
