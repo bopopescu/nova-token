@@ -99,7 +99,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""Base class for compute drivers."""'
+string|'"""Base class for compute drivers.\n    \n    Lots of documentation is currently on fake.py.\n    """'
 newline|'\n'
 nl|'\n'
 DECL|member|init_host
