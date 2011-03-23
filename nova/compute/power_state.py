@@ -88,7 +88,11 @@ op|'='
 number|'0x08'
 newline|'\n'
 nl|'\n'
-comment|'#TODO(justinsb): Power state really needs to be a proper class...'
+comment|'#TODO(justinsb): Power state really needs to be a proper class,'
+nl|'\n'
+comment|"# so that we're not locked into the libvirt status codes and can put mapping"
+nl|'\n'
+comment|'# logic here rather than spread throughout the code'
 nl|'\n'
 DECL|variable|_STATE_MAP
 name|'_STATE_MAP'
