@@ -1488,6 +1488,14 @@ name|'req'
 op|')'
 op|':'
 newline|'\n'
+comment|"# NOTE(justinsb): This doesn't really belong here.."
+nl|'\n'
+comment|"# We'll probably end up moving this into a new OpenstackApiController"
+nl|'\n'
+comment|"#  class or something like that, once we know what's going to happen"
+nl|'\n'
+comment|'#  with v1.1'
+nl|'\n'
 indent|'        '
 name|'return'
 string|"'http://docs.rackspacecloud.com/servers/api/v1.0'"
