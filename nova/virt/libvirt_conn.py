@@ -5171,7 +5171,7 @@ name|'gateway_v6'
 op|':'
 newline|'\n'
 indent|'            '
-name|'xml_info'
+name|'result'
 op|'['
 string|"'gateway_v6'"
 op|']'
