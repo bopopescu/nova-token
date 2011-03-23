@@ -357,10 +357,10 @@ name|'start_response'
 op|')'
 newline|'\n'
 nl|'\n'
-DECL|member|serve
+DECL|member|__call__
 dedent|''
 name|'def'
-name|'serve'
+name|'__call__'
 op|'('
 name|'self'
 op|','
