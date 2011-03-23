@@ -221,7 +221,6 @@ op|'='
 name|'True'
 newline|'\n'
 nl|'\n'
-nl|'\n'
 DECL|member|get_whitelist
 dedent|''
 dedent|''
