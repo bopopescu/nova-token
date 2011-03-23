@@ -2133,6 +2133,7 @@ op|'='
 op|'['
 op|']'
 newline|'\n'
+nl|'\n'
 DECL|function|add_fixture
 name|'def'
 name|'add_fixture'
