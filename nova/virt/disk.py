@@ -1101,6 +1101,8 @@ string|"'tee'"
 op|','
 name|'netfile'
 op|','
+name|'process_input'
+op|'='
 name|'net'
 op|')'
 newline|'\n'
