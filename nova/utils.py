@@ -3510,11 +3510,11 @@ op|')'
 newline|'\n'
 nl|'\n'
 nl|'\n'
-DECL|function|check_instance
+DECL|function|check_isinstance
 dedent|''
 dedent|''
 name|'def'
-name|'check_instance'
+name|'check_isinstance'
 op|'('
 name|'obj'
 op|','
