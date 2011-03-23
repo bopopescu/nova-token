@@ -5688,6 +5688,11 @@ nl|'\n'
 string|"'project_id'"
 op|':'
 string|"'fake'"
+op|','
+nl|'\n'
+string|"'mac_address'"
+op|':'
+string|"'00:A0:C9:14:C8:29'"
 op|'}'
 op|')'
 newline|'\n'
