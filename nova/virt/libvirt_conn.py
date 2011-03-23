@@ -10950,7 +10950,6 @@ op|'['
 string|"'cidr_v6'"
 op|']'
 newline|'\n'
-nl|'\n'
 dedent|''
 dedent|''
 endmarker|''
