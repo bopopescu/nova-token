@@ -5901,6 +5901,8 @@ nl|'\n'
 dedent|''
 name|'execute'
 op|'('
+string|"'sudo'"
+op|','
 string|"'parted'"
 op|','
 string|"'--script'"
@@ -5914,6 +5916,8 @@ op|')'
 newline|'\n'
 name|'execute'
 op|'('
+string|"'sudo'"
+op|','
 string|"'parted'"
 op|','
 string|"'--script'"
