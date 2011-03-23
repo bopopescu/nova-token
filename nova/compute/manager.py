@@ -2690,9 +2690,9 @@ op|']'
 op|')'
 newline|'\n'
 nl|'\n'
-comment|"#Just roll back the record. There's no need to resize down since"
+comment|"# Just roll back the record. There's no need to resize down since"
 nl|'\n'
-comment|"#the 'old' VM already has the preferred attributes"
+comment|"# the 'old' VM already has the preferred attributes"
 nl|'\n'
 name|'self'
 op|'.'
@@ -3236,9 +3236,9 @@ string|"'instance_id'"
 op|']'
 op|')'
 newline|'\n'
-comment|'#TODO(mdietz): apply the rest of the instance_type attributes going'
+comment|'# TODO(mdietz): apply the rest of the instance_type attributes going'
 nl|'\n'
-comment|"#after they're supported"
+comment|"# after they're supported"
 nl|'\n'
 name|'instance_type'
 op|'='
