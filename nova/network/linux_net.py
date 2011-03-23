@@ -3396,8 +3396,16 @@ op|')'
 newline|'\n'
 nl|'\n'
 nl|'\n'
-DECL|function|update_ra
 dedent|''
+op|'@'
+name|'utils'
+op|'.'
+name|'synchronized'
+op|'('
+string|"'radvd_start'"
+op|')'
+newline|'\n'
+DECL|function|update_ra
 name|'def'
 name|'update_ra'
 op|'('
