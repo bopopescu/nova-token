@@ -2021,12 +2021,12 @@ op|'['
 op|'{'
 string|"'ip'"
 op|':'
-string|"''"
+string|"'fe80::a8bb:ccff:fedd:eeff'"
 op|','
 nl|'\n'
 string|"'netmask'"
 op|':'
-string|"''"
+string|"'120'"
 op|','
 nl|'\n'
 string|"'enabled'"
@@ -2036,7 +2036,7 @@ op|','
 nl|'\n'
 string|"'gateway'"
 op|':'
-string|"''"
+string|"'fe80::a00:1'"
 op|'}'
 op|']'
 op|','
