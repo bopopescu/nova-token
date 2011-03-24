@@ -1650,12 +1650,12 @@ op|')'
 newline|'\n'
 name|'DEFINE_string'
 op|'('
-string|"'vnc_compute_host_iface'"
+string|"'vnc_server_host'"
 op|','
 string|"'0.0.0.0'"
 op|','
 nl|'\n'
-string|"'the compute host interface on which vnc server should listen'"
+string|"'the host interface on which vnc server should listen'"
 op|')'
 newline|'\n'
 name|'DEFINE_bool'
