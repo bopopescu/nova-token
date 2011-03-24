@@ -60,6 +60,7 @@ op|'.'
 name|'FLAGS'
 newline|'\n'
 nl|'\n'
+nl|'\n'
 DECL|function|limited
 name|'def'
 name|'limited'
