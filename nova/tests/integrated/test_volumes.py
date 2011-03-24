@@ -178,13 +178,6 @@ comment|'# Avoids calling local_path'
 newline|'\n'
 name|'f'
 op|'['
-string|"'image_service'"
-op|']'
-op|'='
-string|"'nova.image.fake.MockImageService'"
-newline|'\n'
-name|'f'
-op|'['
 string|"'volume_driver'"
 op|']'
 op|'='
