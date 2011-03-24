@@ -600,9 +600,8 @@ name|'api'
 op|'.'
 name|'openstack'
 op|','
-string|"'APIRouter'"
+string|"'APIRouterV10'"
 op|','
-nl|'\n'
 name|'fakes'
 op|'.'
 name|'FakeRouter'
@@ -1597,9 +1596,8 @@ name|'api'
 op|'.'
 name|'openstack'
 op|','
-string|"'APIRouter'"
+string|"'APIRouterV10'"
 op|','
-nl|'\n'
 name|'fakes'
 op|'.'
 name|'FakeRouter'
