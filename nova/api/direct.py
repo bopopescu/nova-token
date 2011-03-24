@@ -1267,7 +1267,7 @@ newline|'\n'
 indent|'    '
 name|'__notdoc'
 op|'='
-string|'"""Limit the available methods on a given object.\n\n    (Not a docstring so that the docstring can be conditionally overriden.)\n\n    Useful when defining a public API that only exposes a subset of an\n    internal API.\n\n    Expected usage of this class is to define a subclass that lists the allowed\n    methods in the \'allowed\' variable.\n\n    Additionally where appropriate methods can be added or overwritten, for\n    example to provide backwards compatibility.\n\n    """'
+string|'"""Limit the available methods on a given object.\n\n    (Not a docstring so that the docstring can be conditionally overriden.)\n\n    Useful when defining a public API that only exposes a subset of an\n    internal API.\n\n    Expected usage of this class is to define a subclass that lists the allowed\n    methods in the \'allowed\' variable.\n\n    Additionally where appropriate methods can be added or overwritten, for\n    example to provide backwards compatibility.\n\n    The wrapping approach has been chosen so that the wrapped API can maintain\n    its own internal consistency, for example if it calls "self.create" it\n    should get its own create method rather than anything we do here.\n\n    """'
 newline|'\n'
 nl|'\n'
 DECL|variable|_allowed
