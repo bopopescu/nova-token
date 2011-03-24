@@ -1774,6 +1774,16 @@ op|')'
 newline|'\n'
 name|'DEFINE_string'
 op|'('
+string|"'osapi_extensions_path'"
+op|','
+string|"'/var/lib/nova/extensions'"
+op|','
+nl|'\n'
+string|"'default directory for nova extensions'"
+op|')'
+newline|'\n'
+name|'DEFINE_string'
+op|'('
 string|"'osapi_host'"
 op|','
 string|"'$my_ip'"
@@ -2105,14 +2115,19 @@ op|','
 string|"'name of this zone'"
 op|')'
 newline|'\n'
-name|'DEFINE_string'
+name|'DEFINE_list'
 op|'('
 string|"'zone_capabilities'"
 op|','
-string|"'kypervisor:xenserver;os:linux'"
+nl|'\n'
+op|'['
+string|"'hypervisor=xenserver;kvm'"
+op|','
+string|"'os=linux;windows'"
+op|']'
 op|','
 nl|'\n'
-string|"'Key/Value tags which represent capabilities of this zone'"
+string|"'Key/Multi-value list representng capabilities of this zone'"
 op|')'
 newline|'\n'
 endmarker|''
