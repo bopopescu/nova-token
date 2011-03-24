@@ -319,8 +319,11 @@ name|'Controller'
 op|')'
 op|':'
 newline|'\n'
-DECL|member|__init__
 indent|'    '
+string|'"""Base class emulating Tornado\'s web framework pattern in WSGI.\n\n    This is a direct port of Tornado\'s implementation, so some key decisions\n    about how the code interacts have already been chosen.\n\n    The two most common ways of designing web frameworks can be\n    classified as async object-oriented and sync functional.\n\n    Tornado\'s is on the OO side because a response is built up in and using\n    the shared state of an object and one of the object\'s methods will\n    eventually trigger the "finishing" of the response asynchronously.\n\n    Most WSGI stuff is in the functional side, we pass a request object to\n    every call down a chain and the eventual return value will be a response.\n\n    Part of the function of the routing code in S3Application as well as the\n    code in BaseRequestHandler\'s __call__ method is to merge those two styles\n    together enough that the Tornado code can work without extensive\n    modifications.\n\n    To do that it needs to give the Tornado-style code clean objects that it\n    can modify the state of for each request that is processed, so we use a\n    very simple factory lambda to create new state for each request, that\'s\n    the stuff in the router, and when we let the Tornado code modify that\n    object to handle the request, then we return the response it generated.\n    This wouldn\'t work the same if Tornado was being more async\'y and doing\n    other callbacks throughout the process, but since Tornado is being\n    relatively simple here we can be satisfied that the response will be\n    complete by the end of the get/post method.\n\n    """'
+newline|'\n'
+nl|'\n'
+DECL|member|__init__
 name|'def'
 name|'__init__'
 op|'('
