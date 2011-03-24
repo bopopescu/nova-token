@@ -4089,6 +4089,7 @@ name|'suffix'
 op|'='
 string|"''"
 newline|'\n'
+nl|'\n'
 comment|'# syntactic nicety'
 nl|'\n'
 DECL|function|basepath
@@ -9363,7 +9364,6 @@ string|"'name'"
 op|']'
 op|')'
 newline|'\n'
-nl|'\n'
 dedent|''
 name|'return'
 string|"'nova-instance-%s-%s'"
