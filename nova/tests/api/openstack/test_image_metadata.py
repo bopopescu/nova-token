@@ -144,7 +144,7 @@ op|','
 nl|'\n'
 string|"'location'"
 op|':'
-string|"'file: ///var/lib/glance/images/1'"
+string|"'file:///var/lib/glance/images/1'"
 op|','
 nl|'\n'
 string|"'is_public'"
@@ -227,7 +227,7 @@ op|','
 nl|'\n'
 string|"'location'"
 op|':'
-string|"'file: ///var/lib/glance/images/2'"
+string|"'file:///var/lib/glance/images/2'"
 op|','
 nl|'\n'
 string|"'is_public'"
@@ -265,6 +265,7 @@ string|"'size'"
 op|':'
 number|'5882349'
 op|'}'
+op|','
 nl|'\n'
 op|']'
 newline|'\n'
