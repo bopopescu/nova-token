@@ -3984,6 +3984,11 @@ op|':'
 name|'None'
 op|','
 nl|'\n'
+string|"'local_gb'"
+op|':'
+number|'5'
+op|','
+nl|'\n'
 string|"'instance_type'"
 op|':'
 string|"'m1.large'"
