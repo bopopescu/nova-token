@@ -85,14 +85,11 @@ name|'FLAGS'
 newline|'\n'
 name|'flags'
 op|'.'
-name|'DEFINE_string'
+name|'DECLARE'
 op|'('
 string|"'buckets_path'"
 op|','
-string|"'$state_path/buckets'"
-op|','
-nl|'\n'
-string|"'path to s3 buckets'"
+string|"'nova.objectstore.s3server'"
 op|')'
 newline|'\n'
 nl|'\n'
