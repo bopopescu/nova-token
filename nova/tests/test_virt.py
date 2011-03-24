@@ -5792,12 +5792,17 @@ newline|'\n'
 indent|'            '
 name|'instance_filter'
 op|'='
-string|"'nova-instance-%s'"
+string|"'nova-instance-%s-%s'"
 op|'%'
+op|'('
 name|'instance_ref'
 op|'['
 string|"'name'"
 op|']'
+op|','
+nl|'\n'
+string|"'00A0C914C829'"
+op|')'
 newline|'\n'
 name|'secgroup_filter'
 op|'='
