@@ -269,7 +269,7 @@ string|"'Specifies the path in which the xenapi guest agent'"
 nl|'\n'
 string|"'  should be located. If the agent is present,'"
 nl|'\n'
-string|"'  network configuration if not injected into the image'"
+string|"'  network configuration is not injected into the image'"
 nl|'\n'
 string|"'  Used only if connection_type=xenapi.'"
 nl|'\n'
