@@ -124,7 +124,7 @@ op|','
 nl|'\n'
 string|"'created_at'"
 op|':'
-string|"'2011-03-22T17: 40: 15.492626'"
+string|"'2011-03-22T17:40:15.492626'"
 op|','
 nl|'\n'
 string|"'disk_format'"
@@ -134,7 +134,7 @@ op|','
 nl|'\n'
 string|"'updated_at'"
 op|':'
-string|"'2011-03-22T17: 40: 15.591556'"
+string|"'2011-03-22T17:40:15.591556'"
 op|','
 nl|'\n'
 string|"'id'"
@@ -207,7 +207,7 @@ op|','
 nl|'\n'
 string|"'created_at'"
 op|':'
-string|"'2011-03-22T17: 40: 15.492626'"
+string|"'2011-03-22T17:40:15.492626'"
 op|','
 nl|'\n'
 string|"'disk_format'"
@@ -217,7 +217,7 @@ op|','
 nl|'\n'
 string|"'updated_at'"
 op|':'
-string|"'2011-03-22T17: 40: 15.591556'"
+string|"'2011-03-22T17:40:15.591556'"
 op|','
 nl|'\n'
 string|"'id'"
