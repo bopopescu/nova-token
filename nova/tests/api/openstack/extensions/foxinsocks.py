@@ -334,7 +334,7 @@ name|'ResponseExtension'
 op|'('
 string|"'GET'"
 op|','
-string|"'/v1.0/flavors/:(id)'"
+string|"'/v1.1/flavors/:(id)'"
 op|','
 nl|'\n'
 name|'_goose_handler'
@@ -392,7 +392,7 @@ name|'ResponseExtension'
 op|'('
 string|"'GET'"
 op|','
-string|"'/v1.0/flavors/:(id)'"
+string|"'/v1.1/flavors/:(id)'"
 op|','
 nl|'\n'
 name|'_bands_handler'
