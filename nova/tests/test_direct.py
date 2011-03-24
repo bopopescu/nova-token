@@ -107,6 +107,7 @@ indent|'    '
 name|'pass'
 newline|'\n'
 nl|'\n'
+nl|'\n'
 DECL|class|FakeService
 dedent|''
 name|'class'
