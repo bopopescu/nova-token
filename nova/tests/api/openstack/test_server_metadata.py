@@ -321,7 +321,7 @@ name|'db'
 op|'.'
 name|'api'
 op|','
-string|"'get_instance_metadata'"
+string|"'instance_metadata_get'"
 op|','
 nl|'\n'
 name|'return_server_metadata'
@@ -420,7 +420,7 @@ name|'db'
 op|'.'
 name|'api'
 op|','
-string|"'get_instance_metadata'"
+string|"'instance_metadata_get'"
 op|','
 nl|'\n'
 name|'return_empty_server_metadata'
@@ -519,7 +519,7 @@ name|'db'
 op|'.'
 name|'api'
 op|','
-string|"'get_instance_metadata'"
+string|"'instance_metadata_get'"
 op|','
 nl|'\n'
 name|'return_server_metadata'
@@ -615,7 +615,7 @@ name|'db'
 op|'.'
 name|'api'
 op|','
-string|"'get_instance_metadata'"
+string|"'instance_metadata_get'"
 op|','
 nl|'\n'
 name|'return_empty_server_metadata'
@@ -699,7 +699,7 @@ name|'db'
 op|'.'
 name|'api'
 op|','
-string|"'delete_instance_metadata'"
+string|"'instance_metadata_delete'"
 op|','
 nl|'\n'
 name|'delete_server_metadata'
@@ -778,7 +778,7 @@ name|'db'
 op|'.'
 name|'api'
 op|','
-string|"'update_or_create_instance_metadata'"
+string|"'instance_metadata_update_or_create'"
 op|','
 nl|'\n'
 name|'return_create_instance_metadata'
@@ -898,7 +898,7 @@ name|'db'
 op|'.'
 name|'api'
 op|','
-string|"'update_or_create_instance_metadata'"
+string|"'instance_metadata_update_or_create'"
 op|','
 nl|'\n'
 name|'return_create_instance_metadata'
@@ -1015,7 +1015,7 @@ name|'db'
 op|'.'
 name|'api'
 op|','
-string|"'update_or_create_instance_metadata'"
+string|"'instance_metadata_update_or_create'"
 op|','
 nl|'\n'
 name|'return_create_instance_metadata'
@@ -1109,7 +1109,7 @@ name|'db'
 op|'.'
 name|'api'
 op|','
-string|"'update_or_create_instance_metadata'"
+string|"'instance_metadata_update_or_create'"
 op|','
 nl|'\n'
 name|'return_create_instance_metadata'
