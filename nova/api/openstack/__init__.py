@@ -858,6 +858,7 @@ name|'mapper'
 op|')'
 newline|'\n'
 nl|'\n'
+nl|'\n'
 DECL|class|APIRouterV10
 dedent|''
 dedent|''

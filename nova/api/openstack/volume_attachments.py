@@ -246,7 +246,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'""" The volume attachment API controller for the Openstack API\n    \n    A child resource of the server.  Note that we use the volume id\n    as the ID of the attachment (though this is not guaranteed externally)"""'
+string|'""" The volume attachment API controller for the Openstack API\n\n    A child resource of the server.  Note that we use the volume id\n    as the ID of the attachment (though this is not guaranteed externally)"""'
 newline|'\n'
 nl|'\n'
 DECL|variable|_serialization_metadata
