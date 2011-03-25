@@ -131,11 +131,6 @@ op|':'
 string|"'machine'"
 op|','
 nl|'\n'
-string|"'disk_format'"
-op|':'
-string|"'ami'"
-op|','
-nl|'\n'
 string|"'properties'"
 op|':'
 op|'{'
@@ -153,6 +148,9 @@ op|'.'
 name|'null_kernel'
 op|','
 nl|'\n'
+string|"'disk_format'"
+op|':'
+string|"'ami'"
 op|'}'
 nl|'\n'
 op|'}'
