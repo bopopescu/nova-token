@@ -1774,6 +1774,16 @@ op|')'
 newline|'\n'
 name|'DEFINE_string'
 op|'('
+string|"'osapi_extensions_path'"
+op|','
+string|"'/var/lib/nova/extensions'"
+op|','
+nl|'\n'
+string|"'default directory for nova extensions'"
+op|')'
+newline|'\n'
+name|'DEFINE_string'
+op|'('
 string|"'osapi_host'"
 op|','
 string|"'$my_ip'"
@@ -1806,6 +1816,16 @@ op|','
 string|"'/v1.0/'"
 op|','
 string|"'suffix for openstack'"
+op|')'
+newline|'\n'
+name|'DEFINE_integer'
+op|'('
+string|"'osapi_max_limit'"
+op|','
+number|'1000'
+op|','
+nl|'\n'
+string|"'max number of items returned in a collection response'"
 op|')'
 newline|'\n'
 nl|'\n'
