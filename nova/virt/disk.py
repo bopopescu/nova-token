@@ -680,6 +680,8 @@ op|','
 name|'err'
 op|'='
 name|'utils'
+op|'.'
+name|'execute'
 op|'('
 string|"'sudo'"
 op|','
