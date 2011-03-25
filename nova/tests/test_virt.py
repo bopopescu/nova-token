@@ -6046,6 +6046,11 @@ nl|'\n'
 string|"'project_id'"
 op|':'
 string|"'fake'"
+op|','
+nl|'\n'
+string|"'mac_address'"
+op|':'
+string|"'00:A0:C9:14:C8:29'"
 op|'}'
 op|')'
 newline|'\n'
@@ -6145,12 +6150,17 @@ newline|'\n'
 indent|'            '
 name|'instance_filter'
 op|'='
-string|"'nova-instance-%s'"
+string|"'nova-instance-%s-%s'"
 op|'%'
+op|'('
 name|'instance_ref'
 op|'['
 string|"'name'"
 op|']'
+op|','
+nl|'\n'
+string|"'00A0C914C829'"
+op|')'
 newline|'\n'
 name|'secgroup_filter'
 op|'='
