@@ -1818,6 +1818,16 @@ op|','
 string|"'suffix for openstack'"
 op|')'
 newline|'\n'
+name|'DEFINE_integer'
+op|'('
+string|"'osapi_max_limit'"
+op|','
+number|'1000'
+op|','
+nl|'\n'
+string|"'max number of items returned in a collection response'"
+op|')'
+newline|'\n'
 nl|'\n'
 name|'DEFINE_string'
 op|'('
