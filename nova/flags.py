@@ -1774,6 +1774,16 @@ op|')'
 newline|'\n'
 name|'DEFINE_string'
 op|'('
+string|"'osapi_extensions_path'"
+op|','
+string|"'/var/lib/nova/extensions'"
+op|','
+nl|'\n'
+string|"'default directory for nova extensions'"
+op|')'
+newline|'\n'
+name|'DEFINE_string'
+op|'('
 string|"'osapi_host'"
 op|','
 string|"'$my_ip'"
@@ -1806,6 +1816,16 @@ op|','
 string|"'/v1.0/'"
 op|','
 string|"'suffix for openstack'"
+op|')'
+newline|'\n'
+name|'DEFINE_integer'
+op|'('
+string|"'osapi_max_limit'"
+op|','
+number|'1000'
+op|','
+nl|'\n'
+string|"'max number of items returned in a collection response'"
 op|')'
 newline|'\n'
 nl|'\n'
@@ -1906,6 +1926,32 @@ op|')'
 op|','
 nl|'\n'
 string|'"Top-level directory for maintaining nova\'s state"'
+op|')'
+newline|'\n'
+name|'DEFINE_string'
+op|'('
+string|"'lock_path'"
+op|','
+name|'os'
+op|'.'
+name|'path'
+op|'.'
+name|'join'
+op|'('
+name|'os'
+op|'.'
+name|'path'
+op|'.'
+name|'dirname'
+op|'('
+name|'__file__'
+op|')'
+op|','
+string|"'../'"
+op|')'
+op|','
+nl|'\n'
+string|'"Directory for lock files"'
 op|')'
 newline|'\n'
 name|'DEFINE_string'
@@ -2027,7 +2073,7 @@ name|'DEFINE_string'
 op|'('
 string|"'image_service'"
 op|','
-string|"'nova.image.s3.S3ImageService'"
+string|"'nova.image.local.LocalImageService'"
 op|','
 nl|'\n'
 string|"'The service to use for retrieving and searching for images.'"
@@ -2069,6 +2115,30 @@ string|"'nova.notifier.no_op_notifier.NoopNotifier'"
 op|','
 nl|'\n'
 string|"'Default driver for sending notifications'"
+op|')'
+newline|'\n'
+name|'DEFINE_string'
+op|'('
+string|"'zone_name'"
+op|','
+string|"'nova'"
+op|','
+string|"'name of this zone'"
+op|')'
+newline|'\n'
+name|'DEFINE_list'
+op|'('
+string|"'zone_capabilities'"
+op|','
+nl|'\n'
+op|'['
+string|"'hypervisor=xenserver;kvm'"
+op|','
+string|"'os=linux;windows'"
+op|']'
+op|','
+nl|'\n'
+string|"'Key/Multi-value list representng capabilities of this zone'"
 op|')'
 newline|'\n'
 endmarker|''
