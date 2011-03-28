@@ -4052,10 +4052,12 @@ string|"'nova.context'"
 op|']'
 newline|'\n'
 name|'if'
+op|'('
 name|'not'
 string|"'changePassword'"
 name|'in'
 name|'input_dict'
+nl|'\n'
 name|'or'
 name|'not'
 string|"'adminPass'"
@@ -4064,6 +4066,7 @@ name|'input_dict'
 op|'['
 string|"'changePassword'"
 op|']'
+op|')'
 op|':'
 newline|'\n'
 indent|'            '
