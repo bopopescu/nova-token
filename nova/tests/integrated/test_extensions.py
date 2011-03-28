@@ -69,6 +69,7 @@ string|"'nova.tests.integrated'"
 op|')'
 newline|'\n'
 nl|'\n'
+nl|'\n'
 DECL|variable|FLAGS
 name|'FLAGS'
 op|'='

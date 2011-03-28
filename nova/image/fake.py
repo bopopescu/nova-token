@@ -70,6 +70,7 @@ string|"'nova.image.fake'"
 op|')'
 newline|'\n'
 nl|'\n'
+nl|'\n'
 DECL|variable|FLAGS
 name|'FLAGS'
 op|'='

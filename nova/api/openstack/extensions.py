@@ -208,7 +208,7 @@ newline|'\n'
 indent|'        '
 string|'"""The timestamp when the extension was last updated\n\n        e.g. \'2011-01-22T13:25:27-06:00\'"""'
 newline|'\n'
-comment|"#NOTE(justinsb): Huh? Isn't this defined by the namespace?"
+comment|'#NOTE(justinsb): Not sure of the purpose of this is, vs the XML NS'
 nl|'\n'
 name|'raise'
 name|'NotImplementedError'
