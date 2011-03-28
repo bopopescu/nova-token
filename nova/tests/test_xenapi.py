@@ -2002,8 +2002,8 @@ name|'assertEquals'
 op|'('
 name|'tcpip_data'
 op|','
-op|'{'
 nl|'\n'
+op|'{'
 string|"'label'"
 op|':'
 string|"'fake_flat_network'"

@@ -231,7 +231,6 @@ nl|'\n'
 name|'flat_network_fields'
 op|'='
 op|'{'
-nl|'\n'
 string|"'id'"
 op|':'
 string|"'fake_flat'"
@@ -296,7 +295,6 @@ nl|'\n'
 name|'vlan_network_fields'
 op|'='
 op|'{'
-nl|'\n'
 string|"'id'"
 op|':'
 string|"'fake_vlan'"
@@ -366,7 +364,6 @@ nl|'\n'
 name|'fixed_ip_fields'
 op|'='
 op|'{'
-nl|'\n'
 string|"'address'"
 op|':'
 string|"'10.0.0.3'"
