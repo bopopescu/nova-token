@@ -124,6 +124,7 @@ name|'logging'
 newline|'\n'
 nl|'\n'
 nl|'\n'
+DECL|variable|_CLASSES
 name|'_CLASSES'
 op|'='
 op|'['
@@ -137,7 +138,7 @@ string|"'SR'"
 op|','
 string|"'VBD'"
 op|','
-DECL|variable|_CLASSES
+nl|'\n'
 string|"'PBD'"
 op|','
 string|"'VDI'"
@@ -897,6 +898,7 @@ name|'sr_ref'
 op|'='
 name|'_create_object'
 op|'('
+nl|'\n'
 string|"'SR'"
 op|','
 nl|'\n'
@@ -950,6 +952,7 @@ nl|'\n'
 string|"'other_config'"
 op|':'
 op|'{'
+nl|'\n'
 string|"'i18n-original-value-name_label'"
 op|':'
 string|"'Local storage'"
