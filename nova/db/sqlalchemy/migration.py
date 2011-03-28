@@ -276,6 +276,8 @@ op|','
 nl|'\n'
 string|"'services'"
 op|','
+string|"'migrations'"
+op|','
 nl|'\n'
 string|"'users'"
 op|','
