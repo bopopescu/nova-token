@@ -715,7 +715,7 @@ op|'('
 op|')'
 newline|'\n'
 nl|'\n'
-comment|"#NOTE(justinsb): httplib 'helpfully' converts headers to lower case"
+comment|"# NOTE(justinsb): httplib 'helpfully' converts headers to lower case"
 nl|'\n'
 name|'base_uri'
 op|'='
