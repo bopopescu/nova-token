@@ -240,6 +240,45 @@ op|')'
 newline|'\n'
 name|'flags'
 op|'.'
+name|'DEFINE_bool'
+op|'('
+string|"'xenapi_inject_image'"
+op|','
+nl|'\n'
+name|'True'
+op|','
+nl|'\n'
+string|"'Specifies whether an attempt to inject network/key'"
+nl|'\n'
+string|"'  data into the disk image should be made.'"
+nl|'\n'
+string|"'  Used only if connection_type=xenapi.'"
+op|')'
+newline|'\n'
+name|'flags'
+op|'.'
+name|'DEFINE_string'
+op|'('
+string|"'xenapi_agent_path'"
+op|','
+nl|'\n'
+string|"'usr/sbin/xe-update-networking'"
+op|','
+nl|'\n'
+string|"'Specifies the path in which the xenapi guest agent'"
+nl|'\n'
+string|"'  should be located. If the agent is present,'"
+nl|'\n'
+string|"'  network configuration is not injected into the image'"
+nl|'\n'
+string|"'  Used only if connection_type=xenapi.'"
+nl|'\n'
+string|"'  and xenapi_inject_image=True'"
+op|')'
+newline|'\n'
+nl|'\n'
+name|'flags'
+op|'.'
 name|'DEFINE_string'
 op|'('
 string|"'xenapi_sr_base_path'"
@@ -250,6 +289,7 @@ nl|'\n'
 string|"'Base path to the storage repository'"
 op|')'
 newline|'\n'
+nl|'\n'
 name|'flags'
 op|'.'
 name|'DEFINE_string'
