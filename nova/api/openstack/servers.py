@@ -3884,7 +3884,6 @@ op|')'
 newline|'\n'
 nl|'\n'
 nl|'\n'
-nl|'\n'
 DECL|class|ControllerV11
 dedent|''
 dedent|''
