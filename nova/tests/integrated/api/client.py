@@ -281,7 +281,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""Simple OpenStack API Client.\n    \n    This is a really basic OpenStack API client that is under our control,\n    so we can make changes / insert hooks for testing"""'
+string|'"""Simple OpenStack API Client.\n\n    This is a really basic OpenStack API client that is under our control,\n    so we can make changes / insert hooks for testing"""'
 newline|'\n'
 nl|'\n'
 DECL|member|__init__
