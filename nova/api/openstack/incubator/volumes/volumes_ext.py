@@ -161,9 +161,9 @@ op|'['
 op|']'
 newline|'\n'
 nl|'\n'
-comment|"#NOTE(justinsb): No way to provide singular name ('volume')"
+comment|"# NOTE(justinsb): No way to provide singular name ('volume')"
 nl|'\n'
-comment|'#  Does this matter?'
+comment|'# Does this matter?'
 nl|'\n'
 name|'res'
 op|'='
