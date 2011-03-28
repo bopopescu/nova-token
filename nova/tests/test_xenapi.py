@@ -3493,7 +3493,7 @@ op|')'
 newline|'\n'
 comment|'# TODO(salvatore-orlando): a complete test here would require'
 nl|'\n'
-comment|"# A check for making sure the bridge for the VM's VIF is"
+comment|"# a check for making sure the bridge for the VM's VIF is"
 nl|'\n'
 comment|'# consistent with bridge specified in nova db'
 nl|'\n'
