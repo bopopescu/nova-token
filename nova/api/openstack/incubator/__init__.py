@@ -31,7 +31,7 @@ nl|'\n'
 comment|'#    under the License.import datetime'
 nl|'\n'
 nl|'\n'
-string|'"""Incubator contains extensions that are shipped with nova.\n\nIt can\'t be called \'extensions\' because that causes namespacing problems."""'
+string|'"""Incubator contains extensions that are shipped with nova.\n\nIt can\'t be called \'extensions\' because that causes namespacing problems.\n\n"""'
 newline|'\n'
 endmarker|''
 end_unit
