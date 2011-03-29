@@ -184,6 +184,18 @@ op|')'
 newline|'\n'
 name|'flags'
 op|'.'
+name|'DEFINE_string'
+op|'('
+string|"'vlan_interface'"
+op|','
+string|"'eth0'"
+op|','
+nl|'\n'
+string|"'network device for vlans'"
+op|')'
+newline|'\n'
+name|'flags'
+op|'.'
 name|'DEFINE_integer'
 op|'('
 string|"'num_networks'"
