@@ -47,7 +47,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""Base class for generating responses to OpenStack API requests for\n    information about images."""'
+string|'"""Base class for generating responses to OpenStack API image requests."""'
 newline|'\n'
 nl|'\n'
 DECL|member|__init__

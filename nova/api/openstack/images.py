@@ -130,7 +130,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""Base `wsgi.Controller` for retrieving and displaying images in the\n    OpenStack API. Version-inspecific code goes here."""'
+string|'"""Base `wsgi.Controller` for retrieving/displaying images."""'
 newline|'\n'
 nl|'\n'
 DECL|variable|_serialization_metadata
