@@ -1631,7 +1631,7 @@ name|'DEFINE_string'
 op|'('
 string|"'vnc_console_proxy_topic'"
 op|','
-string|"'vnc_proxy'"
+string|"'vncproxy'"
 op|','
 nl|'\n'
 string|"'the topic vnc proxy nodes listen on'"
