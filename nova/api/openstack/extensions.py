@@ -122,7 +122,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""Base class that defines the contract for extensions.\n\n    Note that you don\'t have to derive from this class to have a valid\n    extension; it is purely a convenience."""'
+string|'"""Base class that defines the contract for extensions.\n\n    Note that you don\'t have to derive from this class to have a valid\n    extension; it is purely a convenience.\n\n    """'
 newline|'\n'
 nl|'\n'
 DECL|member|get_name
