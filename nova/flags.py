@@ -1629,7 +1629,7 @@ op|')'
 newline|'\n'
 name|'DEFINE_string'
 op|'('
-string|"'vnc_console_proxy_topic'"
+string|"'vncproxy_topic'"
 op|','
 string|"'vncproxy'"
 op|','
@@ -1639,7 +1639,7 @@ op|')'
 newline|'\n'
 name|'DEFINE_string'
 op|'('
-string|"'vnc_console_proxy_url'"
+string|"'vncproxy_url'"
 op|','
 nl|'\n'
 string|"'http://127.0.0.1:6080'"
@@ -1650,7 +1650,7 @@ op|')'
 newline|'\n'
 name|'DEFINE_string'
 op|'('
-string|"'vnc_server_host'"
+string|"'vncserver_host'"
 op|','
 string|"'0.0.0.0'"
 op|','
