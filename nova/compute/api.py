@@ -3884,6 +3884,8 @@ op|'}'
 op|')'
 newline|'\n'
 nl|'\n'
+comment|'# hostignore and portignore are compatability params for noVNC'
+nl|'\n'
 name|'return'
 op|'{'
 string|"'url'"
