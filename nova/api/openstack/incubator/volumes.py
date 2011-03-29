@@ -1884,7 +1884,6 @@ op|','
 nl|'\n'
 name|'collection_actions'
 op|'='
-nl|'\n'
 op|'{'
 string|"'detail'"
 op|':'
