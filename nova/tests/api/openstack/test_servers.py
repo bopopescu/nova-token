@@ -6136,7 +6136,7 @@ op|'['
 string|"'status'"
 op|']'
 op|','
-string|"'resize-confirm'"
+string|"'RESIZE-CONFIRM'"
 op|')'
 newline|'\n'
 nl|'\n'
