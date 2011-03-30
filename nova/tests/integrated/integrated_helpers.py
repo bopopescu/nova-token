@@ -998,7 +998,7 @@ name|'self'
 op|'.'
 name|'auth_url'
 op|'='
-string|"'http://%s:%s/v1.0'"
+string|"'http://%s:%s/v1.1'"
 op|'%'
 op|'('
 name|'host'
