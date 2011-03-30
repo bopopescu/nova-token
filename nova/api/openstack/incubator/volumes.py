@@ -175,8 +175,6 @@ name|'instance_id'
 op|'='
 name|'None'
 newline|'\n'
-comment|'#    instance_data = None'
-nl|'\n'
 name|'attached_to'
 op|'='
 name|'vol'
@@ -198,9 +196,6 @@ op|'['
 string|"'id'"
 op|']'
 newline|'\n'
-comment|"#        instance_data = '%s[%s]' % (instance_ec2_id,"
-nl|'\n'
-comment|"#                                    attached_to['host'])"
 nl|'\n'
 dedent|''
 name|'d'
@@ -253,19 +248,6 @@ op|'['
 string|"'created_at'"
 op|']'
 newline|'\n'
-comment|'#    if context.is_admin:'
-nl|'\n'
-comment|"#        v['status'] = '%s (%s, %s, %s, %s)' % ("
-nl|'\n'
-comment|"#            vol['status'],"
-nl|'\n'
-comment|"#            vol['user_id'],"
-nl|'\n'
-comment|"#            vol['host'],"
-nl|'\n'
-comment|'#            instance_data,'
-nl|'\n'
-comment|"#            vol['mountpoint'])"
 nl|'\n'
 name|'if'
 name|'vol'
