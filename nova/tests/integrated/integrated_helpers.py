@@ -1040,7 +1040,7 @@ op|'['
 string|"'image_service'"
 op|']'
 op|'='
-string|"'nova.image.fake.MockImageService'"
+string|"'nova.image.fake.FakeImageService'"
 newline|'\n'
 name|'f'
 op|'['
