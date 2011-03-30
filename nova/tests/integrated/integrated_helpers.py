@@ -989,7 +989,7 @@ name|'port'
 op|'='
 name|'api_service'
 op|'.'
-name|'get_port'
+name|'get_socket_info'
 op|'('
 string|"'osapi'"
 op|')'
