@@ -3727,12 +3727,11 @@ nl|'\n'
 dedent|''
 name|'if'
 name|'image_meta'
-op|'['
-string|"'properties'"
-op|']'
-op|'['
-string|"'disk_format'"
-op|']'
+op|'.'
+name|'get'
+op|'('
+string|"'container_format'"
+op|')'
 op|'!='
 string|"'ami'"
 op|':'

@@ -2452,14 +2452,6 @@ string|"'architecture'"
 op|']'
 op|','
 nl|'\n'
-string|"'type'"
-op|':'
-name|'base'
-op|'['
-string|"'type'"
-op|']'
-op|','
-nl|'\n'
 string|"'name'"
 op|':'
 string|"'%s.%s'"
