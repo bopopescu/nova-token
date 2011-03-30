@@ -134,6 +134,15 @@ op|'('
 string|"'nova.compute.api'"
 op|')'
 newline|'\n'
+name|'flags'
+op|'.'
+name|'DECLARE'
+op|'('
+string|"'vncproxy_topic'"
+op|','
+string|"'nova.vnc'"
+op|')'
+newline|'\n'
 nl|'\n'
 nl|'\n'
 DECL|function|generate_default_hostname
