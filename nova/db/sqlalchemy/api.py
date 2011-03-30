@@ -3773,6 +3773,10 @@ string|"'leased'"
 op|':'
 number|'0'
 op|'}'
+op|','
+name|'synchronize_session'
+op|'='
+string|"'fetch'"
 op|')'
 newline|'\n'
 name|'return'
