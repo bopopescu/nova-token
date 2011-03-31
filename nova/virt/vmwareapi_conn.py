@@ -115,6 +115,7 @@ name|'import'
 name|'VMWareVMOps'
 newline|'\r\n'
 nl|'\r\n'
+nl|'\r\n'
 DECL|variable|LOG
 name|'LOG'
 op|'='
