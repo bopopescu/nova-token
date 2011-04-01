@@ -60,7 +60,7 @@ nl|'\n'
 DECL|variable|XEN_BRIDGE
 name|'XEN_BRIDGE'
 op|'='
-string|"'xenbr1'"
+string|"'xenbr0'"
 newline|'\n'
 DECL|variable|OVS_OFCTL
 name|'OVS_OFCTL'
@@ -488,6 +488,7 @@ op|'='
 name|'vif_ofport'
 op|')'
 newline|'\n'
+nl|'\n'
 name|'if'
 name|'net_type'
 name|'in'
