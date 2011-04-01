@@ -125,7 +125,7 @@ name|'xsread'
 op|'='
 name|'execute'
 op|'('
-string|"'/usr/bin/enstore-read'"
+string|"'/usr/bin/xenstore-read'"
 op|','
 nl|'\n'
 string|"'/local/domain/%s/vm-data/networking/%s'"
