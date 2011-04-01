@@ -82,6 +82,7 @@ DECL|class|OvsFlow
 name|'class'
 name|'OvsFlow'
 op|'('
+name|'object'
 op|')'
 op|':'
 newline|'\n'
