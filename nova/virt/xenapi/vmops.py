@@ -1440,7 +1440,7 @@ op|'('
 string|"'VM %s is now running.'"
 op|')'
 op|'%'
-name|'name'
+name|'instance_name'
 op|')'
 newline|'\n'
 name|'timer'
