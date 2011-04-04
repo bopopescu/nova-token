@@ -939,10 +939,11 @@ op|':'
 string|"'br101'"
 op|','
 nl|'\n'
-string|"'instance_type'"
+string|"'instance_type_id'"
 op|':'
-string|"'m1.small'"
+string|"'5'"
 op|'}'
+comment|'# m1.small'
 newline|'\n'
 nl|'\n'
 DECL|member|lazy_load_library_exists
