@@ -5388,9 +5388,10 @@ newline|'\n'
 nl|'\n'
 name|'if'
 name|'not'
-string|"'injected'"
-name|'in'
 name|'network_ref'
+op|'['
+string|"'injected'"
+op|']'
 op|':'
 newline|'\n'
 indent|'                '
