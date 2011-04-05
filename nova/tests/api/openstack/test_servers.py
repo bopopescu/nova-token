@@ -1387,7 +1387,6 @@ name|'getElementsByTagName'
 op|'('
 string|"'public'"
 op|')'
-op|';'
 newline|'\n'
 op|'('
 name|'ip'
