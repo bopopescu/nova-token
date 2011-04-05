@@ -5115,7 +5115,7 @@ newline|'\n'
 nl|'\n'
 name|'inst_type_id'
 op|'='
-name|'instance'
+name|'inst'
 op|'['
 string|"'instance_type_id'"
 op|']'
