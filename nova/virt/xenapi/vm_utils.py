@@ -6727,9 +6727,9 @@ string|"'gateway_v6'"
 op|':'
 name|'ip_v6'
 name|'and'
-name|'ip_v6'
+name|'info'
 op|'['
-string|"'gateway'"
+string|"'gateway6'"
 op|']'
 name|'or'
 string|"''"
