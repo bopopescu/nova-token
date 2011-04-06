@@ -2052,11 +2052,6 @@ nl|'\n'
 string|"'enabled'"
 op|':'
 string|"'1'"
-op|','
-nl|'\n'
-string|"'gateway'"
-op|':'
-string|"'fe80::a00:1'"
 op|'}'
 op|']'
 op|','
@@ -2076,6 +2071,11 @@ nl|'\n'
 string|"'gateway'"
 op|':'
 string|"'10.0.0.1'"
+op|','
+nl|'\n'
+string|"'gateway6'"
+op|':'
+string|"'fe80::a00:1'"
 op|'}'
 op|')'
 newline|'\n'
