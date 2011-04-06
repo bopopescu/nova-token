@@ -5107,7 +5107,6 @@ name|'network'
 op|'['
 string|"'gateway_v6'"
 op|']'
-op|','
 newline|'\n'
 dedent|''
 name|'network_info'
