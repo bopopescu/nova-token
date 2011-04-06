@@ -12094,7 +12094,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'        '
-string|'"""Remove all rules from the $provider chains."""'
+string|'"""Remove all rules from the provider chains."""'
 newline|'\n'
 name|'self'
 op|'.'
@@ -12107,7 +12107,7 @@ op|']'
 op|'.'
 name|'empty_chain'
 op|'('
-string|"'$provider'"
+string|"'provider'"
 op|')'
 newline|'\n'
 name|'if'
@@ -12128,7 +12128,7 @@ op|']'
 op|'.'
 name|'empty_chain'
 op|'('
-string|"'$provider'"
+string|"'provider'"
 op|')'
 newline|'\n'
 nl|'\n'
@@ -12173,7 +12173,7 @@ op|']'
 op|'.'
 name|'add_rule'
 op|'('
-string|"'$provider'"
+string|"'provider'"
 op|','
 name|'rule'
 op|')'
@@ -12205,7 +12205,7 @@ op|']'
 op|'.'
 name|'add_rule'
 op|'('
-string|"'$provider'"
+string|"'provider'"
 op|','
 name|'rule'
 op|')'
@@ -12347,10 +12347,6 @@ dedent|''
 name|'args'
 op|'='
 op|'['
-string|"'-A'"
-op|','
-string|"'$provider'"
-op|','
 string|"'-p'"
 op|','
 name|'protocol'
