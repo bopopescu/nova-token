@@ -909,7 +909,6 @@ name|'network'
 op|'['
 string|"'gateway_v6'"
 op|']'
-op|','
 newline|'\n'
 nl|'\n'
 dedent|''
