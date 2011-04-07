@@ -6260,18 +6260,6 @@ comment|'# NOTE(justinsb): We no longer auto-remove SHUTOFF instances'
 nl|'\n'
 comment|"# It's quite hard to get them back when we do."
 nl|'\n'
-comment|'#if vm_state == power_state.SHUTOFF:'
-nl|'\n'
-comment|'#    # TODO(soren): This is what the compute manager does when you'
-nl|'\n'
-comment|"#    # terminate an instance. At some point I figure we'll have a"
-nl|'\n'
-comment|'#    # "terminated" state and some sort of cleanup job that runs'
-nl|'\n'
-comment|'#    # occasionally, cleaning them out.'
-nl|'\n'
-comment|"#    self.db.instance_destroy(context, db_instance['id'])"
-nl|'\n'
 nl|'\n'
 comment|'# Are there VMs not in the DB?'
 nl|'\n'
