@@ -2091,7 +2091,6 @@ dedent|''
 name|'def'
 name|'ensure_metadata_ip'
 op|'('
-name|'interface'
 op|')'
 op|':'
 newline|'\n'
@@ -2117,9 +2116,8 @@ string|"'link'"
 op|','
 string|"'dev'"
 op|','
-name|'interface'
+string|"'lo'"
 op|','
-nl|'\n'
 name|'check_exit_code'
 op|'='
 name|'False'

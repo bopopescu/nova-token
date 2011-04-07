@@ -363,18 +363,6 @@ nl|'\n'
 string|"'If True, skip using the queue and make local calls'"
 op|')'
 newline|'\n'
-name|'flags'
-op|'.'
-name|'DEFINE_string'
-op|'('
-string|"'metadata_interface'"
-op|','
-string|"'eth0'"
-op|','
-nl|'\n'
-string|"'interface to add the metadata ip to'"
-op|')'
-newline|'\n'
 nl|'\n'
 nl|'\n'
 DECL|class|AddressAlreadyAllocated
@@ -505,9 +493,6 @@ name|'driver'
 op|'.'
 name|'ensure_metadata_ip'
 op|'('
-name|'FLAGS'
-op|'.'
-name|'metadata_interface'
 op|')'
 newline|'\n'
 comment|"# Set up networking for the projects for which we're already"
