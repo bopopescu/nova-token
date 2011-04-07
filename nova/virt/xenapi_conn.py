@@ -380,6 +380,7 @@ string|"'Timeout in seconds for XenAPI login.'"
 op|')'
 newline|'\n'
 nl|'\n'
+nl|'\n'
 DECL|function|get_connection
 name|'def'
 name|'get_connection'
