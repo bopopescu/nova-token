@@ -1560,13 +1560,6 @@ name|'Column'
 op|'('
 name|'Integer'
 op|','
-name|'ForeignKey'
-op|'('
-string|"'instances.instance_type_id'"
-op|')'
-op|','
-nl|'\n'
-DECL|variable|primary_key
 name|'primary_key'
 op|'='
 name|'True'
