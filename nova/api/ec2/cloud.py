@@ -5267,8 +5267,6 @@ op|'.'
 name|'get'
 op|'('
 string|"'name'"
-op|','
-name|'None'
 op|')'
 newline|'\n'
 dedent|''
