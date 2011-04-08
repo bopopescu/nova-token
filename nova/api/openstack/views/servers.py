@@ -448,10 +448,13 @@ string|"'key'"
 op|']'
 op|']'
 op|'='
+name|'str'
+op|'('
 name|'item'
 op|'['
 string|"'value'"
 op|']'
+op|')'
 newline|'\n'
 dedent|''
 name|'inst_dict'
