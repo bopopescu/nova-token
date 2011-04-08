@@ -161,11 +161,6 @@ string|"'properties'"
 op|':'
 op|'{'
 nl|'\n'
-string|"'type'"
-op|':'
-string|"'ramdisk'"
-op|','
-nl|'\n'
 string|"'key1'"
 op|':'
 string|"'value1'"
@@ -243,11 +238,6 @@ nl|'\n'
 string|"'properties'"
 op|':'
 op|'{'
-nl|'\n'
-string|"'type'"
-op|':'
-string|"'ramdisk'"
-op|','
 nl|'\n'
 string|"'key1'"
 op|':'
