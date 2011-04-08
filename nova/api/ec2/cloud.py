@@ -7411,9 +7411,6 @@ newline|'\n'
 name|'if'
 name|'image'
 op|'['
-string|"'properties'"
-op|']'
-op|'['
 string|"'is_public'"
 op|']'
 op|':'
@@ -7634,9 +7631,6 @@ op|')'
 newline|'\n'
 nl|'\n'
 name|'image'
-op|'['
-string|"'properties'"
-op|']'
 op|'['
 string|"'is_public'"
 op|']'
