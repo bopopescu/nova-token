@@ -565,12 +565,14 @@ op|','
 nl|'\n'
 string|"'count=%d'"
 op|'%'
+op|'('
 name|'volume'
 op|'['
 string|"'size'"
 op|']'
 op|'*'
 number|'1024'
+op|')'
 op|','
 nl|'\n'
 string|"'bs=1M'"
