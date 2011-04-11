@@ -1863,10 +1863,10 @@ name|'id'
 newline|'\n'
 name|'inst'
 op|'['
-string|"'instance_type'"
+string|"'instance_type_id'"
 op|']'
 op|'='
-string|"'m1.tiny'"
+string|"'1'"
 newline|'\n'
 name|'inst'
 op|'['
