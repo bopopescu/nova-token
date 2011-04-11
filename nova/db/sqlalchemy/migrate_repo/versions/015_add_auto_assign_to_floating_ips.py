@@ -119,8 +119,6 @@ name|'create_column'
 op|'('
 name|'c_auto_assigned'
 op|')'
-newline|'\n'
-nl|'\n'
 dedent|''
 endmarker|''
 end_unit
