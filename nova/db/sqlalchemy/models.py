@@ -1308,6 +1308,8 @@ op|')'
 comment|"# , ForeignKey('hosts.id'))"
 newline|'\n'
 nl|'\n'
+comment|'# aka flavor'
+nl|'\n'
 DECL|variable|instance_type
 name|'instance_type'
 op|'='
@@ -3434,8 +3436,8 @@ op|'='
 name|'True'
 op|')'
 newline|'\n'
-DECL|variable|mac_address
-name|'mac_address'
+DECL|variable|address
+name|'address'
 op|'='
 name|'Column'
 op|'('
