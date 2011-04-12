@@ -1460,7 +1460,7 @@ nl|'\n'
 string|"'CA'"
 op|','
 nl|'\n'
-string|"'geninter.sh'"
+string|"'genvpn.sh'"
 op|')'
 newline|'\n'
 name|'if'
