@@ -544,7 +544,7 @@ nl|'\n'
 dedent|''
 name|'self'
 op|'.'
-name|'_try_execute'
+name|'_execute'
 op|'('
 string|"'sudo'"
 op|','
