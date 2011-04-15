@@ -431,10 +431,11 @@ op|':'
 number|'3'
 op|','
 nl|'\n'
-string|"'instance_type'"
+string|"'instance_type_id'"
 op|':'
-string|"'m1.large'"
+string|"'3'"
 op|','
+comment|'# m1.large'
 nl|'\n'
 string|"'mac_address'"
 op|':'
@@ -2052,11 +2053,6 @@ nl|'\n'
 string|"'enabled'"
 op|':'
 string|"'1'"
-op|','
-nl|'\n'
-string|"'gateway'"
-op|':'
-string|"'fe80::a00:1'"
 op|'}'
 op|']'
 op|','
@@ -2076,6 +2072,11 @@ nl|'\n'
 string|"'gateway'"
 op|':'
 string|"'10.0.0.1'"
+op|','
+nl|'\n'
+string|"'gateway6'"
+op|':'
+string|"'fe80::a00:1'"
 op|'}'
 op|')'
 newline|'\n'
@@ -2432,9 +2433,9 @@ op|','
 name|'ramdisk_id'
 op|','
 nl|'\n'
-name|'instance_type'
+name|'instance_type_id'
 op|'='
-string|'"m1.large"'
+string|'"3"'
 op|','
 name|'os_type'
 op|'='
@@ -2502,9 +2503,9 @@ op|':'
 name|'ramdisk_id'
 op|','
 nl|'\n'
-string|"'instance_type'"
+string|"'instance_type_id'"
 op|':'
-name|'instance_type'
+name|'instance_type_id'
 op|','
 nl|'\n'
 string|"'mac_address'"
@@ -2598,8 +2599,9 @@ number|'2'
 op|','
 number|'3'
 op|','
-string|'"m1.xlarge"'
+string|'"4"'
 op|')'
+comment|'# m1.xlarge'
 newline|'\n'
 nl|'\n'
 DECL|member|test_spawn_raw_objectstore
@@ -3796,10 +3798,11 @@ op|':'
 number|'3'
 op|','
 nl|'\n'
-string|"'instance_type'"
+string|"'instance_type_id'"
 op|':'
-string|"'m1.large'"
+string|"'3'"
 op|','
+comment|'# m1.large'
 nl|'\n'
 string|"'mac_address'"
 op|':'
@@ -4232,10 +4235,11 @@ op|':'
 number|'5'
 op|','
 nl|'\n'
-string|"'instance_type'"
+string|"'instance_type_id'"
 op|':'
-string|"'m1.large'"
+string|"'3'"
 op|','
+comment|'# m1.large'
 nl|'\n'
 string|"'mac_address'"
 op|':'
