@@ -73,7 +73,7 @@ op|'='
 op|'['
 string|"'2011'"
 op|','
-string|"'2'"
+string|"'3'"
 op|']'
 newline|'\n'
 name|'YEAR'
@@ -86,7 +86,7 @@ nl|'\n'
 DECL|variable|FINAL
 name|'FINAL'
 op|'='
-name|'True'
+name|'False'
 comment|'# This becomes true at Release Candidate time'
 newline|'\n'
 nl|'\n'
