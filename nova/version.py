@@ -86,7 +86,7 @@ nl|'\n'
 DECL|variable|FINAL
 name|'FINAL'
 op|'='
-name|'False'
+name|'True'
 comment|'# This becomes true at Release Candidate time'
 newline|'\n'
 nl|'\n'
