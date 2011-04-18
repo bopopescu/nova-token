@@ -1471,7 +1471,7 @@ comment|'# Skip calculation on first pass. Need delta to get a meaningful value.
 nl|'\n'
 name|'if'
 name|'cputime_last_updated'
-op|'=='
+name|'is'
 name|'None'
 op|':'
 newline|'\n'
