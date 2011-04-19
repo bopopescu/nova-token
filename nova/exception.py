@@ -669,7 +669,10 @@ newline|'\n'
 DECL|variable|message
 name|'message'
 op|'='
+name|'_'
+op|'('
 string|'"An unknown exception occurred."'
+op|')'
 newline|'\n'
 nl|'\n'
 DECL|member|__init__
