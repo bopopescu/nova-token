@@ -169,7 +169,6 @@ nl|'\n'
 string|"'key2'"
 op|':'
 string|"'value2'"
-nl|'\n'
 op|'}'
 op|','
 nl|'\n'
@@ -247,7 +246,6 @@ nl|'\n'
 string|"'key2'"
 op|':'
 string|"'value2'"
-nl|'\n'
 op|'}'
 op|','
 nl|'\n'
