@@ -1811,7 +1811,6 @@ string|"'detail'"
 op|':'
 string|"'GET'"
 op|'}'
-nl|'\n'
 op|')'
 newline|'\n'
 name|'resources'
