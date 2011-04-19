@@ -1260,7 +1260,6 @@ op|'('
 string|'"Instance %(name)s already exists."'
 op|')'
 newline|'\n'
-nl|'\n'
 dedent|''
 endmarker|''
 end_unit
