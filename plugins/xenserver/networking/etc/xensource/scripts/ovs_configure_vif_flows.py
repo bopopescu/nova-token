@@ -469,6 +469,10 @@ string|"'ipv6'"
 op|','
 string|"'all'"
 op|')'
+name|'and'
+string|"'ip6s'"
+name|'in'
+name|'data'
 op|':'
 newline|'\n'
 indent|'                '
@@ -502,7 +506,10 @@ name|'netaddr'
 op|'.'
 name|'EUI'
 op|'('
-name|'mac'
+name|'data'
+op|'['
+string|"'mac'"
+op|']'
 op|')'
 op|'.'
 name|'eui64'
