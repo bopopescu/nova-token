@@ -73,7 +73,7 @@ op|'='
 op|'['
 string|"'2011'"
 op|','
-string|"'2'"
+string|"'3'"
 op|']'
 newline|'\n'
 name|'YEAR'
