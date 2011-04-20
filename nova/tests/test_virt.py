@@ -1045,10 +1045,11 @@ op|':'
 string|"'br101'"
 op|','
 nl|'\n'
-string|"'instance_type'"
+string|"'instance_type_id'"
 op|':'
-string|"'m1.small'"
+string|"'5'"
 op|'}'
+comment|'# m1.small'
 newline|'\n'
 nl|'\n'
 DECL|member|lazy_load_library_exists
@@ -4184,9 +4185,6 @@ name|'self'
 op|'.'
 name|'create_fake_libvirt_mock'
 op|'('
-name|'nwfilterLookupByName'
-op|'='
-name|'fake_raise'
 op|')'
 newline|'\n'
 name|'instance_ref'
@@ -4247,6 +4245,17 @@ op|'.'
 name|'setattr'
 op|'('
 string|"'prepare_instance_filter'"
+op|','
+name|'fake_none'
+op|')'
+newline|'\n'
+name|'conn'
+op|'.'
+name|'firewall_driver'
+op|'.'
+name|'setattr'
+op|'('
+string|"'instance_filter_exists'"
 op|','
 name|'fake_none'
 op|')'
