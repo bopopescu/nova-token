@@ -4533,9 +4533,9 @@ op|':'
 string|"'56:12:12:12:12:12'"
 op|','
 nl|'\n'
-string|"'instance_type'"
+string|"'instance_type_id'"
 op|':'
-string|"'m1.small'"
+number|'1'
 op|'}'
 op|')'
 newline|'\n'
@@ -6117,9 +6117,9 @@ op|':'
 string|"'00:A0:C9:14:C8:29'"
 op|','
 nl|'\n'
-string|"'instance_type'"
+string|"'instance_type_id'"
 op|':'
-string|"'m1.small'"
+number|'1'
 op|'}'
 op|')'
 newline|'\n'
