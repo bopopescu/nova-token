@@ -121,6 +121,7 @@ name|'if'
 name|'suds'
 op|':'
 newline|'\r\n'
+nl|'\r\n'
 DECL|class|VIMMessagePlugin
 indent|'    '
 name|'class'
