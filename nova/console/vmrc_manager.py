@@ -250,6 +250,7 @@ name|'vmwareapi_conn'
 op|'.'
 name|'VMWareAPISession'
 op|'('
+nl|'\n'
 name|'pool'
 op|'['
 string|"'address'"
