@@ -300,7 +300,7 @@ name|'power_state'
 op|'.'
 name|'SHUTDOWN'
 op|':'
-string|"'ACTIVE'"
+string|"'INACTIVE'"
 op|','
 nl|'\n'
 name|'power_state'
