@@ -58,6 +58,7 @@ op|'('
 op|')'
 newline|'\n'
 nl|'\n'
+nl|'\n'
 DECL|variable|c_auto_assigned
 name|'c_auto_assigned'
 op|'='
