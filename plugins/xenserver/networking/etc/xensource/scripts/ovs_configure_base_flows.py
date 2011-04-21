@@ -122,7 +122,7 @@ op|','
 name|'bridge_name'
 op|','
 nl|'\n'
-string|'"priority=2,in_port=%s,action=normal"'
+string|'"priority=2,in_port=%s,actions=normal"'
 op|'%'
 name|'pnic_ofport'
 op|')'
@@ -136,7 +136,7 @@ string|"'add-flow'"
 op|','
 name|'bridge_name'
 op|','
-string|"'priority=1,action=drop'"
+string|"'priority=1,actions=drop'"
 op|')'
 newline|'\n'
 nl|'\n'
