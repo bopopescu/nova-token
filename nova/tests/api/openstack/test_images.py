@@ -3223,6 +3223,7 @@ string|"'name'"
 op|':'
 string|"'killed backup'"
 op|','
+nl|'\n'
 string|"'serverId'"
 op|':'
 number|'42'
@@ -3457,7 +3458,7 @@ op|':'
 string|"'queued backup'"
 op|','
 nl|'\n'
-string|"'serverId'"
+string|"'serverRef'"
 op|':'
 number|'42'
 op|','
@@ -3555,7 +3556,7 @@ op|':'
 string|"'saving backup'"
 op|','
 nl|'\n'
-string|"'serverId'"
+string|"'serverRef'"
 op|':'
 number|'42'
 op|','
@@ -3658,7 +3659,7 @@ op|':'
 string|"'active backup'"
 op|','
 nl|'\n'
-string|"'serverId'"
+string|"'serverRef'"
 op|':'
 number|'42'
 op|','
@@ -3755,7 +3756,8 @@ string|"'name'"
 op|':'
 string|"'killed backup'"
 op|','
-string|"'serverId'"
+nl|'\n'
+string|"'serverRef'"
 op|':'
 number|'42'
 op|','
