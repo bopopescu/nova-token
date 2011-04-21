@@ -454,6 +454,7 @@ newline|'\n'
 name|'pass'
 newline|'\n'
 nl|'\n'
+nl|'\n'
 DECL|class|ViewBuilderV11
 dedent|''
 name|'class'
