@@ -207,7 +207,7 @@ name|'get_from_path'
 op|'('
 name|'inst'
 op|','
-string|"'fixed_ip/address'"
+string|"'fixed_ips/address'"
 op|')'
 newline|'\n'
 name|'private_ips'
@@ -237,7 +237,8 @@ name|'get_from_path'
 op|'('
 name|'inst'
 op|','
-string|"'fixed_ip/floating_ips/address'"
+nl|'\n'
+string|"'fixed_ips/floating_ips/address'"
 op|')'
 newline|'\n'
 name|'public_ips'
