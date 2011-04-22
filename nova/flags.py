@@ -1871,13 +1871,13 @@ string|"' but to use a raw disk image instead'"
 op|')'
 newline|'\n'
 nl|'\n'
-name|'DEFINE_string'
+name|'DEFINE_integer'
 op|'('
 string|"'vpn_image_id'"
 op|','
-string|"'ami-cloudpipe'"
+number|'0'
 op|','
-string|"'AMI for cloudpipe vpn server'"
+string|"'integer id for cloudpipe vpn server'"
 op|')'
 newline|'\n'
 name|'DEFINE_string'

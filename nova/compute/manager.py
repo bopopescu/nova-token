@@ -1075,9 +1075,12 @@ op|'['
 string|"'image_id'"
 op|']'
 op|'=='
+name|'str'
+op|'('
 name|'FLAGS'
 op|'.'
 name|'vpn_image_id'
+op|')'
 newline|'\n'
 comment|"# NOTE(vish): This could be a cast because we don't do anything"
 nl|'\n'
