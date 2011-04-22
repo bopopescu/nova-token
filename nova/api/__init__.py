@@ -32,8 +32,5 @@ comment|'#    License for the specific language governing permissions and limita
 nl|'\n'
 comment|'#    under the License.'
 nl|'\n'
-nl|'\n'
-string|'"""No-op __init__ for directory full of api goodies."""'
-newline|'\n'
 endmarker|''
 end_unit
