@@ -4531,6 +4531,11 @@ nl|'\n'
 string|"'mac_address'"
 op|':'
 string|"'56:12:12:12:12:12'"
+op|','
+nl|'\n'
+string|"'instance_type_id'"
+op|':'
+number|'1'
 op|'}'
 op|')'
 newline|'\n'
@@ -6110,6 +6115,11 @@ nl|'\n'
 string|"'mac_address'"
 op|':'
 string|"'00:A0:C9:14:C8:29'"
+op|','
+nl|'\n'
+string|"'instance_type_id'"
+op|':'
+number|'1'
 op|'}'
 op|')'
 newline|'\n'
