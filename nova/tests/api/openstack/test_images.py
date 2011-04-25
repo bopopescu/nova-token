@@ -3460,7 +3460,7 @@ op|','
 nl|'\n'
 string|"'serverRef'"
 op|':'
-number|'42'
+string|'"http://localhost/v1.1/servers/42"'
 op|','
 nl|'\n'
 string|"'updated'"
@@ -3558,7 +3558,7 @@ op|','
 nl|'\n'
 string|"'serverRef'"
 op|':'
-number|'42'
+string|'"http://localhost/v1.1/servers/42"'
 op|','
 nl|'\n'
 string|"'updated'"
@@ -3661,7 +3661,7 @@ op|','
 nl|'\n'
 string|"'serverRef'"
 op|':'
-number|'42'
+string|'"http://localhost/v1.1/servers/42"'
 op|','
 nl|'\n'
 string|"'updated'"
@@ -3759,7 +3759,7 @@ op|','
 nl|'\n'
 string|"'serverRef'"
 op|':'
-number|'42'
+string|'"http://localhost/v1.1/servers/42"'
 op|','
 nl|'\n'
 string|"'updated'"
