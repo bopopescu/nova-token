@@ -55,7 +55,6 @@ name|'TestCase'
 op|')'
 op|':'
 newline|'\n'
-nl|'\n'
 DECL|member|test_return_valid_error
 indent|'    '
 name|'def'
