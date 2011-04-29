@@ -4675,7 +4675,7 @@ op|'('
 op|'{'
 string|"'deleted'"
 op|':'
-number|'1'
+name|'True'
 op|','
 nl|'\n'
 string|"'deleted_at'"
@@ -4719,7 +4719,7 @@ op|'('
 op|'{'
 string|"'deleted'"
 op|':'
-number|'1'
+name|'True'
 op|','
 nl|'\n'
 string|"'deleted_at'"
@@ -4763,7 +4763,7 @@ op|'('
 op|'{'
 string|"'deleted'"
 op|':'
-number|'1'
+name|'True'
 op|','
 nl|'\n'
 string|"'deleted_at'"
@@ -15114,7 +15114,7 @@ op|'('
 op|'{'
 string|"'deleted'"
 op|':'
-number|'1'
+name|'True'
 op|','
 nl|'\n'
 string|"'deleted_at'"
