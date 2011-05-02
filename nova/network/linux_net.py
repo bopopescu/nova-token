@@ -228,7 +228,6 @@ nl|'\n'
 string|"'Lifetime of a DHCP lease'"
 op|')'
 newline|'\n'
-nl|'\n'
 name|'flags'
 op|'.'
 name|'DEFINE_string'
@@ -253,8 +252,18 @@ nl|'\n'
 string|"'dmz range that should be accepted'"
 op|')'
 newline|'\n'
+name|'flags'
+op|'.'
+name|'DEFINE_string'
+op|'('
+string|"'dnsmasq_config_file'"
+op|','
+string|'""'
+op|','
 nl|'\n'
-nl|'\n'
+string|"'Override the default dnsmasq settings with this file'"
+op|')'
+newline|'\n'
 DECL|variable|binary_name
 name|'binary_name'
 op|'='
@@ -3911,7 +3920,11 @@ nl|'\n'
 string|"'--bind-interfaces'"
 op|','
 nl|'\n'
-string|"'--conf-file='"
+string|"'--conf-file=%s'"
+op|'%'
+name|'FLAGS'
+op|'.'
+name|'dnsmasq_config_file'
 op|','
 nl|'\n'
 string|"'--domain=%s'"
