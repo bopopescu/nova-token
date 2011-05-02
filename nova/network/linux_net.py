@@ -274,7 +274,7 @@ op|','
 string|'""'
 op|','
 nl|'\n'
-string|"'Override the default dnsmasq settings with those in this file'"
+string|"'Override the default dnsmasq settings with this file'"
 op|')'
 newline|'\n'
 DECL|variable|binary_name
