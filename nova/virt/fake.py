@@ -952,20 +952,6 @@ newline|'\n'
 indent|'        '
 name|'return'
 string|"'FAKE CONSOLE\\xffOUTPUT'"
-op|'.'
-name|'decode'
-op|'('
-string|"'utf8'"
-op|','
-string|"'replace'"
-op|')'
-op|'.'
-name|'encode'
-op|'('
-string|"'ascii'"
-op|','
-string|"'replace'"
-op|')'
 newline|'\n'
 nl|'\n'
 nl|'\n'

@@ -3670,6 +3670,13 @@ op|'.'
 name|'b64encode'
 op|'('
 name|'output'
+op|'.'
+name|'encode'
+op|'('
+string|"'utf-8'"
+op|','
+string|"'replace'"
+op|')'
 op|')'
 op|'}'
 newline|'\n'
