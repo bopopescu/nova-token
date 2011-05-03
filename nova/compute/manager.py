@@ -4435,7 +4435,7 @@ name|'output'
 op|'.'
 name|'decode'
 op|'('
-string|"'utf8'"
+string|"'utf-8'"
 op|','
 string|"'replace'"
 op|')'
