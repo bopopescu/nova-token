@@ -1558,6 +1558,7 @@ string|"'sudo'"
 op|','
 string|"'iscsiadm'"
 op|','
+nl|'\n'
 string|"'-m'"
 op|','
 string|"'discovery'"
@@ -1567,6 +1568,7 @@ string|"'-t'"
 op|','
 string|"'sendtargets'"
 op|','
+nl|'\n'
 string|"'-p'"
 op|','
 name|'volume_ref'
@@ -1626,7 +1628,7 @@ name|'in'
 name|'target'
 op|':'
 newline|'\n'
-indent|'                    '
+indent|'                '
 op|'('
 name|'location'
 op|','
