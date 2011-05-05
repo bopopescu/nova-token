@@ -954,7 +954,6 @@ name|'return'
 string|"'FAKE CONSOLE\\xffOUTPUT'"
 newline|'\n'
 nl|'\n'
-nl|'\n'
 DECL|member|get_ajax_console
 dedent|''
 name|'def'
