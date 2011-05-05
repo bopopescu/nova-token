@@ -4656,6 +4656,13 @@ string|"'utf-8'"
 op|','
 string|"'replace'"
 op|')'
+op|'.'
+name|'encode'
+op|'('
+string|"'ascii'"
+op|','
+string|"'replace'"
+op|')'
 newline|'\n'
 nl|'\n'
 dedent|''

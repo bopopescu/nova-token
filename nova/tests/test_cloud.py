@@ -2406,14 +2406,8 @@ op|'['
 string|"'output'"
 op|']'
 op|')'
-op|'.'
-name|'decode'
-op|'('
-string|"'utf-8'"
-op|')'
 op|','
-nl|'\n'
-string|"u'FAKE CONSOLE\\ufffdOUTPUT'"
+string|"'FAKE CONSOLE?OUTPUT'"
 op|')'
 newline|'\n'
 comment|'# TODO(soren): We need this until we can stop polling in the rpc code'
