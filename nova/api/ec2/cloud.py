@@ -2510,6 +2510,8 @@ newline|'\n'
 indent|'        '
 name|'raise'
 name|'NotImplementedError'
+op|'('
+op|')'
 newline|'\n'
 nl|'\n'
 DECL|member|_revoke_rule_args_to_dict
