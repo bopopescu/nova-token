@@ -186,7 +186,7 @@ name|'DEFINE_bool'
 op|'('
 string|"'publish_errors'"
 op|','
-name|'True'
+name|'False'
 op|','
 string|"'publish error events'"
 op|')'
