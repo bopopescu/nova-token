@@ -347,20 +347,14 @@ name|'host_ram_mb'
 op|'='
 name|'capabilities'
 op|'['
-string|"'host_memory'"
-op|']'
-op|'['
-string|"'free'"
+string|"'host_memory_free'"
 op|']'
 newline|'\n'
 name|'disk_bytes'
 op|'='
 name|'capabilities'
 op|'['
-string|"'disk'"
-op|']'
-op|'['
-string|"'available'"
+string|"'disk_available'"
 op|']'
 newline|'\n'
 name|'if'
@@ -403,13 +397,13 @@ comment|"#    {'host_name-description': 'Default install of XenServer',"
 nl|'\n'
 comment|"#    'host_hostname': 'xs-mini',"
 nl|'\n'
-comment|"#    'host_memory': {'total': 8244539392,"
+comment|"#    'host_memory_total': 8244539392,"
 nl|'\n'
-comment|"#        'overhead': 184225792,"
+comment|"#    'host_memory_overhead': 184225792,"
 nl|'\n'
-comment|"#        'free': 3868327936,"
+comment|"#    'host_memory_free': 3868327936,"
 nl|'\n'
-comment|"#        'free-computed': 3840843776},"
+comment|"#    'host_memory_free-computed': 3840843776},"
 nl|'\n'
 comment|"#    'host_other-config': {},"
 nl|'\n'
@@ -982,7 +976,7 @@ nl|'\n'
 op|'['
 string|"'>='"
 op|','
-string|"'$compute.host_memory.free'"
+string|"'$compute.host_memory_free'"
 op|','
 name|'required_ram'
 op|']'
@@ -991,7 +985,7 @@ nl|'\n'
 op|'['
 string|"'>='"
 op|','
-string|"'$compute.disk.available'"
+string|"'$compute.disk_available'"
 op|','
 name|'required_disk'
 op|']'
