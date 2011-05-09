@@ -5115,7 +5115,7 @@ name|'assertEquals'
 op|'('
 name|'stats'
 op|'['
-string|"'host_memory_free-computed'"
+string|"'host_memory_free_computed'"
 op|']'
 op|','
 number|'40'

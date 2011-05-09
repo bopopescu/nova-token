@@ -403,7 +403,7 @@ comment|"#    'host_memory_overhead': 184225792,"
 nl|'\n'
 comment|"#    'host_memory_free': 3868327936,"
 nl|'\n'
-comment|"#    'host_memory_free-computed': 3840843776},"
+comment|"#    'host_memory_free_computed': 3840843776},"
 nl|'\n'
 comment|"#    'host_other-config': {},"
 nl|'\n'
