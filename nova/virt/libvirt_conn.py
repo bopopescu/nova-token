@@ -2610,7 +2610,11 @@ op|':'
 op|'{'
 string|"'architecture'"
 op|':'
+nl|'\n'
 name|'base'
+op|'['
+string|"'properties'"
+op|']'
 op|'['
 string|"'architecture'"
 op|']'
