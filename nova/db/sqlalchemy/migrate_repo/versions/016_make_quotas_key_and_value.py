@@ -495,7 +495,15 @@ op|')'
 newline|'\n'
 name|'message'
 op|'='
-string|"'There are duplicate active quotas for project %s'"
+op|'('
+string|'\'There are multiple active quotas for project "%s" \''
+nl|'\n'
+string|"'(among others, possibly). '"
+nl|'\n'
+string|"'Please resolve all ambiguous quotas before '"
+nl|'\n'
+string|"'reattempting the migration.'"
+op|')'
 newline|'\n'
 name|'for'
 name|'quota'
