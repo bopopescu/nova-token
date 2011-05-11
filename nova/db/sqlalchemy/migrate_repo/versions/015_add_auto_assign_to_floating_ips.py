@@ -42,8 +42,6 @@ name|'MetaData'
 op|','
 name|'Table'
 newline|'\n'
-comment|'# from nova import log as loggingo'
-nl|'\n'
 nl|'\n'
 DECL|variable|meta
 name|'meta'
