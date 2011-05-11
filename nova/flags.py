@@ -2106,6 +2106,17 @@ string|"'availability zone of this node'"
 op|')'
 newline|'\n'
 nl|'\n'
+name|'DEFINE_list'
+op|'('
+string|"'memcached_servers'"
+op|','
+name|'None'
+op|','
+nl|'\n'
+string|"'Memcached servers or None for in process cache.'"
+op|')'
+newline|'\n'
+nl|'\n'
 name|'DEFINE_string'
 op|'('
 string|"'zone_name'"
