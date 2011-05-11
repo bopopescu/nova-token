@@ -5169,6 +5169,12 @@ name|'instance'
 op|'['
 string|"'mac_address'"
 op|']'
+op|','
+nl|'\n'
+name|'instance'
+op|'['
+string|"'project_id'"
+op|']'
 op|')'
 newline|'\n'
 nl|'\n'
