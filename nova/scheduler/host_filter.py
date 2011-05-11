@@ -347,20 +347,14 @@ name|'host_ram_mb'
 op|'='
 name|'capabilities'
 op|'['
-string|"'host_memory'"
-op|']'
-op|'['
-string|"'free'"
+string|"'host_memory_free'"
 op|']'
 newline|'\n'
 name|'disk_bytes'
 op|'='
 name|'capabilities'
 op|'['
-string|"'disk'"
-op|']'
-op|'['
-string|"'available'"
+string|"'disk_available'"
 op|']'
 newline|'\n'
 name|'if'
@@ -403,13 +397,13 @@ comment|"#    {'host_name-description': 'Default install of XenServer',"
 nl|'\n'
 comment|"#    'host_hostname': 'xs-mini',"
 nl|'\n'
-comment|"#    'host_memory': {'total': 8244539392,"
+comment|"#    'host_memory_total': 8244539392,"
 nl|'\n'
-comment|"#        'overhead': 184225792,"
+comment|"#    'host_memory_overhead': 184225792,"
 nl|'\n'
-comment|"#        'free': 3868327936,"
+comment|"#    'host_memory_free': 3868327936,"
 nl|'\n'
-comment|"#        'free-computed': 3840843776},"
+comment|"#    'host_memory_free_computed': 3840843776},"
 nl|'\n'
 comment|"#    'host_other-config': {},"
 nl|'\n'
@@ -417,11 +411,11 @@ comment|"#    'host_ip_address': '192.168.1.109',"
 nl|'\n'
 comment|"#    'host_cpu_info': {},"
 nl|'\n'
-comment|"#    'disk': {'available': 32954957824,"
+comment|"#    'disk_available': 32954957824,"
 nl|'\n'
-comment|"#        'total': 50394562560,"
+comment|"#    'disk_total': 50394562560,"
 nl|'\n'
-comment|"#        'used': 17439604736},"
+comment|"#    'disk_used': 17439604736},"
 nl|'\n'
 comment|"#    'host_uuid': 'cedb9b39-9388-41df-8891-c5c9a0c0fe5f',"
 nl|'\n'
@@ -982,7 +976,7 @@ nl|'\n'
 op|'['
 string|"'>='"
 op|','
-string|"'$compute.host_memory.free'"
+string|"'$compute.host_memory_free'"
 op|','
 name|'required_ram'
 op|']'
@@ -991,7 +985,7 @@ nl|'\n'
 op|'['
 string|"'>='"
 op|','
-string|"'$compute.disk.available'"
+string|"'$compute.disk_available'"
 op|','
 name|'required_disk'
 op|']'
