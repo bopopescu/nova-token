@@ -172,11 +172,11 @@ name|'Exception'
 op|'('
 name|'_'
 op|'('
-string|"'Must specify vmwareapi_host_ip,'"
+string|"'Must specify vmwareapi_host_ip, '"
 nl|'\n'
 string|"'vmwareapi_host_username '"
 nl|'\n'
-string|"'and vmwareapi_host_password to use'"
+string|"'and vmwareapi_host_password to use '"
 nl|'\n'
 string|"'connection_type=vmwareapi'"
 op|')'
