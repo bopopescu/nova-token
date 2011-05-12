@@ -2546,7 +2546,7 @@ string|"'output'"
 op|']'
 op|')'
 op|','
-string|"'FAKE CONSOLE OUTPUT'"
+string|"'FAKE CONSOLE?OUTPUT'"
 op|')'
 newline|'\n'
 comment|'# TODO(soren): We need this until we can stop polling in the rpc code'
