@@ -1,4 +1,5 @@
 begin_unit
+nl|'\n'
 comment|'# vim: tabstop=4 shiftwidth=4 softtabstop=4'
 nl|'\n'
 nl|'\n'
