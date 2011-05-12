@@ -33,7 +33,7 @@ nl|'\n'
 comment|'#    under the License.'
 nl|'\n'
 nl|'\n'
-string|'"""\nPackage-level global flags are defined here, the rest are defined\nwhere they\'re used.\n"""'
+string|'"""Command-line flag library.\n\nWraps gflags.\n\nPackage-level global flags are defined here, the rest are defined\nwhere they\'re used.\n\n"""'
 newline|'\n'
 nl|'\n'
 name|'import'
@@ -841,7 +841,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""Wrapper around FlagValues objects\n\n    Wraps FlagValues objects for string.Template so that we\'re\n    sure to return strings."""'
+string|'"""Wrapper around FlagValues objects.\n\n    Wraps FlagValues objects for string.Template so that we\'re\n    sure to return strings.\n\n    """'
 newline|'\n'
 DECL|member|__init__
 name|'def'
@@ -932,7 +932,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""Returns the name of the module that\'s calling into this module.\n\n    We generally use this function to get the name of the module calling a\n    DEFINE_foo... function.\n    """'
+string|'"""Returns the name of the module that\'s calling into this module.\n\n    We generally use this function to get the name of the module calling a\n    DEFINE_foo... function.\n\n    """'
 newline|'\n'
 comment|"# Walk down the stack to find the first globals dict that's not ours."
 nl|'\n'
@@ -1027,7 +1027,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""Given a globals dict, returns the name of the module that defines it.\n\n    Args:\n    globals_dict: A dictionary that should correspond to an environment\n      providing the values of the globals.\n\n    Returns:\n    A string (the name of the module) or None (if the module could not\n    be identified.\n    """'
+string|'"""Given a globals dict, returns the name of the module that defines it.\n\n    Args:\n    globals_dict: A dictionary that should correspond to an environment\n      providing the values of the globals.\n\n    Returns:\n    A string (the name of the module) or None (if the module could not\n    be identified.\n\n    """'
 newline|'\n'
 name|'for'
 name|'name'
@@ -1774,6 +1774,16 @@ op|')'
 newline|'\n'
 name|'DEFINE_string'
 op|'('
+string|"'osapi_extensions_path'"
+op|','
+string|"'/var/lib/nova/extensions'"
+op|','
+nl|'\n'
+string|"'default directory for nova extensions'"
+op|')'
+newline|'\n'
+name|'DEFINE_string'
+op|'('
 string|"'osapi_host'"
 op|','
 string|"'$my_ip'"
@@ -1806,6 +1816,16 @@ op|','
 string|"'/v1.0/'"
 op|','
 string|"'suffix for openstack'"
+op|')'
+newline|'\n'
+name|'DEFINE_integer'
+op|'('
+string|"'osapi_max_limit'"
+op|','
+number|'1000'
+op|','
+nl|'\n'
+string|"'max number of items returned in a collection response'"
 op|')'
 newline|'\n'
 nl|'\n'
@@ -1851,13 +1871,13 @@ string|"' but to use a raw disk image instead'"
 op|')'
 newline|'\n'
 nl|'\n'
-name|'DEFINE_string'
+name|'DEFINE_integer'
 op|'('
 string|"'vpn_image_id'"
 op|','
-string|"'ami-cloudpipe'"
+number|'0'
 op|','
-string|"'AMI for cloudpipe vpn server'"
+string|"'integer id for cloudpipe vpn server'"
 op|')'
 newline|'\n'
 name|'DEFINE_string'
@@ -1931,7 +1951,7 @@ string|"'../'"
 op|')'
 op|','
 nl|'\n'
-string|'"Directory for lock files"'
+string|"'Directory for lock files'"
 op|')'
 newline|'\n'
 name|'DEFINE_string'
@@ -2086,6 +2106,17 @@ string|"'availability zone of this node'"
 op|')'
 newline|'\n'
 nl|'\n'
+name|'DEFINE_list'
+op|'('
+string|"'memcached_servers'"
+op|','
+name|'None'
+op|','
+nl|'\n'
+string|"'Memcached servers or None for in process cache.'"
+op|')'
+newline|'\n'
+nl|'\n'
 name|'DEFINE_string'
 op|'('
 string|"'zone_name'"
@@ -2095,14 +2126,19 @@ op|','
 string|"'name of this zone'"
 op|')'
 newline|'\n'
-name|'DEFINE_string'
+name|'DEFINE_list'
 op|'('
 string|"'zone_capabilities'"
 op|','
-string|"'kypervisor:xenserver;os:linux'"
+nl|'\n'
+op|'['
+string|"'hypervisor=xenserver;kvm'"
+op|','
+string|"'os=linux;windows'"
+op|']'
 op|','
 nl|'\n'
-string|"'Key/Value tags which represent capabilities of this zone'"
+string|"'Key/Multi-value list representng capabilities of this zone'"
 op|')'
 newline|'\n'
 endmarker|''
