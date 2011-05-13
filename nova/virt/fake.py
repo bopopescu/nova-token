@@ -951,7 +951,7 @@ op|':'
 newline|'\n'
 indent|'        '
 name|'return'
-string|"'FAKE CONSOLE OUTPUT'"
+string|"'FAKE CONSOLE\\xffOUTPUT'"
 newline|'\n'
 nl|'\n'
 DECL|member|get_ajax_console
