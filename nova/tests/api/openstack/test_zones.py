@@ -499,6 +499,7 @@ name|'return'
 name|'GLOBAL_BUILD_PLAN'
 newline|'\n'
 nl|'\n'
+nl|'\n'
 DECL|class|ZonesTest
 dedent|''
 name|'class'
