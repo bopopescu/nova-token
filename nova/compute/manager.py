@@ -237,7 +237,18 @@ nl|'\n'
 string|"'Autoassigning floating ip to VM'"
 op|')'
 newline|'\n'
+name|'flags'
+op|'.'
+name|'DEFINE_integer'
+op|'('
+string|"'host_state_interval'"
+op|','
+number|'120'
+op|','
 nl|'\n'
+string|"'Interval in seconds for querying the host status'"
+op|')'
+newline|'\n'
 nl|'\n'
 DECL|variable|LOG
 name|'LOG'
