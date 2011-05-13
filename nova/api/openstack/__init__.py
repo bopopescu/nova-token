@@ -566,7 +566,6 @@ nl|'\n'
 string|"'select'"
 op|':'
 string|"'GET'"
-op|','
 op|'}'
 op|')'
 op|','
