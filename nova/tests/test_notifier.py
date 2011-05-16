@@ -318,7 +318,7 @@ op|')'
 op|','
 nl|'\n'
 op|'('
-string|"'payload'"
+string|"'message'"
 op|','
 name|'dict'
 op|'('
