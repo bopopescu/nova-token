@@ -2111,7 +2111,7 @@ op|'('
 string|"'notification_driver'"
 op|','
 nl|'\n'
-string|"'nova.notifier.no_op_notifier.NoopNotifier'"
+string|"'nova.notifier.no_op_notifier'"
 op|','
 nl|'\n'
 string|"'Default driver for sending notifications'"

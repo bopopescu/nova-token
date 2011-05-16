@@ -210,8 +210,6 @@ op|'.'
 name|'notifier'
 op|'.'
 name|'no_op_notifier'
-op|'.'
-name|'NoopNotifier'
 op|','
 string|"'notify'"
 op|','
@@ -234,8 +232,6 @@ newline|'\n'
 dedent|''
 name|'notify'
 op|'('
-string|"'event_name'"
-op|','
 string|"'publisher_id'"
 op|','
 string|"'event_type'"
@@ -286,8 +282,6 @@ DECL|function|message_assert
 name|'def'
 name|'message_assert'
 op|'('
-name|'cls'
-op|','
 name|'message'
 op|')'
 op|':'
@@ -318,7 +312,7 @@ op|')'
 op|','
 nl|'\n'
 op|'('
-string|"'message'"
+string|"'payload'"
 op|','
 name|'dict'
 op|'('
@@ -394,8 +388,6 @@ op|'.'
 name|'notifier'
 op|'.'
 name|'no_op_notifier'
-op|'.'
-name|'NoopNotifier'
 op|','
 string|"'notify'"
 op|','
@@ -405,8 +397,6 @@ op|')'
 newline|'\n'
 name|'notify'
 op|'('
-string|"'event_name'"
-op|','
 string|"'publisher_id'"
 op|','
 string|"'event_type'"
@@ -454,7 +444,7 @@ op|','
 string|"'notification_driver'"
 op|','
 nl|'\n'
-string|"'nova.notifier.rabbit_notifier.RabbitNotifier'"
+string|"'nova.notifier.rabbit_notifier'"
 op|')'
 newline|'\n'
 name|'self'
@@ -514,8 +504,6 @@ op|')'
 newline|'\n'
 name|'notify'
 op|'('
-string|"'event_name'"
-op|','
 string|"'publisher_id'"
 op|','
 string|"'event_type'"
@@ -619,8 +607,6 @@ op|','
 nl|'\n'
 name|'notify'
 op|','
-string|"'event_name'"
-op|','
 string|"'publisher_id'"
 op|','
 nl|'\n'
@@ -662,7 +648,7 @@ op|','
 string|"'notification_driver'"
 op|','
 nl|'\n'
-string|"'nova.notifier.rabbit_notifier.RabbitNotifier'"
+string|"'nova.notifier.rabbit_notifier'"
 op|')'
 newline|'\n'
 name|'self'
@@ -729,8 +715,6 @@ op|')'
 newline|'\n'
 name|'notify'
 op|'('
-string|"'event_name'"
-op|','
 string|"'publisher_id'"
 op|','
 nl|'\n'
