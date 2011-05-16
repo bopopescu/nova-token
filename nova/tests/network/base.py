@@ -891,6 +891,9 @@ name|'instance_ref'
 op|'['
 string|"'mac_address'"
 op|']'
+op|','
+nl|'\n'
+string|"'test'"
 op|')'
 op|')'
 newline|'\n'
