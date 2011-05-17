@@ -178,6 +178,7 @@ op|'.'
 name|'host_status'
 op|'='
 op|'{'
+nl|'\n'
 string|"'host_name-description'"
 op|':'
 string|"'Fake Host'"
@@ -208,7 +209,7 @@ op|':'
 number|'7900000000'
 op|','
 nl|'\n'
-string|"'host_other-config'"
+string|"'host_other_config'"
 op|':'
 op|'{'
 op|'}'
@@ -245,7 +246,7 @@ op|':'
 string|"'cedb9b39-9388-41df-8891-c5c9a0c0fe5f'"
 op|','
 nl|'\n'
-string|"'host_name-label'"
+string|"'host_name_label'"
 op|':'
 string|"'fake-mini'"
 op|'}'

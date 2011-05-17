@@ -364,23 +364,31 @@ op|'['
 string|"'disk_available'"
 op|']'
 newline|'\n'
-name|'if'
-name|'host_ram_mb'
-op|'>='
+name|'spec_ram'
+op|'='
 name|'instance_type'
 op|'['
 string|"'memory_mb'"
 op|']'
-name|'and'
-name|'disk_bytes'
-op|'>='
+newline|'\n'
+name|'spec_disk'
+op|'='
 name|'instance_type'
 op|'['
 string|"'local_gb'"
 op|']'
+newline|'\n'
+name|'if'
+name|'host_ram_mb'
+op|'>='
+name|'spec_ram'
+name|'and'
+name|'disk_bytes'
+op|'>='
+name|'spec_disk'
 op|':'
 newline|'\n'
-indent|'                    '
+indent|'                '
 name|'selected_hosts'
 op|'.'
 name|'append'
@@ -410,9 +418,9 @@ comment|"#    'host_memory_overhead': 184225792,"
 nl|'\n'
 comment|"#    'host_memory_free': 3868327936,"
 nl|'\n'
-comment|"#    'host_memory_free_computed': 3840843776},"
+comment|"#    'host_memory_free_computed': 3840843776,"
 nl|'\n'
-comment|"#    'host_other-config': {},"
+comment|"#    'host_other_config': {},"
 nl|'\n'
 comment|"#    'host_ip_address': '192.168.1.109',"
 nl|'\n'
@@ -422,11 +430,11 @@ comment|"#    'disk_available': 32954957824,"
 nl|'\n'
 comment|"#    'disk_total': 50394562560,"
 nl|'\n'
-comment|"#    'disk_used': 17439604736},"
+comment|"#    'disk_used': 17439604736,"
 nl|'\n'
 comment|"#    'host_uuid': 'cedb9b39-9388-41df-8891-c5c9a0c0fe5f',"
 nl|'\n'
-comment|"#    'host_name-label': 'xs-mini'}"
+comment|"#    'host_name_label': 'xs-mini'}"
 nl|'\n'
 nl|'\n'
 comment|'# instance_type table has:'
@@ -1498,6 +1506,8 @@ op|'['
 string|"'instance_type'"
 op|']'
 newline|'\n'
+name|'name'
+op|','
 name|'query'
 op|'='
 name|'driver'
@@ -1548,7 +1558,7 @@ number|'1'
 op|','
 name|'hostname'
 op|'='
-name|'hostname'
+name|'host'
 op|')'
 name|'for'
 name|'host'
