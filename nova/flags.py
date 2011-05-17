@@ -522,7 +522,7 @@ name|'self'
 op|'.'
 name|'__dict__'
 op|'['
-string|"'__is_dirty'"
+string|"'__dirty'"
 op|']'
 op|'='
 op|'['
