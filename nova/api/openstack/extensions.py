@@ -2265,7 +2265,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""Provide a way to handle custom request data that is sent to core\n       nova OpenStack API controllers.\n    """'
+string|'"""Extend requests and responses of core nova OpenStack API controllers.\n\n    Provide a way to add data to responses and handle custom request data\n    that is sent to core nova OpenStack API controllers.\n\n    """'
 newline|'\n'
 DECL|member|__init__
 name|'def'
