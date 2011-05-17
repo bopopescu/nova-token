@@ -644,10 +644,6 @@ op|'['
 string|"'token_hash'"
 op|']'
 newline|'\n'
-comment|'# NOTE(vish): the apparrent typo in manageent is actually how it'
-nl|'\n'
-comment|'#             is in the db'
-nl|'\n'
 name|'res'
 op|'.'
 name|'headers'
@@ -657,7 +653,7 @@ op|']'
 op|'='
 name|'token'
 op|'['
-string|"'server_manageent_url'"
+string|"'server_management_url'"
 op|']'
 newline|'\n'
 name|'res'
@@ -980,7 +976,7 @@ name|'url'
 newline|'\n'
 name|'token_dict'
 op|'['
-string|"'server_manageent_url'"
+string|"'server_management_url'"
 op|']'
 op|'='
 name|'os_url'

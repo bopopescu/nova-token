@@ -1156,7 +1156,7 @@ op|'='
 string|"''"
 op|','
 nl|'\n'
-name|'server_manageent_url'
+name|'server_management_url'
 op|'='
 string|"''"
 op|','
