@@ -6108,7 +6108,7 @@ name|'api'
 op|'.'
 name|'API'
 op|','
-string|"'_set_admin_password'"
+string|"'set_admin_password'"
 op|','
 name|'mock_method'
 op|')'
