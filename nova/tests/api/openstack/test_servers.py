@@ -5007,11 +5007,7 @@ newline|'\n'
 nl|'\n'
 name|'image_ref'
 op|'='
-string|"'http://localhost/v1.1/images/2'"
-newline|'\n'
-name|'image_ref_local'
-op|'='
-string|"'2'"
+number|'2'
 newline|'\n'
 name|'flavor_ref'
 op|'='
@@ -5032,7 +5028,7 @@ op|','
 nl|'\n'
 string|"'imageRef'"
 op|':'
-name|'image_ref_local'
+name|'image_ref'
 op|','
 nl|'\n'
 string|"'flavorRef'"
@@ -6782,7 +6778,7 @@ op|'['
 string|"'imageId'"
 op|']'
 op|','
-string|"'10'"
+number|'10'
 op|')'
 newline|'\n'
 name|'self'
@@ -6937,7 +6933,7 @@ op|'['
 string|"'imageRef'"
 op|']'
 op|','
-string|"'http://localhost/v1.1/images/10'"
+number|'10'
 op|')'
 newline|'\n'
 name|'self'
@@ -7217,7 +7213,7 @@ op|'['
 string|"'imageId'"
 op|']'
 op|','
-string|"'10'"
+number|'10'
 op|')'
 newline|'\n'
 name|'self'
