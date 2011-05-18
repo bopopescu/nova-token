@@ -4206,6 +4206,7 @@ op|'('
 op|')'
 newline|'\n'
 nl|'\n'
+nl|'\n'
 DECL|function|get_image_service
 dedent|''
 name|'def'
