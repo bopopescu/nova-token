@@ -3714,11 +3714,11 @@ op|','
 nl|'\n'
 name|'dict'
 op|'('
-name|'instance_type'
+name|'instance_type_id'
 op|'='
 name|'instance_type'
 op|'['
-string|"'name'"
+string|"'id'"
 op|']'
 op|','
 nl|'\n'
