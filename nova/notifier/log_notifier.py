@@ -45,6 +45,7 @@ name|'as'
 name|'logging'
 newline|'\n'
 nl|'\n'
+nl|'\n'
 DECL|variable|FLAGS
 name|'FLAGS'
 op|'='
