@@ -1878,14 +1878,6 @@ string|"'gateway'"
 op|']'
 op|','
 nl|'\n'
-string|"'gateway6'"
-op|':'
-name|'network'
-op|'['
-string|"'gateway_v6'"
-op|']'
-op|','
-nl|'\n'
 string|"'broadcast'"
 op|':'
 name|'network'

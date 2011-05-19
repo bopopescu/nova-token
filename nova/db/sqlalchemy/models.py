@@ -1163,6 +1163,12 @@ name|'project_id'
 op|')'
 newline|'\n'
 nl|'\n'
+comment|"#TODO{tr3buchet): i don't like this shim....."
+nl|'\n'
+comment|'# prevents breaking ec2 api'
+nl|'\n'
+comment|"# should go away with zones when ec2 api doesn't have compute db access"
+nl|'\n'
 dedent|''
 op|'@'
 name|'property'

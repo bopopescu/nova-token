@@ -5172,7 +5172,13 @@ op|','
 nl|'\n'
 name|'instance'
 op|'['
+string|"'fixed_ip'"
+op|']'
+op|'['
 string|"'mac_address'"
+op|']'
+op|'['
+string|"'address'"
 op|']'
 op|')'
 newline|'\n'
