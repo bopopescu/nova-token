@@ -2119,6 +2119,17 @@ string|"'availability zone of this node'"
 op|')'
 newline|'\n'
 nl|'\n'
+name|'DEFINE_string'
+op|'('
+string|"'notification_driver'"
+op|','
+nl|'\n'
+string|"'nova.notifier.no_op_notifier'"
+op|','
+nl|'\n'
+string|"'Default driver for sending notifications'"
+op|')'
+newline|'\n'
 name|'DEFINE_list'
 op|'('
 string|"'memcached_servers'"
