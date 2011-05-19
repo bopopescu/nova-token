@@ -416,7 +416,7 @@ string|"'application/xml'"
 op|':'
 name|'wsgi'
 op|'.'
-name|'XMLSerializer'
+name|'XMLDictSerializer'
 op|'('
 name|'xmlns'
 op|'='
