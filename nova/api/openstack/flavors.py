@@ -409,11 +409,11 @@ op|')'
 newline|'\n'
 nl|'\n'
 nl|'\n'
-DECL|function|resource_factory
+DECL|function|create_resource
 dedent|''
 dedent|''
 name|'def'
-name|'resource_factory'
+name|'create_resource'
 op|'('
 name|'version'
 op|'='
