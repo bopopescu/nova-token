@@ -598,10 +598,11 @@ string|"'fake'"
 newline|'\n'
 name|'inst'
 op|'['
-string|"'instance_type'"
+string|"'instance_type_id'"
 op|']'
 op|'='
-string|"'m1.tiny'"
+string|"'2'"
+comment|'# m1.tiny'
 newline|'\n'
 name|'inst'
 op|'['
@@ -898,7 +899,7 @@ name|'assertRaises'
 op|'('
 name|'exception'
 op|'.'
-name|'Error'
+name|'VolumeNotFound'
 op|','
 nl|'\n'
 name|'db'
