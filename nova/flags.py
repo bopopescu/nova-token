@@ -2079,19 +2079,6 @@ nl|'\n'
 string|"'The service to use for retrieving and searching for images.'"
 op|')'
 newline|'\n'
-name|'DEFINE_string'
-op|'('
-string|"'glance_image_service'"
-op|','
-string|"'nova.image.glance.GlanceImageService'"
-op|','
-nl|'\n'
-string|"'The service to use for retrieving and searching for '"
-op|'+'
-nl|'\n'
-string|"'glance images.'"
-op|')'
-newline|'\n'
 nl|'\n'
 name|'DEFINE_string'
 op|'('
