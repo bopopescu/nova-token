@@ -561,9 +561,13 @@ op|','
 string|"'info'"
 op|':'
 string|"'GET'"
+op|','
+nl|'\n'
+string|"'select'"
+op|':'
+string|"'GET'"
 op|'}'
 op|')'
-op|','
 newline|'\n'
 nl|'\n'
 name|'mapper'
