@@ -568,7 +568,6 @@ op|':'
 string|"'GET'"
 op|'}'
 op|')'
-op|','
 newline|'\n'
 nl|'\n'
 name|'mapper'
