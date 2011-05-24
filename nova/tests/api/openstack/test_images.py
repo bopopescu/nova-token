@@ -844,7 +844,7 @@ op|'='
 op|'{'
 string|"'name'"
 op|':'
-string|"'test image'"
+name|'name'
 op|','
 nl|'\n'
 string|"'updated'"
