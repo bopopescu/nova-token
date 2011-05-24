@@ -2461,7 +2461,7 @@ newline|'\n'
 name|'kwargs'
 op|'='
 op|'{'
-string|"'image_id'"
+string|"'image_ref'"
 op|':'
 string|"'ami-1'"
 op|','
@@ -2598,7 +2598,7 @@ indent|'        '
 name|'kwargs'
 op|'='
 op|'{'
-string|"'image_id'"
+string|"'image_ref'"
 op|':'
 string|"'ami-1'"
 op|'}'
