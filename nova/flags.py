@@ -1871,13 +1871,13 @@ string|"' but to use a raw disk image instead'"
 op|')'
 newline|'\n'
 nl|'\n'
-name|'DEFINE_string'
+name|'DEFINE_integer'
 op|'('
 string|"'vpn_image_id'"
 op|','
-string|"'ami-cloudpipe'"
+number|'0'
 op|','
-string|"'AMI for cloudpipe vpn server'"
+string|"'integer id for cloudpipe vpn server'"
 op|')'
 newline|'\n'
 name|'DEFINE_string'
@@ -2103,6 +2103,28 @@ string|"'nova'"
 op|','
 nl|'\n'
 string|"'availability zone of this node'"
+op|')'
+newline|'\n'
+nl|'\n'
+name|'DEFINE_string'
+op|'('
+string|"'notification_driver'"
+op|','
+nl|'\n'
+string|"'nova.notifier.no_op_notifier'"
+op|','
+nl|'\n'
+string|"'Default driver for sending notifications'"
+op|')'
+newline|'\n'
+name|'DEFINE_list'
+op|'('
+string|"'memcached_servers'"
+op|','
+name|'None'
+op|','
+nl|'\n'
+string|"'Memcached servers or None for in process cache.'"
 op|')'
 newline|'\n'
 nl|'\n'
