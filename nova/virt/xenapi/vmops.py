@@ -7131,6 +7131,8 @@ op|'.'
 name|'write'
 op|'('
 name|'text'
+op|'+'
+string|"'\\n'"
 op|')'
 newline|'\n'
 name|'proc'
