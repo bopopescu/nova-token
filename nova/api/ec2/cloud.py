@@ -6285,6 +6285,8 @@ name|'exception'
 op|'.'
 name|'ImageNotFound'
 op|'('
+name|'image_id'
+op|'='
 name|'kwargs'
 op|'['
 string|"'image_id'"

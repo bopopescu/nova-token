@@ -1834,6 +1834,8 @@ name|'exception'
 op|'.'
 name|'ImageNotFound'
 op|'('
+name|'image_id'
+op|'='
 string|"'bad_image_id'"
 op|')'
 newline|'\n'
