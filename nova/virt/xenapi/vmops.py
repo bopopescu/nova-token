@@ -7182,6 +7182,11 @@ op|'.'
 name|'read'
 op|'('
 op|')'
+op|'.'
+name|'strip'
+op|'('
+string|"'\\n'"
+op|')'
 newline|'\n'
 nl|'\n'
 DECL|member|encrypt
