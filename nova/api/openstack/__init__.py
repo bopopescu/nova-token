@@ -568,7 +568,6 @@ op|':'
 string|"'POST'"
 op|'}'
 op|')'
-op|','
 newline|'\n'
 nl|'\n'
 name|'mapper'
