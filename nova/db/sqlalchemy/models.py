@@ -4295,6 +4295,7 @@ string|"'InstanceMetadata.deleted == False)'"
 op|')'
 newline|'\n'
 nl|'\n'
+nl|'\n'
 DECL|class|InstanceTypeMetadata
 dedent|''
 name|'class'
@@ -4360,6 +4361,8 @@ op|'('
 string|"'instance_types.id'"
 op|')'
 op|','
+nl|'\n'
+DECL|variable|nullable
 name|'nullable'
 op|'='
 name|'False'
