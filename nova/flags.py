@@ -2111,12 +2111,23 @@ op|'('
 string|"'notification_driver'"
 op|','
 nl|'\n'
-string|"'nova.notifier.no_op_notifier.NoopNotifier'"
+string|"'nova.notifier.no_op_notifier'"
 op|','
 nl|'\n'
 string|"'Default driver for sending notifications'"
 op|')'
 newline|'\n'
+name|'DEFINE_list'
+op|'('
+string|"'memcached_servers'"
+op|','
+name|'None'
+op|','
+nl|'\n'
+string|"'Memcached servers or None for in process cache.'"
+op|')'
+newline|'\n'
+nl|'\n'
 name|'DEFINE_string'
 op|'('
 string|"'zone_name'"
