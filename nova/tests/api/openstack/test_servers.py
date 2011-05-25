@@ -6028,12 +6028,6 @@ nl|'\n'
 name|'display_name'
 op|'='
 string|"'server_test'"
-op|','
-nl|'\n'
-name|'admin_pass'
-op|'='
-string|"'bacon'"
-op|','
 nl|'\n'
 op|')'
 newline|'\n'
