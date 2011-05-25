@@ -4365,12 +4365,12 @@ op|'='
 name|'False'
 op|')'
 newline|'\n'
-DECL|variable|instance
-name|'instance'
+DECL|variable|instance_type
+name|'instance_type'
 op|'='
 name|'relationship'
 op|'('
-name|'InstanceType'
+name|'InstanceTypes'
 op|','
 name|'backref'
 op|'='
@@ -4388,7 +4388,7 @@ name|'primaryjoin'
 op|'='
 string|"'and_('"
 nl|'\n'
-string|"'InstanceTypeMetadata.instance_type_id == InstanceType.id,'"
+string|"'InstanceTypeMetadata.instance_type_id == InstanceTypes.id,'"
 nl|'\n'
 string|"'InstanceTypeMetadata.deleted == False)'"
 op|')'
