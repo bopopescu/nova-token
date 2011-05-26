@@ -117,15 +117,6 @@ op|'['
 string|"'name'"
 op|','
 string|"'status'"
-op|','
-string|"'container_format'"
-op|','
-string|"'disk_format'"
-op|','
-nl|'\n'
-string|"'size_min'"
-op|','
-string|"'size_max'"
 op|']'
 newline|'\n'
 nl|'\n'
