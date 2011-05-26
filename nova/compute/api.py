@@ -1618,7 +1618,7 @@ op|':'
 name|'instance_type'
 op|','
 nl|'\n'
-string|"'filter_driver'"
+string|"'filter'"
 op|':'
 nl|'\n'
 string|"'nova.scheduler.host_filter.'"

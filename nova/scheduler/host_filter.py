@@ -1456,7 +1456,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""The HostFilterScheduler uses the HostFilter to filter\n    hosts for weighing. The particular filter used may be passed in\n    as an argument or the default will be used.\n\n    request_spec = {\'filter_name\': <Filter name>,\n                    \'instance_type\': <InstanceType dict>}\n    """'
+string|'"""The HostFilterScheduler uses the HostFilter to filter\n    hosts for weighing. The particular filter used may be passed in\n    as an argument or the default will be used.\n\n    request_spec = {\'filter\': <Filter name>,\n                    \'instance_type\': <InstanceType dict>}\n    """'
 newline|'\n'
 nl|'\n'
 DECL|member|filter_hosts
@@ -1480,7 +1480,7 @@ name|'request_spec'
 op|'.'
 name|'get'
 op|'('
-string|"'filter_name'"
+string|"'filter'"
 op|','
 name|'None'
 op|')'
