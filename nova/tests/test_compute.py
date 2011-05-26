@@ -490,7 +490,7 @@ op|'}'
 newline|'\n'
 name|'inst'
 op|'['
-string|"'image_id'"
+string|"'image_ref'"
 op|']'
 op|'='
 number|'1'

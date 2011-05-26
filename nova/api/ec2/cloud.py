@@ -923,7 +923,7 @@ name|'image_ec2_id'
 op|'('
 name|'instance_ref'
 op|'['
-string|"'image_id'"
+string|"'image_ref'"
 op|']'
 op|')'
 newline|'\n'
@@ -5175,7 +5175,7 @@ indent|'                '
 name|'if'
 name|'instance'
 op|'['
-string|"'image_id'"
+string|"'image_ref'"
 op|']'
 op|'=='
 name|'str'
@@ -5230,7 +5230,7 @@ name|'image_ec2_id'
 op|'('
 name|'instance'
 op|'['
-string|"'image_id'"
+string|"'image_ref'"
 op|']'
 op|')'
 newline|'\n'

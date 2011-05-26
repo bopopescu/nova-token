@@ -1252,7 +1252,7 @@ name|'is_vpn'
 op|'='
 name|'instance_ref'
 op|'['
-string|"'image_id'"
+string|"'image_ref'"
 op|']'
 op|'=='
 name|'str'

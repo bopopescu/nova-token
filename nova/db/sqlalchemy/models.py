@@ -1163,9 +1163,9 @@ name|'project_id'
 op|')'
 newline|'\n'
 nl|'\n'
-DECL|variable|image_id
+DECL|variable|image_ref
 dedent|''
-name|'image_id'
+name|'image_ref'
 op|'='
 name|'Column'
 op|'('
@@ -1198,7 +1198,7 @@ op|')'
 op|')'
 newline|'\n'
 nl|'\n'
-comment|"#    image_id = Column(Integer, ForeignKey('images.id'), nullable=True)"
+comment|"#    image_ref = Column(Integer, ForeignKey('images.id'), nullable=True)"
 nl|'\n'
 comment|"#    kernel_id = Column(Integer, ForeignKey('images.id'), nullable=True)"
 nl|'\n'

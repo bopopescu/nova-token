@@ -1254,7 +1254,7 @@ string|"'r'"
 op|')'
 op|','
 nl|'\n'
-string|"'image_id'"
+string|"'image_ref'"
 op|':'
 name|'image_href'
 op|','
