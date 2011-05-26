@@ -2394,7 +2394,7 @@ name|'audit'
 op|'('
 name|'_'
 op|'('
-string|'"Blocking traffic to all projects incoming from %s"'
+string|"'Blocking traffic to all projects incoming from %s'"
 op|')'
 op|','
 nl|'\n'
@@ -2448,15 +2448,15 @@ op|'.'
 name|'update'
 op|'('
 op|'{'
-string|'"protocol"'
+string|"'protocol'"
 op|':'
-string|'"tcp"'
+string|"'tcp'"
 op|','
-string|'"from_port"'
+string|"'from_port'"
 op|':'
 number|'1'
 op|','
-string|'"to_port"'
+string|"'to_port'"
 op|':'
 number|'65535'
 op|'}'
@@ -2475,15 +2475,15 @@ op|'.'
 name|'update'
 op|'('
 op|'{'
-string|'"protocol"'
+string|"'protocol'"
 op|':'
-string|'"udp"'
+string|"'udp'"
 op|','
-string|'"from_port"'
+string|"'from_port'"
 op|':'
 number|'1'
 op|','
-string|'"to_port"'
+string|"'to_port'"
 op|':'
 number|'65535'
 op|'}'
@@ -2502,17 +2502,17 @@ op|'.'
 name|'update'
 op|'('
 op|'{'
-string|'"protocol"'
+string|"'protocol'"
 op|':'
-string|'"icmp"'
+string|"'icmp'"
 op|','
-string|'"from_port"'
+string|"'from_port'"
 op|':'
 op|'-'
 number|'1'
 op|','
 nl|'\n'
-string|'"to_port"'
+string|"'to_port'"
 op|':'
 name|'None'
 op|'}'
@@ -2639,7 +2639,9 @@ string|"'OK'"
 op|','
 string|"'message'"
 op|':'
-string|"'Disabled (number) IPs'"
+string|"'Added %s rules'"
+op|'%'
+name|'rules_added'
 op|'}'
 newline|'\n'
 dedent|''
