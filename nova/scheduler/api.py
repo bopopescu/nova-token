@@ -391,10 +391,10 @@ op|')'
 newline|'\n'
 nl|'\n'
 nl|'\n'
-DECL|function|get_scheduler_rules
+DECL|function|should_create_all_at_once
 dedent|''
 name|'def'
-name|'get_scheduler_rules'
+name|'should_create_all_at_once'
 op|'('
 name|'context'
 op|')'
@@ -406,7 +406,7 @@ newline|'\n'
 name|'return'
 name|'_call_scheduler'
 op|'('
-string|"'get_scheduler_rules'"
+string|"'should_create_all_at_once'"
 op|','
 name|'context'
 op|'='
