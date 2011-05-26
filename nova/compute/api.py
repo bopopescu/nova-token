@@ -2226,11 +2226,11 @@ op|')'
 op|','
 nl|'\n'
 op|'{'
-string|'"method"'
+string|"'method'"
 op|':'
-string|'"refresh_provider_fw_rules"'
+string|"'refresh_provider_fw_rules'"
 op|','
-string|'"args"'
+string|"'args'"
 op|':'
 op|'{'
 op|'}'
