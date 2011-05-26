@@ -2323,6 +2323,14 @@ op|','
 name|'instance_id'
 op|')'
 newline|'\n'
+comment|"# 'download_vhd' will return a json encoded string containing"
+nl|'\n'
+comment|'# a list of dictionaries describing VDIs.  The dictionary will'
+nl|'\n'
+comment|"# contain 'vdi_type' and 'vdi_uuid' keys.  'vdi_type' can be"
+nl|'\n'
+comment|"# 'os' or 'swap' right now."
+nl|'\n'
 name|'vdis'
 op|'='
 name|'json'
