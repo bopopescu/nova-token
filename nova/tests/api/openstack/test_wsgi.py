@@ -1506,10 +1506,10 @@ op|'.'
 name|'serialize'
 op|','
 nl|'\n'
-string|"'application/unknown'"
-op|','
 op|'{'
 op|'}'
+op|','
+string|"'application/unknown'"
 op|')'
 newline|'\n'
 nl|'\n'
