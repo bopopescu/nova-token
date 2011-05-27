@@ -4130,6 +4130,7 @@ op|'['
 string|"'volume_name'"
 op|']'
 op|','
+nl|'\n'
 name|'snapshot'
 op|'['
 string|"'name'"
@@ -4145,7 +4146,6 @@ string|"'name'"
 op|']'
 op|')'
 newline|'\n'
-nl|'\n'
 nl|'\n'
 DECL|member|delete_volume
 dedent|''
