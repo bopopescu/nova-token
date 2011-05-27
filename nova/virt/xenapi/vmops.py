@@ -7263,6 +7263,23 @@ name|'dec_flag'
 op|'='
 string|"' -d'"
 newline|'\n'
+comment|"# When decoding base64, we need to make sure there's a"
+nl|'\n'
+comment|"# single '\\n' at the end of the base64 encoded data."
+nl|'\n'
+comment|"# It's kinda dumb that openssl wants to see a newline"
+nl|'\n'
+name|'text'
+op|'='
+name|'text'
+op|'.'
+name|'strip'
+op|'('
+string|"'\\n'"
+op|')'
+op|'+'
+string|"'\\n'"
+newline|'\n'
 dedent|''
 name|'else'
 op|':'
@@ -7301,8 +7318,6 @@ op|'.'
 name|'write'
 op|'('
 name|'text'
-op|'+'
-string|"'\\n'"
 op|')'
 newline|'\n'
 name|'proc'
