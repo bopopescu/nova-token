@@ -927,14 +927,13 @@ op|'('
 string|"'volume'"
 op|')'
 newline|'\n'
-comment|"# NOTE(justinsb): There's a bug here which is eluding me..."
-nl|'\n'
-comment|'# If we start the network_service, all is good, but then subsequent'
-nl|'\n'
-comment|'# tests fail: CloudTestCase.test_ajax_console in particular.'
-nl|'\n'
-comment|"#self.start_service('network')"
-nl|'\n'
+name|'self'
+op|'.'
+name|'start_service'
+op|'('
+string|"'network'"
+op|')'
+newline|'\n'
 name|'self'
 op|'.'
 name|'start_service'
