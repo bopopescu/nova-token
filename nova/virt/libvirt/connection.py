@@ -2158,7 +2158,7 @@ op|'('
 nl|'\n'
 name|'instance'
 op|'['
-string|"'image_id'"
+string|"'image_ref'"
 op|']'
 op|')'
 newline|'\n'
@@ -4636,7 +4636,7 @@ string|"'image_id'"
 op|':'
 name|'inst'
 op|'['
-string|"'image_id'"
+string|"'image_ref'"
 op|']'
 op|','
 nl|'\n'
@@ -5266,7 +5266,7 @@ name|'img_id'
 op|'='
 name|'inst'
 op|'.'
-name|'image_id'
+name|'image_ref'
 newline|'\n'
 name|'if'
 name|'key'
