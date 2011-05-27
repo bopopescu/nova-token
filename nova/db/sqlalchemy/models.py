@@ -4377,7 +4377,7 @@ name|'InstanceTypes'
 op|','
 name|'backref'
 op|'='
-string|'"metadata"'
+string|'"meta"'
 op|','
 nl|'\n'
 DECL|variable|foreign_keys
