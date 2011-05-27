@@ -117,7 +117,7 @@ op|','
 string|"'snapshot-%08x'"
 op|','
 nl|'\n'
-string|"'Template string to be used to generate instance names'"
+string|"'Template string to be used to generate snapshot names'"
 op|')'
 newline|'\n'
 nl|'\n'
