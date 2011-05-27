@@ -7320,7 +7320,7 @@ newline|'\n'
 indent|'        '
 name|'cmd'
 op|'='
-string|"'enc -aes-128-cbc -a -pass pass:%s -nosalt'"
+string|"'enc -aes-128-cbc -a -A -pass pass:%s -nosalt'"
 op|'%'
 name|'self'
 op|'.'
