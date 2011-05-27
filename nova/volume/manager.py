@@ -1042,6 +1042,7 @@ op|'['
 string|"'id'"
 op|']'
 op|','
+nl|'\n'
 name|'model_update'
 op|')'
 newline|'\n'

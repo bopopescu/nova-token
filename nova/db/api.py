@@ -117,7 +117,7 @@ op|','
 string|"'snapshot-%08x'"
 op|','
 nl|'\n'
-string|"'Template string to be used to generate instance names'"
+string|"'Template string to be used to generate snapshot names'"
 op|')'
 newline|'\n'
 nl|'\n'
@@ -1680,7 +1680,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""Get (instance_count, core_count) for project."""'
+string|'"""Get (instance_count, total_cores, total_ram) for project."""'
 newline|'\n'
 name|'return'
 name|'IMPL'
