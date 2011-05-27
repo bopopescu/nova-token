@@ -7252,7 +7252,7 @@ newline|'\n'
 dedent|''
 name|'cmd'
 op|'='
-string|"'enc -aes-128-cbc -a -pass pass:%s -nosalt %s'"
+string|"'enc -aes-128-cbc -A -a -pass pass:%s -nosalt %s'"
 op|'%'
 op|'('
 nl|'\n'
