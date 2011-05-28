@@ -1208,7 +1208,7 @@ name|'inst_type'
 newline|'\n'
 name|'inst'
 op|'['
-string|"'image_id'"
+string|"'image_ref'"
 op|']'
 op|'='
 name|'image_href'

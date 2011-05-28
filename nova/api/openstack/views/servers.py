@@ -630,7 +630,7 @@ op|':'
 newline|'\n'
 indent|'        '
 name|'if'
-string|"'image_id'"
+string|"'image_ref'"
 name|'in'
 name|'dict'
 op|'('
@@ -648,7 +648,7 @@ name|'int'
 op|'('
 name|'inst'
 op|'['
-string|"'image_id'"
+string|"'image_ref'"
 op|']'
 op|')'
 newline|'\n'
@@ -768,7 +768,7 @@ op|':'
 newline|'\n'
 indent|'        '
 name|'if'
-string|"'image_id'"
+string|"'image_ref'"
 name|'in'
 name|'dict'
 op|'('
@@ -781,7 +781,7 @@ name|'image_href'
 op|'='
 name|'inst'
 op|'['
-string|"'image_id'"
+string|"'image_ref'"
 op|']'
 newline|'\n'
 name|'if'
