@@ -558,6 +558,7 @@ string|"'detail'"
 op|':'
 string|"'GET'"
 op|','
+nl|'\n'
 string|"'info'"
 op|':'
 string|"'GET'"
@@ -566,6 +567,12 @@ nl|'\n'
 string|"'select'"
 op|':'
 string|"'POST'"
+op|','
+nl|'\n'
+string|"'boot'"
+op|':'
+string|"'POST'"
+nl|'\n'
 op|'}'
 op|')'
 newline|'\n'
