@@ -419,6 +419,7 @@ op|'('
 string|"'Failed to get metadata for ip: %s'"
 op|')'
 op|','
+nl|'\n'
 name|'remote_address'
 op|')'
 newline|'\n'
