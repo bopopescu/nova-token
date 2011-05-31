@@ -1248,7 +1248,6 @@ name|'return'
 name|'fixtures'
 newline|'\n'
 nl|'\n'
-nl|'\n'
 DECL|member|fake_get_image_meta
 dedent|''
 name|'def'
