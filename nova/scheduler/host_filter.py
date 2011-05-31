@@ -989,7 +989,6 @@ string|"'$compute.disk_available'"
 op|','
 name|'required_disk'
 op|']'
-nl|'\n'
 op|']'
 newline|'\n'
 name|'return'
