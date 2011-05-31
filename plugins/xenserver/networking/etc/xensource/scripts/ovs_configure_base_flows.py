@@ -110,9 +110,9 @@ string|"'/usr/bin/ovs-vsctl'"
 op|','
 string|"'get'"
 op|','
+nl|'\n'
 string|"'Interface'"
 op|','
-nl|'\n'
 name|'phys_dev_name'
 op|','
 string|"'ofport'"
@@ -122,9 +122,9 @@ nl|'\n'
 comment|'# these flows are lower priority than all VM-specific flows.'
 nl|'\n'
 nl|'\n'
-comment|'# allow all traffic from the physical NIC, as it is trusted (i.e., from a'
+comment|'# allow all traffic from the physical NIC, as it is trusted (i.e.,'
 nl|'\n'
-comment|'# filtered vif, or from the physical infrastructure'
+comment|'# from a filtered vif, or from the physical infrastructure)'
 nl|'\n'
 name|'ovs_ofctl'
 op|'('
