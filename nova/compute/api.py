@@ -1665,7 +1665,6 @@ nl|'\n'
 string|"'nova.scheduler.host_filter.'"
 nl|'\n'
 string|"'InstanceTypeFilter'"
-nl|'\n'
 op|'}'
 op|','
 nl|'\n'

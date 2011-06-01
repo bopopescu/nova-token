@@ -6028,7 +6028,6 @@ nl|'\n'
 name|'display_name'
 op|'='
 string|"'server_test'"
-nl|'\n'
 op|')'
 newline|'\n'
 name|'self'
