@@ -1292,7 +1292,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""\n    Unit tests for the `nova.api.openstack.common.get_pagination_params` \n    method which takes in a request object and returns \'marker\' and \'limit\' \n    GET params.\n    """'
+string|'"""\n    Unit tests for the `nova.api.openstack.common.get_pagination_params`\n    method which takes in a request object and returns \'marker\' and \'limit\'\n    GET params.\n    """'
 newline|'\n'
 nl|'\n'
 DECL|member|test_no_params
