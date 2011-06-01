@@ -1685,6 +1685,15 @@ op|','
 string|"'rabbit port'"
 op|')'
 newline|'\n'
+name|'DEFINE_bool'
+op|'('
+string|"'rabbit_use_ssl'"
+op|','
+name|'False'
+op|','
+string|"'connect over SSL'"
+op|')'
+newline|'\n'
 name|'DEFINE_string'
 op|'('
 string|"'rabbit_userid'"
