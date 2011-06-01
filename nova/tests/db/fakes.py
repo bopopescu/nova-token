@@ -220,6 +220,7 @@ nl|'\n'
 string|"'netmask'"
 op|':'
 string|"'255.255.255.0'"
+op|','
 nl|'\n'
 string|"'cidr_v6'"
 op|':'
@@ -229,6 +230,7 @@ nl|'\n'
 string|"'netmask_v6'"
 op|':'
 string|"'64'"
+op|','
 nl|'\n'
 string|"'project_id'"
 op|':'
