@@ -272,7 +272,7 @@ op|','
 nl|'\n'
 string|"'host'"
 op|':'
-string|"'fake'"
+name|'host'
 op|'}'
 newline|'\n'
 nl|'\n'
