@@ -6018,7 +6018,6 @@ name|'filtered_dict'
 op|'='
 name|'dict'
 op|'('
-nl|'\n'
 name|'display_name'
 op|'='
 string|"'server_test'"
