@@ -82,6 +82,5 @@ comment|'#    def setUp(self):'
 nl|'\n'
 comment|'#        super(FlatNetworkTestCase, self).setUp()'
 nl|'\n'
-nl|'\n'
 endmarker|''
 end_unit
