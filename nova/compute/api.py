@@ -3022,6 +3022,11 @@ name|'context'
 op|'.'
 name|'user_id'
 op|')'
+op|','
+nl|'\n'
+string|"'image_state'"
+op|':'
+string|"'creating'"
 op|'}'
 newline|'\n'
 name|'sent_meta'
@@ -3036,6 +3041,10 @@ op|':'
 name|'False'
 op|','
 nl|'\n'
+string|"'status'"
+op|':'
+string|"'creating'"
+op|','
 string|"'properties'"
 op|':'
 name|'properties'
