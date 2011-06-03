@@ -28,7 +28,7 @@ comment|'#    WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. S
 nl|'\n'
 comment|'#    License for the specific language governing permissions and limitations'
 nl|'\n'
-comment|'#    under the License.import datetime'
+comment|'#    under the License.'
 nl|'\n'
 nl|'\n'
 string|'"""Contrib contains extensions that are shipped with nova.\n\nIt can\'t be called \'extensions\' because that causes namespacing problems.\n\n"""'
