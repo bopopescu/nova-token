@@ -486,7 +486,7 @@ nl|'\n'
 name|'if'
 name|'instance'
 op|'['
-string|"'image_id'"
+string|"'image_ref'"
 op|']'
 op|'=='
 name|'str'
@@ -1296,7 +1296,7 @@ indent|'        '
 name|'if'
 name|'instance'
 op|'['
-string|"'image_id'"
+string|"'image_ref'"
 op|']'
 op|'=='
 name|'str'

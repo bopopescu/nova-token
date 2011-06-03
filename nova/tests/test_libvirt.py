@@ -1087,7 +1087,7 @@ op|':'
 string|"'br101'"
 op|','
 nl|'\n'
-string|"'image_id'"
+string|"'image_ref'"
 op|':'
 string|"'123456'"
 op|','
