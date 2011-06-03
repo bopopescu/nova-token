@@ -2134,7 +2134,7 @@ op|':'
 string|"'a'"
 op|','
 nl|'\n'
-string|"'image_id'"
+string|"'image_ref'"
 op|':'
 number|'1'
 op|','
@@ -2161,7 +2161,7 @@ op|':'
 string|"'a'"
 op|','
 nl|'\n'
-string|"'image_id'"
+string|"'image_ref'"
 op|':'
 number|'1'
 op|','
@@ -3842,7 +3842,7 @@ op|':'
 string|"'a'"
 op|','
 nl|'\n'
-string|"'image_id'"
+string|"'image_ref'"
 op|':'
 number|'1'
 op|','

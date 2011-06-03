@@ -326,11 +326,11 @@ string|"'r'"
 op|')'
 op|','
 nl|'\r\n'
-string|"'image_id'"
+string|"'image_ref'"
 op|':'
 name|'values'
 op|'['
-string|"'image_id'"
+string|"'image_ref'"
 op|']'
 op|','
 nl|'\r\n'
