@@ -2131,7 +2131,7 @@ op|':'
 string|"'a'"
 op|','
 nl|'\n'
-string|"'image_id'"
+string|"'image_ref'"
 op|':'
 number|'1'
 op|','
@@ -2158,7 +2158,7 @@ op|':'
 string|"'a'"
 op|','
 nl|'\n'
-string|"'image_id'"
+string|"'image_ref'"
 op|':'
 number|'1'
 op|','
@@ -3988,6 +3988,7 @@ name|'cloud'
 op|'.'
 name|'run_instances'
 newline|'\n'
+nl|'\n'
 DECL|function|fake_show_no_state
 name|'def'
 name|'fake_show_no_state'
@@ -4110,6 +4111,7 @@ name|'cloud'
 op|'.'
 name|'run_instances'
 newline|'\n'
+nl|'\n'
 DECL|function|fake_show_decrypt
 name|'def'
 name|'fake_show_decrypt'
@@ -4222,7 +4224,7 @@ op|':'
 string|"'a'"
 op|','
 nl|'\n'
-string|"'image_id'"
+string|"'image_ref'"
 op|':'
 number|'1'
 op|','
