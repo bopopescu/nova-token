@@ -255,6 +255,8 @@ comment|"# Don't autoload this table since sqlite will have issues when"
 nl|'\n'
 comment|'# adding the column'
 nl|'\n'
+comment|'#TODO(tr3buchet)[wishful thinking]: remove support for sqlite'
+nl|'\n'
 DECL|variable|fixed_ips
 name|'fixed_ips'
 op|'='
