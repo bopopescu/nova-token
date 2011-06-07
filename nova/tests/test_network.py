@@ -95,10 +95,27 @@ string|"'nova.network.manager.FlatManager'"
 newline|'\n'
 nl|'\n'
 nl|'\n'
-comment|'#class FlatDHCPNetworkTestCase(base.NetworkTestCase, base.TestFuncs):'
-nl|'\n'
-comment|"#    network_manager = 'nova.network.manager.FlatDHCPManager'"
-nl|'\n'
+DECL|class|FlatDHCPNetworkTestCase
+dedent|''
+name|'class'
+name|'FlatDHCPNetworkTestCase'
+op|'('
+name|'base'
+op|'.'
+name|'NetworkTestCase'
+op|','
+name|'base'
+op|'.'
+name|'TestFuncs'
+op|')'
+op|':'
+newline|'\n'
+DECL|variable|network_manager
+indent|'    '
+name|'network_manager'
+op|'='
+string|"'nova.network.manager.FlatDHCPManager'"
+newline|'\n'
 nl|'\n'
 nl|'\n'
 DECL|class|VlanNetworkTestCase
