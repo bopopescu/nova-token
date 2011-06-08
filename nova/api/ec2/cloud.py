@@ -5774,7 +5774,7 @@ op|'['
 string|"'fixed_ip'"
 op|']'
 op|'['
-string|"'mac_address'"
+string|"'virtual_interface'"
 op|']'
 op|'['
 string|"'address'"
