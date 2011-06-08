@@ -1758,6 +1758,7 @@ string|"'401 Unauthorized'"
 op|')'
 newline|'\n'
 nl|'\n'
+nl|'\n'
 DECL|class|TestFunctional
 dedent|''
 dedent|''
