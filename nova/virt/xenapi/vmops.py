@@ -1451,32 +1451,12 @@ name|'info'
 op|'('
 name|'_'
 op|'('
-string|"'Latest agent build for %s/%s/%s is %s'"
+string|"'Latest agent build for %(hypervisor)s/%(os)s'"
+op|'+'
+string|"'/%(architecture)s is %(version)s'"
 op|')'
 op|'%'
-op|'('
-nl|'\n'
 name|'agent_build'
-op|'['
-string|"'hypervisor'"
-op|']'
-op|','
-name|'agent_build'
-op|'['
-string|"'os'"
-op|']'
-op|','
-nl|'\n'
-name|'agent_build'
-op|'['
-string|"'architecture'"
-op|']'
-op|','
-name|'agent_build'
-op|'['
-string|"'version'"
-op|']'
-op|')'
 op|')'
 newline|'\n'
 dedent|''
@@ -1490,21 +1470,31 @@ name|'info'
 op|'('
 name|'_'
 op|'('
-string|"'No agent build found for %s/%s/%s'"
+string|"'No agent build found for %(hypervisor)s/%(os)s'"
+op|'+'
+string|"'/%(architecture)s'"
 op|')'
 op|'%'
-op|'('
+op|'{'
 nl|'\n'
+string|"'hypervisor'"
+op|':'
 string|"'xen'"
 op|','
+nl|'\n'
+string|"'os'"
+op|':'
 name|'instance'
 op|'.'
 name|'os_type'
 op|','
+nl|'\n'
+string|"'architecture'"
+op|':'
 name|'instance'
 op|'.'
 name|'architecture'
-op|')'
+op|'}'
 op|')'
 newline|'\n'
 nl|'\n'
