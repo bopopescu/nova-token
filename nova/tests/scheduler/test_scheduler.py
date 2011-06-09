@@ -1845,17 +1845,6 @@ string|"'1'"
 newline|'\n'
 name|'inst'
 op|'['
-string|"'mac_address'"
-op|']'
-op|'='
-name|'utils'
-op|'.'
-name|'generate_mac'
-op|'('
-op|')'
-newline|'\n'
-name|'inst'
-op|'['
 string|"'vcpus'"
 op|']'
 op|'='
