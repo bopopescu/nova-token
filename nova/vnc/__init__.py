@@ -99,5 +99,17 @@ nl|'\n'
 string|"'enable vnc related features'"
 op|')'
 newline|'\n'
+name|'flags'
+op|'.'
+name|'DEFINE_string'
+op|'('
+string|"'vnc_keymap'"
+op|','
+string|"'en-us'"
+op|','
+nl|'\n'
+string|"'keymap for vnc'"
+op|')'
+newline|'\n'
 endmarker|''
 end_unit
