@@ -3864,8 +3864,8 @@ number|'255'
 op|')'
 op|')'
 newline|'\n'
-DECL|variable|server_manageent_url
-name|'server_manageent_url'
+DECL|variable|server_management_url
+name|'server_management_url'
 op|'='
 name|'Column'
 op|'('
