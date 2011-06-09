@@ -1524,15 +1524,11 @@ string|"'glance_api_servers'"
 op|','
 nl|'\n'
 op|'['
-op|'('
-string|"'127.0.0.1'"
-op|','
-number|'9292'
-op|')'
+string|"'127.0.0.1:9292'"
 op|']'
 op|','
 nl|'\n'
-string|"'list of glance servers available to nova'"
+string|"'list of glance api servers available to nova (host:port)'"
 op|')'
 newline|'\n'
 name|'DEFINE_integer'
