@@ -577,7 +577,7 @@ op|','
 nl|'\n'
 string|"'select'"
 op|':'
-string|"'GET'"
+string|"'POST'"
 op|'}'
 op|')'
 newline|'\n'
