@@ -2174,5 +2174,15 @@ nl|'\n'
 string|"'Key/Multi-value list representng capabilities of this zone'"
 op|')'
 newline|'\n'
+name|'DEFINE_string'
+op|'('
+string|"'build_plan_encryption_key'"
+op|','
+name|'None'
+op|','
+nl|'\n'
+string|"'128bit (hex) encryption key for scheduler build plans.'"
+op|')'
+newline|'\n'
 endmarker|''
 end_unit
