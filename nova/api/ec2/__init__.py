@@ -1400,6 +1400,13 @@ string|"'all'"
 op|']'
 op|','
 nl|'\n'
+string|"'ImportPublicKey'"
+op|':'
+op|'['
+string|"'all'"
+op|']'
+op|','
+nl|'\n'
 string|"'AuthorizeSecurityGroupIngress'"
 op|':'
 op|'['
