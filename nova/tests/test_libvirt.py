@@ -7797,7 +7797,6 @@ op|']'
 op|')'
 newline|'\n'
 nl|'\n'
-nl|'\n'
 DECL|member|test_provider_firewall_rules
 dedent|''
 name|'def'
