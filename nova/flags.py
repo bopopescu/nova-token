@@ -1516,22 +1516,19 @@ op|','
 string|"'AWS Access Key'"
 op|')'
 newline|'\n'
-name|'DEFINE_integer'
+comment|"# NOTE(sirp): my_ip interpolation doesn't work within nested structures"
+nl|'\n'
+name|'DEFINE_list'
 op|'('
-string|"'glance_port'"
+string|"'glance_api_servers'"
 op|','
-number|'9292'
+nl|'\n'
+op|'['
+string|"'127.0.0.1:9292'"
+op|']'
 op|','
-string|"'glance port'"
-op|')'
-newline|'\n'
-name|'DEFINE_string'
-op|'('
-string|"'glance_host'"
-op|','
-string|"'$my_ip'"
-op|','
-string|"'glance host'"
+nl|'\n'
+string|"'list of glance api servers available to nova (host:port)'"
 op|')'
 newline|'\n'
 name|'DEFINE_integer'
