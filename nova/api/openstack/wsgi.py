@@ -1257,6 +1257,10 @@ op|'('
 name|'indent'
 op|'='
 string|"'    '"
+op|','
+name|'encoding'
+op|'='
+string|"'utf-8'"
 op|')'
 newline|'\n'
 nl|'\n'
