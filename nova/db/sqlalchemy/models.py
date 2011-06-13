@@ -215,6 +215,11 @@ op|'='
 name|'False'
 op|')'
 newline|'\n'
+DECL|variable|metadata
+name|'metadata'
+op|'='
+name|'None'
+newline|'\n'
 nl|'\n'
 DECL|member|save
 name|'def'
