@@ -6472,11 +6472,6 @@ op|':'
 string|"'fake'"
 op|','
 nl|'\n'
-string|"'mac_address'"
-op|':'
-string|"'56:12:12:12:12:12'"
-op|','
-nl|'\n'
 string|"'instance_type_id'"
 op|':'
 number|'1'
@@ -6484,8 +6479,16 @@ op|'}'
 op|')'
 newline|'\n'
 nl|'\n'
-DECL|member|test_static_filters
 dedent|''
+op|'@'
+name|'test'
+op|'.'
+name|'skip_test'
+op|'('
+string|'"skipping libvirt tests depends on get_network_info shim"'
+op|')'
+newline|'\n'
+DECL|member|test_static_filters
 name|'def'
 name|'test_static_filters'
 op|'('
