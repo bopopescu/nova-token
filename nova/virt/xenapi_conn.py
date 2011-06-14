@@ -2195,7 +2195,6 @@ name|'url'
 op|')'
 newline|'\n'
 nl|'\n'
-nl|'\n'
 DECL|member|_unwrap_plugin_exceptions
 dedent|''
 name|'def'

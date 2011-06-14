@@ -1516,22 +1516,19 @@ op|','
 string|"'AWS Access Key'"
 op|')'
 newline|'\n'
-name|'DEFINE_integer'
+comment|"# NOTE(sirp): my_ip interpolation doesn't work within nested structures"
+nl|'\n'
+name|'DEFINE_list'
 op|'('
-string|"'glance_port'"
+string|"'glance_api_servers'"
 op|','
-number|'9292'
+nl|'\n'
+op|'['
+string|"'127.0.0.1:9292'"
+op|']'
 op|','
-string|"'glance port'"
-op|')'
-newline|'\n'
-name|'DEFINE_string'
-op|'('
-string|"'glance_host'"
-op|','
-string|"'$my_ip'"
-op|','
-string|"'glance host'"
+nl|'\n'
+string|"'list of glance api servers available to nova (host:port)'"
 op|')'
 newline|'\n'
 name|'DEFINE_integer'
@@ -1683,6 +1680,15 @@ op|','
 number|'5672'
 op|','
 string|"'rabbit port'"
+op|')'
+newline|'\n'
+name|'DEFINE_bool'
+op|'('
+string|"'rabbit_use_ssl'"
+op|','
+name|'False'
+op|','
+string|"'connect over SSL'"
 op|')'
 newline|'\n'
 name|'DEFINE_string'
@@ -2162,6 +2168,16 @@ op|']'
 op|','
 nl|'\n'
 string|"'Key/Multi-value list representng capabilities of this zone'"
+op|')'
+newline|'\n'
+name|'DEFINE_string'
+op|'('
+string|"'build_plan_encryption_key'"
+op|','
+name|'None'
+op|','
+nl|'\n'
+string|"'128bit (hex) encryption key for scheduler build plans.'"
 op|')'
 newline|'\n'
 endmarker|''
