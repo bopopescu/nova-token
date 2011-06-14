@@ -1090,6 +1090,7 @@ nl|'\n'
 string|"'blob'"
 op|':'
 string|'"Non-None blob data"'
+op|','
 nl|'\n'
 op|'}'
 newline|'\n'

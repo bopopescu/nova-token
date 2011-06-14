@@ -668,13 +668,6 @@ nl|'\n'
 indent|'                '
 name|'rec'
 op|'['
-string|"'PV_args'"
-op|']'
-op|'='
-string|"'clocksource=jiffies'"
-newline|'\n'
-name|'rec'
-op|'['
 string|"'PV_bootloader'"
 op|']'
 op|'='
