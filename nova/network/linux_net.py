@@ -3766,7 +3766,7 @@ op|','
 nl|'\n'
 name|'fixed_ip_ref'
 op|'['
-string|"'mac_address'"
+string|"'virtual_interface'"
 op|']'
 op|'['
 string|"'address'"
@@ -3814,7 +3814,7 @@ op|'%'
 op|'('
 name|'fixed_ip_ref'
 op|'['
-string|"'mac_address'"
+string|"'virtual_interface'"
 op|']'
 op|'['
 string|"'address'"
