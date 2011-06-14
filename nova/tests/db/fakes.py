@@ -333,6 +333,14 @@ op|':'
 number|'0'
 op|','
 nl|'\n'
+string|"'network'"
+op|':'
+name|'FakeModel'
+op|'('
+name|'network_fields'
+op|')'
+op|','
+nl|'\n'
 string|"'address'"
 op|':'
 string|"'192.168.0.100'"
