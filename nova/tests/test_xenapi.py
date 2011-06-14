@@ -2412,7 +2412,7 @@ op|'['
 string|"'PV_args'"
 op|']'
 op|','
-string|"'clocksource=jiffies'"
+string|"''"
 op|')'
 newline|'\n'
 name|'self'
