@@ -314,6 +314,11 @@ op|':'
 name|'None'
 op|','
 nl|'\n'
+string|"'injected'"
+op|':'
+name|'False'
+op|','
+nl|'\n'
 string|"'vpn_public_address'"
 op|':'
 string|"'192.168.0.2'"
