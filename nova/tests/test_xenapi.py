@@ -2340,11 +2340,6 @@ nl|'\n'
 string|"'mac'"
 op|':'
 string|"'DE:AD:BE:EF:00:00'"
-op|','
-nl|'\n'
-string|"'rxtx_cap'"
-op|':'
-number|'3'
 op|'}'
 op|')'
 newline|'\n'
