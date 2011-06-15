@@ -929,7 +929,7 @@ comment|'# copy_kernel_vdi returns nothing'
 nl|'\n'
 indent|'        '
 name|'if'
-name|'fn'
+name|'method'
 op|'=='
 string|"'copy_kernel_vdi'"
 op|':'
