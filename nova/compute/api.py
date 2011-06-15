@@ -2991,7 +2991,7 @@ string|'"""Get a single instance with the given instance_id."""'
 newline|'\n'
 comment|"# NOTE(sirp): id used to be exclusively integer IDs; now we're"
 nl|'\n'
-comment|'# accepting both UUIDs and integer IDs. The handling of this '
+comment|'# accepting both UUIDs and integer IDs. The handling of this'
 nl|'\n'
 comment|'# is done in db/sqlalchemy/api/instance_get'
 nl|'\n'

@@ -244,7 +244,6 @@ op|')'
 newline|'\n'
 nl|'\n'
 nl|'\n'
-nl|'\n'
 DECL|function|return_server_by_uuid
 dedent|''
 name|'def'
