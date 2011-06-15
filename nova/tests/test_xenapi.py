@@ -2813,7 +2813,7 @@ number|'0'
 op|','
 string|"'injected'"
 op|':'
-name|'False'
+name|'True'
 op|'}'
 op|','
 nl|'\n'
@@ -3465,19 +3465,19 @@ nl|'\n'
 string|"'iface eth0 inet static'"
 op|','
 nl|'\n'
-string|"'address 10.0.0.3'"
+string|"'address 192.168.0.100'"
 op|','
 nl|'\n'
 string|"'netmask 255.255.255.0'"
 op|','
 nl|'\n'
-string|"'broadcast 10.0.0.255'"
+string|"'broadcast 192.168.0.255'"
 op|','
 nl|'\n'
-string|"'gateway 10.0.0.1'"
+string|"'gateway 192.168.0.1'"
 op|','
 nl|'\n'
-string|"'dns-nameservers 10.0.0.2'"
+string|"'dns-nameservers 192.168.0.1'"
 op|','
 nl|'\n'
 string|"''"
