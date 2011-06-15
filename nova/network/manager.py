@@ -2198,6 +2198,14 @@ name|'network'
 op|'['
 string|"'id'"
 op|']'
+op|','
+nl|'\n'
+string|"'injected'"
+op|':'
+name|'network'
+op|'['
+string|"'injected'"
+op|']'
 op|'}'
 newline|'\n'
 name|'info'
