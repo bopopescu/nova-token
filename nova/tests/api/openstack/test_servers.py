@@ -13676,6 +13676,11 @@ op|','
 string|"'display_name'"
 op|':'
 string|"'fakeinstance'"
+op|','
+nl|'\n'
+string|"'uuid'"
+op|':'
+name|'FAKE_UUID'
 op|'}'
 op|']'
 newline|'\n'
