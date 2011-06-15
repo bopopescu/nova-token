@@ -1121,7 +1121,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""Decorator used to indicate that the method should\n       delegate the call the child zones if the db query\n       can\'t find anything."""'
+string|'"""\n    reroute_compute is responsible for trying to lookup a resource in the\n    current zone and if it\'s not found there, delegating the call to the\n    child zones.\n\n    Since reroute_compute will be making \'cross-zone\' calls, the ID for the\n    object must come in as a UUID-- if we receive an integer ID, we bail.\n\n    The steps involved are:\n\n        1. Validate that item_id is UUID like\n\n        2. Lookup item by UUID in the zone local database\n\n        3. If the item was found, then extract integer ID, and pass that to\n           the wrapped method. (This ensures that zone-local code can\n           continue to use integer IDs).\n        \n        4. If the item was not found, we delgate the call to a child zone\n           using the UUID.\n    """'
 newline|'\n'
 DECL|member|__init__
 name|'def'
