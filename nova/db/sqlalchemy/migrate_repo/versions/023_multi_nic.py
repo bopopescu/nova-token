@@ -290,6 +290,10 @@ name|'True'
 op|')'
 op|','
 nl|'\n'
+DECL|variable|mysql_engine
+name|'mysql_engine'
+op|'='
+string|"'InnoDB'"
 op|')'
 newline|'\n'
 nl|'\n'
