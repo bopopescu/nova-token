@@ -547,7 +547,7 @@ name|'fetch'
 op|'('
 name|'instance'
 op|'['
-string|"'image_id'"
+string|"'image_ref'"
 op|']'
 op|','
 name|'vhdfile'
