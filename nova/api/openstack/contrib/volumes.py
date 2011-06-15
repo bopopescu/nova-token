@@ -1690,7 +1690,7 @@ op|':'
 newline|'\n'
 indent|'        '
 name|'return'
-string|'"OS-VOLUMES"'
+string|'"os-volumes"'
 newline|'\n'
 nl|'\n'
 DECL|member|get_description
