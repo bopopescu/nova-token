@@ -4285,6 +4285,10 @@ op|','
 string|"'id'"
 op|':'
 number|'0'
+op|','
+string|"'injected'"
+op|':'
+name|'False'
 op|'}'
 op|','
 nl|'\n'
