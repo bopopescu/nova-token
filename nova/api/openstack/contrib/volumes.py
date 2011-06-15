@@ -1761,7 +1761,7 @@ name|'extensions'
 op|'.'
 name|'ResourceExtension'
 op|'('
-string|"'volumes'"
+string|"'os-volumes'"
 op|','
 nl|'\n'
 name|'VolumeController'
@@ -1792,7 +1792,7 @@ name|'extensions'
 op|'.'
 name|'ResourceExtension'
 op|'('
-string|"'volume_attachments'"
+string|"'os-volume_attachments'"
 op|','
 nl|'\n'
 name|'VolumeAttachmentController'
