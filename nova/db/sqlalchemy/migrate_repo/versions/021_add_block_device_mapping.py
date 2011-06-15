@@ -408,6 +408,8 @@ op|'('
 string|"'volumes.id'"
 op|')'
 op|','
+nl|'\n'
+DECL|variable|nullable
 name|'nullable'
 op|'='
 name|'True'
@@ -521,6 +523,7 @@ op|')'
 newline|'\n'
 name|'raise'
 newline|'\n'
+nl|'\n'
 nl|'\n'
 DECL|function|downgrade
 dedent|''

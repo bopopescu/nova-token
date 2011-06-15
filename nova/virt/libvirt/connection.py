@@ -5748,6 +5748,7 @@ op|'='
 string|"'vdb'"
 comment|"# FIXME for now. it's hard coded."
 newline|'\n'
+nl|'\n'
 DECL|member|_volume_in_mapping
 name|'def'
 name|'_volume_in_mapping'
