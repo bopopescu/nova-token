@@ -1587,6 +1587,7 @@ nl|'\n'
 string|"'num_instances'"
 op|':'
 name|'num_instances'
+op|','
 nl|'\n'
 op|'}'
 newline|'\n'
