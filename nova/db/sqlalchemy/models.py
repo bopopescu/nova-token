@@ -4476,10 +4476,10 @@ op|')'
 newline|'\n'
 nl|'\n'
 nl|'\n'
-DECL|class|InstanceTypeMetadata
+DECL|class|InstanceTypeExtraSpecs
 dedent|''
 name|'class'
-name|'InstanceTypeMetadata'
+name|'InstanceTypeExtraSpecs'
 op|'('
 name|'BASE'
 op|','
@@ -4488,12 +4488,12 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""Represents a metadata key/value pair for an instance_type"""'
+string|'"""Represents additional specs as key/value pairs for an instance_type"""'
 newline|'\n'
 DECL|variable|__tablename__
 name|'__tablename__'
 op|'='
-string|"'instance_type_metadata'"
+string|"'instance_type_extra_specs'"
 newline|'\n'
 DECL|variable|id
 name|'id'
@@ -4557,7 +4557,7 @@ name|'InstanceTypes'
 op|','
 name|'backref'
 op|'='
-string|'"meta"'
+string|'"extra_specs"'
 op|','
 nl|'\n'
 DECL|variable|foreign_keys
@@ -4571,9 +4571,9 @@ name|'primaryjoin'
 op|'='
 string|"'and_('"
 nl|'\n'
-string|"'InstanceTypeMetadata.instance_type_id == InstanceTypes.id,'"
+string|"'InstanceTypeExtraSpecs.instance_type_id == InstanceTypes.id,'"
 nl|'\n'
-string|"'InstanceTypeMetadata.deleted == False)'"
+string|"'InstanceTypeExtraSpecs.deleted == False)'"
 op|')'
 newline|'\n'
 nl|'\n'
