@@ -1524,7 +1524,11 @@ string|"'glance_api_servers'"
 op|','
 nl|'\n'
 op|'['
-string|"'127.0.0.1:9292'"
+string|"'%s:9292'"
+op|'%'
+name|'_get_my_ip'
+op|'('
+op|')'
 op|']'
 op|','
 nl|'\n'
