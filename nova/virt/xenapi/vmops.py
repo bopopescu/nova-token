@@ -1706,15 +1706,6 @@ string|"'md5hash'"
 op|']'
 op|')'
 newline|'\n'
-name|'LOG'
-op|'.'
-name|'info'
-op|'('
-string|"'Agent Update returned: %s'"
-op|'%'
-name|'ret'
-op|')'
-newline|'\n'
 nl|'\n'
 DECL|function|_inject_files
 dedent|''
