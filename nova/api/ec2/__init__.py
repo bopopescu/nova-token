@@ -1635,6 +1635,15 @@ string|"'sysadmin'"
 op|']'
 op|','
 nl|'\n'
+string|"'CreateImage'"
+op|':'
+op|'['
+string|"'projectmanager'"
+op|','
+string|"'sysadmin'"
+op|']'
+op|','
+nl|'\n'
 op|'}'
 op|','
 nl|'\n'
