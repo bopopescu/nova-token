@@ -1686,8 +1686,6 @@ string|"'version'"
 op|']'
 op|')'
 newline|'\n'
-name|'ret'
-op|'='
 name|'self'
 op|'.'
 name|'agent_update'
