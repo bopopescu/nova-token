@@ -285,6 +285,7 @@ name|'uuid'
 op|')'
 newline|'\n'
 nl|'\n'
+nl|'\n'
 DECL|function|return_server_with_addresses
 dedent|''
 name|'def'
