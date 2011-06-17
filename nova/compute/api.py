@@ -1850,8 +1850,6 @@ name|'return'
 name|'instance'
 newline|'\n'
 nl|'\n'
-nl|'\n'
-nl|'\n'
 DECL|member|_ask_scheduler_to_create_instance
 dedent|''
 name|'def'
