@@ -824,7 +824,7 @@ op|'['
 string|"'hostname'"
 op|']'
 op|'='
-string|"'i-00000001'"
+string|"'hostname-1'"
 newline|'\n'
 name|'instance_ref'
 op|'['
