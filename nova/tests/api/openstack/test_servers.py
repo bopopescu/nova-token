@@ -221,7 +221,7 @@ nl|'\n'
 DECL|variable|FAKE_UUID
 name|'FAKE_UUID'
 op|'='
-string|"'abcd-abcd-abcd-abcd'"
+string|"'aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa'"
 newline|'\n'
 nl|'\n'
 nl|'\n'

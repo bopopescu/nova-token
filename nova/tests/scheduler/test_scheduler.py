@@ -185,12 +185,12 @@ nl|'\n'
 DECL|variable|FAKE_UUID_NOT_FOUND
 name|'FAKE_UUID_NOT_FOUND'
 op|'='
-string|"'ffff-ffff-ffff-ffff'"
+string|"'ffffffff-ffff-ffff-ffff-ffffffffffff'"
 newline|'\n'
 DECL|variable|FAKE_UUID
 name|'FAKE_UUID'
 op|'='
-string|"'abcd-abcd-abcd-abcd'"
+string|"'aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa'"
 newline|'\n'
 nl|'\n'
 nl|'\n'
