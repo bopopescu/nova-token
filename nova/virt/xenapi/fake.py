@@ -609,6 +609,11 @@ op|':'
 name|'vdi_ref'
 op|','
 nl|'\n'
+string|"'userdevice'"
+op|':'
+string|"'0'"
+op|','
+nl|'\n'
 string|"'currently_attached'"
 op|':'
 name|'False'
