@@ -3341,7 +3341,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""Represents a virtual interface on an instance"""'
+string|'"""Represents a virtual interface on an instance."""'
 newline|'\n'
 DECL|variable|__tablename__
 name|'__tablename__'

@@ -32,7 +32,7 @@ comment|'#    License for the specific language governing permissions and limita
 nl|'\n'
 comment|'#    under the License.'
 nl|'\n'
-string|'"""\nUnit Tests for network code\n"""'
+string|'"""Unit Tests for network code."""'
 newline|'\n'
 name|'import'
 name|'IPy'
