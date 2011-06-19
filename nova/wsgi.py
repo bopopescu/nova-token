@@ -368,7 +368,7 @@ name|'info'
 op|'('
 name|'_'
 op|'('
-string|"'Starting %(app)s on %(host)s:%(port)s'"
+string|"'Starting %(name)s on %(host)s:%(port)s'"
 op|')'
 op|'%'
 name|'self'
