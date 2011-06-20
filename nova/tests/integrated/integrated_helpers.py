@@ -1052,7 +1052,6 @@ name|'auth_url'
 op|')'
 newline|'\n'
 nl|'\n'
-nl|'\n'
 DECL|member|tearDown
 dedent|''
 name|'def'
