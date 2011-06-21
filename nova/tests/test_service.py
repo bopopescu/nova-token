@@ -2269,6 +2269,7 @@ op|'('
 op|')'
 newline|'\n'
 nl|'\n'
+nl|'\n'
 DECL|class|TestLauncher
 dedent|''
 dedent|''
