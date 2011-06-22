@@ -1375,7 +1375,6 @@ op|')'
 op|')'
 newline|'\n'
 nl|'\n'
-nl|'\n'
 DECL|member|test_update_item_too_many_keys
 dedent|''
 name|'def'

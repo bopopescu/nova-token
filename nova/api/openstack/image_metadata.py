@@ -1114,7 +1114,6 @@ op|')'
 newline|'\n'
 nl|'\n'
 nl|'\n'
-nl|'\n'
 DECL|function|create_resource
 dedent|''
 dedent|''
