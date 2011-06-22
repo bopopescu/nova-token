@@ -169,7 +169,7 @@ op|']'
 op|'.'
 name|'SetDefault'
 op|'('
-string|"'nova.image.local.LocalImageService'"
+string|"'nova.image.fake.FakeImageService'"
 op|')'
 newline|'\n'
 name|'flags'
