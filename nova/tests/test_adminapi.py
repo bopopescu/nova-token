@@ -588,7 +588,6 @@ string|"'message'"
 op|']'
 op|')'
 newline|'\n'
-nl|'\n'
 dedent|''
 dedent|''
 endmarker|''
