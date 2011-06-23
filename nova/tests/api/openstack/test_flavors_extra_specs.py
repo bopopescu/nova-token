@@ -265,8 +265,6 @@ op|'('
 name|'nova'
 op|'.'
 name|'db'
-op|'.'
-name|'api'
 op|','
 string|"'instance_type_extra_specs_get'"
 op|','
