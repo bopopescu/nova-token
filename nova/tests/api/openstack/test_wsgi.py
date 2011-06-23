@@ -59,6 +59,10 @@ op|'.'
 name|'blank'
 op|'('
 string|"'/tests/123'"
+op|','
+name|'method'
+op|'='
+string|"'POST'"
 op|')'
 newline|'\n'
 name|'request'
@@ -101,6 +105,10 @@ op|'.'
 name|'blank'
 op|'('
 string|"'/tests/123'"
+op|','
+name|'method'
+op|'='
+string|"'POST'"
 op|')'
 newline|'\n'
 name|'request'
