@@ -351,7 +351,7 @@ string|"'value1'"
 op|','
 name|'res_dict'
 op|'['
-string|"'metadata'"
+string|"'extra'"
 op|']'
 op|'['
 string|"'key1'"
