@@ -646,7 +646,6 @@ nl|'\n'
 string|"'boot'"
 op|':'
 string|"'POST'"
-nl|'\n'
 op|'}'
 op|')'
 newline|'\n'
