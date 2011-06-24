@@ -434,7 +434,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/flavors/1/flavor_extra_specs'"
+string|"'/flavors/1/extra_specs'"
 op|')'
 newline|'\n'
 name|'res'
@@ -536,7 +536,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/flavors/1/flavor_extra_specs'"
+string|"'/flavors/1/extra_specs'"
 op|')'
 newline|'\n'
 name|'res'
@@ -638,7 +638,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/flavors/1/flavor_extra_specs/key5'"
+string|"'/flavors/1/extra_specs/key5'"
 op|')'
 newline|'\n'
 name|'res'
@@ -737,7 +737,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/flavors/1/flavor_extra_specs/key6'"
+string|"'/flavors/1/extra_specs/key6'"
 op|')'
 newline|'\n'
 name|'res'
@@ -810,7 +810,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/flavors/1/flavor_extra_specs/key5'"
+string|"'/flavors/1/extra_specs/key5'"
 op|')'
 newline|'\n'
 name|'req'
@@ -879,7 +879,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/flavors/1/flavor_extra_specs'"
+string|"'/flavors/1/extra_specs'"
 op|')'
 newline|'\n'
 name|'req'
@@ -1003,7 +1003,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/flavors/1/flavor_extra_specs'"
+string|"'/flavors/1/extra_specs'"
 op|')'
 newline|'\n'
 name|'req'
@@ -1081,7 +1081,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/flavors/1/flavor_extra_specs/key1'"
+string|"'/flavors/1/extra_specs/key1'"
 op|')'
 newline|'\n'
 name|'req'
@@ -1202,7 +1202,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/flavors/1/flavor_extra_specs/key1'"
+string|"'/flavors/1/extra_specs/key1'"
 op|')'
 newline|'\n'
 name|'req'
@@ -1280,7 +1280,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/flavors/1/flavor_extra_specs/key1'"
+string|"'/flavors/1/extra_specs/key1'"
 op|')'
 newline|'\n'
 name|'req'
@@ -1364,7 +1364,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/flavors/1/flavor_extra_specs/bad'"
+string|"'/flavors/1/extra_specs/bad'"
 op|')'
 newline|'\n'
 name|'req'

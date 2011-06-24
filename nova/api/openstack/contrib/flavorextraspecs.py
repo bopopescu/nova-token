@@ -709,7 +709,7 @@ op|'.'
 name|'ResourceExtension'
 op|'('
 nl|'\n'
-string|"'flavor_extra_specs'"
+string|"'extra_specs'"
 op|','
 nl|'\n'
 name|'FlavorExtraSpecsController'
