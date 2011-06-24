@@ -1315,7 +1315,7 @@ op|'['
 string|"'instance_type'"
 op|']'
 newline|'\n'
-name|'reqested_mem'
+name|'requested_mem'
 op|'='
 name|'instance_type'
 op|'['
