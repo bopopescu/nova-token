@@ -3005,7 +3005,6 @@ name|'image_type'
 op|')'
 newline|'\n'
 nl|'\n'
-nl|'\n'
 DECL|member|rotate_backups
 dedent|''
 dedent|''
