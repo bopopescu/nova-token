@@ -1149,6 +1149,8 @@ name|'self'
 op|'.'
 name|'consume_resources'
 op|'('
+name|'topic'
+op|','
 name|'best_weight'
 op|'['
 string|"'capabilities'"
