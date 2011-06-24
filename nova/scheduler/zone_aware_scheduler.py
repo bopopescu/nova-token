@@ -1482,7 +1482,7 @@ name|'services'
 op|'='
 name|'services'
 op|'['
-string|"'topic'"
+name|'topic'
 op|']'
 newline|'\n'
 dedent|''
