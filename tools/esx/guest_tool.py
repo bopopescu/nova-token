@@ -2089,6 +2089,7 @@ op|']'
 op|')'
 newline|'\r\n'
 nl|'\r\n'
+nl|'\r\n'
 DECL|function|_set_ubuntu_networking
 dedent|''
 name|'def'
@@ -2336,6 +2337,7 @@ string|"'restart'"
 op|']'
 op|')'
 newline|'\r\n'
+nl|'\r\n'
 nl|'\r\n'
 DECL|function|_linux_set_networking
 dedent|''
