@@ -486,7 +486,6 @@ nl|'\n'
 string|"'default\\nother'"
 op|')'
 newline|'\n'
-nl|'\n'
 dedent|''
 dedent|''
 endmarker|''
