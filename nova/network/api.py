@@ -573,6 +573,12 @@ name|'host'
 op|'='
 name|'floating_ip'
 op|'['
+string|"'fixed_ip'"
+op|']'
+op|'['
+string|"'network'"
+op|']'
+op|'['
 string|"'host'"
 op|']'
 newline|'\n'
