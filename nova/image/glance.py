@@ -194,6 +194,8 @@ string|"'disk_format'"
 op|','
 nl|'\n'
 string|"'container_format'"
+op|','
+string|"'checksum'"
 op|']'
 newline|'\n'
 nl|'\n'
