@@ -927,7 +927,7 @@ name|'extensions'
 op|'.'
 name|'ResourceExtension'
 op|'('
-string|"'floating_ips'"
+string|"'os-floating-ips'"
 op|','
 nl|'\n'
 name|'FloatingIPController'
