@@ -90,6 +90,7 @@ newline|'\n'
 indent|'    '
 string|'"""Test that metadata is returning proper values."""'
 newline|'\n'
+nl|'\n'
 DECL|member|setUp
 name|'def'
 name|'setUp'
