@@ -369,7 +369,7 @@ name|'flags'
 op|'.'
 name|'DEFINE_integer'
 op|'('
-string|"'create_unique_mac_address_atempts'"
+string|"'create_unique_mac_address_attempts'"
 op|','
 number|'5'
 op|','
