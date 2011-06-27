@@ -186,7 +186,9 @@ op|','
 number|'300'
 op|','
 nl|'\n'
-string|"'time to wait for windows agent to be fully operational'"
+string|"'number of seconds to wait for windows agent to be '"
+nl|'\n'
+string|"'fully operational'"
 op|')'
 newline|'\n'
 nl|'\n'
