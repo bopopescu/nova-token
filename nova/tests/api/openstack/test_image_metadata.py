@@ -1877,7 +1877,7 @@ string|"'metadata'"
 op|':'
 op|'{'
 nl|'\n'
-string|"'three'"
+string|"u'three'"
 op|':'
 string|"u'asdf'"
 op|','
