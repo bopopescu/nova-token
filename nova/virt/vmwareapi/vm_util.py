@@ -435,7 +435,7 @@ string|"'ns0:VirtualPCNet32'"
 op|')'
 newline|'\r\n'
 nl|'\r\n'
-comment|'# NOTE: Only works on ESXi if the portgroup binding is set to'
+comment|'# NOTE(asomya): Only works on ESXi if the portgroup binding is set to'
 nl|'\r\n'
 comment|'# ephemeral. Invalid configuration if set to static and the NIC does'
 nl|'\r\n'
