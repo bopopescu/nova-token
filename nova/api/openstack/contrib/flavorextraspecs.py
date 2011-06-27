@@ -642,7 +642,7 @@ op|':'
 newline|'\n'
 indent|'        '
 name|'return'
-string|'"flavor-extra-specs"'
+string|'"os-flavor-extra-specs"'
 newline|'\n'
 nl|'\n'
 DECL|member|get_description
@@ -709,7 +709,7 @@ op|'.'
 name|'ResourceExtension'
 op|'('
 nl|'\n'
-string|"'extra_specs'"
+string|"'os-extra_specs'"
 op|','
 nl|'\n'
 name|'FlavorExtraSpecsController'
