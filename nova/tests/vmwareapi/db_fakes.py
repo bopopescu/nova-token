@@ -277,6 +277,8 @@ dedent|''
 name|'def'
 name|'fake_instance_create'
 op|'('
+name|'context'
+op|','
 name|'values'
 op|')'
 op|':'
@@ -326,11 +328,11 @@ string|"'r'"
 op|')'
 op|','
 nl|'\r\n'
-string|"'image_id'"
+string|"'image_ref'"
 op|':'
 name|'values'
 op|'['
-string|"'image_id'"
+string|"'image_ref'"
 op|']'
 op|','
 nl|'\r\n'
