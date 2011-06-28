@@ -2725,7 +2725,7 @@ name|'assertEquals'
 op|'('
 name|'payload'
 op|'['
-string|"'image_id'"
+string|"'image_ref'"
 op|']'
 op|','
 string|"'1'"
@@ -2972,7 +2972,7 @@ name|'assertEquals'
 op|'('
 name|'payload'
 op|'['
-string|"'image_id'"
+string|"'image_ref'"
 op|']'
 op|','
 string|"'1'"
@@ -3613,7 +3613,7 @@ name|'assertEquals'
 op|'('
 name|'payload'
 op|'['
-string|"'image_id'"
+string|"'image_ref'"
 op|']'
 op|','
 string|"'1'"
