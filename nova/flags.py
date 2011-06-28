@@ -1516,22 +1516,23 @@ op|','
 string|"'AWS Access Key'"
 op|')'
 newline|'\n'
-name|'DEFINE_integer'
+comment|"# NOTE(sirp): my_ip interpolation doesn't work within nested structures"
+nl|'\n'
+name|'DEFINE_list'
 op|'('
-string|"'glance_port'"
+string|"'glance_api_servers'"
 op|','
-number|'9292'
-op|','
-string|"'glance port'"
+nl|'\n'
+op|'['
+string|"'%s:9292'"
+op|'%'
+name|'_get_my_ip'
+op|'('
 op|')'
-newline|'\n'
-name|'DEFINE_string'
-op|'('
-string|"'glance_host'"
+op|']'
 op|','
-string|"'$my_ip'"
-op|','
-string|"'glance host'"
+nl|'\n'
+string|"'list of glance api servers available to nova (host:port)'"
 op|')'
 newline|'\n'
 name|'DEFINE_integer'
@@ -1683,6 +1684,15 @@ op|','
 number|'5672'
 op|','
 string|"'rabbit port'"
+op|')'
+newline|'\n'
+name|'DEFINE_bool'
+op|'('
+string|"'rabbit_use_ssl'"
+op|','
+name|'False'
+op|','
+string|"'connect over SSL'"
 op|')'
 newline|'\n'
 name|'DEFINE_string'
@@ -2085,7 +2095,7 @@ name|'DEFINE_string'
 op|'('
 string|"'image_service'"
 op|','
-string|"'nova.image.local.LocalImageService'"
+string|"'nova.image.glance.GlanceImageService'"
 op|','
 nl|'\n'
 string|"'The service to use for retrieving and searching for images.'"
@@ -2162,6 +2172,16 @@ op|']'
 op|','
 nl|'\n'
 string|"'Key/Multi-value list representng capabilities of this zone'"
+op|')'
+newline|'\n'
+name|'DEFINE_string'
+op|'('
+string|"'build_plan_encryption_key'"
+op|','
+name|'None'
+op|','
+nl|'\n'
+string|"'128bit (hex) encryption key for scheduler build plans.'"
 op|')'
 newline|'\n'
 endmarker|''
