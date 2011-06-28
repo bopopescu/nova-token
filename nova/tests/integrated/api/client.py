@@ -1464,7 +1464,7 @@ name|'self'
 op|'.'
 name|'api_get'
 op|'('
-string|"'/volumes/%s'"
+string|"'/os-volumes/%s'"
 op|'%'
 name|'volume_id'
 op|')'
@@ -1489,11 +1489,11 @@ newline|'\n'
 indent|'        '
 name|'rel_url'
 op|'='
-string|"'/volumes/detail'"
+string|"'/os-volumes/detail'"
 name|'if'
 name|'detail'
 name|'else'
-string|"'/volumes'"
+string|"'/os-volumes'"
 newline|'\n'
 name|'return'
 name|'self'
@@ -1524,7 +1524,7 @@ name|'self'
 op|'.'
 name|'api_post'
 op|'('
-string|"'/volumes'"
+string|"'/os-volumes'"
 op|','
 name|'volume'
 op|')'
@@ -1550,7 +1550,7 @@ name|'self'
 op|'.'
 name|'api_delete'
 op|'('
-string|"'/volumes/%s'"
+string|"'/os-volumes/%s'"
 op|'%'
 name|'volume_id'
 op|')'
@@ -1575,7 +1575,7 @@ name|'self'
 op|'.'
 name|'api_get'
 op|'('
-string|"'/servers/%s/volume_attachments/%s'"
+string|"'/servers/%s/os-volume_attachments/%s'"
 op|'%'
 nl|'\n'
 op|'('
@@ -1606,7 +1606,7 @@ name|'self'
 op|'.'
 name|'api_get'
 op|'('
-string|"'/servers/%s/volume_attachments'"
+string|"'/servers/%s/os-volume_attachments'"
 op|'%'
 nl|'\n'
 op|'('
@@ -1637,7 +1637,7 @@ name|'self'
 op|'.'
 name|'api_post'
 op|'('
-string|"'/servers/%s/volume_attachments'"
+string|"'/servers/%s/os-volume_attachments'"
 op|'%'
 nl|'\n'
 op|'('
@@ -1670,7 +1670,7 @@ name|'self'
 op|'.'
 name|'api_delete'
 op|'('
-string|"'/servers/%s/volume_attachments/%s'"
+string|"'/servers/%s/os-volume_attachments/%s'"
 op|'%'
 nl|'\n'
 op|'('
