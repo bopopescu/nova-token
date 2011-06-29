@@ -313,13 +313,6 @@ dedent|''
 name|'return'
 name|'display_name'
 op|'.'
-name|'encode'
-op|'('
-string|"'latin-1'"
-op|','
-string|"'ignore'"
-op|')'
-op|'.'
 name|'translate'
 op|'('
 name|'table'
