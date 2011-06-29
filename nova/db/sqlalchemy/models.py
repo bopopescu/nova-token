@@ -3720,10 +3720,6 @@ name|'ForeignKey'
 op|'('
 string|"'networks.id'"
 op|')'
-op|','
-name|'nullable'
-op|'='
-name|'True'
 op|')'
 newline|'\n'
 DECL|variable|network
@@ -3755,6 +3751,10 @@ name|'ForeignKey'
 op|'('
 string|"'instances.id'"
 op|')'
+op|','
+name|'nullable'
+op|'='
+name|'False'
 op|')'
 newline|'\n'
 DECL|variable|instance
