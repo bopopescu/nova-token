@@ -1051,6 +1051,8 @@ op|'@'
 name|'exception'
 op|'.'
 name|'wrap_exception'
+op|'('
+op|')'
 newline|'\n'
 DECL|member|_process_data
 name|'def'
