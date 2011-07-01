@@ -7171,7 +7171,7 @@ name|'options'
 op|'('
 name|'joinedload_all'
 op|'('
-string|"'fixed_ip.network'"
+string|"'fixed_ips.network'"
 op|')'
 op|')'
 op|'.'
