@@ -214,10 +214,10 @@ op|'='
 name|'None'
 newline|'\n'
 nl|'\n'
-DECL|member|safe_notify
+DECL|member|notify
 dedent|''
 name|'def'
-name|'safe_notify'
+name|'notify'
 op|'('
 name|'self'
 op|','
