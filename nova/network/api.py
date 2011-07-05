@@ -540,6 +540,8 @@ name|'project_id'
 op|'}'
 op|')'
 newline|'\n'
+comment|'# NOTE(vish): if we are multi_host, send to the instances host'
+nl|'\n'
 dedent|''
 name|'if'
 name|'fixed_ip'
@@ -547,7 +549,7 @@ op|'['
 string|"'network'"
 op|']'
 op|'['
-string|"'multi_gateway'"
+string|"'multi_host'"
 op|']'
 op|':'
 newline|'\n'
@@ -698,6 +700,8 @@ op|'('
 string|"'Address is not associated.'"
 op|')'
 newline|'\n'
+comment|'# NOTE(vish): if we are multi_host, send to the instances host'
+nl|'\n'
 dedent|''
 name|'if'
 name|'floating_ip'
@@ -708,7 +712,7 @@ op|'['
 string|"'network'"
 op|']'
 op|'['
-string|"'multi_gateway'"
+string|"'multi_host'"
 op|']'
 op|':'
 newline|'\n'
