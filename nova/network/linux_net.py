@@ -2746,7 +2746,7 @@ nl|'\n'
 op|'('
 name|'net_attrs'
 op|'['
-string|"'gateway'"
+string|"'dhcp_server'"
 op|']'
 op|','
 name|'suffix'
@@ -4021,7 +4021,7 @@ string|"'--listen-address=%s'"
 op|'%'
 name|'net'
 op|'['
-string|"'dhcp_listen'"
+string|"'dhcp_server'"
 op|']'
 op|','
 nl|'\n'
