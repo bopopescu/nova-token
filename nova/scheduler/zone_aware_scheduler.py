@@ -846,7 +846,7 @@ indent|'                '
 name|'if'
 name|'zone_rec'
 op|'['
-string|"'api_url'"
+string|"'id'"
 op|']'
 op|'!='
 name|'zone'
