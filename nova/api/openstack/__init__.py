@@ -245,6 +245,19 @@ nl|'\n'
 string|"'When True, this API service will accept admin operations.'"
 op|')'
 newline|'\n'
+name|'flags'
+op|'.'
+name|'DEFINE_bool'
+op|'('
+string|"'allow_instance_snapshots'"
+op|','
+nl|'\n'
+name|'True'
+op|','
+nl|'\n'
+string|"'When True, this API service will permit instance snapshot operations.'"
+op|')'
+newline|'\n'
 nl|'\n'
 nl|'\n'
 DECL|class|FaultWrapper
