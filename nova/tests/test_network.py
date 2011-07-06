@@ -171,6 +171,11 @@ op|':'
 name|'False'
 op|','
 nl|'\n'
+string|"'multi_host'"
+op|':'
+name|'False'
+op|','
+nl|'\n'
 string|"'cidr'"
 op|':'
 string|"'192.168.0.0/24'"
@@ -254,6 +259,11 @@ string|"'test1'"
 op|','
 nl|'\n'
 string|"'injected'"
+op|':'
+name|'False'
+op|','
+nl|'\n'
+string|"'multi_host'"
 op|':'
 name|'False'
 op|','
@@ -943,6 +953,13 @@ op|'{'
 string|"'broadcast'"
 op|':'
 string|"'192.168.%s.255'"
+op|'%'
+name|'i'
+op|','
+nl|'\n'
+string|"'dhcp_server'"
+op|':'
+string|"'192.168.%s.1'"
 op|'%'
 name|'i'
 op|','
