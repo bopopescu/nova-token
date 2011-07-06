@@ -7619,6 +7619,11 @@ op|':'
 string|"'ACTIVE'"
 op|','
 nl|'\n'
+string|"'progress'"
+op|':'
+number|'80'
+op|','
+nl|'\n'
 string|"'server'"
 op|':'
 op|'{'
@@ -7643,12 +7648,12 @@ string|"'href'"
 op|':'
 name|'self'
 op|'.'
-name|'SERVER_BOOKMARK'
+name|'SERVER_HREF'
 op|','
 nl|'\n'
 string|"'rel'"
 op|':'
-string|"'bookmark'"
+string|"'self'"
 op|','
 nl|'\n'
 op|'}'
@@ -7660,12 +7665,12 @@ string|"'href'"
 op|':'
 name|'self'
 op|'.'
-name|'SERVER_HREF'
+name|'SERVER_BOOKMARK'
 op|','
 nl|'\n'
 string|"'rel'"
 op|':'
-string|"'self'"
+string|"'bookmark'"
 op|','
 nl|'\n'
 op|'}'
@@ -7709,7 +7714,7 @@ op|','
 nl|'\n'
 string|"'rel'"
 op|':'
-string|"'bookmark'"
+string|"'self'"
 op|','
 nl|'\n'
 op|'}'
@@ -7731,7 +7736,7 @@ op|','
 nl|'\n'
 string|"'rel'"
 op|':'
-string|"'self'"
+string|"'bookmark'"
 op|','
 nl|'\n'
 op|'}'
@@ -7820,7 +7825,7 @@ name|'minidom'
 op|'.'
 name|'parseString'
 op|'('
-string|'"""\n        <image id="1"\n                xmlns="http://docs.openstack.org/compute/api/v1.1"\n                xmlns:atom="http://www.w3.org/2005/Atom"\n                name="Image1"\n                updated="%(expected_now)s"\n                created="%(expected_now)s"\n                status="ACTIVE"\n                progress="80">\n            <server name="Server1" id="1">\n                <atom:link rel="bookmark" href="%(expected_server_href)s"/>\n                <atom:link rel="self" href="%(expected_server_bookmark)s"/>\n            </server>\n            <atom:link href="%(expected_href)s" rel="self"/>\n            <atom:link href="%(expected_bookmark)s" rel="bookmark"/>\n            <metadata>\n                <meta key="key1">\n                    value1\n                </meta>\n            </metadata>\n        </image>\n        """'
+string|'"""\n        <image id="1"\n                xmlns="http://docs.openstack.org/compute/api/v1.1"\n                xmlns:atom="http://www.w3.org/2005/Atom"\n                name="Image1"\n                updated="%(expected_now)s"\n                created="%(expected_now)s"\n                status="ACTIVE"\n                progress="80">\n            <server name="Server1" id="1">\n                <atom:link rel="self" href="%(expected_server_href)s"/>\n                <atom:link rel="bookmark" href="%(expected_server_bookmark)s"/>\n            </server>\n            <metadata>\n                <meta key="key1">\n                    value1\n                </meta>\n            </metadata>\n            <atom:link href="%(expected_href)s" rel="self"/>\n            <atom:link href="%(expected_bookmark)s" rel="bookmark"/>\n        </image>\n        """'
 op|'.'
 name|'replace'
 op|'('
@@ -7837,6 +7842,16 @@ op|')'
 op|')'
 newline|'\n'
 nl|'\n'
+name|'print'
+name|'expected'
+op|'.'
+name|'toxml'
+op|'('
+op|')'
+newline|'\n'
+name|'print'
+string|"'---'"
+newline|'\n'
 name|'print'
 name|'actual'
 op|'.'
