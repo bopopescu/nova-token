@@ -1,7 +1,6 @@
 begin_unit
-name|'o'
 comment|'# vim: tabstop=4 shiftwidth=4 softtabstop=4'
-newline|'\n'
+nl|'\n'
 nl|'\n'
 comment|'# Copyright 2010 United States Government as represented by the'
 nl|'\n'
