@@ -6220,6 +6220,12 @@ op|'.'
 name|'libvirt_type'
 op|'!='
 string|"'lxc'"
+name|'or'
+name|'FLAGS'
+op|'.'
+name|'libvirt_type'
+op|'!='
+string|"'uml'"
 op|':'
 newline|'\n'
 indent|'                '
