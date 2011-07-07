@@ -510,6 +510,7 @@ name|'_'
 op|'('
 string|"'Starting TCP server %(arg0)s on %(host)s:%(port)s'"
 op|')'
+nl|'\n'
 op|'%'
 name|'locals'
 op|'('
