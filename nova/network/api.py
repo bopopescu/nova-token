@@ -1080,6 +1080,14 @@ name|'instance'
 op|'['
 string|"'instance_type_id'"
 op|']'
+op|','
+nl|'\n'
+string|"'host'"
+op|':'
+name|'instance'
+op|'['
+string|"'host'"
+op|']'
 op|'}'
 newline|'\n'
 name|'return'

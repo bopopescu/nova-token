@@ -4047,6 +4047,14 @@ nl|'\n'
 string|"'--bind-interfaces'"
 op|','
 nl|'\n'
+string|"'--interface=%s'"
+op|'%'
+name|'net'
+op|'['
+string|"'bridge'"
+op|']'
+op|','
+nl|'\n'
 string|"'--conf-file=%s'"
 op|'%'
 name|'FLAGS'
