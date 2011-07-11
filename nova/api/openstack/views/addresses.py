@@ -149,7 +149,7 @@ name|'get_from_path'
 op|'('
 name|'inst'
 op|','
-string|"'fixed_ip/floating_ips/address'"
+string|"'fixed_ips/floating_ips/address'"
 op|')'
 newline|'\n'
 nl|'\n'
@@ -172,7 +172,7 @@ name|'get_from_path'
 op|'('
 name|'inst'
 op|','
-string|"'fixed_ip/address'"
+string|"'fixed_ips/address'"
 op|')'
 newline|'\n'
 nl|'\n'
@@ -198,6 +198,8 @@ name|'inst'
 op|')'
 op|':'
 newline|'\n'
+comment|"# TODO(tr3buchet) - this shouldn't be hard coded to 4..."
+nl|'\n'
 indent|'        '
 name|'private_ips'
 op|'='
@@ -207,7 +209,7 @@ name|'get_from_path'
 op|'('
 name|'inst'
 op|','
-string|"'fixed_ip/address'"
+string|"'fixed_ips/address'"
 op|')'
 newline|'\n'
 name|'private_ips'
@@ -237,7 +239,8 @@ name|'get_from_path'
 op|'('
 name|'inst'
 op|','
-string|"'fixed_ip/floating_ips/address'"
+nl|'\n'
+string|"'fixed_ips/floating_ips/address'"
 op|')'
 newline|'\n'
 name|'public_ips'
