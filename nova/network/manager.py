@@ -1784,6 +1784,7 @@ string|"'host'"
 op|']'
 newline|'\n'
 name|'if'
+name|'not'
 name|'host'
 op|':'
 newline|'\n'
