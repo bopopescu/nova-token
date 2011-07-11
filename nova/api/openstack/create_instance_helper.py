@@ -1909,9 +1909,13 @@ op|')'
 newline|'\n'
 name|'return'
 op|'{'
+string|"'body'"
+op|':'
+op|'{'
 string|"'server'"
 op|':'
 name|'server'
+op|'}'
 op|'}'
 newline|'\n'
 nl|'\n'
