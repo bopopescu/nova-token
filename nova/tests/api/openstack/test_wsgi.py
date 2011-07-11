@@ -1961,7 +1961,6 @@ op|')'
 newline|'\n'
 nl|'\n'
 nl|'\n'
-nl|'\n'
 DECL|class|RequestDeserializerTest
 dedent|''
 dedent|''
