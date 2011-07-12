@@ -1113,10 +1113,10 @@ op|')'
 newline|'\n'
 nl|'\n'
 nl|'\n'
-DECL|class|DestinatioinDiskExists
+DECL|class|DestinationDiskExists
 dedent|''
 name|'class'
-name|'DestinatioinDiskExists'
+name|'DestinationDiskExists'
 op|'('
 name|'Invalid'
 op|')'
