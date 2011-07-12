@@ -902,7 +902,6 @@ indent|'        '
 string|'"""inject network info for specified instance"""'
 newline|'\n'
 name|'pass'
-comment|'# raise NotImplementedError()'
 newline|'\n'
 nl|'\n'
 DECL|member|poll_rescued_instances
