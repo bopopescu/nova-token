@@ -7089,7 +7089,7 @@ op|'{'
 nl|'\n'
 string|"'id'"
 op|':'
-string|"'1'"
+number|'1'
 op|','
 nl|'\n'
 string|"'links'"
@@ -7261,7 +7261,7 @@ op|'{'
 nl|'\n'
 string|"'id'"
 op|':'
-string|"'1'"
+number|'1'
 op|','
 nl|'\n'
 string|"'links'"
