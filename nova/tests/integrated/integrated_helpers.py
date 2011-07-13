@@ -1212,10 +1212,24 @@ nl|'\n'
 dedent|''
 name|'server'
 op|'['
-string|"'imageRef'"
+string|"'image'"
 op|']'
 op|'='
+op|'{'
+string|"'links'"
+op|':'
+op|'['
+op|'{'
+string|"'rel'"
+op|':'
+string|"'bookmark'"
+op|','
+string|"'href'"
+op|':'
 name|'image_href'
+op|'}'
+op|']'
+op|'}'
 newline|'\n'
 nl|'\n'
 comment|'# Set a valid flavorId'
@@ -1244,15 +1258,17 @@ op|')'
 newline|'\n'
 name|'server'
 op|'['
-string|"'flavorRef'"
+string|"'flavor'"
 op|']'
 op|'='
-string|"'http://fake.server/%s'"
-op|'%'
+op|'{'
+string|"'id'"
+op|':'
 name|'flavor'
 op|'['
 string|"'id'"
 op|']'
+op|'}'
 newline|'\n'
 nl|'\n'
 comment|'# Set a valid server name'
