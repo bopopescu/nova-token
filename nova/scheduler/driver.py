@@ -82,6 +82,7 @@ name|'import'
 name|'power_state'
 newline|'\n'
 nl|'\n'
+nl|'\n'
 DECL|variable|FLAGS
 name|'FLAGS'
 op|'='
