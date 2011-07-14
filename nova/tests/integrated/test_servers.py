@@ -1126,7 +1126,6 @@ string|"'10.0.0.12'"
 op|'}'
 op|']'
 newline|'\n'
-nl|'\n'
 name|'server'
 op|'['
 string|"'networks'"
@@ -1780,7 +1779,6 @@ op|','
 name|'post'
 op|')'
 newline|'\n'
-nl|'\n'
 nl|'\n'
 DECL|member|test_create_server_with_networks_empty_fixed_ip
 dedent|''
