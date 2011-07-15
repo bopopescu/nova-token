@@ -1262,16 +1262,6 @@ op|')'
 newline|'\n'
 name|'response'
 op|'['
-string|"'id'"
-op|']'
-op|'='
-name|'inst'
-op|'['
-string|"'id'"
-op|']'
-newline|'\n'
-name|'response'
-op|'['
 string|"'uuid'"
 op|']'
 op|'='
