@@ -999,7 +999,6 @@ name|'return'
 name|'response'
 newline|'\n'
 nl|'\n'
-nl|'\n'
 DECL|member|_build_image
 dedent|''
 name|'def'
