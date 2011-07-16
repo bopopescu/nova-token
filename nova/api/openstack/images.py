@@ -1639,10 +1639,10 @@ op|'('
 op|')'
 newline|'\n'
 nl|'\n'
-DECL|member|image_to_xml
+DECL|member|_image_to_xml
 dedent|''
 name|'def'
-name|'image_to_xml'
+name|'_image_to_xml'
 op|'('
 name|'self'
 op|','
