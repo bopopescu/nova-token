@@ -1640,6 +1640,15 @@ op|','
 string|"'port that ajax_console_proxy binds'"
 op|')'
 newline|'\n'
+name|'DEFINE_string'
+op|'('
+string|"'vsa_topic'"
+op|','
+string|"'vsa'"
+op|','
+string|"'the topic that nova-vsa service listens on'"
+op|')'
+newline|'\n'
 name|'DEFINE_bool'
 op|'('
 string|"'verbose'"
@@ -2102,6 +2111,122 @@ nl|'\n'
 string|"'Manager for scheduler'"
 op|')'
 newline|'\n'
+name|'DEFINE_string'
+op|'('
+string|"'vsa_manager'"
+op|','
+string|"'nova.vsa.manager.VsaManager'"
+op|','
+nl|'\n'
+string|"'Manager for vsa'"
+op|')'
+newline|'\n'
+name|'DEFINE_string'
+op|'('
+string|"'vc_image_name'"
+op|','
+string|"'vc_image'"
+op|','
+nl|'\n'
+string|"'the VC image ID (for a VC image that exists in DB Glance)'"
+op|')'
+newline|'\n'
+comment|'#---------------------------------------------------------------------'
+nl|'\n'
+comment|'# VSA constants and enums'
+nl|'\n'
+name|'DEFINE_string'
+op|'('
+string|"'default_vsa_instance_type'"
+op|','
+string|"'m1.small'"
+op|','
+nl|'\n'
+string|"'default instance type for VSA instances'"
+op|')'
+newline|'\n'
+name|'DEFINE_integer'
+op|'('
+string|"'max_vcs_in_vsa'"
+op|','
+number|'32'
+op|','
+nl|'\n'
+string|"'maxinum VCs in a VSA'"
+op|')'
+newline|'\n'
+name|'DEFINE_integer'
+op|'('
+string|"'vsa_part_size_gb'"
+op|','
+number|'100'
+op|','
+nl|'\n'
+string|"'default partition size for shared capacity'"
+op|')'
+newline|'\n'
+nl|'\n'
+name|'DEFINE_string'
+op|'('
+string|"'vsa_status_creating'"
+op|','
+string|"'creating'"
+op|','
+nl|'\n'
+string|"'VSA creating (not ready yet)'"
+op|')'
+newline|'\n'
+name|'DEFINE_string'
+op|'('
+string|"'vsa_status_launching'"
+op|','
+string|"'launching'"
+op|','
+nl|'\n'
+string|"'Launching VCs (all BE volumes were created)'"
+op|')'
+newline|'\n'
+name|'DEFINE_string'
+op|'('
+string|"'vsa_status_created'"
+op|','
+string|"'created'"
+op|','
+nl|'\n'
+string|"'VSA fully created and ready for use'"
+op|')'
+newline|'\n'
+name|'DEFINE_string'
+op|'('
+string|"'vsa_status_partial'"
+op|','
+string|"'partial'"
+op|','
+nl|'\n'
+string|"'Some BE storage allocations failed'"
+op|')'
+newline|'\n'
+name|'DEFINE_string'
+op|'('
+string|"'vsa_status_failed'"
+op|','
+string|"'failed'"
+op|','
+nl|'\n'
+string|"'Some BE storage allocations failed'"
+op|')'
+newline|'\n'
+name|'DEFINE_string'
+op|'('
+string|"'vsa_status_deleting'"
+op|','
+string|"'deleting'"
+op|','
+nl|'\n'
+string|"'VSA started the deletion procedure'"
+op|')'
+newline|'\n'
+nl|'\n'
 nl|'\n'
 comment|'# The service to use for image search and retrieval'
 nl|'\n'

@@ -66,8 +66,9 @@ name|'DEFINE_integer'
 op|'('
 string|"'quota_instances'"
 op|','
-number|'10'
+number|'100'
 op|','
+comment|'# 10'
 nl|'\n'
 string|"'number of instances allowed per project'"
 op|')'
@@ -104,8 +105,9 @@ name|'DEFINE_integer'
 op|'('
 string|"'quota_volumes'"
 op|','
-number|'10'
+number|'100'
 op|','
+comment|'# 10'
 nl|'\n'
 string|"'number of volumes allowed per project'"
 op|')'

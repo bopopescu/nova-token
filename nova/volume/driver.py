@@ -3019,20 +3019,57 @@ string|"'target_discovered'"
 op|']'
 op|':'
 newline|'\n'
+comment|'# zadara-begin: Bug in cactus. _run_iscsiadm() cannot accept'
+nl|'\n'
+comment|'# multiple args for iscsi-command. Like in --op new. Hence'
+nl|'\n'
+comment|'# using a local version here which does the same thing'
+nl|'\n'
 indent|'            '
+op|'('
+name|'out'
+op|','
+name|'err'
+op|')'
+op|'='
 name|'self'
 op|'.'
-name|'_run_iscsiadm'
+name|'_execute'
 op|'('
-name|'iscsi_properties'
+string|"'sudo'"
 op|','
-op|'('
+string|"'iscsiadm'"
+op|','
 string|"'--op'"
 op|','
 string|"'new'"
-op|')'
+op|','
+nl|'\n'
+string|"'-m'"
+op|','
+string|"'node'"
+op|','
+nl|'\n'
+string|"'-T'"
+op|','
+name|'iscsi_properties'
+op|'['
+string|"'target_iqn'"
+op|']'
+op|','
+nl|'\n'
+string|"'-p'"
+op|','
+name|'iscsi_properties'
+op|'['
+string|"'target_portal'"
+op|']'
 op|')'
 newline|'\n'
+comment|"# self._run_iscsiadm(iscsi_properties, ('--op', 'new'))"
+nl|'\n'
+comment|'# zadara-end'
+nl|'\n'
 nl|'\n'
 dedent|''
 name|'if'
@@ -3320,19 +3357,56 @@ op|','
 string|'"--logout"'
 op|')'
 newline|'\n'
+comment|'# zadara-begin: Bug in cactus. _run_iscsiadm() cannot accept'
+nl|'\n'
+comment|'# multiple args for iscsi-command. Like in --op delete. Hence'
+nl|'\n'
+comment|'# using a local version here which does the same thing'
+nl|'\n'
+op|'('
+name|'out'
+op|','
+name|'err'
+op|')'
+op|'='
 name|'self'
 op|'.'
-name|'_run_iscsiadm'
+name|'_execute'
 op|'('
-name|'iscsi_properties'
+string|"'sudo'"
 op|','
-op|'('
+string|"'iscsiadm'"
+op|','
 string|"'--op'"
 op|','
 string|"'delete'"
-op|')'
+op|','
+nl|'\n'
+string|"'-m'"
+op|','
+string|"'node'"
+op|','
+nl|'\n'
+string|"'-T'"
+op|','
+name|'iscsi_properties'
+op|'['
+string|"'target_iqn'"
+op|']'
+op|','
+nl|'\n'
+string|"'-p'"
+op|','
+name|'iscsi_properties'
+op|'['
+string|"'target_portal'"
+op|']'
 op|')'
 newline|'\n'
+comment|"#self._run_iscsiadm(iscsi_properties, ('--op', 'delete'))"
+nl|'\n'
+comment|'# zadara-end'
+nl|'\n'
 nl|'\n'
 DECL|member|check_for_export
 dedent|''

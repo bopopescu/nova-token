@@ -291,6 +291,11 @@ string|"'user_role_association'"
 op|','
 nl|'\n'
 string|"'volumes'"
+op|','
+nl|'\n'
+string|"'virtual_storage_arrays'"
+op|','
+string|"'drive_types'"
 op|')'
 op|':'
 newline|'\n'
