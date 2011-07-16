@@ -4744,7 +4744,6 @@ name|'return'
 name|'network_node'
 newline|'\n'
 nl|'\n'
-nl|'\n'
 DECL|member|_add_server_attributes
 dedent|''
 name|'def'
