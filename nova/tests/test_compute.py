@@ -7528,10 +7528,10 @@ name|'instance_id3'
 op|')'
 newline|'\n'
 nl|'\n'
-DECL|member|test_get_all_by_name_regexp
+DECL|member|test_get_all_by_instance_name_regexp
 dedent|''
 name|'def'
-name|'test_get_all_by_name_regexp'
+name|'test_get_all_by_instance_name_regexp'
 op|'('
 name|'self'
 op|')'
@@ -7607,7 +7607,7 @@ nl|'\n'
 name|'search_opts'
 op|'='
 op|'{'
-string|"'name'"
+string|"'instance_name'"
 op|':'
 string|"'instance.*'"
 op|'}'
@@ -7640,7 +7640,7 @@ nl|'\n'
 name|'search_opts'
 op|'='
 op|'{'
-string|"'name'"
+string|"'instance_name'"
 op|':'
 string|"'.*\\-\\d$'"
 op|'}'
@@ -7703,7 +7703,7 @@ nl|'\n'
 name|'search_opts'
 op|'='
 op|'{'
-string|"'name'"
+string|"'instance_name'"
 op|':'
 string|"'i.*2'"
 op|'}'
