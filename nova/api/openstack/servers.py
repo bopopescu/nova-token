@@ -3169,6 +3169,11 @@ op|','
 string|"'fresh'"
 op|','
 string|"'status'"
+op|','
+nl|'\n'
+string|"'image'"
+op|','
+string|"'flavor'"
 op|']'
 newline|'\n'
 name|'admin_api'
