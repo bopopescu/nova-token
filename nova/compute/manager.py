@@ -4537,8 +4537,6 @@ op|'['
 string|"'id'"
 op|']'
 op|'}'
-op|','
-nl|'\n'
 op|'}'
 op|')'
 newline|'\n'
