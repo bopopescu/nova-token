@@ -2007,6 +2007,7 @@ op|','
 nl|'\n'
 string|"'ip_ranges'"
 op|':'
+nl|'\n'
 op|'{'
 string|"'1'"
 op|':'
@@ -2131,6 +2132,7 @@ op|':'
 string|"u'0.0.0.0/0'"
 op|'}'
 op|','
+nl|'\n'
 string|"'2'"
 op|':'
 op|'{'
@@ -2151,6 +2153,7 @@ string|"'user_id'"
 op|':'
 string|"u'someuser'"
 op|','
+nl|'\n'
 string|"'group_name'"
 op|':'
 string|"u'somegroup1'"
@@ -2164,6 +2167,7 @@ string|"'user_id'"
 op|':'
 string|"u'someuser'"
 op|','
+nl|'\n'
 string|"'group_name'"
 op|':'
 string|"u'othergroup2'"
