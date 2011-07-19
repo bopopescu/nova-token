@@ -17635,9 +17635,9 @@ dedent|''
 op|'@'
 name|'require_context'
 newline|'\n'
-DECL|function|instance_type_get_by_id
+DECL|function|instance_type_get
 name|'def'
-name|'instance_type_get_by_id'
+name|'instance_type_get'
 op|'('
 name|'context'
 op|','
