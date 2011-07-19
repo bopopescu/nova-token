@@ -365,13 +365,15 @@ name|'in'
 name|'filters'
 op|':'
 newline|'\n'
+comment|"# NOTE(vish): don't filter out private images"
+nl|'\n'
 indent|'            '
 name|'filters'
 op|'['
 string|"'is_public'"
 op|']'
 op|'='
-name|'None'
+string|"'none'"
 newline|'\n'
 dedent|''
 name|'image_metas'
@@ -489,13 +491,15 @@ name|'in'
 name|'filters'
 op|':'
 newline|'\n'
+comment|"# NOTE(vish): don't filter out private images"
+nl|'\n'
 indent|'            '
 name|'filters'
 op|'['
 string|"'is_public'"
 op|']'
 op|'='
-name|'None'
+string|"'none'"
 newline|'\n'
 dedent|''
 name|'image_metas'
