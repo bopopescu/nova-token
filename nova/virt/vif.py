@@ -34,6 +34,7 @@ nl|'\n'
 string|'"""VIF module common to all virt layers."""'
 newline|'\n'
 nl|'\n'
+nl|'\n'
 DECL|class|VIFDriver
 name|'class'
 name|'VIFDriver'

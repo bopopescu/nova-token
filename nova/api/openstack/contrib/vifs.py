@@ -252,7 +252,6 @@ op|')'
 newline|'\n'
 nl|'\n'
 nl|'\n'
-nl|'\n'
 DECL|class|VIFs
 dedent|''
 dedent|''
