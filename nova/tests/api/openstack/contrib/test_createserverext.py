@@ -1729,7 +1729,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/os-servers-create-ext'"
+string|"'/v1.1/os-create-server-ext'"
 op|')'
 newline|'\r\n'
 name|'req'
@@ -2066,7 +2066,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/os-servers-create-ext'"
+string|"'/v1.1/os-create-server-ext'"
 op|')'
 newline|'\r\n'
 name|'req'

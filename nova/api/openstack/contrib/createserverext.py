@@ -1223,7 +1223,7 @@ op|':'
 newline|'\r\n'
 indent|'        '
 name|'return'
-string|'"os-servers-create-ext"'
+string|'"os-create-server-ext"'
 newline|'\r\n'
 nl|'\r\n'
 DECL|member|get_description
@@ -1370,7 +1370,7 @@ name|'extensions'
 op|'.'
 name|'ResourceExtension'
 op|'('
-string|"'os-servers-create-ext'"
+string|"'os-create-server-ext'"
 op|','
 nl|'\r\n'
 name|'controller'
