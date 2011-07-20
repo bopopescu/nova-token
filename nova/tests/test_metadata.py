@@ -228,7 +228,7 @@ name|'Set'
 op|'('
 name|'api'
 op|','
-string|"'fixed_ip_get_instance'"
+string|"'instance_get_by_fixed_ip'"
 op|','
 name|'instance_get'
 op|')'
