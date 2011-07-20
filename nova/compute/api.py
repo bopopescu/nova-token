@@ -4387,7 +4387,7 @@ op|')'
 op|')'
 op|','
 nl|'\n'
-comment|'# Needed for EC2 API'
+comment|"# 'fixed_ip' needed for EC2 API"
 nl|'\n'
 string|"'fixed_ip'"
 op|':'
@@ -4399,7 +4399,7 @@ op|')'
 op|')'
 op|','
 nl|'\n'
-comment|'# Needed for EC2 API'
+comment|"# 'project_id' needed for EC2 API"
 nl|'\n'
 string|"'project_id'"
 op|':'
