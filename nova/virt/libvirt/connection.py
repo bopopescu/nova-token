@@ -6254,7 +6254,7 @@ string|"'uml'"
 op|')'
 op|':'
 newline|'\n'
-indent|'                '
+indent|'            '
 name|'xml_info'
 op|'['
 string|"'vncserver_host'"
