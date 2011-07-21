@@ -231,6 +231,11 @@ op|':'
 string|"'192.168.0.1'"
 op|','
 nl|'\n'
+string|"'dns2'"
+op|':'
+string|"'192.168.0.2'"
+op|','
+nl|'\n'
 string|"'vlan'"
 op|':'
 name|'None'
@@ -321,6 +326,11 @@ nl|'\n'
 string|"'dns'"
 op|':'
 string|"'192.168.0.1'"
+op|','
+nl|'\n'
+string|"'dns2'"
+op|':'
+string|"'192.168.0.2'"
 op|','
 nl|'\n'
 string|"'vlan'"
