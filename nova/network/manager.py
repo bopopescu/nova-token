@@ -4442,7 +4442,6 @@ op|'('
 op|')'
 newline|'\n'
 nl|'\n'
-nl|'\n'
 DECL|member|_setup_network
 dedent|''
 name|'def'
