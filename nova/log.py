@@ -94,9 +94,9 @@ op|','
 nl|'\n'
 string|"'%(asctime)s %(levelname)s %(name)s '"
 nl|'\n'
-string|"'[%(request_id)s %(user)s '"
+string|"'[%(request_id)s %(user_id)s '"
 nl|'\n'
-string|"'%(project)s] %(message)s'"
+string|"'%(project_id)s] %(message)s'"
 op|','
 nl|'\n'
 string|"'format string to use for log messages with context'"
