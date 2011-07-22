@@ -290,12 +290,12 @@ nl|'\n'
 string|"'user_role_association'"
 op|','
 nl|'\n'
-string|"'volumes'"
-op|','
-nl|'\n'
 string|"'virtual_storage_arrays'"
 op|','
 string|"'drive_types'"
+op|','
+nl|'\n'
+string|"'volumes'"
 op|')'
 op|':'
 newline|'\n'
