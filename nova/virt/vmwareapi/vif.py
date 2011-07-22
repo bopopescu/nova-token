@@ -119,7 +119,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""VIF driver for Linux VLAN bridge."""'
+string|'"""VIF Driver to setup bridge/VLAN networking using VMWare API."""'
 newline|'\n'
 nl|'\n'
 DECL|member|plug
