@@ -226,7 +226,7 @@ op|':'
 string|"'192.168.0.255'"
 op|','
 nl|'\n'
-string|"'dns'"
+string|"'dns1'"
 op|':'
 string|"'192.168.0.1'"
 op|','
@@ -323,7 +323,7 @@ op|':'
 string|"'192.168.1.255'"
 op|','
 nl|'\n'
-string|"'dns'"
+string|"'dns1'"
 op|':'
 string|"'192.168.0.1'"
 op|','

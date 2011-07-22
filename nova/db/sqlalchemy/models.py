@@ -3612,8 +3612,8 @@ number|'255'
 op|')'
 op|')'
 newline|'\n'
-DECL|variable|dns
-name|'dns'
+DECL|variable|dns1
+name|'dns1'
 op|'='
 name|'Column'
 op|'('
