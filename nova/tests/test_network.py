@@ -897,12 +897,12 @@ op|':'
 string|"'DONTCARE'"
 op|','
 nl|'\n'
-string|"'create_vlan'"
+string|"'should_create_vlan'"
 op|':'
 name|'False'
 op|','
 nl|'\n'
-string|"'create_bridge'"
+string|"'should_create_bridge'"
 op|':'
 name|'False'
 op|'}'

@@ -142,7 +142,7 @@ name|'network_mapping'
 op|'.'
 name|'get'
 op|'('
-string|"'create_vlan'"
+string|"'should_create_vlan'"
 op|')'
 op|':'
 newline|'\n'
