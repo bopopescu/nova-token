@@ -960,6 +960,7 @@ name|'network_info'
 op|')'
 newline|'\r\n'
 nl|'\r\n'
+nl|'\r\n'
 DECL|class|VMWareAPISession
 dedent|''
 dedent|''

@@ -474,7 +474,7 @@ op|'('
 string|"'libvirt_vif_driver'"
 op|','
 nl|'\n'
-string|"'nova.virt.libvirt.vif.LibvirtVlanBridgeDriver'"
+string|"'nova.virt.libvirt.vif.LibvirtBridgeDriver'"
 op|','
 nl|'\n'
 string|"'The libvirt VIF driver to configure the VIFs.'"
