@@ -162,7 +162,7 @@ op|'}'
 newline|'\n'
 name|'env'
 op|'['
-string|"'ec2.context'"
+string|"'nova.context'"
 op|']'
 op|'='
 name|'ctxt'
