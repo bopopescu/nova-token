@@ -929,7 +929,7 @@ op|','
 nl|'\n'
 string|"'is_public'"
 op|':'
-name|'True'
+name|'False'
 op|','
 nl|'\n'
 string|"'properties'"
