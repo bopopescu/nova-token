@@ -2236,7 +2236,6 @@ string|"'type'"
 op|']'
 op|')'
 newline|'\n'
-nl|'\n'
 dedent|''
 name|'link_nodes'
 op|'.'
