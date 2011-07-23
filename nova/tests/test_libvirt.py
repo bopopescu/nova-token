@@ -1270,6 +1270,11 @@ op|':'
 string|"'123456'"
 op|','
 nl|'\n'
+string|"'local_gb'"
+op|':'
+number|'20'
+op|','
+nl|'\n'
 string|"'instance_type_id'"
 op|':'
 string|"'5'"
