@@ -269,6 +269,11 @@ op|':'
 name|'fake'
 op|','
 nl|'\n'
+string|"'dhcp_server'"
+op|':'
+name|'fake'
+op|','
+nl|'\n'
 string|"'gateway'"
 op|':'
 name|'fake'
