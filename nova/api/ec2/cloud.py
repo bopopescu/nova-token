@@ -6502,8 +6502,6 @@ nl|'\n'
 string|"'AvailabilityZone'"
 op|')'
 newline|'\n'
-comment|"#storage = ast.literal_eval(kwargs.get('storage', '[]'))"
-nl|'\n'
 name|'storage'
 op|'='
 name|'kwargs'

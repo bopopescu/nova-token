@@ -2166,68 +2166,6 @@ string|"'default partition size for shared capacity'"
 op|')'
 newline|'\n'
 nl|'\n'
-name|'DEFINE_string'
-op|'('
-string|"'vsa_status_creating'"
-op|','
-string|"'creating'"
-op|','
-nl|'\n'
-string|"'VSA creating (not ready yet)'"
-op|')'
-newline|'\n'
-name|'DEFINE_string'
-op|'('
-string|"'vsa_status_launching'"
-op|','
-string|"'launching'"
-op|','
-nl|'\n'
-string|"'Launching VCs (all BE volumes were created)'"
-op|')'
-newline|'\n'
-name|'DEFINE_string'
-op|'('
-string|"'vsa_status_created'"
-op|','
-string|"'created'"
-op|','
-nl|'\n'
-string|"'VSA fully created and ready for use'"
-op|')'
-newline|'\n'
-name|'DEFINE_string'
-op|'('
-string|"'vsa_status_partial'"
-op|','
-string|"'partial'"
-op|','
-nl|'\n'
-string|"'Some BE storage allocations failed'"
-op|')'
-newline|'\n'
-name|'DEFINE_string'
-op|'('
-string|"'vsa_status_failed'"
-op|','
-string|"'failed'"
-op|','
-nl|'\n'
-string|"'Some BE storage allocations failed'"
-op|')'
-newline|'\n'
-name|'DEFINE_string'
-op|'('
-string|"'vsa_status_deleting'"
-op|','
-string|"'deleting'"
-op|','
-nl|'\n'
-string|"'VSA started the deletion procedure'"
-op|')'
-newline|'\n'
-nl|'\n'
-nl|'\n'
 comment|'# The service to use for image search and retrieval'
 nl|'\n'
 name|'DEFINE_string'

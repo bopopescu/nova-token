@@ -1544,6 +1544,11 @@ op|':'
 string|"'detached'"
 op|','
 nl|'\n'
+string|"'name'"
+op|':'
+string|"'vol name'"
+op|','
+nl|'\n'
 string|"'display_name'"
 op|':'
 string|"'Default vol name'"
@@ -2776,6 +2781,11 @@ op|'{'
 string|'"status"'
 op|':'
 string|'"available"'
+op|','
+nl|'\n'
+string|'"displayName"'
+op|':'
+string|'"Test Display name"'
 op|'}'
 newline|'\n'
 name|'body'
