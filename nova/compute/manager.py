@@ -730,6 +730,7 @@ name|'instance_get_all_by_host'
 op|'('
 name|'admin_context'
 op|','
+nl|'\n'
 name|'self'
 op|'.'
 name|'host'
@@ -795,10 +796,11 @@ name|'debug'
 op|'('
 name|'_'
 op|'('
-string|"'Current state of %(name)s is %(state)s, state in DB is %(db_state)s.'"
+string|"'Current state of %(name)s is %(state)s, state in '"
+nl|'\n'
+string|"'DB is %(db_state)s.'"
 op|')'
 op|','
-nl|'\n'
 op|'{'
 string|"'name'"
 op|':'
@@ -807,12 +809,15 @@ op|'['
 string|"'name'"
 op|']'
 op|','
+nl|'\n'
 string|"'state'"
 op|':'
 name|'state'
 op|','
+nl|'\n'
 string|"'db_state'"
 op|':'
+nl|'\n'
 name|'instance'
 op|'['
 string|"'state'"
@@ -849,7 +854,9 @@ name|'debug'
 op|'('
 name|'_'
 op|'('
-string|"'Rebooting instance %(name)s after nova-compute restart.'"
+string|"'Rebooting instance %(name)s after nova-compute '"
+nl|'\n'
+string|"' restart.'"
 op|')'
 op|','
 op|'{'
@@ -892,6 +899,7 @@ op|'['
 string|"'id'"
 op|']'
 op|','
+nl|'\n'
 name|'state'
 op|')'
 newline|'\n'
