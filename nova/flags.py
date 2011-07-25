@@ -2131,8 +2131,6 @@ nl|'\n'
 string|"'the VC image ID (for a VC image that exists in DB Glance)'"
 op|')'
 newline|'\n'
-comment|'#---------------------------------------------------------------------'
-nl|'\n'
 comment|'# VSA constants and enums'
 nl|'\n'
 name|'DEFINE_string'
