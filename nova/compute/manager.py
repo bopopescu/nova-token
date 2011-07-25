@@ -861,7 +861,7 @@ name|'admin_context'
 op|','
 name|'instance'
 op|'['
-name|'id'
+string|"'id'"
 op|']'
 op|')'
 newline|'\n'
