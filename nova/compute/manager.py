@@ -851,6 +851,15 @@ name|'_'
 op|'('
 string|"'Rebooting instance %(name)s after nova-compute restart.'"
 op|')'
+op|','
+op|'{'
+string|"'name'"
+op|':'
+name|'instance'
+op|'['
+string|"'name'"
+op|']'
+op|'}'
 op|')'
 newline|'\n'
 name|'self'
