@@ -1248,7 +1248,7 @@ name|'warn'
 op|'('
 name|'_'
 op|'('
-string|"'Quota exceeeded for %s, tried to allocate '"
+string|"'Quota exceeded for %s, tried to allocate '"
 nl|'\n'
 string|"'address'"
 op|')'
