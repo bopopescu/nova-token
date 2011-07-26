@@ -681,7 +681,7 @@ op|','
 nl|'\n'
 name|'action'
 op|'='
-string|'"detail"'
+string|"'show'"
 op|')'
 newline|'\n'
 nl|'\n'
