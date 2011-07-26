@@ -349,6 +349,7 @@ name|'fake'
 op|'.'
 name|'_FakeImageService'
 op|','
+nl|'\n'
 string|"'show_by_name'"
 op|','
 nl|'\n'
