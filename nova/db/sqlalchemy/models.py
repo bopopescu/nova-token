@@ -3164,7 +3164,6 @@ op|')'
 newline|'\n'
 nl|'\n'
 nl|'\n'
-nl|'\n'
 DECL|class|ProviderFirewallRule
 dedent|''
 name|'class'
