@@ -16448,8 +16448,6 @@ op|')'
 newline|'\n'
 nl|'\n'
 nl|'\n'
-nl|'\n'
-nl|'\n'
 DECL|class|TestServerCreateRequestXMLDeserializerV10
 dedent|''
 dedent|''
