@@ -8336,9 +8336,11 @@ op|'('
 op|')'
 newline|'\n'
 nl|'\n'
+comment|"# proper local hrefs must start with 'http://localhost/v1.1/'"
+nl|'\n'
 name|'image_href'
 op|'='
-string|"'http://localhost/images/2'"
+string|"'http://localhost/v1.1/images/2'"
 newline|'\n'
 name|'flavor_ref'
 op|'='
