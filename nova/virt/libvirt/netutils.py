@@ -434,6 +434,14 @@ string|"'broadcast'"
 op|']'
 op|','
 nl|'\n'
+string|"'dhcp_server'"
+op|':'
+name|'network'
+op|'['
+string|"'gateway'"
+op|']'
+op|','
+nl|'\n'
 string|"'mac'"
 op|':'
 name|'vif'
