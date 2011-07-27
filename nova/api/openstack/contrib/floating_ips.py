@@ -105,6 +105,11 @@ name|'if'
 string|"'fixed_ip'"
 name|'in'
 name|'floating_ip'
+name|'and'
+name|'floating_ip'
+op|'['
+string|"'fixed_ip'"
+op|']'
 op|':'
 newline|'\n'
 indent|'        '
