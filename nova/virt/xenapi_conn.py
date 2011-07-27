@@ -265,23 +265,6 @@ op|')'
 newline|'\n'
 name|'flags'
 op|'.'
-name|'DEFINE_bool'
-op|'('
-string|"'xenapi_inject_image'"
-op|','
-nl|'\n'
-name|'True'
-op|','
-nl|'\n'
-string|"'Specifies whether an attempt to inject network/key'"
-nl|'\n'
-string|"'  data into the disk image should be made.'"
-nl|'\n'
-string|"'  Used only if connection_type=xenapi.'"
-op|')'
-newline|'\n'
-name|'flags'
-op|'.'
 name|'DEFINE_string'
 op|'('
 string|"'xenapi_agent_path'"
@@ -298,10 +281,9 @@ string|"'  network configuration is not injected into the image'"
 nl|'\n'
 string|"'  Used only if connection_type=xenapi.'"
 nl|'\n'
-string|"'  and xenapi_inject_image=True'"
+string|"'  and flat_injected=True'"
 op|')'
 newline|'\n'
-nl|'\n'
 name|'flags'
 op|'.'
 name|'DEFINE_string'
@@ -314,7 +296,6 @@ nl|'\n'
 string|"'Base path to the storage repository'"
 op|')'
 newline|'\n'
-nl|'\n'
 name|'flags'
 op|'.'
 name|'DEFINE_string'
