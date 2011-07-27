@@ -3107,7 +3107,6 @@ name|'val'
 op|')'
 newline|'\n'
 nl|'\n'
-nl|'\n'
 DECL|member|test_version_detail_xml_serializer
 dedent|''
 dedent|''
