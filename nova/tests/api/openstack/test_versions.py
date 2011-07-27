@@ -1938,6 +1938,7 @@ nl|'\n'
 name|'ATOM_XMLNS'
 op|')'
 newline|'\n'
+nl|'\n'
 DECL|member|test_multi_choice_server_atom
 dedent|''
 name|'def'
