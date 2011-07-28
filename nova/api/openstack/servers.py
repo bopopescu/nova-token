@@ -4630,8 +4630,6 @@ number|'202'
 op|')'
 newline|'\n'
 nl|'\n'
-nl|'\n'
-nl|'\n'
 DECL|member|_action_create_image
 dedent|''
 name|'def'
