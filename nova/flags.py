@@ -2113,6 +2113,16 @@ op|')'
 newline|'\n'
 name|'DEFINE_string'
 op|'('
+string|"'vsa_manager'"
+op|','
+string|"'nova.vsa.manager.VsaManager'"
+op|','
+nl|'\n'
+string|"'Manager for vsa'"
+op|')'
+newline|'\n'
+name|'DEFINE_string'
+op|'('
 string|"'vc_image_name'"
 op|','
 string|"'vc_image'"

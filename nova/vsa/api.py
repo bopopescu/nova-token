@@ -1043,8 +1043,6 @@ op|'>'
 number|'0'
 op|':'
 newline|'\n'
-comment|"#filter_class = 'nova.scheduler.vsa.InstanceTypeFilter'"
-nl|'\n'
 indent|'                '
 name|'request_spec'
 op|'='
@@ -1067,8 +1065,6 @@ string|"'volumes'"
 op|':'
 name|'volume_params'
 op|','
-nl|'\n'
-comment|"#'filter': filter_class,"
 nl|'\n'
 op|'}'
 newline|'\n'
