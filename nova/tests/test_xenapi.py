@@ -5835,6 +5835,7 @@ name|'network_info'
 op|')'
 newline|'\n'
 nl|'\n'
+nl|'\n'
 DECL|class|XenAPIImageTypeTestCase
 dedent|''
 dedent|''
