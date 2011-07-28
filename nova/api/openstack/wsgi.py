@@ -58,6 +58,7 @@ name|'XMLNS_V11'
 op|'='
 string|"'http://docs.openstack.org/compute/api/v1.1'"
 newline|'\n'
+nl|'\n'
 DECL|variable|XMLNS_ATOM
 name|'XMLNS_ATOM'
 op|'='
