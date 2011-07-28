@@ -3053,11 +3053,7 @@ name|'_run_iscsiadm'
 op|'('
 name|'iscsi_properties'
 op|','
-op|'('
-string|"'--op'"
-op|','
-string|"'new'"
-op|')'
+string|"'--op=new'"
 op|')'
 newline|'\n'
 nl|'\n'
@@ -3353,11 +3349,7 @@ name|'_run_iscsiadm'
 op|'('
 name|'iscsi_properties'
 op|','
-op|'('
-string|"'--op'"
-op|','
-string|"'delete'"
-op|')'
+string|"'--op=delete'"
 op|')'
 newline|'\n'
 nl|'\n'
