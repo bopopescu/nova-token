@@ -777,29 +777,6 @@ nl|'\n'
 op|')'
 newline|'\n'
 nl|'\n'
-comment|"#vsa_disk_association = Table('vsa_disk_association', meta,"
-nl|'\n'
-comment|"#       Column('created_at', DateTime(timezone=False)),"
-nl|'\n'
-comment|"#       Column('updated_at', DateTime(timezone=False)),"
-nl|'\n'
-comment|"#       Column('deleted_at', DateTime(timezone=False)),"
-nl|'\n'
-comment|"#       Column('deleted', Boolean(create_constraint=True, name=None)),"
-nl|'\n'
-comment|"#       Column('id', Integer(), primary_key=True, nullable=False),"
-nl|'\n'
-comment|"#       Column('drive_type_id', Integer(), ForeignKey('drive_types.id')),"
-nl|'\n'
-comment|"#       Column('vsa_id', Integer(), ForeignKey('virtual_storage_arrays.id')),"
-nl|'\n'
-comment|"#       Column('disk_num', Integer(), nullable=False),"
-nl|'\n'
-comment|'#       )'
-nl|'\n'
-nl|'\n'
-comment|'#new_tables = (virtual_storage_arrays, drive_types, vsa_disk_association)'
-nl|'\n'
 DECL|variable|new_tables
 name|'new_tables'
 op|'='
