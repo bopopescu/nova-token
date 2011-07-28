@@ -259,5 +259,15 @@ op|'('
 name|'True'
 op|')'
 newline|'\n'
+name|'FLAGS'
+op|'['
+string|"'flat_network_bridge'"
+op|']'
+op|'.'
+name|'SetDefault'
+op|'('
+string|"'br100'"
+op|')'
+newline|'\n'
 endmarker|''
 end_unit

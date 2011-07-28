@@ -6671,7 +6671,7 @@ name|'options'
 op|'('
 name|'joinedload_all'
 op|'('
-string|"'fixed_ip.floating_ips'"
+string|"'fixed_ips.floating_ips'"
 op|')'
 op|')'
 op|'.'
@@ -6687,7 +6687,7 @@ name|'options'
 op|'('
 name|'joinedload_all'
 op|'('
-string|"'fixed_ip.network'"
+string|"'fixed_ips.network'"
 op|')'
 op|')'
 op|'.'
@@ -7540,7 +7540,7 @@ name|'options'
 op|'('
 name|'joinedload_all'
 op|'('
-string|"'fixed_ip.network'"
+string|"'fixed_ips.network'"
 op|')'
 op|')'
 op|'.'
