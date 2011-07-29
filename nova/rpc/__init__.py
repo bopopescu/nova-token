@@ -44,7 +44,7 @@ newline|'\n'
 name|'from'
 name|'nova'
 op|'.'
-name|'rpc_backends'
+name|'rpc'
 op|'.'
 name|'common'
 name|'import'
@@ -72,7 +72,7 @@ op|'('
 string|"'rpc_backend'"
 op|','
 nl|'\n'
-string|"'nova.rpc_backends.amqp'"
+string|"'nova.rpc.amqp'"
 op|','
 nl|'\n'
 string|'"The messaging module to use, defaults to AMQP."'
