@@ -1346,6 +1346,7 @@ nl|'\n'
 string|"'extra_params'"
 op|':'
 string|"'fake'"
+op|','
 nl|'\n'
 op|'}'
 newline|'\n'

@@ -3230,7 +3230,7 @@ name|'compute'
 op|'.'
 name|'driver'
 op|','
-string|"'finish_resize'"
+string|"'finish_migration'"
 op|','
 name|'fake'
 op|')'
@@ -4149,7 +4149,7 @@ name|'compute'
 op|'.'
 name|'driver'
 op|','
-string|"'finish_resize'"
+string|"'finish_migration'"
 op|','
 name|'fake'
 op|')'
@@ -4166,7 +4166,7 @@ name|'compute'
 op|'.'
 name|'driver'
 op|','
-string|"'revert_resize'"
+string|"'revert_migration'"
 op|','
 name|'fake'
 op|')'
