@@ -786,9 +786,10 @@ op|','
 string|"'del-port'"
 op|','
 nl|'\n'
-name|'FLAGS'
-op|'.'
-name|'flat_network_bridge'
+name|'network'
+op|'['
+string|"'bridge'"
+op|']'
 op|','
 name|'dev'
 op|')'
