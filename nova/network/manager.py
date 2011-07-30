@@ -2118,7 +2118,7 @@ name|'requested_networks'
 op|'='
 name|'kwargs'
 op|'.'
-name|'pop'
+name|'get'
 op|'('
 string|"'requested_networks'"
 op|')'
