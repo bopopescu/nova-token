@@ -1749,6 +1749,20 @@ op|','
 string|"'the main exchange to connect to'"
 op|')'
 newline|'\n'
+name|'DEFINE_list'
+op|'('
+string|"'enabled_apis'"
+op|','
+op|'['
+string|"'ec2'"
+op|','
+string|"'osapi'"
+op|']'
+op|','
+nl|'\n'
+string|"'list of APIs to enable by default'"
+op|')'
+newline|'\n'
 name|'DEFINE_string'
 op|'('
 string|"'ec2_host'"
@@ -1987,7 +2001,15 @@ nl|'\n'
 string|"'directory'"
 op|')'
 newline|'\n'
-nl|'\n'
+name|'DEFINE_integer'
+op|'('
+string|"'logfile_mode'"
+op|','
+number|'0644'
+op|','
+string|"'Default file mode of the logs.'"
+op|')'
+newline|'\n'
 name|'DEFINE_string'
 op|'('
 string|"'sqlite_db'"
