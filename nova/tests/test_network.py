@@ -1972,6 +1972,7 @@ string|"'id'"
 op|':'
 number|'1'
 op|','
+nl|'\n'
 string|"'cidr'"
 op|':'
 string|"'192.168.2.0/24'"
@@ -2036,6 +2037,7 @@ string|"'192.168.1.0'"
 op|','
 string|"'192.168.3.0'"
 op|','
+nl|'\n'
 string|"'192.168.4.0'"
 op|']'
 newline|'\n'
@@ -2068,10 +2070,10 @@ name|'cidrs'
 op|')'
 newline|'\n'
 nl|'\n'
-DECL|member|test__validate_cidrs_split_cidr_smaller_subnet_in_use_middle_of_range
+DECL|member|test__validate_cidrs_split_cidr_smaller_subnet_in_use
 dedent|''
 name|'def'
-name|'test__validate_cidrs_split_cidr_smaller_subnet_in_use_middle_of_range'
+name|'test__validate_cidrs_split_cidr_smaller_subnet_in_use'
 op|'('
 name|'self'
 op|')'
@@ -2124,6 +2126,7 @@ string|"'id'"
 op|':'
 number|'1'
 op|','
+nl|'\n'
 string|"'cidr'"
 op|':'
 string|"'192.168.2.0/25'"
@@ -2188,6 +2191,7 @@ string|"'192.168.1.0'"
 op|','
 string|"'192.168.3.0'"
 op|','
+nl|'\n'
 string|"'192.168.4.0'"
 op|']'
 newline|'\n'
@@ -2323,6 +2327,7 @@ string|"'id'"
 op|':'
 number|'1'
 op|','
+nl|'\n'
 string|"'cidr'"
 op|':'
 string|"'192.168.0.0/24'"
@@ -2397,7 +2402,9 @@ op|','
 number|'256'
 op|']'
 newline|'\n'
-comment|'# ValueError: Not enough subnets avail to satisfy requested num_networks'
+comment|'# ValueError: Not enough subnets avail to satisfy requested'
+nl|'\n'
+comment|'#             num_networks'
 nl|'\n'
 name|'self'
 op|'.'
@@ -2538,6 +2545,7 @@ string|"'id'"
 op|':'
 number|'1'
 op|','
+nl|'\n'
 string|"'cidr'"
 op|':'
 string|"'192.168.0.0/8'"
@@ -2565,7 +2573,9 @@ op|','
 number|'256'
 op|']'
 newline|'\n'
-comment|'# ValueError: requested cidr (192.168.0.0/24) conflicts with existing supernet (192.0.0.0/8)'
+comment|'# ValueError: requested cidr (192.168.0.0/24) conflicts'
+nl|'\n'
+comment|'#             with existing supernet'
 nl|'\n'
 name|'self'
 op|'.'
@@ -2591,11 +2601,15 @@ comment|'#        manager = self.FakeNetworkManager()'
 nl|'\n'
 comment|"#        self.mox.StubOutWithMock(manager.db, 'network_get_by_cidr')"
 nl|'\n'
-comment|"#        manager.db.network_get_by_cidr(mox.IgnoreArg(), '192.168.0.0/24').AndReturn(mockany)"
+comment|"#        manager.db.network_get_by_cidr(mox.IgnoreArg(), '192.168.0.0/24')\\"
+nl|'\n'
+comment|'#                                       .AndReturn(mockany)'
 nl|'\n'
 comment|'#        self.mox.ReplayAll()'
 nl|'\n'
-comment|"#        args = [None, 'foo', '192.168.0.0/24', None, 1, 256, 'fd00::/48', None, None, None]"
+comment|"#        args = [None, 'foo', '192.168.0.0/24', None, 1, 256,"
+nl|'\n'
+comment|"#                 'fd00::/48', None, None, None]"
 nl|'\n'
 comment|'#        self.assertRaises(ValueError, manager.create_networks, *args)'
 nl|'\n'
