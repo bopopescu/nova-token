@@ -16083,16 +16083,9 @@ name|'self'
 op|'.'
 name|'webreq'
 op|'('
-string|"'/1/action'"
+string|"'/1/migrate'"
 op|','
 string|"'POST'"
-op|','
-name|'dict'
-op|'('
-name|'migrate'
-op|'='
-name|'None'
-op|')'
 op|')'
 newline|'\n'
 nl|'\n'
