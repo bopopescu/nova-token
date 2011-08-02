@@ -539,6 +539,13 @@ string|"'POST'"
 newline|'\n'
 name|'server_members'
 op|'['
+string|"'migrate'"
+op|']'
+op|'='
+string|"'POST'"
+newline|'\n'
+name|'server_members'
+op|'['
 string|"'unrescue'"
 op|']'
 op|'='
