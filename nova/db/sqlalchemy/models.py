@@ -1255,7 +1255,7 @@ op|')'
 comment|"# , ForeignKey('hosts.id'))"
 newline|'\n'
 nl|'\n'
-comment|'# aka flavor_id'
+comment|'# *not* flavor_id'
 nl|'\n'
 DECL|variable|instance_type_id
 name|'instance_type_id'
@@ -3238,8 +3238,8 @@ number|'255'
 op|')'
 op|')'
 newline|'\n'
-DECL|variable|old_flavor_id
-name|'old_flavor_id'
+DECL|variable|old_instance_type_id
+name|'old_instance_type_id'
 op|'='
 name|'Column'
 op|'('
@@ -3248,8 +3248,8 @@ op|'('
 op|')'
 op|')'
 newline|'\n'
-DECL|variable|new_flavor_id
-name|'new_flavor_id'
+DECL|variable|new_instance_type_id
+name|'new_instance_type_id'
 op|'='
 name|'Column'
 op|'('
