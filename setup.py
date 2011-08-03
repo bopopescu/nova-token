@@ -707,9 +707,6 @@ nl|'\n'
 string|"'bin/nova-import-canonical-imagestore'"
 op|','
 nl|'\n'
-string|"'bin/nova-instancemonitor'"
-op|','
-nl|'\n'
 string|"'bin/nova-logspool'"
 op|','
 nl|'\n'
