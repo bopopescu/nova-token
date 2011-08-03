@@ -2001,7 +2001,15 @@ nl|'\n'
 string|"'directory'"
 op|')'
 newline|'\n'
-nl|'\n'
+name|'DEFINE_integer'
+op|'('
+string|"'logfile_mode'"
+op|','
+number|'0644'
+op|','
+string|"'Default file mode of the logs.'"
+op|')'
+newline|'\n'
 name|'DEFINE_string'
 op|'('
 string|"'sqlite_db'"
