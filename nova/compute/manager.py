@@ -4668,6 +4668,14 @@ nl|'\n'
 string|"'args'"
 op|':'
 op|'{'
+string|"'instance_id'"
+op|':'
+name|'instance_ref'
+op|'['
+string|"'uuid'"
+op|']'
+op|','
+nl|'\n'
 string|"'migration_id'"
 op|':'
 name|'migration_ref'
