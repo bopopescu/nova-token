@@ -877,6 +877,7 @@ name|'LOG'
 op|'.'
 name|'warning'
 op|'('
+nl|'\n'
 name|'_'
 op|'('
 string|"'Hypervisor driver does not support firewall rules'"
