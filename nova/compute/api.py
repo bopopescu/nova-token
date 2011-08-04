@@ -5275,7 +5275,7 @@ op|','
 nl|'\n'
 name|'migration_ref'
 op|'['
-string|"'source_compute'"
+string|"'dest_compute'"
 op|']'
 op|','
 nl|'\n'
@@ -5422,7 +5422,7 @@ op|','
 nl|'\n'
 name|'migration_ref'
 op|'['
-string|"'dest_compute'"
+string|"'source_compute'"
 op|']'
 op|','
 nl|'\n'
