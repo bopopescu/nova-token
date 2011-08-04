@@ -5289,7 +5289,7 @@ op|','
 nl|'\n'
 name|'migration_ref'
 op|'['
-string|"'source_compute'"
+string|"'dest_compute'"
 op|']'
 op|','
 nl|'\n'
@@ -5436,7 +5436,7 @@ op|','
 nl|'\n'
 name|'migration_ref'
 op|'['
-string|"'dest_compute'"
+string|"'source_compute'"
 op|']'
 op|','
 nl|'\n'
@@ -5724,7 +5724,7 @@ string|"'uuid'"
 op|']'
 op|','
 nl|'\n'
-string|'"flavor_id"'
+string|'"instance_type_id"'
 op|':'
 name|'new_instance_type'
 op|'['
