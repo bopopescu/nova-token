@@ -5710,7 +5710,7 @@ string|"'uuid'"
 op|']'
 op|','
 nl|'\n'
-string|'"flavor_id"'
+string|'"instance_type_id"'
 op|':'
 name|'new_instance_type'
 op|'['
