@@ -6542,7 +6542,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""Return instances the match all filters.  Deleted instances\n    will be returned by default, unless there\'s a filter that says\n    otherwise"""'
+string|'"""Return instances that match all filters.  Deleted instances\n    will be returned by default, unless there\'s a filter that says\n    otherwise"""'
 newline|'\n'
 nl|'\n'
 DECL|function|_filter_by_ipv6
