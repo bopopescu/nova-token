@@ -5356,10 +5356,15 @@ op|','
 nl|'\n'
 string|"'dns'"
 op|':'
+string|"' '"
+op|'.'
+name|'join'
+op|'('
 name|'mapping'
 op|'['
 string|"'dns'"
 op|']'
+op|')'
 op|','
 nl|'\n'
 string|"'address_v6'"
