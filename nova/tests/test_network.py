@@ -2560,7 +2560,6 @@ string|"'cidr'"
 op|':'
 string|"'192.168.2.128/26'"
 op|'}'
-nl|'\n'
 op|']'
 newline|'\n'
 name|'manager'
