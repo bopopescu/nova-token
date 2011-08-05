@@ -1632,7 +1632,6 @@ dedent|''
 name|'return'
 name|'inner'
 newline|'\n'
-nl|'\n'
 dedent|''
 endmarker|''
 end_unit
