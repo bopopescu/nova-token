@@ -624,10 +624,10 @@ op|'.'
 name|'get'
 op|'('
 string|"'filters'"
-op|','
+op|')'
+name|'or'
 op|'{'
 op|'}'
-op|')'
 newline|'\n'
 comment|"# NOTE(vish): don't filter out private images"
 nl|'\n'
