@@ -2137,6 +2137,7 @@ name|'filters'
 op|')'
 newline|'\n'
 nl|'\n'
+nl|'\n'
 DECL|function|instance_get_active_by_window
 dedent|''
 name|'def'

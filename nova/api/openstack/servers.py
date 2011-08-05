@@ -353,7 +353,6 @@ name|'None'
 op|')'
 newline|'\n'
 nl|'\n'
-nl|'\n'
 DECL|member|index
 dedent|''
 dedent|''
