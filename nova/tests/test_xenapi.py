@@ -5513,7 +5513,6 @@ string|"'127.0.0.1'"
 op|')'
 newline|'\n'
 nl|'\n'
-nl|'\n'
 DECL|member|test_revert_migrate
 dedent|''
 name|'def'
