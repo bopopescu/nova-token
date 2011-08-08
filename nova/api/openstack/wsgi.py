@@ -3009,6 +3009,8 @@ op|':'
 newline|'\n'
 indent|'            '
 name|'request'
+op|'.'
+name|'environ'
 op|'['
 string|"'nova.context'"
 op|']'
