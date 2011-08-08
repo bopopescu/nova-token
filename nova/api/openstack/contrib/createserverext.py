@@ -217,7 +217,7 @@ string|"'application/xml'"
 op|':'
 name|'helper'
 op|'.'
-name|'ServerXMLDeserializer'
+name|'ServerXMLDeserializerV11'
 op|'('
 op|')'
 op|','
