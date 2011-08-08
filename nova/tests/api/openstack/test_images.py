@@ -2753,7 +2753,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/images/124'"
+string|"'/v1.1/123/images/124'"
 op|')'
 newline|'\n'
 name|'response'
@@ -3365,7 +3365,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/images/NonExistantImage'"
+string|"'/v1.1/123/images/NonExistantImage'"
 op|')'
 newline|'\n'
 name|'response'
@@ -3457,7 +3457,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/images/NonExistantImage'"
+string|"'/v1.1/123/images/NonExistantImage'"
 op|')'
 newline|'\n'
 name|'request'
@@ -3567,7 +3567,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/images'"
+string|"'/v1.1/123/images'"
 op|')'
 newline|'\n'
 name|'response'
@@ -4044,7 +4044,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/images/detail'"
+string|"'/v1.1/123/images/detail'"
 op|')'
 newline|'\n'
 name|'response'
