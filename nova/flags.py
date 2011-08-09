@@ -2230,7 +2230,7 @@ newline|'\n'
 nl|'\n'
 name|'DEFINE_string'
 op|'('
-string|"'sudo_helper'"
+string|"'root_helper'"
 op|','
 string|"'sudo'"
 op|','
