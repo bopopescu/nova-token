@@ -1858,7 +1858,7 @@ name|'DEFINE_string'
 op|'('
 string|"'osapi_path'"
 op|','
-string|"'/v1.0/'"
+string|"'/v1.1/'"
 op|','
 string|"'suffix for openstack'"
 op|')'
