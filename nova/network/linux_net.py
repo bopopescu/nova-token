@@ -2696,8 +2696,6 @@ op|'='
 name|'True'
 op|')'
 newline|'\n'
-comment|"# _execute('sudo brctl setageing %s 10' % bridge)"
-nl|'\n'
 name|'_execute'
 op|'('
 string|"'brctl'"
