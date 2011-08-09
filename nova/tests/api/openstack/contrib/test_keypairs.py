@@ -150,7 +150,7 @@ name|'context'
 op|','
 name|'user_id'
 op|','
-name|'key_name'
+name|'name'
 op|')'
 op|':'
 newline|'\n'
@@ -160,7 +160,7 @@ name|'not'
 op|'('
 name|'user_id'
 name|'and'
-name|'key_name'
+name|'name'
 op|')'
 op|':'
 newline|'\n'
@@ -384,7 +384,7 @@ op|'{'
 string|"'keypair'"
 op|':'
 op|'{'
-string|"'key_name'"
+string|"'name'"
 op|':'
 string|"'create_test'"
 op|'}'
@@ -515,7 +515,7 @@ op|'{'
 string|"'keypair'"
 op|':'
 op|'{'
-string|"'key_name'"
+string|"'name'"
 op|':'
 string|"'create_test'"
 op|','
