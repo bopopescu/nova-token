@@ -18946,7 +18946,7 @@ op|'('
 op|')'
 newline|'\n'
 nl|'\n'
-comment|"# Set all metadata that isn't passed in if delete kwarg is True"
+comment|'# Set existing metadata to deleted if delete argument is True'
 nl|'\n'
 name|'if'
 name|'delete'
