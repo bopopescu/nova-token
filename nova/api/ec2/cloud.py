@@ -8245,8 +8245,6 @@ DECL|member|_convert_to_set
 name|'def'
 name|'_convert_to_set'
 op|'('
-name|'self'
-op|','
 name|'lst'
 op|','
 name|'label'
