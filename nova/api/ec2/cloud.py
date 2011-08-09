@@ -1811,6 +1811,8 @@ name|'instance_ref'
 op|'['
 string|"'instance_type'"
 op|']'
+op|'.'
+name|'name'
 op|','
 nl|'\n'
 string|"'local-hostname'"
