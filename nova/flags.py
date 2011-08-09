@@ -1849,7 +1849,7 @@ name|'DEFINE_string'
 op|'('
 string|"'osapi_path'"
 op|','
-string|"'/v1.0/'"
+string|"'/v1.1/'"
 op|','
 string|"'suffix for openstack'"
 op|')'
@@ -2204,6 +2204,27 @@ name|'None'
 op|','
 nl|'\n'
 string|"'128bit (hex) encryption key for scheduler build plans.'"
+op|')'
+newline|'\n'
+nl|'\n'
+name|'DEFINE_bool'
+op|'('
+string|"'start_guests_on_host_boot'"
+op|','
+name|'False'
+op|','
+nl|'\n'
+string|"'Whether to restart guests when the host reboots'"
+op|')'
+newline|'\n'
+name|'DEFINE_bool'
+op|'('
+string|"'resume_guests_state_on_host_boot'"
+op|','
+name|'False'
+op|','
+nl|'\n'
+string|"'Whether to start guests, that was running before the host reboot'"
 op|')'
 newline|'\n'
 endmarker|''
