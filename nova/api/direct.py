@@ -95,6 +95,7 @@ op|'{'
 op|'}'
 newline|'\n'
 nl|'\n'
+nl|'\n'
 DECL|function|register_service
 name|'def'
 name|'register_service'
