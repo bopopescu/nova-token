@@ -1205,7 +1205,7 @@ op|')'
 op|'.'
 name|'split'
 op|'('
-string|"'nova/__init__.pyc'"
+string|"'nova/__init__.py'"
 op|')'
 op|'['
 number|'0'
