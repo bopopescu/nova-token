@@ -162,6 +162,11 @@ op|':'
 number|'7'
 op|','
 nl|'\n'
+string|"'root_device_name'"
+op|':'
+string|"'/dev/sda1'"
+op|','
+nl|'\n'
 string|"'hostname'"
 op|':'
 string|"'test'"
