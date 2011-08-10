@@ -717,7 +717,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/os-floating-ips'"
+string|"'/v1.1/123/os-floating-ips'"
 op|')'
 newline|'\n'
 name|'res'
@@ -842,7 +842,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/os-floating-ips/1'"
+string|"'/v1.1/123/os-floating-ips/1'"
 op|')'
 newline|'\n'
 name|'res'
@@ -959,7 +959,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/os-floating-ips'"
+string|"'/v1.1/123/os-floating-ips'"
 op|')'
 newline|'\n'
 name|'req'
@@ -1060,7 +1060,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/os-floating-ips/1'"
+string|"'/v1.1/123/os-floating-ips/1'"
 op|')'
 newline|'\n'
 name|'req'
@@ -1163,7 +1163,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/os-floating-ips/1/associate'"
+string|"'/v1.1/123/os-floating-ips/1/associate'"
 op|')'
 newline|'\n'
 name|'req'
@@ -1278,7 +1278,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/os-floating-ips/1/disassociate'"
+string|"'/v1.1/123/os-floating-ips/1/disassociate'"
 op|')'
 newline|'\n'
 name|'req'
