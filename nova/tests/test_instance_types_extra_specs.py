@@ -805,10 +805,10 @@ op|'}'
 op|')'
 newline|'\n'
 nl|'\n'
-DECL|member|test_instance_type_get_with_extra_specs
+DECL|member|test_instance_type_get_by_flavor_id_with_extra_specs
 dedent|''
 name|'def'
-name|'test_instance_type_get_with_extra_specs'
+name|'test_instance_type_get_by_flavor_id_with_extra_specs'
 op|'('
 name|'self'
 op|')'
