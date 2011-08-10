@@ -736,6 +736,13 @@ op|','
 nl|'\n'
 string|"'tools/nova-debug'"
 op|']'
+op|','
+nl|'\n'
+DECL|variable|py_modules
+name|'py_modules'
+op|'='
+op|'['
+op|']'
 op|')'
 newline|'\n'
 endmarker|''
