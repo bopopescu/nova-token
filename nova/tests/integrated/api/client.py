@@ -721,13 +721,13 @@ string|"'x-server-management-url'"
 op|']'
 newline|'\n'
 nl|'\n'
-comment|'# /fake is the project_id'
+comment|'# /openstack is the project_id'
 nl|'\n'
 name|'full_uri'
 op|'='
 name|'base_uri'
 op|'+'
-string|"'/fake'"
+string|"'/openstack'"
 op|'+'
 name|'relative_uri'
 newline|'\n'
