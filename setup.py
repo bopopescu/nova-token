@@ -704,9 +704,6 @@ nl|'\n'
 string|"'bin/nova-direct-api'"
 op|','
 nl|'\n'
-string|"'bin/nova-import-canonical-imagestore'"
-op|','
-nl|'\n'
 string|"'bin/nova-logspool'"
 op|','
 nl|'\n'
@@ -735,6 +732,13 @@ string|"'bin/nova-vncproxy'"
 op|','
 nl|'\n'
 string|"'tools/nova-debug'"
+op|']'
+op|','
+nl|'\n'
+DECL|variable|py_modules
+name|'py_modules'
+op|'='
+op|'['
 op|']'
 op|')'
 newline|'\n'
