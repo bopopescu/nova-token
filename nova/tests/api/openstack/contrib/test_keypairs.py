@@ -103,6 +103,7 @@ name|'name'
 op|'}'
 newline|'\n'
 nl|'\n'
+nl|'\n'
 DECL|function|db_key_pair_get_all_by_user
 dedent|''
 name|'def'
@@ -522,10 +523,35 @@ op|','
 nl|'\n'
 string|"'public_key'"
 op|':'
-string|"'ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDBYIznAx9D7118Q1VKGpXy2HDiKyUTM8XcUuhQpo0srqb9rboUp4a9NmCwpWpeElDLuva707GOUnfaBAvHBwsRXyxHJjRaI6YQj2oLJwqvaSaWUbyT1vtryRqy6J3TecN0WINY71f4uymiMZP0wby4bKBcYnac8KiCIlvkEl0ETjkOGUq8OyWRmn7ljj5SESEUdBP0JnuTFKddWTU/wD6wydeJaUhBTqOlHn0kX1GyqoNTE1UEhcM5ZRWgfUZfTjVyDF2kGj3vJLCJtJ8LoGcj7YaN4uPg1rBle+izwE/tLonRrds+cev8p6krSSrxWOwBbHkXa6OciiJDvkRzJXzf'"
+string|"'ssh-rsa '"
+nl|'\n'
+string|"'AAAAB3NzaC1yc2EAAAADAQABAAABAQDBY'"
+nl|'\n'
+string|"'IznAx9D7118Q1VKGpXy2HDiKyUTM8XcUu'"
+nl|'\n'
+string|"'hQpo0srqb9rboUp4a9NmCwpWpeElDLuva'"
+nl|'\n'
+string|"'707GOUnfaBAvHBwsRXyxHJjRaI6YQj2oL'"
+nl|'\n'
+string|"'JwqvaSaWUbyT1vtryRqy6J3TecN0WINY7'"
+nl|'\n'
+string|"'1f4uymiMZP0wby4bKBcYnac8KiCIlvkEl'"
+nl|'\n'
+string|"'0ETjkOGUq8OyWRmn7ljj5SESEUdBP0Jnu'"
+nl|'\n'
+string|"'TFKddWTU/wD6wydeJaUhBTqOlHn0kX1Gy'"
+nl|'\n'
+string|"'qoNTE1UEhcM5ZRWgfUZfTjVyDF2kGj3vJ'"
+nl|'\n'
+string|"'LCJtJ8LoGcj7YaN4uPg1rBle+izwE/tLo'"
+nl|'\n'
+string|"'nRrds+cev8p6krSSrxWOwBbHkXa6OciiJ'"
+nl|'\n'
+string|"'DvkRzJXzf'"
 op|'}'
 op|'}'
 newline|'\n'
+nl|'\n'
 name|'req'
 op|'='
 name|'webob'
@@ -691,7 +717,6 @@ op|','
 number|'202'
 op|')'
 newline|'\n'
-nl|'\n'
 dedent|''
 dedent|''
 endmarker|''
