@@ -2762,7 +2762,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/123/images/124'"
+string|"'/v1.1/fake/images/124'"
 op|')'
 newline|'\n'
 name|'response'
@@ -2777,12 +2777,6 @@ name|'wsgi_app'
 op|'('
 op|')'
 op|')'
-newline|'\n'
-nl|'\n'
-name|'print'
-name|'response'
-op|'.'
-name|'body'
 newline|'\n'
 nl|'\n'
 name|'actual_image'
@@ -3385,7 +3379,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/123/images/NonExistantImage'"
+string|"'/v1.1/fake/images/NonExistantImage'"
 op|')'
 newline|'\n'
 name|'response'
@@ -3477,7 +3471,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/123/images/NonExistantImage'"
+string|"'/v1.1/fake/images/NonExistantImage'"
 op|')'
 newline|'\n'
 name|'request'
@@ -3587,7 +3581,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/123/images'"
+string|"'/v1.1/fake/images'"
 op|')'
 newline|'\n'
 name|'response'
@@ -4090,7 +4084,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/123/images/detail'"
+string|"'/v1.1/fake/images/detail'"
 op|')'
 newline|'\n'
 name|'response'
@@ -5792,7 +5786,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/123/images/detail?name=testname'"
+string|"'/v1.1/fake/images/detail?name=testname'"
 op|')'
 newline|'\n'
 name|'request'
@@ -5900,7 +5894,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/123/images/detail?status=ACTIVE'"
+string|"'/v1.1/fake/images/detail?status=ACTIVE'"
 op|')'
 newline|'\n'
 name|'request'
@@ -6009,7 +6003,7 @@ op|'.'
 name|'blank'
 op|'('
 nl|'\n'
-string|"'/v1.1/123/images/detail?property-test=3'"
+string|"'/v1.1/fake/images/detail?property-test=3'"
 op|')'
 newline|'\n'
 name|'request'
@@ -6119,7 +6113,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/123/images/detail?server='"
+string|"'/v1.1/fake/images/detail?server='"
 nl|'\n'
 string|"'http://localhost:8774/servers/12'"
 op|')'
@@ -6229,7 +6223,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/123/images/detail?changes-since='"
+string|"'/v1.1/fake/images/detail?changes-since='"
 nl|'\n'
 string|"'2011-01-24T17:08Z'"
 op|')'
@@ -6339,7 +6333,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/123/images/detail?type=BASE'"
+string|"'/v1.1/fake/images/detail?type=BASE'"
 op|')'
 newline|'\n'
 name|'request'
@@ -6447,7 +6441,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/123/images/detail?status=ACTIVE&'"
+string|"'/v1.1/fake/images/detail?status=ACTIVE&'"
 nl|'\n'
 string|"'UNSUPPORTEDFILTER=testname'"
 op|')'
@@ -6554,7 +6548,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/123/images/detail'"
+string|"'/v1.1/fake/images/detail'"
 op|')'
 newline|'\n'
 name|'request'

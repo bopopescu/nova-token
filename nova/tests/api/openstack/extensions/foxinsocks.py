@@ -347,7 +347,7 @@ op|'('
 string|"'GET'"
 op|','
 nl|'\n'
-string|"'/v1.1/:(tenant_id)/flavors/:(id)'"
+string|"'/v1.1/:(project_id)/flavors/:(id)'"
 op|','
 nl|'\n'
 name|'_goose_handler'
@@ -419,7 +419,7 @@ op|'('
 string|"'GET'"
 op|','
 nl|'\n'
-string|"'/v1.1/:(tenant_id)/flavors/:(id)'"
+string|"'/v1.1/:(project_id)/flavors/:(id)'"
 op|','
 nl|'\n'
 name|'_bands_handler'

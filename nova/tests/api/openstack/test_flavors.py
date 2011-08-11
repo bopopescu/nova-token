@@ -882,7 +882,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/123/flavors/12'"
+string|"'/v1.1/fake/flavors/12'"
 op|')'
 newline|'\n'
 name|'req'
@@ -1027,7 +1027,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/123/flavors'"
+string|"'/v1.1/fake/flavors'"
 op|')'
 newline|'\n'
 name|'req'
@@ -1219,7 +1219,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/123/flavors/detail'"
+string|"'/v1.1/fake/flavors/detail'"
 op|')'
 newline|'\n'
 name|'req'
@@ -1463,7 +1463,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/123/flavors'"
+string|"'/v1.1/fake/flavors'"
 op|')'
 newline|'\n'
 name|'res'

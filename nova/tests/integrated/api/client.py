@@ -727,7 +727,7 @@ name|'full_uri'
 op|'='
 name|'base_uri'
 op|'+'
-string|"'/123'"
+string|"'/fake'"
 op|'+'
 name|'relative_uri'
 newline|'\n'

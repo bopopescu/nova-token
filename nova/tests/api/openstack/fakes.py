@@ -431,6 +431,7 @@ op|','
 string|"'fake'"
 op|')'
 newline|'\n'
+nl|'\n'
 dedent|''
 name|'api10'
 op|'='

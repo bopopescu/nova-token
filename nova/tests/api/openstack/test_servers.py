@@ -1946,7 +1946,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/123/servers/1'"
+string|"'/v1.1/fake/servers/1'"
 op|')'
 newline|'\n'
 name|'res'
@@ -2347,7 +2347,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/123/servers/1'"
+string|"'/v1.1/fake/servers/1'"
 op|')'
 newline|'\n'
 name|'req'
@@ -2580,7 +2580,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/123/servers/1'"
+string|"'/v1.1/fake/servers/1'"
 op|')'
 newline|'\n'
 name|'res'
@@ -2988,7 +2988,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/123/servers/1'"
+string|"'/v1.1/fake/servers/1'"
 op|')'
 newline|'\n'
 name|'res'
@@ -4551,7 +4551,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/123/servers/1'"
+string|"'/v1.1/fake/servers/1'"
 op|')'
 newline|'\n'
 name|'res'
@@ -4841,7 +4841,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/123/servers/1'"
+string|"'/v1.1/fake/servers/1'"
 op|')'
 newline|'\n'
 name|'res'
@@ -5137,7 +5137,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/123/servers/1/ips'"
+string|"'/v1.1/fake/servers/1/ips'"
 op|')'
 newline|'\n'
 name|'res'
@@ -5421,7 +5421,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/123/servers/1/ips/network_2'"
+string|"'/v1.1/fake/servers/1/ips/network_2'"
 op|')'
 newline|'\n'
 name|'res'
@@ -5572,7 +5572,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/123/servers/1/ips/network_0'"
+string|"'/v1.1/fake/servers/1/ips/network_0'"
 op|')'
 newline|'\n'
 name|'res'
@@ -5646,7 +5646,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/123/servers/600/ips'"
+string|"'/v1.1/fake/servers/600/ips'"
 op|')'
 newline|'\n'
 name|'res'
@@ -6250,7 +6250,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/123/servers'"
+string|"'/v1.1/fake/servers'"
 op|')'
 newline|'\n'
 name|'res'
@@ -6867,7 +6867,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/123/servers?marker=2'"
+string|"'/v1.1/fake/servers?marker=2'"
 op|')'
 newline|'\n'
 name|'res'
@@ -6938,7 +6938,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/123/servers?limit=2&marker=1'"
+string|"'/v1.1/fake/servers?limit=2&marker=1'"
 op|')'
 newline|'\n'
 name|'res'
@@ -7009,7 +7009,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/123/servers?limit=2&marker=asdf'"
+string|"'/v1.1/fake/servers?limit=2&marker=asdf'"
 op|')'
 newline|'\n'
 name|'res'
@@ -7249,7 +7249,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/123/servers?unknownoption=whee'"
+string|"'/v1.1/fake/servers?unknownoption=whee'"
 op|')'
 newline|'\n'
 name|'res'
@@ -7418,7 +7418,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/123/servers?image=12345'"
+string|"'/v1.1/fake/servers?image=12345'"
 op|')'
 newline|'\n'
 name|'res'
@@ -7593,7 +7593,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/123/servers?flavor=12345'"
+string|"'/v1.1/fake/servers?flavor=12345'"
 op|')'
 newline|'\n'
 name|'res'
@@ -7781,7 +7781,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/123/servers?status=active'"
+string|"'/v1.1/fake/servers?status=active'"
 op|')'
 newline|'\n'
 name|'res'
@@ -7885,7 +7885,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/123/servers?status=running'"
+string|"'/v1.1/fake/servers?status=running'"
 op|')'
 newline|'\n'
 name|'res'
@@ -8034,7 +8034,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/123/servers?name=whee.*'"
+string|"'/v1.1/fake/servers?name=whee.*'"
 op|')'
 newline|'\n'
 name|'res'
@@ -8234,7 +8234,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/123/servers?%s'"
+string|"'/v1.1/fake/servers?%s'"
 op|'%'
 name|'query_str'
 op|')'
@@ -8459,7 +8459,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/123/servers?%s'"
+string|"'/v1.1/fake/servers?%s'"
 op|'%'
 name|'query_str'
 op|')'
@@ -8684,7 +8684,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/123/servers?%s'"
+string|"'/v1.1/fake/servers?%s'"
 op|'%'
 name|'query_str'
 op|')'
@@ -8885,7 +8885,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/123/servers?ip=10\\..*'"
+string|"'/v1.1/fake/servers?ip=10\\..*'"
 op|')'
 newline|'\n'
 comment|'# Request admin context'
@@ -9084,7 +9084,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/123/servers?ip6=ffff.*'"
+string|"'/v1.1/fake/servers?ip6=ffff.*'"
 op|')'
 newline|'\n'
 comment|'# Request admin context'
@@ -10875,7 +10875,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/123/servers'"
+string|"'/v1.1/fake/servers'"
 op|')'
 newline|'\n'
 name|'req'
@@ -11095,7 +11095,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/123/servers'"
+string|"'/v1.1/fake/servers'"
 op|')'
 newline|'\n'
 name|'req'
@@ -11224,7 +11224,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/123/servers'"
+string|"'/v1.1/fake/servers'"
 op|')'
 newline|'\n'
 name|'req'
@@ -11353,7 +11353,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/123/servers'"
+string|"'/v1.1/fake/servers'"
 op|')'
 newline|'\n'
 name|'req'
@@ -11535,7 +11535,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/123/servers'"
+string|"'/v1.1/fake/servers'"
 op|')'
 newline|'\n'
 name|'req'
@@ -11831,7 +11831,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/123/servers'"
+string|"'/v1.1/fake/servers'"
 op|')'
 newline|'\n'
 name|'req'
@@ -11976,7 +11976,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/123/servers'"
+string|"'/v1.1/fake/servers'"
 op|')'
 newline|'\n'
 name|'req'
@@ -12611,7 +12611,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/123/servers/1'"
+string|"'/v1.1/fake/servers/1'"
 op|')'
 newline|'\n'
 name|'req'
@@ -12663,7 +12663,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/123/servers/1'"
+string|"'/v1.1/fake/servers/1'"
 op|')'
 newline|'\n'
 name|'req'
@@ -12836,7 +12836,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/123/servers/1'"
+string|"'/v1.1/fake/servers/1'"
 op|')'
 newline|'\n'
 name|'req'
@@ -13109,7 +13109,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/123/servers/1/backup_schedule'"
+string|"'/v1.1/fake/servers/1/backup_schedule'"
 op|')'
 newline|'\n'
 name|'res'
@@ -13581,7 +13581,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/123/servers/detail'"
+string|"'/v1.1/fake/servers/detail'"
 op|')'
 newline|'\n'
 name|'res'
@@ -14873,7 +14873,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/123/servers/1'"
+string|"'/v1.1/fake/servers/1'"
 op|')'
 newline|'\n'
 name|'req'
