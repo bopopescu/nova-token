@@ -312,7 +312,7 @@ op|'('
 string|"'/'"
 op|')'
 newline|'\n'
-comment|'# TODO(wwolf): this v1.1 check will be temporary as '
+comment|'# TODO(wwolf): this v1.1 check will be temporary as'
 nl|'\n'
 comment|'# keystone should be taking this over at some point'
 nl|'\n'
