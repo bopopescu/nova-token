@@ -2288,5 +2288,16 @@ nl|'\n'
 string|"'Whether to start guests, that was running before the host reboot'"
 op|')'
 newline|'\n'
+nl|'\n'
+name|'DEFINE_string'
+op|'('
+string|"'root_helper'"
+op|','
+string|"'sudo'"
+op|','
+nl|'\n'
+string|"'Command prefix to use for running commands as root'"
+op|')'
+newline|'\n'
 endmarker|''
 end_unit
