@@ -3889,10 +3889,10 @@ name|'fake_execute_set_repliers'
 op|'('
 op|'['
 nl|'\n'
-comment|'# Capture the sudo tee .../etc/network/interfaces command'
+comment|'# Capture the tee .../etc/network/interfaces command'
 nl|'\n'
 op|'('
-string|"r'(sudo\\s+)?tee.*interfaces'"
+string|"r'tee.*interfaces'"
 op|','
 name|'_tee_handler'
 op|')'
@@ -4216,21 +4216,21 @@ op|'('
 op|'['
 nl|'\n'
 op|'('
-string|"r'(sudo\\s+)?mount'"
+string|"r'mount'"
 op|','
 name|'_mount_handler'
 op|')'
 op|','
 nl|'\n'
 op|'('
-string|"r'(sudo\\s+)?umount'"
+string|"r'umount'"
 op|','
 name|'_umount_handler'
 op|')'
 op|','
 nl|'\n'
 op|'('
-string|"r'(sudo\\s+)?tee.*interfaces'"
+string|"r'tee.*interfaces'"
 op|','
 name|'_tee_handler'
 op|')'
