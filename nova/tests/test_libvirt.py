@@ -6555,8 +6555,6 @@ name|'if'
 name|'cmd'
 op|'=='
 op|'('
-string|"'sudo'"
-op|','
 string|"'ip6tables-save'"
 op|','
 string|"'-t'"
@@ -6583,8 +6581,6 @@ name|'if'
 name|'cmd'
 op|'=='
 op|'('
-string|"'sudo'"
-op|','
 string|"'iptables-save'"
 op|','
 string|"'-t'"
@@ -6611,8 +6607,6 @@ name|'if'
 name|'cmd'
 op|'=='
 op|'('
-string|"'sudo'"
-op|','
 string|"'iptables-save'"
 op|','
 string|"'-t'"
@@ -6639,9 +6633,8 @@ name|'if'
 name|'cmd'
 op|'=='
 op|'('
-string|"'sudo'"
-op|','
 string|"'iptables-restore'"
+op|','
 op|')'
 op|':'
 newline|'\n'
@@ -6679,9 +6672,8 @@ name|'if'
 name|'cmd'
 op|'=='
 op|'('
-string|"'sudo'"
-op|','
 string|"'ip6tables-restore'"
+op|','
 op|')'
 op|':'
 newline|'\n'
