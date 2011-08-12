@@ -11168,7 +11168,7 @@ newline|'\n'
 nl|'\n'
 name|'image_href'
 op|'='
-string|"'http://localhost/v1.1/images/2'"
+string|"'http://localhost/v1.1/123/images/2'"
 newline|'\n'
 name|'flavor_ref'
 op|'='
@@ -11225,7 +11225,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/servers'"
+string|"'/v1.1/123/servers'"
 op|')'
 newline|'\n'
 name|'req'
