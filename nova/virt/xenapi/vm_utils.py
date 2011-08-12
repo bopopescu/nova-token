@@ -2526,6 +2526,13 @@ op|')'
 op|':'
 newline|'\n'
 indent|'            '
+name|'cur_vdi_uuid'
+op|'='
+name|'vdi_rec'
+op|'['
+string|"'uuid'"
+op|']'
+newline|'\n'
 name|'vdi_size_bytes'
 op|'='
 name|'int'
@@ -2542,7 +2549,7 @@ name|'debug'
 op|'('
 name|'_'
 op|'('
-string|"'vdi_uuid=%(vdi_uuid)s vdi_size_bytes='"
+string|"'vdi_uuid=%(cur_vdi_uuid)s vdi_size_bytes='"
 nl|'\n'
 string|"'%(vdi_size_bytes)d'"
 op|'%'
