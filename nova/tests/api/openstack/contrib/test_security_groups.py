@@ -92,7 +92,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/security_groups'"
+string|"'/v1.1/os-security-groups'"
 op|')'
 newline|'\n'
 name|'req'
@@ -504,7 +504,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/security_groups'"
+string|"'/v1.1/os-security-groups'"
 op|')'
 newline|'\n'
 name|'req'
@@ -616,7 +616,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/security_groups/%s'"
+string|"'/v1.1/os-security-groups/%s'"
 nl|'\n'
 op|'%'
 name|'id'
@@ -1539,7 +1539,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/security_groups'"
+string|"'/v1.1/os-security-groups'"
 op|')'
 newline|'\n'
 name|'req'
@@ -1738,7 +1738,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/security_groups/%s'"
+string|"'/v1.1/os-security-groups/%s'"
 op|'%'
 nl|'\n'
 name|'res_dict'
@@ -1866,7 +1866,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/security_groups/invalid'"
+string|"'/v1.1/os-security-groups/invalid'"
 op|')'
 newline|'\n'
 name|'req'
@@ -1927,7 +1927,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/security_groups/111111111'"
+string|"'/v1.1/os-security-groups/111111111'"
 op|')'
 newline|'\n'
 name|'req'
@@ -2335,7 +2335,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/security_group_rules'"
+string|"'/v1.1/os-security-group-rules'"
 op|')'
 newline|'\n'
 name|'request'
@@ -2401,7 +2401,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/security_group_rules/%s'"
+string|"'/v1.1/os-security-group-rules/%s'"
 nl|'\n'
 op|'%'
 name|'id'
@@ -2761,7 +2761,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/security_group_rules'"
+string|"'/v1.1/os-security-group-rules'"
 op|')'
 newline|'\n'
 name|'request'
@@ -2833,7 +2833,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/security_group_rules'"
+string|"'/v1.1/os-security-group-rules'"
 op|')'
 newline|'\n'
 name|'request'

@@ -2390,7 +2390,7 @@ name|'extensions'
 op|'.'
 name|'ResourceExtension'
 op|'('
-string|"'security_groups'"
+string|"'os-security-groups'"
 op|','
 nl|'\n'
 name|'controller'
@@ -2448,7 +2448,7 @@ name|'extensions'
 op|'.'
 name|'ResourceExtension'
 op|'('
-string|"'security_group_rules'"
+string|"'os-security-group-rules'"
 op|','
 nl|'\n'
 name|'controller'
