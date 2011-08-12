@@ -166,18 +166,6 @@ op|')'
 newline|'\n'
 name|'flags'
 op|'.'
-name|'DEFINE_integer'
-op|'('
-string|"'lockout_window'"
-op|','
-number|'15'
-op|','
-nl|'\n'
-string|"'Number of minutes for lockout window.'"
-op|')'
-newline|'\n'
-name|'flags'
-op|'.'
 name|'DEFINE_string'
 op|'('
 string|"'keystone_ec2_url'"
