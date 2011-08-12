@@ -1749,6 +1749,15 @@ op|','
 string|"'the main exchange to connect to'"
 op|')'
 newline|'\n'
+name|'DEFINE_boolean'
+op|'('
+string|"'rabbit_durable_queues'"
+op|','
+name|'False'
+op|','
+string|"'use durable queues'"
+op|')'
+newline|'\n'
 name|'DEFINE_list'
 op|'('
 string|"'enabled_apis'"
