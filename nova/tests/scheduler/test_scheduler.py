@@ -1725,12 +1725,16 @@ op|'='
 op|'{'
 op|'}'
 newline|'\n'
+comment|'# NOTE(jk0): If an integer is passed as the image_ref, the image'
+nl|'\n'
+comment|'# service will use the default image service (in this case, the fake).'
+nl|'\n'
 name|'inst'
 op|'['
-string|"'image_id'"
+string|"'image_ref'"
 op|']'
 op|'='
-number|'1'
+string|"'1'"
 newline|'\n'
 name|'inst'
 op|'['
