@@ -2521,7 +2521,7 @@ nl|'\n'
 dedent|''
 name|'suffix'
 op|'='
-name|'net_attrs'
+name|'network_ref'
 op|'['
 string|"'cidr'"
 op|']'
@@ -2627,7 +2627,7 @@ op|','
 nl|'\n'
 string|"'change'"
 op|','
-name|'net_attrs'
+name|'network_ref'
 op|'['
 string|"'cidr_v6'"
 op|']'
