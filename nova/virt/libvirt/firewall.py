@@ -3219,7 +3219,7 @@ op|'='
 op|'['
 name|'info'
 op|'['
-string|"'gateway'"
+string|"'dhcp_server'"
 op|']'
 name|'for'
 op|'('
