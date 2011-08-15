@@ -54,7 +54,7 @@ op|'('
 string|"'default_host_filter'"
 op|','
 nl|'\n'
-string|"'nova.scheduler.filters.AllHostsFilter'"
+string|"'AllHostsFilter'"
 op|','
 nl|'\n'
 string|"'Which filter to use for filtering hosts'"
