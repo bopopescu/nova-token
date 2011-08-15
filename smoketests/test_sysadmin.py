@@ -157,7 +157,7 @@ name|'DEFINE_string'
 op|'('
 string|"'bundle_kernel'"
 op|','
-string|"'openwrt-x86-vmlinuz'"
+string|"'random.kernel'"
 op|','
 nl|'\n'
 string|"'Local kernel file to use for bundling tests'"
@@ -169,7 +169,7 @@ name|'DEFINE_string'
 op|'('
 string|"'bundle_image'"
 op|','
-string|"'openwrt-x86-ext2.image'"
+string|"'random.image'"
 op|','
 nl|'\n'
 string|"'Local image file to use for bundling tests'"
