@@ -3988,6 +3988,7 @@ op|'{'
 string|"'cidr'"
 op|':'
 name|'subnet'
+op|','
 nl|'\n'
 string|"'smaller'"
 op|':'
