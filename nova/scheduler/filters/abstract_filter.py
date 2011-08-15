@@ -53,13 +53,13 @@ name|'DEFINE_string'
 op|'('
 string|"'default_host_filter'"
 op|','
-nl|'\n'
 string|"'AllHostsFilter'"
 op|','
 nl|'\n'
 string|"'Which filter to use for filtering hosts'"
 op|')'
 newline|'\n'
+nl|'\n'
 nl|'\n'
 DECL|class|AbstractHostFilter
 name|'class'
