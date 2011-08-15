@@ -127,6 +127,20 @@ op|')'
 newline|'\n'
 name|'flags'
 op|'.'
+name|'DEFINE_boolean'
+op|'('
+string|"'use_forwarded_for'"
+op|','
+name|'False'
+op|','
+nl|'\n'
+string|"'Treat X-Forwarded-For as the canonical remote address. '"
+nl|'\n'
+string|"'Only enable this if you have a sanitizing proxy.'"
+op|')'
+newline|'\n'
+name|'flags'
+op|'.'
 name|'DEFINE_integer'
 op|'('
 string|"'lockout_attempts'"
