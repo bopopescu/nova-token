@@ -286,7 +286,7 @@ op|'.'
 name|'name'
 op|','
 nl|'\n'
-string|"'project_id'"
+string|"'tenant_id'"
 op|':'
 name|'source_group'
 op|'.'
@@ -364,7 +364,7 @@ name|'name'
 newline|'\n'
 name|'security_group'
 op|'['
-string|"'project_id'"
+string|"'tenant_id'"
 op|']'
 op|'='
 name|'group'
@@ -749,7 +749,7 @@ op|':'
 op|'('
 name|'k'
 op|'['
-string|"'project_id'"
+string|"'tenant_id'"
 op|']'
 op|','
 name|'k'
