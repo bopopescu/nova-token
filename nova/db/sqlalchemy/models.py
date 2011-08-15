@@ -3029,6 +3029,30 @@ string|"'security_groups.id'"
 op|')'
 op|')'
 newline|'\n'
+DECL|variable|grantee_group
+name|'grantee_group'
+op|'='
+name|'relationship'
+op|'('
+string|'"SecurityGroup"'
+op|','
+nl|'\n'
+DECL|variable|foreign_keys
+name|'foreign_keys'
+op|'='
+name|'group_id'
+op|','
+nl|'\n'
+DECL|variable|primaryjoin
+name|'primaryjoin'
+op|'='
+string|"'and_('"
+nl|'\n'
+string|"'SecurityGroupIngressRule.group_id == SecurityGroup.id,'"
+nl|'\n'
+string|"'SecurityGroupIngressRule.deleted == False)'"
+op|')'
+newline|'\n'
 nl|'\n'
 nl|'\n'
 DECL|class|ProviderFirewallRule
