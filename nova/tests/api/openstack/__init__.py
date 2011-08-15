@@ -238,6 +238,7 @@ string|"'GET'"
 op|','
 string|"'/fake/foo?a=4&changes-since=never&b=5'"
 op|','
+nl|'\n'
 string|"'GET changes-since'"
 op|')'
 newline|'\n'
