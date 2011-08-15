@@ -762,9 +762,6 @@ string|"'floating_ips'"
 op|':'
 op|'['
 op|'{'
-string|"'floating_ip'"
-op|':'
-op|'{'
 string|"'instance_id'"
 op|':'
 number|'11'
@@ -784,12 +781,8 @@ string|"'id'"
 op|':'
 number|'1'
 op|'}'
-op|'}'
 op|','
 nl|'\n'
-op|'{'
-string|"'floating_ip'"
-op|':'
 op|'{'
 string|"'instance_id'"
 op|':'
@@ -809,7 +802,6 @@ nl|'\n'
 string|"'id'"
 op|':'
 number|'2'
-op|'}'
 op|'}'
 op|']'
 op|'}'
