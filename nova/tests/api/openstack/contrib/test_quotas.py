@@ -836,7 +836,6 @@ name|'updated_quota_set'
 op|')'
 newline|'\n'
 nl|'\n'
-nl|'\n'
 DECL|member|test_quotas_update_as_user
 dedent|''
 name|'def'
