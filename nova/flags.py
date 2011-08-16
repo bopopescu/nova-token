@@ -1749,6 +1749,15 @@ op|','
 string|"'the main exchange to connect to'"
 op|')'
 newline|'\n'
+name|'DEFINE_boolean'
+op|'('
+string|"'rabbit_durable_queues'"
+op|','
+name|'False'
+op|','
+string|"'use durable queues'"
+op|')'
+newline|'\n'
 name|'DEFINE_list'
 op|'('
 string|"'enabled_apis'"
@@ -2019,6 +2028,36 @@ op|','
 string|"'file name for sqlite'"
 op|')'
 newline|'\n'
+name|'DEFINE_integer'
+op|'('
+string|"'sql_pool_timeout'"
+op|','
+number|'30'
+op|','
+nl|'\n'
+string|"'seconds to wait for connection from pool before erroring'"
+op|')'
+newline|'\n'
+name|'DEFINE_integer'
+op|'('
+string|"'sql_min_pool_size'"
+op|','
+number|'10'
+op|','
+nl|'\n'
+string|"'minimum number of SQL connections to pool'"
+op|')'
+newline|'\n'
+name|'DEFINE_integer'
+op|'('
+string|"'sql_max_pool_size'"
+op|','
+number|'10'
+op|','
+nl|'\n'
+string|"'maximum number of SQL connections to pool'"
+op|')'
+newline|'\n'
 name|'DEFINE_string'
 op|'('
 string|"'sql_connection'"
@@ -2225,6 +2264,17 @@ name|'False'
 op|','
 nl|'\n'
 string|"'Whether to start guests, that was running before the host reboot'"
+op|')'
+newline|'\n'
+nl|'\n'
+name|'DEFINE_string'
+op|'('
+string|"'root_helper'"
+op|','
+string|"'sudo'"
+op|','
+nl|'\n'
+string|"'Command prefix to use for running commands as root'"
 op|')'
 newline|'\n'
 endmarker|''
