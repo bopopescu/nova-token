@@ -2689,6 +2689,14 @@ string|"'address'"
 op|']'
 op|','
 nl|'\n'
+string|"'vif_uuid'"
+op|':'
+name|'vif'
+op|'['
+string|"'uuid'"
+op|']'
+op|','
+nl|'\n'
 string|"'rxtx_cap'"
 op|':'
 name|'flavor'
