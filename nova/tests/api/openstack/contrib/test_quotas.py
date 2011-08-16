@@ -692,7 +692,6 @@ op|')'
 op|')'
 newline|'\n'
 nl|'\n'
-nl|'\n'
 DECL|member|test_quotas_show_as_unauthorized_user
 dedent|''
 name|'def'
