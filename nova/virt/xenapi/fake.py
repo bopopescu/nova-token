@@ -575,6 +575,11 @@ op|'{'
 op|'}'
 op|','
 nl|'\n'
+string|"'physical_utilisation'"
+op|':'
+string|"'123'"
+op|','
+nl|'\n'
 string|"'VBDs'"
 op|':'
 op|'{'
