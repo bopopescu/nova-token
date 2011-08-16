@@ -1532,6 +1532,7 @@ name|'object'
 op|')'
 op|':'
 newline|'\n'
+nl|'\n'
 DECL|member|get_alias
 indent|'    '
 name|'def'
