@@ -162,7 +162,6 @@ op|')'
 newline|'\n'
 nl|'\n'
 nl|'\n'
-nl|'\n'
 DECL|function|upgrade
 name|'def'
 name|'upgrade'
