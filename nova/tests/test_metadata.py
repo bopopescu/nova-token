@@ -144,7 +144,11 @@ op|','
 nl|'\n'
 string|"'instance_type'"
 op|':'
+op|'{'
+string|"'name'"
+op|':'
 string|"'m1.tiny'"
+op|'}'
 op|','
 nl|'\n'
 string|"'reservation_id'"
