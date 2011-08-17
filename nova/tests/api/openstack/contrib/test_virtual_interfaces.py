@@ -260,7 +260,7 @@ newline|'\n'
 name|'response'
 op|'='
 op|'{'
-string|"'serverVirtualInterfaces'"
+string|"'virtual_interfaces'"
 op|':'
 op|'['
 nl|'\n'
@@ -270,7 +270,7 @@ op|':'
 string|"'00000000-0000-0000-0000-00000000000000000'"
 op|','
 nl|'\n'
-string|"'macAddress'"
+string|"'mac_address'"
 op|':'
 string|"'00-00-00-00-00-00'"
 op|'}'
@@ -282,7 +282,7 @@ op|':'
 string|"'11111111-1111-1111-1111-11111111111111111'"
 op|','
 nl|'\n'
-string|"'macAddress'"
+string|"'mac_address'"
 op|':'
 string|"'11-11-11-11-11-11'"
 op|'}'
