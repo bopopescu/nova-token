@@ -136,16 +136,6 @@ op|'['
 string|"'address'"
 op|']'
 newline|'\n'
-name|'d'
-op|'['
-string|"'serverId'"
-op|']'
-op|'='
-name|'vif'
-op|'['
-string|"'instance_id'"
-op|']'
-newline|'\n'
 name|'return'
 name|'d'
 newline|'\n'
