@@ -103,6 +103,7 @@ name|'name'
 op|'}'
 newline|'\n'
 nl|'\n'
+nl|'\n'
 DECL|function|db_key_pair_get_all_by_user
 dedent|''
 name|'def'
@@ -512,9 +513,11 @@ indent|'        '
 name|'body'
 op|'='
 op|'{'
+nl|'\n'
 string|"'keypair'"
 op|':'
 op|'{'
+nl|'\n'
 string|"'name'"
 op|':'
 string|"'create_test'"
@@ -522,10 +525,31 @@ op|','
 nl|'\n'
 string|"'public_key'"
 op|':'
-string|"'ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDBYIznAx9D7118Q1VKGpXy2HDiKyUTM8XcUuhQpo0srqb9rboUp4a9NmCwpWpeElDLuva707GOUnfaBAvHBwsRXyxHJjRaI6YQj2oLJwqvaSaWUbyT1vtryRqy6J3TecN0WINY71f4uymiMZP0wby4bKBcYnac8KiCIlvkEl0ETjkOGUq8OyWRmn7ljj5SESEUdBP0JnuTFKddWTU/wD6wydeJaUhBTqOlHn0kX1GyqoNTE1UEhcM5ZRWgfUZfTjVyDF2kGj3vJLCJtJ8LoGcj7YaN4uPg1rBle+izwE/tLonRrds+cev8p6krSSrxWOwBbHkXa6OciiJDvkRzJXzf'"
+string|"'ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDBYIznA'"
+nl|'\n'
+string|"'x9D7118Q1VKGpXy2HDiKyUTM8XcUuhQpo0srqb9rboUp4'"
+nl|'\n'
+string|"'a9NmCwpWpeElDLuva707GOUnfaBAvHBwsRXyxHJjRaI6Y'"
+nl|'\n'
+string|"'Qj2oLJwqvaSaWUbyT1vtryRqy6J3TecN0WINY71f4uymi'"
+nl|'\n'
+string|"'MZP0wby4bKBcYnac8KiCIlvkEl0ETjkOGUq8OyWRmn7lj'"
+nl|'\n'
+string|"'j5SESEUdBP0JnuTFKddWTU/wD6wydeJaUhBTqOlHn0kX1'"
+nl|'\n'
+string|"'GyqoNTE1UEhcM5ZRWgfUZfTjVyDF2kGj3vJLCJtJ8LoGc'"
+nl|'\n'
+string|"'j7YaN4uPg1rBle+izwE/tLonRrds+cev8p6krSSrxWOwB'"
+nl|'\n'
+string|"'bHkXa6OciiJDvkRzJXzf'"
+op|','
+nl|'\n'
 op|'}'
+op|','
+nl|'\n'
 op|'}'
 newline|'\n'
+nl|'\n'
 name|'req'
 op|'='
 name|'webob'
@@ -691,7 +715,6 @@ op|','
 number|'202'
 op|')'
 newline|'\n'
-nl|'\n'
 dedent|''
 dedent|''
 endmarker|''
