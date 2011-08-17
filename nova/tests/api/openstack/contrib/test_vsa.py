@@ -180,6 +180,11 @@ op|':'
 string|"'m1.small'"
 op|','
 nl|'\n'
+string|"'instance_type_id'"
+op|':'
+number|'5'
+op|','
+nl|'\n'
 string|"'image_name'"
 op|':'
 name|'None'
@@ -247,6 +252,13 @@ string|"'name'"
 op|']'
 op|'='
 string|"'Test name'"
+newline|'\n'
+name|'param'
+op|'['
+string|"'instance_type_id'"
+op|']'
+op|'='
+number|'5'
 newline|'\n'
 name|'last_param'
 op|'='
