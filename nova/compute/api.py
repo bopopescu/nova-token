@@ -2470,10 +2470,6 @@ op|')'
 newline|'\n'
 nl|'\n'
 dedent|''
-name|'filter_class'
-op|'='
-string|"'nova.scheduler.host_filter.InstanceTypeFilter'"
-newline|'\n'
 name|'request_spec'
 op|'='
 op|'{'
@@ -2495,8 +2491,7 @@ op|','
 nl|'\n'
 string|"'filter'"
 op|':'
-name|'filter_class'
-op|','
+string|"'InstanceTypeFilter'"
 nl|'\n'
 string|"'blob'"
 op|':'
