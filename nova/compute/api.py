@@ -2491,7 +2491,8 @@ op|','
 nl|'\n'
 string|"'filter'"
 op|':'
-string|"'InstanceTypeFilter'"
+name|'None'
+op|','
 nl|'\n'
 string|"'blob'"
 op|':'
