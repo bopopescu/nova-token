@@ -422,6 +422,8 @@ op|'.'
 name|'get'
 op|'('
 string|"'key_name'"
+op|','
+string|"''"
 op|')'
 newline|'\n'
 name|'inst_dict'
@@ -434,6 +436,8 @@ op|'.'
 name|'get'
 op|'('
 string|"'security_group'"
+op|','
+string|"''"
 op|')'
 newline|'\n'
 nl|'\n'
