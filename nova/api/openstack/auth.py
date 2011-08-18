@@ -238,6 +238,7 @@ name|'return'
 name|'res'
 newline|'\n'
 nl|'\n'
+nl|'\n'
 DECL|class|AuthMiddleware
 dedent|''
 dedent|''
