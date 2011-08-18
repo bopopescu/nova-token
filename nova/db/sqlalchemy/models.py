@@ -2140,7 +2140,7 @@ name|'primaryjoin'
 op|'='
 string|"'and_('"
 nl|'\n'
-string|"'VolumeTypeExtraSpecs.instance_type_id == VolumeTypes.id,'"
+string|"'VolumeTypeExtraSpecs.volume_type_id == VolumeTypes.id,'"
 nl|'\n'
 string|"'VolumeTypeExtraSpecs.deleted == False)'"
 op|')'
