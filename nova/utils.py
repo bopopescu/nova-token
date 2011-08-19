@@ -3466,7 +3466,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""Synchronization decorator.\n\n    Decorating a method like so:\n    @synchronized(\'mylock\')\n    def foo(self, *args):\n       ...\n\n    ensures that only one thread will execute the bar method at a time.\n\n    Different methods can share the same lock:\n    @synchronized(\'mylock\')\n    Gdef foo(self, *args):\n       ...\n\n    @synchronized(\'mylock\')\n    def bar(self, *args):\n       ...\n\n    This way only one of either foo or bar can be executing at a time.\n\n    The external keyword argument denotes whether this lock should work across\n    multiple processes. This means that if two different workers both run a\n    a method decorated with @synchronized(\'mylock\', external=True), only one\n    of them will execute at a time.\n\n    """'
+string|'"""Synchronization decorator.\n\n    Decorating a method like so:\n    @synchronized(\'mylock\')\n    def foo(self, *args):\n       ...\n\n    ensures that only one thread will execute the bar method at a time.\n\n    Different methods can share the same lock:\n    @synchronized(\'mylock\')\n    def foo(self, *args):\n       ...\n\n    @synchronized(\'mylock\')\n    def bar(self, *args):\n       ...\n\n    This way only one of either foo or bar can be executing at a time.\n\n    The external keyword argument denotes whether this lock should work across\n    multiple processes. This means that if two different workers both run a\n    a method decorated with @synchronized(\'mylock\', external=True), only one\n    of them will execute at a time.\n\n    """'
 newline|'\n'
 nl|'\n'
 DECL|function|wrap
