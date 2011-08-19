@@ -703,8 +703,6 @@ op|')'
 op|')'
 newline|'\n'
 nl|'\n'
-comment|'# Gabe did this.'
-nl|'\n'
 DECL|function|_get_auth_header
 dedent|''
 name|'def'
