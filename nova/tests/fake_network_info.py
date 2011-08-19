@@ -295,9 +295,13 @@ op|','
 nl|'\n'
 string|"'address'"
 op|':'
-string|"'192.168.%d.100'"
+string|"'192.168.%d.1%02d'"
 op|'%'
+op|'('
 name|'network'
+op|','
+name|'ip'
+op|')'
 op|','
 nl|'\n'
 string|"'instance_id'"
