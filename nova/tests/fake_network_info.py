@@ -406,7 +406,7 @@ op|','
 nl|'\n'
 string|"'address'"
 op|':'
-string|"'DE:AD:BE:EF:00:%2x'"
+string|"'DE:AD:BE:EF:00:%02x'"
 op|'%'
 name|'x'
 op|','
