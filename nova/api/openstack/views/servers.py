@@ -312,6 +312,14 @@ string|"'user_id'"
 op|']'
 op|','
 nl|'\n'
+string|"'tenant_id'"
+op|':'
+name|'inst'
+op|'['
+string|"'project_id'"
+op|']'
+op|','
+nl|'\n'
 string|"'description'"
 op|':'
 name|'inst'
