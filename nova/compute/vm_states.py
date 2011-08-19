@@ -54,6 +54,11 @@ name|'REBOOT'
 op|'='
 string|"'reboot'"
 newline|'\n'
+DECL|variable|HARD_REBOOT
+name|'HARD_REBOOT'
+op|'='
+string|"'hard_reboot'"
+newline|'\n'
 DECL|variable|DELETE
 name|'DELETE'
 op|'='
@@ -93,6 +98,11 @@ DECL|variable|RESCUE
 name|'RESCUE'
 op|'='
 string|"'rescue'"
+newline|'\n'
+DECL|variable|ERROR
+name|'ERROR'
+op|'='
+string|"'error'"
 newline|'\n'
 endmarker|''
 end_unit
