@@ -557,7 +557,7 @@ name|'db'
 op|','
 string|"'virtual_interface_get_by_instance'"
 op|','
-name|'virtual_interface_fake'
+name|'virtual_interfaces_fake'
 op|')'
 newline|'\n'
 name|'stubs'
