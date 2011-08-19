@@ -2829,6 +2829,14 @@ string|"'address'"
 op|']'
 op|','
 nl|'\n'
+string|"'vif_uuid'"
+op|':'
+name|'vif'
+op|'['
+string|"'uuid'"
+op|']'
+op|','
+nl|'\n'
 string|"'rxtx_cap'"
 op|':'
 name|'flavor'
@@ -3022,6 +3030,18 @@ name|'network'
 op|'['
 string|"'id'"
 op|']'
+op|','
+nl|'\n'
+string|"'uuid'"
+op|':'
+name|'str'
+op|'('
+name|'utils'
+op|'.'
+name|'gen_uuid'
+op|'('
+op|')'
+op|')'
 op|'}'
 newline|'\n'
 comment|'# try FLAG times to create a vif record with a unique mac_address'
