@@ -472,6 +472,21 @@ nl|'\n'
 string|"'The libvirt VIF driver to configure the VIFs.'"
 op|')'
 newline|'\n'
+name|'flags'
+op|'.'
+name|'DEFINE_string'
+op|'('
+string|"'default_local_format'"
+op|','
+nl|'\n'
+name|'None'
+op|','
+nl|'\n'
+string|"'The default format a local_volume will be formatted with '"
+nl|'\n'
+string|"'on creation.'"
+op|')'
+newline|'\n'
 nl|'\n'
 nl|'\n'
 DECL|function|get_connection
