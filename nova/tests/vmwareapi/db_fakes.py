@@ -377,7 +377,7 @@ string|"'task_state'"
 op|':'
 name|'task_states'
 op|'.'
-name|'SCHEDULE'
+name|'SCHEDULING'
 op|','
 nl|'\r\n'
 string|"'user_id'"

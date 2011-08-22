@@ -34,6 +34,11 @@ nl|'\n'
 string|'"""Possible task states for instances"""'
 newline|'\n'
 nl|'\n'
+DECL|variable|SCHEDULING
+name|'SCHEDULING'
+op|'='
+string|"'scheduling'"
+newline|'\n'
 DECL|variable|BLOCK_DEVICE_MAPPING
 name|'BLOCK_DEVICE_MAPPING'
 op|'='
