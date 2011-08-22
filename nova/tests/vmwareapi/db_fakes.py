@@ -370,7 +370,7 @@ string|"'vm_state'"
 op|':'
 name|'vm_states'
 op|'.'
-name|'BUILD'
+name|'BUILDING'
 op|','
 nl|'\r\n'
 string|"'task_state'"

@@ -6757,7 +6757,7 @@ string|"'vm_state'"
 op|':'
 name|'vm_states'
 op|'.'
-name|'MIGRATE'
+name|'MIGRATING'
 op|','
 nl|'\n'
 string|"'power_state'"
