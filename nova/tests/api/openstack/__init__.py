@@ -200,7 +200,7 @@ name|'verify'
 op|'('
 string|"'PUT'"
 op|','
-string|"'/servers/4'"
+string|"'/fake/servers/4'"
 op|','
 string|"'PUT'"
 op|')'
@@ -209,7 +209,7 @@ name|'verify'
 op|'('
 string|"'DELETE'"
 op|','
-string|"'/servers/4'"
+string|"'/fake/servers/4'"
 op|','
 string|"'DELETE'"
 op|')'
@@ -218,7 +218,7 @@ name|'verify'
 op|'('
 string|"'POST'"
 op|','
-string|"'/images/4'"
+string|"'/fake/images/4'"
 op|','
 string|"'POST'"
 op|')'
@@ -227,7 +227,7 @@ name|'verify'
 op|'('
 string|"'POST'"
 op|','
-string|"'/servers/4'"
+string|"'/fake/servers/4'"
 op|','
 string|"'POST servers'"
 op|')'
@@ -236,8 +236,9 @@ name|'verify'
 op|'('
 string|"'GET'"
 op|','
-string|"'/foo?a=4&changes-since=never&b=5'"
+string|"'/fake/foo?a=4&changes-since=never&b=5'"
 op|','
+nl|'\n'
 string|"'GET changes-since'"
 op|')'
 newline|'\n'
@@ -245,7 +246,7 @@ name|'verify'
 op|'('
 string|"'GET'"
 op|','
-string|"'/foo?a=4&monkeys-since=never&b=5'"
+string|"'/fake/foo?a=4&monkeys-since=never&b=5'"
 op|','
 name|'None'
 op|')'
@@ -254,7 +255,7 @@ name|'verify'
 op|'('
 string|"'GET'"
 op|','
-string|"'/servers/4'"
+string|"'/fake/servers/4'"
 op|','
 name|'None'
 op|')'
@@ -263,7 +264,7 @@ name|'verify'
 op|'('
 string|"'HEAD'"
 op|','
-string|"'/servers/4'"
+string|"'/fake/servers/4'"
 op|','
 name|'None'
 op|')'
@@ -419,7 +420,7 @@ name|'middleware'
 op|','
 string|"'DELETE'"
 op|','
-string|"'/servers/4'"
+string|"'/fake/servers/4'"
 op|','
 string|"'usr1'"
 op|','
@@ -434,7 +435,7 @@ name|'middleware'
 op|','
 string|"'DELETE'"
 op|','
-string|"'/servers/4'"
+string|"'/fake/servers/4'"
 op|','
 string|"'usr2'"
 op|','
@@ -467,7 +468,7 @@ name|'middleware'
 op|','
 string|"'POST'"
 op|','
-string|"'/servers/4'"
+string|"'/fake/servers/4'"
 op|','
 string|"'usr1'"
 op|','
@@ -482,7 +483,7 @@ name|'middleware'
 op|','
 string|"'POST'"
 op|','
-string|"'/images/4'"
+string|"'/fake/images/4'"
 op|','
 string|"'usr2'"
 op|','
@@ -552,7 +553,7 @@ name|'middleware'
 op|','
 string|"'POST'"
 op|','
-string|"'/servers/4'"
+string|"'/fake/servers/4'"
 op|','
 string|"'usr1'"
 op|','
@@ -582,7 +583,7 @@ name|'middleware'
 op|','
 string|"'POST'"
 op|','
-string|"'/servers/4'"
+string|"'/fake/servers/4'"
 op|','
 string|"'usr1'"
 op|','

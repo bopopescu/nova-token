@@ -283,7 +283,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/flavors/1/os-extra_specs'"
+string|"'/v1.1/123/flavors/1/os-extra_specs'"
 op|')'
 newline|'\n'
 name|'res'
@@ -387,7 +387,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/flavors/1/os-extra_specs'"
+string|"'/v1.1/123/flavors/1/os-extra_specs'"
 op|')'
 newline|'\n'
 name|'res'
@@ -491,7 +491,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/flavors/1/os-extra_specs/key5'"
+string|"'/v1.1/123/flavors/1/os-extra_specs/key5'"
 op|')'
 newline|'\n'
 name|'res'
@@ -592,7 +592,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/flavors/1/os-extra_specs/key6'"
+string|"'/v1.1/123/flavors/1/os-extra_specs/key6'"
 op|')'
 newline|'\n'
 name|'res'
@@ -667,7 +667,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/flavors/1/os-extra_specs/key5'"
+string|"'/v1.1/123/flavors/1/os-extra_specs/key5'"
 op|')'
 newline|'\n'
 name|'req'
@@ -738,7 +738,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/flavors/1/os-extra_specs'"
+string|"'/v1.1/123/flavors/1/os-extra_specs'"
 op|')'
 newline|'\n'
 name|'req'
@@ -864,7 +864,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/flavors/1/os-extra_specs'"
+string|"'/v1.1/123/flavors/1/os-extra_specs'"
 op|')'
 newline|'\n'
 name|'req'
@@ -944,7 +944,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/flavors/1/os-extra_specs/key1'"
+string|"'/v1.1/123/flavors/1/os-extra_specs/key1'"
 op|')'
 newline|'\n'
 name|'req'
@@ -1067,7 +1067,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/flavors/1/os-extra_specs/key1'"
+string|"'/v1.1/123/flavors/1/os-extra_specs/key1'"
 op|')'
 newline|'\n'
 name|'req'
@@ -1147,7 +1147,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/flavors/1/os-extra_specs/key1'"
+string|"'/v1.1/123/flavors/1/os-extra_specs/key1'"
 op|')'
 newline|'\n'
 name|'req'
@@ -1233,7 +1233,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/flavors/1/os-extra_specs/bad'"
+string|"'/v1.1/123/flavors/1/os-extra_specs/bad'"
 op|')'
 newline|'\n'
 name|'req'

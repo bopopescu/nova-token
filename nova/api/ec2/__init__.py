@@ -177,6 +177,15 @@ nl|'\n'
 string|"'URL to get token from ec2 request.'"
 op|')'
 newline|'\n'
+name|'flags'
+op|'.'
+name|'DECLARE'
+op|'('
+string|"'use_forwarded_for'"
+op|','
+string|"'nova.api.auth'"
+op|')'
+newline|'\n'
 nl|'\n'
 nl|'\n'
 DECL|class|RequestLogging
