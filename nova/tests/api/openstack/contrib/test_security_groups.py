@@ -103,7 +103,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/os-security-groups'"
+string|"'/v1.1/123/os-security-groups'"
 op|')'
 newline|'\n'
 name|'req'
@@ -663,7 +663,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/os-security-groups'"
+string|"'/v1.1/123/os-security-groups'"
 op|')'
 newline|'\n'
 name|'req'
@@ -775,7 +775,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/os-security-groups/%s'"
+string|"'/v1.1/123/os-security-groups/%s'"
 nl|'\n'
 op|'%'
 name|'id'
@@ -1698,7 +1698,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/os-security-groups'"
+string|"'/v1.1/123/os-security-groups'"
 op|')'
 newline|'\n'
 name|'req'
@@ -1761,7 +1761,7 @@ op|','
 nl|'\n'
 string|"'tenant_id'"
 op|':'
-string|'"fake"'
+string|'"123"'
 op|','
 nl|'\n'
 string|'"description"'
@@ -1803,7 +1803,7 @@ op|','
 nl|'\n'
 string|"'tenant_id'"
 op|':'
-string|'"fake"'
+string|'"123"'
 op|','
 nl|'\n'
 string|'"description"'
@@ -1897,7 +1897,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/os-security-groups/%s'"
+string|"'/v1.1/123/os-security-groups/%s'"
 op|'%'
 nl|'\n'
 name|'res_dict'
@@ -1969,7 +1969,7 @@ op|','
 nl|'\n'
 string|"'tenant_id'"
 op|':'
-string|'"fake"'
+string|'"123"'
 op|','
 nl|'\n'
 string|"'description'"
@@ -1985,17 +1985,6 @@ nl|'\n'
 op|'}'
 nl|'\n'
 op|'}'
-newline|'\n'
-name|'self'
-op|'.'
-name|'assertEquals'
-op|'('
-name|'response'
-op|'.'
-name|'status_int'
-op|','
-number|'200'
-op|')'
 newline|'\n'
 name|'self'
 op|'.'
@@ -2025,7 +2014,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/os-security-groups/invalid'"
+string|"'/v1.1/123/os-security-groups/invalid'"
 op|')'
 newline|'\n'
 name|'req'
@@ -2086,7 +2075,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/os-security-groups/111111111'"
+string|"'/v1.1/123/os-security-groups/111111111'"
 op|')'
 newline|'\n'
 name|'req'
@@ -2321,7 +2310,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/servers/1/action'"
+string|"'/v1.1/123/servers/1/action'"
 op|')'
 newline|'\n'
 name|'req'
@@ -2423,7 +2412,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/servers/invalid/action'"
+string|"'/v1.1/123/servers/invalid/action'"
 op|')'
 newline|'\n'
 name|'req'
@@ -2495,7 +2484,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/servers/1/action'"
+string|"'/v1.1/123/servers/1/action'"
 op|')'
 newline|'\n'
 name|'body'
@@ -2591,7 +2580,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/servers/1/action'"
+string|"'/v1.1/123/servers/1/action'"
 op|')'
 newline|'\n'
 name|'body'
@@ -2689,7 +2678,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/servers/1/action'"
+string|"'/v1.1/123/servers/1/action'"
 op|')'
 newline|'\n'
 name|'body'
@@ -2835,7 +2824,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/servers/10000/action'"
+string|"'/v1.1/123/servers/10000/action'"
 op|')'
 newline|'\n'
 name|'req'
@@ -2952,7 +2941,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/servers/1/action'"
+string|"'/v1.1/123/servers/1/action'"
 op|')'
 newline|'\n'
 name|'req'
@@ -3069,7 +3058,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/servers/1/action'"
+string|"'/v1.1/123/servers/1/action'"
 op|')'
 newline|'\n'
 name|'req'
@@ -3235,7 +3224,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/servers/1/action'"
+string|"'/v1.1/123/servers/1/action'"
 op|')'
 newline|'\n'
 name|'req'
@@ -3387,7 +3376,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/servers/1/action'"
+string|"'/v1.1/123/servers/1/action'"
 op|')'
 newline|'\n'
 name|'req'
@@ -3468,7 +3457,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/servers/1/action'"
+string|"'/v1.1/123/servers/1/action'"
 op|')'
 newline|'\n'
 name|'req'
@@ -3570,7 +3559,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/servers/invalid/action'"
+string|"'/v1.1/123/servers/invalid/action'"
 op|')'
 newline|'\n'
 name|'req'
@@ -3642,7 +3631,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/servers/1/action'"
+string|"'/v1.1/123/servers/1/action'"
 op|')'
 newline|'\n'
 name|'body'
@@ -3738,7 +3727,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/servers/1/action'"
+string|"'/v1.1/123/servers/1/action'"
 op|')'
 newline|'\n'
 name|'body'
@@ -3836,7 +3825,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/servers/1/action'"
+string|"'/v1.1/123/servers/1/action'"
 op|')'
 newline|'\n'
 name|'body'
@@ -3982,7 +3971,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/servers/10000/action'"
+string|"'/v1.1/123/servers/10000/action'"
 op|')'
 newline|'\n'
 name|'req'
@@ -4099,7 +4088,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/servers/1/action'"
+string|"'/v1.1/123/servers/1/action'"
 op|')'
 newline|'\n'
 name|'req'
@@ -4216,7 +4205,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/servers/1/action'"
+string|"'/v1.1/123/servers/1/action'"
 op|')'
 newline|'\n'
 name|'req'
@@ -4382,7 +4371,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/servers/1/action'"
+string|"'/v1.1/123/servers/1/action'"
 op|')'
 newline|'\n'
 name|'req'
@@ -4534,7 +4523,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/servers/1/action'"
+string|"'/v1.1/123/servers/1/action'"
 op|')'
 newline|'\n'
 name|'req'
@@ -4788,7 +4777,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/os-security-group-rules'"
+string|"'/v1.1/123/os-security-group-rules'"
 op|')'
 newline|'\n'
 name|'request'
@@ -4854,7 +4843,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/os-security-group-rules/%s'"
+string|"'/v1.1/123/os-security-group-rules/%s'"
 nl|'\n'
 op|'%'
 name|'id'
@@ -5214,7 +5203,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/os-security-group-rules'"
+string|"'/v1.1/123/os-security-group-rules'"
 op|')'
 newline|'\n'
 name|'request'
@@ -5286,7 +5275,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/os-security-group-rules'"
+string|"'/v1.1/123/os-security-group-rules'"
 op|')'
 newline|'\n'
 name|'request'
