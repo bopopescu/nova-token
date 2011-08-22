@@ -29,7 +29,7 @@ nl|'\n'
 comment|'#    under the License.'
 nl|'\n'
 nl|'\n'
-string|'"""\n:mod:`nova.scheduler` -- Scheduler Nodes\n=====================================================\n\n.. automodule:: nova.scheduler\n   :platform: Unix\n   :synopsis: Module that picks a compute node to run a VM instance.\n.. moduleauthor:: Chris Behrens <cbehrens@codestud.com>\n"""'
+string|'"""\n:mod:`nova.scheduler` -- Scheduler Nodes\n=====================================================\n\n.. automodule:: nova.scheduler\n   :platform: Unix\n   :synopsis: Module that picks a compute node to run a VM instance.\n.. moduleauthor:: Sandy Walsh <sandy.walsh@rackspace.com>\n.. moduleauthor:: Ed Leafe <ed@leafe.com>\n.. moduleauthor:: Chris Behrens <cbehrens@codestud.com>\n"""'
 newline|'\n'
 endmarker|''
 end_unit

@@ -97,6 +97,15 @@ name|'flags'
 op|'.'
 name|'FLAGS'
 newline|'\n'
+name|'flags'
+op|'.'
+name|'DECLARE'
+op|'('
+string|"'use_forwarded_for'"
+op|','
+string|"'nova.api.auth'"
+op|')'
+newline|'\n'
 nl|'\n'
 nl|'\n'
 DECL|class|MetadataRequestHandler
