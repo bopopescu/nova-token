@@ -219,7 +219,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/servers/1/os-virtual-interfaces'"
+string|"'/v1.1/123/servers/1/os-virtual-interfaces'"
 op|')'
 newline|'\n'
 name|'res'
