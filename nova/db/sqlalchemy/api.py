@@ -7149,7 +7149,7 @@ op|','
 string|"'image_ref'"
 op|','
 nl|'\n'
-string|"'state'"
+string|"'vm_state'"
 op|','
 string|"'instance_type_id'"
 op|','
