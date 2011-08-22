@@ -772,7 +772,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/os-floating-ips'"
+string|"'/v1.1/123/os-floating-ips'"
 op|')'
 newline|'\n'
 name|'res'
@@ -889,7 +889,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/os-floating-ips/1'"
+string|"'/v1.1/123/os-floating-ips/1'"
 op|')'
 newline|'\n'
 name|'res'
@@ -991,7 +991,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/os-floating-ips'"
+string|"'/v1.1/123/os-floating-ips'"
 op|')'
 newline|'\n'
 name|'req'
@@ -1100,7 +1100,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/os-floating-ips/1'"
+string|"'/v1.1/123/os-floating-ips/1'"
 op|')'
 newline|'\n'
 name|'req'
@@ -1166,7 +1166,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/servers/test_inst/action'"
+string|"'/v1.1/123/servers/test_inst/action'"
 op|')'
 newline|'\n'
 name|'req'
@@ -1253,7 +1253,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/servers/test_inst/action'"
+string|"'/v1.1/123/servers/test_inst/action'"
 op|')'
 newline|'\n'
 name|'req'
@@ -1340,7 +1340,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/servers/test_inst/action'"
+string|"'/v1.1/123/servers/test_inst/action'"
 op|')'
 newline|'\n'
 name|'req'
@@ -1422,7 +1422,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/servers/test_inst/action'"
+string|"'/v1.1/123/servers/test_inst/action'"
 op|')'
 newline|'\n'
 name|'req'
@@ -1509,7 +1509,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/servers/test_inst/action'"
+string|"'/v1.1/123/servers/test_inst/action'"
 op|')'
 newline|'\n'
 name|'req'
@@ -1591,7 +1591,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/servers/test_inst/action'"
+string|"'/v1.1/123/servers/test_inst/action'"
 op|')'
 newline|'\n'
 name|'req'
