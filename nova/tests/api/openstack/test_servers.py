@@ -10825,11 +10825,11 @@ comment|"# proper local hrefs must start with 'http://localhost/v1.1/'"
 nl|'\n'
 name|'image_href'
 op|'='
-string|"'http://localhost/v1.1/images/2'"
+string|"'http://localhost/v1.1/123/images/2'"
 newline|'\n'
 name|'flavor_ref'
 op|'='
-string|"'http://localhost/flavors/3'"
+string|"'http://localhost/123/flavors/3'"
 newline|'\n'
 name|'access_ipv4'
 op|'='
@@ -10861,7 +10861,7 @@ op|','
 nl|'\n'
 string|'"href"'
 op|':'
-string|"'http://localhost/flavors/3'"
+string|"'http://localhost/123/flavors/3'"
 op|','
 nl|'\n'
 op|'}'
@@ -10894,7 +10894,7 @@ op|','
 nl|'\n'
 string|'"href"'
 op|':'
-string|"'http://localhost/images/2'"
+string|"'http://localhost/123/images/2'"
 op|','
 nl|'\n'
 op|'}'
@@ -10991,7 +10991,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/servers'"
+string|"'/v1.1/123/servers'"
 op|')'
 newline|'\n'
 name|'req'
@@ -11185,7 +11185,7 @@ string|"'http://localhost/v1.1/images/2'"
 newline|'\n'
 name|'flavor_ref'
 op|'='
-string|"'http://localhost/flavors/3'"
+string|"'http://localhost/123/flavors/3'"
 newline|'\n'
 name|'expected_flavor'
 op|'='
@@ -13304,7 +13304,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/servers/1'"
+string|"'/v1.1/123/servers/1'"
 op|')'
 newline|'\n'
 name|'req'
@@ -13633,7 +13633,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/servers/1'"
+string|"'/v1.1/123/servers/1'"
 op|')'
 newline|'\n'
 name|'req'
@@ -13774,7 +13774,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/servers/1'"
+string|"'/v1.1/123/servers/1'"
 op|')'
 newline|'\n'
 name|'req'
