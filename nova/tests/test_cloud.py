@@ -9479,7 +9479,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'        '
-string|'"""Wait for an stopping instance to be a given state"""'
+string|'"""Wait for a stopped instance to be a given state"""'
 newline|'\n'
 name|'id'
 op|'='
@@ -9565,7 +9565,7 @@ indent|'            '
 name|'return'
 name|'info'
 op|'['
-string|"'state_description'"
+string|"'vm_state'"
 op|']'
 op|'=='
 string|"'running'"
@@ -9609,7 +9609,7 @@ indent|'            '
 name|'return'
 name|'info'
 op|'['
-string|"'state_description'"
+string|"'vm_state'"
 op|']'
 op|'=='
 string|"'stopped'"
@@ -12372,9 +12372,9 @@ op|'}'
 op|']'
 op|','
 nl|'\n'
-string|"'state_description'"
+string|"'vm_state'"
 op|':'
-string|"'stopping'"
+string|"'stopped'"
 op|','
 nl|'\n'
 string|"'instance_type'"
