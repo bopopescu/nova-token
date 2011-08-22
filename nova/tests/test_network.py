@@ -763,6 +763,7 @@ string|"'192.168.%d.4'"
 op|'%'
 name|'n'
 op|']'
+op|','
 nl|'\n'
 string|"'gateway'"
 op|':'
