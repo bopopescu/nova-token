@@ -2653,7 +2653,7 @@ name|'assertEquals'
 op|'('
 name|'payload'
 op|'['
-string|"'tenant_id'"
+string|"'project_id'"
 op|']'
 op|','
 name|'self'
@@ -2896,7 +2896,7 @@ name|'assertEquals'
 op|'('
 name|'payload'
 op|'['
-string|"'tenant_id'"
+string|"'project_id'"
 op|']'
 op|','
 name|'self'
@@ -3587,7 +3587,7 @@ name|'assertEquals'
 op|'('
 name|'payload'
 op|'['
-string|"'tenant_id'"
+string|"'project_id'"
 op|']'
 op|','
 name|'self'
