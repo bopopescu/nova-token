@@ -346,7 +346,8 @@ name|'RequestExtension'
 op|'('
 string|"'GET'"
 op|','
-string|"'/v1.1/flavors/:(id)'"
+nl|'\n'
+string|"'/v1.1/:(project_id)/flavors/:(id)'"
 op|','
 nl|'\n'
 name|'_goose_handler'
@@ -417,7 +418,8 @@ name|'RequestExtension'
 op|'('
 string|"'GET'"
 op|','
-string|"'/v1.1/flavors/:(id)'"
+nl|'\n'
+string|"'/v1.1/:(project_id)/flavors/:(id)'"
 op|','
 nl|'\n'
 name|'_bands_handler'
