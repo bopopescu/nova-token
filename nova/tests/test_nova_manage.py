@@ -569,6 +569,7 @@ name|'False'
 op|')'
 newline|'\n'
 nl|'\n'
+nl|'\n'
 DECL|class|NetworkCommandsTestCase
 dedent|''
 dedent|''
@@ -1240,6 +1241,7 @@ name|'project'
 op|'='
 string|"'test_project'"
 op|','
+nl|'\n'
 name|'host'
 op|'='
 string|"'test_host'"
