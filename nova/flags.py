@@ -2285,7 +2285,7 @@ op|','
 name|'False'
 op|','
 nl|'\n'
-string|"'Whether to monkey patch'"
+string|"'Whether to log monkey patching'"
 op|')'
 newline|'\n'
 nl|'\n'
@@ -2302,7 +2302,7 @@ string|"'nova.compute.api:nova.notifier.api.notify_decorator'"
 op|']'
 op|','
 nl|'\n'
-string|"'Module list representing monkey patched module and decorator'"
+string|"'Module list representing monkey\\\n                patched module and decorator'"
 op|')'
 newline|'\n'
 endmarker|''

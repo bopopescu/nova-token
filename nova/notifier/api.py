@@ -149,8 +149,10 @@ name|'fn'
 op|')'
 op|':'
 newline|'\n'
-DECL|function|wrapped_func
 indent|'    '
+string|'""" decorator for notify which is used from utils.monkey_patch()\n        Parameters:\n\n        name - name of the function\n        function - object of the function\n\n\n    """'
+newline|'\n'
+DECL|function|wrapped_func
 name|'def'
 name|'wrapped_func'
 op|'('
