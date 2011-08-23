@@ -3607,6 +3607,17 @@ op|')'
 op|')'
 comment|"# , ForeignKey('hosts.id'))"
 newline|'\n'
+DECL|variable|uuid
+name|'uuid'
+op|'='
+name|'Column'
+op|'('
+name|'String'
+op|'('
+number|'36'
+op|')'
+op|')'
+newline|'\n'
 nl|'\n'
 nl|'\n'
 DECL|class|VirtualInterface
