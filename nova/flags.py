@@ -2284,7 +2284,7 @@ string|"'use_ipv6'"
 op|','
 name|'False'
 op|','
-string|"'use the ipv6'"
+string|"'use ipv6'"
 op|')'
 newline|'\n'
 endmarker|''
