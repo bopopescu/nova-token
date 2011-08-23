@@ -144,11 +144,6 @@ name|'RESCUING'
 op|'='
 string|"'rescuing'"
 newline|'\n'
-DECL|variable|RESCUED
-name|'RESCUED'
-op|'='
-string|"'rescued'"
-newline|'\n'
 DECL|variable|UNRESCUING
 name|'UNRESCUING'
 op|'='
