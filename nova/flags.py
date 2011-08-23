@@ -2312,7 +2312,9 @@ string|"'nova.compute.api:nova.notifier.api.notify_decorator'"
 op|']'
 op|','
 nl|'\n'
-string|"'Module list representing monkey\\\n                patched module and decorator'"
+string|"'Module list representing monkey '"
+nl|'\n'
+string|"'patched module and decorator'"
 op|')'
 newline|'\n'
 endmarker|''
