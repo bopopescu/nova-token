@@ -1279,8 +1279,6 @@ string|"'sudo'"
 op|','
 string|"'tee'"
 op|','
-string|"'-a'"
-op|','
 name|'metadata_path'
 op|','
 nl|'\n'
