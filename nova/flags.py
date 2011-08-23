@@ -2280,6 +2280,16 @@ newline|'\n'
 nl|'\n'
 name|'DEFINE_bool'
 op|'('
+string|"'use_ipv6'"
+op|','
+name|'False'
+op|','
+string|"'use ipv6'"
+op|')'
+newline|'\n'
+nl|'\n'
+name|'DEFINE_bool'
+op|'('
 string|"'monkey_patch'"
 op|','
 name|'False'
