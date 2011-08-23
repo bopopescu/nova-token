@@ -4609,7 +4609,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/servers/1'"
+string|"'/v1.1/fake/servers/1'"
 op|')'
 newline|'\n'
 name|'res'
