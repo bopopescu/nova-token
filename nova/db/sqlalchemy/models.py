@@ -2040,7 +2040,7 @@ name|'Volume'
 op|','
 name|'backref'
 op|'='
-string|'"metadata"'
+string|'"volume_metadata"'
 op|','
 nl|'\n'
 DECL|variable|foreign_keys
