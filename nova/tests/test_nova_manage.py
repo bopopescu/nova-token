@@ -645,7 +645,6 @@ string|"'aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa'"
 op|'}'
 newline|'\n'
 nl|'\n'
-nl|'\n'
 DECL|member|tearDown
 dedent|''
 name|'def'
