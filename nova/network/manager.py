@@ -399,18 +399,6 @@ op|')'
 newline|'\n'
 name|'flags'
 op|'.'
-name|'DEFINE_bool'
-op|'('
-string|"'use_ipv6'"
-op|','
-name|'False'
-op|','
-nl|'\n'
-string|"'use the ipv6'"
-op|')'
-newline|'\n'
-name|'flags'
-op|'.'
 name|'DEFINE_string'
 op|'('
 string|"'network_host'"
