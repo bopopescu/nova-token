@@ -2277,5 +2277,15 @@ nl|'\n'
 string|"'Command prefix to use for running commands as root'"
 op|')'
 newline|'\n'
+nl|'\n'
+name|'DEFINE_bool'
+op|'('
+string|"'use_ipv6'"
+op|','
+name|'False'
+op|','
+string|"'use ipv6'"
+op|')'
+newline|'\n'
 endmarker|''
 end_unit

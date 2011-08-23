@@ -437,7 +437,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/images/1/metadata'"
+string|"'/v1.1/123/images/1/metadata'"
 op|')'
 newline|'\n'
 name|'res'
@@ -558,7 +558,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/images/1/metadata/key1'"
+string|"'/v1.1/fake/images/1/metadata/key1'"
 op|')'
 newline|'\n'
 name|'res'
@@ -654,7 +654,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/images/1/metadata/key9'"
+string|"'/v1.1/fake/images/1/metadata/key9'"
 op|')'
 newline|'\n'
 name|'res'
@@ -700,7 +700,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/images/2/metadata'"
+string|"'/v1.1/fake/images/2/metadata'"
 op|')'
 newline|'\n'
 name|'req'
@@ -818,7 +818,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/images/2/metadata'"
+string|"'/v1.1/fake/images/1/metadata'"
 op|')'
 newline|'\n'
 name|'req'
@@ -926,7 +926,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/images/1/metadata/key1'"
+string|"'/v1.1/fake/images/1/metadata/key1'"
 op|')'
 newline|'\n'
 name|'req'
@@ -1032,7 +1032,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/images/1/metadata/key1'"
+string|"'/v1.1/fake/images/1/metadata/key1'"
 op|')'
 newline|'\n'
 name|'req'
@@ -1099,7 +1099,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/images/1/metadata/key1'"
+string|"'/v1.1/fake/images/1/metadata/key1'"
 op|')'
 newline|'\n'
 name|'req'
@@ -1166,7 +1166,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/images/1/metadata/bad'"
+string|"'/v1.1/fake/images/1/metadata/bad'"
 op|')'
 newline|'\n'
 name|'req'
@@ -1233,7 +1233,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/images/1/metadata/key1'"
+string|"'/v1.1/fake/images/1/metadata/key1'"
 op|')'
 newline|'\n'
 name|'req'
@@ -1339,7 +1339,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/images/2/metadata/key1'"
+string|"'/v1.1/fake/images/2/metadata/key1'"
 op|')'
 newline|'\n'
 name|'req'
@@ -1402,7 +1402,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/images/2/metadata/blah'"
+string|"'/v1.1/fake/images/2/metadata/blah'"
 op|')'
 newline|'\n'
 name|'req'
@@ -1504,7 +1504,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/images/2/metadata'"
+string|"'/v1.1/fake/images/2/metadata'"
 op|')'
 newline|'\n'
 name|'req'
@@ -1571,7 +1571,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/images/3/metadata/blah'"
+string|"'/v1.1/fake/images/3/metadata/blah'"
 op|')'
 newline|'\n'
 name|'req'
