@@ -185,7 +185,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/servers/test_inst/action'"
+string|"'/v1.1/123/servers/test_inst/action'"
 op|')'
 newline|'\n'
 name|'req'
@@ -267,7 +267,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/servers/test_inst/action'"
+string|"'/v1.1/123/servers/test_inst/action'"
 op|')'
 newline|'\n'
 name|'req'
