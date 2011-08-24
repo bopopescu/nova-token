@@ -487,6 +487,19 @@ nl|'\n'
 string|"'The libvirt VIF driver to configure the VIFs.'"
 op|')'
 newline|'\n'
+name|'flags'
+op|'.'
+name|'DEFINE_bool'
+op|'('
+string|"'libvirt_use_virtio_for_bridges'"
+op|','
+nl|'\n'
+name|'False'
+op|','
+nl|'\n'
+string|"'Use virtio for bridge interfaces'"
+op|')'
+newline|'\n'
 nl|'\n'
 nl|'\n'
 DECL|function|get_connection
@@ -6519,6 +6532,13 @@ nl|'\n'
 string|"'volumes'"
 op|':'
 name|'block_device_mapping'
+op|','
+nl|'\n'
+string|"'use_virtio_for_bridges'"
+op|':'
+name|'FLAGS'
+op|'.'
+name|'libvirt_use_virtio_for_bridges'
 op|','
 nl|'\n'
 string|"'ephemerals'"
