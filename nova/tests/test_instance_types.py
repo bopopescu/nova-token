@@ -662,10 +662,10 @@ name|'flavorid'
 op|')'
 newline|'\n'
 nl|'\n'
-DECL|member|test_non_existant_inst_type_shouldnt_delete
+DECL|member|test_non_existent_inst_type_shouldnt_delete
 dedent|''
 name|'def'
-name|'test_non_existant_inst_type_shouldnt_delete'
+name|'test_non_existent_inst_type_shouldnt_delete'
 op|'('
 name|'self'
 op|')'
