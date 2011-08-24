@@ -7007,8 +7007,6 @@ nl|'\n'
 name|'extra_specs'
 op|')'
 newline|'\n'
-nl|'\n'
-nl|'\n'
 dedent|''
 endmarker|''
 end_unit
