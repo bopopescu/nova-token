@@ -2338,5 +2338,45 @@ nl|'\n'
 string|"'Command prefix to use for running commands as root'"
 op|')'
 newline|'\n'
+nl|'\n'
+name|'DEFINE_bool'
+op|'('
+string|"'use_ipv6'"
+op|','
+name|'False'
+op|','
+string|"'use ipv6'"
+op|')'
+newline|'\n'
+nl|'\n'
+name|'DEFINE_bool'
+op|'('
+string|"'monkey_patch'"
+op|','
+name|'False'
+op|','
+nl|'\n'
+string|"'Whether to log monkey patching'"
+op|')'
+newline|'\n'
+nl|'\n'
+name|'DEFINE_list'
+op|'('
+string|"'monkey_patch_modules'"
+op|','
+nl|'\n'
+op|'['
+string|"'nova.api.ec2.cloud:nova.notifier.api.notify_decorator'"
+op|','
+nl|'\n'
+string|"'nova.compute.api:nova.notifier.api.notify_decorator'"
+op|']'
+op|','
+nl|'\n'
+string|"'Module list representing monkey '"
+nl|'\n'
+string|"'patched module and decorator'"
+op|')'
+newline|'\n'
 endmarker|''
 end_unit
