@@ -1166,13 +1166,13 @@ op|'['
 op|'('
 name|'None'
 op|','
-string|"'server_1'"
+string|"'server-1'"
 op|')'
 op|','
 op|'('
 string|"'Hello, Server!'"
 op|','
-string|"'hello_server'"
+string|"'hello-server'"
 op|')'
 op|','
 nl|'\n'
@@ -1180,6 +1180,13 @@ op|'('
 string|"'<}\\x1fh\\x10e\\x08l\\x02l\\x05o\\x12!{>'"
 op|','
 string|"'hello'"
+op|')'
+op|','
+nl|'\n'
+op|'('
+string|"'hello_server'"
+op|','
+string|"'hello-server'"
 op|')'
 op|']'
 newline|'\n'
