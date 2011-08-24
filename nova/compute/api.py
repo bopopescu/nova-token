@@ -217,7 +217,7 @@ op|':'
 newline|'\n'
 indent|'        '
 name|'return'
-string|"'server_%d'"
+string|"'server-%d'"
 op|'%'
 op|'('
 name|'instance'
@@ -284,15 +284,23 @@ name|'c'
 newline|'\n'
 dedent|''
 name|'elif'
+op|'('
 name|'c'
 op|'=='
 string|"' '"
+op|')'
+name|'or'
+op|'('
+name|'c'
+op|'=='
+string|"'_'"
+op|')'
 op|':'
 newline|'\n'
 indent|'            '
 name|'table'
 op|'+='
-string|"'_'"
+string|"'-'"
 newline|'\n'
 dedent|''
 name|'elif'
