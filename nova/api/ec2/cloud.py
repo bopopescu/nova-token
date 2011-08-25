@@ -439,7 +439,6 @@ DECL|variable|_DEFAULT_MAPPINGS
 name|'_DEFAULT_MAPPINGS'
 op|'='
 op|'{'
-nl|'\n'
 string|"'ami'"
 op|':'
 string|"'sda1'"
@@ -458,8 +457,6 @@ nl|'\n'
 string|"'swap'"
 op|':'
 string|"'sda3'"
-op|','
-nl|'\n'
 op|'}'
 newline|'\n'
 nl|'\n'
