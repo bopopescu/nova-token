@@ -2973,6 +2973,7 @@ string|"'target_portal'"
 op|']'
 op|','
 nl|'\n'
+op|'*'
 name|'iscsi_command'
 op|','
 name|'run_as_root'
