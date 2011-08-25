@@ -1442,6 +1442,7 @@ op|'.'
 name|'XMLNS_V11'
 op|'}'
 newline|'\n'
+nl|'\n'
 DECL|member|__init__
 name|'def'
 name|'__init__'
