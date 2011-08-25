@@ -31,7 +31,7 @@ nl|'\n'
 comment|'#    under the License.'
 nl|'\n'
 nl|'\n'
-string|'"""Possible vm states for instances"""'
+string|'"""Possible vm states for instances.\n\nCompute instance vm states represent the state of an instance as it pertains to\na user or administrator. When combined with task states (task_states.py), a\nbetter picture can be formed regarding the instance\'s health.\n\n"""'
 newline|'\n'
 nl|'\n'
 DECL|variable|ACTIVE
@@ -85,11 +85,6 @@ DECL|variable|RESIZING
 name|'RESIZING'
 op|'='
 string|"'resizing'"
-newline|'\n'
-DECL|variable|VERIFY_RESIZE
-name|'VERIFY_RESIZE'
-op|'='
-string|"'verify_resize'"
 newline|'\n'
 nl|'\n'
 DECL|variable|ERROR

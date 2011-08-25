@@ -31,7 +31,7 @@ nl|'\n'
 comment|'#    under the License.'
 nl|'\n'
 nl|'\n'
-string|'"""Possible task states for instances"""'
+string|'"""Possible task states for instances.\n\nCompute instance task states represent what is happening to the instance at the\ncurrent moment. These tasks can be generic, such as \'spawning\', or specific,\nsuch as \'block_device_mapping\'. These task states allow for a better view into\nwhat an instance is doing and should be displayed to users/administrators as\nnecessary.\n\n"""'
 newline|'\n'
 nl|'\n'
 DECL|variable|SCHEDULING
@@ -49,26 +49,27 @@ name|'NETWORKING'
 op|'='
 string|"'networking'"
 newline|'\n'
-DECL|variable|SPAWN
-name|'SPAWN'
+DECL|variable|SPAWNING
+name|'SPAWNING'
 op|'='
-string|"'spawn'"
+string|"'spawning'"
 newline|'\n'
 nl|'\n'
-DECL|variable|SNAPSHOTTING
-name|'SNAPSHOTTING'
+DECL|variable|IMAGE_SNAPSHOT
+name|'IMAGE_SNAPSHOT'
 op|'='
-string|"'snapshotting'"
+string|"'image_snapshot'"
 newline|'\n'
-DECL|variable|BACKING_UP
-name|'BACKING_UP'
+DECL|variable|IMAGE_BACKUP
+name|'IMAGE_BACKUP'
 op|'='
-string|"'backing_up'"
+string|"'image_backup'"
 newline|'\n'
-DECL|variable|PASSWORD
-name|'PASSWORD'
+nl|'\n'
+DECL|variable|UPDATING_PASSWORD
+name|'UPDATING_PASSWORD'
 op|'='
-string|"'password'"
+string|"'updating_password'"
 newline|'\n'
 nl|'\n'
 DECL|variable|RESIZE_PREP
@@ -101,6 +102,11 @@ name|'RESIZE_CONFIRMING'
 op|'='
 string|"'resize_confirming'"
 newline|'\n'
+DECL|variable|RESIZE_VERIFY
+name|'RESIZE_VERIFY'
+op|'='
+string|"'resize_verify'"
+newline|'\n'
 nl|'\n'
 DECL|variable|REBUILDING
 name|'REBUILDING'
@@ -112,11 +118,6 @@ DECL|variable|REBOOTING
 name|'REBOOTING'
 op|'='
 string|"'rebooting'"
-newline|'\n'
-DECL|variable|HARD_REBOOTING
-name|'HARD_REBOOTING'
-op|'='
-string|"'hard_rebooting'"
 newline|'\n'
 DECL|variable|PAUSING
 name|'PAUSING'
