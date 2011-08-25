@@ -12720,7 +12720,7 @@ op|','
 nl|'\n'
 string|"'instanceInitiatedShutdownBehavior'"
 op|':'
-string|"'stop'"
+string|"'stopped'"
 op|'}'
 op|')'
 newline|'\n'
