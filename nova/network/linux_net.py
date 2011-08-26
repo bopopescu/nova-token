@@ -2844,7 +2844,6 @@ name|'fixed_ref'
 op|')'
 op|')'
 newline|'\n'
-nl|'\n'
 dedent|''
 name|'return'
 string|"'\\n'"
