@@ -2763,7 +2763,6 @@ name|'network'
 op|'['
 string|"'cidr_v6'"
 op|']'
-op|','
 newline|'\n'
 comment|'# TODO(tr3buchet): handle ip6 routes here as well'
 nl|'\n'
