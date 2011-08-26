@@ -1733,6 +1733,15 @@ op|')'
 newline|'\n'
 name|'DEFINE_integer'
 op|'('
+string|"'rabbit_interval_stepping'"
+op|','
+number|'2'
+op|','
+string|"'rabbit connection retry backoff in seconds'"
+op|')'
+newline|'\n'
+name|'DEFINE_integer'
+op|'('
 string|"'rabbit_max_retries'"
 op|','
 number|'12'
