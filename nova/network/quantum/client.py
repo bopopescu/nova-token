@@ -297,7 +297,7 @@ nl|'\n'
 DECL|variable|action_prefix
 name|'action_prefix'
 op|'='
-string|"'/v0.1/tenants/{tenant_id}'"
+string|"'/v1.0/tenants/{tenant_id}'"
 newline|'\n'
 nl|'\n'
 string|'"""Action query strings"""'

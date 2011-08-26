@@ -185,7 +185,7 @@ op|'{'
 string|"'network'"
 op|':'
 op|'{'
-string|"'net-name'"
+string|"'name'"
 op|':'
 name|'network_name'
 op|'}'
@@ -208,9 +208,6 @@ op|')'
 newline|'\n'
 name|'return'
 name|'resdict'
-op|'['
-string|'"networks"'
-op|']'
 op|'['
 string|'"network"'
 op|']'
