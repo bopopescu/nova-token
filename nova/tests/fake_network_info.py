@@ -443,6 +443,11 @@ nl|'\n'
 string|"'rxtx_cap'"
 op|':'
 number|'3'
+op|','
+nl|'\n'
+string|"'memory_mb'"
+op|':'
+number|'512'
 op|'}'
 newline|'\n'
 nl|'\n'
