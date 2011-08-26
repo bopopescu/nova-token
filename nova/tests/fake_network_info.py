@@ -448,6 +448,11 @@ nl|'\n'
 string|"'memory_mb'"
 op|':'
 number|'512'
+op|','
+nl|'\n'
+string|"'vcpus'"
+op|':'
+number|'2'
 op|'}'
 newline|'\n'
 nl|'\n'
