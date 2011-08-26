@@ -481,6 +481,7 @@ number|'3'
 op|'}'
 newline|'\n'
 nl|'\n'
+nl|'\n'
 DECL|function|floating_ips
 name|'def'
 name|'floating_ips'
