@@ -447,7 +447,7 @@ op|','
 nl|'\n'
 string|"'memory_mb'"
 op|':'
-number|'512'
+number|'2048'
 op|','
 nl|'\n'
 string|"'vcpus'"
