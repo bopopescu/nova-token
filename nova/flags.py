@@ -1726,14 +1726,14 @@ name|'DEFINE_integer'
 op|'('
 string|"'rabbit_retry_interval'"
 op|','
-number|'10'
+number|'1'
 op|','
-string|"'rabbit connection retry interval'"
+string|"'rabbit connection retry interval to start'"
 op|')'
 newline|'\n'
 name|'DEFINE_integer'
 op|'('
-string|"'rabbit_interval_stepping'"
+string|"'rabbit_retry_backoff'"
 op|','
 number|'2'
 op|','
@@ -1744,9 +1744,9 @@ name|'DEFINE_integer'
 op|'('
 string|"'rabbit_max_retries'"
 op|','
-number|'12'
+number|'0'
 op|','
-string|"'rabbit connection attempts'"
+string|"'maximum rabbit connection attempts (0=try forever)'"
 op|')'
 newline|'\n'
 name|'DEFINE_string'
