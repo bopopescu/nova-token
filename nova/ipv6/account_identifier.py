@@ -226,6 +226,7 @@ op|'('
 string|"'Bad project_id for to_global_ipv6: %s'"
 op|')'
 op|'%'
+nl|'\n'
 name|'project_id'
 op|')'
 newline|'\n'
