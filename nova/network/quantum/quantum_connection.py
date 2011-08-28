@@ -331,7 +331,7 @@ op|'{'
 string|"'port'"
 op|':'
 op|'{'
-string|"'port-state'"
+string|"'state'"
 op|':'
 string|"'ACTIVE'"
 op|'}'
@@ -416,7 +416,7 @@ name|'LOG'
 op|'.'
 name|'debug'
 op|'('
-string|'"Deleteing port %s on net %s for %s"'
+string|'"Deleting port %s on net %s for %s"'
 op|'%'
 op|'('
 name|'port_id'
@@ -459,7 +459,7 @@ name|'tenant_id'
 op|')'
 newline|'\n'
 nl|'\n'
-comment|'# FIXME: this will be inefficient until API implements querying'
+comment|'# FIXME: (danwent) this will be inefficient until API implements querying'
 nl|'\n'
 DECL|member|get_port_by_attachment
 dedent|''
