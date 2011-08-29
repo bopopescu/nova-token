@@ -1640,6 +1640,15 @@ op|','
 string|"'port that ajax_console_proxy binds'"
 op|')'
 newline|'\n'
+name|'DEFINE_string'
+op|'('
+string|"'vsa_topic'"
+op|','
+string|"'vsa'"
+op|','
+string|"'the topic that nova-vsa service listens on'"
+op|')'
+newline|'\n'
 name|'DEFINE_bool'
 op|'('
 string|"'verbose'"
@@ -2147,6 +2156,58 @@ string|"'nova.scheduler.manager.SchedulerManager'"
 op|','
 nl|'\n'
 string|"'Manager for scheduler'"
+op|')'
+newline|'\n'
+name|'DEFINE_string'
+op|'('
+string|"'vsa_manager'"
+op|','
+string|"'nova.vsa.manager.VsaManager'"
+op|','
+nl|'\n'
+string|"'Manager for vsa'"
+op|')'
+newline|'\n'
+name|'DEFINE_string'
+op|'('
+string|"'vc_image_name'"
+op|','
+string|"'vc_image'"
+op|','
+nl|'\n'
+string|"'the VC image ID (for a VC image that exists in DB Glance)'"
+op|')'
+newline|'\n'
+comment|'# VSA constants and enums'
+nl|'\n'
+name|'DEFINE_string'
+op|'('
+string|"'default_vsa_instance_type'"
+op|','
+string|"'m1.small'"
+op|','
+nl|'\n'
+string|"'default instance type for VSA instances'"
+op|')'
+newline|'\n'
+name|'DEFINE_integer'
+op|'('
+string|"'max_vcs_in_vsa'"
+op|','
+number|'32'
+op|','
+nl|'\n'
+string|"'maxinum VCs in a VSA'"
+op|')'
+newline|'\n'
+name|'DEFINE_integer'
+op|'('
+string|"'vsa_part_size_gb'"
+op|','
+number|'100'
+op|','
+nl|'\n'
+string|"'default partition size for shared capacity'"
 op|')'
 newline|'\n'
 nl|'\n'
