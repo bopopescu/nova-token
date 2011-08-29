@@ -72,7 +72,7 @@ op|'('
 string|"'rpc_backend'"
 op|','
 nl|'\n'
-string|"'carrot'"
+string|"'kombu'"
 op|','
 nl|'\n'
 string|'"The messaging module to use, defaults to carrot."'
@@ -167,7 +167,6 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-name|'return'
 name|'RPCIMPL'
 op|'.'
 name|'create_consumer'
