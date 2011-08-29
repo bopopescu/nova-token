@@ -273,6 +273,7 @@ name|'context'
 op|','
 string|"'test'"
 op|','
+nl|'\n'
 op|'{'
 string|'"method"'
 op|':'
