@@ -1728,6 +1728,7 @@ string|"'rabbit_retry_interval'"
 op|','
 number|'1'
 op|','
+nl|'\n'
 string|"'rabbit connection retry interval to start'"
 op|')'
 newline|'\n'
@@ -1737,6 +1738,7 @@ string|"'rabbit_retry_backoff'"
 op|','
 number|'2'
 op|','
+nl|'\n'
 string|"'rabbit connection retry backoff in seconds'"
 op|')'
 newline|'\n'
@@ -1746,6 +1748,7 @@ string|"'rabbit_max_retries'"
 op|','
 number|'0'
 op|','
+nl|'\n'
 string|"'maximum rabbit connection attempts (0=try forever)'"
 op|')'
 newline|'\n'
