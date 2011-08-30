@@ -2629,7 +2629,7 @@ name|'LOG'
 op|'.'
 name|'debug'
 op|'('
-string|"'Creating new connection'"
+string|"'Pool creating new connection'"
 op|')'
 newline|'\n'
 name|'return'
