@@ -1689,6 +1689,8 @@ op|'('
 name|'nova'
 op|'.'
 name|'db'
+op|'.'
+name|'api'
 op|','
 string|"'migration_get_by_instance_and_status'"
 op|','

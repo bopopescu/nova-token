@@ -1317,7 +1317,7 @@ op|':'
 newline|'\n'
 indent|'        '
 name|'return'
-string|'"Simple_tenant_usage"'
+string|'"SimpleTenantUsage"'
 newline|'\n'
 nl|'\n'
 DECL|member|get_alias
