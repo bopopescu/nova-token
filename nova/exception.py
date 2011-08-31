@@ -276,11 +276,11 @@ op|')'
 newline|'\n'
 nl|'\n'
 nl|'\n'
-DECL|class|BuildInProgress
+DECL|class|RebuildRequiresActiveInstance
 dedent|''
 dedent|''
 name|'class'
-name|'BuildInProgress'
+name|'RebuildRequiresActiveInstance'
 op|'('
 name|'Error'
 op|')'
