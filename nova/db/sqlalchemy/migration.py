@@ -290,7 +290,17 @@ nl|'\n'
 string|"'user_role_association'"
 op|','
 nl|'\n'
+string|"'virtual_storage_arrays'"
+op|','
+nl|'\n'
 string|"'volumes'"
+op|','
+string|"'volume_metadata'"
+op|','
+nl|'\n'
+string|"'volume_types'"
+op|','
+string|"'volume_type_extra_specs'"
 op|')'
 op|':'
 newline|'\n'
