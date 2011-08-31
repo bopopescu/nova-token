@@ -72,10 +72,10 @@ op|'('
 string|"'rpc_backend'"
 op|','
 nl|'\n'
-string|"'nova.rpc.impl_carrot'"
+string|"'nova.rpc.impl_kombu'"
 op|','
 nl|'\n'
-string|'"The messaging module to use, defaults to carrot."'
+string|'"The messaging module to use, defaults to kombu."'
 op|')'
 newline|'\n'
 nl|'\n'
