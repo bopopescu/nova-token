@@ -5019,6 +5019,11 @@ op|':'
 string|"'name'"
 op|','
 nl|'\n'
+string|"'tenant_id'"
+op|':'
+string|"'project_id'"
+op|','
+nl|'\n'
 string|"'recurse_zones'"
 op|':'
 name|'None'
