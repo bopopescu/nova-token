@@ -2691,6 +2691,14 @@ string|"'cidr'"
 op|']'
 op|','
 nl|'\n'
+string|"'cidr_v6'"
+op|':'
+name|'network'
+op|'['
+string|"'cidr_v6'"
+op|']'
+op|','
+nl|'\n'
 string|"'injected'"
 op|':'
 name|'network'
@@ -2877,16 +2885,6 @@ op|'['
 name|'ip6_dict'
 op|'('
 op|')'
-op|']'
-newline|'\n'
-name|'network_dict'
-op|'['
-string|"'cidr_v6'"
-op|']'
-op|'='
-name|'network'
-op|'['
-string|"'cidr_v6'"
 op|']'
 newline|'\n'
 comment|'# TODO(tr3buchet): handle ip6 routes here as well'
