@@ -1850,7 +1850,6 @@ op|')'
 newline|'\n'
 nl|'\n'
 nl|'\n'
-nl|'\n'
 DECL|function|_limit_attributes
 dedent|''
 name|'def'
