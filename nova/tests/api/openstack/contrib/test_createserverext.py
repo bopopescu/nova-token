@@ -530,11 +530,6 @@ op|':'
 string|"'fake'"
 op|','
 nl|'\n'
-string|"'display_description'"
-op|':'
-string|"'fakedescription'"
-op|','
-nl|'\n'
 string|"'created_at'"
 op|':'
 string|'""'
