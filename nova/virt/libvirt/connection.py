@@ -468,6 +468,27 @@ name|'flags'
 op|'.'
 name|'DEFINE_string'
 op|'('
+string|"'snapshot_image_format'"
+op|','
+string|"'raw'"
+op|','
+nl|'\n'
+string|"'Snapshot image format (valide option are : '"
+nl|'\n'
+string|"'all format supported by qemu-img binary'"
+op|')'
+newline|'\n'
+indent|'                        '
+name|'FLAGS'
+op|'.'
+name|'snapshot_disk_format'
+op|','
+newline|'\n'
+dedent|''
+name|'flags'
+op|'.'
+name|'DEFINE_string'
+op|'('
 string|"'libvirt_vif_type'"
 op|','
 string|"'bridge'"
@@ -2457,7 +2478,9 @@ nl|'\n'
 string|"'-O'"
 op|','
 nl|'\n'
-string|"'raw'"
+name|'FLAGS'
+op|'.'
+name|'snapshot_image_format'
 op|','
 nl|'\n'
 string|"'-s'"
