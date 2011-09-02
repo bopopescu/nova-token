@@ -893,7 +893,7 @@ op|'('
 string|"'description'"
 op|')'
 name|'or'
-string|"''"
+name|'name'
 newline|'\n'
 name|'return'
 op|'('
