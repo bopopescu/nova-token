@@ -612,7 +612,7 @@ op|']'
 op|'='
 name|'instance'
 op|'['
-string|"'state_description'"
+string|"'vm_state'"
 op|']'
 newline|'\n'
 nl|'\n'
