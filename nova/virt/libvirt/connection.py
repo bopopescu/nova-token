@@ -475,7 +475,9 @@ op|','
 nl|'\n'
 string|"'Snapshot image format (valide option are : '"
 nl|'\n'
-string|"'all format supported by qemu-img binary'"
+string|"'raw, qcow2, vmdk, vdi.'"
+nl|'\n'
+string|"'If the binary qemu_img supports it)'"
 op|')'
 newline|'\n'
 indent|'                        '
@@ -2340,10 +2342,9 @@ op|'['
 string|"'disk_format'"
 op|']'
 op|'='
-name|'base'
-op|'['
-string|"'disk_format'"
-op|']'
+name|'FLAGS'
+op|'.'
+name|'snapshot_image_format'
 newline|'\n'
 nl|'\n'
 dedent|''
