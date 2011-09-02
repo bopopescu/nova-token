@@ -1735,18 +1735,30 @@ name|'DEFINE_integer'
 op|'('
 string|"'rabbit_retry_interval'"
 op|','
-number|'10'
+number|'1'
 op|','
-string|"'rabbit connection retry interval'"
+nl|'\n'
+string|"'rabbit connection retry interval to start'"
+op|')'
+newline|'\n'
+name|'DEFINE_integer'
+op|'('
+string|"'rabbit_retry_backoff'"
+op|','
+number|'2'
+op|','
+nl|'\n'
+string|"'rabbit connection retry backoff in seconds'"
 op|')'
 newline|'\n'
 name|'DEFINE_integer'
 op|'('
 string|"'rabbit_max_retries'"
 op|','
-number|'12'
+number|'0'
 op|','
-string|"'rabbit connection attempts'"
+nl|'\n'
+string|"'maximum rabbit connection attempts (0=try forever)'"
 op|')'
 newline|'\n'
 name|'DEFINE_string'
