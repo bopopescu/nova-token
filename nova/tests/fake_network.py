@@ -500,7 +500,7 @@ name|'yield'
 op|'{'
 string|"'id'"
 op|':'
-number|'0'
+name|'i'
 op|','
 nl|'\n'
 string|"'address'"
