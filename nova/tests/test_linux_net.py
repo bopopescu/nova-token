@@ -1952,7 +1952,6 @@ name|'expected'
 op|')'
 newline|'\r\n'
 nl|'\r\n'
-nl|'\r\n'
 DECL|member|test_dhcp_opts_not_default_gateway_network
 dedent|''
 name|'def'
