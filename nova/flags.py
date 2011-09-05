@@ -2347,6 +2347,17 @@ string|"'Command prefix to use for running commands as root'"
 op|')'
 newline|'\n'
 nl|'\n'
+name|'DEFINE_string'
+op|'('
+string|"'network_driver'"
+op|','
+string|"'nova.network.linux_net'"
+op|','
+nl|'\n'
+string|"'Driver to use for network creation'"
+op|')'
+newline|'\n'
+nl|'\n'
 name|'DEFINE_bool'
 op|'('
 string|"'use_ipv6'"
