@@ -151,6 +151,12 @@ op|'='
 string|"'unrescuing'"
 newline|'\n'
 nl|'\n'
+DECL|variable|QUEUED_DELETE
+name|'QUEUED_DELETE'
+op|'='
+string|"'queued_delete'"
+newline|'\n'
+nl|'\n'
 DECL|variable|DELETING
 name|'DELETING'
 op|'='
