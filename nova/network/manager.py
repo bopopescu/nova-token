@@ -181,7 +181,7 @@ name|'DEFINE_bool'
 op|'('
 string|"'flat_injected'"
 op|','
-name|'True'
+name|'False'
 op|','
 nl|'\n'
 string|"'Whether to attempt to inject network setup into guest'"
