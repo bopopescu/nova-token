@@ -546,7 +546,7 @@ op|','
 nl|'\r\n'
 string|"'network_id'"
 op|':'
-number|'0'
+number|'1'
 op|','
 nl|'\r\n'
 string|"'address'"
@@ -600,7 +600,7 @@ op|','
 nl|'\r\n'
 string|"'network_id'"
 op|':'
-number|'1'
+number|'0'
 op|','
 nl|'\r\n'
 string|"'address'"
@@ -1488,7 +1488,7 @@ op|'='
 string|'"10.0.0.1,fake_instance00.novalocal,"'
 string|'"192.168.0.100,net:NW-i00000000-0\\n"'
 string|'"10.0.0.4,fake_instance01.novalocal,"'
-string|'"192.168.1.101,net:NW-i00000001-1"'
+string|'"192.168.1.101,net:NW-i00000001-0"'
 newline|'\r\n'
 name|'actual_hosts'
 op|'='
@@ -1587,7 +1587,7 @@ op|'='
 string|'"10.0.0.2,fake_instance00.novalocal,"'
 string|'"192.168.1.100,net:NW-i00000000-1\\n"'
 string|'"10.0.0.3,fake_instance01.novalocal,"'
-string|'"192.168.0.101,net:NW-i00000001-0"'
+string|'"192.168.0.101,net:NW-i00000001-1"'
 newline|'\r\n'
 name|'actual_hosts'
 op|'='
@@ -1781,7 +1781,7 @@ nl|'\r\n'
 name|'expected_opts'
 op|'='
 string|"'\\n'"
-string|"'\\n'"
+string|"'NW-i00000001-0,3\\n'"
 string|"''"
 newline|'\r\n'
 name|'actual_opts'
@@ -1976,8 +1976,8 @@ nl|'\r\n'
 name|'expected_opts'
 op|'='
 string|"'NW-i00000000-1,3\\n'"
-string|"'NW-i00000001-0,3\\n'"
-string|"'NW-i00000002-1,3'"
+string|"'\\n'"
+string|"''"
 newline|'\r\n'
 name|'actual_opts'
 op|'='
