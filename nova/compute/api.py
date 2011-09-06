@@ -201,7 +201,7 @@ name|'DEFINE_integer'
 op|'('
 string|"'delete_instance_interval'"
 op|','
-number|'43200'
+number|'0'
 op|','
 nl|'\n'
 string|"'Time in seconds to wait to scrub deleted instances.'"
