@@ -565,7 +565,7 @@ name|'return'
 op|'{'
 string|"'id'"
 op|':'
-name|'next'
+name|'next_id'
 op|','
 nl|'\n'
 string|"'network_id'"
