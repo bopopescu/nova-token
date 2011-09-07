@@ -423,34 +423,6 @@ op|'}'
 newline|'\n'
 nl|'\n'
 nl|'\n'
-comment|'#def fixed_ips(num_networks, num_ips, num_floating_ips=0):'
-nl|'\n'
-comment|'#    for network_index in xrange(num_networks):'
-nl|'\n'
-comment|'#        for ip_index in xrange(num_ips):'
-nl|'\n'
-comment|'#            fixed_ip_id = network_index * num_ips + ip_index'
-nl|'\n'
-comment|'#            islice = itertools.islice'
-nl|'\n'
-comment|"#            yield {'id': fixed_ip_id,"
-nl|'\n'
-comment|"#                   'network_id': network_index,"
-nl|'\n'
-comment|"#                   'address': '192.168.%d.1%02d' % (network_index, ip_index),"
-nl|'\n'
-comment|"#                   'instance_id': 0,"
-nl|'\n'
-comment|"#                   'allocated': False,"
-nl|'\n'
-comment|'#                   # and since network_id and vif_id happen to be equivalent'
-nl|'\n'
-comment|"#                   'virtual_interface_id': network_index,"
-nl|'\n'
-comment|"#                   'floating_ips': f_ips}"
-nl|'\n'
-nl|'\n'
-nl|'\n'
 DECL|function|floating_ip_ids
 dedent|''
 dedent|''
