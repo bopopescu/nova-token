@@ -1256,9 +1256,11 @@ newline|'\n'
 indent|'                '
 name|'if'
 name|'vdi'
-op|'['
+op|'.'
+name|'get'
+op|'('
 string|"'vdi_type'"
-op|']'
+op|')'
 op|'!='
 string|"'swap'"
 op|':'
