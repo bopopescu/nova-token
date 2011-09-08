@@ -605,6 +605,22 @@ op|'('
 op|')'
 op|')'
 newline|'\n'
+comment|'# NOTE(Vek): Novaclient has two different calling conventions'
+nl|'\n'
+comment|"#            for this call, depending on whether you're using"
+nl|'\n'
+comment|"#            1.0 or 1.1 API: in 1.0, there's an ipgroups"
+nl|'\n'
+comment|"#            argument after flavor_id which isn't present in"
+nl|'\n'
+comment|'#            1.1.  To work around this, all the extra'
+nl|'\n'
+comment|'#            arguments are passed as keyword arguments'
+nl|'\n'
+comment|"#            (there's a reasonable default for ipgroups in the"
+nl|'\n'
+comment|'#            novaclient call).'
+nl|'\n'
 dedent|''
 name|'nova'
 op|'.'
