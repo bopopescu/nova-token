@@ -1994,10 +1994,14 @@ newline|'\n'
 indent|'            '
 name|'data'
 op|'['
+string|"'meta-data'"
+op|']'
+op|'['
 string|"'public-keys'"
 op|']'
 op|'='
 op|'{'
+nl|'\n'
 string|"'0'"
 op|':'
 op|'{'
