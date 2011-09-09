@@ -1994,7 +1994,7 @@ newline|'\n'
 indent|'            '
 name|'data'
 op|'['
-string|"'keys'"
+string|"'public-keys'"
 op|']'
 op|'='
 op|'{'
