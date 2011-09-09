@@ -2593,7 +2593,6 @@ name|'snapshot_name'
 op|')'
 newline|'\n'
 nl|'\n'
-nl|'\n'
 DECL|member|test_snapshot_no_image_architecture
 dedent|''
 name|'def'
