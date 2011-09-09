@@ -2842,7 +2842,7 @@ op|','
 nl|'\n'
 string|'"status"'
 op|':'
-string|'"QUEUED"'
+string|'"SAVING"'
 op|','
 nl|'\n'
 string|'"progress"'
@@ -3888,7 +3888,7 @@ op|','
 nl|'\n'
 string|"'status'"
 op|':'
-string|"'QUEUED'"
+string|"'SAVING'"
 op|','
 nl|'\n'
 string|"'progress'"
@@ -4005,7 +4005,7 @@ op|','
 nl|'\n'
 string|"'status'"
 op|':'
-string|"'FAILED'"
+string|"'ERROR'"
 op|','
 nl|'\n'
 string|"'progress'"
@@ -4255,7 +4255,7 @@ op|','
 nl|'\n'
 string|"'status'"
 op|':'
-string|"'QUEUED'"
+string|"'SAVING'"
 op|','
 nl|'\n'
 string|"'progress'"
@@ -4663,7 +4663,7 @@ op|','
 nl|'\n'
 string|"'status'"
 op|':'
-string|"'FAILED'"
+string|"'ERROR'"
 op|','
 nl|'\n'
 string|"'progress'"
