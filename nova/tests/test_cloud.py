@@ -12237,6 +12237,16 @@ nl|'\n'
 string|"'ephemeral2'"
 op|':'
 string|"'/dev/sd3'"
+op|','
+nl|'\n'
+string|"'ebs0'"
+op|':'
+string|"'/dev/sdh'"
+op|','
+nl|'\n'
+string|"'ebs1'"
+op|':'
+string|"'/dev/sdi'"
 op|'}'
 newline|'\n'
 nl|'\n'
