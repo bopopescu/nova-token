@@ -5196,8 +5196,6 @@ name|'utils'
 op|'.'
 name|'execute'
 op|'('
-string|"'sudo'"
-op|','
 string|"'qemu-img'"
 op|','
 string|"'create'"
@@ -5510,8 +5508,6 @@ name|'utils'
 op|'.'
 name|'execute'
 op|'('
-string|"'sudo'"
-op|','
 string|"'qemu-img'"
 op|','
 string|"'info'"
