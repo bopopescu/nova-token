@@ -1355,6 +1355,11 @@ op|','
 string|"'active'"
 op|','
 string|"'killed'"
+op|','
+nl|'\n'
+string|"'deleted'"
+op|','
+string|"'pending_delete'"
 op|')'
 op|':'
 newline|'\n'
