@@ -254,10 +254,10 @@ name|'password'
 op|'='
 name|'input_dict'
 op|'['
-string|'"rescue"'
+string|"'rescue'"
 op|']'
 op|'['
-string|'"adminPass"'
+string|"'adminPass'"
 op|']'
 newline|'\n'
 dedent|''
