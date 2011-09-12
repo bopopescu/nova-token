@@ -221,13 +221,13 @@ name|'utils'
 op|'.'
 name|'execute'
 op|'('
-string|"'truncate'"
+string|"'qemu-img'"
 op|','
-string|"'-s'"
-op|','
-name|'size'
+string|"'resize'"
 op|','
 name|'image'
+op|','
+name|'size'
 op|')'
 newline|'\n'
 comment|'# NOTE(vish): attempts to resize filesystem'
