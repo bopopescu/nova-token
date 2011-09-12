@@ -72,9 +72,9 @@ dedent|''
 name|'NOVA_VERSION'
 op|'='
 op|'['
-string|"'2011'"
+string|"'2012'"
 op|','
-string|"'3'"
+string|"'1'"
 op|']'
 newline|'\n'
 name|'YEAR'
