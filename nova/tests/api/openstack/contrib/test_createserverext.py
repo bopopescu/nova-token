@@ -597,6 +597,16 @@ op|':'
 name|'FAKE_UUID'
 op|','
 nl|'\n'
+string|"'user_id'"
+op|':'
+string|"'fake'"
+op|','
+nl|'\n'
+string|"'project_id'"
+op|':'
+string|"'fake'"
+op|','
+nl|'\n'
 string|"'created_at'"
 op|':'
 string|'""'
