@@ -307,6 +307,8 @@ DECL|function|fake_get_image_service
 name|'def'
 name|'fake_get_image_service'
 op|'('
+name|'context'
+op|','
 name|'image_href'
 op|')'
 op|':'
