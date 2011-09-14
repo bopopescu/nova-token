@@ -2371,7 +2371,6 @@ name|'return'
 name|'results'
 newline|'\n'
 nl|'\n'
-nl|'\n'
 DECL|member|_get_networks_for_instance
 dedent|''
 name|'def'
