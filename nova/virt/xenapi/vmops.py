@@ -959,6 +959,7 @@ op|':'
 number|'0'
 op|'}'
 newline|'\n'
+nl|'\n'
 DECL|function|bump_progress
 name|'def'
 name|'bump_progress'
