@@ -2338,13 +2338,11 @@ indent|'    '
 string|'"""Fake get network."""'
 newline|'\r\n'
 name|'return'
-op|'['
 op|'{'
 string|"'type'"
 op|':'
 string|"'fake'"
 op|'}'
-op|']'
 newline|'\r\n'
 nl|'\r\n'
 nl|'\r\n'
