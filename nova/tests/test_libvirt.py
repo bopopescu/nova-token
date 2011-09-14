@@ -2285,9 +2285,7 @@ op|'['
 string|"'disk_format'"
 op|']'
 op|','
-name|'FLAGS'
-op|'.'
-name|'snapshot_image_format'
+string|"'raw'"
 op|')'
 newline|'\n'
 name|'self'
@@ -2575,9 +2573,7 @@ op|'['
 string|"'disk_format'"
 op|']'
 op|','
-name|'FLAGS'
-op|'.'
-name|'snapshot_image_format'
+string|"'qcow2'"
 op|')'
 newline|'\n'
 name|'self'
