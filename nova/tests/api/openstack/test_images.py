@@ -4918,7 +4918,7 @@ op|'{'
 nl|'\n'
 string|"'id'"
 op|':'
-number|'128'
+string|"'128'"
 op|','
 nl|'\n'
 string|"'name'"
@@ -4973,7 +4973,7 @@ op|'{'
 nl|'\n'
 string|"'id'"
 op|':'
-number|'42'
+string|"'42'"
 op|','
 nl|'\n'
 string|'"links"'
@@ -5054,7 +5054,7 @@ op|'{'
 nl|'\n'
 string|"'id'"
 op|':'
-number|'129'
+string|"'129'"
 op|','
 nl|'\n'
 string|"'name'"
@@ -5109,7 +5109,7 @@ op|'{'
 nl|'\n'
 string|"'id'"
 op|':'
-number|'42'
+string|"'42'"
 op|','
 nl|'\n'
 string|'"links"'
@@ -5326,7 +5326,7 @@ op|'{'
 nl|'\n'
 string|"'id'"
 op|':'
-number|'132'
+string|"'132'"
 op|','
 nl|'\n'
 string|"'name'"
