@@ -2354,7 +2354,7 @@ op|','
 nl|'\n'
 string|"'ip'"
 op|':'
-name|'fixed_ip'
+name|'floating_ip'
 op|'['
 string|"'address'"
 op|']'
