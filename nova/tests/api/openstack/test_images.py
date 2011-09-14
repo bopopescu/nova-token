@@ -370,7 +370,7 @@ op|'['
 op|'{'
 string|"'id'"
 op|':'
-string|"'123'"
+number|'123'
 op|','
 string|"'name'"
 op|':'
@@ -381,7 +381,7 @@ nl|'\n'
 op|'{'
 string|"'id'"
 op|':'
-string|"'124'"
+number|'124'
 op|','
 string|"'name'"
 op|':'
@@ -392,7 +392,7 @@ nl|'\n'
 op|'{'
 string|"'id'"
 op|':'
-string|"'125'"
+number|'125'
 op|','
 string|"'name'"
 op|':'
@@ -403,7 +403,7 @@ nl|'\n'
 op|'{'
 string|"'id'"
 op|':'
-string|"'126'"
+number|'126'
 op|','
 string|"'name'"
 op|':'
@@ -414,7 +414,7 @@ nl|'\n'
 op|'{'
 string|"'id'"
 op|':'
-string|"'127'"
+number|'127'
 op|','
 string|"'name'"
 op|':'
@@ -425,7 +425,7 @@ nl|'\n'
 op|'{'
 string|"'id'"
 op|':'
-string|"'128'"
+number|'128'
 op|','
 string|"'name'"
 op|':'
@@ -436,7 +436,7 @@ nl|'\n'
 op|'{'
 string|"'id'"
 op|':'
-string|"'129'"
+number|'129'
 op|','
 string|"'name'"
 op|':'
@@ -447,7 +447,7 @@ nl|'\n'
 op|'{'
 string|"'id'"
 op|':'
-string|"'130'"
+number|'130'
 op|','
 string|"'name'"
 op|':'
@@ -546,7 +546,7 @@ op|'{'
 nl|'\n'
 string|'"id"'
 op|':'
-string|'"123"'
+number|'123'
 op|','
 nl|'\n'
 string|'"name"'
@@ -2004,7 +2004,7 @@ op|'{'
 nl|'\n'
 string|"'id'"
 op|':'
-string|"'123'"
+number|'123'
 op|','
 nl|'\n'
 string|"'name'"
@@ -2039,7 +2039,7 @@ op|'{'
 nl|'\n'
 string|"'id'"
 op|':'
-string|"'124'"
+number|'124'
 op|','
 nl|'\n'
 string|"'name'"
@@ -2074,7 +2074,7 @@ op|'{'
 nl|'\n'
 string|"'id'"
 op|':'
-string|"'125'"
+number|'125'
 op|','
 nl|'\n'
 string|"'name'"
@@ -2109,7 +2109,7 @@ op|'{'
 nl|'\n'
 string|"'id'"
 op|':'
-string|"'126'"
+number|'126'
 op|','
 nl|'\n'
 string|"'name'"
@@ -2144,7 +2144,7 @@ op|'{'
 nl|'\n'
 string|"'id'"
 op|':'
-string|"'127'"
+number|'127'
 op|','
 nl|'\n'
 string|"'name'"
@@ -2179,7 +2179,7 @@ op|'{'
 nl|'\n'
 string|"'id'"
 op|':'
-string|"'128'"
+number|'128'
 op|','
 nl|'\n'
 string|"'name'"
@@ -2214,7 +2214,7 @@ op|'{'
 nl|'\n'
 string|"'id'"
 op|':'
-string|"'129'"
+number|'129'
 op|','
 nl|'\n'
 string|"'name'"
@@ -2249,7 +2249,7 @@ op|'{'
 nl|'\n'
 string|"'id'"
 op|':'
-string|"'130'"
+number|'130'
 op|','
 nl|'\n'
 string|"'name'"
@@ -5130,7 +5130,7 @@ op|'='
 op|'{'
 string|"'id'"
 op|':'
-string|"'123'"
+number|'123'
 op|','
 string|"'name'"
 op|':'
@@ -5319,7 +5319,7 @@ name|'self'
 op|'.'
 name|'assertEqual'
 op|'('
-string|"'123'"
+number|'123'
 op|','
 name|'image_meta'
 op|'['
