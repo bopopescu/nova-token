@@ -98,7 +98,7 @@ name|'vifs'
 op|'='
 name|'Table'
 op|'('
-string|"'vifs'"
+string|"'virtual_interfaces'"
 op|','
 name|'meta'
 op|','
