@@ -622,7 +622,6 @@ name|'ids'
 op|']'
 newline|'\n'
 nl|'\n'
-nl|'\n'
 DECL|member|__init__
 dedent|''
 dedent|''
