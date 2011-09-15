@@ -1326,10 +1326,10 @@ op|'}'
 op|')'
 newline|'\n'
 nl|'\n'
-DECL|member|get_instance_ids_by_ip_filter
+DECL|member|get_instance_uuids_by_ip_filter
 dedent|''
 name|'def'
-name|'get_instance_ids_by_ip_filter'
+name|'get_instance_uuids_by_ip_filter'
 op|'('
 name|'self'
 op|','
@@ -1340,7 +1340,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'        '
-string|'"""Returns a list of dicts in the form of\n        {\'instance_id\': id, \'ip\': ip} that matched the ip_filter\n        """'
+string|'"""Returns a list of dicts in the form of\n        {\'instance_uuid\': uuid, \'ip\': ip} that matched the ip_filter\n        """'
 newline|'\n'
 name|'args'
 op|'='
@@ -1365,7 +1365,7 @@ nl|'\n'
 op|'{'
 string|"'method'"
 op|':'
-string|"'get_instance_ids_by_ip_filter'"
+string|"'get_instance_uuids_by_ip_filter'"
 op|','
 nl|'\n'
 string|"'args'"
