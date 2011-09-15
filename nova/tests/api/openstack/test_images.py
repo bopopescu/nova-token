@@ -370,7 +370,7 @@ op|'['
 op|'{'
 string|"'id'"
 op|':'
-string|"'123'"
+number|'123'
 op|','
 string|"'name'"
 op|':'
@@ -381,7 +381,7 @@ nl|'\n'
 op|'{'
 string|"'id'"
 op|':'
-string|"'124'"
+number|'124'
 op|','
 string|"'name'"
 op|':'
@@ -392,7 +392,7 @@ nl|'\n'
 op|'{'
 string|"'id'"
 op|':'
-string|"'125'"
+number|'125'
 op|','
 string|"'name'"
 op|':'
@@ -403,7 +403,7 @@ nl|'\n'
 op|'{'
 string|"'id'"
 op|':'
-string|"'126'"
+number|'126'
 op|','
 string|"'name'"
 op|':'
@@ -414,7 +414,7 @@ nl|'\n'
 op|'{'
 string|"'id'"
 op|':'
-string|"'127'"
+number|'127'
 op|','
 string|"'name'"
 op|':'
@@ -425,7 +425,7 @@ nl|'\n'
 op|'{'
 string|"'id'"
 op|':'
-string|"'128'"
+number|'128'
 op|','
 string|"'name'"
 op|':'
@@ -436,7 +436,7 @@ nl|'\n'
 op|'{'
 string|"'id'"
 op|':'
-string|"'129'"
+number|'129'
 op|','
 string|"'name'"
 op|':'
@@ -447,7 +447,7 @@ nl|'\n'
 op|'{'
 string|"'id'"
 op|':'
-string|"'130'"
+number|'130'
 op|','
 string|"'name'"
 op|':'
@@ -546,7 +546,7 @@ op|'{'
 nl|'\n'
 string|'"id"'
 op|':'
-string|'"123"'
+number|'123'
 op|','
 nl|'\n'
 string|'"name"'
@@ -709,7 +709,7 @@ op|'{'
 nl|'\n'
 string|"'id'"
 op|':'
-number|'42'
+string|"'42'"
 op|','
 nl|'\n'
 string|'"links"'
@@ -1184,11 +1184,18 @@ name|'minidom'
 op|'.'
 name|'parseString'
 op|'('
-string|'"""\n            <itemNotFound code="404"\n                    xmlns="http://docs.rackspacecloud.com/servers/api/v1.0">\n                <message>\n                    Image not found.\n                </message>\n            </itemNotFound>\n        """'
+string|'"""\n            <itemNotFound code="404"\n                 xmlns="http://docs.rackspacecloud.com/servers/api/v1.0">\n                <message>Image not found.</message>\n            </itemNotFound>\n        """'
 op|'.'
 name|'replace'
 op|'('
 string|'"  "'
+op|','
+string|'""'
+op|')'
+op|'.'
+name|'replace'
+op|'('
+string|'"\\n"'
 op|','
 string|'""'
 op|')'
@@ -1386,11 +1393,18 @@ name|'minidom'
 op|'.'
 name|'parseString'
 op|'('
-string|'"""\n            <itemNotFound code="404"\n                    xmlns="http://docs.openstack.org/compute/api/v1.1">\n                <message>\n                    Image not found.\n                </message>\n            </itemNotFound>\n        """'
+string|'"""\n            <itemNotFound code="404"\n                 xmlns="http://docs.openstack.org/compute/api/v1.1">\n                <message>Image not found.</message>\n            </itemNotFound>\n        """'
 op|'.'
 name|'replace'
 op|'('
 string|'"  "'
+op|','
+string|'""'
+op|')'
+op|'.'
+name|'replace'
+op|'('
+string|'"\\n"'
 op|','
 string|'""'
 op|')'
@@ -2004,7 +2018,7 @@ op|'{'
 nl|'\n'
 string|"'id'"
 op|':'
-string|"'123'"
+number|'123'
 op|','
 nl|'\n'
 string|"'name'"
@@ -2039,7 +2053,7 @@ op|'{'
 nl|'\n'
 string|"'id'"
 op|':'
-string|"'124'"
+number|'124'
 op|','
 nl|'\n'
 string|"'name'"
@@ -2074,7 +2088,7 @@ op|'{'
 nl|'\n'
 string|"'id'"
 op|':'
-string|"'125'"
+number|'125'
 op|','
 nl|'\n'
 string|"'name'"
@@ -2109,7 +2123,7 @@ op|'{'
 nl|'\n'
 string|"'id'"
 op|':'
-string|"'126'"
+number|'126'
 op|','
 nl|'\n'
 string|"'name'"
@@ -2144,7 +2158,7 @@ op|'{'
 nl|'\n'
 string|"'id'"
 op|':'
-string|"'127'"
+number|'127'
 op|','
 nl|'\n'
 string|"'name'"
@@ -2179,7 +2193,7 @@ op|'{'
 nl|'\n'
 string|"'id'"
 op|':'
-string|"'128'"
+number|'128'
 op|','
 nl|'\n'
 string|"'name'"
@@ -2214,7 +2228,7 @@ op|'{'
 nl|'\n'
 string|"'id'"
 op|':'
-string|"'129'"
+number|'129'
 op|','
 nl|'\n'
 string|"'name'"
@@ -2249,7 +2263,7 @@ op|'{'
 nl|'\n'
 string|"'id'"
 op|':'
-string|"'130'"
+number|'130'
 op|','
 nl|'\n'
 string|"'name'"
@@ -2500,7 +2514,7 @@ op|'{'
 nl|'\n'
 string|"'id'"
 op|':'
-number|'42'
+string|"'42'"
 op|','
 nl|'\n'
 string|'"links"'
@@ -2632,7 +2646,7 @@ op|'{'
 nl|'\n'
 string|"'id'"
 op|':'
-number|'42'
+string|"'42'"
 op|','
 nl|'\n'
 string|'"links"'
@@ -2764,7 +2778,7 @@ op|'{'
 nl|'\n'
 string|"'id'"
 op|':'
-number|'42'
+string|"'42'"
 op|','
 nl|'\n'
 string|'"links"'
@@ -2896,7 +2910,7 @@ op|'{'
 nl|'\n'
 string|"'id'"
 op|':'
-number|'42'
+string|"'42'"
 op|','
 nl|'\n'
 string|'"links"'
@@ -3028,7 +3042,7 @@ op|'{'
 nl|'\n'
 string|"'id'"
 op|':'
-number|'42'
+string|"'42'"
 op|','
 nl|'\n'
 string|'"links"'
@@ -3160,7 +3174,7 @@ op|'{'
 nl|'\n'
 string|"'id'"
 op|':'
-number|'42'
+string|"'42'"
 op|','
 nl|'\n'
 string|'"links"'
@@ -5130,7 +5144,7 @@ op|'='
 op|'{'
 string|"'id'"
 op|':'
-string|"'123'"
+number|'123'
 op|','
 string|"'name'"
 op|':'
