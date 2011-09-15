@@ -294,7 +294,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""Convert novaclient ClientException HTTP codes to webob exceptions.\n    """'
+string|'"""Convert novaclient ClientException HTTP codes to webob exceptions.\n    Has to be the outer-most decorator.\n    """'
 newline|'\n'
 DECL|function|new_f
 name|'def'
