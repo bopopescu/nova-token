@@ -416,7 +416,13 @@ op|'('
 string|"'application/json'"
 op|','
 nl|'\n'
+string|"'application/vnd.openstack.compute+json'"
+op|','
+nl|'\n'
 string|"'application/xml'"
+op|','
+nl|'\n'
+string|"'application/vnd.openstack.compute+xml'"
 op|','
 nl|'\n'
 string|"'application/atom+xml'"
@@ -1981,7 +1987,13 @@ op|'('
 string|"'application/json'"
 op|','
 nl|'\n'
+string|"'application/vnd.openstack.compute+json'"
+op|','
+nl|'\n'
 string|"'application/xml'"
+op|','
+nl|'\n'
+string|"'application/vnd.openstack.compute+xml'"
 op|','
 nl|'\n'
 string|"'application/atom+xml'"
