@@ -2097,6 +2097,7 @@ name|'item_uuid'
 op|')'
 newline|'\n'
 nl|'\n'
+nl|'\n'
 DECL|function|redirect_handler
 dedent|''
 dedent|''
