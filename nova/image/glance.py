@@ -2124,6 +2124,10 @@ op|','
 string|"'status'"
 op|','
 nl|'\n'
+string|"'min_disk'"
+op|','
+string|"'min_ram'"
+op|','
 string|"'is_public'"
 op|']'
 newline|'\n'
