@@ -2193,8 +2193,6 @@ newline|'\n'
 indent|'        '
 name|'_execute'
 op|'('
-string|"'sudo'"
-op|','
 string|"'arping'"
 op|','
 string|"'-U'"
@@ -2681,8 +2679,6 @@ newline|'\n'
 indent|'        '
 name|'_execute'
 op|'('
-string|"'sudo'"
-op|','
 string|"'arping'"
 op|','
 string|"'-U'"
