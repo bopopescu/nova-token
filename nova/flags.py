@@ -2361,6 +2361,17 @@ string|"'use ipv6'"
 op|')'
 newline|'\n'
 nl|'\n'
+name|'DEFINE_integer'
+op|'('
+string|"'password_length'"
+op|','
+number|'12'
+op|','
+nl|'\n'
+string|"'Length of generated instance admin passwords'"
+op|')'
+newline|'\n'
+nl|'\n'
 name|'DEFINE_bool'
 op|'('
 string|"'monkey_patch'"
