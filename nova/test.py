@@ -175,6 +175,8 @@ newline|'\n'
 indent|'    '
 string|'"""Decorator that skips a test."""'
 newline|'\n'
+comment|'# TODO(tr3buchet): remember forever what comstud did here'
+nl|'\n'
 DECL|member|__init__
 name|'def'
 name|'__init__'
