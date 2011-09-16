@@ -896,6 +896,11 @@ op|','
 string|"'BUILD'"
 op|','
 string|"'REBUILD'"
+op|','
+string|"'RESIZE'"
+op|','
+nl|'\n'
+string|"'VERIFY_RESIZE'"
 op|')'
 op|':'
 newline|'\n'
