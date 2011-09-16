@@ -4480,7 +4480,7 @@ name|'compute'
 op|'.'
 name|'driver'
 op|','
-string|"'revert_migration'"
+string|"'finish_revert_migration'"
 op|','
 name|'fake'
 op|')'
