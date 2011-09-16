@@ -5566,6 +5566,7 @@ name|'VMOps'
 op|','
 string|"'finish_revert_migration'"
 op|','
+nl|'\n'
 name|'fake_finish_revert_migration'
 op|')'
 newline|'\n'
@@ -6112,6 +6113,7 @@ string|"'instance_type_id'"
 op|':'
 name|'tiny_type_id'
 op|','
+nl|'\n'
 string|"'local_gb'"
 op|':'
 number|'0'
