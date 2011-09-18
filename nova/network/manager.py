@@ -3687,13 +3687,6 @@ string|"'network'"
 op|']'
 op|')'
 newline|'\n'
-name|'address'
-op|'='
-name|'fixed_ip_ref'
-op|'['
-string|"'address'"
-op|']'
-newline|'\n'
 name|'vif'
 op|'='
 name|'self'
