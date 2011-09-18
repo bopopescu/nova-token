@@ -891,7 +891,6 @@ newline|'\n'
 indent|'        '
 string|'""" Creates a new server for a given user """'
 newline|'\n'
-nl|'\n'
 name|'if'
 string|"'server'"
 name|'in'
