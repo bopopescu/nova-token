@@ -7975,7 +7975,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/fake/servers/detail?limit=3&blah=2'"
+string|"'/v1.1/fake/servers/detail?limit=3&blah=2:t'"
 op|')'
 newline|'\n'
 name|'res'
@@ -8099,9 +8099,10 @@ op|','
 string|"'blah'"
 op|':'
 op|'['
-string|"'2'"
+string|"'2:t'"
 op|']'
 op|','
+nl|'\n'
 string|"'marker'"
 op|':'
 op|'['
@@ -8109,7 +8110,6 @@ string|"'2'"
 op|']'
 op|'}'
 op|','
-nl|'\n'
 name|'params'
 op|')'
 newline|'\n'
