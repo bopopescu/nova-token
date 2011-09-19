@@ -3297,11 +3297,6 @@ nl|'\n'
 string|"'--bind-interfaces'"
 op|','
 nl|'\n'
-string|"'--interface=%s'"
-op|'%'
-name|'dev'
-op|','
-nl|'\n'
 string|"'--conf-file=%s'"
 op|'%'
 name|'FLAGS'
