@@ -178,19 +178,6 @@ op|')'
 newline|'\n'
 name|'flags'
 op|'.'
-name|'DEFINE_string'
-op|'('
-string|"'keystone_ec2_url'"
-op|','
-nl|'\n'
-string|"'http://localhost:5000/v2.0/ec2tokens'"
-op|','
-nl|'\n'
-string|"'URL to get token from ec2 request.'"
-op|')'
-newline|'\n'
-name|'flags'
-op|'.'
 name|'DECLARE'
 op|'('
 string|"'use_forwarded_for'"
