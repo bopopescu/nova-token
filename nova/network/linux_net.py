@@ -4663,7 +4663,6 @@ op|')'
 newline|'\n'
 nl|'\n'
 nl|'\n'
-nl|'\n'
 comment|'# plugs interfaces using Linux Bridge'
 nl|'\n'
 DECL|class|LinuxBridgeInterfaceDriver
