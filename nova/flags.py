@@ -2427,5 +2427,18 @@ nl|'\n'
 string|"'patched module and decorator'"
 op|')'
 newline|'\n'
+nl|'\n'
+name|'DEFINE_bool'
+op|'('
+string|"'allow_resize_to_same_host'"
+op|','
+name|'False'
+op|','
+nl|'\n'
+string|"'Allow destination machine to match source for resize. Useful'"
+nl|'\n'
+string|"' when testing in environments with only one host machine.'"
+op|')'
+newline|'\n'
 endmarker|''
 end_unit
