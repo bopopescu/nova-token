@@ -2151,6 +2151,7 @@ op|'='
 op|'['
 op|']'
 newline|'\r\n'
+nl|'\r\n'
 DECL|function|fake_execute
 name|'def'
 name|'fake_execute'
@@ -2288,6 +2289,7 @@ newline|'\r\n'
 name|'expected'
 op|'='
 op|'['
+nl|'\r\n'
 op|'('
 string|"'ip'"
 op|','
@@ -2314,6 +2316,7 @@ string|"'del'"
 op|','
 string|"'192.168.0.1/24'"
 op|','
+nl|'\r\n'
 string|"'brd'"
 op|','
 string|"'192.168.0.255'"
@@ -2337,6 +2340,7 @@ string|"'add'"
 op|','
 string|"'192.168.1.1/24'"
 op|','
+nl|'\r\n'
 string|"'brd'"
 op|','
 string|"'192.168.1.255'"
@@ -2356,6 +2360,7 @@ string|"'add'"
 op|','
 string|"'192.168.0.1/24'"
 op|','
+nl|'\r\n'
 string|"'brd'"
 op|','
 string|"'192.168.0.255'"
@@ -2381,6 +2386,7 @@ string|"'addr'"
 op|','
 string|"'change'"
 op|','
+nl|'\r\n'
 string|"'2001:db8::/64'"
 op|','
 string|"'dev'"
@@ -2404,6 +2410,8 @@ string|"'promisc'"
 op|','
 string|"'on'"
 op|')'
+op|','
+nl|'\r\n'
 op|']'
 newline|'\r\n'
 name|'self'
@@ -2447,6 +2455,7 @@ newline|'\r\n'
 name|'expected'
 op|'='
 op|'['
+nl|'\r\n'
 op|'('
 string|"'ip'"
 op|','
@@ -2475,6 +2484,7 @@ string|"'addr'"
 op|','
 string|"'change'"
 op|','
+nl|'\r\n'
 string|"'2001:db8::/64'"
 op|','
 string|"'dev'"
@@ -2498,6 +2508,8 @@ string|"'promisc'"
 op|','
 string|"'on'"
 op|')'
+op|','
+nl|'\r\n'
 op|']'
 newline|'\r\n'
 name|'self'
@@ -2537,6 +2549,7 @@ newline|'\r\n'
 name|'expected'
 op|'='
 op|'['
+nl|'\r\n'
 op|'('
 string|"'ip'"
 op|','
@@ -2563,6 +2576,7 @@ string|"'add'"
 op|','
 string|"'192.168.1.1/24'"
 op|','
+nl|'\r\n'
 string|"'brd'"
 op|','
 string|"'192.168.1.255'"
@@ -2584,6 +2598,7 @@ string|"'addr'"
 op|','
 string|"'change'"
 op|','
+nl|'\r\n'
 string|"'2001:db8::/64'"
 op|','
 string|"'dev'"
@@ -2607,6 +2622,8 @@ string|"'promisc'"
 op|','
 string|"'on'"
 op|')'
+op|','
+nl|'\r\n'
 op|']'
 newline|'\r\n'
 name|'self'
