@@ -168,6 +168,7 @@ nl|'\n'
 op|'}'
 newline|'\n'
 nl|'\n'
+nl|'\n'
 DECL|function|return_instance_type_by_flavor_id
 name|'def'
 name|'return_instance_type_by_flavor_id'
