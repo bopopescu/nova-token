@@ -75,6 +75,11 @@ name|'STOPPED'
 op|'='
 string|"'stopped'"
 newline|'\n'
+DECL|variable|SOFT_DELETE
+name|'SOFT_DELETE'
+op|'='
+string|"'soft-delete'"
+newline|'\n'
 nl|'\n'
 DECL|variable|MIGRATING
 name|'MIGRATING'

@@ -361,6 +361,13 @@ op|','
 nl|'\n'
 name|'vm_states'
 op|'.'
+name|'SOFT_DELETE'
+op|':'
+string|"'terminated'"
+op|','
+nl|'\n'
+name|'vm_states'
+op|'.'
 name|'STOPPED'
 op|':'
 string|"'stopped'"

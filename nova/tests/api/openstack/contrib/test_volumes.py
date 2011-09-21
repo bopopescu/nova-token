@@ -1,5 +1,5 @@
 begin_unit
-comment|'# Copyright 2011 Josh Durgin'
+comment|'# Copyright 2013 Josh Durgin'
 nl|'\n'
 comment|'# All Rights Reserved.'
 nl|'\n'
@@ -230,6 +230,10 @@ op|','
 number|'0'
 op|')'
 op|','
+nl|'\n'
+string|"'progress'"
+op|':'
+number|'0'
 nl|'\n'
 op|'}'
 op|']'
