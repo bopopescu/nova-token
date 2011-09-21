@@ -139,6 +139,16 @@ name|'RESUMING'
 op|'='
 string|"'resuming'"
 newline|'\n'
+DECL|variable|POWERING_OFF
+name|'POWERING_OFF'
+op|'='
+string|"'powering-off'"
+newline|'\n'
+DECL|variable|POWERING_ON
+name|'POWERING_ON'
+op|'='
+string|"'powering-on'"
+newline|'\n'
 nl|'\n'
 DECL|variable|RESCUING
 name|'RESCUING'
