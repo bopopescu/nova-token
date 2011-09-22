@@ -436,6 +436,11 @@ op|':'
 number|'3'
 op|','
 nl|'\n'
+string|"'local_gb'"
+op|':'
+number|'20'
+op|','
+nl|'\n'
 string|"'instance_type_id'"
 op|':'
 string|"'3'"
@@ -2744,6 +2749,11 @@ op|':'
 name|'ramdisk_id'
 op|','
 nl|'\n'
+string|"'local_gb'"
+op|':'
+number|'20'
+op|','
+nl|'\n'
 string|"'instance_type_id'"
 op|':'
 name|'instance_type_id'
@@ -4607,6 +4617,11 @@ nl|'\n'
 string|"'ramdisk_id'"
 op|':'
 number|'3'
+op|','
+nl|'\n'
+string|"'local_gb'"
+op|':'
+number|'20'
 op|','
 nl|'\n'
 string|"'instance_type_id'"
