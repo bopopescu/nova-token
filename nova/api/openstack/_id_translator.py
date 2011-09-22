@@ -5,6 +5,7 @@ name|'import'
 name|'datastore'
 newline|'\n'
 nl|'\n'
+nl|'\n'
 DECL|class|RackspaceAPIIdTranslator
 name|'class'
 name|'RackspaceAPIIdTranslator'
