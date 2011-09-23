@@ -149,19 +149,6 @@ name|'flags'
 op|'.'
 name|'DEFINE_string'
 op|'('
-string|"'dhcp_domain'"
-op|','
-nl|'\n'
-string|"'novalocal'"
-op|','
-nl|'\n'
-string|"'domain to use for building the hostnames'"
-op|')'
-newline|'\n'
-name|'flags'
-op|'.'
-name|'DEFINE_string'
-op|'('
 string|"'networks_path'"
 op|','
 string|"'$state_path/networks'"
