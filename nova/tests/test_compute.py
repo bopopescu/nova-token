@@ -389,6 +389,15 @@ string|"'id'"
 op|':'
 number|'1'
 op|','
+string|"'min_disk'"
+op|':'
+name|'None'
+op|','
+string|"'min_ram'"
+op|':'
+name|'None'
+op|','
+nl|'\n'
 string|"'properties'"
 op|':'
 op|'{'
