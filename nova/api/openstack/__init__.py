@@ -818,11 +818,6 @@ nl|'\n'
 string|"'select'"
 op|':'
 string|"'POST'"
-op|','
-nl|'\n'
-string|"'boot'"
-op|':'
-string|"'POST'"
 op|'}'
 op|')'
 newline|'\n'

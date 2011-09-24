@@ -2440,5 +2440,16 @@ nl|'\n'
 string|"' when testing in environments with only one host machine.'"
 op|')'
 newline|'\n'
+nl|'\n'
+name|'DEFINE_string'
+op|'('
+string|"'stub_network'"
+op|','
+name|'False'
+op|','
+nl|'\n'
+string|"'Stub network related code'"
+op|')'
+newline|'\n'
 endmarker|''
 end_unit
