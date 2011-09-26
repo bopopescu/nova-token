@@ -440,6 +440,19 @@ nl|'\n'
 string|"'If True, send a dhcp release on instance termination'"
 op|')'
 newline|'\n'
+name|'flags'
+op|'.'
+name|'DEFINE_string'
+op|'('
+string|"'dhcp_domain'"
+op|','
+nl|'\n'
+string|"'novalocal'"
+op|','
+nl|'\n'
+string|"'domain to use for building the hostnames'"
+op|')'
+newline|'\n'
 nl|'\n'
 nl|'\n'
 DECL|class|AddressAlreadyAllocated
