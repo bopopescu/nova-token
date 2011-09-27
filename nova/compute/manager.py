@@ -206,18 +206,6 @@ name|'flags'
 op|'.'
 name|'DEFINE_string'
 op|'('
-string|"'stub_network'"
-op|','
-name|'False'
-op|','
-nl|'\n'
-string|"'Stub network related code'"
-op|')'
-newline|'\n'
-name|'flags'
-op|'.'
-name|'DEFINE_string'
-op|'('
 string|"'console_host'"
 op|','
 name|'socket'
