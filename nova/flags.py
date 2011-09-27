@@ -2421,5 +2421,29 @@ nl|'\n'
 string|"'Stub network related code'"
 op|')'
 newline|'\n'
+nl|'\n'
+name|'DEFINE_integer'
+op|'('
+string|"'reclaim_instance_interval'"
+op|','
+number|'0'
+op|','
+nl|'\n'
+string|"'Interval in seconds for reclaiming deleted instances'"
+op|')'
+newline|'\n'
+nl|'\n'
+name|'DEFINE_integer'
+op|'('
+string|"'zombie_instance_updated_at_window'"
+op|','
+number|'172800'
+op|','
+nl|'\n'
+string|"'Limit in seconds that a zombie instance can exist before '"
+nl|'\n'
+string|"'being cleaned up.'"
+op|')'
+newline|'\n'
 endmarker|''
 end_unit

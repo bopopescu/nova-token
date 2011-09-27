@@ -185,15 +185,6 @@ op|')'
 newline|'\n'
 name|'flags'
 op|'.'
-name|'DECLARE'
-op|'('
-string|"'reclaim_instance_interval'"
-op|','
-string|"'nova.compute.manager'"
-op|')'
-newline|'\n'
-name|'flags'
-op|'.'
 name|'DEFINE_integer'
 op|'('
 string|"'find_host_timeout'"

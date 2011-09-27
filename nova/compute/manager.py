@@ -274,18 +274,6 @@ nl|'\n'
 string|"'Interval in seconds for querying the host status'"
 op|')'
 newline|'\n'
-name|'flags'
-op|'.'
-name|'DEFINE_integer'
-op|'('
-string|"'reclaim_instance_interval'"
-op|','
-number|'0'
-op|','
-nl|'\n'
-string|"'Interval in seconds for reclaiming deleted instances'"
-op|')'
-newline|'\n'
 nl|'\n'
 DECL|variable|LOG
 name|'LOG'
