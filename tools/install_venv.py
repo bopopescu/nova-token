@@ -447,8 +447,6 @@ string|"'virtualenv'"
 op|','
 string|"'-q'"
 op|','
-string|"'--no-site-packages'"
-op|','
 name|'VENV'
 op|']'
 op|')'
