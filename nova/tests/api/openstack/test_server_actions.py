@@ -6245,7 +6245,7 @@ name|'self'
 op|'.'
 name|'assertEqual'
 op|'('
-string|"'http://localhost/v1.1/images/123'"
+string|"'http://localhost/v1.1/fake/images/123'"
 op|','
 name|'location'
 op|')'
@@ -6463,7 +6463,7 @@ name|'self'
 op|'.'
 name|'assertEqual'
 op|'('
-string|"'http://localhost/v1.1/images/123'"
+string|"'http://localhost/v1.1/fake/images/123'"
 op|','
 name|'location'
 op|')'
