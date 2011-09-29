@@ -793,11 +793,11 @@ op|')'
 op|')'
 newline|'\n'
 nl|'\n'
-comment|'# Convert recurse_zones into a boolean'
+comment|'# Convert local_zone_only into a boolean'
 nl|'\n'
 name|'search_opts'
 op|'['
-string|"'recurse_zones'"
+string|"'local_zone_only'"
 op|']'
 op|'='
 name|'utils'
@@ -809,7 +809,7 @@ name|'search_opts'
 op|'.'
 name|'get'
 op|'('
-string|"'recurse_zones'"
+string|"'local_zone_only'"
 op|','
 name|'False'
 op|')'
@@ -6732,7 +6732,7 @@ string|"'fixed_ip'"
 op|','
 string|"'name'"
 op|','
-string|"'recurse_zones'"
+string|"'local_zone_only'"
 newline|'\n'
 nl|'\n'
 nl|'\n'
@@ -8499,7 +8499,7 @@ string|"'reservation_id'"
 op|','
 string|"'name'"
 op|','
-string|"'recurse_zones'"
+string|"'local_zone_only'"
 op|','
 nl|'\n'
 string|"'status'"
