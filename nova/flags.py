@@ -2057,11 +2057,11 @@ nl|'\n'
 string|"'directory'"
 op|')'
 newline|'\n'
-name|'DEFINE_integer'
+name|'DEFINE_string'
 op|'('
 string|"'logfile_mode'"
 op|','
-number|'0644'
+string|"'0644'"
 op|','
 string|"'Default file mode of the logs.'"
 op|')'
