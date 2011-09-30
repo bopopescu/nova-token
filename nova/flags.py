@@ -2314,6 +2314,26 @@ nl|'\n'
 string|"'128bit (hex) encryption key for scheduler build plans.'"
 op|')'
 newline|'\n'
+name|'DEFINE_string'
+op|'('
+string|"'instance_usage_audit_period'"
+op|','
+string|"'month'"
+op|','
+nl|'\n'
+string|"'time period to generate instance usages for.'"
+op|')'
+newline|'\n'
+name|'DEFINE_integer'
+op|'('
+string|"'bandwith_poll_interval'"
+op|','
+number|'600'
+op|','
+nl|'\n'
+string|"'interval to pull bandwidth usage info'"
+op|')'
+newline|'\n'
 nl|'\n'
 name|'DEFINE_bool'
 op|'('
