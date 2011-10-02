@@ -1462,7 +1462,7 @@ name|'False'
 op|')'
 newline|'\n'
 nl|'\n'
-comment|'# And then we add a floating-snat chain and jump to first thing in'
+comment|'# And then we add a float-snat chain and jump to first thing in'
 nl|'\n'
 comment|'# the snat chain.'
 nl|'\n'
@@ -1475,7 +1475,7 @@ op|']'
 op|'.'
 name|'add_chain'
 op|'('
-string|"'floating-snat'"
+string|"'float-snat'"
 op|')'
 newline|'\n'
 name|'self'
@@ -1489,7 +1489,7 @@ name|'add_rule'
 op|'('
 string|"'snat'"
 op|','
-string|"'-j $floating-snat'"
+string|"'-j $float-snat'"
 op|')'
 newline|'\n'
 nl|'\n'
@@ -2589,7 +2589,7 @@ op|')'
 op|','
 nl|'\n'
 op|'('
-string|"'floating-snat'"
+string|"'float-snat'"
 op|','
 nl|'\n'
 string|"'-s %s -j SNAT --to %s'"
