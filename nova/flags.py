@@ -2445,5 +2445,15 @@ nl|'\n'
 string|"'being cleaned up.'"
 op|')'
 newline|'\n'
+nl|'\n'
+name|'DEFINE_boolean'
+op|'('
+string|"'allow_ec2_admin_api'"
+op|','
+name|'False'
+op|','
+string|"'Enable/Disable EC2 Admin API'"
+op|')'
+newline|'\n'
 endmarker|''
 end_unit
