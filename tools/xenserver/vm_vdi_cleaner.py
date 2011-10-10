@@ -568,6 +568,8 @@ string|'"Instance %s not found"'
 op|'%'
 name|'instance_id'
 newline|'\n'
+name|'continue'
+newline|'\n'
 nl|'\n'
 comment|"# NOTE(jk0): A zombie VM is an instance that is not active and hasn't"
 nl|'\n'
