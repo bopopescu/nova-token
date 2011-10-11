@@ -590,7 +590,7 @@ name|'common'
 op|'.'
 name|'webob_factory'
 op|'('
-string|"'/v1.0/servers'"
+string|"'/v1.1/fake/servers'"
 op|')'
 newline|'\n'
 nl|'\n'
@@ -655,7 +655,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.0/servers/10/consoles'"
+string|"'/v1.1/fake/servers/10/consoles'"
 op|')'
 newline|'\n'
 name|'req'
@@ -826,7 +826,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.0/servers/10/consoles/20'"
+string|"'/v1.1/fake/servers/10/consoles/20'"
 op|')'
 newline|'\n'
 name|'res'
@@ -935,7 +935,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.0/servers/10/consoles/20'"
+string|"'/v1.1/fake/servers/10/consoles/20'"
 op|')'
 newline|'\n'
 name|'res'
@@ -1024,7 +1024,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.0/servers/10/consoles/20'"
+string|"'/v1.1/fake/servers/10/consoles/20'"
 op|')'
 newline|'\n'
 name|'res'
@@ -1229,7 +1229,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.0/servers/10/consoles'"
+string|"'/v1.1/fake/servers/10/consoles'"
 op|')'
 newline|'\n'
 name|'res'
@@ -1431,7 +1431,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.0/servers/10/consoles/20'"
+string|"'/v1.1/fake/servers/10/consoles/20'"
 op|')'
 newline|'\n'
 name|'req'
@@ -1526,7 +1526,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.0/servers/10/consoles/20'"
+string|"'/v1.1/fake/servers/10/consoles/20'"
 op|')'
 newline|'\n'
 name|'req'
@@ -1621,7 +1621,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.0/servers/10/consoles/20'"
+string|"'/v1.1/fake/servers/10/consoles/20'"
 op|')'
 newline|'\n'
 name|'req'

@@ -136,11 +136,6 @@ name|'FLAGS'
 newline|'\n'
 nl|'\n'
 nl|'\n'
-DECL|variable|XML_NS_V10
-name|'XML_NS_V10'
-op|'='
-string|"'http://docs.rackspacecloud.com/servers/api/v1.0'"
-newline|'\n'
 DECL|variable|XML_NS_V11
 name|'XML_NS_V11'
 op|'='

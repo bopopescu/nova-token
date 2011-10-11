@@ -690,7 +690,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.0/zones'"
+string|"'/v1.1/fake/zones'"
 op|')'
 newline|'\n'
 name|'res'
@@ -791,7 +791,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.0/zones'"
+string|"'/v1.1/fake/zones'"
 op|')'
 newline|'\n'
 name|'req'
@@ -873,7 +873,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.0/zones/1'"
+string|"'/v1.1/fake/zones/1'"
 op|')'
 newline|'\n'
 name|'req'
@@ -982,7 +982,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.0/zones/1'"
+string|"'/v1.1/fake/zones/1'"
 op|')'
 newline|'\n'
 name|'req'
@@ -1061,7 +1061,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.0/zones'"
+string|"'/v1.1/fake/zones'"
 op|')'
 newline|'\n'
 name|'req'
@@ -1206,7 +1206,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.0/zones/1'"
+string|"'/v1.1/fake/zones/1'"
 op|')'
 newline|'\n'
 name|'req'
@@ -1386,7 +1386,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.0/zones/info'"
+string|"'/v1.1/fake/zones/info'"
 op|')'
 newline|'\n'
 nl|'\n'
@@ -1516,7 +1516,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.0/zones/select'"
+string|"'/v1.1/fake/zones/select'"
 op|')'
 newline|'\n'
 name|'req'

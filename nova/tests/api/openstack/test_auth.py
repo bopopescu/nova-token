@@ -284,7 +284,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.0/'"
+string|"'/v1.1/'"
 op|')'
 newline|'\n'
 name|'req'
@@ -452,7 +452,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.0/'"
+string|"'/v1.1/'"
 op|','
 op|'{'
 string|"'HTTP_HOST'"
@@ -535,7 +535,7 @@ string|"'X-Server-Management-Url'"
 op|']'
 op|','
 nl|'\n'
-string|'"http://foo/v1.0"'
+string|'"http://foo/v1.1/user1_project"'
 op|')'
 newline|'\n'
 name|'self'
@@ -589,7 +589,7 @@ name|'api'
 op|'.'
 name|'openstack'
 op|','
-string|"'APIRouterV10'"
+string|"'APIRouter'"
 op|','
 name|'fakes'
 op|'.'
@@ -604,7 +604,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.0/user1_project'"
+string|"'/v1.1/user1_project'"
 op|')'
 newline|'\n'
 name|'req'
@@ -782,7 +782,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.0/'"
+string|"'/v1.1/'"
 op|')'
 newline|'\n'
 name|'req'
@@ -906,7 +906,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.0/'"
+string|"'/v1.1/'"
 op|','
 op|'{'
 string|"'HTTP_HOST'"
@@ -982,7 +982,7 @@ name|'api'
 op|'.'
 name|'openstack'
 op|','
-string|"'APIRouterV10'"
+string|"'APIRouter'"
 op|','
 name|'fakes'
 op|'.'
@@ -997,7 +997,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.0/'"
+string|"'/v1.1/user2_project'"
 op|')'
 newline|'\n'
 name|'req'
@@ -1008,15 +1008,6 @@ string|"'X-Auth-Token'"
 op|']'
 op|'='
 name|'token'
-newline|'\n'
-name|'req'
-op|'.'
-name|'headers'
-op|'['
-string|"'X-Auth-Project-Id'"
-op|']'
-op|'='
-string|"'user2_project'"
 newline|'\n'
 name|'result'
 op|'='
@@ -1078,7 +1069,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.0/'"
+string|"'/v1.1/'"
 op|')'
 newline|'\n'
 name|'req'
@@ -1191,7 +1182,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.0/'"
+string|"'/v1.1/'"
 op|')'
 newline|'\n'
 name|'req'
@@ -1258,7 +1249,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.0/'"
+string|"'/v1.1/'"
 op|')'
 newline|'\n'
 name|'result'
@@ -1307,7 +1298,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.0/'"
+string|"'/v1.1/'"
 op|')'
 newline|'\n'
 name|'req'
@@ -1448,7 +1439,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.0/'"
+string|"'/v1.1/'"
 op|','
 op|'{'
 string|"'HTTP_HOST'"
@@ -1524,7 +1515,7 @@ name|'api'
 op|'.'
 name|'openstack'
 op|','
-string|"'APIRouterV10'"
+string|"'APIRouter'"
 op|','
 name|'fakes'
 op|'.'
@@ -1539,7 +1530,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.0/fake'"
+string|"'/v1.1/user2_project'"
 op|')'
 newline|'\n'
 name|'req'
@@ -1550,15 +1541,6 @@ string|"'X-Auth-Token'"
 op|']'
 op|'='
 name|'token'
-newline|'\n'
-name|'req'
-op|'.'
-name|'headers'
-op|'['
-string|"'X-Auth-Project-Id'"
-op|']'
-op|'='
-string|"'user2_project'"
 newline|'\n'
 name|'result'
 op|'='
@@ -1652,7 +1634,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.0/'"
+string|"'/v1.1/'"
 op|','
 op|'{'
 string|"'HTTP_HOST'"
@@ -1728,7 +1710,7 @@ name|'api'
 op|'.'
 name|'openstack'
 op|','
-string|"'APIRouterV10'"
+string|"'APIRouter'"
 op|','
 name|'fakes'
 op|'.'
@@ -1743,7 +1725,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.0/fake'"
+string|"'/v1.1/'"
 op|')'
 newline|'\n'
 name|'req'
@@ -1754,15 +1736,6 @@ string|"'X-Auth-Token'"
 op|']'
 op|'='
 name|'token'
-newline|'\n'
-name|'req'
-op|'.'
-name|'headers'
-op|'['
-string|"'X-Auth-Project-Id'"
-op|']'
-op|'='
-string|"'unknown_project'"
 newline|'\n'
 name|'result'
 op|'='
@@ -1908,7 +1881,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.0/'"
+string|"'/v1.1/'"
 op|')'
 newline|'\n'
 name|'req'
@@ -1966,7 +1939,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.0/'"
+string|"'/v1.1/'"
 op|')'
 newline|'\n'
 name|'req'
@@ -2199,7 +2172,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.0/'"
+string|"'/v1.1/'"
 op|')'
 newline|'\n'
 name|'req'
@@ -2275,7 +2248,7 @@ name|'api'
 op|'.'
 name|'openstack'
 op|','
-string|"'APIRouterV10'"
+string|"'APIRouter'"
 op|','
 name|'fakes'
 op|'.'
@@ -2290,7 +2263,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.0/fake'"
+string|"'/v1.1/test'"
 op|')'
 newline|'\n'
 name|'req'
