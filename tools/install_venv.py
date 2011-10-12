@@ -506,9 +506,12 @@ op|'('
 op|'['
 string|"'tools/with_venv.sh'"
 op|','
+nl|'\n'
 string|"'pip'"
 op|','
 string|"'install'"
+op|','
+string|"'--upgrade'"
 op|']'
 op|'+'
 name|'list'
