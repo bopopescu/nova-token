@@ -1609,6 +1609,10 @@ op|'{'
 string|"'project_id'"
 op|':'
 name|'project_id'
+op|','
+string|"'deleted'"
+op|':'
+name|'False'
 op|'}'
 newline|'\n'
 name|'for'
@@ -2101,6 +2105,10 @@ op|'{'
 string|"'fixed_ip'"
 op|':'
 name|'address'
+op|','
+string|"'deleted'"
+op|':'
+name|'False'
 op|'}'
 newline|'\n'
 name|'try'
