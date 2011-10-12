@@ -5357,7 +5357,7 @@ op|'['
 string|"'flavorid'"
 op|']'
 op|','
-number|'1'
+string|"'1'"
 op|')'
 newline|'\n'
 nl|'\n'
@@ -5513,7 +5513,7 @@ op|'['
 string|"'flavorid'"
 op|']'
 op|','
-number|'3'
+string|"'3'"
 op|')'
 newline|'\n'
 nl|'\n'
@@ -5595,7 +5595,7 @@ op|'['
 string|"'flavorid'"
 op|']'
 op|','
-number|'1'
+string|"'1'"
 op|')'
 newline|'\n'
 nl|'\n'
