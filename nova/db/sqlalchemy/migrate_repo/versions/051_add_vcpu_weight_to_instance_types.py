@@ -36,8 +36,6 @@ op|','
 name|'MetaData'
 op|','
 name|'Table'
-op|','
-name|'Boolean'
 newline|'\n'
 nl|'\n'
 DECL|variable|meta
