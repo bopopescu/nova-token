@@ -2152,7 +2152,12 @@ string|"'addr'"
 op|','
 string|"'add'"
 op|','
+name|'str'
+op|'('
 name|'floating_ip'
+op|')'
+op|'+'
+string|"'/32'"
 op|','
 nl|'\n'
 string|"'dev'"
@@ -2232,7 +2237,12 @@ string|"'addr'"
 op|','
 string|"'del'"
 op|','
+name|'str'
+op|'('
 name|'floating_ip'
+op|')'
+op|'+'
+string|"'/32'"
 op|','
 nl|'\n'
 string|"'dev'"
