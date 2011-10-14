@@ -223,6 +223,11 @@ op|','
 string|"'is_public'"
 op|','
 string|"'properties'"
+op|','
+nl|'\n'
+string|"'disk_format'"
+op|','
+string|"'container_format'"
 op|']'
 op|')'
 op|')'
