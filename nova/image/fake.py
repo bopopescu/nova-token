@@ -178,9 +178,15 @@ op|':'
 name|'False'
 op|','
 nl|'\n'
-comment|"#                 'container_format': 'ami',"
+string|"'container_format'"
+op|':'
+string|"'raw'"
+op|','
 nl|'\n'
-comment|"#                 'disk_format': 'raw',"
+string|"'disk_format'"
+op|':'
+string|"'raw'"
+op|','
 nl|'\n'
 string|"'properties'"
 op|':'
@@ -249,9 +255,15 @@ op|':'
 name|'True'
 op|','
 nl|'\n'
-comment|"#                 'container_format': 'ami',"
+string|"'container_format'"
+op|':'
+string|"'ami'"
+op|','
 nl|'\n'
-comment|"#                 'disk_format': 'raw',"
+string|"'disk_format'"
+op|':'
+string|"'ami'"
+op|','
 nl|'\n'
 string|"'properties'"
 op|':'
@@ -315,9 +327,15 @@ op|':'
 name|'True'
 op|','
 nl|'\n'
-comment|"#                 'container_format': 'ami',"
+string|"'container_format'"
+op|':'
+name|'None'
+op|','
 nl|'\n'
-comment|"#                 'disk_format': 'raw',"
+string|"'disk_format'"
+op|':'
+name|'None'
+op|','
 nl|'\n'
 string|"'properties'"
 op|':'
@@ -381,9 +399,15 @@ op|':'
 name|'True'
 op|','
 nl|'\n'
-comment|"#                 'container_format': 'ami',"
+string|"'container_format'"
+op|':'
+string|"'ami'"
+op|','
 nl|'\n'
-comment|"#                 'disk_format': 'raw',"
+string|"'disk_format'"
+op|':'
+string|"'ami'"
+op|','
 nl|'\n'
 string|"'properties'"
 op|':'
@@ -447,9 +471,15 @@ op|':'
 name|'True'
 op|','
 nl|'\n'
-comment|"#                 'container_format': 'ami',"
+string|"'container_format'"
+op|':'
+string|"'ami'"
+op|','
 nl|'\n'
-comment|"#                 'disk_format': 'raw',"
+string|"'disk_format'"
+op|':'
+string|"'ami'"
+op|','
 nl|'\n'
 string|"'properties'"
 op|':'
