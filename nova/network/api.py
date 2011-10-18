@@ -413,7 +413,7 @@ nl|'\n'
 string|"'args'"
 op|':'
 op|'{'
-string|"'floating_address'"
+string|"'address'"
 op|':'
 name|'address'
 op|','
