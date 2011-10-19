@@ -2298,13 +2298,13 @@ string|"' but to use a raw disk image instead'"
 op|')'
 newline|'\n'
 nl|'\n'
-name|'DEFINE_integer'
+name|'DEFINE_string'
 op|'('
 string|"'vpn_image_id'"
 op|','
-number|'0'
+string|"'0'"
 op|','
-string|"'integer id for cloudpipe vpn server'"
+string|"'image id for cloudpipe vpn server'"
 op|')'
 newline|'\n'
 name|'DEFINE_string'
