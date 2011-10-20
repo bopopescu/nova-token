@@ -8463,7 +8463,7 @@ op|','
 nl|'\n'
 string|"'-t'"
 op|','
-string|"'ext2,ext3'"
+string|"'ext2,ext3,ext4,reiserfs'"
 op|','
 nl|'\n'
 name|'dev_path'
