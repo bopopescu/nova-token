@@ -2186,14 +2186,17 @@ op|','
 string|"'suffix for ec2'"
 op|')'
 newline|'\n'
-name|'DEFINE_string'
+name|'DEFINE_multistring'
 op|'('
-string|"'osapi_extensions_path'"
-op|','
-string|"'/var/lib/nova/extensions'"
+string|"'osapi_extension'"
 op|','
 nl|'\n'
-string|"'default directory for nova extensions'"
+op|'['
+string|"'nova.api.openstack.contrib.standard_extensions'"
+op|']'
+op|','
+nl|'\n'
+string|"'osapi extension to load'"
 op|')'
 newline|'\n'
 name|'DEFINE_string'
