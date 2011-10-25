@@ -61,7 +61,7 @@ name|'DECLARE'
 op|'('
 string|"'db_backend'"
 op|','
-string|"'nova.db.api'"
+string|"'nova.db'"
 op|')'
 newline|'\n'
 nl|'\n'
