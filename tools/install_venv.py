@@ -826,11 +826,16 @@ name|'print'
 string|"'Installing dependencies with pip (this can take a while)...'"
 newline|'\n'
 nl|'\n'
-comment|'# First things first, make sure our venv has the latest pip.'
+comment|'# First things first, make sure our venv has the latest pip and distribute.'
 nl|'\n'
 name|'pip_install'
 op|'('
 string|"'pip'"
+op|')'
+newline|'\n'
+name|'pip_install'
+op|'('
+string|"'distribute'"
 op|')'
 newline|'\n'
 nl|'\n'
