@@ -717,8 +717,6 @@ op|'('
 name|'nova'
 op|'.'
 name|'db'
-op|'.'
-name|'api'
 op|','
 string|"'vsa_create'"
 op|','

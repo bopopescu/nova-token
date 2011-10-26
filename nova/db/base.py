@@ -61,7 +61,7 @@ name|'DEFINE_string'
 op|'('
 string|"'db_driver'"
 op|','
-string|"'nova.db.api'"
+string|"'nova.db'"
 op|','
 nl|'\n'
 string|"'driver to use for database access'"
