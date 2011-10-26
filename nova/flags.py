@@ -1885,6 +1885,16 @@ op|')'
 newline|'\n'
 name|'DEFINE_integer'
 op|'('
+string|"'glance_num_retries'"
+op|','
+number|'0'
+op|','
+nl|'\n'
+string|"'The number of times to retry downloading an image from glance'"
+op|')'
+newline|'\n'
+name|'DEFINE_integer'
+op|'('
 string|"'s3_port'"
 op|','
 number|'3333'

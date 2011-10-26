@@ -3200,6 +3200,13 @@ name|'session'
 op|')'
 op|','
 nl|'\n'
+string|"'num_retries'"
+op|':'
+name|'FLAGS'
+op|'.'
+name|'glance_num_retries'
+op|','
+nl|'\n'
 string|"'auth_token'"
 op|':'
 name|'getattr'
