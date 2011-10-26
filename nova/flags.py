@@ -2410,6 +2410,15 @@ op|','
 string|"'file name for sqlite'"
 op|')'
 newline|'\n'
+name|'DEFINE_bool'
+op|'('
+string|"'sqlite_synchronous'"
+op|','
+name|'True'
+op|','
+string|"'Synchronous mode for sqlite'"
+op|')'
+newline|'\n'
 name|'DEFINE_string'
 op|'('
 string|"'sql_connection'"

@@ -231,5 +231,15 @@ op|'('
 string|"'br100'"
 op|')'
 newline|'\n'
+name|'FLAGS'
+op|'['
+string|"'sqlite_synchronous'"
+op|']'
+op|'.'
+name|'SetDefault'
+op|'('
+name|'False'
+op|')'
+newline|'\n'
 endmarker|''
 end_unit
