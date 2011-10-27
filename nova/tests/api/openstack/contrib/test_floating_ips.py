@@ -449,6 +449,11 @@ op|':'
 number|'1'
 op|','
 nl|'\n'
+string|'"name"'
+op|':'
+string|"'fake'"
+op|','
+nl|'\n'
 string|'"user_id"'
 op|':'
 string|"'fakeuser'"

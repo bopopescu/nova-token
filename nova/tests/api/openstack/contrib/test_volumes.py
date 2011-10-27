@@ -226,6 +226,12 @@ nl|'\n'
 string|"'progress'"
 op|':'
 number|'0'
+op|','
+nl|'\n'
+string|"'fixed_ips'"
+op|':'
+op|'['
+op|']'
 nl|'\n'
 op|'}'
 op|']'

@@ -318,6 +318,10 @@ op|'{'
 string|"'id'"
 op|':'
 name|'server_id'
+op|','
+string|"'name'"
+op|':'
+string|"'fake'"
 op|'}'
 newline|'\n'
 nl|'\n'
@@ -339,6 +343,10 @@ op|'{'
 string|"'id'"
 op|':'
 number|'1'
+op|','
+string|"'name'"
+op|':'
+string|"'fake'"
 op|'}'
 newline|'\n'
 nl|'\n'

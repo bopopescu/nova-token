@@ -198,6 +198,11 @@ op|':'
 number|'1'
 op|','
 nl|'\n'
+string|"'name'"
+op|':'
+string|"'fake'"
+op|','
+nl|'\n'
 string|"'project_id'"
 op|':'
 string|"'test'"
