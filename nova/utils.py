@@ -1973,7 +1973,7 @@ name|'instance_id'
 op|'='
 name|'instance_ref'
 op|'['
-string|"'id'"
+string|"'uuid'"
 op|']'
 op|','
 nl|'\n'
