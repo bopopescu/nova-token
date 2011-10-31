@@ -250,7 +250,7 @@ op|'['
 string|"'image_ref'"
 op|']'
 op|'='
-string|"'1'"
+string|"'cedef40a-ed67-4d10-800e-17455edce175'"
 newline|'\n'
 name|'inst'
 op|'['
