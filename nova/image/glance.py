@@ -2052,7 +2052,7 @@ name|'_'
 op|'('
 string|"'%(timestamp)s does not follow any of the '"
 nl|'\n'
-string|"'signatures: %(ISO_FORMATS)s'"
+string|"'signatures: %(iso_formats)s'"
 op|')'
 op|'%'
 name|'locals'
