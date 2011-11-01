@@ -610,7 +610,7 @@ op|','
 nl|'\n'
 string|"'bandwidth'"
 op|','
-string|"'audit_period_begining'"
+string|"'audit_period_beginning'"
 op|','
 nl|'\n'
 string|"'audit_period_ending'"
