@@ -1988,7 +1988,7 @@ nl|'\n'
 string|'\'location of ajax console proxy, \\\n               in the form "http://127.0.0.1:8000"\''
 op|')'
 newline|'\n'
-name|'DEFINE_string'
+name|'DEFINE_integer'
 op|'('
 string|"'ajax_console_proxy_port'"
 op|','
