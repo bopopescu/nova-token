@@ -36,6 +36,13 @@ name|'re'
 newline|'\n'
 nl|'\n'
 nl|'\n'
+DECL|variable|DEFAULT_ROOT_DEV_NAME
+name|'DEFAULT_ROOT_DEV_NAME'
+op|'='
+string|"'/dev/sda1'"
+newline|'\n'
+nl|'\n'
+nl|'\n'
 DECL|function|properties_root_device_name
 name|'def'
 name|'properties_root_device_name'
