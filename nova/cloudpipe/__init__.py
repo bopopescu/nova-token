@@ -33,7 +33,7 @@ nl|'\n'
 comment|'#    under the License.'
 nl|'\n'
 nl|'\n'
-string|'"""\n:mod:`nova.cloudpipe` -- VPN Server Management\n=====================================================\n\n.. automodule:: nova.cloudpipe\n   :platform: Unix\n   :synopsis: An OpenVPN server for every nova user.\n.. moduleauthor:: Devin Carlen <devin.carlen@gmail.com>\n.. moduleauthor:: Vishvananda Ishaya <vishvananda@yahoo.com>\n.. moduleauthor:: Joshua McKenty <jmckenty@gmail.com>\n"""'
+string|'"""\n:mod:`nova.cloudpipe` -- VPN Server Management\n=====================================================\n\n.. automodule:: nova.cloudpipe\n   :platform: Unix\n   :synopsis: An OpenVPN server for every nova user.\n.. moduleauthor:: Devin Carlen <devin.carlen@gmail.com>\n.. moduleauthor:: Vishvananda Ishaya <vishvananda@gmail.com>\n.. moduleauthor:: Joshua McKenty <jmckenty@gmail.com>\n"""'
 newline|'\n'
 endmarker|''
 end_unit
