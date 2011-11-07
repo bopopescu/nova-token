@@ -174,6 +174,13 @@ op|','
 nl|'\n'
 name|'task_states'
 op|'.'
+name|'REBOOTING_HARD'
+op|':'
+string|"'HARD_REBOOT'"
+op|','
+nl|'\n'
+name|'task_states'
+op|'.'
 name|'UPDATING_PASSWORD'
 op|':'
 string|"'PASSWORD'"

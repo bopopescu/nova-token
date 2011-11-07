@@ -119,6 +119,11 @@ name|'REBOOTING'
 op|'='
 string|"'rebooting'"
 newline|'\n'
+DECL|variable|REBOOTING_HARD
+name|'REBOOTING_HARD'
+op|'='
+string|"'rebooting_hard'"
+newline|'\n'
 DECL|variable|PAUSING
 name|'PAUSING'
 op|'='
