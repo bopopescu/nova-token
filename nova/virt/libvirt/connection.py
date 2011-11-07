@@ -315,19 +315,6 @@ name|'flags'
 op|'.'
 name|'DEFINE_bool'
 op|'('
-string|"'allow_same_net_traffic'"
-op|','
-nl|'\n'
-name|'True'
-op|','
-nl|'\n'
-string|"'Whether to allow network traffic from same network'"
-op|')'
-newline|'\n'
-name|'flags'
-op|'.'
-name|'DEFINE_bool'
-op|'('
 string|"'use_cow_images'"
 op|','
 nl|'\n'
@@ -348,19 +335,6 @@ string|"'10000-12000'"
 op|','
 nl|'\n'
 string|"'Range of ports that ajaxterm should randomly try to bind'"
-op|')'
-newline|'\n'
-name|'flags'
-op|'.'
-name|'DEFINE_string'
-op|'('
-string|"'firewall_driver'"
-op|','
-nl|'\n'
-string|"'nova.virt.libvirt.firewall.IptablesFirewallDriver'"
-op|','
-nl|'\n'
-string|"'Firewall driver (defaults to iptables)'"
 op|')'
 newline|'\n'
 name|'flags'
