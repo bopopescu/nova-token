@@ -76,7 +76,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""An RS API fault response."""'
+string|'"""Wrap webob.exc.HTTPException to provide API friendly response."""'
 newline|'\n'
 nl|'\n'
 DECL|variable|_fault_names
