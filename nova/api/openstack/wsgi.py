@@ -3195,7 +3195,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""WSGI app that handles (de)serialization and controller dispatch.\n\n    WSGI app that reads routing information supplied by RoutesMiddleware\n    and calls the requested action method upon its controller.  All\n    controller action methods must accept a \'req\' argument, which is the\n    incoming wsgi.Request. If the operation is a PUT or POST, the controller\n    method must also accept a \'body\' argument (the deserialized request body).\n    They may raise a webob.exc exception or return a dict, which will be\n    serialized by requested content type.\n\n    """'
+string|'"""WSGI app that handles (de)serialization and controller dispatch.\n\n    WSGI app that reads routing information supplied by RoutesMiddleware\n    and calls the requested action method upon its controller.  All\n    controller action methods must accept a \'req\' argument, which is the\n    incoming wsgi.Request. If the operation is a PUT or POST, the controller\n    method must also accept a \'body\' argument (the deserialized request body).\n    They may raise a webob.exc exception or return a dict, which will be\n    serialized by requested content type.\n\n    Exceptions derived from webob.exc.HTTPException will be automatically\n    wrapped in faults.Fault() to provide API friendly error responses.\n\n    """'
 newline|'\n'
 nl|'\n'
 DECL|member|__init__
