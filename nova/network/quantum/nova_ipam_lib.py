@@ -455,9 +455,12 @@ op|','
 nl|'\n'
 name|'admin_context'
 op|','
+name|'None'
+op|','
+nl|'\n'
 name|'network'
 op|'['
-string|"'cidr'"
+string|"'uuid'"
 op|']'
 op|','
 nl|'\n'
