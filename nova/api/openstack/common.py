@@ -1371,7 +1371,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""Returns a prepared nw_info list for passing into the view\n    builders\n\n    We end up with a datastructure like:\n    {\'public\': {\'ips\': [{\'addr\': \'10.0.0.1\', \'version\': 4},\n                        {\'addr\': \'2001::1\', \'version\': 6}],\n                \'floating_ips\': [{\'addr\': \'172.16.0.1\', \'version\': 4},\n                                 {\'addr\': \'172.16.2.1\', \'version\': 4}]},\n     ...}\n    """'
+string|'"""Returns a prepared nw_info list for passing into the view\n    builders\n\n    We end up with a data structure like:\n    {\'public\': {\'ips\': [{\'addr\': \'10.0.0.1\', \'version\': 4},\n                        {\'addr\': \'2001::1\', \'version\': 6}],\n                \'floating_ips\': [{\'addr\': \'172.16.0.1\', \'version\': 4},\n                                 {\'addr\': \'172.16.2.1\', \'version\': 4}]},\n     ...}\n    """'
 newline|'\n'
 nl|'\n'
 DECL|function|_emit_addr

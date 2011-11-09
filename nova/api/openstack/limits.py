@@ -591,7 +591,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""\n    Stores information about a limit for HTTP requets.\n    """'
+string|'"""\n    Stores information about a limit for HTTP requests.\n    """'
 newline|'\n'
 nl|'\n'
 DECL|variable|UNITS
