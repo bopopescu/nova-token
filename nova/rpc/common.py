@@ -65,7 +65,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""Signifies that a remote class has raised an exception.\n\n    Containes a string representation of the type of the original exception,\n    the value of the original exception, and the traceback.  These are\n    sent to the parent as a joined string so printing the exception\n    contains all of the relevent info.\n\n    """'
+string|'"""Signifies that a remote class has raised an exception.\n\n    Contains a string representation of the type of the original exception,\n    the value of the original exception, and the traceback.  These are\n    sent to the parent as a joined string so printing the exception\n    contains all of the relevant info.\n\n    """'
 newline|'\n'
 DECL|variable|message
 name|'message'

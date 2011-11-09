@@ -176,7 +176,7 @@ op|','
 nl|'\n'
 name|'_'
 op|'('
-string|"'Filename of root Certificate Revokation List'"
+string|"'Filename of root Certificate Revocation List'"
 op|')'
 op|')'
 newline|'\n'
