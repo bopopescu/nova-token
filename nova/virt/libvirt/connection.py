@@ -4508,7 +4508,7 @@ newline|'\n'
 nl|'\n'
 name|'ajaxterm_cmd'
 op|'='
-string|"'sudo socat - %s'"
+string|"'sudo netcat - %s'"
 op|'%'
 name|'get_pty_for_instance'
 op|'('
