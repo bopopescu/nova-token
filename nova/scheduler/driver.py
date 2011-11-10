@@ -130,7 +130,7 @@ op|','
 number|'60'
 op|','
 nl|'\n'
-string|"'maximum time since last checkin for up service'"
+string|"'maximum time since last check-in for up service'"
 op|')'
 newline|'\n'
 name|'flags'
@@ -670,7 +670,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""The base class that all Scheduler clases should inherit from."""'
+string|'"""The base class that all Scheduler classes should inherit from."""'
 newline|'\n'
 nl|'\n'
 DECL|member|__init__
