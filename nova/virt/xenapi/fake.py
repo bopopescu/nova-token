@@ -2634,8 +2634,14 @@ name|'return'
 string|"'derp'"
 newline|'\n'
 nl|'\n'
-DECL|member|VM_clean_reboot
+DECL|variable|VDI_resize
 dedent|''
+name|'VDI_resize'
+op|'='
+name|'VDI_resize_online'
+newline|'\n'
+nl|'\n'
+DECL|member|VM_clean_reboot
 name|'def'
 name|'VM_clean_reboot'
 op|'('
