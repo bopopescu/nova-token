@@ -172,6 +172,9 @@ nl|'\n'
 string|"'boto=WARN'"
 op|','
 nl|'\n'
+string|"'suds=INFO'"
+op|','
+nl|'\n'
 string|"'eventlet.wsgi.server=WARN'"
 op|']'
 op|','
