@@ -10555,7 +10555,7 @@ op|'.'
 name|'get'
 op|'('
 nl|'\n'
-string|"'AvailabilityZone'"
+string|"'availability_zone'"
 op|')'
 op|','
 nl|'\n'
