@@ -2344,7 +2344,7 @@ string|"'osapi_extension'"
 op|','
 nl|'\n'
 op|'['
-string|"'nova.api.openstack.contrib.standard_extensions'"
+string|"'nova.api.openstack.v2.contrib.standard_extensions'"
 op|']'
 op|','
 nl|'\n'
