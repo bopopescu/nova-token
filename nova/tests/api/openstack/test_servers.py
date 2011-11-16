@@ -8257,11 +8257,6 @@ op|':'
 string|"'server_test'"
 op|','
 nl|'\n'
-string|"'hostname'"
-op|':'
-string|"'server-test'"
-op|','
-nl|'\n'
 op|'}'
 newline|'\n'
 name|'self'
