@@ -692,6 +692,15 @@ nl|'\n'
 string|"'bin/nova-api'"
 op|','
 nl|'\n'
+string|"'bin/nova-api-ec2'"
+op|','
+nl|'\n'
+string|"'bin/nova-api-metadata'"
+op|','
+nl|'\n'
+string|"'bin/nova-api-os'"
+op|','
+nl|'\n'
 string|"'bin/nova-compute'"
 op|','
 nl|'\n'

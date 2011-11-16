@@ -2285,6 +2285,8 @@ op|'['
 string|"'ec2'"
 op|','
 string|"'osapi'"
+op|','
+string|"'metadata'"
 op|']'
 op|','
 nl|'\n'
@@ -2395,7 +2397,24 @@ nl|'\n'
 string|"'max number of items returned in a collection response'"
 op|')'
 newline|'\n'
-nl|'\n'
+name|'DEFINE_string'
+op|'('
+string|"'metadata_host'"
+op|','
+string|"'$my_ip'"
+op|','
+string|"'ip of metadata server'"
+op|')'
+newline|'\n'
+name|'DEFINE_integer'
+op|'('
+string|"'metadata_port'"
+op|','
+number|'8775'
+op|','
+string|"'Metadata API port'"
+op|')'
+newline|'\n'
 name|'DEFINE_string'
 op|'('
 string|"'default_project'"
