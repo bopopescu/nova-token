@@ -1556,8 +1556,8 @@ op|')'
 op|')'
 newline|'\n'
 nl|'\n'
-DECL|variable|managed_disk
-name|'managed_disk'
+DECL|variable|auto_disk_config
+name|'auto_disk_config'
 op|'='
 name|'Column'
 op|'('
