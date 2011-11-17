@@ -449,7 +449,7 @@ op|'.'
 name|'blank'
 op|'('
 nl|'\n'
-string|"'/v1.1/123/os-simple-tenant-usage?start=%s&end=%s'"
+string|"'/v2/123/os-simple-tenant-usage?start=%s&end=%s'"
 op|'%'
 nl|'\n'
 op|'('
@@ -682,7 +682,7 @@ op|'.'
 name|'blank'
 op|'('
 nl|'\n'
-string|"'/v1.1/123/os-simple-tenant-usage?'"
+string|"'/v2/123/os-simple-tenant-usage?'"
 nl|'\n'
 string|"'detailed=1&start=%s&end=%s'"
 op|'%'
@@ -836,7 +836,7 @@ op|'.'
 name|'blank'
 op|'('
 nl|'\n'
-string|"'/v1.1/123/os-simple-tenant-usage?'"
+string|"'/v2/123/os-simple-tenant-usage?'"
 nl|'\n'
 string|"'detailed=1&start=%s&end=%s'"
 op|'%'
@@ -916,7 +916,7 @@ op|'.'
 name|'blank'
 op|'('
 nl|'\n'
-string|"'/v1.1/faketenant_0/os-simple-tenant-usage/'"
+string|"'/v2/faketenant_0/os-simple-tenant-usage/'"
 nl|'\n'
 string|"'faketenant_0?start=%s&end=%s'"
 op|'%'
@@ -1072,7 +1072,7 @@ op|'.'
 name|'blank'
 op|'('
 nl|'\n'
-string|"'/v1.1/faketenant_1/os-simple-tenant-usage/'"
+string|"'/v2/faketenant_1/os-simple-tenant-usage/'"
 nl|'\n'
 string|"'faketenant_0?start=%s&end=%s'"
 op|'%'

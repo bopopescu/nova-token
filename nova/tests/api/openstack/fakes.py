@@ -572,10 +572,7 @@ op|')'
 op|')'
 op|')'
 newline|'\n'
-name|'Auth'
-op|'='
-name|'auth'
-newline|'\n'
+nl|'\n'
 dedent|''
 name|'mapper'
 op|'='
@@ -1725,7 +1722,7 @@ string|"'aa640691-d1a7-4a67-9d3c-d35ee6b3cc74'"
 newline|'\n'
 name|'server_ref'
 op|'='
-string|"'http://localhost/v1.1/servers/'"
+string|"'http://localhost/v2/servers/'"
 op|'+'
 name|'uuid'
 newline|'\n'
@@ -2144,7 +2141,7 @@ op|'['
 string|"'base_url'"
 op|']'
 op|'='
-string|"'http://localhost/v1.1'"
+string|"'http://localhost/v2'"
 newline|'\n'
 name|'use_admin_context'
 op|'='
