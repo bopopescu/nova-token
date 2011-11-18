@@ -108,6 +108,11 @@ op|':'
 string|"'compute'"
 op|','
 nl|'\n'
+string|"'prep_resize'"
+op|':'
+string|"'compute'"
+op|','
+nl|'\n'
 string|"'create_volume'"
 op|':'
 string|"'volume'"
