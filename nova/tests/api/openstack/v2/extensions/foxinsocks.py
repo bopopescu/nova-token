@@ -32,9 +32,6 @@ comment|'#    under the License.'
 nl|'\n'
 nl|'\n'
 name|'import'
-name|'json'
-newline|'\n'
-name|'import'
 name|'webob'
 op|'.'
 name|'exc'
@@ -313,7 +310,7 @@ op|'('
 string|"'GET'"
 op|','
 nl|'\n'
-string|"'/v1.1/:(project_id)/flavors/:(id)'"
+string|"'/v2/:(project_id)/flavors/:(id)'"
 op|','
 nl|'\n'
 name|'_goose_handler'
@@ -365,7 +362,7 @@ op|'('
 string|"'GET'"
 op|','
 nl|'\n'
-string|"'/v1.1/:(project_id)/flavors/:(id)'"
+string|"'/v2/:(project_id)/flavors/:(id)'"
 op|','
 nl|'\n'
 name|'_bands_handler'

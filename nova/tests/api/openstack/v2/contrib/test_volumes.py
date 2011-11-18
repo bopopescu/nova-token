@@ -395,7 +395,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/fake/os-volumes_boot'"
+string|"'/v2/fake/os-volumes_boot'"
 op|')'
 newline|'\n'
 name|'req'

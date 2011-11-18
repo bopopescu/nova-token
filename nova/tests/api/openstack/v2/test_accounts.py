@@ -329,7 +329,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/fake/accounts/test1'"
+string|"'/v2/fake/accounts/test1'"
 op|')'
 newline|'\n'
 name|'res'
@@ -432,7 +432,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/fake/accounts/test1.xml'"
+string|"'/v2/fake/accounts/test1.xml'"
 op|')'
 newline|'\n'
 name|'res'
@@ -543,7 +543,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/fake/accounts/test1'"
+string|"'/v2/fake/accounts/test1'"
 op|')'
 newline|'\n'
 name|'req'
@@ -628,7 +628,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/fake/accounts/newacct'"
+string|"'/v2/fake/accounts/newacct'"
 op|')'
 newline|'\n'
 name|'req'
@@ -826,7 +826,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/fake/accounts/newacct.xml'"
+string|"'/v2/fake/accounts/newacct.xml'"
 op|')'
 newline|'\n'
 name|'req'
@@ -1031,7 +1031,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/fake/accounts/test1'"
+string|"'/v2/fake/accounts/test1'"
 op|')'
 newline|'\n'
 name|'req'
@@ -1215,7 +1215,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/fake/accounts/test1.xml'"
+string|"'/v2/fake/accounts/test1.xml'"
 op|')'
 newline|'\n'
 name|'req'

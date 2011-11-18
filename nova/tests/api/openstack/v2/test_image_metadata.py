@@ -151,7 +151,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/123/images/123/metadata'"
+string|"'/v2/123/images/123/metadata'"
 op|')'
 newline|'\n'
 name|'res_dict'
@@ -207,7 +207,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/fake/images/123/metadata/key1'"
+string|"'/v2/fake/images/123/metadata/key1'"
 op|')'
 newline|'\n'
 name|'res_dict'
@@ -283,7 +283,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/fake/images/123/metadata/key9'"
+string|"'/v2/fake/images/123/metadata/key9'"
 op|')'
 newline|'\n'
 name|'self'
@@ -329,7 +329,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/fake/images/100/metadata/key1'"
+string|"'/v2/fake/images/100/metadata/key1'"
 op|')'
 newline|'\n'
 name|'self'
@@ -375,7 +375,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/fake/images/123/metadata'"
+string|"'/v2/fake/images/123/metadata'"
 op|')'
 newline|'\n'
 name|'req'
@@ -476,7 +476,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/fake/images/100/metadata'"
+string|"'/v2/fake/images/100/metadata'"
 op|')'
 newline|'\n'
 name|'req'
@@ -561,7 +561,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/fake/images/123/metadata'"
+string|"'/v2/fake/images/123/metadata'"
 op|')'
 newline|'\n'
 name|'req'
@@ -658,7 +658,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/fake/images/100/metadata'"
+string|"'/v2/fake/images/100/metadata'"
 op|')'
 newline|'\n'
 name|'req'
@@ -743,7 +743,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/fake/images/123/metadata/key1'"
+string|"'/v2/fake/images/123/metadata/key1'"
 op|')'
 newline|'\n'
 name|'req'
@@ -842,7 +842,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/fake/images/100/metadata/key1'"
+string|"'/v2/fake/images/100/metadata/key1'"
 op|')'
 newline|'\n'
 name|'req'
@@ -929,7 +929,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/fake/images/123/metadata/key1'"
+string|"'/v2/fake/images/123/metadata/key1'"
 op|')'
 newline|'\n'
 name|'req'
@@ -1007,7 +1007,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/fake/images/123/metadata/key1'"
+string|"'/v2/fake/images/123/metadata/key1'"
 op|')'
 newline|'\n'
 name|'req'
@@ -1121,7 +1121,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/fake/images/123/metadata/bad'"
+string|"'/v2/fake/images/123/metadata/bad'"
 op|')'
 newline|'\n'
 name|'req'
@@ -1208,7 +1208,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/fake/images/123/metadata/key1'"
+string|"'/v2/fake/images/123/metadata/key1'"
 op|')'
 newline|'\n'
 name|'req'
@@ -1261,7 +1261,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/fake/images/123/metadata/blah'"
+string|"'/v2/fake/images/123/metadata/blah'"
 op|')'
 newline|'\n'
 name|'req'
@@ -1314,7 +1314,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/fake/images/100/metadata/key1'"
+string|"'/v2/fake/images/100/metadata/key1'"
 op|')'
 newline|'\n'
 name|'req'
@@ -1403,7 +1403,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/fake/images/123/metadata'"
+string|"'/v2/fake/images/123/metadata'"
 op|')'
 newline|'\n'
 name|'req'
@@ -1506,7 +1506,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/fake/images/123/metadata/blah'"
+string|"'/v2/fake/images/123/metadata/blah'"
 op|')'
 newline|'\n'
 name|'req'

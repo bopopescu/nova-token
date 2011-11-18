@@ -292,7 +292,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/'"
+string|"'/v2/'"
 op|')'
 newline|'\n'
 name|'req'
@@ -460,7 +460,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/'"
+string|"'/v2/'"
 op|','
 op|'{'
 string|"'HTTP_HOST'"
@@ -543,7 +543,7 @@ string|"'X-Server-Management-Url'"
 op|']'
 op|','
 nl|'\n'
-string|'"http://foo/v1.1/user1_project"'
+string|'"http://foo/v2/user1_project"'
 op|')'
 newline|'\n'
 name|'self'
@@ -614,7 +614,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/user1_project'"
+string|"'/v2/user1_project'"
 op|')'
 newline|'\n'
 name|'req'
@@ -683,10 +683,6 @@ op|'.'
 name|'destroy_called'
 op|'='
 name|'False'
-newline|'\n'
-name|'token_hash'
-op|'='
-string|"'token_hash'"
 newline|'\n'
 nl|'\n'
 DECL|function|destroy_token_mock
@@ -792,7 +788,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/'"
+string|"'/v2/'"
 op|')'
 newline|'\n'
 name|'req'
@@ -916,7 +912,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/'"
+string|"'/v2/'"
 op|','
 op|'{'
 string|"'HTTP_HOST'"
@@ -1009,7 +1005,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/user2_project'"
+string|"'/v2/user2_project'"
 op|')'
 newline|'\n'
 name|'req'
@@ -1081,7 +1077,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/'"
+string|"'/v2/'"
 op|')'
 newline|'\n'
 name|'req'
@@ -1194,7 +1190,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/'"
+string|"'/v2/'"
 op|')'
 newline|'\n'
 name|'req'
@@ -1261,7 +1257,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/'"
+string|"'/v2/'"
 op|')'
 newline|'\n'
 name|'result'
@@ -1310,7 +1306,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/'"
+string|"'/v2/'"
 op|')'
 newline|'\n'
 name|'req'
@@ -1451,7 +1447,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/'"
+string|"'/v2/'"
 op|','
 op|'{'
 string|"'HTTP_HOST'"
@@ -1544,7 +1540,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/user2_project'"
+string|"'/v2/user2_project'"
 op|')'
 newline|'\n'
 name|'req'
@@ -1686,7 +1682,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/'"
+string|"'/v2/'"
 op|','
 op|'{'
 string|"'HTTP_HOST'"
@@ -1779,7 +1775,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/user2_project'"
+string|"'/v2/user2_project'"
 op|')'
 newline|'\n'
 name|'req'
@@ -1935,7 +1931,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/'"
+string|"'/v2/'"
 op|')'
 newline|'\n'
 name|'req'
@@ -1993,7 +1989,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/'"
+string|"'/v2/'"
 op|')'
 newline|'\n'
 name|'req'
@@ -2228,7 +2224,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/'"
+string|"'/v2/'"
 op|')'
 newline|'\n'
 name|'req'
@@ -2321,7 +2317,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/test'"
+string|"'/v2/test'"
 op|')'
 newline|'\n'
 name|'req'
@@ -2514,7 +2510,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1'"
+string|"'/v2'"
 op|')'
 newline|'\n'
 name|'req'
@@ -2617,7 +2613,7 @@ string|"'X-Server-Management-Url'"
 op|']'
 op|','
 nl|'\n'
-string|'"http://localhost/v1.1/user1_project"'
+string|'"http://localhost/v2/user1_project"'
 op|')'
 newline|'\n'
 nl|'\n'
@@ -2641,7 +2637,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/'"
+string|"'/v2/'"
 op|')'
 newline|'\n'
 name|'req'
@@ -2744,7 +2740,7 @@ string|"'X-Server-Management-Url'"
 op|']'
 op|','
 nl|'\n'
-string|'"http://localhost/v1.1/user1_project"'
+string|'"http://localhost/v2/user1_project"'
 op|')'
 newline|'\n'
 dedent|''

@@ -468,7 +468,7 @@ name|'self'
 op|'.'
 name|'auth_url'
 op|'='
-string|"'http://%s:%s/v1.1'"
+string|"'http://%s:%s/v2'"
 op|'%'
 op|'('
 name|'osapi'
