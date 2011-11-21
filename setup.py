@@ -485,6 +485,9 @@ nl|'\n'
 string|"'bin/nova-objectstore'"
 op|','
 nl|'\n'
+string|"'bin/nova-rootwrap'"
+op|','
+nl|'\n'
 string|"'bin/nova-scheduler'"
 op|','
 nl|'\n'
