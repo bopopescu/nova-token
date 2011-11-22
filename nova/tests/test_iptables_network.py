@@ -301,7 +301,7 @@ name|'self'
 op|'.'
 name|'assertTrue'
 op|'('
-string|"'-A run_tests.py-FORWARD '"
+string|"'-A runner.py-FORWARD '"
 nl|'\n'
 string|"'-s 1.2.3.4/5 -j DROP'"
 name|'in'
@@ -335,7 +335,7 @@ name|'self'
 op|'.'
 name|'assertTrue'
 op|'('
-string|"'-A run_tests.py-FORWARD '"
+string|"'-A runner.py-FORWARD '"
 nl|'\n'
 string|"'-s 1.2.3.4/5 -j DROP'"
 name|'not'
@@ -526,7 +526,7 @@ name|'self'
 op|'.'
 name|'assertTrue'
 op|'('
-string|"'-A %s -j run_tests.py-%s'"
+string|"'-A %s -j runner.py-%s'"
 op|'%'
 op|'('
 name|'chain'
@@ -721,7 +721,7 @@ name|'assertTrue'
 op|'('
 string|"'-A nova-filter-top '"
 nl|'\n'
-string|"'-j run_tests.py-local'"
+string|"'-j runner.py-local'"
 name|'in'
 name|'new_lines'
 op|','
@@ -747,7 +747,7 @@ name|'self'
 op|'.'
 name|'assertTrue'
 op|'('
-string|"'-A %s -j run_tests.py-%s'"
+string|"'-A %s -j runner.py-%s'"
 op|'%'
 op|'('
 name|'chain'
