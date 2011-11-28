@@ -1061,8 +1061,7 @@ op|':'
 newline|'\n'
 indent|'        '
 name|'return'
-op|'{'
-op|'}'
+string|"'FAKE_DIAGNOSTICS'"
 newline|'\n'
 nl|'\n'
 DECL|member|get_all_bw_usage
