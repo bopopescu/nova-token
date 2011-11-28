@@ -4628,6 +4628,11 @@ op|':'
 string|"'host1'"
 op|','
 nl|'\n'
+string|"'hostname'"
+op|':'
+string|"'server-1234'"
+op|','
+nl|'\n'
 string|"'vm_state'"
 op|':'
 string|"'active'"
@@ -4663,6 +4668,11 @@ nl|'\n'
 string|"'host'"
 op|':'
 string|"'host2'"
+op|','
+nl|'\n'
+string|"'hostname'"
+op|':'
+string|"'server-4321'"
 op|','
 nl|'\n'
 string|"'vm_state'"
@@ -4906,7 +4916,7 @@ op|'['
 string|"'privateDnsName'"
 op|']'
 op|','
-string|"'192.168.0.3'"
+string|"'server-4321'"
 op|')'
 newline|'\n'
 name|'self'
@@ -5058,6 +5068,11 @@ op|':'
 number|'1'
 op|','
 nl|'\n'
+string|"'hostname'"
+op|':'
+string|"'server-1234'"
+op|','
+nl|'\n'
 string|"'vm_state'"
 op|':'
 string|"'active'"
@@ -5203,7 +5218,7 @@ op|'['
 string|"'privateDnsName'"
 op|']'
 op|','
-string|"'192.168.0.3'"
+string|"'server-1234'"
 op|')'
 newline|'\n'
 name|'self'
