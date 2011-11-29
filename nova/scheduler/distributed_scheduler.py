@@ -851,11 +851,11 @@ op|','
 nl|'\n'
 string|"'run_instance'"
 op|','
-name|'instance_id'
+name|'instance_uuid'
 op|'='
 name|'instance'
 op|'['
-string|"'id'"
+string|"'uuid'"
 op|']'
 op|','
 op|'**'

@@ -458,11 +458,11 @@ op|','
 string|"'run_instance'"
 op|','
 nl|'\n'
-name|'instance_id'
+name|'instance_uuid'
 op|'='
 name|'instance_ref'
 op|'['
-string|"'id'"
+string|"'uuid'"
 op|']'
 op|','
 op|'**'
