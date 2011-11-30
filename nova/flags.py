@@ -2746,7 +2746,9 @@ op|'('
 op|')'
 op|','
 nl|'\n'
-string|"'name of this node'"
+string|"'Name of this node.  This can be an opaque identifier.  It is '"
+nl|'\n'
+string|"'not necessarily a hostname, FQDN, or IP address.'"
 op|')'
 newline|'\n'
 nl|'\n'
