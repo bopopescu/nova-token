@@ -2539,6 +2539,27 @@ op|')'
 newline|'\n'
 name|'DEFINE_string'
 op|'('
+string|"'instance_dns_manager'"
+op|','
+nl|'\n'
+string|"'nova.network.instance_dns_driver.InstanceDNSManagerDriver'"
+op|','
+nl|'\n'
+string|"'DNS Manager for instance IPs'"
+op|')'
+newline|'\n'
+name|'DEFINE_string'
+op|'('
+string|"'instance_dns_zone'"
+op|','
+string|"''"
+op|','
+nl|'\n'
+string|"'DNS Zone for instance IPs'"
+op|')'
+newline|'\n'
+name|'DEFINE_string'
+op|'('
 string|"'network_manager'"
 op|','
 string|"'nova.network.manager.VlanManager'"
