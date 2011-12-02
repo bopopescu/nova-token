@@ -3095,6 +3095,12 @@ newline|'\n'
 name|'try'
 op|':'
 newline|'\n'
+comment|"#NOTE(francois-charlier) Since 0.24 'collie cluster info -r'"
+nl|'\n'
+comment|"#  gives short output, but for compatibility reason we won't"
+nl|'\n'
+comment|"#  use it and just check if 'running' is in the output."
+nl|'\n'
 indent|'            '
 op|'('
 name|'out'
@@ -3115,11 +3121,12 @@ op|')'
 newline|'\n'
 name|'if'
 name|'not'
+string|"'running'"
+name|'in'
 name|'out'
 op|'.'
-name|'startswith'
+name|'split'
 op|'('
-string|"'running'"
 op|')'
 op|':'
 newline|'\n'
