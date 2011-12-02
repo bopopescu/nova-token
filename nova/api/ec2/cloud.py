@@ -8173,7 +8173,10 @@ op|'['
 string|"'privateDnsName'"
 op|']'
 op|'='
-name|'fixed_ip'
+name|'instance'
+op|'['
+string|"'hostname'"
+op|']'
 newline|'\n'
 name|'i'
 op|'['
