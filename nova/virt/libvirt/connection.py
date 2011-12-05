@@ -510,7 +510,7 @@ nl|'\n'
 string|"'fake=nova.virt.libvirt.volume.LibvirtFakeVolumeDriver'"
 op|','
 nl|'\n'
-string|"'rdb=nova.virt.libvirt.volume.LibvirtNetVolumeDriver'"
+string|"'rbd=nova.virt.libvirt.volume.LibvirtNetVolumeDriver'"
 op|','
 nl|'\n'
 string|"'sheepdog=nova.virt.libvirt.volume.LibvirtNetVolumeDriver'"
