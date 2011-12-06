@@ -1289,6 +1289,11 @@ string|"'id'"
 op|']'
 op|','
 nl|'\n'
+name|'instance_uuid'
+op|'='
+string|"''"
+op|','
+nl|'\n'
 name|'host'
 op|'='
 name|'inst'
