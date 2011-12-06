@@ -332,6 +332,15 @@ string|"'id'"
 op|']'
 op|','
 nl|'\r\n'
+string|"'uuid'"
+op|':'
+name|'utils'
+op|'.'
+name|'gen_uuid'
+op|'('
+op|')'
+op|','
+nl|'\r\n'
 string|"'reservation_id'"
 op|':'
 name|'utils'
