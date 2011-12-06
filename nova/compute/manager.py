@@ -6052,9 +6052,9 @@ op|'.'
 name|'compute_topic'
 op|','
 nl|'\n'
-name|'instance_ref'
+name|'migration_ref'
 op|'['
-string|"'host'"
+string|"'source_compute'"
 op|']'
 op|')'
 newline|'\n'
