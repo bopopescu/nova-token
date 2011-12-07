@@ -170,6 +170,8 @@ string|"'fake'"
 op|','
 string|"'fake'"
 op|','
+name|'is_admin'
+op|'='
 name|'False'
 op|')'
 newline|'\n'
