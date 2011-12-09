@@ -95,7 +95,7 @@ name|'join'
 op|'('
 name|'ROOT'
 op|','
-string|"'.nova-venv'"
+string|"'.venv'"
 op|')'
 newline|'\n'
 DECL|variable|PIP_REQUIRES
@@ -1151,7 +1151,7 @@ newline|'\n'
 indent|'    '
 name|'help'
 op|'='
-string|'"""\n    Nova development environment setup is complete.\n\n    Nova development uses virtualenv to track and manage Python dependencies\n    while in development and testing.\n\n    To activate the Nova virtualenv for the extent of your current shell\n    session you can run:\n\n    $ source .nova-venv/bin/activate\n\n    Or, if you prefer, you can run commands in the virtualenv on a case by case\n    basis by running:\n\n    $ tools/with_venv.sh <your command>\n\n    Also, make test will automatically use the virtualenv.\n    """'
+string|'"""\n    Nova development environment setup is complete.\n\n    Nova development uses virtualenv to track and manage Python dependencies\n    while in development and testing.\n\n    To activate the Nova virtualenv for the extent of your current shell\n    session you can run:\n\n    $ source .venv/bin/activate\n\n    Or, if you prefer, you can run commands in the virtualenv on a case by case\n    basis by running:\n\n    $ tools/with_venv.sh <your command>\n\n    Also, make test will automatically use the virtualenv.\n    """'
 newline|'\n'
 name|'print'
 name|'help'
