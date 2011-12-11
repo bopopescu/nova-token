@@ -2354,6 +2354,29 @@ op|')'
 newline|'\n'
 name|'DEFINE_string'
 op|'('
+string|"'floating_ip_dns_manager'"
+op|','
+nl|'\n'
+string|"'nova.network.dns_driver.DNSDriver'"
+op|','
+nl|'\n'
+string|"'DNS Manager for floating IPs'"
+op|')'
+newline|'\n'
+name|'DEFINE_multistring'
+op|'('
+string|"'floating_ip_dns_zones'"
+op|','
+string|"''"
+op|','
+nl|'\n'
+string|"'DNS zones for floating IPs.'"
+nl|'\n'
+string|'\'e.g. "example.org"\''
+op|')'
+newline|'\n'
+name|'DEFINE_string'
+op|'('
 string|"'network_manager'"
 op|','
 string|"'nova.network.manager.VlanManager'"
