@@ -184,7 +184,10 @@ op|'['
 string|"'fixed_ip'"
 op|']'
 op|'['
-string|"'instance_id'"
+string|"'instance'"
+op|']'
+op|'['
+string|"'uuid'"
 op|']'
 newline|'\n'
 dedent|''
