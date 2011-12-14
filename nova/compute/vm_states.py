@@ -60,6 +60,11 @@ name|'SUSPENDED'
 op|'='
 string|"'suspended'"
 newline|'\n'
+DECL|variable|SHUTOFF
+name|'SHUTOFF'
+op|'='
+string|"'shutoff'"
+newline|'\n'
 DECL|variable|RESCUED
 name|'RESCUED'
 op|'='
