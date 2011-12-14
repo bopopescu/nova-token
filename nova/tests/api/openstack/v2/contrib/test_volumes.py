@@ -663,6 +663,9 @@ op|','
 string|"'displayDescription'"
 op|','
 string|"'volumeType'"
+op|','
+nl|'\n'
+string|"'snapshotId'"
 op|')'
 op|':'
 newline|'\n'
@@ -1208,6 +1211,11 @@ op|'='
 string|"'vol_type'"
 op|','
 nl|'\n'
+name|'snapshotId'
+op|'='
+string|"'snap_id'"
+op|','
+nl|'\n'
 name|'metadata'
 op|'='
 name|'dict'
@@ -1366,6 +1374,11 @@ op|'='
 string|"'vol1_type'"
 op|','
 nl|'\n'
+name|'snapshotId'
+op|'='
+string|"'snap1_id'"
+op|','
+nl|'\n'
 name|'metadata'
 op|'='
 name|'dict'
@@ -1462,6 +1475,11 @@ nl|'\n'
 name|'volumeType'
 op|'='
 string|"'vol2_type'"
+op|','
+nl|'\n'
+name|'snapshotId'
+op|'='
+string|"'snap2_id'"
 op|','
 nl|'\n'
 name|'metadata'
