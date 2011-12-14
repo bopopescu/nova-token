@@ -2235,6 +2235,14 @@ op|':'
 name|'True'
 op|','
 nl|'\n'
+string|"'bridge'"
+op|':'
+name|'net'
+op|'['
+string|"'bridge'"
+op|']'
+op|','
+nl|'\n'
 string|"'multi_host'"
 op|':'
 name|'False'
