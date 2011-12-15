@@ -1878,12 +1878,12 @@ comment|'# Tells scheduler we created the instance already.'
 nl|'\n'
 name|'base_options'
 op|'['
-string|"'id'"
+string|"'uuid'"
 op|']'
 op|'='
 name|'instance'
 op|'['
-string|"'id'"
+string|"'uuid'"
 op|']'
 newline|'\n'
 name|'rpc_method'
