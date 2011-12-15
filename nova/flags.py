@@ -2336,7 +2336,7 @@ op|'('
 string|"'instance_dns_manager'"
 op|','
 nl|'\n'
-string|"'nova.network.instance_dns_driver.InstanceDNSManagerDriver'"
+string|"'nova.network.dns_driver.DNSDriver'"
 op|','
 nl|'\n'
 string|"'DNS Manager for instance IPs'"
