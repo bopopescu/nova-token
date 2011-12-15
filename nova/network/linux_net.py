@@ -198,18 +198,6 @@ op|')'
 newline|'\n'
 name|'flags'
 op|'.'
-name|'DEFINE_string'
-op|'('
-string|"'input_chain'"
-op|','
-string|"'INPUT'"
-op|','
-nl|'\n'
-string|"'chain to add nova_input to'"
-op|')'
-newline|'\n'
-name|'flags'
-op|'.'
 name|'DEFINE_integer'
 op|'('
 string|"'dhcp_lease_time'"
