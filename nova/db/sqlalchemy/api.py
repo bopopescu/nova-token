@@ -5373,9 +5373,9 @@ op|')'
 op|'.'
 name|'options'
 op|'('
-name|'joinedload'
+name|'joinedload_all'
 op|'('
-string|"'fixed_ips'"
+string|"'fixed_ips.floating_ips'"
 op|')'
 op|')'
 newline|'\n'
