@@ -304,8 +304,11 @@ op|'.'
 name|'execute'
 op|','
 nl|'\n'
-string|"'/bin/true'"
+string|"'/usr/bin/env'"
 op|','
+string|"'true'"
+op|','
+nl|'\n'
 name|'this_is_not_a_valid_kwarg'
 op|'='
 name|'True'
@@ -326,7 +329,9 @@ name|'utils'
 op|'.'
 name|'execute'
 op|'('
-string|"'/bin/false'"
+string|"'/usr/bin/env'"
+op|','
+string|"'false'"
 op|','
 name|'check_exit_code'
 op|'='
@@ -347,7 +352,9 @@ op|'.'
 name|'execute'
 op|','
 nl|'\n'
-string|"'/bin/false'"
+string|"'/usr/bin/env'"
+op|','
+string|"'false'"
 op|','
 name|'check_exit_code'
 op|'='
