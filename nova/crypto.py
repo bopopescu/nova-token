@@ -596,6 +596,10 @@ op|','
 string|"''"
 op|','
 nl|'\n'
+string|"'-t'"
+op|','
+string|"'rsa'"
+op|','
 string|"'-f'"
 op|','
 name|'keyfile'
