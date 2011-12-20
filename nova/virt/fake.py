@@ -1228,7 +1228,7 @@ op|':'
 newline|'\n'
 indent|'        '
 name|'return'
-string|"'FAKE CONSOLE\\xffOUTPUT'"
+string|"'FAKE CONSOLE OUTPUT\\nANOTHER\\nLAST LINE'"
 newline|'\n'
 nl|'\n'
 DECL|member|get_ajax_console
