@@ -108,12 +108,6 @@ op|'='
 string|"'resize_verify'"
 newline|'\n'
 nl|'\n'
-DECL|variable|REBUILDING
-name|'REBUILDING'
-op|'='
-string|"'rebuilding'"
-newline|'\n'
-nl|'\n'
 DECL|variable|REBOOTING
 name|'REBOOTING'
 op|'='

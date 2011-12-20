@@ -12517,10 +12517,10 @@ name|'assertEqual'
 op|'('
 name|'instance'
 op|'['
-string|"'task_state'"
+string|"'vm_state'"
 op|']'
 op|','
-name|'task_states'
+name|'vm_states'
 op|'.'
 name|'REBUILDING'
 op|')'
