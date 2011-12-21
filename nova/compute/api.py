@@ -1381,7 +1381,7 @@ string|"'vm_mode'"
 op|']'
 newline|'\n'
 nl|'\n'
-comment|"# If instance doesn't have auto_disk_config overriden by request, use"
+comment|"# If instance doesn't have auto_disk_config overridden by request, use"
 nl|'\n'
 comment|'# whatever the image indicates'
 nl|'\n'
@@ -5365,7 +5365,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'        '
-string|'"""Get all instances filtered by one of the given parameters.\n\n        If there is no filter and the context is an admin, it will retreive\n        all instances in the system.\n\n        Deleted instances will be returned by default, unless there is a\n        search option that says otherwise.\n        """'
+string|'"""Get all instances filtered by one of the given parameters.\n\n        If there is no filter and the context is an admin, it will retrieve\n        all instances in the system.\n\n        Deleted instances will be returned by default, unless there is a\n        search option that says otherwise.\n        """'
 newline|'\n'
 nl|'\n'
 name|'if'
