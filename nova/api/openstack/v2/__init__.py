@@ -859,13 +859,6 @@ newline|'\n'
 nl|'\n'
 name|'server_members'
 op|'['
-string|"'diagnostics'"
-op|']'
-op|'='
-string|"'GET'"
-newline|'\n'
-name|'server_members'
-op|'['
 string|"'actions'"
 op|']'
 op|'='
