@@ -206,7 +206,7 @@ newline|'\n'
 DECL|variable|admin_only
 name|'admin_only'
 op|'='
-name|'False'
+name|'True'
 newline|'\n'
 nl|'\n'
 DECL|member|get_resources
