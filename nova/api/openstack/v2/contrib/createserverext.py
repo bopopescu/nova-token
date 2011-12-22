@@ -234,10 +234,11 @@ name|'alias'
 op|'='
 string|'"os-create-server-ext"'
 newline|'\n'
-DECL|variable|namespace
 name|'namespace'
 op|'='
-string|'"http://docs.openstack.org/ext/createserverext/api/v1.1"'
+string|'"http://docs.openstack.org/compute/ext/"'
+DECL|variable|namespace
+string|'"createserverext/api/v1.1"'
 newline|'\n'
 DECL|variable|updated
 name|'updated'

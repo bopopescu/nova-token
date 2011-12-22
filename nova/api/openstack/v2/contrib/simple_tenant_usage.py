@@ -1599,10 +1599,11 @@ name|'alias'
 op|'='
 string|'"os-simple-tenant-usage"'
 newline|'\n'
-DECL|variable|namespace
 name|'namespace'
 op|'='
-string|'"http://docs.openstack.org/ext/os-simple-tenant-usage/api/v1.1"'
+string|'"http://docs.openstack.org/compute/ext/"'
+DECL|variable|namespace
+string|'"os-simple-tenant-usage/api/v1.1"'
 newline|'\n'
 DECL|variable|updated
 name|'updated'

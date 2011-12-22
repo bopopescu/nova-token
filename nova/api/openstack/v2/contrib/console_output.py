@@ -103,10 +103,11 @@ name|'alias'
 op|'='
 string|'"os-console-output"'
 newline|'\n'
-DECL|variable|namespace
 name|'namespace'
 op|'='
-string|'"http://docs.openstack.org/ext/os-console-output/api/v2"'
+string|'"http://docs.openstack.org/compute/ext/"'
+DECL|variable|namespace
+string|'"os-console-output/api/v2"'
 newline|'\n'
 DECL|variable|updated
 name|'updated'

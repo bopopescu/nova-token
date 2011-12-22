@@ -435,10 +435,11 @@ name|'alias'
 op|'='
 string|'"virtual_interfaces"'
 newline|'\n'
-DECL|variable|namespace
 name|'namespace'
 op|'='
-string|'"http://docs.openstack.org/ext/virtual_interfaces/api/v1.1"'
+string|'"http://docs.openstack.org/compute/ext/"'
+DECL|variable|namespace
+string|'"virtual_interfaces/api/v1.1"'
 newline|'\n'
 DECL|variable|updated
 name|'updated'

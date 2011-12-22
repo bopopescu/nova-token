@@ -71,10 +71,11 @@ name|'alias'
 op|'='
 string|'"os-flavor-extra-data"'
 newline|'\n'
-DECL|variable|namespace
 name|'namespace'
 op|'='
-string|'"http://docs.openstack.org/ext/flavor_extra_data/api/v1.1"'
+string|'"http://docs.openstack.org/compute/ext/"'
+DECL|variable|namespace
+string|'"flavor_extra_data/api/v1.1"'
 newline|'\n'
 DECL|variable|updated
 name|'updated'

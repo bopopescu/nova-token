@@ -3249,7 +3249,7 @@ newline|'\n'
 DECL|variable|namespace
 name|'namespace'
 op|'='
-string|'"http://docs.openstack.org/ext/volumes/api/v1.1"'
+string|'"http://docs.openstack.org/compute/ext/volumes/api/v1.1"'
 newline|'\n'
 DECL|variable|updated
 name|'updated'

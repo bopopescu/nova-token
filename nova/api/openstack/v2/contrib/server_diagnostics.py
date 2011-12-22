@@ -193,10 +193,11 @@ name|'alias'
 op|'='
 string|'"os-server-diagnostics"'
 newline|'\n'
-DECL|variable|namespace
 name|'namespace'
 op|'='
-string|'"http://docs.openstack.org/ext/server-diagnostics/api/v1.1"'
+string|'"http://docs.openstack.org/compute/ext/"'
+DECL|variable|namespace
+string|'"server-diagnostics/api/v1.1"'
 newline|'\n'
 DECL|variable|updated
 name|'updated'
