@@ -49,9 +49,9 @@ name|'filters'
 op|'='
 op|'['
 nl|'\n'
-comment|"# nova/virt/disk.py: 'kpartx', '-a', device"
+comment|"# nova/virt/disk/mount.py: 'kpartx', '-a', device"
 nl|'\n'
-comment|"# nova/virt/disk.py: 'kpartx', '-d', device"
+comment|"# nova/virt/disk/mount.py: 'kpartx', '-d', device"
 nl|'\n'
 name|'CommandFilter'
 op|'('
@@ -62,7 +62,7 @@ op|')'
 op|','
 nl|'\n'
 nl|'\n'
-comment|"# nova/virt/disk.py: 'tune2fs', '-c', 0, '-i', 0, mapped_device"
+comment|"# nova/virt/disk/mount.py: 'tune2fs', '-c', 0, '-i', 0, mapped_device"
 nl|'\n'
 comment|'# nova/virt/xenapi/vm_utils.py: "tune2fs", "-O ^has_journal", part_path'
 nl|'\n'
@@ -77,11 +77,7 @@ op|')'
 op|','
 nl|'\n'
 nl|'\n'
-comment|"# nova/virt/disk.py: 'mount', mapped_device, tmpdir"
-nl|'\n'
-comment|"# nova/virt/disk.py: 'mount', device, container_dir"
-nl|'\n'
-comment|"# nova/virt/disk.py: 'mount'"
+comment|"# nova/virt/disk/mount.py: 'mount', mapped_device, mount_dir"
 nl|'\n'
 comment|"# nova/virt/xenapi/vm_utils.py: 'mount', '-t', 'ext2,ext3,ext4,reiserfs'.."
 nl|'\n'
@@ -94,9 +90,7 @@ op|')'
 op|','
 nl|'\n'
 nl|'\n'
-comment|"# nova/virt/disk.py: 'umount', mapped_device"
-nl|'\n'
-comment|"# nova/virt/disk.py: 'umount', container_dir"
+comment|"# nova/virt/disk/mount.py: 'umount', mapped_device"
 nl|'\n'
 comment|"# nova/virt/xenapi/vm_utils.py: 'umount', dev_path"
 nl|'\n'
@@ -109,9 +103,9 @@ op|')'
 op|','
 nl|'\n'
 nl|'\n'
-comment|"# nova/virt/disk.py: 'qemu-nbd', '-c', device, image"
+comment|"# nova/virt/disk/nbd.py: 'qemu-nbd', '-c', device, image"
 nl|'\n'
-comment|"# nova/virt/disk.py: 'qemu-nbd', '-d', device"
+comment|"# nova/virt/disk/nbd.py: 'qemu-nbd', '-d', device"
 nl|'\n'
 name|'CommandFilter'
 op|'('
@@ -122,9 +116,9 @@ op|')'
 op|','
 nl|'\n'
 nl|'\n'
-comment|"# nova/virt/disk.py: 'losetup', '--find', '--show', image"
+comment|"# nova/virt/disk/loop.py: 'losetup', '--find', '--show', image"
 nl|'\n'
-comment|"# nova/virt/disk.py: 'losetup', '--detach', device"
+comment|"# nova/virt/disk/loop.py: 'losetup', '--detach', device"
 nl|'\n'
 name|'CommandFilter'
 op|'('
@@ -135,11 +129,11 @@ op|')'
 op|','
 nl|'\n'
 nl|'\n'
-comment|"# nova/virt/disk.py: 'tee', metadata_path"
+comment|"# nova/virt/disk/api.py: 'tee', metadata_path"
 nl|'\n'
-comment|"# nova/virt/disk.py: 'tee', '-a', keyfile"
+comment|"# nova/virt/disk/api.py: 'tee', '-a', keyfile"
 nl|'\n'
-comment|"# nova/virt/disk.py: 'tee', netfile"
+comment|"# nova/virt/disk/api.py: 'tee', netfile"
 nl|'\n'
 name|'CommandFilter'
 op|'('
@@ -150,9 +144,9 @@ op|')'
 op|','
 nl|'\n'
 nl|'\n'
-comment|"# nova/virt/disk.py: 'mkdir', '-p', sshdir"
+comment|"# nova/virt/disk/api.py: 'mkdir', '-p', sshdir"
 nl|'\n'
-comment|"# nova/virt/disk.py: 'mkdir', '-p', netdir"
+comment|"# nova/virt/disk/api.py: 'mkdir', '-p', netdir"
 nl|'\n'
 name|'CommandFilter'
 op|'('
@@ -163,9 +157,9 @@ op|')'
 op|','
 nl|'\n'
 nl|'\n'
-comment|"# nova/virt/disk.py: 'chown', 'root', sshdir"
+comment|"# nova/virt/disk/api.py: 'chown', 'root', sshdir"
 nl|'\n'
-comment|"# nova/virt/disk.py: 'chown', 'root:root', netdir"
+comment|"# nova/virt/disk/api.py: 'chown', 'root:root', netdir"
 nl|'\n'
 comment|"# nova/virt/libvirt/connection.py: 'chown', os.getuid(), console_log"
 nl|'\n'
@@ -184,9 +178,9 @@ op|')'
 op|','
 nl|'\n'
 nl|'\n'
-comment|"# nova/virt/disk.py: 'chmod', '700', sshdir"
+comment|"# nova/virt/disk/api.py: 'chmod', '700', sshdir"
 nl|'\n'
-comment|"# nova/virt/disk.py: 'chmod', 755, netdir"
+comment|"# nova/virt/disk/api.py: 'chmod', 755, netdir"
 nl|'\n'
 name|'CommandFilter'
 op|'('
