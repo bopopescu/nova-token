@@ -1270,9 +1270,9 @@ newline|'\n'
 indent|'        '
 name|'return'
 op|'{'
-string|"'token'"
+string|"'internal_access_path'"
 op|':'
-string|"'FAKETOKEN'"
+string|"'FAKE'"
 op|','
 nl|'\n'
 string|"'host'"

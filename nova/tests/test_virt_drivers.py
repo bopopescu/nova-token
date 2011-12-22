@@ -2003,7 +2003,7 @@ name|'self'
 op|'.'
 name|'assertIn'
 op|'('
-string|"'token'"
+string|"'internal_access_path'"
 op|','
 name|'vnc_console'
 op|')'

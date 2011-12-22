@@ -426,6 +426,9 @@ nl|'\n'
 string|"'bin/nova-console'"
 op|','
 nl|'\n'
+string|"'bin/nova-consoleauth'"
+op|','
+nl|'\n'
 string|"'bin/nova-dhcpbridge'"
 op|','
 nl|'\n'
@@ -453,13 +456,13 @@ nl|'\n'
 string|"'bin/nova-spoolsentry'"
 op|','
 nl|'\n'
-string|"'bin/nova-vncproxy'"
-op|','
-nl|'\n'
 string|"'bin/nova-volume'"
 op|','
 nl|'\n'
 string|"'bin/nova-vsa'"
+op|','
+nl|'\n'
+string|"'bin/nova-xvpvncproxy'"
 op|','
 nl|'\n'
 string|"'bin/stack'"
