@@ -102,15 +102,6 @@ name|'flags'
 op|'.'
 name|'FLAGS'
 newline|'\n'
-name|'flags'
-op|'.'
-name|'DECLARE'
-op|'('
-string|"'dhcp_domain'"
-op|','
-string|"'nova.network.manager'"
-op|')'
-newline|'\n'
 nl|'\n'
 DECL|variable|USER_DATA_STRING
 name|'USER_DATA_STRING'

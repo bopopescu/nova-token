@@ -140,6 +140,15 @@ op|','
 string|"'nova.api.auth'"
 op|')'
 newline|'\n'
+name|'flags'
+op|'.'
+name|'DECLARE'
+op|'('
+string|"'dhcp_domain'"
+op|','
+string|"'nova.network.manager'"
+op|')'
+newline|'\n'
 nl|'\n'
 DECL|variable|_DEFAULT_MAPPINGS
 name|'_DEFAULT_MAPPINGS'
