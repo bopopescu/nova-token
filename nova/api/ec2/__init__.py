@@ -1691,7 +1691,7 @@ string|"'all'"
 op|']'
 op|','
 nl|'\n'
-string|"'ImportPublicKey'"
+string|"'ImportKeyPair'"
 op|':'
 op|'['
 string|"'all'"
