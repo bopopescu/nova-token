@@ -205,7 +205,7 @@ op|','
 number|'120'
 op|','
 nl|'\n'
-string|"'Lifetime of a DHCP lease'"
+string|"'Lifetime of a DHCP lease in seconds'"
 op|')'
 newline|'\n'
 name|'flags'
@@ -4008,12 +4008,19 @@ nl|'\n'
 string|"'--except-interface=lo'"
 op|','
 nl|'\n'
-string|"'--dhcp-range=%s,static,120s'"
+string|"'--dhcp-range=%s,static,%ss'"
 op|'%'
+op|'('
 name|'network_ref'
 op|'['
 string|"'dhcp_start'"
 op|']'
+op|','
+nl|'\n'
+name|'FLAGS'
+op|'.'
+name|'dhcp_lease_time'
+op|')'
 op|','
 nl|'\n'
 string|"'--dhcp-lease-max=%s'"
