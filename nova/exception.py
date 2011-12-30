@@ -1038,10 +1038,10 @@ op|')'
 newline|'\n'
 nl|'\n'
 nl|'\n'
-DECL|class|PolicyNotAllowed
+DECL|class|PolicyNotAuthorized
 dedent|''
 name|'class'
-name|'PolicyNotAllowed'
+name|'PolicyNotAuthorized'
 op|'('
 name|'NotAuthorized'
 op|')'
