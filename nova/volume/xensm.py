@@ -282,7 +282,7 @@ name|'backend_ref'
 op|'['
 string|"'sr_uuid'"
 op|']'
-op|'=='
+name|'is'
 name|'None'
 op|':'
 newline|'\n'
