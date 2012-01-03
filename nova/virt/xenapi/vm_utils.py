@@ -9313,7 +9313,7 @@ name|'ip_v6'
 name|'and'
 name|'info'
 op|'['
-string|"'gateway6'"
+string|"'gateway_v6'"
 op|']'
 name|'or'
 string|"''"

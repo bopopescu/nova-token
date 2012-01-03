@@ -392,7 +392,7 @@ op|':'
 name|'fake'
 op|','
 nl|'\n'
-string|"'gateway6'"
+string|"'gateway_v6'"
 op|':'
 name|'fake'
 op|','

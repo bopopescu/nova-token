@@ -1299,7 +1299,7 @@ name|'if'
 nl|'\n'
 name|'info'
 op|'['
-string|"'gateway6'"
+string|"'gateway_v6'"
 op|']'
 op|']'
 newline|'\n'
@@ -3336,7 +3336,7 @@ op|'='
 op|'['
 name|'mapping'
 op|'['
-string|"'gateway6'"
+string|"'gateway_v6'"
 op|']'
 name|'for'
 op|'('

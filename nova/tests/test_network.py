@@ -905,7 +905,7 @@ op|'%'
 name|'i'
 op|','
 nl|'\n'
-string|"'gateway6'"
+string|"'gateway_v6'"
 op|':'
 string|"'2001:db8:0:%x::1'"
 op|'%'
