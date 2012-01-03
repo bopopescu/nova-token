@@ -4508,7 +4508,7 @@ newline|'\n'
 indent|'                '
 name|'info'
 op|'['
-string|"'gateway6'"
+string|"'gateway_v6'"
 op|']'
 op|'='
 name|'network'

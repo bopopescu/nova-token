@@ -2189,7 +2189,7 @@ op|':'
 string|"'192.168.0.1'"
 op|','
 nl|'\n'
-string|"'gateway6'"
+string|"'gateway_v6'"
 op|':'
 string|"'dead:beef::1'"
 op|','
@@ -2879,7 +2879,7 @@ op|':'
 string|"'192.168.0.1'"
 op|','
 nl|'\n'
-string|"'gateway6'"
+string|"'gateway_v6'"
 op|':'
 string|"'dead:beef::1'"
 op|','
@@ -4743,7 +4743,7 @@ op|':'
 string|"'192.168.0.1'"
 op|','
 nl|'\n'
-string|"'gateway6'"
+string|"'gateway_v6'"
 op|':'
 string|"'dead:beef::1'"
 op|','
@@ -6023,7 +6023,7 @@ op|':'
 string|"'192.168.0.1'"
 op|','
 nl|'\n'
-string|"'gateway6'"
+string|"'gateway_v6'"
 op|':'
 string|"'dead:beef::1'"
 op|','
@@ -6359,7 +6359,7 @@ op|':'
 string|"'192.168.0.1'"
 op|','
 nl|'\n'
-string|"'gateway6'"
+string|"'gateway_v6'"
 op|':'
 string|"'dead:beef::1'"
 op|','
@@ -6657,7 +6657,7 @@ op|':'
 string|"'192.168.0.1'"
 op|','
 nl|'\n'
-string|"'gateway6'"
+string|"'gateway_v6'"
 op|':'
 string|"'dead:beef::1'"
 op|','
@@ -6903,7 +6903,7 @@ op|':'
 string|"'192.168.0.1'"
 op|','
 nl|'\n'
-string|"'gateway6'"
+string|"'gateway_v6'"
 op|':'
 string|"'dead:beef::1'"
 op|','

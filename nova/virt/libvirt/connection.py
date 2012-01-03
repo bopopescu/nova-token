@@ -6219,7 +6219,7 @@ name|'gateway_v6'
 op|'='
 name|'mapping'
 op|'['
-string|"'gateway6'"
+string|"'gateway_v6'"
 op|']'
 newline|'\n'
 dedent|''
@@ -6277,7 +6277,7 @@ op|':'
 name|'address_v6'
 op|','
 nl|'\n'
-string|"'gateway6'"
+string|"'gateway_v6'"
 op|':'
 name|'gateway_v6'
 op|','
