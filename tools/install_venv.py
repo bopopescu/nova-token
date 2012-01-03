@@ -965,7 +965,8 @@ string|"'tools/with_venv.sh'"
 op|','
 string|"'easy_install'"
 op|','
-string|"'pip'"
+nl|'\n'
+string|"'pip>1.0'"
 op|']'
 op|')'
 op|'.'
