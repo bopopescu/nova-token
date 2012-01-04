@@ -169,11 +169,11 @@ nl|'\n'
 nl|'\n'
 name|'flags'
 op|'.'
-name|'DEFINE_string'
+name|'DEFINE_bool'
 op|'('
 string|"'quantum_use_dhcp'"
 op|','
-string|"'False'"
+name|'False'
 op|','
 nl|'\n'
 string|"'Whether or not to enable DHCP for networks'"
