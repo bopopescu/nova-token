@@ -1,4 +1,6 @@
 begin_unit
+comment|'# Copyright (c) 2011 X.commerce, a business unit of eBay Inc.'
+nl|'\n'
 comment|'# Copyright 2011 Eldar Nugaev'
 nl|'\n'
 comment|'# All Rights Reserved.'
@@ -123,6 +125,11 @@ op|':'
 string|"'10.10.10.10'"
 op|','
 nl|'\n'
+string|"'pool'"
+op|':'
+string|"'nova'"
+op|','
+nl|'\n'
 string|"'fixed_ip'"
 op|':'
 name|'None'
@@ -153,6 +160,11 @@ op|','
 string|"'address'"
 op|':'
 string|"'10.10.10.10'"
+op|','
+nl|'\n'
+string|"'pool'"
+op|':'
+string|"'nova'"
 op|','
 nl|'\n'
 string|"'fixed_ip'"
@@ -200,6 +212,11 @@ op|':'
 string|"'10.10.10.10'"
 op|','
 nl|'\n'
+string|"'pool'"
+op|':'
+string|"'nova'"
+op|','
+nl|'\n'
 string|"'fixed_ip'"
 op|':'
 op|'{'
@@ -223,6 +240,15 @@ op|'{'
 string|"'id'"
 op|':'
 number|'2'
+op|','
+nl|'\n'
+string|"'pool'"
+op|':'
+string|"'nova'"
+op|','
+string|"'interface'"
+op|':'
+string|"'eth0'"
 op|','
 nl|'\n'
 string|"'address'"
@@ -540,6 +566,11 @@ op|':'
 name|'self'
 op|'.'
 name|'floating_ip'
+op|','
+nl|'\n'
+string|"'pool'"
+op|':'
+string|"'nova'"
 op|','
 nl|'\n'
 string|"'host'"
@@ -918,6 +949,11 @@ string|"'address'"
 op|':'
 string|"'10.0.0.10'"
 op|','
+string|"'pool'"
+op|':'
+string|"'nova'"
+op|','
+nl|'\n'
 string|"'fixed_ip'"
 op|':'
 name|'None'
@@ -992,6 +1028,11 @@ op|':'
 string|"'10.10.10.10'"
 op|','
 nl|'\n'
+string|"'pool'"
+op|':'
+string|"'nova'"
+op|','
+nl|'\n'
 string|"'fixed_ip'"
 op|':'
 string|"'10.0.0.1'"
@@ -1012,6 +1053,11 @@ nl|'\n'
 string|"'ip'"
 op|':'
 string|"'10.10.10.11'"
+op|','
+nl|'\n'
+string|"'pool'"
+op|':'
+string|"'nova'"
 op|','
 nl|'\n'
 string|"'fixed_ip'"
@@ -1149,6 +1195,11 @@ op|','
 string|"'address'"
 op|':'
 string|"'10.10.10.10'"
+op|','
+nl|'\n'
+string|"'pool'"
+op|':'
+string|"'nova'"
 op|','
 nl|'\n'
 string|"'fixed_ip'"
@@ -1395,6 +1446,10 @@ op|','
 string|"'address'"
 op|':'
 string|"'10.10.10.10'"
+op|','
+string|"'pool'"
+op|':'
+string|"'nova'"
 op|'}'
 newline|'\n'
 nl|'\n'
@@ -1489,6 +1544,11 @@ nl|'\n'
 string|'"fixed_ip"'
 op|':'
 name|'None'
+op|','
+nl|'\n'
+string|'"pool"'
+op|':'
+string|"'nova'"
 op|'}'
 newline|'\n'
 name|'self'

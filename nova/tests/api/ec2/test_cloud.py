@@ -2,6 +2,8 @@ begin_unit
 comment|'# vim: tabstop=4 shiftwidth=4 softtabstop=4'
 nl|'\n'
 nl|'\n'
+comment|'# Copyright (c) 2011 X.commerce, a business unit of eBay Inc.'
+nl|'\n'
 comment|'# Copyright 2010 United States Government as represented by the'
 nl|'\n'
 comment|'# Administrator of the National Aeronautics and Space Administration.'
@@ -900,13 +902,9 @@ op|':'
 name|'address'
 op|','
 nl|'\n'
-string|"'host'"
+string|"'pool'"
 op|':'
-name|'self'
-op|'.'
-name|'network'
-op|'.'
-name|'host'
+string|"'nova'"
 op|'}'
 op|')'
 newline|'\n'
@@ -997,13 +995,9 @@ op|':'
 name|'address'
 op|','
 nl|'\n'
-string|"'host'"
+string|"'pool'"
 op|':'
-name|'self'
-op|'.'
-name|'network'
-op|'.'
-name|'host'
+string|"'nova'"
 op|'}'
 op|')'
 newline|'\n'
@@ -1090,13 +1084,9 @@ op|':'
 name|'address'
 op|','
 nl|'\n'
-string|"'host'"
+string|"'pool'"
 op|':'
-name|'self'
-op|'.'
-name|'network'
-op|'.'
-name|'host'
+string|"'nova'"
 op|','
 nl|'\n'
 string|"'project_id'"
@@ -1161,10 +1151,16 @@ name|'self'
 op|'.'
 name|'context'
 op|','
+nl|'\n'
 op|'{'
 string|"'address'"
 op|':'
 name|'address'
+op|','
+nl|'\n'
+string|"'pool'"
+op|':'
+string|"'nova'"
 op|'}'
 op|')'
 newline|'\n'
