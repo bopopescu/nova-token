@@ -1024,6 +1024,10 @@ op|','
 name|'pool'
 op|'='
 name|'pool'
+op|','
+name|'instance_name'
+op|'='
+string|"'inst-0001'"
 op|')'
 newline|'\n'
 nl|'\n'
@@ -1052,6 +1056,11 @@ nl|'\n'
 string|"'password'"
 op|':'
 string|"'fake_password'"
+op|','
+nl|'\n'
+string|"'instance_name'"
+op|':'
+string|"'inst-0001'"
 op|','
 nl|'\n'
 string|"'console_type'"

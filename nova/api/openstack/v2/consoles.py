@@ -163,6 +163,14 @@ string|"'password'"
 op|']'
 op|','
 nl|'\n'
+string|"'instance_name'"
+op|':'
+name|'cons'
+op|'['
+string|"'instance_name'"
+op|']'
+op|','
+nl|'\n'
 string|"'port'"
 op|':'
 name|'cons'
