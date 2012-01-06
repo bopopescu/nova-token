@@ -685,7 +685,7 @@ newline|'\n'
 indent|'                '
 name|'filters'
 op|'['
-string|"'min_local_gb'"
+string|"'min_root_gb'"
 op|']'
 op|'='
 name|'int'

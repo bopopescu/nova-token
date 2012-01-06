@@ -180,9 +180,14 @@ op|':'
 number|'4'
 op|','
 nl|'\n'
-string|"'local_gb'"
+string|"'root_gb'"
 op|':'
 number|'40'
+op|','
+nl|'\n'
+string|"'ephemeral_gb'"
+op|':'
+number|'80'
 op|','
 nl|'\n'
 string|"'swap'"
@@ -257,6 +262,11 @@ nl|'\n'
 string|"'vcpus'"
 op|':'
 number|'2'
+op|','
+nl|'\n'
+string|"'root_gb'"
+op|':'
+number|'10'
 op|','
 nl|'\n'
 string|"'project_id'"

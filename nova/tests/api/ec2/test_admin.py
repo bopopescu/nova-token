@@ -724,7 +724,7 @@ op|':'
 number|'2'
 op|','
 nl|'\n'
-string|"'local_gb'"
+string|"'root_gb'"
 op|':'
 number|'500'
 op|','

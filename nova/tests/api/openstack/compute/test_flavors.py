@@ -135,7 +135,7 @@ op|':'
 string|"'256'"
 op|','
 nl|'\n'
-string|'"local_gb"'
+string|'"root_gb"'
 op|':'
 string|"'10'"
 nl|'\n'
@@ -161,7 +161,7 @@ op|':'
 string|"'512'"
 op|','
 nl|'\n'
-string|'"local_gb"'
+string|'"root_gb"'
 op|':'
 string|"'20'"
 nl|'\n'
@@ -284,9 +284,9 @@ dedent|''
 name|'elif'
 name|'reject_min'
 op|'('
-string|"'local_gb'"
+string|"'root_gb'"
 op|','
-string|"'min_local_gb'"
+string|"'min_root_gb'"
 op|')'
 op|':'
 newline|'\n'

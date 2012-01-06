@@ -19539,7 +19539,7 @@ op|')'
 newline|'\n'
 dedent|''
 name|'if'
-string|"'min_local_gb'"
+string|"'min_root_gb'"
 name|'in'
 name|'filters'
 op|':'
@@ -19556,11 +19556,11 @@ name|'models'
 op|'.'
 name|'InstanceTypes'
 op|'.'
-name|'local_gb'
+name|'root_gb'
 op|'>='
 name|'filters'
 op|'['
-string|"'min_local_gb'"
+string|"'min_root_gb'"
 op|']'
 op|')'
 newline|'\n'
