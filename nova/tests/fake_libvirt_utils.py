@@ -112,10 +112,10 @@ op|')'
 newline|'\n'
 nl|'\n'
 nl|'\n'
-DECL|function|get_backing_file
+DECL|function|get_disk_backing_file
 dedent|''
 name|'def'
-name|'get_backing_file'
+name|'get_disk_backing_file'
 op|'('
 name|'path'
 op|')'

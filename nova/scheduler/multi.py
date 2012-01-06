@@ -37,7 +37,6 @@ nl|'\n'
 nl|'\n'
 string|'"""\nScheduler that allows routing some calls to one driver and others to another.\n"""'
 newline|'\n'
-nl|'\n'
 name|'from'
 name|'nova'
 name|'import'
@@ -109,6 +108,11 @@ string|"'compute'"
 op|','
 nl|'\n'
 string|"'prep_resize'"
+op|':'
+string|"'compute'"
+op|','
+nl|'\n'
+string|"'live_migration'"
 op|':'
 string|"'compute'"
 op|','
