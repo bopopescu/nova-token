@@ -800,7 +800,7 @@ op|'['
 string|"'cidr'"
 op|']'
 op|','
-string|"'255.255.255.0'"
+string|"'10.10.0.0/24'"
 op|')'
 newline|'\n'
 name|'self'
@@ -853,7 +853,7 @@ op|'['
 string|"'address'"
 op|']'
 op|','
-string|"'192.168.1.1'"
+string|"'10.10.0.1'"
 op|')'
 newline|'\n'
 name|'self'
@@ -876,7 +876,7 @@ name|'dict'
 op|'('
 name|'address'
 op|'='
-string|"'192.168.1.100'"
+string|"'10.10.0.2'"
 op|')'
 op|')'
 op|','
@@ -890,7 +890,7 @@ name|'dict'
 op|'('
 name|'address'
 op|'='
-string|"'192.168.1.101'"
+string|"'10.10.0.3'"
 op|')'
 op|')'
 op|']'
@@ -1306,7 +1306,7 @@ name|'dict'
 op|'('
 name|'address'
 op|'='
-string|"'192.168.1.100'"
+string|"'10.10.0.2'"
 op|')'
 op|')'
 op|','
@@ -1320,7 +1320,7 @@ name|'dict'
 op|'('
 name|'address'
 op|'='
-string|"'192.168.1.101'"
+string|"'10.10.0.3'"
 op|')'
 op|')'
 op|','
@@ -1408,7 +1408,7 @@ name|'dict'
 op|'('
 name|'address'
 op|'='
-string|"'192.168.1.100'"
+string|"'10.10.0.2'"
 op|')'
 op|')'
 op|','
@@ -1422,7 +1422,7 @@ name|'dict'
 op|'('
 name|'address'
 op|'='
-string|"'192.168.1.101'"
+string|"'10.10.0.3'"
 op|')'
 op|')'
 op|','
@@ -2178,7 +2178,7 @@ name|'dict'
 op|'('
 name|'address'
 op|'='
-string|"'192.168.1.100'"
+string|"'10.10.0.2'"
 op|')'
 op|')'
 op|','
@@ -2192,7 +2192,7 @@ name|'dict'
 op|'('
 name|'address'
 op|'='
-string|"'192.168.1.101'"
+string|"'10.10.0.3'"
 op|')'
 op|')'
 op|']'
@@ -2315,7 +2315,7 @@ nl|'\n'
 op|'{'
 string|"'address'"
 op|':'
-string|"'192.168.1.100'"
+string|"'10.10.0.2'"
 op|'}'
 op|')'
 op|','
@@ -2328,7 +2328,7 @@ nl|'\n'
 op|'{'
 string|"'address'"
 op|':'
-string|"'192.168.1.101'"
+string|"'10.10.0.3'"
 op|'}'
 op|')'
 op|']'
@@ -2512,7 +2512,7 @@ op|'('
 op|'{'
 string|"'address'"
 op|':'
-string|"'192.168.1.100'"
+string|"'10.10.0.2'"
 op|'}'
 op|')'
 op|','
@@ -2525,7 +2525,7 @@ nl|'\n'
 op|'{'
 string|"'address'"
 op|':'
-string|"'192.168.1.101'"
+string|"'10.10.0.3'"
 op|'}'
 op|')'
 op|']'
@@ -2682,7 +2682,7 @@ op|'('
 op|'{'
 string|"'address'"
 op|':'
-string|"'192.168.1.100'"
+string|"'10.10.0.2'"
 op|'}'
 op|')'
 op|','
@@ -2695,7 +2695,7 @@ nl|'\n'
 op|'{'
 string|"'address'"
 op|':'
-string|"'192.168.1.101'"
+string|"'10.10.0.3'"
 op|'}'
 op|')'
 op|']'
