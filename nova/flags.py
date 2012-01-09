@@ -1973,10 +1973,13 @@ name|'DEFINE_list'
 op|'('
 string|"'enabled_apis'"
 op|','
+nl|'\n'
 op|'['
 string|"'ec2'"
 op|','
-string|"'osapi'"
+string|"'osapi_compute'"
+op|','
+string|"'osapi_volume'"
 op|','
 string|"'metadata'"
 op|']'
@@ -2032,24 +2035,28 @@ op|')'
 newline|'\n'
 name|'DEFINE_multistring'
 op|'('
-string|"'osapi_extension'"
+string|"'osapi_compute_extension'"
 op|','
 nl|'\n'
 op|'['
-string|"'nova.api.openstack.v2.contrib.standard_extensions'"
+string|"'nova.api.openstack.compute.contrib.standard_extensions'"
 op|']'
 op|','
 nl|'\n'
-string|"'osapi extension to load'"
+string|"'osapi compute extension to load'"
 op|')'
 newline|'\n'
-name|'DEFINE_string'
+name|'DEFINE_multistring'
 op|'('
-string|"'osapi_host'"
+string|"'osapi_volume_extension'"
 op|','
-string|"'$my_ip'"
+nl|'\n'
+op|'['
+string|"'nova.api.openstack.volume.contrib.standard_extensions'"
+op|']'
 op|','
-string|"'ip of api server'"
+nl|'\n'
+string|"'osapi volume extension to load'"
 op|')'
 newline|'\n'
 name|'DEFINE_string'
@@ -2059,15 +2066,6 @@ op|','
 string|"'http'"
 op|','
 string|"'prefix for openstack'"
-op|')'
-newline|'\n'
-name|'DEFINE_integer'
-op|'('
-string|"'osapi_port'"
-op|','
-number|'8774'
-op|','
-string|"'OpenStack API port'"
 op|')'
 newline|'\n'
 name|'DEFINE_string'

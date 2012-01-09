@@ -1768,7 +1768,7 @@ name|'self'
 op|'.'
 name|'api_get'
 op|'('
-string|"'/os-volumes/%s'"
+string|"'/volumes/%s'"
 op|'%'
 name|'volume_id'
 op|')'
@@ -1793,11 +1793,11 @@ newline|'\n'
 indent|'        '
 name|'rel_url'
 op|'='
-string|"'/os-volumes/detail'"
+string|"'/volumes/detail'"
 name|'if'
 name|'detail'
 name|'else'
-string|"'/os-volumes'"
+string|"'/volumes'"
 newline|'\n'
 name|'return'
 name|'self'
@@ -1828,7 +1828,7 @@ name|'self'
 op|'.'
 name|'api_post'
 op|'('
-string|"'/os-volumes'"
+string|"'/volumes'"
 op|','
 name|'volume'
 op|')'
@@ -1854,7 +1854,7 @@ name|'self'
 op|'.'
 name|'api_delete'
 op|'('
-string|"'/os-volumes/%s'"
+string|"'/volumes/%s'"
 op|'%'
 name|'volume_id'
 op|')'

@@ -182,7 +182,7 @@ name|'flags'
 op|'.'
 name|'DEFINE_string'
 op|'('
-string|"'osapi_listen'"
+string|"'osapi_compute_listen'"
 op|','
 string|'"0.0.0.0"'
 op|','
@@ -194,11 +194,12 @@ name|'flags'
 op|'.'
 name|'DEFINE_integer'
 op|'('
-string|"'osapi_listen_port'"
+string|"'osapi_compute_listen_port'"
 op|','
 number|'8774'
 op|','
-string|"'port for os api to listen'"
+nl|'\n'
+string|"'list port for osapi compute'"
 op|')'
 newline|'\n'
 name|'flags'
@@ -247,6 +248,30 @@ string|'"api-paste.ini"'
 op|','
 nl|'\n'
 string|"'File name for the paste.deploy config for nova-api'"
+op|')'
+newline|'\n'
+name|'flags'
+op|'.'
+name|'DEFINE_string'
+op|'('
+string|"'osapi_volume_listen'"
+op|','
+string|'"0.0.0.0"'
+op|','
+nl|'\n'
+string|"'IP address for OpenStack Volume API to listen'"
+op|')'
+newline|'\n'
+name|'flags'
+op|'.'
+name|'DEFINE_integer'
+op|'('
+string|"'osapi_volume_listen_port'"
+op|','
+number|'8776'
+op|','
+nl|'\n'
+string|"'port for os volume api to listen'"
 op|')'
 newline|'\n'
 nl|'\n'
