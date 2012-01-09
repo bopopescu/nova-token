@@ -5806,6 +5806,8 @@ indent|'        '
 name|'expected_xml'
 op|'='
 op|'('
+string|'"<?xml version=\'1.0\' encoding=\'UTF-8\'?>\\n"'
+nl|'\n'
 string|"'<wrapper><a>foo</a><b>bar</b></wrapper>'"
 op|')'
 newline|'\n'
