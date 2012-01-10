@@ -7608,12 +7608,9 @@ op|':'
 number|'1'
 op|','
 nl|'\n'
-string|"'original_host'"
+string|"'instance_properties'"
 op|':'
 name|'instance'
-op|'['
-string|"'host'"
-op|']'
 op|','
 nl|'\n'
 string|"'avoid_original_host'"
