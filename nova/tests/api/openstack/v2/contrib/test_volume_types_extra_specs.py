@@ -245,7 +245,7 @@ name|'self'
 op|'.'
 name|'api_path'
 op|'='
-string|"'/v2/123/os-volume-types/1/extra_specs'"
+string|"'/v2/fake/os-volume-types/1/extra_specs'"
 newline|'\n'
 name|'self'
 op|'.'

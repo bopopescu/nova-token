@@ -151,7 +151,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/123/images/123/metadata'"
+string|"'/v2/fake/images/123/metadata'"
 op|')'
 newline|'\n'
 name|'res_dict'

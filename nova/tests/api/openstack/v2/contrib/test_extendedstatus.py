@@ -164,7 +164,7 @@ name|'self'
 op|'.'
 name|'url'
 op|'='
-string|"'/v2/openstack/servers/%s'"
+string|"'/v2/fake/servers/%s'"
 op|'%'
 name|'self'
 op|'.'

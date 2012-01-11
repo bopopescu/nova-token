@@ -339,7 +339,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/123/servers/%s/action'"
+string|"'/v2/fake/servers/%s/action'"
 op|'%'
 name|'UUID'
 op|')'
@@ -450,7 +450,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/123/servers/%s/action'"
+string|"'/v2/fake/servers/%s/action'"
 op|'%'
 name|'UUID'
 op|')'
@@ -564,7 +564,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/123/servers/%s/action'"
+string|"'/v2/fake/servers/%s/action'"
 op|'%'
 name|'UUID'
 op|')'
@@ -675,7 +675,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/123/servers/%s/action'"
+string|"'/v2/fake/servers/%s/action'"
 op|'%'
 name|'UUID'
 op|')'

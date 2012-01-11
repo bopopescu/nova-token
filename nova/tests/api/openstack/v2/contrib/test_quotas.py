@@ -609,7 +609,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/1234/os-quota-sets/1234'"
+string|"'/v2/fake4/os-quota-sets/1234'"
 op|','
 nl|'\n'
 name|'use_admin_context'
@@ -662,7 +662,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/1234/os-quota-sets/1234'"
+string|"'/v2/fake4/os-quota-sets/1234'"
 op|')'
 newline|'\n'
 name|'self'
@@ -755,7 +755,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/1234/os-quota-sets/update_me'"
+string|"'/v2/fake4/os-quota-sets/update_me'"
 op|','
 nl|'\n'
 name|'use_admin_context'
@@ -856,7 +856,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/1234/os-quota-sets/update_me'"
+string|"'/v2/fake4/os-quota-sets/update_me'"
 op|')'
 newline|'\n'
 name|'self'

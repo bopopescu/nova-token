@@ -321,7 +321,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/123/os-keypairs'"
+string|"'/v2/fake/os-keypairs'"
 op|')'
 newline|'\n'
 name|'res'
@@ -416,7 +416,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/123/os-keypairs'"
+string|"'/v2/fake/os-keypairs'"
 op|')'
 newline|'\n'
 name|'req'
@@ -575,7 +575,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/123/os-keypairs'"
+string|"'/v2/fake/os-keypairs'"
 op|')'
 newline|'\n'
 name|'req'
@@ -690,7 +690,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/123/os-keypairs/FAKE'"
+string|"'/v2/fake/os-keypairs/FAKE'"
 op|')'
 newline|'\n'
 name|'req'

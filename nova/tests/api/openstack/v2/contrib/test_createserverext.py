@@ -1026,7 +1026,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/123/os-create-server-ext'"
+string|"'/v2/fake/os-create-server-ext'"
 op|')'
 newline|'\n'
 name|'req'
@@ -1369,7 +1369,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/123/os-create-server-ext'"
+string|"'/v2/fake/os-create-server-ext'"
 op|')'
 newline|'\n'
 name|'req'
@@ -2819,7 +2819,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/123/os-create-server-ext/1'"
+string|"'/v2/fake/os-create-server-ext/1'"
 op|')'
 newline|'\n'
 name|'req'
@@ -2932,7 +2932,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/123/os-create-server-ext/1'"
+string|"'/v2/fake/os-create-server-ext/1'"
 op|')'
 newline|'\n'
 name|'req'

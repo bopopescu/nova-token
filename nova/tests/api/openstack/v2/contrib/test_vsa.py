@@ -685,7 +685,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/777/zadr-vsa'"
+string|"'/v2/fake/zadr-vsa'"
 op|')'
 newline|'\n'
 name|'req'
@@ -843,7 +843,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/777/zadr-vsa'"
+string|"'/v2/fake/zadr-vsa'"
 op|')'
 newline|'\n'
 name|'req'
@@ -930,7 +930,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/777/zadr-vsa/%d'"
+string|"'/v2/fake/zadr-vsa/%d'"
 op|'%'
 name|'vsa_id'
 op|')'
@@ -1016,7 +1016,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/777/zadr-vsa/%d'"
+string|"'/v2/fake/zadr-vsa/%d'"
 op|'%'
 name|'vsa_id'
 op|')'
@@ -1102,7 +1102,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/777/zadr-vsa/%d'"
+string|"'/v2/fake/zadr-vsa/%d'"
 op|'%'
 name|'vsa_id'
 op|')'
@@ -1226,7 +1226,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/777/zadr-vsa/%d'"
+string|"'/v2/fake/zadr-vsa/%d'"
 op|'%'
 name|'vsa_id'
 op|')'
@@ -1298,7 +1298,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/777/zadr-vsa'"
+string|"'/v2/fake/zadr-vsa'"
 op|')'
 newline|'\n'
 name|'req'
@@ -1412,7 +1412,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/777/zadr-vsa/detail'"
+string|"'/v2/fake/zadr-vsa/detail'"
 op|')'
 newline|'\n'
 name|'req'
@@ -2252,7 +2252,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/777/zadr-vsa/123/%s'"
+string|"'/v2/fake/zadr-vsa/123/%s'"
 op|'%'
 name|'self'
 op|'.'
@@ -2441,7 +2441,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/777/zadr-vsa/123/%s'"
+string|"'/v2/fake/zadr-vsa/123/%s'"
 op|'%'
 name|'self'
 op|'.'
@@ -2545,7 +2545,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/777/zadr-vsa/123/%s'"
+string|"'/v2/fake/zadr-vsa/123/%s'"
 op|'%'
 name|'self'
 op|'.'
@@ -2595,7 +2595,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/777/zadr-vsa/123/%s/detail'"
+string|"'/v2/fake/zadr-vsa/123/%s/detail'"
 op|'%'
 name|'self'
 op|'.'
@@ -2657,7 +2657,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/777/zadr-vsa/123/%s/%s'"
+string|"'/v2/fake/zadr-vsa/123/%s/%s'"
 op|'%'
 op|'('
 name|'self'
@@ -2711,7 +2711,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/777/zadr-vsa/4/%s/333'"
+string|"'/v2/fake/zadr-vsa/4/%s/333'"
 op|'%'
 op|'('
 name|'self'
@@ -2781,7 +2781,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/777/zadr-vsa/123/%s/333'"
+string|"'/v2/fake/zadr-vsa/123/%s/333'"
 op|'%'
 op|'('
 name|'self'
@@ -2868,7 +2868,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/777/zadr-vsa/123/%s/%s'"
+string|"'/v2/fake/zadr-vsa/123/%s/%s'"
 op|'%'
 op|'('
 name|'self'
@@ -2987,7 +2987,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/777/zadr-vsa/123/%s/%s'"
+string|"'/v2/fake/zadr-vsa/123/%s/%s'"
 op|'%'
 op|'('
 name|'self'
@@ -3073,7 +3073,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/777/zadr-vsa/4/%s/333'"
+string|"'/v2/fake/zadr-vsa/4/%s/333'"
 op|'%'
 op|'('
 name|'self'
@@ -3149,7 +3149,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/777/zadr-vsa/123/%s/333'"
+string|"'/v2/fake/zadr-vsa/123/%s/333'"
 op|'%'
 op|'('
 name|'self'

@@ -223,7 +223,7 @@ newline|'\n'
 indent|'        '
 name|'url'
 op|'='
-string|"'/v2/123/servers/abcd/os-virtual-interfaces'"
+string|"'/v2/fake/servers/abcd/os-virtual-interfaces'"
 newline|'\n'
 name|'req'
 op|'='

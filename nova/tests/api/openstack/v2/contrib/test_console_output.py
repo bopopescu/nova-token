@@ -285,7 +285,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/123/servers/1/action'"
+string|"'/v2/fake/servers/1/action'"
 op|')'
 newline|'\n'
 name|'req'
@@ -394,7 +394,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/123/servers/1/action'"
+string|"'/v2/fake/servers/1/action'"
 op|')'
 newline|'\n'
 name|'req'
@@ -514,7 +514,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/123/servers/1/action'"
+string|"'/v2/fake/servers/1/action'"
 op|')'
 newline|'\n'
 name|'req'
@@ -592,7 +592,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/123/servers/1/action'"
+string|"'/v2/fake/servers/1/action'"
 op|')'
 newline|'\n'
 name|'req'

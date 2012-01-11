@@ -481,7 +481,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/123/os-volume-types'"
+string|"'/v2/fake/os-volume-types'"
 op|')'
 newline|'\n'
 name|'res_dict'
@@ -589,7 +589,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/123/os-volume-types'"
+string|"'/v2/fake/os-volume-types'"
 op|')'
 newline|'\n'
 name|'res_dict'
@@ -650,7 +650,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/123/os-volume-types/1'"
+string|"'/v2/fake/os-volume-types/1'"
 op|')'
 newline|'\n'
 name|'res_dict'
@@ -728,7 +728,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/123/os-volume-types/777'"
+string|"'/v2/fake/os-volume-types/777'"
 op|')'
 newline|'\n'
 name|'self'
@@ -801,7 +801,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/123/os-volume-types/1'"
+string|"'/v2/fake/os-volume-types/1'"
 op|')'
 newline|'\n'
 name|'self'
@@ -863,7 +863,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/123/os-volume-types/777'"
+string|"'/v2/fake/os-volume-types/777'"
 op|')'
 newline|'\n'
 name|'self'
@@ -957,7 +957,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/123/os-volume-types'"
+string|"'/v2/fake/os-volume-types'"
 op|')'
 newline|'\n'
 name|'res_dict'
@@ -1049,7 +1049,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/123/os-volume-types'"
+string|"'/v2/fake/os-volume-types'"
 op|')'
 newline|'\n'
 name|'self'

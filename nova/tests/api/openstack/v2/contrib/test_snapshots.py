@@ -700,7 +700,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/777/os-snapshots'"
+string|"'/v2/fake/os-snapshots'"
 op|')'
 newline|'\n'
 name|'req'
@@ -925,7 +925,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/777/os-snapshots'"
+string|"'/v2/fake/os-snapshots'"
 op|')'
 newline|'\n'
 name|'req'
@@ -1122,7 +1122,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/777/os-snapshots/%d'"
+string|"'/v2/fake/os-snapshots/%d'"
 op|'%'
 name|'snapshot_id'
 op|')'
@@ -1208,7 +1208,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/777/os-snapshots/%d'"
+string|"'/v2/fake/os-snapshots/%d'"
 op|'%'
 name|'snapshot_id'
 op|')'
@@ -1294,7 +1294,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/777/os-snapshots/%d'"
+string|"'/v2/fake/os-snapshots/%d'"
 op|'%'
 name|'snapshot_id'
 op|')'
@@ -1431,7 +1431,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/777/os-snapshots/%d'"
+string|"'/v2/fake/os-snapshots/%d'"
 op|'%'
 name|'snapshot_id'
 op|')'
@@ -1503,7 +1503,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v1.1/777/os-snapshots/detail'"
+string|"'/v2/fake/os-snapshots/detail'"
 op|')'
 newline|'\n'
 name|'req'

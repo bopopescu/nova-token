@@ -468,7 +468,7 @@ op|'.'
 name|'blank'
 op|'('
 nl|'\n'
-string|"'/v2/123/os-simple-tenant-usage?start=%s&end=%s'"
+string|"'/v2/faketenant_0/os-simple-tenant-usage?start=%s&end=%s'"
 op|'%'
 nl|'\n'
 op|'('
@@ -701,7 +701,7 @@ op|'.'
 name|'blank'
 op|'('
 nl|'\n'
-string|"'/v2/123/os-simple-tenant-usage?'"
+string|"'/v2/faketenant_0/os-simple-tenant-usage?'"
 nl|'\n'
 string|"'detailed=1&start=%s&end=%s'"
 op|'%'
@@ -855,7 +855,7 @@ op|'.'
 name|'blank'
 op|'('
 nl|'\n'
-string|"'/v2/123/os-simple-tenant-usage?'"
+string|"'/v2/faketenant_0/os-simple-tenant-usage?'"
 nl|'\n'
 string|"'detailed=1&start=%s&end=%s'"
 op|'%'
@@ -901,6 +901,12 @@ name|'fakes'
 op|'.'
 name|'wsgi_app'
 op|'('
+nl|'\n'
+name|'fake_auth_context'
+op|'='
+name|'self'
+op|'.'
+name|'user_context'
 op|')'
 op|')'
 newline|'\n'

@@ -286,7 +286,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/123/flavors/1/os-extra_specs'"
+string|"'/v2/fake/flavors/1/os-extra_specs'"
 op|')'
 newline|'\n'
 name|'res_dict'
@@ -354,7 +354,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/123/flavors/1/os-extra_specs'"
+string|"'/v2/fake/flavors/1/os-extra_specs'"
 op|')'
 newline|'\n'
 name|'res_dict'
@@ -422,7 +422,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/123/flavors/1/os-extra_specs'"
+string|"'/v2/fake/flavors/1/os-extra_specs'"
 op|'+'
 nl|'\n'
 string|"'/key5'"
@@ -492,7 +492,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/123/flavors/1/os-extra_specs'"
+string|"'/v2/fake/flavors/1/os-extra_specs'"
 op|'+'
 nl|'\n'
 string|"'/key6'"
@@ -558,7 +558,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/123/flavors/1/os-extra_specs'"
+string|"'/v2/fake/flavors/1/os-extra_specs'"
 op|'+'
 nl|'\n'
 string|"'/key5'"
@@ -626,7 +626,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/123/flavors/1/os-extra_specs'"
+string|"'/v2/fake/flavors/1/os-extra_specs'"
 op|')'
 newline|'\n'
 name|'res_dict'
@@ -697,7 +697,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/123/flavors/1/os-extra_specs'"
+string|"'/v2/fake/flavors/1/os-extra_specs'"
 op|')'
 newline|'\n'
 name|'self'
@@ -769,7 +769,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/123/flavors/1/os-extra_specs'"
+string|"'/v2/fake/flavors/1/os-extra_specs'"
 op|'+'
 nl|'\n'
 string|"'/key1'"
@@ -842,7 +842,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/123/flavors/1/os-extra_specs'"
+string|"'/v2/fake/flavors/1/os-extra_specs'"
 op|'+'
 nl|'\n'
 string|"'/key1'"
@@ -923,7 +923,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/123/flavors/1/os-extra_specs'"
+string|"'/v2/fake/flavors/1/os-extra_specs'"
 op|'+'
 nl|'\n'
 string|"'/key1'"
@@ -1000,7 +1000,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/123/flavors/1/os-extra_specs/bad'"
+string|"'/v2/fake/flavors/1/os-extra_specs/bad'"
 op|')'
 newline|'\n'
 name|'self'

@@ -7183,7 +7183,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/123/servers/%s'"
+string|"'/v2/fake/servers/%s'"
 op|'%'
 name|'FAKE_UUID'
 op|')'
@@ -7478,7 +7478,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/123/servers/%s'"
+string|"'/v2/fake/servers/%s'"
 op|'%'
 name|'FAKE_UUID'
 op|')'
@@ -7604,7 +7604,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/123/servers/%s'"
+string|"'/v2/fake/servers/%s'"
 op|'%'
 name|'FAKE_UUID'
 op|')'
@@ -10095,7 +10095,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/123/servers'"
+string|"'/v2/fake/servers'"
 op|')'
 newline|'\n'
 name|'req'
@@ -10259,7 +10259,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/123/servers'"
+string|"'/v2/fake/servers'"
 op|')'
 newline|'\n'
 name|'req'
@@ -10427,7 +10427,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/123/servers'"
+string|"'/v2/fake/servers'"
 op|')'
 newline|'\n'
 name|'req'
@@ -10577,7 +10577,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/123/servers'"
+string|"'/v2/fake/servers'"
 op|','
 nl|'\n'
 name|'use_admin_context'
@@ -10860,7 +10860,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/123/servers'"
+string|"'/v2/fake/servers'"
 op|')'
 newline|'\n'
 name|'req'
@@ -11499,7 +11499,7 @@ newline|'\n'
 indent|'        '
 name|'image_href'
 op|'='
-string|"'http://localhost/v2/123/images/2'"
+string|"'http://localhost/v2/fake/images/2'"
 newline|'\n'
 name|'flavor_ref'
 op|'='
@@ -11556,7 +11556,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/123/servers'"
+string|"'/v2/fake/servers'"
 op|')'
 newline|'\n'
 name|'req'
@@ -11752,7 +11752,7 @@ string|"'76fa36fc-c930-4bf3-8c8a-ea2a2420deb6'"
 newline|'\n'
 name|'flavor_ref'
 op|'='
-string|"'http://localhost/v2/123/flavors/3'"
+string|"'http://localhost/v2/fake/flavors/3'"
 newline|'\n'
 name|'body'
 op|'='
@@ -11819,7 +11819,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/123/servers'"
+string|"'/v2/fake/servers'"
 op|')'
 newline|'\n'
 name|'req'
@@ -11906,7 +11906,7 @@ string|"'76fa36fc-c930-4bf3-8c8a-ea2a2420deb6'"
 newline|'\n'
 name|'flavor_ref'
 op|'='
-string|"'http://localhost/v2/123/flavors/3'"
+string|"'http://localhost/v2/fake/flavors/3'"
 newline|'\n'
 name|'body'
 op|'='
@@ -11973,7 +11973,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/123/servers'"
+string|"'/v2/fake/servers'"
 op|')'
 newline|'\n'
 name|'req'
@@ -12060,7 +12060,7 @@ string|"'76fa36fc-c930-4bf3-8c8a-ea2a2420deb6'"
 newline|'\n'
 name|'flavor_ref'
 op|'='
-string|"'http://localhost/v2/123/flavors/3'"
+string|"'http://localhost/v2/fake/flavors/3'"
 newline|'\n'
 name|'body'
 op|'='
@@ -12127,7 +12127,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/123/servers'"
+string|"'/v2/fake/servers'"
 op|')'
 newline|'\n'
 name|'req'
@@ -12196,7 +12196,7 @@ string|"'76fa36fc-c930-4bf3-8c8a-ea2a2420deb6'"
 newline|'\n'
 name|'flavor_ref'
 op|'='
-string|"'http://localhost/v2/123/flavors/3'"
+string|"'http://localhost/v2/fake/flavors/3'"
 newline|'\n'
 name|'body'
 op|'='
@@ -12263,7 +12263,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/123/servers'"
+string|"'/v2/fake/servers'"
 op|')'
 newline|'\n'
 name|'req'

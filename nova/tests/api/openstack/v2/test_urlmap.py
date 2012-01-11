@@ -684,7 +684,7 @@ string|'"""Test URL path specifying JSON returns JSON content."""'
 newline|'\n'
 name|'url'
 op|'='
-string|"'/v2/foobar/images/cedef40a-ed67-4d10-800e-17455edce175.json'"
+string|"'/v2/fake/images/cedef40a-ed67-4d10-800e-17455edce175.json'"
 newline|'\n'
 name|'req'
 op|'='
@@ -780,7 +780,7 @@ string|'"""Test Accept header specifying JSON returns JSON content."""'
 newline|'\n'
 name|'url'
 op|'='
-string|"'/v2/foobar/images/cedef40a-ed67-4d10-800e-17455edce175'"
+string|"'/v2/fake/images/cedef40a-ed67-4d10-800e-17455edce175'"
 newline|'\n'
 name|'req'
 op|'='

@@ -996,7 +996,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/123/os-floating-ips'"
+string|"'/v2/fake/os-floating-ips'"
 op|')'
 newline|'\n'
 name|'res_dict'
@@ -1100,7 +1100,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/123/os-floating-ips/1'"
+string|"'/v2/fake/os-floating-ips/1'"
 op|')'
 newline|'\n'
 name|'res_dict'
@@ -1247,7 +1247,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/123/os-floating-ips/1'"
+string|"'/v2/fake/os-floating-ips/1'"
 op|')'
 newline|'\n'
 name|'res_dict'
@@ -1373,7 +1373,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/123/os-floating-ips'"
+string|"'/v2/fake/os-floating-ips'"
 op|')'
 newline|'\n'
 name|'self'
@@ -1499,7 +1499,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/123/os-floating-ips'"
+string|"'/v2/fake/os-floating-ips'"
 op|')'
 newline|'\n'
 name|'res_dict'
@@ -1579,7 +1579,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/123/os-floating-ips/1'"
+string|"'/v2/fake/os-floating-ips/1'"
 op|')'
 newline|'\n'
 name|'self'
@@ -1632,7 +1632,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/123/servers/test_inst/action'"
+string|"'/v2/fake/servers/test_inst/action'"
 op|')'
 newline|'\n'
 name|'self'
@@ -1682,7 +1682,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/123/servers/test_inst/action'"
+string|"'/v2/fake/servers/test_inst/action'"
 op|')'
 newline|'\n'
 name|'self'
@@ -1735,7 +1735,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/123/servers/test_inst/action'"
+string|"'/v2/fake/servers/test_inst/action'"
 op|')'
 newline|'\n'
 name|'self'
@@ -1792,7 +1792,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/123/servers/test_inst/action'"
+string|"'/v2/fake/servers/test_inst/action'"
 op|')'
 newline|'\n'
 name|'self'
@@ -1849,7 +1849,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/123/servers/test_inst/action'"
+string|"'/v2/fake/servers/test_inst/action'"
 op|')'
 newline|'\n'
 name|'self'
