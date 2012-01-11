@@ -2285,8 +2285,6 @@ op|'='
 op|'['
 string|"'size'"
 op|','
-string|"'location'"
-op|','
 string|"'disk_format'"
 op|','
 nl|'\n'
