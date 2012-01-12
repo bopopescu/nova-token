@@ -2457,7 +2457,19 @@ nl|'\n'
 string|"'default partition size for shared capacity'"
 op|')'
 newline|'\n'
+comment|'# Default firewall driver for security groups and provider firewall'
 nl|'\n'
+name|'DEFINE_string'
+op|'('
+string|"'firewall_driver'"
+op|','
+nl|'\n'
+string|"'nova.virt.libvirt.firewall.IptablesFirewallDriver'"
+op|','
+nl|'\n'
+string|"'Firewall driver (defaults to iptables)'"
+op|')'
+newline|'\n'
 comment|'# The service to use for image search and retrieval'
 nl|'\n'
 name|'DEFINE_string'
