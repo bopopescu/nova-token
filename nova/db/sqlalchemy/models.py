@@ -1615,8 +1615,6 @@ name|'Text'
 op|')'
 newline|'\n'
 nl|'\n'
-comment|'# this is all uuid based, we have them might as well start using them'
-nl|'\n'
 DECL|variable|instance_id
 name|'instance_id'
 op|'='
