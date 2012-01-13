@@ -109,7 +109,7 @@ newline|'\n'
 dedent|''
 name|'base_path'
 op|'='
-string|"'nova/api/openstack/v2/schemas/v1.1/'"
+string|"'nova/api/openstack/compute/schemas/v1.1/'"
 newline|'\n'
 name|'if'
 name|'schema_name'
@@ -124,7 +124,7 @@ newline|'\n'
 indent|'        '
 name|'base_path'
 op|'='
-string|"'nova/api/openstack/v2/schemas/'"
+string|"'nova/api/openstack/compute/schemas/'"
 newline|'\n'
 dedent|''
 name|'schema_path'

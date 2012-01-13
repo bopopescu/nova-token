@@ -420,7 +420,10 @@ nl|'\n'
 string|"'bin/nova-api-metadata'"
 op|','
 nl|'\n'
-string|"'bin/nova-api-os'"
+string|"'bin/nova-api-os-compute'"
+op|','
+nl|'\n'
+string|"'bin/nova-api-os-volume'"
 op|','
 nl|'\n'
 string|"'bin/nova-compute'"
