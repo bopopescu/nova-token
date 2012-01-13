@@ -33,8 +33,6 @@ name|'from'
 name|'sqlalchemy'
 name|'import'
 name|'MetaData'
-op|','
-name|'Table'
 newline|'\n'
 nl|'\n'
 DECL|variable|meta

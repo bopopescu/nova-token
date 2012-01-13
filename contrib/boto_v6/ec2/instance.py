@@ -1,9 +1,6 @@
 begin_unit
 string|"'''\nCreated on 2010/12/20\n\n@author: Nachi Ueno <ueno.nachi@lab.ntt.co.jp>\n'''"
 newline|'\n'
-name|'import'
-name|'boto'
-newline|'\n'
 name|'from'
 name|'boto'
 op|'.'

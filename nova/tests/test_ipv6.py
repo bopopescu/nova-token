@@ -61,10 +61,6 @@ string|"'nova.tests.test_ipv6'"
 op|')'
 newline|'\n'
 nl|'\n'
-name|'import'
-name|'sys'
-newline|'\n'
-nl|'\n'
 nl|'\n'
 DECL|class|IPv6RFC2462TestCase
 name|'class'
