@@ -768,7 +768,7 @@ indent|'                '
 name|'try'
 op|':'
 newline|'\n'
-comment|"# self.volume_api.update(context, volume['id'],"
+comment|'# self.volume_api.update(context, volume,'
 nl|'\n'
 comment|'#                   dict(attach_status="attached"))'
 nl|'\n'
