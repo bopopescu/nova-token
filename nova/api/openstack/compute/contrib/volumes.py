@@ -1209,7 +1209,6 @@ name|'get'
 op|'('
 string|"'snapshot_id'"
 op|')'
-op|','
 newline|'\n'
 nl|'\n'
 name|'if'
