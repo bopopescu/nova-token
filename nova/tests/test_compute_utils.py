@@ -589,8 +589,6 @@ string|"'state'"
 op|','
 string|"'state_description'"
 op|','
-string|"'fixed_ips'"
-op|','
 nl|'\n'
 string|"'bandwidth'"
 op|','
