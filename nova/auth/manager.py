@@ -285,6 +285,17 @@ string|"'Driver that auth manager uses'"
 op|')'
 newline|'\n'
 nl|'\n'
+name|'flags'
+op|'.'
+name|'DECLARE'
+op|'('
+string|"'osapi_compute_listen_port'"
+op|','
+string|"'nova.service'"
+op|')'
+newline|'\n'
+nl|'\n'
+nl|'\n'
 DECL|variable|LOG
 name|'LOG'
 op|'='
