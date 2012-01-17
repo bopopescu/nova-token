@@ -374,26 +374,6 @@ op|','
 nl|'\n'
 name|'cfg'
 op|'.'
-name|'BoolOpt'
-op|'('
-string|"'use_cow_images'"
-op|','
-nl|'\n'
-DECL|variable|default
-name|'default'
-op|'='
-name|'True'
-op|','
-nl|'\n'
-DECL|variable|help
-name|'help'
-op|'='
-string|"'Whether to use cow images'"
-op|')'
-op|','
-nl|'\n'
-name|'cfg'
-op|'.'
 name|'StrOpt'
 op|'('
 string|"'cpuinfo_xml_template'"
