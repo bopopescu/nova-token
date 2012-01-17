@@ -1648,9 +1648,9 @@ newline|'\n'
 name|'snapshot_properties'
 op|'='
 op|'{'
-string|"'instance_ref'"
+string|"'instance_uuid'"
 op|':'
-name|'server_ref'
+name|'uuid'
 op|','
 string|"'user_id'"
 op|':'
