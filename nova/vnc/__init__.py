@@ -80,12 +80,24 @@ name|'flags'
 op|'.'
 name|'DEFINE_string'
 op|'('
-string|"'vncserver_host'"
+string|"'vncserver_listen'"
 op|','
 string|"'127.0.0.1'"
 op|','
 nl|'\n'
-string|"'the host interface on which vnc server should listen'"
+string|"'Ip address on which instance vncservers\\\n                     should listen'"
+op|')'
+newline|'\n'
+name|'flags'
+op|'.'
+name|'DEFINE_string'
+op|'('
+string|"'vncserver_proxyclient_address'"
+op|','
+string|"'127.0.0.1'"
+op|','
+nl|'\n'
+string|"'the address to which proxy clients \\\n                    (like nova-xvpvncproxy) should connect'"
 op|')'
 newline|'\n'
 name|'flags'

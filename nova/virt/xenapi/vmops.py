@@ -196,6 +196,15 @@ name|'FLAGS'
 newline|'\n'
 name|'flags'
 op|'.'
+name|'DECLARE'
+op|'('
+string|"'vncserver_proxyclient_address'"
+op|','
+string|"'nova.vnc'"
+op|')'
+newline|'\n'
+name|'flags'
+op|'.'
 name|'DEFINE_integer'
 op|'('
 string|"'agent_version_timeout'"
@@ -233,19 +242,6 @@ string|"'nova.virt.xenapi.vif.XenAPIBridgeDriver'"
 op|','
 nl|'\n'
 string|"'The XenAPI VIF driver using XenServer Network APIs.'"
-op|')'
-newline|'\n'
-name|'flags'
-op|'.'
-name|'DEFINE_string'
-op|'('
-string|"'dom0_address'"
-op|','
-nl|'\n'
-string|"'169.254.0.1'"
-op|','
-nl|'\n'
-string|"'Ip address of dom0.  Override for multi-host vnc.'"
 op|')'
 newline|'\n'
 name|'flags'
@@ -8385,7 +8381,7 @@ string|"'host'"
 op|':'
 name|'FLAGS'
 op|'.'
-name|'dom0_address'
+name|'vncserver_proxyclient_address'
 op|','
 string|"'port'"
 op|':'
