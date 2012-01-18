@@ -79,12 +79,12 @@ nl|'\n'
 DECL|variable|ALIAS
 name|'ALIAS'
 op|'='
-string|"'RAX-DCF'"
+string|"'OS-DCF'"
 newline|'\n'
 DECL|variable|XMLNS_DCF
 name|'XMLNS_DCF'
 op|'='
-string|'"http://docs.rackspacecloud.com/servers/api/ext/diskConfig/v1.0"'
+string|'"http://docs.openstack.org/compute/ext/disk_config/api/v1.1"'
 newline|'\n'
 DECL|variable|API_DISK_CONFIG
 name|'API_DISK_CONFIG'
