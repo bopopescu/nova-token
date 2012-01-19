@@ -2361,18 +2361,6 @@ nl|'\n'
 string|"'DNS Manager for floating IPs'"
 op|')'
 newline|'\n'
-name|'DEFINE_multistring'
-op|'('
-string|"'floating_ip_dns_zones'"
-op|','
-string|"''"
-op|','
-nl|'\n'
-string|"'DNS zones for floating IPs.'"
-nl|'\n'
-string|'\'e.g. "example.org"\''
-op|')'
-newline|'\n'
 name|'DEFINE_string'
 op|'('
 string|"'network_manager'"
