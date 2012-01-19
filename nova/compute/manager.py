@@ -5614,8 +5614,16 @@ name|'Error'
 op|'('
 name|'_'
 op|'('
-string|"'Instance is not running'"
+string|"'Failed to set admin password. '"
+nl|'\n'
+string|"'Instance %s is not running'"
 op|')'
+op|','
+nl|'\n'
+name|'instance_ref'
+op|'['
+string|'"uuid"'
+op|']'
 op|')'
 newline|'\n'
 dedent|''
