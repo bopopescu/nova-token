@@ -2342,7 +2342,7 @@ op|')'
 newline|'\n'
 name|'DEFINE_string'
 op|'('
-string|"'instance_dns_zone'"
+string|"'instance_dns_domain'"
 op|','
 string|"''"
 op|','
