@@ -5618,7 +5618,7 @@ string|"'Failed to set admin password. '"
 nl|'\n'
 string|"'Instance %s is not running'"
 op|')'
-op|','
+op|'%'
 nl|'\n'
 name|'instance_ref'
 op|'['
