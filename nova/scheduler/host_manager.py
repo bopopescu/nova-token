@@ -107,9 +107,16 @@ op|'('
 string|"'default_host_filters'"
 op|','
 op|'['
+nl|'\n'
+string|"'AvailabilityZoneFilter'"
+op|','
+nl|'\n'
 string|"'RamFilter'"
 op|','
+nl|'\n'
 string|"'ComputeFilter'"
+op|','
+nl|'\n'
 op|']'
 op|','
 nl|'\n'
