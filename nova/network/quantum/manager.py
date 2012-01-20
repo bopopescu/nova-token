@@ -2365,6 +2365,11 @@ name|'info'
 op|'='
 op|'{'
 nl|'\n'
+string|"'net_uuid'"
+op|':'
+name|'net_id'
+op|','
+nl|'\n'
 string|"'label'"
 op|':'
 name|'self'

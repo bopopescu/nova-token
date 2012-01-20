@@ -5301,6 +5301,14 @@ name|'info'
 op|'='
 op|'{'
 nl|'\n'
+string|"'net_uuid'"
+op|':'
+name|'network'
+op|'['
+string|"'uuid'"
+op|']'
+op|','
+nl|'\n'
 string|"'label'"
 op|':'
 name|'network'
