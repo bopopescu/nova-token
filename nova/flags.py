@@ -2725,5 +2725,16 @@ op|','
 string|"'Enable/Disable EC2 Admin API'"
 op|')'
 newline|'\n'
+nl|'\n'
+name|'DEFINE_integer'
+op|'('
+string|"'service_down_time'"
+op|','
+number|'60'
+op|','
+nl|'\n'
+string|"'maximum time since last check-in for up service'"
+op|')'
+newline|'\n'
 endmarker|''
 end_unit
