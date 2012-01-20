@@ -2736,5 +2736,15 @@ nl|'\n'
 string|"'maximum time since last check-in for up service'"
 op|')'
 newline|'\n'
+name|'DEFINE_string'
+op|'('
+string|"'default_schedule_zone'"
+op|','
+name|'None'
+op|','
+nl|'\n'
+string|"'zone to use when user doesnt specify one'"
+op|')'
+newline|'\n'
 endmarker|''
 end_unit
