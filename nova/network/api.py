@@ -708,7 +708,7 @@ string|'"""Associates a floating ip with a fixed ip.\n\n        ensures floating
 newline|'\n'
 name|'rpc'
 op|'.'
-name|'cast'
+name|'call'
 op|'('
 name|'context'
 op|','
