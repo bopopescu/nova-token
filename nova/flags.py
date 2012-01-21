@@ -2746,5 +2746,25 @@ nl|'\n'
 string|"'zone to use when user doesnt specify one'"
 op|')'
 newline|'\n'
+name|'DEFINE_list'
+op|'('
+string|"'isolated_images'"
+op|','
+op|'['
+op|']'
+op|','
+string|"'Images to run on isolated host'"
+op|')'
+newline|'\n'
+name|'DEFINE_list'
+op|'('
+string|"'isolated_hosts'"
+op|','
+op|'['
+op|']'
+op|','
+string|"'Host reserved for specific images'"
+op|')'
+newline|'\n'
 endmarker|''
 end_unit
