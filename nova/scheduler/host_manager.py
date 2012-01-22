@@ -107,6 +107,8 @@ op|'('
 string|"'default_host_filters'"
 op|','
 op|'['
+string|"'RamFilter'"
+op|','
 string|"'ComputeFilter'"
 op|']'
 op|','
