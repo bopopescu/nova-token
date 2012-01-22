@@ -102,11 +102,6 @@ op|':'
 string|"'compute'"
 op|','
 nl|'\n'
-string|"'start_instance'"
-op|':'
-string|"'compute'"
-op|','
-nl|'\n'
 string|"'prep_resize'"
 op|':'
 string|"'compute'"
