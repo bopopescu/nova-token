@@ -79,6 +79,13 @@ newline|'\n'
 nl|'\n'
 name|'from'
 name|'nova'
+op|'.'
+name|'common'
+name|'import'
+name|'cfg'
+newline|'\n'
+name|'from'
+name|'nova'
 name|'import'
 name|'context'
 newline|'\n'
@@ -160,6 +167,363 @@ string|'"nova.virt.xenapi"'
 op|')'
 newline|'\n'
 nl|'\n'
+DECL|variable|xenapi_opts
+name|'xenapi_opts'
+op|'='
+op|'['
+nl|'\n'
+name|'cfg'
+op|'.'
+name|'StrOpt'
+op|'('
+string|"'xenapi_connection_url'"
+op|','
+nl|'\n'
+DECL|variable|default
+name|'default'
+op|'='
+name|'None'
+op|','
+nl|'\n'
+DECL|variable|help
+name|'help'
+op|'='
+string|"'URL for connection to XenServer/Xen Cloud Platform. '"
+nl|'\n'
+string|"'Required if connection_type=xenapi.'"
+op|')'
+op|','
+nl|'\n'
+name|'cfg'
+op|'.'
+name|'StrOpt'
+op|'('
+string|"'xenapi_connection_username'"
+op|','
+nl|'\n'
+DECL|variable|default
+name|'default'
+op|'='
+string|"'root'"
+op|','
+nl|'\n'
+DECL|variable|help
+name|'help'
+op|'='
+string|"'Username for connection to XenServer/Xen Cloud Platform. '"
+nl|'\n'
+string|"'Used only if connection_type=xenapi.'"
+op|')'
+op|','
+nl|'\n'
+name|'cfg'
+op|'.'
+name|'StrOpt'
+op|'('
+string|"'xenapi_connection_password'"
+op|','
+nl|'\n'
+DECL|variable|default
+name|'default'
+op|'='
+name|'None'
+op|','
+nl|'\n'
+DECL|variable|help
+name|'help'
+op|'='
+string|"'Password for connection to XenServer/Xen Cloud Platform. '"
+nl|'\n'
+string|"'Used only if connection_type=xenapi.'"
+op|')'
+op|','
+nl|'\n'
+name|'cfg'
+op|'.'
+name|'IntOpt'
+op|'('
+string|"'xenapi_connection_concurrent'"
+op|','
+nl|'\n'
+DECL|variable|default
+name|'default'
+op|'='
+number|'5'
+op|','
+nl|'\n'
+DECL|variable|help
+name|'help'
+op|'='
+string|"'Maximum number of concurrent XenAPI connections. '"
+nl|'\n'
+string|"'Used only if connection_type=xenapi.'"
+op|')'
+op|','
+nl|'\n'
+name|'cfg'
+op|'.'
+name|'FloatOpt'
+op|'('
+string|"'xenapi_task_poll_interval'"
+op|','
+nl|'\n'
+DECL|variable|default
+name|'default'
+op|'='
+number|'0.5'
+op|','
+nl|'\n'
+DECL|variable|help
+name|'help'
+op|'='
+string|"'The interval used for polling of remote tasks '"
+nl|'\n'
+string|"'(Async.VM.start, etc). '"
+nl|'\n'
+string|"'Used only if connection_type=xenapi.'"
+op|')'
+op|','
+nl|'\n'
+name|'cfg'
+op|'.'
+name|'FloatOpt'
+op|'('
+string|"'xenapi_vhd_coalesce_poll_interval'"
+op|','
+nl|'\n'
+DECL|variable|default
+name|'default'
+op|'='
+number|'5.0'
+op|','
+nl|'\n'
+DECL|variable|help
+name|'help'
+op|'='
+string|"'The interval used for polling of coalescing vhds. '"
+nl|'\n'
+string|"'Used only if connection_type=xenapi.'"
+op|')'
+op|','
+nl|'\n'
+name|'cfg'
+op|'.'
+name|'IntOpt'
+op|'('
+string|"'xenapi_vhd_coalesce_max_attempts'"
+op|','
+nl|'\n'
+DECL|variable|default
+name|'default'
+op|'='
+number|'5'
+op|','
+nl|'\n'
+DECL|variable|help
+name|'help'
+op|'='
+string|"'Max number of times to poll for VHD to coalesce. '"
+nl|'\n'
+string|"'Used only if connection_type=xenapi.'"
+op|')'
+op|','
+nl|'\n'
+name|'cfg'
+op|'.'
+name|'StrOpt'
+op|'('
+string|"'xenapi_agent_path'"
+op|','
+nl|'\n'
+DECL|variable|default
+name|'default'
+op|'='
+string|"'usr/sbin/xe-update-networking'"
+op|','
+nl|'\n'
+DECL|variable|help
+name|'help'
+op|'='
+string|"'Specifies the path in which the xenapi guest agent '"
+nl|'\n'
+string|"'should be located. If the agent is present, network '"
+nl|'\n'
+string|"'configuration is not injected into the image. '"
+nl|'\n'
+string|"'Used if connection_type=xenapi and flat_injected=True'"
+op|')'
+op|','
+nl|'\n'
+name|'cfg'
+op|'.'
+name|'StrOpt'
+op|'('
+string|"'xenapi_sr_base_path'"
+op|','
+nl|'\n'
+DECL|variable|default
+name|'default'
+op|'='
+string|"'/var/run/sr-mount'"
+op|','
+nl|'\n'
+DECL|variable|help
+name|'help'
+op|'='
+string|"'Base path to the storage repository'"
+op|')'
+op|','
+nl|'\n'
+name|'cfg'
+op|'.'
+name|'BoolOpt'
+op|'('
+string|"'xenapi_log_instance_actions'"
+op|','
+nl|'\n'
+DECL|variable|default
+name|'default'
+op|'='
+name|'False'
+op|','
+nl|'\n'
+DECL|variable|help
+name|'help'
+op|'='
+string|"'Log all instance calls to XenAPI in the database.'"
+op|')'
+op|','
+nl|'\n'
+name|'cfg'
+op|'.'
+name|'StrOpt'
+op|'('
+string|"'target_host'"
+op|','
+nl|'\n'
+DECL|variable|default
+name|'default'
+op|'='
+name|'None'
+op|','
+nl|'\n'
+DECL|variable|help
+name|'help'
+op|'='
+string|"'iSCSI Target Host'"
+op|')'
+op|','
+nl|'\n'
+name|'cfg'
+op|'.'
+name|'StrOpt'
+op|'('
+string|"'target_port'"
+op|','
+nl|'\n'
+DECL|variable|default
+name|'default'
+op|'='
+string|"'3260'"
+op|','
+nl|'\n'
+DECL|variable|help
+name|'help'
+op|'='
+string|"'iSCSI Target Port, 3260 Default'"
+op|')'
+op|','
+nl|'\n'
+name|'cfg'
+op|'.'
+name|'StrOpt'
+op|'('
+string|"'iqn_prefix'"
+op|','
+nl|'\n'
+DECL|variable|default
+name|'default'
+op|'='
+string|"'iqn.2010-10.org.openstack'"
+op|','
+nl|'\n'
+DECL|variable|help
+name|'help'
+op|'='
+string|"'IQN Prefix'"
+op|')'
+op|','
+nl|'\n'
+comment|'# NOTE(sirp): This is a work-around for a bug in Ubuntu Maverick,'
+nl|'\n'
+comment|'# when we pull support for it, we should remove this'
+nl|'\n'
+name|'cfg'
+op|'.'
+name|'BoolOpt'
+op|'('
+string|"'xenapi_remap_vbd_dev'"
+op|','
+nl|'\n'
+DECL|variable|default
+name|'default'
+op|'='
+name|'False'
+op|','
+nl|'\n'
+DECL|variable|help
+name|'help'
+op|'='
+string|"'Used to enable the remapping of VBD dev '"
+nl|'\n'
+string|"'(Works around an issue in Ubuntu Maverick)'"
+op|')'
+op|','
+nl|'\n'
+name|'cfg'
+op|'.'
+name|'StrOpt'
+op|'('
+string|"'xenapi_remap_vbd_dev_prefix'"
+op|','
+nl|'\n'
+DECL|variable|default
+name|'default'
+op|'='
+string|"'sd'"
+op|','
+nl|'\n'
+DECL|variable|help
+name|'help'
+op|'='
+string|"'Specify prefix to remap VBD dev to '"
+nl|'\n'
+string|"'(ex. /dev/xvdb -> /dev/sdb)'"
+op|')'
+op|','
+nl|'\n'
+name|'cfg'
+op|'.'
+name|'IntOpt'
+op|'('
+string|"'xenapi_login_timeout'"
+op|','
+nl|'\n'
+DECL|variable|default
+name|'default'
+op|'='
+number|'10'
+op|','
+nl|'\n'
+DECL|variable|help
+name|'help'
+op|'='
+string|"'Timeout in seconds for XenAPI login.'"
+op|')'
+op|','
+nl|'\n'
+op|']'
+newline|'\n'
 nl|'\n'
 DECL|variable|FLAGS
 name|'FLAGS'
@@ -168,241 +532,11 @@ name|'flags'
 op|'.'
 name|'FLAGS'
 newline|'\n'
-nl|'\n'
-name|'flags'
+name|'FLAGS'
 op|'.'
-name|'DEFINE_string'
+name|'add_options'
 op|'('
-string|"'xenapi_connection_url'"
-op|','
-nl|'\n'
-name|'None'
-op|','
-nl|'\n'
-string|"'URL for connection to XenServer/Xen Cloud Platform.'"
-nl|'\n'
-string|"' Required if connection_type=xenapi.'"
-op|')'
-newline|'\n'
-name|'flags'
-op|'.'
-name|'DEFINE_string'
-op|'('
-string|"'xenapi_connection_username'"
-op|','
-nl|'\n'
-string|"'root'"
-op|','
-nl|'\n'
-string|"'Username for connection to XenServer/Xen Cloud Platform.'"
-nl|'\n'
-string|"' Used only if connection_type=xenapi.'"
-op|')'
-newline|'\n'
-name|'flags'
-op|'.'
-name|'DEFINE_string'
-op|'('
-string|"'xenapi_connection_password'"
-op|','
-nl|'\n'
-name|'None'
-op|','
-nl|'\n'
-string|"'Password for connection to XenServer/Xen Cloud Platform.'"
-nl|'\n'
-string|"' Used only if connection_type=xenapi.'"
-op|')'
-newline|'\n'
-name|'flags'
-op|'.'
-name|'DEFINE_integer'
-op|'('
-string|"'xenapi_connection_concurrent'"
-op|','
-nl|'\n'
-number|'5'
-op|','
-nl|'\n'
-string|"'Maximum number of concurrent XenAPI connections.'"
-nl|'\n'
-string|"' Used only if connection_type=xenapi.'"
-op|')'
-newline|'\n'
-name|'flags'
-op|'.'
-name|'DEFINE_float'
-op|'('
-string|"'xenapi_task_poll_interval'"
-op|','
-nl|'\n'
-number|'0.5'
-op|','
-nl|'\n'
-string|"'The interval used for polling of remote tasks '"
-nl|'\n'
-string|"'(Async.VM.start, etc). Used only if '"
-nl|'\n'
-string|"'connection_type=xenapi.'"
-op|')'
-newline|'\n'
-name|'flags'
-op|'.'
-name|'DEFINE_float'
-op|'('
-string|"'xenapi_vhd_coalesce_poll_interval'"
-op|','
-nl|'\n'
-number|'5.0'
-op|','
-nl|'\n'
-string|"'The interval used for polling of coalescing vhds.'"
-nl|'\n'
-string|"'  Used only if connection_type=xenapi.'"
-op|')'
-newline|'\n'
-name|'flags'
-op|'.'
-name|'DEFINE_integer'
-op|'('
-string|"'xenapi_vhd_coalesce_max_attempts'"
-op|','
-nl|'\n'
-number|'5'
-op|','
-nl|'\n'
-string|"'Max number of times to poll for VHD to coalesce.'"
-nl|'\n'
-string|"'  Used only if connection_type=xenapi.'"
-op|')'
-newline|'\n'
-name|'flags'
-op|'.'
-name|'DEFINE_string'
-op|'('
-string|"'xenapi_agent_path'"
-op|','
-nl|'\n'
-string|"'usr/sbin/xe-update-networking'"
-op|','
-nl|'\n'
-string|"'Specifies the path in which the xenapi guest agent'"
-nl|'\n'
-string|"'  should be located. If the agent is present,'"
-nl|'\n'
-string|"'  network configuration is not injected into the image'"
-nl|'\n'
-string|"'  Used only if connection_type=xenapi.'"
-nl|'\n'
-string|"'  and flat_injected=True'"
-op|')'
-newline|'\n'
-name|'flags'
-op|'.'
-name|'DEFINE_string'
-op|'('
-string|"'xenapi_sr_base_path'"
-op|','
-string|"'/var/run/sr-mount'"
-op|','
-nl|'\n'
-string|"'Base path to the storage repository'"
-op|')'
-newline|'\n'
-name|'flags'
-op|'.'
-name|'DEFINE_bool'
-op|'('
-string|"'xenapi_log_instance_actions'"
-op|','
-name|'False'
-op|','
-nl|'\n'
-string|"'Log all instance calls to XenAPI in the database.'"
-op|')'
-newline|'\n'
-name|'flags'
-op|'.'
-name|'DEFINE_string'
-op|'('
-string|"'target_host'"
-op|','
-nl|'\n'
-name|'None'
-op|','
-nl|'\n'
-string|"'iSCSI Target Host'"
-op|')'
-newline|'\n'
-name|'flags'
-op|'.'
-name|'DEFINE_string'
-op|'('
-string|"'target_port'"
-op|','
-nl|'\n'
-string|"'3260'"
-op|','
-nl|'\n'
-string|"'iSCSI Target Port, 3260 Default'"
-op|')'
-newline|'\n'
-name|'flags'
-op|'.'
-name|'DEFINE_string'
-op|'('
-string|"'iqn_prefix'"
-op|','
-nl|'\n'
-string|"'iqn.2010-10.org.openstack'"
-op|','
-nl|'\n'
-string|"'IQN Prefix'"
-op|')'
-newline|'\n'
-comment|'# NOTE(sirp): This is a work-around for a bug in Ubuntu Maverick, when we pull'
-nl|'\n'
-comment|'# support for it, we should remove this'
-nl|'\n'
-name|'flags'
-op|'.'
-name|'DEFINE_bool'
-op|'('
-string|"'xenapi_remap_vbd_dev'"
-op|','
-name|'False'
-op|','
-nl|'\n'
-string|"'Used to enable the remapping of VBD dev '"
-nl|'\n'
-string|"'(Works around an issue in Ubuntu Maverick)'"
-op|')'
-newline|'\n'
-name|'flags'
-op|'.'
-name|'DEFINE_string'
-op|'('
-string|"'xenapi_remap_vbd_dev_prefix'"
-op|','
-string|"'sd'"
-op|','
-nl|'\n'
-string|"'Specify prefix to remap VBD dev to '"
-nl|'\n'
-string|"'(ex. /dev/xvdb -> /dev/sdb)'"
-op|')'
-newline|'\n'
-name|'flags'
-op|'.'
-name|'DEFINE_integer'
-op|'('
-string|"'xenapi_login_timeout'"
-op|','
-nl|'\n'
-number|'10'
-op|','
-nl|'\n'
-string|"'Timeout in seconds for XenAPI login.'"
+name|'xenapi_opts'
 op|')'
 newline|'\n'
 nl|'\n'
