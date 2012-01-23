@@ -4390,7 +4390,7 @@ op|']'
 op|'.'
 name|'startswith'
 op|'('
-string|"u'<function foo at 0x'"
+string|"'<function foo at 0x'"
 op|')'
 op|')'
 newline|'\n'
@@ -4403,7 +4403,7 @@ op|'['
 number|'2'
 op|']'
 op|','
-string|"u'<built-in function dir>'"
+string|"'<built-in function dir>'"
 op|')'
 newline|'\n'
 nl|'\n'
