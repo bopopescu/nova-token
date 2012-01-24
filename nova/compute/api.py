@@ -1340,7 +1340,7 @@ dedent|''
 name|'if'
 name|'instance_type'
 op|'['
-string|"'local_gb'"
+string|"'root_gb'"
 op|']'
 op|'<'
 name|'int'
@@ -1936,11 +1936,19 @@ string|"'vcpus'"
 op|']'
 op|','
 nl|'\n'
-string|"'local_gb'"
+string|"'root_gb'"
 op|':'
 name|'instance_type'
 op|'['
-string|"'local_gb'"
+string|"'root_gb'"
+op|']'
+op|','
+nl|'\n'
+string|"'ephemeral_gb'"
+op|':'
+name|'instance_type'
+op|'['
+string|"'ephemeral_gb'"
 op|']'
 op|','
 nl|'\n'
@@ -2237,7 +2245,7 @@ comment|'# TODO(yamahata): ephemeralN where N > 0'
 nl|'\n'
 comment|'# Only ephemeral0 is allowed for now because InstanceTypes'
 nl|'\n'
-comment|'# table only allows single local disk, local_gb.'
+comment|'# table only allows single local disk, ephemeral_gb.'
 nl|'\n'
 comment|'# In order to enhance it, we need to add a new columns to'
 nl|'\n'
@@ -2261,7 +2269,7 @@ name|'instance_type'
 op|'.'
 name|'get'
 op|'('
-string|"'local_gb'"
+string|"'ephemeral_gb'"
 op|')'
 newline|'\n'
 nl|'\n'
@@ -6986,7 +6994,7 @@ op|'['
 string|"'instance_type'"
 op|']'
 op|'['
-string|"'local_gb'"
+string|"'root_gb'"
 op|']'
 newline|'\n'
 dedent|''

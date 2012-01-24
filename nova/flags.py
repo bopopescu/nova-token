@@ -1647,7 +1647,7 @@ name|'DEFINE_string'
 op|'('
 string|"'connection_type'"
 op|','
-string|"'libvirt'"
+name|'None'
 op|','
 string|"'libvirt, xenapi or fake'"
 op|')'
@@ -2592,6 +2592,19 @@ name|'False'
 op|','
 nl|'\n'
 string|"'Whether to start guests, that was running before the host reboot'"
+op|')'
+newline|'\n'
+name|'DEFINE_string'
+op|'('
+string|"'default_ephemeral_format'"
+op|','
+nl|'\n'
+name|'None'
+op|','
+nl|'\n'
+string|"'The default format a ephemeral_volume will be formatted '"
+nl|'\n'
+string|"'with on creation.'"
 op|')'
 newline|'\n'
 nl|'\n'

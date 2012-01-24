@@ -2311,7 +2311,12 @@ name|'disk_gb'
 op|'='
 name|'instance_ref'
 op|'['
-string|"'local_gb'"
+string|"'root_gb'"
+op|']'
+op|'+'
+name|'instance_ref'
+op|'['
+string|"'ephemeral_gb'"
 op|']'
 op|','
 nl|'\n'

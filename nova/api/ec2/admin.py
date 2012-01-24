@@ -444,7 +444,7 @@ string|"'disk_gb'"
 op|':'
 name|'inst'
 op|'['
-string|"'local_gb'"
+string|"'root_gb'"
 op|']'
 op|','
 nl|'\n'

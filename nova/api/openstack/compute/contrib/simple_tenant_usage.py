@@ -767,7 +767,12 @@ op|']'
 op|'='
 name|'flavor'
 op|'['
-string|"'local_gb'"
+string|"'root_gb'"
+op|']'
+op|'+'
+name|'flavor'
+op|'['
+string|"'ephemeral_gb'"
 op|']'
 newline|'\n'
 name|'info'
