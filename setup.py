@@ -420,6 +420,9 @@ nl|'\n'
 string|"'bin/nova-api-os-volume'"
 op|','
 nl|'\n'
+string|"'bin/nova-cert'"
+op|','
+nl|'\n'
 string|"'bin/nova-compute'"
 op|','
 nl|'\n'

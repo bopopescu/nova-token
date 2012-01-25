@@ -1754,6 +1754,15 @@ op|')'
 newline|'\n'
 name|'DEFINE_string'
 op|'('
+string|"'cert_topic'"
+op|','
+string|"'cert'"
+op|','
+string|"'the topic cert nodes listen on'"
+op|')'
+newline|'\n'
+name|'DEFINE_string'
+op|'('
 string|"'compute_topic'"
 op|','
 string|"'compute'"
@@ -2327,6 +2336,16 @@ string|"'nova.console.manager.ConsoleProxyManager'"
 op|','
 nl|'\n'
 string|"'Manager for console proxy'"
+op|')'
+newline|'\n'
+name|'DEFINE_string'
+op|'('
+string|"'cert_manager'"
+op|','
+string|"'nova.cert.manager.CertManager'"
+op|','
+nl|'\n'
+string|"'Manager for cert'"
 op|')'
 newline|'\n'
 name|'DEFINE_string'
