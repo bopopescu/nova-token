@@ -237,9 +237,9 @@ op|'('
 string|"'user_cert_subject'"
 op|','
 nl|'\n'
-string|"'/C=US/ST=California/L=MountainView/O=AnsoLabs/'"
+string|"'/C=US/ST=California/O=OpenStack/'"
 nl|'\n'
-string|"'OU=NovaDev/CN=%s-%s-%s'"
+string|"'OU=NovaDev/CN=%.16s-%.16s-%s'"
 op|','
 nl|'\n'
 name|'_'
@@ -257,9 +257,9 @@ op|'('
 string|"'project_cert_subject'"
 op|','
 nl|'\n'
-string|"'/C=US/ST=California/L=MountainView/O=AnsoLabs/'"
+string|"'/C=US/ST=California/O=OpenStack/'"
 nl|'\n'
-string|"'OU=NovaDev/CN=project-ca-%s-%s'"
+string|"'OU=NovaDev/CN=project-ca-%.16s-%s'"
 op|','
 nl|'\n'
 name|'_'
