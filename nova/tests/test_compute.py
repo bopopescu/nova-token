@@ -913,6 +913,13 @@ number|'0'
 newline|'\n'
 name|'inst'
 op|'['
+string|"'memory_mb'"
+op|']'
+op|'='
+number|'0'
+newline|'\n'
+name|'inst'
+op|'['
 string|"'root_gb'"
 op|']'
 op|'='
