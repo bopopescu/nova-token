@@ -7054,6 +7054,14 @@ string|"'name'"
 op|']'
 op|','
 nl|'\n'
+string|"'uuid'"
+op|':'
+name|'instance'
+op|'['
+string|"'uuid'"
+op|']'
+op|','
+nl|'\n'
 string|"'basepath'"
 op|':'
 name|'os'
