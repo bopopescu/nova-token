@@ -1792,8 +1792,16 @@ name|'host'
 op|')'
 newline|'\n'
 nl|'\n'
-DECL|member|enable_dhcp
 dedent|''
+op|'@'
+name|'utils'
+op|'.'
+name|'synchronized'
+op|'('
+string|"'quantum-enable-dhcp'"
+op|')'
+newline|'\n'
+DECL|member|enable_dhcp
 name|'def'
 name|'enable_dhcp'
 op|'('
