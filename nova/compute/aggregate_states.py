@@ -31,13 +31,18 @@ nl|'\n'
 comment|'#    under the License.'
 nl|'\n'
 nl|'\n'
-string|'"""Possible states for host aggregates.\n\nAn aggregate may be \'building\', in which case the admin has triggered its\ncreation, but the underlying hypervisor pool has not actually being created\nyet. An aggregate may be \'active\', in which case the underlying hypervisor\npool is up and running. An aggregate may be in \'error\' in all other cases.\n"""'
+string|'"""Possible states for host aggregates.\n\nAn aggregate may be \'created\', in which case the admin has triggered its\ncreation, but the underlying hypervisor pool has not actually being set up\nyet. An aggregate may be \'changing\', meaning that the underlying hypervisor\npool is being setup. An aggregate may be \'active\', in which case the underlying\nhypervisor pool is up and running. An aggregate may be \'dismissed\' when it has\nno hosts and it has been deleted. An aggregate may be in \'error\' in all other\ncases.\nA \'created\' aggregate becomes \'changing\' during the first request of\nadding a host. During a \'changing\' status no other requests will be accepted;\nthis is to allow the hypervisor layer to instantiate the underlying pool\nwithout any potential race condition that may incur in master/slave-based\nconfigurations. The aggregate goes into the \'active\' state when the underlying\npool has been correctly instantiated.\nAll other operations (e.g. add/remove hosts) that succeed will keep the\naggregate in the \'active\' state. If a number of continuous requests fail,\nan \'active\' aggregate goes into an \'error\' state. To recover from such a state,\nadmin intervention is required. Currently an error state is irreversible,\nthat is, in order to recover from it an aggregate must be deleted.\n"""'
 newline|'\n'
 nl|'\n'
-DECL|variable|BUILDING
-name|'BUILDING'
+DECL|variable|CREATED
+name|'CREATED'
 op|'='
-string|"'building'"
+string|"'created'"
+newline|'\n'
+DECL|variable|CHANGING
+name|'CHANGING'
+op|'='
+string|"'changing'"
 newline|'\n'
 DECL|variable|ACTIVE
 name|'ACTIVE'
@@ -48,6 +53,11 @@ DECL|variable|ERROR
 name|'ERROR'
 op|'='
 string|"'error'"
+newline|'\n'
+DECL|variable|DISMISSED
+name|'DISMISSED'
+op|'='
+string|"'dismissed'"
 newline|'\n'
 endmarker|''
 end_unit
