@@ -53,6 +53,13 @@ newline|'\n'
 nl|'\n'
 name|'from'
 name|'nova'
+op|'.'
+name|'common'
+name|'import'
+name|'cfg'
+newline|'\n'
+name|'from'
+name|'nova'
 name|'import'
 name|'exception'
 newline|'\n'
@@ -101,6 +108,7 @@ name|'import'
 name|'nbd'
 newline|'\n'
 nl|'\n'
+nl|'\n'
 DECL|variable|LOG
 name|'LOG'
 op|'='
@@ -111,20 +119,22 @@ op|'('
 string|"'nova.compute.disk'"
 op|')'
 newline|'\n'
-DECL|variable|FLAGS
-name|'FLAGS'
+nl|'\n'
+DECL|variable|disk_opts
+name|'disk_opts'
 op|'='
-name|'flags'
+op|'['
+nl|'\n'
+name|'cfg'
 op|'.'
-name|'FLAGS'
-newline|'\n'
-name|'flags'
-op|'.'
-name|'DEFINE_string'
+name|'StrOpt'
 op|'('
 string|"'injected_network_template'"
 op|','
 nl|'\n'
+DECL|variable|default
+name|'default'
+op|'='
 name|'utils'
 op|'.'
 name|'abspath'
@@ -133,15 +143,23 @@ string|"'virt/interfaces.template'"
 op|')'
 op|','
 nl|'\n'
+DECL|variable|help
+name|'help'
+op|'='
 string|"'Template file for injected network'"
 op|')'
-newline|'\n'
-name|'flags'
+op|','
+nl|'\n'
+name|'cfg'
 op|'.'
-name|'DEFINE_list'
+name|'ListOpt'
 op|'('
 string|"'img_handlers'"
 op|','
+nl|'\n'
+DECL|variable|default
+name|'default'
+op|'='
 op|'['
 string|"'loop'"
 op|','
@@ -151,61 +169,88 @@ string|"'guestfs'"
 op|']'
 op|','
 nl|'\n'
+DECL|variable|help
+name|'help'
+op|'='
 string|"'Order of methods used to mount disk images'"
 op|')'
-newline|'\n'
+op|','
 nl|'\n'
 nl|'\n'
-comment|"# NOTE(yamahata): DEFINE_list() doesn't work because the command may"
+comment|"# NOTE(yamahata): ListOpt won't work because the command may include a"
 nl|'\n'
-comment|"#                 include ','. For example,"
-nl|'\n'
-comment|'#                 mkfs.ext3 -O dir_index,extent -E stride=8,stripe-width=16'
-nl|'\n'
-comment|'#                 --label %(fs_label)s %(target)s'
+comment|'#                 comma. For example:'
 nl|'\n'
 comment|'#'
 nl|'\n'
-comment|'#                 DEFINE_list() parses its argument by'
+comment|'#                 mkfs.ext3 -O dir_index,extent -E stride=8,stripe-width=16'
 nl|'\n'
-comment|'#                 [s.strip() for s in argument.split(self._token)]'
+comment|'#                           --label %(fs_label)s %(target)s'
 nl|'\n'
-comment|"#                 where self._token = ','"
+comment|'#'
 nl|'\n'
-comment|"#                 No escape nor exceptional handling for ','."
+comment|'#                 list arguments are comma separated and there is no way to'
 nl|'\n'
-comment|"#                 DEFINE_list() doesn't give us what we need."
+comment|'#                 escape such commas.'
 nl|'\n'
-name|'flags'
+comment|'#'
+nl|'\n'
+name|'cfg'
 op|'.'
-name|'DEFINE_multistring'
+name|'MultiStrOpt'
 op|'('
 string|"'virt_mkfs'"
 op|','
 nl|'\n'
+DECL|variable|default
+name|'default'
+op|'='
 op|'['
-string|"'windows=mkfs.ntfs --fast --label %(fs_label)s '"
 nl|'\n'
-string|"'%(target)s'"
+string|"'default=mkfs.ext3 -L %(fs_label)s -F %(target)s'"
+op|','
+nl|'\n'
+string|"'linux=mkfs.ext3 -L %(fs_label)s -F %(target)s'"
+op|','
+nl|'\n'
+string|"'windows='"
+nl|'\n'
+string|"'mkfs.ntfs --fast --label %(fs_label)s %(target)s'"
 op|','
 nl|'\n'
 comment|'# NOTE(yamahata): vfat case'
 nl|'\n'
 comment|"#'windows=mkfs.vfat -n %(fs_label)s %(target)s',"
 nl|'\n'
-string|"'linux=mkfs.ext3 -L %(fs_label)s -F %(target)s'"
-op|','
-nl|'\n'
-string|"'default=mkfs.ext3 -L %(fs_label)s -F %(target)s'"
 op|']'
 op|','
 nl|'\n'
-string|"'mkfs commands for ephemeral device. The format is'"
+DECL|variable|help
+name|'help'
+op|'='
+string|"'mkfs commands for ephemeral device. '"
 nl|'\n'
-string|"'<os_type>=<mkfs command>'"
+string|"'The format is <os_type>=<mkfs command>'"
 op|')'
+op|','
+nl|'\n'
+op|']'
 newline|'\n'
 nl|'\n'
+DECL|variable|FLAGS
+name|'FLAGS'
+op|'='
+name|'flags'
+op|'.'
+name|'FLAGS'
+newline|'\n'
+name|'FLAGS'
+op|'.'
+name|'add_options'
+op|'('
+name|'disk_opts'
+op|')'
+newline|'\n'
 nl|'\n'
 DECL|variable|_MKFS_COMMAND
 name|'_MKFS_COMMAND'

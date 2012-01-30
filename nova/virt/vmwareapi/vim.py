@@ -60,6 +60,13 @@ nl|'\n'
 dedent|''
 name|'from'
 name|'nova'
+op|'.'
+name|'common'
+name|'import'
+name|'cfg'
+newline|'\n'
+name|'from'
+name|'nova'
 name|'import'
 name|'flags'
 newline|'\n'
@@ -89,6 +96,35 @@ op|'='
 string|"'Address already in use'"
 newline|'\n'
 nl|'\n'
+name|'vmwareapi_wsdl_loc_opt'
+op|'='
+DECL|variable|vmwareapi_wsdl_loc_opt
+name|'cfg'
+op|'.'
+name|'StrOpt'
+op|'('
+string|"'vmwareapi_wsdl_loc'"
+op|','
+nl|'\n'
+DECL|variable|default
+name|'default'
+op|'='
+name|'None'
+op|','
+nl|'\n'
+DECL|variable|help
+name|'help'
+op|'='
+string|"'VIM Service WSDL Location '"
+nl|'\n'
+string|"'e.g http://<server>/vimService.wsdl. '"
+nl|'\n'
+string|"'Due to a bug in vSphere ESX 4.1 default wsdl. '"
+nl|'\n'
+string|"'Refer readme-vmware to setup'"
+op|')'
+newline|'\n'
+nl|'\n'
 DECL|variable|FLAGS
 name|'FLAGS'
 op|'='
@@ -96,23 +132,11 @@ name|'flags'
 op|'.'
 name|'FLAGS'
 newline|'\n'
-name|'flags'
+name|'FLAGS'
 op|'.'
-name|'DEFINE_string'
+name|'add_option'
 op|'('
-string|"'vmwareapi_wsdl_loc'"
-op|','
-nl|'\n'
-name|'None'
-op|','
-nl|'\n'
-string|"'VIM Service WSDL Location'"
-nl|'\n'
-string|"'e.g http://<server>/vimService.wsdl'"
-nl|'\n'
-string|"'Due to a bug in vSphere ESX 4.1 default wsdl'"
-nl|'\n'
-string|"'Refer readme-vmware to setup'"
+name|'vmwareapi_wsdl_loc_opt'
 op|')'
 newline|'\n'
 nl|'\n'

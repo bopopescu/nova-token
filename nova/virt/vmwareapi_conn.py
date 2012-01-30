@@ -46,6 +46,13 @@ newline|'\n'
 nl|'\n'
 name|'from'
 name|'nova'
+op|'.'
+name|'common'
+name|'import'
+name|'cfg'
+newline|'\n'
+name|'from'
+name|'nova'
 name|'import'
 name|'context'
 newline|'\n'
@@ -134,6 +141,146 @@ string|'"nova.virt.vmwareapi_conn"'
 op|')'
 newline|'\n'
 nl|'\n'
+DECL|variable|vmwareapi_opts
+name|'vmwareapi_opts'
+op|'='
+op|'['
+nl|'\n'
+name|'cfg'
+op|'.'
+name|'StrOpt'
+op|'('
+string|"'vmwareapi_host_ip'"
+op|','
+nl|'\n'
+DECL|variable|default
+name|'default'
+op|'='
+name|'None'
+op|','
+nl|'\n'
+DECL|variable|help
+name|'help'
+op|'='
+string|"'URL for connection to VMWare ESX host.Required if '"
+nl|'\n'
+string|"'connection_type is vmwareapi.'"
+op|')'
+op|','
+nl|'\n'
+name|'cfg'
+op|'.'
+name|'StrOpt'
+op|'('
+string|"'vmwareapi_host_username'"
+op|','
+nl|'\n'
+DECL|variable|default
+name|'default'
+op|'='
+name|'None'
+op|','
+nl|'\n'
+DECL|variable|help
+name|'help'
+op|'='
+string|"'Username for connection to VMWare ESX host. '"
+nl|'\n'
+string|"'Used only if connection_type is vmwareapi.'"
+op|')'
+op|','
+nl|'\n'
+name|'cfg'
+op|'.'
+name|'StrOpt'
+op|'('
+string|"'vmwareapi_host_password'"
+op|','
+nl|'\n'
+DECL|variable|default
+name|'default'
+op|'='
+name|'None'
+op|','
+nl|'\n'
+DECL|variable|help
+name|'help'
+op|'='
+string|"'Password for connection to VMWare ESX host. '"
+nl|'\n'
+string|"'Used only if connection_type is vmwareapi.'"
+op|')'
+op|','
+nl|'\n'
+name|'cfg'
+op|'.'
+name|'FloatOpt'
+op|'('
+string|"'vmwareapi_task_poll_interval'"
+op|','
+nl|'\n'
+DECL|variable|default
+name|'default'
+op|'='
+number|'5.0'
+op|','
+nl|'\n'
+DECL|variable|help
+name|'help'
+op|'='
+string|"'The interval used for polling of remote tasks. '"
+nl|'\n'
+string|"'Used only if connection_type is vmwareapi'"
+op|')'
+op|','
+nl|'\n'
+name|'cfg'
+op|'.'
+name|'FloatOpt'
+op|'('
+string|"'vmwareapi_api_retry_count'"
+op|','
+nl|'\n'
+DECL|variable|default
+name|'default'
+op|'='
+number|'10'
+op|','
+nl|'\n'
+DECL|variable|help
+name|'help'
+op|'='
+string|"'The number of times we retry on failures, e.g., '"
+nl|'\n'
+string|"'socket error, etc. '"
+nl|'\n'
+string|"'Used only if connection_type is vmwareapi'"
+op|')'
+op|','
+nl|'\n'
+name|'cfg'
+op|'.'
+name|'StrOpt'
+op|'('
+string|"'vmwareapi_vlan_interface'"
+op|','
+nl|'\n'
+DECL|variable|default
+name|'default'
+op|'='
+string|"'vmnic0'"
+op|','
+nl|'\n'
+DECL|variable|help
+name|'help'
+op|'='
+string|"'Physical ethernet adapter name for vlan networking'"
+op|')'
+op|','
+nl|'\n'
+op|']'
+newline|'\n'
+nl|'\n'
 DECL|variable|FLAGS
 name|'FLAGS'
 op|'='
@@ -141,94 +288,11 @@ name|'flags'
 op|'.'
 name|'FLAGS'
 newline|'\n'
-name|'flags'
+name|'FLAGS'
 op|'.'
-name|'DEFINE_string'
+name|'add_options'
 op|'('
-string|"'vmwareapi_host_ip'"
-op|','
-nl|'\n'
-name|'None'
-op|','
-nl|'\n'
-string|"'URL for connection to VMWare ESX host.'"
-nl|'\n'
-string|"'Required if connection_type is vmwareapi.'"
-op|')'
-newline|'\n'
-name|'flags'
-op|'.'
-name|'DEFINE_string'
-op|'('
-string|"'vmwareapi_host_username'"
-op|','
-nl|'\n'
-name|'None'
-op|','
-nl|'\n'
-string|"'Username for connection to VMWare ESX host.'"
-nl|'\n'
-string|"'Used only if connection_type is vmwareapi.'"
-op|')'
-newline|'\n'
-name|'flags'
-op|'.'
-name|'DEFINE_string'
-op|'('
-string|"'vmwareapi_host_password'"
-op|','
-nl|'\n'
-name|'None'
-op|','
-nl|'\n'
-string|"'Password for connection to VMWare ESX host.'"
-nl|'\n'
-string|"'Used only if connection_type is vmwareapi.'"
-op|')'
-newline|'\n'
-name|'flags'
-op|'.'
-name|'DEFINE_float'
-op|'('
-string|"'vmwareapi_task_poll_interval'"
-op|','
-nl|'\n'
-number|'5.0'
-op|','
-nl|'\n'
-string|"'The interval used for polling of remote tasks '"
-nl|'\n'
-string|"'Used only if connection_type is vmwareapi'"
-op|')'
-newline|'\n'
-name|'flags'
-op|'.'
-name|'DEFINE_float'
-op|'('
-string|"'vmwareapi_api_retry_count'"
-op|','
-nl|'\n'
-number|'10'
-op|','
-nl|'\n'
-string|"'The number of times we retry on failures, '"
-nl|'\n'
-string|"'e.g., socket error, etc.'"
-nl|'\n'
-string|"'Used only if connection_type is vmwareapi'"
-op|')'
-newline|'\n'
-name|'flags'
-op|'.'
-name|'DEFINE_string'
-op|'('
-string|"'vmwareapi_vlan_interface'"
-op|','
-nl|'\n'
-string|"'vmnic0'"
-op|','
-nl|'\n'
-string|"'Physical ethernet adapter name for vlan networking'"
+name|'vmwareapi_opts'
 op|')'
 newline|'\n'
 nl|'\n'
