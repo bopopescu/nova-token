@@ -1263,13 +1263,15 @@ op|'.'
 name|'assertEqual'
 op|'('
 name|'result'
-op|'['
-string|"'releaseResponse'"
-op|']'
+op|'.'
+name|'get'
+op|'('
+string|"'return'"
 op|','
-op|'['
-string|"'Address released.'"
-op|']'
+name|'None'
+op|')'
+op|','
+string|"'true'"
 op|')'
 newline|'\n'
 nl|'\n'
