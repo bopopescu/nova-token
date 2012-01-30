@@ -272,7 +272,7 @@ name|'api'
 op|'.'
 name|'API'
 op|','
-string|"'routing_get'"
+string|"'get'"
 op|','
 name|'fake_compute_get'
 op|')'
@@ -617,7 +617,7 @@ name|'api'
 op|'.'
 name|'API'
 op|','
-string|"'routing_get'"
+string|"'get'"
 op|','
 name|'fake_compute_get'
 op|')'
