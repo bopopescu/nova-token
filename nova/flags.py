@@ -2821,7 +2821,7 @@ nl|'\n'
 DECL|variable|default
 name|'default'
 op|'='
-string|"'nova.virt.libvirt.firewall.IptablesFirewallDriver'"
+string|"'nova.virt.firewall.IptablesFirewallDriver'"
 op|','
 nl|'\n'
 DECL|variable|help
