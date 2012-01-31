@@ -3313,26 +3313,6 @@ op|','
 nl|'\n'
 name|'cfg'
 op|'.'
-name|'BoolOpt'
-op|'('
-string|"'allow_ec2_admin_api'"
-op|','
-nl|'\n'
-DECL|variable|default
-name|'default'
-op|'='
-name|'False'
-op|','
-nl|'\n'
-DECL|variable|help
-name|'help'
-op|'='
-string|"'Enable/Disable EC2 Admin API'"
-op|')'
-op|','
-nl|'\n'
-name|'cfg'
-op|'.'
 name|'IntOpt'
 op|'('
 string|"'service_down_time'"
