@@ -112,7 +112,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'""" IptablesFirewallDriver class\n\n    This class provides an implementation for nova.virt.Firewall\n    using iptables. This class is meant to be used with the xenapi\n    backend and uses xenapi plugin to enforce iptables rules in dom0\n\n    """'
+string|'""" Dom0IptablesFirewallDriver class\n\n    This class provides an implementation for nova.virt.Firewall\n    using iptables. This class is meant to be used with the xenapi\n    backend and uses xenapi plugin to enforce iptables rules in dom0\n\n    """'
 newline|'\n'
 DECL|member|_plugin_execute
 name|'def'
