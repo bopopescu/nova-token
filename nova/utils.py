@@ -501,7 +501,7 @@ name|'struct'
 op|'.'
 name|'pack'
 op|'('
-string|"'!BQxxxxxx'"
+string|"'!BQxxxxx'"
 op|','
 number|'0x38'
 op|','
