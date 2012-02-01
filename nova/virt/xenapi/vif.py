@@ -127,7 +127,6 @@ op|'('
 name|'xenapi_ovs_integration_bridge_opt'
 op|')'
 newline|'\n'
-nl|'\n'
 DECL|variable|LOG
 name|'LOG'
 op|'='
