@@ -4473,7 +4473,7 @@ op|'.'
 name|'lock_path'
 op|','
 nl|'\n'
-string|"'nova-%s.lock'"
+string|"'nova-%s'"
 op|'%'
 name|'name'
 op|')'
