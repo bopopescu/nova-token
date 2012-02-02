@@ -2099,6 +2099,50 @@ op|','
 nl|'\n'
 name|'cfg'
 op|'.'
+name|'StrOpt'
+op|'('
+string|"'osapi_compute_link_prefix'"
+op|','
+nl|'\n'
+DECL|variable|default
+name|'default'
+op|'='
+name|'None'
+op|','
+nl|'\n'
+DECL|variable|help
+name|'help'
+op|'='
+string|"'Base URL that will be presented to users in links '"
+nl|'\n'
+string|"'to the Openstack Compute API'"
+op|')'
+op|','
+nl|'\n'
+name|'cfg'
+op|'.'
+name|'StrOpt'
+op|'('
+string|"'osapi_glance_link_prefix'"
+op|','
+nl|'\n'
+DECL|variable|default
+name|'default'
+op|'='
+name|'None'
+op|','
+nl|'\n'
+DECL|variable|help
+name|'help'
+op|'='
+string|"'Base URL that will be presented to users in links '"
+nl|'\n'
+string|"'to glance resources'"
+op|')'
+op|','
+nl|'\n'
+name|'cfg'
+op|'.'
 name|'IntOpt'
 op|'('
 string|"'osapi_max_limit'"
