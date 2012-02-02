@@ -83,13 +83,6 @@ name|'utils'
 newline|'\n'
 nl|'\n'
 nl|'\n'
-DECL|variable|FLAGS
-name|'FLAGS'
-op|'='
-name|'flags'
-op|'.'
-name|'FLAGS'
-newline|'\n'
 DECL|variable|LOG
 name|'LOG'
 op|'='
