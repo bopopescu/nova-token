@@ -192,28 +192,6 @@ name|'cfg'
 op|'.'
 name|'StrOpt'
 op|'('
-string|"'logging_debug_format_suffix'"
-op|','
-nl|'\n'
-DECL|variable|default
-name|'default'
-op|'='
-string|"'from (pid=%(process)d) %(funcName)s '"
-nl|'\n'
-string|"'%(pathname)s:%(lineno)d'"
-op|','
-nl|'\n'
-DECL|variable|help
-name|'help'
-op|'='
-string|"'data to append to log format when level is DEBUG'"
-op|')'
-op|','
-nl|'\n'
-name|'cfg'
-op|'.'
-name|'StrOpt'
-op|'('
 string|"'instance_format'"
 op|','
 nl|'\n'
