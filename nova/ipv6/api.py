@@ -50,9 +50,9 @@ name|'utils'
 newline|'\n'
 nl|'\n'
 nl|'\n'
+DECL|variable|ipv6_backend_opt
 name|'ipv6_backend_opt'
 op|'='
-DECL|variable|ipv6_backend_opt
 name|'cfg'
 op|'.'
 name|'StrOpt'

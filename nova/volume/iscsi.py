@@ -56,9 +56,9 @@ name|'utils'
 newline|'\n'
 nl|'\n'
 nl|'\n'
+DECL|variable|iscsi_helper_opt
 name|'iscsi_helper_opt'
 op|'='
-DECL|variable|iscsi_helper_opt
 name|'cfg'
 op|'.'
 name|'StrOpt'

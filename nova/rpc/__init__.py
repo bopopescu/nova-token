@@ -69,9 +69,9 @@ name|'import_object'
 newline|'\n'
 nl|'\n'
 nl|'\n'
+DECL|variable|rpc_backend_opt
 name|'rpc_backend_opt'
 op|'='
-DECL|variable|rpc_backend_opt
 name|'cfg'
 op|'.'
 name|'StrOpt'

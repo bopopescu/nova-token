@@ -56,9 +56,9 @@ name|'rpc'
 newline|'\n'
 nl|'\n'
 nl|'\n'
+DECL|variable|notification_topic_opt
 name|'notification_topic_opt'
 op|'='
-DECL|variable|notification_topic_opt
 name|'cfg'
 op|'.'
 name|'StrOpt'
