@@ -129,26 +129,6 @@ op|'['
 nl|'\n'
 name|'cfg'
 op|'.'
-name|'StrOpt'
-op|'('
-string|"'instances_path'"
-op|','
-nl|'\n'
-DECL|variable|default
-name|'default'
-op|'='
-string|"'$state_path/instances'"
-op|','
-nl|'\n'
-DECL|variable|help
-name|'help'
-op|'='
-string|"'Where instances are stored on disk'"
-op|')'
-op|','
-nl|'\n'
-name|'cfg'
-op|'.'
 name|'BoolOpt'
 op|'('
 string|"'remove_unused_base_images'"
