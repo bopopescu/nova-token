@@ -1952,9 +1952,7 @@ name|'warn'
 op|'('
 name|'_'
 op|'('
-string|"'Quota exceeded for %s, tried to allocate '"
-nl|'\n'
-string|"'address'"
+string|"'Quota exceeded for %s, tried to allocate address'"
 op|')'
 op|','
 nl|'\n'
@@ -1968,12 +1966,9 @@ name|'exception'
 op|'.'
 name|'QuotaError'
 op|'('
-name|'_'
-op|'('
-string|"'Address quota exceeded. You cannot '"
-nl|'\n'
-string|"'allocate any more addresses'"
-op|')'
+name|'code'
+op|'='
+string|"'AddressLimitExceeded'"
 op|')'
 newline|'\n'
 dedent|''
