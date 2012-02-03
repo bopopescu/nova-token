@@ -72,9 +72,9 @@ string|"'nova.scheduler.filter.ram_filter'"
 op|')'
 newline|'\n'
 nl|'\n'
+DECL|variable|ram_allocation_ratio_opt
 name|'ram_allocation_ratio_opt'
 op|'='
-DECL|variable|ram_allocation_ratio_opt
 name|'cfg'
 op|'.'
 name|'FloatOpt'
