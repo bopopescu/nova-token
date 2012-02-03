@@ -93,9 +93,9 @@ name|'images'
 newline|'\n'
 nl|'\n'
 nl|'\n'
+DECL|variable|qemu_img_opt
 name|'qemu_img_opt'
 op|'='
-DECL|variable|qemu_img_opt
 name|'cfg'
 op|'.'
 name|'StrOpt'

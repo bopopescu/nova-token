@@ -105,9 +105,9 @@ string|"'nova.virt.libvirt.vif'"
 op|')'
 newline|'\n'
 nl|'\n'
+DECL|variable|libvirt_ovs_bridge_opt
 name|'libvirt_ovs_bridge_opt'
 op|'='
-DECL|variable|libvirt_ovs_bridge_opt
 name|'cfg'
 op|'.'
 name|'StrOpt'

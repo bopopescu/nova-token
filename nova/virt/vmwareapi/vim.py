@@ -98,9 +98,9 @@ op|'='
 string|"'Address already in use'"
 newline|'\n'
 nl|'\n'
+DECL|variable|vmwareapi_wsdl_loc_opt
 name|'vmwareapi_wsdl_loc_opt'
 op|'='
-DECL|variable|vmwareapi_wsdl_loc_opt
 name|'cfg'
 op|'.'
 name|'StrOpt'
@@ -461,6 +461,7 @@ name|'self'
 op|'.'
 name|'_request_managed_object_builder'
 op|'('
+nl|'\n'
 name|'managed_object'
 op|')'
 newline|'\n'
