@@ -603,10 +603,13 @@ name|'debug'
 op|'('
 name|'_'
 op|'('
-string|"'Filters added to the instance: %r'"
+string|"'Filters added to instance %s'"
 op|')'
 op|','
 name|'instance'
+op|'['
+string|"'uuid'"
+op|']'
 op|')'
 newline|'\n'
 name|'self'
