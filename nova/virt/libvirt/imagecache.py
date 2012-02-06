@@ -174,6 +174,15 @@ nl|'\n'
 op|']'
 newline|'\n'
 nl|'\n'
+name|'flags'
+op|'.'
+name|'DECLARE'
+op|'('
+string|"'instances_path'"
+op|','
+string|"'nova.compute.manager'"
+op|')'
+newline|'\n'
 DECL|variable|FLAGS
 name|'FLAGS'
 op|'='

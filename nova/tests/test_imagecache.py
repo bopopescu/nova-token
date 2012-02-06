@@ -95,6 +95,15 @@ name|'virtutils'
 newline|'\n'
 nl|'\n'
 nl|'\n'
+name|'flags'
+op|'.'
+name|'DECLARE'
+op|'('
+string|"'instances_path'"
+op|','
+string|"'nova.compute.manager'"
+op|')'
+newline|'\n'
 DECL|variable|FLAGS
 name|'FLAGS'
 op|'='
@@ -102,6 +111,7 @@ name|'flags'
 op|'.'
 name|'FLAGS'
 newline|'\n'
+nl|'\n'
 DECL|variable|LOG
 name|'LOG'
 op|'='
