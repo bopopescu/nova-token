@@ -1366,6 +1366,11 @@ op|','
 string|"'name'"
 op|':'
 string|"'I just made this up!'"
+op|','
+nl|'\n'
+string|"'uuid'"
+op|':'
+string|"'bda5fb9e-b347-40e8-8256-42397848cb00'"
 op|'}'
 newline|'\n'
 name|'network_info'
