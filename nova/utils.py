@@ -1619,6 +1619,11 @@ op|'('
 string|"'flagfile'"
 op|')'
 op|'+'
+name|'len'
+op|'('
+string|"'flagfile'"
+op|')'
+op|'+'
 number|'1'
 op|':'
 op|']'
