@@ -1226,36 +1226,6 @@ name|'return'
 string|"'FAKE CONSOLE OUTPUT\\nANOTHER\\nLAST LINE'"
 newline|'\n'
 nl|'\n'
-DECL|member|get_ajax_console
-dedent|''
-name|'def'
-name|'get_ajax_console'
-op|'('
-name|'self'
-op|','
-name|'instance'
-op|')'
-op|':'
-newline|'\n'
-indent|'        '
-name|'return'
-op|'{'
-string|"'token'"
-op|':'
-string|"'FAKETOKEN'"
-op|','
-nl|'\n'
-string|"'host'"
-op|':'
-string|"'fakeajaxconsole.com'"
-op|','
-nl|'\n'
-string|"'port'"
-op|':'
-number|'6969'
-op|'}'
-newline|'\n'
-nl|'\n'
 DECL|member|get_vnc_console
 dedent|''
 name|'def'
