@@ -399,9 +399,6 @@ nl|'\n'
 string|"'bin/instance-usage-audit'"
 op|','
 nl|'\n'
-string|"'bin/nova-ajax-console-proxy'"
-op|','
-nl|'\n'
 string|"'bin/nova-all'"
 op|','
 nl|'\n'
