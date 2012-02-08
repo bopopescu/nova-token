@@ -557,7 +557,14 @@ number|'0'
 newline|'\n'
 name|'f'
 op|'['
-string|"'osapi_listen_port'"
+string|"'osapi_compute_listen_port'"
+op|']'
+op|'='
+number|'0'
+newline|'\n'
+name|'f'
+op|'['
+string|"'osapi_volume_listen_port'"
 op|']'
 op|'='
 number|'0'
