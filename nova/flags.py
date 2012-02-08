@@ -3138,6 +3138,28 @@ op|','
 nl|'\n'
 name|'cfg'
 op|'.'
+name|'BoolOpt'
+op|'('
+string|"'enable_instance_password'"
+op|','
+nl|'\n'
+DECL|variable|default
+name|'default'
+op|'='
+name|'True'
+op|','
+nl|'\n'
+DECL|variable|help
+name|'help'
+op|'='
+string|"'Allows use of instance password during '"
+nl|'\n'
+string|"'server creation'"
+op|')'
+op|','
+nl|'\n'
+name|'cfg'
+op|'.'
 name|'IntOpt'
 op|'('
 string|"'password_length'"
