@@ -326,17 +326,6 @@ op|'='
 string|"'nose.collector'"
 op|','
 nl|'\n'
-DECL|variable|data_files
-name|'data_files'
-op|'='
-name|'find_data_files'
-op|'('
-string|"'share/nova'"
-op|','
-string|"'tools'"
-op|')'
-op|','
-nl|'\n'
 DECL|variable|scripts
 name|'scripts'
 op|'='
