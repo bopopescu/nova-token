@@ -1939,6 +1939,31 @@ op|','
 nl|'\n'
 name|'cfg'
 op|'.'
+name|'ListOpt'
+op|'('
+string|"'osapi_compute_ext_list'"
+op|','
+nl|'\n'
+DECL|variable|default
+name|'default'
+op|'='
+op|'['
+op|']'
+op|','
+nl|'\n'
+DECL|variable|help
+name|'help'
+op|'='
+string|"'Specify list of extensions to load when using osapi_'"
+nl|'\n'
+string|"'compute_extension option with nova.api.openstack.'"
+nl|'\n'
+string|"'compute.contrib.select_extensions'"
+op|')'
+op|','
+nl|'\n'
+name|'cfg'
+op|'.'
 name|'MultiStrOpt'
 op|'('
 string|"'osapi_compute_extension'"
@@ -1958,6 +1983,31 @@ DECL|variable|help
 name|'help'
 op|'='
 string|"'osapi compute extension to load'"
+op|')'
+op|','
+nl|'\n'
+name|'cfg'
+op|'.'
+name|'ListOpt'
+op|'('
+string|"'osapi_volume_ext_list'"
+op|','
+nl|'\n'
+DECL|variable|default
+name|'default'
+op|'='
+op|'['
+op|']'
+op|','
+nl|'\n'
+DECL|variable|help
+name|'help'
+op|'='
+string|"'Specify list of extensions to load when using osapi_'"
+nl|'\n'
+string|"'volume_extension option with nova.api.openstack.'"
+nl|'\n'
+string|"'volume.contrib.select_extensions'"
 op|')'
 op|','
 nl|'\n'
