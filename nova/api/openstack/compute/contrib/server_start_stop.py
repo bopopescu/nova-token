@@ -420,6 +420,11 @@ name|'name'
 op|'='
 string|'"ServerStartStop"'
 newline|'\n'
+DECL|variable|alias
+name|'alias'
+op|'='
+string|'"os-server-start-stop"'
+newline|'\n'
 DECL|variable|namespace
 name|'namespace'
 op|'='
