@@ -215,9 +215,9 @@ nl|'\n'
 string|"'linux=mkfs.ext3 -L %(fs_label)s -F %(target)s'"
 op|','
 nl|'\n'
-string|"'windows='"
+string|"'windows=mkfs.ntfs'"
 nl|'\n'
-string|"'mkfs.ntfs --fast --label %(fs_label)s %(target)s'"
+string|"' --force --fast --label %(fs_label)s %(target)s'"
 op|','
 nl|'\n'
 comment|'# NOTE(yamahata): vfat case'
