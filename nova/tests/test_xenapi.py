@@ -708,6 +708,11 @@ op|':'
 string|"'127.0.0.1:3260,fake'"
 op|','
 nl|'\n'
+string|"'target_lun'"
+op|':'
+name|'None'
+op|','
+nl|'\n'
 string|"'auth_method'"
 op|':'
 string|"'CHAP'"
