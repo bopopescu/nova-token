@@ -108,9 +108,9 @@ string|"'nova.scheduler.manager'"
 op|')'
 newline|'\n'
 nl|'\n'
+DECL|variable|scheduler_driver_opt
 name|'scheduler_driver_opt'
 op|'='
-DECL|variable|scheduler_driver_opt
 name|'cfg'
 op|'.'
 name|'StrOpt'

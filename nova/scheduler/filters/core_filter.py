@@ -75,9 +75,9 @@ string|"'nova.scheduler.filter.core_filter'"
 op|')'
 newline|'\n'
 nl|'\n'
+DECL|variable|cpu_allocation_ratio_opt
 name|'cpu_allocation_ratio_opt'
 op|'='
-DECL|variable|cpu_allocation_ratio_opt
 name|'cfg'
 op|'.'
 name|'FloatOpt'
