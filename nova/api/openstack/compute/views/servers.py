@@ -877,13 +877,10 @@ op|'['
 string|"'key'"
 op|']'
 op|','
-name|'str'
-op|'('
 name|'item'
 op|'['
 string|"'value'"
 op|']'
-op|')'
 op|')'
 name|'for'
 name|'item'
