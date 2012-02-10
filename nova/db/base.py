@@ -57,9 +57,9 @@ name|'cfg'
 newline|'\n'
 nl|'\n'
 nl|'\n'
+DECL|variable|db_driver_opt
 name|'db_driver_opt'
 op|'='
-DECL|variable|db_driver_opt
 name|'cfg'
 op|'.'
 name|'StrOpt'
