@@ -310,26 +310,6 @@ name|'cfg'
 op|'.'
 name|'StrOpt'
 op|'('
-string|"'api_paste_config'"
-op|','
-nl|'\n'
-DECL|variable|default
-name|'default'
-op|'='
-string|'"api-paste.ini"'
-op|','
-nl|'\n'
-DECL|variable|help
-name|'help'
-op|'='
-string|"'File name for the paste.deploy config for nova-api'"
-op|')'
-op|','
-nl|'\n'
-name|'cfg'
-op|'.'
-name|'StrOpt'
-op|'('
 string|"'osapi_volume_listen'"
 op|','
 nl|'\n'
