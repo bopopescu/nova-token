@@ -52,9 +52,9 @@ name|'cfg'
 newline|'\n'
 nl|'\n'
 nl|'\n'
+DECL|variable|consoleauth_topic_opt
 name|'consoleauth_topic_opt'
 op|'='
-DECL|variable|consoleauth_topic_opt
 name|'cfg'
 op|'.'
 name|'StrOpt'

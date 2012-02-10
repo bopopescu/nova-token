@@ -75,9 +75,9 @@ name|'wsgi'
 newline|'\n'
 nl|'\n'
 nl|'\n'
+DECL|variable|use_forwarded_for_opt
 name|'use_forwarded_for_opt'
 op|'='
-DECL|variable|use_forwarded_for_opt
 name|'cfg'
 op|'.'
 name|'BoolOpt'

@@ -128,6 +128,7 @@ op|'('
 string|"'::0200:0:0:0'"
 op|')'
 op|'|'
+nl|'\n'
 name|'maskIP'
 op|')'
 op|'.'

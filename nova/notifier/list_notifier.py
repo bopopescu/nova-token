@@ -63,9 +63,9 @@ name|'ClassNotFound'
 newline|'\n'
 nl|'\n'
 nl|'\n'
+DECL|variable|list_notifier_drivers_opt
 name|'list_notifier_drivers_opt'
 op|'='
-DECL|variable|list_notifier_drivers_opt
 name|'cfg'
 op|'.'
 name|'MultiStrOpt'
