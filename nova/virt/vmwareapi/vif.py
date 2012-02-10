@@ -90,12 +90,11 @@ op|'.'
 name|'FLAGS'
 newline|'\n'
 name|'FLAGS'
-op|'['
-string|"'vmwareapi_vlan_interface'"
-op|']'
 op|'.'
-name|'SetDefault'
+name|'set_default'
 op|'('
+string|"'vmwareapi_vlan_interface'"
+op|','
 string|"'vmnic0'"
 op|')'
 newline|'\n'
