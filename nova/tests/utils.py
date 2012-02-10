@@ -170,6 +170,11 @@ op|':'
 string|"'kinda.big'"
 op|','
 nl|'\n'
+string|"'flavorid'"
+op|':'
+string|"'someid'"
+op|','
+nl|'\n'
 string|"'memory_mb'"
 op|':'
 number|'2048'

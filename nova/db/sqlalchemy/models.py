@@ -2063,10 +2063,6 @@ name|'String'
 op|'('
 number|'255'
 op|')'
-op|','
-name|'unique'
-op|'='
-name|'True'
 op|')'
 newline|'\n'
 DECL|variable|memory_mb
@@ -2110,10 +2106,6 @@ name|'String'
 op|'('
 number|'255'
 op|')'
-op|','
-name|'unique'
-op|'='
-name|'True'
 op|')'
 newline|'\n'
 DECL|variable|swap
@@ -2191,9 +2183,13 @@ nl|'\n'
 DECL|variable|primaryjoin
 name|'primaryjoin'
 op|'='
-string|"'and_(Instance.instance_type_id == '"
+string|"'and_('"
 nl|'\n'
-string|"'InstanceTypes.id)'"
+string|"'Instance.instance_type_id == '"
+nl|'\n'
+string|"'InstanceTypes.id, '"
+nl|'\n'
+string|"'InstanceTypes.deleted == False)'"
 op|')'
 newline|'\n'
 nl|'\n'
@@ -2227,9 +2223,11 @@ nl|'\n'
 DECL|variable|primaryjoin
 name|'primaryjoin'
 op|'='
-string|"'and_(VirtualStorageArray.instance_type_id'"
+string|"'and_('"
 nl|'\n'
-string|"' == InstanceTypes.id)'"
+string|"'VirtualStorageArray.instance_type_id == '"
+nl|'\n'
+string|"'InstanceTypes.id, InstanceTypes.deleted == False)'"
 op|')'
 newline|'\n'
 nl|'\n'
@@ -2674,10 +2672,6 @@ name|'String'
 op|'('
 number|'255'
 op|')'
-op|','
-name|'unique'
-op|'='
-name|'True'
 op|')'
 newline|'\n'
 nl|'\n'
@@ -2711,9 +2705,11 @@ nl|'\n'
 DECL|variable|primaryjoin
 name|'primaryjoin'
 op|'='
-string|"'and_(Volume.volume_type_id == '"
+string|"'and_('"
 nl|'\n'
-string|"'VolumeTypes.id)'"
+string|"'Volume.volume_type_id == VolumeTypes.id, '"
+nl|'\n'
+string|"'VolumeTypes.deleted == False)'"
 op|')'
 newline|'\n'
 nl|'\n'
