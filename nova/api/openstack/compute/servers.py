@@ -1921,7 +1921,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'            '
-name|'rezise'
+name|'resize'
 op|'['
 string|"'auto_disk_config'"
 op|']'
