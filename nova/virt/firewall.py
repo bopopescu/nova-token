@@ -91,9 +91,9 @@ string|'"nova.virt.firewall"'
 op|')'
 newline|'\n'
 nl|'\n'
+DECL|variable|allow_same_net_traffic_opt
 name|'allow_same_net_traffic_opt'
 op|'='
-DECL|variable|allow_same_net_traffic_opt
 name|'cfg'
 op|'.'
 name|'BoolOpt'
