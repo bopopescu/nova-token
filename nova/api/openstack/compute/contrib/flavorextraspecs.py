@@ -735,11 +735,14 @@ name|'alias'
 op|'='
 string|'"os-flavor-extra-specs"'
 newline|'\n'
+DECL|variable|namespace
 name|'namespace'
 op|'='
+op|'('
 string|'"http://docs.openstack.org/compute/ext/"'
-DECL|variable|namespace
+nl|'\n'
 string|'"flavor_extra_specs/api/v1.1"'
+op|')'
 newline|'\n'
 DECL|variable|updated
 name|'updated'

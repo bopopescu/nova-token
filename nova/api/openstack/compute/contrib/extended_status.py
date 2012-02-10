@@ -557,11 +557,14 @@ name|'alias'
 op|'='
 string|'"OS-EXT-STS"'
 newline|'\n'
+DECL|variable|namespace
 name|'namespace'
 op|'='
+op|'('
 string|'"http://docs.openstack.org/compute/ext/"'
-DECL|variable|namespace
+nl|'\n'
 string|'"extended_status/api/v1.1"'
+op|')'
 newline|'\n'
 DECL|variable|updated
 name|'updated'
