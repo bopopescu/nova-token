@@ -274,6 +274,13 @@ op|':'
 string|"'RESIZE'"
 op|','
 nl|'\n'
+name|'task_states'
+op|'.'
+name|'RESIZE_REVERTING'
+op|':'
+string|"'REVERT_RESIZE'"
+op|','
+nl|'\n'
 op|'}'
 op|','
 nl|'\n'
