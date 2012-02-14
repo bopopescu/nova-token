@@ -9808,6 +9808,8 @@ string|"'e2fsck'"
 op|','
 string|"'-f'"
 op|','
+string|"'-y'"
+op|','
 name|'partition_path'
 op|','
 name|'run_as_root'
