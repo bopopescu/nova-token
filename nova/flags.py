@@ -2769,6 +2769,27 @@ name|'help'
 op|'='
 string|"'security group handler class'"
 op|')'
+op|','
+nl|'\n'
+name|'cfg'
+op|'.'
+name|'StrOpt'
+op|'('
+string|"'default_access_ip_network_name'"
+op|','
+nl|'\n'
+DECL|variable|default
+name|'default'
+op|'='
+name|'None'
+op|','
+nl|'\n'
+DECL|variable|help
+name|'help'
+op|'='
+string|"'Name of network to use to set access ips for instances'"
+op|')'
+op|','
 nl|'\n'
 op|']'
 newline|'\n'
