@@ -1249,6 +1249,14 @@ name|'instance'
 op|'['
 string|"'host'"
 op|']'
+op|','
+nl|'\n'
+string|"'project_id'"
+op|':'
+name|'instance'
+op|'['
+string|"'project_id'"
+op|']'
 op|'}'
 newline|'\n'
 name|'try'

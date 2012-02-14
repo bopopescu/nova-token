@@ -1002,7 +1002,7 @@ op|')'
 name|'for'
 name|'ip'
 name|'in'
-name|'subnet'
+name|'subnet_v4'
 op|'['
 string|"'dns'"
 op|']'

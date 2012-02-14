@@ -1571,7 +1571,7 @@ string|'"addresses"'
 op|':'
 op|'{'
 nl|'\n'
-string|"'test0'"
+string|"'test1'"
 op|':'
 op|'['
 nl|'\n'
@@ -1582,7 +1582,7 @@ number|'4'
 op|','
 string|"'addr'"
 op|':'
-string|"'192.168.0.100'"
+string|"'192.168.1.100'"
 op|'}'
 op|','
 nl|'\n'
@@ -1593,7 +1593,7 @@ number|'6'
 op|','
 string|"'addr'"
 op|':'
-string|"'fe80::dcad:beff:feef:1'"
+string|"'2001:db8:0:1::1'"
 op|'}'
 nl|'\n'
 op|']'
@@ -1895,7 +1895,7 @@ string|'"addresses"'
 op|':'
 op|'{'
 nl|'\n'
-string|"'test0'"
+string|"'test1'"
 op|':'
 op|'['
 nl|'\n'
@@ -1906,7 +1906,7 @@ number|'4'
 op|','
 string|"'addr'"
 op|':'
-string|"'192.168.0.100'"
+string|"'192.168.1.100'"
 op|'}'
 op|','
 nl|'\n'
@@ -1917,7 +1917,7 @@ number|'6'
 op|','
 string|"'addr'"
 op|':'
-string|"'fe80::dcad:beff:feef:1'"
+string|"'2001:db8:0:1::1'"
 op|'}'
 nl|'\n'
 op|']'
@@ -2236,7 +2236,7 @@ string|'"addresses"'
 op|':'
 op|'{'
 nl|'\n'
-string|"'test0'"
+string|"'test1'"
 op|':'
 op|'['
 nl|'\n'
@@ -2247,7 +2247,7 @@ number|'4'
 op|','
 string|"'addr'"
 op|':'
-string|"'192.168.0.100'"
+string|"'192.168.1.100'"
 op|'}'
 op|','
 nl|'\n'
@@ -2258,7 +2258,7 @@ number|'6'
 op|','
 string|"'addr'"
 op|':'
-string|"'fe80::dcad:beff:feef:1'"
+string|"'2001:db8:0:1::1'"
 op|'}'
 nl|'\n'
 op|']'
@@ -2716,7 +2716,7 @@ string|"'addresses'"
 op|':'
 op|'{'
 nl|'\n'
-string|"'test0'"
+string|"'test1'"
 op|':'
 op|'['
 nl|'\n'
@@ -2727,7 +2727,7 @@ number|'4'
 op|','
 string|"'addr'"
 op|':'
-string|"'192.168.0.100'"
+string|"'192.168.1.100'"
 op|'}'
 op|','
 nl|'\n'
@@ -2738,7 +2738,7 @@ number|'6'
 op|','
 string|"'addr'"
 op|':'
-string|"'fe80::dcad:beff:feef:1'"
+string|"'2001:db8:0:1::1'"
 op|'}'
 nl|'\n'
 op|']'
@@ -3230,7 +3230,7 @@ string|"'addresses'"
 op|':'
 op|'{'
 nl|'\n'
-string|"'test0'"
+string|"'test1'"
 op|':'
 op|'['
 nl|'\n'
@@ -3241,7 +3241,7 @@ number|'4'
 op|','
 string|"'addr'"
 op|':'
-string|"'192.168.0.100'"
+string|"'192.168.1.100'"
 op|'}'
 op|','
 nl|'\n'
@@ -3252,7 +3252,7 @@ number|'6'
 op|','
 string|"'addr'"
 op|':'
-string|"'fe80::dcad:beff:feef:1'"
+string|"'2001:db8:0:1::1'"
 op|'}'
 op|','
 nl|'\n'
@@ -3373,7 +3373,7 @@ newline|'\n'
 nl|'\n'
 name|'url'
 op|'='
-string|"'/v2/fake/servers/%s/ips/test0'"
+string|"'/v2/fake/servers/%s/ips/test1'"
 op|'%'
 name|'FAKE_UUID'
 newline|'\n'
@@ -3400,7 +3400,7 @@ name|'req'
 op|','
 name|'FAKE_UUID'
 op|','
-string|"'test0'"
+string|"'test1'"
 op|')'
 newline|'\n'
 nl|'\n'
@@ -3408,7 +3408,7 @@ name|'expected'
 op|'='
 op|'{'
 nl|'\n'
-string|"'test0'"
+string|"'test1'"
 op|':'
 op|'['
 nl|'\n'
@@ -3419,7 +3419,7 @@ number|'4'
 op|','
 string|"'addr'"
 op|':'
-string|"'192.168.0.100'"
+string|"'192.168.1.100'"
 op|'}'
 op|','
 nl|'\n'
@@ -3430,7 +3430,7 @@ number|'6'
 op|','
 string|"'addr'"
 op|':'
-string|"'fe80::dcad:beff:feef:1'"
+string|"'2001:db8:0:1::1'"
 op|'}'
 nl|'\n'
 op|']'
@@ -18133,7 +18133,7 @@ string|'"addresses"'
 op|':'
 op|'{'
 nl|'\n'
-string|"'test0'"
+string|"'test1'"
 op|':'
 op|'['
 nl|'\n'
@@ -18144,7 +18144,7 @@ number|'4'
 op|','
 string|"'addr'"
 op|':'
-string|"'192.168.0.100'"
+string|"'192.168.1.100'"
 op|'}'
 op|','
 nl|'\n'
@@ -18155,7 +18155,7 @@ number|'6'
 op|','
 string|"'addr'"
 op|':'
-string|"'fe80::dcad:beff:feef:1'"
+string|"'2001:db8:0:1::1'"
 op|'}'
 nl|'\n'
 op|']'
@@ -18479,7 +18479,7 @@ string|'"addresses"'
 op|':'
 op|'{'
 nl|'\n'
-string|"'test0'"
+string|"'test1'"
 op|':'
 op|'['
 nl|'\n'
@@ -18490,7 +18490,7 @@ number|'4'
 op|','
 string|"'addr'"
 op|':'
-string|"'192.168.0.100'"
+string|"'192.168.1.100'"
 op|'}'
 op|','
 nl|'\n'
@@ -18501,7 +18501,7 @@ number|'6'
 op|','
 string|"'addr'"
 op|':'
-string|"'fe80::dcad:beff:feef:1'"
+string|"'2001:db8:0:1::1'"
 op|'}'
 nl|'\n'
 op|']'
@@ -18866,7 +18866,7 @@ string|'"addresses"'
 op|':'
 op|'{'
 nl|'\n'
-string|"'test0'"
+string|"'test1'"
 op|':'
 op|'['
 nl|'\n'
@@ -18877,7 +18877,7 @@ number|'4'
 op|','
 string|"'addr'"
 op|':'
-string|"'192.168.0.100'"
+string|"'192.168.1.100'"
 op|'}'
 op|','
 nl|'\n'
@@ -18888,7 +18888,7 @@ number|'6'
 op|','
 string|"'addr'"
 op|':'
-string|"'fe80::dcad:beff:feef:1'"
+string|"'2001:db8:0:1::1'"
 op|'}'
 nl|'\n'
 op|']'
@@ -19174,7 +19174,7 @@ string|'"addresses"'
 op|':'
 op|'{'
 nl|'\n'
-string|"'test0'"
+string|"'test1'"
 op|':'
 op|'['
 nl|'\n'
@@ -19185,7 +19185,7 @@ number|'4'
 op|','
 string|"'addr'"
 op|':'
-string|"'192.168.0.100'"
+string|"'192.168.1.100'"
 op|'}'
 op|','
 nl|'\n'
@@ -19196,7 +19196,7 @@ number|'6'
 op|','
 string|"'addr'"
 op|':'
-string|"'fe80::dcad:beff:feef:1'"
+string|"'2001:db8:0:1::1'"
 op|'}'
 nl|'\n'
 op|']'
@@ -19461,7 +19461,7 @@ string|'"addresses"'
 op|':'
 op|'{'
 nl|'\n'
-string|"'test0'"
+string|"'test1'"
 op|':'
 op|'['
 nl|'\n'
@@ -19472,7 +19472,7 @@ number|'4'
 op|','
 string|"'addr'"
 op|':'
-string|"'192.168.0.100'"
+string|"'192.168.1.100'"
 op|'}'
 op|','
 nl|'\n'
@@ -19483,7 +19483,7 @@ number|'6'
 op|','
 string|"'addr'"
 op|':'
-string|"'fe80::dcad:beff:feef:1'"
+string|"'2001:db8:0:1::1'"
 op|'}'
 nl|'\n'
 op|']'
@@ -19758,7 +19758,7 @@ string|'"addresses"'
 op|':'
 op|'{'
 nl|'\n'
-string|"'test0'"
+string|"'test1'"
 op|':'
 op|'['
 nl|'\n'
@@ -19769,7 +19769,7 @@ number|'4'
 op|','
 string|"'addr'"
 op|':'
-string|"'192.168.0.100'"
+string|"'192.168.1.100'"
 op|'}'
 op|','
 nl|'\n'
@@ -19780,7 +19780,7 @@ number|'6'
 op|','
 string|"'addr'"
 op|':'
-string|"'fe80::dcad:beff:feef:1'"
+string|"'2001:db8:0:1::1'"
 op|'}'
 nl|'\n'
 op|']'
@@ -20086,7 +20086,7 @@ string|'"addresses"'
 op|':'
 op|'{'
 nl|'\n'
-string|"'test0'"
+string|"'test1'"
 op|':'
 op|'['
 nl|'\n'
@@ -20097,7 +20097,7 @@ number|'4'
 op|','
 string|"'addr'"
 op|':'
-string|"'192.168.0.100'"
+string|"'192.168.1.100'"
 op|'}'
 op|','
 nl|'\n'
@@ -20108,7 +20108,7 @@ number|'6'
 op|','
 string|"'addr'"
 op|':'
-string|"'fe80::dcad:beff:feef:1'"
+string|"'2001:db8:0:1::1'"
 op|'}'
 nl|'\n'
 op|']'
