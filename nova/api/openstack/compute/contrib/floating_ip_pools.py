@@ -77,7 +77,7 @@ name|'logging'
 op|'.'
 name|'getLogger'
 op|'('
-string|"'nova.api.openstack.compute.contrib.floating_ip_pools'"
+name|'__name__'
 op|')'
 newline|'\n'
 DECL|variable|authorize

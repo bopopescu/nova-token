@@ -94,12 +94,9 @@ name|'logging'
 op|'.'
 name|'getLogger'
 op|'('
-string|"'nova.tests.api.openstack.compute.contrib.'"
-nl|'\n'
-string|"'test_volume_types'"
+name|'__name__'
 op|')'
 newline|'\n'
-nl|'\n'
 DECL|variable|last_param
 name|'last_param'
 op|'='

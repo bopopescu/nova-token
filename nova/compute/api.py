@@ -183,7 +183,7 @@ name|'logging'
 op|'.'
 name|'getLogger'
 op|'('
-string|"'nova.compute.api'"
+name|'__name__'
 op|')'
 newline|'\n'
 nl|'\n'

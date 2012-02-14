@@ -68,7 +68,7 @@ name|'logging'
 op|'.'
 name|'getLogger'
 op|'('
-string|"'nova.api.openstack.compute.contrib.scheduler_hints'"
+name|'__name__'
 op|')'
 newline|'\n'
 nl|'\n'

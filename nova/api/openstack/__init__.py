@@ -82,7 +82,7 @@ name|'logging'
 op|'.'
 name|'getLogger'
 op|'('
-string|"'nova.api.openstack'"
+name|'__name__'
 op|')'
 newline|'\n'
 nl|'\n'

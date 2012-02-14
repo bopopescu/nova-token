@@ -257,7 +257,7 @@ name|'logging'
 op|'.'
 name|'getLogger'
 op|'('
-string|"'nova.vsa'"
+name|'__name__'
 op|')'
 newline|'\n'
 nl|'\n'

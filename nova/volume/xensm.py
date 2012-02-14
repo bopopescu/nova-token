@@ -85,7 +85,7 @@ name|'logging'
 op|'.'
 name|'getLogger'
 op|'('
-string|'"nova.volume.xensm"'
+name|'__name__'
 op|')'
 newline|'\n'
 DECL|variable|FLAGS

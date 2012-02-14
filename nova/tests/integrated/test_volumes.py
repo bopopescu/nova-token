@@ -86,7 +86,7 @@ name|'logging'
 op|'.'
 name|'getLogger'
 op|'('
-string|"'nova.tests.integrated'"
+name|'__name__'
 op|')'
 newline|'\n'
 nl|'\n'

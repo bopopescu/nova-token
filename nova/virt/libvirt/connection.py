@@ -234,7 +234,7 @@ name|'logging'
 op|'.'
 name|'getLogger'
 op|'('
-string|"'nova.virt.libvirt_conn'"
+name|'__name__'
 op|')'
 newline|'\n'
 nl|'\n'

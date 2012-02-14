@@ -72,7 +72,7 @@ name|'logging'
 op|'.'
 name|'getLogger'
 op|'('
-string|"'nova.api.openstack.compute.views.addresses'"
+name|'__name__'
 op|')'
 newline|'\n'
 nl|'\n'

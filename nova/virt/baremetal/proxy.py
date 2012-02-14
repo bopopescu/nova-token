@@ -179,7 +179,7 @@ name|'logging'
 op|'.'
 name|'getLogger'
 op|'('
-string|"'nova.virt.baremetal.proxy'"
+name|'__name__'
 op|')'
 newline|'\n'
 nl|'\n'

@@ -72,7 +72,7 @@ name|'logging'
 op|'.'
 name|'getLogger'
 op|'('
-string|'"nova.api.openstack.compute.contrib.host_aggregates"'
+name|'__name__'
 op|')'
 newline|'\n'
 DECL|variable|authorize

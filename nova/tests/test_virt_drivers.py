@@ -100,7 +100,7 @@ name|'logging'
 op|'.'
 name|'getLogger'
 op|'('
-string|"'nova.tests.test_virt_drivers'"
+name|'__name__'
 op|')'
 newline|'\n'
 nl|'\n'

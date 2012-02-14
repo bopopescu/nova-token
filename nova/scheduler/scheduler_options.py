@@ -110,7 +110,7 @@ name|'logging'
 op|'.'
 name|'getLogger'
 op|'('
-string|"'nova.scheduler.scheduler_options'"
+name|'__name__'
 op|')'
 newline|'\n'
 nl|'\n'

@@ -85,7 +85,7 @@ name|'logging'
 op|'.'
 name|'getLogger'
 op|'('
-string|"'nova.manager'"
+name|'__name__'
 op|')'
 newline|'\n'
 nl|'\n'

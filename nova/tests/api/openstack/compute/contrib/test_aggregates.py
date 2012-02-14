@@ -81,7 +81,7 @@ name|'logging'
 op|'.'
 name|'getLogger'
 op|'('
-string|"'nova.tests.aggregates'"
+name|'__name__'
 op|')'
 newline|'\n'
 DECL|variable|AGGREGATE_LIST

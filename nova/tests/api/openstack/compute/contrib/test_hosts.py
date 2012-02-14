@@ -125,7 +125,7 @@ name|'logging'
 op|'.'
 name|'getLogger'
 op|'('
-string|"'nova.tests.hosts'"
+name|'__name__'
 op|')'
 newline|'\n'
 comment|'# Simulate the hosts returned by the zone manager.'

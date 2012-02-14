@@ -71,7 +71,7 @@ name|'logging'
 op|'.'
 name|'getLogger'
 op|'('
-string|"'nova.virt.libvirt.volume'"
+name|'__name__'
 op|')'
 newline|'\n'
 DECL|variable|FLAGS

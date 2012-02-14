@@ -71,7 +71,7 @@ name|'logging'
 op|'.'
 name|'getLogger'
 op|'('
-string|"'nova.api.openstack.volume.contrib'"
+name|'__name__'
 op|')'
 newline|'\n'
 nl|'\n'

@@ -123,7 +123,7 @@ name|'logging'
 op|'.'
 name|'getLogger'
 op|'('
-string|"'nova.compute.imagecache'"
+name|'__name__'
 op|')'
 newline|'\n'
 nl|'\n'

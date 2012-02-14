@@ -181,7 +181,7 @@ name|'logging'
 op|'.'
 name|'getLogger'
 op|'('
-string|"'nova.scheduler.host_manager'"
+name|'__name__'
 op|')'
 newline|'\n'
 nl|'\n'

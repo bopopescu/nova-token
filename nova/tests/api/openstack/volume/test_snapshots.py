@@ -106,7 +106,7 @@ name|'logging'
 op|'.'
 name|'getLogger'
 op|'('
-string|"'nova.tests.api.openstack.snapshot'"
+name|'__name__'
 op|')'
 newline|'\n'
 nl|'\n'

@@ -69,7 +69,7 @@ name|'logging'
 op|'.'
 name|'getLogger'
 op|'('
-string|"'nova.exception'"
+name|'__name__'
 op|')'
 newline|'\n'
 nl|'\n'

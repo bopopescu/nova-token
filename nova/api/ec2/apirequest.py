@@ -83,7 +83,7 @@ name|'logging'
 op|'.'
 name|'getLogger'
 op|'('
-string|'"nova.api.request"'
+name|'__name__'
 op|')'
 newline|'\n'
 DECL|variable|FLAGS

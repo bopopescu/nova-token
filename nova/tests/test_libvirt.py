@@ -253,7 +253,7 @@ name|'logging'
 op|'.'
 name|'getLogger'
 op|'('
-string|"'nova.tests.test_libvirt'"
+name|'__name__'
 op|')'
 newline|'\n'
 nl|'\n'

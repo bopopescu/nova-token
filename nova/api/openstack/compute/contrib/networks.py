@@ -89,7 +89,7 @@ name|'logging'
 op|'.'
 name|'getLogger'
 op|'('
-string|"'nova.api.openstack.compute.contrib.networks'"
+name|'__name__'
 op|')'
 newline|'\n'
 DECL|variable|authorize

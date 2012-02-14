@@ -102,7 +102,7 @@ name|'logging'
 op|'.'
 name|'getLogger'
 op|'('
-string|"'nova.image.glance'"
+name|'__name__'
 op|')'
 newline|'\n'
 nl|'\n'

@@ -54,7 +54,7 @@ name|'logging'
 op|'.'
 name|'getLogger'
 op|'('
-string|"'nova.notifier.capacity_notifier'"
+name|'__name__'
 op|')'
 newline|'\n'
 nl|'\n'

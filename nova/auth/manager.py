@@ -416,7 +416,7 @@ name|'logging'
 op|'.'
 name|'getLogger'
 op|'('
-string|"'nova.auth.manager'"
+name|'__name__'
 op|')'
 newline|'\n'
 nl|'\n'

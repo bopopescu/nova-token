@@ -83,7 +83,7 @@ name|'logging'
 op|'.'
 name|'getLogger'
 op|'('
-string|"'nova.virt.baremetal.dom'"
+name|'__name__'
 op|')'
 newline|'\n'
 nl|'\n'

@@ -154,7 +154,7 @@ name|'logging'
 op|'.'
 name|'getLogger'
 op|'('
-string|"'nova.scheduler.zone_manager'"
+name|'__name__'
 op|')'
 newline|'\n'
 nl|'\n'

@@ -134,7 +134,7 @@ name|'logging'
 op|'.'
 name|'getLogger'
 op|'('
-string|"'nova.virt.tilera'"
+name|'__name__'
 op|')'
 newline|'\n'
 nl|'\n'

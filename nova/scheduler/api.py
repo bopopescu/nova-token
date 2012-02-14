@@ -144,7 +144,7 @@ name|'logging'
 op|'.'
 name|'getLogger'
 op|'('
-string|"'nova.scheduler.api'"
+name|'__name__'
 op|')'
 newline|'\n'
 nl|'\n'

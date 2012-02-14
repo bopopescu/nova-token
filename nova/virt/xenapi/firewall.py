@@ -91,7 +91,7 @@ name|'logging'
 op|'.'
 name|'getLogger'
 op|'('
-string|'"nova.virt.xenapi.firewall"'
+name|'__name__'
 op|')'
 newline|'\n'
 DECL|variable|FLAGS

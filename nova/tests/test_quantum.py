@@ -118,7 +118,7 @@ name|'logging'
 op|'.'
 name|'getLogger'
 op|'('
-string|"'nova.tests.quantum_network'"
+name|'__name__'
 op|')'
 newline|'\n'
 nl|'\n'

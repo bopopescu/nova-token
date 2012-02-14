@@ -118,7 +118,7 @@ name|'logging'
 op|'.'
 name|'getLogger'
 op|'('
-string|"'nova.compute.disk'"
+name|'__name__'
 op|')'
 newline|'\n'
 nl|'\n'

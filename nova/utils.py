@@ -164,7 +164,7 @@ name|'logging'
 op|'.'
 name|'getLogger'
 op|'('
-string|'"nova.utils"'
+name|'__name__'
 op|')'
 newline|'\n'
 DECL|variable|ISO_TIME_FORMAT

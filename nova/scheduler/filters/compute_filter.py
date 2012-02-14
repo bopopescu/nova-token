@@ -58,7 +58,7 @@ name|'logging'
 op|'.'
 name|'getLogger'
 op|'('
-string|"'nova.scheduler.filter.compute_filter'"
+name|'__name__'
 op|')'
 newline|'\n'
 nl|'\n'

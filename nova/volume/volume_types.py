@@ -84,7 +84,7 @@ name|'logging'
 op|'.'
 name|'getLogger'
 op|'('
-string|"'nova.volume.volume_types'"
+name|'__name__'
 op|')'
 newline|'\n'
 nl|'\n'

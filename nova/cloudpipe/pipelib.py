@@ -222,7 +222,7 @@ name|'logging'
 op|'.'
 name|'getLogger'
 op|'('
-string|"'nova.cloudpipe'"
+name|'__name__'
 op|')'
 newline|'\n'
 nl|'\n'

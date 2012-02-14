@@ -74,7 +74,7 @@ name|'logging'
 op|'.'
 name|'getLogger'
 op|'('
-string|'"nova.virt.driver"'
+name|'__name__'
 op|')'
 newline|'\n'
 DECL|variable|FLAGS

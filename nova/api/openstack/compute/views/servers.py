@@ -112,7 +112,7 @@ name|'logging'
 op|'.'
 name|'getLogger'
 op|'('
-string|"'nova.api.openstack.compute.views.servers'"
+name|'__name__'
 op|')'
 newline|'\n'
 nl|'\n'

@@ -98,7 +98,7 @@ name|'logging'
 op|'.'
 name|'getLogger'
 op|'('
-string|"'nova.network'"
+name|'__name__'
 op|')'
 newline|'\n'
 nl|'\n'

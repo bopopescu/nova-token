@@ -59,7 +59,7 @@ name|'logging'
 op|'.'
 name|'getLogger'
 op|'('
-string|"'nova.db.sqlalchemy.migrate_repo.versions'"
+name|'__name__'
 op|')'
 newline|'\n'
 nl|'\n'
