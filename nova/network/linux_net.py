@@ -2397,6 +2397,8 @@ op|','
 nl|'\n'
 string|"'-s %(range)s -d %(range)s '"
 nl|'\n'
+string|"'-m conntrack ! --ctstate DNAT '"
+nl|'\n'
 string|"'-j ACCEPT'"
 op|'%'
 nl|'\n'
