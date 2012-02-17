@@ -379,6 +379,26 @@ op|','
 nl|'\n'
 name|'cfg'
 op|'.'
+name|'BoolOpt'
+op|'('
+string|"'use_usb_tablet'"
+op|','
+nl|'\n'
+DECL|variable|default
+name|'default'
+op|'='
+name|'True'
+op|','
+nl|'\n'
+DECL|variable|help
+name|'help'
+op|'='
+string|"'Sync virtual and real mouse cursors in Windows VMs'"
+op|')'
+op|','
+nl|'\n'
+name|'cfg'
+op|'.'
 name|'StrOpt'
 op|'('
 string|"'cpuinfo_xml_template'"
