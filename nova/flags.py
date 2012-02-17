@@ -2751,6 +2751,25 @@ string|"'The volume API class to use'"
 op|')'
 op|','
 nl|'\n'
+name|'cfg'
+op|'.'
+name|'StrOpt'
+op|'('
+string|"'security_group_handler'"
+op|','
+nl|'\n'
+DECL|variable|default
+name|'default'
+op|'='
+string|"'nova.network.quantum.sg.NullSecurityGroupHandler'"
+op|','
+nl|'\n'
+DECL|variable|help
+name|'help'
+op|'='
+string|"'security group handler class'"
+op|')'
+nl|'\n'
 op|']'
 newline|'\n'
 nl|'\n'
