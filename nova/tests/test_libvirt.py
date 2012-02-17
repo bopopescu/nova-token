@@ -14605,7 +14605,7 @@ name|'StubOutWithMock'
 op|'('
 name|'images'
 op|','
-string|"'fetch'"
+string|"'fetch_to_raw'"
 op|')'
 newline|'\n'
 nl|'\n'
@@ -14631,7 +14631,7 @@ string|"'fake'"
 newline|'\n'
 name|'images'
 op|'.'
-name|'fetch'
+name|'fetch_to_raw'
 op|'('
 name|'context'
 op|','
