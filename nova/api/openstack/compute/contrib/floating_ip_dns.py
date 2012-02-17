@@ -1845,7 +1845,7 @@ newline|'\n'
 DECL|variable|updated
 name|'updated'
 op|'='
-string|'"2011-12-23:00:00+00:00"'
+string|'"2011-12-23T00:00:00+00:00"'
 newline|'\n'
 nl|'\n'
 DECL|member|__init__

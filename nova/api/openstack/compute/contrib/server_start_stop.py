@@ -389,7 +389,7 @@ newline|'\n'
 DECL|variable|updated
 name|'updated'
 op|'='
-string|'"2012-01-23:00:00+00:00"'
+string|'"2012-01-23T00:00:00+00:00"'
 newline|'\n'
 nl|'\n'
 DECL|member|get_controller_extensions
