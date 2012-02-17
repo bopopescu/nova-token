@@ -114,6 +114,15 @@ name|'flags'
 op|'.'
 name|'FLAGS'
 newline|'\n'
+name|'flags'
+op|'.'
+name|'DECLARE'
+op|'('
+string|"'use_deprecated_auth'"
+op|','
+string|"'nova.auth.manager'"
+op|')'
+newline|'\n'
 nl|'\n'
 nl|'\n'
 DECL|variable|GlanceClient
