@@ -255,6 +255,16 @@ op|':'
 string|"'/dev/sda1'"
 op|','
 nl|'\n'
+string|"'info_cache'"
+op|':'
+op|'{'
+string|"'network_info'"
+op|':'
+op|'['
+op|']'
+op|'}'
+op|','
+nl|'\n'
 string|"'hostname'"
 op|':'
 string|"'test'"
