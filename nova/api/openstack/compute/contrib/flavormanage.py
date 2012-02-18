@@ -364,7 +364,7 @@ name|'vals'
 op|'.'
 name|'get'
 op|'('
-string|"'disk'"
+string|"'OS-FLV-EXT-DATA:ephemeral'"
 op|')'
 newline|'\n'
 name|'swap'
