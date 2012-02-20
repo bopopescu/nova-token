@@ -842,8 +842,11 @@ name|'req'
 op|'.'
 name|'body'
 op|'='
+op|'('
 string|"'data=foo&_underscored=ignoreMe&self=ignoreMe&context='"
+nl|'\n'
 string|"'ignoreMe'"
+op|')'
 newline|'\n'
 name|'resp'
 op|'='

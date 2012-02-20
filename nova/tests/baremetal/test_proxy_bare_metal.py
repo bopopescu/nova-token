@@ -433,6 +433,7 @@ name|'open'
 op|'('
 string|"'/tftpboot/test_fake_dom_file'"
 op|','
+nl|'\n'
 string|"'r'"
 op|')'
 op|'.'
@@ -621,6 +622,7 @@ name|'self'
 op|'.'
 name|'assertJSONEquals'
 op|','
+nl|'\n'
 name|'expected_json'
 op|')'
 op|')'
@@ -1358,7 +1360,9 @@ name|'dom'
 op|'.'
 name|'read_domains'
 op|'('
-string|"'/tftpboot/test_fake_dom_file'"
+string|"'/tftpboot/'"
+nl|'\n'
+string|"'test_fake_dom_file'"
 op|')'
 op|'.'
 name|'AndReturn'
@@ -1574,7 +1578,9 @@ name|'dom'
 op|'.'
 name|'read_domains'
 op|'('
-string|"'/tftpboot/test_fake_dom_file'"
+string|"'/tftpboot/'"
+nl|'\n'
+string|"'test_fake_dom_file'"
 op|')'
 op|'.'
 name|'AndReturn'
