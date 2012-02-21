@@ -2204,6 +2204,11 @@ op|']'
 op|'['
 string|"'href'"
 op|']'
+op|'.'
+name|'encode'
+op|'('
+string|"'utf-8'"
+op|')'
 newline|'\n'
 nl|'\n'
 comment|'# Convenience return'
