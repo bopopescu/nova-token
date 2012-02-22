@@ -585,10 +585,13 @@ name|'flags'
 op|'.'
 name|'FLAGS'
 op|','
-string|"'notification_topic'"
+string|"'notification_topics'"
 op|','
 nl|'\n'
+op|'['
 string|"'testnotify'"
+op|','
+op|']'
 op|')'
 newline|'\n'
 nl|'\n'
