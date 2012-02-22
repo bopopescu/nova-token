@@ -385,11 +385,14 @@ name|'alias'
 op|'='
 string|'"os-deferred-delete"'
 newline|'\n'
+DECL|variable|namespace
 name|'namespace'
 op|'='
+op|'('
 string|'"http://docs.openstack.org/compute/ext/"'
-DECL|variable|namespace
+nl|'\n'
 string|'"deferred-delete/api/v1.1"'
+op|')'
 newline|'\n'
 DECL|variable|updated
 name|'updated'

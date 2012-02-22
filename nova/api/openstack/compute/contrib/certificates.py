@@ -574,10 +574,14 @@ name|'alias'
 op|'='
 string|'"os-certificates"'
 newline|'\n'
+DECL|variable|namespace
 name|'namespace'
 op|'='
-DECL|variable|namespace
-string|'"http://docs.openstack.org/compute/ext/certificates/api/v1.1"'
+op|'('
+string|'"http://docs.openstack.org/compute/ext/"'
+nl|'\n'
+string|'"certificates/api/v1.1"'
+op|')'
 newline|'\n'
 DECL|variable|updated
 name|'updated'

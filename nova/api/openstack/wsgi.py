@@ -309,9 +309,12 @@ op|'['
 string|"'nova.best_content_type'"
 op|']'
 op|'='
+op|'('
 name|'content_type'
 name|'or'
+nl|'\n'
 string|"'application/json'"
+op|')'
 newline|'\n'
 nl|'\n'
 dedent|''

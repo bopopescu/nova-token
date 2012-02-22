@@ -187,9 +187,9 @@ name|'__name__'
 op|')'
 newline|'\n'
 nl|'\n'
+DECL|variable|allow_instance_snapshots_opt
 name|'allow_instance_snapshots_opt'
 op|'='
-DECL|variable|allow_instance_snapshots_opt
 name|'cfg'
 op|'.'
 name|'BoolOpt'

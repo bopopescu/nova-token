@@ -412,10 +412,14 @@ name|'alias'
 op|'='
 string|'"os-floating-ip-pools"'
 newline|'\n'
+DECL|variable|namespace
 name|'namespace'
 op|'='
-DECL|variable|namespace
-string|'"http://docs.openstack.org/compute/ext/floating_ip_pools/api/v1.1"'
+op|'('
+string|'"http://docs.openstack.org/compute/ext/"'
+nl|'\n'
+string|'"floating_ip_pools/api/v1.1"'
+op|')'
 newline|'\n'
 DECL|variable|updated
 name|'updated'
