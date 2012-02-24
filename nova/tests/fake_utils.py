@@ -406,7 +406,7 @@ name|'_'
 op|'('
 string|"'Faked command raised an exception %s'"
 op|')'
-op|'%'
+op|','
 name|'e'
 op|')'
 newline|'\n'

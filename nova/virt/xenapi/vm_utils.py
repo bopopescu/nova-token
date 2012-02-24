@@ -4533,7 +4533,7 @@ string|"'vdi_uuid=%(cur_vdi_uuid)s vdi_size_bytes='"
 nl|'\n'
 string|"'%(vdi_size_bytes)d'"
 op|')'
-op|'%'
+op|','
 name|'locals'
 op|'('
 op|')'

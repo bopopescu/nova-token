@@ -8433,10 +8433,11 @@ name|'info'
 op|'('
 name|'_'
 op|'('
-string|"'Injecting %(injection)s into image %(img_id)s'"
-op|')'
+string|"'Injecting %(injection)s into image'"
 nl|'\n'
-op|'%'
+string|"' %(img_id)s'"
+op|')'
+op|','
 name|'locals'
 op|'('
 op|')'
