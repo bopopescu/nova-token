@@ -308,6 +308,15 @@ name|'resources'
 op|'['
 string|"'snapshots'"
 op|']'
+op|','
+nl|'\n'
+name|'collection'
+op|'='
+op|'{'
+string|"'detail'"
+op|':'
+string|"'GET'"
+op|'}'
 op|')'
 newline|'\n'
 dedent|''
