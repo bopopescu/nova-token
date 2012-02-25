@@ -1863,6 +1863,9 @@ op|']'
 op|'['
 string|"'tenant'"
 op|']'
+op|'['
+string|"'id'"
+op|']'
 newline|'\n'
 name|'roles'
 op|'='
