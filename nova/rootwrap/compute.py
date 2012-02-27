@@ -309,6 +309,8 @@ nl|'\n'
 nl|'\n'
 comment|"# nova/virt/libvirt/vif.py: 'tunctl', '-b', '-t', dev"
 nl|'\n'
+comment|"# nova/network/linux_net.py: 'tunctl', '-b', '-t', dev"
+nl|'\n'
 name|'filters'
 op|'.'
 name|'CommandFilter'
