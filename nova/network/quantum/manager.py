@@ -2672,6 +2672,13 @@ string|"'label'"
 op|']'
 op|','
 nl|'\n'
+string|"'injected'"
+op|':'
+name|'FLAGS'
+op|'.'
+name|'flat_injected'
+op|','
+nl|'\n'
 string|"'project_id'"
 op|':'
 name|'net_tenant_id'
