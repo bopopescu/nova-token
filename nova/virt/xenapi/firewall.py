@@ -111,6 +111,9 @@ op|'['
 string|"'nova.virt.firewall.IptablesFirewallDriver'"
 op|','
 nl|'\n'
+string|"'nova.virt.firewall.NoopFirewallDriver'"
+op|','
+nl|'\n'
 string|"'nova.virt.xenapi.firewall.Dom0IptablesFirewallDriver'"
 op|','
 op|']'
