@@ -1726,7 +1726,7 @@ name|'open'
 op|'('
 name|'key_fn'
 op|','
-string|"'f'"
+string|"'w'"
 op|')'
 name|'as'
 name|'keyfile'
