@@ -1474,6 +1474,12 @@ op|']'
 op|'['
 string|"'address'"
 op|']'
+op|','
+nl|'\n'
+name|'inst'
+op|'['
+string|"'host'"
+op|']'
 op|')'
 newline|'\n'
 name|'db'

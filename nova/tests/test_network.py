@@ -6059,6 +6059,8 @@ op|'('
 name|'context1'
 op|','
 name|'fix_addr'
+op|','
+string|"'fake'"
 op|')'
 newline|'\n'
 name|'db'
