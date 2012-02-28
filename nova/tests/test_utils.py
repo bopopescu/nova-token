@@ -7210,7 +7210,7 @@ newline|'\n'
 nl|'\n'
 comment|"# create sentinels for two processes, us and a 'dead' one"
 nl|'\n'
-comment|'# no actve lock'
+comment|'# no active lock'
 nl|'\n'
 name|'sentinel1'
 op|'='
