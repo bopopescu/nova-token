@@ -1683,10 +1683,10 @@ name|'False'
 op|')'
 newline|'\n'
 nl|'\n'
-comment|'# Openstack zone name'
+comment|'# Openstack compute cell name'
 nl|'\n'
-DECL|variable|zone_name
-name|'zone_name'
+DECL|variable|cell_name
+name|'cell_name'
 op|'='
 name|'Column'
 op|'('
@@ -5789,10 +5789,10 @@ op|')'
 newline|'\n'
 nl|'\n'
 nl|'\n'
-DECL|class|Zone
+DECL|class|Cell
 dedent|''
 name|'class'
-name|'Zone'
+name|'Cell'
 op|'('
 name|'BASE'
 op|','
@@ -5801,12 +5801,12 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""Represents a child zone of this zone."""'
+string|'"""Represents parent and child cells of this cell."""'
 newline|'\n'
 DECL|variable|__tablename__
 name|'__tablename__'
 op|'='
-string|"'zones'"
+string|"'cells'"
 newline|'\n'
 DECL|variable|id
 name|'id'
