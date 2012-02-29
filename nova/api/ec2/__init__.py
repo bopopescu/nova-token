@@ -240,6 +240,28 @@ string|"'URL to get token from ec2 request.'"
 op|')'
 op|','
 nl|'\n'
+name|'cfg'
+op|'.'
+name|'BoolOpt'
+op|'('
+string|"'ec2_private_dns_show_ip'"
+op|','
+nl|'\n'
+DECL|variable|default
+name|'default'
+op|'='
+name|'False'
+op|','
+nl|'\n'
+DECL|variable|help
+name|'help'
+op|'='
+string|"'Return the IP address as private dns hostname in '"
+nl|'\n'
+string|"'describe instances'"
+op|')'
+op|','
+nl|'\n'
 op|']'
 newline|'\n'
 nl|'\n'
