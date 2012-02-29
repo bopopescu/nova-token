@@ -2365,7 +2365,7 @@ name|'context'
 op|'.'
 name|'get_admin_context'
 op|'('
-name|'True'
+string|"'yes'"
 op|')'
 newline|'\n'
 name|'self'
