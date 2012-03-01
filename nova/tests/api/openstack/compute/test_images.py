@@ -4163,7 +4163,7 @@ op|'='
 op|'{'
 string|"'status'"
 op|':'
-string|"'ACTIVE'"
+string|"'active'"
 op|'}'
 newline|'\n'
 name|'request'
@@ -4677,7 +4677,7 @@ op|'='
 op|'{'
 string|"'status'"
 op|':'
-string|"'ACTIVE'"
+string|"'active'"
 op|'}'
 newline|'\n'
 name|'request'
@@ -4978,7 +4978,7 @@ op|'='
 op|'{'
 string|"'status'"
 op|':'
-string|"'ACTIVE'"
+string|"'active'"
 op|'}'
 newline|'\n'
 name|'request'
@@ -5610,7 +5610,7 @@ op|'='
 op|'{'
 string|"'status'"
 op|':'
-string|"'ACTIVE'"
+string|"'active'"
 op|'}'
 newline|'\n'
 name|'request'
