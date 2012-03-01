@@ -287,8 +287,25 @@ nl|'\n'
 nl|'\n'
 comment|"# List of documents that shouldn't be included in the build."
 nl|'\n'
-comment|'#unused_docs = []'
+DECL|variable|unused_docs
+name|'unused_docs'
+op|'='
+op|'['
 nl|'\n'
+string|"'api_ext/rst_extension_template'"
+op|','
+nl|'\n'
+string|"'man/novamanage'"
+op|','
+nl|'\n'
+string|"'vmwareapi_readme'"
+op|','
+nl|'\n'
+string|"'installer'"
+op|','
+nl|'\n'
+op|']'
+newline|'\n'
 nl|'\n'
 comment|"# List of directories, relative to source directory, that shouldn't be searched"
 nl|'\n'
