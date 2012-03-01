@@ -245,6 +245,15 @@ op|','
 string|"'nova.policy'"
 op|')'
 newline|'\n'
+name|'flags'
+op|'.'
+name|'DECLARE'
+op|'('
+string|"'compute_scheduler_driver'"
+op|','
+string|"'nova.scheduler.multi'"
+op|')'
+newline|'\n'
 name|'FLAGS'
 op|'.'
 name|'set_default'

@@ -81,7 +81,9 @@ nl|'\n'
 DECL|variable|default
 name|'default'
 op|'='
-string|"'nova.scheduler.chance.ChanceScheduler'"
+string|"'nova.scheduler.'"
+nl|'\n'
+string|"'distributed_scheduler.DistributedScheduler'"
 op|','
 nl|'\n'
 DECL|variable|help
