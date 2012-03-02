@@ -224,7 +224,7 @@ newline|'\n'
 DECL|variable|copyright
 name|'copyright'
 op|'='
-string|"u'2010, United States Government as represented by the Administrator of the National Aeronautics and Space Administration.'"
+string|"u'2010-present, OpenStack, LLC'"
 newline|'\n'
 nl|'\n'
 comment|"# The version info for the project you're documenting, acts as replacement for"
@@ -459,6 +459,24 @@ comment|'# using the given strftime format.'
 nl|'\n'
 comment|"#html_last_updated_fmt = '%b %d, %Y'"
 nl|'\n'
+name|'git_cmd'
+op|'='
+string|'"git log --pretty=format:\'%ad, commit %h\' --date=local -n1"'
+newline|'\n'
+DECL|variable|html_last_updated_fmt
+name|'html_last_updated_fmt'
+op|'='
+name|'os'
+op|'.'
+name|'popen'
+op|'('
+name|'git_cmd'
+op|')'
+op|'.'
+name|'read'
+op|'('
+op|')'
+newline|'\n'
 nl|'\n'
 comment|'# If true, SmartyPants will be used to convert quotes and dashes to'
 nl|'\n'
