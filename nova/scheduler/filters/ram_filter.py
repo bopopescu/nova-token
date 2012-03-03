@@ -83,7 +83,7 @@ nl|'\n'
 DECL|variable|default
 name|'default'
 op|'='
-number|'1.0'
+number|'1.5'
 op|','
 nl|'\n'
 DECL|variable|help
