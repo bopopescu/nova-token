@@ -1923,7 +1923,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""\n    Rate-limit checking from a WSGI application. Uses an in-memory `Limiter`.\n\n    To use:\n        POST /<username> with JSON data such as:\n        {\n            "verb" : GET,\n            "path" : "/servers"\n        }\n\n    and receive a 204 No Content, or a 403 Forbidden with an X-Wait-Seconds\n    header containing the number of seconds to wait before the action would\n    succeed.\n    """'
+string|'"""\n    Rate-limit checking from a WSGI application. Uses an in-memory `Limiter`.\n\n    To use, POST ``/<username>`` with JSON data such as::\n\n        {\n            "verb" : GET,\n            "path" : "/servers"\n        }\n\n    and receive a 204 No Content, or a 403 Forbidden with an X-Wait-Seconds\n    header containing the number of seconds to wait before the action would\n    succeed.\n    """'
 newline|'\n'
 nl|'\n'
 DECL|member|__init__
