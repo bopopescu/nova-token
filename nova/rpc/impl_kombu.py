@@ -2140,11 +2140,11 @@ op|'('
 string|"'Connected to AMQP server on '"
 nl|'\n'
 string|"'%(hostname)s:%(port)d'"
+op|')'
 op|'%'
 name|'self'
 op|'.'
 name|'params'
-op|')'
 op|')'
 newline|'\n'
 nl|'\n'
