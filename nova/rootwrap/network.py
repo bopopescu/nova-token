@@ -77,6 +77,8 @@ comment|'# nova/network/linux_net.py: \'ip\', \'link\', \'set\', dev, "address",
 nl|'\n'
 comment|"# nova/network/linux_net.py: 'ip', 'link', 'set', dev, 'up'"
 nl|'\n'
+comment|"# nova/network/linux_net.py: 'ip', 'tuntap', 'add', dev, 'mode', 'tap'"
+nl|'\n'
 name|'filters'
 op|'.'
 name|'CommandFilter'
