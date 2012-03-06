@@ -2819,6 +2819,28 @@ string|"'Name of network to use to set access ips for instances'"
 op|')'
 op|','
 nl|'\n'
+name|'cfg'
+op|'.'
+name|'StrOpt'
+op|'('
+string|"'auth_strategy'"
+op|','
+nl|'\n'
+DECL|variable|default
+name|'default'
+op|'='
+string|"'noauth'"
+op|','
+nl|'\n'
+DECL|variable|help
+name|'help'
+op|'='
+string|"'The strategy to use for auth. Supports noauth, keystone, '"
+nl|'\n'
+string|"'and deprecated.'"
+op|')'
+op|','
+nl|'\n'
 op|']'
 newline|'\n'
 nl|'\n'
