@@ -295,9 +295,6 @@ nl|'\n'
 string|"'api_ext/rst_extension_template'"
 op|','
 nl|'\n'
-string|"'man/novamanage'"
-op|','
-nl|'\n'
 string|"'vmwareapi_readme'"
 op|','
 nl|'\n'
