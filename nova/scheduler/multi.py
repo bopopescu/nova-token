@@ -83,7 +83,7 @@ name|'default'
 op|'='
 string|"'nova.scheduler.'"
 nl|'\n'
-string|"'distributed_scheduler.DistributedScheduler'"
+string|"'filter_scheduler.FilterScheduler'"
 op|','
 nl|'\n'
 DECL|variable|help
