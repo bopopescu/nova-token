@@ -1316,7 +1316,7 @@ name|'params'
 op|')'
 op|':'
 newline|'\n'
-comment|'# TODO: we should just use urllib.urlencode instead of this'
+comment|'# TODO(throughnothing): we should just use urllib.urlencode instead of this'
 nl|'\n'
 comment|"# But currently we don't work with urlencoded url's"
 nl|'\n'

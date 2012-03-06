@@ -1117,7 +1117,7 @@ comment|'# NOTE: this would be a lot simpler if nova-compute stored'
 nl|'\n'
 comment|"# FLAGS.host in the XenServer host's other-config map."
 nl|'\n'
-comment|'# TODO: improve according the note above'
+comment|'# TODO(armando-migliaccio): improve according the note above'
 nl|'\n'
 name|'aggregate'
 op|'='

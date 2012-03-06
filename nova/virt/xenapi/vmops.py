@@ -8416,7 +8416,7 @@ newline|'\n'
 indent|'        '
 string|'"""Return snapshot of console."""'
 newline|'\n'
-comment|'# TODO: implement this to fix pylint!'
+comment|'# TODO(armando-migliaccio): implement this to fix pylint!'
 nl|'\n'
 name|'return'
 string|"'FAKE CONSOLE OUTPUT of instance'"
