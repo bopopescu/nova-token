@@ -329,8 +329,11 @@ comment|'# If true, the current module name will be prepended to all description
 nl|'\n'
 comment|'# unit titles (such as .. function::).'
 nl|'\n'
-comment|'#add_module_names = True'
-nl|'\n'
+DECL|variable|add_module_names
+name|'add_module_names'
+op|'='
+name|'False'
+newline|'\n'
 nl|'\n'
 comment|'# If true, sectionauthor and moduleauthor directives will be shown in the'
 nl|'\n'

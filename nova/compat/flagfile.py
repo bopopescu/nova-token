@@ -769,7 +769,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|"'''A context manager for handle_flagfiles() which removes temp files.\n\n    For use with the 'with' statement, i.e.\n\n        with handle_flagfiles_managed(args) as args:\n             # Do stuff\n        # Any temporary fils have been removed\n    '''"
+string|"'''A context manager for handle_flagfiles() which removes temp files.\n\n    For use with the 'with' statement, i.e.::\n\n        with handle_flagfiles_managed(args) as args:\n             # Do stuff\n        # Any temporary fils have been removed\n    '''"
 newline|'\n'
 comment|'# NOTE(johannes): Would be nice to use utils.tempdir(), but it'
 nl|'\n'

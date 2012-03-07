@@ -28,7 +28,7 @@ comment|'#    License for the specific language governing permissions and limita
 nl|'\n'
 comment|'#    under the License.'
 nl|'\n'
-string|'"""\nCert manager manages x509 certificates.\n\n**Related Flags**\n:cert_topic:  What :mod:`rpc` topic to listen to (default: `cert`).\n:cert_manager:  The module name of a class derived from\n                  :class:`manager.Manager` (default:\n                  :class:`nova.cert.manager.Manager`).\n"""'
+string|'"""\nCert manager manages x509 certificates.\n\n**Related Flags**\n\n:cert_topic:  What :mod:`rpc` topic to listen to (default: `cert`).\n:cert_manager:  The module name of a class derived from\n                :class:`manager.Manager` (default:\n                :class:`nova.cert.manager.Manager`).\n"""'
 newline|'\n'
 nl|'\n'
 name|'import'
