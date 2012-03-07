@@ -3988,6 +3988,8 @@ op|'='
 name|'False'
 op|')'
 newline|'\n'
+comment|"# NOTE(tr3buchet): the ____compute variables are instance['host']"
+nl|'\n'
 DECL|variable|source_compute
 name|'source_compute'
 op|'='
@@ -4010,6 +4012,8 @@ number|'255'
 op|')'
 op|')'
 newline|'\n'
+comment|'# NOTE(tr3buchet): dest_host, btw, is an ip address'
+nl|'\n'
 DECL|variable|dest_host
 name|'dest_host'
 op|'='
