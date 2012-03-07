@@ -390,7 +390,7 @@ name|'None'
 op|':'
 name|'xmlutil'
 op|'.'
-name|'XMLNS_V11'
+name|'XMLNS_COMMON_V10'
 op|','
 string|"'atom'"
 op|':'
