@@ -351,7 +351,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'output to a per-service log file in named directory'"
+string|"'Log output to a per-service log file in named directory'"
 op|')'
 op|','
 nl|'\n'
@@ -371,7 +371,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'output to named file'"
+string|"'Log output to a named file'"
 op|')'
 op|','
 nl|'\n'
@@ -391,7 +391,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'log to standard error'"
+string|"'Log output to standard error'"
 op|')'
 op|','
 nl|'\n'
@@ -419,7 +419,9 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'libvirt, xenapi or fake'"
+string|"'Virtualization api connection type : libvirt, xenapi, '"
+nl|'\n'
+string|"'or fake'"
 op|')'
 op|','
 nl|'\n'
@@ -439,7 +441,9 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'connection string for sql database'"
+string|"'The SQLAlchemy connection string used to connect to the '"
+nl|'\n'
+string|"'database'"
 op|')'
 op|','
 nl|'\n'
@@ -531,7 +535,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'Directory for lock files'"
+string|"'Directory to use for lock files'"
 op|')'
 op|','
 nl|'\n'
@@ -559,7 +563,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'should we use fake network devices and addresses'"
+string|"'If passed, use fake network devices and addresses'"
 op|')'
 op|','
 nl|'\n'
@@ -579,7 +583,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'use a fake rabbit'"
+string|"'If passed, use a fake RabbitMQ provider'"
 op|')'
 op|','
 nl|'\n'
@@ -631,7 +635,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'host ip address'"
+string|"'ip address of this host'"
 op|')'
 op|','
 nl|'\n'
@@ -711,7 +715,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'default glance host'"
+string|"'default glance hostname or ip'"
 op|')'
 op|','
 nl|'\n'
@@ -753,7 +757,9 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'glance api servers available to nova (host:port)'"
+string|"'A list of the glance api servers available to nova '"
+nl|'\n'
+string|"'([hostname|ip]:port)'"
 op|')'
 op|','
 nl|'\n'
@@ -793,7 +799,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'s3 port'"
+string|"'port used when accessing the s3 api'"
 op|')'
 op|','
 nl|'\n'
@@ -813,7 +819,9 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'s3 host (for infrastructure)'"
+string|"'hostname or ip for openstack to use when accessing '"
+nl|'\n'
+string|"'the s3 api'"
 op|')'
 op|','
 nl|'\n'
@@ -833,7 +841,9 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'s3 dmz ip (for instances)'"
+string|"'hostname or ip for the instances to use when accessing '"
+nl|'\n'
+string|"'the s3 api'"
 op|')'
 op|','
 nl|'\n'
@@ -993,7 +1003,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'rabbit host'"
+string|"'the RabbitMQ host'"
 op|')'
 op|','
 nl|'\n'
@@ -1013,7 +1023,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'rabbit port'"
+string|"'the RabbitMQ port'"
 op|')'
 op|','
 nl|'\n'
@@ -1033,7 +1043,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'connect over SSL'"
+string|"'connect over SSL for RabbitMQ'"
 op|')'
 op|','
 nl|'\n'
@@ -1053,7 +1063,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'rabbit userid'"
+string|"'the RabbitMQ userid'"
 op|')'
 op|','
 nl|'\n'
@@ -1073,7 +1083,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'rabbit password'"
+string|"'the RabbitMQ password'"
 op|')'
 op|','
 nl|'\n'
@@ -1093,7 +1103,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'rabbit virtual host'"
+string|"'the RabbitMQ virtual host'"
 op|')'
 op|','
 nl|'\n'
@@ -1113,7 +1123,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'rabbit connection retry interval to start'"
+string|"'how frequently to retry connecting with RabbitMQ'"
 op|')'
 op|','
 nl|'\n'
@@ -1133,7 +1143,9 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'rabbit connection retry backoff in seconds'"
+string|"'how long to backoff for between retries when connecting '"
+nl|'\n'
+string|"'to RabbitMQ'"
 op|')'
 op|','
 nl|'\n'
@@ -1153,7 +1165,9 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'maximum rabbit connection attempts (0=try forever)'"
+string|"'maximum retries with trying to connect to RabbitMQ '"
+nl|'\n'
+string|"'(the default of 0 implies an infinite retry count)'"
 op|')'
 op|','
 nl|'\n'
@@ -1173,7 +1187,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'the main exchange to connect to'"
+string|"'the main RabbitMQ exchange to connect to'"
 op|')'
 op|','
 nl|'\n'
@@ -1193,7 +1207,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'use durable queues'"
+string|"'use durable queues in RabbitMQ'"
 op|')'
 op|','
 nl|'\n'
@@ -1221,7 +1235,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'list of APIs to enable by default'"
+string|"'a list of APIs to enable by default'"
 op|')'
 op|','
 nl|'\n'
@@ -1241,7 +1255,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'ip of api server'"
+string|"'the ip of the ec2 api server'"
 op|')'
 op|','
 nl|'\n'
@@ -1261,7 +1275,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'internal ip of api server'"
+string|"'the internal ip of the ec2 api server'"
 op|')'
 op|','
 nl|'\n'
@@ -1281,7 +1295,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'cloud controller port'"
+string|"'the port of the ec2 api server'"
 op|')'
 op|','
 nl|'\n'
@@ -1301,7 +1315,9 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'prefix for ec2'"
+string|"'the protocol to use when connecting to the ec2 api '"
+nl|'\n'
+string|"'server (http, https)'"
 op|')'
 op|','
 nl|'\n'
@@ -1321,7 +1337,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'suffix for ec2'"
+string|"'the path prefix used to call the ec2 api server'"
 op|')'
 op|','
 nl|'\n'
@@ -1439,7 +1455,9 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'prefix for openstack'"
+string|"'the protocol to use when connecting to the openstack api '"
+nl|'\n'
+string|"'server (http, https)'"
 op|')'
 op|','
 nl|'\n'
@@ -1459,7 +1477,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'suffix for openstack'"
+string|"'the path prefix used to call the openstack api server'"
 op|')'
 op|','
 nl|'\n'
@@ -1523,7 +1541,9 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'max number of items returned in a collection response'"
+string|"'the maximum number of items returned in a single '"
+nl|'\n'
+string|"'response from a collection resource'"
 op|')'
 op|','
 nl|'\n'
@@ -1543,7 +1563,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'ip of metadata server'"
+string|"'the ip for the metadata api server'"
 op|')'
 op|','
 nl|'\n'
@@ -1563,7 +1583,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'Metadata API port'"
+string|"'the port for the metadata api port'"
 op|')'
 op|','
 nl|'\n'
@@ -1583,7 +1603,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'default project for openstack'"
+string|"'the default project to use for openstack'"
 op|')'
 op|','
 nl|'\n'
@@ -1665,7 +1685,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'image id for cloudpipe vpn server'"
+string|"'image id used when starting up a cloudpipe vpn server'"
 op|')'
 op|','
 nl|'\n'
@@ -1725,7 +1745,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'Default file mode of the logs.'"
+string|"'Default file mode used when creating log files'"
 op|')'
 op|','
 nl|'\n'
@@ -1745,7 +1765,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'file name for sqlite'"
+string|"'the filename to use with sqlite'"
 op|')'
 op|','
 nl|'\n'
@@ -1765,7 +1785,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'Synchronous mode for sqlite'"
+string|"'If passed, use synchronous mode for sqlite'"
 op|')'
 op|','
 nl|'\n'
@@ -1785,7 +1805,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'timeout for idle sql database connections'"
+string|"'timeout before idle sql connections are reaped'"
 op|')'
 op|','
 nl|'\n'
@@ -1805,7 +1825,9 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'sql connection attempts'"
+string|"'maximum number of retries for connecting to the sql '"
+nl|'\n'
+string|"'database'"
 op|')'
 op|','
 nl|'\n'
@@ -1825,7 +1847,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'sql connection retry interval'"
+string|"'interval between retries of opening a sql connection'"
 op|')'
 op|','
 nl|'\n'
@@ -1845,7 +1867,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'Manager for compute'"
+string|"'full class name for the Manager for compute'"
 op|')'
 op|','
 nl|'\n'
@@ -1865,7 +1887,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'Manager for console proxy'"
+string|"'full class name for the Manager for console proxy'"
 op|')'
 op|','
 nl|'\n'
@@ -1885,7 +1907,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'Manager for cert'"
+string|"'full class name for the Manager for cert'"
 op|')'
 op|','
 nl|'\n'
@@ -1905,7 +1927,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'DNS Manager for instance IPs'"
+string|"'full class name for the DNS Manager for instance IPs'"
 op|')'
 op|','
 nl|'\n'
@@ -1925,7 +1947,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'DNS Zone for instance IPs'"
+string|"'full class name for the DNS Zone for instance IPs'"
 op|')'
 op|','
 nl|'\n'
@@ -1945,7 +1967,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'DNS Manager for floating IPs'"
+string|"'full class name for the DNS Manager for floating IPs'"
 op|')'
 op|','
 nl|'\n'
@@ -1965,7 +1987,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'Manager for network'"
+string|"'full class name for the Manager for network'"
 op|')'
 op|','
 nl|'\n'
@@ -1985,7 +2007,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'Manager for volume'"
+string|"'full class name for the Manager for volume'"
 op|')'
 op|','
 nl|'\n'
@@ -2005,7 +2027,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'Manager for scheduler'"
+string|"'full class name for the Manager for scheduler'"
 op|')'
 op|','
 nl|'\n'
@@ -2025,7 +2047,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'Manager for vsa'"
+string|"'full class name for the Manager for VSA'"
 op|')'
 op|','
 nl|'\n'
@@ -2606,7 +2628,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'zone to use when user doesnt specify one'"
+string|"'availability zone to use when user doesnt specify one'"
 op|')'
 op|','
 nl|'\n'
@@ -2708,7 +2730,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'The compute API class to use'"
+string|"'The full class name of the compute API class to use'"
 op|')'
 op|','
 nl|'\n'
@@ -2728,7 +2750,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'The network API class to use'"
+string|"'The full class name of the network API class to use'"
 op|')'
 op|','
 nl|'\n'
@@ -2748,7 +2770,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'The volume API class to use'"
+string|"'The full class name of the volume API class to use'"
 op|')'
 op|','
 nl|'\n'
@@ -2768,7 +2790,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'security group handler class'"
+string|"'The full class name of the security group handler class'"
 op|')'
 op|','
 nl|'\n'
