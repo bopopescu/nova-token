@@ -366,7 +366,7 @@ nl|'\n'
 comment|'# -- Options for man page output -----------------------------------------------'
 nl|'\n'
 nl|'\n'
-comment|'# Grouping the document tree for man pages. '
+comment|'# Grouping the document tree for man pages.'
 nl|'\n'
 comment|"# List of tuples 'sourcefile', 'target', u'title', u'Authors name', 'manual'"
 nl|'\n'
