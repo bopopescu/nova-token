@@ -9134,11 +9134,11 @@ name|'if'
 name|'not'
 name|'network'
 op|'['
-string|"'multihost'"
+string|"'multi_host'"
 op|']'
 op|':'
 newline|'\n'
-comment|'#NOTE (tr3buchet): if using multihost, host is instance[host]'
+comment|'#NOTE (tr3buchet): if using multi_host, host is instance[host]'
 nl|'\n'
 indent|'                '
 name|'host'
