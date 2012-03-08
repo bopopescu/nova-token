@@ -3985,7 +3985,7 @@ op|'('
 op|')'
 op|')'
 newline|'\n'
-name|'return'
+name|'raise'
 newline|'\n'
 nl|'\n'
 DECL|member|_migrate_vhd
