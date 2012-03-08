@@ -204,9 +204,9 @@ name|'FLAGS'
 op|'.'
 name|'set_default'
 op|'('
-string|"'sqlite_db'"
+string|"'sql_connection'"
 op|','
-string|'"tests.sqlite"'
+string|'"sqlite://"'
 op|')'
 newline|'\n'
 name|'FLAGS'
