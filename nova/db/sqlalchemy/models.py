@@ -1797,14 +1797,13 @@ op|'='
 name|'instance_id'
 op|','
 nl|'\n'
-DECL|variable|primaryjoin
 name|'primaryjoin'
 op|'='
-string|"'and_('"
-nl|'\n'
-string|"'InstanceInfoCache.instance_id == Instance.uuid,'"
-nl|'\n'
-string|"'InstanceInfoCache.deleted == False)'"
+name|'instance_id'
+op|'=='
+name|'Instance'
+op|'.'
+name|'uuid'
 op|')'
 newline|'\n'
 nl|'\n'
