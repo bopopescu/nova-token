@@ -130,7 +130,7 @@ nl|'\n'
 DECL|variable|NS
 name|'NS'
 op|'='
-string|'"{http://docs.openstack.org/compute/api/v1.1}"'
+string|'"{http://docs.openstack.org/common/api/v1.0}"'
 newline|'\n'
 DECL|variable|ATOMNS
 name|'ATOMNS'

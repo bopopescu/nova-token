@@ -224,7 +224,7 @@ op|','
 nl|'\n'
 string|"'ns'"
 op|':'
-string|"'http://docs.openstack.org/compute/api/v1.1'"
+string|"'http://docs.openstack.org/common/api/v1.0'"
 nl|'\n'
 op|'}'
 newline|'\n'
