@@ -444,7 +444,7 @@ nl|'\n'
 DECL|variable|default
 name|'default'
 op|'='
-string|'"noop"'
+string|'"log"'
 op|','
 nl|'\n'
 DECL|variable|help
