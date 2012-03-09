@@ -101,42 +101,7 @@ op|')'
 newline|'\n'
 nl|'\n'
 nl|'\n'
-DECL|function|_bin_file
-name|'def'
-name|'_bin_file'
-op|'('
-name|'script'
-op|')'
-op|':'
-newline|'\n'
-indent|'    '
-string|'"""Return the absolute path to scipt in the bin directory."""'
-newline|'\n'
-name|'return'
-name|'os'
-op|'.'
-name|'path'
-op|'.'
-name|'abspath'
-op|'('
-name|'os'
-op|'.'
-name|'path'
-op|'.'
-name|'join'
-op|'('
-name|'__file__'
-op|','
-string|"'../../../bin'"
-op|','
-name|'script'
-op|')'
-op|')'
-newline|'\n'
-nl|'\n'
-nl|'\n'
 DECL|variable|linux_net_opts
-dedent|''
 name|'linux_net_opts'
 op|'='
 op|'['
@@ -148,11 +113,13 @@ op|'('
 string|"'dhcpbridge_flagfile'"
 op|','
 nl|'\n'
+DECL|variable|default
 name|'default'
 op|'='
 string|"'/etc/nova/nova-dhcpbridge.conf'"
 op|','
 nl|'\n'
+DECL|variable|help
 name|'help'
 op|'='
 string|"'location of flagfile for dhcpbridge'"
@@ -166,11 +133,13 @@ op|'('
 string|"'networks_path'"
 op|','
 nl|'\n'
+DECL|variable|default
 name|'default'
 op|'='
 string|"'$state_path/networks'"
 op|','
 nl|'\n'
+DECL|variable|help
 name|'help'
 op|'='
 string|"'Location to keep network config files'"
@@ -184,11 +153,13 @@ op|'('
 string|"'public_interface'"
 op|','
 nl|'\n'
+DECL|variable|default
 name|'default'
 op|'='
 string|"'eth0'"
 op|','
 nl|'\n'
+DECL|variable|help
 name|'help'
 op|'='
 string|"'Interface for public IP addresses'"
@@ -202,11 +173,13 @@ op|'('
 string|"'network_device_mtu'"
 op|','
 nl|'\n'
+DECL|variable|default
 name|'default'
 op|'='
 name|'None'
 op|','
 nl|'\n'
+DECL|variable|help
 name|'help'
 op|'='
 string|"'MTU setting for vlan'"
@@ -220,14 +193,13 @@ op|'('
 string|"'dhcpbridge'"
 op|','
 nl|'\n'
+DECL|variable|default
 name|'default'
 op|'='
-name|'_bin_file'
-op|'('
-string|"'nova-dhcpbridge'"
-op|')'
+string|"'$bindir/nova-dhcpbridge'"
 op|','
 nl|'\n'
+DECL|variable|help
 name|'help'
 op|'='
 string|"'location of nova-dhcpbridge'"
@@ -241,11 +213,13 @@ op|'('
 string|"'routing_source_ip'"
 op|','
 nl|'\n'
+DECL|variable|default
 name|'default'
 op|'='
 string|"'$my_ip'"
 op|','
 nl|'\n'
+DECL|variable|help
 name|'help'
 op|'='
 string|"'Public IP of network host'"
@@ -259,11 +233,13 @@ op|'('
 string|"'dhcp_lease_time'"
 op|','
 nl|'\n'
+DECL|variable|default
 name|'default'
 op|'='
 number|'120'
 op|','
 nl|'\n'
+DECL|variable|help
 name|'help'
 op|'='
 string|"'Lifetime of a DHCP lease in seconds'"
@@ -277,11 +253,13 @@ op|'('
 string|"'dns_server'"
 op|','
 nl|'\n'
+DECL|variable|default
 name|'default'
 op|'='
 name|'None'
 op|','
 nl|'\n'
+DECL|variable|help
 name|'help'
 op|'='
 string|"'if set, uses specific dns server for dnsmasq'"
@@ -295,11 +273,13 @@ op|'('
 string|"'dmz_cidr'"
 op|','
 nl|'\n'
+DECL|variable|default
 name|'default'
 op|'='
 string|"'10.128.0.0/24'"
 op|','
 nl|'\n'
+DECL|variable|help
 name|'help'
 op|'='
 string|"'dmz range that should be accepted'"
@@ -313,11 +293,13 @@ op|'('
 string|"'dnsmasq_config_file'"
 op|','
 nl|'\n'
+DECL|variable|default
 name|'default'
 op|'='
 string|'""'
 op|','
 nl|'\n'
+DECL|variable|help
 name|'help'
 op|'='
 string|"'Override the default dnsmasq settings with this file'"
@@ -331,11 +313,13 @@ op|'('
 string|"'linuxnet_interface_driver'"
 op|','
 nl|'\n'
+DECL|variable|default
 name|'default'
 op|'='
 string|"'nova.network.linux_net.LinuxBridgeInterfaceDriver'"
 op|','
 nl|'\n'
+DECL|variable|help
 name|'help'
 op|'='
 string|"'Driver used to create ethernet devices.'"
@@ -349,11 +333,13 @@ op|'('
 string|"'linuxnet_ovs_integration_bridge'"
 op|','
 nl|'\n'
+DECL|variable|default
 name|'default'
 op|'='
 string|"'br-int'"
 op|','
 nl|'\n'
+DECL|variable|help
 name|'help'
 op|'='
 string|"'Name of Open vSwitch bridge used with linuxnet'"
@@ -367,11 +353,13 @@ op|'('
 string|"'send_arp_for_ha'"
 op|','
 nl|'\n'
+DECL|variable|default
 name|'default'
 op|'='
 name|'False'
 op|','
 nl|'\n'
+DECL|variable|help
 name|'help'
 op|'='
 string|"'send gratuitous ARPs for HA setup'"
@@ -385,11 +373,13 @@ op|'('
 string|"'use_single_default_gateway'"
 op|','
 nl|'\n'
+DECL|variable|default
 name|'default'
 op|'='
 name|'False'
 op|','
 nl|'\n'
+DECL|variable|help
 name|'help'
 op|'='
 string|"'Use single default gateway. Only first nic of vm will '"

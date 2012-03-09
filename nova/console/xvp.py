@@ -105,12 +105,7 @@ nl|'\n'
 DECL|variable|default
 name|'default'
 op|'='
-name|'utils'
-op|'.'
-name|'abspath'
-op|'('
-string|"'console/xvp.conf.template'"
-op|')'
+string|"'$pybasedir/nova/console/xvp.conf.template'"
 op|','
 nl|'\n'
 DECL|variable|help

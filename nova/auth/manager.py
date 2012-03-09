@@ -213,12 +213,7 @@ nl|'\n'
 DECL|variable|default
 name|'default'
 op|'='
-name|'utils'
-op|'.'
-name|'abspath'
-op|'('
-string|"'auth/novarc.template'"
-op|')'
+string|"'$pybasedir/nova/auth/novarc.template'"
 op|','
 nl|'\n'
 DECL|variable|help
@@ -238,12 +233,7 @@ nl|'\n'
 DECL|variable|default
 name|'default'
 op|'='
-name|'utils'
-op|'.'
-name|'abspath'
-op|'('
-string|"'cloudpipe/client.ovpn.template'"
-op|')'
+string|"'$pybasedir/nova/cloudpipe/client.ovpn.template'"
 op|','
 nl|'\n'
 DECL|variable|help
