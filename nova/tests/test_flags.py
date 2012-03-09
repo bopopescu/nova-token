@@ -816,9 +816,8 @@ name|'write'
 op|'('
 name|'fd'
 op|','
-string|"'--multi=foo\\n'"
+string|"'--multi=bar\\n'"
 op|')'
-comment|"# FIXME(markmc): --multi=bar\\n')"
 newline|'\n'
 name|'os'
 op|'.'
@@ -905,10 +904,9 @@ op|'.'
 name|'multi'
 op|','
 op|'['
-string|"'foo'"
+string|"'bar'"
 op|']'
 op|')'
-comment|"# FIXME(markmc): 'bar'"
 newline|'\n'
 nl|'\n'
 comment|"# Re-parse to test multistring isn't append multiple times"
@@ -937,10 +935,9 @@ op|'.'
 name|'multi'
 op|','
 op|'['
-string|"'foo'"
+string|"'bar'"
 op|']'
 op|')'
-comment|"# FIXME(markmc): 'bar'"
 newline|'\n'
 dedent|''
 name|'finally'
