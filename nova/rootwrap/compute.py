@@ -217,7 +217,7 @@ comment|"# nova/virt/libvirt/connection.py: 'chown', os.getuid(), console_log"
 nl|'\n'
 comment|"# nova/virt/libvirt/connection.py: 'chown', 'root', basepath('disk')"
 nl|'\n'
-comment|"# nova/virt/xenapi/vm_utils.py: 'chown', os.getuid(), dev_path"
+comment|"# nova/utils.py: 'chown', owner_uid, path"
 nl|'\n'
 name|'filters'
 op|'.'
