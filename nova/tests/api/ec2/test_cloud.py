@@ -9643,6 +9643,11 @@ op|':'
 string|"'name'"
 op|','
 nl|'\n'
+string|"'owner'"
+op|':'
+string|"'someone'"
+op|','
+nl|'\n'
 string|"'properties'"
 op|':'
 op|'{'
@@ -9683,7 +9688,7 @@ op|','
 nl|'\n'
 string|"'imageOwnerId'"
 op|':'
-name|'None'
+string|"'someone'"
 op|','
 nl|'\n'
 string|"'isPublic'"

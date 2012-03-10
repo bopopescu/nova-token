@@ -10113,13 +10113,10 @@ string|"'imageOwnerId'"
 op|']'
 op|'='
 name|'image'
-op|'['
-string|"'properties'"
-op|']'
 op|'.'
 name|'get'
 op|'('
-string|"'owner_id'"
+string|"'owner'"
 op|')'
 newline|'\n'
 nl|'\n'
