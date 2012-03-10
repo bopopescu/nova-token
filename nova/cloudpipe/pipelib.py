@@ -153,12 +153,7 @@ nl|'\n'
 DECL|variable|default
 name|'default'
 op|'='
-name|'utils'
-op|'.'
-name|'abspath'
-op|'('
-string|"'cloudpipe/bootscript.template'"
-op|')'
+string|"'$pybasedir/nova/cloudpipe/bootscript.template'"
 op|','
 nl|'\n'
 DECL|variable|help

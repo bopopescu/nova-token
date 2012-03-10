@@ -143,12 +143,7 @@ nl|'\n'
 DECL|variable|default
 name|'default'
 op|'='
-name|'utils'
-op|'.'
-name|'abspath'
-op|'('
-string|"'virt/interfaces.template'"
-op|')'
+string|"'$pybasedir/nova/virt/interfaces.template'"
 op|','
 nl|'\n'
 DECL|variable|help

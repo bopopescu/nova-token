@@ -299,12 +299,7 @@ nl|'\n'
 DECL|variable|default
 name|'default'
 op|'='
-name|'utils'
-op|'.'
-name|'abspath'
-op|'('
-string|"'virt/libvirt.xml.template'"
-op|')'
+string|"'$pybasedir/nova/virt/libvirt.xml.template'"
 op|','
 nl|'\n'
 DECL|variable|help
@@ -410,12 +405,7 @@ nl|'\n'
 DECL|variable|default
 name|'default'
 op|'='
-name|'utils'
-op|'.'
-name|'abspath'
-op|'('
-string|"'virt/cpuinfo.xml.template'"
-op|')'
+string|"'$pybasedir/nova/virt/cpuinfo.xml.template'"
 op|','
 nl|'\n'
 DECL|variable|help
