@@ -377,9 +377,9 @@ op|'='
 op|'['
 nl|'\n'
 op|'('
-string|"'man/novamanage'"
+string|"'man/nova-manage'"
 op|','
-string|"'novamanage'"
+string|"'nova-manage'"
 op|','
 string|"u'Cloud controller fabric'"
 op|','
