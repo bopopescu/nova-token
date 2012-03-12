@@ -187,7 +187,9 @@ nl|'\n'
 DECL|variable|default
 name|'default'
 op|'='
-string|"'[dns.example.org]'"
+op|'['
+string|"'dns.example.org'"
+op|']'
 op|','
 nl|'\n'
 DECL|variable|help
