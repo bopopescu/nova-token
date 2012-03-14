@@ -146,7 +146,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'Publicly visable name for this console host'"
+string|"'Publicly visible name for this console host'"
 op|')'
 op|','
 nl|'\n'
