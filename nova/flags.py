@@ -1845,28 +1845,6 @@ name|'cfg'
 op|'.'
 name|'IntOpt'
 op|'('
-string|"'sql_max_retries'"
-op|','
-nl|'\n'
-DECL|variable|default
-name|'default'
-op|'='
-number|'12'
-op|','
-nl|'\n'
-DECL|variable|help
-name|'help'
-op|'='
-string|"'maximum number of retries for connecting to the sql '"
-nl|'\n'
-string|"'database'"
-op|')'
-op|','
-nl|'\n'
-name|'cfg'
-op|'.'
-name|'IntOpt'
-op|'('
 string|"'sql_retry_interval'"
 op|','
 nl|'\n'
@@ -2305,7 +2283,9 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'time period to generate instance usages for.'"
+string|"'time period to generate instance usages for.  '"
+nl|'\n'
+string|"'Time period must be hour, day, month or year'"
 op|')'
 op|','
 nl|'\n'
@@ -2660,7 +2640,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'availability zone to use when user doesnt specify one'"
+string|"'availability zone to use when user doesn\\'t specify one'"
 op|')'
 op|','
 nl|'\n'
