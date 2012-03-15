@@ -1531,7 +1531,7 @@ name|'help'
 op|'='
 string|"'Base URL that will be presented to users in links '"
 nl|'\n'
-string|"'to the Openstack Compute API'"
+string|"'to the OpenStack Compute API'"
 op|')'
 op|','
 nl|'\n'
