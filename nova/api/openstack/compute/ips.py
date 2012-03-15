@@ -333,7 +333,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""The servers addresses API controller for the Openstack API."""'
+string|'"""The servers addresses API controller for the OpenStack API."""'
 newline|'\n'
 nl|'\n'
 DECL|variable|_view_builder_class

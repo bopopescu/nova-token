@@ -460,7 +460,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""The Consoles controller for the Openstack API"""'
+string|'"""The Consoles controller for the OpenStack API"""'
 newline|'\n'
 nl|'\n'
 DECL|member|__init__

@@ -90,7 +90,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""The image metadata API controller for the Openstack API"""'
+string|'"""The image metadata API controller for the OpenStack API"""'
 newline|'\n'
 nl|'\n'
 DECL|member|__init__

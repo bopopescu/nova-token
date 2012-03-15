@@ -205,7 +205,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""Add some Openstack API-specific logic to the base webob.Request."""'
+string|'"""Add some OpenStack API-specific logic to the base webob.Request."""'
 newline|'\n'
 nl|'\n'
 DECL|member|best_match_content_type

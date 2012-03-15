@@ -51,7 +51,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""Openstack API base limits view builder."""'
+string|'"""OpenStack API base limits view builder."""'
 newline|'\n'
 nl|'\n'
 DECL|member|build

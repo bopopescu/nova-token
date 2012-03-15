@@ -253,7 +253,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""The instance VIF API controller for the Openstack API.\n    """'
+string|'"""The instance VIF API controller for the OpenStack API.\n    """'
 newline|'\n'
 nl|'\n'
 DECL|member|__init__

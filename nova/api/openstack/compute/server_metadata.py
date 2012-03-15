@@ -76,7 +76,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'""" The server metadata API controller for the Openstack API """'
+string|'""" The server metadata API controller for the OpenStack API """'
 newline|'\n'
 nl|'\n'
 DECL|member|__init__

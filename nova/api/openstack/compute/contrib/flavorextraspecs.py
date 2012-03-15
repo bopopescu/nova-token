@@ -141,7 +141,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'""" The flavor extra specs API controller for the Openstack API """'
+string|'""" The flavor extra specs API controller for the OpenStack API """'
 newline|'\n'
 nl|'\n'
 DECL|member|_get_extra_specs
