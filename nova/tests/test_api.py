@@ -1516,7 +1516,7 @@ name|'time_to_convert'
 op|')'
 op|','
 nl|'\n'
-string|"'2011-02-21T20:14:10Z'"
+string|"'2011-02-21T20:14:10.634Z'"
 op|')'
 newline|'\n'
 comment|'# mysqlite database representation'
@@ -1547,7 +1547,7 @@ name|'time_to_convert'
 op|')'
 op|','
 nl|'\n'
-string|"'2011-02-21T19:56:18Z'"
+string|"'2011-02-21T19:56:18.000Z'"
 op|')'
 newline|'\n'
 nl|'\n'
