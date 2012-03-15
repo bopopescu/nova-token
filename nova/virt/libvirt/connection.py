@@ -5127,12 +5127,6 @@ op|'%'
 name|'interface'
 op|','
 nl|'\n'
-string|"'>'"
-op|','
-nl|'\n'
-string|"'/dev/null'"
-op|','
-nl|'\n'
 name|'process_input'
 op|'='
 string|"'1'"
