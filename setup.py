@@ -388,9 +388,6 @@ nl|'\n'
 string|"'bin/nova-volume'"
 op|','
 nl|'\n'
-string|"'bin/nova-vsa'"
-op|','
-nl|'\n'
 string|"'bin/nova-xvpvncproxy'"
 op|','
 nl|'\n'
