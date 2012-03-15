@@ -392,9 +392,6 @@ string|"'bin/nova-xvpvncproxy'"
 op|','
 nl|'\n'
 string|"'bin/stack'"
-op|','
-nl|'\n'
-string|"'tools/nova-debug'"
 op|']'
 op|','
 nl|'\n'
