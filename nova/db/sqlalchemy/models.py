@@ -1683,7 +1683,7 @@ name|'False'
 op|')'
 newline|'\n'
 nl|'\n'
-comment|'# Openstack compute cell name'
+comment|'# OpenStack compute cell name'
 nl|'\n'
 DECL|variable|cell_name
 name|'cell_name'
