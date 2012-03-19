@@ -1225,6 +1225,26 @@ op|','
 nl|'\n'
 name|'cfg'
 op|'.'
+name|'BoolOpt'
+op|'('
+string|"'api_rate_limit'"
+op|','
+nl|'\n'
+DECL|variable|default
+name|'default'
+op|'='
+name|'True'
+op|','
+nl|'\n'
+DECL|variable|help
+name|'help'
+op|'='
+string|"'whether to rate limit the api'"
+op|')'
+op|','
+nl|'\n'
+name|'cfg'
+op|'.'
 name|'ListOpt'
 op|'('
 string|"'enabled_apis'"
