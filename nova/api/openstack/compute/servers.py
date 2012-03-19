@@ -3654,7 +3654,7 @@ name|'expl'
 op|'='
 name|'_'
 op|'('
-string|"'accessIPv4 is not proper IPv4 format'"
+string|"'accessIPv6 is not proper IPv6 format'"
 op|')'
 newline|'\n'
 name|'raise'
