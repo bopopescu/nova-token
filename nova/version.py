@@ -35,7 +35,7 @@ op|'='
 op|'['
 string|"'2012'"
 op|','
-string|"'1'"
+string|"'2'"
 op|','
 name|'None'
 op|']'
