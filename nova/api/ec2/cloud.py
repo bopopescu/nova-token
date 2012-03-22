@@ -165,15 +165,6 @@ name|'flags'
 op|'.'
 name|'FLAGS'
 newline|'\n'
-name|'flags'
-op|'.'
-name|'DECLARE'
-op|'('
-string|"'dhcp_domain'"
-op|','
-string|"'nova.network.manager'"
-op|')'
-newline|'\n'
 nl|'\n'
 DECL|variable|LOG
 name|'LOG'
