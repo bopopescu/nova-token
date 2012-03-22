@@ -196,7 +196,7 @@ newline|'\n'
 nl|'\n'
 name|'d'
 op|'['
-string|"'volumeId'"
+string|"'volume_id'"
 op|']'
 op|'='
 name|'volume_id'
@@ -213,7 +213,7 @@ newline|'\n'
 indent|'        '
 name|'d'
 op|'['
-string|"'serverId'"
+string|"'server_id'"
 op|']'
 op|'='
 name|'vol'
@@ -342,7 +342,7 @@ op|']'
 newline|'\n'
 name|'d'
 op|'['
-string|"'availabilityZone'"
+string|"'availability_zone'"
 op|']'
 op|'='
 name|'vol'
@@ -352,7 +352,7 @@ op|']'
 newline|'\n'
 name|'d'
 op|'['
-string|"'createdAt'"
+string|"'created_at'"
 op|']'
 op|'='
 name|'vol'
@@ -402,7 +402,7 @@ nl|'\n'
 dedent|''
 name|'d'
 op|'['
-string|"'displayName'"
+string|"'display_name'"
 op|']'
 op|'='
 name|'vol'
@@ -412,7 +412,7 @@ op|']'
 newline|'\n'
 name|'d'
 op|'['
-string|"'displayDescription'"
+string|"'display_description'"
 op|']'
 op|'='
 name|'vol'
@@ -438,7 +438,7 @@ newline|'\n'
 indent|'        '
 name|'d'
 op|'['
-string|"'volumeType'"
+string|"'volume_type'"
 op|']'
 op|'='
 name|'vol'
@@ -458,7 +458,7 @@ nl|'\n'
 indent|'        '
 name|'d'
 op|'['
-string|"'volumeType'"
+string|"'volume_type'"
 op|']'
 op|'='
 name|'str'
@@ -473,7 +473,7 @@ nl|'\n'
 dedent|''
 name|'d'
 op|'['
-string|"'snapshotId'"
+string|"'snapshot_id'"
 op|']'
 op|'='
 name|'vol'
@@ -486,7 +486,7 @@ nl|'\n'
 name|'if'
 name|'d'
 op|'['
-string|"'snapshotId'"
+string|"'snapshot_id'"
 op|']'
 name|'is'
 name|'not'
@@ -496,14 +496,14 @@ newline|'\n'
 indent|'        '
 name|'d'
 op|'['
-string|"'snapshotId'"
+string|"'snapshot_id'"
 op|']'
 op|'='
 name|'str'
 op|'('
 name|'d'
 op|'['
-string|"'snapshotId'"
+string|"'snapshot_id'"
 op|']'
 op|')'
 newline|'\n'
@@ -613,14 +613,14 @@ name|'elem'
 op|'.'
 name|'set'
 op|'('
-string|"'serverId'"
+string|"'server_id'"
 op|')'
 newline|'\n'
 name|'elem'
 op|'.'
 name|'set'
 op|'('
-string|"'volumeId'"
+string|"'volume_id'"
 op|')'
 newline|'\n'
 name|'elem'
@@ -667,42 +667,42 @@ name|'elem'
 op|'.'
 name|'set'
 op|'('
-string|"'availabilityZone'"
+string|"'availability_zone'"
 op|')'
 newline|'\n'
 name|'elem'
 op|'.'
 name|'set'
 op|'('
-string|"'createdAt'"
+string|"'created_at'"
 op|')'
 newline|'\n'
 name|'elem'
 op|'.'
 name|'set'
 op|'('
-string|"'displayName'"
+string|"'display_name'"
 op|')'
 newline|'\n'
 name|'elem'
 op|'.'
 name|'set'
 op|'('
-string|"'displayDescription'"
+string|"'display_description'"
 op|')'
 newline|'\n'
 name|'elem'
 op|'.'
 name|'set'
 op|'('
-string|"'volumeType'"
+string|"'volume_type'"
 op|')'
 newline|'\n'
 name|'elem'
 op|'.'
 name|'set'
 op|'('
-string|"'snapshotId'"
+string|"'snapshot_id'"
 op|')'
 newline|'\n'
 nl|'\n'
