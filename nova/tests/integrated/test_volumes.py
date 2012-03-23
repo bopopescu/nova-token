@@ -1086,7 +1086,7 @@ name|'availability_zone'
 op|','
 name|'found_volume'
 op|'['
-string|"'availabilityZone'"
+string|"'availability_zone'"
 op|']'
 op|')'
 newline|'\n'
