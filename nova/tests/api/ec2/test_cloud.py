@@ -2986,7 +2986,7 @@ op|','
 nl|'\n'
 string|"'toPort'"
 op|':'
-number|'65536'
+number|'65535'
 op|'}'
 op|','
 nl|'\n'
