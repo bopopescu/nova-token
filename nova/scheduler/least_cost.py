@@ -123,13 +123,18 @@ nl|'\n'
 DECL|variable|default
 name|'default'
 op|'='
+op|'-'
 number|'1.0'
 op|','
 nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'How much weight to give the fill-first cost function'"
+string|"'How much weight to give the fill-first cost function. '"
+nl|'\n'
+string|"'A negative value will reverse behavior: '"
+nl|'\n'
+string|"'e.g. spread-first'"
 op|')'
 op|','
 nl|'\n'
