@@ -449,6 +449,27 @@ op|','
 nl|'\n'
 name|'cfg'
 op|'.'
+name|'IntOpt'
+op|'('
+string|"'sql_connection_debug'"
+op|','
+nl|'\n'
+DECL|variable|default
+name|'default'
+op|'='
+number|'0'
+op|','
+nl|'\n'
+name|'help'
+op|'='
+string|"'Verbosity of SQL debugging information. 0=None, '"
+nl|'\n'
+string|"'100=Everything'"
+op|')'
+op|','
+nl|'\n'
+name|'cfg'
+op|'.'
 name|'StrOpt'
 op|'('
 string|"'api_paste_config'"
