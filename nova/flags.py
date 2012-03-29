@@ -1866,6 +1866,28 @@ name|'cfg'
 op|'.'
 name|'IntOpt'
 op|'('
+string|"'sql_max_retries'"
+op|','
+nl|'\n'
+DECL|variable|default
+name|'default'
+op|'='
+number|'10'
+op|','
+nl|'\n'
+DECL|variable|help
+name|'help'
+op|'='
+string|"'maximum db connection retries during startup. '"
+nl|'\n'
+string|"'(setting -1 implies an infinite retry count)'"
+op|')'
+op|','
+nl|'\n'
+name|'cfg'
+op|'.'
+name|'IntOpt'
+op|'('
 string|"'sql_retry_interval'"
 op|','
 nl|'\n'
