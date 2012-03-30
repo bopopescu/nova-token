@@ -3232,7 +3232,7 @@ string|"'network_info'"
 op|':'
 name|'nw_info'
 op|'.'
-name|'as_cache'
+name|'json'
 op|'('
 op|')'
 op|'}'

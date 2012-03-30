@@ -875,7 +875,7 @@ op|','
 nl|'\n'
 string|"'dhcp_server'"
 op|':'
-name|'None'
+string|"'192.168.1.1'"
 op|','
 nl|'\n'
 string|"'dns'"
@@ -929,7 +929,7 @@ op|','
 nl|'\n'
 string|"'rxtx_cap'"
 op|':'
-number|'0'
+number|'30'
 op|','
 nl|'\n'
 string|"'vif_uuid'"
