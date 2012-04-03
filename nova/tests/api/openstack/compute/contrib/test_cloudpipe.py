@@ -159,7 +159,7 @@ number|'7777'
 op|','
 string|"'project_id'"
 op|':'
-string|"'fake'"
+string|"'other'"
 op|'}'
 newline|'\n'
 nl|'\n'
@@ -425,7 +425,7 @@ op|'['
 op|'{'
 string|"'project_id'"
 op|':'
-string|"'fake'"
+string|"'other'"
 op|','
 nl|'\n'
 string|"'instance_id'"
@@ -472,6 +472,17 @@ op|')'
 op|':'
 newline|'\n'
 indent|'            '
+name|'self'
+op|'.'
+name|'assertEqual'
+op|'('
+name|'context'
+op|'.'
+name|'project_id'
+op|','
+string|"'other'"
+op|')'
+newline|'\n'
 name|'return'
 op|'{'
 string|"'vpn_public_address'"
@@ -595,7 +606,7 @@ op|'['
 op|'{'
 string|"'project_id'"
 op|':'
-string|"'fake'"
+string|"'other'"
 op|','
 nl|'\n'
 string|"'internal_ip'"
