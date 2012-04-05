@@ -4174,11 +4174,6 @@ name|'session'
 op|')'
 op|','
 nl|'\n'
-string|"'num_retries'"
-op|':'
-number|'0'
-op|','
-nl|'\n'
 string|"'auth_token'"
 op|':'
 name|'getattr'
