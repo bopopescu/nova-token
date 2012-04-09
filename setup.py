@@ -367,9 +367,6 @@ nl|'\n'
 string|"'bin/nova-dhcpbridge'"
 op|','
 nl|'\n'
-string|"'bin/nova-direct-api'"
-op|','
-nl|'\n'
 string|"'bin/nova-manage'"
 op|','
 nl|'\n'
@@ -389,9 +386,6 @@ string|"'bin/nova-volume'"
 op|','
 nl|'\n'
 string|"'bin/nova-xvpvncproxy'"
-op|','
-nl|'\n'
-string|"'bin/stack'"
 op|']'
 op|','
 nl|'\n'
