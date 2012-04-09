@@ -193,7 +193,7 @@ name|'dict'
 op|'('
 name|'vdi_type'
 op|'='
-string|"'os'"
+string|"'root'"
 op|','
 name|'vdi_uuid'
 op|'='
@@ -1153,7 +1153,7 @@ name|'dict'
 op|'('
 name|'vdi_type'
 op|'='
-string|"'os'"
+string|"'root'"
 op|','
 nl|'\n'
 name|'vdi_uuid'
@@ -1272,7 +1272,7 @@ name|'dict'
 op|'('
 name|'vdi_type'
 op|'='
-string|"'os'"
+string|"'root'"
 op|','
 nl|'\n'
 name|'vdi_uuid'

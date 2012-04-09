@@ -1084,7 +1084,7 @@ name|'dict'
 op|'('
 name|'vdi_type'
 op|'='
-string|"'os'"
+string|"'root'"
 op|','
 name|'vdi_uuid'
 op|'='
@@ -1306,7 +1306,7 @@ op|'['
 string|'"vdi_type"'
 op|']'
 op|'=='
-string|'"os"'
+string|'"root"'
 op|':'
 newline|'\n'
 indent|'                '
@@ -2157,7 +2157,7 @@ name|'image_meta'
 op|')'
 newline|'\n'
 nl|'\n'
-comment|"# NOTE(jk0): Since vdi_type may contain either 'os' or 'swap', we"
+comment|"# NOTE(jk0): Since vdi_type may contain either 'root' or 'swap', we"
 nl|'\n'
 comment|"# need to ensure that the 'swap' VDI is not chosen as the mount"
 nl|'\n'
