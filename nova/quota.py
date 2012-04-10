@@ -208,7 +208,7 @@ name|'cfg'
 op|'.'
 name|'IntOpt'
 op|'('
-string|"'quota_max_injected_files'"
+string|"'quota_injected_files'"
 op|','
 nl|'\n'
 DECL|variable|default
@@ -228,7 +228,7 @@ name|'cfg'
 op|'.'
 name|'IntOpt'
 op|'('
-string|"'quota_max_injected_file_content_bytes'"
+string|"'quota_injected_file_content_bytes'"
 op|','
 nl|'\n'
 DECL|variable|default
@@ -250,7 +250,7 @@ name|'cfg'
 op|'.'
 name|'IntOpt'
 op|'('
-string|"'quota_max_injected_file_path_bytes'"
+string|"'quota_injected_file_path_bytes'"
 op|','
 nl|'\n'
 DECL|variable|default
@@ -377,7 +377,7 @@ string|"'injected_files'"
 op|':'
 name|'FLAGS'
 op|'.'
-name|'quota_max_injected_files'
+name|'quota_injected_files'
 op|','
 nl|'\n'
 string|"'injected_file_content_bytes'"
@@ -385,7 +385,7 @@ op|':'
 nl|'\n'
 name|'FLAGS'
 op|'.'
-name|'quota_max_injected_file_content_bytes'
+name|'quota_injected_file_content_bytes'
 op|','
 nl|'\n'
 op|'}'
@@ -1127,7 +1127,7 @@ newline|'\n'
 name|'return'
 name|'FLAGS'
 op|'.'
-name|'quota_max_injected_file_path_bytes'
+name|'quota_injected_file_path_bytes'
 newline|'\n'
 dedent|''
 endmarker|''
