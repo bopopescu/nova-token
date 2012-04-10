@@ -1232,7 +1232,7 @@ name|'_'
 op|'('
 string|"'No fixed IPs to deallocate for vif %s'"
 op|')'
-op|'%'
+op|','
 nl|'\n'
 name|'vif_ref'
 op|'['

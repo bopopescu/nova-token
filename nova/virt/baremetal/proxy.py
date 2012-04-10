@@ -2940,8 +2940,8 @@ string|"'instance %(inst_name)s: injecting '"
 nl|'\n'
 string|"'%(injection)s into image %(img_id)s'"
 op|')'
+op|','
 nl|'\n'
-op|'%'
 name|'locals'
 op|'('
 op|')'
