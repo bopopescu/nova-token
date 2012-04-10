@@ -1120,7 +1120,7 @@ op|':'
 comment|'# pylint: disable=E0213'
 newline|'\n'
 indent|'        '
-string|'"""Wrap function to cache it\'s result in self.__cache.\n        Works only with functions with one fixed argument.\n        """'
+string|'"""Wrap function to cache its result in self.__cache.\n        Works only with functions with one fixed argument.\n        """'
 newline|'\n'
 DECL|function|do_wrap
 name|'def'

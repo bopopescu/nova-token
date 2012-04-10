@@ -719,7 +719,7 @@ op|'('
 op|')'
 newline|'\n'
 nl|'\n'
-comment|'# The argument here should be a context, but its mocked out'
+comment|"# The argument here should be a context, but it's mocked out"
 nl|'\n'
 name|'image_cache_manager'
 op|'.'
