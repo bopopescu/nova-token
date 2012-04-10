@@ -8864,7 +8864,7 @@ comment|"#                ips. Currently the network_api doesn't return floaters
 nl|'\n'
 comment|'#                in network_info. Once it starts return the model. This'
 nl|'\n'
-comment|"#                function and it's call in compute/manager.py on 1829 can"
+comment|'#                function and its call in compute/manager.py on 1829 can'
 nl|'\n'
 comment|'#                go away'
 nl|'\n'
