@@ -1871,9 +1871,9 @@ comment|'# Removed: I, O'
 newline|'\n'
 nl|'\n'
 nl|'\n'
-DECL|function|current_audit_period
+DECL|function|last_completed_audit_period
 name|'def'
-name|'current_audit_period'
+name|'last_completed_audit_period'
 op|'('
 name|'unit'
 op|'='
