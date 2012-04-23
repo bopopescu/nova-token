@@ -206,11 +206,6 @@ name|'vm_utils'
 op|'.'
 name|'VMHelper'
 newline|'\n'
-DECL|variable|XenAPI
-name|'XenAPI'
-op|'='
-name|'None'
-newline|'\n'
 DECL|variable|LOG
 name|'LOG'
 op|'='
