@@ -1841,7 +1841,13 @@ name|'help'
 op|'='
 string|"'Name of this node.  This can be an opaque identifier.  '"
 nl|'\n'
-string|"'It is not necessarily a hostname, FQDN, or IP address.'"
+string|"'It is not necessarily a hostname, FQDN, or IP address. '"
+nl|'\n'
+string|"'However, the node name must be valid within '"
+nl|'\n'
+string|"'an AMQP key, and if using ZeroMQ, a valid '"
+nl|'\n'
+string|"'hostname, FQDN, or IP address'"
 op|')'
 op|','
 nl|'\n'
