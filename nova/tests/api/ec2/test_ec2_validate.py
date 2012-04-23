@@ -229,7 +229,7 @@ name|'Set'
 op|'('
 name|'compute_utils'
 op|','
-string|"'usage_from_instance'"
+string|"'notify_about_instance_usage'"
 op|','
 name|'dumb'
 op|')'
