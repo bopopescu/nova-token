@@ -3380,13 +3380,14 @@ name|'NotFound'
 op|'('
 name|'_'
 op|'('
-string|"'Could not find VM by name'"
+string|"'Could not find VM with name %s'"
 op|')'
-op|','
+op|'%'
 nl|'\n'
 name|'instance'
-op|'='
-name|'instance'
+op|'['
+string|"'name'"
+op|']'
 op|')'
 newline|'\n'
 dedent|''
