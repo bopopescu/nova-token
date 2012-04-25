@@ -104,7 +104,7 @@ nl|'\n'
 DECL|variable|default
 name|'default'
 op|'='
-number|'1024'
+number|'64'
 op|','
 nl|'\n'
 DECL|variable|help
