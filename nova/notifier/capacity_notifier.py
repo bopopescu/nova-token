@@ -63,6 +63,8 @@ DECL|function|notify
 name|'def'
 name|'notify'
 op|'('
+name|'_context'
+op|','
 name|'message'
 op|')'
 op|':'

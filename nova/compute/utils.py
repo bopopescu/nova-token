@@ -1489,6 +1489,8 @@ name|'notifier_api'
 op|'.'
 name|'notify'
 op|'('
+name|'context'
+op|','
 string|"'compute.%s'"
 op|'%'
 name|'host'
