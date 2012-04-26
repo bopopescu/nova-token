@@ -6934,7 +6934,7 @@ string|"'instance-dns-zone is |%(domain)s|, '"
 nl|'\n'
 string|"'which is in availability zone |%(zone)s|. '"
 nl|'\n'
-string|"'Instance |%(instance)s| is in zone |%(zone2)s|. '"
+string|"'Instance is in zone |%(zone2)s|. '"
 nl|'\n'
 string|"'No DNS record will be created.'"
 op|')'
@@ -6945,19 +6945,21 @@ string|"'domain'"
 op|':'
 name|'instance_domain'
 op|','
+nl|'\n'
 string|"'zone'"
 op|':'
 name|'dns_zone'
 op|','
 nl|'\n'
-string|"'instance'"
-op|':'
-name|'instance_id'
-op|','
 string|"'zone2'"
 op|':'
 name|'instance_zone'
 op|'}'
+op|','
+nl|'\n'
+name|'instance'
+op|'='
+name|'instance'
 op|')'
 newline|'\n'
 name|'return'
