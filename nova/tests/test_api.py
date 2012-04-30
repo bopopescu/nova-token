@@ -3123,9 +3123,6 @@ string|"'default'"
 op|')'
 newline|'\n'
 nl|'\n'
-name|'return'
-newline|'\n'
-nl|'\n'
 DECL|member|test_authorize_revoke_security_group_cidr_v6
 dedent|''
 name|'def'
@@ -3495,9 +3492,6 @@ name|'name'
 op|','
 string|"'default'"
 op|')'
-newline|'\n'
-nl|'\n'
-name|'return'
 newline|'\n'
 nl|'\n'
 DECL|member|test_authorize_revoke_security_group_foreign_group
