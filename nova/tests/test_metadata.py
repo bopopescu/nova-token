@@ -190,6 +190,11 @@ op|':'
 number|'1'
 op|','
 nl|'\n'
+string|"'uuid'"
+op|':'
+string|"'b65cee2f-8c69-4aeb-be2f-f79742548fc2'"
+op|','
+nl|'\n'
 string|"'name'"
 op|':'
 string|"'fake'"
@@ -959,6 +964,11 @@ op|':'
 number|'0'
 op|','
 nl|'\n'
+string|"'uuid'"
+op|':'
+string|"'e5fe5518-0288-4fa3-b0c4-c79764101b85'"
+op|','
+nl|'\n'
 string|"'root_device_name'"
 op|':'
 name|'None'
@@ -970,6 +980,11 @@ op|'{'
 string|"'id'"
 op|':'
 number|'0'
+op|','
+nl|'\n'
+string|"'uuid'"
+op|':'
+string|"'b65cee2f-8c69-4aeb-be2f-f79742548fc2'"
 op|','
 nl|'\n'
 string|"'root_device_name'"
@@ -984,7 +999,7 @@ name|'fake_bdm_get'
 op|'('
 name|'ctxt'
 op|','
-name|'id'
+name|'uuid'
 op|')'
 op|':'
 newline|'\n'

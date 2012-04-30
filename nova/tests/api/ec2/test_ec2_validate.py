@@ -759,11 +759,11 @@ string|"'/dev/vdc'"
 op|')'
 newline|'\n'
 nl|'\n'
-DECL|member|test_describe_instance_ttribute
+DECL|member|test_describe_instance_attribute
 dedent|''
 dedent|''
 name|'def'
-name|'test_describe_instance_ttribute'
+name|'test_describe_instance_attribute'
 op|'('
 name|'self'
 op|')'
