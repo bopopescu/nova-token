@@ -49,7 +49,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""Filters Hosts by availabilty zone."""'
+string|'"""Filters Hosts by availability zone."""'
 newline|'\n'
 nl|'\n'
 DECL|member|host_passes
