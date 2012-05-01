@@ -557,6 +557,37 @@ op|'{'
 op|'}'
 newline|'\n'
 nl|'\n'
+comment|'# Ensure tests only listen on localhost'
+nl|'\n'
+name|'f'
+op|'['
+string|"'ec2_listen'"
+op|']'
+op|'='
+string|"'127.0.0.1'"
+newline|'\n'
+name|'f'
+op|'['
+string|"'osapi_compute_listen'"
+op|']'
+op|'='
+string|"'127.0.0.1'"
+newline|'\n'
+name|'f'
+op|'['
+string|"'osapi_volume_listen'"
+op|']'
+op|'='
+string|"'127.0.0.1'"
+newline|'\n'
+name|'f'
+op|'['
+string|"'metadata_listen'"
+op|']'
+op|'='
+string|"'127.0.0.1'"
+newline|'\n'
+nl|'\n'
 comment|'# Auto-assign ports to allow concurrent tests'
 nl|'\n'
 name|'f'
