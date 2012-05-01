@@ -1880,6 +1880,10 @@ op|','
 string|"'initiator'"
 op|':'
 string|"'fake'"
+op|','
+string|"'host'"
+op|':'
+string|"'fakehost'"
 op|'}'
 newline|'\n'
 dedent|''
