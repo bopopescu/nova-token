@@ -60,6 +60,12 @@ string|"'nova.db.sqlalchemy.migration'"
 op|')'
 newline|'\n'
 nl|'\n'
+DECL|variable|INIT_VERSION
+name|'INIT_VERSION'
+op|'='
+number|'81'
+newline|'\n'
+nl|'\n'
 nl|'\n'
 DECL|function|db_sync
 name|'def'
