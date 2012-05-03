@@ -11013,12 +11013,11 @@ string|"'host'"
 op|']'
 op|')'
 newline|'\n'
+nl|'\n'
 comment|'# creating volume testdata'
 nl|'\n'
 name|'volume_id'
 op|'='
-number|'1'
-newline|'\n'
 name|'db'
 op|'.'
 name|'volume_create'
@@ -11026,11 +11025,14 @@ op|'('
 name|'c'
 op|','
 op|'{'
-string|"'id'"
+string|"'size'"
 op|':'
-name|'volume_id'
+number|'1'
 op|'}'
 op|')'
+op|'['
+string|"'id'"
+op|']'
 newline|'\n'
 name|'values'
 op|'='
@@ -11194,6 +11196,7 @@ string|"''"
 op|')'
 op|')'
 newline|'\n'
+nl|'\n'
 comment|'# mocks for rollback'
 nl|'\n'
 name|'rpc'
@@ -23901,7 +23904,7 @@ op|','
 nl|'\n'
 string|"'snapshot_id'"
 op|':'
-number|'0x12345678'
+string|"'00000000-aaaa-bbbb-cccc-000000000000'"
 op|','
 nl|'\n'
 string|"'delete_on_termination'"
@@ -23922,7 +23925,7 @@ op|','
 nl|'\n'
 string|"'snapshot_id'"
 op|':'
-number|'0x23456789'
+string|"'11111111-aaaa-bbbb-cccc-111111111111'"
 op|','
 nl|'\n'
 string|"'delete_on_termination'"
@@ -23939,7 +23942,7 @@ op|','
 nl|'\n'
 string|"'snapshot_id'"
 op|':'
-number|'0x3456789A'
+string|"'22222222-aaaa-bbbb-cccc-222222222222'"
 op|'}'
 op|','
 nl|'\n'
@@ -23966,7 +23969,7 @@ op|','
 nl|'\n'
 string|"'snapshot_id'"
 op|':'
-number|'0x456789AB'
+string|"'33333333-aaaa-bbbb-cccc-333333333333'"
 op|','
 nl|'\n'
 string|"'delete_on_termination'"
@@ -23983,7 +23986,7 @@ op|','
 nl|'\n'
 string|"'snapshot_id'"
 op|':'
-number|'0x56789ABC'
+string|"'44444444-aaaa-bbbb-cccc-444444444444'"
 op|'}'
 op|','
 nl|'\n'
@@ -24010,7 +24013,7 @@ op|','
 nl|'\n'
 string|"'snapshot_id'"
 op|':'
-number|'0x87654321'
+string|"'55555555-aaaa-bbbb-cccc-555555555555'"
 op|','
 nl|'\n'
 string|"'delete_on_termination'"
@@ -24027,7 +24030,7 @@ op|','
 nl|'\n'
 string|"'snapshot_id'"
 op|':'
-number|'0x98765432'
+string|"'66666666-aaaa-bbbb-cccc-666666666666'"
 op|'}'
 op|','
 nl|'\n'
@@ -24039,7 +24042,7 @@ op|','
 nl|'\n'
 string|"'snapshot_id'"
 op|':'
-number|'0xA9875463'
+string|"'77777777-aaaa-bbbb-cccc-777777777777'"
 op|'}'
 op|','
 nl|'\n'
@@ -24233,8 +24236,9 @@ nl|'\n'
 op|'{'
 string|"'snapshot_id'"
 op|':'
-number|'0x12345678'
+string|"'00000000-aaaa-bbbb-cccc-000000000000'"
 op|','
+nl|'\n'
 string|"'device_name'"
 op|':'
 string|"'/dev/sda1'"
@@ -24261,8 +24265,9 @@ nl|'\n'
 op|'{'
 string|"'snapshot_id'"
 op|':'
-number|'0x23456789'
+string|"'11111111-aaaa-bbbb-cccc-111111111111'"
 op|','
+nl|'\n'
 string|"'device_name'"
 op|':'
 string|"'/dev/sdb2'"
@@ -24272,8 +24277,9 @@ nl|'\n'
 op|'{'
 string|"'snapshot_id'"
 op|':'
-number|'0x3456789A'
+string|"'22222222-aaaa-bbbb-cccc-222222222222'"
 op|','
+nl|'\n'
 string|"'device_name'"
 op|':'
 string|"'/dev/sdb3'"
@@ -24306,8 +24312,9 @@ nl|'\n'
 op|'{'
 string|"'snapshot_id'"
 op|':'
-number|'0x456789AB'
+string|"'33333333-aaaa-bbbb-cccc-333333333333'"
 op|','
+nl|'\n'
 string|"'device_name'"
 op|':'
 string|"'/dev/sdc2'"
@@ -24317,8 +24324,9 @@ nl|'\n'
 op|'{'
 string|"'snapshot_id'"
 op|':'
-number|'0x56789ABC'
+string|"'44444444-aaaa-bbbb-cccc-444444444444'"
 op|','
+nl|'\n'
 string|"'device_name'"
 op|':'
 string|"'/dev/sdc3'"
@@ -24340,8 +24348,9 @@ nl|'\n'
 op|'{'
 string|"'snapshot_id'"
 op|':'
-number|'0x87654321'
+string|"'55555555-aaaa-bbbb-cccc-555555555555'"
 op|','
+nl|'\n'
 string|"'device_name'"
 op|':'
 string|"'/dev/sdd1'"
@@ -24351,8 +24360,9 @@ nl|'\n'
 op|'{'
 string|"'snapshot_id'"
 op|':'
-number|'0x98765432'
+string|"'66666666-aaaa-bbbb-cccc-666666666666'"
 op|','
+nl|'\n'
 string|"'device_name'"
 op|':'
 string|"'/dev/sdd2'"
@@ -24362,8 +24372,9 @@ nl|'\n'
 op|'{'
 string|"'snapshot_id'"
 op|':'
-number|'0xA9875463'
+string|"'77777777-aaaa-bbbb-cccc-777777777777'"
 op|','
+nl|'\n'
 string|"'device_name'"
 op|':'
 string|"'/dev/sdd3'"
