@@ -1621,6 +1621,11 @@ nl|'\n'
 name|'orig_image_ref'
 op|'='
 string|"'orig_ref'"
+op|','
+nl|'\n'
+name|'orig_sys_metadata'
+op|'='
+string|"'orig_sys_metadata'"
 op|')'
 newline|'\n'
 nl|'\n'
