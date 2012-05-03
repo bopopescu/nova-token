@@ -316,6 +316,8 @@ name|'api'
 op|'.'
 name|'notify'
 op|'('
+string|"'contextarg'"
+op|','
 string|"'publisher_id'"
 op|','
 string|"'event_type'"
@@ -398,6 +400,8 @@ name|'api'
 op|'.'
 name|'notify'
 op|'('
+string|"'contextarg'"
+op|','
 string|"'publisher_id'"
 op|','
 nl|'\n'
@@ -482,6 +486,8 @@ name|'api'
 op|'.'
 name|'notify'
 op|'('
+string|"'contextarg'"
+op|','
 string|"'publisher_id'"
 op|','
 nl|'\n'
