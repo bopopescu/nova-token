@@ -4047,13 +4047,9 @@ op|':'
 string|"'fakeaz'"
 op|','
 nl|'\n'
-string|"'instance'"
-op|':'
-op|'{'
-string|"'uuid'"
+string|"'instance_uuid'"
 op|':'
 string|"'fakeuuid'"
-op|'}'
 op|','
 nl|'\n'
 string|"'mountpoint'"
@@ -4172,7 +4168,7 @@ name|'vol'
 op|'='
 name|'stub_volume'
 op|'('
-number|'1'
+string|"'1'"
 op|')'
 newline|'\n'
 name|'vol'
@@ -4358,7 +4354,7 @@ name|'self'
 op|','
 name|'context'
 op|','
-number|'1'
+string|"'1'"
 op|')'
 op|']'
 newline|'\n'
