@@ -853,6 +853,10 @@ op|'{'
 string|"'__str__'"
 op|':'
 name|'str_override'
+op|','
+string|"'__unicode__'"
+op|':'
+name|'str_override'
 op|'}'
 op|')'
 newline|'\n'
