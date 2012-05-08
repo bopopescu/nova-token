@@ -103,7 +103,7 @@ op|','
 nl|'\n'
 name|'cfg'
 op|'.'
-name|'StrOpt'
+name|'IntOpt'
 op|'('
 string|"'quantum_connection_port'"
 op|','
@@ -111,7 +111,7 @@ nl|'\n'
 DECL|variable|default
 name|'default'
 op|'='
-string|"'9696'"
+number|'9696'
 op|','
 nl|'\n'
 DECL|variable|help
