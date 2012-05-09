@@ -13723,7 +13723,7 @@ name|'size'
 op|'='
 name|'info'
 op|'['
-string|"'disk_size'"
+string|"'virt_disk_size'"
 op|']'
 op|')'
 newline|'\n'
