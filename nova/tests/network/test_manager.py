@@ -875,9 +875,7 @@ op|','
 nl|'\n'
 string|"'dhcp_server'"
 op|':'
-string|"'192.168.%d.1'"
-op|'%'
-name|'nid'
+name|'None'
 op|','
 nl|'\n'
 string|"'dns'"

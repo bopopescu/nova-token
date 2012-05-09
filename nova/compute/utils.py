@@ -1039,8 +1039,6 @@ op|'('
 name|'subnet_v4'
 op|','
 string|"'dhcp_server'"
-op|','
-name|'gateway'
 op|')'
 newline|'\n'
 name|'network_dict'
