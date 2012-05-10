@@ -254,14 +254,5 @@ op|','
 string|"'nova.scheduler.multi'"
 op|')'
 newline|'\n'
-name|'FLAGS'
-op|'.'
-name|'set_default'
-op|'('
-string|"'policy_file'"
-op|','
-string|"'nova/tests/policy.json'"
-op|')'
-newline|'\n'
 endmarker|''
 end_unit
