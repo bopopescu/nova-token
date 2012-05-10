@@ -16246,7 +16246,7 @@ op|','
 nl|'\n'
 string|"'-o'"
 op|','
-string|"'cluster_size=2M,backing_file=/some/path'"
+string|"'backing_file=/some/path'"
 op|','
 nl|'\n'
 string|"'/the/new/cow'"
