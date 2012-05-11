@@ -325,7 +325,7 @@ op|','
 string|"'-o'"
 op|','
 nl|'\n'
-string|"'cluster_size=2M,backing_file=%s'"
+string|"'backing_file=%s'"
 op|'%'
 name|'backing_file'
 op|','
