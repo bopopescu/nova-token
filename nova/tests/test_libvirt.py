@@ -9487,14 +9487,16 @@ name|'self'
 op|'.'
 name|'context'
 op|','
+nl|'\n'
 name|'volume_ref'
 op|'['
 string|"'id'"
 op|']'
 op|','
+nl|'\n'
 name|'instance_ref'
 op|'['
-string|"'id'"
+string|"'uuid'"
 op|']'
 op|','
 nl|'\n'
