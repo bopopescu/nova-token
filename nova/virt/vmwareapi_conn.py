@@ -236,7 +236,7 @@ op|','
 nl|'\n'
 name|'cfg'
 op|'.'
-name|'FloatOpt'
+name|'IntOpt'
 op|'('
 string|"'vmwareapi_api_retry_count'"
 op|','

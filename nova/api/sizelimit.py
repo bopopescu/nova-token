@@ -82,7 +82,7 @@ name|'max_request_body_size_opt'
 op|'='
 name|'cfg'
 op|'.'
-name|'BoolOpt'
+name|'IntOpt'
 op|'('
 string|"'osapi_max_request_body_size'"
 op|','

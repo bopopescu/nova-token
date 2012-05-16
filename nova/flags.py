@@ -2505,7 +2505,7 @@ op|','
 nl|'\n'
 name|'cfg'
 op|'.'
-name|'StrOpt'
+name|'BoolOpt'
 op|'('
 string|"'stub_network'"
 op|','

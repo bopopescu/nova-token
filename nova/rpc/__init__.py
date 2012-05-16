@@ -142,7 +142,7 @@ op|','
 nl|'\n'
 name|'cfg'
 op|'.'
-name|'IntOpt'
+name|'ListOpt'
 op|'('
 string|"'allowed_rpc_exception_modules'"
 op|','

@@ -133,7 +133,7 @@ nl|'\n'
 DECL|variable|default
 name|'default'
 op|'='
-string|"'true'"
+name|'True'
 op|','
 nl|'\n'
 DECL|variable|help
@@ -273,7 +273,7 @@ nl|'\n'
 DECL|variable|default
 name|'default'
 op|'='
-string|"'false'"
+name|'False'
 op|','
 nl|'\n'
 DECL|variable|help
