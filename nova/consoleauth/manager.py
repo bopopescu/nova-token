@@ -162,6 +162,12 @@ indent|'    '
 string|'"""Manages token based authentication."""'
 newline|'\n'
 nl|'\n'
+DECL|variable|RPC_API_VERSION
+name|'RPC_API_VERSION'
+op|'='
+string|"'1.0'"
+newline|'\n'
+nl|'\n'
 DECL|member|__init__
 name|'def'
 name|'__init__'
