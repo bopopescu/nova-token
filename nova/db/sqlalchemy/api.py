@@ -11184,7 +11184,7 @@ nl|'\n'
 nl|'\n'
 dedent|''
 op|'@'
-name|'require_admin_context'
+name|'require_context'
 newline|'\n'
 DECL|function|network_get_all
 name|'def'
