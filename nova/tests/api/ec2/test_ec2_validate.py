@@ -150,7 +150,7 @@ name|'logging'
 op|'.'
 name|'getLogger'
 op|'('
-string|"'nova.tests.ec2_validate'"
+name|'__name__'
 op|')'
 newline|'\n'
 DECL|variable|FLAGS
