@@ -50,7 +50,7 @@ name|'logging'
 op|'.'
 name|'getLogger'
 op|'('
-string|"'nova.network.api.quantum.sg'"
+name|'__name__'
 op|')'
 newline|'\n'
 nl|'\n'

@@ -109,7 +109,7 @@ name|'logging'
 op|'.'
 name|'getLogger'
 op|'('
-string|"'nova.tests.test_migrations'"
+name|'__name__'
 op|')'
 newline|'\n'
 nl|'\n'
