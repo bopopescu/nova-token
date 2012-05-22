@@ -298,7 +298,7 @@ name|'virt'
 op|'.'
 name|'fake'
 op|'.'
-name|'FakeConnection'
+name|'FakeDriver'
 op|','
 string|"'spawn'"
 op|','

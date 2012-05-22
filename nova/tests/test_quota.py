@@ -208,9 +208,9 @@ name|'self'
 op|'.'
 name|'flags'
 op|'('
-name|'connection_type'
+name|'compute_driver'
 op|'='
-string|"'fake'"
+string|"'nova.virt.fake.FakeDriver'"
 op|','
 nl|'\n'
 name|'quota_instances'
