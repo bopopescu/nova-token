@@ -449,6 +449,11 @@ string|"'bin/nova-volume'"
 op|','
 nl|'\n'
 string|"'bin/nova-xvpvncproxy'"
+op|','
+nl|'\n'
+string|"'bin/volume-usage-audit'"
+op|','
+nl|'\n'
 op|']'
 op|','
 nl|'\n'
