@@ -1972,9 +1972,7 @@ string|"'and_('"
 nl|'\n'
 string|"'Instance.instance_type_id == '"
 nl|'\n'
-string|"'InstanceTypes.id, '"
-nl|'\n'
-string|"'InstanceTypes.deleted == False)'"
+string|"'InstanceTypes.id)'"
 op|')'
 newline|'\n'
 nl|'\n'
