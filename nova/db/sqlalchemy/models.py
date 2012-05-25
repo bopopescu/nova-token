@@ -2864,6 +2864,8 @@ op|'='
 name|'False'
 op|')'
 newline|'\n'
+comment|'# NOTE(dprince): Force innerjoin below for lockmode update on PostgreSQL'
+nl|'\n'
 DECL|variable|usage
 name|'usage'
 op|'='
@@ -2885,6 +2887,12 @@ DECL|variable|foreign_keys
 name|'foreign_keys'
 op|'='
 name|'usage_id'
+op|','
+nl|'\n'
+DECL|variable|innerjoin
+name|'innerjoin'
+op|'='
+name|'True'
 op|','
 nl|'\n'
 DECL|variable|primaryjoin
