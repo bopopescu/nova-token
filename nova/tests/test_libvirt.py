@@ -18431,7 +18431,7 @@ string|"'state'"
 op|':'
 name|'power_state'
 op|'.'
-name|'SHUTOFF'
+name|'SHUTDOWN'
 op|'}'
 newline|'\n'
 nl|'\n'
