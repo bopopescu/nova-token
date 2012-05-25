@@ -280,6 +280,28 @@ string|"'describe instances'"
 op|')'
 op|','
 nl|'\n'
+name|'cfg'
+op|'.'
+name|'BoolOpt'
+op|'('
+string|"'ec2_strict_validation'"
+op|','
+nl|'\n'
+DECL|variable|default
+name|'default'
+op|'='
+name|'True'
+op|','
+nl|'\n'
+DECL|variable|help
+name|'help'
+op|'='
+string|"'Validate security group names'"
+nl|'\n'
+string|"' according to EC2 specification'"
+op|')'
+op|','
+nl|'\n'
 op|']'
 newline|'\n'
 nl|'\n'
