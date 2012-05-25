@@ -967,7 +967,7 @@ op|':'
 newline|'\n'
 nl|'\n'
 indent|'    '
-string|'"""Base class for all configuration options.\n\n    An Opt object has no public methods, but has a number of public string\n    properties:\n\n      name:\n        the name of the option, which may include hyphens\n      dest:\n        the (hyphen-less) ConfigOpts property which contains the option value\n      short:\n        a single character CLI option name\n      default:\n        the default value of the option\n      metavar:\n        the name shown as the argument to a CLI option in --help output\n      help:\n        an string explaining how the options value is used\n    """'
+string|'"""Base class for all configuration options.\n\n    An Opt object has no public methods, but has a number of public string\n    properties:\n\n      name:\n        the name of the option, which may include hyphens\n      dest:\n        the (hyphen-less) ConfigOpts property which contains the option value\n      short:\n        a single character CLI option name\n      default:\n        the default value of the option\n      metavar:\n        the name shown as the argument to a CLI option in --help output\n      help:\n        a string explaining how the options value is used\n    """'
 newline|'\n'
 DECL|variable|multi
 name|'multi'

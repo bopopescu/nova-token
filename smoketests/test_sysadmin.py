@@ -2010,7 +2010,7 @@ op|','
 name|'TEST_KEY'
 op|')'
 newline|'\n'
-comment|"# NOTE(vish): this will create an dev for images that don't have"
+comment|"# NOTE(vish): this will create a dev for images that don't have"
 nl|'\n'
 comment|'#             udev rules'
 nl|'\n'
