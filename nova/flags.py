@@ -2306,7 +2306,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'The default format a ephemeral_volume will be '"
+string|"'The default format an ephemeral_volume will be '"
 nl|'\n'
 string|"'formatted with on creation.'"
 op|')'
