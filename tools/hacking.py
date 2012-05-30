@@ -309,7 +309,7 @@ name|'find'
 op|'('
 string|"'#'"
 op|')'
-comment|'# make sure its a comment'
+comment|"# make sure it's a comment"
 newline|'\n'
 name|'if'
 op|'('

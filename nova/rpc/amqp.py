@@ -331,7 +331,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""The class that is actually returned to the caller of\n    create_connection().  This is a essentially a wrapper around\n    Connection that supports \'with\' and can return a new Connection or\n    one from a pool.  It will also catch when an instance of this class\n    is to be deleted so that we can return Connections to the pool on\n    exceptions and so forth without making the caller be responsible for\n    catching all exceptions and making sure to return a connection to\n    the pool.\n    """'
+string|'"""The class that is actually returned to the caller of\n    create_connection().  This is essentially a wrapper around\n    Connection that supports \'with\'.  It can also return a new\n    Connection, or one from a pool.  The function will also catch\n    when an instance of this class is to be deleted.  With that\n    we can return Connections to the pool on exceptions and so\n    forth without making the caller be responsible for catching\n    them.  If possible the function makes sure to return a\n    connection to the pool.\n    """'
 newline|'\n'
 nl|'\n'
 DECL|member|__init__

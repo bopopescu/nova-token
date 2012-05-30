@@ -1995,7 +1995,7 @@ string|"'name'"
 op|']'
 newline|'\n'
 nl|'\n'
-comment|'# Create a iSCSI target, mapped to just this volume'
+comment|'# Create an iSCSI target, mapped to just this volume'
 nl|'\n'
 name|'if'
 name|'force_create'
