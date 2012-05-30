@@ -3126,15 +3126,13 @@ op|':'
 newline|'\n'
 indent|'                    '
 name|'if'
+string|"'image-id'"
+name|'not'
+name|'in'
 name|'vdi_rec'
 op|'['
 string|"'other_config'"
 op|']'
-op|'['
-string|"'image-id'"
-op|']'
-name|'is'
-name|'None'
 op|':'
 newline|'\n'
 indent|'                        '
