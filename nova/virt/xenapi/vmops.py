@@ -8369,8 +8369,10 @@ op|')'
 newline|'\n'
 name|'location'
 op|'='
+op|'('
 string|"'vm-data/networking/%s'"
 op|'%'
+nl|'\n'
 name|'vif'
 op|'['
 string|"'address'"
@@ -8381,6 +8383,7 @@ op|'('
 string|"':'"
 op|','
 string|"''"
+op|')'
 op|')'
 newline|'\n'
 name|'self'

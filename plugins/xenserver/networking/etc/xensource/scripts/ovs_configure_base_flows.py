@@ -169,13 +169,14 @@ string|"'-o'"
 op|','
 string|"'-f'"
 op|','
+nl|'\n'
 string|"'inet'"
 op|','
 string|"'addr'"
 op|','
-nl|'\n'
 string|"'show'"
 op|','
+nl|'\n'
 name|'bridge_name'
 op|')'
 newline|'\n'

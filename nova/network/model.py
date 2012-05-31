@@ -2286,6 +2286,7 @@ nl|'\n'
 name|'network_dict'
 op|'='
 op|'{'
+nl|'\n'
 string|"'bridge'"
 op|':'
 name|'network'
@@ -2364,6 +2365,7 @@ name|'get_meta'
 op|'('
 string|"'bridge_interface'"
 op|')'
+nl|'\n'
 op|'}'
 newline|'\n'
 comment|"# NOTE(tr3buchet): 'ips' bit here is tricky, we support a single"
