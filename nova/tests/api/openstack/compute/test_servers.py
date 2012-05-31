@@ -10740,7 +10740,7 @@ name|'Set'
 op|'('
 name|'nova'
 op|'.'
-name|'db'
+name|'rpc'
 op|','
 string|"'queue_get_for'"
 op|','
