@@ -577,7 +577,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""Get a queue name for a given topic + host."""'
+string|'"""Get a queue name for a given topic + host.\n\n    This function only works if this naming convention is followed on the\n    consumer side, as well.  For example, in nova, every instance of the\n    nova-foo service calls create_consumer() for two topics:\n\n        foo\n        foo.<host>\n\n    Messages sent to the \'foo\' topic are distributed to exactly one instance of\n    the nova-foo service.  The services are chosen in a round-robin fashion.\n    Messages sent to the \'foo.<host>\' topic are sent to the nova-foo service on\n    <host>.\n    """'
 newline|'\n'
 name|'return'
 string|"'%s.%s'"
