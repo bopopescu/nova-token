@@ -566,9 +566,9 @@ op|'.'
 name|'auth_driver'
 op|','
 nl|'\n'
-name|'connection_type'
+name|'compute_driver'
 op|'='
-string|"'fake'"
+string|"'nova.virt.fake.FakeDriver'"
 op|')'
 newline|'\n'
 name|'self'

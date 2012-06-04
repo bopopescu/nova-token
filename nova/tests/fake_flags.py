@@ -152,6 +152,15 @@ name|'conf'
 op|'.'
 name|'set_default'
 op|'('
+string|"'compute_driver'"
+op|','
+string|"'nova.virt.fake.FakeDriver'"
+op|')'
+newline|'\n'
+name|'conf'
+op|'.'
+name|'set_default'
+op|'('
 string|"'connection_type'"
 op|','
 string|"'fake'"
