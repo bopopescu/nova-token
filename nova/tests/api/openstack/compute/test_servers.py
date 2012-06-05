@@ -15824,7 +15824,9 @@ op|','
 nl|'\n'
 name|'_'
 op|'('
-string|"'Quota exceeded: already used 1 of 1 instances'"
+string|"'Quota exceeded for instances: Requested 1, but'"
+nl|'\n'
+string|"' already used 0 of 0 instances'"
 op|')'
 op|')'
 newline|'\n'
