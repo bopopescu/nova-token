@@ -159,14 +159,22 @@ name|'isinstance'
 op|'('
 name|'server_id'
 op|','
-name|'int'
+name|'str'
 op|')'
+name|'or'
+name|'not'
+name|'len'
+op|'('
+name|'server_id'
+op|')'
+op|'=='
+number|'36'
 op|':'
 newline|'\n'
 indent|'        '
 name|'msg'
 op|'='
-string|"'id %s must be int in return server metadata'"
+string|"'id %s must be a uuid in return server metadata'"
 op|'%'
 name|'server_id'
 newline|'\n'
@@ -321,6 +329,12 @@ string|"'id'"
 op|':'
 name|'server_id'
 op|','
+nl|'\n'
+string|"'uuid'"
+op|':'
+string|"'0cc3346e-9fef-4445-abe6-5d2b2690ec64'"
+op|','
+nl|'\n'
 string|"'name'"
 op|':'
 string|"'fake'"
@@ -346,6 +360,12 @@ string|"'id'"
 op|':'
 number|'1'
 op|','
+nl|'\n'
+string|"'uuid'"
+op|':'
+string|"'0cc3346e-9fef-4445-abe6-5d2b2690ec64'"
+op|','
+nl|'\n'
 string|"'name'"
 op|':'
 string|"'fake'"
@@ -1024,8 +1044,9 @@ name|'nova'
 op|'.'
 name|'db'
 op|','
-string|"'instance_get'"
+string|"'instance_get_by_uuid'"
 op|','
+nl|'\n'
 name|'return_server_nonexistant'
 op|')'
 newline|'\n'
@@ -1617,8 +1638,9 @@ name|'nova'
 op|'.'
 name|'db'
 op|','
-string|"'instance_get'"
+string|"'instance_get_by_uuid'"
 op|','
+nl|'\n'
 name|'return_server_nonexistant'
 op|')'
 newline|'\n'
@@ -2351,8 +2373,9 @@ name|'nova'
 op|'.'
 name|'db'
 op|','
-string|"'instance_get'"
+string|"'instance_get_by_uuid'"
 op|','
+nl|'\n'
 name|'return_server_nonexistant'
 op|')'
 newline|'\n'

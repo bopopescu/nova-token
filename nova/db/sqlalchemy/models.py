@@ -5661,18 +5661,23 @@ number|'255'
 op|')'
 op|')'
 newline|'\n'
-DECL|variable|instance_id
-name|'instance_id'
+DECL|variable|instance_uuid
+name|'instance_uuid'
 op|'='
 name|'Column'
 op|'('
-name|'Integer'
+name|'String'
+op|'('
+number|'36'
+op|')'
 op|','
 name|'ForeignKey'
 op|'('
-string|"'instances.id'"
+string|"'instances.uuid'"
 op|')'
 op|','
+nl|'\n'
+DECL|variable|nullable
 name|'nullable'
 op|'='
 name|'False'
@@ -5693,7 +5698,7 @@ nl|'\n'
 DECL|variable|foreign_keys
 name|'foreign_keys'
 op|'='
-name|'instance_id'
+name|'instance_uuid'
 op|','
 nl|'\n'
 DECL|variable|primaryjoin
@@ -5701,7 +5706,9 @@ name|'primaryjoin'
 op|'='
 string|"'and_('"
 nl|'\n'
-string|"'InstanceMetadata.instance_id == Instance.id,'"
+string|"'InstanceMetadata.instance_uuid == '"
+nl|'\n'
+string|"'Instance.uuid,'"
 nl|'\n'
 string|"'InstanceMetadata.deleted == False)'"
 op|')'
