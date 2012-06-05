@@ -194,13 +194,6 @@ name|'volume_utils'
 newline|'\n'
 nl|'\n'
 nl|'\n'
-DECL|variable|NetworkHelper
-name|'NetworkHelper'
-op|'='
-name|'network_utils'
-op|'.'
-name|'NetworkHelper'
-newline|'\n'
 DECL|variable|LOG
 name|'LOG'
 op|'='
