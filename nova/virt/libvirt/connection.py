@@ -475,7 +475,11 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'Define protocol used by live_migration feature'"
+string|"'Migration target URI '"
+nl|'\n'
+string|'\'(any included "%s" is replaced with \''
+nl|'\n'
+string|"'the migration target hostname)'"
 op|')'
 op|','
 nl|'\n'
@@ -495,7 +499,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'Define live migration behavior.'"
+string|"'Migration flags to be set for live migration'"
 op|')'
 op|','
 nl|'\n'
@@ -517,7 +521,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'Define block migration behavior.'"
+string|"'Migration flags to be set for block migration'"
 op|')'
 op|','
 nl|'\n'
@@ -537,7 +541,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'Define live migration behavior'"
+string|"'Maximum bandwidth to be used during migration, in Mbps'"
 op|')'
 op|','
 nl|'\n'
