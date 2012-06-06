@@ -3519,16 +3519,19 @@ string|"'security_groups.id'"
 op|')'
 op|')'
 newline|'\n'
-DECL|variable|instance_id
-name|'instance_id'
+DECL|variable|instance_uuid
+name|'instance_uuid'
 op|'='
 name|'Column'
 op|'('
-name|'Integer'
+name|'String'
+op|'('
+number|'36'
+op|')'
 op|','
 name|'ForeignKey'
 op|'('
-string|"'instances.id'"
+string|"'instances.uuid'"
 op|')'
 op|')'
 newline|'\n'
@@ -3644,7 +3647,7 @@ name|'secondaryjoin'
 op|'='
 string|"'and_('"
 nl|'\n'
-string|"'SecurityGroupInstanceAssociation.instance_id == Instance.id,'"
+string|"'SecurityGroupInstanceAssociation.instance_uuid == Instance.uuid,'"
 nl|'\n'
 comment|"# (anthony) the condition below shouldn't be necessary now that the"
 nl|'\n'
