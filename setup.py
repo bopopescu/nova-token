@@ -391,12 +391,6 @@ DECL|variable|scripts
 name|'scripts'
 op|'='
 op|'['
-string|"'bin/clear_rabbit_queues'"
-op|','
-nl|'\n'
-string|"'bin/instance-usage-audit'"
-op|','
-nl|'\n'
 string|"'bin/nova-all'"
 op|','
 nl|'\n'
@@ -421,6 +415,9 @@ nl|'\n'
 string|"'bin/nova-cert'"
 op|','
 nl|'\n'
+string|"'bin/nova-clear-rabbit-queues'"
+op|','
+nl|'\n'
 string|"'bin/nova-compute'"
 op|','
 nl|'\n'
@@ -431,6 +428,9 @@ string|"'bin/nova-consoleauth'"
 op|','
 nl|'\n'
 string|"'bin/nova-dhcpbridge'"
+op|','
+nl|'\n'
+string|"'bin/nova-instance-usage-audit'"
 op|','
 nl|'\n'
 string|"'bin/nova-manage'"
@@ -451,10 +451,10 @@ nl|'\n'
 string|"'bin/nova-volume'"
 op|','
 nl|'\n'
-string|"'bin/nova-xvpvncproxy'"
+string|"'bin/nova-volume-usage-audit'"
 op|','
 nl|'\n'
-string|"'bin/volume-usage-audit'"
+string|"'bin/nova-xvpvncproxy'"
 op|','
 nl|'\n'
 op|']'
