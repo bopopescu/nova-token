@@ -145,6 +145,28 @@ op|','
 nl|'\n'
 name|'cfg'
 op|'.'
+name|'IntOpt'
+op|'('
+string|"'rpc_cast_timeout'"
+op|','
+nl|'\n'
+DECL|variable|default
+name|'default'
+op|'='
+number|'30'
+op|','
+nl|'\n'
+DECL|variable|help
+name|'help'
+op|'='
+string|"'Seconds to wait before a cast expires (TTL). '"
+nl|'\n'
+string|"'Only supported by impl_zmq.'"
+op|')'
+op|','
+nl|'\n'
+name|'cfg'
+op|'.'
 name|'ListOpt'
 op|'('
 string|"'allowed_rpc_exception_modules'"

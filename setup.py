@@ -415,6 +415,9 @@ nl|'\n'
 string|"'bin/nova-api-os-volume'"
 op|','
 nl|'\n'
+string|"'bin/nova-rpc-zmq-receiver'"
+op|','
+nl|'\n'
 string|"'bin/nova-cert'"
 op|','
 nl|'\n'
