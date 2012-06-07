@@ -577,7 +577,10 @@ string|"'id'"
 op|']'
 op|','
 nl|'\n'
-name|'instance_id'
+name|'instance'
+op|'['
+string|"'uuid'"
+op|']'
 op|')'
 newline|'\n'
 name|'if'
