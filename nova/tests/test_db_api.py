@@ -454,7 +454,7 @@ op|')'
 op|','
 name|'inst1'
 op|'['
-string|"'id'"
+string|"'uuid'"
 op|']'
 op|')'
 newline|'\n'

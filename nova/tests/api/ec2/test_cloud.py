@@ -1689,7 +1689,7 @@ name|'context'
 op|','
 name|'inst'
 op|'['
-string|"'id'"
+string|"'uuid'"
 op|']'
 op|')'
 newline|'\n'
@@ -4797,8 +4797,9 @@ op|'.'
 name|'context'
 op|','
 name|'inst'
-op|'.'
-name|'id'
+op|'['
+string|"'uuid'"
+op|']'
 op|')'
 newline|'\n'
 nl|'\n'
@@ -6350,7 +6351,7 @@ name|'context'
 op|','
 name|'inst1'
 op|'['
-string|"'id'"
+string|"'uuid'"
 op|']'
 op|')'
 newline|'\n'
@@ -6364,7 +6365,7 @@ name|'context'
 op|','
 name|'inst2'
 op|'['
-string|"'id'"
+string|"'uuid'"
 op|']'
 op|')'
 newline|'\n'
@@ -6797,7 +6798,7 @@ name|'context'
 op|','
 name|'inst1'
 op|'['
-string|"'id'"
+string|"'uuid'"
 op|']'
 op|')'
 newline|'\n'
@@ -6811,7 +6812,7 @@ name|'context'
 op|','
 name|'inst2'
 op|'['
-string|"'id'"
+string|"'uuid'"
 op|']'
 op|')'
 newline|'\n'
@@ -6825,7 +6826,7 @@ name|'context'
 op|','
 name|'inst3'
 op|'['
-string|"'id'"
+string|"'uuid'"
 op|']'
 op|')'
 newline|'\n'
@@ -7039,7 +7040,7 @@ name|'context'
 op|','
 name|'inst'
 op|'['
-string|"'id'"
+string|"'uuid'"
 op|']'
 op|')'
 newline|'\n'
@@ -7364,7 +7365,7 @@ name|'context'
 op|','
 name|'inst1'
 op|'['
-string|"'id'"
+string|"'uuid'"
 op|']'
 op|')'
 newline|'\n'
@@ -7488,8 +7489,9 @@ op|'.'
 name|'context'
 op|','
 name|'inst1'
-op|'.'
-name|'id'
+op|'['
+string|"'uuid'"
+op|']'
 op|')'
 newline|'\n'
 name|'result'
@@ -8246,7 +8248,7 @@ name|'context'
 op|','
 name|'inst2'
 op|'['
-string|"'id'"
+string|"'uuid'"
 op|']'
 op|')'
 newline|'\n'
@@ -8260,7 +8262,7 @@ name|'context'
 op|','
 name|'inst1'
 op|'['
-string|"'id'"
+string|"'uuid'"
 op|']'
 op|')'
 newline|'\n'

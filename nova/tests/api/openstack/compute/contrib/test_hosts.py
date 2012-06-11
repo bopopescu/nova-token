@@ -2018,7 +2018,7 @@ name|'ctxt'
 op|','
 name|'i_ref1'
 op|'['
-string|"'id'"
+string|"'uuid'"
 op|']'
 op|')'
 newline|'\n'
@@ -2030,7 +2030,7 @@ name|'ctxt'
 op|','
 name|'i_ref2'
 op|'['
-string|"'id'"
+string|"'uuid'"
 op|']'
 op|')'
 newline|'\n'

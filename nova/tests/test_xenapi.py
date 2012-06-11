@@ -10580,7 +10580,7 @@ name|'admin_ctxt'
 op|','
 name|'instance_ref'
 op|'['
-string|"'id'"
+string|"'uuid'"
 op|']'
 op|')'
 newline|'\n'
