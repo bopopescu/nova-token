@@ -2731,8 +2731,22 @@ name|'return'
 string|"'QEMU'"
 newline|'\n'
 nl|'\n'
-DECL|member|getVersion
+DECL|member|getLibVersion
 dedent|''
+dedent|''
+name|'def'
+name|'getLibVersion'
+op|'('
+name|'self'
+op|')'
+op|':'
+newline|'\n'
+indent|'        '
+name|'return'
+number|'9007'
+newline|'\n'
+nl|'\n'
+DECL|member|getVersion
 dedent|''
 name|'def'
 name|'getVersion'
