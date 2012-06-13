@@ -235,7 +235,7 @@ name|'set_default'
 op|'('
 string|"'rpc_backend'"
 op|','
-string|"'nova.rpc.impl_fake'"
+string|"'nova.openstack.common.rpc.impl_fake'"
 op|')'
 newline|'\n'
 name|'conf'
