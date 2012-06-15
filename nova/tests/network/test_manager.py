@@ -5161,7 +5161,7 @@ name|'Set'
 op|'('
 name|'rpc'
 op|','
-string|"'cast'"
+string|"'call'"
 op|','
 name|'fake6'
 op|')'
@@ -6009,7 +6009,7 @@ name|'Set'
 op|'('
 name|'rpc'
 op|','
-string|"'cast'"
+string|"'call'"
 op|','
 name|'fake6'
 op|')'
