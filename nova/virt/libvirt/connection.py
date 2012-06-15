@@ -9250,7 +9250,7 @@ op|')'
 op|','
 name|'instance'
 op|'['
-string|"'id'"
+string|"'uuid'"
 op|']'
 op|','
 nl|'\n'
@@ -10133,7 +10133,7 @@ op|')'
 op|','
 name|'instance'
 op|'['
-string|"'id'"
+string|"'uuid'"
 op|']'
 op|','
 nl|'\n'
@@ -10357,7 +10357,7 @@ op|')'
 op|','
 name|'instance'
 op|'['
-string|"'id'"
+string|"'uuid'"
 op|']'
 op|','
 nl|'\n'
