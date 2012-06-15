@@ -36,6 +36,7 @@ name|'import'
 name|'StringIO'
 newline|'\n'
 nl|'\n'
+nl|'\n'
 DECL|variable|files
 name|'files'
 op|'='

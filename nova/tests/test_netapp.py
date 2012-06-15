@@ -69,6 +69,7 @@ name|'import'
 name|'netapp'
 newline|'\n'
 nl|'\n'
+nl|'\n'
 DECL|variable|LOG
 name|'LOG'
 op|'='
