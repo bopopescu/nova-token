@@ -421,7 +421,7 @@ name|'self'
 op|','
 name|'size'
 op|'='
-string|"'0'"
+number|'0'
 op|')'
 op|':'
 newline|'\n'
