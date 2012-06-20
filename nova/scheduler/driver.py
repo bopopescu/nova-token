@@ -218,7 +218,7 @@ name|'DECLARE'
 op|'('
 string|"'libvirt_type'"
 op|','
-string|"'nova.virt.libvirt.connection'"
+string|"'nova.virt.libvirt.driver'"
 op|')'
 newline|'\n'
 nl|'\n'
