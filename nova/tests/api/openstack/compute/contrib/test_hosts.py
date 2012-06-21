@@ -1655,6 +1655,11 @@ nl|'\n'
 string|"'cpu_info'"
 op|':'
 string|"''"
+op|','
+string|"'stats'"
+op|':'
+op|'{'
+op|'}'
 op|'}'
 newline|'\n'
 name|'db'

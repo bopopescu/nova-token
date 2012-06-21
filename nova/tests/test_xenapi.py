@@ -8919,7 +8919,7 @@ op|'['
 string|"'disk_total'"
 op|']'
 op|','
-number|'10000'
+number|'40000'
 op|')'
 newline|'\n'
 name|'self'
