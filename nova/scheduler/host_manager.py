@@ -176,6 +176,9 @@ name|'default'
 op|'='
 op|'['
 nl|'\n'
+string|"'RetryFilter'"
+op|','
+nl|'\n'
 string|"'AvailabilityZoneFilter'"
 op|','
 nl|'\n'
