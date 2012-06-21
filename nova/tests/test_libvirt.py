@@ -872,7 +872,7 @@ op|')'
 newline|'\n'
 name|'dev_str'
 op|'='
-string|"'/dev/disk/by-path/ip-%s-iscsi-%s-lun-0'"
+string|"'/dev/disk/by-path/ip-%s-iscsi-%s-lun-1'"
 op|'%'
 op|'('
 name|'location'
@@ -1251,7 +1251,7 @@ op|')'
 newline|'\n'
 name|'dev_str'
 op|'='
-string|"'/dev/disk/by-path/ip-%s-iscsi-%s-lun-0'"
+string|"'/dev/disk/by-path/ip-%s-iscsi-%s-lun-1'"
 op|'%'
 op|'('
 name|'location'
@@ -2377,7 +2377,7 @@ op|')'
 newline|'\n'
 name|'dev_str'
 op|'='
-string|"'/dev/disk/by-path/ip-%s-iscsi-%s-lun-0'"
+string|"'/dev/disk/by-path/ip-%s-iscsi-%s-lun-1'"
 op|'%'
 op|'('
 name|'location'
