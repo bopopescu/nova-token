@@ -387,6 +387,13 @@ op|'='
 string|"'nose.collector'"
 op|','
 nl|'\n'
+name|'setup_requires'
+op|'='
+op|'['
+string|"'setuptools_git>=0.4'"
+op|']'
+op|','
+nl|'\n'
 DECL|variable|scripts
 name|'scripts'
 op|'='
