@@ -411,8 +411,6 @@ name|'return'
 name|'self'
 op|'.'
 name|'initialized'
-op|'=='
-name|'True'
 newline|'\n'
 nl|'\n'
 DECL|member|initialize_network
