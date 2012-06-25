@@ -1924,10 +1924,10 @@ string|"'instance_id'"
 op|')'
 newline|'\n'
 nl|'\n'
-DECL|member|test_deallocate_ip_address
+DECL|member|test_deallocate_ip_address_2
 dedent|''
 name|'def'
-name|'test_deallocate_ip_address'
+name|'test_deallocate_ip_address_2'
 op|'('
 name|'self'
 op|')'
@@ -3472,8 +3472,7 @@ name|'net'
 op|'['
 string|"'host'"
 op|']'
-name|'is'
-name|'not'
+op|'!='
 name|'None'
 op|')'
 newline|'\n'
