@@ -1823,26 +1823,6 @@ name|'cfg'
 op|'.'
 name|'StrOpt'
 op|'('
-string|"'image_service'"
-op|','
-nl|'\n'
-DECL|variable|default
-name|'default'
-op|'='
-string|"'nova.image.glance.GlanceImageService'"
-op|','
-nl|'\n'
-DECL|variable|help
-name|'help'
-op|'='
-string|"'The service to use for retrieving and searching images.'"
-op|')'
-op|','
-nl|'\n'
-name|'cfg'
-op|'.'
-name|'StrOpt'
-op|'('
 string|"'host'"
 op|','
 nl|'\n'
