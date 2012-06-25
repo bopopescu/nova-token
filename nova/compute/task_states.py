@@ -34,6 +34,8 @@ nl|'\n'
 string|'"""Possible task states for instances.\n\nCompute instance task states represent what is happening to the instance at the\ncurrent moment. These tasks can be generic, such as \'spawning\', or specific,\nsuch as \'block_device_mapping\'. These task states allow for a better view into\nwhat an instance is doing and should be displayed to users/administrators as\nnecessary.\n\n"""'
 newline|'\n'
 nl|'\n'
+comment|'# possible task states during create()'
+nl|'\n'
 DECL|variable|SCHEDULING
 name|'SCHEDULING'
 op|'='
@@ -55,22 +57,31 @@ op|'='
 string|"'spawning'"
 newline|'\n'
 nl|'\n'
+comment|'# possible task states during snapshot()'
+nl|'\n'
 DECL|variable|IMAGE_SNAPSHOT
 name|'IMAGE_SNAPSHOT'
 op|'='
 string|"'image_snapshot'"
 newline|'\n'
+nl|'\n'
+comment|'# possible task states during backup()'
+nl|'\n'
 DECL|variable|IMAGE_BACKUP
 name|'IMAGE_BACKUP'
 op|'='
 string|"'image_backup'"
 newline|'\n'
 nl|'\n'
+comment|'# possible task states during set_admin_password()'
+nl|'\n'
 DECL|variable|UPDATING_PASSWORD
 name|'UPDATING_PASSWORD'
 op|'='
 string|"'updating_password'"
 newline|'\n'
+nl|'\n'
+comment|'# possible task states during resize()'
 nl|'\n'
 DECL|variable|RESIZE_PREP
 name|'RESIZE_PREP'
@@ -92,21 +103,24 @@ name|'RESIZE_FINISH'
 op|'='
 string|"'resize_finish'"
 newline|'\n'
+nl|'\n'
+comment|'# possible task states during revert_resize()'
+nl|'\n'
 DECL|variable|RESIZE_REVERTING
 name|'RESIZE_REVERTING'
 op|'='
 string|"'resize_reverting'"
 newline|'\n'
+nl|'\n'
+comment|'# possible task states during confirm_resize()'
+nl|'\n'
 DECL|variable|RESIZE_CONFIRMING
 name|'RESIZE_CONFIRMING'
 op|'='
 string|"'resize_confirming'"
 newline|'\n'
-DECL|variable|RESIZE_VERIFY
-name|'RESIZE_VERIFY'
-op|'='
-string|"'resize_verify'"
-newline|'\n'
+nl|'\n'
+comment|'# possible task states during reboot()'
 nl|'\n'
 DECL|variable|REBOOTING
 name|'REBOOTING'
@@ -118,62 +132,119 @@ name|'REBOOTING_HARD'
 op|'='
 string|"'rebooting_hard'"
 newline|'\n'
+nl|'\n'
+comment|'# possible task states during pause()'
+nl|'\n'
 DECL|variable|PAUSING
 name|'PAUSING'
 op|'='
 string|"'pausing'"
 newline|'\n'
+nl|'\n'
+comment|'# possible task states during unpause()'
+nl|'\n'
 DECL|variable|UNPAUSING
 name|'UNPAUSING'
 op|'='
 string|"'unpausing'"
 newline|'\n'
+nl|'\n'
+comment|'# possible task states during suspend()'
+nl|'\n'
 DECL|variable|SUSPENDING
 name|'SUSPENDING'
 op|'='
 string|"'suspending'"
 newline|'\n'
+nl|'\n'
+comment|'# possible task states during resume()'
+nl|'\n'
 DECL|variable|RESUMING
 name|'RESUMING'
 op|'='
 string|"'resuming'"
 newline|'\n'
+nl|'\n'
+comment|'# possible task states during stop()'
+nl|'\n'
+DECL|variable|STOPPING
+name|'STOPPING'
+op|'='
+string|"'stopping'"
+newline|'\n'
+nl|'\n'
+comment|'# possible task states during start()'
+nl|'\n'
+DECL|variable|STARTING
+name|'STARTING'
+op|'='
+string|"'starting'"
+newline|'\n'
+nl|'\n'
+comment|'# possible task states during soft_delete()'
+nl|'\n'
 DECL|variable|POWERING_OFF
 name|'POWERING_OFF'
 op|'='
 string|"'powering-off'"
 newline|'\n'
+nl|'\n'
+comment|'# possible task states during restore()'
+nl|'\n'
 DECL|variable|POWERING_ON
 name|'POWERING_ON'
 op|'='
 string|"'powering-on'"
 newline|'\n'
 nl|'\n'
+comment|'# possible task states during rescue()'
+nl|'\n'
 DECL|variable|RESCUING
 name|'RESCUING'
 op|'='
 string|"'rescuing'"
 newline|'\n'
+nl|'\n'
+comment|'# possible task states during unrescue()'
+nl|'\n'
 DECL|variable|UNRESCUING
 name|'UNRESCUING'
 op|'='
 string|"'unrescuing'"
 newline|'\n'
 nl|'\n'
+comment|'# possible task states during rebuild()'
+nl|'\n'
+DECL|variable|REBUILDING
+name|'REBUILDING'
+op|'='
+string|"'rebuilding'"
+newline|'\n'
+DECL|variable|REBUILD_BLOCK_DEVICE_MAPPING
+name|'REBUILD_BLOCK_DEVICE_MAPPING'
+op|'='
+string|'"rebuild_block_device_mapping"'
+newline|'\n'
+DECL|variable|REBUILD_SPAWNING
+name|'REBUILD_SPAWNING'
+op|'='
+string|"'rebuild_spawning'"
+newline|'\n'
+nl|'\n'
+comment|'# possible task states during live_migrate()'
+nl|'\n'
+DECL|variable|MIGRATING
+name|'MIGRATING'
+op|'='
+string|'"migrating"'
+newline|'\n'
+nl|'\n'
+comment|'# possible task states during delete()'
+nl|'\n'
 DECL|variable|DELETING
 name|'DELETING'
 op|'='
 string|"'deleting'"
-newline|'\n'
-DECL|variable|STOPPING
-name|'STOPPING'
-op|'='
-string|"'stopping'"
-newline|'\n'
-DECL|variable|STARTING
-name|'STARTING'
-op|'='
-string|"'starting'"
 newline|'\n'
 endmarker|''
 end_unit
