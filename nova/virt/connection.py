@@ -123,7 +123,7 @@ op|','
 nl|'\n'
 string|"'libvirt'"
 op|':'
-string|"'nova.virt.libvirt.connection.LibvirtDriver'"
+string|"'nova.virt.libvirt.LibvirtDriver'"
 op|','
 nl|'\n'
 string|"'vmwareapi'"
