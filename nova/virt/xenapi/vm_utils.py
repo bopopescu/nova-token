@@ -1749,7 +1749,7 @@ name|'name_label'
 op|'='
 name|'info'
 op|'['
-string|"'display_name'"
+string|"'name'"
 op|']'
 newline|'\n'
 name|'otherconf'
