@@ -2377,6 +2377,8 @@ string|"'size'"
 op|','
 string|"'disk_format'"
 op|','
+string|"'owner'"
+op|','
 nl|'\n'
 string|"'container_format'"
 op|','
