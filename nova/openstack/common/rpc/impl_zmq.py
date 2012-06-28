@@ -188,7 +188,7 @@ nl|'\n'
 DECL|variable|default
 name|'default'
 op|'='
-string|"'openstack.common.rpc.matchmaker.MatchMakerLocalhost'"
+string|"'nova.openstack.common.rpc.matchmaker.MatchMakerLocalhost'"
 op|','
 nl|'\n'
 DECL|variable|help
