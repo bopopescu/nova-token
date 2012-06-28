@@ -271,7 +271,7 @@ op|'{'
 nl|'\n'
 string|"'default'"
 op|':'
-string|"'STOPPED'"
+string|"'SHUTOFF'"
 op|','
 nl|'\n'
 op|'}'
