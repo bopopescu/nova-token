@@ -439,6 +439,9 @@ nl|'\n'
 string|"'bin/nova-network'"
 op|','
 nl|'\n'
+string|"'bin/nova-novncproxy'"
+op|','
+nl|'\n'
 string|"'bin/nova-objectstore'"
 op|','
 nl|'\n'
