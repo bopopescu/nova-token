@@ -197,15 +197,6 @@ name|'conf'
 op|'.'
 name|'set_default'
 op|'('
-string|"'image_service'"
-op|','
-string|"'nova.image.fake.FakeImageService'"
-op|')'
-newline|'\n'
-name|'conf'
-op|'.'
-name|'set_default'
-op|'('
 string|"'iscsi_num_targets'"
 op|','
 number|'8'
