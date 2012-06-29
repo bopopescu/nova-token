@@ -10122,7 +10122,7 @@ op|'['
 string|"'status'"
 op|']'
 op|','
-string|"'STOPPED'"
+string|"'SHUTOFF'"
 op|')'
 newline|'\n'
 nl|'\n'
