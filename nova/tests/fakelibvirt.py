@@ -192,6 +192,12 @@ op|'='
 number|'6'
 newline|'\n'
 nl|'\n'
+DECL|variable|VIR_DOMAIN_XML_SECURE
+name|'VIR_DOMAIN_XML_SECURE'
+op|'='
+number|'1'
+newline|'\n'
+nl|'\n'
 DECL|variable|VIR_CPU_COMPARE_ERROR
 name|'VIR_CPU_COMPARE_ERROR'
 op|'='
