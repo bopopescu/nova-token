@@ -1778,26 +1778,6 @@ op|','
 nl|'\n'
 name|'cfg'
 op|'.'
-name|'StrOpt'
-op|'('
-string|"'notification_driver'"
-op|','
-nl|'\n'
-DECL|variable|default
-name|'default'
-op|'='
-string|"'nova.notifier.no_op_notifier'"
-op|','
-nl|'\n'
-DECL|variable|help
-name|'help'
-op|'='
-string|"'Default driver for sending notifications'"
-op|')'
-op|','
-nl|'\n'
-name|'cfg'
-op|'.'
 name|'ListOpt'
 op|'('
 string|"'memcached_servers'"
