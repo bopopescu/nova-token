@@ -169,7 +169,9 @@ string|"'ZeroMQ bind address. Should be a wildcard (*), '"
 nl|'\n'
 string|"'an ethernet interface, or IP. '"
 nl|'\n'
-string|'\'The "host" option should point or resolve to this address.\''
+string|'\'The "host" option should point or resolve to this \''
+nl|'\n'
+string|"'address.'"
 op|')'
 op|','
 nl|'\n'
@@ -2097,7 +2099,6 @@ name|'out_addr'
 op|','
 name|'zmq_type_out'
 op|','
-nl|'\n'
 name|'bind'
 op|'='
 name|'out_bind'
