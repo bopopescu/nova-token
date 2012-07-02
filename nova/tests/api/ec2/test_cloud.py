@@ -8416,8 +8416,6 @@ op|']'
 op|')'
 newline|'\n'
 nl|'\n'
-comment|"# NOTE(jdg) Modified expected volume_id's to string"
-nl|'\n'
 DECL|variable|_expected_instance_bdm1
 dedent|''
 name|'_expected_instance_bdm1'
