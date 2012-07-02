@@ -3256,7 +3256,7 @@ name|'in'
 op|'('
 string|"'delete_on_termination'"
 op|','
-string|"'volume_id'"
+string|"'virtual_name'"
 op|','
 nl|'\n'
 string|"'snapshot_id'"
@@ -3264,9 +3264,6 @@ op|','
 string|"'volume_id'"
 op|','
 string|"'volume_size'"
-op|','
-nl|'\n'
-string|"'virtual_name'"
 op|')'
 op|':'
 newline|'\n'
