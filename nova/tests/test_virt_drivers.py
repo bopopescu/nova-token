@@ -653,6 +653,10 @@ newline|'\n'
 nl|'\n'
 comment|'# if your driver supports being tested in a fake way, it can go here'
 nl|'\n'
+comment|'#'
+nl|'\n'
+comment|'# both long form and short form drivers are supported'
+nl|'\n'
 DECL|variable|new_drivers
 name|'new_drivers'
 op|'='
@@ -664,6 +668,16 @@ string|"'FakeDriver'"
 op|','
 nl|'\n'
 string|"'nova.virt.libvirt.LibvirtDriver'"
+op|':'
+string|"'LibvirtDriver'"
+op|','
+nl|'\n'
+string|"'fake.FakeDriver'"
+op|':'
+string|"'FakeDriver'"
+op|','
+nl|'\n'
+string|"'libvirt.LibvirtDriver'"
 op|':'
 string|"'LibvirtDriver'"
 nl|'\n'
