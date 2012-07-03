@@ -20616,7 +20616,7 @@ name|'options'
 op|'('
 name|'joinedload_all'
 op|'('
-string|"'grantee_group.instances'"
+string|"'grantee_group.instances.instance_type'"
 op|')'
 op|')'
 op|'.'
