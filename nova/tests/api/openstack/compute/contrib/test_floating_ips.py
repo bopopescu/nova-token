@@ -165,7 +165,7 @@ string|"'id'"
 op|':'
 name|'id'
 op|','
-string|"'instance_id'"
+string|"'instance_uuid'"
 op|':'
 number|'1'
 op|'}'
@@ -1418,7 +1418,7 @@ string|"'address'"
 op|':'
 string|"'10.0.0.1'"
 op|','
-string|"'instance_id'"
+string|"'instance_uuid'"
 op|':'
 number|'1'
 op|'}'

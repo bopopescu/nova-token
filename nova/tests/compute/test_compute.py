@@ -12956,9 +12956,12 @@ op|':'
 string|"'1.1.1.1'"
 op|','
 nl|'\n'
-string|"'instance_id'"
+string|"'instance_uuid'"
 op|':'
-name|'inst_id'
+name|'inst_ref'
+op|'['
+string|"'uuid'"
+op|']'
 op|'}'
 op|')'
 newline|'\n'
