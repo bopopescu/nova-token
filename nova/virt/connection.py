@@ -132,7 +132,7 @@ op|','
 nl|'\n'
 string|"'vmwareapi'"
 op|':'
-string|"'vmwareapi_conn.VMWareESXDriver'"
+string|"'vmwareapi.VMWareESXDriver'"
 op|','
 nl|'\n'
 string|"'xenapi'"
