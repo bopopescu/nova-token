@@ -137,7 +137,7 @@ op|','
 nl|'\n'
 string|"'xenapi'"
 op|':'
-string|"'xenapi.connection.XenAPIDriver'"
+string|"'xenapi.XenAPIDriver'"
 nl|'\n'
 op|'}'
 newline|'\n'
