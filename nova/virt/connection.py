@@ -117,7 +117,7 @@ op|'{'
 nl|'\n'
 string|"'baremetal'"
 op|':'
-string|"'baremetal.proxy.ProxyConnection'"
+string|"'baremetal.BareMetalDriver'"
 op|','
 nl|'\n'
 string|"'fake'"
