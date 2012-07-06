@@ -290,9 +290,9 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'Virtualization api connection type : libvirt, xenapi, '"
+string|"'Deprecated (use compute_driver instead): Virtualization '"
 nl|'\n'
-string|"'or fake'"
+string|"'api connection type : libvirt, xenapi, or fake'"
 op|')'
 op|','
 nl|'\n'
