@@ -2460,11 +2460,9 @@ name|'stubs'
 op|'.'
 name|'Set'
 op|'('
-name|'vmops'
-op|'.'
-name|'VMOps'
+name|'vm_utils'
 op|','
-string|"'_move_disks'"
+string|"'move_disks'"
 op|','
 name|'fake_move_disks'
 op|')'
