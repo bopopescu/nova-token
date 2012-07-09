@@ -6162,7 +6162,7 @@ name|'audit'
 op|'('
 name|'_'
 op|'('
-string|"'instance %s: snapshotting'"
+string|"'instance snapshotting'"
 op|')'
 op|','
 name|'context'
