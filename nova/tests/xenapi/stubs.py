@@ -2481,7 +2481,7 @@ name|'Set'
 op|'('
 name|'vm_utils'
 op|','
-string|"'scan_sr'"
+string|"'_scan_sr'"
 op|','
 name|'fake_sr'
 op|')'
