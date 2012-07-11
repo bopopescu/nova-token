@@ -193,9 +193,6 @@ nl|'\n'
 string|"'bin/nova-dhcpbridge'"
 op|','
 nl|'\n'
-string|"'bin/nova-instance-usage-audit'"
-op|','
-nl|'\n'
 string|"'bin/nova-manage'"
 op|','
 nl|'\n'
