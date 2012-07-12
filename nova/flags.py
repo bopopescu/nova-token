@@ -2377,9 +2377,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'The strategy to use for auth. Supports noauth, keystone, '"
-nl|'\n'
-string|"'and deprecated.'"
+string|"'The strategy to use for auth: noauth or keystone.'"
 op|')'
 op|','
 nl|'\n'
