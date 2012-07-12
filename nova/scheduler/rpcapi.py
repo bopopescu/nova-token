@@ -81,8 +81,8 @@ indent|'    '
 string|"'''Client side of the scheduler rpc API.\n\n    API version history:\n\n        1.0 - Initial version.\n    '''"
 newline|'\n'
 nl|'\n'
-DECL|variable|RPC_API_VERSION
-name|'RPC_API_VERSION'
+DECL|variable|BASE_RPC_API_VERSION
+name|'BASE_RPC_API_VERSION'
 op|'='
 string|"'1.0'"
 newline|'\n'
@@ -116,7 +116,7 @@ name|'default_version'
 op|'='
 name|'self'
 op|'.'
-name|'RPC_API_VERSION'
+name|'BASE_RPC_API_VERSION'
 op|')'
 newline|'\n'
 nl|'\n'
