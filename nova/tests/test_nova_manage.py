@@ -151,7 +151,7 @@ name|'imp'
 op|'.'
 name|'load_source'
 op|'('
-string|"'nova_manage.py'"
+string|"'nova_manage'"
 op|','
 name|'NOVA_MANAGE_PATH'
 op|')'
