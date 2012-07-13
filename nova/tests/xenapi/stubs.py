@@ -2261,16 +2261,11 @@ op|':'
 newline|'\n'
 indent|'        '
 name|'yield'
-name|'dict'
-op|'('
-name|'image'
-op|'='
-string|"'foo'"
-op|','
-name|'snap'
-op|'='
+op|'['
 string|"'bar'"
-op|')'
+op|','
+string|"'foo'"
+op|']'
 newline|'\n'
 nl|'\n'
 DECL|function|fake_move_disks
