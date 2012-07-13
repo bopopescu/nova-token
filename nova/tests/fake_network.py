@@ -1024,6 +1024,13 @@ op|'%'
 name|'network_id'
 op|','
 nl|'\n'
+string|"'dns3'"
+op|':'
+string|"'192.168.%d.3'"
+op|'%'
+name|'network_id'
+op|','
+nl|'\n'
 string|"'vlan'"
 op|':'
 name|'None'
