@@ -206,6 +206,15 @@ name|'conf'
 op|'.'
 name|'set_default'
 op|'('
+string|"'vlan_interface'"
+op|','
+string|"'eth0'"
+op|')'
+newline|'\n'
+name|'conf'
+op|'.'
+name|'set_default'
+op|'('
 string|"'rpc_backend'"
 op|','
 string|"'nova.openstack.common.rpc.impl_fake'"
