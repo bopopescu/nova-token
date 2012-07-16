@@ -594,6 +594,17 @@ op|'('
 string|'"An unknown exception occurred."'
 op|')'
 newline|'\n'
+DECL|variable|code
+name|'code'
+op|'='
+number|'500'
+newline|'\n'
+DECL|variable|headers
+name|'headers'
+op|'='
+op|'{'
+op|'}'
+newline|'\n'
 DECL|variable|safe
 name|'safe'
 op|'='
@@ -4893,6 +4904,20 @@ string|'"Quota exceeded"'
 op|')'
 op|'+'
 string|'": code=%(code)s"'
+newline|'\n'
+DECL|variable|code
+name|'code'
+op|'='
+number|'413'
+newline|'\n'
+DECL|variable|headers
+name|'headers'
+op|'='
+op|'{'
+string|"'Retry-After'"
+op|':'
+number|'0'
+op|'}'
 newline|'\n'
 DECL|variable|safe
 name|'safe'
