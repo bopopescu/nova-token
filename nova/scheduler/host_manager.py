@@ -183,6 +183,9 @@ string|"'RamFilter'"
 op|','
 nl|'\n'
 string|"'ComputeFilter'"
+op|','
+nl|'\n'
+string|"'ComputeCapabilitiesFilter'"
 nl|'\n'
 op|']'
 op|','
