@@ -513,6 +513,11 @@ op|':'
 name|'id'
 op|','
 nl|'\n'
+string|"'name'"
+op|':'
+string|"'fake_name'"
+op|','
+nl|'\n'
 string|"'container_format'"
 op|':'
 string|"'ami'"
@@ -3677,6 +3682,11 @@ op|':'
 string|"'cedef40a-ed67-4d10-800e-17455edce175'"
 op|','
 nl|'\n'
+string|"'name'"
+op|':'
+string|"'fake_name'"
+op|','
+nl|'\n'
 string|"'properties'"
 op|':'
 op|'{'
@@ -3747,6 +3757,11 @@ nl|'\n'
 string|"'id'"
 op|':'
 string|"'76fa36fc-c930-4bf3-8c8a-ea2a2420deb6'"
+op|','
+nl|'\n'
+string|"'name'"
+op|':'
+string|"'fake_name'"
 op|','
 nl|'\n'
 string|"'properties'"
