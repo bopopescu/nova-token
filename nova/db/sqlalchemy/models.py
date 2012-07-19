@@ -2856,47 +2856,6 @@ op|'='
 name|'False'
 op|')'
 newline|'\n'
-comment|'# NOTE(dprince): Force innerjoin below for lockmode update on PostgreSQL'
-nl|'\n'
-DECL|variable|usage
-name|'usage'
-op|'='
-name|'relationship'
-op|'('
-name|'QuotaUsage'
-op|','
-nl|'\n'
-DECL|variable|backref
-name|'backref'
-op|'='
-name|'backref'
-op|'('
-string|"'reservations'"
-op|')'
-op|','
-nl|'\n'
-DECL|variable|foreign_keys
-name|'foreign_keys'
-op|'='
-name|'usage_id'
-op|','
-nl|'\n'
-DECL|variable|innerjoin
-name|'innerjoin'
-op|'='
-name|'True'
-op|','
-nl|'\n'
-DECL|variable|primaryjoin
-name|'primaryjoin'
-op|'='
-string|"'and_('"
-nl|'\n'
-string|"'Reservation.usage_id == QuotaUsage.id,'"
-nl|'\n'
-string|"'Reservation.deleted == False)'"
-op|')'
-newline|'\n'
 nl|'\n'
 DECL|variable|project_id
 name|'project_id'
