@@ -3231,6 +3231,11 @@ op|'('
 string|'"Zero floating ips available."'
 op|')'
 newline|'\n'
+DECL|variable|safe
+name|'safe'
+op|'='
+name|'True'
+newline|'\n'
 nl|'\n'
 nl|'\n'
 DECL|class|FloatingIpAssociated
