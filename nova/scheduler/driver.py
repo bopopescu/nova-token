@@ -189,6 +189,26 @@ string|"'The scheduler host manager class to use'"
 op|')'
 op|','
 nl|'\n'
+name|'cfg'
+op|'.'
+name|'IntOpt'
+op|'('
+string|"'scheduler_max_attempts'"
+op|','
+nl|'\n'
+DECL|variable|default
+name|'default'
+op|'='
+number|'3'
+op|','
+nl|'\n'
+DECL|variable|help
+name|'help'
+op|'='
+string|"'Maximum number of attempts to schedule an instance'"
+op|')'
+op|','
+nl|'\n'
 op|']'
 newline|'\n'
 nl|'\n'
