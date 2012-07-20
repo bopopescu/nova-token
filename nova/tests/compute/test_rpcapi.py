@@ -243,13 +243,15 @@ name|'methods_with_instance'
 op|'='
 op|'['
 nl|'\n'
+string|"'get_console_output'"
+op|','
 string|"'pause_instance'"
 op|','
 string|"'reboot_instance'"
 op|','
+nl|'\n'
 string|"'suspend_instance'"
 op|','
-nl|'\n'
 string|"'unpause_instance'"
 nl|'\n'
 op|']'
@@ -1132,6 +1134,10 @@ op|','
 name|'tail_length'
 op|'='
 string|"'tl'"
+op|','
+name|'version'
+op|'='
+string|"'1.7'"
 op|')'
 newline|'\n'
 nl|'\n'
