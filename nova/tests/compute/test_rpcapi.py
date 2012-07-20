@@ -247,6 +247,9 @@ string|"'pause_instance'"
 op|','
 string|"'reboot_instance'"
 op|','
+string|"'suspend_instance'"
+op|','
+nl|'\n'
 string|"'unpause_instance'"
 nl|'\n'
 op|']'
@@ -2255,6 +2258,10 @@ op|'='
 name|'self'
 op|'.'
 name|'fake_instance'
+op|','
+name|'version'
+op|'='
+string|"'1.6'"
 op|')'
 newline|'\n'
 nl|'\n'
