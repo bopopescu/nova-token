@@ -2381,6 +2381,30 @@ string|"'The strategy to use for auth: noauth or keystone.'"
 op|')'
 op|','
 nl|'\n'
+name|'cfg'
+op|'.'
+name|'ListOpt'
+op|'('
+string|"'non_inheritable_image_properties'"
+op|','
+nl|'\n'
+DECL|variable|default
+name|'default'
+op|'='
+op|'['
+string|"'cache_in_nova'"
+op|']'
+op|','
+nl|'\n'
+DECL|variable|help
+name|'help'
+op|'='
+string|"'These are image properties which a snapshot should not'"
+nl|'\n'
+string|"' inherit from an instance'"
+op|')'
+op|','
+nl|'\n'
 op|']'
 newline|'\n'
 nl|'\n'
