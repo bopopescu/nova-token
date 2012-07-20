@@ -444,7 +444,7 @@ name|'LOG'
 op|'.'
 name|'error'
 op|'('
-string|"'Crap, unimplemented API call in Fake:%s'"
+string|"'Unimplemented API call in Fake:%s'"
 op|'%'
 name|'method'
 op|')'
