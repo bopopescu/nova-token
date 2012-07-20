@@ -10447,6 +10447,10 @@ name|'root_device_type'
 op|'='
 string|"'cdrom'"
 newline|'\n'
+name|'root_device'
+op|'='
+string|"'hda'"
+newline|'\n'
 dedent|''
 name|'else'
 op|':'
