@@ -158,7 +158,7 @@ name|'help'
 op|'='
 string|"'URL for connection to VMWare ESX host.Required if '"
 nl|'\n'
-string|"'connection_type is vmwareapi.'"
+string|"'compute_driver is vmwareapi.VMWareESXDriver.'"
 op|')'
 op|','
 nl|'\n'
@@ -180,7 +180,9 @@ name|'help'
 op|'='
 string|"'Username for connection to VMWare ESX host. '"
 nl|'\n'
-string|"'Used only if connection_type is vmwareapi.'"
+string|"'Used only if compute_driver is '"
+nl|'\n'
+string|"'vmwareapi.VMWareESXDriver.'"
 op|')'
 op|','
 nl|'\n'
@@ -202,7 +204,9 @@ name|'help'
 op|'='
 string|"'Password for connection to VMWare ESX host. '"
 nl|'\n'
-string|"'Used only if connection_type is vmwareapi.'"
+string|"'Used only if compute_driver is '"
+nl|'\n'
+string|"'vmwareapi.VMWareESXDriver.'"
 op|')'
 op|','
 nl|'\n'
@@ -224,7 +228,9 @@ name|'help'
 op|'='
 string|"'The interval used for polling of remote tasks. '"
 nl|'\n'
-string|"'Used only if connection_type is vmwareapi'"
+string|"'Used only if compute_driver is '"
+nl|'\n'
+string|"'vmwareapi.VMWareESXDriver.'"
 op|')'
 op|','
 nl|'\n'
@@ -248,7 +254,9 @@ string|"'The number of times we retry on failures, e.g., '"
 nl|'\n'
 string|"'socket error, etc. '"
 nl|'\n'
-string|"'Used only if connection_type is vmwareapi'"
+string|"'Used only if compute_driver is '"
+nl|'\n'
+string|"'vmwareapi.VMWareESXDriver.'"
 op|')'
 op|','
 nl|'\n'
@@ -441,7 +449,7 @@ string|'"vmwareapi_host_username "'
 nl|'\n'
 string|'"and vmwareapi_host_password to use"'
 nl|'\n'
-string|'"connection_type=vmwareapi"'
+string|'"compute_driver=vmwareapi.VMWareESXDriver"'
 op|')'
 op|')'
 newline|'\n'
