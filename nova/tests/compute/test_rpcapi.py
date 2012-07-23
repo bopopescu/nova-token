@@ -2131,7 +2131,7 @@ name|'_test_compute_api'
 op|'('
 string|"'set_admin_password'"
 op|','
-string|"'cast'"
+string|"'call'"
 op|','
 nl|'\n'
 name|'instance'
