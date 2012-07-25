@@ -250,6 +250,9 @@ op|','
 nl|'\n'
 string|"'check_can_live_migrate_destination'"
 op|','
+nl|'\n'
+string|"'check_can_live_migrate_source'"
+op|','
 string|"'get_console_output'"
 op|','
 nl|'\n'
@@ -925,7 +928,7 @@ op|','
 nl|'\n'
 name|'version'
 op|'='
-string|"'1.2'"
+string|"'1.11'"
 op|','
 name|'instance'
 op|'='
