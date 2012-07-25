@@ -3570,7 +3570,7 @@ name|'sentinel_re'
 op|'='
 name|'hostname'
 op|'+'
-string|"r'\\..*-(\\d+$)'"
+string|"r'-.*\\.(\\d+$)'"
 newline|'\n'
 name|'lockfile_re'
 op|'='

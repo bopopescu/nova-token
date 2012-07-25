@@ -5135,7 +5135,7 @@ op|'.'
 name|'lock_path'
 op|','
 nl|'\n'
-string|"'%s.%s-%d'"
+string|"'%s-%s.%d'"
 op|'%'
 op|'('
 name|'hostname'
