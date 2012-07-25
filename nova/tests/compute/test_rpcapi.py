@@ -256,6 +256,8 @@ op|','
 string|"'confirm_resize'"
 op|','
 nl|'\n'
+string|"'detach_volume'"
+op|','
 string|"'get_console_output'"
 op|','
 nl|'\n'
@@ -1058,6 +1060,10 @@ op|','
 name|'volume_id'
 op|'='
 string|"'id'"
+op|','
+name|'version'
+op|'='
+string|"'1.13'"
 op|')'
 newline|'\n'
 nl|'\n'
