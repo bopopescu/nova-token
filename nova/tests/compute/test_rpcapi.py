@@ -243,13 +243,15 @@ name|'methods_with_instance'
 op|'='
 op|'['
 nl|'\n'
+string|"'add_fixed_ip_to_instance'"
+op|','
 string|"'get_console_output'"
 op|','
 string|"'pause_instance'"
 op|','
+nl|'\n'
 string|"'reboot_instance'"
 op|','
-nl|'\n'
 string|"'suspend_instance'"
 op|','
 string|"'unpause_instance'"
@@ -804,6 +806,10 @@ op|','
 name|'network_id'
 op|'='
 string|"'id'"
+op|','
+name|'version'
+op|'='
+string|"'1.8'"
 op|')'
 newline|'\n'
 nl|'\n'
