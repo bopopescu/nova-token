@@ -186,7 +186,7 @@ name|'help'
 op|'='
 string|"'URL for connection to XenServer/Xen Cloud Platform. '"
 nl|'\n'
-string|"'Required if connection_type=xenapi.'"
+string|"'Required if compute_driver=xenapi.XenAPIDriver'"
 op|')'
 op|','
 nl|'\n'
@@ -208,7 +208,7 @@ name|'help'
 op|'='
 string|"'Username for connection to XenServer/Xen Cloud Platform. '"
 nl|'\n'
-string|"'Used only if connection_type=xenapi.'"
+string|"'Used only if compute_driver=xenapi.XenAPIDriver'"
 op|')'
 op|','
 nl|'\n'
@@ -230,7 +230,7 @@ name|'help'
 op|'='
 string|"'Password for connection to XenServer/Xen Cloud Platform. '"
 nl|'\n'
-string|"'Used only if connection_type=xenapi.'"
+string|"'Used only if compute_driver=xenapi.XenAPIDriver'"
 op|')'
 op|','
 nl|'\n'
@@ -252,7 +252,7 @@ name|'help'
 op|'='
 string|"'Maximum number of concurrent XenAPI connections. '"
 nl|'\n'
-string|"'Used only if connection_type=xenapi.'"
+string|"'Used only if compute_driver=xenapi.XenAPIDriver'"
 op|')'
 op|','
 nl|'\n'
@@ -274,7 +274,7 @@ name|'help'
 op|'='
 string|"'The interval used for polling of coalescing vhds. '"
 nl|'\n'
-string|"'Used only if connection_type=xenapi.'"
+string|"'Used only if compute_driver=xenapi.XenAPIDriver'"
 op|')'
 op|','
 nl|'\n'
@@ -318,7 +318,7 @@ name|'help'
 op|'='
 string|"'Max number of times to poll for VHD to coalesce. '"
 nl|'\n'
-string|"'Used only if connection_type=xenapi.'"
+string|"'Used only if compute_driver=xenapi.XenAPIDriver'"
 op|')'
 op|','
 nl|'\n'
@@ -344,7 +344,9 @@ string|"'should be located. If the agent is present, network '"
 nl|'\n'
 string|"'configuration is not injected into the image. '"
 nl|'\n'
-string|"'Used if connection_type=xenapi and flat_injected=True'"
+string|"'Used if compute_driver=xenapi.XenAPIDriver and '"
+nl|'\n'
+string|"' flat_injected=True'"
 op|')'
 op|','
 nl|'\n'
@@ -593,7 +595,7 @@ string|"'xenapi_connection_username (optionally), and '"
 nl|'\n'
 string|"'xenapi_connection_password to use '"
 nl|'\n'
-string|"'connection_type=xenapi'"
+string|"'compute_driver=xenapi.XenAPIDriver'"
 op|')'
 op|')'
 newline|'\n'
