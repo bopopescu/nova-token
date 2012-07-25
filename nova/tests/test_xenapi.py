@@ -5850,6 +5850,11 @@ op|':'
 string|"'linux'"
 op|','
 nl|'\n'
+string|"'vm_mode'"
+op|':'
+string|"'hvm'"
+op|','
+nl|'\n'
 string|"'architecture'"
 op|':'
 string|"'x86-64'"
