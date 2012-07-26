@@ -260,6 +260,9 @@ string|"'detach_volume'"
 op|','
 string|"'finish_resize'"
 op|','
+string|"'finish_revert_resize'"
+op|','
+nl|'\n'
 string|"'get_console_output'"
 op|','
 nl|'\n'
@@ -1150,6 +1153,11 @@ op|','
 name|'host'
 op|'='
 string|"'host'"
+op|','
+nl|'\n'
+name|'version'
+op|'='
+string|"'1.15'"
 op|')'
 newline|'\n'
 nl|'\n'
