@@ -274,9 +274,9 @@ name|'HTTPBadRequest'
 op|'('
 name|'_'
 op|'('
-string|"'os-getConsoleOutput malformed or '"
+string|"'os-getConsoleOutput malformed '"
 nl|'\n'
-string|"'missing from request body'"
+string|"'or missing from request body'"
 op|')'
 op|')'
 newline|'\n'
@@ -397,6 +397,7 @@ op|':'
 name|'output'
 op|'}'
 newline|'\n'
+nl|'\n'
 nl|'\n'
 DECL|class|Console_output
 dedent|''
