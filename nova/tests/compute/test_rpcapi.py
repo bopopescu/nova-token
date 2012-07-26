@@ -267,6 +267,8 @@ string|"'get_console_output'"
 op|','
 string|"'get_diagnostics'"
 op|','
+string|"'get_vnc_console'"
+op|','
 nl|'\n'
 string|"'pause_instance'"
 op|','
@@ -1289,6 +1291,11 @@ op|','
 name|'console_type'
 op|'='
 string|"'type'"
+op|','
+nl|'\n'
+name|'version'
+op|'='
+string|"'1.17'"
 op|')'
 newline|'\n'
 nl|'\n'
