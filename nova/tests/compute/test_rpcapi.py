@@ -258,6 +258,8 @@ op|','
 nl|'\n'
 string|"'detach_volume'"
 op|','
+string|"'finish_resize'"
+op|','
 string|"'get_console_output'"
 op|','
 nl|'\n'
@@ -1108,6 +1110,11 @@ op|','
 name|'host'
 op|'='
 string|"'host'"
+op|','
+nl|'\n'
+name|'version'
+op|'='
+string|"'1.14'"
 op|')'
 newline|'\n'
 nl|'\n'
