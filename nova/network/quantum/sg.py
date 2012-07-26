@@ -98,7 +98,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'        '
-string|"'''Called when a rule is added to a security_group.\n\n        :param context: the security context.\n        :param group: the new group added. group is a dictionary that contains\n            the following: user_id, project_id, name, description).'''"
+string|"'''Called when a security group is created\n\n        :param context: the security context.\n        :param group: the new group added. group is a dictionary that contains\n            the following: user_id, project_id, name, description).'''"
 newline|'\n'
 name|'raise'
 name|'NotImplementedError'
@@ -121,7 +121,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'        '
-string|"'''Called when a rule is added to a security_group.\n\n        :param context: the security context.\n        :param security_group_id: the security group identifier.'''"
+string|"'''Called when a security group is deleted\n\n        :param context: the security context.\n        :param security_group_id: the security group identifier.'''"
 newline|'\n'
 name|'raise'
 name|'NotImplementedError'
