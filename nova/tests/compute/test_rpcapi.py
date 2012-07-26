@@ -253,6 +253,11 @@ op|','
 nl|'\n'
 string|"'check_can_live_migrate_source'"
 op|','
+string|"'confirm_resize'"
+op|','
+nl|'\n'
+string|"'detach_volume'"
+op|','
 string|"'get_console_output'"
 op|','
 nl|'\n'
@@ -979,6 +984,11 @@ op|','
 name|'host'
 op|'='
 string|"'host'"
+op|','
+nl|'\n'
+name|'version'
+op|'='
+string|"'1.12'"
 op|')'
 newline|'\n'
 nl|'\n'
@@ -1014,6 +1024,11 @@ op|','
 name|'host'
 op|'='
 string|"'host'"
+op|','
+nl|'\n'
+name|'version'
+op|'='
+string|"'1.12'"
 op|')'
 newline|'\n'
 nl|'\n'
@@ -1045,6 +1060,10 @@ op|','
 name|'volume_id'
 op|'='
 string|"'id'"
+op|','
+name|'version'
+op|'='
+string|"'1.13'"
 op|')'
 newline|'\n'
 nl|'\n'
