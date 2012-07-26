@@ -270,6 +270,9 @@ op|','
 string|"'get_vnc_console'"
 op|','
 nl|'\n'
+string|"'inject_file'"
+op|','
+nl|'\n'
 string|"'pause_instance'"
 op|','
 string|"'reboot_instance'"
@@ -1393,6 +1396,11 @@ op|','
 name|'file_contents'
 op|'='
 string|"'fc'"
+op|','
+nl|'\n'
+name|'version'
+op|'='
+string|"'1.18'"
 op|')'
 newline|'\n'
 nl|'\n'
