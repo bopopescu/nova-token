@@ -247,6 +247,9 @@ string|"'add_fixed_ip_to_instance'"
 op|','
 string|"'attach_volume'"
 op|','
+nl|'\n'
+string|"'check_can_live_migrate_destination'"
+op|','
 string|"'get_console_output'"
 op|','
 nl|'\n'
@@ -877,7 +880,7 @@ op|','
 nl|'\n'
 name|'version'
 op|'='
-string|"'1.2'"
+string|"'1.10'"
 op|','
 name|'instance'
 op|'='
@@ -885,15 +888,16 @@ name|'self'
 op|'.'
 name|'fake_instance'
 op|','
+nl|'\n'
 name|'destination'
 op|'='
 string|"'dest'"
 op|','
-nl|'\n'
 name|'block_migration'
 op|'='
 name|'True'
 op|','
+nl|'\n'
 name|'disk_over_commit'
 op|'='
 name|'True'
