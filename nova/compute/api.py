@@ -1957,6 +1957,14 @@ string|"'os_type'"
 op|')'
 op|','
 nl|'\n'
+string|"'architecture'"
+op|':'
+name|'prop'
+op|'('
+string|"'arch'"
+op|')'
+op|','
+nl|'\n'
 string|"'vm_mode'"
 op|':'
 name|'prop'
