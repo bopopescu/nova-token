@@ -265,6 +265,8 @@ op|','
 nl|'\n'
 string|"'get_console_output'"
 op|','
+string|"'get_diagnostics'"
+op|','
 nl|'\n'
 string|"'pause_instance'"
 op|','
@@ -1273,6 +1275,10 @@ op|'='
 name|'self'
 op|'.'
 name|'fake_instance'
+op|','
+name|'version'
+op|'='
+string|"'1.16'"
 op|')'
 newline|'\n'
 nl|'\n'
