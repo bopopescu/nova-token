@@ -348,9 +348,9 @@ op|':'
 number|'0'
 op|','
 nl|'\n'
-string|"'instance_id'"
+string|"'instance_uuid'"
 op|':'
-number|'0'
+string|"'00000000-0000-0000-0000-000000000010'"
 op|','
 nl|'\n'
 string|"'network_id'"
@@ -370,9 +370,9 @@ op|':'
 number|'1'
 op|','
 nl|'\n'
-string|"'instance_id'"
+string|"'instance_uuid'"
 op|':'
-number|'20'
+string|"'00000000-0000-0000-0000-000000000020'"
 op|','
 nl|'\n'
 string|"'network_id'"
@@ -392,9 +392,9 @@ op|':'
 number|'2'
 op|','
 nl|'\n'
-string|"'instance_id'"
+string|"'instance_uuid'"
 op|':'
-number|'30'
+string|"'00000000-0000-0000-0000-000000000030'"
 op|','
 nl|'\n'
 string|"'network_id'"
@@ -529,7 +529,7 @@ name|'self'
 op|','
 name|'context'
 op|','
-name|'instance_id'
+name|'instance_uuid'
 op|')'
 op|':'
 newline|'\n'
@@ -1310,7 +1310,7 @@ op|')'
 op|')'
 op|','
 nl|'\n'
-string|"'instance_id'"
+string|"'instance_uuid'"
 op|':'
 number|'1'
 op|','
@@ -1752,7 +1752,7 @@ op|':'
 name|'None'
 op|','
 nl|'\n'
-string|"'instance_id'"
+string|"'instance_uuid'"
 op|':'
 number|'0'
 op|'}'

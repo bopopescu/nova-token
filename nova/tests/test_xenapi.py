@@ -5035,7 +5035,7 @@ op|','
 nl|'\n'
 name|'instance_uuid'
 op|'='
-string|'"00000000-0000-0000-0000-000000000000"'
+string|"'00000000-0000-0000-0000-000000000002'"
 op|','
 nl|'\n'
 name|'host'
@@ -5869,6 +5869,13 @@ op|'{'
 nl|'\n'
 string|"'id'"
 op|':'
+name|'instance_id'
+op|','
+nl|'\n'
+string|"'uuid'"
+op|':'
+string|"'00000000-0000-0000-0000-00000000000%d'"
+op|'%'
 name|'instance_id'
 op|','
 nl|'\n'
