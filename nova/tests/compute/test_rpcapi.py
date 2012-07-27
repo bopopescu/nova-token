@@ -294,6 +294,8 @@ op|','
 string|"'remove_fixed_ip_from_instance'"
 op|','
 nl|'\n'
+string|"'remove_volume_connection'"
+op|','
 string|"'start_instance'"
 op|','
 string|"'stop_instance'"
@@ -502,9 +504,6 @@ name|'method'
 name|'in'
 op|'['
 string|"'rollback_live_migration_at_destination'"
-op|','
-nl|'\n'
-string|"'remove_volume_connection'"
 op|']'
 op|':'
 newline|'\n'
@@ -1903,6 +1902,11 @@ op|','
 name|'host'
 op|'='
 string|"'host'"
+op|','
+nl|'\n'
+name|'version'
+op|'='
+string|"'1.26'"
 op|')'
 newline|'\n'
 nl|'\n'
