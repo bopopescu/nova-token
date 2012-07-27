@@ -272,6 +272,8 @@ op|','
 nl|'\n'
 string|"'inject_file'"
 op|','
+string|"'inject_network_info'"
+op|','
 nl|'\n'
 string|"'pause_instance'"
 op|','
@@ -1428,6 +1430,10 @@ op|'='
 name|'self'
 op|'.'
 name|'fake_instance'
+op|','
+name|'version'
+op|'='
+string|"'1.19'"
 op|')'
 newline|'\n'
 nl|'\n'
