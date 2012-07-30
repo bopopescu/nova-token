@@ -289,13 +289,15 @@ op|','
 string|"'reboot_instance'"
 op|','
 nl|'\n'
+string|"'rebuild_instance'"
+op|','
 string|"'start_instance'"
 op|','
 string|"'stop_instance'"
 op|','
+nl|'\n'
 string|"'suspend_instance'"
 op|','
-nl|'\n'
 string|"'unpause_instance'"
 nl|'\n'
 op|']'
@@ -1694,6 +1696,10 @@ nl|'\n'
 name|'orig_image_ref'
 op|'='
 string|"'orig_ref'"
+op|','
+name|'version'
+op|'='
+string|"'1.24'"
 op|')'
 newline|'\n'
 nl|'\n'
