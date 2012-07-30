@@ -291,6 +291,9 @@ op|','
 nl|'\n'
 string|"'rebuild_instance'"
 op|','
+string|"'remove_fixed_ip_from_instance'"
+op|','
+nl|'\n'
 string|"'start_instance'"
 op|','
 string|"'stop_instance'"
@@ -1861,6 +1864,10 @@ op|','
 name|'address'
 op|'='
 string|"'addr'"
+op|','
+name|'version'
+op|'='
+string|"'1.25'"
 op|')'
 newline|'\n'
 nl|'\n'
