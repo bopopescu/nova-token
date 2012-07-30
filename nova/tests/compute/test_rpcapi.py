@@ -310,6 +310,8 @@ op|','
 nl|'\n'
 string|"'rollback_live_migration_at_destination'"
 op|','
+string|"'set_admin_password'"
+op|','
 nl|'\n'
 string|"'start_instance'"
 op|','
@@ -2139,6 +2141,10 @@ op|','
 name|'new_pass'
 op|'='
 string|"'pw'"
+op|','
+name|'version'
+op|'='
+string|"'1.33'"
 op|')'
 newline|'\n'
 nl|'\n'
