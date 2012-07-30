@@ -308,6 +308,9 @@ op|','
 string|"'revert_resize'"
 op|','
 nl|'\n'
+string|"'rollback_live_migration_at_destination'"
+op|','
+nl|'\n'
 string|"'start_instance'"
 op|','
 string|"'stop_instance'"
@@ -511,33 +514,6 @@ op|'['
 string|"'instance'"
 op|']'
 newline|'\n'
-name|'if'
-name|'method'
-name|'in'
-op|'['
-string|"'rollback_live_migration_at_destination'"
-op|']'
-op|':'
-newline|'\n'
-indent|'                '
-name|'expected_msg'
-op|'['
-string|"'args'"
-op|']'
-op|'['
-string|"'instance_id'"
-op|']'
-op|'='
-name|'instance'
-op|'['
-string|"'id'"
-op|']'
-newline|'\n'
-dedent|''
-name|'else'
-op|':'
-newline|'\n'
-indent|'                '
 name|'expected_msg'
 op|'['
 string|"'args'"
@@ -551,7 +527,6 @@ op|'['
 string|"'uuid'"
 op|']'
 newline|'\n'
-dedent|''
 dedent|''
 name|'expected_msg'
 op|'['
@@ -2128,6 +2103,11 @@ op|','
 name|'host'
 op|'='
 string|"'host'"
+op|','
+nl|'\n'
+name|'version'
+op|'='
+string|"'1.32'"
 op|')'
 newline|'\n'
 nl|'\n'
