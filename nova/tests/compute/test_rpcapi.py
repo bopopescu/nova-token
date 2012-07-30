@@ -303,11 +303,13 @@ op|','
 nl|'\n'
 string|"'resize_instance'"
 op|','
+string|"'resume_instance'"
+op|','
 string|"'start_instance'"
 op|','
+nl|'\n'
 string|"'stop_instance'"
 op|','
-nl|'\n'
 string|"'suspend_instance'"
 op|','
 string|"'unpause_instance'"
@@ -2048,6 +2050,10 @@ op|'='
 name|'self'
 op|'.'
 name|'fake_instance'
+op|','
+name|'version'
+op|'='
+string|"'1.30'"
 op|')'
 newline|'\n'
 nl|'\n'
