@@ -323,6 +323,8 @@ nl|'\n'
 string|"'suspend_instance'"
 op|','
 string|"'unpause_instance'"
+op|','
+string|"'unrescue_instance'"
 nl|'\n'
 op|']'
 newline|'\n'
@@ -2463,6 +2465,10 @@ op|'='
 name|'self'
 op|'.'
 name|'fake_instance'
+op|','
+name|'version'
+op|'='
+string|"'1.35'"
 op|')'
 newline|'\n'
 nl|'\n'
