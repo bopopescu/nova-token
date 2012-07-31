@@ -135,7 +135,7 @@ nl|'\n'
 DECL|variable|default
 name|'default'
 op|'='
-name|'False'
+name|'True'
 op|','
 nl|'\n'
 DECL|variable|help
