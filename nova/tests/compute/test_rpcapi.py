@@ -296,11 +296,13 @@ op|','
 nl|'\n'
 string|"'remove_volume_connection'"
 op|','
+string|"'rescue_instance'"
+op|','
 string|"'start_instance'"
 op|','
+nl|'\n'
 string|"'stop_instance'"
 op|','
-nl|'\n'
 string|"'suspend_instance'"
 op|','
 string|"'unpause_instance'"
@@ -1938,6 +1940,11 @@ op|','
 name|'rescue_password'
 op|'='
 string|"'pw'"
+op|','
+nl|'\n'
+name|'version'
+op|'='
+string|"'1.27'"
 op|')'
 newline|'\n'
 nl|'\n'
