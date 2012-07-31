@@ -266,7 +266,7 @@ name|'self'
 op|'.'
 name|'network_api'
 op|','
-string|"'get_instance_nw_info'"
+string|"'_get_instance_nw_info'"
 op|','
 nl|'\n'
 name|'fake_get_nw_info'
