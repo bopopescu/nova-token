@@ -614,7 +614,7 @@ name|'self'
 op|'.'
 name|'_execute'
 op|'('
-string|"'/usr/sbin/tgt-admin'"
+string|"'tgt-admin'"
 op|','
 string|"'--conf %s'"
 op|'%'
@@ -728,7 +728,7 @@ name|'self'
 op|'.'
 name|'_execute'
 op|'('
-string|"'/usr/bin/tgt-admin'"
+string|"'tgt-admin'"
 op|','
 string|"'--conf %s'"
 op|'%'
