@@ -616,6 +616,8 @@ name|'_execute'
 op|'('
 string|"'tgt-admin'"
 op|','
+string|"'--execute'"
+op|','
 string|"'--conf %s'"
 op|'%'
 name|'volume_path'
