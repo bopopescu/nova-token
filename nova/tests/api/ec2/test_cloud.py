@@ -1675,7 +1675,10 @@ op|','
 nl|'\n'
 name|'instance_uuid'
 op|'='
-string|"''"
+name|'inst'
+op|'['
+string|"'uuid'"
+op|']'
 op|','
 nl|'\n'
 name|'host'

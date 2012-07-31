@@ -525,7 +525,7 @@ op|':'
 number|'0'
 op|','
 nl|'\n'
-string|"'instance_id'"
+string|"'instance_uuid'"
 op|':'
 number|'0'
 op|'}'
@@ -552,7 +552,7 @@ op|':'
 number|'1'
 op|','
 nl|'\n'
-string|"'instance_id'"
+string|"'instance_uuid'"
 op|':'
 number|'0'
 op|'}'
@@ -579,7 +579,7 @@ op|':'
 number|'2'
 op|','
 nl|'\n'
-string|"'instance_id'"
+string|"'instance_uuid'"
 op|':'
 number|'0'
 op|'}'
@@ -3044,6 +3044,17 @@ name|'StubOutWithMock'
 op|'('
 name|'db'
 op|','
+string|"'instance_get'"
+op|')'
+newline|'\n'
+name|'self'
+op|'.'
+name|'mox'
+op|'.'
+name|'StubOutWithMock'
+op|'('
+name|'db'
+op|','
 string|"'fixed_ip_associate'"
 op|')'
 newline|'\n'
@@ -3071,6 +3082,33 @@ string|"'virtual_interface_get_by_instance_and_network'"
 op|')'
 newline|'\n'
 nl|'\n'
+name|'db'
+op|'.'
+name|'instance_get'
+op|'('
+name|'mox'
+op|'.'
+name|'IgnoreArg'
+op|'('
+op|')'
+op|','
+nl|'\n'
+name|'mox'
+op|'.'
+name|'IgnoreArg'
+op|'('
+op|')'
+op|')'
+op|'.'
+name|'AndReturn'
+op|'('
+op|'{'
+string|"'uuid'"
+op|':'
+string|"'42'"
+op|'}'
+op|')'
+newline|'\n'
 name|'db'
 op|'.'
 name|'fixed_ip_associate'
@@ -3300,7 +3338,7 @@ op|','
 nl|'\n'
 name|'instance'
 op|'['
-string|"'uuid'"
+string|"'id'"
 op|']'
 op|','
 nl|'\n'
@@ -9632,7 +9670,7 @@ op|'['
 number|'0'
 op|']'
 op|'['
-string|"'instance_id'"
+string|"'instance_uuid'"
 op|']'
 op|','
 name|'_vifs'
@@ -9640,7 +9678,7 @@ op|'['
 number|'1'
 op|']'
 op|'['
-string|"'instance_id'"
+string|"'instance_uuid'"
 op|']'
 op|')'
 newline|'\n'
@@ -9691,7 +9729,7 @@ op|'['
 number|'0'
 op|']'
 op|'['
-string|"'instance_id'"
+string|"'instance_uuid'"
 op|']'
 op|','
 name|'_vifs'
@@ -9699,7 +9737,7 @@ op|'['
 number|'2'
 op|']'
 op|'['
-string|"'instance_id'"
+string|"'instance_uuid'"
 op|']'
 op|')'
 newline|'\n'
@@ -9750,7 +9788,7 @@ op|'['
 number|'0'
 op|']'
 op|'['
-string|"'instance_id'"
+string|"'instance_uuid'"
 op|']'
 op|','
 name|'_vifs'
@@ -9758,7 +9796,7 @@ op|'['
 number|'0'
 op|']'
 op|'['
-string|"'instance_id'"
+string|"'instance_uuid'"
 op|']'
 op|')'
 newline|'\n'
@@ -9771,7 +9809,7 @@ op|'['
 number|'1'
 op|']'
 op|'['
-string|"'instance_id'"
+string|"'instance_uuid'"
 op|']'
 op|','
 name|'_vifs'
@@ -9779,7 +9817,7 @@ op|'['
 number|'1'
 op|']'
 op|'['
-string|"'instance_id'"
+string|"'instance_uuid'"
 op|']'
 op|')'
 newline|'\n'
@@ -9830,7 +9868,7 @@ op|'['
 number|'0'
 op|']'
 op|'['
-string|"'instance_id'"
+string|"'instance_uuid'"
 op|']'
 op|','
 name|'_vifs'
@@ -9838,7 +9876,7 @@ op|'['
 number|'1'
 op|']'
 op|'['
-string|"'instance_id'"
+string|"'instance_uuid'"
 op|']'
 op|')'
 newline|'\n'
@@ -9851,7 +9889,7 @@ op|'['
 number|'1'
 op|']'
 op|'['
-string|"'instance_id'"
+string|"'instance_uuid'"
 op|']'
 op|','
 name|'_vifs'
@@ -9859,7 +9897,7 @@ op|'['
 number|'2'
 op|']'
 op|'['
-string|"'instance_id'"
+string|"'instance_uuid'"
 op|']'
 op|')'
 newline|'\n'
@@ -10011,7 +10049,7 @@ op|'['
 number|'0'
 op|']'
 op|'['
-string|"'instance_id'"
+string|"'instance_uuid'"
 op|']'
 op|','
 name|'_vifs'
@@ -10019,7 +10057,7 @@ op|'['
 number|'1'
 op|']'
 op|'['
-string|"'instance_id'"
+string|"'instance_uuid'"
 op|']'
 op|')'
 newline|'\n'
@@ -10074,7 +10112,7 @@ op|'['
 number|'0'
 op|']'
 op|'['
-string|"'instance_id'"
+string|"'instance_uuid'"
 op|']'
 op|','
 name|'_vifs'
@@ -10082,7 +10120,7 @@ op|'['
 number|'2'
 op|']'
 op|'['
-string|"'instance_id'"
+string|"'instance_uuid'"
 op|']'
 op|')'
 newline|'\n'
@@ -10133,7 +10171,7 @@ op|'['
 number|'0'
 op|']'
 op|'['
-string|"'instance_id'"
+string|"'instance_uuid'"
 op|']'
 op|','
 name|'_vifs'
@@ -10141,7 +10179,7 @@ op|'['
 number|'0'
 op|']'
 op|'['
-string|"'instance_id'"
+string|"'instance_uuid'"
 op|']'
 op|')'
 newline|'\n'
@@ -10154,7 +10192,7 @@ op|'['
 number|'1'
 op|']'
 op|'['
-string|"'instance_id'"
+string|"'instance_uuid'"
 op|']'
 op|','
 name|'_vifs'
@@ -10162,7 +10200,7 @@ op|'['
 number|'1'
 op|']'
 op|'['
-string|"'instance_id'"
+string|"'instance_uuid'"
 op|']'
 op|')'
 newline|'\n'
@@ -10217,7 +10255,7 @@ op|'['
 number|'0'
 op|']'
 op|'['
-string|"'instance_id'"
+string|"'instance_uuid'"
 op|']'
 op|','
 name|'_vifs'
@@ -10225,7 +10263,7 @@ op|'['
 number|'1'
 op|']'
 op|'['
-string|"'instance_id'"
+string|"'instance_uuid'"
 op|']'
 op|')'
 newline|'\n'
@@ -10238,7 +10276,7 @@ op|'['
 number|'1'
 op|']'
 op|'['
-string|"'instance_id'"
+string|"'instance_uuid'"
 op|']'
 op|','
 name|'_vifs'
@@ -10246,7 +10284,7 @@ op|'['
 number|'2'
 op|']'
 op|'['
-string|"'instance_id'"
+string|"'instance_uuid'"
 op|']'
 op|')'
 newline|'\n'
@@ -10398,7 +10436,7 @@ op|'['
 number|'0'
 op|']'
 op|'['
-string|"'instance_id'"
+string|"'instance_uuid'"
 op|']'
 op|','
 name|'_vifs'
@@ -10406,7 +10444,7 @@ op|'['
 number|'1'
 op|']'
 op|'['
-string|"'instance_id'"
+string|"'instance_uuid'"
 op|']'
 op|')'
 newline|'\n'
@@ -10461,7 +10499,7 @@ op|'['
 number|'0'
 op|']'
 op|'['
-string|"'instance_id'"
+string|"'instance_uuid'"
 op|']'
 op|','
 name|'_vifs'
@@ -10469,7 +10507,7 @@ op|'['
 number|'2'
 op|']'
 op|'['
-string|"'instance_id'"
+string|"'instance_uuid'"
 op|']'
 op|')'
 newline|'\n'
@@ -11425,10 +11463,12 @@ op|'['
 string|"'id'"
 op|']'
 op|','
-nl|'\n'
 name|'instance_uuid'
 op|'='
-string|"''"
+name|'inst'
+op|'['
+string|"'uuid'"
+op|']'
 op|','
 nl|'\n'
 name|'host'
@@ -11438,12 +11478,10 @@ op|'['
 string|"'host'"
 op|']'
 op|','
-nl|'\n'
 name|'vpn'
 op|'='
 name|'None'
 op|','
-nl|'\n'
 name|'rxtx_factor'
 op|'='
 number|'3'

@@ -24671,6 +24671,7 @@ op|'.'
 name|'_create_fake_instance'
 op|'('
 op|'{'
+nl|'\n'
 string|"'display_name'"
 op|':'
 string|"'woot'"
@@ -24679,6 +24680,11 @@ nl|'\n'
 string|"'id'"
 op|':'
 number|'0'
+op|','
+nl|'\n'
+string|"'uuid'"
+op|':'
+string|"'00000000-0000-0000-0000-000000000010'"
 op|'}'
 op|')'
 newline|'\n'
@@ -24698,6 +24704,11 @@ nl|'\n'
 string|"'id'"
 op|':'
 number|'20'
+op|','
+nl|'\n'
+string|"'uuid'"
+op|':'
+string|"'00000000-0000-0000-0000-000000000020'"
 op|'}'
 op|')'
 newline|'\n'
@@ -24717,6 +24728,11 @@ nl|'\n'
 string|"'id'"
 op|':'
 number|'30'
+op|','
+nl|'\n'
+string|"'uuid'"
+op|':'
+string|"'00000000-0000-0000-0000-000000000030'"
 op|'}'
 op|')'
 newline|'\n'
