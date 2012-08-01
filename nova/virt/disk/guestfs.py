@@ -74,6 +74,11 @@ name|'mode'
 op|'='
 string|"'guestfs'"
 newline|'\n'
+DECL|variable|device_id_string
+name|'device_id_string'
+op|'='
+string|"'guest'"
+newline|'\n'
 nl|'\n'
 DECL|member|map_dev
 name|'def'
