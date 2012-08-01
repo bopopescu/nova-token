@@ -14870,7 +14870,7 @@ name|'open'
 op|'('
 name|'fake_pty'
 op|','
-string|"'r+'"
+string|"'r'"
 op|')'
 name|'as'
 name|'fp'

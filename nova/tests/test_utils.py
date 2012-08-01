@@ -233,7 +233,7 @@ name|'open'
 op|'('
 name|'tmpfilename2'
 op|','
-string|"'r+'"
+string|"'r'"
 op|')'
 newline|'\n'
 name|'runs'
