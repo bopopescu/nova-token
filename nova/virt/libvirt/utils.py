@@ -1370,7 +1370,7 @@ name|'open'
 op|'('
 name|'path'
 op|','
-string|"'r+'"
+string|"'r'"
 op|')'
 name|'as'
 name|'fp'
