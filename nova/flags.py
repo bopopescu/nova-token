@@ -1918,7 +1918,29 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'Command prefix to use for running commands as root'"
+string|"'Deprecated: command to use for running commands as root'"
+op|')'
+op|','
+nl|'\n'
+name|'cfg'
+op|'.'
+name|'StrOpt'
+op|'('
+string|"'rootwrap_config'"
+op|','
+nl|'\n'
+DECL|variable|default
+name|'default'
+op|'='
+name|'None'
+op|','
+nl|'\n'
+DECL|variable|help
+name|'help'
+op|'='
+string|"'Path to the rootwrap configuration file to use for '"
+nl|'\n'
+string|"'running commands as root'"
 op|')'
 op|','
 nl|'\n'
