@@ -353,6 +353,11 @@ nl|'\n'
 string|"'name'"
 op|':'
 string|"'fake'"
+op|','
+nl|'\n'
+string|"'locked'"
+op|':'
+name|'False'
 op|'}'
 newline|'\n'
 nl|'\n'
@@ -384,6 +389,11 @@ nl|'\n'
 string|"'name'"
 op|':'
 string|"'fake'"
+op|','
+nl|'\n'
+string|"'locked'"
+op|':'
+name|'False'
 op|'}'
 newline|'\n'
 nl|'\n'
