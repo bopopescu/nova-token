@@ -3063,7 +3063,6 @@ newline|'\n'
 indent|'    '
 string|'"""Security group support"""'
 newline|'\n'
-nl|'\n'
 DECL|variable|name
 name|'name'
 op|'='
@@ -3072,7 +3071,7 @@ newline|'\n'
 DECL|variable|alias
 name|'alias'
 op|'='
-string|'"security_groups"'
+string|'"os-security-groups"'
 newline|'\n'
 DECL|variable|namespace
 name|'namespace'

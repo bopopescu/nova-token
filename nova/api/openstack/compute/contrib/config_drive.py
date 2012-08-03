@@ -482,7 +482,7 @@ newline|'\n'
 DECL|variable|alias
 name|'alias'
 op|'='
-string|'"os-config_drive"'
+string|'"os-config-drive"'
 newline|'\n'
 DECL|variable|namespace
 name|'namespace'
