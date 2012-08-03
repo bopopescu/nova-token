@@ -683,7 +683,7 @@ DECL|member|get_dev_name
 name|'def'
 name|'get_dev_name'
 op|'('
-name|'_self'
+name|'self'
 op|','
 name|'iface_id'
 op|')'
