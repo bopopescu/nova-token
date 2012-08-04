@@ -3621,6 +3621,11 @@ op|'('
 string|"'os-volumes_boot'"
 op|','
 name|'controller'
+op|','
+nl|'\n'
+name|'inherits'
+op|'='
+string|"'servers'"
 op|')'
 newline|'\n'
 name|'resources'
