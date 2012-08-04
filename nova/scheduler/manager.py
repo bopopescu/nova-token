@@ -220,7 +220,7 @@ nl|'\n'
 DECL|variable|RPC_API_VERSION
 name|'RPC_API_VERSION'
 op|'='
-string|"'1.2'"
+string|"'1.3'"
 newline|'\n'
 nl|'\n'
 DECL|member|__init__
