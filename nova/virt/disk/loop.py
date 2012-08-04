@@ -65,6 +65,11 @@ name|'mode'
 op|'='
 string|"'loop'"
 newline|'\n'
+DECL|variable|device_id_string
+name|'device_id_string'
+op|'='
+name|'mode'
+newline|'\n'
 nl|'\n'
 DECL|member|get_dev
 name|'def'
