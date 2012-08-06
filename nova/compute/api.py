@@ -6135,11 +6135,6 @@ op|':'
 string|"'display_name'"
 op|','
 nl|'\n'
-string|"'instance_name'"
-op|':'
-string|"'name'"
-op|','
-nl|'\n'
 string|"'tenant_id'"
 op|':'
 string|"'project_id'"
