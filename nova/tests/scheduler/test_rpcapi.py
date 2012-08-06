@@ -377,10 +377,6 @@ op|'='
 string|"'call'"
 op|','
 nl|'\n'
-name|'topic'
-op|'='
-string|"'fake_topic'"
-op|','
 name|'request_spec'
 op|'='
 string|"'fake_request_spec'"
@@ -412,6 +408,10 @@ nl|'\n'
 name|'reservations'
 op|'='
 name|'None'
+op|','
+name|'version'
+op|'='
+string|"'1.2'"
 op|')'
 newline|'\n'
 nl|'\n'
@@ -436,10 +436,6 @@ op|'='
 string|"'cast'"
 op|','
 nl|'\n'
-name|'topic'
-op|'='
-string|"'fake_topic'"
-op|','
 name|'request_spec'
 op|'='
 string|"'fake_request_spec'"
@@ -471,6 +467,10 @@ nl|'\n'
 name|'reservations'
 op|'='
 name|'None'
+op|','
+name|'version'
+op|'='
+string|"'1.2'"
 op|')'
 newline|'\n'
 nl|'\n'
