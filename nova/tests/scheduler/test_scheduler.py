@@ -5852,10 +5852,10 @@ name|'fake_kwargs'
 op|')'
 newline|'\n'
 nl|'\n'
-DECL|member|test_cast_to_compute_host_update_db_with_instance_id
+DECL|member|test_cast_to_compute_host_update_db_with_instance_uuid
 dedent|''
 name|'def'
-name|'test_cast_to_compute_host_update_db_with_instance_id'
+name|'test_cast_to_compute_host_update_db_with_instance_uuid'
 op|'('
 name|'self'
 op|')'
@@ -5873,9 +5873,9 @@ newline|'\n'
 name|'fake_kwargs'
 op|'='
 op|'{'
-string|"'instance_id'"
+string|"'instance_uuid'"
 op|':'
-number|'31337'
+string|"'fake_uuid'"
 op|','
 nl|'\n'
 string|"'extra_arg'"
@@ -5952,7 +5952,7 @@ name|'self'
 op|'.'
 name|'context'
 op|','
-number|'31337'
+string|"'fake_uuid'"
 op|','
 nl|'\n'
 op|'{'
@@ -6038,10 +6038,10 @@ name|'fake_kwargs'
 op|')'
 newline|'\n'
 nl|'\n'
-DECL|member|test_cast_to_compute_host_update_db_without_instance_id
+DECL|member|test_cast_to_compute_host_update_db_without_instance_uuid
 dedent|''
 name|'def'
-name|'test_cast_to_compute_host_update_db_without_instance_id'
+name|'test_cast_to_compute_host_update_db_without_instance_uuid'
 op|'('
 name|'self'
 op|')'
