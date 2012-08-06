@@ -180,7 +180,10 @@ op|'='
 op|'['
 string|"'nova.openstack.common.exception'"
 op|','
+nl|'\n'
 string|"'nova.exception'"
+op|','
+nl|'\n'
 op|']'
 op|','
 nl|'\n'
