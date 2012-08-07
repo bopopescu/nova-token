@@ -619,13 +619,13 @@ op|','
 string|"'--execute'"
 op|','
 nl|'\n'
-string|"'--conf %s'"
-op|'%'
+string|"'--conf'"
+op|','
 name|'volume_path'
 op|','
 nl|'\n'
-string|"'--update %s'"
-op|'%'
+string|"'--update'"
+op|','
 name|'vol_id'
 op|','
 name|'run_as_root'
