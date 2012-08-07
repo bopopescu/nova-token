@@ -586,9 +586,9 @@ op|'='
 string|"'fake_disk_over_commit'"
 op|','
 nl|'\n'
-name|'instance_id'
+name|'instance'
 op|'='
-string|"'fake_id'"
+string|"'fake_instance'"
 op|','
 name|'dest'
 op|'='
@@ -597,6 +597,11 @@ op|','
 name|'topic'
 op|'='
 string|"'fake_topic'"
+op|','
+nl|'\n'
+name|'version'
+op|'='
+string|"'1.3'"
 op|')'
 newline|'\n'
 nl|'\n'
