@@ -6478,7 +6478,7 @@ op|')'
 newline|'\n'
 name|'i'
 op|'['
-string|"'shutdownState'"
+string|"'currentState'"
 op|']'
 op|'='
 name|'_state_description'
@@ -6505,7 +6505,7 @@ newline|'\n'
 indent|'                '
 name|'i'
 op|'['
-string|"'shutdownState'"
+string|"'currentState'"
 op|']'
 op|'='
 name|'_state_description'
