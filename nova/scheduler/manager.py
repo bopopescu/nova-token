@@ -220,7 +220,7 @@ nl|'\n'
 DECL|variable|RPC_API_VERSION
 name|'RPC_API_VERSION'
 op|'='
-string|"'1.3'"
+string|"'1.4'"
 newline|'\n'
 nl|'\n'
 DECL|member|__init__
@@ -775,6 +775,10 @@ name|'reservations'
 op|')'
 newline|'\n'
 nl|'\n'
+comment|"# FIXME(comstud): Remove 'update_db' in a future version.  It's only"
+nl|'\n'
+comment|'# here for rpcapi backwards compatibility.'
+nl|'\n'
 DECL|member|prep_resize
 dedent|''
 dedent|''
@@ -876,11 +880,6 @@ nl|'\n'
 string|"'image'"
 op|':'
 name|'image'
-op|','
-nl|'\n'
-string|"'update_db'"
-op|':'
-name|'update_db'
 op|','
 nl|'\n'
 string|"'request_spec'"

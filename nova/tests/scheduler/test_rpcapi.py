@@ -509,10 +509,6 @@ op|'='
 string|"'fake_image'"
 op|','
 nl|'\n'
-name|'update_db'
-op|'='
-string|"'fake_update_db'"
-op|','
 name|'request_spec'
 op|'='
 string|"'fake_request_spec'"
@@ -524,7 +520,7 @@ string|"'fake_props'"
 op|','
 name|'version'
 op|'='
-string|"'1.1'"
+string|"'1.4'"
 op|')'
 newline|'\n'
 nl|'\n'
