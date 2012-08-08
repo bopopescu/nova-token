@@ -2445,6 +2445,30 @@ string|"' inherit from an instance'"
 op|')'
 op|','
 nl|'\n'
+name|'cfg'
+op|'.'
+name|'BoolOpt'
+op|'('
+string|"'defer_iptables_apply'"
+op|','
+nl|'\n'
+DECL|variable|default
+name|'default'
+op|'='
+name|'False'
+op|','
+nl|'\n'
+DECL|variable|help
+name|'help'
+op|'='
+string|"'Whether to batch up the application of IPTables rules'"
+nl|'\n'
+string|"' during a host restart and apply all at the end of the'"
+nl|'\n'
+string|"' init phase'"
+op|')'
+op|','
+nl|'\n'
 op|']'
 newline|'\n'
 nl|'\n'
