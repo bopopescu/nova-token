@@ -14081,7 +14081,7 @@ string|"'stopped'"
 op|'}'
 op|','
 nl|'\n'
-string|"'shutdownState'"
+string|"'currentState'"
 op|':'
 op|'{'
 string|"'code'"
@@ -14243,7 +14243,7 @@ string|"'running'"
 op|'}'
 op|','
 nl|'\n'
-string|"'shutdownState'"
+string|"'currentState'"
 op|':'
 op|'{'
 string|"'code'"
@@ -14386,7 +14386,7 @@ string|"'stopped'"
 op|'}'
 op|','
 nl|'\n'
-string|"'shutdownState'"
+string|"'currentState'"
 op|':'
 op|'{'
 string|"'code'"
@@ -14532,7 +14532,7 @@ string|"'running'"
 op|'}'
 op|','
 nl|'\n'
-string|"'shutdownState'"
+string|"'currentState'"
 op|':'
 op|'{'
 string|"'code'"
@@ -14764,7 +14764,7 @@ string|"'running'"
 op|'}'
 op|','
 nl|'\n'
-string|"'shutdownState'"
+string|"'currentState'"
 op|':'
 op|'{'
 string|"'code'"
@@ -14855,7 +14855,7 @@ string|"'running'"
 op|'}'
 op|','
 nl|'\n'
-string|"'shutdownState'"
+string|"'currentState'"
 op|':'
 op|'{'
 string|"'code'"
@@ -15008,7 +15008,7 @@ string|"'stopped'"
 op|'}'
 op|','
 nl|'\n'
-string|"'shutdownState'"
+string|"'currentState'"
 op|':'
 op|'{'
 string|"'code'"
@@ -15043,7 +15043,7 @@ string|"'running'"
 op|'}'
 op|','
 nl|'\n'
-string|"'shutdownState'"
+string|"'currentState'"
 op|':'
 op|'{'
 string|"'code'"
@@ -18804,7 +18804,7 @@ string|"'running'"
 op|'}'
 op|','
 nl|'\n'
-string|"'shutdownState'"
+string|"'currentState'"
 op|':'
 op|'{'
 string|"'code'"
