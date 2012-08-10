@@ -18676,6 +18676,24 @@ name|'return'
 string|"'compute1'"
 newline|'\n'
 nl|'\n'
+DECL|member|get_host_uptime
+dedent|''
+name|'def'
+name|'get_host_uptime'
+op|'('
+name|'self'
+op|')'
+op|':'
+newline|'\n'
+indent|'            '
+name|'return'
+op|'('
+string|"'10:01:16 up  1:36,  6 users,  '"
+nl|'\n'
+string|"'load average: 0.21, 0.16, 0.19'"
+op|')'
+newline|'\n'
+nl|'\n'
 DECL|member|get_disk_available_least
 dedent|''
 name|'def'
