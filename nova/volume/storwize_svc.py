@@ -2459,8 +2459,6 @@ name|'FLAGS'
 op|','
 string|"'storwize_svc_vol_autoexpand'"
 op|')'
-op|'=='
-name|'True'
 op|':'
 newline|'\n'
 indent|'            '
