@@ -2773,8 +2773,6 @@ nl|'\n'
 string|"'user_data'"
 op|':'
 name|'user_data'
-name|'or'
-string|"''"
 op|','
 nl|'\n'
 string|"'key_name'"
