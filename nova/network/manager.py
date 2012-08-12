@@ -4539,7 +4539,7 @@ name|'self'
 op|'.'
 name|'_import_ipam_lib'
 op|'('
-string|"'nova.network.quantum.nova_ipam_lib'"
+string|"'nova.network.nova_ipam_lib'"
 op|')'
 newline|'\n'
 dedent|''

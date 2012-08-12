@@ -2353,7 +2353,7 @@ nl|'\n'
 DECL|variable|default
 name|'default'
 op|'='
-string|"'nova.network.quantum.sg.NullSecurityGroupHandler'"
+string|"'nova.network.sg.NullSecurityGroupHandler'"
 op|','
 nl|'\n'
 DECL|variable|help
