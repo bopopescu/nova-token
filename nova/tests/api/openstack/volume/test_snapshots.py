@@ -1171,7 +1171,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/snapshots?all_tenants=1'"
+string|"'/v1/fake/snapshots?all_tenants=1'"
 op|','
 nl|'\n'
 name|'use_admin_context'
@@ -1233,7 +1233,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/snapshots?all_tenants=1'"
+string|"'/v1/fake/snapshots?all_tenants=1'"
 op|')'
 newline|'\n'
 name|'res'
@@ -1290,7 +1290,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/snapshots'"
+string|"'/v1/fake/snapshots'"
 op|')'
 newline|'\n'
 name|'res'
