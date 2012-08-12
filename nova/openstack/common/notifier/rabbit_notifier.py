@@ -99,10 +99,9 @@ name|'cfg'
 op|'.'
 name|'ListOpt'
 op|'('
+nl|'\n'
 string|"'notification_topics'"
 op|','
-nl|'\n'
-DECL|variable|default
 name|'default'
 op|'='
 op|'['

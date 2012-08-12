@@ -114,6 +114,7 @@ op|'('
 nl|'\n'
 string|"'nova.openstack.common.notification.%s'"
 op|'%'
+nl|'\n'
 name|'message'
 op|'['
 string|"'event_type'"
