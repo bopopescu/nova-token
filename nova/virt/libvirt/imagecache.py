@@ -729,7 +729,7 @@ name|'instance'
 op|'['
 string|"'vm_state'"
 op|']'
-name|'in'
+op|'=='
 name|'vm_states'
 op|'.'
 name|'RESIZED'
