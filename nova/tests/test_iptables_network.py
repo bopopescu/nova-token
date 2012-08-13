@@ -105,48 +105,58 @@ nl|'\n'
 string|"':nova-filter-top - [0:0]'"
 op|','
 nl|'\n'
-string|"'-A FORWARD -j nova-filter-top '"
+string|"'[0:0] -A FORWARD -j nova-filter-top '"
 op|','
 nl|'\n'
-string|"'-A OUTPUT -j nova-filter-top '"
+string|"'[0:0] -A OUTPUT -j nova-filter-top '"
 op|','
 nl|'\n'
-string|"'-A nova-filter-top -j nova-compute-local '"
+string|"'[0:0] -A nova-filter-top -j nova-compute-local '"
 op|','
 nl|'\n'
-string|"'-A INPUT -j nova-compute-INPUT '"
+string|"'[0:0] -A INPUT -j nova-compute-INPUT '"
 op|','
 nl|'\n'
-string|"'-A OUTPUT -j nova-compute-OUTPUT '"
+string|"'[0:0] -A OUTPUT -j nova-compute-OUTPUT '"
 op|','
 nl|'\n'
-string|"'-A FORWARD -j nova-compute-FORWARD '"
+string|"'[0:0] -A FORWARD -j nova-compute-FORWARD '"
 op|','
 nl|'\n'
-string|"'-A INPUT -i virbr0 -p udp -m udp --dport 53 -j ACCEPT '"
+string|"'[0:0] -A INPUT -i virbr0 -p udp -m udp --dport 53 '"
+nl|'\n'
+string|"'-j ACCEPT '"
 op|','
 nl|'\n'
-string|"'-A INPUT -i virbr0 -p tcp -m tcp --dport 53 -j ACCEPT '"
+string|"'[0:0] -A INPUT -i virbr0 -p tcp -m tcp --dport 53 '"
+nl|'\n'
+string|"'-j ACCEPT '"
 op|','
 nl|'\n'
-string|"'-A INPUT -i virbr0 -p udp -m udp --dport 67 -j ACCEPT '"
+string|"'[0:0] -A INPUT -i virbr0 -p udp -m udp --dport 67 '"
+nl|'\n'
+string|"'-j ACCEPT '"
 op|','
 nl|'\n'
-string|"'-A INPUT -i virbr0 -p tcp -m tcp --dport 67 -j ACCEPT '"
+string|"'[0:0] -A INPUT -i virbr0 -p tcp -m tcp --dport 67 '"
+nl|'\n'
+string|"'-j ACCEPT '"
 op|','
 nl|'\n'
-string|"'-A FORWARD -s 192.168.122.0/24 -i virbr0 -j ACCEPT '"
+string|"'[0:0] -A FORWARD -s 192.168.122.0/24 -i virbr0 '"
+nl|'\n'
+string|"'-j ACCEPT '"
 op|','
 nl|'\n'
-string|"'-A FORWARD -i virbr0 -o virbr0 -j ACCEPT '"
+string|"'[0:0] -A FORWARD -i virbr0 -o virbr0 -j ACCEPT '"
 op|','
 nl|'\n'
-string|"'-A FORWARD -o virbr0 -j REJECT --reject-with '"
+string|"'[0:0] -A FORWARD -o virbr0 -j REJECT --reject-with '"
 nl|'\n'
 string|"'icmp-port-unreachable '"
 op|','
 nl|'\n'
-string|"'-A FORWARD -i virbr0 -j REJECT --reject-with '"
+string|"'[0:0] -A FORWARD -i virbr0 -j REJECT --reject-with '"
 nl|'\n'
 string|"'icmp-port-unreachable '"
 op|','
@@ -198,22 +208,24 @@ nl|'\n'
 string|"':nova-postrouting-bottom - [0:0]'"
 op|','
 nl|'\n'
-string|"'-A PREROUTING -j nova-compute-PREROUTING '"
+string|"'[0:0] -A PREROUTING -j nova-compute-PREROUTING '"
 op|','
 nl|'\n'
-string|"'-A OUTPUT -j nova-compute-OUTPUT '"
+string|"'[0:0] -A OUTPUT -j nova-compute-OUTPUT '"
 op|','
 nl|'\n'
-string|"'-A POSTROUTING -j nova-compute-POSTROUTING '"
+string|"'[0:0] -A POSTROUTING -j nova-compute-POSTROUTING '"
 op|','
 nl|'\n'
-string|"'-A POSTROUTING -j nova-postrouting-bottom '"
+string|"'[0:0] -A POSTROUTING -j nova-postrouting-bottom '"
 op|','
 nl|'\n'
-string|"'-A nova-postrouting-bottom -j nova-compute-SNATTING '"
+string|"'[0:0] -A nova-postrouting-bottom -j nova-compute-SNATTING '"
 op|','
 nl|'\n'
-string|"'-A nova-compute-SNATTING -j nova-compute-floating-ip-snat '"
+string|"'[0:0] -A nova-compute-SNATTING '"
+nl|'\n'
+string|"'-j nova-compute-floating-ip-snat '"
 op|','
 nl|'\n'
 string|"'COMMIT'"
@@ -308,7 +320,7 @@ name|'self'
 op|'.'
 name|'assertTrue'
 op|'('
-string|"'-A %s-FORWARD '"
+string|"'[0:0] -A %s-FORWARD '"
 nl|'\n'
 string|"'-s 1.2.3.4/5 -j DROP'"
 op|'%'
@@ -346,7 +358,7 @@ name|'self'
 op|'.'
 name|'assertTrue'
 op|'('
-string|"'-A %s-FORWARD '"
+string|"'[0:0] -A %s-FORWARD '"
 nl|'\n'
 string|"'-s 1.2.3.4/5 -j DROP'"
 op|'%'
@@ -495,7 +507,7 @@ name|'line'
 op|'.'
 name|'startswith'
 op|'('
-string|"'-A POSTROUTING'"
+string|"'[0:0] -A POSTROUTING'"
 op|')'
 op|':'
 newline|'\n'
@@ -541,7 +553,7 @@ name|'self'
 op|'.'
 name|'assertTrue'
 op|'('
-string|"'-A %s -j %s-%s'"
+string|"'[0:0] -A %s -j %s-%s'"
 op|'%'
 nl|'\n'
 op|'('
@@ -706,7 +718,7 @@ name|'line'
 op|'.'
 name|'startswith'
 op|'('
-string|"'-A %s'"
+string|"'[0:0] -A %s'"
 op|'%'
 name|'chain'
 op|')'
@@ -739,7 +751,7 @@ name|'self'
 op|'.'
 name|'assertTrue'
 op|'('
-string|"'-A nova-filter-top '"
+string|"'[0:0] -A nova-filter-top '"
 nl|'\n'
 string|"'-j %s-local'"
 op|'%'
@@ -771,7 +783,7 @@ name|'self'
 op|'.'
 name|'assertTrue'
 op|'('
-string|"'-A %s -j %s-%s'"
+string|"'[0:0] -A %s -j %s-%s'"
 op|'%'
 nl|'\n'
 op|'('

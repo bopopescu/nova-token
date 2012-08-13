@@ -10688,24 +10688,28 @@ nl|'\n'
 string|"':nova-block-ipv4 - [0:0]'"
 op|','
 nl|'\n'
-string|"'-A INPUT -i virbr0 -p tcp -m tcp --dport 67 -j ACCEPT '"
+string|"'[0:0] -A INPUT -i virbr0 -p tcp -m tcp --dport 67 -j ACCEPT '"
 op|','
 nl|'\n'
-string|"'-A FORWARD -d 192.168.122.0/24 -o virbr0 -m state --state RELATED'"
+string|"'[0:0] -A FORWARD -d 192.168.122.0/24 -o virbr0 -m state --state RELATED'"
 nl|'\n'
 string|"',ESTABLISHED -j ACCEPT '"
 op|','
 nl|'\n'
-string|"'-A FORWARD -s 192.168.122.0/24 -i virbr0 -j ACCEPT '"
+string|"'[0:0] -A FORWARD -s 192.168.122.0/24 -i virbr0 -j ACCEPT '"
 op|','
 nl|'\n'
-string|"'-A FORWARD -i virbr0 -o virbr0 -j ACCEPT '"
+string|"'[0:0] -A FORWARD -i virbr0 -o virbr0 -j ACCEPT '"
 op|','
 nl|'\n'
-string|"'-A FORWARD -o virbr0 -j REJECT --reject-with icmp-port-unreachable '"
+string|"'[0:0] -A FORWARD -o virbr0 -j REJECT '"
+nl|'\n'
+string|"'--reject-with icmp-port-unreachable '"
 op|','
 nl|'\n'
-string|"'-A FORWARD -i virbr0 -j REJECT --reject-with icmp-port-unreachable '"
+string|"'[0:0] -A FORWARD -i virbr0 -j REJECT '"
+nl|'\n'
+string|"'--reject-with icmp-port-unreachable '"
 op|','
 nl|'\n'
 string|"'COMMIT'"
@@ -11281,7 +11285,9 @@ name|'re'
 op|'.'
 name|'compile'
 op|'('
-string|"'-A .* -j ACCEPT -p icmp -s 192.168.11.0/24'"
+string|"'\\[0\\:0\\] -A .* -j ACCEPT -p icmp'"
+nl|'\n'
+string|"' -s 192.168.11.0/24'"
 op|')'
 newline|'\n'
 name|'self'
@@ -11315,9 +11321,9 @@ name|'re'
 op|'.'
 name|'compile'
 op|'('
-string|"'-A .* -j ACCEPT -p icmp -m icmp --icmp-type 8'"
+string|"'\\[0\\:0\\] -A .* -j ACCEPT -p icmp -m icmp'"
 nl|'\n'
-string|"' -s 192.168.11.0/24'"
+string|"' --icmp-type 8 -s 192.168.11.0/24'"
 op|')'
 newline|'\n'
 name|'self'
@@ -11351,7 +11357,7 @@ name|'re'
 op|'.'
 name|'compile'
 op|'('
-string|"'-A .* -j ACCEPT -p tcp --dport 80:81'"
+string|"'\\[0\\:0\\] -A .* -j ACCEPT -p tcp --dport 80:81'"
 nl|'\n'
 string|"' -s 192.168.10.0/24'"
 op|')'
@@ -11673,7 +11679,7 @@ name|'re'
 op|'.'
 name|'compile'
 op|'('
-string|"'-A .* -j ACCEPT -p tcp'"
+string|"'\\[0\\:0\\] -A .* -j ACCEPT -p tcp'"
 nl|'\n'
 string|"' --dport 80:81 -s %s'"
 op|'%'
@@ -12229,7 +12235,7 @@ name|'re'
 op|'.'
 name|'compile'
 op|'('
-string|"'-A .* -j ACCEPT -p udp --dport 200:299'"
+string|"'\\[0\\:0\\] -A .* -j ACCEPT -p udp --dport 200:299'"
 nl|'\n'
 string|"' -s 192.168.99.0/24'"
 op|')'

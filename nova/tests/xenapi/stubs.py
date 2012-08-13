@@ -1649,6 +1649,8 @@ op|'=='
 op|'['
 string|"'ip6tables-save'"
 op|','
+string|"'-c'"
+op|','
 string|"'-t'"
 op|','
 string|"'filter'"
@@ -1673,6 +1675,8 @@ name|'cmd'
 op|'=='
 op|'['
 string|"'iptables-save'"
+op|','
+string|"'-c'"
 op|','
 string|"'-t'"
 op|','
@@ -1699,6 +1703,8 @@ op|'=='
 op|'['
 string|"'iptables-save'"
 op|','
+string|"'-c'"
+op|','
 string|"'-t'"
 op|','
 string|"'nat'"
@@ -1723,6 +1729,8 @@ name|'cmd'
 op|'=='
 op|'['
 string|"'iptables-restore'"
+op|','
+string|"'-c'"
 op|','
 op|']'
 op|':'
@@ -1779,6 +1787,8 @@ name|'cmd'
 op|'=='
 op|'['
 string|"'ip6tables-restore'"
+op|','
+string|"'-c'"
 op|','
 op|']'
 op|':'
