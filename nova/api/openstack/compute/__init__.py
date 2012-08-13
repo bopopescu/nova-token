@@ -577,6 +577,15 @@ string|"'detail'"
 op|':'
 string|"'GET'"
 op|'}'
+op|','
+nl|'\n'
+name|'member'
+op|'='
+op|'{'
+string|"'action'"
+op|':'
+string|"'POST'"
+op|'}'
 op|')'
 newline|'\n'
 nl|'\n'
