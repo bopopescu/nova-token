@@ -590,6 +590,10 @@ name|'dest'
 op|'='
 string|"'fake_dest'"
 op|','
+name|'topic'
+op|'='
+string|"'fake_topic'"
+op|','
 nl|'\n'
 name|'version'
 op|'='
