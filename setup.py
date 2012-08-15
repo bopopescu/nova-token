@@ -72,6 +72,7 @@ op|'='
 string|"'nova'"
 newline|'\n'
 nl|'\n'
+nl|'\n'
 name|'setuptools'
 op|'.'
 name|'setup'
@@ -210,83 +211,91 @@ string|"'setuptools_git>=0.4'"
 op|']'
 op|','
 nl|'\n'
-DECL|variable|scripts
-name|'scripts'
+DECL|variable|entry_points
+name|'entry_points'
 op|'='
+op|'{'
+nl|'\n'
+string|"'console_scripts'"
+op|':'
 op|'['
-string|"'bin/nova-all'"
+nl|'\n'
+string|"'nova-all = nova.cmd.all:main'"
 op|','
 nl|'\n'
-string|"'bin/nova-api'"
+string|"'nova-api = nova.cmd.api:main'"
 op|','
 nl|'\n'
-string|"'bin/nova-api-ec2'"
+string|"'nova-api-ec2 = nova.cmd.api_ec2:main'"
 op|','
 nl|'\n'
-string|"'bin/nova-api-metadata'"
+string|"'nova-api-metadata = nova.cmd.api_metadata:main'"
 op|','
 nl|'\n'
-string|"'bin/nova-api-os-compute'"
+string|"'nova-api-os-compute = nova.cmd.api_os_compute:main'"
 op|','
 nl|'\n'
-string|"'bin/nova-baremetal-deploy-helper'"
+string|"'nova-baremetal-deploy-helper'"
+nl|'\n'
+string|"' = nova.cmd.baremetal_deploy_helper:main'"
 op|','
 nl|'\n'
-string|"'bin/nova-baremetal-manage'"
+string|"'nova-baremetal-manage = nova.cmd.baremetal_manage:main'"
 op|','
 nl|'\n'
-string|"'bin/nova-rpc-zmq-receiver'"
+string|"'nova-rpc-zmq-receiver = nova.cmd.rpc_zmq_receiver:main'"
 op|','
 nl|'\n'
-string|"'bin/nova-cells'"
+string|"'nova-cells = nova.cmd.cells:main'"
 op|','
 nl|'\n'
-string|"'bin/nova-cert'"
+string|"'nova-cert = nova.cmd.cert:main'"
 op|','
 nl|'\n'
-string|"'bin/nova-clear-rabbit-queues'"
+string|"'nova-clear-rabbit-queues = nova.cmd.clear_rabbit_queues:main'"
 op|','
 nl|'\n'
-string|"'bin/nova-compute'"
+string|"'nova-compute = nova.cmd.compute:main'"
 op|','
 nl|'\n'
-string|"'bin/nova-conductor'"
+string|"'nova-conductor = nova.cmd.conductor:main'"
 op|','
 nl|'\n'
-string|"'bin/nova-console'"
+string|"'nova-console = nova.cmd.console:main'"
 op|','
 nl|'\n'
-string|"'bin/nova-consoleauth'"
+string|"'nova-consoleauth = nova.cmd.consoleauth:main'"
 op|','
 nl|'\n'
-string|"'bin/nova-dhcpbridge'"
+string|"'nova-dhcpbridge = nova.cmd.dhcpbridge:main'"
 op|','
 nl|'\n'
-string|"'bin/nova-manage'"
+string|"'nova-manage = nova.cmd.manage:main'"
 op|','
 nl|'\n'
-string|"'bin/nova-network'"
+string|"'nova-network = nova.cmd.network:main'"
 op|','
 nl|'\n'
-string|"'bin/nova-novncproxy'"
+string|"'nova-novncproxy = nova.cmd.novncproxy:main'"
 op|','
 nl|'\n'
-string|"'bin/nova-objectstore'"
+string|"'nova-objectstore = nova.cmd.objectstore:main'"
 op|','
 nl|'\n'
-string|"'bin/nova-rootwrap'"
+string|"'nova-rootwrap = nova.cmd.rootwrap:main'"
 op|','
 nl|'\n'
-string|"'bin/nova-scheduler'"
+string|"'nova-scheduler = nova.cmd.scheduler:main'"
 op|','
 nl|'\n'
-string|"'bin/nova-spicehtml5proxy'"
+string|"'nova-spicehtml5proxy = nova.cmd.spicehtml5proxy:main'"
 op|','
 nl|'\n'
-string|"'bin/nova-xvpvncproxy'"
-op|','
+string|"'nova-xvpvncproxy = nova.cmd.xvpvncproxy:main'"
 nl|'\n'
 op|']'
+nl|'\n'
+op|'}'
 op|','
 nl|'\n'
 DECL|variable|py_modules
