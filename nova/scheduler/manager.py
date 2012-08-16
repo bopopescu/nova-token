@@ -681,7 +681,7 @@ name|'as'
 name|'ex'
 op|':'
 newline|'\n'
-comment|"# don't reraise"
+comment|"# don't re-raise"
 nl|'\n'
 indent|'            '
 name|'self'
