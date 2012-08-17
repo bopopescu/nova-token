@@ -231,7 +231,10 @@ op|'.'
 name|'console_topic'
 op|','
 nl|'\n'
-name|'pool'
+name|'console'
+op|'['
+string|"'pool'"
+op|']'
 op|'['
 string|"'host'"
 op|']'
