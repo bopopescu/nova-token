@@ -2247,9 +2247,9 @@ dedent|''
 op|'@'
 name|'catch_notimplementederror'
 newline|'\n'
-DECL|member|test_destroy_instance_nonexistant
+DECL|member|test_destroy_instance_nonexistent
 name|'def'
-name|'test_destroy_instance_nonexistant'
+name|'test_destroy_instance_nonexistent'
 op|'('
 name|'self'
 op|')'

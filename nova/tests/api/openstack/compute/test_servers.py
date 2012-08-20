@@ -2357,10 +2357,10 @@ name|'expected'
 op|')'
 newline|'\n'
 nl|'\n'
-DECL|member|test_get_server_addresses_nonexistant_network
+DECL|member|test_get_server_addresses_nonexistent_network
 dedent|''
 name|'def'
-name|'test_get_server_addresses_nonexistant_network'
+name|'test_get_server_addresses_nonexistent_network'
 op|'('
 name|'self'
 op|')'
@@ -2409,10 +2409,10 @@ string|"'network_0'"
 op|')'
 newline|'\n'
 nl|'\n'
-DECL|member|test_get_server_addresses_nonexistant_server
+DECL|member|test_get_server_addresses_nonexistent_server
 dedent|''
 name|'def'
-name|'test_get_server_addresses_nonexistant_server'
+name|'test_get_server_addresses_nonexistent_server'
 op|'('
 name|'self'
 op|')'

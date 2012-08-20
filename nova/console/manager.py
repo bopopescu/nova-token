@@ -599,7 +599,7 @@ name|'debug'
 op|'('
 name|'_'
 op|'('
-string|"'Tried to remove non-existant console '"
+string|"'Tried to remove non-existent console '"
 nl|'\n'
 string|"'%(console_id)s.'"
 op|')'
