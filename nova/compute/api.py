@@ -572,7 +572,7 @@ op|')'
 newline|'\n'
 comment|'# NOTE(danms): at this point, we have verified that either'
 nl|'\n'
-comment|'# theinstance is not locked, or the user is suffiently endowed'
+comment|'# the instance is not locked, or the user is sufficiently endowed'
 nl|'\n'
 comment|"# that it doesn't matter. While the following statement may be"
 nl|'\n'

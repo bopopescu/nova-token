@@ -49,7 +49,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""NOP host filter. Returns all hosts."""'
+string|'"""NOOP host filter. Returns all hosts."""'
 newline|'\n'
 nl|'\n'
 DECL|member|host_passes

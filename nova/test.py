@@ -1166,7 +1166,7 @@ name|'TypeError'
 op|')'
 op|':'
 newline|'\n'
-comment|"# If both values aren't convertable to float, just ignore"
+comment|"# If both values aren't convertible to float, just ignore"
 nl|'\n'
 comment|"# ValueError if arg is a str, TypeError if it's something else"
 nl|'\n'

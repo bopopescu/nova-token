@@ -952,7 +952,7 @@ indent|'    '
 string|'"""Base HostManager class."""'
 newline|'\n'
 nl|'\n'
-comment|'# Can be overriden in a subclass'
+comment|'# Can be overridden in a subclass'
 nl|'\n'
 DECL|variable|host_state_cls
 name|'host_state_cls'
