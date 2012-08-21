@@ -2097,26 +2097,6 @@ op|','
 nl|'\n'
 name|'cfg'
 op|'.'
-name|'BoolOpt'
-op|'('
-string|"'stub_network'"
-op|','
-nl|'\n'
-DECL|variable|default
-name|'default'
-op|'='
-name|'False'
-op|','
-nl|'\n'
-DECL|variable|help
-name|'help'
-op|'='
-string|"'Stub network related code'"
-op|')'
-op|','
-nl|'\n'
-name|'cfg'
-op|'.'
 name|'IntOpt'
 op|'('
 string|"'reclaim_instance_interval'"
