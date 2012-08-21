@@ -570,6 +570,7 @@ DECL|variable|latex_documents
 name|'latex_documents'
 op|'='
 op|'['
+nl|'\n'
 op|'('
 string|"'index'"
 op|','
@@ -583,6 +584,7 @@ op|','
 string|"'manual'"
 op|')'
 op|','
+nl|'\n'
 op|']'
 newline|'\n'
 nl|'\n'
