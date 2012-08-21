@@ -4320,7 +4320,7 @@ newline|'\n'
 nl|'\n'
 comment|'# FIXME(sirp): the disabled field is currently namespaced so that we'
 nl|'\n'
-comment|"# don't impact the Openstack API. Eventually this should probably be"
+comment|"# don't impact the OpenStack API. Eventually this should probably be"
 nl|'\n'
 comment|'# made a first-class attribute in the next OSAPI version.'
 nl|'\n'

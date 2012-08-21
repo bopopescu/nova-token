@@ -435,7 +435,7 @@ op|')'
 newline|'\n'
 comment|"# We filter out instances that haven't been created"
 nl|'\n'
-comment|'# via Openstack. Notice that this is fragile and it can'
+comment|'# via OpenStack. Notice that this is fragile and it can'
 nl|'\n'
 comment|'# be improved later.'
 nl|'\n'
