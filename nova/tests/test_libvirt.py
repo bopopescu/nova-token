@@ -12121,8 +12121,21 @@ op|','
 name|'e'
 op|':'
 newline|'\n'
-DECL|variable|c1
+DECL|variable|msg
 indent|'            '
+name|'msg'
+op|'='
+op|'('
+string|"'The firewall filter for %s does not exist'"
+op|'%'
+nl|'\n'
+name|'instance_ref'
+op|'['
+string|"'name'"
+op|']'
+op|')'
+newline|'\n'
+DECL|variable|c1
 name|'c1'
 op|'='
 op|'('
@@ -12135,7 +12148,7 @@ op|')'
 op|'.'
 name|'find'
 op|'('
-string|"'Timeout migrating for'"
+name|'msg'
 op|')'
 op|')'
 newline|'\n'
