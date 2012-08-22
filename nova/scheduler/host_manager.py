@@ -186,6 +186,9 @@ string|"'ComputeFilter'"
 op|','
 nl|'\n'
 string|"'ComputeCapabilitiesFilter'"
+op|','
+nl|'\n'
+string|"'ImagePropertiesFilter'"
 nl|'\n'
 op|']'
 op|','
