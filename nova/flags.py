@@ -674,9 +674,33 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'A list of the glance api servers available to nova '"
+string|"'A list of the glance api servers available to nova. '"
+nl|'\n'
+string|"'Prefix with https:// for ssl-based glance api servers. '"
 nl|'\n'
 string|"'([hostname|ip]:port)'"
+op|')'
+op|','
+nl|'\n'
+name|'cfg'
+op|'.'
+name|'BoolOpt'
+op|'('
+string|"'glance_api_insecure'"
+op|','
+nl|'\n'
+DECL|variable|default
+name|'default'
+op|'='
+name|'False'
+op|','
+nl|'\n'
+DECL|variable|help
+name|'help'
+op|'='
+string|"'Allow to perform insecure SSL (https) requests to '"
+nl|'\n'
+string|"'glance'"
 op|')'
 op|','
 nl|'\n'
