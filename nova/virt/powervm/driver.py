@@ -161,26 +161,6 @@ name|'cfg'
 op|'.'
 name|'StrOpt'
 op|'('
-string|"'powervm_vios'"
-op|','
-nl|'\n'
-DECL|variable|default
-name|'default'
-op|'='
-string|"'powervm_mgr'"
-op|','
-nl|'\n'
-DECL|variable|help
-name|'help'
-op|'='
-string|"'PowerVM vios host or ip if different from manager'"
-op|')'
-op|','
-nl|'\n'
-name|'cfg'
-op|'.'
-name|'StrOpt'
-op|'('
 string|"'powervm_mgr_user'"
 op|','
 nl|'\n'
