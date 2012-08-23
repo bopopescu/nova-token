@@ -108,23 +108,6 @@ op|'.'
 name|'FLAGS'
 newline|'\n'
 nl|'\n'
-comment|'# The default Firewall driver must be listed at position 0'
-nl|'\n'
-DECL|variable|drivers
-name|'drivers'
-op|'='
-op|'['
-string|"'nova.virt.firewall.IptablesFirewallDriver'"
-op|','
-nl|'\n'
-string|"'nova.virt.firewall.NoopFirewallDriver'"
-op|','
-nl|'\n'
-string|"'nova.virt.xenapi.firewall.Dom0IptablesFirewallDriver'"
-op|','
-op|']'
-newline|'\n'
-nl|'\n'
 nl|'\n'
 DECL|class|Dom0IptablesFirewallDriver
 name|'class'
