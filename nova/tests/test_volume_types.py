@@ -322,7 +322,7 @@ name|'k'
 op|']'
 op|','
 nl|'\n'
-string|"'one of fields doesnt match'"
+string|"'one of fields does not match'"
 op|')'
 newline|'\n'
 nl|'\n'
@@ -457,10 +457,10 @@ op|')'
 op|')'
 newline|'\n'
 nl|'\n'
-DECL|member|test_non_existant_vol_type_shouldnt_delete
+DECL|member|test_non_existent_vol_type_shouldnt_delete
 dedent|''
 name|'def'
-name|'test_non_existant_vol_type_shouldnt_delete'
+name|'test_non_existent_vol_type_shouldnt_delete'
 op|'('
 name|'self'
 op|')'
