@@ -1240,7 +1240,7 @@ op|'='
 string|"'Test'"
 op|','
 nl|'\n'
-name|'fixed_range_v4'
+name|'cidr'
 op|'='
 string|"'10.2.0.0/24'"
 op|','
@@ -1270,7 +1270,7 @@ op|'='
 number|'2000'
 op|','
 nl|'\n'
-name|'fixed_range_v6'
+name|'cidr_v6'
 op|'='
 string|"'fd00:2::/120'"
 op|','
