@@ -466,7 +466,7 @@ newline|'\n'
 DECL|variable|alias
 name|'alias'
 op|'='
-string|'"virtual_interfaces"'
+string|'"os-virtual-interfaces"'
 newline|'\n'
 DECL|variable|namespace
 name|'namespace'
