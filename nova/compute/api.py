@@ -8716,9 +8716,11 @@ op|','
 nl|'\n'
 string|"'instance_uuids'"
 op|':'
+op|'['
 name|'instance'
 op|'['
 string|"'uuid'"
+op|']'
 op|']'
 op|','
 nl|'\n'
