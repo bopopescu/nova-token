@@ -852,7 +852,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""Load extensions from the configured extension path.\n\n    See nova/tests/api/openstack/extensions/foxinsocks/extension.py for an\n    example extension implementation.\n\n    """'
+string|'"""Load extensions from the configured extension path.\n\n    See nova/tests/api/openstack/volume/extensions/foxinsocks.py or an\n    example extension implementation.\n\n    """'
 newline|'\n'
 nl|'\n'
 DECL|member|is_loaded
