@@ -746,28 +746,6 @@ name|'cfg'
 op|'.'
 name|'StrOpt'
 op|'('
-string|"'s3_dmz'"
-op|','
-nl|'\n'
-DECL|variable|default
-name|'default'
-op|'='
-string|"'$my_ip'"
-op|','
-nl|'\n'
-DECL|variable|help
-name|'help'
-op|'='
-string|"'hostname or ip for the instances to use when accessing '"
-nl|'\n'
-string|"'the s3 api'"
-op|')'
-op|','
-nl|'\n'
-name|'cfg'
-op|'.'
-name|'StrOpt'
-op|'('
 string|"'cert_topic'"
 op|','
 nl|'\n'
@@ -1136,28 +1114,6 @@ name|'cfg'
 op|'.'
 name|'StrOpt'
 op|'('
-string|"'osapi_scheme'"
-op|','
-nl|'\n'
-DECL|variable|default
-name|'default'
-op|'='
-string|"'http'"
-op|','
-nl|'\n'
-DECL|variable|help
-name|'help'
-op|'='
-string|"'the protocol to use when connecting to the openstack api '"
-nl|'\n'
-string|"'server (http, https)'"
-op|')'
-op|','
-nl|'\n'
-name|'cfg'
-op|'.'
-name|'StrOpt'
-op|'('
 string|"'osapi_path'"
 op|','
 nl|'\n'
@@ -1284,26 +1240,6 @@ name|'cfg'
 op|'.'
 name|'StrOpt'
 op|'('
-string|"'default_project'"
-op|','
-nl|'\n'
-DECL|variable|default
-name|'default'
-op|'='
-string|"'openstack'"
-op|','
-nl|'\n'
-DECL|variable|help
-name|'help'
-op|'='
-string|"'the default project to use for openstack'"
-op|')'
-op|','
-nl|'\n'
-name|'cfg'
-op|'.'
-name|'StrOpt'
-op|'('
 string|"'default_image'"
 op|','
 nl|'\n'
@@ -1399,26 +1335,6 @@ DECL|variable|help
 name|'help'
 op|'='
 string|"'Suffix to add to project name for vpn key and secgroups'"
-op|')'
-op|','
-nl|'\n'
-name|'cfg'
-op|'.'
-name|'IntOpt'
-op|'('
-string|"'auth_token_ttl'"
-op|','
-nl|'\n'
-DECL|variable|default
-name|'default'
-op|'='
-number|'3600'
-op|','
-nl|'\n'
-DECL|variable|help
-name|'help'
-op|'='
-string|"'Seconds for auth tokens to linger'"
 op|')'
 op|','
 nl|'\n'

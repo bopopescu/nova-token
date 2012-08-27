@@ -280,7 +280,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'Maximum number of seconds to wait for FlashCopy to be'"
+string|"'Maximum number of seconds to wait for FlashCopy to be '"
 nl|'\n'
 string|"'prepared. Maximum value is 600 seconds (10 minutes).'"
 op|')'
