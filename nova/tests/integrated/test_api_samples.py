@@ -757,7 +757,7 @@ name|'fail'
 op|'('
 name|'_'
 op|'('
-string|"'Response error on line %(i)s:\\n'"
+string|"'Response error on line:\\n'"
 nl|'\n'
 string|"'%(line)s\\n%(result_line)s'"
 op|')'
@@ -780,7 +780,7 @@ name|'fail'
 op|'('
 name|'_'
 op|'('
-string|"'Response error on line %(i)s:\\n'"
+string|"'Response error on line:\\n'"
 nl|'\n'
 string|"'%(line)s\\n%(result_line)s'"
 op|')'
