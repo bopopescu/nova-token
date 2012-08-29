@@ -751,10 +751,10 @@ nl|'\n'
 string|"'ietadm --op show --tid=%(tid)s'"
 op|','
 nl|'\n'
-string|"'ietadm --op delete --tid=%(tid)s'"
+string|"'ietadm --op delete --tid=%(tid)s --lun=%(lun)s'"
 op|','
 nl|'\n'
-string|"'ietadm --op delete --tid=%(tid)s --lun=%(lun)s'"
+string|"'ietadm --op delete --tid=%(tid)s'"
 op|']'
 op|')'
 newline|'\n'
