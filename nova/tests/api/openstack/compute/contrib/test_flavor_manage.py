@@ -233,6 +233,12 @@ nl|'\n'
 string|"'is_public'"
 op|':'
 name|'True'
+op|','
+nl|'\n'
+string|"'disabled'"
+op|':'
+name|'False'
+op|','
 nl|'\n'
 op|'}'
 newline|'\n'
