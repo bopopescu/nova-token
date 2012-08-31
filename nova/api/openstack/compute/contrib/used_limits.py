@@ -371,7 +371,7 @@ nl|'\n'
 DECL|variable|name
 name|'name'
 op|'='
-string|'"Used Limits"'
+string|'"UsedLimits"'
 newline|'\n'
 DECL|variable|alias
 name|'alias'

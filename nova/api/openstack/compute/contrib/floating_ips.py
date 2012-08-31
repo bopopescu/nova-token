@@ -1943,7 +1943,7 @@ nl|'\n'
 DECL|variable|name
 name|'name'
 op|'='
-string|'"Floating_ips"'
+string|'"FloatingIps"'
 newline|'\n'
 DECL|variable|alias
 name|'alias'

@@ -409,7 +409,7 @@ nl|'\n'
 DECL|variable|name
 name|'name'
 op|'='
-string|'"Floating_ip_pools"'
+string|'"FloatingIpPools"'
 newline|'\n'
 DECL|variable|alias
 name|'alias'

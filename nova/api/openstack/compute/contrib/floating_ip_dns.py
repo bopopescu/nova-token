@@ -1790,7 +1790,7 @@ nl|'\n'
 DECL|variable|name
 name|'name'
 op|'='
-string|'"Floating_ip_dns"'
+string|'"FloatingIpDns"'
 newline|'\n'
 DECL|variable|alias
 name|'alias'
