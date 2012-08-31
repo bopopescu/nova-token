@@ -426,6 +426,8 @@ string|"'properties'"
 op|']'
 op|')'
 newline|'\n'
+name|'image'
+op|'='
 name|'self'
 op|'.'
 name|'image_service'
