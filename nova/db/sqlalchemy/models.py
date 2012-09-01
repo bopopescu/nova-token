@@ -3088,6 +3088,30 @@ name|'False'
 op|')'
 newline|'\n'
 nl|'\n'
+DECL|variable|usage
+name|'usage'
+op|'='
+name|'relationship'
+op|'('
+nl|'\n'
+string|'"QuotaUsage"'
+op|','
+nl|'\n'
+DECL|variable|foreign_keys
+name|'foreign_keys'
+op|'='
+name|'usage_id'
+op|','
+nl|'\n'
+DECL|variable|primaryjoin
+name|'primaryjoin'
+op|'='
+string|"'and_(Reservation.usage_id == QuotaUsage.id,'"
+nl|'\n'
+string|"'QuotaUsage.deleted == False)'"
+op|')'
+newline|'\n'
+nl|'\n'
 nl|'\n'
 DECL|class|Snapshot
 dedent|''
