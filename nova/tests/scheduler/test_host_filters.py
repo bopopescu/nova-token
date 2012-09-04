@@ -4855,6 +4855,10 @@ op|','
 string|"'opt2'"
 op|':'
 string|"'2'"
+op|','
+string|"'trust:trusted_host'"
+op|':'
+string|"'true'"
 op|'}'
 op|','
 nl|'\n'
@@ -4902,6 +4906,10 @@ op|','
 string|"'opt2'"
 op|':'
 string|"'222'"
+op|','
+string|"'trust:trusted_host'"
+op|':'
+string|"'true'"
 op|'}'
 op|','
 nl|'\n'
@@ -5248,6 +5256,11 @@ op|','
 string|"'opt2'"
 op|':'
 string|"'s== 2'"
+op|','
+nl|'\n'
+string|"'trust:trusted_host'"
+op|':'
+string|"'true'"
 op|'}'
 newline|'\n'
 name|'self'
@@ -5395,6 +5408,11 @@ op|','
 string|"'opt2'"
 op|':'
 string|"'2'"
+op|','
+nl|'\n'
+string|"'trust:trusted_host'"
+op|':'
+string|"'true'"
 op|'}'
 op|','
 nl|'\n'
@@ -5442,6 +5460,11 @@ op|','
 string|"'opt2'"
 op|':'
 string|"'222'"
+op|','
+nl|'\n'
+string|"'trust:trusted_host'"
+op|':'
+string|"'true'"
 op|'}'
 op|','
 nl|'\n'
@@ -8241,7 +8264,7 @@ newline|'\n'
 name|'extra_specs'
 op|'='
 op|'{'
-string|"'trusted_host'"
+string|"'trust:trusted_host'"
 op|':'
 string|"'trusted'"
 op|'}'
@@ -8330,7 +8353,7 @@ newline|'\n'
 name|'extra_specs'
 op|'='
 op|'{'
-string|"'trusted_host'"
+string|"'trust:trusted_host'"
 op|':'
 string|"'trusted'"
 op|'}'
@@ -8419,7 +8442,7 @@ newline|'\n'
 name|'extra_specs'
 op|'='
 op|'{'
-string|"'trusted_host'"
+string|"'trust:trusted_host'"
 op|':'
 string|"'untrusted'"
 op|'}'
@@ -8508,7 +8531,7 @@ newline|'\n'
 name|'extra_specs'
 op|'='
 op|'{'
-string|"'trusted_host'"
+string|"'trust:trusted_host'"
 op|':'
 string|"'untrusted'"
 op|'}'

@@ -1051,7 +1051,7 @@ name|'extra'
 op|'.'
 name|'get'
 op|'('
-string|"'trusted_host'"
+string|"'trust:trusted_host'"
 op|')'
 newline|'\n'
 name|'host'
