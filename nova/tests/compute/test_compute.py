@@ -31895,7 +31895,7 @@ nl|'\n'
 name|'None'
 op|','
 nl|'\n'
-string|"'/dev/invalid'"
+string|"'/invalid'"
 op|')'
 newline|'\n'
 nl|'\n'

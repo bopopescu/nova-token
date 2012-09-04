@@ -4811,7 +4811,7 @@ op|'['
 op|'{'
 string|"'device_name'"
 op|':'
-string|"'/dev/vdb'"
+string|"'/dev/sdb'"
 op|','
 nl|'\n'
 string|"'volume_id'"
@@ -4828,7 +4828,7 @@ nl|'\n'
 op|'{'
 string|"'device_name'"
 op|':'
-string|"'/dev/vdc'"
+string|"'/dev/sdc'"
 op|','
 nl|'\n'
 string|"'volume_id'"
@@ -4984,7 +4984,7 @@ op|','
 nl|'\n'
 name|'instance_uuid'
 op|','
-string|"'/dev/vdb'"
+string|"'/dev/sdb'"
 op|')'
 newline|'\n'
 dedent|''
@@ -5021,7 +5021,7 @@ op|','
 nl|'\n'
 name|'instance_uuid'
 op|','
-string|"'/dev/vdc'"
+string|"'/dev/sdc'"
 op|')'
 newline|'\n'
 nl|'\n'
@@ -5050,7 +5050,7 @@ name|'vol'
 op|','
 name|'instance_uuid'
 op|','
-string|"'/dev/vdb'"
+string|"'/dev/sdb'"
 op|')'
 newline|'\n'
 nl|'\n'
@@ -5077,7 +5077,7 @@ name|'vol'
 op|','
 name|'instance_uuid'
 op|','
-string|"'/dev/vdc'"
+string|"'/dev/sdc'"
 op|')'
 newline|'\n'
 nl|'\n'
@@ -5129,7 +5129,7 @@ name|'vol'
 op|','
 name|'instance_uuid'
 op|','
-string|"'/dev/vdb'"
+string|"'/dev/sdb'"
 op|')'
 newline|'\n'
 nl|'\n'
@@ -5156,7 +5156,7 @@ name|'vol'
 op|','
 name|'instance_uuid'
 op|','
-string|"'/dev/vdb'"
+string|"'/dev/sdb'"
 op|')'
 newline|'\n'
 nl|'\n'
@@ -5183,7 +5183,7 @@ name|'vol'
 op|','
 name|'instance_uuid'
 op|','
-string|"'/dev/vdc'"
+string|"'/dev/sdc'"
 op|')'
 newline|'\n'
 nl|'\n'
@@ -5292,7 +5292,7 @@ op|'['
 string|"'mountpoint'"
 op|']'
 op|'=='
-string|"'/dev/vdb'"
+string|"'/dev/sdb'"
 name|'or'
 nl|'\n'
 name|'vol'
@@ -5300,7 +5300,7 @@ op|'['
 string|"'mountpoint'"
 op|']'
 op|'=='
-string|"'/dev/vdc'"
+string|"'/dev/sdc'"
 op|')'
 newline|'\n'
 name|'self'
@@ -5541,7 +5541,7 @@ op|'['
 op|'{'
 string|"'device_name'"
 op|':'
-string|"'/dev/vdb'"
+string|"'/dev/sdb'"
 op|','
 nl|'\n'
 string|"'volume_id'"
@@ -5659,7 +5659,7 @@ name|'vol'
 op|','
 name|'instance_uuid'
 op|','
-string|"'/dev/vdb'"
+string|"'/dev/sdb'"
 op|')'
 newline|'\n'
 dedent|''
@@ -5722,7 +5722,7 @@ op|','
 nl|'\n'
 name|'device'
 op|'='
-string|"'/dev/vdc'"
+string|"'/dev/sdc'"
 op|')'
 newline|'\n'
 nl|'\n'
@@ -5749,7 +5749,7 @@ name|'vol1'
 op|','
 name|'instance_uuid'
 op|','
-string|"'/dev/vdb'"
+string|"'/dev/sdb'"
 op|')'
 newline|'\n'
 nl|'\n'
@@ -5776,7 +5776,7 @@ name|'vol2'
 op|','
 name|'instance_uuid'
 op|','
-string|"'/dev/vdc'"
+string|"'/dev/sdc'"
 op|')'
 newline|'\n'
 nl|'\n'
@@ -5870,7 +5870,7 @@ name|'vol2'
 op|','
 name|'instance_uuid'
 op|','
-string|"'/dev/vdc'"
+string|"'/dev/sdc'"
 op|')'
 newline|'\n'
 nl|'\n'

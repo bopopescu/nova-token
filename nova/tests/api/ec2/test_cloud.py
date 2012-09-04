@@ -16267,7 +16267,7 @@ op|'['
 op|'{'
 string|"'device_name'"
 op|':'
-string|"'/dev/vdb'"
+string|"'/dev/sdb'"
 op|','
 nl|'\n'
 string|"'volume_id'"
@@ -16374,7 +16374,7 @@ name|'vol'
 op|','
 name|'instance_uuid'
 op|','
-string|"'/dev/vdb'"
+string|"'/dev/sdb'"
 op|')'
 newline|'\n'
 nl|'\n'
@@ -16469,7 +16469,7 @@ name|'vol'
 op|','
 name|'instance_uuid'
 op|','
-string|"'/dev/vdc'"
+string|"'/dev/sdc'"
 op|')'
 newline|'\n'
 nl|'\n'
@@ -16567,7 +16567,7 @@ name|'vol'
 op|','
 name|'instance_uuid'
 op|','
-string|"'/dev/vdc'"
+string|"'/dev/sdc'"
 op|')'
 newline|'\n'
 nl|'\n'
@@ -16641,7 +16641,7 @@ name|'vol'
 op|','
 name|'instance_uuid'
 op|','
-string|"'/dev/vdc'"
+string|"'/dev/sdc'"
 op|')'
 newline|'\n'
 nl|'\n'
