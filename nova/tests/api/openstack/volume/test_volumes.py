@@ -1398,7 +1398,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/volumes'"
+string|"'/v1/fake/volumes'"
 op|','
 nl|'\n'
 name|'use_admin_context'
@@ -1461,7 +1461,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/volumes?all_tenants=1'"
+string|"'/v1/fake/volumes?all_tenants=1'"
 op|','
 nl|'\n'
 name|'use_admin_context'
@@ -1523,7 +1523,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/volumes?all_tenants=1'"
+string|"'/v1/fake/volumes?all_tenants=1'"
 op|')'
 newline|'\n'
 name|'res'
@@ -1580,7 +1580,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/volumes'"
+string|"'/v1/fake/volumes'"
 op|')'
 newline|'\n'
 name|'res'
