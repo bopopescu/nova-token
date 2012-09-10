@@ -4128,41 +4128,9 @@ name|'options'
 op|')'
 op|':'
 newline|'\n'
-comment|'# The dictionary below represents the true keys, as'
-nl|'\n'
-comment|'# returned by a destination host, but fake values.'
-nl|'\n'
 indent|'        '
 name|'return'
-op|'{'
-string|"'xenops'"
-op|':'
-string|"'http://localhost/services/xenops?'"
-nl|'\n'
-string|"'session_id=OpaqueRef:81d00b97-b205-b34d-924e-6f9597854cc0'"
-op|','
-nl|'\n'
-string|"'host'"
-op|':'
-string|"'OpaqueRef:5e4a3dd1-b71c-74ba-bbc6-58ee9ff6a889'"
-op|','
-nl|'\n'
-string|"'master'"
-op|':'
-string|"'http://localhost/'"
-op|','
-nl|'\n'
-string|"'session_id'"
-op|':'
-string|"'OpaqueRef:81d00b97-b205-b34d-924e-6f9597854cc0'"
-op|','
-nl|'\n'
-string|"'SM'"
-op|':'
-string|"'http://localhost/services/SM?'"
-nl|'\n'
-string|"'session_id=OpaqueRef:81d00b97-b205-b34d-924e-6f9597854cc0'"
-op|'}'
+string|'"fake_migrate_data"'
 newline|'\n'
 nl|'\n'
 DECL|member|VM_assert_can_migrate
