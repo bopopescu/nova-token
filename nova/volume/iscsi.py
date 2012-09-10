@@ -680,6 +680,12 @@ op|'('
 string|"'tgt-admin'"
 op|','
 nl|'\n'
+string|"'--conf'"
+op|','
+nl|'\n'
+name|'volume_path'
+op|','
+nl|'\n'
 string|"'--update'"
 op|','
 nl|'\n'

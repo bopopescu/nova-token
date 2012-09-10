@@ -602,7 +602,7 @@ name|'join'
 op|'('
 op|'['
 nl|'\n'
-string|"'tgt-admin --update iqn.2011-09.org.foo.bar:blaa'"
+string|"'tgt-admin --conf ./blaa --update iqn.2011-09.org.foo.bar:blaa'"
 op|','
 nl|'\n'
 string|"'tgt-admin --delete iqn.2010-10.org.openstack:volume-blaa'"
