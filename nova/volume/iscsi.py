@@ -126,7 +126,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'Volume configfuration file storage directory'"
+string|"'Volume configuration file storage directory'"
 op|')'
 op|','
 nl|'\n'
@@ -575,7 +575,7 @@ op|':'
 newline|'\n'
 comment|"# Note(jdg) tid and lun aren't used by TgtAdm but remain for"
 nl|'\n'
-comment|'# compatability'
+comment|'# compatibility'
 nl|'\n'
 nl|'\n'
 indent|'        '
@@ -724,7 +724,7 @@ op|')'
 op|')'
 newline|'\n'
 nl|'\n'
-comment|'#Dont forget to remove the persistent file we created'
+comment|"#Don't forget to remove the persistent file we created"
 nl|'\n'
 name|'os'
 op|'.'
