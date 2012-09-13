@@ -230,7 +230,7 @@ nl|'\n'
 dedent|''
 name|'filter_properties'
 op|'['
-string|"'memory_limit_mb'"
+string|"'memory_mb_limit'"
 op|']'
 op|'='
 name|'oversubscribed_ram_limit_mb'
