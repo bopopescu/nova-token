@@ -7879,7 +7879,7 @@ newline|'\n'
 name|'if'
 name|'fixed'
 op|'['
-string|"'instance_id'"
+string|"'instance_uuid'"
 op|']'
 name|'is'
 name|'not'
@@ -7895,7 +7895,7 @@ name|'id_to_ec2_inst_id'
 op|'('
 name|'fixed'
 op|'['
-string|"'instance_id'"
+string|"'instance_uuid'"
 op|']'
 op|')'
 newline|'\n'
