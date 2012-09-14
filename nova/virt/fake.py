@@ -1269,7 +1269,7 @@ op|','
 nl|'\n'
 string|"'memory_mb'"
 op|':'
-number|'4096'
+number|'8192'
 op|','
 nl|'\n'
 string|"'local_gb'"
