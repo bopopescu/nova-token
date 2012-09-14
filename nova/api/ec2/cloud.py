@@ -9954,11 +9954,7 @@ name|'internal_id'
 op|')'
 newline|'\n'
 name|'return'
-op|'{'
-string|"'imageId'"
-op|':'
-name|'image_id'
-op|'}'
+name|'True'
 newline|'\n'
 nl|'\n'
 DECL|member|_register_image
