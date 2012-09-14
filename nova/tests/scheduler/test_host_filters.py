@@ -3550,7 +3550,7 @@ op|','
 nl|'\n'
 name|'filter_properties'
 op|'['
-string|"'memory_limit_mb'"
+string|"'memory_mb_limit'"
 op|']'
 op|')'
 newline|'\n'
