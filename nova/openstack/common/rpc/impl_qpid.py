@@ -368,7 +368,7 @@ nl|'\n'
 DECL|variable|default
 name|'default'
 op|'='
-number|'5'
+number|'60'
 op|','
 nl|'\n'
 DECL|variable|help
