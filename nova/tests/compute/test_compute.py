@@ -12752,7 +12752,11 @@ nl|'\n'
 op|'{'
 string|"'host'"
 op|':'
-string|"'foo'"
+name|'self'
+op|'.'
+name|'compute'
+op|'.'
+name|'host'
 op|'}'
 op|')'
 newline|'\n'
