@@ -220,7 +220,7 @@ nl|'\n'
 DECL|variable|RPC_API_VERSION
 name|'RPC_API_VERSION'
 op|'='
-string|"'2.0'"
+string|"'2.1'"
 newline|'\n'
 nl|'\n'
 DECL|member|__init__
@@ -345,10 +345,12 @@ name|'volume_id'
 op|','
 name|'snapshot_id'
 op|','
-name|'image_id'
-op|','
 nl|'\n'
 name|'reservations'
+op|','
+name|'image_id'
+op|'='
+name|'None'
 op|')'
 op|':'
 newline|'\n'
