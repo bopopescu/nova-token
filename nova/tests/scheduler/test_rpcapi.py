@@ -585,6 +585,10 @@ name|'list'
 op|'('
 string|"'fake_res'"
 op|')'
+op|','
+name|'version'
+op|'='
+string|"'2.1'"
 op|')'
 newline|'\n'
 dedent|''
