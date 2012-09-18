@@ -579,16 +579,9 @@ op|'='
 string|'"fake_image"'
 op|','
 nl|'\n'
-name|'reservations'
-op|'='
-name|'list'
-op|'('
-string|"'fake_res'"
-op|')'
-op|','
 name|'version'
 op|'='
-string|"'2.1'"
+string|"'2.2'"
 op|')'
 newline|'\n'
 dedent|''
