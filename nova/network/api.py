@@ -1115,6 +1115,11 @@ nl|'\n'
 string|"'pool'"
 op|':'
 name|'pool'
+op|','
+nl|'\n'
+string|"'auto_assigned'"
+op|':'
+name|'False'
 op|'}'
 op|'}'
 op|')'
