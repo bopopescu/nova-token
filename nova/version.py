@@ -33,9 +33,9 @@ DECL|variable|NOVA_VERSION
 name|'NOVA_VERSION'
 op|'='
 op|'['
-string|"'2012'"
+string|"'2013'"
 op|','
-string|"'2'"
+string|"'1'"
 op|','
 name|'None'
 op|']'
