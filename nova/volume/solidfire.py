@@ -198,7 +198,7 @@ nl|'\n'
 nl|'\n'
 name|'cfg'
 op|'.'
-name|'StrOpt'
+name|'BoolOpt'
 op|'('
 string|"'sf_allow_tenant_qos'"
 op|','
