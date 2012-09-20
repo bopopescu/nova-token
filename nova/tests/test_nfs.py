@@ -561,7 +561,8 @@ name|'self'
 op|'.'
 name|'assertEqual'
 op|'('
-string|"'/mnt/test/12118957640568004265/volume-123'"
+nl|'\n'
+string|"'/mnt/test/2f4f60214cf43c595666dd815f0360a4/volume-123'"
 op|','
 nl|'\n'
 name|'drv'
@@ -1197,7 +1198,7 @@ name|'self'
 op|'.'
 name|'assertEqual'
 op|'('
-string|"'12118957640568004265'"
+string|"'2f4f60214cf43c595666dd815f0360a4'"
 op|','
 nl|'\n'
 name|'drv'
@@ -1245,7 +1246,7 @@ name|'self'
 op|'.'
 name|'assertEqual'
 op|'('
-string|"'/mnt/test/12118957640568004265'"
+string|"'/mnt/test/2f4f60214cf43c595666dd815f0360a4'"
 op|','
 nl|'\n'
 name|'drv'
