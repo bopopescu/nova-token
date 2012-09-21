@@ -961,7 +961,6 @@ name|'instance'
 op|')'
 newline|'\n'
 name|'raise'
-name|'exn'
 newline|'\n'
 nl|'\n'
 DECL|member|_create_vm
