@@ -8263,6 +8263,8 @@ name|'lun_table'
 op|'['
 name|'name'
 op|']'
+op|'.'
+name|'handle'
 newline|'\n'
 nl|'\n'
 DECL|member|_create_dict_from_meta
