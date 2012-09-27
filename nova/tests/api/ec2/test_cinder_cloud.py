@@ -544,6 +544,11 @@ op|':'
 string|"'ami'"
 op|','
 nl|'\n'
+string|"'status'"
+op|':'
+string|"'active'"
+op|','
+nl|'\n'
 string|"'properties'"
 op|':'
 op|'{'
@@ -3742,6 +3747,11 @@ op|':'
 string|"'fake_name'"
 op|','
 nl|'\n'
+string|"'status'"
+op|':'
+string|"'active'"
+op|','
+nl|'\n'
 string|"'properties'"
 op|':'
 op|'{'
@@ -3817,6 +3827,11 @@ nl|'\n'
 string|"'name'"
 op|':'
 string|"'fake_name'"
+op|','
+nl|'\n'
+string|"'status'"
+op|':'
+string|"'active'"
 op|','
 nl|'\n'
 string|"'properties'"
