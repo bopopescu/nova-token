@@ -33,7 +33,7 @@ nl|'\n'
 comment|'#    under the License.'
 nl|'\n'
 nl|'\n'
-string|'"""\n:mod:`smoketests` -- Nova Integration "Smoke" Tests\n=====================================================\n\n.. automodule:: nova.volume\n   :platform: Unix\n.. moduleauthor:: Jesse Andrews <jesse@ansolabs.com>\n.. moduleauthor:: Devin Carlen <devin.carlen@gmail.com>\n.. moduleauthor:: Vishvananda Ishaya <vishvananda@yahoo.com>\n.. moduleauthor:: Joshua McKenty <joshua@cognition.ca>\n.. moduleauthor:: Manish Singh <yosh@gimp.org>\n.. moduleauthor:: Andy Smith <andy@anarkystic.com>\n"""'
+string|'"""\n:mod:`smoketests` -- Nova Integration "Smoke" Tests\n=====================================================\n\n.. automodule:: nova.volume\n   :platform: Unix\n"""'
 newline|'\n'
 endmarker|''
 end_unit
