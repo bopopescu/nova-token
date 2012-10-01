@@ -143,15 +143,6 @@ name|'conf'
 op|'.'
 name|'set_default'
 op|'('
-string|"'connection_type'"
-op|','
-string|"'fake'"
-op|')'
-newline|'\n'
-name|'conf'
-op|'.'
-name|'set_default'
-op|'('
 string|"'fake_network'"
 op|','
 name|'True'
