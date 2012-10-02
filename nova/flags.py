@@ -1723,12 +1723,6 @@ op|'('
 string|"'bandwidth_poll_interval'"
 op|','
 nl|'\n'
-DECL|variable|deprecated_name
-name|'deprecated_name'
-op|'='
-string|"'bandwith_poll_interval'"
-op|','
-nl|'\n'
 DECL|variable|default
 name|'default'
 op|'='
