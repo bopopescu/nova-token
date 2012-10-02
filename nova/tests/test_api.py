@@ -2969,7 +2969,7 @@ comment|'# Invalid protocol'
 nl|'\n'
 name|'_assert'
 op|'('
-string|"'An unknown error has occurred'"
+string|"'Invalid IP protocol'"
 op|','
 string|"'xyz'"
 op|','
