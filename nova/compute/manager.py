@@ -339,12 +339,6 @@ op|'('
 string|"'compute_driver'"
 op|','
 nl|'\n'
-DECL|variable|default
-name|'default'
-op|'='
-string|"'nova.virt.connection.get_connection'"
-op|','
-nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='

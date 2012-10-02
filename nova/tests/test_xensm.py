@@ -227,9 +227,9 @@ name|'self'
 op|'.'
 name|'flags'
 op|'('
-name|'connection_type'
+name|'compute_driver'
 op|'='
-string|"'xenapi'"
+string|"'xenapi.XenAPIDriver'"
 op|','
 nl|'\n'
 name|'xenapi_connection_url'

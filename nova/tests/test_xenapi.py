@@ -13827,14 +13827,9 @@ op|'='
 string|"'host'"
 op|','
 nl|'\n'
-name|'connection_type'
-op|'='
-string|"'xenapi'"
-op|','
-nl|'\n'
 name|'compute_driver'
 op|'='
-string|"'nova.virt.xenapi.driver.XenAPIDriver'"
+string|"'xenapi.XenAPIDriver'"
 op|')'
 newline|'\n'
 name|'host_ref'

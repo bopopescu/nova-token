@@ -278,28 +278,6 @@ name|'cfg'
 op|'.'
 name|'StrOpt'
 op|'('
-string|"'connection_type'"
-op|','
-nl|'\n'
-DECL|variable|default
-name|'default'
-op|'='
-name|'None'
-op|','
-nl|'\n'
-DECL|variable|help
-name|'help'
-op|'='
-string|"'Deprecated (use compute_driver instead): Virtualization '"
-nl|'\n'
-string|"'api connection type : libvirt, xenapi, or fake'"
-op|')'
-op|','
-nl|'\n'
-name|'cfg'
-op|'.'
-name|'StrOpt'
-op|'('
 string|"'sql_connection'"
 op|','
 nl|'\n'
