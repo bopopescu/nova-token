@@ -652,6 +652,23 @@ op|']'
 op|','
 number|'1'
 op|')'
+op|','
+nl|'\n'
+op|'('
+string|"'man/nova-conductor'"
+op|','
+string|"'nova-conductor'"
+op|','
+string|"u'Cloud controller fabric'"
+op|','
+nl|'\n'
+op|'['
+string|"u'OpenStack'"
+op|']'
+op|','
+number|'1'
+op|')'
+op|','
 nl|'\n'
 op|']'
 newline|'\n'
