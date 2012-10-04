@@ -2311,6 +2311,9 @@ string|"'min_ram'"
 op|','
 nl|'\n'
 string|"'min_disk'"
+op|','
+nl|'\n'
+string|"'bittorrent'"
 op|']'
 op|','
 nl|'\n'
