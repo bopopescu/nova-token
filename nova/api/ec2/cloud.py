@@ -6951,7 +6951,7 @@ op|'['
 string|"'attach_time'"
 op|']'
 name|'or'
-string|"'-'"
+string|"''"
 op|','
 nl|'\n'
 string|"'status'"
