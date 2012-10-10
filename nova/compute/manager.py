@@ -1015,7 +1015,7 @@ nl|'\n'
 DECL|variable|RPC_API_VERSION
 name|'RPC_API_VERSION'
 op|'='
-string|"'2.2'"
+string|"'2.3'"
 newline|'\n'
 nl|'\n'
 DECL|member|__init__
@@ -12056,6 +12056,8 @@ op|','
 name|'instance'
 op|','
 name|'device'
+op|','
+name|'volume_id'
 op|')'
 op|':'
 newline|'\n'
@@ -12106,6 +12108,11 @@ name|'instance'
 op|'['
 string|"'uuid'"
 op|']'
+op|','
+nl|'\n'
+string|"'volume_id'"
+op|':'
+name|'volume_id'
 op|','
 nl|'\n'
 string|"'device_name'"
