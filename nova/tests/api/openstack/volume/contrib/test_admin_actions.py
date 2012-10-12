@@ -63,6 +63,13 @@ name|'volume'
 op|'.'
 name|'APIRouter'
 op|'('
+name|'init_only'
+op|'='
+op|'('
+string|"'volumes'"
+op|','
+string|"'snapshots'"
+op|')'
 op|')'
 newline|'\n'
 name|'mapper'
