@@ -376,7 +376,9 @@ op|'['
 string|"'topic'"
 op|']'
 op|'=='
-string|"'compute'"
+name|'FLAGS'
+op|'.'
+name|'compute_topic'
 op|']'
 newline|'\n'
 name|'hosts'
