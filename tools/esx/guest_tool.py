@@ -2356,7 +2356,7 @@ nl|'\n'
 string|"'detail'"
 op|':'
 name|'network_detail'
-op|')'
+op|'}'
 op|')'
 newline|'\n'
 dedent|''
