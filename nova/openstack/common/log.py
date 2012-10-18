@@ -161,9 +161,9 @@ nl|'\n'
 DECL|variable|default
 name|'default'
 op|'='
-string|"'%(asctime)s %(levelname)s %(name)s [-] %(instance)s'"
+string|"'%(asctime)s %(process)d %(levelname)s %(name)s [-]'"
 nl|'\n'
-string|"'%(message)s'"
+string|"' %(instance)s%(message)s'"
 op|','
 nl|'\n'
 DECL|variable|help
@@ -183,9 +183,7 @@ nl|'\n'
 DECL|variable|default
 name|'default'
 op|'='
-string|"'from (pid=%(process)d) %(funcName)s '"
-nl|'\n'
-string|"'%(pathname)s:%(lineno)d'"
+string|"'%(funcName)s %(pathname)s:%(lineno)d'"
 op|','
 nl|'\n'
 DECL|variable|help
@@ -205,7 +203,7 @@ nl|'\n'
 DECL|variable|default
 name|'default'
 op|'='
-string|"'%(asctime)s TRACE %(name)s %(instance)s'"
+string|"'%(asctime)s %(process)d TRACE %(name)s %(instance)s'"
 op|','
 nl|'\n'
 DECL|variable|help
