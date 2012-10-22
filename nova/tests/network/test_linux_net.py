@@ -1202,6 +1202,7 @@ op|'['
 string|"'instance_uuid'"
 op|']'
 op|'=='
+nl|'\n'
 name|'instance_uuid'
 op|']'
 newline|'\n'
