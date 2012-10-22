@@ -113,6 +113,38 @@ op|'='
 string|"'http://www.openstack.org/'"
 op|','
 nl|'\n'
+DECL|variable|classifiers
+name|'classifiers'
+op|'='
+op|'['
+nl|'\n'
+string|"'Environment :: OpenStack'"
+op|','
+nl|'\n'
+string|"'Intended Audience :: Information Technology'"
+op|','
+nl|'\n'
+string|"'Intended Audience :: System Administrators'"
+op|','
+nl|'\n'
+string|"'License :: OSI Approved :: Apache Software License'"
+op|','
+nl|'\n'
+string|"'Operating System :: POSIX :: Linux'"
+op|','
+nl|'\n'
+string|"'Programming Language :: Python'"
+op|','
+nl|'\n'
+string|"'Programming Language :: Python :: 2'"
+op|','
+nl|'\n'
+string|"'Programming Language :: Python :: 2.7'"
+op|','
+nl|'\n'
+op|']'
+op|','
+nl|'\n'
 DECL|variable|cmdclass
 name|'cmdclass'
 op|'='
