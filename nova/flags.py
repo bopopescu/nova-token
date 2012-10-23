@@ -400,26 +400,6 @@ string|'"Top-level directory for maintaining nova\'s state"'
 op|')'
 op|','
 nl|'\n'
-name|'cfg'
-op|'.'
-name|'StrOpt'
-op|'('
-string|"'lock_path'"
-op|','
-nl|'\n'
-DECL|variable|default
-name|'default'
-op|'='
-string|"'$pybasedir'"
-op|','
-nl|'\n'
-DECL|variable|help
-name|'help'
-op|'='
-string|"'Directory to use for lock files'"
-op|')'
-op|','
-nl|'\n'
 op|']'
 newline|'\n'
 nl|'\n'
