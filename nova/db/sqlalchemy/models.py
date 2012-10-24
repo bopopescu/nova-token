@@ -152,15 +152,6 @@ newline|'\n'
 indent|'    '
 string|'"""Base class for Nova Models."""'
 newline|'\n'
-DECL|variable|__table_args__
-name|'__table_args__'
-op|'='
-op|'{'
-string|"'mysql_engine'"
-op|':'
-string|"'InnoDB'"
-op|'}'
-newline|'\n'
 DECL|variable|__table_initialized__
 name|'__table_initialized__'
 op|'='
@@ -3531,12 +3522,6 @@ op|','
 string|'"host"'
 op|')'
 op|','
-nl|'\n'
-op|'{'
-string|"'mysql_engine'"
-op|':'
-string|"'InnoDB'"
-op|'}'
 op|')'
 newline|'\n'
 DECL|variable|id
@@ -4285,12 +4270,6 @@ nl|'\n'
 string|'"vpn_public_port"'
 op|')'
 op|','
-nl|'\n'
-op|'{'
-string|"'mysql_engine'"
-op|':'
-string|"'InnoDB'"
-op|'}'
 op|')'
 newline|'\n'
 DECL|variable|id
