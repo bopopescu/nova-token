@@ -339,34 +339,6 @@ name|'cfg'
 op|'.'
 name|'StrOpt'
 op|'('
-string|"'xenapi_agent_path'"
-op|','
-nl|'\n'
-DECL|variable|default
-name|'default'
-op|'='
-string|"'usr/sbin/xe-update-networking'"
-op|','
-nl|'\n'
-DECL|variable|help
-name|'help'
-op|'='
-string|"'Specifies the path in which the xenapi guest agent '"
-nl|'\n'
-string|"'should be located. If the agent is present, network '"
-nl|'\n'
-string|"'configuration is not injected into the image. '"
-nl|'\n'
-string|"'Used if compute_driver=xenapi.XenAPIDriver and '"
-nl|'\n'
-string|"' flat_injected=True'"
-op|')'
-op|','
-nl|'\n'
-name|'cfg'
-op|'.'
-name|'StrOpt'
-op|'('
 string|"'xenapi_sr_base_path'"
 op|','
 nl|'\n'
