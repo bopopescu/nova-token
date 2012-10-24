@@ -431,22 +431,6 @@ op|')'
 op|','
 nl|'\n'
 op|'('
-string|"'man/nova-api-os-volume'"
-op|','
-string|"'nova-api-os-volume'"
-op|','
-nl|'\n'
-string|"u'Cloud controller fabric'"
-op|','
-op|'['
-string|"u'OpenStack'"
-op|']'
-op|','
-number|'1'
-op|')'
-op|','
-nl|'\n'
-op|'('
 string|"'man/nova-api'"
 op|','
 string|"'nova-api'"
@@ -642,38 +626,6 @@ op|'('
 string|"'man/nova-scheduler'"
 op|','
 string|"'nova-scheduler'"
-op|','
-string|"u'Cloud controller fabric'"
-op|','
-nl|'\n'
-op|'['
-string|"u'OpenStack'"
-op|']'
-op|','
-number|'1'
-op|')'
-op|','
-nl|'\n'
-op|'('
-string|"'man/nova-volume-usage-audit'"
-op|','
-string|"'nova-volume-usage-audit'"
-op|','
-string|"u'Cloud controller fabric'"
-op|','
-nl|'\n'
-op|'['
-string|"u'OpenStack'"
-op|']'
-op|','
-number|'1'
-op|')'
-op|','
-nl|'\n'
-op|'('
-string|"'man/nova-volume'"
-op|','
-string|"'nova-volume'"
 op|','
 string|"u'Cloud controller fabric'"
 op|','

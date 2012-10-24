@@ -209,9 +209,6 @@ nl|'\n'
 string|"'bin/nova-api-os-compute'"
 op|','
 nl|'\n'
-string|"'bin/nova-api-os-volume'"
-op|','
-nl|'\n'
 string|"'bin/nova-rpc-zmq-receiver'"
 op|','
 nl|'\n'
@@ -249,12 +246,6 @@ string|"'bin/nova-rootwrap'"
 op|','
 nl|'\n'
 string|"'bin/nova-scheduler'"
-op|','
-nl|'\n'
-string|"'bin/nova-volume'"
-op|','
-nl|'\n'
-string|"'bin/nova-volume-usage-audit'"
 op|','
 nl|'\n'
 string|"'bin/nova-xvpvncproxy'"
