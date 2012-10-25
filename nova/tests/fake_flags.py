@@ -242,15 +242,6 @@ name|'conf'
 op|'.'
 name|'set_default'
 op|'('
-string|"'api_paste_config'"
-op|','
-string|"'$state_path/etc/nova/api-paste.ini'"
-op|')'
-newline|'\n'
-name|'conf'
-op|'.'
-name|'set_default'
-op|'('
 string|"'rpc_response_timeout'"
 op|','
 number|'5'
