@@ -7762,6 +7762,8 @@ op|'=='
 string|"'backup'"
 name|'and'
 name|'rotation'
+op|'>='
+number|'0'
 op|':'
 newline|'\n'
 indent|'            '
