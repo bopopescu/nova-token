@@ -1056,7 +1056,7 @@ nl|'\n'
 DECL|variable|RPC_API_VERSION
 name|'RPC_API_VERSION'
 op|'='
-string|"'2.8'"
+string|"'2.9'"
 newline|'\n'
 nl|'\n'
 DECL|member|__init__
@@ -1870,7 +1870,7 @@ op|')'
 newline|'\n'
 name|'self'
 op|'.'
-name|'_publish_service_capabilities'
+name|'publish_service_capabilities'
 op|'('
 name|'context'
 op|')'
