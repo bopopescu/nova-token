@@ -205,6 +205,15 @@ nl|'\n'
 op|']'
 newline|'\n'
 nl|'\n'
+name|'flags'
+op|'.'
+name|'DECLARE'
+op|'('
+string|"'cnt_vpn_clients'"
+op|','
+string|"'nova.network.manager'"
+op|')'
+newline|'\n'
 DECL|variable|FLAGS
 name|'FLAGS'
 op|'='
