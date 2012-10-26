@@ -184,6 +184,9 @@ nl|'\n'
 string|"'nova.exception'"
 op|','
 nl|'\n'
+string|"'cinder.exception'"
+op|','
+nl|'\n'
 op|']'
 op|','
 nl|'\n'
@@ -193,26 +196,6 @@ op|'='
 string|"'Modules of exceptions that are permitted to be recreated'"
 nl|'\n'
 string|"'upon receiving exception data from an rpc call.'"
-op|')'
-op|','
-nl|'\n'
-name|'cfg'
-op|'.'
-name|'StrOpt'
-op|'('
-string|"'control_exchange'"
-op|','
-nl|'\n'
-DECL|variable|default
-name|'default'
-op|'='
-string|"'nova'"
-op|','
-nl|'\n'
-DECL|variable|help
-name|'help'
-op|'='
-string|"'AMQP exchange to connect to if using RabbitMQ or Qpid'"
 op|')'
 op|','
 nl|'\n'
@@ -235,6 +218,22 @@ op|'='
 string|"'If passed, use a fake RabbitMQ provider'"
 op|')'
 op|','
+nl|'\n'
+comment|'#'
+nl|'\n'
+comment|'# The following options are not registered here, but are expected to be'
+nl|'\n'
+comment|'# present. The project using this library must register these options with'
+nl|'\n'
+comment|'# the configuration so that project-specific defaults may be defined.'
+nl|'\n'
+comment|'#'
+nl|'\n'
+comment|"#cfg.StrOpt('control_exchange',"
+nl|'\n'
+comment|"#           default='nova',"
+nl|'\n'
+comment|"#           help='AMQP exchange to connect to if using RabbitMQ or Qpid'),"
 nl|'\n'
 op|']'
 newline|'\n'
