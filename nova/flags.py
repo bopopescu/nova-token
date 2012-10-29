@@ -808,26 +808,6 @@ name|'cfg'
 op|'.'
 name|'StrOpt'
 op|'('
-string|"'volume_topic'"
-op|','
-nl|'\n'
-DECL|variable|default
-name|'default'
-op|'='
-string|"'volume'"
-op|','
-nl|'\n'
-DECL|variable|help
-name|'help'
-op|'='
-string|"'the topic volume nodes listen on'"
-op|')'
-op|','
-nl|'\n'
-name|'cfg'
-op|'.'
-name|'StrOpt'
-op|'('
 string|"'network_topic'"
 op|','
 nl|'\n'
@@ -878,8 +858,6 @@ op|'['
 string|"'ec2'"
 op|','
 string|"'osapi_compute'"
-op|','
-string|"'osapi_volume'"
 op|','
 string|"'metadata'"
 op|']'
@@ -1040,55 +1018,6 @@ DECL|variable|help
 name|'help'
 op|'='
 string|"'osapi compute extension to load'"
-op|')'
-op|','
-nl|'\n'
-name|'cfg'
-op|'.'
-name|'ListOpt'
-op|'('
-string|"'osapi_volume_ext_list'"
-op|','
-nl|'\n'
-DECL|variable|default
-name|'default'
-op|'='
-op|'['
-op|']'
-op|','
-nl|'\n'
-DECL|variable|help
-name|'help'
-op|'='
-string|"'Specify list of extensions to load when using osapi_'"
-nl|'\n'
-string|"'volume_extension option with nova.api.openstack.'"
-nl|'\n'
-string|"'volume.contrib.select_extensions'"
-op|')'
-op|','
-nl|'\n'
-name|'cfg'
-op|'.'
-name|'MultiStrOpt'
-op|'('
-string|"'osapi_volume_extension'"
-op|','
-nl|'\n'
-DECL|variable|default
-name|'default'
-op|'='
-op|'['
-nl|'\n'
-string|"'nova.api.openstack.volume.contrib.standard_extensions'"
-nl|'\n'
-op|']'
-op|','
-nl|'\n'
-DECL|variable|help
-name|'help'
-op|'='
-string|"'osapi volume extension to load'"
 op|')'
 op|','
 nl|'\n'
@@ -1559,26 +1488,6 @@ DECL|variable|help
 name|'help'
 op|'='
 string|"'full class name for the Manager for network'"
-op|')'
-op|','
-nl|'\n'
-name|'cfg'
-op|'.'
-name|'StrOpt'
-op|'('
-string|"'volume_manager'"
-op|','
-nl|'\n'
-DECL|variable|default
-name|'default'
-op|'='
-string|"'nova.volume.manager.VolumeManager'"
-op|','
-nl|'\n'
-DECL|variable|help
-name|'help'
-op|'='
-string|"'full class name for the Manager for volume'"
 op|')'
 op|','
 nl|'\n'
@@ -2171,7 +2080,7 @@ nl|'\n'
 DECL|variable|default
 name|'default'
 op|'='
-string|"'nova.volume.api.API'"
+string|"'nova.volume.cinder.API'"
 op|','
 nl|'\n'
 DECL|variable|help
