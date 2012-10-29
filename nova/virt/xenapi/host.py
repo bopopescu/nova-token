@@ -569,7 +569,7 @@ op|']'
 op|','
 nl|'\n'
 op|'{'
-string|"'hosts'"
+string|"'host'"
 op|':'
 name|'host'
 op|','
