@@ -4988,6 +4988,9 @@ dedent|''
 name|'cmd'
 op|'='
 op|'['
+string|"'env'"
+op|','
+nl|'\n'
 string|"'FLAGFILE=%s'"
 op|'%'
 name|'FLAGS'
