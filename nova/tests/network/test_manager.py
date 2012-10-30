@@ -5054,6 +5054,11 @@ op|':'
 string|"'nova'"
 op|','
 nl|'\n'
+string|"'instance_uuid'"
+op|':'
+name|'FAKEUUID'
+op|','
+nl|'\n'
 string|"'interface'"
 op|':'
 string|"'eth0'"
@@ -5254,6 +5259,13 @@ name|'_associate_floating_ip'
 op|','
 nl|'\n'
 name|'ctxt'
+op|','
+nl|'\n'
+name|'mox'
+op|'.'
+name|'IgnoreArg'
+op|'('
+op|')'
 op|','
 nl|'\n'
 name|'mox'
@@ -6105,6 +6117,11 @@ nl|'\n'
 string|"'pool'"
 op|':'
 string|"'nova'"
+op|','
+nl|'\n'
+string|"'instance_uuid'"
+op|':'
+name|'FAKEUUID'
 op|','
 nl|'\n'
 string|"'interface'"
