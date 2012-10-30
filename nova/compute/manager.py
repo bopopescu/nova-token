@@ -345,26 +345,6 @@ name|'cfg'
 op|'.'
 name|'StrOpt'
 op|'('
-string|"'compute_driver'"
-op|','
-nl|'\n'
-DECL|variable|help
-name|'help'
-op|'='
-string|"'Driver to use for controlling virtualization. Options '"
-nl|'\n'
-string|"'include: libvirt.LibvirtDriver, xenapi.XenAPIDriver, '"
-nl|'\n'
-string|"'fake.FakeDriver, baremetal.BareMetalDriver, '"
-nl|'\n'
-string|"'vmwareapi.VMWareESXDriver'"
-op|')'
-op|','
-nl|'\n'
-name|'cfg'
-op|'.'
-name|'StrOpt'
-op|'('
 string|"'console_host'"
 op|','
 nl|'\n'
