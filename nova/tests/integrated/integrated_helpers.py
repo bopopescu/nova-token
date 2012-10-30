@@ -356,7 +356,7 @@ name|'self'
 op|'.'
 name|'flags'
 op|'('
-name|'compute_scheduler_driver'
+name|'scheduler_driver'
 op|'='
 string|"'nova.scheduler.'"
 nl|'\n'
