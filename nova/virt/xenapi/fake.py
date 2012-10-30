@@ -1118,6 +1118,15 @@ op|'['
 op|']'
 op|')'
 newline|'\n'
+name|'vm_rec'
+op|'.'
+name|'setdefault'
+op|'('
+string|"'resident_on'"
+op|','
+string|"''"
+op|')'
+newline|'\n'
 nl|'\n'
 nl|'\n'
 DECL|function|create_pbd
