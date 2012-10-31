@@ -2701,7 +2701,7 @@ op|','
 nl|'\n'
 name|'key'
 op|'='
-string|"'volumes'"
+string|"'instances'"
 op|','
 nl|'\n'
 name|'value'
@@ -2733,7 +2733,7 @@ op|'.'
 name|'assertEquals'
 op|'('
 op|'('
-string|"'volumes: unlimited'"
+string|"'instances: unlimited'"
 name|'in'
 name|'result'
 op|')'
