@@ -338,6 +338,8 @@ indent|'        '
 name|'usercmd'
 op|'='
 op|'['
+string|"'env'"
+op|','
 string|"'FLAGFILE=A'"
 op|','
 string|"'NETWORK_ID=foobar'"
