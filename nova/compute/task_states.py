@@ -165,6 +165,10 @@ op|'='
 string|"'resuming'"
 newline|'\n'
 nl|'\n'
+comment|'# NOTE(johannes): STOPPING and STARTING need to stick around for the'
+nl|'\n'
+comment|'# grizzly release for compatibility, but can be removed afterwards.'
+nl|'\n'
 comment|'# possible task states during stop()'
 nl|'\n'
 DECL|variable|STOPPING
@@ -181,7 +185,7 @@ op|'='
 string|"'starting'"
 newline|'\n'
 nl|'\n'
-comment|'# possible task states during soft_delete()'
+comment|'# possible task states during power_off()'
 nl|'\n'
 DECL|variable|POWERING_OFF
 name|'POWERING_OFF'
@@ -189,7 +193,7 @@ op|'='
 string|"'powering-off'"
 newline|'\n'
 nl|'\n'
-comment|'# possible task states during restore()'
+comment|'# possible task states during power_on()'
 nl|'\n'
 DECL|variable|POWERING_ON
 name|'POWERING_ON'
@@ -245,6 +249,22 @@ DECL|variable|DELETING
 name|'DELETING'
 op|'='
 string|"'deleting'"
+newline|'\n'
+nl|'\n'
+comment|'# possible task states during soft_delete()'
+nl|'\n'
+DECL|variable|SOFT_DELETING
+name|'SOFT_DELETING'
+op|'='
+string|"'soft-deleting'"
+newline|'\n'
+nl|'\n'
+comment|'# possible task states during restore()'
+nl|'\n'
+DECL|variable|RESTORING
+name|'RESTORING'
+op|'='
+string|"'restoring'"
 newline|'\n'
 endmarker|''
 end_unit
