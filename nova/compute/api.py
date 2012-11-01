@@ -8207,7 +8207,7 @@ string|"'mount_device'"
 op|':'
 name|'bdm'
 op|'['
-string|"'volume_id'"
+string|"'device_name'"
 op|']'
 op|','
 nl|'\n'
