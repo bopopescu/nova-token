@@ -51,9 +51,9 @@ name|'flags'
 op|'.'
 name|'DECLARE'
 op|'('
-string|"'compute_scheduler_driver'"
+string|"'scheduler_driver'"
 op|','
-string|"'nova.scheduler.multi'"
+string|"'nova.scheduler.manager'"
 op|')'
 newline|'\n'
 name|'flags'
