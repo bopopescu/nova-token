@@ -20037,7 +20037,7 @@ name|'options'
 op|'('
 name|'joinedload_all'
 op|'('
-string|"'rules'"
+string|"'rules.grantee_group'"
 op|')'
 op|')'
 newline|'\n'
@@ -20373,7 +20373,7 @@ op|'='
 op|'['
 string|"'instances'"
 op|','
-string|"'rules'"
+string|"'rules.grantee_group'"
 op|']'
 newline|'\n'
 nl|'\n'
