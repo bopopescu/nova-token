@@ -10841,6 +10841,23 @@ op|'}'
 op|')'
 newline|'\n'
 nl|'\n'
+comment|"# NOTE(danms): because we're stubbing out the instance_types from"
+nl|'\n'
+comment|"# the database, our instance['instance_type'] doesn't get properly"
+nl|'\n'
+comment|'# filled out here, so put what we need into it'
+nl|'\n'
+name|'instance'
+op|'['
+string|"'instance_type'"
+op|']'
+op|'['
+string|"'swap'"
+op|']'
+op|'='
+number|'1024'
+newline|'\n'
+nl|'\n'
 DECL|function|fake_generate_swap
 name|'def'
 name|'fake_generate_swap'
@@ -10932,6 +10949,23 @@ op|':'
 number|'4'
 op|'}'
 op|')'
+newline|'\n'
+nl|'\n'
+comment|"# NOTE(danms): because we're stubbing out the instance_types from"
+nl|'\n'
+comment|"# the database, our instance['instance_type'] doesn't get properly"
+nl|'\n'
+comment|'# filled out here, so put what we need into it'
+nl|'\n'
+name|'instance'
+op|'['
+string|"'instance_type'"
+op|']'
+op|'['
+string|"'ephemeral_gb'"
+op|']'
+op|'='
+number|'160'
 newline|'\n'
 nl|'\n'
 DECL|function|fake_generate_ephemeral
