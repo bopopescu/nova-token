@@ -1375,7 +1375,7 @@ string|'"""Return the host from the xenapi host reference.\n\n    :param src: th
 newline|'\n'
 comment|'# NOTE: this would be a lot simpler if nova-compute stored'
 nl|'\n'
-comment|"# FLAGS.host in the XenServer host's other-config map."
+comment|"# CONF.host in the XenServer host's other-config map."
 nl|'\n'
 comment|'# TODO(armando-migliaccio): improve according the note above'
 nl|'\n'
