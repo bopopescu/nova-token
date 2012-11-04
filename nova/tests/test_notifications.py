@@ -146,13 +146,6 @@ op|'('
 name|'__name__'
 op|')'
 newline|'\n'
-DECL|variable|FLAGS
-name|'FLAGS'
-op|'='
-name|'flags'
-op|'.'
-name|'FLAGS'
-newline|'\n'
 nl|'\n'
 nl|'\n'
 DECL|class|NotificationsTestCase
