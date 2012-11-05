@@ -2143,7 +2143,7 @@ op|','
 nl|'\n'
 name|'project_only'
 op|'='
-name|'True'
+string|"'allow_none'"
 op|')'
 newline|'\n'
 name|'return'
