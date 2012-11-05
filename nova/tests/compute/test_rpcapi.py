@@ -1910,9 +1910,13 @@ op|','
 string|"'cast'"
 op|','
 nl|'\n'
-name|'aggregate_id'
+name|'aggregate'
 op|'='
+op|'{'
 string|"'id'"
+op|':'
+string|"'fake_id'"
+op|'}'
 op|','
 name|'host_param'
 op|'='
@@ -1930,7 +1934,7 @@ op|'}'
 op|','
 name|'version'
 op|'='
-string|"'2.2'"
+string|"'2.15'"
 op|')'
 newline|'\n'
 nl|'\n'
