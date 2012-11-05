@@ -716,11 +716,9 @@ name|'self'
 op|'.'
 name|'flags'
 op|'('
-name|'compute_scheduler_driver'
+name|'scheduler_driver'
 op|'='
-string|"'nova.scheduler.'"
-nl|'\n'
-string|"'chance.ChanceScheduler'"
+string|"'nova.scheduler.chance.ChanceScheduler'"
 op|')'
 newline|'\n'
 nl|'\n'
