@@ -607,11 +607,15 @@ string|"'add_aggregate_host'"
 op|','
 string|"'cast'"
 op|','
-name|'aggregate_id'
-op|'='
-string|"'id'"
-op|','
 nl|'\n'
+name|'aggregate'
+op|'='
+op|'{'
+string|"'id'"
+op|':'
+string|"'fake_id'"
+op|'}'
+op|','
 name|'host_param'
 op|'='
 string|"'host'"
@@ -620,6 +624,7 @@ name|'host'
 op|'='
 string|"'host'"
 op|','
+nl|'\n'
 name|'slave_info'
 op|'='
 op|'{'
@@ -627,7 +632,7 @@ op|'}'
 op|','
 name|'version'
 op|'='
-string|"'2.2'"
+string|"'2.14'"
 op|')'
 newline|'\n'
 nl|'\n'
