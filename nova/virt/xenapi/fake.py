@@ -3739,6 +3739,13 @@ string|"'free-computed'"
 op|':'
 number|'40'
 op|'}'
+op|','
+nl|'\n'
+string|"'host_hostname'"
+op|':'
+string|"'fake-xenhost'"
+op|','
+nl|'\n'
 op|'}'
 op|')'
 newline|'\n'

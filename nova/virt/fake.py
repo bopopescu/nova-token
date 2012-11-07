@@ -291,6 +291,13 @@ nl|'\n'
 string|"'host_name_label'"
 op|':'
 string|"'fake-mini'"
+op|','
+nl|'\n'
+string|"'hypervisor_hostname'"
+op|':'
+string|"'fake-mini'"
+op|','
+nl|'\n'
 op|'}'
 newline|'\n'
 name|'self'
@@ -1437,6 +1444,11 @@ nl|'\n'
 string|"'hypervisor_version'"
 op|':'
 string|"'1.0'"
+op|','
+nl|'\n'
+string|"'hypervisor_hostname'"
+op|':'
+string|"'fake-mini'"
 op|','
 nl|'\n'
 string|"'cpu_info'"

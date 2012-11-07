@@ -1077,6 +1077,16 @@ string|"'host_memory'"
 op|']'
 newline|'\n'
 dedent|''
+name|'data'
+op|'['
+string|"'hypervisor_hostname'"
+op|']'
+op|'='
+name|'data'
+op|'['
+string|"'host_hostname'"
+op|']'
+newline|'\n'
 name|'self'
 op|'.'
 name|'_stats'
