@@ -1320,6 +1320,12 @@ name|'expected'
 op|'%'
 name|'subs'
 newline|'\n'
+name|'expected'
+op|'='
+string|"'^%s$'"
+op|'%'
+name|'expected'
+newline|'\n'
 name|'match'
 op|'='
 name|'re'
@@ -1631,7 +1637,7 @@ op|','
 nl|'\n'
 string|"'ip6'"
 op|':'
-string|"'([0-9a-zA-Z]{1,4}:){1,7}:?[0-9a-zA-Z]'"
+string|"'([0-9a-zA-Z]{1,4}:){1,7}:?[0-9a-zA-Z]{1,4}'"
 op|','
 nl|'\n'
 string|"'id'"
