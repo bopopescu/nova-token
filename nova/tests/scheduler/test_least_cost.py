@@ -207,9 +207,6 @@ op|'.'
 name|'get_all_host_states'
 op|'('
 name|'ctxt'
-op|','
-nl|'\n'
-string|"'compute'"
 op|')'
 newline|'\n'
 name|'self'
@@ -495,8 +492,6 @@ op|'.'
 name|'HostState'
 op|'('
 string|"'somehost'"
-op|','
-string|"'sometopic'"
 op|')'
 newline|'\n'
 name|'host'
