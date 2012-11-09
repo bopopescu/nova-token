@@ -209,6 +209,9 @@ nl|'\n'
 string|"'bin/nova-api-os-compute'"
 op|','
 nl|'\n'
+string|"'bin/nova-baremetal-deploy-helper'"
+op|','
+nl|'\n'
 string|"'bin/nova-rpc-zmq-receiver'"
 op|','
 nl|'\n'
