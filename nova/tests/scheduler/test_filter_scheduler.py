@@ -1243,6 +1243,8 @@ op|'.'
 name|'HostState'
 op|'('
 string|"'host2'"
+op|','
+string|"'node2'"
 op|')'
 newline|'\n'
 name|'return'
@@ -1437,6 +1439,8 @@ op|'.'
 name|'HostState'
 op|'('
 string|"'host'"
+op|','
+string|"'node'"
 op|')'
 newline|'\n'
 name|'hostinfo'
@@ -2110,6 +2114,8 @@ op|'.'
 name|'HostState'
 op|'('
 string|"'host'"
+op|','
+string|"'node'"
 op|')'
 newline|'\n'
 name|'host_state'
@@ -2274,6 +2280,8 @@ op|'.'
 name|'FakeHostState'
 op|'('
 string|"'host'"
+op|','
+string|"'node'"
 op|','
 op|'{'
 op|'}'

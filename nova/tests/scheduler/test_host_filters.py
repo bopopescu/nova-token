@@ -1513,6 +1513,8 @@ name|'FakeHostState'
 op|'('
 string|"'host1'"
 op|','
+string|"'node1'"
+op|','
 op|'{'
 op|'}'
 op|')'
@@ -1600,6 +1602,8 @@ op|'.'
 name|'FakeHostState'
 op|'('
 string|"'host1'"
+op|','
+string|"'node1'"
 op|','
 op|'{'
 op|'}'
@@ -1706,6 +1710,8 @@ name|'FakeHostState'
 op|'('
 string|"'host1'"
 op|','
+string|"'node1'"
+op|','
 op|'{'
 op|'}'
 op|')'
@@ -1807,6 +1813,8 @@ op|'.'
 name|'FakeHostState'
 op|'('
 string|"'host1'"
+op|','
+string|"'node1'"
 op|','
 op|'{'
 op|'}'
@@ -1913,10 +1921,41 @@ name|'FakeHostState'
 op|'('
 string|"'host1'"
 op|','
+string|"'node1'"
+op|','
 op|'{'
 op|'}'
 op|')'
 newline|'\n'
+name|'instance'
+op|'='
+name|'fakes'
+op|'.'
+name|'FakeInstance'
+op|'('
+name|'context'
+op|'='
+name|'self'
+op|'.'
+name|'context'
+op|','
+nl|'\n'
+name|'params'
+op|'='
+op|'{'
+string|"'host'"
+op|':'
+string|"'host2'"
+op|'}'
+op|')'
+newline|'\n'
+name|'instance_uuid'
+op|'='
+name|'instance'
+op|'.'
+name|'uuid'
+newline|'\n'
+nl|'\n'
 name|'filter_properties'
 op|'='
 op|'{'
@@ -1980,6 +2019,8 @@ op|'.'
 name|'FakeHostState'
 op|'('
 string|"'host1'"
+op|','
+string|"'node1'"
 op|','
 op|'{'
 op|'}'
@@ -2082,6 +2123,8 @@ op|'.'
 name|'FakeHostState'
 op|'('
 string|"'host1'"
+op|','
+string|"'node1'"
 op|','
 op|'{'
 op|'}'
@@ -2188,6 +2231,8 @@ name|'FakeHostState'
 op|'('
 string|"'host1'"
 op|','
+string|"'node1'"
+op|','
 op|'{'
 op|'}'
 op|')'
@@ -2293,10 +2338,41 @@ name|'FakeHostState'
 op|'('
 string|"'host1'"
 op|','
+string|"'node1'"
+op|','
 op|'{'
 op|'}'
 op|')'
 newline|'\n'
+name|'instance'
+op|'='
+name|'fakes'
+op|'.'
+name|'FakeInstance'
+op|'('
+name|'context'
+op|'='
+name|'self'
+op|'.'
+name|'context'
+op|','
+nl|'\n'
+name|'params'
+op|'='
+op|'{'
+string|"'host'"
+op|':'
+string|"'host2'"
+op|'}'
+op|')'
+newline|'\n'
+name|'instance_uuid'
+op|'='
+name|'instance'
+op|'.'
+name|'uuid'
+newline|'\n'
+nl|'\n'
 name|'filter_properties'
 op|'='
 op|'{'
@@ -2360,6 +2436,8 @@ op|'.'
 name|'FakeHostState'
 op|'('
 string|"'host1'"
+op|','
+string|"'node1'"
 op|','
 op|'{'
 op|'}'
@@ -2455,6 +2533,8 @@ name|'FakeHostState'
 op|'('
 string|"'host1'"
 op|','
+string|"'node1'"
+op|','
 op|'{'
 op|'}'
 op|')'
@@ -2548,6 +2628,8 @@ op|'.'
 name|'FakeHostState'
 op|'('
 string|"'host1'"
+op|','
+string|"'node1'"
 op|','
 op|'{'
 op|'}'
@@ -2690,6 +2772,8 @@ name|'FakeHostState'
 op|'('
 string|"'host1'"
 op|','
+string|"'node1'"
+op|','
 nl|'\n'
 op|'{'
 string|"'free_ram_mb'"
@@ -2813,6 +2897,8 @@ op|'.'
 name|'FakeHostState'
 op|'('
 string|"'fake_host'"
+op|','
+string|"'fake_node'"
 op|','
 nl|'\n'
 op|'{'
@@ -3031,6 +3117,8 @@ name|'FakeHostState'
 op|'('
 string|"'fake_host'"
 op|','
+string|"'fake_node'"
+op|','
 nl|'\n'
 op|'{'
 string|"'capabilities'"
@@ -3190,6 +3278,8 @@ name|'FakeHostState'
 op|'('
 string|"'host1'"
 op|','
+string|"'node1'"
+op|','
 nl|'\n'
 op|'{'
 string|"'free_ram_mb'"
@@ -3299,6 +3389,8 @@ name|'FakeHostState'
 op|'('
 string|"'host1'"
 op|','
+string|"'node1'"
+op|','
 nl|'\n'
 op|'{'
 string|"'free_ram_mb'"
@@ -3407,6 +3499,8 @@ op|'.'
 name|'FakeHostState'
 op|'('
 string|"'host1'"
+op|','
+string|"'node1'"
 op|','
 nl|'\n'
 op|'{'
@@ -3539,6 +3633,8 @@ name|'FakeHostState'
 op|'('
 string|"'host1'"
 op|','
+string|"'node1'"
+op|','
 nl|'\n'
 op|'{'
 string|"'free_disk_mb'"
@@ -3654,6 +3750,8 @@ op|'.'
 name|'FakeHostState'
 op|'('
 string|"'host1'"
+op|','
+string|"'node1'"
 op|','
 nl|'\n'
 op|'{'
@@ -3772,6 +3870,8 @@ op|'.'
 name|'FakeHostState'
 op|'('
 string|"'host1'"
+op|','
+string|"'node1'"
 op|','
 nl|'\n'
 op|'{'
@@ -3907,6 +4007,8 @@ name|'FakeHostState'
 op|'('
 string|"'host1'"
 op|','
+string|"'node1'"
+op|','
 nl|'\n'
 op|'{'
 string|"'free_disk_mb'"
@@ -4009,6 +4111,8 @@ name|'FakeHostState'
 op|'('
 string|"'host1'"
 op|','
+string|"'node1'"
+op|','
 nl|'\n'
 op|'{'
 string|"'free_ram_mb'"
@@ -4104,6 +4208,8 @@ op|'.'
 name|'FakeHostState'
 op|'('
 string|"'host1'"
+op|','
+string|"'node1'"
 op|','
 nl|'\n'
 op|'{'
@@ -4201,6 +4307,8 @@ name|'FakeHostState'
 op|'('
 string|"'host1'"
 op|','
+string|"'node1'"
+op|','
 nl|'\n'
 op|'{'
 string|"'free_ram_mb'"
@@ -4289,6 +4397,8 @@ op|'.'
 name|'FakeHostState'
 op|'('
 string|"'host1'"
+op|','
+string|"'node1'"
 op|','
 nl|'\n'
 op|'{'
@@ -4414,6 +4524,8 @@ name|'FakeHostState'
 op|'('
 string|"'host1'"
 op|','
+string|"'node1'"
+op|','
 nl|'\n'
 op|'{'
 string|"'capabilities'"
@@ -4529,6 +4641,8 @@ name|'FakeHostState'
 op|'('
 string|"'host1'"
 op|','
+string|"'node1'"
+op|','
 nl|'\n'
 op|'{'
 string|"'capabilities'"
@@ -4638,6 +4752,8 @@ op|'.'
 name|'FakeHostState'
 op|'('
 string|"'host1'"
+op|','
+string|"'node1'"
 op|','
 nl|'\n'
 op|'{'
@@ -4749,6 +4865,8 @@ name|'FakeHostState'
 op|'('
 string|"'host1'"
 op|','
+string|"'node1'"
+op|','
 nl|'\n'
 op|'{'
 string|"'capabilities'"
@@ -4838,6 +4956,8 @@ op|'.'
 name|'FakeHostState'
 op|'('
 string|"'host1'"
+op|','
+string|"'node1'"
 op|','
 nl|'\n'
 op|'{'
@@ -4939,6 +5059,8 @@ op|'.'
 name|'FakeHostState'
 op|'('
 string|"'host1'"
+op|','
+string|"'node1'"
 op|','
 nl|'\n'
 op|'{'
@@ -5044,6 +5166,8 @@ op|'.'
 name|'FakeHostState'
 op|'('
 string|"'host1'"
+op|','
+string|"'node1'"
 op|','
 nl|'\n'
 op|'{'
@@ -5261,6 +5385,8 @@ name|'FakeHostState'
 op|'('
 string|"'host1'"
 op|','
+string|"'node1'"
+op|','
 nl|'\n'
 op|'{'
 string|"'capabilities'"
@@ -5452,6 +5578,9 @@ name|'FakeHostState'
 op|'('
 string|"'host1'"
 op|','
+string|"'node1'"
+op|','
+nl|'\n'
 op|'{'
 string|"'free_ram_mb'"
 op|':'
@@ -5593,6 +5722,9 @@ name|'FakeHostState'
 op|'('
 string|"'host1'"
 op|','
+string|"'node1'"
+op|','
+nl|'\n'
 op|'{'
 string|"'free_ram_mb'"
 op|':'
@@ -5804,6 +5936,8 @@ name|'FakeHostState'
 op|'('
 string|"'non-isolated'"
 op|','
+string|"'node'"
+op|','
 op|'{'
 op|'}'
 op|')'
@@ -5888,6 +6022,8 @@ op|'.'
 name|'FakeHostState'
 op|'('
 string|"'isolated'"
+op|','
+string|"'node'"
 op|','
 op|'{'
 op|'}'
@@ -5974,6 +6110,8 @@ name|'FakeHostState'
 op|'('
 string|"'isolated'"
 op|','
+string|"'node'"
+op|','
 op|'{'
 op|'}'
 op|')'
@@ -6058,6 +6196,8 @@ op|'.'
 name|'FakeHostState'
 op|'('
 string|"'non-isolated'"
+op|','
+string|"'node'"
 op|','
 op|'{'
 op|'}'
@@ -6147,6 +6287,8 @@ op|'.'
 name|'FakeHostState'
 op|'('
 string|"'host1'"
+op|','
+string|"'node1'"
 op|','
 nl|'\n'
 op|'{'
@@ -6241,6 +6383,8 @@ op|'.'
 name|'FakeHostState'
 op|'('
 string|"'host1'"
+op|','
+string|"'node1'"
 op|','
 nl|'\n'
 op|'{'
@@ -6344,6 +6488,8 @@ op|'.'
 name|'FakeHostState'
 op|'('
 string|"'host1'"
+op|','
+string|"'node1'"
 op|','
 nl|'\n'
 op|'{'
@@ -6449,6 +6595,8 @@ op|'.'
 name|'FakeHostState'
 op|'('
 string|"'host1'"
+op|','
+string|"'node1'"
 op|','
 nl|'\n'
 op|'{'
@@ -6590,6 +6738,8 @@ op|'.'
 name|'FakeHostState'
 op|'('
 string|"'host1'"
+op|','
+string|"'node1'"
 op|','
 nl|'\n'
 op|'{'
@@ -6734,6 +6884,8 @@ op|'.'
 name|'FakeHostState'
 op|'('
 string|"'host1'"
+op|','
+string|"'node1'"
 op|','
 nl|'\n'
 op|'{'
@@ -6916,6 +7068,8 @@ name|'FakeHostState'
 op|'('
 string|"'host1'"
 op|','
+string|"'node1'"
+op|','
 nl|'\n'
 op|'{'
 string|"'free_ram_mb'"
@@ -6983,6 +7137,8 @@ op|'.'
 name|'FakeHostState'
 op|'('
 string|"'host1'"
+op|','
+string|"'node1'"
 op|','
 nl|'\n'
 op|'{'
@@ -7052,6 +7208,8 @@ name|'FakeHostState'
 op|'('
 string|"'host1'"
 op|','
+string|"'node1'"
+op|','
 nl|'\n'
 op|'{'
 string|"'free_ram_mb'"
@@ -7119,6 +7277,8 @@ op|'.'
 name|'FakeHostState'
 op|'('
 string|"'host1'"
+op|','
+string|"'node1'"
 op|','
 nl|'\n'
 op|'{'
@@ -7188,6 +7348,8 @@ name|'FakeHostState'
 op|'('
 string|"'host1'"
 op|','
+string|"'node1'"
+op|','
 nl|'\n'
 op|'{'
 string|"'free_ram_mb'"
@@ -7256,6 +7418,8 @@ name|'FakeHostState'
 op|'('
 string|"'host1'"
 op|','
+string|"'node1'"
+op|','
 nl|'\n'
 op|'{'
 string|"'free_ram_mb'"
@@ -7322,6 +7486,8 @@ op|'.'
 name|'FakeHostState'
 op|'('
 string|"'host1'"
+op|','
+string|"'node1'"
 op|','
 nl|'\n'
 op|'{'
@@ -7920,6 +8086,8 @@ name|'FakeHostState'
 op|'('
 string|"'host1'"
 op|','
+string|"'node1'"
+op|','
 nl|'\n'
 op|'{'
 string|"'capabilities'"
@@ -7977,6 +8145,8 @@ op|'.'
 name|'FakeHostState'
 op|'('
 string|"'host1'"
+op|','
+string|"'node1'"
 op|','
 nl|'\n'
 op|'{'
@@ -8104,6 +8274,8 @@ op|'.'
 name|'FakeHostState'
 op|'('
 string|"'host1'"
+op|','
+string|"'node1'"
 op|','
 nl|'\n'
 op|'{'
@@ -8266,6 +8438,8 @@ name|'FakeHostState'
 op|'('
 string|"'host1'"
 op|','
+string|"'node1'"
+op|','
 nl|'\n'
 op|'{'
 string|"'capabilities'"
@@ -8427,6 +8601,8 @@ name|'FakeHostState'
 op|'('
 string|"'host1'"
 op|','
+string|"'node1'"
+op|','
 op|'{'
 op|'}'
 op|')'
@@ -8513,6 +8689,8 @@ op|'.'
 name|'FakeHostState'
 op|'('
 string|"'host1'"
+op|','
+string|"'node1'"
 op|','
 op|'{'
 op|'}'
@@ -8601,6 +8779,8 @@ name|'FakeHostState'
 op|'('
 string|"'host1'"
 op|','
+string|"'node1'"
+op|','
 op|'{'
 op|'}'
 op|')'
@@ -8687,6 +8867,8 @@ op|'.'
 name|'FakeHostState'
 op|'('
 string|"'host1'"
+op|','
+string|"'node1'"
 op|','
 op|'{'
 op|'}'
@@ -8775,6 +8957,8 @@ name|'FakeHostState'
 op|'('
 string|"'host1'"
 op|','
+string|"'node1'"
+op|','
 op|'{'
 op|'}'
 op|')'
@@ -8844,6 +9028,8 @@ name|'FakeHostState'
 op|'('
 string|"'host1'"
 op|','
+string|"'node1'"
+op|','
 nl|'\n'
 op|'{'
 string|"'vcpus_total'"
@@ -8911,6 +9097,8 @@ op|'.'
 name|'FakeHostState'
 op|'('
 string|"'host1'"
+op|','
+string|"'node1'"
 op|','
 op|'{'
 op|'}'
@@ -8980,6 +9168,8 @@ op|'.'
 name|'FakeHostState'
 op|'('
 string|"'host1'"
+op|','
+string|"'node1'"
 op|','
 nl|'\n'
 op|'{'
@@ -9113,6 +9303,9 @@ name|'FakeHostState'
 op|'('
 string|"'host1'"
 op|','
+string|"'node1'"
+op|','
+nl|'\n'
 op|'{'
 string|"'service'"
 op|':'
@@ -9181,6 +9374,9 @@ name|'FakeHostState'
 op|'('
 string|"'host1'"
 op|','
+string|"'node1'"
+op|','
+nl|'\n'
 op|'{'
 string|"'service'"
 op|':'
@@ -9233,6 +9429,8 @@ op|'.'
 name|'FakeHostState'
 op|'('
 string|"'host1'"
+op|','
+string|"'node1'"
 op|','
 op|'{'
 op|'}'
@@ -9288,6 +9486,8 @@ op|'.'
 name|'FakeHostState'
 op|'('
 string|"'host1'"
+op|','
+string|"'node1'"
 op|','
 op|'{'
 op|'}'
@@ -9364,6 +9564,8 @@ op|'.'
 name|'FakeHostState'
 op|'('
 string|"'host1'"
+op|','
+string|"'node1'"
 op|','
 op|'{'
 op|'}'
@@ -9448,6 +9650,9 @@ name|'FakeHostState'
 op|'('
 string|"'host1'"
 op|','
+string|"'node1'"
+op|','
+nl|'\n'
 op|'{'
 string|"'num_io_ops'"
 op|':'
@@ -9513,6 +9718,9 @@ name|'FakeHostState'
 op|'('
 string|"'host1'"
 op|','
+string|"'node1'"
+op|','
+nl|'\n'
 op|'{'
 string|"'num_io_ops'"
 op|':'
@@ -9559,6 +9767,9 @@ name|'FakeHostState'
 op|'('
 string|"'host1'"
 op|','
+string|"'node1'"
+op|','
+nl|'\n'
 op|'{'
 string|"'num_instances'"
 op|':'
@@ -9624,6 +9835,9 @@ name|'FakeHostState'
 op|'('
 string|"'host1'"
 op|','
+string|"'node1'"
+op|','
+nl|'\n'
 op|'{'
 string|"'num_instances'"
 op|':'

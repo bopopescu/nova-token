@@ -492,6 +492,8 @@ op|'.'
 name|'HostState'
 op|'('
 string|"'somehost'"
+op|','
+name|'None'
 op|')'
 newline|'\n'
 name|'host'
