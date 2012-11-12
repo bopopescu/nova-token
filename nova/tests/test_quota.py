@@ -9711,7 +9711,7 @@ name|'Set'
 op|'('
 name|'sqa_api'
 op|','
-string|"'quota_usage_create'"
+string|"'_quota_usage_create'"
 op|','
 name|'fake_quota_usage_create'
 op|')'
