@@ -64,6 +64,16 @@ name|'IMAGE_SNAPSHOT'
 op|'='
 string|"'image_snapshot'"
 newline|'\n'
+DECL|variable|IMAGE_PENDING_UPLOAD
+name|'IMAGE_PENDING_UPLOAD'
+op|'='
+string|"'image_pending_upload'"
+newline|'\n'
+DECL|variable|IMAGE_UPLOADING
+name|'IMAGE_UPLOADING'
+op|'='
+string|"'image_uploading'"
+newline|'\n'
 nl|'\n'
 comment|'# possible task states during backup()'
 nl|'\n'
