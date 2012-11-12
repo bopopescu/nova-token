@@ -96,13 +96,6 @@ name|'import'
 name|'test'
 newline|'\n'
 nl|'\n'
-DECL|variable|FLAGS
-name|'FLAGS'
-op|'='
-name|'flags'
-op|'.'
-name|'FLAGS'
-newline|'\n'
 DECL|variable|LOG
 name|'LOG'
 op|'='
