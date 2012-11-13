@@ -3971,6 +3971,29 @@ op|')'
 op|')'
 newline|'\n'
 nl|'\n'
+DECL|variable|instance
+name|'instance'
+op|'='
+name|'relationship'
+op|'('
+string|'"Instance"'
+op|','
+name|'foreign_keys'
+op|'='
+name|'instance_uuid'
+op|','
+nl|'\n'
+DECL|variable|primaryjoin
+name|'primaryjoin'
+op|'='
+string|"'and_(Migration.instance_uuid == '"
+nl|'\n'
+string|"'Instance.uuid, Instance.deleted == '"
+nl|'\n'
+string|"'False)'"
+op|')'
+newline|'\n'
+nl|'\n'
 nl|'\n'
 DECL|class|Network
 dedent|''
