@@ -2304,7 +2304,7 @@ op|']'
 op|'='
 name|'migration'
 op|'['
-string|"'dest_compute'"
+string|"'source_compute'"
 op|']'
 newline|'\n'
 nl|'\n'
