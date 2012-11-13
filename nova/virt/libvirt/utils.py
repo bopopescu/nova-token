@@ -753,7 +753,7 @@ string|"'--noheadings'"
 op|','
 string|"'-o'"
 op|','
-string|"'lv_path'"
+string|"'lv_name'"
 op|','
 name|'vg'
 op|','
