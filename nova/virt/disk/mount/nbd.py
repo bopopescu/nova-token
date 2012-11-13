@@ -147,11 +147,6 @@ name|'mode'
 op|'='
 string|"'nbd'"
 newline|'\n'
-DECL|variable|device_id_string
-name|'device_id_string'
-op|'='
-name|'mode'
-newline|'\n'
 nl|'\n'
 comment|'# NOTE(padraig): There are three issues with this nbd device handling'
 nl|'\n'
