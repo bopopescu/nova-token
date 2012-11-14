@@ -8347,6 +8347,11 @@ op|'('
 name|'address'
 op|'='
 string|"'1.2.3.4'"
+op|','
+nl|'\n'
+name|'network_id'
+op|'='
+string|"'ignoredid'"
 op|')'
 op|']'
 newline|'\n'
