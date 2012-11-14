@@ -1800,6 +1800,8 @@ newline|'\n'
 indent|'        '
 string|'"""\n        Manage the driver\'s local image cache.\n\n        Some drivers chose to cache images for instances on disk. This method\n        is an opportunity to do management of that cache which isn\'t directly\n        related to other calls into the driver. The prime example is to clean\n        the cache and remove images which are no longer of interest.\n        """'
 newline|'\n'
+name|'pass'
+newline|'\n'
 nl|'\n'
 DECL|member|add_to_aggregate
 dedent|''
