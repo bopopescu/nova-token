@@ -203,7 +203,7 @@ op|','
 nl|'\n'
 name|'cfg'
 op|'.'
-name|'StrOpt'
+name|'BoolOpt'
 op|'('
 string|"'xenapi_disable_agent'"
 op|','
