@@ -1766,6 +1766,11 @@ name|'orig_image_ref'
 op|'='
 string|"'orig_ref'"
 op|','
+name|'bdms'
+op|'='
+op|'['
+op|']'
+op|','
 nl|'\n'
 name|'orig_sys_metadata'
 op|'='
@@ -1773,7 +1778,7 @@ string|"'orig_sys_metadata'"
 op|','
 name|'version'
 op|'='
-string|"'2.1'"
+string|"'2.18'"
 op|')'
 newline|'\n'
 nl|'\n'
