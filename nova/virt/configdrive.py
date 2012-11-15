@@ -187,6 +187,27 @@ string|"'(if set, valid options are: always)'"
 op|')'
 op|','
 nl|'\n'
+name|'cfg'
+op|'.'
+name|'StrOpt'
+op|'('
+string|"'mkisofs_cmd'"
+op|','
+nl|'\n'
+DECL|variable|default
+name|'default'
+op|'='
+string|"'genisoimage'"
+op|','
+nl|'\n'
+DECL|variable|help
+name|'help'
+op|'='
+string|"'Name and optionally path of the tool used for '"
+nl|'\n'
+string|"'ISO image creation'"
+op|')'
+nl|'\n'
 op|']'
 newline|'\n'
 nl|'\n'
@@ -418,7 +439,9 @@ name|'utils'
 op|'.'
 name|'execute'
 op|'('
-string|"'genisoimage'"
+name|'CONF'
+op|'.'
+name|'mkisofs_cmd'
 op|','
 nl|'\n'
 string|"'-o'"
