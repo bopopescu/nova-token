@@ -1897,7 +1897,7 @@ newline|'\n'
 indent|'        '
 name|'expected_opts'
 op|'='
-string|"'NW-0,3\\nNW-3,3\\nNW-4,3'"
+string|"'NW-3,3\\nNW-4,3'"
 newline|'\n'
 name|'actual_opts'
 op|'='
