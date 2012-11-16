@@ -182,5 +182,16 @@ name|'VM_SUMMARY_UPTIME'
 op|'='
 number|'105'
 newline|'\n'
+nl|'\n'
+DECL|variable|IDE_DISK
+name|'IDE_DISK'
+op|'='
+string|'"VHD"'
+newline|'\n'
+DECL|variable|IDE_DVD
+name|'IDE_DVD'
+op|'='
+string|'"DVD"'
+newline|'\n'
 endmarker|''
 end_unit
