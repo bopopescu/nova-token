@@ -5723,6 +5723,11 @@ op|','
 string|"'create'"
 op|','
 string|"'delete'"
+op|','
+string|"'update'"
+op|','
+nl|'\n'
+string|"'show'"
 op|']'
 op|')'
 op|':'
