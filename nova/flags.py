@@ -43,13 +43,5 @@ name|'nova'
 name|'import'
 name|'config'
 newline|'\n'
-nl|'\n'
-DECL|variable|FLAGS
-name|'FLAGS'
-op|'='
-name|'config'
-op|'.'
-name|'CONF'
-newline|'\n'
 endmarker|''
 end_unit
