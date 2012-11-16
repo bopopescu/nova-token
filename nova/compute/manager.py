@@ -1452,7 +1452,7 @@ nl|'\n'
 DECL|variable|RPC_API_VERSION
 name|'RPC_API_VERSION'
 op|'='
-string|"'2.16'"
+string|"'2.17'"
 newline|'\n'
 nl|'\n'
 DECL|member|__init__
@@ -2437,8 +2437,28 @@ op|'.'
 name|'NOSTATE'
 newline|'\n'
 nl|'\n'
-DECL|member|get_console_topic
+DECL|member|get_backdoor_port
 dedent|''
+dedent|''
+name|'def'
+name|'get_backdoor_port'
+op|'('
+name|'self'
+op|','
+name|'context'
+op|')'
+op|':'
+newline|'\n'
+indent|'        '
+string|'"""Return backdoor port for eventlet_backdoor"""'
+newline|'\n'
+name|'return'
+name|'self'
+op|'.'
+name|'backdoor_port'
+newline|'\n'
+nl|'\n'
+DECL|member|get_console_topic
 dedent|''
 name|'def'
 name|'get_console_topic'
