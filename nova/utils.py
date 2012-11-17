@@ -201,7 +201,7 @@ newline|'\n'
 DECL|variable|CONF
 name|'CONF'
 op|'='
-name|'config'
+name|'cfg'
 op|'.'
 name|'CONF'
 newline|'\n'
