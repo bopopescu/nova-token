@@ -14971,6 +14971,11 @@ nl|'\n'
 name|'compute_driver'
 op|'='
 string|"'xenapi.XenAPIDriver'"
+op|','
+nl|'\n'
+name|'node_availability_zone'
+op|'='
+string|"'avail_zone1'"
 op|')'
 newline|'\n'
 name|'host_ref'
