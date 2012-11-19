@@ -75,7 +75,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""Filter compute nodes that satisfy instance image properties.\n\n    The ImagePropertiesFilter filters compute nodes that satisfy\n    any architecture, hpervisor type, or virtual machine mode properties\n    specified on the instance\'s image properties.  Image properties are\n    contained in the image dictionary in the request_spec.\n    """'
+string|'"""Filter compute nodes that satisfy instance image properties.\n\n    The ImagePropertiesFilter filters compute nodes that satisfy\n    any architecture, hypervisor type, or virtual machine mode properties\n    specified on the instance\'s image properties.  Image properties are\n    contained in the image dictionary in the request_spec.\n    """'
 newline|'\n'
 nl|'\n'
 DECL|member|_instance_supported
