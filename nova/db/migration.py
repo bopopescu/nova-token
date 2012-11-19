@@ -63,7 +63,7 @@ nl|'\n'
 DECL|variable|INIT_VERSION
 name|'INIT_VERSION'
 op|'='
-number|'81'
+number|'132'
 newline|'\n'
 nl|'\n'
 nl|'\n'
