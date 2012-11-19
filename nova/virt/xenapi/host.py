@@ -608,9 +608,12 @@ name|'LOG'
 op|'.'
 name|'exception'
 op|'('
+name|'_'
+op|'('
 string|"'Unable to migrate VM %(vm_ref)s'"
 nl|'\n'
 string|"'from %(host)s'"
+op|')'
 op|'%'
 name|'locals'
 op|'('
