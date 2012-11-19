@@ -75,7 +75,7 @@ newline|'\n'
 name|'from'
 name|'nova'
 name|'import'
-name|'flags'
+name|'config'
 newline|'\n'
 nl|'\n'
 DECL|variable|authorize
