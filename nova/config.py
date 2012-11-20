@@ -1243,19 +1243,21 @@ name|'cfg'
 op|'.'
 name|'IntOpt'
 op|'('
-string|"'sql_pool_size'"
+string|"'sql_max_pool_size'"
 op|','
 nl|'\n'
 DECL|variable|default
 name|'default'
 op|'='
-name|'None'
+number|'5'
 op|','
 nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'If set, use this value for pool_size with sqlalchemy'"
+string|"'Maximum number of SQL connections to keep open in a '"
+nl|'\n'
+string|"'pool'"
 op|')'
 op|','
 nl|'\n'
