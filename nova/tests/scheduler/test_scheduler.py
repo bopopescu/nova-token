@@ -4490,6 +4490,10 @@ string|"'host'"
 op|':'
 name|'None'
 op|','
+string|"'node'"
+op|':'
+name|'None'
+op|','
 string|"'scheduled_at'"
 op|':'
 string|"'fake-now'"
