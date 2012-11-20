@@ -221,6 +221,9 @@ nl|'\n'
 string|"'bin/nova-compute'"
 op|','
 nl|'\n'
+string|"'bin/nova-conductor'"
+op|','
+nl|'\n'
 string|"'bin/nova-console'"
 op|','
 nl|'\n'
