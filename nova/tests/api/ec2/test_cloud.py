@@ -244,15 +244,6 @@ name|'CONF'
 op|'.'
 name|'import_opt'
 op|'('
-string|"'default_image'"
-op|','
-string|"'nova.config'"
-op|')'
-newline|'\n'
-name|'CONF'
-op|'.'
-name|'import_opt'
-op|'('
 string|"'default_instance_type'"
 op|','
 string|"'nova.config'"
@@ -12270,9 +12261,7 @@ op|'='
 op|'{'
 string|"'image_id'"
 op|':'
-name|'CONF'
-op|'.'
-name|'default_image'
+string|"'ami-00000001'"
 op|','
 nl|'\n'
 string|"'instance_type'"
