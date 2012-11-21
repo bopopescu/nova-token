@@ -146,6 +146,15 @@ name|'cfg'
 op|'.'
 name|'CONF'
 newline|'\n'
+name|'CONF'
+op|'.'
+name|'import_opt'
+op|'('
+string|"'compute_driver'"
+op|','
+string|"'nova.virt.driver'"
+op|')'
+newline|'\n'
 DECL|variable|LOG
 name|'LOG'
 op|'='

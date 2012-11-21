@@ -167,6 +167,15 @@ name|'CONF'
 op|'.'
 name|'import_opt'
 op|'('
+string|"'compute_driver'"
+op|','
+string|"'nova.virt.driver'"
+op|')'
+newline|'\n'
+name|'CONF'
+op|'.'
+name|'import_opt'
+op|'('
 string|"'default_instance_type'"
 op|','
 string|"'nova.config'"

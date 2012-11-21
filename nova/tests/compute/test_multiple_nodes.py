@@ -95,6 +95,15 @@ op|','
 string|"'nova.config'"
 op|')'
 newline|'\n'
+name|'CONF'
+op|'.'
+name|'import_opt'
+op|'('
+string|"'compute_driver'"
+op|','
+string|"'nova.virt.driver'"
+op|')'
+newline|'\n'
 nl|'\n'
 nl|'\n'
 DECL|class|BaseTestCase
