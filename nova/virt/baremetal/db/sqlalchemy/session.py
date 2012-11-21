@@ -109,6 +109,15 @@ name|'import_opt'
 op|'('
 string|"'sqlite_db'"
 op|','
+string|"'nova.db.sqlalchemy.session'"
+op|')'
+newline|'\n'
+name|'CONF'
+op|'.'
+name|'import_opt'
+op|'('
+string|"'state_path'"
+op|','
 string|"'nova.config'"
 op|')'
 newline|'\n'
