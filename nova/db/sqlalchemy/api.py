@@ -233,7 +233,7 @@ name|'import_opt'
 op|'('
 string|"'sql_connection'"
 op|','
-string|"'nova.config'"
+string|"'nova.db.sqlalchemy.session'"
 op|')'
 newline|'\n'
 nl|'\n'
