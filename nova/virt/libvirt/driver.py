@@ -821,6 +821,26 @@ string|"'before uploading them to image service'"
 op|')'
 op|','
 nl|'\n'
+name|'cfg'
+op|'.'
+name|'StrOpt'
+op|'('
+string|"'xen_hvmloader_path'"
+op|','
+nl|'\n'
+DECL|variable|default
+name|'default'
+op|'='
+string|"'/usr/lib/xen/boot/hvmloader'"
+op|','
+nl|'\n'
+DECL|variable|help
+name|'help'
+op|'='
+string|"'Location where the Xen hvmloader is kept'"
+op|')'
+op|','
+nl|'\n'
 op|']'
 newline|'\n'
 nl|'\n'
@@ -10817,7 +10837,9 @@ name|'guest'
 op|'.'
 name|'os_loader'
 op|'='
-string|"'/usr/lib/xen/boot/hvmloader'"
+name|'CONF'
+op|'.'
+name|'xen_hvmloader_path'
 newline|'\n'
 nl|'\n'
 dedent|''
