@@ -1459,9 +1459,9 @@ name|'error'
 op|'('
 name|'_'
 op|'('
-string|"'%(id)s (%(base_file)s): image verification '"
+string|"'image %(id)s at (%(base_file)s): image '"
 nl|'\n'
-string|"'failed'"
+string|"'verification failed'"
 op|')'
 op|','
 nl|'\n'
@@ -1502,9 +1502,9 @@ name|'info'
 op|'('
 name|'_'
 op|'('
-string|"'%(id)s (%(base_file)s): image verification '"
+string|"'image %(id)s at (%(base_file)s): image '"
 nl|'\n'
-string|"'skipped, no hash stored'"
+string|"'verification skipped, no hash stored'"
 op|')'
 op|','
 nl|'\n'
@@ -1810,7 +1810,7 @@ name|'info'
 op|'('
 name|'_'
 op|'('
-string|"'%(id)s (%(base_file)s): checking'"
+string|"'image %(id)s at (%(base_file)s): checking'"
 op|')'
 op|','
 nl|'\n'
@@ -1941,24 +1941,35 @@ op|'['
 name|'img_id'
 op|']'
 newline|'\n'
+nl|'\n'
 name|'if'
 name|'local'
+op|'>'
+number|'0'
+name|'or'
+name|'remote'
 op|'>'
 number|'0'
 op|':'
 newline|'\n'
 indent|'                '
+name|'image_in_use'
+op|'='
+name|'True'
+newline|'\n'
 name|'LOG'
 op|'.'
-name|'debug'
+name|'info'
 op|'('
 name|'_'
 op|'('
-string|"'%(id)s (%(base_file)s): '"
+string|"'image %(id)s at (%(base_file)s): '"
 nl|'\n'
 string|"'in use: on this node %(local)d local, '"
 nl|'\n'
-string|"'%(remote)d on other nodes'"
+string|"'%(remote)d on other nodes sharing this instance '"
+nl|'\n'
+string|"'storage'"
 op|')'
 op|','
 nl|'\n'
@@ -1985,10 +1996,6 @@ op|'}'
 op|')'
 newline|'\n'
 nl|'\n'
-name|'image_in_use'
-op|'='
-name|'True'
-newline|'\n'
 name|'self'
 op|'.'
 name|'active_base_files'
@@ -2011,11 +2018,11 @@ name|'warning'
 op|'('
 name|'_'
 op|'('
-string|"'%(id)s (%(base_file)s): warning -- an '"
+string|"'image %(id)s at (%(base_file)s): warning '"
 nl|'\n'
-string|"'absent base file is in use! instances: '"
+string|"'-- an absent base file is in use! '"
 nl|'\n'
-string|"'%(instance_list)s'"
+string|"'instances: %(instance_list)s'"
 op|')'
 op|','
 nl|'\n'
@@ -2043,40 +2050,6 @@ op|')'
 newline|'\n'
 nl|'\n'
 dedent|''
-dedent|''
-name|'else'
-op|':'
-newline|'\n'
-indent|'                '
-name|'LOG'
-op|'.'
-name|'debug'
-op|'('
-name|'_'
-op|'('
-string|"'%(id)s (%(base_file)s): in use on (%(remote)d on '"
-nl|'\n'
-string|"'other nodes)'"
-op|')'
-op|','
-nl|'\n'
-op|'{'
-string|"'id'"
-op|':'
-name|'img_id'
-op|','
-nl|'\n'
-string|"'base_file'"
-op|':'
-name|'base_file'
-op|','
-nl|'\n'
-string|"'remote'"
-op|':'
-name|'remote'
-op|'}'
-op|')'
-newline|'\n'
 dedent|''
 dedent|''
 name|'if'
@@ -2112,7 +2085,9 @@ name|'debug'
 op|'('
 name|'_'
 op|'('
-string|"'%(id)s (%(base_file)s): image is not in use'"
+string|"'image %(id)s at (%(base_file)s): image is not in '"
+nl|'\n'
+string|"'use'"
 op|')'
 op|','
 nl|'\n'
@@ -2149,7 +2124,9 @@ name|'debug'
 op|'('
 name|'_'
 op|'('
-string|"'%(id)s (%(base_file)s): image is in use'"
+string|"'image %(id)s at (%(base_file)s): image is in '"
+nl|'\n'
+string|"'use'"
 op|')'
 op|','
 nl|'\n'
