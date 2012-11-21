@@ -93,7 +93,7 @@ name|'import_opt'
 op|'('
 string|"'null_kernel'"
 op|','
-string|"'nova.config'"
+string|"'nova.compute.api'"
 op|')'
 newline|'\n'
 DECL|variable|LOG

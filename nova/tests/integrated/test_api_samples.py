@@ -186,7 +186,7 @@ name|'import_opt'
 op|'('
 string|"'allow_resize_to_same_host'"
 op|','
-string|"'nova.config'"
+string|"'nova.compute.api'"
 op|')'
 newline|'\n'
 name|'CONF'

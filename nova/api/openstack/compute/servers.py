@@ -246,7 +246,7 @@ name|'import_opt'
 op|'('
 string|"'reclaim_instance_interval'"
 op|','
-string|"'nova.config'"
+string|"'nova.compute.manager'"
 op|')'
 newline|'\n'
 nl|'\n'
