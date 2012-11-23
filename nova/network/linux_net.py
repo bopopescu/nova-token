@@ -5065,7 +5065,7 @@ op|'['
 string|"'env'"
 op|','
 nl|'\n'
-string|"'FLAGFILE=%s'"
+string|"'CONFIG_FILE=%s'"
 op|'%'
 name|'CONF'
 op|'.'
