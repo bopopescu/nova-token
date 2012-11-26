@@ -787,6 +787,11 @@ op|':'
 name|'None'
 op|','
 nl|'\n'
+string|"'node'"
+op|':'
+name|'None'
+op|','
+nl|'\n'
 string|"'instance_type_id'"
 op|':'
 number|'1'
