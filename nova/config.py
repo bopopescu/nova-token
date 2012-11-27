@@ -417,6 +417,28 @@ op|','
 nl|'\n'
 name|'cfg'
 op|'.'
+name|'StrOpt'
+op|'('
+string|"'glance_protocol'"
+op|','
+nl|'\n'
+DECL|variable|default
+name|'default'
+op|'='
+string|"'http'"
+op|','
+nl|'\n'
+DECL|variable|help
+name|'help'
+op|'='
+string|"'Default protocol to use when connecting to glance. '"
+nl|'\n'
+string|"'Set to https for SSL.'"
+op|')'
+op|','
+nl|'\n'
+name|'cfg'
+op|'.'
 name|'ListOpt'
 op|'('
 string|"'glance_api_servers'"
