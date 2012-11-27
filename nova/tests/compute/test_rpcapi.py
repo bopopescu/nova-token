@@ -1675,9 +1675,14 @@ string|"'fakeval'"
 op|'}'
 op|','
 nl|'\n'
+name|'node'
+op|'='
+string|"'node'"
+op|','
+nl|'\n'
 name|'version'
 op|'='
-string|"'2.10'"
+string|"'2.20'"
 op|')'
 newline|'\n'
 nl|'\n'
