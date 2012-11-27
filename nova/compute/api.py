@@ -2277,7 +2277,7 @@ string|"'architecture'"
 op|':'
 name|'prop'
 op|'('
-string|"'arch'"
+string|"'architecture'"
 op|')'
 op|','
 nl|'\n'
