@@ -96,6 +96,8 @@ string|"'terminated_at'"
 op|','
 string|"'host'"
 op|','
+string|"'node'"
+op|','
 nl|'\n'
 string|"'memory_mb'"
 op|','
