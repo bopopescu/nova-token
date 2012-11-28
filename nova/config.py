@@ -876,26 +876,6 @@ name|'cfg'
 op|'.'
 name|'StrOpt'
 op|'('
-string|"'default_image'"
-op|','
-nl|'\n'
-DECL|variable|default
-name|'default'
-op|'='
-string|"'ami-11111'"
-op|','
-nl|'\n'
-DECL|variable|help
-name|'help'
-op|'='
-string|"'default image to use, testing only'"
-op|')'
-op|','
-nl|'\n'
-name|'cfg'
-op|'.'
-name|'StrOpt'
-op|'('
 string|"'default_instance_type'"
 op|','
 nl|'\n'
