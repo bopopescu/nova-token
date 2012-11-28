@@ -229,7 +229,7 @@ name|'import_opt'
 op|'('
 string|"'ec2_dmz_host'"
 op|','
-string|"'nova.config'"
+string|"'nova.api.ec2.cloud'"
 op|')'
 newline|'\n'
 name|'CONF'
@@ -238,7 +238,7 @@ name|'import_opt'
 op|'('
 string|"'ec2_port'"
 op|','
-string|"'nova.config'"
+string|"'nova.api.ec2.cloud'"
 op|')'
 newline|'\n'
 name|'CONF'
