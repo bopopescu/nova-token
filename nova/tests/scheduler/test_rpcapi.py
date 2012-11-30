@@ -508,6 +508,11 @@ op|','
 name|'capabilities'
 op|'='
 string|"'fake_capabilities'"
+op|','
+nl|'\n'
+name|'version'
+op|'='
+string|"'2.4'"
 op|')'
 newline|'\n'
 dedent|''
