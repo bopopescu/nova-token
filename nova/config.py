@@ -1567,6 +1567,26 @@ string|"'The strategy to use for auth: noauth or keystone.'"
 op|')'
 op|','
 nl|'\n'
+name|'cfg'
+op|'.'
+name|'StrOpt'
+op|'('
+string|"'control_exchange'"
+op|','
+nl|'\n'
+DECL|variable|default
+name|'default'
+op|'='
+string|"'nova'"
+op|','
+nl|'\n'
+DECL|variable|help
+name|'help'
+op|'='
+string|"'AMQP exchange to connect to if using RabbitMQ or Qpid'"
+op|')'
+op|','
+nl|'\n'
 op|']'
 newline|'\n'
 nl|'\n'
