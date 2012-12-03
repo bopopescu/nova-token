@@ -6969,6 +6969,13 @@ op|'%'
 name|'instance_id'
 op|','
 nl|'\n'
+string|"'display_name'"
+op|':'
+string|"'host-%d'"
+op|'%'
+name|'instance_id'
+op|','
+nl|'\n'
 string|"'project_id'"
 op|':'
 name|'self'
