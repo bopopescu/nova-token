@@ -125,7 +125,7 @@ string|"'instance_type_id'"
 op|','
 string|"'root_device_name'"
 op|','
-string|"'host'"
+string|"'launched_on'"
 op|','
 nl|'\n'
 string|"'progress'"
