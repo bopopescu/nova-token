@@ -114,6 +114,12 @@ op|'='
 string|"'7.1'"
 newline|'\n'
 nl|'\n'
+DECL|variable|POWERVM_MIN_ROOT_GB
+name|'POWERVM_MIN_ROOT_GB'
+op|'='
+number|'10'
+newline|'\n'
+nl|'\n'
 DECL|variable|POWERVM_MIN_MEM
 name|'POWERVM_MIN_MEM'
 op|'='
