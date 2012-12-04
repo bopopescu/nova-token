@@ -251,6 +251,7 @@ op|','
 nl|'\n'
 string|"'migrate_instance_finish'"
 op|','
+string|"'get_backdoor_port'"
 nl|'\n'
 op|']'
 newline|'\n'
@@ -800,6 +801,15 @@ op|','
 name|'rpc_method'
 op|'='
 string|"'call'"
+op|','
+nl|'\n'
+name|'host'
+op|'='
+string|"'fake_host'"
+op|','
+name|'version'
+op|'='
+string|"'1.4'"
 op|')'
 newline|'\n'
 nl|'\n'
