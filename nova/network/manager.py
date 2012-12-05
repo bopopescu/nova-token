@@ -5041,7 +5041,7 @@ nl|'\n'
 DECL|variable|RPC_API_VERSION
 name|'RPC_API_VERSION'
 op|'='
-string|"'1.3'"
+string|"'1.4'"
 newline|'\n'
 nl|'\n'
 comment|'# If True, this manager requires VIF to create a bridge.'
