@@ -973,6 +973,11 @@ op|':'
 number|'30'
 op|','
 nl|'\n'
+string|"'vif_type'"
+op|':'
+name|'None'
+op|','
+nl|'\n'
 string|"'vif_uuid'"
 op|':'
 nl|'\n'
