@@ -1002,7 +1002,7 @@ nl|'\n'
 DECL|variable|default
 name|'default'
 op|'='
-string|"'nova.network.dns_driver.DNSDriver'"
+string|"'nova.network.minidns.MiniDNS'"
 op|','
 nl|'\n'
 DECL|variable|help
@@ -1042,7 +1042,7 @@ nl|'\n'
 DECL|variable|default
 name|'default'
 op|'='
-string|"'nova.network.dns_driver.DNSDriver'"
+string|"'nova.network.minidns.MiniDNS'"
 op|','
 nl|'\n'
 DECL|variable|help
