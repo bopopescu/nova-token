@@ -122,6 +122,15 @@ op|','
 string|"'nova.virt.driver'"
 op|')'
 newline|'\n'
+name|'CONF'
+op|'.'
+name|'import_opt'
+op|'('
+string|"'api_paste_config'"
+op|','
+string|"'nova.wsgi'"
+op|')'
+newline|'\n'
 nl|'\n'
 nl|'\n'
 DECL|class|ConfFixture
