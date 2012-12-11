@@ -1255,26 +1255,6 @@ name|'cfg'
 op|'.'
 name|'IntOpt'
 op|'('
-string|"'zombie_instance_updated_at_window'"
-op|','
-nl|'\n'
-DECL|variable|default
-name|'default'
-op|'='
-number|'172800'
-op|','
-nl|'\n'
-DECL|variable|help
-name|'help'
-op|'='
-string|"'Number of seconds zombie instances are cleaned up.'"
-op|')'
-op|','
-nl|'\n'
-name|'cfg'
-op|'.'
-name|'IntOpt'
-op|'('
 string|"'service_down_time'"
 op|','
 nl|'\n'
