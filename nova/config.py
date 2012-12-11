@@ -609,26 +609,6 @@ op|','
 nl|'\n'
 name|'cfg'
 op|'.'
-name|'BoolOpt'
-op|'('
-string|"'api_rate_limit'"
-op|','
-nl|'\n'
-DECL|variable|default
-name|'default'
-op|'='
-name|'True'
-op|','
-nl|'\n'
-DECL|variable|help
-name|'help'
-op|'='
-string|"'whether to rate limit the api'"
-op|')'
-op|','
-nl|'\n'
-name|'cfg'
-op|'.'
 name|'ListOpt'
 op|'('
 string|"'enabled_apis'"
@@ -1524,26 +1504,6 @@ DECL|variable|help
 name|'help'
 op|'='
 string|"'The full class name of the volume API class to use'"
-op|')'
-op|','
-nl|'\n'
-name|'cfg'
-op|'.'
-name|'StrOpt'
-op|'('
-string|"'auth_strategy'"
-op|','
-nl|'\n'
-DECL|variable|default
-name|'default'
-op|'='
-string|"'noauth'"
-op|','
-nl|'\n'
-DECL|variable|help
-name|'help'
-op|'='
-string|"'The strategy to use for auth: noauth or keystone.'"
 op|')'
 op|','
 nl|'\n'
