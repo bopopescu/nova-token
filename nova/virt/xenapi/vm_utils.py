@@ -210,6 +210,32 @@ name|'cfg'
 op|'.'
 name|'StrOpt'
 op|'('
+string|"'cache_images'"
+op|','
+nl|'\n'
+DECL|variable|default
+name|'default'
+op|'='
+string|"'all'"
+op|','
+nl|'\n'
+DECL|variable|help
+name|'help'
+op|'='
+string|"'Cache glance images locally. `all` will cache all'"
+nl|'\n'
+string|"' images, `some` will only cache images that have the'"
+nl|'\n'
+string|"' image_property `cache_in_nova=True`, and `none` turns'"
+nl|'\n'
+string|"' off caching entirely'"
+op|')'
+op|','
+nl|'\n'
+name|'cfg'
+op|'.'
+name|'StrOpt'
+op|'('
 string|"'default_os_type'"
 op|','
 nl|'\n'
@@ -553,15 +579,6 @@ op|'.'
 name|'register_opts'
 op|'('
 name|'xenapi_vm_utils_opts'
-op|')'
-newline|'\n'
-name|'CONF'
-op|'.'
-name|'import_opt'
-op|'('
-string|"'cache_images'"
-op|','
-string|"'nova.config'"
 op|')'
 newline|'\n'
 name|'CONF'
