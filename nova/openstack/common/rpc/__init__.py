@@ -187,6 +187,9 @@ nl|'\n'
 string|"'cinder.exception'"
 op|','
 nl|'\n'
+string|"'exceptions'"
+op|','
+nl|'\n'
 op|']'
 op|','
 nl|'\n'
