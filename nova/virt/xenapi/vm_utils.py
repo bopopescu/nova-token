@@ -596,7 +596,7 @@ name|'import_opt'
 op|'('
 string|"'glance_num_retries'"
 op|','
-string|"'nova.config'"
+string|"'nova.image.glance'"
 op|')'
 newline|'\n'
 name|'CONF'
