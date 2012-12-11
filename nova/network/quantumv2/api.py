@@ -904,7 +904,10 @@ indent|'                            '
 name|'raise'
 name|'Exception'
 op|'('
-string|"'Port have already lost'"
+name|'_'
+op|'('
+string|"'Port not found'"
+op|')'
 op|')'
 newline|'\n'
 dedent|''
