@@ -375,7 +375,12 @@ name|'assertExpected'
 op|'('
 string|"'security_group_get_by_instance'"
 op|','
-string|"'fake-uuid'"
+nl|'\n'
+op|'{'
+string|"'id'"
+op|':'
+string|"'fake-id'"
+op|'}'
 op|')'
 newline|'\n'
 nl|'\n'
@@ -396,7 +401,11 @@ op|'('
 string|"'security_group_rule_get_by_security_group'"
 op|','
 nl|'\n'
+op|'{'
+string|"'id'"
+op|':'
 string|"'fake-id'"
+op|'}'
 op|')'
 newline|'\n'
 nl|'\n'
@@ -546,12 +555,18 @@ op|'('
 string|"'aggregate_metadata_add'"
 op|','
 string|"'aggregate_metadata_delete'"
+op|','
+nl|'\n'
+string|"'security_group_rule_get_by_security_group'"
+op|','
+nl|'\n'
+string|"'security_group_get_by_instance'"
 op|')'
 op|':'
 newline|'\n'
-comment|'# NOTE(danms): FakeVirtAPI will convert the aggregate to'
+comment|'# NOTE(danms): FakeVirtAPI will convert the first argument to'
 nl|'\n'
-comment|"# aggregate['id'], so expect that in the actual db call"
+comment|"# argument['id'], so expect that in the actual db call"
 nl|'\n'
 indent|'            '
 name|'e_args'
@@ -829,6 +844,12 @@ nl|'\n'
 string|"'aggregate_metadata_delete'"
 op|','
 nl|'\n'
+string|"'security_group_get_by_instance'"
+op|','
+nl|'\n'
+string|"'security_group_rule_get_by_security_group'"
+op|','
+nl|'\n'
 op|']'
 newline|'\n'
 name|'self'
@@ -836,12 +857,6 @@ op|'.'
 name|'db_methods'
 op|'='
 op|'['
-string|"'security_group_get_by_instance'"
-op|','
-nl|'\n'
-string|"'security_group_rule_get_by_security_group'"
-op|','
-nl|'\n'
 string|"'provider_fw_rule_get_all'"
 op|','
 nl|'\n'
