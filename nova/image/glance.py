@@ -136,7 +136,7 @@ name|'import_opt'
 op|'('
 string|"'auth_strategy'"
 op|','
-string|"'nova.config'"
+string|"'nova.api.auth'"
 op|')'
 newline|'\n'
 name|'CONF'
