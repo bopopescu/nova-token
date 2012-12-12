@@ -1060,28 +1060,6 @@ name|'cfg'
 op|'.'
 name|'StrOpt'
 op|'('
-string|"'instance_usage_audit_period'"
-op|','
-nl|'\n'
-DECL|variable|default
-name|'default'
-op|'='
-string|"'month'"
-op|','
-nl|'\n'
-DECL|variable|help
-name|'help'
-op|'='
-string|"'time period to generate instance usages for.  '"
-nl|'\n'
-string|"'Time period must be hour, day, month or year'"
-op|')'
-op|','
-nl|'\n'
-name|'cfg'
-op|'.'
-name|'StrOpt'
-op|'('
 string|"'default_ephemeral_format'"
 op|','
 nl|'\n'
@@ -1097,28 +1075,6 @@ op|'='
 string|"'The default format an ephemeral_volume will be '"
 nl|'\n'
 string|"'formatted with on creation.'"
-op|')'
-op|','
-nl|'\n'
-name|'cfg'
-op|'.'
-name|'StrOpt'
-op|'('
-string|"'rootwrap_config'"
-op|','
-nl|'\n'
-DECL|variable|default
-name|'default'
-op|'='
-string|'"/etc/nova/rootwrap.conf"'
-op|','
-nl|'\n'
-DECL|variable|help
-name|'help'
-op|'='
-string|"'Path to the rootwrap configuration file to use for '"
-nl|'\n'
-string|"'running commands as root'"
 op|')'
 op|','
 nl|'\n'
