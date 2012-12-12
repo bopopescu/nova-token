@@ -88,7 +88,7 @@ name|'import_opt'
 op|'('
 string|"'password_length'"
 op|','
-string|"'nova.config'"
+string|"'nova.utils'"
 op|')'
 newline|'\n'
 nl|'\n'
