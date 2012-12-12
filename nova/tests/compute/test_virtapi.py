@@ -850,6 +850,9 @@ nl|'\n'
 string|"'security_group_rule_get_by_security_group'"
 op|','
 nl|'\n'
+string|"'provider_fw_rule_get_all'"
+op|','
+nl|'\n'
 op|']'
 newline|'\n'
 name|'self'
@@ -857,9 +860,6 @@ op|'.'
 name|'db_methods'
 op|'='
 op|'['
-string|"'provider_fw_rule_get_all'"
-op|','
-nl|'\n'
 string|"'agent_build_get_by_triple'"
 op|','
 nl|'\n'
