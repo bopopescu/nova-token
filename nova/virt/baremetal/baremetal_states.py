@@ -1,5 +1,10 @@
 begin_unit
+comment|'# vim: tabstop=4 shiftwidth=4 softtabstop=4'
+nl|'\n'
+nl|'\n'
 comment|'# Copyright (c) 2012 NTT DOCOMO, INC.'
+nl|'\n'
+comment|'# Copyright 2010 OpenStack LLC.'
 nl|'\n'
 comment|'# All Rights Reserved.'
 nl|'\n'
@@ -27,16 +32,29 @@ comment|'#    License for the specific language governing permissions and limita
 nl|'\n'
 comment|'#    under the License.'
 nl|'\n'
-name|'from'
-name|'nova'
-op|'.'
-name|'tests'
-op|'.'
-name|'baremetal'
-op|'.'
-name|'db'
-name|'import'
-op|'*'
+nl|'\n'
+string|'"""\nPossible baremetal node states for instances.\n\nCompute instance baremetal states represent the state of an instance as it\npertains to a user or administrator. When combined with task states\n(task_states.py), a better picture can be formed regarding the instance\'s\nhealth.\n\n"""'
+newline|'\n'
+nl|'\n'
+DECL|variable|ACTIVE
+name|'ACTIVE'
+op|'='
+string|"'active'"
+newline|'\n'
+DECL|variable|BUILDING
+name|'BUILDING'
+op|'='
+string|"'building'"
+newline|'\n'
+DECL|variable|DELETED
+name|'DELETED'
+op|'='
+string|"'deleted'"
+newline|'\n'
+DECL|variable|ERROR
+name|'ERROR'
+op|'='
+string|"'error'"
 newline|'\n'
 endmarker|''
 end_unit
