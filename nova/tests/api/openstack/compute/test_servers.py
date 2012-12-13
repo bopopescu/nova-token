@@ -19247,7 +19247,7 @@ op|','
 nl|'\n'
 string|"'config_drive'"
 op|':'
-name|'True'
+string|'"true"'
 op|','
 nl|'\n'
 op|'}'
