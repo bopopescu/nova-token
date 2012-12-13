@@ -660,28 +660,6 @@ op|','
 nl|'\n'
 name|'cfg'
 op|'.'
-name|'IntOpt'
-op|'('
-string|"'osapi_max_limit'"
-op|','
-nl|'\n'
-DECL|variable|default
-name|'default'
-op|'='
-number|'1000'
-op|','
-nl|'\n'
-DECL|variable|help
-name|'help'
-op|'='
-string|"'the maximum number of items returned in a single '"
-nl|'\n'
-string|"'response from a collection resource'"
-op|')'
-op|','
-nl|'\n'
-name|'cfg'
-op|'.'
 name|'StrOpt'
 op|'('
 string|"'metadata_host'"
