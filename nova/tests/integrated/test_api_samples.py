@@ -204,7 +204,8 @@ name|'import_opt'
 op|'('
 string|"'osapi_compute_extension'"
 op|','
-string|"'nova.config'"
+nl|'\n'
+string|"'nova.api.openstack.compute.extensions'"
 op|')'
 newline|'\n'
 name|'CONF'
