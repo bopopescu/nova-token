@@ -1872,9 +1872,9 @@ op|'.'
 name|'MonkeyPatch'
 op|'('
 op|'('
-string|"'nova.virt.disk.mount.nbd.'"
+string|"'nova.virt.disk.mount.api.'"
 nl|'\n'
-string|"'MAX_NBD_WAIT'"
+string|"'MAX_DEVICE_WAIT'"
 op|')'
 op|','
 op|'-'
