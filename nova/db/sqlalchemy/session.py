@@ -364,7 +364,7 @@ op|','
 nl|'\n'
 name|'cfg'
 op|'.'
-name|'IntOpt'
+name|'BoolOpt'
 op|'('
 string|"'sql_dbpool_enable'"
 op|','
