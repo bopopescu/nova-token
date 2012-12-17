@@ -522,7 +522,7 @@ op|','
 nl|'\n'
 string|"'Security_groups'"
 op|','
-string|"'Networks'"
+string|"'Os_networks'"
 op|']'
 op|')'
 newline|'\n'

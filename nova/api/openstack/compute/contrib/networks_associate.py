@@ -453,7 +453,7 @@ op|'('
 nl|'\n'
 name|'self'
 op|','
-string|"'os-networks'"
+string|"'os-admin-networks'"
 op|','
 name|'NetworkAssociateActionController'
 op|'('
