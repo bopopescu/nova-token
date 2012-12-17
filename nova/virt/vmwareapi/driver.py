@@ -255,26 +255,6 @@ string|"'vmwareapi.VMWareESXDriver.'"
 op|')'
 op|','
 nl|'\n'
-name|'cfg'
-op|'.'
-name|'StrOpt'
-op|'('
-string|"'vmwareapi_vlan_interface'"
-op|','
-nl|'\n'
-DECL|variable|default
-name|'default'
-op|'='
-string|"'vmnic0'"
-op|','
-nl|'\n'
-DECL|variable|help
-name|'help'
-op|'='
-string|"'Physical ethernet adapter name for vlan networking'"
-op|')'
-op|','
-nl|'\n'
 op|']'
 newline|'\n'
 nl|'\n'
