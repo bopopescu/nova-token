@@ -1348,7 +1348,7 @@ string|"'instance_id'"
 op|':'
 name|'instance'
 op|'['
-string|"'id'"
+string|"'uuid'"
 op|']'
 op|','
 nl|'\n'
