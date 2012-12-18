@@ -112,7 +112,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'Ip address on which instance vncserversshould listen'"
+string|"'IP address on which instance vncservers should listen'"
 op|')'
 op|','
 nl|'\n'
