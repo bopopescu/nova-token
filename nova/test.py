@@ -189,26 +189,6 @@ string|"'File name of clean sqlite db'"
 op|')'
 op|','
 nl|'\n'
-name|'cfg'
-op|'.'
-name|'BoolOpt'
-op|'('
-string|"'fake_tests'"
-op|','
-nl|'\n'
-DECL|variable|default
-name|'default'
-op|'='
-name|'True'
-op|','
-nl|'\n'
-DECL|variable|help
-name|'help'
-op|'='
-string|"'should we use everything for testing'"
-op|')'
-op|','
-nl|'\n'
 op|']'
 newline|'\n'
 nl|'\n'
