@@ -865,26 +865,6 @@ op|','
 nl|'\n'
 name|'cfg'
 op|'.'
-name|'StrOpt'
-op|'('
-string|"'network_driver'"
-op|','
-nl|'\n'
-DECL|variable|default
-name|'default'
-op|'='
-string|"'nova.network.linux_net'"
-op|','
-nl|'\n'
-DECL|variable|help
-name|'help'
-op|'='
-string|"'Driver to use for network creation'"
-op|')'
-op|','
-nl|'\n'
-name|'cfg'
-op|'.'
 name|'BoolOpt'
 op|'('
 string|"'use_ipv6'"
