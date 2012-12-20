@@ -4564,11 +4564,6 @@ nl|'\n'
 string|"'report_count'"
 op|':'
 number|'0'
-op|','
-nl|'\n'
-string|"'availability_zone'"
-op|':'
-string|"'zone'"
 op|'}'
 newline|'\n'
 nl|'\n'

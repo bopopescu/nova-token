@@ -895,6 +895,11 @@ op|':'
 string|"'test_instance'"
 op|','
 nl|'\n'
+string|"'availability_zone'"
+op|':'
+string|"'nova'"
+op|','
+nl|'\n'
 string|"'security_groups'"
 op|':'
 op|'['

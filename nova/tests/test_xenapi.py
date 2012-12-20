@@ -354,9 +354,9 @@ name|'CONF'
 op|'.'
 name|'import_opt'
 op|'('
-string|"'node_availability_zone'"
+string|"'default_availability_zone'"
 op|','
-string|"'nova.config'"
+string|"'nova.availability_zones'"
 op|')'
 newline|'\n'
 nl|'\n'
@@ -1203,7 +1203,7 @@ op|']'
 op|'='
 name|'CONF'
 op|'.'
-name|'node_availability_zone'
+name|'default_availability_zone'
 newline|'\n'
 name|'vol'
 op|'['
@@ -15883,11 +15883,6 @@ nl|'\n'
 string|"'report_count'"
 op|':'
 number|'0'
-op|','
-nl|'\n'
-string|"'availability_zone'"
-op|':'
-name|'avail_zone'
 op|'}'
 op|')'
 newline|'\n'
@@ -15973,7 +15968,7 @@ op|'='
 string|"'xenapi.XenAPIDriver'"
 op|','
 nl|'\n'
-name|'node_availability_zone'
+name|'default_availability_zone'
 op|'='
 string|"'avail_zone1'"
 op|')'

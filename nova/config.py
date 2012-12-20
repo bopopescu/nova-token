@@ -613,26 +613,6 @@ op|','
 nl|'\n'
 name|'cfg'
 op|'.'
-name|'StrOpt'
-op|'('
-string|"'node_availability_zone'"
-op|','
-nl|'\n'
-DECL|variable|default
-name|'default'
-op|'='
-string|"'nova'"
-op|','
-nl|'\n'
-DECL|variable|help
-name|'help'
-op|'='
-string|"'availability zone of this node'"
-op|')'
-op|','
-nl|'\n'
-name|'cfg'
-op|'.'
 name|'ListOpt'
 op|'('
 string|"'memcached_servers'"

@@ -41936,11 +41936,6 @@ nl|'\n'
 string|"'report_count'"
 op|':'
 number|'0'
-op|','
-nl|'\n'
-string|"'availability_zone'"
-op|':'
-name|'avail_zone'
 op|'}'
 op|')'
 newline|'\n'
