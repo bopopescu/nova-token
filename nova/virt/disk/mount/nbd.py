@@ -289,7 +289,7 @@ name|'error'
 op|'('
 name|'_'
 op|'('
-string|"'ndb module not loaded'"
+string|"'nbd module not loaded'"
 op|')'
 op|')'
 newline|'\n'
