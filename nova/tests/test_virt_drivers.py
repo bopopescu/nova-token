@@ -2427,9 +2427,6 @@ op|'}'
 op|','
 nl|'\n'
 name|'instance_ref'
-op|'['
-string|"'name'"
-op|']'
 op|','
 nl|'\n'
 string|"'/mnt/nova/something'"
@@ -2449,9 +2446,6 @@ op|'}'
 op|','
 nl|'\n'
 name|'instance_ref'
-op|'['
-string|"'name'"
-op|']'
 op|','
 nl|'\n'
 string|"'/mnt/nova/something'"
@@ -2504,9 +2498,6 @@ op|'}'
 op|','
 nl|'\n'
 name|'instance_ref'
-op|'['
-string|"'name'"
-op|']'
 op|','
 nl|'\n'
 string|"'/mnt/nova/something'"
@@ -2535,9 +2526,6 @@ op|'}'
 op|','
 nl|'\n'
 name|'instance_ref'
-op|'['
-string|"'name'"
-op|']'
 op|','
 nl|'\n'
 string|"'/mnt/nova/something'"

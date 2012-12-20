@@ -1606,9 +1606,6 @@ op|')'
 op|','
 nl|'\n'
 name|'instance'
-op|'['
-string|"'name'"
-op|']'
 op|','
 string|"'/dev/sdc'"
 op|')'
@@ -1748,9 +1745,6 @@ op|'}'
 op|','
 nl|'\n'
 name|'instance'
-op|'['
-string|"'name'"
-op|']'
 op|','
 nl|'\n'
 string|"'/dev/sdc'"
