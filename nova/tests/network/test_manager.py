@@ -5104,7 +5104,8 @@ op|')'
 op|':'
 newline|'\n'
 indent|'            '
-name|'pass'
+name|'return'
+string|"'10.0.0.1'"
 newline|'\n'
 nl|'\n'
 comment|"# floating ip that's already associated"
