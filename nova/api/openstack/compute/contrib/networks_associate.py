@@ -1,10 +1,4 @@
 begin_unit
-name|'import'
-name|'netaddr'
-newline|'\n'
-name|'import'
-name|'webob'
-newline|'\n'
 name|'from'
 name|'webob'
 name|'import'
