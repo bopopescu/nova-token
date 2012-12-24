@@ -201,11 +201,11 @@ name|'deleted'
 op|'='
 name|'Column'
 op|'('
-name|'Boolean'
+name|'Integer'
 op|','
 name|'default'
 op|'='
-name|'False'
+number|'0'
 op|')'
 newline|'\n'
 DECL|variable|metadata
@@ -305,7 +305,9 @@ name|'self'
 op|'.'
 name|'deleted'
 op|'='
-name|'True'
+name|'self'
+op|'.'
+name|'id'
 newline|'\n'
 name|'self'
 op|'.'
@@ -780,7 +782,7 @@ string|"'and_('"
 nl|'\n'
 string|"'ComputeNode.service_id == Service.id,'"
 nl|'\n'
-string|"'ComputeNode.deleted == False)'"
+string|"'ComputeNode.deleted == 0)'"
 op|')'
 newline|'\n'
 nl|'\n'
@@ -1014,7 +1016,7 @@ op|'='
 op|'('
 string|"'and_(ComputeNodeStat.compute_node_id == '"
 nl|'\n'
-string|"'ComputeNode.id, ComputeNodeStat.deleted == False)'"
+string|"'ComputeNode.id, ComputeNodeStat.deleted == 0)'"
 op|')'
 newline|'\n'
 DECL|variable|stats
@@ -2175,6 +2177,21 @@ op|'='
 name|'True'
 op|')'
 newline|'\n'
+DECL|variable|deleted
+name|'deleted'
+op|'='
+name|'Column'
+op|'('
+name|'String'
+op|'('
+number|'36'
+op|')'
+op|','
+name|'default'
+op|'='
+string|'""'
+op|')'
+newline|'\n'
 nl|'\n'
 op|'@'
 name|'property'
@@ -2806,7 +2823,7 @@ name|'primaryjoin'
 op|'='
 string|"'and_(Reservation.usage_id == QuotaUsage.id,'"
 nl|'\n'
-string|"'QuotaUsage.deleted == False)'"
+string|"'QuotaUsage.deleted == 0)'"
 op|')'
 newline|'\n'
 nl|'\n'
@@ -2843,6 +2860,21 @@ op|','
 name|'primary_key'
 op|'='
 name|'True'
+op|')'
+newline|'\n'
+DECL|variable|deleted
+name|'deleted'
+op|'='
+name|'Column'
+op|'('
+name|'String'
+op|'('
+number|'36'
+op|')'
+op|','
+name|'default'
+op|'='
+string|'""'
 op|')'
 newline|'\n'
 nl|'\n'
@@ -3070,7 +3102,7 @@ string|"'Instance.uuid,'"
 nl|'\n'
 string|"'BlockDeviceMapping.deleted=='"
 nl|'\n'
-string|"'False)'"
+string|"'0)'"
 op|')'
 newline|'\n'
 DECL|variable|device_name
@@ -3314,7 +3346,7 @@ name|'primaryjoin'
 op|'='
 string|"'and_(IscsiTarget.volume_id==Volume.id,'"
 nl|'\n'
-string|"'IscsiTarget.deleted==False)'"
+string|"'IscsiTarget.deleted==0)'"
 op|')'
 newline|'\n'
 nl|'\n'
@@ -3479,9 +3511,9 @@ string|"'SecurityGroup.id == '"
 nl|'\n'
 string|"'SecurityGroupInstanceAssociation.security_group_id,'"
 nl|'\n'
-string|"'SecurityGroupInstanceAssociation.deleted == False,'"
+string|"'SecurityGroupInstanceAssociation.deleted == 0,'"
 nl|'\n'
-string|"'SecurityGroup.deleted == False)'"
+string|"'SecurityGroup.deleted == 0)'"
 op|','
 nl|'\n'
 DECL|variable|secondaryjoin
@@ -3497,7 +3529,7 @@ comment|'# association is being marked as deleted.  However, removing this'
 nl|'\n'
 comment|"# may cause existing deployments to choke, so I'm leaving it"
 nl|'\n'
-string|"'Instance.deleted == False)'"
+string|"'Instance.deleted == 0)'"
 op|','
 nl|'\n'
 DECL|variable|backref
@@ -3578,7 +3610,7 @@ string|"'and_('"
 nl|'\n'
 string|"'SecurityGroupIngressRule.parent_group_id == SecurityGroup.id,'"
 nl|'\n'
-string|"'SecurityGroupIngressRule.deleted == False)'"
+string|"'SecurityGroupIngressRule.deleted == 0)'"
 op|')'
 newline|'\n'
 nl|'\n'
@@ -3659,7 +3691,7 @@ string|"'and_('"
 nl|'\n'
 string|"'SecurityGroupIngressRule.group_id == SecurityGroup.id,'"
 nl|'\n'
-string|"'SecurityGroupIngressRule.deleted == False)'"
+string|"'SecurityGroupIngressRule.deleted == 0)'"
 op|')'
 newline|'\n'
 nl|'\n'
@@ -3984,7 +4016,7 @@ string|"'and_(Migration.instance_uuid == '"
 nl|'\n'
 string|"'Instance.uuid, Instance.deleted == '"
 nl|'\n'
-string|"'False)'"
+string|"'0)'"
 op|')'
 newline|'\n'
 nl|'\n'
@@ -4652,6 +4684,18 @@ name|'__tablename__'
 op|'='
 string|"'dns_domains'"
 newline|'\n'
+DECL|variable|deleted
+name|'deleted'
+op|'='
+name|'Column'
+op|'('
+name|'Boolean'
+op|','
+name|'default'
+op|'='
+name|'False'
+op|')'
+newline|'\n'
 DECL|variable|domain
 name|'domain'
 op|'='
@@ -5019,7 +5063,7 @@ string|"'InstanceMetadata.instance_uuid == '"
 nl|'\n'
 string|"'Instance.uuid,'"
 nl|'\n'
-string|"'InstanceMetadata.deleted == False)'"
+string|"'InstanceMetadata.deleted == 0)'"
 op|')'
 newline|'\n'
 nl|'\n'
@@ -5107,7 +5151,7 @@ op|'='
 op|'('
 string|"'and_(InstanceSystemMetadata.instance_uuid == '"
 nl|'\n'
-string|"'Instance.uuid, InstanceSystemMetadata.deleted == False)'"
+string|"'Instance.uuid, InstanceSystemMetadata.deleted == 0)'"
 op|')'
 newline|'\n'
 DECL|variable|instance
@@ -5223,7 +5267,7 @@ string|"'and_('"
 nl|'\n'
 string|"'InstanceTypeProjects.instance_type_id == InstanceTypes.id,'"
 nl|'\n'
-string|"'InstanceTypeProjects.deleted == False)'"
+string|"'InstanceTypeProjects.deleted == 0)'"
 op|')'
 newline|'\n'
 nl|'\n'
@@ -5325,7 +5369,7 @@ string|"'and_('"
 nl|'\n'
 string|"'InstanceTypeExtraSpecs.instance_type_id == InstanceTypes.id,'"
 nl|'\n'
-string|"'InstanceTypeExtraSpecs.deleted == False)'"
+string|"'InstanceTypeExtraSpecs.deleted == 0)'"
 op|')'
 newline|'\n'
 nl|'\n'
@@ -5709,9 +5753,9 @@ string|"'and_('"
 nl|'\n'
 string|"'Aggregate.id == AggregateHost.aggregate_id,'"
 nl|'\n'
-string|"'AggregateHost.deleted == False,'"
+string|"'AggregateHost.deleted == 0,'"
 nl|'\n'
-string|"'Aggregate.deleted == False)'"
+string|"'Aggregate.deleted == 0)'"
 op|','
 nl|'\n'
 DECL|variable|secondaryjoin
@@ -5721,9 +5765,9 @@ string|"'and_('"
 nl|'\n'
 string|"'AggregateHost.aggregate_id == Aggregate.id, '"
 nl|'\n'
-string|"'AggregateHost.deleted == False,'"
+string|"'AggregateHost.deleted == 0,'"
 nl|'\n'
-string|"'Aggregate.deleted == False)'"
+string|"'Aggregate.deleted == 0)'"
 op|','
 nl|'\n'
 DECL|variable|backref
@@ -5754,9 +5798,9 @@ string|"'and_('"
 nl|'\n'
 string|"'Aggregate.id == AggregateMetadata.aggregate_id,'"
 nl|'\n'
-string|"'AggregateMetadata.deleted == False,'"
+string|"'AggregateMetadata.deleted == 0,'"
 nl|'\n'
-string|"'Aggregate.deleted == False)'"
+string|"'Aggregate.deleted == 0)'"
 op|','
 nl|'\n'
 DECL|variable|secondaryjoin
@@ -5766,9 +5810,9 @@ string|"'and_('"
 nl|'\n'
 string|"'AggregateMetadata.aggregate_id == Aggregate.id, '"
 nl|'\n'
-string|"'AggregateMetadata.deleted == False,'"
+string|"'AggregateMetadata.deleted == 0,'"
 nl|'\n'
-string|"'Aggregate.deleted == False)'"
+string|"'Aggregate.deleted == 0)'"
 op|','
 nl|'\n'
 DECL|variable|backref
