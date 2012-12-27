@@ -217,7 +217,7 @@ name|'except'
 name|'Exception'
 op|':'
 newline|'\n'
-comment|"# intential catch all to handle exceptions even if we don't"
+comment|"# intentionally catch all to handle exceptions even if we don't"
 nl|'\n'
 comment|'# have mysql code loaded at all.'
 nl|'\n'
@@ -1204,7 +1204,7 @@ op|')'
 newline|'\n'
 comment|"# add this to the global lists to make reset work with it, it's removed"
 nl|'\n'
-comment|'# automaticaly in tearDown so no need to clean it up here.'
+comment|'# automatically in tearDown so no need to clean it up here.'
 nl|'\n'
 dedent|''
 name|'connect_string'
