@@ -6532,7 +6532,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""Compatability layer for the EC2 instance service"""'
+string|'"""Compatibility layer for the EC2 instance service"""'
 newline|'\n'
 DECL|variable|__tablename__
 name|'__tablename__'
