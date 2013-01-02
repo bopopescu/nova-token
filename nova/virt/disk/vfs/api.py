@@ -312,7 +312,7 @@ name|'pass'
 newline|'\n'
 nl|'\n'
 dedent|''
-string|'"""\n    Replace the entire contents of the file identified\n    by @path, wth @content, creating the file if it does\n    not already exist\n    """'
+string|'"""\n    Replace the entire contents of the file identified\n    by @path, with @content, creating the file if it does\n    not already exist\n    """'
 newline|'\n'
 DECL|member|replace_file
 name|'def'
