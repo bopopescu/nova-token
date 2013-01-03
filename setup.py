@@ -260,6 +260,9 @@ nl|'\n'
 string|"'bin/nova-scheduler'"
 op|','
 nl|'\n'
+string|"'bin/nova-spicehtml5proxy'"
+op|','
+nl|'\n'
 string|"'bin/nova-xvpvncproxy'"
 op|','
 nl|'\n'
