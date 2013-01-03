@@ -595,7 +595,7 @@ name|'virt'
 op|'.'
 name|'configdrive'
 op|'.'
-name|'ConfigDriveBuilder'
+name|'_ConfigDriveBuilder'
 op|','
 nl|'\n'
 string|"'make_drive'"
