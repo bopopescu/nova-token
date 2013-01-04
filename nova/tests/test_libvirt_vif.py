@@ -201,6 +201,11 @@ nl|'\n'
 string|"'vif_uuid'"
 op|':'
 string|"'vif-xxx-yyy-zzz'"
+op|','
+nl|'\n'
+string|"'vif_devname'"
+op|':'
+string|"'tap-xxx-yyy-zzz'"
 nl|'\n'
 op|'}'
 newline|'\n'

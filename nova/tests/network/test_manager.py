@@ -1019,6 +1019,11 @@ op|'.'
 name|'VIF_TYPE_BRIDGE'
 op|','
 nl|'\n'
+string|"'vif_devname'"
+op|':'
+name|'None'
+op|','
+nl|'\n'
 string|"'vif_uuid'"
 op|':'
 nl|'\n'
