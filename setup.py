@@ -212,6 +212,9 @@ nl|'\n'
 string|"'bin/nova-rpc-zmq-receiver'"
 op|','
 nl|'\n'
+string|"'bin/nova-cells'"
+op|','
+nl|'\n'
 string|"'bin/nova-cert'"
 op|','
 nl|'\n'
