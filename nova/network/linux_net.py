@@ -507,7 +507,7 @@ name|'import_opt'
 op|'('
 string|"'fake_network'"
 op|','
-string|"'nova.config'"
+string|"'nova.network.manager'"
 op|')'
 newline|'\n'
 name|'CONF'
