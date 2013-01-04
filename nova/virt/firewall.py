@@ -235,7 +235,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'""" Firewall Driver base class.\n\n        Defines methods that any driver providing security groups\n        and provider fireall functionality should implement.\n    """'
+string|'""" Firewall Driver base class.\n\n        Defines methods that any driver providing security groups\n        and provider firewall functionality should implement.\n    """'
 newline|'\n'
 DECL|member|__init__
 name|'def'
