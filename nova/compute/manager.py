@@ -18577,9 +18577,13 @@ op|'['
 string|"'wr_bytes'"
 op|']'
 op|','
+nl|'\n'
 name|'usage'
 op|'['
-string|"'instance_id'"
+string|"'instance'"
+op|']'
+op|'['
+string|"'uuid'"
 op|']'
 op|','
 nl|'\n'

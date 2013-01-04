@@ -31548,9 +31548,11 @@ op|':'
 number|'1'
 op|','
 nl|'\n'
-string|"'instance_id'"
+string|"'instance'"
 op|':'
-number|'1'
+name|'self'
+op|'.'
+name|'ins_ref'
 op|','
 nl|'\n'
 string|"'rd_bytes'"
@@ -31584,9 +31586,11 @@ op|':'
 number|'2'
 op|','
 nl|'\n'
-string|"'instance_id'"
+string|"'instance'"
 op|':'
-number|'1'
+name|'self'
+op|'.'
+name|'ins_ref'
 op|','
 nl|'\n'
 string|"'rd_bytes'"

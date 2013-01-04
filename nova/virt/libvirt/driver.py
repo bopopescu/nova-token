@@ -13379,12 +13379,9 @@ string|"'volume_id'"
 op|']'
 op|','
 nl|'\n'
-name|'instance_id'
+name|'instance'
 op|'='
 name|'instance'
-op|'['
-string|"'id'"
-op|']'
 op|','
 nl|'\n'
 name|'rd_req'
