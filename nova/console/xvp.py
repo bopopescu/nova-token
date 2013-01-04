@@ -226,7 +226,7 @@ name|'import_opt'
 op|'('
 string|"'pybasedir'"
 op|','
-string|"'nova.config'"
+string|"'nova.paths'"
 op|')'
 newline|'\n'
 DECL|variable|LOG

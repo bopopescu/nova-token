@@ -240,6 +240,15 @@ op|','
 name|'baremetal_group'
 op|')'
 newline|'\n'
+name|'CONF'
+op|'.'
+name|'import_opt'
+op|'('
+string|"'state_path'"
+op|','
+string|"'nova.paths'"
+op|')'
+newline|'\n'
 nl|'\n'
 DECL|variable|LOG
 name|'LOG'
