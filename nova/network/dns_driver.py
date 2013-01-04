@@ -36,7 +36,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'""" Defines the DNS manager interface.  Does nothing. """'
+string|'"""Defines the DNS manager interface.  Does nothing. """'
 newline|'\n'
 nl|'\n'
 DECL|member|__init__

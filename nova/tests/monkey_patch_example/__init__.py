@@ -53,7 +53,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'""" decorator for notify which is used from utils.monkey_patch()\n\n        :param name: name of the function\n        :param function: - object of the function\n        :returns: function -- decorated function\n    """'
+string|'"""decorator for notify which is used from utils.monkey_patch()\n\n        :param name: name of the function\n        :param function: - object of the function\n        :returns: function -- decorated function\n    """'
 newline|'\n'
 DECL|function|wrapped_func
 name|'def'

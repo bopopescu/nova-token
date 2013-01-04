@@ -611,7 +611,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'""" In this function will be raised DBDuplicateEntry exception if integrity\n        error wrap unique constraint violation. """'
+string|'"""\n    In this function will be raised DBDuplicateEntry exception if integrity\n    error wrap unique constraint violation.\n    """'
 newline|'\n'
 nl|'\n'
 DECL|function|get_columns_from_uniq_cons_or_name
