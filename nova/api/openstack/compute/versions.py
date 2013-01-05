@@ -94,15 +94,14 @@ string|"'pdf'"
 op|':'
 string|"'http://docs.openstack.org/'"
 nl|'\n'
-string|"'api/openstack-compute/1.1/os-compute-devguide-1.1.pdf'"
+string|"'api/openstack-compute/2/os-compute-devguide-2.pdf'"
 op|','
 nl|'\n'
 string|"'wadl'"
 op|':'
 string|"'http://docs.openstack.org/'"
 nl|'\n'
-string|"'api/openstack-compute/1.1/wadl/os-compute-1.1.wadl'"
-op|','
+string|"'api/openstack-compute/2/wadl/os-compute-2.wadl'"
 nl|'\n'
 op|'}'
 op|','
