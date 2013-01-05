@@ -5137,7 +5137,15 @@ op|':'
 newline|'\n'
 indent|'            '
 name|'return'
+op|'{'
+string|"'address'"
+op|':'
 string|"'10.0.0.1'"
+op|','
+string|"'network'"
+op|':'
+string|"'fakenet'"
+op|'}'
 newline|'\n'
 nl|'\n'
 comment|"# floating ip that's already associated"
@@ -5988,6 +5996,8 @@ op|'('
 name|'_context'
 op|','
 name|'fixed_ip_id'
+op|','
+name|'get_network'
 op|')'
 op|':'
 newline|'\n'
@@ -6004,6 +6014,10 @@ op|'{'
 string|"'address'"
 op|':'
 string|"'fakefixed'"
+op|','
+string|"'network'"
+op|':'
+string|"'fakenet'"
 op|'}'
 newline|'\n'
 dedent|''
@@ -6075,6 +6089,9 @@ string|"'fakefixed'"
 op|','
 nl|'\n'
 string|"'fakeiface'"
+op|','
+nl|'\n'
+string|"'fakenet'"
 op|')'
 newline|'\n'
 name|'self'
@@ -6149,6 +6166,9 @@ string|"'fakefixed'"
 op|','
 nl|'\n'
 string|"'fooiface'"
+op|','
+nl|'\n'
+string|"'fakenet'"
 op|')'
 newline|'\n'
 name|'self'
@@ -13834,6 +13854,8 @@ op|'('
 name|'context'
 op|','
 name|'fixed_ip_id'
+op|','
+name|'get_network'
 op|')'
 op|':'
 newline|'\n'
@@ -13848,6 +13870,11 @@ nl|'\n'
 string|"'address'"
 op|':'
 string|"'10.0.0.2'"
+op|','
+nl|'\n'
+string|"'network'"
+op|':'
+string|"'fakenet'"
 op|'}'
 newline|'\n'
 nl|'\n'
@@ -13861,6 +13888,9 @@ op|','
 name|'fixed_addr'
 op|','
 name|'interface'
+op|','
+nl|'\n'
+name|'network'
 op|')'
 op|':'
 newline|'\n'
@@ -14125,6 +14155,8 @@ op|'('
 name|'context'
 op|','
 name|'fixed_ip_id'
+op|','
+name|'get_network'
 op|')'
 op|':'
 newline|'\n'
@@ -14139,6 +14171,11 @@ nl|'\n'
 string|"'address'"
 op|':'
 string|"'10.0.0.2'"
+op|','
+nl|'\n'
+string|"'network'"
+op|':'
+string|"'fakenet'"
 op|'}'
 newline|'\n'
 nl|'\n'
@@ -14152,6 +14189,9 @@ op|','
 name|'fixed_addr'
 op|','
 name|'interface'
+op|','
+nl|'\n'
+name|'network'
 op|')'
 op|':'
 newline|'\n'
