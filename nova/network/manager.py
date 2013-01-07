@@ -869,9 +869,9 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'Number of periodic scheduler ticks to wait between '"
+string|"'Number of seconds to wait between runs of updates to DNS '"
 nl|'\n'
-string|"'runs of updates to DNS entries.'"
+string|"'entries.'"
 op|')'
 op|','
 nl|'\n'
@@ -12397,7 +12397,7 @@ op|'.'
 name|'periodic_task'
 op|'('
 nl|'\n'
-name|'ticks_between_runs'
+name|'spacing'
 op|'='
 name|'CONF'
 op|'.'
