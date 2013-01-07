@@ -6523,7 +6523,7 @@ name|'Set'
 op|'('
 name|'db'
 op|','
-string|"'instance_get_all_by_filters'"
+string|"'instance_get_all'"
 op|','
 name|'fake_get_all'
 op|')'
