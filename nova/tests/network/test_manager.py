@@ -1032,6 +1032,11 @@ op|'%'
 name|'nid'
 op|','
 nl|'\n'
+string|"'ovs_interfaceid'"
+op|':'
+name|'None'
+op|','
+nl|'\n'
 string|"'should_create_vlan'"
 op|':'
 name|'False'
