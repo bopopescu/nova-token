@@ -1757,8 +1757,11 @@ name|'result'
 newline|'\n'
 nl|'\n'
 nl|'\n'
-DECL|function|bm_interface_get_all
 dedent|''
+op|'@'
+name|'require_admin_context'
+newline|'\n'
+DECL|function|bm_interface_get_all
 name|'def'
 name|'bm_interface_get_all'
 op|'('
