@@ -403,7 +403,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""Floating IPs support"""'
+string|'"""Floating IPs support."""'
 newline|'\n'
 nl|'\n'
 DECL|variable|name

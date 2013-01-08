@@ -2131,7 +2131,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""Admin-only host administration"""'
+string|'"""Admin-only host administration."""'
 newline|'\n'
 nl|'\n'
 DECL|variable|name

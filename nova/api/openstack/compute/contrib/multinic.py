@@ -506,7 +506,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""Multiple network support"""'
+string|'"""Multiple network support."""'
 newline|'\n'
 nl|'\n'
 DECL|variable|name

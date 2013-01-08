@@ -1262,7 +1262,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""Disk Management Extension"""'
+string|'"""Disk Management Extension."""'
 newline|'\n'
 nl|'\n'
 DECL|variable|name

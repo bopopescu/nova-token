@@ -293,7 +293,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""Allow Admins to view server diagnostics through server action"""'
+string|'"""Allow Admins to view server diagnostics through server action."""'
 newline|'\n'
 nl|'\n'
 DECL|variable|name

@@ -411,7 +411,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""Instance deferred delete"""'
+string|'"""Instance deferred delete."""'
 newline|'\n'
 nl|'\n'
 DECL|variable|name

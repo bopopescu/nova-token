@@ -359,7 +359,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""Provide additional data for flavors"""'
+string|'"""Provide additional data for flavors."""'
 newline|'\n'
 nl|'\n'
 DECL|variable|name

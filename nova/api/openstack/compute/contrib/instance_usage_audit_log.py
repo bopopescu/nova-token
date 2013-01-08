@@ -696,7 +696,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""Admin-only Task Log Monitoring"""'
+string|'"""Admin-only Task Log Monitoring."""'
 newline|'\n'
 DECL|variable|name
 name|'name'

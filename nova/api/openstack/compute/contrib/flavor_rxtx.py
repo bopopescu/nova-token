@@ -350,7 +350,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""Support to show the rxtx status of a flavor"""'
+string|'"""Support to show the rxtx status of a flavor."""'
 newline|'\n'
 nl|'\n'
 DECL|variable|name

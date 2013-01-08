@@ -1251,7 +1251,7 @@ op|','
 nl|'\n'
 string|"'description'"
 op|':'
-string|"'The Fox In Socks Extension'"
+string|"'The Fox In Socks Extension.'"
 op|','
 nl|'\n'
 string|"'alias'"
@@ -1435,7 +1435,7 @@ op|','
 nl|'\n'
 string|'"description"'
 op|':'
-string|'"The Fox In Socks Extension"'
+string|'"The Fox In Socks Extension."'
 op|','
 nl|'\n'
 string|'"alias"'
@@ -1721,7 +1721,7 @@ op|')'
 op|')'
 op|','
 nl|'\n'
-string|"'The Fox In Socks Extension'"
+string|"'The Fox In Socks Extension.'"
 op|')'
 newline|'\n'
 nl|'\n'
@@ -1908,7 +1908,7 @@ op|')'
 op|')'
 op|','
 nl|'\n'
-string|"'The Fox In Socks Extension'"
+string|"'The Fox In Socks Extension.'"
 op|')'
 newline|'\n'
 nl|'\n'

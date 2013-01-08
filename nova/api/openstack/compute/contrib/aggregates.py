@@ -1318,7 +1318,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""Admin-only aggregate administration"""'
+string|'"""Admin-only aggregate administration."""'
 newline|'\n'
 nl|'\n'
 DECL|variable|name

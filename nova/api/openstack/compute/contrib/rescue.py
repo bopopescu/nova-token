@@ -506,7 +506,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""Instance rescue mode"""'
+string|'"""Instance rescue mode."""'
 newline|'\n'
 nl|'\n'
 DECL|variable|name

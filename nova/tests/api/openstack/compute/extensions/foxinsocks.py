@@ -311,7 +311,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""The Fox In Socks Extension"""'
+string|'"""The Fox In Socks Extension."""'
 newline|'\n'
 nl|'\n'
 DECL|variable|name

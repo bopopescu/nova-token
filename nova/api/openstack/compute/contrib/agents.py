@@ -818,7 +818,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""Agents support"""'
+string|'"""Agents support."""'
 newline|'\n'
 nl|'\n'
 DECL|variable|name

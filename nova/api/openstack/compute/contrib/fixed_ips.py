@@ -513,7 +513,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""Fixed IPs support"""'
+string|'"""Fixed IPs support."""'
 newline|'\n'
 nl|'\n'
 DECL|variable|name

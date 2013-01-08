@@ -51,7 +51,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""Allow multiple create in the Create Server v1.1 API"""'
+string|'"""Allow multiple create in the Create Server v1.1 API."""'
 newline|'\n'
 nl|'\n'
 DECL|variable|name
