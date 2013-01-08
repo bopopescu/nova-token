@@ -344,7 +344,7 @@ name|'import_opt'
 op|'('
 string|"'vpn_key_suffix'"
 op|','
-string|"'nova.config'"
+string|"'nova.cloudpipe.pipelib'"
 op|')'
 newline|'\n'
 name|'CONF'
