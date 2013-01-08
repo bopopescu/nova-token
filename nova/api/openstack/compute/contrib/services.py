@@ -146,7 +146,7 @@ name|'import_opt'
 op|'('
 string|"'service_down_time'"
 op|','
-string|"'nova.config'"
+string|"'nova.service'"
 op|')'
 newline|'\n'
 nl|'\n'
