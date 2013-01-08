@@ -195,30 +195,6 @@ name|'cfg'
 op|'.'
 name|'StrOpt'
 op|'('
-string|"'osapi_compute_unique_server_name_scope'"
-op|','
-nl|'\n'
-DECL|variable|default
-name|'default'
-op|'='
-string|"''"
-op|','
-nl|'\n'
-DECL|variable|help
-name|'help'
-op|'='
-string|"'When set, compute API will consider duplicate hostnames '"
-nl|'\n'
-string|"'invalid within the specified scope, regardless of case. '"
-nl|'\n'
-string|'\'Should be empty, "project" or "global".\''
-op|')'
-op|','
-nl|'\n'
-name|'cfg'
-op|'.'
-name|'StrOpt'
-op|'('
 string|"'default_instance_type'"
 op|','
 nl|'\n'
