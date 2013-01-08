@@ -245,7 +245,7 @@ name|'import_opt'
 op|'('
 string|"'network_api_class'"
 op|','
-string|"'nova.config'"
+string|"'nova.network'"
 op|')'
 newline|'\n'
 name|'CONF'
