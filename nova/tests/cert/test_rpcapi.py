@@ -77,15 +77,6 @@ name|'cfg'
 op|'.'
 name|'CONF'
 newline|'\n'
-name|'CONF'
-op|'.'
-name|'import_opt'
-op|'('
-string|"'cert_topic'"
-op|','
-string|"'nova.config'"
-op|')'
-newline|'\n'
 nl|'\n'
 nl|'\n'
 DECL|class|CertRpcAPITestCase
