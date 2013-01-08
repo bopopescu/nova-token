@@ -152,7 +152,7 @@ name|'import_opt'
 op|'('
 string|"'host'"
 op|','
-string|"'nova.config'"
+string|"'nova.netconf'"
 op|')'
 newline|'\n'
 nl|'\n'

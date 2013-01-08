@@ -145,15 +145,6 @@ name|'cfg'
 op|'.'
 name|'CONF'
 newline|'\n'
-name|'CONF'
-op|'.'
-name|'import_opt'
-op|'('
-string|"'osapi_compute_extension'"
-op|','
-string|"'nova.config'"
-op|')'
-newline|'\n'
 nl|'\n'
 DECL|variable|NS
 name|'NS'

@@ -350,7 +350,15 @@ op|','
 name|'baremetal_group'
 op|')'
 newline|'\n'
-nl|'\n'
+name|'CONF'
+op|'.'
+name|'import_opt'
+op|'('
+string|"'use_ipv6'"
+op|','
+string|"'nova.netconf'"
+op|')'
+newline|'\n'
 nl|'\n'
 DECL|variable|CHEETAH
 name|'CHEETAH'
