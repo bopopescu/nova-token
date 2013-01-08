@@ -155,7 +155,7 @@ name|'import_opt'
 op|'('
 string|"'scheduler_topic'"
 op|','
-string|"'nova.config'"
+string|"'nova.scheduler.rpcapi'"
 op|')'
 newline|'\n'
 name|'CONF'

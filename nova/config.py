@@ -187,26 +187,6 @@ op|','
 nl|'\n'
 name|'cfg'
 op|'.'
-name|'StrOpt'
-op|'('
-string|"'scheduler_topic'"
-op|','
-nl|'\n'
-DECL|variable|default
-name|'default'
-op|'='
-string|"'scheduler'"
-op|','
-nl|'\n'
-DECL|variable|help
-name|'help'
-op|'='
-string|"'the topic scheduler nodes listen on'"
-op|')'
-op|','
-nl|'\n'
-name|'cfg'
-op|'.'
 name|'ListOpt'
 op|'('
 string|"'enabled_apis'"
