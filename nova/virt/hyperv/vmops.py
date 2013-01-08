@@ -271,7 +271,7 @@ name|'import_opt'
 op|'('
 string|"'use_cow_images'"
 op|','
-string|"'nova.config'"
+string|"'nova.virt.driver'"
 op|')'
 newline|'\n'
 nl|'\n'

@@ -285,28 +285,6 @@ op|','
 nl|'\n'
 name|'cfg'
 op|'.'
-name|'StrOpt'
-op|'('
-string|"'default_ephemeral_format'"
-op|','
-nl|'\n'
-DECL|variable|default
-name|'default'
-op|'='
-name|'None'
-op|','
-nl|'\n'
-DECL|variable|help
-name|'help'
-op|'='
-string|"'The default format an ephemeral_volume will be '"
-nl|'\n'
-string|"'formatted with on creation.'"
-op|')'
-op|','
-nl|'\n'
-name|'cfg'
-op|'.'
 name|'BoolOpt'
 op|'('
 string|"'use_ipv6'"
@@ -342,26 +320,6 @@ DECL|variable|help
 name|'help'
 op|'='
 string|"'maximum time since last check-in for up service'"
-op|')'
-op|','
-nl|'\n'
-name|'cfg'
-op|'.'
-name|'BoolOpt'
-op|'('
-string|"'use_cow_images'"
-op|','
-nl|'\n'
-DECL|variable|default
-name|'default'
-op|'='
-name|'True'
-op|','
-nl|'\n'
-DECL|variable|help
-name|'help'
-op|'='
-string|"'Whether to use cow images'"
 op|')'
 op|','
 nl|'\n'
