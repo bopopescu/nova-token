@@ -877,7 +877,7 @@ name|'import_opt'
 op|'('
 string|"'network_manager'"
 op|','
-string|"'nova.config'"
+string|"'nova.service'"
 op|')'
 newline|'\n'
 name|'CONF'

@@ -143,7 +143,7 @@ name|'import_opt'
 op|'('
 string|"'compute_manager'"
 op|','
-string|"'nova.config'"
+string|"'nova.service'"
 op|')'
 newline|'\n'
 name|'CONF'
