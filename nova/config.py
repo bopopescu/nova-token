@@ -195,26 +195,6 @@ name|'cfg'
 op|'.'
 name|'StrOpt'
 op|'('
-string|"'default_instance_type'"
-op|','
-nl|'\n'
-DECL|variable|default
-name|'default'
-op|'='
-string|"'m1.small'"
-op|','
-nl|'\n'
-DECL|variable|help
-name|'help'
-op|'='
-string|"'default instance type to use, testing only'"
-op|')'
-op|','
-nl|'\n'
-name|'cfg'
-op|'.'
-name|'StrOpt'
-op|'('
 string|"'vpn_image_id'"
 op|','
 nl|'\n'

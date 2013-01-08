@@ -250,7 +250,7 @@ name|'import_opt'
 op|'('
 string|"'default_instance_type'"
 op|','
-string|"'nova.config'"
+string|"'nova.compute.instance_types'"
 op|')'
 newline|'\n'
 name|'CONF'
