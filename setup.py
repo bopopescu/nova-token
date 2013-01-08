@@ -212,6 +212,9 @@ nl|'\n'
 string|"'bin/nova-baremetal-deploy-helper'"
 op|','
 nl|'\n'
+string|"'bin/nova-baremetal-manage'"
+op|','
+nl|'\n'
 string|"'bin/nova-rpc-zmq-receiver'"
 op|','
 nl|'\n'
