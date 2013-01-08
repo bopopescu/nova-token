@@ -433,7 +433,7 @@ name|'import_opt'
 op|'('
 string|"'compute_topic'"
 op|','
-string|"'nova.config'"
+string|"'nova.compute.rpcapi'"
 op|')'
 newline|'\n'
 name|'CONF'
