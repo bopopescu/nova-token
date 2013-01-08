@@ -185,7 +185,7 @@ name|'import_opt'
 op|'('
 string|"'state_path'"
 op|','
-string|"'nova.config'"
+string|"'nova.paths'"
 op|')'
 newline|'\n'
 nl|'\n'

@@ -358,6 +358,15 @@ op|','
 name|'baremetal_group'
 op|')'
 newline|'\n'
+name|'CONF'
+op|'.'
+name|'import_opt'
+op|'('
+string|"'pybasedir'"
+op|','
+string|"'nova.paths'"
+op|')'
+newline|'\n'
 nl|'\n'
 DECL|variable|DEFAULT_FIREWALL_DRIVER
 name|'DEFAULT_FIREWALL_DRIVER'
