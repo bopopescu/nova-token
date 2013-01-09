@@ -100,7 +100,7 @@ name|'import_opt'
 op|'('
 string|"'console_topic'"
 op|','
-string|"'nova.config'"
+string|"'nova.console.rpcapi'"
 op|')'
 newline|'\n'
 nl|'\n'
