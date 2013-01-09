@@ -1308,7 +1308,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""Flavor access supprt."""'
+string|'"""Flavor access support."""'
 newline|'\n'
 nl|'\n'
 DECL|variable|name
