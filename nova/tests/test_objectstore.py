@@ -106,7 +106,7 @@ name|'import_opt'
 op|'('
 string|"'s3_host'"
 op|','
-string|"'nova.config'"
+string|"'nova.image.s3'"
 op|')'
 newline|'\n'
 nl|'\n'
