@@ -5632,7 +5632,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""Unit tests for diff_dict()"""'
+string|'"""Unit tests for diff_dict()."""'
 newline|'\n'
 nl|'\n'
 DECL|member|test_no_change

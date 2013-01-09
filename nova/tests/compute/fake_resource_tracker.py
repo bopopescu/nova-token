@@ -51,7 +51,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""Version without a DB requirement"""'
+string|'"""Version without a DB requirement."""'
 newline|'\n'
 nl|'\n'
 DECL|member|_create

@@ -30,7 +30,7 @@ comment|'#    License for the specific language governing permissions and limita
 nl|'\n'
 comment|'#    under the License.'
 nl|'\n'
-string|'"""Tests for compute service with multiple compute nodes"""'
+string|'"""Tests for compute service with multiple compute nodes."""'
 newline|'\n'
 nl|'\n'
 name|'from'

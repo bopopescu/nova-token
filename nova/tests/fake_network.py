@@ -361,7 +361,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""Represent a model from the db"""'
+string|'"""Represent a model from the db."""'
 newline|'\n'
 DECL|member|__init__
 name|'def'
