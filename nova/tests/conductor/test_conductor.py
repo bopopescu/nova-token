@@ -896,7 +896,11 @@ op|'{'
 string|"'name'"
 op|':'
 string|"'foo'"
+op|'}'
 op|','
+name|'metadata'
+op|'='
+op|'{'
 string|"'availability_zone'"
 op|':'
 string|"'foo'"
