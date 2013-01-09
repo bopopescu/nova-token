@@ -227,26 +227,6 @@ op|','
 nl|'\n'
 name|'cfg'
 op|'.'
-name|'StrOpt'
-op|'('
-string|"'network_topic'"
-op|','
-nl|'\n'
-DECL|variable|default
-name|'default'
-op|'='
-string|"'network'"
-op|','
-nl|'\n'
-DECL|variable|help
-name|'help'
-op|'='
-string|"'the topic network nodes listen on'"
-op|')'
-op|','
-nl|'\n'
-name|'cfg'
-op|'.'
 name|'ListOpt'
 op|'('
 string|"'enabled_apis'"
