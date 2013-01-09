@@ -169,26 +169,6 @@ name|'cfg'
 op|'.'
 name|'StrOpt'
 op|'('
-string|"'vpn_image_id'"
-op|','
-nl|'\n'
-DECL|variable|default
-name|'default'
-op|'='
-string|"'0'"
-op|','
-nl|'\n'
-DECL|variable|help
-name|'help'
-op|'='
-string|"'image id used when starting up a cloudpipe vpn server'"
-op|')'
-op|','
-nl|'\n'
-name|'cfg'
-op|'.'
-name|'StrOpt'
-op|'('
 string|"'vpn_key_suffix'"
 op|','
 nl|'\n'

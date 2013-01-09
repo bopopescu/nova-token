@@ -137,7 +137,7 @@ name|'import_opt'
 op|'('
 string|"'vpn_image_id'"
 op|','
-string|"'nova.config'"
+string|"'nova.cloudpipe.pipelib'"
 op|')'
 newline|'\n'
 nl|'\n'
