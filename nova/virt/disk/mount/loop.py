@@ -28,7 +28,7 @@ comment|'# License for the specific language governing permissions and limitatio
 nl|'\n'
 comment|'# under the License.'
 nl|'\n'
-string|'"""Support for mounting images with the loop device"""'
+string|'"""Support for mounting images with the loop device."""'
 newline|'\n'
 nl|'\n'
 name|'from'
