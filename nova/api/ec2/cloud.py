@@ -1142,7 +1142,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'""" CloudController provides the critical dispatch between\n inbound API calls through the endpoint and messages\n sent to the other nodes.\n"""'
+string|'"""CloudController provides the critical dispatch between\n inbound API calls through the endpoint and messages\n sent to the other nodes.\n"""'
 newline|'\n'
 DECL|member|__init__
 name|'def'

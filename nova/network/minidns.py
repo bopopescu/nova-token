@@ -100,7 +100,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'""" Trivial DNS driver. This will read/write to a local, flat file\n        and have no effect on your actual DNS system. This class is\n        strictly for testing purposes, and should keep you out of dependency\n        hell.\n\n        Note that there is almost certainly a race condition here that\n        will manifest anytime instances are rapidly created and deleted.\n        A proper implementation will need some manner of locking."""'
+string|'"""\n    Trivial DNS driver. This will read/write to a local, flat file\n    and have no effect on your actual DNS system. This class is\n    strictly for testing purposes, and should keep you out of dependency\n    hell.\n\n    Note that there is almost certainly a race condition here that\n    will manifest anytime instances are rapidly created and deleted.\n    A proper implementation will need some manner of locking.\n    """'
 newline|'\n'
 nl|'\n'
 DECL|member|__init__

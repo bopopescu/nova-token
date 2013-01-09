@@ -50,7 +50,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'""" No-op DNS manager. Does nothing. """'
+string|'"""No-op DNS manager. Does nothing. """'
 newline|'\n'
 nl|'\n'
 DECL|member|__init__
