@@ -159,9 +159,11 @@ DECL|variable|_driver_name_class_mapping
 name|'_driver_name_class_mapping'
 op|'='
 op|'{'
-string|'"db"'
+nl|'\n'
+string|"'db'"
 op|':'
-string|'"nova.servicegroup.db_driver.DbDriver"'
+string|"'nova.servicegroup.drivers.db.DbDriver'"
+nl|'\n'
 op|'}'
 newline|'\n'
 nl|'\n'
