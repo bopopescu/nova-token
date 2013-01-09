@@ -119,7 +119,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""Ram Filter with over subscription flag"""'
+string|'"""Ram Filter with over subscription flag."""'
 newline|'\n'
 nl|'\n'
 DECL|member|host_passes

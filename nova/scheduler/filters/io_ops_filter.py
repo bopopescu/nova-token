@@ -117,7 +117,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""Filter out hosts with too many concurrent I/O operations"""'
+string|'"""Filter out hosts with too many concurrent I/O operations."""'
 newline|'\n'
 nl|'\n'
 DECL|member|host_passes

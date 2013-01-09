@@ -117,7 +117,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""Filter out hosts with too many instances"""'
+string|'"""Filter out hosts with too many instances."""'
 newline|'\n'
 nl|'\n'
 DECL|member|host_passes
