@@ -704,11 +704,6 @@ nl|'\n'
 string|"'report_count'"
 op|':'
 number|'0'
-op|','
-nl|'\n'
-string|"'availability_zone'"
-op|':'
-string|"'nova'"
 op|'}'
 newline|'\n'
 name|'service_ref'
@@ -738,11 +733,6 @@ nl|'\n'
 string|"'report_count'"
 op|':'
 number|'0'
-op|','
-nl|'\n'
-string|"'availability_zone'"
-op|':'
-string|"'nova'"
 op|','
 nl|'\n'
 string|"'id'"
