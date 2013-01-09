@@ -3771,7 +3771,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""Volumes support"""'
+string|'"""Volumes support."""'
 newline|'\n'
 nl|'\n'
 DECL|variable|name

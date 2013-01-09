@@ -407,7 +407,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""Network association support"""'
+string|'"""Network association support."""'
 newline|'\n'
 nl|'\n'
 DECL|variable|name

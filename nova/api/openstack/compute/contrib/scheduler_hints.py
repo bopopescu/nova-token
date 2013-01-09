@@ -254,7 +254,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""Pass arbitrary key/value pairs to the scheduler"""'
+string|'"""Pass arbitrary key/value pairs to the scheduler."""'
 newline|'\n'
 nl|'\n'
 DECL|variable|name

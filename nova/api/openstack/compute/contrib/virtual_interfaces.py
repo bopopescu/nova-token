@@ -455,7 +455,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""Virtual interface support"""'
+string|'"""Virtual interface support."""'
 newline|'\n'
 nl|'\n'
 DECL|variable|name

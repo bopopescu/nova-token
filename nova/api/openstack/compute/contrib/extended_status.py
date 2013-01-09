@@ -398,7 +398,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""Extended Status support"""'
+string|'"""Extended Status support."""'
 newline|'\n'
 nl|'\n'
 DECL|variable|name

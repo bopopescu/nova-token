@@ -1699,7 +1699,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""Admin-only hypervisor administration"""'
+string|'"""Admin-only hypervisor administration."""'
 newline|'\n'
 nl|'\n'
 DECL|variable|name

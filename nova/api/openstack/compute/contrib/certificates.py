@@ -541,7 +541,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""Certificates support"""'
+string|'"""Certificates support."""'
 newline|'\n'
 nl|'\n'
 DECL|variable|name
