@@ -596,8 +596,6 @@ nl|'\n'
 string|"'key_pairs'"
 op|':'
 number|'100'
-op|','
-nl|'\n'
 op|'}'
 op|'}'
 newline|'\n'
