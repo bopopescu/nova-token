@@ -90,7 +90,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""Test case for CellsManager class"""'
+string|'"""Test case for CellsManager class."""'
 newline|'\n'
 nl|'\n'
 DECL|member|setUp

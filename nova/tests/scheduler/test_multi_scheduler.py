@@ -186,7 +186,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""Test case for multi driver"""'
+string|'"""Test case for multi driver."""'
 newline|'\n'
 nl|'\n'
 DECL|variable|driver_cls

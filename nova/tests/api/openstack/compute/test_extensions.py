@@ -560,7 +560,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""Provides access to Tweedle Beetles"""'
+string|'"""Provides access to Tweedle Beetles."""'
 newline|'\n'
 nl|'\n'
 DECL|variable|name

@@ -77,7 +77,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""Test Case for Block Device Mapping"""'
+string|'"""Test Case for Block Device Mapping."""'
 newline|'\n'
 nl|'\n'
 DECL|member|fake_ec2_vol_id_to_uuid

@@ -262,7 +262,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""Test case for the plugin api extension interface"""'
+string|'"""Test case for the plugin api extension interface."""'
 newline|'\n'
 DECL|member|test_add_extension
 name|'def'

@@ -121,7 +121,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""Test case for CellsScheduler class"""'
+string|'"""Test case for CellsScheduler class."""'
 newline|'\n'
 nl|'\n'
 DECL|member|setUp

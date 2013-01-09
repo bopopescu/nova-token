@@ -1151,7 +1151,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""Test case for EC2 request timestamp validation"""'
+string|'"""Test case for EC2 request timestamp validation."""'
 newline|'\n'
 nl|'\n'
 DECL|member|test_validate_ec2_timestamp_valid
