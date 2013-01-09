@@ -1249,7 +1249,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""Tenant-based Network Management Extension"""'
+string|'"""Tenant-based Network Management Extension."""'
 newline|'\n'
 nl|'\n'
 DECL|variable|name

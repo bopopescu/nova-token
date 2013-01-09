@@ -103,7 +103,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""Errors that occur when calling xenstore-* through subprocesses"""'
+string|'"""Errors that occur when calling xenstore-* through subprocesses."""'
 newline|'\n'
 nl|'\n'
 DECL|member|__init__

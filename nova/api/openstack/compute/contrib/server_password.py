@@ -386,7 +386,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""Server password support"""'
+string|'"""Server password support."""'
 newline|'\n'
 nl|'\n'
 DECL|variable|name
