@@ -1614,8 +1614,15 @@ op|'['
 op|'-'
 number|'5'
 op|']'
-op|'!='
+name|'not'
+name|'in'
+op|'['
 string|"'.'"
+op|','
+string|"'?'"
+op|','
+string|"'!'"
+op|']'
 op|')'
 op|':'
 newline|'\n'
