@@ -87,7 +87,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""For use with compute drivers that do not support resource tracking"""'
+string|'"""For use with compute drivers that do not support resource tracking."""'
 newline|'\n'
 nl|'\n'
 DECL|member|__init__
