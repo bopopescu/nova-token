@@ -199,26 +199,6 @@ op|','
 nl|'\n'
 name|'cfg'
 op|'.'
-name|'ListOpt'
-op|'('
-string|"'memcached_servers'"
-op|','
-nl|'\n'
-DECL|variable|default
-name|'default'
-op|'='
-name|'None'
-op|','
-nl|'\n'
-DECL|variable|help
-name|'help'
-op|'='
-string|"'Memcached servers or None for in process cache.'"
-op|')'
-op|','
-nl|'\n'
-name|'cfg'
-op|'.'
 name|'BoolOpt'
 op|'('
 string|"'use_ipv6'"
