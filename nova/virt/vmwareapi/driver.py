@@ -151,9 +151,9 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'URL for connection to VMWare ESX host.Required if '"
+string|"'URL for connection to VMware ESX host.Required if '"
 nl|'\n'
-string|"'compute_driver is vmwareapi.VMWareESXDriver.'"
+string|"'compute_driver is vmwareapi.VMwareESXDriver.'"
 op|')'
 op|','
 nl|'\n'
@@ -173,11 +173,11 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'Username for connection to VMWare ESX host. '"
+string|"'Username for connection to VMware ESX host. '"
 nl|'\n'
 string|"'Used only if compute_driver is '"
 nl|'\n'
-string|"'vmwareapi.VMWareESXDriver.'"
+string|"'vmwareapi.VMwareESXDriver.'"
 op|')'
 op|','
 nl|'\n'
@@ -197,11 +197,11 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'Password for connection to VMWare ESX host. '"
+string|"'Password for connection to VMware ESX host. '"
 nl|'\n'
 string|"'Used only if compute_driver is '"
 nl|'\n'
-string|"'vmwareapi.VMWareESXDriver.'"
+string|"'vmwareapi.VMwareESXDriver.'"
 op|')'
 op|','
 nl|'\n'
@@ -225,7 +225,7 @@ string|"'The interval used for polling of remote tasks. '"
 nl|'\n'
 string|"'Used only if compute_driver is '"
 nl|'\n'
-string|"'vmwareapi.VMWareESXDriver.'"
+string|"'vmwareapi.VMwareESXDriver.'"
 op|')'
 op|','
 nl|'\n'
@@ -251,7 +251,7 @@ string|"'socket error, etc. '"
 nl|'\n'
 string|"'Used only if compute_driver is '"
 nl|'\n'
-string|"'vmwareapi.VMWareESXDriver.'"
+string|"'vmwareapi.VMwareESXDriver.'"
 op|')'
 op|','
 nl|'\n'
@@ -330,11 +330,11 @@ op|')'
 newline|'\n'
 nl|'\n'
 nl|'\n'
-DECL|class|VMWareESXDriver
+DECL|class|VMwareESXDriver
 dedent|''
 dedent|''
 name|'class'
-name|'VMWareESXDriver'
+name|'VMwareESXDriver'
 op|'('
 name|'driver'
 op|'.'
@@ -367,7 +367,7 @@ newline|'\n'
 indent|'        '
 name|'super'
 op|'('
-name|'VMWareESXDriver'
+name|'VMwareESXDriver'
 op|','
 name|'self'
 op|')'
@@ -427,7 +427,7 @@ string|'"vmwareapi_host_username "'
 nl|'\n'
 string|'"and vmwareapi_host_password to use"'
 nl|'\n'
-string|'"compute_driver=vmwareapi.VMWareESXDriver"'
+string|'"compute_driver=vmwareapi.VMwareESXDriver"'
 op|')'
 op|')'
 newline|'\n'
@@ -435,7 +435,7 @@ nl|'\n'
 dedent|''
 name|'session'
 op|'='
-name|'VMWareAPISession'
+name|'VMwareAPISession'
 op|'('
 name|'host_ip'
 op|','
@@ -457,7 +457,7 @@ name|'_vmops'
 op|'='
 name|'vmops'
 op|'.'
-name|'VMWareVMOps'
+name|'VMwareVMOps'
 op|'('
 name|'session'
 op|')'
@@ -1046,11 +1046,11 @@ op|')'
 newline|'\n'
 nl|'\n'
 nl|'\n'
-DECL|class|VMWareAPISession
+DECL|class|VMwareAPISession
 dedent|''
 dedent|''
 name|'class'
-name|'VMWareAPISession'
+name|'VMwareAPISession'
 op|'('
 name|'object'
 op|')'
