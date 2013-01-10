@@ -190,7 +190,7 @@ name|'import_opt'
 op|'('
 string|"'use_ipv6'"
 op|','
-string|"'nova.config'"
+string|"'nova.netconf'"
 op|')'
 newline|'\n'
 DECL|variable|LOG

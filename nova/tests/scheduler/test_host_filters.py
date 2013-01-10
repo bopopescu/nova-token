@@ -123,7 +123,7 @@ name|'import_opt'
 op|'('
 string|"'my_ip'"
 op|','
-string|"'nova.config'"
+string|"'nova.netconf'"
 op|')'
 newline|'\n'
 nl|'\n'

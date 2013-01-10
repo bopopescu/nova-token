@@ -82,6 +82,15 @@ name|'CONF'
 op|'.'
 name|'import_opt'
 op|'('
+string|"'use_ipv6'"
+op|','
+string|"'nova.netconf'"
+op|')'
+newline|'\n'
+name|'CONF'
+op|'.'
+name|'import_opt'
+op|'('
 string|"'scheduler_driver'"
 op|','
 string|"'nova.scheduler.manager'"

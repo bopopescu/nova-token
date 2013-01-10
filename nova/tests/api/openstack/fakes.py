@@ -1034,7 +1034,7 @@ name|'Set'
 op|'('
 name|'nova'
 op|'.'
-name|'config'
+name|'netconf'
 op|','
 string|"'_get_my_ip'"
 op|','
