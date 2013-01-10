@@ -556,6 +556,26 @@ string|"'full class name for the Manager for scheduler'"
 op|')'
 op|','
 nl|'\n'
+name|'cfg'
+op|'.'
+name|'IntOpt'
+op|'('
+string|"'service_down_time'"
+op|','
+nl|'\n'
+DECL|variable|default
+name|'default'
+op|'='
+number|'60'
+op|','
+nl|'\n'
+DECL|variable|help
+name|'help'
+op|'='
+string|"'maximum time since last check-in for up service'"
+op|')'
+op|','
+nl|'\n'
 op|']'
 newline|'\n'
 nl|'\n'
