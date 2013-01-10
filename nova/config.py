@@ -169,26 +169,6 @@ name|'cfg'
 op|'.'
 name|'StrOpt'
 op|'('
-string|"'vpn_key_suffix'"
-op|','
-nl|'\n'
-DECL|variable|default
-name|'default'
-op|'='
-string|"'-vpn'"
-op|','
-nl|'\n'
-DECL|variable|help
-name|'help'
-op|'='
-string|"'Suffix to add to project name for vpn key and secgroups'"
-op|')'
-op|','
-nl|'\n'
-name|'cfg'
-op|'.'
-name|'StrOpt'
-op|'('
 string|"'host'"
 op|','
 nl|'\n'
