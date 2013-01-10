@@ -1045,7 +1045,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""Admin-only Network Management Extension"""'
+string|'"""Admin-only Network Management Extension."""'
 newline|'\n'
 nl|'\n'
 DECL|variable|name
