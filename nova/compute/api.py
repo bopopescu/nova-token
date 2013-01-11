@@ -5715,10 +5715,15 @@ name|'warning'
 op|'('
 name|'_'
 op|'('
-string|"'host for instance is down, deleting from '"
+string|'"instance\'s host %s is down, deleting from "'
 nl|'\n'
-string|"'database'"
+string|'"database"'
 op|')'
+op|'%'
+name|'instance'
+op|'['
+string|"'host'"
+op|']'
 op|','
 name|'instance'
 op|'='
