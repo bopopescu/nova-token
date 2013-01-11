@@ -2561,7 +2561,7 @@ name|'do_not_approve_additions'
 op|'.'
 name|'append'
 op|'('
-string|"'os-admin-networks'"
+string|"'os-networks'"
 op|')'
 newline|'\n'
 name|'do_not_approve_additions'
@@ -15143,9 +15143,9 @@ indent|'    '
 name|'extension_name'
 op|'='
 op|'('
-string|'"nova.api.openstack.compute.contrib.os_networks"'
+string|'"nova.api.openstack.compute.contrib.os_tenant_networks"'
 nl|'\n'
-string|'".Os_networks"'
+string|'".Os_tenant_networks"'
 op|')'
 newline|'\n'
 nl|'\n'
@@ -15315,7 +15315,7 @@ name|'self'
 op|'.'
 name|'_do_get'
 op|'('
-string|"'os-networks'"
+string|"'os-tenant-networks'"
 op|')'
 newline|'\n'
 name|'self'
@@ -15366,7 +15366,7 @@ name|'self'
 op|'.'
 name|'_do_post'
 op|'('
-string|"'os-networks'"
+string|"'os-tenant-networks'"
 op|','
 string|'"networks-post-req"'
 op|','
@@ -15405,10 +15405,10 @@ name|'response'
 op|')'
 newline|'\n'
 nl|'\n'
-DECL|member|test_delete_networK
+DECL|member|test_delete_network
 dedent|''
 name|'def'
-name|'test_delete_networK'
+name|'test_delete_network'
 op|'('
 name|'self'
 op|')'
@@ -15421,7 +15421,7 @@ name|'self'
 op|'.'
 name|'_do_post'
 op|'('
-string|"'os-networks'"
+string|"'os-tenant-networks'"
 op|','
 string|'"networks-post-req"'
 op|','
@@ -15448,8 +15448,9 @@ name|'self'
 op|'.'
 name|'_do_delete'
 op|'('
-string|"'os-networks/%s'"
+string|"'os-tenant-networks/%s'"
 op|'%'
+nl|'\n'
 name|'net'
 op|'['
 string|'"network"'
@@ -15545,7 +15546,7 @@ op|'.'
 name|'append'
 op|'('
 nl|'\n'
-string|"'nova.api.openstack.compute.contrib.admin_networks.Admin_networks'"
+string|"'nova.api.openstack.compute.contrib.os_networks.Os_networks'"
 op|')'
 newline|'\n'
 name|'return'
@@ -15638,7 +15639,7 @@ name|'self'
 op|'.'
 name|'_do_post'
 op|'('
-string|"'os-admin-networks/1/action'"
+string|"'os-networks/1/action'"
 op|','
 nl|'\n'
 string|"'network-disassociate-req'"
@@ -15676,7 +15677,7 @@ name|'self'
 op|'.'
 name|'_do_post'
 op|'('
-string|"'os-admin-networks/1/action'"
+string|"'os-networks/1/action'"
 op|','
 nl|'\n'
 string|"'network-disassociate-host-req'"
@@ -15714,7 +15715,7 @@ name|'self'
 op|'.'
 name|'_do_post'
 op|'('
-string|"'os-admin-networks/1/action'"
+string|"'os-networks/1/action'"
 op|','
 nl|'\n'
 string|"'network-disassociate-project-req'"
@@ -15752,7 +15753,7 @@ name|'self'
 op|'.'
 name|'_do_post'
 op|'('
-string|"'os-admin-networks/1/action'"
+string|"'os-networks/1/action'"
 op|','
 nl|'\n'
 string|"'network-associate-host-req'"
