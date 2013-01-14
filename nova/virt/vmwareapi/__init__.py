@@ -43,7 +43,7 @@ name|'vmwareapi'
 op|'.'
 name|'driver'
 name|'import'
-name|'VMWareESXDriver'
+name|'VMwareESXDriver'
 newline|'\n'
 endmarker|''
 end_unit
