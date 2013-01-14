@@ -368,7 +368,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""API for interacting with the network manager."""'
+string|'"""API for doing networking via the nova-network network manager.\n\n    This is a pluggable module - other implementations do networking via\n    other services (such as Quantum).\n    """'
 newline|'\n'
 nl|'\n'
 DECL|variable|_sentinel
