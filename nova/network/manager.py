@@ -7331,6 +7331,13 @@ string|"'uuid'"
 op|']'
 op|','
 nl|'\n'
+string|"'type'"
+op|':'
+name|'network_model'
+op|'.'
+name|'VIF_TYPE_BRIDGE'
+op|','
+nl|'\n'
 string|"'address'"
 op|':'
 name|'vif'
