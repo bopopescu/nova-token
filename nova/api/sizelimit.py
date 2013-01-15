@@ -133,7 +133,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""Add a \'nova.context\' to WSGI environ."""'
+string|'"""Limit the size of incoming requests."""'
 newline|'\n'
 nl|'\n'
 DECL|member|__init__
