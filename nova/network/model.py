@@ -1637,7 +1637,7 @@ string|"'network'"
 op|']'
 op|':'
 newline|'\n'
-comment|'# remove unecessary fields on fixed_ips'
+comment|'# remove unnecessary fields on fixed_ips'
 nl|'\n'
 indent|'            '
 name|'ips'
