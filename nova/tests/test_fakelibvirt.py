@@ -98,7 +98,7 @@ newline|'\n'
 nl|'\n'
 dedent|''
 name|'return'
-string|"'''<domain type='kvm'>\n  <name>%(name)s</name>\n%(uuid_tag)s\n  <memory>128000</memory>\n  <vcpu>1</vcpu>\n  <os>\n    <type>hvm</type>\n    <kernel>/somekernel</kernel>\n    <cmdline>root=/dev/sda</cmdline>\n    <boot dev='hd'/>\n  </os>\n  <features>\n    <acpi/>\n  </features>\n  <devices>\n    <disk type='file' device='disk'>\n      <driver name='qemu' type='qcow2'/>\n      <source %(source_type)s='/somefile'/>\n      <target dev='vda' bus='virtio'/>\n    </disk>\n    <interface type='%(interface_type)s'>\n      <mac address='05:26:3e:31:28:1f'/>\n      <source %(interface_type)s='br100'/>\n    </interface>\n    <input type='mouse' bus='ps2'/>\n    <graphics type='vnc' port='5901' autoport='yes' keymap='en-us'/>\n  </devices>\n</domain>'''"
+string|"'''<domain type='kvm'>\n  <name>%(name)s</name>\n%(uuid_tag)s\n  <memory>128000</memory>\n  <vcpu>1</vcpu>\n  <os>\n    <type>hvm</type>\n    <kernel>/somekernel</kernel>\n    <cmdline>root=/dev/sda</cmdline>\n    <boot dev='hd'/>\n  </os>\n  <features>\n    <acpi/>\n  </features>\n  <devices>\n    <disk type='file' device='disk'>\n      <driver name='qemu' type='qcow2'/>\n      <source %(source_type)s='/somefile'/>\n      <target dev='vda' bus='virtio'/>\n    </disk>\n    <interface type='%(interface_type)s'>\n      <mac address='05:26:3e:31:28:1f'/>\n      <source %(interface_type)s='br100'/>\n    </interface>\n    <input type='mouse' bus='ps2'/>\n    <graphics type='vnc' port='5901' autoport='yes' keymap='en-us'/>\n    <graphics type='spice' port='5901' autoport='yes' keymap='en-us'/>\n  </devices>\n</domain>'''"
 op|'%'
 op|'{'
 string|"'name'"
