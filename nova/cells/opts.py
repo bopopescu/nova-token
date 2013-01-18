@@ -252,6 +252,26 @@ string|"'treated as a mute.'"
 op|')'
 op|','
 nl|'\n'
+name|'cfg'
+op|'.'
+name|'IntOpt'
+op|'('
+string|"'bandwidth_update_interval'"
+op|','
+nl|'\n'
+DECL|variable|default
+name|'default'
+op|'='
+number|'600'
+op|','
+nl|'\n'
+DECL|variable|help
+name|'help'
+op|'='
+string|"'Seconds between bandwidth updates for cells.'"
+op|')'
+op|','
+nl|'\n'
 op|']'
 newline|'\n'
 nl|'\n'
