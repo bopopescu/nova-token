@@ -129,7 +129,7 @@ name|'help'
 op|'='
 string|"'Do not set this out of dev/test environments. '"
 nl|'\n'
-string|"'If a node does not have an fixed PXE IP address, '"
+string|"'If a node does not have a fixed PXE IP address, '"
 nl|'\n'
 string|"'volumes are exported with globally opened ACL'"
 op|')'

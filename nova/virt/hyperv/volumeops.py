@@ -158,7 +158,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'The seconds to wait between an volume attachment attempt'"
+string|"'The seconds to wait between a volume attachment attempt'"
 op|')'
 op|','
 nl|'\n'
