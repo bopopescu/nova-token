@@ -2563,6 +2563,8 @@ name|'self'
 op|'.'
 name|'service_id'
 op|'='
+name|'self'
+op|'.'
 name|'service_ref'
 op|'['
 string|"'id'"
