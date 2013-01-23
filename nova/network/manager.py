@@ -3755,7 +3755,7 @@ comment|'#             safe from races on this host due to the decorator,'
 nl|'\n'
 comment|'#             but another host might grab the ip right away. We'
 nl|'\n'
-comment|"#             don't worry about this case because the miniscule"
+comment|"#             don't worry about this case because the minuscule"
 nl|'\n'
 comment|"#             window where the ip is on both hosts shouldn't cause"
 nl|'\n'

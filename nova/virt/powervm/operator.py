@@ -256,7 +256,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""PowerVM main operator.\n\n    The PowerVMOperator is intented to wrapper all operations\n    from the driver and handle either IVM or HMC managed systems.\n    """'
+string|'"""PowerVM main operator.\n\n    The PowerVMOperator is intended to wrap all operations\n    from the driver and handle either IVM or HMC managed systems.\n    """'
 newline|'\n'
 nl|'\n'
 DECL|member|__init__

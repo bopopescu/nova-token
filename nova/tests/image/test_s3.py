@@ -480,7 +480,7 @@ op|':'
 string|"'/dev/sda2'"
 op|','
 nl|'\n'
-string|"'virutal_name'"
+string|"'virtual_name'"
 op|':'
 string|"'ephemeral0'"
 op|'}'
@@ -682,7 +682,7 @@ op|':'
 string|"'/dev/sda2'"
 op|','
 nl|'\n'
-string|"'virutal_name'"
+string|"'virtual_name'"
 op|':'
 string|"'ephemeral0'"
 op|'}'
