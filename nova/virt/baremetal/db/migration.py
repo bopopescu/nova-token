@@ -51,7 +51,13 @@ op|'.'
 name|'LazyPluggable'
 op|'('
 nl|'\n'
-string|"'baremetal_db_backend'"
+string|"'db_backend'"
+op|','
+nl|'\n'
+DECL|variable|config_group
+name|'config_group'
+op|'='
+string|"'baremetal'"
 op|','
 nl|'\n'
 DECL|variable|sqlalchemy

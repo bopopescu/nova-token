@@ -71,7 +71,7 @@ name|'cfg'
 op|'.'
 name|'StrOpt'
 op|'('
-string|"'baremetal_db_backend'"
+string|"'db_backend'"
 op|','
 nl|'\n'
 DECL|variable|default
@@ -83,11 +83,30 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'The backend to use for db'"
+string|"'The backend to use for bare-metal database'"
 op|')'
 op|','
 nl|'\n'
 op|']'
+newline|'\n'
+nl|'\n'
+DECL|variable|baremetal_group
+name|'baremetal_group'
+op|'='
+name|'cfg'
+op|'.'
+name|'OptGroup'
+op|'('
+name|'name'
+op|'='
+string|"'baremetal'"
+op|','
+nl|'\n'
+DECL|variable|title
+name|'title'
+op|'='
+string|"'Baremetal Options'"
+op|')'
 newline|'\n'
 nl|'\n'
 DECL|variable|CONF
@@ -99,9 +118,18 @@ name|'CONF'
 newline|'\n'
 name|'CONF'
 op|'.'
+name|'register_group'
+op|'('
+name|'baremetal_group'
+op|')'
+newline|'\n'
+name|'CONF'
+op|'.'
 name|'register_opts'
 op|'('
 name|'db_opts'
+op|','
+name|'baremetal_group'
 op|')'
 newline|'\n'
 nl|'\n'
@@ -113,7 +141,13 @@ op|'.'
 name|'LazyPluggable'
 op|'('
 nl|'\n'
-string|"'baremetal_db_backend'"
+string|"'db_backend'"
+op|','
+nl|'\n'
+DECL|variable|config_group
+name|'config_group'
+op|'='
+string|"'baremetal'"
 op|','
 nl|'\n'
 DECL|variable|sqlalchemy
