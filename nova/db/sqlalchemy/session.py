@@ -1809,7 +1809,10 @@ op|'('
 op|'{'
 string|"'deleted'"
 op|':'
-name|'True'
+name|'literal_column'
+op|'('
+string|"'id'"
+op|')'
 op|','
 nl|'\n'
 string|"'updated_at'"
