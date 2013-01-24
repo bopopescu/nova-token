@@ -866,7 +866,9 @@ name|'assertFalse'
 op|'('
 name|'workers'
 op|','
-string|"'No OS processes left.'"
+string|"'OS processes left %r'"
+op|'%'
+name|'workers'
 op|')'
 newline|'\n'
 nl|'\n'
