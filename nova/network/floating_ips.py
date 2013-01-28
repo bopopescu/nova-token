@@ -205,6 +205,15 @@ op|','
 string|"'nova.network.linux_net'"
 op|')'
 newline|'\n'
+name|'CONF'
+op|'.'
+name|'import_opt'
+op|'('
+string|"'network_topic'"
+op|','
+string|"'nova.network.rpcapi'"
+op|')'
+newline|'\n'
 nl|'\n'
 nl|'\n'
 DECL|class|FloatingIP
@@ -2199,7 +2208,9 @@ op|'['
 string|"'host'"
 op|']'
 op|','
-string|"'network'"
+name|'CONF'
+op|'.'
+name|'network_topic'
 op|')'
 newline|'\n'
 name|'if'
