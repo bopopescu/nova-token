@@ -211,6 +211,20 @@ name|'cfg'
 op|'.'
 name|'StrOpt'
 op|'('
+string|"'quantum_region_name'"
+op|','
+nl|'\n'
+DECL|variable|help
+name|'help'
+op|'='
+string|"'region name for connecting to quantum in admin context'"
+op|')'
+op|','
+nl|'\n'
+name|'cfg'
+op|'.'
+name|'StrOpt'
+op|'('
 string|"'quantum_admin_auth_url'"
 op|','
 nl|'\n'
