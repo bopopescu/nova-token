@@ -651,7 +651,7 @@ nl|'\n'
 DECL|variable|default
 name|'default'
 op|'='
-string|"'nova.virt.libvirt.vif.LibvirtBridgeDriver'"
+string|"'nova.virt.libvirt.vif.LibvirtGenericVIFDriver'"
 op|','
 nl|'\n'
 DECL|variable|help
