@@ -158,6 +158,9 @@ op|','
 string|"'root_device_name'"
 op|','
 nl|'\n'
+string|"'system_metadata'"
+op|','
+nl|'\n'
 op|']'
 newline|'\n'
 nl|'\n'
