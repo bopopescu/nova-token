@@ -2215,8 +2215,6 @@ op|':'
 newline|'\n'
 comment|"# Couldn't find table_name"
 nl|'\n'
-comment|'# For Unit Tests'
-nl|'\n'
 indent|'            '
 name|'return'
 op|'('
