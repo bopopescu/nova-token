@@ -4611,7 +4611,7 @@ string|"'and_('"
 nl|'\n'
 string|"'FixedIp.network_id == Network.id,'"
 nl|'\n'
-string|"'FixedIp.deleted == False)'"
+string|"'FixedIp.deleted == 0)'"
 op|')'
 newline|'\n'
 nl|'\n'
