@@ -127,7 +127,7 @@ name|'import_opt'
 op|'('
 string|"'floating_ip_dns_manager'"
 op|','
-string|"'nova.network.manager'"
+string|"'nova.network.floating_ips'"
 op|')'
 newline|'\n'
 name|'CONF'
@@ -136,7 +136,7 @@ name|'import_opt'
 op|'('
 string|"'instance_dns_manager'"
 op|','
-string|"'nova.network.manager'"
+string|"'nova.network.floating_ips'"
 op|')'
 newline|'\n'
 name|'CONF'
