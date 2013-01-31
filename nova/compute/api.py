@@ -1174,6 +1174,8 @@ op|','
 name|'old_ref'
 op|','
 name|'instance_ref'
+op|','
+string|"'api'"
 op|')'
 newline|'\n'
 nl|'\n'
