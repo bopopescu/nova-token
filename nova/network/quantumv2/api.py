@@ -249,6 +249,26 @@ op|','
 nl|'\n'
 name|'cfg'
 op|'.'
+name|'BoolOpt'
+op|'('
+string|"'quantum_api_insecure'"
+op|','
+nl|'\n'
+DECL|variable|default
+name|'default'
+op|'='
+name|'False'
+op|','
+nl|'\n'
+DECL|variable|help
+name|'help'
+op|'='
+string|"'if set, ignore any SSL validation issues'"
+op|')'
+op|','
+nl|'\n'
+name|'cfg'
+op|'.'
 name|'StrOpt'
 op|'('
 string|"'quantum_auth_strategy'"
