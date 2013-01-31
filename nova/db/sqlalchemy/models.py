@@ -4611,7 +4611,35 @@ string|"'and_('"
 nl|'\n'
 string|"'FixedIp.network_id == Network.id,'"
 nl|'\n'
-string|"'FixedIp.deleted == 0)'"
+string|"'FixedIp.deleted == 0,'"
+nl|'\n'
+string|"'Network.deleted == 0)'"
+op|')'
+newline|'\n'
+DECL|variable|instance
+name|'instance'
+op|'='
+name|'relationship'
+op|'('
+name|'Instance'
+op|','
+nl|'\n'
+DECL|variable|foreign_keys
+name|'foreign_keys'
+op|'='
+name|'instance_uuid'
+op|','
+nl|'\n'
+DECL|variable|primaryjoin
+name|'primaryjoin'
+op|'='
+string|"'and_('"
+nl|'\n'
+string|"'FixedIp.instance_uuid == Instance.uuid,'"
+nl|'\n'
+string|"'FixedIp.deleted == 0,'"
+nl|'\n'
+string|"'Instance.deleted == 0)'"
 op|')'
 newline|'\n'
 nl|'\n'
@@ -4730,6 +4758,41 @@ name|'String'
 op|'('
 number|'255'
 op|')'
+op|')'
+newline|'\n'
+DECL|variable|fixed_ip
+name|'fixed_ip'
+op|'='
+name|'relationship'
+op|'('
+name|'FixedIp'
+op|','
+nl|'\n'
+DECL|variable|backref
+name|'backref'
+op|'='
+name|'backref'
+op|'('
+string|"'floating_ips'"
+op|')'
+op|','
+nl|'\n'
+DECL|variable|foreign_keys
+name|'foreign_keys'
+op|'='
+name|'fixed_ip_id'
+op|','
+nl|'\n'
+DECL|variable|primaryjoin
+name|'primaryjoin'
+op|'='
+string|"'and_('"
+nl|'\n'
+string|"'FloatingIp.fixed_ip_id == FixedIp.id,'"
+nl|'\n'
+string|"'FloatingIp.deleted == 0,'"
+nl|'\n'
+string|"'FixedIp.deleted == 0)'"
 op|')'
 newline|'\n'
 nl|'\n'
