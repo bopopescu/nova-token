@@ -310,7 +310,7 @@ name|'import_opt'
 op|'('
 string|"'default_floating_pool'"
 op|','
-string|"'nova.network.manager'"
+string|"'nova.network.floating_ips'"
 op|')'
 newline|'\n'
 DECL|variable|LOG
