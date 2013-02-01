@@ -231,6 +231,12 @@ nl|'\n'
 string|"'Used only if compute_driver is '"
 nl|'\n'
 string|"'vmwareapi.VMwareESXDriver.'"
+op|','
+nl|'\n'
+DECL|variable|secret
+name|'secret'
+op|'='
+name|'True'
 op|')'
 op|','
 nl|'\n'
@@ -341,6 +347,12 @@ DECL|variable|help
 name|'help'
 op|'='
 string|"'VNC password'"
+op|','
+nl|'\n'
+DECL|variable|secret
+name|'secret'
+op|'='
+name|'True'
 op|')'
 op|','
 nl|'\n'

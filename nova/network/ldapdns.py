@@ -150,6 +150,12 @@ DECL|variable|help
 name|'help'
 op|'='
 string|"'password for ldap DNS'"
+op|','
+nl|'\n'
+DECL|variable|secret
+name|'secret'
+op|'='
+name|'True'
 op|')'
 op|','
 nl|'\n'

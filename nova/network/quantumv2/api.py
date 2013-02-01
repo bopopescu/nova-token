@@ -190,6 +190,12 @@ DECL|variable|help
 name|'help'
 op|'='
 string|"'password for connecting to quantum in admin context'"
+op|','
+nl|'\n'
+DECL|variable|secret
+name|'secret'
+op|'='
+name|'True'
 op|')'
 op|','
 nl|'\n'
