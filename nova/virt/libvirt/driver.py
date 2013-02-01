@@ -692,6 +692,9 @@ string|"'sheepdog=nova.virt.libvirt.volume.LibvirtNetVolumeDriver'"
 op|','
 nl|'\n'
 string|"'nfs=nova.virt.libvirt.volume.LibvirtNFSVolumeDriver'"
+op|','
+nl|'\n'
+string|"'aoe=nova.virt.libvirt.volume.LibvirtAOEVolumeDriver'"
 nl|'\n'
 op|']'
 op|','
