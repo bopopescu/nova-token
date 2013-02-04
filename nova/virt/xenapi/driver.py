@@ -231,6 +231,12 @@ op|'='
 string|"'Password for connection to XenServer/Xen Cloud Platform. '"
 nl|'\n'
 string|"'Used only if compute_driver=xenapi.XenAPIDriver'"
+op|','
+nl|'\n'
+DECL|variable|secret
+name|'secret'
+op|'='
+name|'True'
 op|')'
 op|','
 nl|'\n'

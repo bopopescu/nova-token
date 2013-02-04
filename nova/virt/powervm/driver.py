@@ -171,6 +171,12 @@ DECL|variable|help
 name|'help'
 op|'='
 string|"'PowerVM manager user password'"
+op|','
+nl|'\n'
+DECL|variable|secret
+name|'secret'
+op|'='
+name|'True'
 op|')'
 op|','
 nl|'\n'
