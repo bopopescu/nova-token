@@ -6750,7 +6750,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""Track client actions on an instance."""'
+string|'"""Track client actions on an instance.\n\n    The intention is that there will only be one of these per user request.  A\n    lookup by (instance_uuid, request_id) should always return a single result.\n    """'
 newline|'\n'
 DECL|variable|__tablename__
 name|'__tablename__'
