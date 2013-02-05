@@ -51,5 +51,12 @@ name|'driver'
 op|'.'
 name|'VMwareESXDriver'
 newline|'\n'
+DECL|variable|VMwareVCDriver
+name|'VMwareVCDriver'
+op|'='
+name|'driver'
+op|'.'
+name|'VMwareVCDriver'
+newline|'\n'
 endmarker|''
 end_unit
