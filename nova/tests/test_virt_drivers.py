@@ -2413,7 +2413,7 @@ nl|'\n'
 name|'instance_ref'
 op|','
 nl|'\n'
-string|"'/mnt/nova/something'"
+string|"'/dev/sda'"
 op|')'
 newline|'\n'
 name|'self'
@@ -2432,7 +2432,7 @@ nl|'\n'
 name|'instance_ref'
 op|','
 nl|'\n'
-string|"'/mnt/nova/something'"
+string|"'/dev/sda'"
 op|')'
 newline|'\n'
 nl|'\n'
@@ -2484,7 +2484,7 @@ nl|'\n'
 name|'instance_ref'
 op|','
 nl|'\n'
-string|"'/mnt/nova/something'"
+string|"'/dev/sda'"
 op|')'
 newline|'\n'
 name|'self'
@@ -2512,7 +2512,7 @@ nl|'\n'
 name|'instance_ref'
 op|','
 nl|'\n'
-string|"'/mnt/nova/something'"
+string|"'/dev/sda'"
 op|')'
 newline|'\n'
 nl|'\n'
