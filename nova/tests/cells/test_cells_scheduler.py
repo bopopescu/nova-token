@@ -484,8 +484,14 @@ name|'self'
 op|'.'
 name|'assertEqual'
 op|'('
-string|"'moo'"
+string|"'moo-%s'"
+op|'%'
+name|'instance'
+op|'['
+string|"'uuid'"
+op|']'
 op|','
+nl|'\n'
 name|'instance'
 op|'['
 string|"'display_name'"
