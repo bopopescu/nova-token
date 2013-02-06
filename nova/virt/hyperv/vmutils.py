@@ -2,6 +2,8 @@ begin_unit
 comment|'# vim: tabstop=4 shiftwidth=4 softtabstop=4'
 nl|'\n'
 nl|'\n'
+comment|'# Copyright (c) 2010 Cloud.com, Inc'
+nl|'\n'
 comment|'# Copyright 2012 Cloudbase Solutions Srl / Pedro Navarro Perez'
 nl|'\n'
 comment|'# All Rights Reserved.'
