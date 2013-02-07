@@ -875,6 +875,15 @@ op|','
 string|"'nova.netconf'"
 op|')'
 newline|'\n'
+name|'CONF'
+op|'.'
+name|'import_opt'
+op|'('
+string|"'network_topic'"
+op|','
+string|"'nova.network.rpcapi'"
+op|')'
+newline|'\n'
 nl|'\n'
 nl|'\n'
 DECL|class|RPCAllocateFixedIP
@@ -1290,7 +1299,9 @@ nl|'\n'
 name|'host'
 op|','
 nl|'\n'
-string|"'network'"
+name|'CONF'
+op|'.'
+name|'network_topic'
 op|')'
 newline|'\n'
 name|'if'
