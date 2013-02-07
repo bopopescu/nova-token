@@ -11022,15 +11022,7 @@ nl|'\n'
 op|'{'
 string|"'root_device_name'"
 op|':'
-string|"'/dev/'"
-op|'+'
-name|'disk_mapping'
-op|'['
-string|"'disk'"
-op|']'
-op|'['
-string|"'dev'"
-op|']'
+name|'root_device_name'
 op|'}'
 op|')'
 newline|'\n'
