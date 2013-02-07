@@ -389,6 +389,8 @@ op|','
 string|"'rxtx_factor'"
 op|','
 string|"'vpn'"
+op|','
+string|"'macs'"
 op|']'
 op|','
 nl|'\n'
