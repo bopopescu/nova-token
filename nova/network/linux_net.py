@@ -461,7 +461,7 @@ op|','
 nl|'\n'
 name|'cfg'
 op|'.'
-name|'ListOpt'
+name|'MultiStrOpt'
 op|'('
 string|"'forward_bridge_interface'"
 op|','
@@ -477,11 +477,11 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'An interface that bridges can forward to. If this is '"
+string|"'An interface that bridges can forward to. If this '"
 nl|'\n'
-string|"'set to all then all traffic will be forwarded. Can be '"
+string|"'is set to all then all traffic will be forwarded. '"
 nl|'\n'
-string|"'specified multiple times.'"
+string|"'Can be specified multiple times.'"
 op|')'
 op|','
 nl|'\n'
