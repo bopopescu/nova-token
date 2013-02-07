@@ -161,6 +161,11 @@ nl|'\n'
 string|"'db'"
 op|':'
 string|"'nova.servicegroup.drivers.db.DbDriver'"
+op|','
+nl|'\n'
+string|"'zk'"
+op|':'
+string|"'nova.servicegroup.drivers.zk.ZooKeeperDriver'"
 nl|'\n'
 op|'}'
 newline|'\n'
