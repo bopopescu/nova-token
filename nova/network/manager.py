@@ -418,26 +418,6 @@ op|','
 nl|'\n'
 name|'cfg'
 op|'.'
-name|'BoolOpt'
-op|'('
-string|"'multi_host'"
-op|','
-nl|'\n'
-DECL|variable|default
-name|'default'
-op|'='
-name|'False'
-op|','
-nl|'\n'
-DECL|variable|help
-name|'help'
-op|'='
-string|"'Default value for multi_host in networks'"
-op|')'
-op|','
-nl|'\n'
-name|'cfg'
-op|'.'
 name|'IntOpt'
 op|'('
 string|"'network_size'"
