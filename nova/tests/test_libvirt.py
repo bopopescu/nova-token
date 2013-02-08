@@ -1660,7 +1660,7 @@ op|'.'
 name|'MonkeyPatch'
 op|'('
 nl|'\n'
-string|"'nova.virt.libvirt.snapshots.libvirt_utils'"
+string|"'nova.virt.libvirt.imagebackend.libvirt_utils'"
 op|','
 nl|'\n'
 name|'fake_libvirt_utils'
