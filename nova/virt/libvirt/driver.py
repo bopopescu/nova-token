@@ -517,9 +517,9 @@ name|'help'
 op|'='
 string|"'The partition to inject to : '"
 nl|'\n'
-string|"'-1 => inspect (libguestfs only), 0 => not partitioned, '"
+string|"'-2 => disable, -1 => inspect (libguestfs only), '"
 nl|'\n'
-string|"'>0 => partition number'"
+string|"'0 => not partitioned, >0 => partition number'"
 op|')'
 op|','
 nl|'\n'
@@ -9484,7 +9484,13 @@ nl|'\n'
 dedent|''
 dedent|''
 dedent|''
-name|'else'
+name|'elif'
+name|'CONF'
+op|'.'
+name|'libvirt_inject_partition'
+op|'!='
+op|'-'
+number|'2'
 op|':'
 newline|'\n'
 indent|'            '
