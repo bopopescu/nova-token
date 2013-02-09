@@ -5422,6 +5422,28 @@ nl|'\n'
 string|'"temporarily unavailable."'
 op|')'
 newline|'\n'
+nl|'\n'
+nl|'\n'
+DECL|class|DBNotAllowed
+dedent|''
+name|'class'
+name|'DBNotAllowed'
+op|'('
+name|'NovaException'
+op|')'
+op|':'
+newline|'\n'
+DECL|variable|message
+indent|'    '
+name|'message'
+op|'='
+name|'_'
+op|'('
+string|"'%(binary)s attempted direct database access which is '"
+nl|'\n'
+string|"'not allowed by policy'"
+op|')'
+newline|'\n'
 dedent|''
 endmarker|''
 end_unit
