@@ -1027,6 +1027,16 @@ op|':'
 name|'None'
 op|','
 nl|'\n'
+string|"'qbh_params'"
+op|':'
+name|'None'
+op|','
+nl|'\n'
+string|"'qbg_params'"
+op|':'
+name|'None'
+op|','
+nl|'\n'
 string|"'should_create_vlan'"
 op|':'
 name|'False'
