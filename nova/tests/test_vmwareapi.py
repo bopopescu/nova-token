@@ -315,6 +315,11 @@ op|':'
 string|"'192.168.0.255'"
 op|','
 nl|'\n'
+string|"'id'"
+op|':'
+string|"'foo'"
+op|','
+nl|'\n'
 string|"'dns'"
 op|':'
 op|'['
