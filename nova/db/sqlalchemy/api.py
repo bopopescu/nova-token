@@ -9678,7 +9678,7 @@ nl|'\n'
 nl|'\n'
 dedent|''
 op|'@'
-name|'require_admin_context'
+name|'require_context'
 newline|'\n'
 DECL|function|instance_get_active_by_window_joined
 name|'def'
