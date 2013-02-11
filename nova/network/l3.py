@@ -674,7 +674,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""The L3 driver that doesn\'t do anything.  This class can be used when\n       nova-network shuld not manipulate L3 forwarding at all (e.g., in a Flat\n       or FlatDHCP scenario"""'
+string|'"""The L3 driver that doesn\'t do anything.  This class can be used when\n       nova-network should not manipulate L3 forwarding at all (e.g., in a Flat\n       or FlatDHCP scenario)."""'
 newline|'\n'
 DECL|member|__init__
 name|'def'
