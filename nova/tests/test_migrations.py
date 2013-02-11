@@ -2058,11 +2058,6 @@ op|':'
 string|"'custom_az'"
 op|','
 nl|'\n'
-string|"'aggregate_name'"
-op|':'
-number|'1'
-op|','
-nl|'\n'
 string|"'name'"
 op|':'
 string|"'name'"
@@ -2099,7 +2094,7 @@ op|')'
 newline|'\n'
 comment|"# NOTE(sdague) it's important you don't insert keys by value in"
 nl|'\n'
-comment|"# postgresql, because it's autoincrement counter won't get updated"
+comment|"# postgresql, because its autoincrement counter won't get updated"
 nl|'\n'
 name|'data'
 op|'['
