@@ -18580,7 +18580,9 @@ name|'options'
 op|'('
 name|'joinedload_all'
 op|'('
-string|"'grantee_group.instances.instance_type'"
+string|"'grantee_group.instances.'"
+nl|'\n'
+string|"'system_metadata'"
 op|')'
 op|')'
 op|'.'
