@@ -377,11 +377,9 @@ string|"'host'"
 op|','
 string|"'instance_id'"
 op|','
-string|"'instance_uuid'"
-op|','
-nl|'\n'
 string|"'project_id'"
 op|','
+nl|'\n'
 string|"'requested_networks'"
 op|','
 string|"'rxtx_factor'"
