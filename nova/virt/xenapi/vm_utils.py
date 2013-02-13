@@ -1098,14 +1098,6 @@ nl|'\n'
 string|"'other_config'"
 op|':'
 op|'{'
-string|"'allowvssprovider'"
-op|':'
-name|'str'
-op|'('
-name|'False'
-op|')'
-op|','
-nl|'\n'
 string|"'nova_uuid'"
 op|':'
 name|'str'
@@ -1214,6 +1206,9 @@ nl|'\n'
 string|"'xenstore_data'"
 op|':'
 op|'{'
+string|"'allowvssprovider'"
+op|':'
+string|"'false'"
 op|'}'
 op|'}'
 newline|'\n'
