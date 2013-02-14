@@ -704,6 +704,11 @@ string|"'nfs=nova.virt.libvirt.volume.LibvirtNFSVolumeDriver'"
 op|','
 nl|'\n'
 string|"'aoe=nova.virt.libvirt.volume.LibvirtAOEVolumeDriver'"
+op|','
+nl|'\n'
+string|"'glusterfs='"
+nl|'\n'
+string|"'nova.virt.libvirt.volume.LibvirtGlusterfsVolumeDriver'"
 nl|'\n'
 op|']'
 op|','
