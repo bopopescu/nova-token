@@ -11029,6 +11029,17 @@ name|'if'
 string|"'root'"
 name|'in'
 name|'disk_mapping'
+name|'and'
+name|'disk_mapping'
+op|'['
+string|"'root'"
+op|']'
+op|'['
+string|"'dev'"
+op|']'
+name|'is'
+name|'not'
+name|'None'
 op|':'
 newline|'\n'
 indent|'            '
