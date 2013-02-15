@@ -112,6 +112,14 @@ string|"'nova.openstack.common.log.logging'"
 op|','
 nl|'\n'
 string|"'nova.db.sqlalchemy.migration.versioning_api'"
+op|']'
+newline|'\n'
+comment|"# imp.find_module() doesn't support namespace packages"
+nl|'\n'
+name|'IMPORT_EXCEPTIONS'
+op|'+='
+op|'['
+string|"'oslo'"
 op|','
 string|"'paste'"
 op|']'
