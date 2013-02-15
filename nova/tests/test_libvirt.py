@@ -1773,8 +1773,14 @@ nl|'\n'
 string|"'instance_type_id'"
 op|':'
 string|"'5'"
-op|'}'
+op|','
 comment|'# m1.small'
+nl|'\n'
+string|"'extra_specs'"
+op|':'
+op|'{'
+op|'}'
+op|'}'
 newline|'\n'
 nl|'\n'
 DECL|member|tearDown
