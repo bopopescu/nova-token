@@ -122,6 +122,30 @@ op|','
 nl|'\n'
 name|'cfg'
 op|'.'
+name|'StrOpt'
+op|'('
+string|"'preallocate_images'"
+op|','
+nl|'\n'
+DECL|variable|default
+name|'default'
+op|'='
+string|"'none'"
+op|','
+nl|'\n'
+DECL|variable|help
+name|'help'
+op|'='
+string|"'VM image preallocation mode: '"
+nl|'\n'
+string|'\'"none" => no storage provisioning is done up front, \''
+nl|'\n'
+string|'\'"space" => storage is fully allocated at instance start\''
+op|')'
+op|','
+nl|'\n'
+name|'cfg'
+op|'.'
 name|'BoolOpt'
 op|'('
 string|"'use_cow_images'"
