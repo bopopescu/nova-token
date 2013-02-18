@@ -238,7 +238,7 @@ op|','
 nl|'\n'
 name|'cfg'
 op|'.'
-name|'StrOpt'
+name|'IntOpt'
 op|'('
 string|"'num_aoe_discover_tries'"
 op|','
