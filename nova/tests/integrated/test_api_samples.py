@@ -13757,6 +13757,7 @@ indent|'            '
 string|'"""Skip live migration scheduler checks."""'
 newline|'\n'
 name|'return'
+name|'dest'
 newline|'\n'
 nl|'\n'
 DECL|function|fake_live_migration_common
