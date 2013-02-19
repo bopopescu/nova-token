@@ -11659,6 +11659,11 @@ nl|'\n'
 string|"'instance_properties'"
 op|':'
 name|'instance'
+op|','
+nl|'\n'
+string|"'image'"
+op|':'
+name|'image'
 op|'}'
 newline|'\n'
 nl|'\n'
