@@ -3978,7 +3978,11 @@ op|','
 nl|'\n'
 string|"'created_at'"
 op|':'
-name|'None'
+name|'timeutils'
+op|'.'
+name|'utcnow'
+op|'('
+op|')'
 op|','
 nl|'\n'
 string|"'display_name'"
