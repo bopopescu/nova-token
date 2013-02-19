@@ -10309,7 +10309,7 @@ op|':'
 newline|'\n'
 comment|"# NOTE(vish): Don't allow access to networks with project_id=None as"
 nl|'\n'
-comment|"#             these are networksa that haven't been allocated to a"
+comment|"#             these are networks that haven't been allocated to a"
 nl|'\n'
 comment|'#             project yet.'
 nl|'\n'
@@ -10346,7 +10346,7 @@ op|':'
 newline|'\n'
 comment|"# NOTE(vish): Don't allow access to networks with project_id=None as"
 nl|'\n'
-comment|"#             these are networksa that haven't been allocated to a"
+comment|"#             these are networks that haven't been allocated to a"
 nl|'\n'
 comment|'#             project yet.'
 nl|'\n'
