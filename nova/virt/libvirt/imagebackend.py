@@ -206,7 +206,7 @@ nl|'\n'
 DECL|variable|default
 name|'default'
 op|'='
-string|"'1000'"
+number|'1000'
 op|','
 nl|'\n'
 DECL|variable|help
