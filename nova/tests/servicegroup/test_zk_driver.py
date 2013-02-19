@@ -137,7 +137,7 @@ string|"'localhost:2181'"
 op|','
 name|'group'
 op|'='
-string|'"zk"'
+string|'"zookeeper"'
 op|')'
 newline|'\n'
 nl|'\n'
