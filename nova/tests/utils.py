@@ -409,6 +409,12 @@ nl|'\n'
 string|"'system_metadata'"
 op|':'
 name|'metadata'
+op|','
+nl|'\n'
+string|"'extra_specs'"
+op|':'
+op|'{'
+op|'}'
 op|'}'
 newline|'\n'
 nl|'\n'
