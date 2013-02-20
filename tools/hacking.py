@@ -105,9 +105,6 @@ op|','
 string|"'nova.db.sqlalchemy.session'"
 op|','
 nl|'\n'
-string|"'nova.openstack.common.log.logging'"
-op|','
-nl|'\n'
 string|"'nova.db.sqlalchemy.migration.versioning_api'"
 op|']'
 newline|'\n'
