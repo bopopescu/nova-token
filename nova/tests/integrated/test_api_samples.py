@@ -12905,8 +12905,25 @@ op|')'
 newline|'\n'
 nl|'\n'
 nl|'\n'
-DECL|class|SimpleTenantUsageSampleJsonTest
+DECL|class|ServicesXmlTest
 dedent|''
+dedent|''
+name|'class'
+name|'ServicesXmlTest'
+op|'('
+name|'ServicesJsonTest'
+op|')'
+op|':'
+newline|'\n'
+DECL|variable|ctype
+indent|'    '
+name|'ctype'
+op|'='
+string|"'xml'"
+newline|'\n'
+nl|'\n'
+nl|'\n'
+DECL|class|SimpleTenantUsageSampleJsonTest
 dedent|''
 name|'class'
 name|'SimpleTenantUsageSampleJsonTest'
