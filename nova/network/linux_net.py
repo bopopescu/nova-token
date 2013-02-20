@@ -8315,7 +8315,7 @@ name|'debug'
 op|'('
 name|'_'
 op|'('
-string|"'Starting VLAN inteface %s'"
+string|"'Starting VLAN interface %s'"
 op|')'
 op|','
 name|'interface'
