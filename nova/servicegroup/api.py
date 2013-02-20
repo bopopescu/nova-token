@@ -109,7 +109,11 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'The driver for servicegroup service.'"
+string|"'The driver for servicegroup '"
+nl|'\n'
+string|"'service (valid options are: '"
+nl|'\n'
+string|"'db, zk, mc)'"
 op|')'
 newline|'\n'
 nl|'\n'
@@ -157,6 +161,11 @@ nl|'\n'
 string|"'zk'"
 op|':'
 string|"'nova.servicegroup.drivers.zk.ZooKeeperDriver'"
+op|','
+nl|'\n'
+string|"'mc'"
+op|':'
+string|"'nova.servicegroup.drivers.mc.MemcachedDriver'"
 nl|'\n'
 op|'}'
 newline|'\n'
