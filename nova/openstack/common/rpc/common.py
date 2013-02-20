@@ -123,7 +123,7 @@ op|')'
 newline|'\n'
 nl|'\n'
 nl|'\n'
-string|"'''RPC Envelope Version.\n\nThis version number applies to the top level structure of messages sent out.\nIt does *not* apply to the message payload, which must be versioned\nindependently.  For example, when using rpc APIs, a version number is applied\nfor changes to the API being exposed over rpc.  This version number is handled\nin the rpc proxy and dispatcher modules.\n\nThis version number applies to the message envelope that is used in the\nserialization done inside the rpc layer.  See serialize_msg() and\ndeserialize_msg().\n\nThe current message format (version 2.0) is very simple.  It is:\n\n    {\n        'nova.version': <RPC Envelope Version as a String>,\n        'nova.message': <Application Message Payload, JSON encoded>\n    }\n\nMessage format version '1.0' is just considered to be the messages we sent\nwithout a message envelope.\n\nSo, the current message envelope just includes the envelope version.  It may\neventually contain additional information, such as a signature for the message\npayload.\n\nWe will JSON encode the application message payload.  The message envelope,\nwhich includes the JSON encoded application message body, will be passed down\nto the messaging libraries as a dict.\n'''"
+string|"'''RPC Envelope Version.\n\nThis version number applies to the top level structure of messages sent out.\nIt does *not* apply to the message payload, which must be versioned\nindependently.  For example, when using rpc APIs, a version number is applied\nfor changes to the API being exposed over rpc.  This version number is handled\nin the rpc proxy and dispatcher modules.\n\nThis version number applies to the message envelope that is used in the\nserialization done inside the rpc layer.  See serialize_msg() and\ndeserialize_msg().\n\nThe current message format (version 2.0) is very simple.  It is:\n\n    {\n        'oslo.version': <RPC Envelope Version as a String>,\n        'oslo.message': <Application Message Payload, JSON encoded>\n    }\n\nMessage format version '1.0' is just considered to be the messages we sent\nwithout a message envelope.\n\nSo, the current message envelope just includes the envelope version.  It may\neventually contain additional information, such as a signature for the message\npayload.\n\nWe will JSON encode the application message payload.  The message envelope,\nwhich includes the JSON encoded application message body, will be passed down\nto the messaging libraries as a dict.\n'''"
 newline|'\n'
 DECL|variable|_RPC_ENVELOPE_VERSION
 name|'_RPC_ENVELOPE_VERSION'
@@ -134,12 +134,12 @@ nl|'\n'
 DECL|variable|_VERSION_KEY
 name|'_VERSION_KEY'
 op|'='
-string|"'nova.version'"
+string|"'oslo.version'"
 newline|'\n'
 DECL|variable|_MESSAGE_KEY
 name|'_MESSAGE_KEY'
 op|'='
-string|"'nova.message'"
+string|"'oslo.message'"
 newline|'\n'
 nl|'\n'
 nl|'\n'
