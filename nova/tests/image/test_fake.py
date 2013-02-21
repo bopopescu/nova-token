@@ -230,6 +230,9 @@ nl|'\n'
 string|"'disk_format'"
 op|','
 string|"'container_format'"
+op|','
+nl|'\n'
+string|"'size'"
 op|']'
 op|')'
 op|')'
