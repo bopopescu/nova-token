@@ -83,6 +83,7 @@ name|'import'
 name|'local'
 newline|'\n'
 nl|'\n'
+nl|'\n'
 DECL|variable|LOG
 name|'LOG'
 op|'='
