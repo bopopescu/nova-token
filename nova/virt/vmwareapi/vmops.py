@@ -253,6 +253,15 @@ name|'CONF'
 op|'.'
 name|'import_opt'
 op|'('
+string|"'base_dir_name'"
+op|','
+string|"'nova.virt.libvirt.imagecache'"
+op|')'
+newline|'\n'
+name|'CONF'
+op|'.'
+name|'import_opt'
+op|'('
 string|"'vnc_enabled'"
 op|','
 string|"'nova.vnc'"
