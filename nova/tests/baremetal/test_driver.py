@@ -1038,10 +1038,10 @@ op|']'
 op|')'
 newline|'\n'
 nl|'\n'
-DECL|member|test_macs_for_instance
+DECL|member|test_macs_from_nic_for_instance
 dedent|''
 name|'def'
-name|'test_macs_for_instance'
+name|'test_macs_from_nic_for_instance'
 op|'('
 name|'self'
 op|')'

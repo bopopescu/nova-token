@@ -4279,10 +4279,10 @@ string|"'reservations'"
 op|')'
 newline|'\n'
 nl|'\n'
-DECL|member|test_quota_commit
+DECL|member|test_quota_rollback
 dedent|''
 name|'def'
-name|'test_quota_commit'
+name|'test_quota_rollback'
 op|'('
 name|'self'
 op|')'
