@@ -1,7 +1,7 @@
 begin_unit
 comment|'# Copyright (c) 2012 NTT DOCOMO, INC.'
 nl|'\n'
-comment|'# Copyright (c) 2011 OpenStack, LLC.'
+comment|'# Copyright (c) 2011 OpenStack Foundation'
 nl|'\n'
 comment|'# All Rights Reserved.'
 nl|'\n'

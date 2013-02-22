@@ -1,7 +1,7 @@
 begin_unit
 comment|'# Copyright 2012, Piston Cloud Computing, Inc.'
 nl|'\n'
-comment|'# Copyright 2012, OpenStack LLC.'
+comment|'# Copyright 2012, OpenStack Foundation'
 nl|'\n'
 comment|'# All Rights Reserved.'
 nl|'\n'

@@ -1,6 +1,6 @@
 begin_unit
 nl|'\n'
-comment|'#    Copyright 2012 OpenStack LLC'
+comment|'#    Copyright 2012 OpenStack Foundation'
 nl|'\n'
 comment|'#    Copyright 2012-2013 Hewlett-Packard Development Company, L.P.'
 nl|'\n'

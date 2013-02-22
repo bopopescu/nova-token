@@ -2,7 +2,7 @@ begin_unit
 comment|'#!/usr/bin/env python'
 nl|'\n'
 nl|'\n'
-comment|'# Copyright 2013 OpenStack, LLC'
+comment|'# Copyright 2013 OpenStack Foundation'
 nl|'\n'
 comment|'#'
 nl|'\n'

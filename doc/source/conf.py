@@ -212,7 +212,7 @@ newline|'\n'
 DECL|variable|copyright
 name|'copyright'
 op|'='
-string|"u'2010-present, OpenStack, LLC'"
+string|"u'2010-present, OpenStack Foundation'"
 newline|'\n'
 nl|'\n'
 comment|"# The version info for the project you're documenting, acts as replacement for"
