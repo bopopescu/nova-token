@@ -373,6 +373,15 @@ op|','
 string|"'nova.network.floating_ips'"
 op|')'
 newline|'\n'
+name|'CONF'
+op|'.'
+name|'import_opt'
+op|'('
+string|"'flat_injected'"
+op|','
+string|"'nova.network.manager'"
+op|')'
+newline|'\n'
 DECL|variable|LOG
 name|'LOG'
 op|'='
