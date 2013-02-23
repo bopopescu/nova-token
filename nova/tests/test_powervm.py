@@ -848,10 +848,10 @@ name|'self'
 op|')'
 op|':'
 newline|'\n'
-DECL|function|fake_image_fetch_to_raw
+DECL|function|fake_image_fetch
 indent|'        '
 name|'def'
-name|'fake_image_fetch_to_raw'
+name|'fake_image_fetch'
 op|'('
 name|'context'
 op|','
@@ -887,9 +887,9 @@ name|'Set'
 op|'('
 name|'images'
 op|','
-string|"'fetch_to_raw'"
+string|"'fetch'"
 op|','
-name|'fake_image_fetch_to_raw'
+name|'fake_image_fetch'
 op|')'
 newline|'\n'
 name|'image_meta'
@@ -1021,7 +1021,7 @@ name|'Set'
 op|'('
 name|'images'
 op|','
-string|"'fetch_to_raw'"
+string|"'fetch'"
 op|','
 name|'lambda'
 op|'*'
