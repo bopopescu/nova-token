@@ -2900,7 +2900,7 @@ op|'{'
 string|"'properties'"
 op|':'
 op|'{'
-string|"'disk_bus'"
+string|"'hw_disk_bus'"
 op|':'
 string|"'scsi'"
 op|'}'
@@ -2934,12 +2934,12 @@ op|'{'
 string|"'properties'"
 op|':'
 op|'{'
-string|"'disk_bus'"
+string|"'hw_disk_bus'"
 op|':'
 string|"'usb'"
 op|','
 nl|'\n'
-string|"'cdrom_bus'"
+string|"'hw_cdrom_bus'"
 op|':'
 string|"'scsi'"
 op|'}'
@@ -3000,7 +3000,7 @@ op|'{'
 string|"'properties'"
 op|':'
 op|'{'
-string|"'disk_bus'"
+string|"'hw_disk_bus'"
 op|':'
 string|"'xen'"
 op|'}'

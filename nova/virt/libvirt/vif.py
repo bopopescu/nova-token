@@ -522,13 +522,14 @@ name|'get'
 op|'('
 string|"'properties'"
 op|','
+nl|'\n'
 op|'{'
 op|'}'
 op|')'
 op|'.'
 name|'get'
 op|'('
-string|"'vif_model'"
+string|"'hw_vif_model'"
 op|')'
 newline|'\n'
 name|'if'
