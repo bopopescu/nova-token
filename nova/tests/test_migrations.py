@@ -6134,12 +6134,12 @@ newline|'\n'
 DECL|variable|USER
 name|'USER'
 op|'='
-string|'"openstack_baremetal_citest"'
+string|'"openstack_citest"'
 newline|'\n'
 DECL|variable|PASSWD
 name|'PASSWD'
 op|'='
-string|'"openstack_baremetal_citest"'
+string|'"openstack_citest"'
 newline|'\n'
 DECL|variable|DATABASE
 name|'DATABASE'
