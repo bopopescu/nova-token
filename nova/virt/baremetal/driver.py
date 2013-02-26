@@ -2514,13 +2514,6 @@ newline|'\n'
 name|'if'
 name|'node'
 op|'['
-string|"'registration_status'"
-op|']'
-op|'!='
-string|"'done'"
-name|'or'
-name|'node'
-op|'['
 string|"'instance_uuid'"
 op|']'
 op|':'

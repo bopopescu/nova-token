@@ -130,8 +130,6 @@ string|"'pm_user'"
 op|','
 string|"'prov_mac_address'"
 op|','
-string|"'prov_vlan_id'"
-op|','
 nl|'\n'
 string|"'service_host'"
 op|','
