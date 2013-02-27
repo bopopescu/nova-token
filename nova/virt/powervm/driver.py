@@ -191,13 +191,15 @@ nl|'\n'
 DECL|variable|default
 name|'default'
 op|'='
-name|'None'
+string|"'/home/padmin'"
 op|','
 nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'PowerVM image remote path'"
+string|"'PowerVM image remote path where images will be moved.'"
+nl|'\n'
+string|"' Make sure this path can fit your biggest image in glance'"
 op|')'
 op|','
 nl|'\n'
@@ -211,13 +213,15 @@ nl|'\n'
 DECL|variable|default
 name|'default'
 op|'='
-name|'None'
+string|"'/tmp'"
 op|','
 nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'Local directory to download glance images to'"
+string|"'Local directory to download glance images to.'"
+nl|'\n'
+string|"' Make sure this path can fit your biggest image in glance'"
 op|')'
 nl|'\n'
 op|']'
