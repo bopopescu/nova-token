@@ -5494,18 +5494,6 @@ op|'('
 name|'AggregateHost'
 op|','
 nl|'\n'
-DECL|variable|lazy
-name|'lazy'
-op|'='
-string|'"joined"'
-op|','
-nl|'\n'
-DECL|variable|secondary
-name|'secondary'
-op|'='
-string|'"aggregate_hosts"'
-op|','
-nl|'\n'
 DECL|variable|primaryjoin
 name|'primaryjoin'
 op|'='
@@ -5516,24 +5504,6 @@ nl|'\n'
 string|"'AggregateHost.deleted == 0,'"
 nl|'\n'
 string|"'Aggregate.deleted == 0)'"
-op|','
-nl|'\n'
-DECL|variable|secondaryjoin
-name|'secondaryjoin'
-op|'='
-string|"'and_('"
-nl|'\n'
-string|"'AggregateHost.aggregate_id == Aggregate.id, '"
-nl|'\n'
-string|"'AggregateHost.deleted == 0,'"
-nl|'\n'
-string|"'Aggregate.deleted == 0)'"
-op|','
-nl|'\n'
-DECL|variable|backref
-name|'backref'
-op|'='
-string|"'aggregates'"
 op|')'
 newline|'\n'
 nl|'\n'
@@ -5543,12 +5513,6 @@ op|'='
 name|'relationship'
 op|'('
 name|'AggregateMetadata'
-op|','
-nl|'\n'
-DECL|variable|secondary
-name|'secondary'
-op|'='
-string|'"aggregate_metadata"'
 op|','
 nl|'\n'
 DECL|variable|primaryjoin
@@ -5561,24 +5525,6 @@ nl|'\n'
 string|"'AggregateMetadata.deleted == 0,'"
 nl|'\n'
 string|"'Aggregate.deleted == 0)'"
-op|','
-nl|'\n'
-DECL|variable|secondaryjoin
-name|'secondaryjoin'
-op|'='
-string|"'and_('"
-nl|'\n'
-string|"'AggregateMetadata.aggregate_id == Aggregate.id, '"
-nl|'\n'
-string|"'AggregateMetadata.deleted == 0,'"
-nl|'\n'
-string|"'Aggregate.deleted == 0)'"
-op|','
-nl|'\n'
-DECL|variable|backref
-name|'backref'
-op|'='
-string|"'aggregates'"
 op|')'
 newline|'\n'
 nl|'\n'
