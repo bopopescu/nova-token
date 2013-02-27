@@ -1,5 +1,5 @@
 begin_unit
-comment|'# Copyright 2010 OpenStack LLC.'
+comment|'# Copyright 2010 OpenStack Foundation'
 nl|'\n'
 comment|'# Copyright 2011 Piston Cloud Computing, Inc'
 nl|'\n'
