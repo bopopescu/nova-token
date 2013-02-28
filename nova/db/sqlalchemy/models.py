@@ -936,17 +936,6 @@ op|')'
 op|')'
 newline|'\n'
 nl|'\n'
-comment|"#    image_ref = Column(Integer, ForeignKey('images.id'), nullable=True)"
-nl|'\n'
-comment|"#    kernel_id = Column(Integer, ForeignKey('images.id'), nullable=True)"
-nl|'\n'
-comment|"#    ramdisk_id = Column(Integer, ForeignKey('images.id'), nullable=True)"
-nl|'\n'
-comment|"#    ramdisk = relationship(Ramdisk, backref=backref('instances', order_by=id))"
-nl|'\n'
-comment|"#    kernel = relationship(Kernel, backref=backref('instances', order_by=id))"
-nl|'\n'
-nl|'\n'
 DECL|variable|launch_index
 name|'launch_index'
 op|'='
