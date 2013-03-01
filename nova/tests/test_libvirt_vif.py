@@ -1577,7 +1577,7 @@ op|'{'
 string|"'properties'"
 op|':'
 op|'{'
-string|"'vif_model'"
+string|"'hw_vif_model'"
 op|':'
 string|"'e1000'"
 op|'}'
@@ -1749,7 +1749,7 @@ op|'{'
 string|"'properties'"
 op|':'
 op|'{'
-string|"'vif_model'"
+string|"'hw_vif_model'"
 op|':'
 string|"'acme'"
 op|'}'
