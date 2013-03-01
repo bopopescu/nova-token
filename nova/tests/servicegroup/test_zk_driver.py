@@ -1,7 +1,7 @@
 begin_unit
 comment|'# Copyright (c) AT&T 2012-2013 Yun Mao <yunmao@gmail.com>'
 nl|'\n'
-comment|'# Copyright (c) IBM 2012 Alexey Roytman <roytman at il dot ibm dot com>.'
+comment|'# Copyright 2012 IBM Corp.'
 nl|'\n'
 comment|'#'
 nl|'\n'

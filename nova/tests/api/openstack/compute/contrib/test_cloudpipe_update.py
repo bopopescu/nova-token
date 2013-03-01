@@ -1,7 +1,5 @@
 begin_unit
-comment|'# Copyright 2012 IBM'
-nl|'\n'
-comment|'# All Rights Reserved.'
+comment|'# Copyright 2012 IBM Corp.'
 nl|'\n'
 comment|'#'
 nl|'\n'
