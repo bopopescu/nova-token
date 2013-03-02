@@ -122,7 +122,7 @@ name|'cfg'
 op|'.'
 name|'IntOpt'
 op|'('
-string|"'hyperv_attaching_volume_retry_count'"
+string|"'volume_attach_retry_count'"
 op|','
 nl|'\n'
 DECL|variable|default
@@ -134,7 +134,19 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'The number of times we retry on attaching volume '"
+string|"'The number of times to retry to attach a volume'"
+op|','
+nl|'\n'
+DECL|variable|deprecated_name
+name|'deprecated_name'
+op|'='
+string|"'hyperv_attaching_volume_retry_count'"
+op|','
+nl|'\n'
+DECL|variable|deprecated_group
+name|'deprecated_group'
+op|'='
+string|"'DEFAULT'"
 op|')'
 op|','
 nl|'\n'
@@ -142,7 +154,7 @@ name|'cfg'
 op|'.'
 name|'IntOpt'
 op|'('
-string|"'hyperv_wait_between_attach_retry'"
+string|"'volume_attach_retry_interval'"
 op|','
 nl|'\n'
 DECL|variable|default
@@ -154,9 +166,19 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'The seconds to wait between an volume '"
+string|"'Interval between volume attachment attempts, in seconds'"
+op|','
 nl|'\n'
-string|"'attachment attempt'"
+DECL|variable|deprecated_name
+name|'deprecated_name'
+op|'='
+string|"'hyperv_wait_between_attach_retry'"
+op|','
+nl|'\n'
+DECL|variable|deprecated_group
+name|'deprecated_group'
+op|'='
+string|"'DEFAULT'"
 op|')'
 op|','
 nl|'\n'
@@ -177,6 +199,12 @@ DECL|variable|help
 name|'help'
 op|'='
 string|"'Force volumeutils v1'"
+op|','
+nl|'\n'
+DECL|variable|deprecated_group
+name|'deprecated_group'
+op|'='
+string|"'DEFAULT'"
 op|')'
 op|','
 nl|'\n'
@@ -195,6 +223,8 @@ op|'.'
 name|'register_opts'
 op|'('
 name|'hyper_volumeops_opts'
+op|','
+string|"'hyperv'"
 op|')'
 newline|'\n'
 name|'CONF'
@@ -286,6 +316,8 @@ name|'if'
 op|'('
 name|'not'
 name|'CONF'
+op|'.'
+name|'hyperv'
 op|'.'
 name|'force_volumeutils_v1'
 name|'and'
@@ -978,7 +1010,9 @@ number|'1'
 op|','
 name|'CONF'
 op|'.'
-name|'hyperv_attaching_volume_retry_count'
+name|'hyperv'
+op|'.'
+name|'volume_attach_retry_count'
 op|')'
 op|':'
 newline|'\n'
@@ -1009,7 +1043,9 @@ name|'sleep'
 op|'('
 name|'CONF'
 op|'.'
-name|'hyperv_wait_between_attach_retry'
+name|'hyperv'
+op|'.'
+name|'volume_attach_retry_interval'
 op|')'
 newline|'\n'
 nl|'\n'
