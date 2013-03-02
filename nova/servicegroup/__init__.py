@@ -1,5 +1,5 @@
 begin_unit
-comment|'# Copyright (c) IBM 2012 Pavel Kravchenco <kpavel at il dot ibm dot com>'
+comment|'# Copyright 2012 IBM Corp.'
 nl|'\n'
 comment|'# Copyright (c) AT&T Labs Inc. 2012 Yun Mao <yunmao@gmail.com>'
 nl|'\n'
