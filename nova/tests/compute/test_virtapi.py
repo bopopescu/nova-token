@@ -452,6 +452,27 @@ string|"'fake-arch'"
 op|')'
 newline|'\n'
 nl|'\n'
+DECL|member|test_instance_type_get
+dedent|''
+name|'def'
+name|'test_instance_type_get'
+op|'('
+name|'self'
+op|')'
+op|':'
+newline|'\n'
+indent|'        '
+name|'self'
+op|'.'
+name|'assertExpected'
+op|'('
+string|"'instance_type_get'"
+op|','
+nl|'\n'
+string|"'fake-instance-type'"
+op|')'
+newline|'\n'
+nl|'\n'
 nl|'\n'
 DECL|class|FakeVirtAPITest
 dedent|''
