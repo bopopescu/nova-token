@@ -531,7 +531,7 @@ op|']'
 op|'='
 name|'rule'
 op|'['
-string|"'source_group_id'"
+string|"'remote_group_id'"
 op|']'
 newline|'\n'
 name|'nova_rule'
@@ -541,7 +541,7 @@ op|']'
 op|'='
 name|'rule'
 op|'['
-string|"'source_ip_prefix'"
+string|"'remote_ip_prefix'"
 op|']'
 newline|'\n'
 name|'return'
@@ -1282,7 +1282,7 @@ newline|'\n'
 dedent|''
 name|'new_rule'
 op|'['
-string|"'source_ip_prefix'"
+string|"'remote_ip_prefix'"
 op|']'
 op|'='
 name|'rule'
@@ -1306,7 +1306,7 @@ op|')'
 newline|'\n'
 name|'new_rule'
 op|'['
-string|"'source_group_id'"
+string|"'remote_group_id'"
 op|']'
 op|'='
 name|'rule'

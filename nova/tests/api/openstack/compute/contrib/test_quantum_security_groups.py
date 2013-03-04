@@ -3952,14 +3952,14 @@ op|','
 nl|'\n'
 string|"'ethertype'"
 op|','
-string|"'source_ip_prefix'"
+string|"'remote_ip_prefix'"
 op|','
 string|"'tenant_id'"
 op|','
 nl|'\n'
 string|"'security_group_id'"
 op|','
-string|"'source_group_id'"
+string|"'remote_group_id'"
 op|']'
 newline|'\n'
 name|'ret'
