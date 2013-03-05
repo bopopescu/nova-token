@@ -2898,9 +2898,9 @@ op|','
 nl|'\n'
 string|"'public_ip'"
 op|':'
-name|'validator'
+name|'utils'
 op|'.'
-name|'validate_ipv4'
+name|'is_valid_ipv4'
 op|','
 nl|'\n'
 string|"'region_name'"
