@@ -425,7 +425,7 @@ DECL|variable|GET
 name|'GET'
 op|'='
 op|'{'
-string|'"service"'
+string|'"binary"'
 op|':'
 string|'"nova-compute"'
 op|'}'
@@ -497,7 +497,7 @@ string|'"host"'
 op|':'
 string|'"host1"'
 op|','
-string|'"service"'
+string|'"binary"'
 op|':'
 string|'"nova-compute"'
 op|'}'
@@ -1458,7 +1458,7 @@ string|"'host'"
 op|':'
 string|"'host1'"
 op|','
-string|"'service'"
+string|"'binary'"
 op|':'
 string|"'nova-compute'"
 op|'}'
@@ -1496,10 +1496,13 @@ name|'assertEqual'
 op|'('
 name|'res_dict'
 op|'['
-string|"'disabled'"
+string|"'service'"
+op|']'
+op|'['
+string|"'status'"
 op|']'
 op|','
-name|'False'
+string|"'enabled'"
 op|')'
 newline|'\n'
 nl|'\n'
@@ -1531,7 +1534,7 @@ string|"'host'"
 op|':'
 string|"'host1'"
 op|','
-string|"'service'"
+string|"'binary'"
 op|':'
 string|"'nova-compute'"
 op|'}'
@@ -1558,10 +1561,13 @@ name|'assertEqual'
 op|'('
 name|'res_dict'
 op|'['
-string|"'disabled'"
+string|"'service'"
+op|']'
+op|'['
+string|"'status'"
 op|']'
 op|','
-name|'True'
+string|"'disabled'"
 op|')'
 newline|'\n'
 dedent|''

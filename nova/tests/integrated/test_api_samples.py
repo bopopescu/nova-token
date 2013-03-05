@@ -12770,7 +12770,7 @@ op|':'
 string|'"host1"'
 op|','
 nl|'\n'
-string|"'service'"
+string|"'binary'"
 op|':'
 string|"'nova-compute'"
 op|'}'
@@ -12781,7 +12781,7 @@ name|'self'
 op|'.'
 name|'_do_put'
 op|'('
-string|"'/os-services/enable'"
+string|"'os-services/enable'"
 op|','
 nl|'\n'
 string|"'service-enable-put-req'"
@@ -12808,7 +12808,7 @@ op|':'
 string|'"host1"'
 op|','
 nl|'\n'
-string|'"service"'
+string|'"binary"'
 op|':'
 string|'"nova-compute"'
 op|'}'
@@ -12847,7 +12847,7 @@ op|':'
 string|'"host1"'
 op|','
 nl|'\n'
-string|"'service'"
+string|"'binary'"
 op|':'
 string|"'nova-compute'"
 op|'}'
@@ -12858,7 +12858,7 @@ name|'self'
 op|'.'
 name|'_do_put'
 op|'('
-string|"'/os-services/disable'"
+string|"'os-services/disable'"
 op|','
 nl|'\n'
 string|"'service-disable-put-req'"
@@ -12885,7 +12885,7 @@ op|':'
 string|'"host1"'
 op|','
 nl|'\n'
-string|'"service"'
+string|'"binary"'
 op|':'
 string|'"nova-compute"'
 op|'}'
