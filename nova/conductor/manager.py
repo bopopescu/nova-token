@@ -205,6 +205,7 @@ op|','
 nl|'\n'
 string|"'system_metadata'"
 op|','
+string|"'updated_at'"
 nl|'\n'
 op|']'
 newline|'\n'
@@ -218,6 +219,8 @@ op|'['
 string|"'launched_at'"
 op|','
 string|"'terminated_at'"
+op|','
+string|"'updated_at'"
 op|']'
 newline|'\n'
 nl|'\n'
