@@ -44,7 +44,7 @@ DECL|variable|HVM
 name|'HVM'
 op|'='
 string|'"hvm"'
-comment|'# Fully virtualizated'
+comment|'# Fully virtualized'
 newline|'\n'
 DECL|variable|XEN
 name|'XEN'
