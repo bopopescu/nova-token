@@ -44,6 +44,11 @@ name|'DELETE'
 op|'='
 string|"'delete'"
 newline|'\n'
+DECL|variable|EVACUATE
+name|'EVACUATE'
+op|'='
+string|"'evacuate'"
+newline|'\n'
 DECL|variable|RESTORE
 name|'RESTORE'
 op|'='
