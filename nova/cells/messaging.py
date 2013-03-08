@@ -3743,13 +3743,11 @@ string|"'id'"
 op|','
 string|"'security_groups'"
 op|','
-string|"'instance_type'"
-op|','
-nl|'\n'
 string|"'volumes'"
 op|','
 string|"'cell_name'"
 op|','
+nl|'\n'
 string|"'name'"
 op|','
 string|"'metadata'"

@@ -6377,11 +6377,6 @@ op|':'
 string|"'fake'"
 op|','
 nl|'\n'
-string|"'instance_type'"
-op|':'
-string|"'fake'"
-op|','
-nl|'\n'
 string|"'volumes'"
 op|':'
 string|"'fake'"
