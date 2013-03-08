@@ -1133,7 +1133,7 @@ newline|'\n'
 indent|'                '
 name|'cmd'
 op|'='
-string|"''"
+string|"' '"
 op|'.'
 name|'join'
 op|'('
