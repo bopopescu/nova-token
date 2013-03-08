@@ -1,6 +1,7 @@
 begin_unit
 comment|'# vim: tabstop=4 shiftwidth=4 softtabstop=4'
 nl|'\n'
+comment|'# Copyright (c) 2013 Hewlett-Packard Development Company, L.P.'
 nl|'\n'
 comment|'# Copyright (c) 2012 VMware, Inc.'
 nl|'\n'
@@ -822,6 +823,30 @@ op|'='
 name|'self'
 op|'.'
 name|'_host_name'
+newline|'\n'
+name|'data'
+op|'['
+string|'"supported_instances"'
+op|']'
+op|'='
+op|'['
+op|'('
+string|"'i686'"
+op|','
+string|"'vmware'"
+op|','
+string|"'hvm'"
+op|')'
+op|','
+nl|'\n'
+op|'('
+string|"'x86_64'"
+op|','
+string|"'vmware'"
+op|','
+string|"'hvm'"
+op|')'
+op|']'
 newline|'\n'
 nl|'\n'
 name|'self'
