@@ -6304,7 +6304,7 @@ nl|'\n'
 string|"'--except-interface=lo'"
 op|','
 nl|'\n'
-string|"'--dhcp-range=set:\\'%s\\',%s,static,%ss'"
+string|"'--dhcp-range=set:%s,%s,static,%ss'"
 op|'%'
 nl|'\n'
 op|'('
