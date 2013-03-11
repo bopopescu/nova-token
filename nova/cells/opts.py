@@ -168,6 +168,28 @@ string|"'Seconds to wait for response from a call to a cell.'"
 op|')'
 op|','
 nl|'\n'
+name|'cfg'
+op|'.'
+name|'FloatOpt'
+op|'('
+string|"'reserve_percent'"
+op|','
+nl|'\n'
+DECL|variable|default
+name|'default'
+op|'='
+number|'10.0'
+op|','
+nl|'\n'
+DECL|variable|help
+name|'help'
+op|'='
+string|"'Percentage of cell capacity to hold in reserve. '"
+nl|'\n'
+string|"'Affects both memory and disk utilization'"
+op|')'
+op|','
+nl|'\n'
 op|']'
 newline|'\n'
 nl|'\n'
