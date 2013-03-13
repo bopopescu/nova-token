@@ -862,8 +862,6 @@ indent|'        '
 name|'return'
 op|'['
 string|"'name'"
-op|','
-string|"'system_metadata'"
 op|']'
 newline|'\n'
 nl|'\n'
