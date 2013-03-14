@@ -1,5 +1,5 @@
 begin_unit
-comment|'# vim: tabstop=4 shiftwidth=4 softtabstop=4'
+comment|'# vim: tabstop=6 shiftwidth=4 softtabstop=4'
 nl|'\n'
 nl|'\n'
 comment|'# Copyright 2010 United States Government as represented by the'
@@ -4301,6 +4301,25 @@ string|"'device_name'"
 op|']'
 op|')'
 newline|'\n'
+name|'if'
+string|"'serial'"
+name|'not'
+name|'in'
+name|'cinfo'
+op|':'
+newline|'\n'
+indent|'                    '
+name|'cinfo'
+op|'['
+string|"'serial'"
+op|']'
+op|'='
+name|'bdm'
+op|'['
+string|"'volume_id'"
+op|']'
+newline|'\n'
+dedent|''
 name|'self'
 op|'.'
 name|'conductor_api'
