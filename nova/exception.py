@@ -1938,6 +1938,11 @@ op|'('
 string|'"The supplied device path (%(path)s) is in use."'
 op|')'
 newline|'\n'
+DECL|variable|code
+name|'code'
+op|'='
+number|'409'
+newline|'\n'
 nl|'\n'
 nl|'\n'
 DECL|class|DeviceIsBusy
