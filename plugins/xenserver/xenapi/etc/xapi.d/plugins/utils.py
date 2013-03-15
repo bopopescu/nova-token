@@ -1507,7 +1507,7 @@ string|'"""Extract a tarball to a given path.\n\n    :param fileobj: a file-like
 newline|'\n'
 name|'tar_cmd'
 op|'='
-string|'"tar -zx --directory=%(path)s"'
+string|'"tar -x --directory=%(path)s"'
 op|'%'
 name|'locals'
 op|'('
