@@ -9056,6 +9056,13 @@ string|"'subnet_id'"
 op|':'
 string|"'my_subid1'"
 op|'}'
+op|','
+nl|'\n'
+op|'{'
+string|"'subnet_id'"
+op|':'
+string|"'my_subid1'"
+op|'}'
 op|']'
 op|','
 nl|'\n'
