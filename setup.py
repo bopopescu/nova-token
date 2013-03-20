@@ -92,7 +92,7 @@ name|'get_version'
 op|'('
 name|'project'
 op|','
-string|"'2013.1'"
+string|"'2013.2'"
 op|')'
 op|','
 nl|'\n'
