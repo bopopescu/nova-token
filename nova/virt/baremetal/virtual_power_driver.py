@@ -130,7 +130,7 @@ op|','
 nl|'\n'
 name|'cfg'
 op|'.'
-name|'StrOpt'
+name|'IntOpt'
 op|'('
 string|"'virtual_power_ssh_port'"
 op|','
@@ -138,7 +138,7 @@ nl|'\n'
 DECL|variable|default
 name|'default'
 op|'='
-string|"'22'"
+number|'22'
 op|','
 nl|'\n'
 DECL|variable|help
