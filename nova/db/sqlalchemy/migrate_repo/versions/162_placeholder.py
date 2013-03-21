@@ -1,4 +1,18 @@
 begin_unit
+comment|'# This is a placeholder for Grizzly backports.'
+nl|'\n'
+comment|'# Do not use this number for new Havana work.  New Havana work starts after'
+nl|'\n'
+comment|'# all the placeholders.'
+nl|'\n'
+comment|'#'
+nl|'\n'
+comment|'# See https://blueprints.launchpad.net/nova/+spec/backportable-db-migrations'
+nl|'\n'
+comment|'# http://lists.openstack.org/pipermail/openstack-dev/2013-March/006827.html'
+nl|'\n'
+nl|'\n'
+nl|'\n'
 DECL|function|upgrade
 name|'def'
 name|'upgrade'
