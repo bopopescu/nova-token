@@ -1,5 +1,5 @@
 begin_unit
-comment|'# Copyright 2011 OpenStack Foundation'
+comment|'# Copyright 2011 OpenStack Foundation.'
 nl|'\n'
 comment|'# All Rights Reserved.'
 nl|'\n'
@@ -56,6 +56,7 @@ name|'log'
 name|'as'
 name|'logging'
 newline|'\n'
+nl|'\n'
 nl|'\n'
 DECL|variable|CONF
 name|'CONF'
