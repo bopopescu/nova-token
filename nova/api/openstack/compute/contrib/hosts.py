@@ -168,6 +168,13 @@ op|'('
 string|"'service'"
 op|')'
 newline|'\n'
+name|'elem'
+op|'.'
+name|'set'
+op|'('
+string|"'zone'"
+op|')'
+newline|'\n'
 nl|'\n'
 name|'return'
 name|'xmlutil'
