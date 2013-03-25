@@ -375,6 +375,11 @@ op|'='
 string|"'aa:aa:aa:aa:aa:aa'"
 op|','
 nl|'\n'
+name|'type'
+op|'='
+string|"'bridge'"
+op|','
+nl|'\n'
 name|'network'
 op|'='
 name|'new_network'
