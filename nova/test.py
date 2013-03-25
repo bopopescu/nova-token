@@ -1364,7 +1364,6 @@ name|'fixtures'
 op|'.'
 name|'FakeLogger'
 op|'('
-string|"'nova'"
 op|')'
 op|')'
 newline|'\n'
