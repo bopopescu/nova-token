@@ -18951,8 +18951,6 @@ op|')'
 newline|'\n'
 dedent|''
 name|'if'
-name|'dest_check_data'
-name|'and'
 string|"'migrate_data'"
 name|'in'
 name|'dest_check_data'
