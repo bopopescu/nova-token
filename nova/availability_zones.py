@@ -457,7 +457,7 @@ op|'='
 op|'['
 name|'service'
 op|'['
-string|"'available_zones'"
+string|"'availability_zone'"
 op|']'
 name|'for'
 name|'service'
@@ -467,7 +467,7 @@ nl|'\n'
 name|'if'
 name|'service'
 op|'['
-string|"'available_zones'"
+string|"'availability_zone'"
 op|']'
 name|'not'
 name|'in'
