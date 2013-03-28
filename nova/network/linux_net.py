@@ -6298,7 +6298,7 @@ nl|'\n'
 string|"'--except-interface=lo'"
 op|','
 nl|'\n'
-string|"'--dhcp-range=set:%s,%s,static,%ss'"
+string|"'--dhcp-range=set:%s,%s,static,%s,%ss'"
 op|'%'
 nl|'\n'
 op|'('
@@ -6311,6 +6311,12 @@ nl|'\n'
 name|'network_ref'
 op|'['
 string|"'dhcp_start'"
+op|']'
+op|','
+nl|'\n'
+name|'network_ref'
+op|'['
+string|"'netmask'"
 op|']'
 op|','
 nl|'\n'

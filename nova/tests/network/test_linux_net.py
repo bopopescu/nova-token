@@ -3169,6 +3169,11 @@ op|':'
 string|"'10.0.0.0/24'"
 op|','
 nl|'\n'
+string|"'netmask'"
+op|':'
+string|"'255.255.255.0'"
+op|','
+nl|'\n'
 string|"'dns1'"
 op|':'
 string|"'8.8.4.4'"
@@ -3375,7 +3380,7 @@ nl|'\n'
 string|"'--except-interface=lo'"
 op|','
 nl|'\n'
-string|'"--dhcp-range=set:%s,%s,static,%ss"'
+string|'"--dhcp-range=set:%s,%s,static,%s,%ss"'
 op|'%'
 op|'('
 name|'network_ref'
@@ -3387,6 +3392,12 @@ nl|'\n'
 name|'network_ref'
 op|'['
 string|"'dhcp_start'"
+op|']'
+op|','
+nl|'\n'
+name|'network_ref'
+op|'['
+string|"'netmask'"
 op|']'
 op|','
 nl|'\n'
