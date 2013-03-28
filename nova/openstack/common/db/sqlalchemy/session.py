@@ -193,6 +193,12 @@ op|'='
 string|"'The SQLAlchemy connection string used to connect to the '"
 nl|'\n'
 string|"'database'"
+op|','
+nl|'\n'
+DECL|variable|secret
+name|'secret'
+op|'='
+name|'True'
 op|')'
 op|','
 nl|'\n'
