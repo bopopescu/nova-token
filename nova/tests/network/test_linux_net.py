@@ -3350,7 +3350,7 @@ op|'.'
 name|'dnsmasq_config_file'
 op|','
 nl|'\n'
-string|"'--domain=%s'"
+string|"'--domain=\\'%s\\''"
 op|'%'
 name|'CONF'
 op|'.'
