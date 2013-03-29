@@ -27791,9 +27791,9 @@ name|'self'
 op|'.'
 name|'compute'
 op|'.'
-name|'compute_api'
+name|'conductor_api'
 op|','
-string|"'confirm_resize'"
+string|"'compute_confirm_resize'"
 op|','
 nl|'\n'
 name|'fake_confirm_resize'
