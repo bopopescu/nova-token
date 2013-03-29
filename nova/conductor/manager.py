@@ -2461,6 +2461,12 @@ string|"'user_id'"
 op|']'
 op|','
 nl|'\n'
+name|'instance'
+op|'['
+string|"'availability_zone'"
+op|']'
+op|','
+nl|'\n'
 name|'last_refreshed'
 op|','
 name|'update_totals'
