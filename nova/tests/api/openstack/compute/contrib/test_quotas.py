@@ -113,7 +113,8 @@ number|'10'
 op|','
 string|"'fixed_ips'"
 op|':'
-number|'10'
+op|'-'
+number|'1'
 op|','
 nl|'\n'
 string|"'instances'"
@@ -235,7 +236,8 @@ op|','
 nl|'\n'
 string|"'fixed_ips'"
 op|':'
-number|'10'
+op|'-'
+number|'1'
 op|','
 nl|'\n'
 string|"'metadata_items'"
@@ -364,7 +366,8 @@ op|'['
 string|"'fixed_ips'"
 op|']'
 op|','
-number|'10'
+op|'-'
+number|'1'
 op|')'
 newline|'\n'
 name|'self'
@@ -526,7 +529,8 @@ op|','
 nl|'\n'
 string|"'fixed_ips'"
 op|':'
-number|'10'
+op|'-'
+number|'1'
 op|','
 nl|'\n'
 string|"'metadata_items'"
@@ -709,7 +713,8 @@ op|','
 nl|'\n'
 string|"'fixed_ips'"
 op|':'
-number|'10'
+op|'-'
+number|'1'
 op|','
 string|"'metadata_items'"
 op|':'
@@ -747,7 +752,8 @@ number|'100'
 op|','
 string|"'fixed_ips'"
 op|':'
-number|'10'
+op|'-'
+number|'1'
 op|'}'
 op|'}'
 newline|'\n'
@@ -830,7 +836,8 @@ op|','
 nl|'\n'
 string|"'fixed_ips'"
 op|':'
-number|'10'
+op|'-'
+number|'1'
 op|','
 string|"'metadata_items'"
 op|':'
@@ -1138,7 +1145,8 @@ op|','
 nl|'\n'
 string|"'fixed_ips'"
 op|':'
-number|'10'
+op|'-'
+number|'1'
 op|','
 string|"'metadata_items'"
 op|':'
@@ -1205,7 +1213,8 @@ op|','
 nl|'\n'
 string|"'fixed_ips'"
 op|':'
-number|'10'
+op|'-'
+number|'1'
 op|','
 string|"'metadata_items'"
 op|':'
@@ -1313,7 +1322,8 @@ op|','
 nl|'\n'
 string|"'fixed_ips'"
 op|':'
-number|'10'
+op|'-'
+number|'1'
 op|','
 string|"'metadata_items'"
 op|':'
@@ -1498,7 +1508,8 @@ op|','
 nl|'\n'
 name|'fixed_ips'
 op|'='
-number|'10'
+op|'-'
+number|'1'
 op|','
 nl|'\n'
 name|'instances'
@@ -1685,7 +1696,7 @@ op|','
 nl|'\n'
 name|'fixed_ips'
 op|'='
-string|"'10'"
+string|"'-1'"
 op|','
 nl|'\n'
 name|'instances'
@@ -1736,7 +1747,7 @@ string|"'<ram>50</ram>'"
 nl|'\n'
 string|"'<floating_ips>60</floating_ips>'"
 nl|'\n'
-string|"'<fixed_ips>10</fixed_ips>'"
+string|"'<fixed_ips>-1</fixed_ips>'"
 nl|'\n'
 string|"'<instances>70</instances>'"
 nl|'\n'

@@ -196,7 +196,8 @@ nl|'\n'
 DECL|variable|default
 name|'default'
 op|'='
-number|'10'
+op|'-'
+number|'1'
 op|','
 nl|'\n'
 DECL|variable|help
