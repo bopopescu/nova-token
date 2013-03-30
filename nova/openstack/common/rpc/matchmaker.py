@@ -113,7 +113,7 @@ nl|'\n'
 DECL|variable|default
 name|'default'
 op|'='
-string|"'300'"
+number|'300'
 op|','
 nl|'\n'
 DECL|variable|help
@@ -133,7 +133,7 @@ nl|'\n'
 DECL|variable|default
 name|'default'
 op|'='
-string|"'600'"
+number|'600'
 op|','
 nl|'\n'
 DECL|variable|help

@@ -184,7 +184,7 @@ op|','
 nl|'\n'
 name|'cfg'
 op|'.'
-name|'StrOpt'
+name|'IntOpt'
 op|'('
 string|"'qpid_port'"
 op|','
@@ -192,7 +192,7 @@ nl|'\n'
 DECL|variable|default
 name|'default'
 op|'='
-string|"'5672'"
+number|'5672'
 op|','
 nl|'\n'
 DECL|variable|help
