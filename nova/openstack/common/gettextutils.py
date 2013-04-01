@@ -46,7 +46,7 @@ name|'gettext'
 op|'.'
 name|'translation'
 op|'('
-string|"'openstack-common'"
+string|"'nova'"
 op|','
 string|"'locale'"
 op|','
