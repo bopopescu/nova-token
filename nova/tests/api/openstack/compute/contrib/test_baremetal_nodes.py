@@ -227,11 +227,6 @@ op|':'
 string|'"12:34:56:78:90:ab"'
 op|','
 nl|'\n'
-string|"'prov_vlan_id'"
-op|':'
-number|'1234'
-op|','
-nl|'\n'
 string|"'terminal_port'"
 op|':'
 number|'8000'
