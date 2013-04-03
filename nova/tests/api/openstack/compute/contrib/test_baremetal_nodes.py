@@ -222,11 +222,6 @@ op|':'
 string|'"pm_pass"'
 op|','
 nl|'\n'
-string|"'prov_mac_address'"
-op|':'
-string|'"12:34:56:78:90:ab"'
-op|','
-nl|'\n'
 string|"'terminal_port'"
 op|':'
 number|'8000'
