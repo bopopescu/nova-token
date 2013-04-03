@@ -18689,10 +18689,10 @@ name|'error'
 op|'('
 name|'_'
 op|'('
-string|"'allocate_port_for_instance returned %(port)s ports'"
+string|"'allocate_port_for_instance returned %(ports)s ports'"
 op|')'
-op|'%'
 nl|'\n'
+op|'%'
 name|'dict'
 op|'('
 name|'ports'
