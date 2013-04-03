@@ -203,12 +203,6 @@ op|'='
 string|"'Required for live migration among '"
 nl|'\n'
 string|"'hosts with different CPU features'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_group
-name|'deprecated_group'
-op|'='
-string|"'DEFAULT'"
 op|')'
 op|','
 nl|'\n'
@@ -229,12 +223,6 @@ DECL|variable|help
 name|'help'
 op|'='
 string|"'Sets the admin password in the config drive image'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_group
-name|'deprecated_group'
-op|'='
-string|"'DEFAULT'"
 op|')'
 op|','
 nl|'\n'
@@ -257,12 +245,6 @@ op|'='
 string|"'qemu-img is used to convert between '"
 nl|'\n'
 string|"'different image types'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_group
-name|'deprecated_group'
-op|'='
-string|"'DEFAULT'"
 op|')'
 op|','
 nl|'\n'
@@ -285,12 +267,6 @@ op|'='
 string|"'Attaches the Config Drive image as a cdrom drive '"
 nl|'\n'
 string|"'instead of a disk drive'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_group
-name|'deprecated_group'
-op|'='
-string|"'DEFAULT'"
 op|')'
 nl|'\n'
 op|']'
