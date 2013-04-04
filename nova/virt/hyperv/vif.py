@@ -102,12 +102,6 @@ nl|'\n'
 string|"'if not provided, the first external virtual '"
 nl|'\n'
 string|"'switch is used'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_group
-name|'deprecated_group'
-op|'='
-string|"'DEFAULT'"
 op|')'
 op|','
 nl|'\n'

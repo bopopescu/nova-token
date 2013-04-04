@@ -124,14 +124,6 @@ op|'('
 string|"'attestation_server'"
 op|','
 nl|'\n'
-comment|'# deprecated in Grizzly'
-nl|'\n'
-DECL|variable|deprecated_name
-name|'deprecated_name'
-op|'='
-string|"'server'"
-op|','
-nl|'\n'
 DECL|variable|default
 name|'default'
 op|'='
@@ -150,12 +142,6 @@ op|'.'
 name|'StrOpt'
 op|'('
 string|"'attestation_server_ca_file'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_name
-name|'deprecated_name'
-op|'='
-string|"'server_ca_file'"
 op|','
 nl|'\n'
 DECL|variable|default
@@ -178,12 +164,6 @@ op|'('
 string|"'attestation_port'"
 op|','
 nl|'\n'
-DECL|variable|deprecated_name
-name|'deprecated_name'
-op|'='
-string|"'port'"
-op|','
-nl|'\n'
 DECL|variable|default
 name|'default'
 op|'='
@@ -204,12 +184,6 @@ op|'('
 string|"'attestation_api_url'"
 op|','
 nl|'\n'
-DECL|variable|deprecated_name
-name|'deprecated_name'
-op|'='
-string|"'api_url'"
-op|','
-nl|'\n'
 DECL|variable|default
 name|'default'
 op|'='
@@ -228,12 +202,6 @@ op|'.'
 name|'StrOpt'
 op|'('
 string|"'attestation_auth_blob'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_name
-name|'deprecated_name'
-op|'='
-string|"'auth_blob'"
 op|','
 nl|'\n'
 DECL|variable|default

@@ -140,18 +140,6 @@ DECL|variable|help
 name|'help'
 op|'='
 string|"'The number of times to retry to attach a volume'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_name
-name|'deprecated_name'
-op|'='
-string|"'hyperv_attaching_volume_retry_count'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_group
-name|'deprecated_group'
-op|'='
-string|"'DEFAULT'"
 op|')'
 op|','
 nl|'\n'
@@ -172,18 +160,6 @@ DECL|variable|help
 name|'help'
 op|'='
 string|"'Interval between volume attachment attempts, in seconds'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_name
-name|'deprecated_name'
-op|'='
-string|"'hyperv_wait_between_attach_retry'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_group
-name|'deprecated_group'
-op|'='
-string|"'DEFAULT'"
 op|')'
 op|','
 nl|'\n'
@@ -204,12 +180,6 @@ DECL|variable|help
 name|'help'
 op|'='
 string|"'Force volumeutils v1'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_group
-name|'deprecated_group'
-op|'='
-string|"'DEFAULT'"
 op|')'
 op|','
 nl|'\n'

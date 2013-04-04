@@ -88,14 +88,6 @@ op|'('
 string|"'default_availability_zone'"
 op|','
 nl|'\n'
-comment|'# deprecated in Grizzly release'
-nl|'\n'
-DECL|variable|deprecated_name
-name|'deprecated_name'
-op|'='
-string|"'node_availability_zone'"
-op|','
-nl|'\n'
 DECL|variable|default
 name|'default'
 op|'='
