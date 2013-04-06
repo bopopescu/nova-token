@@ -153,5 +153,10 @@ name|'POWERVM_MIN_CPUS'
 op|'='
 number|'1'
 newline|'\n'
+DECL|variable|POWERVM_CONNECTION_TIMEOUT
+name|'POWERVM_CONNECTION_TIMEOUT'
+op|'='
+number|'60'
+newline|'\n'
 endmarker|''
 end_unit
