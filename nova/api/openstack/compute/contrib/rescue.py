@@ -229,11 +229,6 @@ op|'('
 string|"'rescue'"
 op|')'
 newline|'\n'
-op|'@'
-name|'exts'
-op|'.'
-name|'wrap_errors'
-newline|'\n'
 DECL|member|_rescue
 name|'def'
 name|'_rescue'
@@ -400,11 +395,6 @@ name|'action'
 op|'('
 string|"'unrescue'"
 op|')'
-newline|'\n'
-op|'@'
-name|'exts'
-op|'.'
-name|'wrap_errors'
 newline|'\n'
 DECL|member|_unrescue
 name|'def'
