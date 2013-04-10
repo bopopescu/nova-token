@@ -153,17 +153,6 @@ string|"'nova.netconf'"
 op|')'
 newline|'\n'
 nl|'\n'
-DECL|variable|LOG
-name|'LOG'
-op|'='
-name|'logging'
-op|'.'
-name|'getLogger'
-op|'('
-name|'__name__'
-op|')'
-newline|'\n'
-nl|'\n'
 nl|'\n'
 DECL|class|ImageCacheManagerTestCase
 name|'class'
