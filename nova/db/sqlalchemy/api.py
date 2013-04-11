@@ -9404,8 +9404,6 @@ op|'['
 string|"'info_cache'"
 op|','
 string|"'security_groups'"
-op|','
-string|"'metadata'"
 op|']'
 newline|'\n'
 name|'manual_joins'
