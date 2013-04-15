@@ -370,7 +370,7 @@ op|','
 nl|'\n'
 name|'prov_mac_address'
 op|'='
-string|"'11:11:11:11:11:11'"
+string|"'aa:bb:cc:dd:ee:ff'"
 op|','
 nl|'\n'
 op|')'
@@ -384,7 +384,7 @@ nl|'\n'
 op|'{'
 string|"'address'"
 op|':'
-string|"'22:22:22:22:22:22'"
+string|"'11:11:11:11:11:11'"
 op|','
 string|"'datapath_id'"
 op|':'
@@ -400,7 +400,7 @@ nl|'\n'
 op|'{'
 string|"'address'"
 op|':'
-string|"'33:33:33:33:33:33'"
+string|"'22:22:22:22:22:22'"
 op|','
 string|"'datapath_id'"
 op|':'
@@ -1434,6 +1434,10 @@ op|','
 string|"'testNode'"
 op|')'
 newline|'\n'
+comment|'# aa:bb:cc:dd:ee:ff is prov_mac_adress. Check it is not used to'
+nl|'\n'
+comment|'# find the node.'
+nl|'\n'
 name|'self'
 op|'.'
 name|'pm'
