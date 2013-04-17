@@ -9368,11 +9368,12 @@ op|'['
 string|"'id'"
 op|']'
 newline|'\n'
-name|'del'
 name|'bdm'
 op|'['
 string|"'volume_id'"
 op|']'
+op|'='
+name|'None'
 newline|'\n'
 nl|'\n'
 dedent|''
