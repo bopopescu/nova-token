@@ -94,10 +94,10 @@ op|'='
 name|'True'
 newline|'\n'
 nl|'\n'
-DECL|member|abort_resize_claim
+DECL|member|drop_resize_claim
 dedent|''
 name|'def'
-name|'abort_resize_claim'
+name|'drop_resize_claim'
 op|'('
 name|'self'
 op|','
