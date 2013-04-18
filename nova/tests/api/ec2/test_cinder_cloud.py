@@ -1132,6 +1132,18 @@ op|'='
 string|"'test volume 1'"
 op|')'
 newline|'\n'
+name|'self'
+op|'.'
+name|'assertEqual'
+op|'('
+name|'vol1'
+op|'['
+string|"'status'"
+op|']'
+op|','
+string|"'available'"
+op|')'
+newline|'\n'
 name|'vol2'
 op|'='
 name|'self'
