@@ -363,7 +363,7 @@ nl|'\n'
 name|'stdin_command'
 op|'='
 op|'('
-string|"'1 %d 83;\\n- %d 82;\\n0 0;\\n0 0;\\n'"
+string|"'1,%d,83;\\n,%d,82;\\n0,0;\\n0,0;\\n'"
 op|'%'
 op|'('
 name|'root_mb'
