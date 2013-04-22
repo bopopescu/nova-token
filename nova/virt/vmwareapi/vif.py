@@ -107,8 +107,6 @@ DECL|function|ensure_vlan_bridge
 name|'def'
 name|'ensure_vlan_bridge'
 op|'('
-name|'self'
-op|','
 name|'session'
 op|','
 name|'vif'
