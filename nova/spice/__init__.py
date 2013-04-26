@@ -58,7 +58,7 @@ nl|'\n'
 DECL|variable|default
 name|'default'
 op|'='
-string|"'http://127.0.0.1:6080/spice_auto.html'"
+string|"'http://127.0.0.1:6082/spice_auto.html'"
 op|','
 nl|'\n'
 DECL|variable|help
@@ -66,7 +66,7 @@ name|'help'
 op|'='
 string|"'location of spice html5 console proxy, in the form '"
 nl|'\n'
-string|'\'"http://127.0.0.1:6080/spice_auto.html"\''
+string|'\'"http://127.0.0.1:6082/spice_auto.html"\''
 op|')'
 op|','
 nl|'\n'
