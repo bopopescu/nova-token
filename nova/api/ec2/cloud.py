@@ -7484,7 +7484,12 @@ op|'='
 op|'{'
 string|"'volumeId'"
 op|':'
+name|'ec2utils'
+op|'.'
+name|'id_to_ec2_vol_id'
+op|'('
 name|'volume_id'
+op|')'
 op|','
 nl|'\n'
 string|"'deleteOnTermination'"
@@ -7509,7 +7514,7 @@ string|"'status'"
 op|':'
 name|'vol'
 op|'['
-string|"'status'"
+string|"'attach_status'"
 op|']'
 op|','
 op|'}'

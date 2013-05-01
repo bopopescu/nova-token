@@ -1025,6 +1025,11 @@ op|':'
 string|"'13:56:24'"
 op|','
 nl|'\n'
+string|"'attach_status'"
+op|':'
+string|"'attached'"
+op|','
+nl|'\n'
 string|"'status'"
 op|':'
 string|"'in-use'"

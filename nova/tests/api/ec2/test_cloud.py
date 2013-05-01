@@ -17277,7 +17277,7 @@ op|':'
 op|'{'
 string|"'status'"
 op|':'
-string|"'in-use'"
+string|"'attached'"
 op|','
 nl|'\n'
 string|"'deleteOnTermination'"
@@ -17287,7 +17287,7 @@ op|','
 nl|'\n'
 string|"'volumeId'"
 op|':'
-number|'87654321'
+string|"'vol-05397fb1'"
 op|','
 nl|'\n'
 string|"'attachTime'"
