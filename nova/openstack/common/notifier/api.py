@@ -130,12 +130,6 @@ op|'['
 op|']'
 op|','
 nl|'\n'
-DECL|variable|deprecated_name
-name|'deprecated_name'
-op|'='
-string|"'list_notifier_drivers'"
-op|','
-nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
