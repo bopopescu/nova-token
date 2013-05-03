@@ -3385,7 +3385,7 @@ op|':'
 op|'{'
 string|"'status'"
 op|':'
-string|"'in-use'"
+string|"'attached'"
 op|','
 nl|'\n'
 string|"'deleteOnTermination'"
@@ -3395,7 +3395,7 @@ op|','
 nl|'\n'
 string|"'volumeId'"
 op|':'
-string|"'2'"
+string|"'vol-00000002'"
 op|','
 nl|'\n'
 op|'}'
@@ -3413,7 +3413,7 @@ op|':'
 op|'{'
 string|"'status'"
 op|':'
-string|"'in-use'"
+string|"'attached'"
 op|','
 nl|'\n'
 string|"'deleteOnTermination'"
@@ -3423,7 +3423,7 @@ op|','
 nl|'\n'
 string|"'volumeId'"
 op|':'
-string|"'3'"
+string|"'vol-00000003'"
 op|','
 nl|'\n'
 op|'}'
@@ -3441,7 +3441,7 @@ op|':'
 op|'{'
 string|"'status'"
 op|':'
-string|"'in-use'"
+string|"'attached'"
 op|','
 nl|'\n'
 string|"'deleteOnTermination'"
@@ -3451,7 +3451,7 @@ op|','
 nl|'\n'
 string|"'volumeId'"
 op|':'
-string|"'5'"
+string|"'vol-00000005'"
 op|','
 nl|'\n'
 op|'}'
@@ -3469,7 +3469,7 @@ op|':'
 op|'{'
 string|"'status'"
 op|':'
-string|"'in-use'"
+string|"'attached'"
 op|','
 nl|'\n'
 string|"'deleteOnTermination'"
@@ -3479,7 +3479,7 @@ op|','
 nl|'\n'
 string|"'volumeId'"
 op|':'
-string|"'7'"
+string|"'vol-00000007'"
 op|','
 nl|'\n'
 op|'}'
@@ -3497,7 +3497,7 @@ op|':'
 op|'{'
 string|"'status'"
 op|':'
-string|"'in-use'"
+string|"'attached'"
 op|','
 nl|'\n'
 string|"'deleteOnTermination'"
@@ -3507,7 +3507,7 @@ op|','
 nl|'\n'
 string|"'volumeId'"
 op|':'
-string|"'9'"
+string|"'vol-00000009'"
 op|','
 nl|'\n'
 op|'}'
@@ -3525,7 +3525,7 @@ op|':'
 op|'{'
 string|"'status'"
 op|':'
-string|"'in-use'"
+string|"'attached'"
 op|','
 nl|'\n'
 string|"'deleteOnTermination'"
@@ -3535,7 +3535,7 @@ op|','
 nl|'\n'
 string|"'volumeId'"
 op|':'
-string|"'11'"
+string|"'vol-0000000b'"
 op|','
 op|'}'
 op|'}'
