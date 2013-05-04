@@ -22235,12 +22235,9 @@ name|'db'
 op|'.'
 name|'floating_ip_count_by_project'
 op|','
-nl|'\n'
 name|'ctxt'
 op|','
 string|"'def'"
-op|','
-string|"'does_not_matter'"
 op|')'
 newline|'\n'
 nl|'\n'
