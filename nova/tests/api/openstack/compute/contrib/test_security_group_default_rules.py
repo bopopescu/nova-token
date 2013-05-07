@@ -1932,8 +1932,6 @@ string|"'new_project_id'"
 op|')'
 newline|'\n'
 nl|'\n'
-name|'_'
-op|','
 name|'sg'
 op|'='
 name|'nova'
