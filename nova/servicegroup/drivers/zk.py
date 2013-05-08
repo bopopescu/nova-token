@@ -104,7 +104,7 @@ name|'importutils'
 op|'.'
 name|'try_import'
 op|'('
-string|"'evzookeeper.membersip'"
+string|"'evzookeeper.membership'"
 op|')'
 newline|'\n'
 DECL|variable|zookeeper
