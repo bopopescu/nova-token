@@ -5840,7 +5840,6 @@ name|'method_kwargs'
 op|','
 string|"'down'"
 op|','
-nl|'\n'
 name|'target_cell'
 op|')'
 newline|'\n'
