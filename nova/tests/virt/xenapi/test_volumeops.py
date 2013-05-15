@@ -164,7 +164,7 @@ name|'volumeops'
 op|'.'
 name|'vm_utils'
 op|','
-string|"'_is_vm_shutdown'"
+string|"'is_vm_shutdown'"
 op|')'
 newline|'\n'
 name|'self'
@@ -291,7 +291,7 @@ name|'volumeops'
 op|'.'
 name|'vm_utils'
 op|'.'
-name|'_is_vm_shutdown'
+name|'is_vm_shutdown'
 op|'('
 string|"'session'"
 op|','
