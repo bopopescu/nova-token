@@ -1208,9 +1208,6 @@ newline|'\n'
 dedent|''
 name|'return'
 name|'ip'
-op|'['
-string|"'address'"
-op|']'
 newline|'\n'
 nl|'\n'
 DECL|function|fake_fixed_ip_disassociate
