@@ -1,5 +1,5 @@
 begin_unit
-comment|'#!/usr/bin/env python'
+comment|'# vim: tabstop=4 shiftwidth=4 softtabstop=4'
 nl|'\n'
 nl|'\n'
 comment|'# Copyright (c) 2012 NTT DOCOMO, INC.'
