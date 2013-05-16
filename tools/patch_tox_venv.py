@@ -140,7 +140,7 @@ op|')'
 newline|'\n'
 name|'project'
 op|'='
-string|"'Nova'"
+string|"'nova'"
 newline|'\n'
 name|'install'
 op|'='
