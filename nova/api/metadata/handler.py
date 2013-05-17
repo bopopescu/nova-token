@@ -917,26 +917,42 @@ name|'instance_id'
 op|':'
 newline|'\n'
 indent|'                '
-name|'w'
-op|'='
-name|'_'
-op|'('
-string|"'X-Instance-ID-Signature: %(signature)s does not match '"
-nl|'\n'
-string|"'the expected value: %(expected_signature)s for id: '"
-nl|'\n'
-string|"'%(instance_id)s.  Request From: %(remote_address)s'"
-op|')'
-newline|'\n'
 name|'LOG'
 op|'.'
 name|'warn'
 op|'('
-name|'w'
-op|'%'
-name|'locals'
+name|'_'
 op|'('
+string|"'X-Instance-ID-Signature: %(signature)s does not '"
+nl|'\n'
+string|"'match the expected value: %(expected_signature)s '"
+nl|'\n'
+string|"'for id: %(instance_id)s.  Request From: '"
+nl|'\n'
+string|"'%(remote_address)s'"
 op|')'
+op|','
+nl|'\n'
+op|'{'
+string|"'signature'"
+op|':'
+name|'signature'
+op|','
+nl|'\n'
+string|"'expected_signature'"
+op|':'
+name|'expected_signature'
+op|','
+nl|'\n'
+string|"'instance_id'"
+op|':'
+name|'instance_id'
+op|','
+nl|'\n'
+string|"'remote_address'"
+op|':'
+name|'remote_address'
+op|'}'
 op|')'
 newline|'\n'
 nl|'\n'
