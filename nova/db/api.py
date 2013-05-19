@@ -2931,6 +2931,8 @@ op|')'
 newline|'\n'
 nl|'\n'
 nl|'\n'
+comment|'# NOTE(hanlind): This method can be removed as conductor RPC API moves to v2.0.'
+nl|'\n'
 DECL|function|instance_get_all_hung_in_rebooting
 dedent|''
 name|'def'
