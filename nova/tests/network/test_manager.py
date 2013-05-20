@@ -13077,7 +13077,9 @@ nl|'\n'
 name|'expected_lines'
 op|'='
 op|'['
-string|"'[0:0] -A %s-snat -s %s -j SNAT --to-source %s -o %s'"
+string|"'[0:0] -A %s-snat -s %s -d 0.0.0.0/0 '"
+nl|'\n'
+string|"'-j SNAT --to-source %s -o %s'"
 nl|'\n'
 op|'%'
 op|'('
@@ -13386,7 +13388,9 @@ nl|'\n'
 name|'expected_lines'
 op|'='
 op|'['
-string|"'[0:0] -A %s-snat -s %s -j SNAT --to-source %s -o %s'"
+string|"'[0:0] -A %s-snat -s %s -d 0.0.0.0/0 '"
+nl|'\n'
+string|"'-j SNAT --to-source %s -o %s'"
 nl|'\n'
 op|'%'
 op|'('
@@ -13484,7 +13488,9 @@ op|']'
 op|')'
 op|','
 nl|'\n'
-string|"'[0:0] -A %s-snat -s %s -j SNAT --to-source %s -o %s'"
+string|"'[0:0] -A %s-snat -s %s -d 0.0.0.0/0 '"
+nl|'\n'
+string|"'-j SNAT --to-source %s -o %s'"
 nl|'\n'
 op|'%'
 op|'('
@@ -13778,9 +13784,10 @@ nl|'\n'
 name|'expected_lines'
 op|'+='
 op|'['
-string|"'[0:0] -A %s-snat -s %s -j SNAT --to-source %s -o '"
+string|"'[0:0] -A %s-snat -s %s -d 0.0.0.0/0 '"
 nl|'\n'
-string|"'%s'"
+string|"'-j SNAT --to-source %s -o %s'"
+nl|'\n'
 op|'%'
 op|'('
 name|'binary_name'
