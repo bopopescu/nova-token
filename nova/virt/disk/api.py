@@ -1865,6 +1865,10 @@ op|'{'
 string|"'e'"
 op|':'
 name|'e'
+op|','
+string|"'inject'"
+op|':'
+name|'inject'
 op|'}'
 op|')'
 newline|'\n'
