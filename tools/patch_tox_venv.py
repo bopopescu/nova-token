@@ -98,9 +98,7 @@ name|'join'
 op|'('
 name|'root'
 op|','
-string|"'tools'"
-op|','
-string|"'pip-requires'"
+string|"'requirements.txt'"
 op|')'
 newline|'\n'
 name|'test_requires'
@@ -113,9 +111,7 @@ name|'join'
 op|'('
 name|'root'
 op|','
-string|"'tools'"
-op|','
-string|"'test-requires'"
+string|"'test-requirements.txt'"
 op|')'
 newline|'\n'
 name|'py_version'
