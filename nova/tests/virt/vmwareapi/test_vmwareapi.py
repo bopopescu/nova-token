@@ -3809,7 +3809,7 @@ op|'['
 string|"'host'"
 op|']'
 op|','
-string|'"test_url"'
+string|'"ha-host"'
 op|')'
 newline|'\n'
 name|'self'
