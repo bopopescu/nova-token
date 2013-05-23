@@ -183,10 +183,10 @@ op|'('
 nl|'\n'
 op|'['
 nl|'\n'
-string|"'key1=nova.tests.test_driver.FakeDriver'"
+string|"'key1=nova.tests.virt.test_driver.FakeDriver'"
 op|','
 nl|'\n'
-string|"'key2=nova.tests.test_driver.FakeDriver2'"
+string|"'key2=nova.tests.virt.test_driver.FakeDriver2'"
 op|','
 nl|'\n'
 op|']'
