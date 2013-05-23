@@ -190,6 +190,26 @@ string|"'Affects both memory and disk utilization'"
 op|')'
 op|','
 nl|'\n'
+name|'cfg'
+op|'.'
+name|'StrOpt'
+op|'('
+string|"'cell_type'"
+op|','
+nl|'\n'
+DECL|variable|default
+name|'default'
+op|'='
+name|'None'
+op|','
+nl|'\n'
+DECL|variable|help
+name|'help'
+op|'='
+string|"'Type of cell: api or compute'"
+op|')'
+op|','
+nl|'\n'
 op|']'
 newline|'\n'
 nl|'\n'
