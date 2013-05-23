@@ -279,26 +279,6 @@ op|','
 nl|'\n'
 name|'cfg'
 op|'.'
-name|'BoolOpt'
-op|'('
-string|"'disable_process_locking'"
-op|','
-nl|'\n'
-DECL|variable|default
-name|'default'
-op|'='
-name|'False'
-op|','
-nl|'\n'
-DECL|variable|help
-name|'help'
-op|'='
-string|"'Whether to disable inter-process locks'"
-op|')'
-op|','
-nl|'\n'
-name|'cfg'
-op|'.'
 name|'StrOpt'
 op|'('
 string|"'instance_usage_audit_period'"
