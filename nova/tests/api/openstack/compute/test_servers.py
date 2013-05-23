@@ -14477,7 +14477,7 @@ op|'.'
 name|'HTTPBadRequest'
 op|','
 nl|'\n'
-string|"'Image is larger than instance type allows'"
+string|'"Instance type\'s disk is too small for requested image."'
 op|')'
 op|':'
 newline|'\n'
