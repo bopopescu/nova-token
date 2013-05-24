@@ -10522,7 +10522,7 @@ name|'__file__'
 op|')'
 op|','
 nl|'\n'
-string|"'virt/baremetal/test_baremetal_migrations.conf'"
+string|"'../virt/baremetal/test_baremetal_migrations.conf'"
 op|')'
 newline|'\n'
 comment|'# Test machines can set the NOVA_TEST_MIGRATIONS_CONF variable'
