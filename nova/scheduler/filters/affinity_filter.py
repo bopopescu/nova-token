@@ -468,7 +468,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""Schedule the instance on a different host from a set of group\n    instances.\n    """'
+string|'"""Schedule the instance on a different host from a set of group\n    hosts.\n    """'
 newline|'\n'
 nl|'\n'
 DECL|member|host_passes
