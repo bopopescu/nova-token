@@ -235,6 +235,11 @@ op|':'
 string|"'default'"
 op|','
 nl|'\n'
+string|"'xenapi_use_agent'"
+op|':'
+string|"'true'"
+op|','
+nl|'\n'
 op|'}'
 newline|'\n'
 name|'image_id'
@@ -253,6 +258,15 @@ op|'{'
 string|"'uuid'"
 op|':'
 string|"'blah'"
+op|','
+nl|'\n'
+string|"'system_metadata'"
+op|':'
+op|'{'
+string|"'image_xenapi_use_agent'"
+op|':'
+string|"'true'"
+op|'}'
 op|'}'
 newline|'\n'
 name|'instance'
