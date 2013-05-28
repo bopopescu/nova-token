@@ -56954,6 +56954,8 @@ name|'True'
 newline|'\n'
 name|'raise'
 name|'AttributeError'
+op|'('
+op|')'
 newline|'\n'
 nl|'\n'
 DECL|function|fake_roll_detaching
