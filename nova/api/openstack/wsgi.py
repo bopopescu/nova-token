@@ -5039,9 +5039,15 @@ string|"'action'"
 op|':'
 name|'action'
 op|','
+nl|'\n'
 string|"'body'"
 op|':'
+name|'unicode'
+op|'('
 name|'body'
+op|','
+string|"'utf-8'"
+op|')'
 op|'}'
 newline|'\n'
 name|'LOG'
