@@ -76,6 +76,12 @@ op|'('
 name|'__name__'
 op|')'
 newline|'\n'
+nl|'\n'
+DECL|variable|ALIAS
+name|'ALIAS'
+op|'='
+string|'"os-fixed-ips"'
+newline|'\n'
 DECL|variable|authorize
 name|'authorize'
 op|'='
@@ -85,7 +91,9 @@ name|'extension_authorizer'
 op|'('
 string|"'compute'"
 op|','
-string|"'fixed_ips'"
+string|"'v3:'"
+op|'+'
+name|'ALIAS'
 op|')'
 newline|'\n'
 nl|'\n'
@@ -546,7 +554,7 @@ newline|'\n'
 DECL|variable|alias
 name|'alias'
 op|'='
-string|'"os-fixed-ips"'
+name|'ALIAS'
 newline|'\n'
 DECL|variable|namespace
 name|'namespace'
