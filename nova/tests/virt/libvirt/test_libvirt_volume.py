@@ -3442,7 +3442,9 @@ op|'='
 op|'['
 nl|'\n'
 op|'('
-string|"'stat'"
+string|"'mkdir'"
+op|','
+string|"'-p'"
 op|','
 name|'export_mnt_base'
 op|')'
@@ -3847,7 +3849,9 @@ op|'='
 op|'['
 nl|'\n'
 op|'('
-string|"'stat'"
+string|"'mkdir'"
+op|','
+string|"'-p'"
 op|','
 name|'export_mnt_base'
 op|')'
