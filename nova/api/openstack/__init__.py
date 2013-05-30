@@ -1572,6 +1572,8 @@ newline|'\n'
 indent|'        '
 name|'raise'
 name|'NotImplementedError'
+op|'('
+op|')'
 newline|'\n'
 nl|'\n'
 DECL|member|_register_extension
