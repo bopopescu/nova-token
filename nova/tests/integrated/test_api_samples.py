@@ -22010,19 +22010,14 @@ op|']'
 op|'='
 string|"'[a-f0-9]+'"
 newline|'\n'
-comment|'# config drive can be an uuid or empty value'
+comment|'# config drive can be a string for True or empty value for False'
 nl|'\n'
 name|'subs'
 op|'['
 string|"'cdrive'"
 op|']'
 op|'='
-string|"'(%s)?'"
-op|'%'
-name|'subs'
-op|'['
-string|"'uuid'"
-op|']'
+string|"'.*'"
 newline|'\n'
 name|'self'
 op|'.'
@@ -22049,8 +22044,6 @@ op|')'
 op|':'
 newline|'\n'
 indent|'        '
-name|'uuid'
-op|'='
 name|'self'
 op|'.'
 name|'_post_server'
@@ -22081,19 +22074,14 @@ op|']'
 op|'='
 string|"'[a-f0-9]+'"
 newline|'\n'
-comment|'# config drive can be an uuid or empty value'
+comment|'# config drive can be a string for True or empty value for False'
 nl|'\n'
 name|'subs'
 op|'['
 string|"'cdrive'"
 op|']'
 op|'='
-string|"'(%s)?'"
-op|'%'
-name|'subs'
-op|'['
-string|"'uuid'"
-op|']'
+string|"'.*'"
 newline|'\n'
 name|'self'
 op|'.'
