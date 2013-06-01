@@ -882,7 +882,7 @@ op|','
 string|"u'Nova Documentation'"
 op|','
 nl|'\n'
-string|"u'Anso Labs, LLC'"
+string|"u'OpenStack Foundation'"
 op|','
 string|"'manual'"
 op|')'
