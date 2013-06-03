@@ -1514,9 +1514,11 @@ name|'CONF'
 op|'.'
 name|'set_override'
 op|'('
-string|"'osapi_v3_enabled'"
+string|"'enabled'"
 op|','
 name|'True'
+op|','
+string|"'osapi_v3'"
 op|')'
 newline|'\n'
 nl|'\n'
