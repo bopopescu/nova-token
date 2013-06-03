@@ -39,13 +39,12 @@ op|'.'
 name|'setup'
 op|'('
 nl|'\n'
-DECL|variable|setup_requires
 name|'setup_requires'
 op|'='
 op|'['
-string|"'d2to1'"
+string|"'d2to1>=0.2.10,<0.3'"
 op|','
-string|"'pbr'"
+string|"'pbr>=0.5,<0.6'"
 op|']'
 op|','
 nl|'\n'
