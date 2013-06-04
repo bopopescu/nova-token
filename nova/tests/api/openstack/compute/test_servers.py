@@ -1582,7 +1582,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/servers/%s'"
+string|"'/fake/servers/%s'"
 op|'%'
 name|'FAKE_UUID'
 op|')'
@@ -1714,7 +1714,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/servers/%s'"
+string|"'/fake/servers/%s'"
 op|'%'
 name|'FAKE_UUID'
 op|')'
@@ -1809,7 +1809,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/servers/%s'"
+string|"'/fake/servers/%s'"
 op|'%'
 name|'uuid'
 op|')'
@@ -2129,7 +2129,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/servers/%s'"
+string|"'/fake/servers/%s'"
 op|'%'
 name|'uuid'
 op|')'
@@ -2465,7 +2465,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/servers/%s'"
+string|"'/fake/servers/%s'"
 op|'%'
 name|'uuid'
 op|')'
@@ -2978,7 +2978,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/servers/%s/ips'"
+string|"'/fake/servers/%s/ips'"
 op|'%'
 name|'FAKE_UUID'
 op|')'
@@ -3117,7 +3117,7 @@ newline|'\n'
 indent|'        '
 name|'url'
 op|'='
-string|"'/v2/fake/servers/%s/ips/network_0'"
+string|"'/fake/servers/%s/ips/network_0'"
 op|'%'
 name|'FAKE_UUID'
 newline|'\n'
@@ -3225,7 +3225,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/servers/%s/ips'"
+string|"'/fake/servers/%s/ips'"
 op|'%'
 name|'server_id'
 op|')'
@@ -3286,7 +3286,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/servers'"
+string|"'/fake/servers'"
 op|')'
 newline|'\n'
 name|'res_dict'
@@ -3339,7 +3339,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/servers?reservation_id=foo'"
+string|"'/fake/servers?reservation_id=foo'"
 op|')'
 newline|'\n'
 name|'res_dict'
@@ -3412,7 +3412,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/servers/detail?'"
+string|"'/fake/servers/detail?'"
 nl|'\n'
 string|"'reservation_id=foo'"
 op|')'
@@ -3487,7 +3487,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/servers/detail?'"
+string|"'/fake/servers/detail?'"
 nl|'\n'
 string|"'reservation_id=foo'"
 op|')'
@@ -3562,7 +3562,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/servers'"
+string|"'/fake/servers'"
 op|')'
 newline|'\n'
 name|'res_dict'
@@ -3738,7 +3738,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/servers?limit=3'"
+string|"'/fake/servers?limit=3'"
 op|')'
 newline|'\n'
 name|'res_dict'
@@ -3911,7 +3911,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/servers?limit=aaa'"
+string|"'/fake/servers?limit=aaa'"
 op|')'
 newline|'\n'
 name|'self'
@@ -3968,7 +3968,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/servers/detail'"
+string|"'/fake/servers/detail'"
 op|')'
 newline|'\n'
 name|'res_dict'
@@ -4021,7 +4021,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/servers/detail?limit=3'"
+string|"'/fake/servers/detail?limit=3'"
 op|')'
 newline|'\n'
 name|'res'
@@ -4194,7 +4194,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/servers/detail?limit=aaa'"
+string|"'/fake/servers/detail?limit=aaa'"
 op|')'
 newline|'\n'
 name|'self'
@@ -4236,7 +4236,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/servers/detail'"
+string|"'/fake/servers/detail'"
 nl|'\n'
 string|"'?limit=3&blah=2:t'"
 op|')'
@@ -4418,7 +4418,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/servers?limit=30'"
+string|"'/fake/servers?limit=30'"
 op|')'
 newline|'\n'
 name|'res_dict'
@@ -4461,7 +4461,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/servers?limit=asdf'"
+string|"'/fake/servers?limit=asdf'"
 op|')'
 newline|'\n'
 name|'self'
@@ -4641,7 +4641,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/servers?limit=2&marker=asdf'"
+string|"'/fake/servers?limit=2&marker=asdf'"
 op|')'
 newline|'\n'
 name|'self'
@@ -4760,7 +4760,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/servers?unknownoption=whee'"
+string|"'/fake/servers?unknownoption=whee'"
 op|')'
 newline|'\n'
 name|'servers'
@@ -4931,7 +4931,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/servers?image=12345'"
+string|"'/fake/servers?image=12345'"
 op|')'
 newline|'\n'
 name|'servers'
@@ -5085,7 +5085,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/servers?tenant_id=fake'"
+string|"'/fake/servers?tenant_id=fake'"
 op|','
 nl|'\n'
 name|'use_admin_context'
@@ -5211,7 +5211,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/servers'"
+string|"'/fake/servers'"
 op|','
 nl|'\n'
 name|'use_admin_context'
@@ -5377,7 +5377,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/servers?all_tenants=1'"
+string|"'/fake/servers?all_tenants=1'"
 op|')'
 newline|'\n'
 name|'res'
@@ -5527,7 +5527,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/servers?all_tenants=1'"
+string|"'/fake/servers?all_tenants=1'"
 op|')'
 newline|'\n'
 name|'self'
@@ -5676,7 +5676,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/servers?flavor=12345'"
+string|"'/fake/servers?flavor=12345'"
 op|')'
 newline|'\n'
 name|'servers'
@@ -5740,7 +5740,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/servers?flavor=abcde'"
+string|"'/fake/servers?flavor=abcde'"
 op|')'
 newline|'\n'
 name|'servers'
@@ -5898,7 +5898,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/servers?status=active'"
+string|"'/fake/servers?status=active'"
 op|')'
 newline|'\n'
 name|'servers'
@@ -5964,7 +5964,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/servers?status=baloney'"
+string|"'/fake/servers?status=baloney'"
 op|','
 nl|'\n'
 name|'use_admin_context'
@@ -6017,7 +6017,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/servers?status=deleted'"
+string|"'/fake/servers?status=deleted'"
 op|','
 nl|'\n'
 name|'use_admin_context'
@@ -6163,7 +6163,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/servers?status=deleted'"
+string|"'/fake/servers?status=deleted'"
 op|','
 nl|'\n'
 name|'use_admin_context'
@@ -6339,7 +6339,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/servers?name=whee.*'"
+string|"'/fake/servers?name=whee.*'"
 op|')'
 newline|'\n'
 name|'servers'
@@ -6552,7 +6552,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/servers?%s'"
+string|"'/fake/servers?%s'"
 op|'%'
 name|'params'
 op|')'
@@ -6622,7 +6622,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/servers?%s'"
+string|"'/fake/servers?%s'"
 op|'%'
 name|'params'
 op|')'
@@ -6799,7 +6799,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/servers?%s'"
+string|"'/fake/servers?%s'"
 op|'%'
 name|'query_str'
 op|')'
@@ -7003,7 +7003,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/servers?%s'"
+string|"'/fake/servers?%s'"
 op|'%'
 name|'query_str'
 op|','
@@ -7183,7 +7183,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/servers?ip=10\\..*'"
+string|"'/fake/servers?ip=10\\..*'"
 op|')'
 newline|'\n'
 name|'servers'
@@ -7356,7 +7356,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/servers?ip6=ffff.*'"
+string|"'/fake/servers?ip6=ffff.*'"
 op|','
 nl|'\n'
 name|'use_admin_context'
@@ -7456,7 +7456,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/servers/%s'"
+string|"'/fake/servers/%s'"
 op|'%'
 name|'FAKE_UUID'
 op|')'
@@ -7604,7 +7604,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/servers/%s'"
+string|"'/fake/servers/%s'"
 op|'%'
 name|'FAKE_UUID'
 op|')'
@@ -7672,7 +7672,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/servers/%s'"
+string|"'/fake/servers/%s'"
 op|'%'
 name|'FAKE_UUID'
 op|')'
@@ -7761,7 +7761,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/servers/%s'"
+string|"'/fake/servers/%s'"
 op|'%'
 name|'FAKE_UUID'
 op|')'
@@ -7887,7 +7887,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/servers/%s'"
+string|"'/fake/servers/%s'"
 op|'%'
 name|'FAKE_UUID'
 op|')'
@@ -7993,7 +7993,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/servers/%s'"
+string|"'/fake/servers/%s'"
 op|'%'
 name|'FAKE_UUID'
 op|')'
@@ -8119,7 +8119,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/servers/%s'"
+string|"'/fake/servers/%s'"
 op|'%'
 name|'FAKE_UUID'
 op|')'
@@ -8223,7 +8223,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/servers/%s'"
+string|"'/fake/servers/%s'"
 op|'%'
 name|'FAKE_UUID'
 op|')'
@@ -8349,7 +8349,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/servers/%s'"
+string|"'/fake/servers/%s'"
 op|'%'
 name|'FAKE_UUID'
 op|')'
@@ -8475,7 +8475,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/servers/%s'"
+string|"'/fake/servers/%s'"
 op|'%'
 name|'FAKE_UUID'
 op|')'
@@ -8601,7 +8601,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/servers/%s'"
+string|"'/fake/servers/%s'"
 op|'%'
 name|'FAKE_UUID'
 op|')'
@@ -8705,7 +8705,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/servers/%s'"
+string|"'/fake/servers/%s'"
 op|'%'
 name|'FAKE_UUID'
 op|')'
@@ -8831,7 +8831,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/servers/%s'"
+string|"'/fake/servers/%s'"
 op|'%'
 name|'FAKE_UUID'
 op|')'
@@ -8936,7 +8936,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/servers/%s'"
+string|"'/fake/servers/%s'"
 op|'%'
 name|'FAKE_UUID'
 op|')'
@@ -9113,7 +9113,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/servers/%s'"
+string|"'/fake/servers/%s'"
 op|'%'
 name|'FAKE_UUID'
 op|')'
@@ -9246,7 +9246,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/servers/%s'"
+string|"'/fake/servers/%s'"
 op|'%'
 name|'FAKE_UUID'
 op|')'
@@ -9369,7 +9369,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/servers/%s'"
+string|"'/fake/servers/%s'"
 op|'%'
 name|'FAKE_UUID'
 op|')'
@@ -9568,7 +9568,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/servers/a/action'"
+string|"'/fake/servers/a/action'"
 op|')'
 newline|'\n'
 name|'req'
@@ -9756,7 +9756,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/servers/a/action'"
+string|"'/fake/servers/a/action'"
 op|')'
 newline|'\n'
 name|'req'
@@ -9948,7 +9948,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/servers/a/action'"
+string|"'/fake/servers/a/action'"
 op|')'
 newline|'\n'
 name|'req'
@@ -10140,7 +10140,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/servers/a/action'"
+string|"'/fake/servers/a/action'"
 op|')'
 newline|'\n'
 name|'req'
@@ -10341,7 +10341,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/servers/a/action'"
+string|"'/fake/servers/a/action'"
 op|')'
 newline|'\n'
 name|'req'
@@ -10542,7 +10542,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/servers/a/action'"
+string|"'/fake/servers/a/action'"
 op|')'
 newline|'\n'
 name|'req'
@@ -10744,7 +10744,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/servers/a/action'"
+string|"'/fake/servers/a/action'"
 op|')'
 newline|'\n'
 name|'req'
@@ -10926,7 +10926,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/servers/a/action'"
+string|"'/fake/servers/a/action'"
 op|')'
 newline|'\n'
 name|'req'
@@ -11114,7 +11114,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/servers/a/action'"
+string|"'/fake/servers/a/action'"
 op|')'
 newline|'\n'
 name|'req'
@@ -11252,7 +11252,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/servers/detail'"
+string|"'/fake/servers/detail'"
 op|')'
 newline|'\n'
 name|'res_dict'
@@ -11480,7 +11480,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/servers/detail'"
+string|"'/fake/servers/detail'"
 op|')'
 newline|'\n'
 name|'res_dict'
@@ -11654,7 +11654,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/servers/%s'"
+string|"'/fake/servers/%s'"
 op|'%'
 name|'uuid'
 op|')'
@@ -11834,7 +11834,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/servers/%s'"
+string|"'/fake/servers/%s'"
 op|'%'
 name|'FAKE_UUID'
 op|')'
@@ -11929,7 +11929,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/servers/%s'"
+string|"'/fake/servers/%s'"
 op|'%'
 name|'FAKE_UUID'
 op|')'
@@ -12169,7 +12169,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/servers/%s'"
+string|"'/fake/servers/%s'"
 op|'%'
 name|'FAKE_UUID'
 op|')'
@@ -12391,7 +12391,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/servers/1234/action'"
+string|"'/fake/servers/1234/action'"
 op|')'
 newline|'\n'
 name|'self'
@@ -12630,7 +12630,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/servers/1234/action'"
+string|"'/fake/servers/1234/action'"
 op|')'
 newline|'\n'
 name|'self'
@@ -12821,7 +12821,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/servers/1234/action'"
+string|"'/fake/servers/1234/action'"
 op|')'
 newline|'\n'
 name|'self'
@@ -13833,7 +13833,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/servers'"
+string|"'/fake/servers'"
 op|')'
 newline|'\n'
 name|'req'
@@ -13960,7 +13960,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/servers'"
+string|"'/fake/servers'"
 op|')'
 newline|'\n'
 name|'req'
@@ -14088,7 +14088,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/servers'"
+string|"'/fake/servers'"
 op|')'
 newline|'\n'
 name|'req'
@@ -14218,7 +14218,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/servers'"
+string|"'/fake/servers'"
 op|')'
 newline|'\n'
 name|'req'
@@ -14432,7 +14432,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/servers'"
+string|"'/fake/servers'"
 op|')'
 newline|'\n'
 name|'req'
@@ -14589,7 +14589,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/servers'"
+string|"'/fake/servers'"
 op|')'
 newline|'\n'
 name|'req'
@@ -14715,7 +14715,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/servers'"
+string|"'/fake/servers'"
 op|')'
 newline|'\n'
 name|'req'
@@ -14840,7 +14840,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/servers'"
+string|"'/fake/servers'"
 op|')'
 newline|'\n'
 name|'req'
@@ -14965,7 +14965,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/servers'"
+string|"'/fake/servers'"
 op|')'
 newline|'\n'
 name|'req'
@@ -15111,7 +15111,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/servers'"
+string|"'/fake/servers'"
 op|')'
 newline|'\n'
 name|'req'
@@ -15283,7 +15283,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/servers'"
+string|"'/fake/servers'"
 op|')'
 newline|'\n'
 name|'req'
@@ -15451,7 +15451,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/servers'"
+string|"'/fake/servers'"
 op|')'
 newline|'\n'
 name|'req'
@@ -15951,7 +15951,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/servers'"
+string|"'/fake/servers'"
 op|')'
 newline|'\n'
 name|'req'
@@ -16093,7 +16093,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/servers'"
+string|"'/fake/servers'"
 op|')'
 newline|'\n'
 name|'req'
@@ -16206,7 +16206,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/servers'"
+string|"'/fake/servers'"
 op|')'
 newline|'\n'
 name|'req'
@@ -16332,7 +16332,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/servers'"
+string|"'/fake/servers'"
 op|')'
 newline|'\n'
 name|'req'
@@ -16490,7 +16490,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/servers'"
+string|"'/fake/servers'"
 op|')'
 newline|'\n'
 name|'req'
@@ -20057,7 +20057,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/servers'"
+string|"'/fake/servers'"
 op|')'
 newline|'\n'
 name|'req'
@@ -20261,7 +20261,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/servers'"
+string|"'/fake/servers'"
 op|')'
 newline|'\n'
 name|'req'
@@ -20453,7 +20453,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/servers'"
+string|"'/fake/servers'"
 op|')'
 newline|'\n'
 name|'req'
@@ -20625,7 +20625,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/servers'"
+string|"'/fake/servers'"
 op|')'
 newline|'\n'
 name|'req'
@@ -20782,7 +20782,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/servers'"
+string|"'/fake/servers'"
 op|')'
 newline|'\n'
 name|'req'
@@ -20937,7 +20937,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/servers'"
+string|"'/fake/servers'"
 op|')'
 newline|'\n'
 name|'req'
@@ -21121,7 +21121,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/servers'"
+string|"'/fake/servers'"
 op|')'
 newline|'\n'
 name|'req'
@@ -21285,7 +21285,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/servers'"
+string|"'/fake/servers'"
 op|')'
 newline|'\n'
 name|'req'
@@ -21424,7 +21424,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/servers'"
+string|"'/fake/servers'"
 op|')'
 newline|'\n'
 name|'req'
@@ -21563,7 +21563,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/servers'"
+string|"'/fake/servers'"
 op|')'
 newline|'\n'
 name|'req'
@@ -21698,7 +21698,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/servers'"
+string|"'/fake/servers'"
 op|')'
 newline|'\n'
 name|'req'
@@ -21805,7 +21805,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/servers'"
+string|"'/fake/servers'"
 op|')'
 newline|'\n'
 name|'req'
@@ -21912,7 +21912,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/servers'"
+string|"'/fake/servers'"
 op|')'
 newline|'\n'
 name|'req'
@@ -22051,7 +22051,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/servers'"
+string|"'/fake/servers'"
 op|')'
 newline|'\n'
 name|'req'
@@ -22173,7 +22173,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/servers'"
+string|"'/fake/servers'"
 op|')'
 newline|'\n'
 name|'req'
@@ -22294,7 +22294,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/servers'"
+string|"'/fake/servers'"
 op|')'
 newline|'\n'
 name|'req'
@@ -22442,7 +22442,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/servers'"
+string|"'/fake/servers'"
 op|')'
 newline|'\n'
 name|'req'
@@ -22602,7 +22602,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/servers'"
+string|"'/fake/servers'"
 op|')'
 newline|'\n'
 name|'req'
@@ -22762,7 +22762,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/servers'"
+string|"'/fake/servers'"
 op|')'
 newline|'\n'
 name|'req'
@@ -22905,7 +22905,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/servers'"
+string|"'/fake/servers'"
 op|')'
 newline|'\n'
 name|'req'
@@ -23135,7 +23135,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/servers'"
+string|"'/fake/servers'"
 op|')'
 newline|'\n'
 name|'req'
@@ -23243,7 +23243,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/servers'"
+string|"'/fake/servers'"
 op|')'
 newline|'\n'
 name|'req'
@@ -23364,7 +23364,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/servers'"
+string|"'/fake/servers'"
 op|')'
 newline|'\n'
 name|'req'
@@ -23500,7 +23500,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/servers'"
+string|"'/fake/servers'"
 op|')'
 newline|'\n'
 name|'req'
@@ -23631,7 +23631,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/servers'"
+string|"'/fake/servers'"
 op|')'
 newline|'\n'
 name|'req'
@@ -23820,7 +23820,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/servers'"
+string|"'/fake/servers'"
 op|')'
 newline|'\n'
 name|'req'
@@ -23984,7 +23984,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/servers'"
+string|"'/fake/servers'"
 op|')'
 newline|'\n'
 name|'req'
@@ -24128,7 +24128,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/servers'"
+string|"'/fake/servers'"
 op|')'
 newline|'\n'
 name|'req'
@@ -27733,7 +27733,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|'"/v2"'
+string|'"/v2/fake"'
 op|')'
 newline|'\n'
 nl|'\n'
@@ -37433,7 +37433,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/servers'"
+string|"'/fake/servers'"
 op|')'
 newline|'\n'
 name|'req'
@@ -37566,7 +37566,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/servers/%s'"
+string|"'/fake/servers/%s'"
 op|'%'
 name|'FAKE_UUID'
 op|')'
