@@ -103,6 +103,11 @@ name|'VIF_TYPE_OVS'
 op|'='
 string|"'ovs'"
 newline|'\n'
+DECL|variable|VIF_TYPE_IVS
+name|'VIF_TYPE_IVS'
+op|'='
+string|"'ivs'"
+newline|'\n'
 DECL|variable|VIF_TYPE_BRIDGE
 name|'VIF_TYPE_BRIDGE'
 op|'='
