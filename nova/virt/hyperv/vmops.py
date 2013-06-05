@@ -901,7 +901,7 @@ name|'base_vhd_size'
 op|'='
 name|'base_vhd_info'
 op|'['
-string|"'MaxInternalSize'"
+string|"'FileSize'"
 op|']'
 newline|'\n'
 name|'root_vhd_size'

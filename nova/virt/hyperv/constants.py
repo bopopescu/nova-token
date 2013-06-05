@@ -267,5 +267,16 @@ name|'DISK_FORMAT_VHDX'
 op|'='
 string|'"VHDX"'
 newline|'\n'
+nl|'\n'
+DECL|variable|VHD_TYPE_FIXED
+name|'VHD_TYPE_FIXED'
+op|'='
+number|'2'
+newline|'\n'
+DECL|variable|VHD_TYPE_DYNAMIC
+name|'VHD_TYPE_DYNAMIC'
+op|'='
+number|'3'
+newline|'\n'
 endmarker|''
 end_unit
