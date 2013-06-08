@@ -616,7 +616,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""Service object for binaries running on hosts.\n\n    A service takes a manager and enables rpc by listening to queues based\n    on topic. It also periodically runs tasks on the manager and reports\n    it state to the database services table."""'
+string|'"""Service object for binaries running on hosts.\n\n    A service takes a manager and enables rpc by listening to queues based\n    on topic. It also periodically runs tasks on the manager and reports\n    it state to the database services table.\n    """'
 newline|'\n'
 nl|'\n'
 DECL|member|__init__

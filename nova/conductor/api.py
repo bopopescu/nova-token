@@ -216,7 +216,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""A local version of the conductor API that does database updates\n    locally instead of via RPC"""'
+string|'"""A local version of the conductor API that does database updates\n    locally instead of via RPC.\n    """'
 newline|'\n'
 nl|'\n'
 DECL|member|__init__

@@ -96,7 +96,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'        '
-string|'"""Check that the capabilities provided by the compute service\n        satisfy the extra specs associated with the instance type"""'
+string|'"""Check that the capabilities provided by the compute service\n        satisfy the extra specs associated with the instance type.\n        """'
 newline|'\n'
 name|'if'
 string|"'extra_specs'"
