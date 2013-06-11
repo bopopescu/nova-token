@@ -942,11 +942,9 @@ nl|'\n'
 string|"'iface_id'"
 op|':'
 name|'vif'
-op|'.'
-name|'get_meta'
-op|'('
-string|"'iface_id'"
-op|')'
+op|'['
+string|"'id'"
+op|']'
 op|','
 nl|'\n'
 op|'}'
