@@ -2777,11 +2777,6 @@ name|'context'
 op|','
 name|'instance'
 op|'['
-string|"'id'"
-op|']'
-op|','
-name|'instance'
-op|'['
 string|"'uuid'"
 op|']'
 op|','

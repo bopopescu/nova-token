@@ -17220,7 +17220,7 @@ op|','
 nl|'\n'
 name|'instance'
 op|'['
-string|"'id'"
+string|"'uuid'"
 op|']'
 op|')'
 newline|'\n'

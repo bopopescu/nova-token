@@ -2097,7 +2097,7 @@ indent|'        '
 name|'fake_instance'
 op|'='
 op|'{'
-string|"'id'"
+string|"'uuid'"
 op|':'
 string|"'fake-instance'"
 op|'}'
@@ -2124,7 +2124,7 @@ name|'context'
 op|','
 name|'fake_instance'
 op|'['
-string|"'id'"
+string|"'uuid'"
 op|']'
 op|')'
 op|'.'
