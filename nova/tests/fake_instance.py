@@ -63,6 +63,11 @@ op|':'
 number|'1'
 op|','
 nl|'\n'
+string|"'deleted'"
+op|':'
+name|'False'
+op|','
+nl|'\n'
 string|"'uuid'"
 op|':'
 name|'str'
