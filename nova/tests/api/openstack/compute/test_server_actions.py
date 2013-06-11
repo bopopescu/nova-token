@@ -5971,9 +5971,14 @@ string|"'a'"
 op|')'
 op|','
 nl|'\n'
-name|'virtual_name'
+name|'source_type'
 op|'='
-name|'None'
+string|"'snapshot'"
+op|','
+nl|'\n'
+name|'destination_type'
+op|'='
+string|"'volume'"
 op|','
 nl|'\n'
 name|'volume_size'
