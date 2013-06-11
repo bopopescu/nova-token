@@ -90,7 +90,7 @@ string|"'instance_type'"
 op|':'
 name|'flavors'
 op|'.'
-name|'extract_instance_type'
+name|'extract_flavor'
 op|'('
 name|'instance'
 op|')'
