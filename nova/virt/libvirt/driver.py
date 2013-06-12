@@ -10668,7 +10668,7 @@ op|')'
 op|','
 string|"''"
 op|','
-number|'007'
+number|'7'
 op|')'
 newline|'\n'
 nl|'\n'
