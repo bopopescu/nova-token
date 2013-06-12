@@ -4462,6 +4462,15 @@ op|','
 string|"'none'"
 op|')'
 newline|'\n'
+name|'self'
+op|'.'
+name|'assertPublic'
+op|'('
+name|'None'
+op|','
+string|"'None'"
+op|')'
+newline|'\n'
 nl|'\n'
 DECL|member|test_other
 dedent|''
