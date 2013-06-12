@@ -24714,6 +24714,11 @@ op|'.'
 name|'SOFT_DELETED'
 op|','
 nl|'\n'
+string|"'task_state'"
+op|':'
+name|'None'
+op|','
+nl|'\n'
 string|"'host'"
 op|':'
 name|'self'
