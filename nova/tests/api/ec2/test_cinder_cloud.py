@@ -4196,7 +4196,7 @@ string|"'/dev/sdb1'"
 op|','
 string|"'snapshot_id'"
 op|':'
-number|'01234567'
+number|'1234567'
 op|'}'
 op|','
 nl|'\n'
@@ -4207,7 +4207,7 @@ string|"'/dev/sdb2'"
 op|','
 string|"'volume_id'"
 op|':'
-number|'01234567'
+number|'1234567'
 op|'}'
 op|','
 nl|'\n'
@@ -4356,7 +4356,7 @@ op|','
 nl|'\n'
 string|"'snapshot_id'"
 op|':'
-number|'01234567'
+number|'1234567'
 op|'}'
 op|']'
 newline|'\n'
