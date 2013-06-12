@@ -430,7 +430,7 @@ op|','
 nl|'\n'
 name|'version'
 op|'='
-number|'1.8'
+string|"'1.8'"
 op|')'
 newline|'\n'
 nl|'\n'
