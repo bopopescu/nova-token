@@ -615,7 +615,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""host1: free_ram_mb=1024-512-512=0, free_disk_gb=1024-512-512=0\n       host2: free_ram_mb=2048-512=1536  free_disk_gb=2048-512=1536\n       host3: free_ram_mb=4096-1024=3072  free_disk_gb=4096-1024=3072\n       host4: free_ram_mb=8192  free_disk_gb=8192"""'
+string|'"""host1: free_ram_mb=1024-512-512=0, free_disk_gb=1024-512-512=0\n       host2: free_ram_mb=2048-512=1536  free_disk_gb=2048-512=1536\n       host3: free_ram_mb=4096-1024=3072  free_disk_gb=4096-1024=3072\n       host4: free_ram_mb=8192  free_disk_gb=8192\n    """'
 newline|'\n'
 nl|'\n'
 DECL|member|__init__

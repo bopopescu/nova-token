@@ -6798,7 +6798,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""Test cases for base scheduler driver class methods\n       that can\'t will fail if the driver is changed"""'
+string|'"""Test cases for base scheduler driver class methods\n       that can\'t will fail if the driver is changed.\n    """'
 newline|'\n'
 nl|'\n'
 DECL|member|test_unimplemented_schedule_run_instance

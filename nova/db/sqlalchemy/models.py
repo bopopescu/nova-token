@@ -611,7 +611,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""Stats related to the current workload of a compute host that are\n    intended to aid in making scheduler decisions."""'
+string|'"""Stats related to the current workload of a compute host that are\n    intended to aid in making scheduler decisions.\n    """'
 newline|'\n'
 DECL|variable|__tablename__
 name|'__tablename__'

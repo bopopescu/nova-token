@@ -4717,7 +4717,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'        '
-string|'"""Wraps the real HTTPConnection class so that when you instantiate\n        the class you might instead get a fake instance."""'
+string|'"""Wraps the real HTTPConnection class so that when you instantiate\n        the class you might instead get a fake instance.\n        """'
 newline|'\n'
 nl|'\n'
 DECL|member|__init__

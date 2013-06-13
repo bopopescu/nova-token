@@ -5122,7 +5122,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""Scality SOFS Nova driver. Provide hypervisors with access\n    to sparse files on SOFS. """'
+string|'"""Scality SOFS Nova driver. Provide hypervisors with access\n    to sparse files on SOFS.\n    """'
 newline|'\n'
 nl|'\n'
 DECL|member|__init__

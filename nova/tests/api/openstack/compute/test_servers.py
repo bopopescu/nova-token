@@ -1626,7 +1626,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'        '
-string|'"""Create two servers with the same host and different\n           project_ids and check that the hostId\'s are unique"""'
+string|'"""Create two servers with the same host and different\n           project_ids and check that the hostId\'s are unique.\n        """'
 newline|'\n'
 DECL|function|return_instance_with_host
 name|'def'

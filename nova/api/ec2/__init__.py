@@ -828,7 +828,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""Lockout for x minutes on y failed auths in a z minute period.\n\n    x = lockout_timeout flag\n    y = lockout_window flag\n    z = lockout_attempts flag\n\n    Uses memcached if lockout_memcached_servers flag is set, otherwise it\n    uses a very simple in-process cache. Due to the simplicity of\n    the implementation, the timeout window is started with the first\n    failed request, so it will block if there are x failed logins within\n    that period.\n\n    There is a possible race condition where simultaneous requests could\n    sneak in before the lockout hits, but this is extremely rare and would\n    only result in a couple of extra failed attempts."""'
+string|'"""Lockout for x minutes on y failed auths in a z minute period.\n\n    x = lockout_timeout flag\n    y = lockout_window flag\n    z = lockout_attempts flag\n\n    Uses memcached if lockout_memcached_servers flag is set, otherwise it\n    uses a very simple in-process cache. Due to the simplicity of\n    the implementation, the timeout window is started with the first\n    failed request, so it will block if there are x failed logins within\n    that period.\n\n    There is a possible race condition where simultaneous requests could\n    sneak in before the lockout hits, but this is extremely rare and would\n    only result in a couple of extra failed attempts.\n    """'
 newline|'\n'
 nl|'\n'
 DECL|member|__init__

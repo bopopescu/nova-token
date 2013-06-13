@@ -609,7 +609,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""Always returns true\n        xenapi fake driver does not create vmrefs for snapshots """'
+string|'"""Always returns true\n\n        xenapi fake driver does not create vmrefs for snapshots.\n    """'
 newline|'\n'
 nl|'\n'
 DECL|function|f
