@@ -210,6 +210,30 @@ string|"'Type of cell: api or compute'"
 op|')'
 op|','
 nl|'\n'
+name|'cfg'
+op|'.'
+name|'IntOpt'
+op|'('
+string|'"mute_child_interval"'
+op|','
+nl|'\n'
+DECL|variable|default
+name|'default'
+op|'='
+number|'300'
+op|','
+nl|'\n'
+DECL|variable|help
+name|'help'
+op|'='
+string|"'Number of seconds after which a lack of capability and '"
+nl|'\n'
+string|"'capacity updates signals the child cell is to be '"
+nl|'\n'
+string|"'treated as a mute.'"
+op|')'
+op|','
+nl|'\n'
 op|']'
 newline|'\n'
 nl|'\n'
