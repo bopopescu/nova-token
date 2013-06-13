@@ -621,8 +621,6 @@ op|'='
 string|"'server'"
 op|')'
 newline|'\n'
-name|'elem'
-op|'='
 name|'xmlutil'
 op|'.'
 name|'SubTemplateElement'
