@@ -83,6 +83,14 @@ op|'='
 string|"'image_backup'"
 newline|'\n'
 nl|'\n'
+comment|'# possible task states during live_snapshot()'
+nl|'\n'
+DECL|variable|IMAGE_LIVE_SNAPSHOT
+name|'IMAGE_LIVE_SNAPSHOT'
+op|'='
+string|"'image_live_snapshot'"
+newline|'\n'
+nl|'\n'
 comment|'# possible task states during set_admin_password()'
 nl|'\n'
 DECL|variable|UPDATING_PASSWORD
