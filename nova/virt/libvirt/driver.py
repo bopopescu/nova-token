@@ -777,6 +777,9 @@ nl|'\n'
 string|"'iscsi=nova.virt.libvirt.volume.LibvirtISCSIVolumeDriver'"
 op|','
 nl|'\n'
+string|"'iser=nova.virt.libvirt.volume.LibvirtISERVolumeDriver'"
+op|','
+nl|'\n'
 string|"'local=nova.virt.libvirt.volume.LibvirtVolumeDriver'"
 op|','
 nl|'\n'
