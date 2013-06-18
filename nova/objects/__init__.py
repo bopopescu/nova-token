@@ -46,6 +46,11 @@ op|'('
 string|"'nova.objects.instance'"
 op|')'
 newline|'\n'
+name|'__import__'
+op|'('
+string|"'nova.objects.instance_info_cache'"
+op|')'
+newline|'\n'
 dedent|''
 endmarker|''
 end_unit
