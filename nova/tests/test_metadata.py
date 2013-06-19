@@ -312,6 +312,11 @@ op|':'
 string|"'my_displayname'"
 op|','
 nl|'\n'
+string|"'metadata'"
+op|':'
+op|'{'
+op|'}'
+nl|'\n'
 op|'}'
 op|','
 nl|'\n'
