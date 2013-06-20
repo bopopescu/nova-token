@@ -621,8 +621,6 @@ name|'get_by_uuid'
 op|'('
 name|'ctxt'
 op|','
-name|'uuid'
-op|'='
 string|"'uuid'"
 op|')'
 newline|'\n'
