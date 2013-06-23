@@ -27,7 +27,7 @@ comment|'#    WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. S
 nl|'\n'
 comment|'#    License for the specific language governing permissions and limitations'
 nl|'\n'
-comment|'#    under the License'
+comment|'#    under the License.'
 nl|'\n'
 nl|'\n'
 name|'from'
