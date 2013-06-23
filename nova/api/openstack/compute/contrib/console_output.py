@@ -380,7 +380,7 @@ name|'re'
 op|'.'
 name|'compile'
 op|'('
-string|"'[\\x00-\\x08\\x0B-\\x0C\\x0E-\\x1F-\\x0D]'"
+string|"'[\\x00-\\x08\\x0B-\\x1F]'"
 op|')'
 newline|'\n'
 name|'output'
