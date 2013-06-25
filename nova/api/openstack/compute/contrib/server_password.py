@@ -167,7 +167,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""The flavor access API controller for the OpenStack API."""'
+string|'"""The Server Password API controller for the OpenStack API."""'
 newline|'\n'
 DECL|member|__init__
 name|'def'
