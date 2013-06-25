@@ -113,7 +113,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""Service object for binaries running on hosts.\n\n    A service enables rpc by listening to queues based on topic and host."""'
+string|'"""Service object for binaries running on hosts.\n\n    A service enables rpc by listening to queues based on topic and host.\n    """'
 newline|'\n'
 DECL|member|__init__
 name|'def'
