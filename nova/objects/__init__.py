@@ -51,6 +51,11 @@ op|'('
 string|"'nova.objects.instance_info_cache'"
 op|')'
 newline|'\n'
+name|'__import__'
+op|'('
+string|"'nova.objects.security_group'"
+op|')'
+newline|'\n'
 dedent|''
 endmarker|''
 end_unit
