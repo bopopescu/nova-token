@@ -102,7 +102,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'whether to rate limit the api'"
+string|"'whether to use per-user rate limiting for the api.'"
 op|')'
 op|','
 nl|'\n'
