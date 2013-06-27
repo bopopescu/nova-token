@@ -50,7 +50,13 @@ name|'utils'
 op|'.'
 name|'LazyPluggable'
 op|'('
-string|"'db_backend'"
+string|"'backend'"
+op|','
+nl|'\n'
+DECL|variable|config_group
+name|'config_group'
+op|'='
+string|"'database'"
 op|','
 nl|'\n'
 DECL|variable|sqlalchemy

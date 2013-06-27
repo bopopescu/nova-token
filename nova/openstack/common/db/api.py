@@ -31,7 +31,7 @@ nl|'\n'
 comment|'#    under the License.'
 nl|'\n'
 nl|'\n'
-string|'"""Multiple DB API backend support.\n\nSupported configuration options:\n\n`db_backend`: DB backend name or full module path to DB backend module.\n`dbapi_use_tpool`: Enable thread pooling of DB API calls.\n\nA DB backend module should implement a method named \'get_backend\' which\ntakes no arguments.  The method can return any object that implements DB\nAPI methods.\n\n*NOTE*: There are bugs in eventlet when using tpool combined with\nthreading locks. The python logging module happens to use such locks.  To\nwork around this issue, be sure to specify thread=False with\neventlet.monkey_patch().\n\nA bug for eventlet has been filed here:\n\nhttps://bitbucket.org/eventlet/eventlet/issue/137/\n"""'
+string|'"""Multiple DB API backend support.\n\nSupported configuration options:\n\nThe following two parameters are in the \'database\' group:\n`backend`: DB backend name or full module path to DB backend module.\n`use_tpool`: Enable thread pooling of DB API calls.\n\nA DB backend module should implement a method named \'get_backend\' which\ntakes no arguments.  The method can return any object that implements DB\nAPI methods.\n\n*NOTE*: There are bugs in eventlet when using tpool combined with\nthreading locks. The python logging module happens to use such locks.  To\nwork around this issue, be sure to specify thread=False with\neventlet.monkey_patch().\n\nA bug for eventlet has been filed here:\n\nhttps://bitbucket.org/eventlet/eventlet/issue/137/\n"""'
 newline|'\n'
 name|'import'
 name|'functools'
@@ -74,13 +74,25 @@ name|'cfg'
 op|'.'
 name|'StrOpt'
 op|'('
-string|"'db_backend'"
+string|"'backend'"
 op|','
 nl|'\n'
 DECL|variable|default
 name|'default'
 op|'='
 string|"'sqlalchemy'"
+op|','
+nl|'\n'
+DECL|variable|deprecated_name
+name|'deprecated_name'
+op|'='
+string|"'db_backend'"
+op|','
+nl|'\n'
+DECL|variable|deprecated_group
+name|'deprecated_group'
+op|'='
+string|"'DEFAULT'"
 op|','
 nl|'\n'
 DECL|variable|help
@@ -94,13 +106,25 @@ name|'cfg'
 op|'.'
 name|'BoolOpt'
 op|'('
-string|"'dbapi_use_tpool'"
+string|"'use_tpool'"
 op|','
 nl|'\n'
 DECL|variable|default
 name|'default'
 op|'='
 name|'False'
+op|','
+nl|'\n'
+DECL|variable|deprecated_name
+name|'deprecated_name'
+op|'='
+string|"'dbapi_use_tpool'"
+op|','
+nl|'\n'
+DECL|variable|deprecated_group
+name|'deprecated_group'
+op|'='
+string|"'DEFAULT'"
 op|','
 nl|'\n'
 DECL|variable|help
@@ -126,6 +150,8 @@ op|'.'
 name|'register_opts'
 op|'('
 name|'db_opts'
+op|','
+string|"'database'"
 op|')'
 newline|'\n'
 nl|'\n'
@@ -219,7 +245,9 @@ name|'backend_name'
 op|'='
 name|'CONF'
 op|'.'
-name|'db_backend'
+name|'database'
+op|'.'
+name|'backend'
 newline|'\n'
 name|'self'
 op|'.'
@@ -227,7 +255,9 @@ name|'__use_tpool'
 op|'='
 name|'CONF'
 op|'.'
-name|'dbapi_use_tpool'
+name|'database'
+op|'.'
+name|'use_tpool'
 newline|'\n'
 name|'if'
 name|'self'
