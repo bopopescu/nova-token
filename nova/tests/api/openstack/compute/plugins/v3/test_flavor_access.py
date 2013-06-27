@@ -52,7 +52,9 @@ name|'openstack'
 op|'.'
 name|'compute'
 op|'.'
-name|'contrib'
+name|'plugins'
+op|'.'
+name|'v3'
 name|'import'
 name|'flavor_access'
 newline|'\n'
@@ -852,7 +854,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/flavors/os-flavor-access'"
+string|"'/v3/fake/flavors/os-flavor-access'"
 op|','
 nl|'\n'
 name|'use_admin_context'
@@ -987,7 +989,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/flavors'"
+string|"'/v3/fake/flavors'"
 op|','
 nl|'\n'
 name|'use_admin_context'
@@ -1077,7 +1079,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/flavors'"
+string|"'/v3/fake/flavors'"
 op|','
 nl|'\n'
 name|'use_admin_context'
@@ -1161,7 +1163,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/flavors?is_public=true'"
+string|"'/v3/fake/flavors?is_public=true'"
 op|','
 nl|'\n'
 name|'use_admin_context'
@@ -1234,7 +1236,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/flavors?is_public=false'"
+string|"'/v3/fake/flavors?is_public=false'"
 op|','
 nl|'\n'
 name|'use_admin_context'
@@ -1307,7 +1309,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/flavors?is_public=false'"
+string|"'/v3/fake/flavors?is_public=false'"
 op|','
 nl|'\n'
 name|'use_admin_context'
@@ -1404,7 +1406,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/flavors?is_public=none'"
+string|"'/v3/fake/flavors?is_public=none'"
 op|','
 nl|'\n'
 name|'use_admin_context'
@@ -1477,7 +1479,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/flavors'"
+string|"'/v3/fake/flavors'"
 op|','
 nl|'\n'
 name|'use_admin_context'
@@ -1550,7 +1552,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/flavors?is_public=true'"
+string|"'/v3/fake/flavors?is_public=true'"
 op|','
 nl|'\n'
 name|'use_admin_context'
@@ -1623,7 +1625,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/flavors?is_public=false'"
+string|"'/v3/fake/flavors?is_public=false'"
 op|','
 nl|'\n'
 name|'use_admin_context'
@@ -1696,7 +1698,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/flavors?is_public=none'"
+string|"'/v3/fake/flavors?is_public=none'"
 op|','
 nl|'\n'
 name|'use_admin_context'
@@ -2047,7 +2049,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/flavors/2/action'"
+string|"'/v3/fake/flavors/2/action'"
 op|','
 nl|'\n'
 name|'use_admin_context'
@@ -2155,7 +2157,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/flavors/2/action'"
+string|"'/v3/fake/flavors/2/action'"
 op|','
 nl|'\n'
 name|'use_admin_context'
@@ -2264,7 +2266,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/flavors/2/action'"
+string|"'/v3/fake/flavors/2/action'"
 op|','
 nl|'\n'
 name|'use_admin_context'
