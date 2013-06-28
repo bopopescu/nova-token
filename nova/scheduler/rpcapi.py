@@ -156,7 +156,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|"'''Client side of the scheduler rpc API.\n\n    API version history:\n\n        1.0 - Initial version.\n        1.1 - Changes to prep_resize():\n                - remove instance_uuid, add instance\n                - remove instance_type_id, add instance_type\n                - remove topic, it was unused\n        1.2 - Remove topic from run_instance, it was unused\n        1.3 - Remove instance_id, add instance to live_migration\n        1.4 - Remove update_db from prep_resize\n        1.5 - Add reservations argument to prep_resize()\n        1.6 - Remove reservations argument to run_instance()\n        1.7 - Add create_volume() method, remove topic from live_migration()\n\n        2.0 - Remove 1.x backwards compat\n        2.1 - Add image_id to create_volume()\n        2.2 - Remove reservations argument to create_volume()\n        2.3 - Remove create_volume()\n        2.4 - Change update_service_capabilities()\n                - accepts a list of capabilities\n        2.5 - Add get_backdoor_port()\n        2.6 - Add select_hosts()\n\n        ... Grizzly supports message version 2.6.  So, any changes to existing\n        methods in 2.x after that point should be done such that they can\n        handle the version_cap being set to 2.6.\n\n        2.7 - Add select_destinations()\n    '''"
+string|"'''Client side of the scheduler rpc API.\n\n    API version history:\n\n        1.0 - Initial version.\n        1.1 - Changes to prep_resize():\n                - remove instance_uuid, add instance\n                - remove instance_type_id, add instance_type\n                - remove topic, it was unused\n        1.2 - Remove topic from run_instance, it was unused\n        1.3 - Remove instance_id, add instance to live_migration\n        1.4 - Remove update_db from prep_resize\n        1.5 - Add reservations argument to prep_resize()\n        1.6 - Remove reservations argument to run_instance()\n        1.7 - Add create_volume() method, remove topic from live_migration()\n\n        2.0 - Remove 1.x backwards compat\n        2.1 - Add image_id to create_volume()\n        2.2 - Remove reservations argument to create_volume()\n        2.3 - Remove create_volume()\n        2.4 - Change update_service_capabilities()\n                - accepts a list of capabilities\n        2.5 - Add get_backdoor_port()\n        2.6 - Add select_hosts()\n\n        ... Grizzly supports message version 2.6.  So, any changes to existing\n        methods in 2.x after that point should be done such that they can\n        handle the version_cap being set to 2.6.\n\n        2.7 - Add select_destinations()\n        2.8 - Deprecate prep_resize()\n    '''"
 newline|'\n'
 nl|'\n'
 comment|'#'
@@ -370,6 +370,10 @@ name|'filter_properties'
 op|')'
 op|')'
 newline|'\n'
+nl|'\n'
+comment|"# NOTE(timello): This method is deprecated and it's functionality has"
+nl|'\n'
+comment|'# been moved to conductor. This should be removed in RPC_API_VERSION 3.0.'
 nl|'\n'
 DECL|member|prep_resize
 dedent|''
