@@ -34340,7 +34340,7 @@ op|':'
 newline|'\n'
 nl|'\n'
 indent|'    '
-string|'"""Tests for db/api/network_* methods."""'
+string|'"""Tests for db.api.network_* methods."""'
 newline|'\n'
 nl|'\n'
 DECL|member|setUp
