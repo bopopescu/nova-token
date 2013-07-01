@@ -9712,6 +9712,11 @@ nl|'\n'
 string|"'security_group'"
 op|':'
 string|"'security_groups'"
+op|','
+nl|'\n'
+string|"'num_instances'"
+op|':'
+number|'2'
 op|'}'
 op|','
 nl|'\n'
