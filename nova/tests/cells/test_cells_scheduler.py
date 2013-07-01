@@ -526,6 +526,11 @@ newline|'\n'
 name|'instance_props'
 op|'='
 op|'{'
+string|"'name'"
+op|':'
+string|"'instance-00000001'"
+op|','
+nl|'\n'
 string|"'hostname'"
 op|':'
 string|"'meow'"
