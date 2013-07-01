@@ -139,6 +139,11 @@ name|'VIF_TYPE_802_QBH'
 op|'='
 string|"'802.1qbh'"
 newline|'\n'
+DECL|variable|VIF_TYPE_MLNX_DIRECT
+name|'VIF_TYPE_MLNX_DIRECT'
+op|'='
+string|"'mlnx_direct'"
+newline|'\n'
 DECL|variable|VIF_TYPE_OTHER
 name|'VIF_TYPE_OTHER'
 op|'='
