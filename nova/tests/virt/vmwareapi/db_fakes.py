@@ -491,6 +491,11 @@ string|"'node'"
 op|']'
 op|','
 nl|'\n'
+string|"'metadata'"
+op|':'
+op|'['
+op|']'
+nl|'\n'
 op|'}'
 newline|'\n'
 nl|'\n'
