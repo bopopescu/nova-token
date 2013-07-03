@@ -2875,7 +2875,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""Wrapper around NetworkInfo that allows retrieving NetworkInfo\n    in an async manner.\n\n    This allows one to start querying for network information before\n    you know you will need it.  If you have a long-running\n    operation, this allows the network model retrieval to occur in the\n    background.  When you need the data, it will ensure the async\n    operation has completed.\n\n    As an example:\n\n    def allocate_net_info(arg1, arg2)\n        return call_quantum_to_allocate(arg1, arg2)\n\n    network_info = NetworkInfoAsyncWrapper(allocate_net_info, arg1, arg2)\n    [do a long running operation -- real network_info will be retrieved\n    in the background]\n    [do something with network_info]\n    """'
+string|'"""Wrapper around NetworkInfo that allows retrieving NetworkInfo\n    in an async manner.\n\n    This allows one to start querying for network information before\n    you know you will need it.  If you have a long-running\n    operation, this allows the network model retrieval to occur in the\n    background.  When you need the data, it will ensure the async\n    operation has completed.\n\n    As an example:\n\n    def allocate_net_info(arg1, arg2)\n        return call_neutron_to_allocate(arg1, arg2)\n\n    network_info = NetworkInfoAsyncWrapper(allocate_net_info, arg1, arg2)\n    [do a long running operation -- real network_info will be retrieved\n    in the background]\n    [do something with network_info]\n    """'
 newline|'\n'
 nl|'\n'
 DECL|member|__init__

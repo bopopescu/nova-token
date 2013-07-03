@@ -140,13 +140,19 @@ name|'cfg'
 op|'.'
 name|'StrOpt'
 op|'('
-string|"'use_quantum_default_nets'"
+string|"'use_neutron_default_nets'"
 op|','
 nl|'\n'
 DECL|variable|default
 name|'default'
 op|'='
 string|'"False"'
+op|','
+nl|'\n'
+DECL|variable|deprecated_name
+name|'deprecated_name'
+op|'='
+string|"'use_quantum_default_nets'"
 op|','
 nl|'\n'
 DECL|variable|help
@@ -162,7 +168,7 @@ name|'cfg'
 op|'.'
 name|'StrOpt'
 op|'('
-string|"'quantum_default_tenant_id'"
+string|"'neutron_default_tenant_id'"
 op|','
 nl|'\n'
 DECL|variable|default
@@ -171,11 +177,17 @@ op|'='
 string|'"default"'
 op|','
 nl|'\n'
+DECL|variable|deprecated_name
+name|'deprecated_name'
+op|'='
+string|"'quantum_default_tenant_id'"
+op|','
+nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
 op|'('
-string|"'Default tenant id when creating quantum '"
+string|"'Default tenant id when creating neutron '"
 nl|'\n'
 string|"'networks'"
 op|')'
@@ -393,7 +405,7 @@ newline|'\n'
 name|'if'
 name|'CONF'
 op|'.'
-name|'use_quantum_default_nets'
+name|'use_neutron_default_nets'
 op|'=='
 string|'"True"'
 op|':'
@@ -443,7 +455,7 @@ name|'project_id'
 op|'='
 name|'CONF'
 op|'.'
-name|'quantum_default_tenant_id'
+name|'neutron_default_tenant_id'
 newline|'\n'
 name|'ctx'
 op|'='

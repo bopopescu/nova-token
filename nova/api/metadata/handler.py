@@ -142,7 +142,7 @@ op|'.'
 name|'BoolOpt'
 op|'('
 nl|'\n'
-string|"'service_quantum_metadata_proxy'"
+string|"'service_neutron_metadata_proxy'"
 op|','
 nl|'\n'
 DECL|variable|default
@@ -151,10 +151,16 @@ op|'='
 name|'False'
 op|','
 nl|'\n'
+DECL|variable|deprecated_name
+name|'deprecated_name'
+op|'='
+string|"'service_quantum_metadata_proxy'"
+op|','
+nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'Set flag to indicate Quantum will proxy metadata requests and '"
+string|"'Set flag to indicate Neutron will proxy metadata requests and '"
 nl|'\n'
 string|"'resolve instance ids.'"
 op|')'
@@ -165,7 +171,7 @@ op|'.'
 name|'StrOpt'
 op|'('
 nl|'\n'
-string|"'quantum_metadata_proxy_shared_secret'"
+string|"'neutron_metadata_proxy_shared_secret'"
 op|','
 nl|'\n'
 DECL|variable|default
@@ -174,10 +180,16 @@ op|'='
 string|"''"
 op|','
 nl|'\n'
+DECL|variable|deprecated_name
+name|'deprecated_name'
+op|'='
+string|"'quantum_metadata_proxy_shared_secret'"
+op|','
+nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'Shared secret to validate proxies Quantum metadata requests'"
+string|"'Shared secret to validate proxies Neutron metadata requests'"
 op|')'
 nl|'\n'
 op|']'
@@ -509,7 +521,7 @@ dedent|''
 name|'if'
 name|'CONF'
 op|'.'
-name|'service_quantum_metadata_proxy'
+name|'service_neutron_metadata_proxy'
 op|':'
 newline|'\n'
 indent|'            '
@@ -548,7 +560,7 @@ name|'_'
 op|'('
 string|'"X-Instance-ID present in request headers. The "'
 nl|'\n'
-string|'"\'service_quantum_metadata_proxy\' option must be enabled"'
+string|'"\'service_neutron_metadata_proxy\' option must be enabled"'
 nl|'\n'
 string|'" to process this header."'
 op|')'
@@ -889,7 +901,7 @@ op|'('
 nl|'\n'
 name|'CONF'
 op|'.'
-name|'quantum_metadata_proxy_shared_secret'
+name|'neutron_metadata_proxy_shared_secret'
 op|','
 nl|'\n'
 name|'instance_id'

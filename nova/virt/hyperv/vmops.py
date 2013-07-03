@@ -331,10 +331,10 @@ name|'_vif_driver_class_map'
 op|'='
 op|'{'
 nl|'\n'
-string|"'nova.network.quantumv2.api.API'"
+string|"'nova.network.neutronv2.api.API'"
 op|':'
 nl|'\n'
-string|"'nova.virt.hyperv.vif.HyperVQuantumVIFDriver'"
+string|"'nova.virt.hyperv.vif.HyperVNeutronVIFDriver'"
 op|','
 nl|'\n'
 string|"'nova.network.api.API'"
