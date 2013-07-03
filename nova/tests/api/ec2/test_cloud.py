@@ -19283,7 +19283,7 @@ op|'['
 op|'{'
 string|"'name'"
 op|':'
-string|"'resource_id'"
+string|"'resource-id'"
 op|','
 nl|'\n'
 string|"'value'"
@@ -19333,7 +19333,7 @@ op|'['
 op|'{'
 string|"'name'"
 op|':'
-string|"'resource_type'"
+string|"'resource-type'"
 op|','
 nl|'\n'
 string|"'value'"
@@ -19838,7 +19838,7 @@ op|'['
 op|'{'
 string|"'name'"
 op|':'
-string|"'resource_type'"
+string|"'resource-type'"
 op|','
 nl|'\n'
 string|"'value'"
