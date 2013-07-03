@@ -318,7 +318,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""AggregateRamFilter with per-aggregate CPU subscription flag.\n\n    Fall back to global cpu_allocation_ratio if no per-aggregate setting found.\n    """'
+string|'"""AggregateCoreFilter with per-aggregate CPU subscription flag.\n\n    Fall back to global cpu_allocation_ratio if no per-aggregate setting found.\n    """'
 newline|'\n'
 nl|'\n'
 DECL|member|_get_cpu_allocation_ratio
