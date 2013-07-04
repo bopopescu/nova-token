@@ -978,7 +978,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'""" Flavors Extension. """'
+string|'"""Flavors Extension."""'
 newline|'\n'
 DECL|variable|name
 name|'name'
