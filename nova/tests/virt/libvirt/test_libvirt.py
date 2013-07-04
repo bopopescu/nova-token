@@ -19940,7 +19940,7 @@ op|','
 nl|'\n'
 name|'filename'
 op|'='
-string|"'otherdisk'"
+string|"'otherdisk_1234567'"
 op|','
 nl|'\n'
 name|'image_id'
