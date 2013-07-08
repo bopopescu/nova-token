@@ -392,6 +392,16 @@ name|'VIR_ERR_NO_DOMAIN'
 op|'='
 number|'420'
 newline|'\n'
+DECL|variable|VIR_ERR_OPERATION_INVALID
+name|'VIR_ERR_OPERATION_INVALID'
+op|'='
+number|'55'
+newline|'\n'
+DECL|variable|VIR_ERR_OPERATION_TIMEOUT
+name|'VIR_ERR_OPERATION_TIMEOUT'
+op|'='
+number|'68'
+newline|'\n'
 DECL|variable|VIR_ERR_NO_NWFILTER
 name|'VIR_ERR_NO_NWFILTER'
 op|'='
