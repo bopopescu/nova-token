@@ -190,6 +190,11 @@ op|':'
 number|'256'
 op|','
 nl|'\n'
+string|"'metrics'"
+op|':'
+string|"''"
+op|','
+nl|'\n'
 op|'}'
 newline|'\n'
 nl|'\n'

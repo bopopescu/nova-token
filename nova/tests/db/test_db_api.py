@@ -43482,6 +43482,11 @@ nl|'\n'
 name|'pci_stats'
 op|'='
 string|"''"
+op|','
+nl|'\n'
+name|'metrics'
+op|'='
+string|"''"
 op|')'
 newline|'\n'
 comment|'# add some random stats'
