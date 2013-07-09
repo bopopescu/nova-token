@@ -247,6 +247,7 @@ op|'='
 op|'('
 string|"'servers'"
 op|','
+nl|'\n'
 string|"'os-server-diagnostics'"
 op|')'
 op|')'

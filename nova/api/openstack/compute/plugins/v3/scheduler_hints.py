@@ -60,6 +60,7 @@ op|'='
 string|'"os-scheduler-hints"'
 newline|'\n'
 nl|'\n'
+nl|'\n'
 DECL|class|SchedulerHintsController
 name|'class'
 name|'SchedulerHintsController'
