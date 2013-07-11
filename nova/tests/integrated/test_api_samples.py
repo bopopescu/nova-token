@@ -18556,9 +18556,9 @@ op|'%'
 name|'our_id'
 op|','
 nl|'\n'
-string|"'username'"
+string|"'transport_url'"
 op|':'
-string|"'username%s'"
+string|"'rabbit://username%s@/'"
 op|'%'
 name|'our_id'
 op|','
