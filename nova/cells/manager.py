@@ -232,7 +232,7 @@ newline|'\n'
 DECL|variable|RPC_API_VERSION
 name|'RPC_API_VERSION'
 op|'='
-string|"'1.10'"
+string|"'1.11'"
 newline|'\n'
 nl|'\n'
 DECL|member|__init__
