@@ -1600,6 +1600,15 @@ op|','
 string|"'osapi_v3'"
 op|')'
 newline|'\n'
+name|'CONF'
+op|'.'
+name|'set_override'
+op|'('
+string|"'force_dhcp_release'"
+op|','
+name|'False'
+op|')'
+newline|'\n'
 nl|'\n'
 DECL|member|_restore_obj_registry
 dedent|''
