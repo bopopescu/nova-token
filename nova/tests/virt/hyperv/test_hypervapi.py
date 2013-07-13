@@ -505,7 +505,7 @@ op|','
 nl|'\n'
 name|'network_api_class'
 op|'='
-string|"'nova.network.quantumv2.api.API'"
+string|"'nova.network.neutronv2.api.API'"
 op|')'
 newline|'\n'
 nl|'\n'
