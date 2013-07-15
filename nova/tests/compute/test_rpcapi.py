@@ -2584,9 +2584,13 @@ op|'='
 string|"'node'"
 op|','
 nl|'\n'
+name|'legacy_bdm_in_spec'
+op|'='
+name|'False'
+op|','
 name|'version'
 op|'='
-string|"'2.19'"
+string|"'2.37'"
 op|')'
 newline|'\n'
 nl|'\n'
