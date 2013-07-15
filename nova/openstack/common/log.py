@@ -246,6 +246,8 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
+string|"'DEPRECATED. '"
+nl|'\n'
 string|"'A logging.Formatter log message format string which may '"
 nl|'\n'
 string|"'use any of the available logging.LogRecord attributes. '"
@@ -2679,7 +2681,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""\n    create a pass-through logger that does not create the real logger\n    until it is really needed and delegates all calls to the real logger\n    once it is created\n    """'
+string|'"""Returns lazy logger.\n\n    Creates a pass-through logger that does not create the real logger\n    until it is really needed and delegates all calls to the real logger\n    once it is created.\n    """'
 newline|'\n'
 name|'return'
 name|'LazyAdapter'
