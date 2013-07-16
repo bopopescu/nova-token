@@ -52,6 +52,14 @@ indent|'    '
 string|'"""NOOP host filter. Returns all hosts."""'
 newline|'\n'
 nl|'\n'
+comment|"# list of hosts doesn't change within a request"
+nl|'\n'
+DECL|variable|run_filter_once_per_request
+name|'run_filter_once_per_request'
+op|'='
+name|'True'
+newline|'\n'
+nl|'\n'
 DECL|member|host_passes
 name|'def'
 name|'host_passes'
