@@ -284,5 +284,39 @@ name|'RESTORING'
 op|'='
 string|"'restoring'"
 newline|'\n'
+nl|'\n'
+comment|'# possible task states during shelve()'
+nl|'\n'
+DECL|variable|SHELVING
+name|'SHELVING'
+op|'='
+string|"'shelving'"
+newline|'\n'
+DECL|variable|SHELVING_IMAGE_PENDING_UPLOAD
+name|'SHELVING_IMAGE_PENDING_UPLOAD'
+op|'='
+string|"'shelving_image_pending_upload'"
+newline|'\n'
+DECL|variable|SHELVING_IMAGE_UPLOADING
+name|'SHELVING_IMAGE_UPLOADING'
+op|'='
+string|"'shelving_image_uploading'"
+newline|'\n'
+nl|'\n'
+comment|'# possible task states during shelve_offload()'
+nl|'\n'
+DECL|variable|SHELVING_OFFLOADING
+name|'SHELVING_OFFLOADING'
+op|'='
+string|"'shelving_offloading'"
+newline|'\n'
+nl|'\n'
+comment|'# possible task states during unshelve()'
+nl|'\n'
+DECL|variable|UNSHELVING
+name|'UNSHELVING'
+op|'='
+string|"'unshelving'"
+newline|'\n'
 endmarker|''
 end_unit

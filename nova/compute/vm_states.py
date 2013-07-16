@@ -100,5 +100,20 @@ name|'ERROR'
 op|'='
 string|"'error'"
 newline|'\n'
+nl|'\n'
+DECL|variable|SHELVED
+name|'SHELVED'
+op|'='
+string|"'shelved'"
+comment|'# VM is powered off, resources still on hypervisor'
+newline|'\n'
+DECL|variable|SHELVED_OFFLOADED
+name|'SHELVED_OFFLOADED'
+op|'='
+string|"'shelved_offloaded'"
+comment|'# VM and associated resources are'
+newline|'\n'
+comment|'# not on hypervisor'
+nl|'\n'
 endmarker|''
 end_unit

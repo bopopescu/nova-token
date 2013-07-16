@@ -124,5 +124,15 @@ name|'CHANGE_PASSWORD'
 op|'='
 string|"'changePassword'"
 newline|'\n'
+DECL|variable|SHELVE
+name|'SHELVE'
+op|'='
+string|"'shelve'"
+newline|'\n'
+DECL|variable|UNSHELVE
+name|'UNSHELVE'
+op|'='
+string|"'unshelve'"
+newline|'\n'
 endmarker|''
 end_unit
