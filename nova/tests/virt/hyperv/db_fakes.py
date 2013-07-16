@@ -929,7 +929,7 @@ name|'Set'
 op|'('
 name|'db'
 op|','
-string|"'instance_type_get_all'"
+string|"'flavor_get_all'"
 op|','
 name|'fake_instance_type_get_all'
 op|')'
@@ -940,7 +940,7 @@ name|'Set'
 op|'('
 name|'db'
 op|','
-string|"'instance_type_get_by_name'"
+string|"'flavor_get_by_name'"
 op|','
 name|'fake_instance_type_get_by_name'
 op|')'

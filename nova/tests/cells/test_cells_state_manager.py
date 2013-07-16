@@ -346,7 +346,7 @@ name|'Set'
 op|'('
 name|'db'
 op|','
-string|"'instance_type_get_all'"
+string|"'flavor_get_all'"
 op|','
 name|'_fake_instance_type_all'
 op|')'

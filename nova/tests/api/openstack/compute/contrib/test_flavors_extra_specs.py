@@ -295,7 +295,7 @@ name|'nova'
 op|'.'
 name|'db'
 op|','
-string|"'instance_type_extra_specs_get'"
+string|"'flavor_extra_specs_get'"
 op|','
 nl|'\n'
 name|'return_flavor_extra_specs'
@@ -363,7 +363,7 @@ name|'nova'
 op|'.'
 name|'db'
 op|','
-string|"'instance_type_extra_specs_get'"
+string|"'flavor_extra_specs_get'"
 op|','
 nl|'\n'
 name|'return_empty_flavor_extra_specs'
@@ -431,7 +431,7 @@ name|'nova'
 op|'.'
 name|'db'
 op|','
-string|"'instance_type_extra_specs_get_item'"
+string|"'flavor_extra_specs_get_item'"
 op|','
 nl|'\n'
 name|'return_flavor_extra_specs_item'
@@ -501,7 +501,7 @@ name|'nova'
 op|'.'
 name|'db'
 op|','
-string|"'instance_type_extra_specs_get'"
+string|"'flavor_extra_specs_get'"
 op|','
 nl|'\n'
 name|'return_empty_flavor_extra_specs'
@@ -567,7 +567,7 @@ name|'nova'
 op|'.'
 name|'db'
 op|','
-string|"'instance_type_extra_specs_delete'"
+string|"'flavor_extra_specs_delete'"
 op|','
 nl|'\n'
 name|'delete_flavor_extra_specs'
@@ -626,7 +626,7 @@ name|'nova'
 op|'.'
 name|'db'
 op|','
-string|"'instance_type_extra_specs_delete'"
+string|"'flavor_extra_specs_delete'"
 op|','
 nl|'\n'
 name|'delete_flavor_extra_specs'
@@ -691,7 +691,7 @@ op|'.'
 name|'db'
 op|','
 nl|'\n'
-string|"'instance_type_extra_specs_update_or_create'"
+string|"'flavor_extra_specs_update_or_create'"
 op|','
 nl|'\n'
 name|'return_create_flavor_extra_specs'
@@ -779,7 +779,7 @@ op|'.'
 name|'db'
 op|','
 nl|'\n'
-string|"'instance_type_extra_specs_update_or_create'"
+string|"'flavor_extra_specs_update_or_create'"
 op|','
 nl|'\n'
 name|'return_create_flavor_extra_specs'
@@ -853,7 +853,7 @@ op|'.'
 name|'db'
 op|','
 nl|'\n'
-string|"'instance_type_extra_specs_update_or_create'"
+string|"'flavor_extra_specs_update_or_create'"
 op|','
 nl|'\n'
 name|'return_create_flavor_extra_specs'
@@ -922,7 +922,7 @@ op|'.'
 name|'db'
 op|','
 nl|'\n'
-string|"'instance_type_extra_specs_update_or_create'"
+string|"'flavor_extra_specs_update_or_create'"
 op|','
 nl|'\n'
 name|'return_create_flavor_extra_specs'
@@ -1007,7 +1007,7 @@ op|'.'
 name|'db'
 op|','
 nl|'\n'
-string|"'instance_type_extra_specs_update_or_create'"
+string|"'flavor_extra_specs_update_or_create'"
 op|','
 nl|'\n'
 name|'return_create_flavor_extra_specs'
@@ -1082,7 +1082,7 @@ op|'.'
 name|'db'
 op|','
 nl|'\n'
-string|"'instance_type_extra_specs_update_or_create'"
+string|"'flavor_extra_specs_update_or_create'"
 op|','
 nl|'\n'
 name|'return_create_flavor_extra_specs'
@@ -1155,7 +1155,7 @@ op|'.'
 name|'db'
 op|','
 nl|'\n'
-string|"'instance_type_extra_specs_update_or_create'"
+string|"'flavor_extra_specs_update_or_create'"
 op|','
 nl|'\n'
 name|'return_create_flavor_extra_specs'
@@ -1240,7 +1240,7 @@ op|'.'
 name|'db'
 op|','
 nl|'\n'
-string|"'instance_type_extra_specs_update_or_create'"
+string|"'flavor_extra_specs_update_or_create'"
 op|','
 nl|'\n'
 name|'return_create_flavor_extra_specs'

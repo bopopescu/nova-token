@@ -558,7 +558,7 @@ op|'.'
 name|'db'
 op|','
 nl|'\n'
-string|"'instance_type_get'"
+string|"'flavor_get'"
 op|','
 name|'self'
 op|'.'
