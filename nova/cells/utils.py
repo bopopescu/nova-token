@@ -44,8 +44,8 @@ comment|"# Separator used between cell names for the 'full cell name' and routin
 nl|'\n'
 comment|'# path'
 nl|'\n'
-DECL|variable|_PATH_CELL_SEP
-name|'_PATH_CELL_SEP'
+DECL|variable|PATH_CELL_SEP
+name|'PATH_CELL_SEP'
 op|'='
 string|"'!'"
 newline|'\n'
