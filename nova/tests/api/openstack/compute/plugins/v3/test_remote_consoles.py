@@ -465,7 +465,7 @@ indent|'        '
 name|'body'
 op|'='
 op|'{'
-string|"'os-getVNCConsole'"
+string|"'get_vnc_console'"
 op|':'
 op|'{'
 string|"'type'"
@@ -597,7 +597,7 @@ newline|'\n'
 name|'body'
 op|'='
 op|'{'
-string|"'os-getVNCConsole'"
+string|"'get_vnc_console'"
 op|':'
 op|'{'
 string|"'type'"
@@ -707,7 +707,7 @@ newline|'\n'
 name|'body'
 op|'='
 op|'{'
-string|"'os-getVNCConsole'"
+string|"'get_vnc_console'"
 op|':'
 op|'{'
 op|'}'
@@ -802,7 +802,7 @@ newline|'\n'
 name|'body'
 op|'='
 op|'{'
-string|"'os-getVNCConsole'"
+string|"'get_vnc_console'"
 op|':'
 op|'{'
 string|"'type'"
@@ -901,7 +901,7 @@ newline|'\n'
 name|'body'
 op|'='
 op|'{'
-string|"'os-getVNCConsole'"
+string|"'get_vnc_console'"
 op|':'
 op|'{'
 string|"'type'"
@@ -984,7 +984,7 @@ indent|'        '
 name|'body'
 op|'='
 op|'{'
-string|"'os-getVNCConsole'"
+string|"'get_vnc_console'"
 op|':'
 op|'{'
 string|"'type'"
@@ -1083,7 +1083,7 @@ indent|'        '
 name|'body'
 op|'='
 op|'{'
-string|"'os-getSPICEConsole'"
+string|"'get_spice_console'"
 op|':'
 op|'{'
 string|"'type'"
@@ -1215,7 +1215,7 @@ newline|'\n'
 name|'body'
 op|'='
 op|'{'
-string|"'os-getSPICEConsole'"
+string|"'get_spice_console'"
 op|':'
 op|'{'
 string|"'type'"
@@ -1325,7 +1325,7 @@ newline|'\n'
 name|'body'
 op|'='
 op|'{'
-string|"'os-getSPICEConsole'"
+string|"'get_spice_console'"
 op|':'
 op|'{'
 op|'}'
@@ -1420,7 +1420,7 @@ newline|'\n'
 name|'body'
 op|'='
 op|'{'
-string|"'os-getSPICEConsole'"
+string|"'get_spice_console'"
 op|':'
 op|'{'
 string|"'type'"
@@ -1519,7 +1519,7 @@ newline|'\n'
 name|'body'
 op|'='
 op|'{'
-string|"'os-getSPICEConsole'"
+string|"'get_spice_console'"
 op|':'
 op|'{'
 string|"'type'"
@@ -1602,7 +1602,7 @@ indent|'        '
 name|'body'
 op|'='
 op|'{'
-string|"'os-getSPICEConsole'"
+string|"'get_spice_console'"
 op|':'
 op|'{'
 string|"'type'"
