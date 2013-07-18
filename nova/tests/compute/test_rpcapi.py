@@ -1852,7 +1852,7 @@ op|','
 nl|'\n'
 name|'version'
 op|'='
-string|"'2.23'"
+string|"'2.32'"
 op|')'
 newline|'\n'
 nl|'\n'
