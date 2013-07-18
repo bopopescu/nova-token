@@ -4342,7 +4342,7 @@ op|']'
 op|'.'
 name|'target_dev'
 op|','
-string|"'vdz'"
+string|"'hdd'"
 op|')'
 newline|'\n'
 nl|'\n'
