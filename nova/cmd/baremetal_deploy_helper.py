@@ -1369,10 +1369,17 @@ string|"'start deployment for node %(node_id)s, '"
 nl|'\n'
 string|"'params %(params)s'"
 op|')'
-op|'%'
-name|'locals'
-op|'('
-op|')'
+op|','
+nl|'\n'
+op|'{'
+string|"'node_id'"
+op|':'
+name|'node_id'
+op|','
+string|"'params'"
+op|':'
+name|'params'
+op|'}'
 op|')'
 newline|'\n'
 name|'context'
