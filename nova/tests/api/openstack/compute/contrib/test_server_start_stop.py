@@ -149,7 +149,7 @@ op|'='
 op|'{'
 string|"'network_info'"
 op|':'
-string|"'foo'"
+string|"'[]'"
 op|','
 nl|'\n'
 string|"'instance_uuid'"
