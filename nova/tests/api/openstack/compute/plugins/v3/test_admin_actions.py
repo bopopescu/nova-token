@@ -472,9 +472,9 @@ op|','
 string|"'migrate'"
 op|','
 nl|'\n'
-string|"'resetNetwork'"
+string|"'reset_network'"
 op|','
-string|"'injectNetworkInfo'"
+string|"'inject_network_info'"
 op|','
 string|"'lock'"
 op|','
@@ -942,7 +942,7 @@ name|'dumps'
 op|'('
 op|'{'
 nl|'\n'
-string|"'os-migrateLive'"
+string|"'migrate_live'"
 op|':'
 op|'{'
 nl|'\n'
@@ -1169,7 +1169,7 @@ name|'dumps'
 op|'('
 op|'{'
 nl|'\n'
-string|"'os-migrateLive'"
+string|"'migrate_live'"
 op|':'
 op|'{'
 nl|'\n'
@@ -1307,7 +1307,7 @@ name|'dumps'
 op|'('
 op|'{'
 nl|'\n'
-string|"'os-migrateLive'"
+string|"'migrate_live'"
 op|':'
 op|'{'
 nl|'\n'
@@ -1564,7 +1564,7 @@ name|'dumps'
 op|'('
 op|'{'
 nl|'\n'
-string|"'os-migrateLive'"
+string|"'migrate_live'"
 op|':'
 op|'{'
 nl|'\n'
@@ -1815,7 +1815,7 @@ name|'dumps'
 op|'('
 op|'{'
 nl|'\n'
-string|"'os-migrateLive'"
+string|"'migrate_live'"
 op|':'
 op|'{'
 nl|'\n'
@@ -2080,7 +2080,7 @@ name|'dumps'
 op|'('
 op|'{'
 nl|'\n'
-string|"'os-migrateLive'"
+string|"'migrate_live'"
 op|':'
 op|'{'
 nl|'\n'
@@ -2409,7 +2409,7 @@ name|'body'
 op|'='
 op|'{'
 nl|'\n'
-string|"'createBackup'"
+string|"'create_backup'"
 op|':'
 op|'{'
 nl|'\n'
@@ -2502,7 +2502,7 @@ name|'body'
 op|'='
 op|'{'
 nl|'\n'
-string|"'createBackup'"
+string|"'create_backup'"
 op|':'
 op|'{'
 nl|'\n'
@@ -2551,7 +2551,7 @@ newline|'\n'
 indent|'            '
 name|'body'
 op|'['
-string|"'createBackup'"
+string|"'create_backup'"
 op|']'
 op|'['
 string|"'metadata'"
@@ -2614,7 +2614,7 @@ name|'body'
 op|'='
 op|'{'
 nl|'\n'
-string|"'createBackup'"
+string|"'create_backup'"
 op|':'
 op|'{'
 nl|'\n'
@@ -2682,7 +2682,7 @@ name|'body'
 op|'='
 op|'{'
 nl|'\n'
-string|"'createBackup'"
+string|"'create_backup'"
 op|':'
 op|'{'
 nl|'\n'
@@ -2750,7 +2750,7 @@ name|'body'
 op|'='
 op|'{'
 nl|'\n'
-string|"'createBackup'"
+string|"'create_backup'"
 op|':'
 op|'{'
 nl|'\n'
@@ -2824,7 +2824,7 @@ name|'body'
 op|'='
 op|'{'
 nl|'\n'
-string|"'createBackup'"
+string|"'create_backup'"
 op|':'
 op|'{'
 nl|'\n'
@@ -2889,7 +2889,7 @@ indent|'        '
 name|'body'
 op|'='
 op|'{'
-string|"'createBackup'"
+string|"'create_backup'"
 op|':'
 string|"'go'"
 op|'}'
@@ -2943,7 +2943,7 @@ name|'body'
 op|'='
 op|'{'
 nl|'\n'
-string|"'createBackup'"
+string|"'create_backup'"
 op|':'
 op|'{'
 nl|'\n'
@@ -3028,7 +3028,7 @@ name|'body'
 op|'='
 op|'{'
 nl|'\n'
-string|"'createBackup'"
+string|"'create_backup'"
 op|':'
 op|'{'
 nl|'\n'
@@ -3112,7 +3112,7 @@ name|'body'
 op|'='
 op|'{'
 nl|'\n'
-string|"'createBackup'"
+string|"'create_backup'"
 op|':'
 op|'{'
 nl|'\n'
@@ -3418,7 +3418,7 @@ string|"'inst_id'"
 op|','
 nl|'\n'
 op|'{'
-string|'"os-resetState"'
+string|'"reset_state"'
 op|':'
 name|'None'
 op|'}'
@@ -3461,7 +3461,7 @@ string|"'inst_id'"
 op|','
 nl|'\n'
 op|'{'
-string|'"os-resetState"'
+string|'"reset_state"'
 op|':'
 op|'{'
 string|'"state"'
@@ -3514,7 +3514,7 @@ string|"'inst_id'"
 op|','
 nl|'\n'
 op|'{'
-string|'"os-resetState"'
+string|'"reset_state"'
 op|':'
 op|'{'
 string|'"state"'
@@ -3538,7 +3538,7 @@ indent|'        '
 name|'body'
 op|'='
 op|'{'
-string|'"os-resetState"'
+string|'"reset_state"'
 op|':'
 op|'{'
 string|'"state"'
@@ -3613,7 +3613,7 @@ indent|'        '
 name|'body'
 op|'='
 op|'{'
-string|'"os-resetState"'
+string|'"reset_state"'
 op|':'
 op|'{'
 string|'"state"'
