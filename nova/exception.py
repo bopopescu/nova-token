@@ -4349,9 +4349,9 @@ name|'NovaException'
 op|')'
 op|':'
 newline|'\n'
-DECL|variable|message
+DECL|variable|msg_fmt
 indent|'    '
-name|'message'
+name|'msg_fmt'
 op|'='
 name|'_'
 op|'('
