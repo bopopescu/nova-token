@@ -3007,8 +3007,9 @@ comment|'# Invalid port'
 nl|'\n'
 name|'_assert'
 op|'('
-string|"'An unknown error has occurred'"
+string|"'Invalid input received: To and From ports must be integers'"
 op|','
+nl|'\n'
 string|"'tcp'"
 op|','
 string|'" "'
@@ -3022,15 +3023,17 @@ comment|'# Invalid icmp port'
 nl|'\n'
 name|'_assert'
 op|'('
-string|"'An unknown error has occurred'"
+string|"'Invalid input received: '"
+nl|'\n'
+string|"'Type and Code must be integers for ICMP protocol type'"
 op|','
+nl|'\n'
 string|"'icmp'"
 op|','
 string|'" "'
 op|','
 string|'"81"'
 op|','
-nl|'\n'
 string|"'0.0.0.0/0'"
 op|')'
 newline|'\n'
