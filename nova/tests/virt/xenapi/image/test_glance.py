@@ -271,11 +271,8 @@ op|','
 nl|'\n'
 string|"'system_metadata'"
 op|':'
-op|'{'
-string|"'image_xenapi_use_agent'"
-op|':'
-string|"'true'"
-op|'}'
+op|'['
+op|']'
 op|','
 nl|'\n'
 string|"'auto_disk_config'"
@@ -500,11 +497,6 @@ nl|'\n'
 string|"'os_type'"
 op|':'
 string|"'default'"
-op|','
-nl|'\n'
-string|"'xenapi_use_agent'"
-op|':'
-string|"'true'"
 op|'}'
 op|'}'
 newline|'\n'
