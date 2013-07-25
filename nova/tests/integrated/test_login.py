@@ -87,8 +87,14 @@ name|'_IntegratedTestBase'
 op|')'
 op|':'
 newline|'\n'
-DECL|member|test_login
+DECL|variable|_api_version
 indent|'    '
+name|'_api_version'
+op|'='
+string|"'v2'"
+newline|'\n'
+nl|'\n'
+DECL|member|test_login
 name|'def'
 name|'test_login'
 op|'('

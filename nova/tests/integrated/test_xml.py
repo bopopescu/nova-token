@@ -103,6 +103,12 @@ indent|'    '
 string|'""""Some basic XML sanity checks."""'
 newline|'\n'
 nl|'\n'
+DECL|variable|_api_version
+name|'_api_version'
+op|'='
+string|"'v2'"
+newline|'\n'
+nl|'\n'
 DECL|member|test_namespace_limits
 name|'def'
 name|'test_namespace_limits'
