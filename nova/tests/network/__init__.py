@@ -30,12 +30,5 @@ comment|'#    License for the specific language governing permissions and limita
 nl|'\n'
 comment|'#    under the License.'
 nl|'\n'
-name|'from'
-name|'nova'
-op|'.'
-name|'tests'
-name|'import'
-op|'*'
-newline|'\n'
 endmarker|''
 end_unit

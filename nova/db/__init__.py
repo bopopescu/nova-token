@@ -45,6 +45,7 @@ op|'.'
 name|'api'
 name|'import'
 op|'*'
+comment|'# noqa'
 newline|'\n'
 endmarker|''
 end_unit
