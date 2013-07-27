@@ -256,5 +256,16 @@ name|'IDE_DVD'
 op|'='
 string|'"DVD"'
 newline|'\n'
+nl|'\n'
+DECL|variable|DISK_FORMAT_VHD
+name|'DISK_FORMAT_VHD'
+op|'='
+string|'"VHD"'
+newline|'\n'
+DECL|variable|DISK_FORMAT_VHDX
+name|'DISK_FORMAT_VHDX'
+op|'='
+string|'"VHDX"'
+newline|'\n'
 endmarker|''
 end_unit
