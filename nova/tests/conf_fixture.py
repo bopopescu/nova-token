@@ -398,9 +398,13 @@ name|'conf'
 op|'.'
 name|'set_default'
 op|'('
-string|"'sql_connection'"
+string|"'connection'"
 op|','
 string|'"sqlite://"'
+op|','
+name|'group'
+op|'='
+string|"'database'"
 op|')'
 newline|'\n'
 name|'self'
