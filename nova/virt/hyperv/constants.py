@@ -57,11 +57,6 @@ name|'HYPERV_VM_STATE_REBOOT'
 op|'='
 number|'10'
 newline|'\n'
-DECL|variable|HYPERV_VM_STATE_RESET
-name|'HYPERV_VM_STATE_RESET'
-op|'='
-number|'11'
-newline|'\n'
 DECL|variable|HYPERV_VM_STATE_PAUSED
 name|'HYPERV_VM_STATE_PAUSED'
 op|'='
