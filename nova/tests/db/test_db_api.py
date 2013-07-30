@@ -22477,7 +22477,7 @@ op|','
 op|'{'
 string|"'address'"
 op|':'
-string|"'fixed'"
+string|"'192.168.0.2'"
 op|'}'
 op|')'
 newline|'\n'
@@ -22486,7 +22486,7 @@ op|'='
 op|'{'
 string|"'address'"
 op|':'
-string|"'floating'"
+string|"'8.7.6.5'"
 op|','
 nl|'\n'
 string|"'fixed_ip_id'"
@@ -22851,7 +22851,7 @@ newline|'\n'
 nl|'\n'
 name|'FIXED_IP_ADDRESS'
 op|'='
-string|"'address'"
+string|"'192.168.1.5'"
 newline|'\n'
 name|'db'
 op|'.'
@@ -22929,7 +22929,7 @@ newline|'\n'
 nl|'\n'
 name|'FIXED_IP_ADDRESS_1'
 op|'='
-string|"'address_1'"
+string|"'192.168.1.5'"
 newline|'\n'
 name|'db'
 op|'.'
@@ -22954,7 +22954,7 @@ op|')'
 newline|'\n'
 name|'FIXED_IP_ADDRESS_2'
 op|'='
-string|"'address_2'"
+string|"'192.168.1.6'"
 newline|'\n'
 name|'db'
 op|'.'
@@ -23042,7 +23042,7 @@ newline|'\n'
 nl|'\n'
 name|'FIXED_IP_ADDRESS_1'
 op|'='
-string|"'address_1'"
+string|"'192.168.1.5'"
 newline|'\n'
 name|'db'
 op|'.'
@@ -23067,7 +23067,7 @@ op|')'
 newline|'\n'
 name|'FIXED_IP_ADDRESS_2'
 op|'='
-string|"'address_2'"
+string|"'192.168.1.6'"
 newline|'\n'
 name|'db'
 op|'.'
@@ -23125,7 +23125,7 @@ op|']'
 op|','
 name|'address'
 op|'='
-string|'"another_addr"'
+string|'"192.168.1.7"'
 op|')'
 op|')'
 newline|'\n'
@@ -23255,7 +23255,7 @@ newline|'\n'
 nl|'\n'
 name|'FIXED_IP_ADDRESS'
 op|'='
-string|"'address'"
+string|"'192.168.1.5'"
 newline|'\n'
 name|'db'
 op|'.'
@@ -23357,7 +23357,7 @@ newline|'\n'
 nl|'\n'
 name|'FIXED_IP_ADDRESS_1'
 op|'='
-string|"'address_1'"
+string|"'192.168.1.5'"
 newline|'\n'
 name|'db'
 op|'.'
@@ -23384,7 +23384,7 @@ op|')'
 newline|'\n'
 name|'FIXED_IP_ADDRESS_2'
 op|'='
-string|"'address_2'"
+string|"'192.168.1.6'"
 newline|'\n'
 name|'db'
 op|'.'
@@ -23496,7 +23496,7 @@ newline|'\n'
 nl|'\n'
 name|'FIXED_IP_ADDRESS_1'
 op|'='
-string|"'address_1'"
+string|"'192.168.1.5'"
 newline|'\n'
 name|'db'
 op|'.'
@@ -23523,7 +23523,7 @@ op|')'
 newline|'\n'
 name|'FIXED_IP_ADDRESS_2'
 op|'='
-string|"'address_2'"
+string|"'192.168.1.6'"
 newline|'\n'
 name|'db'
 op|'.'
@@ -23587,7 +23587,7 @@ name|'id'
 op|','
 name|'address'
 op|'='
-string|'"another_addr"'
+string|'"192.168.1.7"'
 op|')'
 op|')'
 newline|'\n'
@@ -24220,7 +24220,7 @@ newline|'\n'
 indent|'        '
 name|'address'
 op|'='
-string|"'fixed_ip_address'"
+string|"'192.168.1.5'"
 newline|'\n'
 name|'params'
 op|'='
@@ -24323,7 +24323,7 @@ op|','
 nl|'\n'
 string|"'address'"
 op|':'
-string|"'localhost'"
+string|"'192.168.1.5'"
 op|','
 nl|'\n'
 string|"'allocated'"
@@ -24397,11 +24397,11 @@ newline|'\n'
 indent|'        '
 name|'address_1'
 op|'='
-string|"'fixed_ip_address'"
+string|"'192.168.1.5'"
 newline|'\n'
 name|'address_2'
 op|'='
-string|"'fixed_ip_duplicate_address'"
+string|"'192.168.1.6'"
 newline|'\n'
 name|'instance_uuid'
 op|'='
@@ -24655,12 +24655,13 @@ newline|'\n'
 indent|'        '
 name|'address_1'
 op|'='
-string|"'fixed_ip_address_1'"
+string|"'192.168.1.5'"
 newline|'\n'
 name|'address_2'
 op|'='
-string|"'fixed_ip_address_2'"
+string|"'192.168.1.6'"
 newline|'\n'
+nl|'\n'
 name|'instance_uuid'
 op|'='
 name|'self'
@@ -24909,7 +24910,7 @@ newline|'\n'
 indent|'        '
 name|'address'
 op|'='
-string|"'fixed_ip_address'"
+string|"'192.168.1.5'"
 newline|'\n'
 name|'instance_uuid'
 op|'='
@@ -25102,7 +25103,7 @@ newline|'\n'
 indent|'        '
 name|'address'
 op|'='
-string|"'fixed_ip_address'"
+string|"'192.168.1.5'"
 newline|'\n'
 name|'instance_uuid'
 op|'='
@@ -25234,7 +25235,7 @@ newline|'\n'
 indent|'        '
 name|'address'
 op|'='
-string|"'fixed_ip_address'"
+string|"'192.168.1.5'"
 newline|'\n'
 name|'instance_uuid'
 op|'='
@@ -25403,7 +25404,8 @@ name|'self'
 op|'.'
 name|'ctxt'
 op|','
-string|"'x'"
+nl|'\n'
+string|"'192.168.1.5'"
 op|')'
 newline|'\n'
 nl|'\n'
@@ -25440,7 +25442,8 @@ name|'self'
 op|'.'
 name|'ctxt'
 op|','
-string|"'x'"
+nl|'\n'
+string|"'192.168.1.6'"
 op|')'
 newline|'\n'
 nl|'\n'
@@ -25456,7 +25459,7 @@ newline|'\n'
 indent|'        '
 name|'address'
 op|'='
-string|"'fixed_ip_address'"
+string|"'192.168.1.5'"
 newline|'\n'
 name|'instance_uuid'
 op|'='
@@ -25687,7 +25690,7 @@ op|'.'
 name|'ctxt'
 op|','
 nl|'\n'
-string|"'fixed_ip_address'"
+string|"'192.168.1.5'"
 op|','
 op|'{'
 op|'}'
@@ -25777,7 +25780,7 @@ string|"'192.168.133.1'"
 op|','
 string|"'address'"
 op|':'
-string|"'localhost'"
+string|"'10.0.0.2'"
 op|','
 nl|'\n'
 string|"'allocated'"
@@ -25824,7 +25827,7 @@ string|"'127.0.0.1'"
 op|','
 string|"'address'"
 op|':'
-string|"'localhost'"
+string|"'10.0.0.3'"
 op|','
 string|"'allocated'"
 op|':'
@@ -27369,7 +27372,7 @@ name|'self'
 op|'.'
 name|'ctxt'
 op|','
-string|"'non exist'"
+string|"'10.10.10.10'"
 op|','
 string|"'some'"
 op|','
@@ -27833,7 +27836,8 @@ name|'self'
 op|'.'
 name|'ctxt'
 op|','
-string|"'non exist'"
+nl|'\n'
+string|"'11.11.11.11'"
 op|')'
 newline|'\n'
 nl|'\n'
@@ -28552,7 +28556,7 @@ name|'self'
 op|'.'
 name|'ctxt'
 op|','
-string|"'non_exists_host'"
+string|"'20.20.20.20'"
 op|')'
 newline|'\n'
 nl|'\n'
@@ -35497,7 +35501,7 @@ op|']'
 op|','
 string|"'address'"
 op|':'
-string|"'fake1'"
+string|"'192.168.1.5'"
 op|'}'
 newline|'\n'
 name|'address1'
@@ -35529,7 +35533,7 @@ op|','
 nl|'\n'
 string|"'address'"
 op|':'
-string|"'fake2'"
+string|"'192.168.1.6'"
 op|','
 nl|'\n'
 string|"'allocated'"
@@ -35704,7 +35708,7 @@ op|'='
 op|'{'
 string|"'address'"
 op|':'
-string|"'bar'"
+string|"'192.168.1.5'"
 op|','
 string|"'instance_uuid'"
 op|':'
@@ -35732,7 +35736,7 @@ op|'='
 op|'{'
 string|"'address'"
 op|':'
-string|"'baz'"
+string|"'192.168.1.6'"
 op|','
 nl|'\n'
 string|"'network_id'"
@@ -44619,7 +44623,7 @@ op|'{'
 nl|'\n'
 string|"'address'"
 op|':'
-string|"'address_1'"
+string|"'192.168.2.10'"
 op|','
 nl|'\n'
 string|"'username'"
@@ -44662,7 +44666,7 @@ op|'{'
 nl|'\n'
 string|"'address'"
 op|':'
-string|"'address_2'"
+string|"'192.168.2.11'"
 op|','
 nl|'\n'
 string|"'username'"
@@ -44705,7 +44709,7 @@ op|'{'
 nl|'\n'
 string|"'address'"
 op|':'
-string|"'address_3'"
+string|"'192.168.2.12'"
 op|','
 nl|'\n'
 string|"'username'"
