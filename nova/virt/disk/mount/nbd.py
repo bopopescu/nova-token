@@ -410,8 +410,16 @@ name|'return'
 name|'pid'
 newline|'\n'
 nl|'\n'
-DECL|member|_inner_get_dev
 dedent|''
+op|'@'
+name|'utils'
+op|'.'
+name|'synchronized'
+op|'('
+string|"'nbd-allocation-lock'"
+op|')'
+newline|'\n'
+DECL|member|_inner_get_dev
 name|'def'
 name|'_inner_get_dev'
 op|'('
