@@ -3043,6 +3043,14 @@ string|"'project_id'"
 op|')'
 op|','
 nl|'\n'
+name|'Index'
+op|'('
+string|"'reservations_uuid_idx'"
+op|','
+string|"'uuid'"
+op|')'
+op|','
+nl|'\n'
 op|')'
 newline|'\n'
 DECL|variable|id
