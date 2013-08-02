@@ -326,7 +326,7 @@ nl|'\n'
 DECL|variable|default
 name|'default'
 op|'='
-string|"'nova.virt.xenapi.imageupload.glance.GlanceStore'"
+string|"'nova.virt.xenapi.image.glance.GlanceStore'"
 op|','
 nl|'\n'
 DECL|variable|help
