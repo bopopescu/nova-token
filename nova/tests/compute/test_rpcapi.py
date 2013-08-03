@@ -1655,7 +1655,7 @@ op|','
 nl|'\n'
 name|'version'
 op|'='
-string|"'2.27'"
+string|"'2.35'"
 op|')'
 newline|'\n'
 nl|'\n'
@@ -2916,7 +2916,7 @@ op|','
 nl|'\n'
 name|'version'
 op|'='
-string|"'2.27'"
+string|"'2.35'"
 op|')'
 newline|'\n'
 nl|'\n'
