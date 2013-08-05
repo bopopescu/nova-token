@@ -617,7 +617,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'Regular expression to match iptables rule that should'"
+string|"'Regular expression to match iptables rule that should '"
 nl|'\n'
 string|"'always be on the top.'"
 op|')'
@@ -639,7 +639,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'Regular expression to match iptables rule that should'"
+string|"'Regular expression to match iptables rule that should '"
 nl|'\n'
 string|"'always be on the bottom.'"
 op|')'
