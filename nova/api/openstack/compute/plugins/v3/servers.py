@@ -1914,13 +1914,6 @@ op|'.'
 name|'_action_create_image'
 op|','
 nl|'\n'
-string|"'change_password'"
-op|':'
-name|'self'
-op|'.'
-name|'_action_change_password'
-op|','
-nl|'\n'
 string|"'reboot'"
 op|':'
 name|'self'
