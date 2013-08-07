@@ -1347,11 +1347,11 @@ name|'name'
 op|'='
 string|"'server_test'"
 op|','
-name|'imageRef'
+name|'image_ref'
 op|'='
 name|'image_uuid'
 op|','
-name|'flavorRef'
+name|'flavor_ref'
 op|'='
 number|'2'
 op|')'
@@ -1365,7 +1365,7 @@ name|'server'
 op|'.'
 name|'pop'
 op|'('
-string|"'imageRef'"
+string|"'image_ref'"
 op|','
 name|'None'
 op|')'
@@ -1659,12 +1659,12 @@ op|':'
 string|"'config_drive_test'"
 op|','
 nl|'\n'
-string|"'imageRef'"
+string|"'image_ref'"
 op|':'
 name|'image_href'
 op|','
 nl|'\n'
-string|"'flavorRef'"
+string|"'flavor_ref'"
 op|':'
 name|'flavor_ref'
 op|','
@@ -1807,12 +1807,12 @@ op|':'
 string|"'config_drive_test'"
 op|','
 nl|'\n'
-string|"'imageRef'"
+string|"'image_ref'"
 op|':'
 name|'image_href'
 op|','
 nl|'\n'
-string|"'flavorRef'"
+string|"'flavor_ref'"
 op|':'
 name|'flavor_ref'
 op|','
@@ -1943,12 +1943,12 @@ op|':'
 string|"'config_drive_test'"
 op|','
 nl|'\n'
-string|"'imageRef'"
+string|"'image_ref'"
 op|':'
 name|'image_href'
 op|','
 nl|'\n'
-string|"'flavorRef'"
+string|"'flavor_ref'"
 op|':'
 name|'flavor_ref'
 op|','
@@ -2133,7 +2133,7 @@ newline|'\n'
 indent|'        '
 name|'serial_request'
 op|'='
-string|'"""\n    <server xmlns="http://docs.openstack.org/compute/api/v2"\n        name="config_drive_test"\n        imageRef="1"\n        flavorRef="1"\n        config_drive="true"/>"""'
+string|'"""\n    <server xmlns="http://docs.openstack.org/compute/api/v2"\n        name="config_drive_test"\n        image_ref="1"\n        flavor_ref="1"\n        config_drive="true"/>"""'
 newline|'\n'
 name|'request'
 op|'='
@@ -2159,12 +2159,12 @@ op|':'
 string|'"config_drive_test"'
 op|','
 nl|'\n'
-string|'"imageRef"'
+string|'"image_ref"'
 op|':'
 string|'"1"'
 op|','
 nl|'\n'
-string|'"flavorRef"'
+string|'"flavor_ref"'
 op|':'
 string|'"1"'
 op|','

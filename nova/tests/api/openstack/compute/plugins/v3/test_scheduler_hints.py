@@ -381,12 +381,12 @@ op|':'
 string|"'server_test'"
 op|','
 nl|'\n'
-string|"'imageRef'"
+string|"'image_ref'"
 op|':'
 string|"'cedef40a-ed67-4d10-800e-17455edce175'"
 op|','
 nl|'\n'
-string|"'flavorRef'"
+string|"'flavor_ref'"
 op|':'
 string|"'1'"
 op|','
@@ -538,12 +538,12 @@ op|':'
 string|"'server_test'"
 op|','
 nl|'\n'
-string|"'imageRef'"
+string|"'image_ref'"
 op|':'
 string|"'cedef40a-ed67-4d10-800e-17455edce175'"
 op|','
 nl|'\n'
-string|"'flavorRef'"
+string|"'flavor_ref'"
 op|':'
 string|"'1'"
 op|','
@@ -643,12 +643,12 @@ op|':'
 string|"'server_test'"
 op|','
 nl|'\n'
-string|"'imageRef'"
+string|"'image_ref'"
 op|':'
 string|"'cedef40a-ed67-4d10-800e-17455edce175'"
 op|','
 nl|'\n'
-string|"'flavorRef'"
+string|"'flavor_ref'"
 op|':'
 string|"'1'"
 op|','
@@ -1511,11 +1511,11 @@ name|'name'
 op|'='
 string|"'server_test'"
 op|','
-name|'imageRef'
+name|'image_ref'
 op|'='
 name|'image_uuid'
 op|','
-name|'flavorRef'
+name|'flavor_ref'
 op|'='
 number|'2'
 op|')'
@@ -1529,7 +1529,7 @@ name|'server'
 op|'.'
 name|'pop'
 op|'('
-string|"'imageRef'"
+string|"'image_ref'"
 op|','
 name|'None'
 op|')'
@@ -1908,7 +1908,7 @@ newline|'\n'
 indent|'        '
 name|'serial_request'
 op|'='
-string|'"""\n<ns2:server xmlns:ns2="http://docs.openstack.org/compute/api/v3"\n     name="new-server-test"\n     imageRef="1"\n     flavorRef="2">\n     <ns2:metadata><ns2:meta key="hello">world</ns2:meta></ns2:metadata>\n     <os:scheduler_hints\n     xmlns:os="http://docs.openstack.org/compute/ext/scheduler-hints/api/v3">\n             <hypervisor>xen</hypervisor>\n             <near>eb999657-dd6b-464e-8713-95c532ac3b18</near>\n     </os:scheduler_hints>\n     </ns2:server>\n        """'
+string|'"""\n<ns2:server xmlns:ns2="http://docs.openstack.org/compute/api/v3"\n     name="new-server-test"\n     image_ref="1"\n     flavor_ref="2">\n     <ns2:metadata><ns2:meta key="hello">world</ns2:meta></ns2:metadata>\n     <os:scheduler_hints\n     xmlns:os="http://docs.openstack.org/compute/ext/scheduler-hints/api/v3">\n             <hypervisor>xen</hypervisor>\n             <near>eb999657-dd6b-464e-8713-95c532ac3b18</near>\n     </os:scheduler_hints>\n     </ns2:server>\n        """'
 newline|'\n'
 name|'request'
 op|'='
@@ -1954,12 +1954,12 @@ op|':'
 string|'"new-server-test"'
 op|','
 nl|'\n'
-string|'"imageRef"'
+string|'"image_ref"'
 op|':'
 string|'"1"'
 op|','
 nl|'\n'
-string|'"flavorRef"'
+string|'"flavor_ref"'
 op|':'
 string|'"2"'
 op|','
