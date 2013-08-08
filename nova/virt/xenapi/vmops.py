@@ -332,7 +332,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'Object Store Driver used to handle image uploads.'"
+string|"'Dom0 plugin driver used to handle image uploads.'"
 op|')'
 op|','
 nl|'\n'
