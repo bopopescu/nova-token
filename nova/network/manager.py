@@ -1571,7 +1571,7 @@ name|'__init__'
 op|'('
 name|'service_name'
 op|'='
-string|"'cells'"
+string|"'network'"
 op|','
 nl|'\n'
 op|'*'
