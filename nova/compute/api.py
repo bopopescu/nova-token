@@ -428,11 +428,6 @@ op|'('
 string|"'default_schedule_zone'"
 op|','
 nl|'\n'
-name|'default'
-op|'='
-name|'None'
-op|','
-nl|'\n'
 name|'help'
 op|'='
 string|"'availability zone to use when user doesn\\'t specify one'"

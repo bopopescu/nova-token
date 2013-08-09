@@ -172,12 +172,6 @@ op|'('
 string|"'force_config_drive'"
 op|','
 nl|'\n'
-DECL|variable|default
-name|'default'
-op|'='
-name|'None'
-op|','
-nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='

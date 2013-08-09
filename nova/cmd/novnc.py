@@ -151,12 +151,6 @@ op|'('
 string|"'key'"
 op|','
 nl|'\n'
-DECL|variable|default
-name|'default'
-op|'='
-name|'None'
-op|','
-nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='

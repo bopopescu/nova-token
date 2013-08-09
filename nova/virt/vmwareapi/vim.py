@@ -115,12 +115,6 @@ op|'('
 string|"'wsdl_location'"
 op|','
 nl|'\n'
-DECL|variable|default
-name|'default'
-op|'='
-name|'None'
-op|','
-nl|'\n'
 DECL|variable|deprecated_name
 name|'deprecated_name'
 op|'='
