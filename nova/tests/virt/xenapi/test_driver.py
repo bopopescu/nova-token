@@ -133,6 +133,11 @@ op|':'
 string|"'somename'"
 op|','
 nl|'\n'
+string|"'supported_instances'"
+op|':'
+string|"'x86_64'"
+op|','
+nl|'\n'
 string|"'host_cpu_info'"
 op|':'
 op|'{'
