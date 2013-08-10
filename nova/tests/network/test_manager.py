@@ -981,7 +981,7 @@ op|','
 nl|'\n'
 string|"'gateway_v6'"
 op|':'
-string|"'fe80::def'"
+string|"'2001:db8:0:1::1'"
 op|','
 nl|'\n'
 string|"'ip6s'"
@@ -1096,7 +1096,7 @@ op|','
 nl|'\n'
 string|"'gateway'"
 op|':'
-string|"'fe80::def'"
+string|"'2001:db8:0:1::1'"
 op|'}'
 op|']'
 newline|'\n'

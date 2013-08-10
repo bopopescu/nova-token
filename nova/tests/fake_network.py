@@ -2097,7 +2097,9 @@ op|','
 nl|'\n'
 name|'gateway'
 op|'='
-string|"'fe80::def'"
+string|"'2001:db8:0:%x::1'"
+op|'%'
+name|'i'
 op|')'
 newline|'\n'
 name|'return'
