@@ -210,6 +210,13 @@ string|"'ephemeral'"
 op|')'
 op|')'
 newline|'\n'
+name|'elem'
+op|'.'
+name|'set'
+op|'('
+string|"'disabled'"
+op|')'
+newline|'\n'
 nl|'\n'
 dedent|''
 name|'xmlutil'
