@@ -18380,7 +18380,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'        '
-string|'"""Retrieve resource info.\n\n        This method is called as a periodic task and is used only\n        in live migration currently.\n\n        :param nodename: ignored in this driver\n        :returns: dictionary containing resource info\n        """'
+string|'"""Retrieve resource information.\n\n        This method is called when nova-compute launches, and\n        as part of a periodic task that records the results in the DB.\n\n        :param nodename: ignored in this driver\n        :returns: dictionary describing resources\n\n        """'
 newline|'\n'
 nl|'\n'
 DECL|function|_get_disk_available_least
