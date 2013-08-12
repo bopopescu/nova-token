@@ -60,6 +60,7 @@ op|'.'
 name|'gettextutils'
 name|'import'
 name|'_'
+comment|'# noqa'
 newline|'\n'
 name|'from'
 name|'nova'
@@ -114,7 +115,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'AMQP topic(s) used for openstack notifications'"
+string|"'AMQP topic(s) used for OpenStack notifications'"
 op|')'
 newline|'\n'
 nl|'\n'
