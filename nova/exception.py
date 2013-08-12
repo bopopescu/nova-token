@@ -5548,17 +5548,22 @@ op|')'
 newline|'\n'
 nl|'\n'
 nl|'\n'
-DECL|class|InvalidInstanceIDMalformed
+DECL|class|InvalidInstanceIDMalformedEC2
 dedent|''
 name|'class'
-name|'InvalidInstanceIDMalformed'
+name|'InvalidInstanceIDMalformedEC2'
 op|'('
 name|'Invalid'
 op|')'
 op|':'
 newline|'\n'
-DECL|variable|msg_fmt
+DECL|variable|ec2_code
 indent|'    '
+name|'ec2_code'
+op|'='
+string|"'InvalidInstanceID.Malformed'"
+newline|'\n'
+DECL|variable|msg_fmt
 name|'msg_fmt'
 op|'='
 name|'_'
