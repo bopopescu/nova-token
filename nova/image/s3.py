@@ -196,7 +196,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'hostname or ip for openstack to use when accessing '"
+string|"'hostname or ip for OpenStack to use when accessing '"
 nl|'\n'
 string|"'the s3 api'"
 op|')'
