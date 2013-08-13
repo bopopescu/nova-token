@@ -970,8 +970,17 @@ name|'NovaException'
 op|')'
 op|':'
 newline|'\n'
-DECL|variable|msg_fmt
+comment|'# NOTE(jruzicka): IncorrectState is used for volumes only in EC2,'
+nl|'\n'
+comment|'# but it still seems like the most appropriate option.'
+nl|'\n'
+DECL|variable|ec2_code
 indent|'    '
+name|'ec2_code'
+op|'='
+string|"'IncorrectState'"
+newline|'\n'
+DECL|variable|msg_fmt
 name|'msg_fmt'
 op|'='
 name|'_'
@@ -1235,8 +1244,13 @@ name|'Invalid'
 op|')'
 op|':'
 newline|'\n'
-DECL|variable|msg_fmt
+DECL|variable|ec2_code
 indent|'    '
+name|'ec2_code'
+op|'='
+string|"'IncorrectState'"
+newline|'\n'
+DECL|variable|msg_fmt
 name|'msg_fmt'
 op|'='
 name|'_'
