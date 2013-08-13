@@ -262,7 +262,7 @@ nl|'\n'
 DECL|variable|RPC_API_VERSION
 name|'RPC_API_VERSION'
 op|'='
-string|"'2.7'"
+string|"'2.8'"
 newline|'\n'
 nl|'\n'
 DECL|member|__init__
@@ -966,6 +966,10 @@ op|','
 name|'request_spec'
 op|')'
 newline|'\n'
+nl|'\n'
+comment|'# NOTE(timello): This method is deprecated and its functionality has'
+nl|'\n'
+comment|'# been moved to conductor. This should be removed in RPC_API_VERSION 3.0.'
 nl|'\n'
 DECL|member|prep_resize
 dedent|''
