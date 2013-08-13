@@ -163,10 +163,6 @@ name|'StrOpt'
 op|'('
 string|"'notify_on_state_change'"
 op|','
-name|'default'
-op|'='
-name|'None'
-op|','
 nl|'\n'
 DECL|variable|help
 name|'help'

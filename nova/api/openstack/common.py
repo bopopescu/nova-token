@@ -166,12 +166,6 @@ op|'('
 string|"'osapi_compute_link_prefix'"
 op|','
 nl|'\n'
-DECL|variable|default
-name|'default'
-op|'='
-name|'None'
-op|','
-nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
@@ -186,12 +180,6 @@ op|'.'
 name|'StrOpt'
 op|'('
 string|"'osapi_glance_link_prefix'"
-op|','
-nl|'\n'
-DECL|variable|default
-name|'default'
-op|'='
-name|'None'
 op|','
 nl|'\n'
 DECL|variable|help
