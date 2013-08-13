@@ -56,6 +56,11 @@ op|'('
 string|"'nova.objects.security_group'"
 op|')'
 newline|'\n'
+name|'__import__'
+op|'('
+string|"'nova.objects.migration'"
+op|')'
+newline|'\n'
 dedent|''
 endmarker|''
 end_unit
