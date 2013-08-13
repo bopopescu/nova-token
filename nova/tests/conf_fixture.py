@@ -285,17 +285,6 @@ name|'conf'
 op|'.'
 name|'set_default'
 op|'('
-string|"'fake_rabbit'"
-op|','
-name|'True'
-op|')'
-newline|'\n'
-name|'self'
-op|'.'
-name|'conf'
-op|'.'
-name|'set_default'
-op|'('
 string|"'flat_network_bridge'"
 op|','
 string|"'br100'"
