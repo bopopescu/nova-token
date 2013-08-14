@@ -20572,8 +20572,6 @@ name|'stubs'
 op|'.'
 name|'Set'
 op|'('
-name|'compute_api'
-op|'.'
 name|'db'
 op|','
 string|"'instance_destroy'"
