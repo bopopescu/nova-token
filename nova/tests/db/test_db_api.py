@@ -41548,6 +41548,16 @@ nl|'\n'
 name|'hypervisor_hostname'
 op|'='
 string|"'abracadabra104'"
+op|','
+nl|'\n'
+name|'host_ip'
+op|'='
+string|"'127.0.0.1'"
+op|','
+nl|'\n'
+name|'supported_instances'
+op|'='
+string|"''"
 op|')'
 newline|'\n'
 comment|'# add some random stats'
