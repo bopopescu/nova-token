@@ -1244,11 +1244,6 @@ op|'='
 op|'['
 string|"'reset_network'"
 op|','
-string|"'lock'"
-op|','
-string|"'unlock'"
-op|','
-nl|'\n'
 string|"'inject_network_info'"
 op|']'
 newline|'\n'
@@ -1526,11 +1521,6 @@ op|'='
 op|'['
 string|"'reset_network'"
 op|','
-string|"'lock'"
-op|','
-string|"'unlock'"
-op|','
-nl|'\n'
 string|"'inject_network_info'"
 op|']'
 newline|'\n'
@@ -2460,7 +2450,7 @@ name|'_stub_instance_get'
 op|'('
 name|'objects'
 op|'='
-name|'False'
+name|'True'
 op|')'
 newline|'\n'
 nl|'\n'
