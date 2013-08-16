@@ -1120,8 +1120,6 @@ newline|'\n'
 name|'actions_not_objectified'
 op|'='
 op|'['
-string|"'resetNetwork'"
-op|','
 string|"'injectNetworkInfo'"
 op|']'
 newline|'\n'
@@ -1343,8 +1341,6 @@ newline|'\n'
 name|'actions_not_objectified'
 op|'='
 op|'['
-string|"'resetNetwork'"
-op|','
 string|"'injectNetworkInfo'"
 op|']'
 newline|'\n'

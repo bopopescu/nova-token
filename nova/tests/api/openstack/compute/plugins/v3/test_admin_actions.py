@@ -1242,8 +1242,6 @@ newline|'\n'
 name|'actions_not_objectified'
 op|'='
 op|'['
-string|"'reset_network'"
-op|','
 string|"'inject_network_info'"
 op|']'
 newline|'\n'
@@ -1519,8 +1517,6 @@ newline|'\n'
 name|'actions_not_objectified'
 op|'='
 op|'['
-string|"'reset_network'"
-op|','
 string|"'inject_network_info'"
 op|']'
 newline|'\n'
@@ -1643,8 +1639,6 @@ newline|'\n'
 name|'actions_not_objectified'
 op|'='
 op|'['
-string|"'reset_network'"
-op|','
 string|"'inject_network_info'"
 op|']'
 newline|'\n'
