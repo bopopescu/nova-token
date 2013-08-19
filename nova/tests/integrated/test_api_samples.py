@@ -21483,7 +21483,11 @@ op|'{'
 nl|'\n'
 string|"'host'"
 op|':'
-string|"'TargetHost'"
+name|'self'
+op|'.'
+name|'compute'
+op|'.'
+name|'host'
 op|','
 nl|'\n'
 string|'"adminPass"'
