@@ -91,8 +91,14 @@ name|'_IntegratedTestBase'
 op|')'
 op|':'
 newline|'\n'
-DECL|member|_get_flags
+DECL|variable|_api_version
 indent|'    '
+name|'_api_version'
+op|'='
+string|"'v2'"
+newline|'\n'
+nl|'\n'
+DECL|member|_get_flags
 name|'def'
 name|'_get_flags'
 op|'('

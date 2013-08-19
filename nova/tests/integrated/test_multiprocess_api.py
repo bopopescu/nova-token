@@ -94,8 +94,14 @@ name|'_IntegratedTestBase'
 op|')'
 op|':'
 newline|'\n'
-DECL|member|_start_api_service
+DECL|variable|_api_version
 indent|'    '
+name|'_api_version'
+op|'='
+string|"'v2'"
+newline|'\n'
+nl|'\n'
+DECL|member|_start_api_service
 name|'def'
 name|'_start_api_service'
 op|'('
