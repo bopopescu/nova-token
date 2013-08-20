@@ -8559,6 +8559,10 @@ op|'{'
 string|"'uuid'"
 op|':'
 string|"'sr_uuid'"
+op|','
+string|"'type'"
+op|':'
+string|"'ext'"
 op|'}'
 op|')'
 newline|'\n'
