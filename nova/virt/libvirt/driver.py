@@ -7243,6 +7243,14 @@ string|"'ramdisk_id'"
 op|']'
 op|','
 nl|'\n'
+string|"'os_type'"
+op|':'
+name|'instance'
+op|'['
+string|"'os_type'"
+op|']'
+op|','
+nl|'\n'
 op|'}'
 nl|'\n'
 op|'}'
