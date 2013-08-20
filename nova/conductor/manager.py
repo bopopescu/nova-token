@@ -384,7 +384,7 @@ nl|'\n'
 DECL|variable|RPC_API_VERSION
 name|'RPC_API_VERSION'
 op|'='
-string|"'1.56'"
+string|"'1.57'"
 newline|'\n'
 nl|'\n'
 DECL|member|__init__
@@ -1157,6 +1157,8 @@ op|'('
 name|'migrations'
 op|')'
 newline|'\n'
+nl|'\n'
+comment|'# NOTE(comstud): This method can be removed in v2.0 of the RPC API.'
 nl|'\n'
 DECL|member|migration_create
 dedent|''
