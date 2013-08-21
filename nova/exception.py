@@ -2365,8 +2365,13 @@ name|'NotFound'
 op|')'
 op|':'
 newline|'\n'
-DECL|variable|msg_fmt
+DECL|variable|ec2_code
 indent|'    '
+name|'ec2_code'
+op|'='
+string|"'InvalidVolumeID.NotFound'"
+newline|'\n'
+DECL|variable|msg_fmt
 name|'msg_fmt'
 op|'='
 name|'_'
@@ -2385,8 +2390,13 @@ name|'NotFound'
 op|')'
 op|':'
 newline|'\n'
-DECL|variable|msg_fmt
+DECL|variable|ec2_code
 indent|'    '
+name|'ec2_code'
+op|'='
+string|"'InvalidSnapshotID.NotFound'"
+newline|'\n'
+DECL|variable|msg_fmt
 name|'msg_fmt'
 op|'='
 name|'_'
@@ -3433,8 +3443,13 @@ name|'NotFound'
 op|')'
 op|':'
 newline|'\n'
-DECL|variable|msg_fmt
+DECL|variable|ec2_code
 indent|'    '
+name|'ec2_code'
+op|'='
+string|"'InvalidKeyPair.NotFound'"
+newline|'\n'
+DECL|variable|msg_fmt
 name|'msg_fmt'
 op|'='
 name|'_'
@@ -3861,8 +3876,13 @@ name|'Invalid'
 op|')'
 op|':'
 newline|'\n'
-DECL|variable|msg_fmt
+DECL|variable|ec2_code
 indent|'    '
+name|'ec2_code'
+op|'='
+string|"'InvalidGroup.Duplicate'"
+newline|'\n'
+DECL|variable|msg_fmt
 name|'msg_fmt'
 op|'='
 name|'_'
@@ -5525,8 +5545,13 @@ name|'NotFound'
 op|')'
 op|':'
 newline|'\n'
-DECL|variable|msg_fmt
+DECL|variable|ec2_code
 indent|'    '
+name|'ec2_code'
+op|'='
+string|"'InvalidInstanceID.NotFound'"
+newline|'\n'
+DECL|variable|msg_fmt
 name|'msg_fmt'
 op|'='
 name|'_'
