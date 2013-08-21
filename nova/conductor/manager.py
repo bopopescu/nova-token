@@ -384,7 +384,7 @@ nl|'\n'
 DECL|variable|RPC_API_VERSION
 name|'RPC_API_VERSION'
 op|'='
-string|"'1.57'"
+string|"'1.58'"
 newline|'\n'
 nl|'\n'
 DECL|member|__init__
@@ -1017,6 +1017,10 @@ op|'('
 name|'result'
 op|')'
 newline|'\n'
+nl|'\n'
+comment|'# NOTE(comstud): This method is now deprecated and can be removed in'
+nl|'\n'
+comment|'# version v2.0 of the RPC API'
 nl|'\n'
 dedent|''
 op|'@'
