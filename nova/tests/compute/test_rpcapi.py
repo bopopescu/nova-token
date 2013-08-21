@@ -1067,7 +1067,7 @@ op|')'
 op|','
 name|'version'
 op|'='
-string|"'2.8'"
+string|"'2.46'"
 op|')'
 newline|'\n'
 nl|'\n'
