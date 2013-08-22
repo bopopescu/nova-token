@@ -473,6 +473,8 @@ string|"'Total number of VNC ports'"
 op|')'
 op|','
 nl|'\n'
+comment|'# Deprecated, remove in Icehouse'
+nl|'\n'
 name|'cfg'
 op|'.'
 name|'StrOpt'
@@ -495,7 +497,13 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'VNC password'"
+string|"'DEPRECATED. VNC password. The password-based access to '"
+nl|'\n'
+string|"'VNC consoles will be removed in the next release. The '"
+nl|'\n'
+string|"'default value will disable password protection on the '"
+nl|'\n'
+string|"'VNC console.'"
 op|','
 nl|'\n'
 DECL|variable|secret
