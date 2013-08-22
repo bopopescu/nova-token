@@ -398,6 +398,9 @@ op|','
 string|"'vpn'"
 op|','
 string|"'macs'"
+op|','
+nl|'\n'
+string|"'dhcp_options'"
 op|']'
 op|','
 nl|'\n'
