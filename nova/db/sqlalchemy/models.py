@@ -774,32 +774,37 @@ op|'='
 name|'False'
 op|')'
 newline|'\n'
-nl|'\n'
-DECL|variable|primary_join
-name|'primary_join'
-op|'='
-op|'('
-string|"'and_(ComputeNodeStat.compute_node_id == '"
-nl|'\n'
-string|"'ComputeNode.id, ComputeNodeStat.deleted == 0)'"
-op|')'
-newline|'\n'
-DECL|variable|stats
-name|'stats'
+DECL|variable|compute_node
+name|'compute_node'
 op|'='
 name|'relationship'
 op|'('
-string|'"ComputeNode"'
+name|'ComputeNode'
 op|','
 name|'backref'
 op|'='
-string|'"stats"'
+name|'backref'
+op|'('
+string|"'stats'"
+op|')'
+op|','
+nl|'\n'
+DECL|variable|foreign_keys
+name|'foreign_keys'
+op|'='
+name|'compute_node_id'
 op|','
 nl|'\n'
 DECL|variable|primaryjoin
 name|'primaryjoin'
 op|'='
-name|'primary_join'
+string|"'and_('"
+nl|'\n'
+string|"'ComputeNodeStat.compute_node_id == '"
+nl|'\n'
+string|"'ComputeNode.id,'"
+nl|'\n'
+string|"'ComputeNodeStat.deleted == 0)'"
 op|')'
 newline|'\n'
 nl|'\n'
