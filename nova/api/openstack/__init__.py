@@ -280,6 +280,8 @@ nl|'\n'
 string|"'keypairs'"
 op|','
 string|"'console-output'"
+op|','
+string|"'versions'"
 op|']'
 op|')'
 newline|'\n'
