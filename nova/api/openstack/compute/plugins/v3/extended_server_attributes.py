@@ -405,7 +405,7 @@ op|'='
 op|'('
 string|'"http://docs.openstack.org/compute/ext/"'
 nl|'\n'
-string|'"ExtendedServerAttributes/api/v3"'
+string|'"extended_server_attributes/api/v3"'
 op|')'
 newline|'\n'
 DECL|variable|version
