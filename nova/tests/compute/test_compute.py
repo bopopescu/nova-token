@@ -33527,21 +33527,6 @@ name|'self'
 op|'.'
 name|'assertTrue'
 op|'('
-name|'values'
-op|'['
-string|"'details'"
-op|']'
-op|'.'
-name|'startswith'
-op|'('
-string|"'test'"
-op|')'
-op|')'
-newline|'\n'
-name|'self'
-op|'.'
-name|'assertTrue'
-op|'('
 string|"'raise NotImplementedError'"
 name|'in'
 name|'values'
@@ -33568,7 +33553,7 @@ op|','
 nl|'\n'
 string|"'message'"
 op|':'
-string|"'NotImplementedError'"
+string|"'test'"
 op|','
 nl|'\n'
 string|"'instance_uuid'"
@@ -33715,21 +33700,6 @@ name|'self'
 op|'.'
 name|'assertTrue'
 op|'('
-name|'values'
-op|'['
-string|"'details'"
-op|']'
-op|'.'
-name|'startswith'
-op|'('
-string|"'Remote error'"
-op|')'
-op|')'
-newline|'\n'
-name|'self'
-op|'.'
-name|'assertTrue'
-op|'('
 string|"'raise rpc_common.RemoteError'"
 nl|'\n'
 name|'in'
@@ -33765,7 +33735,7 @@ op|','
 nl|'\n'
 string|"'message'"
 op|':'
-string|"'My Test Message'"
+string|"'Remote error: test My Test Message\\nNone.'"
 op|','
 nl|'\n'
 string|"'host'"
@@ -33914,12 +33884,12 @@ op|','
 nl|'\n'
 string|"'message'"
 op|':'
-string|"'Invalid'"
+string|"'fake details'"
 op|','
 nl|'\n'
 string|"'details'"
 op|':'
-string|"'fake details'"
+string|"''"
 op|','
 nl|'\n'
 string|"'instance_uuid'"
@@ -34076,12 +34046,12 @@ op|','
 nl|'\n'
 string|"'message'"
 op|':'
-string|"'NotImplementedError'"
+string|"'test'"
 op|','
 nl|'\n'
 string|"'details'"
 op|':'
-string|"'test'"
+string|"''"
 op|','
 nl|'\n'
 string|"'instance_uuid'"
