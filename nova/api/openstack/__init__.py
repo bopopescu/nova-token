@@ -278,6 +278,8 @@ string|"'server-metadata'"
 op|','
 nl|'\n'
 string|"'keypairs'"
+op|','
+string|"'console-output'"
 op|']'
 op|')'
 newline|'\n'

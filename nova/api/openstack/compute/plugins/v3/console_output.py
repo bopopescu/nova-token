@@ -83,7 +83,7 @@ nl|'\n'
 DECL|variable|ALIAS
 name|'ALIAS'
 op|'='
-string|'"os-console-output"'
+string|'"console-output"'
 newline|'\n'
 DECL|variable|authorize
 name|'authorize'
@@ -460,9 +460,9 @@ DECL|variable|namespace
 name|'namespace'
 op|'='
 op|'('
-string|'"http://docs.openstack.org/compute/ext/"'
+string|'"http://docs.openstack.org/compute/core/"'
 nl|'\n'
-string|'"os-console-output/api/v3"'
+string|'"console-output/api/v3"'
 op|')'
 newline|'\n'
 DECL|variable|version
