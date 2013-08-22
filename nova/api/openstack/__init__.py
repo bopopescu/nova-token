@@ -275,6 +275,9 @@ op|','
 string|"'servers'"
 op|','
 string|"'server-metadata'"
+op|','
+nl|'\n'
+string|"'keypairs'"
 op|']'
 op|')'
 newline|'\n'
