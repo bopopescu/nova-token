@@ -1089,7 +1089,7 @@ name|'self'
 op|'.'
 name|'assertEqual'
 op|'('
-string|"'DELETED'"
+string|"'SOFT_DELETED'"
 op|','
 name|'found_server'
 op|'['
@@ -1257,7 +1257,7 @@ name|'self'
 op|'.'
 name|'assertEqual'
 op|'('
-string|"'DELETED'"
+string|"'SOFT_DELETED'"
 op|','
 name|'found_server'
 op|'['
@@ -1453,7 +1453,7 @@ name|'self'
 op|'.'
 name|'assertEqual'
 op|'('
-string|"'DELETED'"
+string|"'SOFT_DELETED'"
 op|','
 name|'found_server'
 op|'['
