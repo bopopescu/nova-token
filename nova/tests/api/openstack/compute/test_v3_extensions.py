@@ -406,7 +406,7 @@ name|'self'
 op|'.'
 name|'assertIn'
 op|'('
-string|"'os-fixed-ips'"
+string|"'os-hosts'"
 op|','
 name|'app'
 op|'.'
@@ -422,7 +422,7 @@ op|'('
 string|"'extensions_blacklist'"
 op|','
 op|'['
-string|"'os-fixed-ips'"
+string|"'os-hosts'"
 op|']'
 op|','
 string|"'osapi_v3'"
@@ -440,7 +440,7 @@ name|'self'
 op|'.'
 name|'assertNotIn'
 op|'('
-string|"'os-fixed-ips'"
+string|"'os-hosts'"
 op|','
 name|'app'
 op|'.'
@@ -505,7 +505,7 @@ name|'self'
 op|'.'
 name|'assertIn'
 op|'('
-string|"'os-fixed-ips'"
+string|"'os-hosts'"
 op|','
 name|'app'
 op|'.'
@@ -523,7 +523,7 @@ op|','
 op|'['
 string|"'servers'"
 op|','
-string|"'os-fixed-ips'"
+string|"'os-hosts'"
 op|']'
 op|','
 nl|'\n'
@@ -542,7 +542,7 @@ name|'self'
 op|'.'
 name|'assertIn'
 op|'('
-string|"'os-fixed-ips'"
+string|"'os-hosts'"
 op|','
 name|'app'
 op|'.'
@@ -607,7 +607,7 @@ name|'self'
 op|'.'
 name|'assertIn'
 op|'('
-string|"'os-fixed-ips'"
+string|"'os-hosts'"
 op|','
 name|'app'
 op|'.'
@@ -641,7 +641,7 @@ name|'self'
 op|'.'
 name|'assertNotIn'
 op|'('
-string|"'os-fixed-ips'"
+string|"'os-hosts'"
 op|','
 name|'app'
 op|'.'
@@ -706,7 +706,7 @@ name|'self'
 op|'.'
 name|'assertIn'
 op|'('
-string|"'os-fixed-ips'"
+string|"'os-hosts'"
 op|','
 name|'app'
 op|'.'
@@ -724,7 +724,7 @@ op|','
 op|'['
 string|"'servers'"
 op|','
-string|"'os-fixed-ips'"
+string|"'os-hosts'"
 op|']'
 op|','
 nl|'\n'
@@ -738,7 +738,7 @@ op|'('
 string|"'extensions_blacklist'"
 op|','
 op|'['
-string|"'os-fixed-ips'"
+string|"'os-hosts'"
 op|']'
 op|','
 string|"'osapi_v3'"
@@ -756,7 +756,7 @@ name|'self'
 op|'.'
 name|'assertNotIn'
 op|'('
-string|"'os-fixed-ips'"
+string|"'os-hosts'"
 op|','
 name|'app'
 op|'.'
