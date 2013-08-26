@@ -149,7 +149,9 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'default flavor to use, testing only'"
+string|"'default flavor to use for the EC2 API only. The Nova API '"
+nl|'\n'
+string|"'does not support a default flavor.'"
 op|')'
 op|','
 nl|'\n'
