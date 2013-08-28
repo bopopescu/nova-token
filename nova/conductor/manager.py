@@ -384,7 +384,7 @@ nl|'\n'
 DECL|variable|RPC_API_VERSION
 name|'RPC_API_VERSION'
 op|'='
-string|"'1.55'"
+string|"'1.56'"
 newline|'\n'
 nl|'\n'
 DECL|member|__init__
@@ -1068,6 +1068,10 @@ op|'('
 name|'migration_ref'
 op|')'
 newline|'\n'
+nl|'\n'
+comment|'# NOTE(comstud): This method is now deprecated and can be removed in'
+nl|'\n'
+comment|'# version v2.0 of the RPC API'
 nl|'\n'
 DECL|member|migration_get_unconfirmed_by_dest_compute
 dedent|''
@@ -4092,6 +4096,10 @@ op|','
 name|'do_cast'
 op|')'
 newline|'\n'
+nl|'\n'
+comment|'# NOTE(comstud): This method is now deprecated and can be removed in'
+nl|'\n'
+comment|'# version v2.0 of the RPC API'
 nl|'\n'
 DECL|member|compute_confirm_resize
 dedent|''
