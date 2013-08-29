@@ -3539,8 +3539,6 @@ name|'image_id'
 op|'='
 name|'Column'
 op|'('
-string|"'image_id'"
-op|','
 name|'String'
 op|'('
 number|'36'
