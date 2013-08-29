@@ -1620,6 +1620,8 @@ op|','
 string|"'limit'"
 op|','
 nl|'\n'
+string|"'page_size'"
+op|','
 string|"'sort_key'"
 op|','
 string|"'sort_dir'"
