@@ -2,7 +2,7 @@ begin_unit
 comment|'# vim: tabstop=4 shiftwidth=4 softtabstop=4'
 nl|'\n'
 nl|'\n'
-comment|'# Copyright 2012 IBM Corp.'
+comment|'# Copyright 2013 IBM Corp.'
 nl|'\n'
 comment|'#'
 nl|'\n'
@@ -205,6 +205,12 @@ DECL|variable|POWERVM_CONNECTION_TIMEOUT
 name|'POWERVM_CONNECTION_TIMEOUT'
 op|'='
 number|'60'
+newline|'\n'
+nl|'\n'
+DECL|variable|POWERVM_LPAR_OPERATION_TIMEOUT
+name|'POWERVM_LPAR_OPERATION_TIMEOUT'
+op|'='
+number|'30'
 newline|'\n'
 endmarker|''
 end_unit
