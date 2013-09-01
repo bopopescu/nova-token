@@ -4367,7 +4367,7 @@ string|'"""Removes a file on the VIOS partition\n\n        :param file_path: abs
 newline|'\n'
 name|'command'
 op|'='
-string|"'rm %s'"
+string|"'rm -f %s'"
 op|'%'
 name|'file_path'
 newline|'\n'
