@@ -4813,7 +4813,7 @@ op|'['
 string|"'project_id'"
 op|']'
 op|','
-string|"'fake'"
+string|"'newfake'"
 op|')'
 newline|'\n'
 name|'self'
@@ -4863,7 +4863,9 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/fake/servers?tenant_id=fake'"
+string|"'/fake/servers'"
+nl|'\n'
+string|"'?all_tenants=1&tenant_id=newfake'"
 op|','
 nl|'\n'
 name|'use_admin_context'
