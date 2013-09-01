@@ -225,9 +225,6 @@ DECL|variable|default
 name|'default'
 op|'='
 op|'['
-string|"'nova.openstack.common.exception'"
-op|','
-nl|'\n'
 string|"'nova.exception'"
 op|','
 nl|'\n'
