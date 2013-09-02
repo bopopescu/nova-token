@@ -6682,7 +6682,7 @@ name|'self'
 op|'.'
 name|'assertTrue'
 op|'('
-string|"'changes_since'"
+string|"'changes-since'"
 name|'in'
 name|'search_opts'
 op|')'
@@ -6721,7 +6721,7 @@ name|'assertEqual'
 op|'('
 name|'search_opts'
 op|'['
-string|"'changes_since'"
+string|"'changes-since'"
 op|']'
 op|','
 name|'changes_since'
