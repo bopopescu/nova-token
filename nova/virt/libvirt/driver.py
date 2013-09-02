@@ -5173,7 +5173,7 @@ name|'pattern'
 op|'='
 name|'instance'
 op|'['
-string|"'name'"
+string|"'uuid'"
 op|']'
 newline|'\n'
 nl|'\n'
