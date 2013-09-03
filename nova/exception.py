@@ -1397,8 +1397,13 @@ name|'Invalid'
 op|')'
 op|':'
 newline|'\n'
-DECL|variable|msg_fmt
+DECL|variable|ec2_code
 indent|'    '
+name|'ec2_code'
+op|'='
+string|"'UnsupportedOperation'"
+newline|'\n'
+DECL|variable|msg_fmt
 name|'msg_fmt'
 op|'='
 name|'_'
@@ -3216,8 +3221,13 @@ name|'NovaException'
 op|')'
 op|':'
 newline|'\n'
-DECL|variable|msg_fmt
+DECL|variable|ec2_code
 indent|'    '
+name|'ec2_code'
+op|'='
+string|"'UnsupportedOperation'"
+newline|'\n'
+DECL|variable|msg_fmt
 name|'msg_fmt'
 op|'='
 name|'_'
@@ -3276,8 +3286,13 @@ name|'NotFound'
 op|')'
 op|':'
 newline|'\n'
-DECL|variable|msg_fmt
+DECL|variable|ec2_code
 indent|'    '
+name|'ec2_code'
+op|'='
+string|'"UnsupportedOpperation"'
+newline|'\n'
+DECL|variable|msg_fmt
 name|'msg_fmt'
 op|'='
 name|'_'
@@ -3426,8 +3441,13 @@ name|'NovaException'
 op|')'
 op|':'
 newline|'\n'
-DECL|variable|msg_fmt
+DECL|variable|ec2_code
 indent|'    '
+name|'ec2_code'
+op|'='
+string|'"UnsupportedOpperation"'
+newline|'\n'
+DECL|variable|msg_fmt
 name|'msg_fmt'
 op|'='
 name|'_'
@@ -3486,8 +3506,13 @@ name|'NotFound'
 op|')'
 op|':'
 newline|'\n'
-DECL|variable|msg_fmt
+DECL|variable|ec2_code
 indent|'    '
+name|'ec2_code'
+op|'='
+string|'"UnsupportedOpperation"'
+newline|'\n'
+DECL|variable|msg_fmt
 name|'msg_fmt'
 op|'='
 name|'_'
@@ -3506,8 +3531,13 @@ name|'NovaException'
 op|')'
 op|':'
 newline|'\n'
-DECL|variable|msg_fmt
+DECL|variable|ec2_code
 indent|'    '
+name|'ec2_code'
+op|'='
+string|'"UnsupportedOpperation"'
+newline|'\n'
+DECL|variable|msg_fmt
 name|'msg_fmt'
 op|'='
 name|'_'
