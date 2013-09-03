@@ -5417,8 +5417,13 @@ name|'QuotaError'
 op|')'
 op|':'
 newline|'\n'
-DECL|variable|msg_fmt
+DECL|variable|ec2_code
 indent|'    '
+name|'ec2_code'
+op|'='
+string|"'SecurityGroupLimitExceeded'"
+newline|'\n'
+DECL|variable|msg_fmt
 name|'msg_fmt'
 op|'='
 name|'_'
