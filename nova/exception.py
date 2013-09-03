@@ -5786,10 +5786,10 @@ op|')'
 newline|'\n'
 nl|'\n'
 nl|'\n'
-DECL|class|InvalidInstanceIDMalformedEC2
+DECL|class|InvalidInstanceIDMalformed
 dedent|''
 name|'class'
-name|'InvalidInstanceIDMalformedEC2'
+name|'InvalidInstanceIDMalformed'
 op|'('
 name|'Invalid'
 op|')'
