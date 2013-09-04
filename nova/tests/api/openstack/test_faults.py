@@ -295,7 +295,7 @@ op|'('
 nl|'\n'
 string|"u'Should be translated.'"
 op|','
-string|"'en_US'"
+name|'None'
 op|')'
 newline|'\n'
 nl|'\n'
