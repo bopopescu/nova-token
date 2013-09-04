@@ -2424,7 +2424,7 @@ op|')'
 op|','
 name|'version'
 op|'='
-string|"'2.16'"
+string|"'2.45'"
 op|')'
 newline|'\n'
 nl|'\n'
