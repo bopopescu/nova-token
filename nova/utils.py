@@ -204,7 +204,7 @@ nl|'\n'
 DECL|variable|notify_decorator
 name|'notify_decorator'
 op|'='
-string|"'nova.openstack.common.notifier.api.notify_decorator'"
+string|"'nova.notifications.notify_decorator'"
 newline|'\n'
 nl|'\n'
 DECL|variable|monkey_patch_opts
@@ -3917,7 +3917,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""If the Flags.monkey_patch set as True,\n    this function patches a decorator\n    for all functions in specified modules.\n    You can set decorators for each modules\n    using CONF.monkey_patch_modules.\n    The format is "Module path:Decorator function".\n    Example:\n      \'nova.api.ec2.cloud:nova.openstack.common.notifier.api.notify_decorator\'\n\n    Parameters of the decorator is as follows.\n    (See nova.openstack.common.notifier.api.notify_decorator)\n\n    name - name of the function\n    function - object of the function\n    """'
+string|'"""If the Flags.monkey_patch set as True,\n    this function patches a decorator\n    for all functions in specified modules.\n    You can set decorators for each modules\n    using CONF.monkey_patch_modules.\n    The format is "Module path:Decorator function".\n    Example:\n      \'nova.api.ec2.cloud:nova.notifications.notify_decorator\'\n\n    Parameters of the decorator is as follows.\n    (See nova.notifications.notify_decorator)\n\n    name - name of the function\n    function - object of the function\n    """'
 newline|'\n'
 comment|'# If CONF.monkey_patch is not True, this function do nothing.'
 nl|'\n'
