@@ -371,9 +371,9 @@ op|'.'
 name|'get'
 op|'('
 string|"'volume_size'"
-op|','
-number|'0'
 op|')'
+name|'or'
+number|'0'
 op|','
 nl|'\n'
 string|"'disk_bus'"
@@ -498,9 +498,9 @@ op|'.'
 name|'get'
 op|'('
 string|"'volume_size'"
-op|','
-number|'0'
 op|')'
+name|'or'
+number|'0'
 op|','
 nl|'\n'
 string|"'disk_bus'"
