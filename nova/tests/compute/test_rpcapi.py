@@ -1118,7 +1118,7 @@ op|')'
 op|','
 name|'version'
 op|'='
-string|"'2.13'"
+string|"'2.47'"
 op|')'
 newline|'\n'
 nl|'\n'
