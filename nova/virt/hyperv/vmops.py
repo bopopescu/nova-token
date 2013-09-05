@@ -299,6 +299,36 @@ string|"'by other apps and services, e.g.: Ceilometer. '"
 nl|'\n'
 string|"'Requires Hyper-V / Windows Server 2012 and above'"
 op|')'
+op|','
+nl|'\n'
+name|'cfg'
+op|'.'
+name|'FloatOpt'
+op|'('
+string|"'dynamic_memory_ratio'"
+op|','
+nl|'\n'
+DECL|variable|default
+name|'default'
+op|'='
+number|'1.0'
+op|','
+nl|'\n'
+DECL|variable|help
+name|'help'
+op|'='
+string|"'Enables dynamic memory allocation (ballooning) when '"
+nl|'\n'
+string|"'set to a value greater than 1. The value expresses '"
+nl|'\n'
+string|"'the ratio between the total RAM assigned to an '"
+nl|'\n'
+string|"'instance and its startup RAM amount. For example a '"
+nl|'\n'
+string|"'ratio of 2.0 for an instance with 1024MB of RAM '"
+nl|'\n'
+string|"'implies 512MB of RAM allocated at startup'"
+op|')'
 nl|'\n'
 op|']'
 newline|'\n'
@@ -1239,6 +1269,13 @@ op|'.'
 name|'hyperv'
 op|'.'
 name|'limit_cpu_features'
+op|','
+nl|'\n'
+name|'CONF'
+op|'.'
+name|'hyperv'
+op|'.'
+name|'dynamic_memory_ratio'
 op|')'
 newline|'\n'
 nl|'\n'
