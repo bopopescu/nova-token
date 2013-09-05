@@ -145,7 +145,7 @@ indent|'    '
 string|'"""Keep specified images to selected hosts."""'
 newline|'\n'
 nl|'\n'
-comment|'# The configurtaion values do not change within a request'
+comment|'# The configuration values do not change within a request'
 nl|'\n'
 DECL|variable|run_filter_once_per_request
 name|'run_filter_once_per_request'
