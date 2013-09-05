@@ -893,7 +893,7 @@ newline|'\n'
 nl|'\n'
 name|'self'
 op|'.'
-name|'assertTrue'
+name|'assertIn'
 op|'('
 string|"'block_device_mapping'"
 op|','
