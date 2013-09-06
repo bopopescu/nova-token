@@ -7046,9 +7046,9 @@ name|'Invalid'
 op|')'
 op|':'
 newline|'\n'
-DECL|variable|mst_fmt
+DECL|variable|msg_fmt
 indent|'    '
-name|'mst_fmt'
+name|'msg_fmt'
 op|'='
 name|'_'
 op|'('
@@ -7066,9 +7066,9 @@ name|'NovaException'
 op|')'
 op|':'
 newline|'\n'
-DECL|variable|mst_fmt
+DECL|variable|msg_fmt
 indent|'    '
-name|'mst_fmt'
+name|'msg_fmt'
 op|'='
 name|'_'
 op|'('
