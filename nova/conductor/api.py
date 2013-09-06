@@ -162,6 +162,19 @@ string|"'full class name for the Manager for conductor'"
 op|')'
 op|','
 nl|'\n'
+name|'cfg'
+op|'.'
+name|'IntOpt'
+op|'('
+string|"'workers'"
+op|','
+nl|'\n'
+DECL|variable|help
+name|'help'
+op|'='
+string|"'Number of workers for OpenStack Conductor service'"
+op|')'
+nl|'\n'
 op|']'
 newline|'\n'
 DECL|variable|conductor_group
