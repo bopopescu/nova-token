@@ -681,7 +681,11 @@ name|'help'
 op|'='
 string|"'If True in multi_host mode, all compute hosts share '"
 nl|'\n'
-string|"'the same dhcp address.'"
+string|"'the same dhcp address. The same IP address used for '"
+nl|'\n'
+string|"'DHCP will be added on each nova-network node which '"
+nl|'\n'
+string|"'is only visible to the vms on the same host.'"
 op|')'
 op|','
 nl|'\n'
