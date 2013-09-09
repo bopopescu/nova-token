@@ -25193,6 +25193,7 @@ op|','
 name|'expected_attrs'
 op|'='
 op|'['
+string|"'system_metadata'"
 op|']'
 op|')'
 newline|'\n'

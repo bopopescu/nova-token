@@ -34731,6 +34731,7 @@ op|'('
 name|'columns_to_join'
 op|','
 op|'['
+string|"'system_metadata'"
 op|']'
 op|')'
 newline|'\n'
