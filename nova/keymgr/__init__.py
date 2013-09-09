@@ -74,7 +74,9 @@ nl|'\n'
 DECL|variable|default
 name|'default'
 op|'='
-string|"'nova.keymgr.key_mgr.KeyManager'"
+string|"'nova.keymgr.'"
+nl|'\n'
+string|"'not_implemented_key_mgr.NotImplementedKeyManager'"
 op|','
 nl|'\n'
 DECL|variable|help
