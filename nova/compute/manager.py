@@ -29455,6 +29455,11 @@ op|':'
 name|'True'
 op|','
 nl|'\n'
+string|"'soft_deleted'"
+op|':'
+name|'False'
+op|','
+nl|'\n'
 string|"'host'"
 op|':'
 name|'CONF'

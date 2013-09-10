@@ -3611,10 +3611,15 @@ string|"'deleted'"
 op|':'
 name|'True'
 op|','
+string|"'soft_deleted'"
+op|':'
+name|'False'
+op|','
 string|"'host'"
 op|':'
 string|"'fake-mini'"
 op|','
+nl|'\n'
 string|"'cleaned'"
 op|':'
 name|'False'
