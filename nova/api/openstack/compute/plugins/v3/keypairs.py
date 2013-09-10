@@ -100,7 +100,7 @@ nl|'\n'
 DECL|variable|ALIAS
 name|'ALIAS'
 op|'='
-string|"'os-keypairs'"
+string|"'keypairs'"
 newline|'\n'
 DECL|variable|authorize
 name|'authorize'
@@ -1332,7 +1332,7 @@ newline|'\n'
 DECL|variable|namespace
 name|'namespace'
 op|'='
-string|'"http://docs.openstack.org/compute/ext/keypairs/api/v3"'
+string|'"http://docs.openstack.org/compute/core/keypairs/api/v3"'
 newline|'\n'
 DECL|variable|version
 name|'version'
@@ -1357,7 +1357,7 @@ name|'extensions'
 op|'.'
 name|'ResourceExtension'
 op|'('
-string|"'os-keypairs'"
+string|"'keypairs'"
 op|','
 nl|'\n'
 name|'KeypairController'

@@ -424,7 +424,7 @@ op|'('
 name|'init_only'
 op|'='
 op|'('
-string|"'os-keypairs'"
+string|"'keypairs'"
 op|','
 string|"'servers'"
 op|')'
@@ -449,7 +449,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v3/os-keypairs'"
+string|"'/v3/keypairs'"
 op|')'
 newline|'\n'
 name|'res'
@@ -546,7 +546,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v3/os-keypairs'"
+string|"'/v3/keypairs'"
 op|')'
 newline|'\n'
 name|'req'
@@ -675,7 +675,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v3/os-keypairs'"
+string|"'/v3/keypairs'"
 op|')'
 newline|'\n'
 name|'req'
@@ -791,7 +791,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v3/os-keypairs'"
+string|"'/v3/keypairs'"
 op|')'
 newline|'\n'
 name|'req'
@@ -905,7 +905,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v3/os-keypairs'"
+string|"'/v3/keypairs'"
 op|')'
 newline|'\n'
 name|'req'
@@ -1054,7 +1054,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v3/os-keypairs'"
+string|"'/v3/keypairs'"
 op|')'
 newline|'\n'
 name|'req'
@@ -1246,7 +1246,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v3/os-keypairs'"
+string|"'/v3/keypairs'"
 op|')'
 newline|'\n'
 name|'req'
@@ -1402,7 +1402,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v3/os-keypairs'"
+string|"'/v3/keypairs'"
 op|')'
 newline|'\n'
 name|'req'
@@ -1525,7 +1525,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v3/os-keypairs'"
+string|"'/v3/keypairs'"
 op|')'
 newline|'\n'
 name|'req'
@@ -1647,7 +1647,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v3/os-keypairs'"
+string|"'/v3/keypairs'"
 op|')'
 newline|'\n'
 name|'req'
@@ -1744,7 +1744,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v3/os-keypairs/FAKE'"
+string|"'/v3/keypairs/FAKE'"
 op|')'
 newline|'\n'
 name|'req'
@@ -1803,7 +1803,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v3/os-keypairs/DOESNOTEXIST'"
+string|"'/v3/keypairs/DOESNOTEXIST'"
 op|')'
 newline|'\n'
 name|'res'
@@ -1891,7 +1891,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v3/os-keypairs/WHAT'"
+string|"'/v3/keypairs/WHAT'"
 op|')'
 newline|'\n'
 name|'res'
@@ -1986,7 +1986,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v3/os-keypairs/FAKE'"
+string|"'/v3/keypairs/FAKE'"
 op|')'
 newline|'\n'
 name|'req'
@@ -2145,7 +2145,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v3/os-keypairs/FAKE'"
+string|"'/v3/keypairs/FAKE'"
 op|')'
 newline|'\n'
 name|'req'
@@ -2467,7 +2467,7 @@ name|'Request'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v3/os-keypairs'"
+string|"'/v3/keypairs'"
 op|')'
 newline|'\n'
 name|'req'
@@ -2702,7 +2702,7 @@ op|'.'
 name|'Rules'
 op|'('
 op|'{'
-string|"'compute_extension:v3:os-keypairs:index'"
+string|"'compute_extension:v3:keypairs:index'"
 op|':'
 nl|'\n'
 name|'policy'
@@ -2729,7 +2729,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v3/fake/os-keypairs'"
+string|"'/v3/keypairs'"
 op|')'
 newline|'\n'
 name|'self'
@@ -2769,7 +2769,7 @@ op|'.'
 name|'Rules'
 op|'('
 op|'{'
-string|"'compute_extension:v3:os-keypairs:index'"
+string|"'compute_extension:v3:keypairs:index'"
 op|':'
 nl|'\n'
 name|'policy'
@@ -2796,7 +2796,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v3/fake/os-keypairs'"
+string|"'/v3/keypairs'"
 op|')'
 newline|'\n'
 name|'res'
@@ -2837,7 +2837,7 @@ op|'.'
 name|'Rules'
 op|'('
 op|'{'
-string|"'compute_extension:v3:os-keypairs:show'"
+string|"'compute_extension:v3:keypairs:show'"
 op|':'
 nl|'\n'
 name|'policy'
@@ -2864,7 +2864,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v3/fake/os-keypairs/FAKE'"
+string|"'/v3/keypairs/FAKE'"
 op|')'
 newline|'\n'
 name|'self'
@@ -2906,7 +2906,7 @@ op|'.'
 name|'Rules'
 op|'('
 op|'{'
-string|"'compute_extension:v3:os-keypairs:show'"
+string|"'compute_extension:v3:keypairs:show'"
 op|':'
 nl|'\n'
 name|'policy'
@@ -2933,7 +2933,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v3/fake/os-keypairs/FAKE'"
+string|"'/v3/keypairs/FAKE'"
 op|')'
 newline|'\n'
 name|'res'
@@ -2976,7 +2976,7 @@ op|'.'
 name|'Rules'
 op|'('
 op|'{'
-string|"'compute_extension:v3:os-keypairs:create'"
+string|"'compute_extension:v3:keypairs:create'"
 op|':'
 nl|'\n'
 name|'policy'
@@ -3003,7 +3003,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v3/fake/os-keypairs'"
+string|"'/v3/keypairs'"
 op|')'
 newline|'\n'
 name|'req'
@@ -3064,7 +3064,7 @@ op|'.'
 name|'Rules'
 op|'('
 op|'{'
-string|"'compute_extension:v3:os-keypairs:create'"
+string|"'compute_extension:v3:keypairs:create'"
 op|':'
 nl|'\n'
 name|'policy'
@@ -3091,7 +3091,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v3/fake/os-keypairs'"
+string|"'/v3/keypairs'"
 op|')'
 newline|'\n'
 name|'req'
@@ -3140,7 +3140,7 @@ op|'.'
 name|'Rules'
 op|'('
 op|'{'
-string|"'compute_extension:v3:os-keypairs:delete'"
+string|"'compute_extension:v3:keypairs:delete'"
 op|':'
 nl|'\n'
 name|'policy'
@@ -3167,7 +3167,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v3/fake/os-keypairs/FAKE'"
+string|"'/v3/keypairs/FAKE'"
 op|')'
 newline|'\n'
 name|'req'
@@ -3215,7 +3215,7 @@ op|'.'
 name|'Rules'
 op|'('
 op|'{'
-string|"'compute_extension:v3:os-keypairs:delete'"
+string|"'compute_extension:v3:keypairs:delete'"
 op|':'
 nl|'\n'
 name|'policy'
@@ -3242,7 +3242,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v3/fake/os-keypairs/FAKE'"
+string|"'/v3/keypairs/FAKE'"
 op|')'
 newline|'\n'
 name|'req'
