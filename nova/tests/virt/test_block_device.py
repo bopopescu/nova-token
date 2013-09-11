@@ -1728,7 +1728,8 @@ op|'='
 op|'{'
 string|"'data'"
 op|':'
-string|"'fake_data'"
+op|'{'
+op|'}'
 op|'}'
 newline|'\n'
 name|'expected_conn_info'
@@ -1736,7 +1737,8 @@ op|'='
 op|'{'
 string|"'data'"
 op|':'
-string|"'fake_data'"
+op|'{'
+op|'}'
 op|','
 nl|'\n'
 string|"'serial'"
@@ -1976,7 +1978,8 @@ op|'='
 op|'{'
 string|"'data'"
 op|':'
-string|"'fake_data'"
+op|'{'
+op|'}'
 op|'}'
 newline|'\n'
 name|'expected_conn_info'
@@ -1984,7 +1987,8 @@ op|'='
 op|'{'
 string|"'data'"
 op|':'
-string|"'fake_data'"
+op|'{'
+op|'}'
 op|','
 nl|'\n'
 string|"'serial'"
