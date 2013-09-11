@@ -344,8 +344,7 @@ op|'='
 op|'('
 string|"'servers'"
 op|','
-nl|'\n'
-string|"'os-console-output'"
+string|"'console-output'"
 op|')'
 op|')'
 newline|'\n'
