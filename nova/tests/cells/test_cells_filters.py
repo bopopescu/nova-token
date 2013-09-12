@@ -1092,6 +1092,11 @@ nl|'\n'
 string|"'host_sched_kwargs'"
 op|':'
 string|"'meow'"
+op|','
+nl|'\n'
+string|"'cell_scheduler_method'"
+op|':'
+string|"'schedule_run_instance'"
 op|'}'
 newline|'\n'
 comment|'# None is returned to bypass further scheduling.'
@@ -1102,7 +1107,6 @@ name|'assertEqual'
 op|'('
 name|'None'
 op|','
-nl|'\n'
 name|'self'
 op|'.'
 name|'_filter_cells'
