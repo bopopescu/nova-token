@@ -115,6 +115,8 @@ op|','
 string|"'cdrom'"
 op|','
 string|"'floppy'"
+op|','
+string|"'lun'"
 op|')'
 newline|'\n'
 nl|'\n'
