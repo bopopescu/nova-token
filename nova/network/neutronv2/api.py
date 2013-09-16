@@ -5909,12 +5909,11 @@ op|':'
 op|'{'
 string|"'binding:host_id'"
 op|':'
-name|'instance'
-op|'.'
-name|'get'
-op|'('
-string|"'host'"
-op|')'
+nl|'\n'
+name|'migration'
+op|'['
+string|"'dest_compute'"
+op|']'
 op|'}'
 op|'}'
 newline|'\n'
