@@ -7149,6 +7149,15 @@ op|'{'
 string|"'MaxInternalSize'"
 op|':'
 number|'1024'
+op|','
+string|"'FileSize'"
+op|':'
+number|'1024'
+op|','
+nl|'\n'
+string|"'Type'"
+op|':'
+number|'2'
 op|'}'
 op|')'
 newline|'\n'
