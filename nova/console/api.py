@@ -327,7 +327,6 @@ op|'['
 string|"'host'"
 op|']'
 op|')'
-op|','
 newline|'\n'
 name|'rpcapi'
 op|'='
