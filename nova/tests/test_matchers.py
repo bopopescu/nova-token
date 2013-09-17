@@ -676,10 +676,10 @@ op|']'
 newline|'\n'
 nl|'\n'
 nl|'\n'
-DECL|class|TestDictMatches
+DECL|class|TestIsSubDictOf
 dedent|''
 name|'class'
-name|'TestDictMatches'
+name|'TestIsSubDictOf'
 op|'('
 name|'testtools'
 op|'.'
