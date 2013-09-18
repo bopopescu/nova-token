@@ -229,6 +229,11 @@ op|'('
 string|"'pxe_append_params'"
 op|','
 nl|'\n'
+name|'default'
+op|'='
+string|"'nofb nomodeset vga=normal'"
+op|','
+nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
