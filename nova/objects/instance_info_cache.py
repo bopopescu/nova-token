@@ -117,12 +117,6 @@ name|'NovaObject'
 op|')'
 op|':'
 newline|'\n'
-DECL|variable|VERSION
-indent|'    '
-name|'VERSION'
-op|'='
-string|"'1.3'"
-newline|'\n'
 comment|'# Version 1.0: Initial version'
 nl|'\n'
 comment|'# Version 1.1: Converted network_info to store the model.'
@@ -131,6 +125,14 @@ comment|'# Version 1.2: Added new() and update_cells kwarg to save().'
 nl|'\n'
 comment|'# Version 1.3: Added delete()'
 nl|'\n'
+comment|'# Version 1.4: String attributes updated to support unicode'
+nl|'\n'
+DECL|variable|VERSION
+indent|'    '
+name|'VERSION'
+op|'='
+string|"'1.4'"
+newline|'\n'
 nl|'\n'
 DECL|variable|fields
 name|'fields'
@@ -139,7 +141,9 @@ op|'{'
 nl|'\n'
 string|"'instance_uuid'"
 op|':'
-name|'str'
+name|'utils'
+op|'.'
+name|'str_value'
 op|','
 nl|'\n'
 string|"'network_info'"

@@ -82,11 +82,13 @@ comment|'# Version 1.0: Initial version'
 nl|'\n'
 comment|'# Version 1.1: Added compute_node nested object'
 nl|'\n'
+comment|'# Version 1.2: String attributes updated to support unicode'
+nl|'\n'
 DECL|variable|VERSION
 indent|'    '
 name|'VERSION'
 op|'='
-string|"'1.1'"
+string|"'1.2'"
 newline|'\n'
 nl|'\n'
 DECL|variable|fields

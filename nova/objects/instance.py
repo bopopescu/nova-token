@@ -252,11 +252,13 @@ comment|'# Version 1.5: Added cleaned'
 nl|'\n'
 comment|'# Version 1.6: Added pci_devices'
 nl|'\n'
+comment|'# Version 1.7: String attributes updated to support unicode'
+nl|'\n'
 DECL|variable|VERSION
 indent|'    '
 name|'VERSION'
 op|'='
-string|"'1.6'"
+string|"'1.7'"
 newline|'\n'
 nl|'\n'
 DECL|variable|fields

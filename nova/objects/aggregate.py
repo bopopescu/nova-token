@@ -75,8 +75,18 @@ name|'NovaObject'
 op|')'
 op|':'
 newline|'\n'
-DECL|variable|fields
+comment|'# Version 1.0: Initial version'
+nl|'\n'
+comment|'# Version 1.1: String attributes updated to support unicode'
+nl|'\n'
+DECL|variable|VERSION
 indent|'    '
+name|'VERSION'
+op|'='
+string|"'1.1'"
+newline|'\n'
+nl|'\n'
+DECL|variable|fields
 name|'fields'
 op|'='
 op|'{'
@@ -88,7 +98,9 @@ op|','
 nl|'\n'
 string|"'name'"
 op|':'
-name|'str'
+name|'utils'
+op|'.'
+name|'str_value'
 op|','
 nl|'\n'
 string|"'hosts'"
