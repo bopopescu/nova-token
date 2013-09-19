@@ -176,9 +176,9 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'Location of ca certicates file to use for cinder client '"
+string|"'Location of ca certificates file to use for cinder '"
 nl|'\n'
-string|"'requests.'"
+string|"'client requests.'"
 op|')'
 op|','
 nl|'\n'
