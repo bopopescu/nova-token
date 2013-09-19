@@ -468,9 +468,9 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'Location of ca certicates file to use for neutronclient'"
+string|"'Location of ca certificates file to use for '"
 nl|'\n'
-string|"' requests.'"
+string|"'neutron client requests.'"
 op|')'
 op|','
 nl|'\n'
