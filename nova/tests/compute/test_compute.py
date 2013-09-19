@@ -47363,7 +47363,7 @@ op|'.'
 name|'INSTANCE_DEFAULT_FIELDS'
 op|'+'
 op|'['
-string|"'fields'"
+string|"'fault'"
 op|']'
 op|')'
 op|')'
