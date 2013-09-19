@@ -143,7 +143,11 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|'"Enables or disables quotaing of tenant networks"'
+op|'('
+string|"'Enables or disables quota checking for tenant '"
+nl|'\n'
+string|"'networks'"
+op|')'
 op|')'
 op|','
 nl|'\n'
