@@ -249,9 +249,9 @@ nl|'\n'
 op|'@'
 name|'staticmethod'
 newline|'\n'
-DECL|member|retrieveproperties_fault_checker
+DECL|member|retrievepropertiesex_fault_checker
 name|'def'
-name|'retrieveproperties_fault_checker'
+name|'retrievepropertiesex_fault_checker'
 op|'('
 name|'resp_obj'
 op|')'
