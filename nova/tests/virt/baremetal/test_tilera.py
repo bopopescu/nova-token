@@ -173,6 +173,7 @@ name|'as'
 name|'fake_virt'
 newline|'\n'
 nl|'\n'
+nl|'\n'
 DECL|variable|CONF
 name|'CONF'
 op|'='
