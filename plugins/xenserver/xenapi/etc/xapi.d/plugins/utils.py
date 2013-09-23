@@ -589,6 +589,7 @@ name|'return'
 name|'out'
 newline|'\n'
 nl|'\n'
+nl|'\n'
 DECL|function|run_command
 dedent|''
 name|'def'
