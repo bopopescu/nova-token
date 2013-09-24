@@ -659,9 +659,13 @@ string|"'deleted'"
 op|':'
 name|'False'
 op|','
+string|"'system_metadata'"
+op|':'
+op|'{'
 string|"'group'"
 op|':'
 name|'group'
+op|'}'
 op|'}'
 op|')'
 newline|'\n'

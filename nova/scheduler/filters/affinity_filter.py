@@ -504,16 +504,6 @@ indent|'    '
 string|'"""Schedule the instance on a different host from a set of group\n    hosts.\n    """'
 newline|'\n'
 nl|'\n'
-comment|"# The hosts the instances in the group are running on doesn't change"
-nl|'\n'
-comment|'# within a request'
-nl|'\n'
-DECL|variable|run_filter_once_per_request
-name|'run_filter_once_per_request'
-op|'='
-name|'True'
-newline|'\n'
-nl|'\n'
 DECL|member|host_passes
 name|'def'
 name|'host_passes'
