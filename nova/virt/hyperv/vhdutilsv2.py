@@ -672,6 +672,13 @@ newline|'\n'
 nl|'\n'
 name|'return'
 name|'vhd_info_xml'
+op|'.'
+name|'encode'
+op|'('
+string|"'utf8'"
+op|','
+string|"'xmlcharrefreplace'"
+op|')'
 newline|'\n'
 nl|'\n'
 DECL|member|get_vhd_info
