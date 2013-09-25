@@ -226,9 +226,15 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'Allows use of instance password during '"
+string|"'Enables returning of the instance password by the'"
 nl|'\n'
-string|"'server creation'"
+string|"' relevant server API calls such as create, rebuild'"
+nl|'\n'
+string|"' or rescue, If the hypervisor does not support'"
+nl|'\n'
+string|"' password injection then the password returned will'"
+nl|'\n'
+string|"' not be correct'"
 op|')'
 op|','
 nl|'\n'
