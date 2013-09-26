@@ -290,11 +290,13 @@ comment|'# Version 1.7: String attributes updated to support unicode'
 nl|'\n'
 comment|"# Version 1.8: 'security_groups' and 'pci_devices' cannot be None"
 nl|'\n'
+comment|'# Version 1.9: Make uuid a non-None real string'
+nl|'\n'
 DECL|variable|VERSION
 indent|'    '
 name|'VERSION'
 op|'='
-string|"'1.8'"
+string|"'1.9'"
 newline|'\n'
 nl|'\n'
 DECL|variable|fields
@@ -559,7 +561,7 @@ string|"'uuid'"
 op|':'
 name|'obj_utils'
 op|'.'
-name|'str_or_none'
+name|'cstring'
 op|','
 nl|'\n'
 nl|'\n'
