@@ -1029,7 +1029,7 @@ name|'inst_type_dict'
 op|'['
 name|'inst_type'
 op|'['
-string|"'flavorid'"
+string|"'id'"
 op|']'
 op|']'
 op|'='
