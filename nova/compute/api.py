@@ -410,7 +410,7 @@ name|'get_notifier'
 op|','
 name|'service'
 op|'='
-string|"'aggregate'"
+string|"'compute'"
 op|')'
 newline|'\n'
 DECL|variable|wrap_exception
