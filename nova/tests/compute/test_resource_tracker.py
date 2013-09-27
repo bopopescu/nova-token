@@ -438,6 +438,11 @@ op|':'
 string|"'forza-napoli'"
 op|','
 nl|'\n'
+string|"'dev_type'"
+op|':'
+string|"'foo'"
+op|','
+nl|'\n'
 string|"'compute_node_id'"
 op|':'
 number|'1'

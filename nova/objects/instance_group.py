@@ -77,11 +77,13 @@ comment|'# Version 1.1: String attributes updated to support unicode'
 nl|'\n'
 comment|'# Version 1.2: Use list/dict helpers for policies, metadetails, members'
 nl|'\n'
+comment|'# Version 1.3: Make uuid a non-None real string'
+nl|'\n'
 DECL|variable|VERSION
 indent|'    '
 name|'VERSION'
 op|'='
-string|"'1.2'"
+string|"'1.3'"
 newline|'\n'
 nl|'\n'
 DECL|variable|fields
@@ -114,7 +116,7 @@ string|"'uuid'"
 op|':'
 name|'obj_utils'
 op|'.'
-name|'str_or_none'
+name|'cstring'
 op|','
 nl|'\n'
 string|"'name'"
