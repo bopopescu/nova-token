@@ -165,7 +165,6 @@ name|'flavor_extra_specs_get'
 op|'('
 name|'ctxt'
 op|','
-nl|'\n'
 name|'instance_type'
 op|'['
 string|"'flavorid'"
@@ -186,6 +185,9 @@ nl|'\n'
 string|"'image'"
 op|':'
 name|'image'
+name|'or'
+op|'{'
+op|'}'
 op|','
 nl|'\n'
 string|"'instance_properties'"
