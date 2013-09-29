@@ -183,26 +183,6 @@ op|'='
 string|"'resuming'"
 newline|'\n'
 nl|'\n'
-comment|'# NOTE(johannes): STOPPING and STARTING need to stick around for the'
-nl|'\n'
-comment|'# grizzly release for compatibility, but can be removed afterwards.'
-nl|'\n'
-comment|'# possible task states during stop()'
-nl|'\n'
-DECL|variable|STOPPING
-name|'STOPPING'
-op|'='
-string|"'stopping'"
-newline|'\n'
-nl|'\n'
-comment|'# possible task states during start()'
-nl|'\n'
-DECL|variable|STARTING
-name|'STARTING'
-op|'='
-string|"'starting'"
-newline|'\n'
-nl|'\n'
 comment|'# possible task states during power_off()'
 nl|'\n'
 DECL|variable|POWERING_OFF
