@@ -14029,7 +14029,7 @@ string|"'%s-shelved'"
 op|'%'
 name|'instance'
 op|'['
-string|"'name'"
+string|"'display_name'"
 op|']'
 newline|'\n'
 name|'image_meta'
