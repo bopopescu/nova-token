@@ -20877,7 +20877,7 @@ op|'['
 number|'2'
 op|']'
 op|'['
-string|"'id'"
+string|"'flavorid'"
 op|']'
 newline|'\n'
 name|'marked_flavors'
