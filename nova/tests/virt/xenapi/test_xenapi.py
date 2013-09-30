@@ -4232,6 +4232,10 @@ name|'str'
 op|'('
 name|'vcpu_weight'
 op|')'
+op|','
+string|"'cap'"
+op|':'
+string|"'0'"
 op|'}'
 op|')'
 newline|'\n'
