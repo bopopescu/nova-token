@@ -44362,17 +44362,11 @@ op|','
 nl|'\n'
 string|"'system_metadata'"
 op|':'
-name|'utils'
-op|'.'
-name|'dict_to_metadata'
-op|'('
-nl|'\n'
 op|'{'
 string|"'fake'"
 op|':'
 string|"'value'"
 op|'}'
-op|')'
 op|'}'
 newline|'\n'
 name|'instance'
