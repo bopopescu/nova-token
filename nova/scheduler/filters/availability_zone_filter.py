@@ -81,7 +81,7 @@ indent|'    '
 string|'"""Filters Hosts by availability zone.\n\n    Works with aggregate metadata availability zones, using the key\n    \'availability_zone\'\n    Note: in theory a compute node can be part of multiple availability_zones\n    """'
 newline|'\n'
 nl|'\n'
-comment|'# Availabilty zones do not change within a request'
+comment|'# Availability zones do not change within a request'
 nl|'\n'
 DECL|variable|run_filter_once_per_request
 name|'run_filter_once_per_request'
