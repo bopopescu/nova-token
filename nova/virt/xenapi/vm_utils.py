@@ -1233,7 +1233,7 @@ nl|'\n'
 string|"'xenstore_data'"
 op|':'
 op|'{'
-string|"'allowvssprovider'"
+string|"'vm-data/allowvssprovider'"
 op|':'
 string|"'false'"
 op|'}'
