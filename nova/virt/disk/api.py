@@ -1847,7 +1847,7 @@ name|'exception'
 op|'('
 name|'_'
 op|'('
-string|"'Failed to teardown ntainer filesystem: %s'"
+string|"'Failed to teardown container filesystem: %s'"
 op|')'
 op|','
 name|'exn'

@@ -348,7 +348,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""Default block device providor for PowerVM\n\n    This disk adapter uses logical volumes on the hosting VIOS\n    to provide backing block devices for instances/LPARs\n    """'
+string|'"""Default block device provider for PowerVM\n\n    This disk adapter uses logical volumes on the hosting VIOS\n    to provide backing block devices for instances/LPARs\n    """'
 newline|'\n'
 nl|'\n'
 DECL|member|__init__

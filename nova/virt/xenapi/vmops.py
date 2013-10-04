@@ -11226,7 +11226,7 @@ name|'_'
 op|'('
 string|"'XAPI supporting '"
 nl|'\n'
-string|"'relax-xsm-sr-check=true requried'"
+string|"'relax-xsm-sr-check=true required'"
 op|')'
 op|')'
 newline|'\n'
