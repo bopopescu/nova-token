@@ -89,7 +89,7 @@ indent|'    '
 string|'"""Isolate tenants in specific aggregates."""'
 newline|'\n'
 nl|'\n'
-comment|'# Aggreagte data and tenant do not change within a request'
+comment|'# Aggregate data and tenant do not change within a request'
 nl|'\n'
 DECL|variable|run_filter_once_per_request
 name|'run_filter_once_per_request'

@@ -52,7 +52,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""Pci Passthrough Filter based on PCI request\n\n    Filter that schedules tasks on a host if the host has devices\n    to meet the device requests in the \'extra_specs\' for the flavor.\n\n    PCI resource tracker provides updated summary information about the\n    PCI devices for each host, like:\n    [{"count": 5, "vendor_id": "8086", "product_id": "1520",\n        "extra_info":\'{}\'}],\n    and VM requests PCI devices via PCI requests, like:\n    [{"count": 1, "vendor_id": "8086", "product_id": "1520",}].\n\n    The filter checkes if the host passes or not based on these information.\n    """'
+string|'"""Pci Passthrough Filter based on PCI request\n\n    Filter that schedules instances on a host if the host has devices\n    to meet the device requests in the \'extra_specs\' for the flavor.\n\n    PCI resource tracker provides updated summary information about the\n    PCI devices for each host, like:\n    [{"count": 5, "vendor_id": "8086", "product_id": "1520",\n        "extra_info":\'{}\'}],\n    and VM requests PCI devices via PCI requests, like:\n    [{"count": 1, "vendor_id": "8086", "product_id": "1520",}].\n\n    The filter checks if the host passes or not based on this information.\n    """'
 newline|'\n'
 nl|'\n'
 DECL|member|host_passes
