@@ -1011,7 +1011,7 @@ name|'help'
 op|'='
 string|"'Specific cachemodes to use for different disk types '"
 nl|'\n'
-string|'\'e.g: ["file=directsync","block=none"]\''
+string|"'e.g: file=directsync,block=none'"
 op|')'
 op|','
 nl|'\n'
