@@ -386,9 +386,11 @@ nl|'\n'
 string|"'image_ref'"
 op|':'
 name|'values'
-op|'['
+op|'.'
+name|'get'
+op|'('
 string|"'image_ref'"
-op|']'
+op|')'
 op|','
 nl|'\n'
 string|"'kernel_id'"
