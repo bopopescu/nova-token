@@ -921,7 +921,7 @@ nl|'\n'
 DECL|variable|default
 name|'default'
 op|'='
-string|'"log"'
+string|'"reap"'
 op|','
 nl|'\n'
 DECL|variable|help
