@@ -3357,7 +3357,7 @@ name|'message'
 op|'='
 name|'_'
 op|'('
-string|"'Unknown error occured.'"
+string|"'Unknown error occurred.'"
 op|')'
 newline|'\n'
 dedent|''
