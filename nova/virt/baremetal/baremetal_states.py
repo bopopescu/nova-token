@@ -81,5 +81,10 @@ name|'ERROR'
 op|'='
 string|"'error'"
 newline|'\n'
+DECL|variable|PREPARED
+name|'PREPARED'
+op|'='
+string|"'prepared'"
+newline|'\n'
 endmarker|''
 end_unit
