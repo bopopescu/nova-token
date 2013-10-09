@@ -1149,7 +1149,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""The VolumeDriver deligates to nova.virt.libvirt.volume."""'
+string|'"""The VolumeDriver delegates to nova.virt.libvirt.volume."""'
 newline|'\n'
 nl|'\n'
 DECL|member|__init__

@@ -677,10 +677,10 @@ name|'result'
 op|')'
 newline|'\n'
 nl|'\n'
-DECL|member|test_get_filtered_hosts_with_specificed_filters
+DECL|member|test_get_filtered_hosts_with_specified_filters
 dedent|''
 name|'def'
-name|'test_get_filtered_hosts_with_specificed_filters'
+name|'test_get_filtered_hosts_with_specified_filters'
 op|'('
 name|'self'
 op|')'

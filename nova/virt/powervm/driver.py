@@ -1760,7 +1760,7 @@ comment|'# on the old instance that will be started'
 nl|'\n'
 comment|"# NOTE(guochbo) We can't judge if a resize_revert on the same host"
 nl|'\n'
-comment|'# due to the instance on destination host has been destoryed.'
+comment|'# due to the instance on destination host has been destroyed.'
 nl|'\n'
 comment|'# Original mac address is always kept in network_info, we can'
 nl|'\n'
