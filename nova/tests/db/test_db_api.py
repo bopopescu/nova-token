@@ -55995,7 +55995,7 @@ op|','
 nl|'\n'
 string|"'address'"
 op|':'
-string|"'0000:0f:08:07'"
+string|"'0000:0f:08.7'"
 op|','
 nl|'\n'
 string|"'vendor_id'"
@@ -56015,7 +56015,7 @@ op|','
 nl|'\n'
 string|"'dev_id'"
 op|':'
-string|"'pci_0000:0f:08:07'"
+string|"'pci_0000:0f:08.7'"
 op|','
 nl|'\n'
 string|"'extra_info'"
@@ -56053,7 +56053,7 @@ op|','
 nl|'\n'
 string|"'address'"
 op|':'
-string|"'0000:0f:03:07'"
+string|"'0000:0f:03.7'"
 op|','
 nl|'\n'
 string|"'vendor_id'"
@@ -56073,7 +56073,7 @@ op|','
 nl|'\n'
 string|"'dev_id'"
 op|':'
-string|"'pci_0000:0f:08:07'"
+string|"'pci_0000:0f:08.7'"
 op|','
 nl|'\n'
 string|"'extra_info'"
@@ -56204,7 +56204,7 @@ op|','
 number|'1'
 op|','
 nl|'\n'
-string|"'0000:0f:08:07'"
+string|"'0000:0f:08.7'"
 op|')'
 newline|'\n'
 name|'self'
@@ -56297,7 +56297,7 @@ name|'context'
 op|','
 number|'1'
 op|','
-string|"'0000:0f:08:07'"
+string|"'0000:0f:08.7'"
 op|')'
 newline|'\n'
 nl|'\n'
@@ -56856,7 +56856,7 @@ name|'admin_context'
 op|','
 number|'1'
 op|','
-string|"'0000:0f:08:07'"
+string|"'0000:0f:08.7'"
 op|')'
 newline|'\n'
 name|'self'
@@ -56915,7 +56915,7 @@ name|'admin_context'
 op|','
 number|'1'
 op|','
-string|"'0000:0f:08:07'"
+string|"'0000:0f:08.7'"
 op|')'
 newline|'\n'
 name|'self'
