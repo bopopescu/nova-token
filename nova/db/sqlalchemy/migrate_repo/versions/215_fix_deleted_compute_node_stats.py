@@ -59,7 +59,7 @@ op|'('
 nl|'\n'
 string|"'update compute_node_stats set deleted = id, '"
 nl|'\n'
-string|"'deleted_at = current_timestamp where compute_node_id not in '"
+string|"'deleted_at = current_timestamp where compute_node_id in '"
 nl|'\n'
 string|"'(select id from compute_nodes where deleted <> 0)'"
 op|')'
