@@ -295,7 +295,7 @@ name|'help'
 op|'='
 string|"'Disables the use of the XenAPI agent in any image '"
 nl|'\n'
-string|"'regardless of what image properties are present. '"
+string|"'regardless of what image properties are present.'"
 op|')'
 op|','
 nl|'\n'
