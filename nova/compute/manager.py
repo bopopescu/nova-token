@@ -1,5 +1,5 @@
 begin_unit
-comment|'# vim: tabstop=6 shiftwidth=4 softtabstop=4'
+comment|'# vim: tabstop=4 shiftwidth=4 softtabstop=4'
 nl|'\n'
 nl|'\n'
 comment|'# Copyright 2010 United States Government as represented by the'
