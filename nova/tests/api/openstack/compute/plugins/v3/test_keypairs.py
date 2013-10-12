@@ -1144,10 +1144,10 @@ op|')'
 newline|'\n'
 name|'self'
 op|'.'
-name|'assertFalse'
+name|'assertNotIn'
 op|'('
 string|"'private_key'"
-name|'in'
+op|','
 name|'res_dict'
 op|'['
 string|"'keypair'"
