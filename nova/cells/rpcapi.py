@@ -173,7 +173,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|"'''Cells client-side RPC API\n\n    API version history:\n\n        1.0 - Initial version.\n        1.1 - Adds get_cell_info_for_neighbors() and sync_instances()\n        1.2 - Adds service_get_all(), service_get_by_compute_host(),\n              and proxy_rpc_to_compute_manager()\n        1.3 - Adds task_log_get_all()\n        1.4 - Adds compute_node_get(), compute_node_get_all(), and\n              compute_node_stats()\n        1.5 - Adds actions_get(), action_get_by_request_id(), and\n              action_events_get()\n        1.6 - Adds consoleauth_delete_tokens() and validate_console_port()\n\n        ... Grizzly supports message version 1.6.  So, any changes to existing\n        methods in 2.x after that point should be done such that they can\n        handle the version_cap being set to 1.6.\n\n        1.7 - Adds service_update()\n        1.8 - Adds build_instances(), deprecates schedule_run_instance()\n        1.9 - Adds get_capacities()\n        1.10 - Adds bdm_update_or_create_at_top(), and bdm_destroy_at_top()\n        1.11 - Adds get_migrations()\n        1.12 - Adds instance_start() and instance_stop()\n        1.13 - Adds cell_create(), cell_update(), cell_delete(), and\n               cell_get()\n        1.14 - Adds reboot_instance()\n        1.15 - Adds suspend_instance() and resume_instance()\n        1.16 - Adds instance_update_from_api()\n        1.17 - Adds get_host_uptime()\n        1.18 - Adds terminate_instance() and soft_delete_instance()\n        1.19 - Adds pause_instance() and unpause_instance()\n        1.20 - Adds resize_instance() and live_migrate_instance()\n        1.21 - Adds revert_resize() and confirm_resize()\n        1.22 - Adds reset_network()\n        1.23 - Adds inject_network_info()\n        1.24 - Adds backup_instance() and snapshot_instance()\n    '''"
+string|"'''Cells client-side RPC API\n\n    API version history:\n\n        1.0 - Initial version.\n        1.1 - Adds get_cell_info_for_neighbors() and sync_instances()\n        1.2 - Adds service_get_all(), service_get_by_compute_host(),\n              and proxy_rpc_to_compute_manager()\n        1.3 - Adds task_log_get_all()\n        1.4 - Adds compute_node_get(), compute_node_get_all(), and\n              compute_node_stats()\n        1.5 - Adds actions_get(), action_get_by_request_id(), and\n              action_events_get()\n        1.6 - Adds consoleauth_delete_tokens() and validate_console_port()\n\n        ... Grizzly supports message version 1.6.  So, any changes to existing\n        methods in 2.x after that point should be done such that they can\n        handle the version_cap being set to 1.6.\n\n        1.7 - Adds service_update()\n        1.8 - Adds build_instances(), deprecates schedule_run_instance()\n        1.9 - Adds get_capacities()\n        1.10 - Adds bdm_update_or_create_at_top(), and bdm_destroy_at_top()\n        1.11 - Adds get_migrations()\n        1.12 - Adds instance_start() and instance_stop()\n        1.13 - Adds cell_create(), cell_update(), cell_delete(), and\n               cell_get()\n        1.14 - Adds reboot_instance()\n        1.15 - Adds suspend_instance() and resume_instance()\n        1.16 - Adds instance_update_from_api()\n        1.17 - Adds get_host_uptime()\n        1.18 - Adds terminate_instance() and soft_delete_instance()\n        1.19 - Adds pause_instance() and unpause_instance()\n        1.20 - Adds resize_instance() and live_migrate_instance()\n        1.21 - Adds revert_resize() and confirm_resize()\n        1.22 - Adds reset_network()\n        1.23 - Adds inject_network_info()\n        1.24 - Adds backup_instance() and snapshot_instance()\n\n        ... Havana supports message version 1.24.  So, any changes to existing\n        methods in 1.x after that point should be done such that they can\n        handle the version_cap being set to 1.24.\n    '''"
 newline|'\n'
 DECL|variable|BASE_RPC_API_VERSION
 name|'BASE_RPC_API_VERSION'
@@ -189,6 +189,12 @@ nl|'\n'
 string|"'grizzly'"
 op|':'
 string|"'1.6'"
+op|','
+nl|'\n'
+string|"'havana'"
+op|':'
+string|"'1.24'"
+op|','
 nl|'\n'
 op|'}'
 newline|'\n'
