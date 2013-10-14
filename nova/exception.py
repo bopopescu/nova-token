@@ -3206,7 +3206,7 @@ DECL|variable|ec2_code
 indent|'    '
 name|'ec2_code'
 op|'='
-string|'"UnsupportedOpperation"'
+string|'"UnsupportedOperation"'
 newline|'\n'
 DECL|variable|msg_fmt
 name|'msg_fmt'
@@ -3361,7 +3361,7 @@ DECL|variable|ec2_code
 indent|'    '
 name|'ec2_code'
 op|'='
-string|'"UnsupportedOpperation"'
+string|'"UnsupportedOperation"'
 newline|'\n'
 DECL|variable|msg_fmt
 name|'msg_fmt'
@@ -3426,7 +3426,7 @@ DECL|variable|ec2_code
 indent|'    '
 name|'ec2_code'
 op|'='
-string|'"UnsupportedOpperation"'
+string|'"UnsupportedOperation"'
 newline|'\n'
 DECL|variable|msg_fmt
 name|'msg_fmt'
@@ -3451,7 +3451,7 @@ DECL|variable|ec2_code
 indent|'    '
 name|'ec2_code'
 op|'='
-string|'"UnsupportedOpperation"'
+string|'"UnsupportedOperation"'
 newline|'\n'
 DECL|variable|msg_fmt
 name|'msg_fmt'
