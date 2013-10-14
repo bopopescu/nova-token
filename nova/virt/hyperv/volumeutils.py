@@ -250,7 +250,7 @@ name|'execute'
 op|'('
 string|"'iscsicli.exe '"
 op|'+'
-string|"'LisTargets'"
+string|"'ListTargets'"
 op|')'
 newline|'\n'
 comment|'#Sending login'
