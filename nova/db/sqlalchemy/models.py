@@ -4473,7 +4473,7 @@ number|'255'
 op|')'
 op|')'
 newline|'\n'
-comment|"# nodes are equivalent to a compute node's 'hypvervisor_hostname'"
+comment|"# nodes are equivalent to a compute node's 'hypervisor_hostname'"
 nl|'\n'
 DECL|variable|source_node
 name|'source_node'
