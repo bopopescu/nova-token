@@ -400,7 +400,7 @@ op|','
 nl|'\n'
 string|"'nova_object.version'"
 op|':'
-string|"'1.0'"
+string|"'1.9'"
 op|','
 nl|'\n'
 string|"'nova_object.data'"
@@ -531,7 +531,7 @@ op|','
 nl|'\n'
 string|"'nova_object.version'"
 op|':'
-string|"'1.0'"
+string|"'1.9'"
 op|','
 nl|'\n'
 string|"'nova_object.data'"
