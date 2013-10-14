@@ -54858,7 +54858,7 @@ op|','
 nl|'\n'
 string|"'version'"
 op|':'
-string|"'1.2'"
+string|"'2.0'"
 op|'}'
 newline|'\n'
 nl|'\n'
@@ -55167,7 +55167,7 @@ op|','
 nl|'\n'
 string|"'version'"
 op|':'
-string|"'1.2'"
+string|"'2.0'"
 op|'}'
 newline|'\n'
 nl|'\n'
