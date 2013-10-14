@@ -1807,7 +1807,7 @@ name|'fields'
 op|'.'
 name|'Object'
 op|'('
-name|'TestableObject'
+string|"'TestableObject'"
 op|')'
 op|')'
 newline|'\n'
