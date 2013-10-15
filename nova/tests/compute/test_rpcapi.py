@@ -654,7 +654,7 @@ op|'}'
 op|','
 name|'version'
 op|'='
-string|"'2.14'"
+string|"'2.48'"
 op|')'
 newline|'\n'
 nl|'\n'
@@ -2235,7 +2235,7 @@ op|'}'
 op|','
 name|'version'
 op|'='
-string|"'2.15'"
+string|"'2.48'"
 op|')'
 newline|'\n'
 nl|'\n'
