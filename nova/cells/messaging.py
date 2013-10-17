@@ -4657,7 +4657,7 @@ name|'flavor_id'
 op|'='
 name|'flavor'
 op|'['
-string|"'id'"
+string|"'flavorid'"
 op|']'
 op|','
 nl|'\n'
