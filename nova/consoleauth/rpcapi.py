@@ -92,7 +92,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|"'''Client side of the consoleauth rpc API.\n\n    API version history:\n\n        1.0 - Initial version.\n        1.1 - Added get_backdoor_port()\n        1.2 - Added instance_uuid to authorize_console, and\n              delete_tokens_for_instance\n\n        ... Grizzly supports message version 1.2.  So, any changes to existing\n        methods in 2.x after that point should be done such that they can\n        handle the version_cap being set to 1.2.\n    '''"
+string|"'''Client side of the consoleauth rpc API.\n\n    API version history:\n\n        1.0 - Initial version.\n        1.1 - Added get_backdoor_port()\n        1.2 - Added instance_uuid to authorize_console, and\n              delete_tokens_for_instance\n\n        ... Grizzly and Havana support message version 1.2.  So, any changes\n        to existing methods in 2.x after that point should be done such that\n        they can handle the version_cap being set to 1.2.\n    '''"
 newline|'\n'
 nl|'\n'
 comment|'#'
@@ -123,6 +123,11 @@ op|'='
 op|'{'
 nl|'\n'
 string|"'grizzly'"
+op|':'
+string|"'1.2'"
+op|','
+nl|'\n'
+string|"'havana'"
 op|':'
 string|"'1.2'"
 op|','

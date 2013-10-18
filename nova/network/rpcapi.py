@@ -158,7 +158,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|"'''Client side of the network rpc API.\n\n    API version history:\n\n        1.0 - Initial version.\n        1.1 - Adds migrate_instance_[start|finish]\n        1.2 - Make migrate_instance_[start|finish] a little more flexible\n        1.3 - Adds fanout cast update_dns for multi_host networks\n        1.4 - Add get_backdoor_port()\n        1.5 - Adds associate\n        1.6 - Adds instance_uuid to _{dis,}associate_floating_ip\n        1.7 - Adds method get_floating_ip_pools to replace get_floating_pools\n        1.8 - Adds macs to allocate_for_instance\n        1.9 - Adds rxtx_factor to [add|remove]_fixed_ip, removes instance_uuid\n              from allocate_for_instance and instance_get_nw_info\n        1.10- Adds (optional) requested_networks to deallocate_for_instance\n\n        ... Grizzly supports message version 1.9.  So, any changes to existing\n        methods in 2.x after that point should be done such that they can\n        handle the version_cap being set to 1.9.\n    '''"
+string|"'''Client side of the network rpc API.\n\n    API version history:\n\n        1.0 - Initial version.\n        1.1 - Adds migrate_instance_[start|finish]\n        1.2 - Make migrate_instance_[start|finish] a little more flexible\n        1.3 - Adds fanout cast update_dns for multi_host networks\n        1.4 - Add get_backdoor_port()\n        1.5 - Adds associate\n        1.6 - Adds instance_uuid to _{dis,}associate_floating_ip\n        1.7 - Adds method get_floating_ip_pools to replace get_floating_pools\n        1.8 - Adds macs to allocate_for_instance\n        1.9 - Adds rxtx_factor to [add|remove]_fixed_ip, removes instance_uuid\n              from allocate_for_instance and instance_get_nw_info\n\n        ... Grizzly supports message version 1.9.  So, any changes to existing\n        methods in 1.x after that point should be done such that they can\n        handle the version_cap being set to 1.9.\n\n        1.10- Adds (optional) requested_networks to deallocate_for_instance\n\n        ... Havana supports message version 1.10.  So, any changes to existing\n        methods in 1.x after that point should be done such that they can\n        handle the version_cap being set to 1.10.\n    '''"
 newline|'\n'
 nl|'\n'
 comment|'#'
@@ -191,6 +191,11 @@ nl|'\n'
 string|"'grizzly'"
 op|':'
 string|"'1.9'"
+op|','
+nl|'\n'
+string|"'havana'"
+op|':'
+string|"'1.10'"
 op|','
 nl|'\n'
 op|'}'
