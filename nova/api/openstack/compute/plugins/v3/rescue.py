@@ -316,7 +316,7 @@ op|'['
 string|"'rescue'"
 op|']'
 name|'and'
-string|"'admin_pass'"
+string|"'admin_password'"
 name|'in'
 name|'body'
 op|'['
@@ -332,7 +332,7 @@ op|'['
 string|"'rescue'"
 op|']'
 op|'['
-string|"'admin_pass'"
+string|"'admin_password'"
 op|']'
 newline|'\n'
 dedent|''
@@ -461,7 +461,7 @@ newline|'\n'
 indent|'            '
 name|'return'
 op|'{'
-string|"'admin_pass'"
+string|"'admin_password'"
 op|':'
 name|'password'
 op|'}'
