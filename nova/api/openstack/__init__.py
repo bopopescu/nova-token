@@ -294,6 +294,8 @@ string|"'versions'"
 op|','
 nl|'\n'
 string|"'flavor-manage'"
+op|','
+string|"'flavor-access'"
 op|']'
 op|')'
 newline|'\n'

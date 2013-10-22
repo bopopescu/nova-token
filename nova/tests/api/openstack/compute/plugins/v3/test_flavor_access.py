@@ -906,7 +906,7 @@ name|'self'
 op|')'
 op|':'
 newline|'\n'
-comment|'# query os-flavor-access on public flavor should return 404'
+comment|'# query flavor-access on public flavor should return 404'
 nl|'\n'
 indent|'        '
 name|'req'
@@ -917,7 +917,7 @@ name|'HTTPRequestV3'
 op|'.'
 name|'blank'
 op|'('
-string|"'/flavors/fake/os-flavor-access'"
+string|"'/flavors/fake/flavor-access'"
 op|','
 nl|'\n'
 name|'use_admin_context'
@@ -1032,7 +1032,7 @@ name|'HTTPRequestV3'
 op|'.'
 name|'blank'
 op|'('
-string|"'/flavors/2/os-flavor-access'"
+string|"'/flavors/2/flavor-access'"
 op|')'
 newline|'\n'
 nl|'\n'
@@ -1923,7 +1923,7 @@ string|"'id'"
 op|':'
 string|"'0'"
 op|','
-string|"'os-flavor-access:is_public'"
+string|"'flavor-access:is_public'"
 op|':'
 name|'True'
 op|'}'
@@ -1961,7 +1961,7 @@ string|"'id'"
 op|':'
 string|"'0'"
 op|','
-string|"'os-flavor-access:is_public'"
+string|"'flavor-access:is_public'"
 op|':'
 name|'False'
 op|'}'
@@ -2015,7 +2015,7 @@ string|"'id'"
 op|':'
 string|"'0'"
 op|','
-string|"'os-flavor-access:is_public'"
+string|"'flavor-access:is_public'"
 op|':'
 name|'True'
 op|'}'
@@ -2026,7 +2026,7 @@ string|"'id'"
 op|':'
 string|"'2'"
 op|','
-string|"'os-flavor-access:is_public'"
+string|"'flavor-access:is_public'"
 op|':'
 name|'False'
 op|'}'
@@ -2083,7 +2083,7 @@ string|"'id'"
 op|':'
 string|"'0'"
 op|','
-string|"'os-flavor-access:is_public'"
+string|"'flavor-access:is_public'"
 op|':'
 name|'True'
 op|'}'

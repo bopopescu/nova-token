@@ -92,7 +92,7 @@ nl|'\n'
 DECL|variable|ALIAS
 name|'ALIAS'
 op|'='
-string|"'os-flavor-access'"
+string|"'flavor-access'"
 newline|'\n'
 DECL|variable|soft_authorize
 name|'soft_authorize'
@@ -1519,7 +1519,7 @@ newline|'\n'
 DECL|variable|namespace
 name|'namespace'
 op|'='
-string|'"http://docs.openstack.org/compute/ext/%s/api/v3"'
+string|'"http://docs.openstack.org/compute/core/%s/api/v3"'
 op|'%'
 name|'ALIAS'
 newline|'\n'
