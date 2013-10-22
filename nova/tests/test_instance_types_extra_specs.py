@@ -274,10 +274,10 @@ name|'actual_specs'
 op|')'
 newline|'\n'
 nl|'\n'
-DECL|member|test_instance_type_extra_specs_delete
+DECL|member|test_flavor_extra_specs_delete
 dedent|''
 name|'def'
-name|'test_instance_type_extra_specs_delete'
+name|'test_flavor_extra_specs_delete'
 op|'('
 name|'self'
 op|')'
