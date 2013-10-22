@@ -497,8 +497,26 @@ name|'NovaObject'
 op|')'
 op|':'
 newline|'\n'
-DECL|member|__init__
+DECL|variable|fields
 indent|'    '
+name|'fields'
+op|'='
+op|'{'
+nl|'\n'
+string|"'objects'"
+op|':'
+name|'fields'
+op|'.'
+name|'ListOfObjectsField'
+op|'('
+string|"'SecurityGroup'"
+op|')'
+op|','
+nl|'\n'
+op|'}'
+newline|'\n'
+nl|'\n'
+DECL|member|__init__
 name|'def'
 name|'__init__'
 op|'('

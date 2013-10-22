@@ -2238,7 +2238,7 @@ name|'fields'
 op|'.'
 name|'ListOfObjectsField'
 op|'('
-name|'NovaObject'
+string|"'NovaObject'"
 op|')'
 op|','
 nl|'\n'
