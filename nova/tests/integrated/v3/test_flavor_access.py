@@ -57,13 +57,6 @@ name|'extension_name'
 op|'='
 string|"'os-flavor-access'"
 newline|'\n'
-DECL|variable|extra_extensions_to_load
-name|'extra_extensions_to_load'
-op|'='
-op|'['
-string|"'flavor-manage'"
-op|']'
-newline|'\n'
 nl|'\n'
 DECL|member|_add_tenant
 name|'def'

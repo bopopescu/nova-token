@@ -59,13 +59,6 @@ name|'extension_name'
 op|'='
 string|"'os-flavor-rxtx'"
 newline|'\n'
-DECL|variable|extra_extensions_to_load
-name|'extra_extensions_to_load'
-op|'='
-op|'['
-string|"'flavor-manage'"
-op|']'
-newline|'\n'
 nl|'\n'
 DECL|member|test_flavor_rxtx_get
 name|'def'

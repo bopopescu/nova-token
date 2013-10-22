@@ -291,6 +291,9 @@ op|','
 string|"'console-output'"
 op|','
 string|"'versions'"
+op|','
+nl|'\n'
+string|"'flavor-manage'"
 op|']'
 op|')'
 newline|'\n'
