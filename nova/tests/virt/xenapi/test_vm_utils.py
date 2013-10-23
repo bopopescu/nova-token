@@ -6908,7 +6908,7 @@ string|"'primary'"
 op|','
 string|"'0'"
 op|','
-string|"'10'"
+string|"'-0'"
 op|','
 nl|'\n'
 name|'check_exit_code'
@@ -7002,7 +7002,7 @@ string|"'primary'"
 op|','
 string|"'0'"
 op|','
-string|"'10'"
+string|"'-0'"
 op|','
 nl|'\n'
 name|'check_exit_code'
