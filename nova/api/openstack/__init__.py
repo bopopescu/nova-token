@@ -296,6 +296,9 @@ nl|'\n'
 string|"'flavor-manage'"
 op|','
 string|"'flavor-access'"
+op|','
+nl|'\n'
+string|"'flavor-extra-specs'"
 op|']'
 op|')'
 newline|'\n'
