@@ -2871,7 +2871,7 @@ name|'check_func'
 op|'='
 name|'_check_load_extension'
 op|'('
-string|"'server_resize'"
+string|"'server_update'"
 op|')'
 op|','
 nl|'\n'
