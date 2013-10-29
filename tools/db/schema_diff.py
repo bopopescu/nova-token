@@ -446,7 +446,7 @@ op|':'
 newline|'\n'
 indent|'        '
 name|'return'
-string|"'postgres://localhost/%s'"
+string|"'postgresql://localhost/%s'"
 op|'%'
 name|'name'
 newline|'\n'
