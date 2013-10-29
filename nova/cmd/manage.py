@@ -8332,13 +8332,6 @@ op|':'
 name|'HostCommands'
 op|','
 nl|'\n'
-comment|'# Deprecated, remove in Icehouse'
-nl|'\n'
-string|"'instance_type'"
-op|':'
-name|'FlavorCommands'
-op|','
-nl|'\n'
 string|"'logs'"
 op|':'
 name|'GetLogCommands'
