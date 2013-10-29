@@ -165,12 +165,6 @@ op|'='
 name|'False'
 op|','
 nl|'\n'
-DECL|variable|deprecated_name
-name|'deprecated_name'
-op|'='
-string|"'service_quantum_metadata_proxy'"
-op|','
-nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
@@ -192,12 +186,6 @@ DECL|variable|default
 name|'default'
 op|'='
 string|"''"
-op|','
-nl|'\n'
-DECL|variable|deprecated_name
-name|'deprecated_name'
-op|'='
-string|"'quantum_metadata_proxy_shared_secret'"
 op|','
 nl|'\n'
 DECL|variable|help
