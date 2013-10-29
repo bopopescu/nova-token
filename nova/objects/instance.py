@@ -3570,8 +3570,6 @@ nl|'\n'
 name|'columns_to_join'
 op|'='
 op|'['
-string|"'instances'"
-op|','
 string|"'instances.info_cache'"
 op|','
 nl|'\n'
