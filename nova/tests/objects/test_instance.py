@@ -2084,6 +2084,9 @@ op|'['
 string|"'info_cache'"
 op|','
 string|"'security_groups'"
+op|','
+nl|'\n'
+string|"'system_metadata'"
 op|']'
 nl|'\n'
 op|')'
@@ -2689,6 +2692,9 @@ op|'['
 string|"'info_cache'"
 op|','
 string|"'security_groups'"
+op|','
+nl|'\n'
+string|"'system_metadata'"
 op|']'
 nl|'\n'
 op|')'
