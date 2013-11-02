@@ -7352,6 +7352,8 @@ string|"'--script'"
 op|','
 string|"'/dev/fakedev'"
 op|','
+string|"'--'"
+op|','
 string|"'mkpart'"
 op|','
 nl|'\n'
@@ -7445,6 +7447,8 @@ op|','
 string|"'--script'"
 op|','
 string|"'/dev/fakedev'"
+op|','
+string|"'--'"
 op|','
 string|"'mkpart'"
 op|','

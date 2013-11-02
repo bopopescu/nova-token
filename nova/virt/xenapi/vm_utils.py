@@ -5278,6 +5278,8 @@ string|"'--script'"
 op|','
 name|'dev_path'
 op|','
+string|"'--'"
+op|','
 nl|'\n'
 string|"'mkpart'"
 op|','
