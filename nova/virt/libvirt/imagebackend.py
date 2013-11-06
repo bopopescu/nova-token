@@ -339,9 +339,9 @@ name|'CONF'
 op|'.'
 name|'import_opt'
 op|'('
-string|"'base_dir_name'"
+string|"'image_cache_subdirectory_name'"
 op|','
-string|"'nova.virt.libvirt.imagecache'"
+string|"'nova.compute.manager'"
 op|')'
 newline|'\n'
 name|'CONF'
@@ -842,9 +842,10 @@ name|'CONF'
 op|'.'
 name|'instances_path'
 op|','
+nl|'\n'
 name|'CONF'
 op|'.'
-name|'base_dir_name'
+name|'image_cache_subdirectory_name'
 op|')'
 newline|'\n'
 name|'if'
