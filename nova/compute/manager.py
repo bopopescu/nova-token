@@ -12289,6 +12289,8 @@ name|'instance'
 op|'['
 string|"'uuid'"
 op|']'
+op|'+'
+string|'".delete"'
 op|')'
 newline|'\n'
 DECL|function|do_terminate_instance
