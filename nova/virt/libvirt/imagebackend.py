@@ -197,7 +197,7 @@ name|'cfg'
 op|'.'
 name|'StrOpt'
 op|'('
-string|"'libvirt_images_type'"
+string|"'images_type'"
 op|','
 nl|'\n'
 DECL|variable|default
@@ -214,6 +214,18 @@ nl|'\n'
 string|"'rbd, default. If default is specified,'"
 nl|'\n'
 string|"' then use_cow_images flag is used instead of this one.'"
+op|','
+nl|'\n'
+DECL|variable|deprecated_group
+name|'deprecated_group'
+op|'='
+string|"'DEFAULT'"
+op|','
+nl|'\n'
+DECL|variable|deprecated_name
+name|'deprecated_name'
+op|'='
+string|"'libvirt_images_type'"
 op|')'
 op|','
 nl|'\n'
@@ -221,7 +233,7 @@ name|'cfg'
 op|'.'
 name|'StrOpt'
 op|'('
-string|"'libvirt_images_volume_group'"
+string|"'images_volume_group'"
 op|','
 nl|'\n'
 DECL|variable|help
@@ -229,7 +241,19 @@ name|'help'
 op|'='
 string|"'LVM Volume Group that is used for VM images, when you'"
 nl|'\n'
-string|"' specify libvirt_images_type=lvm.'"
+string|"' specify images_type=lvm.'"
+op|','
+nl|'\n'
+DECL|variable|deprecated_group
+name|'deprecated_group'
+op|'='
+string|"'DEFAULT'"
+op|','
+nl|'\n'
+DECL|variable|deprecated_name
+name|'deprecated_name'
+op|'='
+string|"'libvirt_images_volume_group'"
 op|')'
 op|','
 nl|'\n'
@@ -237,7 +261,7 @@ name|'cfg'
 op|'.'
 name|'BoolOpt'
 op|'('
-string|"'libvirt_sparse_logical_volumes'"
+string|"'sparse_logical_volumes'"
 op|','
 nl|'\n'
 DECL|variable|default
@@ -252,6 +276,18 @@ op|'='
 string|"'Create sparse logical volumes (with virtualsize)'"
 nl|'\n'
 string|"' if this flag is set to True.'"
+op|','
+nl|'\n'
+DECL|variable|deprecated_group
+name|'deprecated_group'
+op|'='
+string|"'DEFAULT'"
+op|','
+nl|'\n'
+DECL|variable|deprecated_name
+name|'deprecated_name'
+op|'='
+string|"'libvirt_sparse_logical_volumes'"
 op|')'
 op|','
 nl|'\n'
@@ -259,7 +295,7 @@ name|'cfg'
 op|'.'
 name|'IntOpt'
 op|'('
-string|"'libvirt_lvm_snapshot_size'"
+string|"'lvm_snapshot_size'"
 op|','
 nl|'\n'
 DECL|variable|default
@@ -274,6 +310,12 @@ op|'='
 string|"'The amount of storage (in megabytes) to allocate for LVM'"
 nl|'\n'
 string|"' snapshot copy-on-write blocks.'"
+op|','
+nl|'\n'
+DECL|variable|deprecated_group
+name|'deprecated_group'
+op|'='
+string|"'DEFAULT'"
 op|')'
 op|','
 nl|'\n'
@@ -281,7 +323,7 @@ name|'cfg'
 op|'.'
 name|'StrOpt'
 op|'('
-string|"'libvirt_images_rbd_pool'"
+string|"'images_rbd_pool'"
 op|','
 nl|'\n'
 DECL|variable|default
@@ -294,6 +336,18 @@ DECL|variable|help
 name|'help'
 op|'='
 string|"'the RADOS pool in which rbd volumes are stored'"
+op|','
+nl|'\n'
+DECL|variable|deprecated_group
+name|'deprecated_group'
+op|'='
+string|"'DEFAULT'"
+op|','
+nl|'\n'
+DECL|variable|deprecated_name
+name|'deprecated_name'
+op|'='
+string|"'libvirt_images_rdb_pool'"
 op|')'
 op|','
 nl|'\n'
@@ -301,7 +355,7 @@ name|'cfg'
 op|'.'
 name|'StrOpt'
 op|'('
-string|"'libvirt_images_rbd_ceph_conf'"
+string|"'images_rbd_ceph_conf'"
 op|','
 nl|'\n'
 DECL|variable|default
@@ -315,6 +369,18 @@ DECL|variable|help
 name|'help'
 op|'='
 string|"'path to the ceph configuration file to use'"
+op|','
+nl|'\n'
+DECL|variable|deprecated_group
+name|'deprecated_group'
+op|'='
+string|"'DEFAULT'"
+op|','
+nl|'\n'
+DECL|variable|deprecated_name
+name|'deprecated_name'
+op|'='
+string|"'libvirt_images_rdb_ceph_conf'"
 op|')'
 op|','
 nl|'\n'
@@ -333,6 +399,8 @@ op|'.'
 name|'register_opts'
 op|'('
 name|'__imagebackend_opts'
+op|','
+string|"'libvirt'"
 op|')'
 newline|'\n'
 name|'CONF'
@@ -804,7 +872,9 @@ dedent|''
 name|'elif'
 name|'CONF'
 op|'.'
-name|'libvirt_images_type'
+name|'libvirt'
+op|'.'
+name|'images_type'
 op|'=='
 string|'"lvm"'
 name|'and'
@@ -2185,7 +2255,9 @@ name|'if'
 name|'not'
 name|'CONF'
 op|'.'
-name|'libvirt_images_volume_group'
+name|'libvirt'
+op|'.'
+name|'images_volume_group'
 op|':'
 newline|'\n'
 indent|'                '
@@ -2196,7 +2268,7 @@ name|'_'
 op|'('
 string|"'You should specify'"
 nl|'\n'
-string|"' libvirt_images_volume_group'"
+string|"' images_volume_group'"
 nl|'\n'
 string|"' flag to use LVM images.'"
 op|')'
@@ -2209,7 +2281,9 @@ name|'vg'
 op|'='
 name|'CONF'
 op|'.'
-name|'libvirt_images_volume_group'
+name|'libvirt'
+op|'.'
+name|'images_volume_group'
 newline|'\n'
 name|'self'
 op|'.'
@@ -2259,7 +2333,7 @@ name|'lv'
 op|')'
 newline|'\n'
 nl|'\n'
-comment|'# TODO(pbrady): possibly deprecate libvirt_sparse_logical_volumes'
+comment|'# TODO(pbrady): possibly deprecate libvirt.sparse_logical_volumes'
 nl|'\n'
 comment|'# for the more general preallocate_images'
 nl|'\n'
@@ -2270,7 +2344,9 @@ name|'sparse'
 op|'='
 name|'CONF'
 op|'.'
-name|'libvirt_sparse_logical_volumes'
+name|'libvirt'
+op|'.'
+name|'sparse_logical_volumes'
 newline|'\n'
 name|'self'
 op|'.'
@@ -2987,12 +3063,15 @@ op|','
 name|'disk_name'
 op|')'
 newline|'\n'
+nl|'\n'
 dedent|''
 name|'if'
 name|'not'
 name|'CONF'
 op|'.'
-name|'libvirt_images_rbd_pool'
+name|'libvirt'
+op|'.'
+name|'images_rbd_pool'
 op|':'
 newline|'\n'
 indent|'            '
@@ -3003,7 +3082,7 @@ name|'_'
 op|'('
 string|"'You should specify'"
 nl|'\n'
-string|"' libvirt_images_rbd_pool'"
+string|"' images_rbd_pool'"
 nl|'\n'
 string|"' flag to use rbd images.'"
 op|')'
@@ -3016,7 +3095,9 @@ name|'pool'
 op|'='
 name|'CONF'
 op|'.'
-name|'libvirt_images_rbd_pool'
+name|'libvirt'
+op|'.'
+name|'images_rbd_pool'
 newline|'\n'
 name|'self'
 op|'.'
@@ -3026,7 +3107,9 @@ name|'ascii_str'
 op|'('
 name|'CONF'
 op|'.'
-name|'libvirt_images_rbd_ceph_conf'
+name|'libvirt'
+op|'.'
+name|'images_rbd_ceph_conf'
 op|')'
 newline|'\n'
 name|'self'
@@ -4048,7 +4131,9 @@ name|'image_type'
 op|'='
 name|'CONF'
 op|'.'
-name|'libvirt_images_type'
+name|'libvirt'
+op|'.'
+name|'images_type'
 newline|'\n'
 dedent|''
 name|'image'
@@ -4102,7 +4187,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'        '
-string|'"""Constructs image for selected backend\n\n        :instance: Instance name.\n        :name: Image name.\n        :image_type: Image type.\n        Optional, is CONF.libvirt_images_type by default.\n        """'
+string|'"""Constructs image for selected backend\n\n        :instance: Instance name.\n        :name: Image name.\n        :image_type: Image type.\n        Optional, is CONF.libvirt.images_type by default.\n        """'
 newline|'\n'
 name|'backend'
 op|'='
