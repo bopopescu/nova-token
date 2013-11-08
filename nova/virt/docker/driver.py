@@ -157,7 +157,7 @@ name|'cfg'
 op|'.'
 name|'IntOpt'
 op|'('
-string|"'docker_registry_default_port'"
+string|"'registry_default_port'"
 op|','
 nl|'\n'
 DECL|variable|default
@@ -175,6 +175,18 @@ string|"'Default TCP port to find the '"
 nl|'\n'
 string|"'docker-registry container'"
 op|')'
+op|','
+nl|'\n'
+DECL|variable|deprecated_group
+name|'deprecated_group'
+op|'='
+string|"'DEFAULT'"
+op|','
+nl|'\n'
+DECL|variable|deprecated_name
+name|'deprecated_name'
+op|'='
+string|"'docker_registry_default_port'"
 op|')'
 op|','
 nl|'\n'
@@ -193,6 +205,8 @@ op|'.'
 name|'register_opts'
 op|'('
 name|'docker_opts'
+op|','
+string|"'docker'"
 op|')'
 newline|'\n'
 name|'CONF'
@@ -2479,7 +2493,9 @@ name|'default_port'
 op|'='
 name|'CONF'
 op|'.'
-name|'docker_registry_default_port'
+name|'docker'
+op|'.'
+name|'registry_default_port'
 newline|'\n'
 name|'registry'
 op|'='
