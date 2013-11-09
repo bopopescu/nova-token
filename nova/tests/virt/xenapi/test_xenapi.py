@@ -9738,6 +9738,8 @@ name|'conn'
 op|'.'
 name|'get_console_output'
 op|'('
+string|"'context'"
+op|','
 string|'"instance"'
 op|')'
 op|','
