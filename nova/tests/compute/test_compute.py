@@ -57940,7 +57940,7 @@ op|','
 nl|'\n'
 string|"'version'"
 op|':'
-string|"'3.0'"
+string|"'3.1'"
 op|'}'
 newline|'\n'
 name|'rpc_msg2'
