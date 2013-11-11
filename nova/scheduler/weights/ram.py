@@ -102,10 +102,16 @@ name|'BaseHostWeigher'
 op|')'
 op|':'
 newline|'\n'
-DECL|member|_weight_multiplier
+DECL|variable|minval
 indent|'    '
+name|'minval'
+op|'='
+number|'0'
+newline|'\n'
+nl|'\n'
+DECL|member|weight_multiplier
 name|'def'
-name|'_weight_multiplier'
+name|'weight_multiplier'
 op|'('
 name|'self'
 op|')'
