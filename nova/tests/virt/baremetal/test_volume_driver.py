@@ -328,7 +328,7 @@ op|')'
 newline|'\n'
 name|'self'
 op|'.'
-name|'assertEquals'
+name|'assertEqual'
 op|'('
 string|"'iqn.2012-12.a.b:instname-dev-vdx'"
 op|','
