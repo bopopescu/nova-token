@@ -133,6 +133,8 @@ op|'('
 string|"'use_join_force'"
 op|','
 nl|'\n'
+comment|'#Deprecated in Icehouse'
+nl|'\n'
 DECL|variable|deprecated_name
 name|'deprecated_name'
 op|'='
