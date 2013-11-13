@@ -5286,7 +5286,6 @@ name|'_client'
 op|'.'
 name|'host'
 op|','
-nl|'\n'
 string|"'something-less-likely'"
 op|')'
 newline|'\n'
