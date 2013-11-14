@@ -46569,10 +46569,6 @@ op|','
 name|'out_format'
 op|','
 nl|'\n'
-string|"'-s'"
-op|','
-string|"'snap1'"
-op|','
 string|"'/path/to/disk/image'"
 op|','
 string|"'/extracted/snap'"
@@ -46598,8 +46594,6 @@ op|','
 string|"'qcow2'"
 op|','
 nl|'\n'
-string|"'snap1'"
-op|','
 string|"'/extracted/snap'"
 op|','
 name|'dest_format'
