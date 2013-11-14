@@ -1039,6 +1039,16 @@ op|':'
 string|"'zone_one'"
 op|','
 nl|'\n'
+string|"'info_cache'"
+op|':'
+op|'{'
+string|"'network_info'"
+op|':'
+op|'['
+op|']'
+op|'}'
+op|','
+nl|'\n'
 string|"'security_groups'"
 op|':'
 op|'['
