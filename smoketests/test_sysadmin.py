@@ -2399,7 +2399,7 @@ number|'512'
 newline|'\n'
 name|'self'
 op|'.'
-name|'assertEquals'
+name|'assertEqual'
 op|'('
 string|"'%s'"
 op|'%'
