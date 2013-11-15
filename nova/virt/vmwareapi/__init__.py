@@ -30,7 +30,7 @@ comment|'#    License for the specific language governing permissions and limita
 nl|'\n'
 comment|'#    under the License.'
 nl|'\n'
-string|'"""\n:mod:`vmwareapi` -- Nova support for VMware ESX/ESXi Server through VMware API.\n"""'
+string|'"""\n:mod:`vmwareapi` -- Nova support for VMware ESX/vCenter through VMware API.\n"""'
 newline|'\n'
 comment|'# NOTE(sdague) for nicer compute_driver specification'
 nl|'\n'
