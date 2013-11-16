@@ -144,30 +144,6 @@ name|'libvirt_vif_opts'
 op|'='
 op|'['
 nl|'\n'
-comment|'# neutron_ovs_bridge is used, if Neutron provides Nova'
-nl|'\n'
-comment|"# the 'vif_type' portbinding field"
-nl|'\n'
-name|'cfg'
-op|'.'
-name|'StrOpt'
-op|'('
-string|"'libvirt_ovs_bridge'"
-op|','
-nl|'\n'
-DECL|variable|default
-name|'default'
-op|'='
-string|"'br-int'"
-op|','
-nl|'\n'
-DECL|variable|help
-name|'help'
-op|'='
-string|"'Name of Integration Bridge used by Open vSwitch'"
-op|')'
-op|','
-nl|'\n'
 name|'cfg'
 op|'.'
 name|'BoolOpt'
