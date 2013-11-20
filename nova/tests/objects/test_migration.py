@@ -775,6 +775,11 @@ op|','
 string|"'window'"
 op|','
 string|"'foo'"
+op|','
+nl|'\n'
+name|'use_slave'
+op|'='
+name|'False'
 op|')'
 op|'.'
 name|'AndReturn'
@@ -806,6 +811,10 @@ op|','
 string|"'window'"
 op|','
 string|"'foo'"
+op|','
+name|'use_slave'
+op|'='
+name|'False'
 op|')'
 op|')'
 newline|'\n'
