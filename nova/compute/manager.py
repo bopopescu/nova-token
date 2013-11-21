@@ -509,6 +509,36 @@ op|','
 nl|'\n'
 name|'cfg'
 op|'.'
+name|'StrOpt'
+op|'('
+string|"'image_cache_subdirectory_name'"
+op|','
+nl|'\n'
+DECL|variable|default
+name|'default'
+op|'='
+string|"'_base'"
+op|','
+nl|'\n'
+DECL|variable|help
+name|'help'
+op|'='
+string|'"Where cached images are stored under $instances_path."'
+nl|'\n'
+string|'"This is NOT the full path - just a folder name."'
+nl|'\n'
+string|'"For per-compute-host cached images, set to _base_$my_ip"'
+op|','
+nl|'\n'
+DECL|variable|deprecated_name
+name|'deprecated_name'
+op|'='
+string|"'base_dir_name'"
+op|')'
+op|','
+nl|'\n'
+name|'cfg'
+op|'.'
 name|'BoolOpt'
 op|'('
 string|"'instance_usage_audit'"
