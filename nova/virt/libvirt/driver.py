@@ -15740,12 +15740,12 @@ op|'='
 op|'{'
 name|'True'
 op|':'
-string|"'Enabled'"
+string|"'disabled'"
 op|','
 nl|'\n'
 name|'False'
 op|':'
-string|"'Disabled'"
+string|"'enabled'"
 op|'}'
 newline|'\n'
 nl|'\n'
@@ -15894,7 +15894,7 @@ name|'debug'
 op|'('
 name|'_'
 op|'('
-string|"'Updating compute service status to: %s'"
+string|"'Updating compute service status to %s'"
 op|')'
 op|','
 nl|'\n'
