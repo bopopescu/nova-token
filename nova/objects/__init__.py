@@ -81,6 +81,11 @@ op|'('
 string|"'nova.objects.network'"
 op|')'
 newline|'\n'
+name|'__import__'
+op|'('
+string|"'nova.objects.block_device'"
+op|')'
+newline|'\n'
 dedent|''
 endmarker|''
 end_unit
