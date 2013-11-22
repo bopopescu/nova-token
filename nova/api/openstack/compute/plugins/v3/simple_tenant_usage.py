@@ -745,7 +745,7 @@ dedent|''
 name|'except'
 name|'exception'
 op|'.'
-name|'InstanceTypeNotFound'
+name|'FlavorNotFound'
 op|':'
 newline|'\n'
 comment|"# can't bill if there is no instance type"
