@@ -4996,9 +4996,9 @@ newline|'\n'
 indent|'            '
 name|'self'
 op|'.'
-name|'assertIn'
+name|'assertNotIn'
 op|'('
-string|"'all_tenants'"
+string|"'project_id'"
 op|','
 name|'filters'
 op|')'
@@ -5115,9 +5115,9 @@ newline|'\n'
 indent|'            '
 name|'self'
 op|'.'
-name|'assertIn'
+name|'assertNotIn'
 op|'('
-string|"'all_tenants'"
+string|"'project_id'"
 op|','
 name|'filters'
 op|')'
