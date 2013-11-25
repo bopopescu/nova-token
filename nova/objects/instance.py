@@ -3464,11 +3464,15 @@ comment|'# Version 1.0: Initial version'
 nl|'\n'
 comment|'# Version 1.1: Added use_slave to get_by_host'
 nl|'\n'
+comment|'#              Instance <= version 1.9'
+nl|'\n'
+comment|'# Version 1.2: Instance <= version 1.11'
+nl|'\n'
 DECL|variable|VERSION
 indent|'    '
 name|'VERSION'
 op|'='
-string|"'1.1'"
+string|"'1.2'"
 newline|'\n'
 nl|'\n'
 DECL|variable|fields
@@ -3484,6 +3488,25 @@ name|'ListOfObjectsField'
 op|'('
 string|"'Instance'"
 op|')'
+op|','
+nl|'\n'
+op|'}'
+newline|'\n'
+DECL|variable|child_versions
+name|'child_versions'
+op|'='
+op|'{'
+nl|'\n'
+string|"'1.1'"
+op|':'
+string|"'1.9'"
+op|','
+nl|'\n'
+comment|'# NOTE(danms): Instance was at 1.9 before we added this'
+nl|'\n'
+string|"'1.2'"
+op|':'
+string|"'1.11'"
 op|','
 nl|'\n'
 op|'}'
