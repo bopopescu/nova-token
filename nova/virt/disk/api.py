@@ -950,7 +950,7 @@ name|'_'
 op|'('
 string|"'Unable to determine label for image %(image)s with '"
 nl|'\n'
-string|"'error %(errror)s. Cannot resize.'"
+string|"'error %(error)s. Cannot resize.'"
 op|')'
 op|','
 nl|'\n'
