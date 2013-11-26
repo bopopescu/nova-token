@@ -962,7 +962,12 @@ op|','
 nl|'\n'
 string|"'hypervisor_version'"
 op|':'
+name|'utils'
+op|'.'
+name|'convert_version_to_int'
+op|'('
 string|"'1.0'"
+op|')'
 op|','
 nl|'\n'
 string|"'hypervisor_hostname'"
