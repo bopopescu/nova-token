@@ -7138,7 +7138,7 @@ name|'call_xenapi'
 op|'('
 string|"'VDI.set_name_label'"
 op|','
-name|'cache_vdi_ref'
+name|'new_vdi_ref'
 op|','
 string|"''"
 op|')'
@@ -7149,7 +7149,7 @@ name|'call_xenapi'
 op|'('
 string|"'VDI.set_name_description'"
 op|','
-name|'cache_vdi_ref'
+name|'new_vdi_ref'
 op|','
 string|"''"
 op|')'
