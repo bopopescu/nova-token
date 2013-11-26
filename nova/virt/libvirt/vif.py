@@ -148,7 +148,7 @@ name|'cfg'
 op|'.'
 name|'BoolOpt'
 op|'('
-string|"'libvirt_use_virtio_for_bridges'"
+string|"'use_virtio_for_bridges'"
 op|','
 nl|'\n'
 DECL|variable|default
@@ -161,6 +161,18 @@ DECL|variable|help
 name|'help'
 op|'='
 string|"'Use virtio for bridge interfaces with KVM/QEMU'"
+op|','
+nl|'\n'
+DECL|variable|deprecated_group
+name|'deprecated_group'
+op|'='
+string|"'DEFAULT'"
+op|','
+nl|'\n'
+DECL|variable|deprecated_name
+name|'deprecated_name'
+op|'='
+string|"'libvirt_use_virtio_for_bridges'"
 op|')'
 op|','
 nl|'\n'
@@ -179,6 +191,8 @@ op|'.'
 name|'register_opts'
 op|'('
 name|'libvirt_vif_opts'
+op|','
+string|"'libvirt'"
 op|')'
 newline|'\n'
 name|'CONF'
@@ -611,7 +625,9 @@ name|'and'
 nl|'\n'
 name|'CONF'
 op|'.'
-name|'libvirt_use_virtio_for_bridges'
+name|'libvirt'
+op|'.'
+name|'use_virtio_for_bridges'
 op|')'
 op|':'
 newline|'\n'
