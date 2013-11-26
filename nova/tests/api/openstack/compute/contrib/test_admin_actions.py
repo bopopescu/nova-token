@@ -1230,6 +1230,8 @@ op|','
 string|"'os-resetState'"
 op|','
 string|"'migrate'"
+op|','
+string|"'os-migrateLive'"
 op|']'
 newline|'\n'
 name|'body_map'
