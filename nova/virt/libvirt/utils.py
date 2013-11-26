@@ -124,7 +124,7 @@ name|'cfg'
 op|'.'
 name|'BoolOpt'
 op|'('
-string|"'libvirt_snapshot_compression'"
+string|"'snapshot_compression'"
 op|','
 nl|'\n'
 DECL|variable|default
@@ -139,6 +139,18 @@ op|'='
 string|"'Compress snapshot images when possible. This '"
 nl|'\n'
 string|"'currently applies exclusively to qcow2 images'"
+op|','
+nl|'\n'
+DECL|variable|deprecated_group
+name|'deprecated_group'
+op|'='
+string|"'DEFAULT'"
+op|','
+nl|'\n'
+DECL|variable|deprecated_name
+name|'deprecated_name'
+op|'='
+string|"'libvirt_snashot_compression'"
 op|')'
 op|','
 nl|'\n'
@@ -157,6 +169,8 @@ op|'.'
 name|'register_opts'
 op|'('
 name|'libvirt_opts'
+op|','
+string|"'libvirt'"
 op|')'
 newline|'\n'
 name|'CONF'
@@ -2480,7 +2494,9 @@ nl|'\n'
 name|'if'
 name|'CONF'
 op|'.'
-name|'libvirt_snapshot_compression'
+name|'libvirt'
+op|'.'
+name|'snapshot_compression'
 name|'and'
 name|'dest_fmt'
 op|'=='
