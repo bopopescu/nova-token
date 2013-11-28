@@ -2024,6 +2024,8 @@ comment|'# NOTE(adam_g): This is currently MySQL specific and needs to be extend
 nl|'\n'
 comment|'#               to support Postgres and others.'
 nl|'\n'
+comment|'# For the db2, the error code is -30081 since the db2 is still not ready'
+nl|'\n'
 name|'conn_err_codes'
 op|'='
 op|'('
@@ -2032,6 +2034,8 @@ op|','
 string|"'2003'"
 op|','
 string|"'2006'"
+op|','
+string|"'-30081'"
 op|')'
 newline|'\n'
 name|'for'
