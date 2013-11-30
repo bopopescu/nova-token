@@ -233,7 +233,7 @@ name|'cfg'
 op|'.'
 name|'ListOpt'
 op|'('
-string|"'instance_type_extra_specs'"
+string|"'flavor_extra_specs'"
 op|','
 nl|'\n'
 DECL|variable|default
@@ -248,11 +248,17 @@ name|'help'
 op|'='
 string|"'a list of additional capabilities corresponding to '"
 nl|'\n'
-string|"'instance_type_extra_specs for this compute '"
+string|"'flavor_extra_specs for this compute '"
 nl|'\n'
 string|"'host to advertise. Valid entries are name=value, pairs '"
 nl|'\n'
 string|'\'For example, "key1:val1, key2:val2"\''
+op|','
+nl|'\n'
+DECL|variable|deprecated_name
+name|'deprecated_name'
+op|'='
+string|"'instance_type_extra_specs'"
 op|')'
 op|','
 nl|'\n'
@@ -723,7 +729,7 @@ name|'CONF'
 op|'.'
 name|'baremetal'
 op|'.'
-name|'instance_type_extra_specs'
+name|'flavor_extra_specs'
 op|':'
 newline|'\n'
 indent|'            '
@@ -795,7 +801,7 @@ op|'('
 nl|'\n'
 name|'_'
 op|'('
-string|"'cpu_arch is not found in instance_type_extra_specs'"
+string|"'cpu_arch is not found in flavor_extra_specs'"
 op|')'
 op|')'
 newline|'\n'
@@ -1303,7 +1309,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'        '
-name|'instance_type'
+name|'flavor'
 op|'='
 name|'flavors'
 op|'.'
@@ -1313,7 +1319,7 @@ name|'instance'
 op|')'
 newline|'\n'
 name|'if'
-name|'instance_type'
+name|'flavor'
 op|'['
 string|"'ephemeral_gb'"
 op|']'
