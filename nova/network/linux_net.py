@@ -256,7 +256,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'MTU setting for vlan'"
+string|"'MTU setting for network interface'"
 op|')'
 op|','
 nl|'\n'
