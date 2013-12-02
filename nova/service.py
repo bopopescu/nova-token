@@ -284,7 +284,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'IP address for EC2 API to listen'"
+string|"'The IP address on which the EC2 API will listen.'"
 op|')'
 op|','
 nl|'\n'
@@ -304,7 +304,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'port for ec2 api to listen'"
+string|"'The port on which the EC2 API will listen.'"
 op|')'
 op|','
 nl|'\n'
@@ -338,7 +338,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'IP address for OpenStack API to listen'"
+string|"'The IP address on which the OpenStack API will listen.'"
 op|')'
 op|','
 nl|'\n'
@@ -358,7 +358,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'port for osapi compute to listen'"
+string|"'The port on which the OpenStack API will listen.'"
 op|')'
 op|','
 nl|'\n'
@@ -412,7 +412,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'IP address for metadata api to listen'"
+string|"'The IP address on which the metadata API will listen.'"
 op|')'
 op|','
 nl|'\n'
@@ -432,7 +432,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'port for metadata api to listen'"
+string|"'The port on which the metadata API will listen.'"
 op|')'
 op|','
 nl|'\n'
