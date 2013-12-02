@@ -248,7 +248,7 @@ op|','
 nl|'\n'
 name|'cfg'
 op|'.'
-name|'StrOpt'
+name|'IntOpt'
 op|'('
 string|"'network_device_mtu'"
 op|','
