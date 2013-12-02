@@ -358,7 +358,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'list port for osapi compute'"
+string|"'port for osapi compute to listen'"
 op|')'
 op|','
 nl|'\n'
