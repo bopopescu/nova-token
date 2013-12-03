@@ -3594,7 +3594,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""The Volumes API controller for the OpenStack API."""'
+string|'"""The Snapshots API controller for the OpenStack API."""'
 newline|'\n'
 nl|'\n'
 DECL|member|__init__
