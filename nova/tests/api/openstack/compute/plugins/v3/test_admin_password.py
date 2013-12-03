@@ -711,10 +711,10 @@ number|'409'
 op|')'
 newline|'\n'
 nl|'\n'
-DECL|member|test_change_password_with_bad_request
+DECL|member|test_change_password_without_admin_password
 dedent|''
 name|'def'
-name|'test_change_password_with_bad_request'
+name|'test_change_password_without_admin_password'
 op|'('
 name|'self'
 op|')'
