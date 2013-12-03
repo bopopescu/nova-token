@@ -498,7 +498,7 @@ name|'self'
 op|')'
 op|':'
 newline|'\n'
-comment|"# Neutron's security group descirption field is optional."
+comment|"# Neutron's security group description field is optional."
 nl|'\n'
 indent|'        '
 name|'pass'
@@ -543,7 +543,7 @@ name|'self'
 op|')'
 op|':'
 newline|'\n'
-comment|"# Neutron's security group descirption field is optional."
+comment|"# Neutron's security group description field is optional."
 nl|'\n'
 indent|'        '
 name|'pass'
