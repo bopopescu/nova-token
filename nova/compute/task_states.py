@@ -64,6 +64,11 @@ name|'IMAGE_SNAPSHOT'
 op|'='
 string|"'image_snapshot'"
 newline|'\n'
+DECL|variable|IMAGE_SNAPSHOT_PENDING
+name|'IMAGE_SNAPSHOT_PENDING'
+op|'='
+string|"'image_snapshot_pending'"
+newline|'\n'
 DECL|variable|IMAGE_PENDING_UPLOAD
 name|'IMAGE_PENDING_UPLOAD'
 op|'='
