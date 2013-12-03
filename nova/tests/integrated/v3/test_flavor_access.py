@@ -55,7 +55,7 @@ DECL|variable|extension_name
 indent|'    '
 name|'extension_name'
 op|'='
-string|"'os-flavor-access'"
+string|"'flavor-access'"
 newline|'\n'
 nl|'\n'
 DECL|member|_add_tenant
@@ -268,7 +268,7 @@ name|'self'
 op|'.'
 name|'_do_get'
 op|'('
-string|"'flavors/%s/os-flavor-access'"
+string|"'flavors/%s/flavor-access'"
 op|'%'
 name|'flavor_id'
 op|')'

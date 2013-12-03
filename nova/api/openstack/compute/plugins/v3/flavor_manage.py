@@ -453,7 +453,7 @@ name|'vals'
 op|'.'
 name|'get'
 op|'('
-string|"'os-flavor-access:is_public'"
+string|"'flavor-access:is_public'"
 op|','
 name|'True'
 op|')'
