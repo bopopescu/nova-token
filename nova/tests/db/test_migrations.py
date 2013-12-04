@@ -919,6 +919,12 @@ op|'='
 name|'None'
 newline|'\n'
 nl|'\n'
+DECL|variable|TIMEOUT_SCALING_FACTOR
+name|'TIMEOUT_SCALING_FACTOR'
+op|'='
+number|'2'
+newline|'\n'
+nl|'\n'
 DECL|member|__init__
 name|'def'
 name|'__init__'
