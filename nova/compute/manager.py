@@ -518,36 +518,6 @@ op|','
 nl|'\n'
 name|'cfg'
 op|'.'
-name|'StrOpt'
-op|'('
-string|"'image_cache_subdirectory_name'"
-op|','
-nl|'\n'
-DECL|variable|default
-name|'default'
-op|'='
-string|"'_base'"
-op|','
-nl|'\n'
-DECL|variable|help
-name|'help'
-op|'='
-string|'"Where cached images are stored under $instances_path."'
-nl|'\n'
-string|'"This is NOT the full path - just a folder name."'
-nl|'\n'
-string|'"For per-compute-host cached images, set to _base_$my_ip"'
-op|','
-nl|'\n'
-DECL|variable|deprecated_name
-name|'deprecated_name'
-op|'='
-string|"'base_dir_name'"
-op|')'
-op|','
-nl|'\n'
-name|'cfg'
-op|'.'
 name|'BoolOpt'
 op|'('
 string|"'instance_usage_audit'"
@@ -704,21 +674,19 @@ name|'cfg'
 op|'.'
 name|'IntOpt'
 op|'('
-string|'"image_cache_manager_interval"'
+string|"'host_state_interval'"
 op|','
 nl|'\n'
 DECL|variable|default
 name|'default'
 op|'='
-number|'2400'
+number|'120'
 op|','
 nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'Number of seconds to wait between runs of the image '"
-nl|'\n'
-string|"'cache manager'"
+string|"'Interval in seconds for querying the host status'"
 op|')'
 op|','
 nl|'\n'
@@ -1153,6 +1121,24 @@ op|','
 name|'group'
 op|'='
 string|"'cells'"
+op|')'
+newline|'\n'
+name|'CONF'
+op|'.'
+name|'import_opt'
+op|'('
+string|"'image_cache_subdirectory_name'"
+op|','
+string|"'nova.virt.imagecache'"
+op|')'
+newline|'\n'
+name|'CONF'
+op|'.'
+name|'import_opt'
+op|'('
+string|"'image_cache_manager_interval'"
+op|','
+string|"'nova.virt.imagecache'"
 op|')'
 newline|'\n'
 nl|'\n'
