@@ -43816,6 +43816,11 @@ nl|'\n'
 name|'metrics'
 op|'='
 string|"''"
+op|','
+nl|'\n'
+name|'extra_resources'
+op|'='
+string|"''"
 op|')'
 newline|'\n'
 comment|'# add some random stats'

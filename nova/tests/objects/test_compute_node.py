@@ -195,6 +195,11 @@ op|':'
 string|"''"
 op|','
 nl|'\n'
+string|"'extra_resources'"
+op|':'
+string|"''"
+op|','
+nl|'\n'
 op|'}'
 newline|'\n'
 nl|'\n'
