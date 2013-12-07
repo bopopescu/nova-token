@@ -103,6 +103,8 @@ op|'('
 string|"'wsdl_location'"
 op|','
 nl|'\n'
+comment|'#Deprecated in Icehouse'
+nl|'\n'
 DECL|variable|deprecated_name
 name|'deprecated_name'
 op|'='

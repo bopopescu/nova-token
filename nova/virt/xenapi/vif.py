@@ -93,6 +93,8 @@ op|'='
 string|"'xapi1'"
 op|','
 nl|'\n'
+comment|'#Deprecated in Icehouse'
+nl|'\n'
 DECL|variable|deprecated_name
 name|'deprecated_name'
 op|'='
