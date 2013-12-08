@@ -382,7 +382,7 @@ op|':'
 number|'8192'
 op|','
 nl|'\n'
-string|"'instance_type'"
+string|"'flavor'"
 op|':'
 string|"'m1.large'"
 op|','

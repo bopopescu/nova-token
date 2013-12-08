@@ -1914,7 +1914,7 @@ op|':'
 string|'"de:ad:be:ef:be:ef"'
 op|','
 nl|'\n'
-string|"'instance_type'"
+string|"'flavor'"
 op|':'
 string|"'m1.large'"
 op|','
