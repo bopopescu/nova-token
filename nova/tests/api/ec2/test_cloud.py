@@ -18098,6 +18098,11 @@ op|':'
 name|'True'
 op|','
 nl|'\n'
+string|"'source_type'"
+op|':'
+string|"'blank'"
+op|','
+nl|'\n'
 string|"'delete_on_termination'"
 op|':'
 name|'None'
