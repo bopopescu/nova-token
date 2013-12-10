@@ -1771,30 +1771,15 @@ newline|'\n'
 indent|'    '
 string|'"""Get logical volume size in bytes.\n\n    :param path: logical volume path\n    """'
 newline|'\n'
-comment|'# TODO(p-draigbrady) Possibly replace with the more general'
-nl|'\n'
-comment|'# use of blockdev --getsize64 in future'
-nl|'\n'
 name|'out'
 op|','
 name|'_err'
 op|'='
 name|'execute'
 op|'('
-string|"'lvs'"
+string|"'blockdev'"
 op|','
-string|"'-o'"
-op|','
-string|"'lv_size'"
-op|','
-string|"'--noheadings'"
-op|','
-string|"'--units'"
-op|','
-nl|'\n'
-string|"'b'"
-op|','
-string|"'--nosuffix'"
+string|"'--getsize64'"
 op|','
 name|'path'
 op|','
