@@ -18753,6 +18753,17 @@ op|'.'
 name|'utcnow'
 op|'('
 op|')'
+op|','
+nl|'\n'
+string|"'host'"
+op|':'
+string|"'fake-host'"
+op|','
+nl|'\n'
+string|"'details'"
+op|':'
+string|"'fake-details'"
+op|','
 nl|'\n'
 op|'}'
 newline|'\n'
