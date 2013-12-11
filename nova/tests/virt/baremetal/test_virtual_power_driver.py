@@ -180,8 +180,8 @@ op|'='
 string|"'nova.virt.baremetal.pxe.PXE'"
 op|','
 nl|'\n'
-DECL|variable|instance_type_extra_specs
-name|'instance_type_extra_specs'
+DECL|variable|flavor_extra_specs
+name|'flavor_extra_specs'
 op|'='
 op|'['
 string|"'cpu_arch:test'"
