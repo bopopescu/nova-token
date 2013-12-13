@@ -316,6 +316,8 @@ op|'('
 string|"'session'"
 op|','
 string|"'vbdref'"
+op|','
+string|"'vmref'"
 op|')'
 newline|'\n'
 nl|'\n'
