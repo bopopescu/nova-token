@@ -204,9 +204,8 @@ name|'return'
 string|"'fake\\nconsole\\noutput for instance %s'"
 op|'%'
 name|'instance'
-op|'['
-string|"'id'"
-op|']'
+op|'.'
+name|'id'
 newline|'\n'
 nl|'\n'
 nl|'\n'
