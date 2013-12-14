@@ -950,6 +950,8 @@ comment|'# Version 1.0: Initial version'
 nl|'\n'
 comment|'# Version 1.1: Added key argument to get_by_host()'
 nl|'\n'
+comment|'#              Aggregate <= version 1.1'
+nl|'\n'
 DECL|variable|VERSION
 indent|'    '
 name|'VERSION'
@@ -971,6 +973,25 @@ op|'('
 string|"'Aggregate'"
 op|')'
 op|','
+nl|'\n'
+op|'}'
+newline|'\n'
+DECL|variable|child_versions
+name|'child_versions'
+op|'='
+op|'{'
+nl|'\n'
+string|"'1.0'"
+op|':'
+string|"'1.1'"
+op|','
+nl|'\n'
+string|"'1.1'"
+op|':'
+string|"'1.1'"
+op|','
+nl|'\n'
+comment|'# NOTE(danms): Aggregate was at 1.1 before we added this'
 nl|'\n'
 op|'}'
 newline|'\n'

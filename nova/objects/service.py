@@ -862,8 +862,18 @@ name|'NovaObject'
 op|')'
 op|':'
 newline|'\n'
-DECL|variable|fields
+comment|'# Version 1.0: Initial version'
+nl|'\n'
+comment|'#              Service <= version 1.2'
+nl|'\n'
+DECL|variable|VERSION
 indent|'    '
+name|'VERSION'
+op|'='
+string|"'1.0'"
+newline|'\n'
+nl|'\n'
+DECL|variable|fields
 name|'fields'
 op|'='
 op|'{'
@@ -877,6 +887,20 @@ op|'('
 string|"'Service'"
 op|')'
 op|','
+nl|'\n'
+op|'}'
+newline|'\n'
+DECL|variable|child_versions
+name|'child_versions'
+op|'='
+op|'{'
+nl|'\n'
+string|"'1.0'"
+op|':'
+string|"'1.2'"
+op|','
+nl|'\n'
+comment|'# NOTE(danms): Service was at 1.2 before we added this'
 nl|'\n'
 op|'}'
 newline|'\n'

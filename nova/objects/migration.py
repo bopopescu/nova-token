@@ -593,6 +593,8 @@ op|':'
 newline|'\n'
 comment|'# Version 1.0: Initial version'
 nl|'\n'
+comment|'#              Migration <= 1.1'
+nl|'\n'
 comment|'# Version 1.1: Added use_slave to get_unconfirmed_by_dest_compute'
 nl|'\n'
 DECL|variable|VERSION
@@ -615,6 +617,25 @@ name|'ListOfObjectsField'
 op|'('
 string|"'Migration'"
 op|')'
+op|','
+nl|'\n'
+op|'}'
+newline|'\n'
+DECL|variable|child_versions
+name|'child_versions'
+op|'='
+op|'{'
+nl|'\n'
+string|"'1.0'"
+op|':'
+string|"'1.1'"
+op|','
+nl|'\n'
+comment|'# NOTE(danms): Migration was at 1.1 before we added this'
+nl|'\n'
+string|"'1.1'"
+op|':'
+string|"'1.1'"
 op|','
 nl|'\n'
 op|'}'
