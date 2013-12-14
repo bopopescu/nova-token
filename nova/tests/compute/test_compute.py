@@ -57980,11 +57980,7 @@ op|','
 nl|'\n'
 string|"'version'"
 op|':'
-name|'compute_rpcapi'
-op|'.'
-name|'ComputeAPI'
-op|'.'
-name|'BASE_RPC_API_VERSION'
+string|"'3.2'"
 op|'}'
 newline|'\n'
 name|'rpc_msg2'
