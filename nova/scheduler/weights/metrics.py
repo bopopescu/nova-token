@@ -328,11 +328,11 @@ op|')'
 op|')'
 newline|'\n'
 nl|'\n'
-DECL|member|_weight_multiplier
+DECL|member|weight_multiplier
 dedent|''
 dedent|''
 name|'def'
-name|'_weight_multiplier'
+name|'weight_multiplier'
 op|'('
 name|'self'
 op|')'

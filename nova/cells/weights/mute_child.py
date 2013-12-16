@@ -189,9 +189,9 @@ indent|'    '
 string|'"""If a child cell hasn\'t been heard from, greatly lower its selection\n    weight.\n    """'
 newline|'\n'
 nl|'\n'
-DECL|member|_weight_multiplier
+DECL|member|weight_multiplier
 name|'def'
-name|'_weight_multiplier'
+name|'weight_multiplier'
 op|'('
 name|'self'
 op|')'
