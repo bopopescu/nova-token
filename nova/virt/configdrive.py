@@ -421,7 +421,7 @@ name|'open'
 op|'('
 name|'filepath'
 op|','
-string|"'w'"
+string|"'wb'"
 op|')'
 name|'as'
 name|'f'
@@ -613,7 +613,7 @@ name|'open'
 op|'('
 name|'path'
 op|','
-string|"'w'"
+string|"'wb'"
 op|')'
 name|'as'
 name|'f'
