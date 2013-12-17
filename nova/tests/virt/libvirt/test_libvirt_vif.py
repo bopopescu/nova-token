@@ -3499,6 +3499,8 @@ name|'call'
 op|'('
 string|"'ovs-vsctl'"
 op|','
+string|"'--timeout=120'"
+op|','
 string|"'del-port'"
 op|','
 nl|'\n'
@@ -3702,6 +3704,9 @@ name|'call'
 op|'('
 string|"'ovs-vsctl'"
 op|','
+string|"'--timeout=120'"
+op|','
+nl|'\n'
 string|"'del-port'"
 op|','
 string|"'br0'"
