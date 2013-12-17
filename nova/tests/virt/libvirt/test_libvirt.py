@@ -488,7 +488,7 @@ name|'import_opt'
 op|'('
 string|"'image_cache_subdirectory_name'"
 op|','
-string|"'nova.compute.manager'"
+string|"'nova.virt.imagecache'"
 op|')'
 newline|'\n'
 name|'CONF'
