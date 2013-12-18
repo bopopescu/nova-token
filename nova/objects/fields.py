@@ -869,7 +869,7 @@ name|'_'
 op|'('
 string|"'A string is required here, not %s'"
 op|')'
-op|','
+op|'%'
 nl|'\n'
 name|'value'
 op|'.'
