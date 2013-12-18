@@ -145,14 +145,6 @@ op|'('
 string|"'default_flavor'"
 op|','
 nl|'\n'
-comment|'# Deprecated in Havana'
-nl|'\n'
-DECL|variable|deprecated_name
-name|'deprecated_name'
-op|'='
-string|"'default_instance_type'"
-op|','
-nl|'\n'
 DECL|variable|default
 name|'default'
 op|'='

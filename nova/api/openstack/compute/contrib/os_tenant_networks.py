@@ -164,12 +164,6 @@ op|'='
 string|'"False"'
 op|','
 nl|'\n'
-DECL|variable|deprecated_name
-name|'deprecated_name'
-op|'='
-string|"'use_quantum_default_nets'"
-op|','
-nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
@@ -190,12 +184,6 @@ DECL|variable|default
 name|'default'
 op|'='
 string|'"default"'
-op|','
-nl|'\n'
-DECL|variable|deprecated_name
-name|'deprecated_name'
-op|'='
-string|"'quantum_default_tenant_id'"
 op|','
 nl|'\n'
 DECL|variable|help
