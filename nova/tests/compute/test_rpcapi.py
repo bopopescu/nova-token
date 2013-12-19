@@ -2855,7 +2855,7 @@ name|'_test_compute_api'
 op|'('
 string|"'post_live_migration_at_destination'"
 op|','
-string|"'call'"
+string|"'cast'"
 op|','
 nl|'\n'
 name|'instance'
