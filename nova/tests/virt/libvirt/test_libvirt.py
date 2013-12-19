@@ -29298,7 +29298,7 @@ nl|'\n'
 op|'{'
 name|'os_type'
 op|':'
-string|"'mkfs.ext3 --label %(fs_label)s %(target)s'"
+string|"'mkfs.ext4 --label %(fs_label)s %(target)s'"
 op|'}'
 op|')'
 newline|'\n'
@@ -30055,7 +30055,7 @@ string|"'mkfs'"
 op|','
 string|"'-t'"
 op|','
-string|"'ext3'"
+string|"'ext4'"
 op|','
 string|"'-F'"
 op|','
@@ -30243,7 +30243,7 @@ nl|'\n'
 op|'{'
 string|"'linux'"
 op|':'
-string|"'mkfs.ext3 --label %(fs_label)s %(target)s'"
+string|"'mkfs.ext4 --label %(fs_label)s %(target)s'"
 op|'}'
 op|')'
 newline|'\n'
@@ -30262,7 +30262,7 @@ name|'utils'
 op|'.'
 name|'execute'
 op|'('
-string|"'mkfs.ext3'"
+string|"'mkfs.ext4'"
 op|','
 string|"'--label'"
 op|','

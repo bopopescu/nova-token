@@ -211,7 +211,7 @@ comment|'#                 comma. For example:'
 nl|'\n'
 comment|'#'
 nl|'\n'
-comment|'#                 mkfs.ext3 -O dir_index,extent -E stride=8,stripe-width=16'
+comment|'#                 mkfs.ext4 -O dir_index,extent -E stride=8,stripe-width=16'
 nl|'\n'
 comment|'#                           --label %(fs_label)s %(target)s'
 nl|'\n'
@@ -319,7 +319,7 @@ op|'='
 op|'{'
 string|"'linux'"
 op|':'
-string|"'ext3'"
+string|"'ext4'"
 op|','
 nl|'\n'
 string|"'windows'"
@@ -499,7 +499,7 @@ name|'get'
 op|'('
 name|'os_type'
 op|','
-string|"'ext3'"
+string|"'ext4'"
 op|')'
 newline|'\n'
 dedent|''
