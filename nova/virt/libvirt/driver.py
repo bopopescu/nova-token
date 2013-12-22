@@ -26490,11 +26490,17 @@ newline|'\n'
 indent|'                    '
 name|'LOG'
 op|'.'
-name|'error'
+name|'warning'
 op|'('
 name|'_'
 op|'('
-string|"'Getting disk size of %(i_name)s: %(e)s'"
+string|"'Periodic task is updating the host stat, '"
+nl|'\n'
+string|"'it is trying to get disk %(i_name)s, '"
+nl|'\n'
+string|"'but disk file was removed by concurrent '"
+nl|'\n'
+string|"'operations such as resize.'"
 op|')'
 op|','
 nl|'\n'
@@ -26502,10 +26508,6 @@ op|'{'
 string|"'i_name'"
 op|':'
 name|'i_name'
-op|','
-string|"'e'"
-op|':'
-name|'e'
 op|'}'
 op|')'
 newline|'\n'
