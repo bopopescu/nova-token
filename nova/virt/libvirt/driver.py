@@ -1366,6 +1366,13 @@ name|'DISABLE_PREFIX'
 op|'='
 string|"'AUTO: '"
 newline|'\n'
+comment|'# Disable reason for the service which was enabled or disabled without reason'
+nl|'\n'
+DECL|variable|DISABLE_REASON_UNDEFINED
+name|'DISABLE_REASON_UNDEFINED'
+op|'='
+string|"'None'"
+newline|'\n'
 nl|'\n'
 nl|'\n'
 DECL|function|patch_tpool_proxy
@@ -15975,7 +15982,7 @@ name|'enabled'
 newline|'\n'
 name|'disable_reason'
 op|'='
-string|"''"
+name|'DISABLE_REASON_UNDEFINED'
 newline|'\n'
 dedent|''
 name|'else'
@@ -16088,7 +16095,7 @@ nl|'\n'
 name|'if'
 name|'disable_service'
 name|'else'
-string|"''"
+name|'DISABLE_REASON_UNDEFINED'
 op|')'
 newline|'\n'
 name|'service'
