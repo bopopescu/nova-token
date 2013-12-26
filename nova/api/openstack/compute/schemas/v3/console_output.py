@@ -1,0 +1,111 @@
+begin_unit
+comment|'# Copyright 2014 NEC Corporation.  All rights reserved.'
+nl|'\n'
+comment|'#'
+nl|'\n'
+comment|'#    Licensed under the Apache License, Version 2.0 (the "License"); you may'
+nl|'\n'
+comment|'#    not use this file except in compliance with the License. You may obtain'
+nl|'\n'
+comment|'#    a copy of the License at'
+nl|'\n'
+comment|'#'
+nl|'\n'
+comment|'#         http://www.apache.org/licenses/LICENSE-2.0'
+nl|'\n'
+comment|'#'
+nl|'\n'
+comment|'#    Unless required by applicable law or agreed to in writing, software'
+nl|'\n'
+comment|'#    distributed under the License is distributed on an "AS IS" BASIS, WITHOUT'
+nl|'\n'
+comment|'#    WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the'
+nl|'\n'
+comment|'#    License for the specific language governing permissions and limitations'
+nl|'\n'
+comment|'#    under the License.'
+nl|'\n'
+nl|'\n'
+DECL|variable|get_console_output
+name|'get_console_output'
+op|'='
+op|'{'
+nl|'\n'
+string|"'type'"
+op|':'
+string|"'object'"
+op|','
+nl|'\n'
+string|"'properties'"
+op|':'
+op|'{'
+nl|'\n'
+string|"'get_console_output'"
+op|':'
+op|'{'
+nl|'\n'
+string|"'type'"
+op|':'
+string|"'object'"
+op|','
+nl|'\n'
+string|"'properties'"
+op|':'
+op|'{'
+nl|'\n'
+string|"'length'"
+op|':'
+op|'{'
+nl|'\n'
+string|"'type'"
+op|':'
+op|'['
+string|"'integer'"
+op|','
+string|"'string'"
+op|']'
+op|','
+nl|'\n'
+string|"'minimum'"
+op|':'
+number|'0'
+op|','
+nl|'\n'
+string|"'pattern'"
+op|':'
+string|"'^[0-9]+$'"
+op|','
+nl|'\n'
+op|'}'
+op|','
+nl|'\n'
+op|'}'
+op|','
+nl|'\n'
+string|"'additionalProperties'"
+op|':'
+name|'False'
+op|','
+nl|'\n'
+op|'}'
+op|','
+nl|'\n'
+op|'}'
+op|','
+nl|'\n'
+string|"'required'"
+op|':'
+op|'['
+string|"'get_console_output'"
+op|']'
+op|','
+nl|'\n'
+string|"'additionalProperties'"
+op|':'
+name|'False'
+op|','
+nl|'\n'
+op|'}'
+newline|'\n'
+endmarker|''
+end_unit
