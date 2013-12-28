@@ -279,8 +279,6 @@ op|','
 string|"'ips'"
 op|','
 nl|'\n'
-string|"'limits'"
-op|','
 string|"'servers'"
 op|','
 string|"'server-metadata'"
