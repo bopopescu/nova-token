@@ -347,7 +347,7 @@ nl|'\n'
 DECL|variable|deprecated_name
 name|'deprecated_name'
 op|'='
-string|"'libvirt_images_rdb_pool'"
+string|"'libvirt_images_rbd_pool'"
 op|')'
 op|','
 nl|'\n'
@@ -380,7 +380,7 @@ nl|'\n'
 DECL|variable|deprecated_name
 name|'deprecated_name'
 op|'='
-string|"'libvirt_images_rdb_ceph_conf'"
+string|"'libvirt_images_rbd_ceph_conf'"
 op|')'
 op|','
 nl|'\n'
