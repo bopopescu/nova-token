@@ -101,7 +101,7 @@ nl|'\n'
 DECL|variable|INIT_VERSION
 name|'INIT_VERSION'
 op|'='
-number|'179'
+number|'189'
 newline|'\n'
 DECL|variable|_REPOSITORY
 name|'_REPOSITORY'
