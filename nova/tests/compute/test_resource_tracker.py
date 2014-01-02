@@ -1097,6 +1097,11 @@ op|':'
 number|'1'
 op|','
 nl|'\n'
+string|"'ephemeral_key_uuid'"
+op|':'
+name|'None'
+op|','
+nl|'\n'
 string|"'os_type'"
 op|':'
 string|"'Linux'"

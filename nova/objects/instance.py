@@ -310,11 +310,13 @@ comment|'# Version 1.10: Added use_slave to refresh and get_by_uuid'
 nl|'\n'
 comment|'# Version 1.11: Update instance from database during destroy'
 nl|'\n'
+comment|'# Version 1.12: Added ephemeral_key_uuid'
+nl|'\n'
 DECL|variable|VERSION
 indent|'    '
 name|'VERSION'
 op|'='
-string|"'1.11'"
+string|"'1.12'"
 newline|'\n'
 nl|'\n'
 DECL|variable|fields
@@ -521,6 +523,18 @@ op|':'
 name|'fields'
 op|'.'
 name|'IntegerField'
+op|'('
+name|'nullable'
+op|'='
+name|'True'
+op|')'
+op|','
+nl|'\n'
+string|"'ephemeral_key_uuid'"
+op|':'
+name|'fields'
+op|'.'
+name|'UUIDField'
 op|'('
 name|'nullable'
 op|'='
@@ -3715,11 +3729,13 @@ comment|'# Version 1.2: Instance <= version 1.11'
 nl|'\n'
 comment|'# Version 1.3: Added use_slave to get_by_filters'
 nl|'\n'
+comment|'# Version 1.4: Instance <= version 1.12'
+nl|'\n'
 DECL|variable|VERSION
 indent|'    '
 name|'VERSION'
 op|'='
-string|"'1.3'"
+string|"'1.4'"
 newline|'\n'
 nl|'\n'
 DECL|variable|fields
@@ -3760,6 +3776,10 @@ string|"'1.3'"
 op|':'
 string|"'1.11'"
 op|','
+nl|'\n'
+string|"'1.4'"
+op|':'
+string|"'1.12'"
 nl|'\n'
 op|'}'
 newline|'\n'
