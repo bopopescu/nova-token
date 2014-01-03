@@ -210,11 +210,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'URL for connection to VMware ESX/VC host. Required if '"
-nl|'\n'
-string|"'compute_driver is vmwareapi.VMwareESXDriver or '"
-nl|'\n'
-string|"'vmwareapi.VMwareVCDriver.'"
+string|"'URL for connection to VMware ESX/VC host.'"
 op|')'
 op|','
 nl|'\n'
@@ -228,11 +224,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'Username for connection to VMware ESX/VC host. '"
-nl|'\n'
-string|"'Used only if compute_driver is '"
-nl|'\n'
-string|"'vmwareapi.VMwareESXDriver or vmwareapi.VMwareVCDriver.'"
+string|"'Username for connection to VMware ESX/VC host.'"
 op|')'
 op|','
 nl|'\n'
@@ -246,11 +238,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'Password for connection to VMware ESX/VC host. '"
-nl|'\n'
-string|"'Used only if compute_driver is '"
-nl|'\n'
-string|"'vmwareapi.VMwareESXDriver or vmwareapi.VMwareVCDriver.'"
+string|"'Password for connection to VMware ESX/VC host.'"
 op|','
 nl|'\n'
 DECL|variable|secret
@@ -310,13 +298,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'The interval used for polling of remote tasks. '"
-nl|'\n'
-string|"'Used only if compute_driver is '"
-nl|'\n'
-string|"'vmwareapi.VMwareESXDriver or '"
-nl|'\n'
-string|"'vmwareapi.VMwareVCDriver.'"
+string|"'The interval used for polling of remote tasks.'"
 op|')'
 op|','
 nl|'\n'
@@ -338,11 +320,7 @@ name|'help'
 op|'='
 string|"'The number of times we retry on failures, e.g., '"
 nl|'\n'
-string|"'socket error, etc. '"
-nl|'\n'
-string|"'Used only if compute_driver is '"
-nl|'\n'
-string|"'vmwareapi.VMwareESXDriver or vmwareapi.VMwareVCDriver.'"
+string|"'socket error, etc.'"
 op|')'
 op|','
 nl|'\n'
@@ -2027,7 +2005,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""The ESX host connection object."""'
+string|'"""The vCenter connection object."""'
 newline|'\n'
 nl|'\n'
 comment|'# The vCenter driver includes several additional VMware vSphere'
