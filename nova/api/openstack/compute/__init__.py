@@ -396,7 +396,7 @@ string|"'servers'"
 name|'in'
 name|'init_only'
 name|'or'
-name|'ips'
+string|"'ips'"
 name|'in'
 name|'init_only'
 op|':'
