@@ -1220,7 +1220,7 @@ name|'debug'
 op|'('
 name|'_'
 op|'('
-string|"'Extended resource: %s'"
+string|"'Extending resource: %s'"
 op|')'
 op|','
 nl|'\n'
@@ -1485,7 +1485,7 @@ name|'debug'
 op|'('
 name|'_'
 op|'('
-string|"'Extension %(ext_name)s extending resource: '"
+string|"'Extension %(ext_name)s extended resource: '"
 nl|'\n'
 string|"'%(collection)s'"
 op|')'
