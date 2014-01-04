@@ -4747,7 +4747,7 @@ name|'configure_mock'
 op|'('
 name|'disabled_reason'
 op|'='
-string|"''"
+string|"'None'"
 op|','
 nl|'\n'
 name|'disabled'
@@ -4958,7 +4958,7 @@ name|'service_mock'
 op|'.'
 name|'disabled_reason'
 op|','
-string|"''"
+string|"'None'"
 op|')'
 newline|'\n'
 nl|'\n'
