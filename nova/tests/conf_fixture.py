@@ -118,7 +118,7 @@ name|'import_opt'
 op|'('
 string|"'fake_network'"
 op|','
-string|"'nova.network.manager'"
+string|"'nova.network.linux_net'"
 op|')'
 newline|'\n'
 name|'CONF'
