@@ -2683,9 +2683,6 @@ string|"'id'"
 op|']'
 op|','
 string|"'fake-values'"
-op|','
-nl|'\n'
-name|'False'
 op|')'
 op|'.'
 name|'AndReturn'

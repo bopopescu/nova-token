@@ -2653,8 +2653,7 @@ string|"''"
 op|','
 string|"'stats'"
 op|':'
-op|'{'
-op|'}'
+string|"''"
 op|'}'
 newline|'\n'
 name|'db'
