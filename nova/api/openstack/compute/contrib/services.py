@@ -1113,9 +1113,11 @@ name|'msg'
 op|'='
 name|'_'
 op|'('
-string|"'Disabled reason contains invalid characters '"
+string|"'The string containing the reason for disabling '"
 nl|'\n'
-string|"'or is too long'"
+string|"'the service contains invalid characters or is '"
+nl|'\n'
+string|"'too long.'"
 op|')'
 newline|'\n'
 name|'raise'
