@@ -13003,10 +13003,10 @@ nl|'\n'
 name|'expected_notifications'
 op|'='
 op|'['
-string|"'compute.instance.exists'"
+string|"'compute.instance.rescue.start'"
 op|','
 nl|'\n'
-string|"'compute.instance.rescue.start'"
+string|"'compute.instance.exists'"
 op|','
 nl|'\n'
 string|"'compute.instance.rescue.end'"
@@ -13214,7 +13214,7 @@ name|'fake_notifier'
 op|'.'
 name|'NOTIFICATIONS'
 op|'['
-number|'1'
+number|'0'
 op|']'
 newline|'\n'
 name|'self'
