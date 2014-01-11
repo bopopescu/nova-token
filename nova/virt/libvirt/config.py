@@ -152,13 +152,14 @@ string|"'ns_uri'"
 op|')'
 newline|'\n'
 nl|'\n'
-DECL|member|_text_node
 dedent|''
+op|'@'
+name|'staticmethod'
+newline|'\n'
+DECL|member|_text_node
 name|'def'
 name|'_text_node'
 op|'('
-name|'self'
-op|','
 name|'name'
 op|','
 name|'value'
