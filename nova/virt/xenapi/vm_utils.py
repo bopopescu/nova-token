@@ -856,7 +856,7 @@ comment|'# Fudge factor to allow for the VHD chain to be slightly larger than'
 nl|'\n'
 comment|'# the partitioned space. Otherwise, legitimate images near their'
 nl|'\n'
-comment|'# maximum allowed size can fail on build with InstanceDiskTypeTooSmall.'
+comment|'# maximum allowed size can fail on build with FlavorDiskTooSmall.'
 nl|'\n'
 DECL|variable|VHD_SIZE_CHECK_FUDGE_FACTOR_GB
 name|'VHD_SIZE_CHECK_FUDGE_FACTOR_GB'
