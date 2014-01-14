@@ -66,6 +66,11 @@ op|'('
 string|"'nova.objects.quotas'"
 op|')'
 newline|'\n'
+name|'__import__'
+op|'('
+string|"'nova.objects.virtual_interface'"
+op|')'
+newline|'\n'
 dedent|''
 endmarker|''
 end_unit
