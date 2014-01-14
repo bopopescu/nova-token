@@ -586,12 +586,12 @@ nl|'\n'
 string|"'nova_object.changes'"
 op|':'
 op|'['
-string|"'access_ip_v4'"
-op|','
 string|"'uuid'"
 op|','
-nl|'\n'
 string|"'access_ip_v6'"
+op|','
+nl|'\n'
+string|"'access_ip_v4'"
 op|']'
 op|'}'
 newline|'\n'
