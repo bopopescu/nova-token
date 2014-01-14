@@ -4317,6 +4317,15 @@ op|':'
 string|"'fake-xenhost'"
 op|','
 nl|'\n'
+string|"'host_cpu_info'"
+op|':'
+op|'{'
+string|"'cpu_count'"
+op|':'
+number|'50'
+op|'}'
+op|','
+nl|'\n'
 op|'}'
 op|')'
 newline|'\n'

@@ -2622,7 +2622,13 @@ op|'='
 op|'{'
 string|"'vcpus'"
 op|':'
-number|'0'
+name|'host_stats'
+op|'['
+string|"'host_cpu_info'"
+op|']'
+op|'['
+string|"'cpu_count'"
+op|']'
 op|','
 nl|'\n'
 string|"'memory_mb'"
@@ -2637,7 +2643,10 @@ op|','
 nl|'\n'
 string|"'vcpus_used'"
 op|':'
-number|'0'
+name|'host_stats'
+op|'['
+string|"'vcpus_used'"
+op|']'
 op|','
 nl|'\n'
 string|"'memory_mb_used'"
@@ -2670,15 +2679,21 @@ string|"'host_hostname'"
 op|']'
 op|','
 nl|'\n'
+comment|'# Todo(bobba) cpu_info may be in a format not supported by'
+nl|'\n'
+comment|'# arch_filter.py - see libvirt/driver.py get_cpu_info'
+nl|'\n'
 string|"'cpu_info'"
 op|':'
+name|'jsonutils'
+op|'.'
+name|'dumps'
+op|'('
 name|'host_stats'
 op|'['
 string|"'host_cpu_info'"
 op|']'
-op|'['
-string|"'cpu_count'"
-op|']'
+op|')'
 op|','
 nl|'\n'
 string|"'supported_instances'"
