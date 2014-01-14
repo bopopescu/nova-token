@@ -297,34 +297,6 @@ op|','
 nl|'\n'
 name|'cfg'
 op|'.'
-name|'IntOpt'
-op|'('
-string|"'lvm_snapshot_size'"
-op|','
-nl|'\n'
-DECL|variable|default
-name|'default'
-op|'='
-number|'1000'
-op|','
-nl|'\n'
-DECL|variable|help
-name|'help'
-op|'='
-string|"'The amount of storage (in megabytes) to allocate for LVM'"
-nl|'\n'
-string|"' snapshot copy-on-write blocks.'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_group
-name|'deprecated_group'
-op|'='
-string|"'DEFAULT'"
-op|')'
-op|','
-nl|'\n'
-name|'cfg'
-op|'.'
 name|'StrOpt'
 op|'('
 string|"'images_rbd_pool'"

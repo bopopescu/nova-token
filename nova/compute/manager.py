@@ -683,26 +683,6 @@ name|'cfg'
 op|'.'
 name|'IntOpt'
 op|'('
-string|"'host_state_interval'"
-op|','
-nl|'\n'
-DECL|variable|default
-name|'default'
-op|'='
-number|'120'
-op|','
-nl|'\n'
-DECL|variable|help
-name|'help'
-op|'='
-string|"'Interval in seconds for querying the host status'"
-op|')'
-op|','
-nl|'\n'
-name|'cfg'
-op|'.'
-name|'IntOpt'
-op|'('
 string|"'reclaim_instance_interval'"
 op|','
 nl|'\n'
