@@ -2401,10 +2401,13 @@ op|'+='
 op|'['
 string|"'-s'"
 op|','
+name|'str'
+op|'('
 name|'rule'
 op|'['
 string|"'cidr'"
 op|']'
+op|')'
 op|']'
 newline|'\n'
 name|'fw_rules'
