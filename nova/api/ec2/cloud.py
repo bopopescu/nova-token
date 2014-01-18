@@ -254,7 +254,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'the ip of the ec2 api server'"
+string|"'The IP address of the EC2 API server'"
 op|')'
 op|','
 nl|'\n'
@@ -274,7 +274,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'the internal ip of the ec2 api server'"
+string|"'The internal IP address of the EC2 API server'"
 op|')'
 op|','
 nl|'\n'
@@ -294,7 +294,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'the port of the ec2 api server'"
+string|"'The port of the EC2 API server'"
 op|')'
 op|','
 nl|'\n'
@@ -314,7 +314,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'the protocol to use when connecting to the ec2 api '"
+string|"'The protocol to use when connecting to the EC2 API '"
 nl|'\n'
 string|"'server (http, https)'"
 op|')'
@@ -336,7 +336,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'the path prefix used to call the ec2 api server'"
+string|"'The path prefix used to call the ec2 API server'"
 op|')'
 op|','
 nl|'\n'
@@ -356,7 +356,7 @@ op|','
 nl|'\n'
 name|'help'
 op|'='
-string|"'list of region=fqdn pairs separated by commas'"
+string|"'List of region=fqdn pairs separated by commas'"
 op|')'
 op|','
 nl|'\n'

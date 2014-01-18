@@ -73,7 +73,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'driver to use for database access'"
+string|"'The driver to use for database access'"
 op|')'
 newline|'\n'
 nl|'\n'

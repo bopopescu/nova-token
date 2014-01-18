@@ -66,7 +66,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'location of vnc console proxy, in the form '"
+string|"'Location of VNC console proxy, in the form '"
 nl|'\n'
 string|'\'"http://127.0.0.1:6080/vnc_auto.html"\''
 op|')'
@@ -88,7 +88,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'location of nova xvp vnc console proxy, in the form '"
+string|"'Location of nova xvp VNC console proxy, in the form '"
 nl|'\n'
 string|'\'"http://127.0.0.1:6081/console"\''
 op|')'
@@ -130,7 +130,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'the address to which proxy clients '"
+string|"'The address to which proxy clients '"
 nl|'\n'
 string|"'(like nova-xvpvncproxy) should connect'"
 op|')'
@@ -152,7 +152,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'enable vnc related features'"
+string|"'Enable VNC related features'"
 op|')'
 op|','
 nl|'\n'
@@ -172,7 +172,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'keymap for vnc'"
+string|"'Keymap for VNC'"
 op|')'
 op|','
 nl|'\n'

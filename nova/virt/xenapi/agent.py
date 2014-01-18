@@ -235,7 +235,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'number of seconds to wait for agent reply'"
+string|"'Number of seconds to wait for agent reply'"
 op|')'
 op|','
 nl|'\n'
@@ -267,7 +267,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'number of seconds to wait for agent '"
+string|"'Number of seconds to wait for agent '"
 nl|'\n'
 string|"'to be fully operational'"
 op|')'
@@ -301,7 +301,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'number of seconds to wait for agent reply '"
+string|"'Number of seconds to wait for agent reply '"
 nl|'\n'
 string|"'to resetnetwork request'"
 op|')'
@@ -335,7 +335,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'Specifies the path in which the xenapi guest agent '"
+string|"'Specifies the path in which the XenAPI guest agent '"
 nl|'\n'
 string|"'should be located. If the agent is present, network '"
 nl|'\n'
@@ -343,7 +343,7 @@ string|"'configuration is not injected into the image. '"
 nl|'\n'
 string|"'Used if compute_driver=xenapi.XenAPIDriver and '"
 nl|'\n'
-string|"' flat_injected=True'"
+string|"'flat_injected=True'"
 op|')'
 op|','
 nl|'\n'
@@ -409,7 +409,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'Determines if the xenapi agent should be used when '"
+string|"'Determines if the XenAPI agent should be used when '"
 nl|'\n'
 string|"'the image used does not contain a hint to declare if '"
 nl|'\n'
@@ -421,7 +421,7 @@ name|'USE_AGENT_KEY'
 op|'+'
 string|'\'" \''
 nl|'\n'
-string|'\'that has the value "true" or "false". \''
+string|'\'that has the value "True" or "False". \''
 nl|'\n'
 string|"'Note that waiting for the agent when it is not present '"
 nl|'\n'

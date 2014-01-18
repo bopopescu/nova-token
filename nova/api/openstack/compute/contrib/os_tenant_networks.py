@@ -249,7 +249,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'number of private networks allowed per project'"
+string|"'Number of private networks allowed per project'"
 op|')'
 op|','
 nl|'\n'

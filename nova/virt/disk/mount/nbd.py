@@ -123,7 +123,9 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'time to wait for a NBD device coming up'"
+string|"'Amount of time, in seconds, to wait for NBD '"
+nl|'\n'
+string|"'device start up.'"
 op|')'
 op|','
 nl|'\n'

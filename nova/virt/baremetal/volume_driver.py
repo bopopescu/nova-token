@@ -175,7 +175,9 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'iSCSI IQN prefix used in baremetal volume connections.'"
+string|"'The iSCSI IQN prefix used in baremetal volume '"
+nl|'\n'
+string|"'connections.'"
 op|')'
 op|','
 nl|'\n'

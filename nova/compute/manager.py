@@ -472,7 +472,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'Name of network to use to set access ips for instances'"
+string|"'Name of network to use to set access IPs for instances'"
 op|')'
 op|','
 nl|'\n'
@@ -521,7 +521,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'where instances are stored on disk'"
+string|"'Where instances are stored on disk'"
 op|')'
 op|','
 nl|'\n'
@@ -631,7 +631,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'interval to pull bandwidth usage info'"
+string|"'Interval to pull bandwidth usage info'"
 op|')'
 op|','
 nl|'\n'
@@ -651,7 +651,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'interval to sync power states between '"
+string|"'Interval to sync power states between '"
 nl|'\n'
 string|"'the database and the hypervisor'"
 op|')'

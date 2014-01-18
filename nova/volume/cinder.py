@@ -130,7 +130,7 @@ name|'help'
 op|'='
 string|"'Info to match when looking for cinder in the service '"
 nl|'\n'
-string|"'catalog. Format is : separated values of the form: '"
+string|"'catalog. Format is: separated values of the form: '"
 nl|'\n'
 string|"'<service_type>:<service_name>:<endpoint_type>'"
 op|')'
@@ -162,7 +162,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'region name of this node'"
+string|"'Region name of this node'"
 op|')'
 op|','
 nl|'\n'

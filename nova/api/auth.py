@@ -114,9 +114,9 @@ DECL|variable|help
 name|'help'
 op|'='
 op|'('
-string|"'whether to use per-user rate limiting for the api. '"
+string|"'Whether to use per-user rate limiting for the api. '"
 nl|'\n'
-string|"'This option is only used by v2 api. rate limiting '"
+string|"'This option is only used by v2 api. Rate limiting '"
 nl|'\n'
 string|"'is removed from v3 api.'"
 op|')'

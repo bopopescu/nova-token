@@ -180,7 +180,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'number of times to rescan iSCSI target to find volume'"
+string|"'Number of times to rescan iSCSI target to find volume'"
 op|','
 nl|'\n'
 DECL|variable|deprecated_group
@@ -206,7 +206,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'number of times to rescan iSER target to find volume'"
+string|"'Number of times to rescan iSER target to find volume'"
 op|','
 nl|'\n'
 DECL|variable|deprecated_group
@@ -226,7 +226,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'the RADOS client name for accessing rbd volumes'"
+string|"'The RADOS client name for accessing rbd volumes'"
 op|','
 nl|'\n'
 DECL|variable|deprecated_group
@@ -246,7 +246,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'the libvirt uuid of the secret for the rbd_user'"
+string|"'The libvirt UUID of the secret for the rbd_user'"
 nl|'\n'
 string|"'volumes'"
 op|','
@@ -279,7 +279,9 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'Dir where the nfs volume is mounted on the compute node'"
+string|"'Directory where the NFS volume is mounted on the'"
+nl|'\n'
+string|"' compute node'"
 op|','
 nl|'\n'
 DECL|variable|deprecated_group
@@ -299,7 +301,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'Mount options passed to the nfs client. See section '"
+string|"'Mount options passedf to the NFS client. See section '"
 nl|'\n'
 string|"'of the nfs man page for details'"
 op|','
@@ -327,7 +329,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'number of times to rediscover AoE target to find volume'"
+string|"'Number of times to rediscover AoE target to find volume'"
 op|','
 nl|'\n'
 DECL|variable|deprecated_group
@@ -358,7 +360,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'Dir where the glusterfs volume is mounted on the '"
+string|"'Directory where the glusterfs volume is mounted on the '"
 nl|'\n'
 string|"'compute node'"
 op|','
@@ -386,7 +388,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'use multipath connection of the iSCSI volume'"
+string|"'Use multipath connection of the iSCSI volume'"
 op|','
 nl|'\n'
 DECL|variable|deprecated_group
@@ -418,7 +420,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'use multipath connection of the iSER volume'"
+string|"'Use multipath connection of the iSER volume'"
 op|','
 nl|'\n'
 DECL|variable|deprecated_group

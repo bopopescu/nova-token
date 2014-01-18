@@ -237,7 +237,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'a list of additional capabilities corresponding to '"
+string|"'A list of additional capabilities corresponding to '"
 nl|'\n'
 string|"'flavor_extra_specs for this compute '"
 nl|'\n'

@@ -64,7 +64,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'the topic console auth proxy nodes listen on'"
+string|"'The topic console auth proxy nodes listen on'"
 op|')'
 newline|'\n'
 nl|'\n'

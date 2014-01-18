@@ -155,7 +155,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'ip or name to virtual power host'"
+string|"'IP or name to virtual power host'"
 op|')'
 op|','
 nl|'\n'
@@ -195,7 +195,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'base command to use for virtual power(vbox,virsh)'"
+string|"'Base command to use for virtual power(vbox, virsh)'"
 op|')'
 op|','
 nl|'\n'
@@ -215,7 +215,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'user to execute virtual power commands as'"
+string|"'User to execute virtual power commands as'"
 op|')'
 op|','
 nl|'\n'
@@ -235,7 +235,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'password for virtual power host_user'"
+string|"'Password for virtual power host_user'"
 op|')'
 op|','
 nl|'\n'
@@ -249,7 +249,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'ssh key for virtual power host_user'"
+string|"'The ssh key for virtual power host_user'"
 op|')'
 op|','
 nl|'\n'

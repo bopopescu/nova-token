@@ -494,7 +494,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'availability zone to use when user doesn\\'t specify one'"
+string|"'Availability zone to use when user doesn\\'t specify one'"
 op|')'
 op|','
 nl|'\n'
@@ -541,7 +541,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'kernel image that indicates not to use a kernel, but to '"
+string|"'Kernel image that indicates not to use a kernel, but to '"
 nl|'\n'
 string|"'use a raw disk image instead'"
 op|')'

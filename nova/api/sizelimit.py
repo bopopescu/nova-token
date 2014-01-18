@@ -88,7 +88,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'the maximum body size '"
+string|"'The maximum body size '"
 nl|'\n'
 string|"'per each osapi request(bytes)'"
 op|')'

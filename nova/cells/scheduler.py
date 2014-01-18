@@ -200,7 +200,7 @@ name|'help'
 op|'='
 string|"'Filter classes the cells scheduler should use.  '"
 nl|'\n'
-string|'\'An entry of "nova.cells.filters.all_filters"\''
+string|'\'An entry of "nova.cells.filters.all_filters" \''
 nl|'\n'
 string|"'maps to all cells filters included with nova.'"
 op|')'
@@ -226,7 +226,7 @@ name|'help'
 op|'='
 string|"'Weigher classes the cells scheduler should use.  '"
 nl|'\n'
-string|'\'An entry of "nova.cells.weights.all_weighers"\''
+string|'\'An entry of "nova.cells.weights.all_weighers" \''
 nl|'\n'
 string|"'maps to all cell weighers included with nova.'"
 op|')'

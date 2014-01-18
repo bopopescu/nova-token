@@ -176,7 +176,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'parent dir for tempdir used for image decryption'"
+string|"'Parent directory for tempdir used for image decryption'"
 op|')'
 op|','
 nl|'\n'
@@ -196,9 +196,9 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'hostname or ip for OpenStack to use when accessing '"
+string|"'Hostname or IP for OpenStack to use when accessing '"
 nl|'\n'
-string|"'the s3 api'"
+string|"'the S3 api'"
 op|')'
 op|','
 nl|'\n'
@@ -218,7 +218,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'port used when accessing the s3 api'"
+string|"'Port used when accessing the S3 api'"
 op|')'
 op|','
 nl|'\n'
@@ -238,7 +238,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'access key to use for s3 server for images'"
+string|"'Access key to use for S3 server for images'"
 op|')'
 op|','
 nl|'\n'
@@ -258,7 +258,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'secret key to use for s3 server for images'"
+string|"'Secret key to use for S3 server for images'"
 op|')'
 op|','
 nl|'\n'
@@ -278,7 +278,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'whether to use ssl when talking to s3'"
+string|"'Whether to use SSL when talking to S3'"
 op|')'
 op|','
 nl|'\n'
@@ -298,9 +298,9 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'whether to affix the tenant id to the access key '"
+string|"'Whether to affix the tenant id to the access key '"
 nl|'\n'
-string|"'when downloading from s3'"
+string|"'when downloading from S3'"
 op|')'
 op|','
 nl|'\n'

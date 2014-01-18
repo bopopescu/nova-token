@@ -134,7 +134,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'number of instances allowed per project'"
+string|"'Number of instances allowed per project'"
 op|')'
 op|','
 nl|'\n'
@@ -154,7 +154,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'number of instance cores allowed per project'"
+string|"'Number of instance cores allowed per project'"
 op|')'
 op|','
 nl|'\n'
@@ -176,7 +176,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'megabytes of instance ram allowed per project'"
+string|"'Megabytes of instance RAM allowed per project'"
 op|')'
 op|','
 nl|'\n'
@@ -196,7 +196,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'number of floating ips allowed per project'"
+string|"'Number of floating IPs allowed per project'"
 op|')'
 op|','
 nl|'\n'
@@ -218,7 +218,7 @@ DECL|variable|help
 name|'help'
 op|'='
 op|'('
-string|"'number of fixed ips allowed per project (this should be '"
+string|"'Number of fixed IPs allowed per project (this should be '"
 nl|'\n'
 string|"'at least the number of instances allowed)'"
 op|')'
@@ -241,7 +241,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'number of metadata items allowed per instance'"
+string|"'Number of metadata items allowed per instance'"
 op|')'
 op|','
 nl|'\n'
@@ -261,7 +261,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'number of injected files allowed'"
+string|"'Number of injected files allowed'"
 op|')'
 op|','
 nl|'\n'
@@ -283,7 +283,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'number of bytes allowed per injected file'"
+string|"'Number of bytes allowed per injected file'"
 op|')'
 op|','
 nl|'\n'
@@ -303,7 +303,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'number of bytes allowed per injected file path'"
+string|"'Number of bytes allowed per injected file path'"
 op|')'
 op|','
 nl|'\n'
@@ -323,7 +323,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'number of security groups per project'"
+string|"'Number of security groups per project'"
 op|')'
 op|','
 nl|'\n'
@@ -343,7 +343,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'number of security rules per security group'"
+string|"'Number of security rules per security group'"
 op|')'
 op|','
 nl|'\n'
@@ -363,7 +363,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'number of key pairs per user'"
+string|"'Number of key pairs per user'"
 op|')'
 op|','
 nl|'\n'
@@ -383,7 +383,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'number of seconds until a reservation expires'"
+string|"'Number of seconds until a reservation expires'"
 op|')'
 op|','
 nl|'\n'
@@ -403,7 +403,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'count of reservations until usage is refreshed'"
+string|"'Count of reservations until usage is refreshed'"
 op|')'
 op|','
 nl|'\n'
@@ -423,7 +423,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'number of seconds between subsequent usage refreshes'"
+string|"'Number of seconds between subsequent usage refreshes'"
 op|')'
 op|','
 nl|'\n'
@@ -443,7 +443,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'default driver to use for quota checks'"
+string|"'Default driver to use for quota checks'"
 op|')'
 op|','
 nl|'\n'

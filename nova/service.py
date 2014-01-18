@@ -173,7 +173,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'seconds between nodes reporting state to datastore'"
+string|"'Seconds between nodes reporting state to datastore'"
 op|')'
 op|','
 nl|'\n'
@@ -193,7 +193,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'enable periodic tasks'"
+string|"'Enable periodic tasks'"
 op|')'
 op|','
 nl|'\n'
@@ -213,7 +213,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'range of seconds to randomly delay when starting the'"
+string|"'Range of seconds to randomly delay when starting the'"
 nl|'\n'
 string|"' periodic task scheduler to reduce stampeding.'"
 nl|'\n'
@@ -243,7 +243,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'a list of APIs to enable by default'"
+string|"'A list of APIs to enable by default'"
 op|')'
 op|','
 nl|'\n'
@@ -264,7 +264,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'a list of APIs with enabled SSL'"
+string|"'A list of APIs with enabled SSL'"
 op|')'
 op|','
 nl|'\n'
@@ -466,7 +466,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'full class name for the Manager for compute'"
+string|"'Full class name for the Manager for compute'"
 op|')'
 op|','
 nl|'\n'
@@ -486,7 +486,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'full class name for the Manager for console proxy'"
+string|"'Full class name for the Manager for console proxy'"
 op|')'
 op|','
 nl|'\n'
@@ -506,7 +506,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'full class name for the Manager for cert'"
+string|"'Full class name for the Manager for cert'"
 op|')'
 op|','
 nl|'\n'
@@ -526,7 +526,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'full class name for the Manager for network'"
+string|"'Full class name for the Manager for network'"
 op|')'
 op|','
 nl|'\n'
@@ -546,7 +546,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'full class name for the Manager for scheduler'"
+string|"'Full class name for the Manager for scheduler'"
 op|')'
 op|','
 nl|'\n'
@@ -566,7 +566,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'maximum time since last check-in for up service'"
+string|"'Maximum time since last check-in for up service'"
 op|')'
 op|','
 nl|'\n'
@@ -588,7 +588,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'Debug host (ip or name) to connect. Note '"
+string|"'Debug host (IP or name) to connect. Note '"
 nl|'\n'
 string|"'that using the remote debug option changes how '"
 nl|'\n'
