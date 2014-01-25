@@ -139,7 +139,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'URL for ldap server which will store dns entries'"
+string|"'URL for LDAP server which will store DNS entries'"
 op|')'
 op|','
 nl|'\n'
@@ -158,7 +158,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'user for ldap DNS'"
+string|"'User for LDAP DNS'"
 op|')'
 op|','
 nl|'\n'
@@ -178,7 +178,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'password for ldap DNS'"
+string|"'Password for LDAP DNS'"
 op|','
 nl|'\n'
 DECL|variable|secret
@@ -204,7 +204,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'Hostmaster for ldap dns driver Statement of Authority'"
+string|"'Hostmaster for LDAP DNS driver Statement of Authority'"
 op|')'
 op|','
 nl|'\n'
@@ -226,7 +226,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'DNS Servers for ldap dns driver'"
+string|"'DNS Servers for LDAP DNS driver'"
 op|')'
 op|','
 nl|'\n'
@@ -245,7 +245,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'Base DN for DNS entries in ldap'"
+string|"'Base DN for DNS entries in LDAP'"
 op|')'
 op|','
 nl|'\n'
@@ -265,7 +265,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'Refresh interval (in seconds) for ldap dns driver '"
+string|"'Refresh interval (in seconds) for LDAP DNS driver '"
 nl|'\n'
 string|"'Statement of Authority'"
 op|')'
@@ -287,7 +287,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'Retry interval (in seconds) for ldap dns driver '"
+string|"'Retry interval (in seconds) for LDAP DNS driver '"
 nl|'\n'
 string|"'Statement of Authority'"
 op|')'
@@ -309,7 +309,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'Expiry interval (in seconds) for ldap dns driver '"
+string|"'Expiry interval (in seconds) for LDAP DNS driver '"
 nl|'\n'
 string|"'Statement of Authority'"
 op|')'
@@ -331,7 +331,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'Minimum interval (in seconds) for ldap dns driver '"
+string|"'Minimum interval (in seconds) for LDAP DNS driver '"
 nl|'\n'
 string|"'Statement of Authority'"
 op|')'

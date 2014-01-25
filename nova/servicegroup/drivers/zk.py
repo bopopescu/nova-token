@@ -166,7 +166,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'recv_timeout parameter for the zk session'"
+string|"'The recv_timeout parameter for the zk session'"
 op|')'
 op|','
 nl|'\n'

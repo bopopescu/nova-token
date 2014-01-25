@@ -197,7 +197,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'location of flagfiles for dhcpbridge'"
+string|"'Location of flagfiles for dhcpbridge'"
 op|')'
 op|','
 nl|'\n'
@@ -281,7 +281,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'location of nova-dhcpbridge'"
+string|"'Location of nova-dhcpbridge'"
 op|')'
 op|','
 nl|'\n'
@@ -342,9 +342,9 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'if set, uses specific dns server for dnsmasq. Can'"
+string|"'If set, uses specific DNS server for dnsmasq. Can'"
 nl|'\n'
-string|"'be specified multiple times.'"
+string|"' be specified multiple times.'"
 op|')'
 op|','
 nl|'\n'
@@ -364,9 +364,9 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'if set, uses the dns1 and dns2 from the network ref.'"
+string|"'If set, uses the dns1 and dns2 from the network ref.'"
 nl|'\n'
-string|"'as dns servers.'"
+string|"' as dns servers.'"
 op|')'
 op|','
 nl|'\n'
@@ -492,7 +492,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'send gratuitous ARPs for HA setup'"
+string|"'Send gratuitous ARPs for HA setup'"
 op|')'
 op|','
 nl|'\n'
@@ -512,7 +512,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'send this many gratuitous ARPs for HA setup'"
+string|"'Send this many gratuitous ARPs for HA setup'"
 op|')'
 op|','
 nl|'\n'
@@ -580,7 +580,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'the ip for the metadata api server'"
+string|"'The IP address for the metadata API server'"
 op|')'
 op|','
 nl|'\n'
@@ -600,7 +600,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'the port for the metadata api port'"
+string|"'The port for the metadata API port'"
 op|')'
 op|','
 nl|'\n'

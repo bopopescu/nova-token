@@ -153,7 +153,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'the maximum number of items returned in a single '"
+string|"'The maximum number of items returned in a single '"
 nl|'\n'
 string|"'response from a collection resource'"
 op|')'

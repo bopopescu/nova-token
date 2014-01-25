@@ -129,7 +129,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'ip address of tilera pdu'"
+string|"'IP address of tilera pdu'"
 op|')'
 op|','
 nl|'\n'
@@ -149,7 +149,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'management script for tilera pdu'"
+string|"'Management script for tilera pdu'"
 op|')'
 op|','
 nl|'\n'
@@ -169,7 +169,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'power status of tilera PDU is OFF'"
+string|"'Power status of tilera PDU is OFF'"
 op|')'
 op|','
 nl|'\n'
@@ -189,7 +189,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'power status of tilera PDU is ON'"
+string|"'Power status of tilera PDU is ON'"
 op|')'
 op|','
 nl|'\n'
@@ -209,7 +209,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'power status of tilera PDU'"
+string|"'Power status of tilera PDU'"
 op|')'
 op|','
 nl|'\n'
@@ -229,7 +229,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'wait time in seconds until check the result '"
+string|"'Wait time in seconds until check the result '"
 nl|'\n'
 string|"'after tilera power operations'"
 op|')'

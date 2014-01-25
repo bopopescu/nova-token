@@ -93,9 +93,9 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'Which pcpus can be used by vcpus of instance '"
+string|"'Defines which pcpus that instance vcpus can use. '"
 nl|'\n'
-string|'\'e.g: "4-12,^8,15"\''
+string|'\'For example, "4-12,^8,15"\''
 op|','
 nl|'\n'
 DECL|variable|deprecated_group

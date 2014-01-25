@@ -427,7 +427,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'iSCSI Target Host'"
+string|"'The iSCSI Target Host'"
 op|')'
 op|','
 nl|'\n'
@@ -459,7 +459,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'iSCSI Target Port, 3260 Default'"
+string|"'The iSCSI Target Port, default is port 3260'"
 op|')'
 op|','
 nl|'\n'

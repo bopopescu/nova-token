@@ -138,7 +138,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'attestation server http'"
+string|"'Attestation server HTTP'"
 op|')'
 op|','
 nl|'\n'
@@ -152,7 +152,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'attestation server Cert file for Identity verification'"
+string|"'Attestation server Cert file for Identity verification'"
 op|')'
 op|','
 nl|'\n'
@@ -172,7 +172,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'attestation server port'"
+string|"'Attestation server port'"
 op|')'
 op|','
 nl|'\n'
@@ -192,7 +192,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'attestation web API URL'"
+string|"'Attestation web API URL'"
 op|')'
 op|','
 nl|'\n'
@@ -206,7 +206,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'attestation authorization blob - must change'"
+string|"'Attestation authorization blob - must change'"
 op|')'
 op|','
 nl|'\n'

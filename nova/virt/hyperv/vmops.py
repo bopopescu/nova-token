@@ -265,9 +265,9 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'qemu-img is used to convert between '"
+string|"'Path of qemu-img command which is used to convert '"
 nl|'\n'
-string|"'different image types'"
+string|"'between different image types'"
 op|')'
 op|','
 nl|'\n'

@@ -138,7 +138,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'the topic conductor nodes listen on'"
+string|"'The topic on which conductor nodes listen'"
 op|')'
 op|','
 nl|'\n'
@@ -158,7 +158,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'full class name for the Manager for conductor'"
+string|"'Full class name for the Manager for conductor'"
 op|')'
 op|','
 nl|'\n'

@@ -328,7 +328,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'Dns for simple network'"
+string|"'DNS server for simple network'"
 op|')'
 op|','
 nl|'\n'
@@ -396,7 +396,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'vlans will bridge into this interface if set'"
+string|"'VLANs will bridge into this interface if set'"
 op|')'
 op|','
 nl|'\n'
@@ -564,7 +564,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'Seconds after which a deallocated ip is disassociated'"
+string|"'Seconds after which a deallocated IP is disassociated'"
 op|')'
 op|','
 nl|'\n'
@@ -741,7 +741,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'domain to use for building the hostnames'"
+string|"'Domain to use for building the hostnames'"
 op|')'
 op|','
 nl|'\n'

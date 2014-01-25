@@ -101,7 +101,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'the topic compute nodes listen on'"
+string|"'The topic compute nodes listen on'"
 op|')'
 op|','
 nl|'\n'

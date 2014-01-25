@@ -215,7 +215,7 @@ name|'help'
 op|'='
 string|"'VM Images format. Acceptable values are: raw, qcow2, lvm,'"
 nl|'\n'
-string|"'rbd, default. If default is specified,'"
+string|"' rbd, default. If default is specified,'"
 nl|'\n'
 string|"' then use_cow_images flag is used instead of this one.'"
 op|','
@@ -339,7 +339,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'the RADOS pool in which rbd volumes are stored'"
+string|"'The RADOS pool in which rbd volumes are stored'"
 op|','
 nl|'\n'
 DECL|variable|deprecated_group
@@ -372,7 +372,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'path to the ceph configuration file to use'"
+string|"'Path to the ceph configuration file to use'"
 op|','
 nl|'\n'
 DECL|variable|deprecated_group

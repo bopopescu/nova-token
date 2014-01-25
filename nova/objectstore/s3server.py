@@ -126,7 +126,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'path to s3 buckets'"
+string|"'Path to S3 buckets'"
 op|')'
 op|','
 nl|'\n'
@@ -166,7 +166,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'port for s3 api to listen'"
+string|"'Port for S3 API to listen'"
 op|')'
 op|','
 nl|'\n'

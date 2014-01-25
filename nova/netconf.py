@@ -165,7 +165,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'ip address of this host'"
+string|"'IP address of this host'"
 op|')'
 op|','
 nl|'\n'
@@ -217,7 +217,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'use ipv6'"
+string|"'Use IPv6'"
 op|')'
 op|','
 nl|'\n'

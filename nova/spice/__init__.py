@@ -64,7 +64,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'location of spice html5 console proxy, in the form '"
+string|"'Location of spice HTML5 console proxy, in the form '"
 nl|'\n'
 string|'\'"http://127.0.0.1:6082/spice_auto.html"\''
 op|')'
@@ -106,7 +106,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'the address to which proxy clients '"
+string|"'The address to which proxy clients '"
 nl|'\n'
 string|"'(like nova-spicehtml5proxy) should connect'"
 op|')'
@@ -128,7 +128,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'enable spice related features'"
+string|"'Enable spice related features'"
 op|')'
 op|','
 nl|'\n'
@@ -148,7 +148,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'enable spice guest agent support'"
+string|"'Enable spice guest agent support'"
 op|')'
 op|','
 nl|'\n'
@@ -168,7 +168,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'keymap for spice'"
+string|"'Keymap for spice'"
 op|')'
 op|','
 nl|'\n'

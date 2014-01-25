@@ -111,7 +111,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'Multiplier used to weigh mute children.  (The value '"
+string|"'Multiplier used to weigh mute children. (The value '"
 nl|'\n'
 string|"'should be negative.)'"
 op|')'
@@ -133,7 +133,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'Weight value assigned to mute children.  (The value '"
+string|"'Weight value assigned to mute children. (The value '"
 nl|'\n'
 string|"'should be positive.)'"
 op|')'

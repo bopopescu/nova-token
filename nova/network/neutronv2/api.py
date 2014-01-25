@@ -221,7 +221,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'timeout value for connecting to neutron in seconds'"
+string|"'Timeout value for connecting to neutron in seconds'"
 op|')'
 op|','
 nl|'\n'
@@ -235,7 +235,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'username for connecting to neutron in admin context'"
+string|"'Username for connecting to neutron in admin context'"
 op|')'
 op|','
 nl|'\n'
@@ -249,7 +249,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'password for connecting to neutron in admin context'"
+string|"'Password for connecting to neutron in admin context'"
 op|','
 nl|'\n'
 DECL|variable|secret
@@ -269,7 +269,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'tenant name for connecting to neutron in admin context'"
+string|"'Tenant name for connecting to neutron in admin context'"
 op|')'
 op|','
 nl|'\n'
@@ -283,7 +283,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'region name for connecting to neutron in admin context'"
+string|"'Region name for connecting to neutron in admin context'"
 op|')'
 op|','
 nl|'\n'
@@ -303,7 +303,9 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'auth url for connecting to neutron in admin context'"
+string|"'Authorization URL for connecting to neutron in admin '"
+nl|'\n'
+string|"'context'"
 op|')'
 op|','
 nl|'\n'
@@ -323,7 +325,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'if set, ignore any SSL validation issues'"
+string|"'If set, ignore any SSL validation issues'"
 op|')'
 op|','
 nl|'\n'
@@ -343,7 +345,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'auth strategy for connecting to '"
+string|"'Authorization strategy for connecting to '"
 nl|'\n'
 string|"'neutron in admin context'"
 op|')'
@@ -405,7 +407,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'Location of ca certificates file to use for '"
+string|"'Location of CA certificates file to use for '"
 nl|'\n'
 string|"'neutron client requests.'"
 op|')'

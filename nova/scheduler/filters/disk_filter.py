@@ -94,7 +94,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|'"virtual disk to physical disk allocation ratio"'
+string|'"Virtual disk to physical disk allocation ratio"'
 op|')'
 newline|'\n'
 nl|'\n'

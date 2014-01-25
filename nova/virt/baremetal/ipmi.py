@@ -153,7 +153,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'path to baremetal terminal program'"
+string|"'Path to baremetal terminal program'"
 op|')'
 op|','
 nl|'\n'
@@ -167,7 +167,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'path to baremetal terminal SSL cert(PEM)'"
+string|"'Path to baremetal terminal SSL cert(PEM)'"
 op|')'
 op|','
 nl|'\n'
@@ -192,7 +192,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'path to directory stores pidfiles of baremetal_terminal'"
+string|"'Path to directory stores pidfiles of baremetal_terminal'"
 op|')'
 op|','
 nl|'\n'
@@ -212,7 +212,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'maximal number of retries for IPMI operations'"
+string|"'Maximal number of retries for IPMI operations'"
 op|')'
 op|','
 nl|'\n'

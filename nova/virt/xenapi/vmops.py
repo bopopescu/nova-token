@@ -326,7 +326,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'number of seconds to wait for instance '"
+string|"'Number of seconds to wait for instance '"
 nl|'\n'
 string|"'to go to running state'"
 op|')'

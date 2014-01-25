@@ -240,7 +240,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'mkfs commands for ephemeral device. '"
+string|"'Name of the mkfs commands for ephemeral device. '"
 nl|'\n'
 string|"'The format is <os_type>=<mkfs command>'"
 op|')'

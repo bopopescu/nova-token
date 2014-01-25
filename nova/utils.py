@@ -309,7 +309,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'time period to generate instance usages for.  '"
+string|"'Time period to generate instance usages for.  '"
 nl|'\n'
 string|"'Time period must be hour, day, month or year'"
 op|')'

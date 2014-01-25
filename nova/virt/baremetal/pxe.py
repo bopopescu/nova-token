@@ -237,7 +237,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'additional append parameters for baremetal PXE boot'"
+string|"'Additional append parameters for baremetal PXE boot'"
 op|')'
 op|','
 nl|'\n'

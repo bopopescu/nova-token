@@ -201,7 +201,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'Default pool for floating ips'"
+string|"'Default pool for floating IPs'"
 op|')'
 op|','
 nl|'\n'
@@ -221,7 +221,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'Autoassigning floating ip to VM'"
+string|"'Autoassigning floating IP to VM'"
 op|')'
 op|','
 nl|'\n'
@@ -241,7 +241,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'full class name for the DNS Manager for floating IPs'"
+string|"'Full class name for the DNS Manager for floating IPs'"
 op|')'
 op|','
 nl|'\n'
@@ -261,7 +261,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'full class name for the DNS Manager for instance IPs'"
+string|"'Full class name for the DNS Manager for instance IPs'"
 op|')'
 op|','
 nl|'\n'
@@ -281,7 +281,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'full class name for the DNS Zone for instance IPs'"
+string|"'Full class name for the DNS Zone for instance IPs'"
 op|')'
 op|','
 nl|'\n'

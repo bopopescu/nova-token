@@ -163,7 +163,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'default glance hostname or ip'"
+string|"'Default glance hostname or IP address'"
 op|')'
 op|','
 nl|'\n'
@@ -183,7 +183,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'default glance port'"
+string|"'Default glance port'"
 op|')'
 op|','
 nl|'\n'
@@ -273,7 +273,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'Number retries when downloading an image from glance'"
+string|"'Number of retries when downloading an image from glance'"
 op|')'
 op|','
 nl|'\n'

@@ -92,7 +92,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'availability_zone to show internal services under'"
+string|"'The availability_zone to show internal services under'"
 op|')'
 op|','
 nl|'\n'
@@ -112,7 +112,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'default compute node availability_zone'"
+string|"'Default compute node availability_zone'"
 op|')'
 op|','
 nl|'\n'

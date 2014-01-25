@@ -145,7 +145,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'image id used when starting up a cloudpipe vpn server'"
+string|"'Image ID used when starting up a cloudpipe vpn server'"
 op|')'
 op|','
 nl|'\n'

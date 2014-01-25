@@ -125,7 +125,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'make exception message format errors fatal'"
+string|"'Make exception message format errors fatal'"
 op|')'
 op|','
 nl|'\n'

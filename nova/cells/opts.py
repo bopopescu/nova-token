@@ -82,7 +82,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'the topic cells nodes listen on'"
+string|"'The topic cells nodes listen on'"
 op|')'
 op|','
 nl|'\n'
@@ -122,7 +122,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'name of this cell'"
+string|"'Name of this cell'"
 op|')'
 op|','
 nl|'\n'

@@ -123,11 +123,13 @@ name|'help'
 op|'='
 name|'_'
 op|'('
-string|"'A list of filesystems that will be configured '"
+string|"'List of file systems that are configured '"
 nl|'\n'
-string|"'in this file under the sections '"
+string|"'in this file in the '"
 nl|'\n'
-string|"'image_file_url:<list entry name>'"
+string|"'image_file_url:<list entry name> '"
+nl|'\n'
+string|"'sections'"
 op|')'
 op|')'
 newline|'\n'

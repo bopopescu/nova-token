@@ -148,7 +148,9 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'Seconds between getting fresh cell info from db.'"
+string|"'Interval, in seconds, for getting fresh cell '"
+nl|'\n'
+string|"'information from the database.'"
 op|')'
 op|','
 nl|'\n'

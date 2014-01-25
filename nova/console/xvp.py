@@ -160,7 +160,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'generated XVP conf file'"
+string|"'Generated XVP conf file'"
 op|')'
 op|','
 nl|'\n'
@@ -220,7 +220,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'port for XVP to multiplex VNC connections on'"
+string|"'Port for XVP to multiplex VNC connections on'"
 op|')'
 op|','
 nl|'\n'
