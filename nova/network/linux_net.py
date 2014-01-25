@@ -694,6 +694,26 @@ string|"'for a response from the database. 0 is to wait forever.'"
 op|')'
 op|','
 nl|'\n'
+name|'cfg'
+op|'.'
+name|'BoolOpt'
+op|'('
+string|"'fake_network'"
+op|','
+nl|'\n'
+DECL|variable|default
+name|'default'
+op|'='
+name|'False'
+op|','
+nl|'\n'
+DECL|variable|help
+name|'help'
+op|'='
+string|"'If passed, use fake network devices and addresses'"
+op|')'
+op|','
+nl|'\n'
 op|']'
 newline|'\n'
 nl|'\n'
