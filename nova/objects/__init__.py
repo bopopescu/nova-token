@@ -43,6 +43,11 @@ nl|'\n'
 indent|'    '
 name|'__import__'
 op|'('
+string|"'nova.objects.dns_domain'"
+op|')'
+newline|'\n'
+name|'__import__'
+op|'('
 string|"'nova.objects.instance'"
 op|')'
 newline|'\n'
