@@ -318,7 +318,9 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'Number of workers for EC2 API service'"
+string|"'Number of workers for EC2 API service. The default will '"
+nl|'\n'
+string|"'be equal to the number of CPUs available.'"
 op|')'
 op|','
 nl|'\n'
@@ -372,7 +374,9 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'Number of workers for OpenStack API service'"
+string|"'Number of workers for OpenStack API service. The default '"
+nl|'\n'
+string|"'will be the number of CPUs available.'"
 op|')'
 op|','
 nl|'\n'
@@ -446,7 +450,9 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'Number of workers for metadata service'"
+string|"'Number of workers for metadata service. The default will '"
+nl|'\n'
+string|"'be the number of CPUs available.'"
 op|')'
 op|','
 nl|'\n'
@@ -2027,6 +2033,7 @@ name|'self'
 op|'.'
 name|'workers'
 op|'='
+op|'('
 name|'getattr'
 op|'('
 name|'CONF'
@@ -2036,6 +2043,14 @@ op|'%'
 name|'name'
 op|','
 name|'None'
+op|')'
+name|'or'
+nl|'\n'
+name|'utils'
+op|'.'
+name|'cpu_count'
+op|'('
+op|')'
 op|')'
 newline|'\n'
 name|'self'
