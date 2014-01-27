@@ -174,7 +174,7 @@ nl|'\n'
 DECL|variable|default
 name|'default'
 op|'='
-number|'3'
+number|'5'
 op|','
 nl|'\n'
 DECL|variable|help
@@ -200,7 +200,7 @@ nl|'\n'
 DECL|variable|default
 name|'default'
 op|'='
-number|'3'
+number|'5'
 op|','
 nl|'\n'
 DECL|variable|help
