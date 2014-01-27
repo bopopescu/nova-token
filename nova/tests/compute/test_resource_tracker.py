@@ -2721,6 +2721,8 @@ op|'['
 string|"'confirmed'"
 op|','
 string|"'reverted'"
+op|','
+string|"'error'"
 op|']'
 newline|'\n'
 name|'migrations'
