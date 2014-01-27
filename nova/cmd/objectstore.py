@@ -1,8 +1,5 @@
 begin_unit
 nl|'\n'
-comment|'# vim: tabstop=4 shiftwidth=4 softtabstop=4'
-nl|'\n'
-nl|'\n'
 comment|'# Copyright 2010 United States Government as represented by the'
 nl|'\n'
 comment|'# Administrator of the National Aeronautics and Space Administration.'

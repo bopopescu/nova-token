@@ -1,6 +1,4 @@
 begin_unit
-comment|'# vim: tabstop=4 shiftwidth=4 softtabstop=4'
-nl|'\n'
 comment|'# encoding=UTF8'
 nl|'\n'
 nl|'\n'

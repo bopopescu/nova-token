@@ -1,8 +1,4 @@
 begin_unit
-comment|'# vim: tabstop=4 shiftwidth=4 softtabstop=4'
-nl|'\n'
-comment|'#'
-nl|'\n'
 comment|'#    Licensed under the Apache License, Version 2.0 (the "License"); you may'
 nl|'\n'
 comment|'#    not use this file except in compliance with the License. You may obtain'

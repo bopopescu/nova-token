@@ -1,9 +1,6 @@
 begin_unit
 comment|'#!/usr/bin/env python'
 nl|'\n'
-comment|'# vim: tabstop=4 shiftwidth=4 softtabstop=4'
-nl|'\n'
-nl|'\n'
 comment|'# Copyright (c) 2012 Red Hat, Inc.'
 nl|'\n'
 comment|'#'

@@ -1,8 +1,4 @@
 begin_unit
-comment|'# vim: tabstop=4 shiftwidth=4 softtabstop=4'
-nl|'\n'
-comment|'#'
-nl|'\n'
 comment|'#    Copyright (c) 2010 Citrix Systems, Inc.'
 nl|'\n'
 comment|'#'

@@ -1,7 +1,4 @@
 begin_unit
-comment|'# vim: tabstop=4 shiftwidth=4 softtabstop=4'
-nl|'\n'
-nl|'\n'
 comment|'# Copyright (c) 2012 NTT DOCOMO, INC.'
 nl|'\n'
 comment|'# Copyright 2010 United States Government as represented by the'
