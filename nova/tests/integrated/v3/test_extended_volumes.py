@@ -1007,24 +1007,7 @@ op|','
 string|"''"
 op|')'
 newline|'\n'
-nl|'\n'
-nl|'\n'
-DECL|class|ExtendedVolumesSampleXmlTests
 dedent|''
-dedent|''
-name|'class'
-name|'ExtendedVolumesSampleXmlTests'
-op|'('
-name|'ExtendedVolumesSampleJsonTests'
-op|')'
-op|':'
-newline|'\n'
-DECL|variable|ctype
-indent|'    '
-name|'ctype'
-op|'='
-string|"'xml'"
-newline|'\n'
 dedent|''
 endmarker|''
 end_unit

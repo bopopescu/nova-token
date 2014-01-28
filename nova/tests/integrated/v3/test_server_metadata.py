@@ -477,24 +477,7 @@ op|','
 string|"''"
 op|')'
 newline|'\n'
-nl|'\n'
-nl|'\n'
-DECL|class|ServersMetadataXmlTest
 dedent|''
-dedent|''
-name|'class'
-name|'ServersMetadataXmlTest'
-op|'('
-name|'ServersMetadataJsonTest'
-op|')'
-op|':'
-newline|'\n'
-DECL|variable|ctype
-indent|'    '
-name|'ctype'
-op|'='
-string|"'xml'"
-newline|'\n'
 dedent|''
 endmarker|''
 end_unit
