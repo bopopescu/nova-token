@@ -172,7 +172,9 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'Number of workers for OpenStack Conductor service'"
+string|"'Number of workers for OpenStack Conductor service. '"
+nl|'\n'
+string|"'The default will be the number of CPUs available.'"
 op|')'
 nl|'\n'
 op|']'
