@@ -46363,8 +46363,6 @@ op|']'
 op|')'
 newline|'\n'
 nl|'\n'
-comment|'#        self.fw.add_instance(instance_ref)'
-nl|'\n'
 DECL|function|fake_iptables_execute
 name|'def'
 name|'fake_iptables_execute'
