@@ -261,13 +261,33 @@ name|'cfg'
 op|'.'
 name|'StrOpt'
 op|'('
+string|"'neutron_admin_tenant_id'"
+op|','
+nl|'\n'
+DECL|variable|help
+name|'help'
+op|'='
+string|"'Tenant id for connecting to neutron in admin context'"
+op|')'
+op|','
+nl|'\n'
+name|'cfg'
+op|'.'
+name|'StrOpt'
+op|'('
 string|"'neutron_admin_tenant_name'"
 op|','
 nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'Tenant name for connecting to neutron in admin context'"
+string|"'DEPRECATED: Tenant name for connecting to neutron in '"
+nl|'\n'
+string|"'admin context.  This option is deprecated.  Please use '"
+nl|'\n'
+string|"'neutron_admin_tenant_id instead. Note that with Keystone '"
+nl|'\n'
+string|"'V3 tenant names may not be unique.'"
 op|')'
 op|','
 nl|'\n'
