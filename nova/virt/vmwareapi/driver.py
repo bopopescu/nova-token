@@ -289,7 +289,7 @@ nl|'\n'
 DECL|variable|default
 name|'default'
 op|'='
-number|'5.0'
+number|'0.5'
 op|','
 nl|'\n'
 DECL|variable|help
