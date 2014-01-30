@@ -279,24 +279,7 @@ op|','
 string|"'unshelve'"
 op|')'
 newline|'\n'
-nl|'\n'
-nl|'\n'
-DECL|class|ShelveXmlTest
 dedent|''
-dedent|''
-name|'class'
-name|'ShelveXmlTest'
-op|'('
-name|'ShelveJsonTest'
-op|')'
-op|':'
-newline|'\n'
-DECL|variable|ctype
-indent|'    '
-name|'ctype'
-op|'='
-string|"'xml'"
-newline|'\n'
 dedent|''
 endmarker|''
 end_unit

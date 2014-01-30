@@ -1016,24 +1016,7 @@ op|','
 string|"''"
 op|')'
 newline|'\n'
-nl|'\n'
-nl|'\n'
-DECL|class|AttachInterfacesSampleXmlTest
 dedent|''
-dedent|''
-name|'class'
-name|'AttachInterfacesSampleXmlTest'
-op|'('
-name|'AttachInterfacesSampleJsonTest'
-op|')'
-op|':'
-newline|'\n'
-DECL|variable|ctype
-indent|'    '
-name|'ctype'
-op|'='
-string|"'xml'"
-newline|'\n'
 dedent|''
 endmarker|''
 end_unit
