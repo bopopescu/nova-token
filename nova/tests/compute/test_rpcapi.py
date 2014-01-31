@@ -5660,6 +5660,10 @@ string|"'uuid1'"
 op|','
 string|"'uuid2'"
 op|']'
+op|','
+name|'version'
+op|'='
+string|"'3.22'"
 op|')'
 newline|'\n'
 nl|'\n'
