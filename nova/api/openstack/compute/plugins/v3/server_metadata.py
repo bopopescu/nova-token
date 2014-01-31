@@ -1144,11 +1144,6 @@ name|'alias'
 op|'='
 string|'"server-metadata"'
 newline|'\n'
-DECL|variable|namespace
-name|'namespace'
-op|'='
-string|'"http://docs.openstack.org/compute/core/server_metadata/v3"'
-newline|'\n'
 DECL|variable|version
 name|'version'
 op|'='

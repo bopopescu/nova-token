@@ -154,15 +154,6 @@ name|'__doc__'
 newline|'\n'
 name|'ext_data'
 op|'['
-string|"'namespace'"
-op|']'
-op|'='
-name|'ext'
-op|'.'
-name|'namespace'
-newline|'\n'
-name|'ext_data'
-op|'['
 string|"'version'"
 op|']'
 op|'='
@@ -462,11 +453,6 @@ DECL|variable|alias
 name|'alias'
 op|'='
 string|'"extensions"'
-newline|'\n'
-DECL|variable|namespace
-name|'namespace'
-op|'='
-string|'"http://docs.openstack.org/compute/core/extension_info/api/v3"'
 newline|'\n'
 DECL|variable|version
 name|'version'

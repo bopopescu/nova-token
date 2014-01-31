@@ -6876,11 +6876,6 @@ name|'alias'
 op|'='
 string|'"servers"'
 newline|'\n'
-DECL|variable|namespace
-name|'namespace'
-op|'='
-string|'"http://docs.openstack.org/compute/core/servers/v3"'
-newline|'\n'
 DECL|variable|version
 name|'version'
 op|'='

@@ -616,13 +616,6 @@ name|'alias'
 op|'='
 name|'ALIAS'
 newline|'\n'
-DECL|variable|namespace
-name|'namespace'
-op|'='
-string|'"http://docs.openstack.org/compute/core/%s/api/v3"'
-op|'%'
-name|'ALIAS'
-newline|'\n'
 DECL|variable|version
 name|'version'
 op|'='

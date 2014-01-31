@@ -605,11 +605,6 @@ name|'alias'
 op|'='
 string|'"consoles"'
 newline|'\n'
-DECL|variable|namespace
-name|'namespace'
-op|'='
-string|'"http://docs.openstack.org/compute/core/consoles/v3"'
-newline|'\n'
 DECL|variable|version
 name|'version'
 op|'='

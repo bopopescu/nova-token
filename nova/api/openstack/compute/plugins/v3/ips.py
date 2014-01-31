@@ -439,11 +439,6 @@ name|'alias'
 op|'='
 string|'"ips"'
 newline|'\n'
-DECL|variable|namespace
-name|'namespace'
-op|'='
-string|'"http://docs.openstack.org/compute/core/ips/v3"'
-newline|'\n'
 DECL|variable|version
 name|'version'
 op|'='

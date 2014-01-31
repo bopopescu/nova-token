@@ -324,11 +324,6 @@ name|'alias'
 op|'='
 name|'ALIAS'
 newline|'\n'
-DECL|variable|namespace
-name|'namespace'
-op|'='
-string|'"http://docs.openstack.org/compute/ext/config_drive/api/v3"'
-newline|'\n'
 DECL|variable|version
 name|'version'
 op|'='
