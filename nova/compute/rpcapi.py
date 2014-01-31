@@ -136,7 +136,13 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'Set a version cap for messages sent to compute services'"
+string|"'Set a version cap for messages sent to compute services. If you '"
+nl|'\n'
+string|"'plan to do a live upgrade from havana to icehouse, you should '"
+nl|'\n'
+string|'\'set this option to "icehouse-compat" before beginning the live \''
+nl|'\n'
+string|"'upgrade procedure.'"
 op|')'
 newline|'\n'
 name|'CONF'
@@ -276,6 +282,17 @@ nl|'\n'
 string|"'havana'"
 op|':'
 string|"'2.47'"
+op|','
+nl|'\n'
+comment|"# NOTE(russellb) 'icehouse-compat' is the version that is supported by"
+nl|'\n'
+comment|"# both havana and icehouse.  Later, 'icehouse' will be added that lists"
+nl|'\n'
+comment|'# the maximum version supported by icehouse.'
+nl|'\n'
+string|"'icehouse-compat'"
+op|':'
+string|"'3.0'"
 op|','
 nl|'\n'
 op|'}'
