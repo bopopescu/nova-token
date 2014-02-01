@@ -771,11 +771,6 @@ name|'alias'
 op|'='
 string|'"flavors"'
 newline|'\n'
-DECL|variable|namespace
-name|'namespace'
-op|'='
-string|'"http://docs.openstack.org/compute/core/flavors/v3"'
-newline|'\n'
 DECL|variable|version
 name|'version'
 op|'='

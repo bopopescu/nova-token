@@ -472,15 +472,6 @@ name|'alias'
 op|'='
 name|'ALIAS'
 newline|'\n'
-DECL|variable|namespace
-name|'namespace'
-op|'='
-op|'('
-string|"'http://docs.openstack.org/compute/ext/'"
-nl|'\n'
-string|"'hide_server_addresses/api/v3'"
-op|')'
-newline|'\n'
 DECL|variable|version
 name|'version'
 op|'='

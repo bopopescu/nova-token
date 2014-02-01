@@ -880,13 +880,6 @@ name|'FlavorExtraSpecsController'
 op|'.'
 name|'ALIAS'
 newline|'\n'
-DECL|variable|namespace
-name|'namespace'
-op|'='
-string|'"http://docs.openstack.org/compute/core/%s/v3"'
-op|'%'
-name|'alias'
-newline|'\n'
 DECL|variable|version
 name|'version'
 op|'='
