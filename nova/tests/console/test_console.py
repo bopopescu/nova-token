@@ -1278,7 +1278,11 @@ op|'('
 nl|'\n'
 name|'topic'
 op|'='
-string|"'compute.fake_host'"
+string|"'compute'"
+op|','
+name|'server'
+op|'='
+string|"'fake_host'"
 op|')'
 newline|'\n'
 name|'console_api_mock'
