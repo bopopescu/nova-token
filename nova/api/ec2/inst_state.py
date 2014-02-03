@@ -1,7 +1,4 @@
 begin_unit
-comment|'# vim: tabstop=4 shiftwidth=4 softtabstop=4'
-nl|'\n'
-nl|'\n'
 comment|'# Copyright 2011 Isaku Yamahata <yamahata at valinux co jp>'
 nl|'\n'
 comment|'# All Rights Reserved.'

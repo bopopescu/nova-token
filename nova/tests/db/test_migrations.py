@@ -1,7 +1,4 @@
 begin_unit
-comment|'# vim: tabstop=4 shiftwidth=4 softtabstop=4'
-nl|'\n'
-nl|'\n'
 comment|'# Copyright 2010-2011 OpenStack Foundation'
 nl|'\n'
 comment|'# Copyright 2012-2013 IBM Corp.'

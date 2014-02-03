@@ -1,6 +1,4 @@
 begin_unit
-comment|'# vim: tabstop=4 shiftwidth=4 softtabstop=4'
-nl|'\n'
 comment|'# Copyright (c) 2013 The Johns Hopkins University/Applied Physics Laboratory'
 nl|'\n'
 comment|'# All Rights Reserved.'
