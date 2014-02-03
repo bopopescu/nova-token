@@ -1005,7 +1005,7 @@ op|','
 nl|'\n'
 string|"'root_vhd_size'"
 op|':'
-name|'root_vhd_size'
+name|'root_vhd_internal_size'
 op|'}'
 newline|'\n'
 name|'raise'
@@ -1037,9 +1037,9 @@ op|')'
 op|','
 nl|'\n'
 op|'{'
-string|"'base_vhd_path'"
+string|"'root_vhd_size'"
 op|':'
-name|'base_vhd_path'
+name|'root_vhd_internal_size'
 op|','
 nl|'\n'
 string|"'root_vhd_path'"
