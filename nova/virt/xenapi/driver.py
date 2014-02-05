@@ -859,6 +859,26 @@ op|')'
 op|':'
 newline|'\n'
 indent|'        '
+name|'LOG'
+op|'.'
+name|'warning'
+op|'('
+name|'_'
+op|'('
+string|"'The xenapi driver does not meet the Nova project\\'s '"
+nl|'\n'
+string|"'requirements for quality verification and is planned '"
+nl|'\n'
+string|"'for removal. This may change, but users should plan '"
+nl|'\n'
+string|"'accordingly. Additional details here: '"
+nl|'\n'
+string|"'https://wiki.openstack.org/wiki/HypervisorSupportMatrix'"
+nl|'\n'
+string|"'/DeprecationPlan'"
+op|')'
+op|')'
+newline|'\n'
 name|'if'
 name|'CONF'
 op|'.'
