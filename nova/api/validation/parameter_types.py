@@ -133,6 +133,44 @@ op|'}'
 newline|'\n'
 nl|'\n'
 nl|'\n'
+DECL|variable|name
+name|'name'
+op|'='
+op|'{'
+nl|'\n'
+comment|"# NOTE: Nova v3 API contains some 'name' parameters such"
+nl|'\n'
+comment|'# as keypair, server, flavor, aggregate and so on. They are'
+nl|'\n'
+comment|'# stored in the DB and Nova specific parameters.'
+nl|'\n'
+comment|'# This definition is used for all their parameters.'
+nl|'\n'
+string|"'type'"
+op|':'
+string|"'string'"
+op|','
+string|"'minLength'"
+op|':'
+number|'1'
+op|','
+string|"'maxLength'"
+op|':'
+number|'255'
+op|','
+nl|'\n'
+nl|'\n'
+comment|'# NOTE: Allow to some spaces in middle of name.'
+nl|'\n'
+string|"'pattern'"
+op|':'
+string|"'^(?! )[a-zA-Z0-9. _-]+(?<! )$'"
+op|','
+nl|'\n'
+op|'}'
+newline|'\n'
+nl|'\n'
+nl|'\n'
 DECL|variable|tcp_udp_port
 name|'tcp_udp_port'
 op|'='
