@@ -158,27 +158,6 @@ name|'help'
 op|'='
 string|"'How many seconds before deleting tokens'"
 op|')'
-op|','
-nl|'\n'
-name|'cfg'
-op|'.'
-name|'StrOpt'
-op|'('
-string|"'consoleauth_manager'"
-op|','
-nl|'\n'
-DECL|variable|default
-name|'default'
-op|'='
-string|"'nova.consoleauth.manager.ConsoleAuthManager'"
-op|','
-nl|'\n'
-DECL|variable|help
-name|'help'
-op|'='
-string|"'Manager for console auth'"
-op|')'
-op|','
 nl|'\n'
 op|']'
 newline|'\n'
