@@ -26,6 +26,17 @@ nl|'\n'
 comment|'#    under the License.'
 nl|'\n'
 nl|'\n'
+name|'from'
+name|'nova'
+op|'.'
+name|'api'
+op|'.'
+name|'validation'
+name|'import'
+name|'parameter_types'
+newline|'\n'
+nl|'\n'
+nl|'\n'
 DECL|variable|create
 name|'create'
 op|'='
@@ -55,26 +66,9 @@ op|'{'
 nl|'\n'
 string|"'name'"
 op|':'
-op|'{'
-nl|'\n'
-string|"'type'"
-op|':'
-string|"'string'"
-op|','
-string|"'minLength'"
-op|':'
-number|'1'
-op|','
-string|"'maxLength'"
-op|':'
-number|'255'
-op|','
-nl|'\n'
-string|"'pattern'"
-op|':'
-string|"'^[a-zA-Z0-9 _-]+$'"
-nl|'\n'
-op|'}'
+name|'parameter_types'
+op|'.'
+name|'name'
 op|','
 nl|'\n'
 string|"'public_key'"
