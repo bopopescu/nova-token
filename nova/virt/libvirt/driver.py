@@ -684,7 +684,7 @@ nl|'\n'
 DECL|variable|default
 name|'default'
 op|'='
-name|'True'
+name|'False'
 op|','
 nl|'\n'
 DECL|variable|help
@@ -716,7 +716,8 @@ nl|'\n'
 DECL|variable|default
 name|'default'
 op|'='
-number|'1'
+op|'-'
+number|'2'
 op|','
 nl|'\n'
 DECL|variable|help
