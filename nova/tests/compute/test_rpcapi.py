@@ -4341,6 +4341,11 @@ op|','
 name|'rescue_password'
 op|'='
 string|"'pw'"
+op|','
+nl|'\n'
+name|'version'
+op|'='
+string|"'3.9'"
 op|')'
 newline|'\n'
 nl|'\n'
@@ -4381,7 +4386,7 @@ op|','
 nl|'\n'
 name|'version'
 op|'='
-string|"'2.0'"
+string|"'2.44'"
 op|')'
 newline|'\n'
 nl|'\n'
