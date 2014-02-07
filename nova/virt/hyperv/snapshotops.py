@@ -590,7 +590,7 @@ op|')'
 op|','
 nl|'\n'
 op|'{'
-string|"'image_id'"
+string|"'name'"
 op|':'
 name|'name'
 op|','
