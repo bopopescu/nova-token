@@ -33641,7 +33641,7 @@ string|'"id"'
 newline|'\n'
 comment|'# NOTE(guochbo): Use InsertFromSelect and DeleteFromSelect to avoid'
 nl|'\n'
-comment|"# database's limit of maximum parameter in one SQL statment."
+comment|"# database's limit of maximum parameter in one SQL statement."
 nl|'\n'
 dedent|''
 name|'query_insert'

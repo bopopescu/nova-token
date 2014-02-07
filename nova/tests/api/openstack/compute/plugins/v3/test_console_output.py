@@ -1013,10 +1013,10 @@ number|'409'
 op|')'
 newline|'\n'
 nl|'\n'
-DECL|member|test_get_console_output_with_lenght_as_float
+DECL|member|test_get_console_output_with_length_as_float
 dedent|''
 name|'def'
-name|'test_get_console_output_with_lenght_as_float'
+name|'test_get_console_output_with_length_as_float'
 op|'('
 name|'self'
 op|')'

@@ -141,7 +141,7 @@ op|'}'
 newline|'\n'
 nl|'\n'
 nl|'\n'
-comment|'#TOD(jogo) dedup these accross nova.api.openstack.contrib.test_flavor*'
+comment|'#TOD(jogo) dedup these across nova.api.openstack.contrib.test_flavor*'
 nl|'\n'
 DECL|function|fake_flavor_get_by_flavor_id
 name|'def'
