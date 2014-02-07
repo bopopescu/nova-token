@@ -349,7 +349,7 @@ nl|'\n'
 DECL|variable|default
 name|'default'
 op|'='
-number|'5'
+number|'20'
 op|','
 nl|'\n'
 DECL|variable|deprecated_name
