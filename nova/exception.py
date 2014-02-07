@@ -8617,6 +8617,28 @@ op|'('
 string|'"Invalid Connection Info"'
 op|')'
 newline|'\n'
+nl|'\n'
+nl|'\n'
+DECL|class|InstanceQuiesceNotSupported
+dedent|''
+name|'class'
+name|'InstanceQuiesceNotSupported'
+op|'('
+name|'Invalid'
+op|')'
+op|':'
+newline|'\n'
+DECL|variable|msg_fmt
+indent|'    '
+name|'msg_fmt'
+op|'='
+name|'_'
+op|'('
+string|"'Quiescing is not supported in instance %(instance_id)s: '"
+nl|'\n'
+string|"'%(reason)s'"
+op|')'
+newline|'\n'
 dedent|''
 endmarker|''
 end_unit
