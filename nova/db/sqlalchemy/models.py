@@ -1216,8 +1216,11 @@ name|'return'
 name|'base_name'
 newline|'\n'
 nl|'\n'
-DECL|member|_extra_keys
 dedent|''
+op|'@'
+name|'property'
+newline|'\n'
+DECL|member|_extra_keys
 name|'def'
 name|'_extra_keys'
 op|'('
@@ -6940,6 +6943,9 @@ string|"'Aggregate.deleted == 0)'"
 op|')'
 newline|'\n'
 nl|'\n'
+op|'@'
+name|'property'
+newline|'\n'
 DECL|member|_extra_keys
 name|'def'
 name|'_extra_keys'
