@@ -279,7 +279,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""Verify the format of a MAC addres."""'
+string|'"""Verify the format of a MAC address."""'
 newline|'\n'
 nl|'\n'
 DECL|class|mac_dialect

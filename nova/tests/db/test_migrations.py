@@ -4748,7 +4748,7 @@ op|','
 string|"'bm_interfaces'"
 op|')'
 newline|'\n'
-comment|'# node 1 has two diffrent addresses in bm_nodes and bm_interfaces'
+comment|'# node 1 has two different addresses in bm_nodes and bm_interfaces'
 nl|'\n'
 name|'engine'
 op|'.'

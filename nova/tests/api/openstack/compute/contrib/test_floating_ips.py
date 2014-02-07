@@ -2289,7 +2289,7 @@ op|','
 op|'{'
 string|"'pool'"
 op|':'
-string|"'non_existant_pool'"
+string|"'non_existent_pool'"
 op|'}'
 op|')'
 newline|'\n'
@@ -2298,7 +2298,7 @@ name|'self'
 op|'.'
 name|'assertIn'
 op|'('
-string|"'No more floating ips in pool non_existant_pool'"
+string|"'No more floating ips in pool non_existent_pool'"
 op|','
 nl|'\n'
 name|'ex'
