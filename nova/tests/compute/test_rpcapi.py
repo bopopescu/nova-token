@@ -4980,6 +4980,11 @@ op|','
 name|'new_pass'
 op|'='
 string|"'pw'"
+op|','
+nl|'\n'
+name|'version'
+op|'='
+string|"'3.8'"
 op|')'
 newline|'\n'
 nl|'\n'
