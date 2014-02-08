@@ -147,7 +147,7 @@ name|'expected_retval'
 op|'='
 string|"'foo'"
 name|'if'
-name|'method'
+name|'rpc_method'
 op|'=='
 string|"'call'"
 name|'else'
@@ -300,7 +300,7 @@ op|')'
 op|'.'
 name|'AndReturn'
 op|'('
-name|'expected_retval'
+string|"'foo'"
 op|')'
 newline|'\n'
 nl|'\n'

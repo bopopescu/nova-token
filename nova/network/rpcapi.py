@@ -1987,7 +1987,6 @@ op|'='
 string|"'1.3'"
 op|')'
 newline|'\n'
-name|'return'
 name|'cctxt'
 op|'.'
 name|'cast'
