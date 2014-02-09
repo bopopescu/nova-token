@@ -195,7 +195,7 @@ name|'request'
 op|'('
 string|"'GET'"
 op|','
-string|"'/v1.4/containers/ps?all=1&limit=50'"
+string|"'/v1.7/containers/ps?all=1'"
 op|','
 nl|'\n'
 name|'headers'
@@ -1108,7 +1108,7 @@ name|'request'
 op|'('
 string|"'POST'"
 op|','
-string|"'/v1.4/containers/XXX/start'"
+string|"'/v1.7/containers/XXX/start'"
 op|','
 nl|'\n'
 name|'body'
@@ -1228,7 +1228,7 @@ name|'request'
 op|'('
 string|"'POST'"
 op|','
-string|"'/v1.4/containers/XXX/start'"
+string|"'/v1.7/containers/XXX/start'"
 op|','
 nl|'\n'
 name|'body'
@@ -1339,7 +1339,7 @@ name|'request'
 op|'('
 string|"'GET'"
 op|','
-string|"'/v1.4/images/XXX/json'"
+string|"'/v1.7/images/XXX/json'"
 op|','
 nl|'\n'
 name|'headers'
@@ -1466,7 +1466,7 @@ name|'request'
 op|'('
 string|"'GET'"
 op|','
-string|"'/v1.4/images/XXX/json'"
+string|"'/v1.7/images/XXX/json'"
 op|','
 nl|'\n'
 name|'headers'
@@ -1574,7 +1574,7 @@ name|'request'
 op|'('
 string|"'GET'"
 op|','
-string|"'/v1.4/containers/XXX/json'"
+string|"'/v1.7/containers/XXX/json'"
 op|','
 nl|'\n'
 name|'headers'
@@ -1701,7 +1701,7 @@ name|'request'
 op|'('
 string|"'GET'"
 op|','
-string|"'/v1.4/containers/XXX/json'"
+string|"'/v1.7/containers/XXX/json'"
 op|','
 nl|'\n'
 name|'headers'
@@ -1809,7 +1809,7 @@ name|'request'
 op|'('
 string|"'POST'"
 op|','
-string|"'/v1.4/containers/XXX/stop?t=5'"
+string|"'/v1.7/containers/XXX/stop?t=5'"
 op|','
 nl|'\n'
 name|'headers'
@@ -1924,7 +1924,7 @@ name|'request'
 op|'('
 string|"'POST'"
 op|','
-string|"'/v1.4/containers/XXX/kill'"
+string|"'/v1.7/containers/XXX/kill'"
 op|','
 nl|'\n'
 name|'headers'
@@ -2039,7 +2039,7 @@ name|'request'
 op|'('
 string|"'POST'"
 op|','
-string|"'/v1.4/containers/XXX/stop?t=5'"
+string|"'/v1.7/containers/XXX/stop?t=5'"
 op|','
 nl|'\n'
 name|'headers'
@@ -2145,7 +2145,7 @@ name|'request'
 op|'('
 string|"'POST'"
 op|','
-string|"'/v1.4/containers/XXX/kill'"
+string|"'/v1.7/containers/XXX/kill'"
 op|','
 nl|'\n'
 name|'headers'
@@ -2251,7 +2251,7 @@ name|'request'
 op|'('
 string|"'DELETE'"
 op|','
-string|"'/v1.4/containers/XXX'"
+string|"'/v1.7/containers/XXX'"
 op|','
 nl|'\n'
 name|'headers'
@@ -2366,7 +2366,7 @@ name|'request'
 op|'('
 string|"'DELETE'"
 op|','
-string|"'/v1.4/containers/XXX'"
+string|"'/v1.7/containers/XXX'"
 op|','
 nl|'\n'
 name|'headers'
@@ -2472,7 +2472,7 @@ name|'request'
 op|'('
 string|"'POST'"
 op|','
-string|"'/v1.4/images/create?fromImage=ping'"
+string|"'/v1.7/images/create?fromImage=ping'"
 op|','
 nl|'\n'
 name|'headers'
@@ -2583,7 +2583,7 @@ newline|'\n'
 nl|'\n'
 name|'url'
 op|'='
-string|"'/v1.4/images/create?fromImage=ping&tag=pong'"
+string|"'/v1.7/images/create?fromImage=ping&tag=pong'"
 newline|'\n'
 name|'mock_conn'
 op|'.'
@@ -2706,7 +2706,7 @@ name|'request'
 op|'('
 string|"'POST'"
 op|','
-string|"'/v1.4/images/create?fromImage=ping'"
+string|"'/v1.7/images/create?fromImage=ping'"
 op|','
 nl|'\n'
 name|'headers'
@@ -2829,7 +2829,7 @@ name|'request'
 op|'('
 string|"'POST'"
 op|','
-string|"'/v1.4/images/ping/push'"
+string|"'/v1.7/images/ping/push'"
 op|','
 nl|'\n'
 name|'headers'
@@ -2957,7 +2957,7 @@ name|'request'
 op|'('
 string|"'POST'"
 op|','
-string|"'/v1.4/images/ping/push'"
+string|"'/v1.7/images/ping/push'"
 op|','
 nl|'\n'
 name|'headers'
@@ -3077,7 +3077,7 @@ name|'request'
 op|'('
 string|"'POST'"
 op|','
-string|"'/v1.4/commit?container=XXX&repo=ping'"
+string|"'/v1.7/commit?container=XXX&repo=ping'"
 op|','
 nl|'\n'
 name|'headers'
@@ -3194,7 +3194,7 @@ name|'request'
 op|'('
 string|"'POST'"
 op|','
-string|"'/v1.4/commit?container=XXX&repo=ping'"
+string|"'/v1.7/commit?container=XXX&repo=ping'"
 op|','
 nl|'\n'
 name|'headers'
@@ -3307,7 +3307,7 @@ newline|'\n'
 nl|'\n'
 name|'url'
 op|'='
-string|"'/v1.4/containers/XXX/attach?logs=1&stream=0&stdout=1&stderr=1'"
+string|"'/v1.7/containers/XXX/attach?logs=1&stream=0&stdout=1&stderr=1'"
 newline|'\n'
 name|'mock_conn'
 op|'.'
@@ -3434,7 +3434,7 @@ newline|'\n'
 nl|'\n'
 name|'url'
 op|'='
-string|"'/v1.4/containers/XXX/attach?logs=1&stream=0&stdout=1&stderr=1'"
+string|"'/v1.7/containers/XXX/attach?logs=1&stream=0&stdout=1&stderr=1'"
 newline|'\n'
 name|'mock_conn'
 op|'.'
