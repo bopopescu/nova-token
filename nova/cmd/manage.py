@@ -1223,7 +1223,7 @@ name|'print'
 op|'('
 name|'_'
 op|'('
-string|"'Quota limit must greater than %s.'"
+string|"'Quota limit must be greater than %s.'"
 op|')'
 op|'%'
 name|'minimum'
@@ -1254,7 +1254,7 @@ name|'print'
 op|'('
 name|'_'
 op|'('
-string|"'Quota limit must less than %s.'"
+string|"'Quota limit must be less than %s.'"
 op|')'
 op|'%'
 name|'maximum'
