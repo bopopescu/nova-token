@@ -1801,6 +1801,14 @@ op|':'
 name|'None'
 op|','
 nl|'\n'
+string|"'image_ref'"
+op|':'
+name|'instance'
+op|'['
+string|"'image_ref'"
+op|']'
+op|','
+nl|'\n'
 string|"'key_data'"
 op|':'
 name|'None'
