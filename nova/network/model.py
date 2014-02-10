@@ -170,6 +170,44 @@ op|'='
 string|"'ovs_hybrid_plug'"
 newline|'\n'
 nl|'\n'
+comment|"# Constants for the 'vif_model' values"
+nl|'\n'
+DECL|variable|VIF_MODEL_VIRTIO
+name|'VIF_MODEL_VIRTIO'
+op|'='
+string|"'virtio'"
+newline|'\n'
+DECL|variable|VIF_MODEL_NE2K_PCI
+name|'VIF_MODEL_NE2K_PCI'
+op|'='
+string|"'ne2k_pci'"
+newline|'\n'
+DECL|variable|VIF_MODEL_PCNET
+name|'VIF_MODEL_PCNET'
+op|'='
+string|"'pcnet'"
+newline|'\n'
+DECL|variable|VIF_MODEL_RTL8139
+name|'VIF_MODEL_RTL8139'
+op|'='
+string|"'rtl8139'"
+newline|'\n'
+DECL|variable|VIF_MODEL_E1000
+name|'VIF_MODEL_E1000'
+op|'='
+string|"'e1000'"
+newline|'\n'
+DECL|variable|VIF_MODEL_E1000E
+name|'VIF_MODEL_E1000E'
+op|'='
+string|"'e1000e'"
+newline|'\n'
+DECL|variable|VIF_MODEL_NETFRONT
+name|'VIF_MODEL_NETFRONT'
+op|'='
+string|"'netfront'"
+newline|'\n'
+nl|'\n'
 comment|'# Constant for max length of network interface names'
 nl|'\n'
 comment|"# eg 'bridge' in the Network class or 'devname' in"
