@@ -977,6 +977,10 @@ name|'Message'
 op|'('
 string|'"Some message %(param)s"'
 op|','
+nl|'\n'
+DECL|variable|domain
+name|'domain'
+op|'='
 string|"'nova'"
 op|')'
 newline|'\n'
