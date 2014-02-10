@@ -102,7 +102,7 @@ nl|'\n'
 DECL|variable|ALIAS
 name|'ALIAS'
 op|'='
-string|'"console-output"'
+string|'"os-console-output"'
 newline|'\n'
 DECL|variable|authorize
 name|'authorize'

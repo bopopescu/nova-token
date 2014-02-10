@@ -267,9 +267,6 @@ op|'='
 name|'set'
 op|'('
 op|'['
-string|"'console-output'"
-op|','
-nl|'\n'
 string|"'consoles'"
 op|','
 nl|'\n'
