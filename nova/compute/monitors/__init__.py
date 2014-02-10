@@ -27,8 +27,6 @@ comment|'#    License for the specific language governing permissions and limita
 nl|'\n'
 comment|'#    under the License.'
 nl|'\n'
-comment|'# @author: Shane Wang, Intel Corporation.'
-nl|'\n'
 nl|'\n'
 string|'"""\nResource monitor API specification.\n\nResourceMonitorBase provides the definition of minimum set of methods\nthat needs to be implemented by Resource Monitor.\n"""'
 newline|'\n'

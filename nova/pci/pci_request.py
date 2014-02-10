@@ -27,8 +27,6 @@ comment|'#    License for the specific language governing permissions and limita
 nl|'\n'
 comment|'#    under the License.'
 nl|'\n'
-comment|'# @author: Yongli He, Intel Corporation.'
-nl|'\n'
 nl|'\n'
 string|'""" Example of a PCI alias:\n    pci_alias = \'{\n        "name": "QuicAssist",\n        "product_id": "0443",\n        "vendor_id": "8086",\n        "device_type": "ACCEL",\n        }\'\n\n    Aliases with the same name and the same device_type are OR operation:\n    pci_alias = \'{\n        "name": "QuicAssist",\n        "product_id": "0442",\n        "vendor_id": "8086",\n        "device_type": "ACCEL",\n        }\'\n    These 2 aliases define a device request meaning: vendor_id is "8086" and\n    product id is "0442" or "0443".\n    """'
 newline|'\n'

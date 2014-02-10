@@ -1,8 +1,6 @@
 begin_unit
 comment|'# Copyright 2011 Cloudscaling, Inc.'
 nl|'\n'
-comment|'# Author: Matthew Hooker <matt@cloudscaling.com>'
-nl|'\n'
 comment|'# All Rights Reserved.'
 nl|'\n'
 comment|'#'

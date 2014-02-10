@@ -27,8 +27,6 @@ comment|'#    License for the specific language governing permissions and limita
 nl|'\n'
 comment|'#    under the License.'
 nl|'\n'
-comment|'# @author: Yongli He, Intel Corporation.'
-nl|'\n'
 nl|'\n'
 string|'"""Tests for PCI request."""'
 newline|'\n'

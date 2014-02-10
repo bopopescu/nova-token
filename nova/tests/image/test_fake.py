@@ -1,8 +1,6 @@
 begin_unit
 comment|'#    Copyright 2011 OpenStack Foundation'
 nl|'\n'
-comment|'#    Author: Soren Hansen'
-nl|'\n'
 comment|'#'
 nl|'\n'
 comment|'#    Licensed under the Apache License, Version 2.0 (the "License"); you may'

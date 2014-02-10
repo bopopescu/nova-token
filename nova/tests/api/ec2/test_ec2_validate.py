@@ -1,8 +1,6 @@
 begin_unit
 comment|'# Copyright 2012 Cloudscaling, Inc.'
 nl|'\n'
-comment|'# Author: Joe Gordon <jogo@cloudscaling.com>'
-nl|'\n'
 comment|'# All Rights Reserved.'
 nl|'\n'
 comment|'# Copyright 2013 Red Hat, Inc.'
