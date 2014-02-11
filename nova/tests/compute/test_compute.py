@@ -56253,6 +56253,9 @@ string|"'metadata'"
 op|']'
 op|','
 op|'{'
+string|"'key3'"
+op|':'
+string|"'value3'"
 op|'}'
 op|')'
 newline|'\n'
