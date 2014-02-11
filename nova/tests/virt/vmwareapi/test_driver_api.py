@@ -1709,10 +1709,10 @@ op|'('
 op|')'
 newline|'\n'
 nl|'\n'
-DECL|member|test_VC_Connection
+DECL|member|test_login_retries
 dedent|''
 name|'def'
-name|'test_VC_Connection'
+name|'test_login_retries'
 op|'('
 name|'self'
 op|')'
