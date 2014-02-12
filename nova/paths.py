@@ -139,7 +139,7 @@ nl|'\n'
 DECL|variable|default
 name|'default'
 op|'='
-string|"'$pybasedir'"
+string|"'/var/lib/nova'"
 op|','
 nl|'\n'
 DECL|variable|help
