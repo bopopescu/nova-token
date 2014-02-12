@@ -27,8 +27,6 @@ comment|'#    License for the specific language governing permissions and limita
 nl|'\n'
 comment|'#    under the License.'
 nl|'\n'
-comment|'# @author: Yong Sheng Gong, UnitedStack Inc.'
-nl|'\n'
 nl|'\n'
 DECL|variable|NET_EXTERNAL
 name|'NET_EXTERNAL'

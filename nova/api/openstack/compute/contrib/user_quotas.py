@@ -1,8 +1,6 @@
 begin_unit
 comment|'# Copyright 2013 OpenStack Foundation'
 nl|'\n'
-comment|'# Author: Yingjun Li <liyingjun1988@gmail.com>'
-nl|'\n'
 comment|'# All Rights Reserved.'
 nl|'\n'
 comment|'#'

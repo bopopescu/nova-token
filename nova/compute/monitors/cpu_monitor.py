@@ -27,8 +27,6 @@ comment|'#    License for the specific language governing permissions and limita
 nl|'\n'
 comment|'#    under the License.'
 nl|'\n'
-comment|'# @author: Shane Wang, Intel Corporation.'
-nl|'\n'
 nl|'\n'
 string|'"""\nCPU monitor to retrieve CPU information\n"""'
 newline|'\n'
