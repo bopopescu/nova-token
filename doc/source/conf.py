@@ -127,7 +127,7 @@ nl|'\n'
 string|"'sphinx.ext.graphviz'"
 op|','
 nl|'\n'
-string|"'oslo.sphinx'"
+string|"'oslosphinx'"
 op|','
 nl|'\n'
 op|']'
