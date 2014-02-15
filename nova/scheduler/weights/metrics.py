@@ -107,7 +107,7 @@ string|'\'should be in the form of "<name1>=<ratio1>, \''
 nl|'\n'
 string|'\'<name2>=<ratio2>, ...", where <nameX> is one \''
 nl|'\n'
-string|"'of the metric to be weighed, and <ratioX> is '"
+string|"'of the metrics to be weighed, and <ratioX> is '"
 nl|'\n'
 string|'\'the corresponding ratio. So for "name1=1.0, \''
 nl|'\n'
