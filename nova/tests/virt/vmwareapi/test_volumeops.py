@@ -385,13 +385,6 @@ name|'mock'
 op|'.'
 name|'call'
 op|'('
-name|'self'
-op|'.'
-name|'instance'
-op|'['
-string|"'uuid'"
-op|']'
-op|','
 string|"'fake_configure_task'"
 op|')'
 op|']'
