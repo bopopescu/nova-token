@@ -91,8 +91,8 @@ comment|"# so that we're not locked into the libvirt status codes and can put ma
 nl|'\n'
 comment|'# logic here rather than spread throughout the code'
 nl|'\n'
-DECL|variable|_STATE_MAP
-name|'_STATE_MAP'
+DECL|variable|STATE_MAP
+name|'STATE_MAP'
 op|'='
 op|'{'
 nl|'\n'
