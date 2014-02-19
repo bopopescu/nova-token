@@ -154,7 +154,7 @@ nl|'\n'
 DECL|variable|deprecated_name
 name|'deprecated_name'
 op|'='
-string|"'libvirt_snashot_compression'"
+string|"'libvirt_snapshot_compression'"
 op|')'
 op|','
 nl|'\n'
