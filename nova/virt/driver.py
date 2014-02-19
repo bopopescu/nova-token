@@ -181,6 +181,54 @@ string|"'Whether to use cow images'"
 op|')'
 op|','
 nl|'\n'
+name|'cfg'
+op|'.'
+name|'BoolOpt'
+op|'('
+string|"'vif_plugging_is_fatal'"
+op|','
+nl|'\n'
+DECL|variable|default
+name|'default'
+op|'='
+name|'True'
+op|','
+nl|'\n'
+DECL|variable|help
+name|'help'
+op|'='
+string|'"Fail instance boot if vif plugging fails"'
+op|')'
+op|','
+nl|'\n'
+name|'cfg'
+op|'.'
+name|'IntOpt'
+op|'('
+string|"'vif_plugging_timeout'"
+op|','
+nl|'\n'
+DECL|variable|default
+name|'default'
+op|'='
+number|'300'
+op|','
+nl|'\n'
+DECL|variable|help
+name|'help'
+op|'='
+string|"'Number of seconds to wait for neutron vif plugging '"
+nl|'\n'
+string|"'events to arrive before continuing or failing (see '"
+nl|'\n'
+string|"'vif_plugging_is_fatal). If this is set to zero and '"
+nl|'\n'
+string|"'vif_plugging_is_fatal is False, events should not '"
+nl|'\n'
+string|"'be expected to arrive at all.'"
+op|')'
+op|','
+nl|'\n'
 op|']'
 newline|'\n'
 nl|'\n'
