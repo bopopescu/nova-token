@@ -709,6 +709,10 @@ op|','
 name|'network_id'
 op|'='
 string|"'id'"
+op|','
+name|'version'
+op|'='
+string|"'3.12'"
 op|')'
 newline|'\n'
 nl|'\n'
