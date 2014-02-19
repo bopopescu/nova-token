@@ -10195,7 +10195,7 @@ name|'self'
 op|'.'
 name|'backend'
 op|'='
-string|"'/dev/random'"
+name|'None'
 newline|'\n'
 name|'self'
 op|'.'
