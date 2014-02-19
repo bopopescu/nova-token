@@ -165,6 +165,11 @@ nl|'\n'
 string|"'vcpus_used'"
 op|':'
 number|'10'
+op|','
+nl|'\n'
+string|"'pci_passthrough_devices'"
+op|':'
+string|"''"
 op|'}'
 newline|'\n'
 nl|'\n'
