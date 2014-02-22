@@ -1,4 +1,6 @@
 begin_unit
+comment|'# Copyright 2011 OpenStack Foundation'
+nl|'\n'
 comment|'# Copyright 2013 IBM Corp.'
 nl|'\n'
 comment|'#'
