@@ -220,6 +220,9 @@ op|','
 string|"'cpu_info'"
 op|','
 string|"'disk_available_least'"
+op|','
+nl|'\n'
+string|"'host_ip'"
 op|')'
 op|':'
 newline|'\n'
