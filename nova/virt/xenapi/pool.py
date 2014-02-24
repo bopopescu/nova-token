@@ -203,7 +203,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""\n    Implements resource pool operations.\n    """'
+string|'"""Implements resource pool operations."""'
 newline|'\n'
 DECL|member|__init__
 name|'def'

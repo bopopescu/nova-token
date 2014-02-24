@@ -106,7 +106,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""\n    Weight cell by weight_offset db field.\n    Originally designed so you can set a default cell by putting\n    its weight_offset to 999999999999999 (highest weight wins)\n    """'
+string|'"""Weight cell by weight_offset db field.\n    Originally designed so you can set a default cell by putting\n    its weight_offset to 999999999999999 (highest weight wins)\n    """'
 newline|'\n'
 nl|'\n'
 DECL|member|weight_multiplier

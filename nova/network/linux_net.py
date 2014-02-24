@@ -8651,7 +8651,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""\n    Abstract class that defines generic network host API\n    for for all Linux interface drivers.\n    """'
+string|'"""Abstract class that defines generic network host API\n    for for all Linux interface drivers.\n    """'
 newline|'\n'
 nl|'\n'
 DECL|member|plug

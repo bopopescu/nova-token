@@ -133,7 +133,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""\n    This class represents symmetric keys\n    """'
+string|'"""This class represents symmetric keys."""'
 newline|'\n'
 nl|'\n'
 DECL|member|__init__
