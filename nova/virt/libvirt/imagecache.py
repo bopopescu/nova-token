@@ -2338,7 +2338,7 @@ name|'debug'
 op|'('
 name|'_'
 op|'('
-string|"'Cannot remove %(base_file)s, it does not exist'"
+string|"'Cannot remove %s, it does not exist'"
 op|')'
 op|','
 nl|'\n'
