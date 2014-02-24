@@ -838,6 +838,10 @@ op|'='
 string|"'id2'"
 op|','
 nl|'\n'
+name|'version'
+op|'='
+string|"'3.17'"
+op|','
 name|'requested_ip'
 op|'='
 string|"'192.168.1.50'"
@@ -1529,6 +1533,10 @@ op|','
 string|"'cast'"
 op|','
 nl|'\n'
+name|'version'
+op|'='
+string|"'3.17'"
+op|','
 name|'instance'
 op|'='
 name|'self'
