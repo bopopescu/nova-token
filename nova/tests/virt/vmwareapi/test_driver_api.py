@@ -1666,6 +1666,11 @@ op|'='
 string|"'test_cluster'"
 op|','
 nl|'\n'
+name|'datastore_regex'
+op|'='
+string|"'.*'"
+op|','
+nl|'\n'
 name|'use_linked_clone'
 op|'='
 name|'False'
