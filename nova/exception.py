@@ -6250,7 +6250,7 @@ name|'msg_fmt'
 op|'='
 name|'_'
 op|'('
-string|"'Instance recreate is not implemented by this virt driver.'"
+string|"'Instance recreate is not supported.'"
 op|')'
 newline|'\n'
 nl|'\n'
