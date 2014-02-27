@@ -3066,7 +3066,7 @@ name|'self'
 op|'.'
 name|'INSTANCE'
 op|'['
-string|"'name'"
+string|"'uuid'"
 op|']'
 op|','
 name|'self'

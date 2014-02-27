@@ -2297,15 +2297,10 @@ op|'='
 string|"'%s_%s'"
 op|'%'
 op|'('
-name|'self'
-op|'.'
-name|'escape'
-op|'('
 name|'instance'
 op|'['
-string|"'name'"
+string|"'uuid'"
 op|']'
-op|')'
 op|','
 nl|'\n'
 name|'self'
