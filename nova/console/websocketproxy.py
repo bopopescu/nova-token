@@ -157,7 +157,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'        '
-string|'"""\n        Called after a new WebSocket connection has been established.\n        """'
+string|'"""Called after a new WebSocket connection has been established."""'
 newline|'\n'
 comment|"# Reopen the eventlet hub to make sure we don't share an epoll"
 nl|'\n'

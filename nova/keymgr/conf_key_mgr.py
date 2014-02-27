@@ -111,7 +111,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""\n    This key manager implementation supports all the methods specified by the\n    key manager interface. This implementation creates a single key in response\n    to all invocations of create_key. Side effects (e.g., raising exceptions)\n    for each method are handled as specified by the key manager interface.\n    """'
+string|'"""This key manager implementation supports all the methods specified by\n    the key manager interface. This implementation creates a single key in\n    response to all invocations of create_key. Side effects\n    (e.g., raising exceptions) for each method are handled\n    as specified by the key manager interface.\n    """'
 newline|'\n'
 nl|'\n'
 DECL|member|__init__

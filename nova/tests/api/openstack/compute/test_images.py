@@ -154,7 +154,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""\n    Test of the OpenStack API /images application controller w/Glance.\n    """'
+string|'"""Test of the OpenStack API /images application controller w/Glance.\n    """'
 newline|'\n'
 nl|'\n'
 DECL|member|setUp

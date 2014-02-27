@@ -2088,7 +2088,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""\n    `NoDBTestCase` differs from TestCase in that DB access is not supported.\n    This makes tests run significantly faster. If possible, all new tests\n    should derive from this class.\n    """'
+string|'"""`NoDBTestCase` differs from TestCase in that DB access is not supported.\n    This makes tests run significantly faster. If possible, all new tests\n    should derive from this class.\n    """'
 newline|'\n'
 DECL|variable|USES_DB
 name|'USES_DB'

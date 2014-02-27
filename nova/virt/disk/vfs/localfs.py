@@ -134,7 +134,7 @@ op|':'
 newline|'\n'
 nl|'\n'
 indent|'    '
-string|'"""\n    os.path.join() with safety check for injected file paths.\n\n    Join the supplied path components and make sure that the\n    resulting path we are injecting into is within the\n    mounted guest fs.  Trying to be clever and specifying a\n    path with \'..\' in it will hit this safeguard.\n    """'
+string|'"""os.path.join() with safety check for injected file paths.\n\n    Join the supplied path components and make sure that the\n    resulting path we are injecting into is within the\n    mounted guest fs.  Trying to be clever and specifying a\n    path with \'..\' in it will hit this safeguard.\n    """'
 newline|'\n'
 DECL|member|_canonical_path
 name|'def'

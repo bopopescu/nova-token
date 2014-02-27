@@ -151,7 +151,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""\n    SchedulerOptions monitors a local .json file for changes and loads it\n    if needed. This file is converted to a data structure and passed into\n    the filtering and weighing functions which can use it for dynamic\n    configuration.\n    """'
+string|'"""SchedulerOptions monitors a local .json file for changes and loads it\n    if needed. This file is converted to a data structure and passed into\n    the filtering and weighing functions which can use it for dynamic\n    configuration.\n    """'
 newline|'\n'
 nl|'\n'
 DECL|member|__init__

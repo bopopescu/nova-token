@@ -107,7 +107,7 @@ op|':'
 newline|'\n'
 nl|'\n'
 indent|'    '
-string|'"""\n    This class implements a VFS module that uses the libguestfs APIs\n    to access the disk image. The disk image is never mapped into\n    the host filesystem, thus avoiding any potential for symlink\n    attacks from the guest filesystem.\n    """'
+string|'"""This class implements a VFS module that uses the libguestfs APIs\n    to access the disk image. The disk image is never mapped into\n    the host filesystem, thus avoiding any potential for symlink\n    attacks from the guest filesystem.\n    """'
 newline|'\n'
 DECL|member|__init__
 name|'def'

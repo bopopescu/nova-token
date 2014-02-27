@@ -2696,7 +2696,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""\n    Base class for Fake Sessions\n    """'
+string|'"""Base class for Fake Sessions."""'
 newline|'\n'
 nl|'\n'
 DECL|member|__init__

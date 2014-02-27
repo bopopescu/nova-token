@@ -112,7 +112,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""\n    Implements host related operations.\n    """'
+string|'"""Implements host related operations."""'
 newline|'\n'
 DECL|member|__init__
 name|'def'

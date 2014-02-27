@@ -115,7 +115,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""\n    This mock key manager implementation supports all the methods specified\n    by the key manager interface. This implementation stores keys within a\n    dictionary, and as a result, it is not acceptable for use across different\n    services. Side effects (e.g., raising exceptions) for each method are\n    handled as specified by the key manager interface.\n\n    This key manager is not suitable for use in production deployments.\n    """'
+string|'"""This mock key manager implementation supports all the methods specified\n    by the key manager interface. This implementation stores keys within a\n    dictionary, and as a result, it is not acceptable for use across different\n    services. Side effects (e.g., raising exceptions) for each method are\n    handled as specified by the key manager interface.\n\n    This key manager is not suitable for use in production deployments.\n    """'
 newline|'\n'
 nl|'\n'
 DECL|member|__init__
