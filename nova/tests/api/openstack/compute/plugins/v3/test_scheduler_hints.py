@@ -432,9 +432,17 @@ name|'self'
 op|')'
 op|':'
 newline|'\n'
+indent|'        '
+name|'hints'
+op|'='
+op|'{'
+string|"'same_host'"
+op|':'
+string|"'48e6a9f6-30af-47e0-bc04-acaed113bb4e'"
+op|'}'
+newline|'\n'
 nl|'\n'
 DECL|function|fake_create
-indent|'        '
 name|'def'
 name|'fake_create'
 op|'('
@@ -451,16 +459,12 @@ name|'self'
 op|'.'
 name|'assertEqual'
 op|'('
+name|'hints'
+op|','
 name|'kwargs'
 op|'['
 string|"'scheduler_hints'"
 op|']'
-op|','
-op|'{'
-string|"'a'"
-op|':'
-string|"'b'"
-op|'}'
 op|')'
 newline|'\n'
 name|'return'
@@ -544,11 +548,7 @@ op|','
 nl|'\n'
 string|"'os-scheduler-hints:scheduler_hints'"
 op|':'
-op|'{'
-string|"'a'"
-op|':'
-string|"'b'"
-op|'}'
+name|'hints'
 op|','
 nl|'\n'
 op|'}'
@@ -1527,9 +1527,9 @@ indent|'        '
 name|'hints'
 op|'='
 op|'{'
-string|"'a'"
+string|"'same_host'"
 op|':'
-string|"'b'"
+string|"'48e6a9f6-30af-47e0-bc04-acaed113bb4e'"
 op|'}'
 newline|'\n'
 name|'params'
@@ -1628,9 +1628,9 @@ indent|'        '
 name|'hints'
 op|'='
 op|'{'
-string|"'a'"
+string|"'same_host'"
 op|':'
-string|"'b'"
+string|"'48e6a9f6-30af-47e0-bc04-acaed113bb4e'"
 op|'}'
 newline|'\n'
 name|'params'
