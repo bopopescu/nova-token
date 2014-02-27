@@ -3223,7 +3223,7 @@ name|'aggregate_metadata_get_by_host'
 op|'('
 name|'ctxt'
 op|','
-string|"'foo.openstack.org'"
+string|"'foo3.openstack.org'"
 op|','
 nl|'\n'
 name|'key'
