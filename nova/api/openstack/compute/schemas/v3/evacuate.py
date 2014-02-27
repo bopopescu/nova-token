@@ -91,8 +91,6 @@ nl|'\n'
 string|"'required'"
 op|':'
 op|'['
-string|"'host'"
-op|','
 string|"'on_shared_storage'"
 op|']'
 op|','
