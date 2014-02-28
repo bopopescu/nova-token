@@ -1896,7 +1896,7 @@ op|':'
 op|'{'
 string|"'device_id'"
 op|':'
-name|'None'
+string|"''"
 op|'}'
 op|'}'
 newline|'\n'
