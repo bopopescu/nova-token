@@ -392,6 +392,14 @@ nl|'\n'
 string|"'node'"
 op|':'
 string|"'respool-1001(MyResPoolName)'"
+op|','
+nl|'\n'
+string|"'expected_attrs'"
+op|':'
+op|'['
+string|"'system_metadata'"
+op|']'
+op|','
 nl|'\n'
 op|'}'
 newline|'\n'

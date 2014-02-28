@@ -2667,6 +2667,13 @@ string|"'swap'"
 op|']'
 op|','
 nl|'\n'
+string|"'expected_attrs'"
+op|':'
+op|'['
+string|"'system_metadata'"
+op|']'
+op|','
+nl|'\n'
 op|'}'
 newline|'\n'
 name|'if'
