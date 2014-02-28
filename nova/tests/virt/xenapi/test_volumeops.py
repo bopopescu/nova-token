@@ -1331,10 +1331,6 @@ name|'vdi_ref'
 op|'='
 string|"'vdi_ref'"
 newline|'\n'
-name|'vbd_ref'
-op|'='
-string|"'vbd_ref'"
-newline|'\n'
 name|'connection_data'
 op|'='
 op|'{'

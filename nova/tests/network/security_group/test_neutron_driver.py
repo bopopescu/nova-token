@@ -1396,18 +1396,6 @@ op|':'
 string|"'wol'"
 op|'}'
 newline|'\n'
-name|'sg2'
-op|'='
-op|'{'
-string|"'id'"
-op|':'
-string|"'2'"
-op|','
-string|"'name'"
-op|':'
-string|"'eor'"
-op|'}'
-newline|'\n'
 comment|"# User doesn't have access to sg2"
 nl|'\n'
 name|'security_groups_list'

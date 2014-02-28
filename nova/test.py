@@ -1656,8 +1656,6 @@ name|'fs'
 op|'='
 string|"'%(levelname)s [%(name)s] %(message)s'"
 newline|'\n'
-name|'fake'
-op|'='
 name|'self'
 op|'.'
 name|'useFixture'

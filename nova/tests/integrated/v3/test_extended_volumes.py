@@ -504,14 +504,6 @@ name|'device_name'
 op|'='
 string|"'/dev/vdd'"
 newline|'\n'
-name|'disk_bus'
-op|'='
-string|"'ide'"
-newline|'\n'
-name|'device_type'
-op|'='
-string|"'cdrom'"
-newline|'\n'
 name|'self'
 op|'.'
 name|'stubs'

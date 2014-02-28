@@ -1821,12 +1821,6 @@ name|'uuid'
 op|'='
 string|"'aa640691-d1a7-4a67-9d3c-d35ee6b3cc74'"
 newline|'\n'
-name|'server_ref'
-op|'='
-string|"'http://localhost/v2/servers/'"
-op|'+'
-name|'uuid'
-newline|'\n'
 name|'snapshot_properties'
 op|'='
 op|'{'

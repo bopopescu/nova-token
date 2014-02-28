@@ -1466,8 +1466,6 @@ string|"'/dev/sdh'"
 op|'}'
 newline|'\n'
 nl|'\n'
-name|'capi'
-op|'='
 name|'conductor_api'
 op|'.'
 name|'LocalAPI'
