@@ -119,10 +119,10 @@ op|'.'
 name|'hex'
 newline|'\n'
 nl|'\n'
-DECL|member|is_daemon_running
+DECL|member|_is_daemon_running
 dedent|''
 name|'def'
-name|'is_daemon_running'
+name|'_is_daemon_running'
 op|'('
 name|'self'
 op|')'
