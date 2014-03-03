@@ -102,7 +102,7 @@ name|'help'
 op|'='
 string|"'Number of seconds to wait for an SR to settle '"
 nl|'\n'
-string|"'if the VDI does not exist when first introduced '"
+string|"'if the VDI does not exist when first introduced'"
 op|')'
 op|','
 nl|'\n'
