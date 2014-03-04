@@ -302,7 +302,7 @@ op|','
 nl|'\n'
 string|"'disk_format'"
 op|':'
-string|"'vhd'"
+string|"'vmdk'"
 op|','
 nl|'\n'
 string|"'size'"
