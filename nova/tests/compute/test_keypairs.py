@@ -843,7 +843,9 @@ name|'msg'
 op|'='
 name|'_'
 op|'('
-string|"'Keypair name must be between 1 and 255 characters long'"
+string|"'Keypair name must be string and between 1 '"
+nl|'\n'
+string|"'and 255 characters long'"
 op|')'
 newline|'\n'
 name|'self'
@@ -870,7 +872,9 @@ name|'msg'
 op|'='
 name|'_'
 op|'('
-string|"'Keypair name must be between 1 and 255 characters long'"
+string|"'Keypair name must be string and between 1 '"
+nl|'\n'
+string|"'and 255 characters long'"
 op|')'
 newline|'\n'
 name|'self'
