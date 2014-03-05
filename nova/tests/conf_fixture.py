@@ -388,6 +388,10 @@ op|'('
 string|"'sqlite_synchronous'"
 op|','
 name|'False'
+op|','
+name|'group'
+op|'='
+string|"'database'"
 op|')'
 newline|'\n'
 name|'self'
