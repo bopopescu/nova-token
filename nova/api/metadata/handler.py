@@ -179,10 +179,13 @@ nl|'\n'
 string|"'neutron_metadata_proxy_shared_secret'"
 op|','
 nl|'\n'
-DECL|variable|default
 name|'default'
 op|'='
 string|"''"
+op|','
+name|'secret'
+op|'='
+name|'True'
 op|','
 nl|'\n'
 DECL|variable|help
