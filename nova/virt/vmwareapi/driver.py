@@ -207,7 +207,9 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'URL for connection to VMware ESX/VC host.'"
+string|"'Hostname or IP address for connection to VMware ESX/VC '"
+nl|'\n'
+string|"'host.'"
 op|')'
 op|','
 nl|'\n'
