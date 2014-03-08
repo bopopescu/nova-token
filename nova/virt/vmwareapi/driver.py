@@ -431,9 +431,9 @@ nl|'\n'
 comment|'# exceptions regarding VNC, CIM, User management & SSO.'
 nl|'\n'
 nl|'\n'
-DECL|member|_do_quality_warnings
+DECL|member|_do_deprecation_warning
 name|'def'
-name|'_do_quality_warnings'
+name|'_do_deprecation_warning'
 op|'('
 name|'self'
 op|')'
@@ -446,13 +446,11 @@ name|'warning'
 op|'('
 name|'_'
 op|'('
-string|"'The VMware ESX driver is not tested by the OpenStack '"
+string|"'The VMware ESX driver is now deprecated and will be '"
 nl|'\n'
-string|"'project and thus its quality can not be ensured. For '"
+string|"'removed in the Juno release. The VC driver will remain '"
 nl|'\n'
-string|"'more information, see: https://wiki.openstack.org/wiki/'"
-nl|'\n'
-string|"'HypervisorSupportMatrix'"
+string|"'and continue to be supported.'"
 op|')'
 op|')'
 newline|'\n'
@@ -492,7 +490,7 @@ newline|'\n'
 nl|'\n'
 name|'self'
 op|'.'
-name|'_do_quality_warnings'
+name|'_do_deprecation_warning'
 op|'('
 op|')'
 newline|'\n'
