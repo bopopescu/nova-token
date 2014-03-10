@@ -909,11 +909,11 @@ op|')'
 newline|'\n'
 nl|'\n'
 nl|'\n'
-DECL|function|get_download_hander
+DECL|function|get_download_handler
 dedent|''
 dedent|''
 name|'def'
-name|'get_download_hander'
+name|'get_download_handler'
 op|'('
 op|'**'
 name|'kwargs'
