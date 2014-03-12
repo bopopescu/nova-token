@@ -2099,14 +2099,16 @@ nl|'\n'
 comment|'# subtly alter how vSphere and OpenStack interoperate.'
 nl|'\n'
 nl|'\n'
-DECL|member|_do_quality_warnings
+DECL|member|_do_deprecation_warning
 name|'def'
-name|'_do_quality_warnings'
+name|'_do_deprecation_warning'
 op|'('
 name|'self'
 op|')'
 op|':'
 newline|'\n'
+comment|"# Driver validated by VMware's Minesweeper CI"
+nl|'\n'
 indent|'        '
 name|'pass'
 newline|'\n'
