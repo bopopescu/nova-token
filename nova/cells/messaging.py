@@ -3367,6 +3367,11 @@ op|'['
 string|"'start'"
 op|','
 string|"'stop'"
+op|','
+string|"'delete_instance_metadata'"
+op|','
+nl|'\n'
+string|"'update_instance_metadata'"
 op|']'
 newline|'\n'
 name|'if'
