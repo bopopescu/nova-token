@@ -18456,6 +18456,8 @@ op|'['
 string|"'metadata'"
 op|','
 string|"'system_metadata'"
+op|','
+string|"'info_cache'"
 op|']'
 op|')'
 newline|'\n'
