@@ -372,6 +372,12 @@ op|'-'
 number|'1'
 newline|'\n'
 nl|'\n'
+DECL|variable|VIR_DOMAIN_START_PAUSED
+name|'VIR_DOMAIN_START_PAUSED'
+op|'='
+number|'1'
+newline|'\n'
+nl|'\n'
 comment|'# libvirtError enums'
 nl|'\n'
 comment|"# (Intentionally different from what's in libvirt. We do this to check,"
