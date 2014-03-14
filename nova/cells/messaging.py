@@ -4224,7 +4224,22 @@ string|"'task_state'"
 op|']'
 op|')'
 newline|'\n'
+comment|'# NOTE(alaski): A cell should be authoritative for its system_metadata'
+nl|'\n'
+comment|"# and metadata so we don't want to sync it down from the api."
+nl|'\n'
 dedent|''
+name|'instance'
+op|'.'
+name|'obj_reset_changes'
+op|'('
+op|'['
+string|"'metadata'"
+op|','
+string|"'system_metadata'"
+op|']'
+op|')'
+newline|'\n'
 name|'instance'
 op|'.'
 name|'save'
