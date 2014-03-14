@@ -96,6 +96,11 @@ op|'('
 string|"'nova.objects.floating_ip'"
 op|')'
 newline|'\n'
+name|'__import__'
+op|'('
+string|"'nova.objects.security_group_rule'"
+op|')'
+newline|'\n'
 dedent|''
 endmarker|''
 end_unit
