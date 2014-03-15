@@ -3062,6 +3062,17 @@ op|'='
 number|'0'
 newline|'\n'
 name|'inst'
+op|'['
+string|"'info_cache'"
+op|']'
+op|'='
+op|'{'
+string|"'network_info'"
+op|':'
+string|"'[]'"
+op|'}'
+newline|'\n'
+name|'inst'
 op|'.'
 name|'update'
 op|'('
@@ -3488,6 +3499,8 @@ op|'['
 string|"'metadata'"
 op|','
 string|"'system_metadata'"
+op|','
+string|"'info_cache'"
 op|']'
 op|')'
 newline|'\n'
