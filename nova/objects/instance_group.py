@@ -778,9 +778,9 @@ string|"'uuid'"
 op|':'
 name|'filter_uuids'
 op|','
-string|"'deleted_at'"
+string|"'deleted'"
 op|':'
-name|'None'
+name|'False'
 op|'}'
 newline|'\n'
 name|'instances'
