@@ -6128,7 +6128,7 @@ name|'_'
 op|'('
 string|"'Unable to access floating IP %(fixed_ip)s '"
 nl|'\n'
-string|"'for port %(port_id)'"
+string|"'for port %(port_id)s'"
 op|')'
 op|','
 nl|'\n'
