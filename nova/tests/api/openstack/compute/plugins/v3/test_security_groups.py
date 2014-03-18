@@ -953,7 +953,7 @@ name|'server'
 op|'.'
 name|'get'
 op|'('
-string|"'security_groups'"
+string|"'os-security-groups:security_groups'"
 op|')'
 newline|'\n'
 nl|'\n'
