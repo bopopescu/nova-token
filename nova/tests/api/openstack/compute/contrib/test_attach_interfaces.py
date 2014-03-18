@@ -1018,7 +1018,7 @@ name|'req'
 op|'.'
 name|'method'
 op|'='
-string|"'POST'"
+string|"'DELETE'"
 newline|'\n'
 name|'req'
 op|'.'
@@ -1127,7 +1127,7 @@ name|'req'
 op|'.'
 name|'method'
 op|'='
-string|"'POST'"
+string|"'DELETE'"
 newline|'\n'
 name|'req'
 op|'.'
