@@ -348,7 +348,7 @@ name|'help'
 op|'='
 string|"'This gets passed to Neutron as the bootfile dhcp '"
 nl|'\n'
-string|"'parameter when the dhcp_options_enabled is set.'"
+string|"'parameter.'"
 op|','
 nl|'\n'
 DECL|variable|default
