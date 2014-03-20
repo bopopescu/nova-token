@@ -688,6 +688,12 @@ name|'deleted'
 op|'='
 name|'True'
 newline|'\n'
+name|'image_data'
+op|'.'
+name|'deleted_at'
+op|'='
+name|'NOW_GLANCE_FORMAT'
+newline|'\n'
 name|'return'
 newline|'\n'
 dedent|''
@@ -751,6 +757,8 @@ string|"'updated_at'"
 op|','
 nl|'\n'
 string|"'deleted'"
+op|','
+string|"'deleted_at'"
 op|','
 string|"'status'"
 op|','
