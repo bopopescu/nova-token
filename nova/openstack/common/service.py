@@ -163,7 +163,7 @@ name|'importutils'
 op|'.'
 name|'try_import'
 op|'('
-string|"'nova.openstack.common.rpc'"
+string|"'nova.rpc'"
 op|')'
 newline|'\n'
 DECL|variable|CONF
