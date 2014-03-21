@@ -4859,8 +4859,6 @@ string|"'ephemeral5'"
 op|'}'
 op|','
 nl|'\n'
-comment|"# {'deviceName': '/dev/sdb4', 'noDevice': True},"
-nl|'\n'
 nl|'\n'
 op|'{'
 string|"'deviceName'"
@@ -4915,8 +4913,6 @@ op|':'
 string|"'ephemeral6'"
 op|'}'
 op|','
-nl|'\n'
-comment|"# {'deviceName': '/dev/sdc4', 'noDevice': True}"
 nl|'\n'
 op|']'
 newline|'\n'
@@ -7014,20 +7010,6 @@ string|"'deleted'"
 op|']'
 op|')'
 newline|'\n'
-comment|'#db.volume_destroy(self.context, vol1_id)'
-nl|'\n'
-nl|'\n'
-comment|'##admin_ctxt = context.get_admin_context(read_deleted="only")'
-nl|'\n'
-comment|'##vol = db.volume_get(admin_ctxt, vol2_id)'
-nl|'\n'
-comment|"##self.assertTrue(vol['deleted'])"
-nl|'\n'
-nl|'\n'
-comment|'#for snapshot_id in (ec2_snapshot1_id, ec2_snapshot2_id):'
-nl|'\n'
-comment|'#    self.cloud.delete_snapshot(self.context, snapshot_id)'
-nl|'\n'
 nl|'\n'
 DECL|member|test_create_image
 dedent|''
