@@ -1039,6 +1039,8 @@ op|'['
 string|"'iso'"
 op|','
 string|"'vmdk'"
+op|','
+name|'None'
 op|']'
 op|':'
 newline|'\n'
