@@ -276,13 +276,13 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'DEPRECATED: Tenant name for connecting to neutron in '"
+string|"'Tenant name for connecting to neutron in admin context. '"
 nl|'\n'
-string|"'admin context.  This option is deprecated.  Please use '"
+string|"'This option is mutually exclusive with '"
 nl|'\n'
-string|"'neutron_admin_tenant_id instead. Note that with Keystone '"
+string|"'neutron_admin_tenant_id. Note that with Keystone V3 '"
 nl|'\n'
-string|"'V3 tenant names may not be unique.'"
+string|"'tenant names are only unique within a domain.'"
 op|')'
 op|','
 nl|'\n'
