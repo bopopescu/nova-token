@@ -692,11 +692,11 @@ name|'req'
 op|'='
 name|'fakes'
 op|'.'
-name|'HTTPRequest'
+name|'HTTPRequestV3'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v3/flavors/1234'"
+string|"'/flavors/1234'"
 op|')'
 newline|'\n'
 name|'res'
