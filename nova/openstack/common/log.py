@@ -666,6 +666,9 @@ nl|'\n'
 string|"'suds=INFO'"
 op|','
 nl|'\n'
+string|"'oslo.messaging=INFO'"
+op|','
+nl|'\n'
 string|"'iso8601=WARN'"
 op|','
 nl|'\n'
