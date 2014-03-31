@@ -10397,11 +10397,6 @@ op|'{'
 string|"'allocated'"
 op|':'
 name|'False'
-op|','
-nl|'\n'
-string|"'virtual_interface_id'"
-op|':'
-name|'None'
 op|'}'
 op|')'
 newline|'\n'
@@ -10886,11 +10881,6 @@ op|'{'
 string|"'allocated'"
 op|':'
 name|'False'
-op|','
-nl|'\n'
-string|"'virtual_interface_id'"
-op|':'
-name|'None'
 op|'}'
 op|')'
 newline|'\n'
