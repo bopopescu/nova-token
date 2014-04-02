@@ -2477,6 +2477,11 @@ op|':'
 name|'self'
 op|'.'
 name|'volume_id'
+op|','
+nl|'\n'
+string|"'attach_status'"
+op|':'
+string|"'detached'"
 op|'}'
 op|')'
 newline|'\n'
@@ -32187,6 +32192,11 @@ nl|'\n'
 string|"'id'"
 op|':'
 name|'volume_id'
+op|','
+nl|'\n'
+string|"'attach_status'"
+op|':'
+string|"'detached'"
 op|'}'
 newline|'\n'
 name|'bdm'
