@@ -422,9 +422,9 @@ name|'warning'
 op|'('
 name|'_'
 op|'('
-string|"'XML support has been deprecated and will be removed '"
+string|"'XML support has been deprecated and may be removed '"
 nl|'\n'
-string|"'in the Juno release.'"
+string|"'as early as the Juno release.'"
 op|')'
 op|')'
 newline|'\n'
