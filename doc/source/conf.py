@@ -626,22 +626,6 @@ op|')'
 op|','
 nl|'\n'
 op|'('
-string|"'man/nova-rpc-zmq-receiver'"
-op|','
-string|"'nova-rpc-zmq-receiver'"
-op|','
-string|"u'Cloud controller fabric'"
-op|','
-nl|'\n'
-op|'['
-string|"u'OpenStack'"
-op|']'
-op|','
-number|'1'
-op|')'
-op|','
-nl|'\n'
-op|'('
 string|"'man/nova-scheduler'"
 op|','
 string|"'nova-scheduler'"
