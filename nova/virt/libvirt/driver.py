@@ -935,7 +935,11 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'The libvirt VIF driver to configure the VIFs.'"
+string|"'DEPRECATED. The libvirt VIF driver to configure the VIFs.'"
+nl|'\n'
+string|"'This option is deprecated and will be removed in the '"
+nl|'\n'
+string|"'Juno release.'"
 op|','
 nl|'\n'
 DECL|variable|deprecated_name
