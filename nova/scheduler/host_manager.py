@@ -200,6 +200,13 @@ string|"'ComputeCapabilitiesFilter'"
 op|','
 nl|'\n'
 string|"'ImagePropertiesFilter'"
+op|','
+nl|'\n'
+string|"'ServerGroupAntiAffinityFilter'"
+op|','
+nl|'\n'
+string|"'ServerGroupAffinityFilter'"
+op|','
 nl|'\n'
 op|']'
 op|','
