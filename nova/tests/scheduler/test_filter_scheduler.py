@@ -2638,6 +2638,13 @@ nl|'\n'
 op|'}'
 op|','
 nl|'\n'
+string|"'group_hosts'"
+op|':'
+op|'['
+string|"'hostB'"
+op|']'
+op|','
+nl|'\n'
 op|'}'
 newline|'\n'
 nl|'\n'
@@ -2726,9 +2733,12 @@ name|'set'
 op|'('
 op|'['
 string|"'hostA'"
+op|','
+string|"'hostB'"
 op|']'
 op|')'
 op|','
+nl|'\n'
 name|'filter_properties'
 op|'['
 string|"'group_hosts'"
