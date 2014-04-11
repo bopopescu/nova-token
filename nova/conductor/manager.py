@@ -6792,6 +6792,8 @@ name|'use_slave'
 op|')'
 newline|'\n'
 nl|'\n'
+comment|'# TODO(danms): This can be removed in version 3.0 of the RPC API'
+nl|'\n'
 DECL|member|instance_get_active_by_window_joined
 dedent|''
 name|'def'
