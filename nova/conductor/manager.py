@@ -6745,6 +6745,8 @@ name|'legacy'
 op|')'
 newline|'\n'
 nl|'\n'
+comment|'# TODO(danms): This can be removed in version 3.0 of the RPC API'
+nl|'\n'
 DECL|member|instance_get_all_by_filters
 dedent|''
 name|'def'
