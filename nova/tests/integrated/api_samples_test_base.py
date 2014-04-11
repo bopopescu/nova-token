@@ -1850,21 +1850,34 @@ name|'text'
 op|'='
 string|"r'[^<]*'"
 newline|'\n'
-dedent|''
-name|'return'
-op|'{'
-nl|'\n'
 comment|'# NOTE(treinish): Could result in a false positive, but it'
 nl|'\n'
 comment|"# shouldn't be an issue for this case."
 nl|'\n'
-string|"'timestamp'"
-op|':'
+dedent|''
+name|'timestamp_re'
+op|'='
+op|'('
 string|"'\\d{4}-[0,1]\\d-[0-3]\\d[ ,T]'"
 nl|'\n'
 string|"'\\d{2}:\\d{2}:\\d{2}'"
 nl|'\n'
 string|"'(Z|(\\+|-)\\d{2}:\\d{2}|\\.\\d{6}|)'"
+op|')'
+newline|'\n'
+name|'return'
+op|'{'
+nl|'\n'
+string|"'timestamp'"
+op|':'
+name|'timestamp_re'
+op|','
+nl|'\n'
+string|"'timestamp_or_none'"
+op|':'
+string|"r'None|%s'"
+op|'%'
+name|'timestamp_re'
 op|','
 nl|'\n'
 string|"'password'"
