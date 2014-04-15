@@ -66,14 +66,17 @@ string|"'string'"
 op|']'
 op|','
 nl|'\n'
-string|"'minimum'"
-op|':'
-number|'0'
-op|','
-nl|'\n'
 string|"'pattern'"
 op|':'
-string|"'^[0-9]+$'"
+string|"'^-?[0-9]+$'"
+op|','
+nl|'\n'
+comment|'# NOTE: -1 means an unlimited length.'
+nl|'\n'
+string|"'minimum'"
+op|':'
+op|'-'
+number|'1'
 op|','
 nl|'\n'
 op|'}'
