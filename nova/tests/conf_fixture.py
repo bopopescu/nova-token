@@ -370,17 +370,6 @@ name|'conf'
 op|'.'
 name|'set_default'
 op|'('
-string|"'verbose'"
-op|','
-name|'True'
-op|')'
-newline|'\n'
-name|'self'
-op|'.'
-name|'conf'
-op|'.'
-name|'set_default'
-op|'('
 string|"'vlan_interface'"
 op|','
 string|"'eth0'"
