@@ -8165,6 +8165,10 @@ indent|'    '
 name|'_ovs_vsctl'
 op|'('
 op|'['
+string|"'--'"
+op|','
+string|"'--if-exists'"
+op|','
 string|"'del-port'"
 op|','
 name|'bridge'
