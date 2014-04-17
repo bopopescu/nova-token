@@ -186,12 +186,6 @@ DECL|variable|help
 name|'help'
 op|'='
 string|"'Number of times to rescan iSCSI target to find volume'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_group
-name|'deprecated_group'
-op|'='
-string|"'DEFAULT'"
 op|')'
 op|','
 nl|'\n'
@@ -212,12 +206,6 @@ DECL|variable|help
 name|'help'
 op|'='
 string|"'Number of times to rescan iSER target to find volume'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_group
-name|'deprecated_group'
-op|'='
-string|"'DEFAULT'"
 op|')'
 op|','
 nl|'\n'
@@ -232,12 +220,6 @@ DECL|variable|help
 name|'help'
 op|'='
 string|"'The RADOS client name for accessing rbd volumes'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_group
-name|'deprecated_group'
-op|'='
-string|"'DEFAULT'"
 op|')'
 op|','
 nl|'\n'
@@ -254,12 +236,6 @@ op|'='
 string|"'The libvirt UUID of the secret for the rbd_user'"
 nl|'\n'
 string|"'volumes'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_group
-name|'deprecated_group'
-op|'='
-string|"'DEFAULT'"
 op|')'
 op|','
 nl|'\n'
@@ -287,12 +263,6 @@ op|'='
 string|"'Directory where the NFS volume is mounted on the'"
 nl|'\n'
 string|"' compute node'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_group
-name|'deprecated_group'
-op|'='
-string|"'DEFAULT'"
 op|')'
 op|','
 nl|'\n'
@@ -309,12 +279,6 @@ op|'='
 string|"'Mount options passedf to the NFS client. See section '"
 nl|'\n'
 string|"'of the nfs man page for details'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_group
-name|'deprecated_group'
-op|'='
-string|"'DEFAULT'"
 op|')'
 op|','
 nl|'\n'
@@ -335,12 +299,6 @@ DECL|variable|help
 name|'help'
 op|'='
 string|"'Number of times to rediscover AoE target to find volume'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_group
-name|'deprecated_group'
-op|'='
-string|"'DEFAULT'"
 op|')'
 op|','
 nl|'\n'
@@ -368,12 +326,6 @@ op|'='
 string|"'Directory where the glusterfs volume is mounted on the '"
 nl|'\n'
 string|"'compute node'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_group
-name|'deprecated_group'
-op|'='
-string|"'DEFAULT'"
 op|')'
 op|','
 nl|'\n'
@@ -394,18 +346,6 @@ DECL|variable|help
 name|'help'
 op|'='
 string|"'Use multipath connection of the iSCSI volume'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_group
-name|'deprecated_group'
-op|'='
-string|"'DEFAULT'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_name
-name|'deprecated_name'
-op|'='
-string|"'libvirt_iscsi_use_multipath'"
 op|')'
 op|','
 nl|'\n'
@@ -426,18 +366,6 @@ DECL|variable|help
 name|'help'
 op|'='
 string|"'Use multipath connection of the iSER volume'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_group
-name|'deprecated_group'
-op|'='
-string|"'DEFAULT'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_name
-name|'deprecated_name'
-op|'='
-string|"'libvirt_iser_use_multipath'"
 op|')'
 op|','
 nl|'\n'
@@ -452,12 +380,6 @@ DECL|variable|help
 name|'help'
 op|'='
 string|"'Path or URL to Scality SOFS configuration file'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_group
-name|'deprecated_group'
-op|'='
-string|"'DEFAULT'"
 op|')'
 op|','
 nl|'\n'
@@ -478,12 +400,6 @@ DECL|variable|help
 name|'help'
 op|'='
 string|"'Base dir where Scality SOFS shall be mounted'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_group
-name|'deprecated_group'
-op|'='
-string|"'DEFAULT'"
 op|')'
 op|','
 nl|'\n'
@@ -507,12 +423,6 @@ op|'='
 string|"'Protocols listed here will be accessed directly '"
 nl|'\n'
 string|"'from QEMU. Currently supported protocols: [gluster]'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_group
-name|'deprecated_group'
-op|'='
-string|"'DEFAULT'"
 op|')'
 nl|'\n'
 op|']'

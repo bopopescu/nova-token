@@ -137,20 +137,6 @@ op|'('
 string|"'use_join_force'"
 op|','
 nl|'\n'
-comment|'#Deprecated in Icehouse'
-nl|'\n'
-DECL|variable|deprecated_name
-name|'deprecated_name'
-op|'='
-string|"'use_join_force'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_group
-name|'deprecated_group'
-op|'='
-string|"'DEFAULT'"
-op|','
-nl|'\n'
 DECL|variable|default
 name|'default'
 op|'='

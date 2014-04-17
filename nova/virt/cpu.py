@@ -93,12 +93,6 @@ op|'='
 string|"'Defines which pcpus that instance vcpus can use. '"
 nl|'\n'
 string|'\'For example, "4-12,^8,15"\''
-op|','
-nl|'\n'
-DECL|variable|deprecated_group
-name|'deprecated_group'
-op|'='
-string|"'libvirt'"
 op|')'
 op|','
 nl|'\n'

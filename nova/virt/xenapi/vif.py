@@ -90,20 +90,6 @@ op|'='
 string|"'xapi1'"
 op|','
 nl|'\n'
-comment|'#Deprecated in Icehouse'
-nl|'\n'
-DECL|variable|deprecated_name
-name|'deprecated_name'
-op|'='
-string|"'xenapi_ovs_integration_bridge'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_group
-name|'deprecated_group'
-op|'='
-string|"'DEFAULT'"
-op|','
-nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='

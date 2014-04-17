@@ -541,12 +541,6 @@ op|'='
 string|"'Rescue ami image. This will not be used if an image id '"
 nl|'\n'
 string|"'is provided by the user.'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_group
-name|'deprecated_group'
-op|'='
-string|"'DEFAULT'"
 op|')'
 op|','
 nl|'\n'
@@ -561,12 +555,6 @@ DECL|variable|help
 name|'help'
 op|'='
 string|"'Rescue aki image'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_group
-name|'deprecated_group'
-op|'='
-string|"'DEFAULT'"
 op|')'
 op|','
 nl|'\n'
@@ -581,12 +569,6 @@ DECL|variable|help
 name|'help'
 op|'='
 string|"'Rescue ari image'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_group
-name|'deprecated_group'
-op|'='
-string|"'DEFAULT'"
 op|')'
 op|','
 nl|'\n'
@@ -609,18 +591,6 @@ op|'='
 string|"'Libvirt domain type (valid options are: '"
 nl|'\n'
 string|"'kvm, lxc, qemu, uml, xen)'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_group
-name|'deprecated_group'
-op|'='
-string|"'DEFAULT'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_name
-name|'deprecated_name'
-op|'='
-string|"'libvirt_type'"
 op|')'
 op|','
 nl|'\n'
@@ -643,18 +613,6 @@ op|'='
 string|"'Override the default libvirt URI '"
 nl|'\n'
 string|"'(which is dependent on virt_type)'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_group
-name|'deprecated_group'
-op|'='
-string|"'DEFAULT'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_name
-name|'deprecated_name'
-op|'='
-string|"'libvirt_uri'"
 op|')'
 op|','
 nl|'\n'
@@ -677,18 +635,6 @@ op|'='
 string|"'Inject the admin password at boot time, '"
 nl|'\n'
 string|"'without an agent.'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_name
-name|'deprecated_name'
-op|'='
-string|"'libvirt_inject_password'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_group
-name|'deprecated_group'
-op|'='
-string|"'DEFAULT'"
 op|')'
 op|','
 nl|'\n'
@@ -709,18 +655,6 @@ DECL|variable|help
 name|'help'
 op|'='
 string|"'Inject the ssh public key at boot time'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_name
-name|'deprecated_name'
-op|'='
-string|"'libvirt_inject_key'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_group
-name|'deprecated_group'
-op|'='
-string|"'DEFAULT'"
 op|')'
 op|','
 nl|'\n'
@@ -746,18 +680,6 @@ nl|'\n'
 string|"'-2 => disable, -1 => inspect (libguestfs only), '"
 nl|'\n'
 string|"'0 => not partitioned, >0 => partition number'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_name
-name|'deprecated_name'
-op|'='
-string|"'libvirt_inject_partition'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_group
-name|'deprecated_group'
-op|'='
-string|"'DEFAULT'"
 op|')'
 op|','
 nl|'\n'
@@ -778,12 +700,6 @@ DECL|variable|help
 name|'help'
 op|'='
 string|"'Sync virtual and real mouse cursors in Windows VMs'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_group
-name|'deprecated_group'
-op|'='
-string|"'DEFAULT'"
 op|')'
 op|','
 nl|'\n'
@@ -808,12 +724,6 @@ nl|'\n'
 string|'\'(any included "%s" is replaced with \''
 nl|'\n'
 string|"'the migration target hostname)'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_group
-name|'deprecated_group'
-op|'='
-string|"'DEFAULT'"
 op|')'
 op|','
 nl|'\n'
@@ -834,12 +744,6 @@ DECL|variable|help
 name|'help'
 op|'='
 string|"'Migration flags to be set for live migration'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_group
-name|'deprecated_group'
-op|'='
-string|"'DEFAULT'"
 op|')'
 op|','
 nl|'\n'
@@ -862,12 +766,6 @@ DECL|variable|help
 name|'help'
 op|'='
 string|"'Migration flags to be set for block migration'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_group
-name|'deprecated_group'
-op|'='
-string|"'DEFAULT'"
 op|')'
 op|','
 nl|'\n'
@@ -888,12 +786,6 @@ DECL|variable|help
 name|'help'
 op|'='
 string|"'Maximum bandwidth to be used during migration, in Mbps'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_group
-name|'deprecated_group'
-op|'='
-string|"'DEFAULT'"
 op|')'
 op|','
 nl|'\n'
@@ -912,12 +804,6 @@ nl|'\n'
 string|"'raw, qcow2, vmdk, vdi). '"
 nl|'\n'
 string|"'Defaults to same as source image'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_group
-name|'deprecated_group'
-op|'='
-string|"'DEFAULT'"
 op|')'
 op|','
 nl|'\n'
@@ -942,18 +828,6 @@ nl|'\n'
 string|"'This option is deprecated and will be removed in the '"
 nl|'\n'
 string|"'Juno release.'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_name
-name|'deprecated_name'
-op|'='
-string|"'libvirt_vif_driver'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_group
-name|'deprecated_group'
-op|'='
-string|"'DEFAULT'"
 op|')'
 op|','
 nl|'\n'
@@ -1015,18 +889,6 @@ DECL|variable|help
 name|'help'
 op|'='
 string|"'Libvirt handlers for remote volumes.'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_name
-name|'deprecated_name'
-op|'='
-string|"'libvirt_volume_drivers'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_group
-name|'deprecated_group'
-op|'='
-string|"'DEFAULT'"
 op|')'
 op|','
 nl|'\n'
@@ -1045,18 +907,6 @@ nl|'\n'
 string|"' to a server, which is dependent on virt_type. '"
 nl|'\n'
 string|"'(valid options are: sd, xvd, uvd, vd)'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_name
-name|'deprecated_name'
-op|'='
-string|"'libvirt_disk_prefix'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_group
-name|'deprecated_group'
-op|'='
-string|"'DEFAULT'"
 op|')'
 op|','
 nl|'\n'
@@ -1081,18 +931,6 @@ nl|'\n'
 string|"' soft reboot request is made. We fall back to hard reboot'"
 nl|'\n'
 string|"' if instance does not shutdown within this window.'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_name
-name|'deprecated_name'
-op|'='
-string|"'libvirt_wait_soft_reboot_seconds'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_group
-name|'deprecated_group'
-op|'='
-string|"'DEFAULT'"
 op|')'
 op|','
 nl|'\n'
@@ -1117,18 +955,6 @@ nl|'\n'
 string|'\'If virt_type="kvm|qemu", it will default to \''
 nl|'\n'
 string|'\'"host-model", otherwise it will default to "none"\''
-op|','
-nl|'\n'
-DECL|variable|deprecated_name
-name|'deprecated_name'
-op|'='
-string|"'libvirt_cpu_mode'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_group
-name|'deprecated_group'
-op|'='
-string|"'DEFAULT'"
 op|')'
 op|','
 nl|'\n'
@@ -1147,18 +973,6 @@ nl|'\n'
 string|"'in /usr/share/libvirt/cpu_map.xml). Only has effect if '"
 nl|'\n'
 string|'\'cpu_mode="custom" and virt_type="kvm|qemu"\''
-op|','
-nl|'\n'
-DECL|variable|deprecated_name
-name|'deprecated_name'
-op|'='
-string|"'libvirt_cpu_model'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_group
-name|'deprecated_group'
-op|'='
-string|"'DEFAULT'"
 op|')'
 op|','
 nl|'\n'
@@ -1181,18 +995,6 @@ op|'='
 string|"'Location where libvirt driver will store snapshots '"
 nl|'\n'
 string|"'before uploading them to image service'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_name
-name|'deprecated_name'
-op|'='
-string|"'libvirt_snapshots_directory'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_group
-name|'deprecated_group'
-op|'='
-string|"'DEFAULT'"
 op|')'
 op|','
 nl|'\n'
@@ -1213,12 +1015,6 @@ DECL|variable|help
 name|'help'
 op|'='
 string|"'Location where the Xen hvmloader is kept'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_group
-name|'deprecated_group'
-op|'='
-string|"'DEFAULT'"
 op|')'
 op|','
 nl|'\n'
@@ -1242,12 +1038,6 @@ op|'='
 string|"'Specific cachemodes to use for different disk types '"
 nl|'\n'
 string|"'e.g: file=directsync,block=none'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_group
-name|'deprecated_group'
-op|'='
-string|"'DEFAULT'"
 op|')'
 op|','
 nl|'\n'

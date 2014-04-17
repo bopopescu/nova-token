@@ -158,18 +158,6 @@ DECL|variable|help
 name|'help'
 op|'='
 string|"'Use virtio for bridge interfaces with KVM/QEMU'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_group
-name|'deprecated_group'
-op|'='
-string|"'DEFAULT'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_name
-name|'deprecated_name'
-op|'='
-string|"'libvirt_use_virtio_for_bridges'"
 op|')'
 op|','
 nl|'\n'

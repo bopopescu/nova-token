@@ -165,12 +165,6 @@ op|'='
 string|"'Allows image information files to be stored in '"
 nl|'\n'
 string|"'non-standard locations'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_group
-name|'deprecated_group'
-op|'='
-string|"'DEFAULT'"
 op|')'
 op|','
 nl|'\n'
@@ -197,12 +191,6 @@ nl|'\n'
 string|"'to support this option. This will be enabled by default '"
 nl|'\n'
 string|"'in future.'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_group
-name|'deprecated_group'
-op|'='
-string|"'DEFAULT'"
 op|')'
 op|','
 nl|'\n'
@@ -225,12 +213,6 @@ op|'='
 string|"'Unused resized base images younger than this will not be '"
 nl|'\n'
 string|"'removed'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_group
-name|'deprecated_group'
-op|'='
-string|"'DEFAULT'"
 op|')'
 op|','
 nl|'\n'
@@ -251,12 +233,6 @@ DECL|variable|help
 name|'help'
 op|'='
 string|"'Write a checksum for files in _base to disk'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_group
-name|'deprecated_group'
-op|'='
-string|"'DEFAULT'"
 op|')'
 op|','
 nl|'\n'
@@ -277,12 +253,6 @@ DECL|variable|help
 name|'help'
 op|'='
 string|"'How frequently to checksum base images'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_group
-name|'deprecated_group'
-op|'='
-string|"'DEFAULT'"
 op|')'
 op|','
 nl|'\n'

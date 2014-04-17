@@ -258,12 +258,6 @@ nl|'\n'
 string|"'host to advertise. Valid entries are name=value, pairs '"
 nl|'\n'
 string|'\'For example, "key1:val1, key2:val2"\''
-op|','
-nl|'\n'
-DECL|variable|deprecated_name
-name|'deprecated_name'
-op|'='
-string|"'instance_type_extra_specs'"
 op|')'
 op|','
 nl|'\n'
