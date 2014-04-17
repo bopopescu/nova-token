@@ -9901,6 +9901,8 @@ op|'['
 string|"'system_metadata'"
 op|','
 string|"'metadata'"
+op|','
+string|"'info_cache'"
 op|']'
 newline|'\n'
 name|'for'
