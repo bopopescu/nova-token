@@ -43588,8 +43588,11 @@ name|'assertEqual'
 op|'('
 op|'['
 string|"'system_metadata'"
+op|','
+string|"'info_cache'"
 op|']'
 op|','
+nl|'\n'
 name|'columns_to_join'
 op|')'
 newline|'\n'
