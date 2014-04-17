@@ -144,7 +144,7 @@ string|"'address'"
 op|':'
 name|'fields'
 op|'.'
-name|'IPV4AndV6Address'
+name|'IPV4AndV6AddressField'
 op|'('
 op|')'
 op|','
