@@ -92,7 +92,7 @@ name|'cfg'
 op|'.'
 name|'StrOpt'
 op|'('
-string|"'spicehtml5proxy_host'"
+string|"'html5proxy_host'"
 op|','
 nl|'\n'
 DECL|variable|default
@@ -105,6 +105,18 @@ DECL|variable|help
 name|'help'
 op|'='
 string|"'Host on which to listen for incoming requests'"
+op|','
+nl|'\n'
+DECL|variable|deprecated_group
+name|'deprecated_group'
+op|'='
+string|"'DEFAULT'"
+op|','
+nl|'\n'
+DECL|variable|deprecated_name
+name|'deprecated_name'
+op|'='
+string|"'spicehtml5proxy_host'"
 op|')'
 op|','
 nl|'\n'
@@ -112,7 +124,7 @@ name|'cfg'
 op|'.'
 name|'IntOpt'
 op|'('
-string|"'spicehtml5proxy_port'"
+string|"'html5proxy_port'"
 op|','
 nl|'\n'
 DECL|variable|default
@@ -125,6 +137,18 @@ DECL|variable|help
 name|'help'
 op|'='
 string|"'Port on which to listen for incoming requests'"
+op|','
+nl|'\n'
+DECL|variable|deprecated_group
+name|'deprecated_group'
+op|'='
+string|"'DEFAULT'"
+op|','
+nl|'\n'
+DECL|variable|deprecated_name
+name|'deprecated_name'
+op|'='
+string|"'spicehtml5proxy_port'"
 op|')'
 op|','
 nl|'\n'
@@ -143,6 +167,10 @@ op|'.'
 name|'register_cli_opts'
 op|'('
 name|'opts'
+op|','
+name|'group'
+op|'='
+string|"'spice'"
 op|')'
 newline|'\n'
 name|'CONF'
@@ -323,14 +351,18 @@ name|'listen_host'
 op|'='
 name|'CONF'
 op|'.'
-name|'spicehtml5proxy_host'
+name|'spice'
+op|'.'
+name|'html5proxy_host'
 op|','
 nl|'\n'
 name|'listen_port'
 op|'='
 name|'CONF'
 op|'.'
-name|'spicehtml5proxy_port'
+name|'spice'
+op|'.'
+name|'html5proxy_port'
 op|','
 nl|'\n'
 name|'source_is_ipv6'
