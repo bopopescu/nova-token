@@ -28865,6 +28865,8 @@ name|'expected_attrs'
 op|'='
 op|'['
 string|"'system_metadata'"
+op|','
+string|"'info_cache'"
 op|']'
 op|','
 nl|'\n'
