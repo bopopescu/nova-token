@@ -19315,6 +19315,11 @@ op|':'
 string|"'blank'"
 op|','
 nl|'\n'
+string|"'destination_type'"
+op|':'
+name|'None'
+op|','
+nl|'\n'
 string|"'delete_on_termination'"
 op|':'
 name|'None'
@@ -19522,11 +19527,6 @@ number|'0'
 op|','
 nl|'\n'
 string|"'id'"
-op|':'
-number|'0'
-op|','
-nl|'\n'
-string|"'destination_type'"
 op|':'
 number|'0'
 op|','
