@@ -4155,7 +4155,7 @@ name|'self'
 op|'.'
 name|'assertEqual'
 op|'('
-string|"'/v3/servers'"
+string|"'/v3/servers/detail'"
 op|','
 name|'href_parts'
 op|'.'
@@ -4372,7 +4372,7 @@ name|'self'
 op|'.'
 name|'assertEqual'
 op|'('
-string|"'/v3/servers'"
+string|"'/v3/servers/detail'"
 op|','
 name|'href_parts'
 op|'.'

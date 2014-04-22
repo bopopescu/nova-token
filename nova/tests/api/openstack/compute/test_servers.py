@@ -3923,7 +3923,7 @@ name|'self'
 op|'.'
 name|'assertEqual'
 op|'('
-string|"'/v2/fake/servers'"
+string|"'/v2/fake/servers/detail'"
 op|','
 name|'href_parts'
 op|'.'
@@ -4140,7 +4140,7 @@ name|'self'
 op|'.'
 name|'assertEqual'
 op|'('
-string|"'/v2/fake/servers'"
+string|"'/v2/fake/servers/detail'"
 op|','
 name|'href_parts'
 op|'.'
