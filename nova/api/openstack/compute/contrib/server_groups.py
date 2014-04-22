@@ -913,9 +913,9 @@ name|'group'
 op|'.'
 name|'members'
 op|','
-string|"'deleted_at'"
+string|"'deleted'"
 op|':'
-name|'None'
+name|'False'
 op|'}'
 newline|'\n'
 name|'instances'
