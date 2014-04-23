@@ -130,7 +130,7 @@ nl|'\n'
 DECL|variable|default
 name|'default'
 op|'='
-string|"'noauth'"
+string|"'keystone'"
 op|','
 nl|'\n'
 DECL|variable|help
