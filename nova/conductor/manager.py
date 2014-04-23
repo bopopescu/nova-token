@@ -7709,6 +7709,8 @@ name|'instance'
 op|')'
 newline|'\n'
 nl|'\n'
+comment|'# TODO(danms): This can be removed in version 3.0 of the RPCAPI'
+nl|'\n'
 DECL|member|compute_unrescue
 dedent|''
 name|'def'
