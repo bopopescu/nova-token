@@ -6050,10 +6050,14 @@ name|'error'
 op|'('
 name|'_'
 op|'('
-string|"'Unshelve attempted but vm_state not SHELVED '"
-nl|'\n'
-string|"'or SHELVED_OFFLOADED'"
+string|"'Unshelve cannot find the image with id %s'"
 op|')'
+op|','
+nl|'\n'
+name|'sys_meta'
+op|'['
+string|"'shelved_image_id'"
+op|']'
 op|','
 name|'instance'
 op|'='
