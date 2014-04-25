@@ -375,6 +375,17 @@ op|','
 string|"'eth0'"
 op|')'
 newline|'\n'
+name|'self'
+op|'.'
+name|'conf'
+op|'.'
+name|'set_default'
+op|'('
+string|"'auth_strategy'"
+op|','
+string|"'noauth'"
+op|')'
+newline|'\n'
 name|'config'
 op|'.'
 name|'parse_args'
