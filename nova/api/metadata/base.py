@@ -869,7 +869,7 @@ newline|'\n'
 nl|'\n'
 comment|"# 'content' is passed in from the configdrive code in"
 nl|'\n'
-comment|'# nova/virt/libvirt/driver.py.  Thats how we get the injected files'
+comment|"# nova/virt/libvirt/driver.py.  That's how we get the injected files"
 nl|'\n'
 comment|"# (personalities) in. AFAIK they're not stored in the db at all,"
 nl|'\n'

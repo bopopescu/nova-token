@@ -10129,7 +10129,7 @@ indent|'    '
 string|'"""Makes alterations to the image before launching as part of spawn.\n    """'
 newline|'\n'
 nl|'\n'
-comment|'# As mounting the image VDI is expensive, we only want do do it once,'
+comment|'# As mounting the image VDI is expensive, we only want do it once,'
 nl|'\n'
 comment|"# if at all, so determine whether it's required first, and then do"
 nl|'\n'

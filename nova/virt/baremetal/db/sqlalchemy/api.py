@@ -1182,7 +1182,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""Associate an instance to a node safely\n\n    Associate an instance to a node only if that node is not yet assocated.\n    Allow the caller to set any other fields they require in the same\n    operation. For example, this is used to set the node\'s task_state to\n    BUILDING at the beginning of driver.spawn().\n\n    """'
+string|'"""Associate an instance to a node safely\n\n    Associate an instance to a node only if that node is not yet associated.\n    Allow the caller to set any other fields they require in the same\n    operation. For example, this is used to set the node\'s task_state to\n    BUILDING at the beginning of driver.spawn().\n\n    """'
 newline|'\n'
 name|'if'
 string|"'instance_uuid'"
