@@ -259,7 +259,7 @@ comment|'# processes that end up in the same situation). So we need'
 nl|'\n'
 comment|'# to catch all exceptions and make sure nothing leaks out, in'
 nl|'\n'
-comment|'# particlar SystemExit, which is raised by sys.exit(). We use'
+comment|'# particular SystemExit, which is raised by sys.exit(). We use'
 nl|'\n'
 comment|"# os._exit() which doesn't have this problem."
 nl|'\n'

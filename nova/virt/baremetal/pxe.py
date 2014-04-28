@@ -1729,7 +1729,7 @@ dedent|''
 name|'else'
 op|':'
 newline|'\n'
-comment|'# NOTE(deva): copy so we dont modify the original'
+comment|"# NOTE(deva): copy so we don't modify the original"
 nl|'\n'
 indent|'            '
 name|'injected_files'

@@ -55,7 +55,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""TypeAffinityFilter doesn\'t allow more then one VM type per host.\n\n    Note: this works best with ram_weight_multiplier\n    (spread) set to 1 (default).\n    """'
+string|'"""TypeAffinityFilter doesn\'t allow more than one VM type per host.\n\n    Note: this works best with ram_weight_multiplier\n    (spread) set to 1 (default).\n    """'
 newline|'\n'
 nl|'\n'
 DECL|member|host_passes

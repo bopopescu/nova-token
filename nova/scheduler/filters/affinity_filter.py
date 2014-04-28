@@ -250,7 +250,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|"'''Schedule the instance on the same host as another instance in a set of\n    of instances.\n    '''"
+string|"'''Schedule the instance on the same host as another instance in a set of\n    instances.\n    '''"
 newline|'\n'
 nl|'\n'
 comment|"# The hosts the instances are running on doesn't change within a request"

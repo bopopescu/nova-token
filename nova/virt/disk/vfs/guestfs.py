@@ -717,7 +717,7 @@ op|':'
 newline|'\n'
 comment|"# NOTE(russellb) In case we're not using a version of"
 nl|'\n'
-comment|'# libguestfs new enough to support the close_on_exit paramater,'
+comment|'# libguestfs new enough to support the close_on_exit parameter,'
 nl|'\n'
 comment|'# which was added in libguestfs 1.20.'
 nl|'\n'
