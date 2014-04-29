@@ -992,7 +992,7 @@ newline|'\n'
 DECL|variable|updated
 name|'updated'
 op|'='
-string|'"2012-10-29T13:25:27-06:00"'
+string|'"2012-10-29T19:25:27Z"'
 newline|'\n'
 nl|'\n'
 DECL|member|get_resources

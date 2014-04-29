@@ -176,7 +176,7 @@ newline|'\n'
 nl|'\n'
 comment|'# The timestamp when the extension was last updated, e.g.,'
 nl|'\n'
-comment|"# '2011-01-22T13:25:27-06:00'"
+comment|"# '2011-01-22T19:25:27Z'"
 nl|'\n'
 DECL|variable|updated
 name|'updated'

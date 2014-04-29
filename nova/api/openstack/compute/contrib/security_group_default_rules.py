@@ -1359,7 +1359,7 @@ newline|'\n'
 DECL|variable|updated
 name|'updated'
 op|'='
-string|'"2013-02-05T00:00:00+00:00"'
+string|'"2013-02-05T00:00:00Z"'
 newline|'\n'
 nl|'\n'
 DECL|member|get_resources
