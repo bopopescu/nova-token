@@ -1859,20 +1859,14 @@ name|'strtime_re'
 op|'='
 string|"'\\d{4}-[0,1]\\d-[0-3]\\dT\\d{2}:\\d{2}:\\d{2}\\.\\d{6}'"
 newline|'\n'
-comment|'# NOTE(treinish): Could result in a false positive, but it'
-nl|'\n'
-comment|"# shouldn't be an issue for this case."
-nl|'\n'
-name|'timestamp_re'
+name|'xmltime_re'
 op|'='
 op|'('
-string|"'\\d{4}-[0,1]\\d-[0-3]\\d[ ,T]'"
+string|"'\\d{4}-[0,1]\\d-[0-3]\\d '"
 nl|'\n'
 string|"'\\d{2}:\\d{2}:\\d{2}'"
 nl|'\n'
-string|"'(Z|(\\+|-)\\d{2}:\\d{2}|\\.\\d{6}|'"
-nl|'\n'
-string|"'\\.\\d{6}(Z|(\\+|-)\\d{2}:\\d{2})|)'"
+string|"'(\\.\\d{6})?(\\+00:00)?'"
 op|')'
 newline|'\n'
 name|'return'
@@ -1895,9 +1889,9 @@ op|'%'
 name|'strtime_re'
 op|','
 nl|'\n'
-string|"'timestamp'"
+string|"'xmltime'"
 op|':'
-name|'timestamp_re'
+name|'xmltime_re'
 op|','
 nl|'\n'
 string|"'password'"
