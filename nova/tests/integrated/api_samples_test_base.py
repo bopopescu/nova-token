@@ -1850,11 +1850,15 @@ name|'text'
 op|'='
 string|"r'[^<]*'"
 newline|'\n'
+dedent|''
+name|'isotime_re'
+op|'='
+string|"'\\d{4}-[0,1]\\d-[0-3]\\dT\\d{2}:\\d{2}:\\d{2}Z'"
+newline|'\n'
 comment|'# NOTE(treinish): Could result in a false positive, but it'
 nl|'\n'
 comment|"# shouldn't be an issue for this case."
 nl|'\n'
-dedent|''
 name|'timestamp_re'
 op|'='
 op|'('
@@ -1867,6 +1871,11 @@ op|')'
 newline|'\n'
 name|'return'
 op|'{'
+nl|'\n'
+string|"'isotime'"
+op|':'
+name|'isotime_re'
+op|','
 nl|'\n'
 string|"'timestamp'"
 op|':'
