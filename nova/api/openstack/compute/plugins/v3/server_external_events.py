@@ -528,12 +528,9 @@ name|'LOG'
 op|'.'
 name|'debug'
 op|'('
-name|'_'
-op|'('
 string|"'Dropping event %(name)s:%(tag)s for unknown '"
 nl|'\n'
 string|"'instance %(instance_uuid)s'"
-op|')'
 op|','
 nl|'\n'
 name|'dict'
