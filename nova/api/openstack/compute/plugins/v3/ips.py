@@ -429,7 +429,7 @@ nl|'\n'
 DECL|variable|name
 name|'name'
 op|'='
-string|'"ips"'
+string|'"Ips"'
 newline|'\n'
 DECL|variable|alias
 name|'alias'

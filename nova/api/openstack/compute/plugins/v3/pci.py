@@ -962,7 +962,7 @@ newline|'\n'
 DECL|variable|name
 name|'name'
 op|'='
-string|'"PCIAccess"'
+string|'"PciAccess"'
 newline|'\n'
 DECL|variable|alias
 name|'alias'
