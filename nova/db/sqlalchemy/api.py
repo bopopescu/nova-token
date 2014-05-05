@@ -18693,8 +18693,6 @@ name|'LOG'
 op|'.'
 name|'debug'
 op|'('
-name|'_'
-op|'('
 string|"'quota_usages out of sync, updating. '"
 nl|'\n'
 string|"'project_id: %(project_id)s, '"
@@ -18706,7 +18704,6 @@ nl|'\n'
 string|"'tracked usage: %(tracked_use)s, '"
 nl|'\n'
 string|"'actual usage: %(in_use)s'"
-op|')'
 op|','
 nl|'\n'
 op|'{'
