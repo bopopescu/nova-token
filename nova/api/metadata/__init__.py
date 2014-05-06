@@ -26,7 +26,7 @@ nl|'\n'
 comment|'#    under the License.'
 nl|'\n'
 nl|'\n'
-string|'"""\n:mod:`nova.api.metadata` -- Nova Metadata Server\n================================================\n\n.. automodule:: nova.api.metadata\n   :platform: Unix\n   :synopsis: Metadata Server for Nova\n.. moduleauthor:: Vishvananda Ishaya <vishvananda@gmail.com>\n"""'
+string|'"""\n:mod:`nova.api.metadata` -- Nova Metadata Server\n================================================\n\n.. automodule:: nova.api.metadata\n   :platform: Unix\n   :synopsis: Metadata Server for Nova\n"""'
 newline|'\n'
 endmarker|''
 end_unit
