@@ -30,7 +30,7 @@ nl|'\n'
 comment|'#    under the License.'
 nl|'\n'
 nl|'\n'
-string|'"""\nHelper methods for operations related to the management of volumes,\nand storage repositories\n"""'
+string|'"""\nHelper methods for operations related to the management of volumes,\nand storage repositories\n\nOfficial Microsoft iSCSI Initiator and iSCSI command line interface\ndocumentation can be retrieved at:\nhttp://www.microsoft.com/en-us/download/details.aspx?id=34750\n"""'
 newline|'\n'
 nl|'\n'
 name|'import'
@@ -223,19 +223,42 @@ name|'self'
 op|'.'
 name|'execute'
 op|'('
-string|"'iscsicli.exe '"
-op|'+'
-string|"'AddTargetPortal '"
-op|'+'
+string|"'iscsicli.exe'"
+op|','
+string|"'AddTargetPortal'"
+op|','
 nl|'\n'
 name|'target_address'
-op|'+'
-string|"' '"
-op|'+'
+op|','
 name|'target_port'
-op|'+'
+op|','
 nl|'\n'
-string|"' * * * * * * * * * * * * *'"
+string|"'*'"
+op|','
+string|"'*'"
+op|','
+string|"'*'"
+op|','
+string|"'*'"
+op|','
+string|"'*'"
+op|','
+string|"'*'"
+op|','
+string|"'*'"
+op|','
+string|"'*'"
+op|','
+string|"'*'"
+op|','
+string|"'*'"
+op|','
+string|"'*'"
+op|','
+nl|'\n'
+string|"'*'"
+op|','
+string|"'*'"
 op|')'
 newline|'\n'
 comment|'#Listing targets'
@@ -244,8 +267,8 @@ name|'self'
 op|'.'
 name|'execute'
 op|'('
-string|"'iscsicli.exe '"
-op|'+'
+string|"'iscsicli.exe'"
+op|','
 string|"'ListTargets'"
 op|')'
 newline|'\n'
@@ -255,10 +278,10 @@ name|'self'
 op|'.'
 name|'execute'
 op|'('
-string|"'iscsicli.exe '"
-op|'+'
-string|"'qlogintarget '"
-op|'+'
+string|"'iscsicli.exe'"
+op|','
+string|"'qlogintarget'"
+op|','
 name|'target_iqn'
 op|')'
 newline|'\n'
@@ -348,10 +371,10 @@ name|'self'
 op|'.'
 name|'execute'
 op|'('
-string|"'iscsicli.exe '"
-op|'+'
-string|"'logouttarget '"
-op|'+'
+string|"'iscsicli.exe'"
+op|','
+string|"'logouttarget'"
+op|','
 name|'session_id'
 op|')'
 newline|'\n'
