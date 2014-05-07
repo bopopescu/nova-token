@@ -7562,12 +7562,12 @@ op|'='
 op|'{'
 string|"'summary.config.numCpu'"
 op|':'
-name|'None'
+number|'0'
 op|','
 nl|'\n'
 string|"'summary.config.memorySizeMB'"
 op|':'
-name|'None'
+number|'0'
 op|','
 nl|'\n'
 string|"'runtime.powerState'"
