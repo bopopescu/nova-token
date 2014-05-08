@@ -113,7 +113,9 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'MTU setting for network interface'"
+string|"'DEPRECATED: THIS VALUE SHOULD BE SET WHEN CREATING THE '"
+nl|'\n'
+string|"'NETWORK. MTU setting for network interface.'"
 op|')'
 op|','
 nl|'\n'
