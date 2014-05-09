@@ -297,7 +297,7 @@ name|'cfg'
 op|'.'
 name|'IntOpt'
 op|'('
-string|"'quota_injected_file_path_bytes'"
+string|"'quota_injected_file_path_length'"
 op|','
 nl|'\n'
 DECL|variable|default
@@ -306,12 +306,22 @@ op|'='
 number|'255'
 op|','
 nl|'\n'
+DECL|variable|deprecated_name
+name|'deprecated_name'
+op|'='
+string|"'quota_injected_file_path_bytes'"
+op|','
+nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'Number of bytes allowed per injected file path'"
+string|"'Length of injected file path'"
 op|')'
 op|','
+nl|'\n'
+comment|'# TODO(lyj): quota_injected_file_path_bytes is deprecated in Juno, and will'
+nl|'\n'
+comment|'#            be removed in K.'
 nl|'\n'
 name|'cfg'
 op|'.'
@@ -4700,7 +4710,7 @@ op|'('
 string|"'injected_file_path_bytes'"
 op|','
 nl|'\n'
-string|"'quota_injected_file_path_bytes'"
+string|"'quota_injected_file_path_length'"
 op|')'
 op|','
 nl|'\n'
