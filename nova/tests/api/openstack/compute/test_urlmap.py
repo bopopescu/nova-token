@@ -1344,7 +1344,7 @@ op|'['
 string|"'name'"
 op|']'
 op|','
-string|"'extensions'"
+string|"'Extensions'"
 op|')'
 newline|'\n'
 nl|'\n'
@@ -1445,7 +1445,7 @@ op|'['
 string|"'name'"
 op|']'
 op|','
-string|"'extensions'"
+string|"'Extensions'"
 op|')'
 newline|'\n'
 dedent|''

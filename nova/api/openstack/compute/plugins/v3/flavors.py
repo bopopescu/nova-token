@@ -761,7 +761,7 @@ newline|'\n'
 DECL|variable|name
 name|'name'
 op|'='
-string|'"flavors"'
+string|'"Flavors"'
 newline|'\n'
 DECL|variable|alias
 name|'alias'
