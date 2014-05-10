@@ -50,8 +50,10 @@ name|'NoDBTestCase'
 op|')'
 op|':'
 newline|'\n'
-DECL|member|test_virt_driver_imports
 indent|'    '
+string|'"""This class tests the hacking checks in nova.hacking.checks by passing\n    strings to the check methods like the pep8/flake8 parser would. The parser\n    loops over each line in the file and then passes the parameters to the\n    check method. The parameter names in the check method dictate what type of\n    object is passed to the check method. The parameter types are::\n\n        logical_line: A processed line with the following modifications:\n            - Multi-line statements converted to a single line.\n            - Stripped left and right.\n            - Contents of strings replaced with "xxx" of same length.\n            - Comments removed.\n        physical_line: Raw line of text from the input file.\n        lines: a list of the raw lines from the input file\n        tokens: the tokens that contribute to this logical line\n        line_number: line number in the input file\n        total_lines: number of lines in the input file\n        blank_lines: blank lines before this one\n        indent_char: indentation character in this file (" " or "\\t")\n        indent_level: indentation (with tabs expanded to multiples of 8)\n        previous_indent_level: indentation on previous line\n        previous_logical: previous logical line\n        filename: Path of the file being run through pep8\n\n    When running a test on a check method the return will be False/None if\n    there is no violation in the sample input. If there is an error a tuple is\n    returned with a position in the line, and a message. So to check the result\n    just assertTrue if the check is expected to fail and assertFalse if it\n    should pass.\n    """'
+newline|'\n'
+DECL|member|test_virt_driver_imports
 name|'def'
 name|'test_virt_driver_imports'
 op|'('
