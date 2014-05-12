@@ -195,10 +195,10 @@ op|')'
 op|')'
 newline|'\n'
 nl|'\n'
-DECL|member|test_virt_driver_imports
+DECL|member|test_no_author_tags
 dedent|''
 name|'def'
-name|'test_virt_driver_imports'
+name|'test_no_author_tags'
 op|'('
 name|'self'
 op|')'
