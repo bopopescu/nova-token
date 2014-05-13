@@ -326,7 +326,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""Extended Server Attributes support."""'
+string|'"""Extended Availability Zone support."""'
 newline|'\n'
 nl|'\n'
 DECL|variable|name

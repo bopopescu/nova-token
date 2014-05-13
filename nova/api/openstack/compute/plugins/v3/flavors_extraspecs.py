@@ -932,7 +932,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""Flavors Extension."""'
+string|'"""Flavors extra specs support."""'
 newline|'\n'
 DECL|variable|name
 name|'name'
