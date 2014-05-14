@@ -258,20 +258,6 @@ op|','
 nl|'\n'
 name|'cfg'
 op|'.'
-name|'IntOpt'
-op|'('
-string|"'network_device_mtu'"
-op|','
-nl|'\n'
-DECL|variable|help
-name|'help'
-op|'='
-string|"'MTU setting for network interface'"
-op|')'
-op|','
-nl|'\n'
-name|'cfg'
-op|'.'
 name|'StrOpt'
 op|'('
 string|"'dhcpbridge'"
@@ -766,6 +752,15 @@ op|'('
 string|"'my_ip'"
 op|','
 string|"'nova.netconf'"
+op|')'
+newline|'\n'
+name|'CONF'
+op|'.'
+name|'import_opt'
+op|'('
+string|"'network_device_mtu'"
+op|','
+string|"'nova.objects.network'"
 op|')'
 newline|'\n'
 nl|'\n'

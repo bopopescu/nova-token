@@ -681,32 +681,6 @@ name|'cfg'
 op|'.'
 name|'BoolOpt'
 op|'('
-string|"'share_dhcp_address'"
-op|','
-nl|'\n'
-DECL|variable|default
-name|'default'
-op|'='
-name|'False'
-op|','
-nl|'\n'
-DECL|variable|help
-name|'help'
-op|'='
-string|"'If True in multi_host mode, all compute hosts share '"
-nl|'\n'
-string|"'the same dhcp address. The same IP address used for '"
-nl|'\n'
-string|"'DHCP will be added on each nova-network node which '"
-nl|'\n'
-string|"'is only visible to the vms on the same host.'"
-op|')'
-op|','
-nl|'\n'
-name|'cfg'
-op|'.'
-name|'BoolOpt'
-op|'('
 string|"'update_dns_entries'"
 op|','
 nl|'\n'
@@ -841,6 +815,15 @@ op|'('
 string|"'fake_network'"
 op|','
 string|"'nova.network.linux_net'"
+op|')'
+newline|'\n'
+name|'CONF'
+op|'.'
+name|'import_opt'
+op|'('
+string|"'share_dhcp_address'"
+op|','
+string|"'nova.objects.network'"
 op|')'
 newline|'\n'
 nl|'\n'
