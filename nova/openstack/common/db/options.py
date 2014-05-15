@@ -201,14 +201,24 @@ op|'('
 string|"'mysql_sql_mode'"
 op|','
 nl|'\n'
+DECL|variable|default
+name|'default'
+op|'='
+string|"'TRADITIONAL'"
+op|','
+nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'The SQL mode to be used for MySQL sessions '"
+string|"'The SQL mode to be used for MySQL sessions. '"
 nl|'\n'
-string|"'(default is empty, meaning do not override '"
+string|"'This option, including the default, overrides any '"
 nl|'\n'
-string|"'any server-side SQL mode setting)'"
+string|"'server-set SQL mode. To use whatever SQL mode '"
+nl|'\n'
+string|"'is set by the server configuration, '"
+nl|'\n'
+string|"'set this to no value. Example: mysql_sql_mode='"
 op|')'
 op|','
 nl|'\n'
