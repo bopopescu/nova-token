@@ -7023,6 +7023,12 @@ op|','
 nl|'\n'
 string|"'system_metadata'"
 op|']'
+op|','
+nl|'\n'
+DECL|variable|use_slave
+name|'use_slave'
+op|'='
+name|'True'
 op|')'
 op|'.'
 name|'AndReturn'
