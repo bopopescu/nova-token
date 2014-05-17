@@ -1737,7 +1737,7 @@ name|'mock'
 op|'.'
 name|'patch'
 op|'('
-string|"'nova.objects.block_device.BlockDeviceMapping.is_root'"
+string|"'nova.objects.BlockDeviceMapping.is_root'"
 op|','
 nl|'\n'
 name|'new_callable'
