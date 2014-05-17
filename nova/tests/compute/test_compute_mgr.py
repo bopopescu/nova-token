@@ -1358,7 +1358,7 @@ name|'mock'
 op|'.'
 name|'patch'
 op|'('
-string|"'nova.objects.instance.InstanceList'"
+string|"'nova.objects.InstanceList'"
 op|')'
 newline|'\n'
 DECL|member|test_cleanup_host
