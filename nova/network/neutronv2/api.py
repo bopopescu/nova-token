@@ -913,7 +913,7 @@ name|'instance'
 op|'='
 name|'instance'
 op|'['
-string|"'display_name'"
+string|"'uuid'"
 op|']'
 op|')'
 newline|'\n'
@@ -1125,13 +1125,11 @@ name|'LOG'
 op|'.'
 name|'debug'
 op|'('
-string|"'allocate_for_instance() for %s'"
+string|"'allocate_for_instance()'"
 op|','
-nl|'\n'
 name|'instance'
-op|'['
-string|"'display_name'"
-op|']'
+op|'='
+name|'instance'
 op|')'
 newline|'\n'
 name|'if'
@@ -1162,7 +1160,7 @@ name|'msg'
 op|'%'
 name|'instance'
 op|'['
-string|"'display_name'"
+string|"'uuid'"
 op|']'
 op|')'
 newline|'\n'
@@ -1289,7 +1287,7 @@ name|'instance'
 op|'='
 name|'instance'
 op|'['
-string|"'display_name'"
+string|"'uuid'"
 op|']'
 op|')'
 newline|'\n'
@@ -2334,13 +2332,11 @@ name|'LOG'
 op|'.'
 name|'debug'
 op|'('
-string|"'deallocate_for_instance() for %s'"
+string|"'deallocate_for_instance()'"
 op|','
-nl|'\n'
 name|'instance'
-op|'['
-string|"'display_name'"
-op|']'
+op|'='
+name|'instance'
 op|')'
 newline|'\n'
 name|'search_opts'
@@ -2829,12 +2825,11 @@ name|'LOG'
 op|'.'
 name|'debug'
 op|'('
-string|"'get_instance_nw_info() for %s'"
+string|"'get_instance_nw_info()'"
 op|','
 name|'instance'
-op|'['
-string|"'display_name'"
-op|']'
+op|'='
+name|'instance'
 op|')'
 newline|'\n'
 name|'nw_info'
