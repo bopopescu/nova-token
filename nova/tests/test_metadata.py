@@ -3460,10 +3460,10 @@ op|']'
 op|')'
 newline|'\n'
 nl|'\n'
-DECL|member|test_vendor_data_presense
+DECL|member|test_vendor_data_presence
 dedent|''
 name|'def'
-name|'test_vendor_data_presense'
+name|'test_vendor_data_presence'
 op|'('
 name|'self'
 op|')'

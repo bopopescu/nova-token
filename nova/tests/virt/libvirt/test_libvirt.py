@@ -51002,10 +51002,10 @@ name|'resultXML'
 op|')'
 newline|'\n'
 nl|'\n'
-DECL|member|test_create_propogates_exceptions
+DECL|member|test_create_propagates_exceptions
 dedent|''
 name|'def'
-name|'test_create_propogates_exceptions'
+name|'test_create_propagates_exceptions'
 op|'('
 name|'self'
 op|')'
