@@ -2660,6 +2660,8 @@ name|'args'
 op|')'
 newline|'\n'
 nl|'\n'
+comment|'# NOTE(hanlind): This can be removed in version 3.0 of the RPC API'
+nl|'\n'
 DECL|member|security_groups_trigger_members_refresh
 dedent|''
 name|'def'
