@@ -136,5 +136,10 @@ name|'UNSHELVE'
 op|'='
 string|"'unshelve'"
 newline|'\n'
+DECL|variable|LIVE_MIGRATION
+name|'LIVE_MIGRATION'
+op|'='
+string|"'live-migration'"
+newline|'\n'
 endmarker|''
 end_unit
