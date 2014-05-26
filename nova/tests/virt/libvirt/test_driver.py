@@ -71248,13 +71248,7 @@ op|'['
 string|"'fake-uuid_foo'"
 op|','
 nl|'\n'
-string|"'instance-00000001_bar'"
-op|','
-nl|'\n'
 string|"'other-uuid_foo'"
-op|','
-nl|'\n'
-string|"'instance-00000002_bar'"
 op|']'
 newline|'\n'
 name|'disks'
@@ -71274,9 +71268,6 @@ name|'assertEqual'
 op|'('
 op|'['
 string|"'/dev/vols/fake-uuid_foo'"
-op|','
-nl|'\n'
-string|"'/dev/vols/instance-00000001_bar'"
 op|']'
 op|','
 name|'disks'
