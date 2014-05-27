@@ -86,6 +86,11 @@ name|'RESIZE'
 op|'='
 string|"'resize'"
 newline|'\n'
+DECL|variable|MIGRATE
+name|'MIGRATE'
+op|'='
+string|"'migrate'"
+newline|'\n'
 DECL|variable|PAUSE
 name|'PAUSE'
 op|'='
