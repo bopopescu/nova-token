@@ -310,17 +310,13 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'The name of logging configuration file. It does not '"
+string|"'The name of a logging configuration file. This file '"
 nl|'\n'
-string|"'disable existing loggers, but just appends specified '"
+string|"'is appended to any existing logging configuration '"
 nl|'\n'
-string|"'logging configuration to any other existing logging '"
+string|"'files. For details about logging configuration files, '"
 nl|'\n'
-string|"'options. Please see the Python logging module '"
-nl|'\n'
-string|"'documentation for details on logging configuration '"
-nl|'\n'
-string|"'files.'"
+string|"'see the Python logging module documentation.'"
 op|')'
 op|','
 nl|'\n'
@@ -384,7 +380,7 @@ name|'help'
 op|'='
 string|"'Format string for %%(asctime)s in log records. '"
 nl|'\n'
-string|"'Default: %(default)s'"
+string|"'Default: %(default)s .'"
 op|')'
 op|','
 nl|'\n'
@@ -434,7 +430,7 @@ name|'help'
 op|'='
 string|"'(Optional) The base directory used for relative '"
 nl|'\n'
-string|"'--log-file paths'"
+string|"'--log-file paths.'"
 op|')'
 op|','
 nl|'\n'
@@ -458,7 +454,7 @@ string|"'Use syslog for logging. '"
 nl|'\n'
 string|"'Existing syslog format is DEPRECATED during I, '"
 nl|'\n'
-string|"'and then will be changed in J to honor RFC5424'"
+string|"'and will chang in J to honor RFC5424.'"
 op|')'
 op|','
 nl|'\n'
@@ -482,13 +478,13 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'(Optional) Use syslog rfc5424 format for logging. '"
+string|"'(Optional) Enables or disables syslog rfc5424 format '"
 nl|'\n'
-string|"'If enabled, will add APP-NAME (RFC5424) before the '"
+string|"'for logging. If enabled, prefixes the MSG part of the '"
 nl|'\n'
-string|"'MSG part of the syslog message.  The old format '"
+string|"'syslog message with APP-NAME (RFC5424). The '"
 nl|'\n'
-string|"'without APP-NAME is deprecated in I, '"
+string|"'format without the APP-NAME is deprecated in I, '"
 nl|'\n'
 string|"'and will be removed in J.'"
 op|')'
@@ -510,7 +506,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'Syslog facility to receive log lines'"
+string|"'Syslog facility to receive log lines.'"
 op|')'
 nl|'\n'
 op|']'
@@ -537,7 +533,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'Log output to standard error'"
+string|"'Log output to standard error.'"
 op|')'
 nl|'\n'
 op|']'
@@ -568,7 +564,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'Format string to use for log messages with context'"
+string|"'Format string to use for log messages with context.'"
 op|')'
 op|','
 nl|'\n'
@@ -590,7 +586,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'Format string to use for log messages without context'"
+string|"'Format string to use for log messages without context.'"
 op|')'
 op|','
 nl|'\n'
@@ -610,7 +606,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'Data to append to log format when level is DEBUG'"
+string|"'Data to append to log format when level is DEBUG.'"
 op|')'
 op|','
 nl|'\n'
@@ -632,7 +628,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'Prefix each line of exception output with this format'"
+string|"'Prefix each line of exception output with this format.'"
 op|')'
 op|','
 nl|'\n'
@@ -679,7 +675,7 @@ op|','
 nl|'\n'
 name|'help'
 op|'='
-string|"'List of logger=LEVEL pairs'"
+string|"'List of logger=LEVEL pairs.'"
 op|')'
 op|','
 nl|'\n'
@@ -699,7 +695,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'Publish error events'"
+string|"'Enables or disables publication of error events.'"
 op|')'
 op|','
 nl|'\n'
@@ -719,7 +715,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'Make deprecations fatal'"
+string|"'Enables or disables fatal status of deprecations.'"
 op|')'
 op|','
 nl|'\n'
@@ -746,9 +742,9 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'If an instance is passed with the log message, format '"
+string|"'The format for an instance that is passed with the log '"
 nl|'\n'
-string|"'it like this'"
+string|"'message. '"
 op|')'
 op|','
 nl|'\n'
@@ -768,9 +764,9 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'If an instance UUID is passed with the log message, '"
+string|"'The format for an instance UUID that is passed with the '"
 nl|'\n'
-string|"'format it like this'"
+string|"'log message. '"
 op|')'
 op|','
 nl|'\n'
@@ -2331,7 +2327,9 @@ name|'LogConfigError'
 op|'('
 name|'log_config_append'
 op|','
-name|'str'
+name|'six'
+op|'.'
+name|'text_type'
 op|'('
 name|'exc'
 op|')'
@@ -2624,15 +2622,22 @@ name|'_get_binary_name'
 op|'('
 op|')'
 newline|'\n'
-name|'super'
-op|'('
-name|'RFCSysLogHandler'
-op|','
-name|'self'
-op|')'
+comment|'# Do not use super() unless type(logging.handlers.SysLogHandler)'
+nl|'\n'
+comment|"#  is 'type' (Python 2.7)."
+nl|'\n'
+comment|"# Use old style calls, if the type is 'classobj' (Python 2.6)"
+nl|'\n'
+name|'logging'
+op|'.'
+name|'handlers'
+op|'.'
+name|'SysLogHandler'
 op|'.'
 name|'__init__'
 op|'('
+name|'self'
+op|','
 op|'*'
 name|'args'
 op|','
@@ -2652,18 +2657,25 @@ name|'record'
 op|')'
 op|':'
 newline|'\n'
+comment|'# Do not use super() unless type(logging.handlers.SysLogHandler)'
+nl|'\n'
+comment|"#  is 'type' (Python 2.7)."
+nl|'\n'
+comment|"# Use old style calls, if the type is 'classobj' (Python 2.6)"
+nl|'\n'
 indent|'        '
 name|'msg'
 op|'='
-name|'super'
-op|'('
-name|'RFCSysLogHandler'
-op|','
-name|'self'
-op|')'
+name|'logging'
+op|'.'
+name|'handlers'
+op|'.'
+name|'SysLogHandler'
 op|'.'
 name|'format'
 op|'('
+name|'self'
+op|','
 name|'record'
 op|')'
 newline|'\n'
