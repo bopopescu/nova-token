@@ -37347,10 +37347,10 @@ number|'0'
 op|')'
 newline|'\n'
 nl|'\n'
-DECL|member|test_block_device_mapping_destroy_by_instance_and_volumne
+DECL|member|test_block_device_mapping_destroy_by_instance_and_volume
 dedent|''
 name|'def'
-name|'test_block_device_mapping_destroy_by_instance_and_volumne'
+name|'test_block_device_mapping_destroy_by_instance_and_volume'
 op|'('
 name|'self'
 op|')'

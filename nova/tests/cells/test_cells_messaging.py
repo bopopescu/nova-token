@@ -6602,10 +6602,10 @@ name|'None'
 op|')'
 newline|'\n'
 nl|'\n'
-DECL|member|test_task_log_get_all_targetted
+DECL|member|test_task_log_get_all_targeted
 dedent|''
 name|'def'
-name|'test_task_log_get_all_targetted'
+name|'test_task_log_get_all_targeted'
 op|'('
 name|'self'
 op|')'
