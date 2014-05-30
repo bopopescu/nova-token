@@ -380,11 +380,6 @@ string|"'fake-dc-ref'"
 op|','
 string|"'fake-ds-browser'"
 op|','
-string|"'fake-ds-ref'"
-op|','
-nl|'\n'
-string|"'fake-ds-name'"
-op|','
 string|"'fake-ds-path'"
 op|')'
 newline|'\n'
@@ -415,11 +410,6 @@ nl|'\n'
 string|"'fake-dc-ref'"
 op|','
 string|"'fake-ds-browser'"
-op|','
-string|"'fake-ds-ref'"
-op|','
-nl|'\n'
-string|"'fake-ds-name'"
 op|','
 string|"'fake-ds-path'"
 op|')'
@@ -1138,11 +1128,6 @@ op|'('
 name|'dc_ref'
 op|','
 name|'ds_browser'
-op|','
-nl|'\n'
-name|'ds_ref'
-op|','
-name|'ds_name'
 op|','
 name|'path'
 op|')'
