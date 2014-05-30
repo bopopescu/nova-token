@@ -988,9 +988,9 @@ op|'{'
 op|'}'
 newline|'\n'
 nl|'\n'
-DECL|function|_fake_sched_run_instance
+DECL|function|_fake_build_instances
 name|'def'
-name|'_fake_sched_run_instance'
+name|'_fake_build_instances'
 op|'('
 name|'ctxt'
 op|','
@@ -1034,10 +1034,10 @@ name|'self'
 op|'.'
 name|'msg_runner'
 op|','
-string|"'schedule_run_instance'"
+string|"'build_instances'"
 op|','
 nl|'\n'
-name|'_fake_sched_run_instance'
+name|'_fake_build_instances'
 op|')'
 newline|'\n'
 name|'cells'
@@ -1096,7 +1096,7 @@ op|','
 nl|'\n'
 string|"'cell_scheduler_method'"
 op|':'
-string|"'schedule_run_instance'"
+string|"'build_instances'"
 op|'}'
 newline|'\n'
 comment|'# None is returned to bypass further scheduling.'
