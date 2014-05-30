@@ -2774,7 +2774,7 @@ dedent|''
 name|'volume_driver'
 op|'='
 op|'('
-string|"'iscsi=nova.tests.virt.libvirt.test_libvirt'"
+string|"'iscsi=nova.tests.virt.libvirt.test_driver'"
 nl|'\n'
 string|"'.FakeVolumeDriver'"
 op|')'
