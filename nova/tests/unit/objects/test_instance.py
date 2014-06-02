@@ -403,6 +403,14 @@ name|'context'
 op|'.'
 name|'project_id'
 newline|'\n'
+name|'fake_instance'
+op|'['
+string|"'tags'"
+op|']'
+op|'='
+op|'['
+op|']'
+newline|'\n'
 name|'return'
 name|'fake_instance'
 newline|'\n'
@@ -479,7 +487,7 @@ op|','
 nl|'\n'
 string|"'nova_object.version'"
 op|':'
-string|"'1.16'"
+string|"'1.17'"
 op|','
 nl|'\n'
 string|"'nova_object.data'"
@@ -604,7 +612,7 @@ op|','
 nl|'\n'
 string|"'nova_object.version'"
 op|':'
-string|"'1.16'"
+string|"'1.17'"
 op|','
 nl|'\n'
 string|"'nova_object.data'"

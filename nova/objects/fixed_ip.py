@@ -116,11 +116,13 @@ comment|'# Version 1.5: Added floating_ips field'
 nl|'\n'
 comment|'# Version 1.6: Instance 1.16'
 nl|'\n'
+comment|'# Version 1.7: Instance 1.17'
+nl|'\n'
 DECL|variable|VERSION
 indent|'    '
 name|'VERSION'
 op|'='
-string|"'1.6'"
+string|"'1.7'"
 newline|'\n'
 nl|'\n'
 DECL|variable|fields
@@ -1514,11 +1516,13 @@ comment|'# Version 1.5: FixedIP <= version 1.5, added expected attrs to gets'
 nl|'\n'
 comment|'# Version 1.6: FixedIP <= version 1.6'
 nl|'\n'
+comment|'# Version 1.7: FixedIP <= version 1.7'
+nl|'\n'
 DECL|variable|VERSION
 indent|'    '
 name|'VERSION'
 op|'='
-string|"'1.6'"
+string|"'1.7'"
 newline|'\n'
 nl|'\n'
 DECL|variable|fields
@@ -1576,6 +1580,11 @@ nl|'\n'
 string|"'1.6'"
 op|':'
 string|"'1.6'"
+op|','
+nl|'\n'
+string|"'1.7'"
+op|':'
+string|"'1.7'"
 op|','
 nl|'\n'
 op|'}'
