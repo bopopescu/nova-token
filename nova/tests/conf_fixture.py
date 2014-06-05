@@ -160,7 +160,7 @@ name|'import_opt'
 op|'('
 string|"'policy_file'"
 op|','
-string|"'nova.policy'"
+string|"'nova.openstack.common.policy'"
 op|')'
 newline|'\n'
 name|'CONF'
