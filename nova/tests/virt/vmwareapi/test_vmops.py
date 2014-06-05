@@ -4344,7 +4344,7 @@ name|'mock'
 op|'.'
 name|'patch'
 op|'('
-string|"'nova.virt.vmwareapi.vm_util.get_datastore'"
+string|"'nova.virt.vmwareapi.ds_util.get_datastore'"
 op|')'
 newline|'\n'
 op|'@'
