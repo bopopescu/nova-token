@@ -1284,6 +1284,8 @@ name|'info'
 op|')'
 newline|'\n'
 nl|'\n'
+comment|'# NOTE(ndipanov): This can be removed in version 3.0 of the RPC API'
+nl|'\n'
 DECL|member|block_device_mapping_update_or_create
 dedent|''
 name|'def'

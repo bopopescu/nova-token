@@ -902,7 +902,7 @@ name|'expected_args'
 op|','
 name|'version'
 op|'='
-string|"'1.32'"
+string|"'1.34'"
 op|')'
 newline|'\n'
 nl|'\n'
