@@ -8705,12 +8705,12 @@ op|','
 nl|'\n'
 string|"'BlockDeviceMapping'"
 op|':'
-string|"'1.6-9968ffe513e7672484b0f528b034cd0f'"
+string|"'1.7-c53f09c7f969e0222d9f6d67a950a08e'"
 op|','
 nl|'\n'
 string|"'BlockDeviceMappingList'"
 op|':'
-string|"'1.7-b67dc6a04cff2cdb53e6f25e146da456'"
+string|"'1.8-15ab98892f8fd26faa49f45f3cffaef0'"
 op|','
 nl|'\n'
 string|"'ComputeNode'"
