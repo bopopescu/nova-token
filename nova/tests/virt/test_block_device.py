@@ -2919,6 +2919,9 @@ op|'{'
 string|"'data'"
 op|':'
 op|'{'
+string|"'multipath_id'"
+op|':'
+string|"'fake_multipath_id'"
 op|'}'
 op|'}'
 newline|'\n'
@@ -2928,6 +2931,9 @@ op|'{'
 string|"'data'"
 op|':'
 op|'{'
+string|"'multipath_id'"
+op|':'
+string|"'fake_multipath_id'"
 op|'}'
 op|','
 nl|'\n'
