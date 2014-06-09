@@ -1407,7 +1407,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""iSCSI Host Bus Adapter"""'
+string|'"""iSCSI Host Bus Adapter."""'
 newline|'\n'
 nl|'\n'
 DECL|member|__init__
