@@ -771,6 +771,12 @@ name|'DRIVER'
 op|'='
 string|"'mysql'"
 newline|'\n'
+DECL|variable|DBNAME
+name|'DBNAME'
+op|'='
+string|"''"
+comment|'# connect to MySQL server, but not to the openstack_citest db'
+newline|'\n'
 nl|'\n'
 nl|'\n'
 DECL|class|PostgreSQLOpportunisticFixture
@@ -787,6 +793,12 @@ indent|'    '
 name|'DRIVER'
 op|'='
 string|"'postgresql'"
+newline|'\n'
+DECL|variable|DBNAME
+name|'DBNAME'
+op|'='
+string|"'postgres'"
+comment|'# PostgreSQL requires the db name here,use service one'
 newline|'\n'
 nl|'\n'
 nl|'\n'
