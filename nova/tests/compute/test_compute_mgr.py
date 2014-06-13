@@ -9322,11 +9322,7 @@ op|','
 string|"'vol'"
 op|','
 nl|'\n'
-op|'{'
-string|"'uuid'"
-op|':'
-string|"'fake-inst'"
-op|'}'
+name|'inst_obj'
 op|')'
 newline|'\n'
 dedent|''
