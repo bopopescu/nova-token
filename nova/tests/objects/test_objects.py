@@ -7272,6 +7272,16 @@ op|':'
 string|"'1.2-4b02a285b8612bfb86a96ff80052fb0a'"
 op|','
 nl|'\n'
+string|"'BandwidthUsage'"
+op|':'
+string|"'1.0-b59546ee557883434baf46ed33d8fec3'"
+op|','
+nl|'\n'
+string|"'BandwidthUsageList'"
+op|':'
+string|"'1.0-03dfba3560f9c5a90c474d3d909870e7'"
+op|','
+nl|'\n'
 string|"'BlockDeviceMapping'"
 op|':'
 string|"'1.2-9968ffe513e7672484b0f528b034cd0f'"
