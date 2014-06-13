@@ -275,5 +275,11 @@ name|'VHD_TYPE_DYNAMIC'
 op|'='
 number|'3'
 newline|'\n'
+nl|'\n'
+DECL|variable|SCSI_CONTROLLER_SLOTS_NUMBER
+name|'SCSI_CONTROLLER_SLOTS_NUMBER'
+op|'='
+number|'64'
+newline|'\n'
 endmarker|''
 end_unit
