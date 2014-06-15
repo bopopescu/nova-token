@@ -6618,6 +6618,8 @@ name|'service'
 op|')'
 newline|'\n'
 nl|'\n'
+comment|'# TODO(danms): This can be removed in version 3.0 of the RPC API'
+nl|'\n'
 DECL|member|instance_get_by_uuid
 dedent|''
 name|'def'
