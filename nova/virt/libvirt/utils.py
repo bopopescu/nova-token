@@ -183,18 +183,6 @@ op|'='
 string|"'Compress snapshot images when possible. This '"
 nl|'\n'
 string|"'currently applies exclusively to qcow2 images'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_group
-name|'deprecated_group'
-op|'='
-string|"'DEFAULT'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_name
-name|'deprecated_name'
-op|'='
-string|"'libvirt_snapshot_compression'"
 op|')'
 op|','
 nl|'\n'

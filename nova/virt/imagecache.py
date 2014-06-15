@@ -105,12 +105,6 @@ nl|'\n'
 string|"'This is NOT the full path - just a folder name. '"
 nl|'\n'
 string|"'For per-compute-host cached images, set to _base_$my_ip'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_name
-name|'deprecated_name'
-op|'='
-string|"'base_dir_name'"
 op|')'
 op|','
 nl|'\n'
@@ -131,12 +125,6 @@ DECL|variable|help
 name|'help'
 op|'='
 string|"'Should unused base images be removed?'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_group
-name|'deprecated_group'
-op|'='
-string|"'libvirt'"
 op|')'
 op|','
 nl|'\n'
@@ -163,12 +151,6 @@ op|'='
 string|"'Unused unresized base images younger than this will not '"
 nl|'\n'
 string|"'be removed'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_group
-name|'deprecated_group'
-op|'='
-string|"'libvirt'"
 op|')'
 op|','
 nl|'\n'

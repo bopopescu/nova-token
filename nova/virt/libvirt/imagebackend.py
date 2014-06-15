@@ -215,18 +215,6 @@ nl|'\n'
 string|"' rbd, default. If default is specified,'"
 nl|'\n'
 string|"' then use_cow_images flag is used instead of this one.'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_group
-name|'deprecated_group'
-op|'='
-string|"'DEFAULT'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_name
-name|'deprecated_name'
-op|'='
-string|"'libvirt_images_type'"
 op|')'
 op|','
 nl|'\n'
@@ -243,18 +231,6 @@ op|'='
 string|"'LVM Volume Group that is used for VM images, when you'"
 nl|'\n'
 string|"' specify images_type=lvm.'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_group
-name|'deprecated_group'
-op|'='
-string|"'DEFAULT'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_name
-name|'deprecated_name'
-op|'='
-string|"'libvirt_images_volume_group'"
 op|')'
 op|','
 nl|'\n'
@@ -277,18 +253,6 @@ op|'='
 string|"'Create sparse logical volumes (with virtualsize)'"
 nl|'\n'
 string|"' if this flag is set to True.'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_group
-name|'deprecated_group'
-op|'='
-string|"'DEFAULT'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_name
-name|'deprecated_name'
-op|'='
-string|"'libvirt_sparse_logical_volumes'"
 op|')'
 op|','
 nl|'\n'
@@ -350,18 +314,6 @@ DECL|variable|help
 name|'help'
 op|'='
 string|"'The RADOS pool in which rbd volumes are stored'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_group
-name|'deprecated_group'
-op|'='
-string|"'DEFAULT'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_name
-name|'deprecated_name'
-op|'='
-string|"'libvirt_images_rbd_pool'"
 op|')'
 op|','
 nl|'\n'
@@ -383,18 +335,6 @@ DECL|variable|help
 name|'help'
 op|'='
 string|"'Path to the ceph configuration file to use'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_group
-name|'deprecated_group'
-op|'='
-string|"'DEFAULT'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_name
-name|'deprecated_name'
-op|'='
-string|"'libvirt_images_rbd_ceph_conf'"
 op|')'
 op|','
 nl|'\n'
