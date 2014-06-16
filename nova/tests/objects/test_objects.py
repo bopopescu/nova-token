@@ -6754,6 +6754,11 @@ op|':'
 string|"'1.0-c9ebf3e641800d1f453ef9f19b159971'"
 op|','
 nl|'\n'
+string|"'EC2VolumeMapping'"
+op|':'
+string|"'1.0-f376082f497bba08583119ef7cbbb07e'"
+op|','
+nl|'\n'
 string|"'FixedIP'"
 op|':'
 string|"'1.1-70b8c86daf93913c7bb11afc901dda76'"
@@ -6943,10 +6948,6 @@ string|"'VirtualInterfaceList'"
 op|':'
 string|"'1.0-15f2f3e0517805f585b402ab1547ba92'"
 op|','
-nl|'\n'
-string|"'VolumeMapping'"
-op|':'
-string|"'1.0-f376082f497bba08583119ef7cbbb07e'"
 nl|'\n'
 op|'}'
 newline|'\n'
