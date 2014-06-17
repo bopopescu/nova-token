@@ -401,7 +401,7 @@ nl|'\n'
 DECL|variable|disabled_reason
 name|'disabled_reason'
 op|'='
-string|"''"
+name|'None'
 op|')'
 op|','
 nl|'\n'
@@ -1956,7 +1956,7 @@ op|','
 nl|'\n'
 string|"'disabled_reason'"
 op|':'
-string|"''"
+name|'None'
 op|'}'
 op|','
 nl|'\n'
