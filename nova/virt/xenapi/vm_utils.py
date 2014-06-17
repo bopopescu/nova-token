@@ -627,15 +627,6 @@ name|'CONF'
 op|'.'
 name|'import_opt'
 op|'('
-string|"'glance_num_retries'"
-op|','
-string|"'nova.image.glance'"
-op|')'
-newline|'\n'
-name|'CONF'
-op|'.'
-name|'import_opt'
-op|'('
 string|"'use_ipv6'"
 op|','
 string|"'nova.netconf'"
