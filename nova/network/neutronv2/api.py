@@ -170,7 +170,7 @@ name|'cfg'
 op|'.'
 name|'StrOpt'
 op|'('
-string|"'neutron_url'"
+string|"'url'"
 op|','
 nl|'\n'
 DECL|variable|default
@@ -183,6 +183,18 @@ DECL|variable|help
 name|'help'
 op|'='
 string|"'URL for connecting to neutron'"
+op|','
+nl|'\n'
+DECL|variable|deprecated_group
+name|'deprecated_group'
+op|'='
+string|"'DEFAULT'"
+op|','
+nl|'\n'
+DECL|variable|deprecated_name
+name|'deprecated_name'
+op|'='
+string|"'neutron_url'"
 op|')'
 op|','
 nl|'\n'
@@ -190,7 +202,7 @@ name|'cfg'
 op|'.'
 name|'IntOpt'
 op|'('
-string|"'neutron_url_timeout'"
+string|"'url_timeout'"
 op|','
 nl|'\n'
 DECL|variable|default
@@ -203,6 +215,18 @@ DECL|variable|help
 name|'help'
 op|'='
 string|"'Timeout value for connecting to neutron in seconds'"
+op|','
+nl|'\n'
+DECL|variable|deprecated_group
+name|'deprecated_group'
+op|'='
+string|"'DEFAULT'"
+op|','
+nl|'\n'
+DECL|variable|deprecated_name
+name|'deprecated_name'
+op|'='
+string|"'neutron_url_timeout'"
 op|')'
 op|','
 nl|'\n'
@@ -210,13 +234,25 @@ name|'cfg'
 op|'.'
 name|'StrOpt'
 op|'('
-string|"'neutron_admin_username'"
+string|"'admin_username'"
 op|','
 nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
 string|"'Username for connecting to neutron in admin context'"
+op|','
+nl|'\n'
+DECL|variable|deprecated_group
+name|'deprecated_group'
+op|'='
+string|"'DEFAULT'"
+op|','
+nl|'\n'
+DECL|variable|deprecated_name
+name|'deprecated_name'
+op|'='
+string|"'neutron_admin_username'"
 op|')'
 op|','
 nl|'\n'
@@ -224,7 +260,7 @@ name|'cfg'
 op|'.'
 name|'StrOpt'
 op|'('
-string|"'neutron_admin_password'"
+string|"'admin_password'"
 op|','
 nl|'\n'
 DECL|variable|help
@@ -237,6 +273,18 @@ DECL|variable|secret
 name|'secret'
 op|'='
 name|'True'
+op|','
+nl|'\n'
+DECL|variable|deprecated_group
+name|'deprecated_group'
+op|'='
+string|"'DEFAULT'"
+op|','
+nl|'\n'
+DECL|variable|deprecated_name
+name|'deprecated_name'
+op|'='
+string|"'neutron_admin_password'"
 op|')'
 op|','
 nl|'\n'
@@ -244,13 +292,25 @@ name|'cfg'
 op|'.'
 name|'StrOpt'
 op|'('
-string|"'neutron_admin_tenant_id'"
+string|"'admin_tenant_id'"
 op|','
 nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
 string|"'Tenant id for connecting to neutron in admin context'"
+op|','
+nl|'\n'
+DECL|variable|deprecated_group
+name|'deprecated_group'
+op|'='
+string|"'DEFAULT'"
+op|','
+nl|'\n'
+DECL|variable|deprecated_name
+name|'deprecated_name'
+op|'='
+string|"'neutron_admin_tenant_id'"
 op|')'
 op|','
 nl|'\n'
@@ -258,7 +318,7 @@ name|'cfg'
 op|'.'
 name|'StrOpt'
 op|'('
-string|"'neutron_admin_tenant_name'"
+string|"'admin_tenant_name'"
 op|','
 nl|'\n'
 DECL|variable|help
@@ -268,9 +328,21 @@ string|"'Tenant name for connecting to neutron in admin context. '"
 nl|'\n'
 string|"'This option is mutually exclusive with '"
 nl|'\n'
-string|"'neutron_admin_tenant_id. Note that with Keystone V3 '"
+string|"'admin_tenant_id. Note that with Keystone V3 '"
 nl|'\n'
 string|"'tenant names are only unique within a domain.'"
+op|','
+nl|'\n'
+DECL|variable|deprecated_group
+name|'deprecated_group'
+op|'='
+string|"'DEFAULT'"
+op|','
+nl|'\n'
+DECL|variable|deprecated_name
+name|'deprecated_name'
+op|'='
+string|"'neutron_admin_tenant_name'"
 op|')'
 op|','
 nl|'\n'
@@ -278,13 +350,25 @@ name|'cfg'
 op|'.'
 name|'StrOpt'
 op|'('
-string|"'neutron_region_name'"
+string|"'region_name'"
 op|','
 nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
 string|"'Region name for connecting to neutron in admin context'"
+op|','
+nl|'\n'
+DECL|variable|deprecated_group
+name|'deprecated_group'
+op|'='
+string|"'DEFAULT'"
+op|','
+nl|'\n'
+DECL|variable|deprecated_name
+name|'deprecated_name'
+op|'='
+string|"'neutron_region_name'"
 op|')'
 op|','
 nl|'\n'
@@ -292,7 +376,7 @@ name|'cfg'
 op|'.'
 name|'StrOpt'
 op|'('
-string|"'neutron_admin_auth_url'"
+string|"'admin_auth_url'"
 op|','
 nl|'\n'
 DECL|variable|default
@@ -307,6 +391,18 @@ op|'='
 string|"'Authorization URL for connecting to neutron in admin '"
 nl|'\n'
 string|"'context'"
+op|','
+nl|'\n'
+DECL|variable|deprecated_group
+name|'deprecated_group'
+op|'='
+string|"'DEFAULT'"
+op|','
+nl|'\n'
+DECL|variable|deprecated_name
+name|'deprecated_name'
+op|'='
+string|"'neutron_admin_auth_url'"
 op|')'
 op|','
 nl|'\n'
@@ -314,7 +410,7 @@ name|'cfg'
 op|'.'
 name|'BoolOpt'
 op|'('
-string|"'neutron_api_insecure'"
+string|"'api_insecure'"
 op|','
 nl|'\n'
 DECL|variable|default
@@ -327,6 +423,18 @@ DECL|variable|help
 name|'help'
 op|'='
 string|"'If set, ignore any SSL validation issues'"
+op|','
+nl|'\n'
+DECL|variable|deprecated_group
+name|'deprecated_group'
+op|'='
+string|"'DEFAULT'"
+op|','
+nl|'\n'
+DECL|variable|deprecated_name
+name|'deprecated_name'
+op|'='
+string|"'neutron_api_insecure'"
 op|')'
 op|','
 nl|'\n'
@@ -334,7 +442,7 @@ name|'cfg'
 op|'.'
 name|'StrOpt'
 op|'('
-string|"'neutron_auth_strategy'"
+string|"'auth_strategy'"
 op|','
 nl|'\n'
 DECL|variable|default
@@ -349,6 +457,18 @@ op|'='
 string|"'Authorization strategy for connecting to '"
 nl|'\n'
 string|"'neutron in admin context'"
+op|','
+nl|'\n'
+DECL|variable|deprecated_group
+name|'deprecated_group'
+op|'='
+string|"'DEFAULT'"
+op|','
+nl|'\n'
+DECL|variable|deprecated_name
+name|'deprecated_name'
+op|'='
+string|"'neutron_auth_strategy'"
 op|')'
 op|','
 nl|'\n'
@@ -360,7 +480,7 @@ name|'cfg'
 op|'.'
 name|'StrOpt'
 op|'('
-string|"'neutron_ovs_bridge'"
+string|"'ovs_bridge'"
 op|','
 nl|'\n'
 DECL|variable|default
@@ -373,6 +493,18 @@ DECL|variable|help
 name|'help'
 op|'='
 string|"'Name of Integration Bridge used by Open vSwitch'"
+op|','
+nl|'\n'
+DECL|variable|deprecated_group
+name|'deprecated_group'
+op|'='
+string|"'DEFAULT'"
+op|','
+nl|'\n'
+DECL|variable|deprecated_name
+name|'deprecated_name'
+op|'='
+string|"'neutron_ovs_bridge'"
 op|')'
 op|','
 nl|'\n'
@@ -380,7 +512,7 @@ name|'cfg'
 op|'.'
 name|'IntOpt'
 op|'('
-string|"'neutron_extension_sync_interval'"
+string|"'extension_sync_interval'"
 op|','
 nl|'\n'
 DECL|variable|default
@@ -395,6 +527,18 @@ op|'='
 string|"'Number of seconds before querying neutron for'"
 nl|'\n'
 string|"' extensions'"
+op|','
+nl|'\n'
+DECL|variable|deprecated_group
+name|'deprecated_group'
+op|'='
+string|"'DEFAULT'"
+op|','
+nl|'\n'
+DECL|variable|deprecated_name
+name|'deprecated_name'
+op|'='
+string|"'neutron_extension_sync_interval'"
 op|')'
 op|','
 nl|'\n'
@@ -402,7 +546,7 @@ name|'cfg'
 op|'.'
 name|'StrOpt'
 op|'('
-string|"'neutron_ca_certificates_file'"
+string|"'ca_certificates_file'"
 op|','
 nl|'\n'
 DECL|variable|help
@@ -411,6 +555,18 @@ op|'='
 string|"'Location of CA certificates file to use for '"
 nl|'\n'
 string|"'neutron client requests.'"
+op|','
+nl|'\n'
+DECL|variable|deprecated_group
+name|'deprecated_group'
+op|'='
+string|"'DEFAULT'"
+op|','
+nl|'\n'
+DECL|variable|deprecated_name
+name|'deprecated_name'
+op|'='
+string|"'neutron_ca_certificates_file'"
 op|')'
 op|','
 nl|'\n'
@@ -424,11 +580,15 @@ name|'cfg'
 op|'.'
 name|'CONF'
 newline|'\n'
+comment|'# neutron_opts options in the DEFAULT group were deprecated in Juno'
+nl|'\n'
 name|'CONF'
 op|'.'
 name|'register_opts'
 op|'('
 name|'neutron_opts'
+op|','
+string|"'neutron'"
 op|')'
 newline|'\n'
 name|'CONF'
@@ -2112,7 +2272,9 @@ nl|'\n'
 op|'>='
 name|'CONF'
 op|'.'
-name|'neutron_extension_sync_interval'
+name|'neutron'
+op|'.'
+name|'extension_sync_interval'
 op|')'
 op|')'
 op|':'
@@ -7180,7 +7342,9 @@ name|'bridge'
 op|'='
 name|'CONF'
 op|'.'
-name|'neutron_ovs_bridge'
+name|'neutron'
+op|'.'
+name|'ovs_bridge'
 newline|'\n'
 name|'ovs_interfaceid'
 op|'='
