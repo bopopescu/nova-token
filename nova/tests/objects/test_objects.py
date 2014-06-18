@@ -6776,7 +6776,7 @@ op|','
 nl|'\n'
 string|"'FloatingIPList'"
 op|':'
-string|"'1.1-0fb3457b01f0e9dceedd0549a7fd22ab'"
+string|"'1.2-2b48d645da4c9a6af48c167df5307a87'"
 op|','
 nl|'\n'
 string|"'Instance'"
