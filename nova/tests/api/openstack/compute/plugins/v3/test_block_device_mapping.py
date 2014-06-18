@@ -377,6 +377,7 @@ name|'no_image'
 op|':'
 newline|'\n'
 indent|'            '
+name|'del'
 name|'body'
 op|'['
 string|"'server'"
@@ -384,8 +385,6 @@ op|']'
 op|'['
 string|"'image_ref'"
 op|']'
-op|'='
-string|"''"
 newline|'\n'
 nl|'\n'
 dedent|''
