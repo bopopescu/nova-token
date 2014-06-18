@@ -6749,6 +6749,11 @@ op|':'
 string|"'1.0-7d1165619956062314f5f2c4d1bb61ba'"
 op|','
 nl|'\n'
+string|"'EC2InstanceMapping'"
+op|':'
+string|"'1.0-c9ebf3e641800d1f453ef9f19b159971'"
+op|','
+nl|'\n'
 string|"'FixedIP'"
 op|':'
 string|"'1.1-70b8c86daf93913c7bb11afc901dda76'"
