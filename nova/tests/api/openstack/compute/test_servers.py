@@ -25997,7 +25997,7 @@ string|"'uuid'"
 op|':'
 name|'network'
 op|','
-string|"'fixed-ip'"
+string|"'fixed_ip'"
 op|':'
 name|'address'
 op|'}'
