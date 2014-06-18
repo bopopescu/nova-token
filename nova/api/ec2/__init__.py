@@ -379,7 +379,7 @@ op|')'
 newline|'\n'
 nl|'\n'
 nl|'\n'
-comment|'## Fault Wrapper around all EC2 requests ##'
+comment|'# Fault Wrapper around all EC2 requests'
 nl|'\n'
 DECL|class|FaultWrapper
 name|'class'

@@ -309,7 +309,7 @@ string|"''"
 op|')'
 op|':'
 newline|'\n'
-comment|'#NOTE(bfilippov): this is done in favor for'
+comment|'# NOTE(bfilippov): this is done in favor for'
 nl|'\n'
 comment|'# snapshot tests in test_libvirt.LibvirtConnTestCase'
 nl|'\n'

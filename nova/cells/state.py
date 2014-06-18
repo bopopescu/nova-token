@@ -243,8 +243,6 @@ op|'='
 string|"'cells'"
 op|')'
 newline|'\n'
-comment|"#CONF.import_opt('capabilities', 'nova.cells.opts', group='cells')"
-nl|'\n'
 name|'CONF'
 op|'.'
 name|'register_opts'

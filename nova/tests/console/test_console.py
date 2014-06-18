@@ -238,10 +238,6 @@ op|'='
 op|'{'
 op|'}'
 newline|'\n'
-comment|"#inst['host'] = self.host"
-nl|'\n'
-comment|"#inst['name'] = 'instance-1234'"
-nl|'\n'
 name|'inst'
 op|'['
 string|"'image_id'"
