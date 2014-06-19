@@ -464,9 +464,13 @@ name|'CONF'
 op|'.'
 name|'set_override'
 op|'('
-string|"'glance_host'"
+string|"'host'"
 op|','
 string|"'localhost'"
+op|','
+name|'group'
+op|'='
+string|"'glance'"
 op|')'
 newline|'\n'
 name|'self'
