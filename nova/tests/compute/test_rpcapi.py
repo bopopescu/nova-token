@@ -1286,6 +1286,11 @@ op|','
 name|'data'
 op|'='
 string|"'foo'"
+op|','
+nl|'\n'
+name|'version'
+op|'='
+string|"'3.29'"
 op|')'
 newline|'\n'
 nl|'\n'
