@@ -65133,7 +65133,7 @@ name|'mock'
 op|'.'
 name|'patch'
 op|'('
-string|"'nova.virt.libvirt.utils.list_logical_volumes'"
+string|"'nova.virt.libvirt.lvm.list_volumes'"
 op|')'
 newline|'\n'
 DECL|member|test_lvm_disks
