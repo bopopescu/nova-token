@@ -6977,12 +6977,12 @@ op|','
 nl|'\n'
 string|"'Network'"
 op|':'
-string|"'1.1-a0912fc5edc85e388a22822fcdab0621'"
+string|"'1.2-a0912fc5edc85e388a22822fcdab0621'"
 op|','
 nl|'\n'
 string|"'NetworkList'"
 op|':'
-string|"'1.1-e4fb6d4583852c039e97a61579a73261'"
+string|"'1.2-e4fb6d4583852c039e97a61579a73261'"
 op|','
 nl|'\n'
 string|"'PciDevice'"
