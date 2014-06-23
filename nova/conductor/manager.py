@@ -1236,6 +1236,8 @@ name|'rules'
 op|')'
 newline|'\n'
 nl|'\n'
+comment|'# NOTE(danms): This can be removed in version 3.0 of the RPC API'
+nl|'\n'
 DECL|member|agent_build_get_by_triple
 dedent|''
 name|'def'
