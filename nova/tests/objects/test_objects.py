@@ -6872,12 +6872,12 @@ op|','
 nl|'\n'
 string|"'Flavor'"
 op|':'
-string|"'1.0-2956744a9d1edd729bf8bf0dcc98c235'"
+string|"'1.1-df70bd799ab1aca94c7fee59cc387044'"
 op|','
 nl|'\n'
 string|"'FlavorList'"
 op|':'
-string|"'1.0-07d83f9f303186954879949adf0ee60d'"
+string|"'1.1-07d83f9f303186954879949adf0ee60d'"
 op|','
 nl|'\n'
 string|"'FloatingIP'"
