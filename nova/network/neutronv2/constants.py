@@ -28,6 +28,11 @@ nl|'\n'
 comment|'#    under the License.'
 nl|'\n'
 nl|'\n'
+DECL|variable|QOS_QUEUE
+name|'QOS_QUEUE'
+op|'='
+string|"'QoS Queue'"
+newline|'\n'
 DECL|variable|NET_EXTERNAL
 name|'NET_EXTERNAL'
 op|'='
