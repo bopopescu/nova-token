@@ -6047,8 +6047,6 @@ nl|'\n'
 name|'instances'
 op|')'
 newline|'\n'
-comment|"# dict(host='', nodename='', limits='')"
-nl|'\n'
 name|'hosts'
 op|'='
 name|'self'
