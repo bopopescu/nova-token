@@ -15064,7 +15064,7 @@ op|'{'
 string|"'nova'"
 op|':'
 op|'['
-string|"'host'"
+string|"'fake-mini'"
 op|']'
 op|'}'
 op|')'
@@ -15094,8 +15094,9 @@ name|'self'
 op|'.'
 name|'context'
 op|','
-string|"'host'"
+string|"'fake-mini'"
 op|','
+nl|'\n'
 string|"'nova-compute'"
 op|')'
 newline|'\n'
@@ -15133,7 +15134,7 @@ op|'{'
 string|"'nova'"
 op|':'
 op|'['
-string|"'host'"
+string|"'fake-mini'"
 op|']'
 op|'}'
 op|')'
@@ -15163,8 +15164,9 @@ name|'self'
 op|'.'
 name|'context'
 op|','
-string|"'host'"
+string|"'fake-mini'"
 op|','
+nl|'\n'
 string|"'nova-compute'"
 op|')'
 newline|'\n'
