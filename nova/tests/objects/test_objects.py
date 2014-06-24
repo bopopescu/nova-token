@@ -6959,7 +6959,7 @@ op|','
 nl|'\n'
 string|"'AggregateList'"
 op|':'
-string|"'1.1-3e67b6a4840b19c797504cc6056b27ff'"
+string|"'1.2-504137b7ec3855b00d01f165dcebc23e'"
 op|','
 nl|'\n'
 string|"'BlockDeviceMapping'"
