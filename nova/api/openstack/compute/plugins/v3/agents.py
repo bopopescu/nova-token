@@ -412,7 +412,10 @@ op|':'
 op|'{'
 string|"'agent_id'"
 op|':'
+name|'int'
+op|'('
 name|'id'
+op|')'
 op|','
 string|"'version'"
 op|':'
