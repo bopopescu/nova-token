@@ -138,7 +138,7 @@ name|'self'
 op|'.'
 name|'base_cmd'
 op|'='
-string|"'/usr/bin/virsh'"
+string|"'/usr/bin/virsh --connect qemu:///system'"
 newline|'\n'
 name|'self'
 op|'.'
