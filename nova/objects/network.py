@@ -86,11 +86,13 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'If True in multi_host mode, all compute hosts share '"
+string|"'DEPRECATED: THIS VALUE SHOULD BE SET WHEN CREATING THE '"
 nl|'\n'
-string|"'the same dhcp address. The same IP address used for '"
+string|"'NETWORK. If True in multi_host mode, all compute hosts '"
 nl|'\n'
-string|"'DHCP will be added on each nova-network node which '"
+string|"'share the same dhcp address. The same IP address used '"
+nl|'\n'
+string|"'for DHCP will be added on each nova-network node which '"
 nl|'\n'
 string|"'is only visible to the vms on the same host.'"
 op|')'
