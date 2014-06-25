@@ -142,9 +142,7 @@ string|"'host'"
 op|','
 string|"'node'"
 op|','
-string|"'capabilities'"
-op|','
-string|"'service'"
+string|"'compute'"
 op|']'
 op|')'
 newline|'\n'
