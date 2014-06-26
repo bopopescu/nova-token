@@ -56,6 +56,11 @@ nl|'\n'
 indent|'    '
 name|'__import__'
 op|'('
+string|"'nova.objects.agent'"
+op|')'
+newline|'\n'
+name|'__import__'
+op|'('
 string|"'nova.objects.aggregate'"
 op|')'
 newline|'\n'
