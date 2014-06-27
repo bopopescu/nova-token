@@ -1774,10 +1774,10 @@ op|'('
 op|')'
 newline|'\n'
 nl|'\n'
-DECL|member|get_hypervisor_version
+DECL|member|_get_hypervisor_version
 dedent|''
 name|'def'
-name|'get_hypervisor_version'
+name|'_get_hypervisor_version'
 op|'('
 name|'self'
 op|')'
