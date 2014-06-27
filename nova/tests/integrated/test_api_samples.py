@@ -8639,7 +8639,7 @@ op|','
 nl|'\n'
 string|"'id'"
 op|':'
-string|"'1'"
+number|'1'
 op|'}'
 op|']'
 newline|'\n'
@@ -8660,7 +8660,7 @@ op|'['
 string|"'id'"
 op|']'
 op|'='
-string|"'1'"
+number|'1'
 newline|'\n'
 name|'agent_build_ref'
 op|'='
