@@ -2544,7 +2544,7 @@ DECL|variable|ec2_code
 indent|'    '
 name|'ec2_code'
 op|'='
-string|"'InvalidVolumeID.NotFound'"
+string|"'InvalidVolume.NotFound'"
 newline|'\n'
 DECL|variable|msg_fmt
 name|'msg_fmt'
@@ -2589,7 +2589,7 @@ DECL|variable|ec2_code
 indent|'    '
 name|'ec2_code'
 op|'='
-string|"'InvalidSnapshotID.NotFound'"
+string|"'InvalidSnapshot.NotFound'"
 newline|'\n'
 DECL|variable|msg_fmt
 name|'msg_fmt'
