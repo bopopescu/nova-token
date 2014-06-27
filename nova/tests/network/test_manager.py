@@ -20069,7 +20069,7 @@ name|'self'
 op|'.'
 name|'network'
 op|'.'
-name|'l3driver'
+name|'driver'
 op|','
 string|"'clean_conntrack'"
 op|','
