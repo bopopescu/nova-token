@@ -99,7 +99,7 @@ op|'['
 op|'{'
 string|"'url'"
 op|':'
-string|"'xxxxxxxxxxxx'"
+string|"'http://example.com/path/to/resource'"
 op|','
 nl|'\n'
 string|"'hypervisor'"
@@ -344,7 +344,7 @@ op|'='
 op|'{'
 string|"'url'"
 op|':'
-string|"'xxxxxxxxxxxx'"
+string|"'http://example.com/path/to/resource'"
 op|','
 nl|'\n'
 string|"'hypervisor'"
@@ -463,7 +463,7 @@ op|','
 nl|'\n'
 string|"'url'"
 op|':'
-string|"'xxx://xxxx/xxx/xxx'"
+string|"'http://example.com/path/to/resource'"
 op|','
 nl|'\n'
 string|"'md5hash'"
