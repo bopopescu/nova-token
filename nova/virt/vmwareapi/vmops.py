@@ -2334,6 +2334,7 @@ op|'['
 string|"'uuid'"
 op|']'
 op|','
+nl|'\n'
 name|'instance_name'
 op|')'
 newline|'\n'
