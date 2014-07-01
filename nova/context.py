@@ -520,6 +520,8 @@ op|'('
 string|"'volume'"
 op|','
 string|"'volumev2'"
+op|','
+string|"'key-manager'"
 op|')'
 op|']'
 newline|'\n'
