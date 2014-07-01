@@ -178,7 +178,7 @@ nl|'\n'
 string|'\'.*?([\\\'"])\''
 op|','
 nl|'\n'
-string|"r'(%(key)s\\s*--?[A-z]+\\s*).*?([\\s])'"
+string|"r'(%(key)s\\s*--?[A-z]+\\s*)\\S+(\\s*)'"
 op|']'
 newline|'\n'
 nl|'\n'
@@ -746,7 +746,7 @@ name|'help'
 op|'='
 string|"'The format for an instance that is passed with the log '"
 nl|'\n'
-string|"'message. '"
+string|"'message.'"
 op|')'
 op|','
 nl|'\n'
@@ -768,7 +768,7 @@ name|'help'
 op|'='
 string|"'The format for an instance UUID that is passed with the '"
 nl|'\n'
-string|"'log message. '"
+string|"'log message.'"
 op|')'
 op|','
 nl|'\n'
