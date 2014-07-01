@@ -1755,11 +1755,11 @@ name|'instance'
 op|')'
 newline|'\n'
 nl|'\n'
-DECL|member|get_all_block_devices
+DECL|member|_get_all_block_devices
 dedent|''
 dedent|''
 name|'def'
-name|'get_all_block_devices'
+name|'_get_all_block_devices'
 op|'('
 name|'self'
 op|')'

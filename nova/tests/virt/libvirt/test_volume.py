@@ -285,10 +285,10 @@ op|'.'
 name|'hyperv'
 newline|'\n'
 nl|'\n'
-DECL|member|get_all_block_devices
+DECL|member|_get_all_block_devices
 dedent|''
 name|'def'
-name|'get_all_block_devices'
+name|'_get_all_block_devices'
 op|'('
 name|'self'
 op|')'
@@ -2012,7 +2012,7 @@ name|'self'
 op|'.'
 name|'fake_conn'
 op|','
-string|"'get_all_block_devices'"
+string|"'_get_all_block_devices'"
 op|','
 name|'lambda'
 op|':'
@@ -2346,7 +2346,7 @@ name|'self'
 op|'.'
 name|'fake_conn'
 op|','
-string|"'get_all_block_devices'"
+string|"'_get_all_block_devices'"
 op|','
 nl|'\n'
 name|'return_value'
@@ -4121,7 +4121,7 @@ name|'self'
 op|'.'
 name|'fake_conn'
 op|','
-string|"'get_all_block_devices'"
+string|"'_get_all_block_devices'"
 op|','
 name|'lambda'
 op|':'
@@ -4426,7 +4426,7 @@ name|'self'
 op|'.'
 name|'fake_conn'
 op|','
-string|"'get_all_block_devices'"
+string|"'_get_all_block_devices'"
 op|','
 nl|'\n'
 name|'lambda'
@@ -4729,7 +4729,7 @@ name|'self'
 op|'.'
 name|'fake_conn'
 op|','
-string|"'get_all_block_devices'"
+string|"'_get_all_block_devices'"
 op|','
 name|'lambda'
 op|':'
@@ -4918,7 +4918,7 @@ name|'self'
 op|'.'
 name|'fake_conn'
 op|','
-string|"'get_all_block_devices'"
+string|"'_get_all_block_devices'"
 op|','
 name|'lambda'
 op|':'
@@ -5267,7 +5267,7 @@ name|'self'
 op|'.'
 name|'fake_conn'
 op|','
-string|"'get_all_block_devices'"
+string|"'_get_all_block_devices'"
 op|','
 name|'lambda'
 op|':'
