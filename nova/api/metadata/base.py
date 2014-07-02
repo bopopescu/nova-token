@@ -1239,11 +1239,11 @@ op|','
 nl|'\n'
 string|"'local-ipv4'"
 op|':'
+name|'fixed_ip'
+name|'or'
 name|'self'
 op|'.'
 name|'address'
-name|'or'
-name|'fixed_ip'
 op|','
 nl|'\n'
 string|"'reservation-id'"
