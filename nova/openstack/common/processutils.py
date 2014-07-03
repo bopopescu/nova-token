@@ -678,13 +678,13 @@ op|','
 string|"'Running cmd (subprocess): %s'"
 op|','
 nl|'\n'
-string|"' '"
-op|'.'
-name|'join'
-op|'('
 name|'logging'
 op|'.'
 name|'mask_password'
+op|'('
+string|"' '"
+op|'.'
+name|'join'
 op|'('
 name|'cmd'
 op|')'
