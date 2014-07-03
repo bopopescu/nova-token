@@ -655,7 +655,7 @@ op|'.'
 name|'LibvirtDriver'
 op|','
 nl|'\n'
-string|"'get_instance_disk_info'"
+string|"'_get_instance_disk_info'"
 op|','
 nl|'\n'
 name|'fake_get_instance_disk_info'
