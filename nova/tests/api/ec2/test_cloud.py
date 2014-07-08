@@ -15087,11 +15087,6 @@ op|':'
 string|"'ami'"
 op|','
 nl|'\n'
-string|"'status'"
-op|':'
-string|"'active'"
-op|','
-nl|'\n'
 string|"'properties'"
 op|':'
 op|'{'
@@ -15228,11 +15223,6 @@ nl|'\n'
 string|"'container_format'"
 op|':'
 string|"'ami'"
-op|','
-nl|'\n'
-string|"'status'"
-op|':'
-string|"'active'"
 op|','
 nl|'\n'
 string|"'properties'"
@@ -15376,11 +15366,6 @@ nl|'\n'
 string|"'container_format'"
 op|':'
 string|"'ami'"
-op|','
-nl|'\n'
-string|"'status'"
-op|':'
-string|"'active'"
 op|','
 nl|'\n'
 string|"'properties'"
@@ -16589,11 +16574,6 @@ nl|'\n'
 string|"'container_format'"
 op|':'
 string|"'ami'"
-op|','
-nl|'\n'
-string|"'status'"
-op|':'
-string|"'active'"
 op|','
 nl|'\n'
 string|"'properties'"
