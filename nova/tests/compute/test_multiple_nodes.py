@@ -695,6 +695,11 @@ nl|'\n'
 string|"'id'"
 op|':'
 number|'2'
+op|','
+nl|'\n'
+string|"'host_ip'"
+op|':'
+string|"'127.0.0.1'"
 op|'}'
 op|']'
 newline|'\n'
