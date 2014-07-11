@@ -367,11 +367,6 @@ op|'.'
 name|'test_instance'
 op|'='
 op|'{'
-string|"'node'"
-op|':'
-string|"'test_url'"
-op|','
-nl|'\n'
 string|"'vm_state'"
 op|':'
 string|"'building'"

@@ -427,11 +427,6 @@ op|':'
 number|'40'
 op|','
 nl|'\n'
-string|"'project_id'"
-op|':'
-string|"'fake'"
-op|','
-nl|'\n'
 string|"'bridge'"
 op|':'
 string|"'br101'"

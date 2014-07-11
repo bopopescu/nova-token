@@ -1574,7 +1574,7 @@ op|':'
 string|"'1.0'"
 op|','
 nl|'\n'
-string|"'1.0'"
+string|"'1.1'"
 op|':'
 string|"'1.1'"
 op|','

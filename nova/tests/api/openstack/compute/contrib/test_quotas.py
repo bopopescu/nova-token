@@ -829,11 +829,6 @@ op|':'
 number|'10'
 op|','
 nl|'\n'
-string|"'fixed_ips'"
-op|':'
-op|'-'
-number|'1'
-op|','
 string|"'metadata_items'"
 op|':'
 number|'128'
@@ -988,10 +983,6 @@ op|':'
 number|'0'
 op|','
 nl|'\n'
-string|"'fixed_ips'"
-op|':'
-number|'0'
-op|','
 string|"'metadata_items'"
 op|':'
 number|'0'
