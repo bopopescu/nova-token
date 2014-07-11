@@ -31240,7 +31240,7 @@ name|'validate_schema'
 op|'('
 name|'root'
 op|','
-string|"'servers_index'"
+string|"'servers'"
 op|')'
 newline|'\n'
 name|'server_elems'
@@ -31643,7 +31643,7 @@ name|'validate_schema'
 op|'('
 name|'root'
 op|','
-string|"'servers_index'"
+string|"'servers'"
 op|')'
 newline|'\n'
 name|'server_elems'
