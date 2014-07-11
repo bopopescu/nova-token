@@ -208,6 +208,11 @@ name|'VIF_MODEL_NETFRONT'
 op|'='
 string|"'netfront'"
 newline|'\n'
+DECL|variable|VIF_MODEL_SPAPR_VLAN
+name|'VIF_MODEL_SPAPR_VLAN'
+op|'='
+string|"'spapr-vlan'"
+newline|'\n'
 nl|'\n'
 comment|'# Constant for max length of network interface names'
 nl|'\n'
