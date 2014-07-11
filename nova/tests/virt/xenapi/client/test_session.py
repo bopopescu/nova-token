@@ -399,10 +399,10 @@ string|'"ref"'
 op|')'
 newline|'\n'
 nl|'\n'
-DECL|member|test_apply_session_helpers_add_host
+DECL|member|test_apply_session_helpers_add_network
 dedent|''
 name|'def'
-name|'test_apply_session_helpers_add_host'
+name|'test_apply_session_helpers_add_network'
 op|'('
 name|'self'
 op|')'

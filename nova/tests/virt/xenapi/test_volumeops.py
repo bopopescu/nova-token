@@ -2500,10 +2500,10 @@ name|'conn_info'
 op|')'
 newline|'\n'
 nl|'\n'
-DECL|member|test_check_is_supported_driver_type_pass_iscsi
+DECL|member|test_check_is_supported_driver_type_pass_bad
 dedent|''
 name|'def'
-name|'test_check_is_supported_driver_type_pass_iscsi'
+name|'test_check_is_supported_driver_type_pass_bad'
 op|'('
 name|'self'
 op|')'
