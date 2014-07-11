@@ -1838,9 +1838,9 @@ op|','
 string|'"_attach_volume"'
 op|')'
 newline|'\n'
-DECL|member|test_attach_volume_default_hotplug
+DECL|member|test_attach_volume_default_hotplug_connect_volume
 name|'def'
-name|'test_attach_volume_default_hotplug'
+name|'test_attach_volume_default_hotplug_connect_volume'
 op|'('
 name|'self'
 op|','
