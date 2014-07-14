@@ -298,6 +298,8 @@ op|'.'
 name|'Set'
 op|'('
 name|'driver'
+op|'.'
+name|'host_state'
 op|','
 string|"'get_host_stats'"
 op|','
