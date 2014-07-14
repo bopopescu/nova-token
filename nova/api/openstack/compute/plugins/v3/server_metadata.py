@@ -79,6 +79,12 @@ name|'import'
 name|'_'
 newline|'\n'
 nl|'\n'
+DECL|variable|ALIAS
+name|'ALIAS'
+op|'='
+string|"'server-metadata'"
+newline|'\n'
+nl|'\n'
 nl|'\n'
 DECL|class|ServerMetadataController
 name|'class'
@@ -1154,7 +1160,7 @@ newline|'\n'
 DECL|variable|alias
 name|'alias'
 op|'='
-string|'"server-metadata"'
+name|'ALIAS'
 newline|'\n'
 DECL|variable|version
 name|'version'

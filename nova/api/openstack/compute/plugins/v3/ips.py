@@ -87,6 +87,12 @@ name|'import'
 name|'_'
 newline|'\n'
 nl|'\n'
+DECL|variable|ALIAS
+name|'ALIAS'
+op|'='
+string|"'ips'"
+newline|'\n'
+nl|'\n'
 nl|'\n'
 DECL|class|IPsController
 name|'class'
@@ -430,7 +436,7 @@ newline|'\n'
 DECL|variable|alias
 name|'alias'
 op|'='
-string|'"ips"'
+name|'ALIAS'
 newline|'\n'
 DECL|variable|version
 name|'version'
@@ -469,7 +475,7 @@ op|'.'
 name|'ResourceExtension'
 op|'('
 nl|'\n'
-string|"'ips'"
+name|'ALIAS'
 op|','
 name|'IPsController'
 op|'('

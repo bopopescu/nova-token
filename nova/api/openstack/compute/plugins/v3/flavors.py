@@ -99,6 +99,12 @@ name|'import'
 name|'utils'
 newline|'\n'
 nl|'\n'
+DECL|variable|ALIAS
+name|'ALIAS'
+op|'='
+string|"'flavors'"
+newline|'\n'
+nl|'\n'
 nl|'\n'
 DECL|class|FlavorsController
 name|'class'
@@ -762,7 +768,7 @@ newline|'\n'
 DECL|variable|alias
 name|'alias'
 op|'='
-string|'"flavors"'
+name|'ALIAS'
 newline|'\n'
 DECL|variable|version
 name|'version'
@@ -804,7 +810,7 @@ name|'extensions'
 op|'.'
 name|'ResourceExtension'
 op|'('
-string|"'flavors'"
+name|'ALIAS'
 op|','
 nl|'\n'
 name|'FlavorsController'
