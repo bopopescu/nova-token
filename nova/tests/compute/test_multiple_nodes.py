@@ -687,6 +687,11 @@ op|':'
 string|"''"
 op|','
 nl|'\n'
+string|"'numa_topology'"
+op|':'
+string|"''"
+op|','
+nl|'\n'
 string|"'stats'"
 op|':'
 string|"''"
