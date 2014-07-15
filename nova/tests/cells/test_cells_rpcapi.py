@@ -3122,7 +3122,7 @@ name|'expected_args'
 op|','
 name|'version'
 op|'='
-string|"'1.10'"
+string|"'1.28'"
 op|')'
 newline|'\n'
 nl|'\n'
