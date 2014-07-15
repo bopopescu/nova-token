@@ -418,6 +418,11 @@ op|':'
 string|"'m1.large'"
 op|','
 nl|'\n'
+string|"'instance_type_id'"
+op|':'
+number|'0'
+op|','
+nl|'\n'
 string|"'vcpus'"
 op|':'
 number|'4'
