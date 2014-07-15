@@ -113,6 +113,11 @@ name|'ADAPTER_TYPE_LSILOGICSAS'
 op|'='
 string|'"lsiLogicsas"'
 newline|'\n'
+DECL|variable|ADAPTER_TYPE_PARAVIRTUAL
+name|'ADAPTER_TYPE_PARAVIRTUAL'
+op|'='
+string|'"paraVirtual"'
+newline|'\n'
 nl|'\n'
 DECL|variable|SUPPORTED_FLAT_VARIANTS
 name|'SUPPORTED_FLAT_VARIANTS'
