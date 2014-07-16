@@ -1819,7 +1819,7 @@ name|'locals'
 op|'['
 string|"'started'"
 op|']'
-op|'=='
+name|'is'
 name|'False'
 op|')'
 op|':'
