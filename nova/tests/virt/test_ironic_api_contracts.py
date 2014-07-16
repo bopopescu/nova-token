@@ -500,6 +500,9 @@ nl|'\n'
 string|"'block_device_info'"
 op|','
 string|"'destroy_disks'"
+op|','
+nl|'\n'
+string|"'migrate_data'"
 op|']'
 op|')'
 newline|'\n'
