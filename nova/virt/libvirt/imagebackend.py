@@ -279,47 +279,6 @@ name|'cfg'
 op|'.'
 name|'StrOpt'
 op|'('
-string|"'volume_clear'"
-op|','
-nl|'\n'
-DECL|variable|default
-name|'default'
-op|'='
-string|"'zero'"
-op|','
-nl|'\n'
-DECL|variable|help
-name|'help'
-op|'='
-string|"'Method used to wipe old volumes (valid options are: '"
-nl|'\n'
-string|"'none, zero, shred)'"
-op|')'
-op|','
-nl|'\n'
-name|'cfg'
-op|'.'
-name|'IntOpt'
-op|'('
-string|"'volume_clear_size'"
-op|','
-nl|'\n'
-DECL|variable|default
-name|'default'
-op|'='
-number|'0'
-op|','
-nl|'\n'
-name|'help'
-op|'='
-string|"'Size in MiB to wipe at start of old volumes. 0 => all'"
-op|')'
-op|','
-nl|'\n'
-name|'cfg'
-op|'.'
-name|'StrOpt'
-op|'('
 string|"'images_rbd_pool'"
 op|','
 nl|'\n'
