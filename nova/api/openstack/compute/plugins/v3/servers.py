@@ -1372,8 +1372,8 @@ string|"'tenant_id'"
 name|'in'
 name|'search_opts'
 name|'and'
-name|'not'
 string|"'all_tenants'"
+name|'not'
 name|'in'
 name|'search_opts'
 op|':'

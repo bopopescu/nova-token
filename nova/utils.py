@@ -707,8 +707,8 @@ string|"'run_as_root'"
 name|'in'
 name|'kwargs'
 name|'and'
-name|'not'
 string|"'root_helper'"
+name|'not'
 name|'in'
 name|'kwargs'
 op|':'
@@ -759,8 +759,8 @@ string|"'run_as_root'"
 name|'in'
 name|'kwargs'
 name|'and'
-name|'not'
 string|"'root_helper'"
+name|'not'
 name|'in'
 name|'kwargs'
 op|':'
