@@ -42563,11 +42563,10 @@ newline|'\n'
 indent|'            '
 name|'self'
 op|'.'
-name|'assertTrue'
+name|'assertIn'
 op|'('
 string|"'raise messaging.RemoteError'"
-nl|'\n'
-name|'in'
+op|','
 name|'values'
 op|'['
 string|"'details'"
