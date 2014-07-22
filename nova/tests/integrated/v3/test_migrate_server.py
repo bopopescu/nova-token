@@ -300,7 +300,7 @@ op|','
 nl|'\n'
 name|'hypervisor_version'
 op|'='
-string|"'1'"
+string|"'1000'"
 op|','
 nl|'\n'
 name|'disabled'
