@@ -1203,7 +1203,7 @@ string|"'ip'"
 op|':'
 name|'CONF'
 op|'.'
-name|'my_ip'
+name|'my_block_storage_ip'
 op|','
 nl|'\n'
 string|"'host'"

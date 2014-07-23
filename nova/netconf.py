@@ -170,6 +170,26 @@ name|'cfg'
 op|'.'
 name|'StrOpt'
 op|'('
+string|"'my_block_storage_ip'"
+op|','
+nl|'\n'
+DECL|variable|default
+name|'default'
+op|'='
+string|"'$my_ip'"
+op|','
+nl|'\n'
+DECL|variable|help
+name|'help'
+op|'='
+string|"'Block storage IP address of this host'"
+op|')'
+op|','
+nl|'\n'
+name|'cfg'
+op|'.'
+name|'StrOpt'
+op|'('
 string|"'host'"
 op|','
 nl|'\n'
