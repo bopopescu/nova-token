@@ -12303,6 +12303,11 @@ op|':'
 string|"'far-away'"
 op|','
 nl|'\n'
+string|"'owner'"
+op|':'
+string|"'fake-tenant'"
+op|','
+nl|'\n'
 op|'}'
 newline|'\n'
 nl|'\n'
