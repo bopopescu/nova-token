@@ -106,7 +106,7 @@ string|"'include: libvirt.LibvirtDriver, xenapi.XenAPIDriver, '"
 nl|'\n'
 string|"'fake.FakeDriver, baremetal.BareMetalDriver, '"
 nl|'\n'
-string|"'vmwareapi.VMwareVCDriver'"
+string|"'vmwareapi.VMwareVCDriver, hyperv.HyperVDriver'"
 op|')'
 op|','
 nl|'\n'
