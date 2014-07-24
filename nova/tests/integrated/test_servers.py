@@ -1630,7 +1630,7 @@ newline|'\n'
 nl|'\n'
 comment|"# TODO(justinsb): Mock doesn't yet do accurate state changes"
 nl|'\n'
-comment|"#if found_server['status'] != 'deleting':"
+comment|"# if found_server['status'] != 'deleting':"
 nl|'\n'
 comment|'#    break'
 nl|'\n'

@@ -86,7 +86,7 @@ name|'kwargs'
 op|')'
 newline|'\n'
 nl|'\n'
-comment|"#NOTE(alaski) the implicit 'self' or 'cls' argument shows up in"
+comment|"# NOTE(alaski) the implicit 'self' or 'cls' argument shows up in"
 nl|'\n'
 comment|"# argnames but not in args or kwargs.  Uses 'in' rather than '==' because"
 nl|'\n'

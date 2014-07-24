@@ -383,7 +383,7 @@ op|':'
 string|"'servers'"
 op|'}'
 newline|'\n'
-comment|"#NOTE(bcwaldon): This should be prefixed with 'os-'"
+comment|"# NOTE(bcwaldon): This should be prefixed with 'os-'"
 nl|'\n'
 name|'ext'
 op|'='

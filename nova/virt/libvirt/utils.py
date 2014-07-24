@@ -2481,7 +2481,7 @@ name|'as'
 name|'exc'
 op|':'
 newline|'\n'
-comment|"#info since it's not required to have this tool."
+comment|"# info since it's not required to have this tool."
 nl|'\n'
 indent|'        '
 name|'if'

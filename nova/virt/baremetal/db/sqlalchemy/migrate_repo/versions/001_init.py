@@ -280,8 +280,6 @@ op|'='
 string|"'InnoDB'"
 op|','
 nl|'\n'
-comment|"#mysql_charset='utf8'"
-nl|'\n'
 op|')'
 newline|'\n'
 nl|'\n'
@@ -410,8 +408,6 @@ op|'='
 string|"'InnoDB'"
 op|','
 nl|'\n'
-comment|"#mysql_charset='utf8'"
-nl|'\n'
 op|')'
 newline|'\n'
 nl|'\n'
@@ -518,8 +514,6 @@ name|'mysql_engine'
 op|'='
 string|"'InnoDB'"
 op|','
-nl|'\n'
-comment|"#mysql_charset='utf8'"
 nl|'\n'
 op|')'
 newline|'\n'
@@ -648,8 +642,6 @@ name|'mysql_engine'
 op|'='
 string|"'InnoDB'"
 op|','
-nl|'\n'
-comment|"#mysql_charset='utf8'"
 nl|'\n'
 op|')'
 newline|'\n'

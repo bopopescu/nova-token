@@ -2720,7 +2720,7 @@ comment|'# extension is ported. Currently reworked'
 nl|'\n'
 comment|'# to take into account is_neutron'
 nl|'\n'
-comment|"#if (self.ext_mgr.is_loaded('os-networks')"
+comment|"# if (self.ext_mgr.is_loaded('os-networks')"
 nl|'\n'
 comment|'#        or utils.is_neutron()):'
 nl|'\n'

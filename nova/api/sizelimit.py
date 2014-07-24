@@ -60,7 +60,7 @@ name|'wsgi'
 newline|'\n'
 nl|'\n'
 nl|'\n'
-comment|'#default request size is 112k'
+comment|'# default request size is 112k'
 nl|'\n'
 DECL|variable|max_request_body_size_opt
 name|'max_request_body_size_opt'

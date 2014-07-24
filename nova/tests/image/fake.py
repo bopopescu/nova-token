@@ -798,7 +798,7 @@ op|'('
 op|')'
 newline|'\n'
 nl|'\n'
-comment|'#TODO(bcwaldon): implement optional kwargs such as limit, sort_dir'
+comment|'# TODO(bcwaldon): implement optional kwargs such as limit, sort_dir'
 nl|'\n'
 DECL|member|detail
 dedent|''
