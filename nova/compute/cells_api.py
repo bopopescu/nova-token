@@ -205,9 +205,6 @@ nl|'\n'
 string|"'backup_instance'"
 op|','
 string|"'snapshot_instance'"
-op|','
-nl|'\n'
-string|"'rebuild_instance'"
 op|']'
 newline|'\n'
 nl|'\n'
@@ -313,6 +310,8 @@ string|"'resize_instance'"
 op|','
 nl|'\n'
 string|"'live_migrate_instance'"
+op|','
+string|"'rebuild_instance'"
 op|']'
 newline|'\n'
 nl|'\n'
