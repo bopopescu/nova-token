@@ -69,14 +69,14 @@ string|"'properties'"
 op|':'
 op|'{'
 nl|'\n'
-string|"'admin_password'"
+string|"'adminPass'"
 op|':'
 name|'parameter_types'
 op|'.'
 name|'admin_password'
 op|','
 nl|'\n'
-string|"'image_ref'"
+string|"'rescue_image_ref'"
 op|':'
 name|'parameter_types'
 op|'.'
