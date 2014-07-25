@@ -4346,8 +4346,6 @@ name|'connection'
 op|'.'
 name|'set_host_enabled'
 op|'('
-string|"'a useless argument?'"
-op|','
 name|'True'
 op|')'
 newline|'\n'
@@ -4394,8 +4392,6 @@ name|'connection'
 op|'.'
 name|'host_power_action'
 op|'('
-string|"'a useless argument?'"
-op|','
 string|"'reboot'"
 op|')'
 newline|'\n'
@@ -4419,8 +4415,6 @@ name|'connection'
 op|'.'
 name|'host_power_action'
 op|'('
-string|"'a useless argument?'"
-op|','
 string|"'shutdown'"
 op|')'
 newline|'\n'
@@ -4444,8 +4438,6 @@ name|'connection'
 op|'.'
 name|'host_power_action'
 op|'('
-string|"'a useless argument?'"
-op|','
 string|"'startup'"
 op|')'
 newline|'\n'

@@ -16564,8 +16564,6 @@ name|'conn'
 op|'.'
 name|'host_power_action'
 op|','
-string|"'host'"
-op|','
 string|"'action'"
 op|')'
 newline|'\n'
@@ -16621,8 +16619,6 @@ op|'.'
 name|'conn'
 op|'.'
 name|'set_host_enabled'
-op|','
-string|"'host'"
 op|','
 string|"'state'"
 op|')'
