@@ -546,7 +546,7 @@ newline|'\n'
 nl|'\n'
 dedent|''
 name|'if'
-string|"'min_ram'"
+string|"'minRam'"
 name|'in'
 name|'req'
 op|'.'
@@ -569,7 +569,7 @@ name|'req'
 op|'.'
 name|'params'
 op|'['
-string|"'min_ram'"
+string|"'minRam'"
 op|']'
 op|')'
 newline|'\n'
@@ -590,7 +590,7 @@ name|'req'
 op|'.'
 name|'params'
 op|'['
-string|"'min_ram'"
+string|"'minRam'"
 op|']'
 newline|'\n'
 name|'raise'
@@ -609,7 +609,7 @@ nl|'\n'
 dedent|''
 dedent|''
 name|'if'
-string|"'min_disk'"
+string|"'minDisk'"
 name|'in'
 name|'req'
 op|'.'
@@ -632,7 +632,7 @@ name|'req'
 op|'.'
 name|'params'
 op|'['
-string|"'min_disk'"
+string|"'minDisk'"
 op|']'
 op|')'
 newline|'\n'
@@ -647,7 +647,7 @@ op|'='
 op|'('
 name|'_'
 op|'('
-string|"'Invalid min_disk filter [%s]'"
+string|"'Invalid minDisk filter [%s]'"
 op|')'
 op|'%'
 nl|'\n'
@@ -655,7 +655,7 @@ name|'req'
 op|'.'
 name|'params'
 op|'['
-string|"'min_disk'"
+string|"'minDisk'"
 op|']'
 op|')'
 newline|'\n'
