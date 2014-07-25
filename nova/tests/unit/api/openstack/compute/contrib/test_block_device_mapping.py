@@ -339,7 +339,7 @@ op|','
 nl|'\n'
 string|"'device_name'"
 op|':'
-string|"'vda'"
+string|"'vdb'"
 op|','
 nl|'\n'
 string|"'delete_on_termination'"

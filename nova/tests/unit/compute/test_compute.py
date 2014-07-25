@@ -64535,6 +64535,13 @@ op|']'
 op|'='
 string|"'vda'"
 newline|'\n'
+name|'base_options'
+op|'['
+string|"'image_ref'"
+op|']'
+op|'='
+name|'None'
+newline|'\n'
 name|'transformed_bdm'
 op|'='
 name|'self'
