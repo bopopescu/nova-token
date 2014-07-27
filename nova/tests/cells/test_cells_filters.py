@@ -1157,11 +1157,6 @@ nl|'\n'
 string|"'host_sched_kwargs'"
 op|':'
 string|"'meow'"
-op|','
-nl|'\n'
-string|"'cell_scheduler_method'"
-op|':'
-string|"'build_instances'"
 op|'}'
 newline|'\n'
 comment|'# None is returned to bypass further scheduling.'
