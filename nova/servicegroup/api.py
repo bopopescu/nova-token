@@ -435,26 +435,22 @@ newline|'\n'
 indent|'        '
 string|'"""Add a new member to the ServiceGroup\n\n        @param member_id: the joined member ID\n        @param group_id: the group name, of the joined member\n        @param service: the parameter can be used for notifications about\n        disconnect mode and update some internals\n        """'
 newline|'\n'
-name|'msg'
-op|'='
-name|'_'
-op|'('
-string|"'Join new ServiceGroup member %(member_id)s to the '"
 nl|'\n'
-string|"'%(group_id)s group, service = %(service)s'"
-op|')'
-newline|'\n'
 name|'LOG'
 op|'.'
 name|'debug'
 op|'('
-name|'msg'
+string|"'Join new ServiceGroup member %(member_id)s to the '"
+nl|'\n'
+string|"'%(group_id)s group, service = %(service)s'"
 op|','
+nl|'\n'
 op|'{'
 string|"'member_id'"
 op|':'
 name|'member_id'
 op|','
+nl|'\n'
 string|"'group_id'"
 op|':'
 name|'group_id'
@@ -526,21 +522,15 @@ newline|'\n'
 indent|'        '
 string|'"""Explicitly remove the given member from the ServiceGroup\n        monitoring.\n        """'
 newline|'\n'
-name|'msg'
-op|'='
-name|'_'
-op|'('
-string|"'Explicitly remove the given member %(member_id)s from the'"
-nl|'\n'
-string|"'%(group_id)s group monitoring'"
-op|')'
-newline|'\n'
 name|'LOG'
 op|'.'
 name|'debug'
 op|'('
-name|'msg'
+string|"'Explicitly remove the given member %(member_id)s from the'"
+nl|'\n'
+string|"'%(group_id)s group monitoring'"
 op|','
+nl|'\n'
 op|'{'
 string|"'member_id'"
 op|':'
