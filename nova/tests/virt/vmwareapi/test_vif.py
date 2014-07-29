@@ -2487,7 +2487,9 @@ op|','
 nl|'\n'
 string|"'cluster'"
 op|','
-string|"'vif'"
+name|'self'
+op|'.'
+name|'vif'
 op|')'
 newline|'\n'
 nl|'\n'
