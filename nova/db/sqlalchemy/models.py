@@ -2849,6 +2849,16 @@ string|"'uuid'"
 op|')'
 op|','
 nl|'\n'
+name|'Index'
+op|'('
+string|"'reservations_deleted_expire_idx'"
+op|','
+string|"'deleted'"
+op|','
+string|"'expire'"
+op|')'
+op|','
+nl|'\n'
 op|')'
 newline|'\n'
 DECL|variable|id
