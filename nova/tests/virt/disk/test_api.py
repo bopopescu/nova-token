@@ -319,7 +319,7 @@ op|'.'
 name|'MonkeyPatch'
 op|'('
 nl|'\n'
-string|"'nova.openstack.common.importutils.import_module'"
+string|"'oslo.utils.import_module'"
 op|','
 nl|'\n'
 name|'fake_import_fails'
