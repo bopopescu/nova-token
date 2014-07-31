@@ -2690,6 +2690,11 @@ op|'['
 string|"'pci_passthrough_devices'"
 op|']'
 op|')'
+op|','
+nl|'\n'
+string|"'numa_topology'"
+op|':'
+name|'None'
 op|'}'
 newline|'\n'
 nl|'\n'
