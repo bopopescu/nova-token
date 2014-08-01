@@ -377,6 +377,11 @@ op|':'
 string|"'192.168.0.1'"
 op|','
 nl|'\n'
+string|"'dhcp_server'"
+op|':'
+string|"'192.168.0.1'"
+op|','
+nl|'\n'
 string|"'broadcast'"
 op|':'
 string|"'192.168.0.255'"
@@ -485,6 +490,11 @@ string|"'fake_fa1'"
 op|','
 nl|'\n'
 string|"'gateway'"
+op|':'
+string|"'192.168.1.1'"
+op|','
+nl|'\n'
+string|"'dhcp_server'"
 op|':'
 string|"'192.168.1.1'"
 op|','
@@ -17078,6 +17088,11 @@ string|"'fake_fa1'"
 op|','
 nl|'\n'
 string|"'gateway'"
+op|':'
+string|"'192.168.2.1'"
+op|','
+nl|'\n'
+string|"'dhcp_server'"
 op|':'
 string|"'192.168.2.1'"
 op|','
