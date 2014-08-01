@@ -1632,7 +1632,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""Get detailed instance information for an instance which is common to all\n    notifications.\n\n    :param network_info: network_info provided if not None\n    :param system_metadata: system_metadata DB entries for the instance,\n    if not None.  *NOTE*: Currently unused here in trunk, but needed for\n    potential custom modifications.\n    """'
+string|'"""Get detailed instance information for an instance which is common to all\n    notifications.\n\n    :param:network_info: network_info provided if not None\n    :param:system_metadata: system_metadata DB entries for the instance,\n    if not None\n\n    .. note::\n\n        Currently unused here in trunk, but needed for potential custom\n        modifications.\n\n    """'
 newline|'\n'
 nl|'\n'
 DECL|function|null_safe_str
