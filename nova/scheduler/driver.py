@@ -268,7 +268,7 @@ name|'LOG'
 op|'.'
 name|'warning'
 op|'('
-name|'_'
+name|'_LW'
 op|'('
 string|"'Setting instance to %s state.'"
 op|')'
