@@ -232,6 +232,20 @@ name|'cfg'
 op|'.'
 name|'StrOpt'
 op|'('
+string|"'admin_user_id'"
+op|','
+nl|'\n'
+DECL|variable|help
+name|'help'
+op|'='
+string|"'User id for connecting to neutron in admin context'"
+op|')'
+op|','
+nl|'\n'
+name|'cfg'
+op|'.'
+name|'StrOpt'
+op|'('
 string|"'admin_username'"
 op|','
 nl|'\n'
@@ -324,11 +338,11 @@ name|'help'
 op|'='
 string|"'Tenant name for connecting to neutron in admin context. '"
 nl|'\n'
-string|"'This option is mutually exclusive with '"
+string|"'This option will be ignored if neutron_admin_tenant_id '"
 nl|'\n'
-string|"'admin_tenant_id. Note that with Keystone V3 '"
+string|"'is set. Note that with Keystone V3 tenant names are '"
 nl|'\n'
-string|"'tenant names are only unique within a domain.'"
+string|"'only unique within a domain.'"
 op|','
 nl|'\n'
 DECL|variable|deprecated_group
