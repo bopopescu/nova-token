@@ -33,16 +33,6 @@ nl|'\n'
 string|'"""\nPossible baremetal node states for instances.\n\nCompute instance baremetal states represent the state of an instance as it\npertains to a user or administrator. When combined with task states\n(task_states.py), a better picture can be formed regarding the instance\'s\nhealth.\n\n"""'
 newline|'\n'
 nl|'\n'
-DECL|variable|NULL
-name|'NULL'
-op|'='
-name|'None'
-newline|'\n'
-DECL|variable|INIT
-name|'INIT'
-op|'='
-string|"'initializing'"
-newline|'\n'
 DECL|variable|ACTIVE
 name|'ACTIVE'
 op|'='
