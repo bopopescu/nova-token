@@ -7303,7 +7303,7 @@ op|')'
 newline|'\n'
 name|'oversize_msg'
 op|'='
-name|'_'
+name|'_LW'
 op|'('
 nl|'\n'
 string|"'Subnet(s) too large, defaulting to /%s.'"
