@@ -1,5 +1,5 @@
 begin_unit
-comment|'# Copyright 2013 NEC Corporation.  All rights reserved.'
+comment|'# Copyright 2014 NEC Corporation.  All rights reserved.'
 nl|'\n'
 comment|'#'
 nl|'\n'
@@ -26,19 +26,8 @@ nl|'\n'
 comment|'#    under the License.'
 nl|'\n'
 nl|'\n'
-name|'from'
-name|'nova'
-op|'.'
-name|'api'
-op|'.'
-name|'validation'
-name|'import'
-name|'parameter_types'
-newline|'\n'
-nl|'\n'
-nl|'\n'
-DECL|variable|create
-name|'create'
+DECL|variable|base_create
+name|'base_create'
 op|'='
 op|'{'
 nl|'\n'
@@ -51,7 +40,7 @@ string|"'properties'"
 op|':'
 op|'{'
 nl|'\n'
-string|"'keypair'"
+string|"'server'"
 op|':'
 op|'{'
 nl|'\n'
@@ -64,36 +53,24 @@ string|"'properties'"
 op|':'
 op|'{'
 nl|'\n'
-string|"'name'"
-op|':'
-name|'parameter_types'
-op|'.'
-name|'name'
-op|','
+comment|'# TODO(oomichi): To focus the schema extension, now these'
 nl|'\n'
-string|"'public_key'"
-op|':'
-op|'{'
-string|"'type'"
-op|':'
-string|"'string'"
-op|'}'
-op|','
+comment|'# properties are not defined. After it, we need to define'
+nl|'\n'
+comment|'# them.'
+nl|'\n'
+comment|"# 'name': ..."
 nl|'\n'
 op|'}'
 op|','
 nl|'\n'
-string|"'required'"
-op|':'
-op|'['
-string|"'name'"
-op|']'
-op|','
+comment|'# TODO(oomichi): After all extension schema patches are merged,'
 nl|'\n'
-string|"'additionalProperties'"
-op|':'
-name|'False'
-op|','
+comment|'# this code should be enabled. If enabling before merger, API'
+nl|'\n'
+comment|'# extension parameters would be considered as bad parameters.'
+nl|'\n'
+comment|"# 'additionalProperties': False,"
 nl|'\n'
 op|'}'
 op|','
@@ -104,29 +81,15 @@ nl|'\n'
 string|"'required'"
 op|':'
 op|'['
-string|"'keypair'"
+string|"'server'"
 op|']'
 op|','
 nl|'\n'
-string|"'additionalProperties'"
-op|':'
-name|'False'
-op|','
+comment|'# TODO(oomichi): ditto, enable here after all extension schema'
 nl|'\n'
-op|'}'
-newline|'\n'
+comment|'# patches are merged.'
 nl|'\n'
-DECL|variable|server_create
-name|'server_create'
-op|'='
-op|'{'
-nl|'\n'
-string|"'key_name'"
-op|':'
-name|'parameter_types'
-op|'.'
-name|'name'
-op|','
+comment|"# 'additionalProperties': False,"
 nl|'\n'
 op|'}'
 newline|'\n'
