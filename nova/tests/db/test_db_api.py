@@ -37234,7 +37234,7 @@ op|','
 nl|'\n'
 string|"'device_name'"
 op|':'
-string|"'first'"
+string|"'/dev/vda'"
 op|'}'
 op|','
 nl|'\n'
@@ -37246,7 +37246,7 @@ op|','
 nl|'\n'
 string|"'device_name'"
 op|':'
-string|"'second'"
+string|"'/dev/vdb'"
 op|'}'
 op|','
 nl|'\n'
@@ -37258,7 +37258,7 @@ op|','
 nl|'\n'
 string|"'device_name'"
 op|':'
-string|"'third'"
+string|"'/dev/vdc'"
 op|'}'
 op|']'
 newline|'\n'
@@ -37316,7 +37316,7 @@ op|'['
 string|"'device_name'"
 op|']'
 op|','
-string|"'first'"
+string|"'/dev/vda'"
 op|')'
 newline|'\n'
 nl|'\n'
@@ -37436,7 +37436,7 @@ op|'('
 op|'{'
 string|"'device_name'"
 op|':'
-string|"'fake1'"
+string|"'/dev/vda'"
 op|','
 string|"'volume_id'"
 op|':'
@@ -37451,7 +37451,7 @@ op|'('
 op|'{'
 string|"'device_name'"
 op|':'
-string|"'fake2'"
+string|"'/dev/vdb'"
 op|','
 string|"'volume_id'"
 op|':'
@@ -37520,7 +37520,7 @@ op|'['
 string|"'device_name'"
 op|']'
 op|','
-string|"'fake2'"
+string|"'/dev/vdb'"
 op|')'
 newline|'\n'
 nl|'\n'
@@ -37541,7 +37541,7 @@ op|'('
 op|'{'
 string|"'device_name'"
 op|':'
-string|"'fake1'"
+string|"'/dev/vda'"
 op|'}'
 op|')'
 newline|'\n'
@@ -37552,7 +37552,7 @@ op|'('
 op|'{'
 string|"'device_name'"
 op|':'
-string|"'fake2'"
+string|"'/dev/vdb'"
 op|'}'
 op|')'
 newline|'\n'
@@ -37575,7 +37575,7 @@ name|'ctxt'
 op|','
 name|'uuid'
 op|','
-string|"'fake1'"
+string|"'/dev/vdb'"
 op|')'
 newline|'\n'
 name|'db'
@@ -37624,7 +37624,7 @@ op|'['
 string|"'device_name'"
 op|']'
 op|','
-string|"'fake2'"
+string|"'/dev/vda'"
 op|')'
 newline|'\n'
 nl|'\n'
