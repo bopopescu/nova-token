@@ -22741,7 +22741,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""Servers tests using default API router with all extensions enabled.\n\n    The intent here is to catch cases where extensions end up throwing\n    an exception because of a malformed request before the core API\n    gets a chance to validate the request and return a 422 response.\n\n    For example, AccessIPsController extends servers.Controller:\n\n        @wsgi.extends\n        def create(self, req, resp_obj, body):\n            context = req.environ[\'nova.context\']\n            if authorize(context) and \'server\' in resp_obj.obj:\n                resp_obj.attach(xml=AccessIPTemplate())\n                server = resp_obj.obj[\'server\']\n                self._extend_server(req, server)\n\n    we want to ensure that the extension isn\'t barfing on an invalid\n    body.\n    """'
+string|'"""Servers tests using default API router with all extensions enabled.\n\n    The intent here is to catch cases where extensions end up throwing\n    an exception because of a malformed request before the core API\n    gets a chance to validate the request and return a 422 response.\n\n    For example, AccessIPsController extends servers.Controller::\n\n        |   @wsgi.extends\n        |   def create(self, req, resp_obj, body):\n        |       context = req.environ[\'nova.context\']\n        |       if authorize(context) and \'server\' in resp_obj.obj:\n        |           resp_obj.attach(xml=AccessIPTemplate())\n        |           server = resp_obj.obj[\'server\']\n        |           self._extend_server(req, server)\n\n    we want to ensure that the extension isn\'t barfing on an invalid\n    body.\n    """'
 newline|'\n'
 nl|'\n'
 DECL|member|setUp

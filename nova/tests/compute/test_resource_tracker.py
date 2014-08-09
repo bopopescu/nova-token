@@ -7552,7 +7552,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""Make sure we handle the case where the following are true:\n    1) Compute node C gets upgraded to code that looks for instance types in\n       system metadata. AND\n    2) C already has instances in the process of migrating that do not have\n       stashed instance types.\n\n    bug 1164110\n    """'
+string|'"""Make sure we handle the case where the following are true:\n\n    #) Compute node C gets upgraded to code that looks for instance types in\n       system metadata. AND\n    #) C already has instances in the process of migrating that do not have\n       stashed instance types.\n\n    bug 1164110\n    """'
 newline|'\n'
 DECL|member|setUp
 name|'def'

@@ -191,7 +191,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""A Report Section\n\n    A report section contains a generator and a top-level view.\n    When something attempts to serialize the section by calling\n    str() on it, the section runs the generator and calls the view\n    on the resulting model.\n\n    .. seealso::\n\n       Class :class:`BasicReport`\n           :func:`BasicReport.add_section`\n\n    :param view: the top-level view for this section\n    :param generator: the generator for this section\n                      (any callable object which takes\n                       no parameters and returns a data model)\n    """'
+string|'"""A Report Section\n\n    A report section contains a generator and a top-level view.\n    When something attempts to serialize the section by calling\n    str() on it, the section runs the generator and calls the view\n    on the resulting model.\n\n    .. seealso::\n\n       Class :class:`BasicReport`\n           :func:`BasicReport.add_section`\n\n    :param view: the top-level view for this section\n    :param generator: the generator for this section which could be\n                      any callable object which takes\n                      no parameters and returns a data model\n    """'
 newline|'\n'
 nl|'\n'
 DECL|member|__init__
