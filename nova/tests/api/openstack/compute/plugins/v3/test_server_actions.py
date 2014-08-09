@@ -5132,6 +5132,11 @@ op|'('
 name|'reason'
 op|'='
 string|"''"
+op|','
+nl|'\n'
+name|'flavor_id'
+op|'='
+string|"'fake_id'"
 op|')'
 op|')'
 newline|'\n'
