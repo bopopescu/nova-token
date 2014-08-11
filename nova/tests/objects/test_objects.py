@@ -7026,6 +7026,11 @@ op|':'
 string|"'1.0-627baaf4b12c9067200979bdc4558a99'"
 op|','
 nl|'\n'
+string|"'EC2SnapshotMapping'"
+op|':'
+string|"'1.0-26cf315be1f8abab4289d4147671c836'"
+op|','
+nl|'\n'
 string|"'EC2VolumeMapping'"
 op|':'
 string|"'1.0-2f8c3bf077c65a425294ec2b361c9143'"
