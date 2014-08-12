@@ -40,7 +40,7 @@ string|"'properties'"
 op|':'
 op|'{'
 nl|'\n'
-string|"'reset_state'"
+string|"'os-resetState'"
 op|':'
 op|'{'
 nl|'\n'
@@ -98,7 +98,7 @@ nl|'\n'
 string|"'required'"
 op|':'
 op|'['
-string|"'reset_state'"
+string|"'os-resetState'"
 op|']'
 op|','
 nl|'\n'

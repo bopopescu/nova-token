@@ -241,7 +241,7 @@ name|'wsgi'
 op|'.'
 name|'action'
 op|'('
-string|"'reset_network'"
+string|"'resetNetwork'"
 op|')'
 newline|'\n'
 DECL|member|_reset_network
@@ -366,7 +366,7 @@ name|'wsgi'
 op|'.'
 name|'action'
 op|'('
-string|"'inject_network_info'"
+string|"'injectNetworkInfo'"
 op|')'
 newline|'\n'
 DECL|member|_inject_network_info
@@ -491,7 +491,7 @@ name|'wsgi'
 op|'.'
 name|'action'
 op|'('
-string|"'reset_state'"
+string|"'os-resetState'"
 op|')'
 newline|'\n'
 op|'@'
@@ -546,7 +546,7 @@ name|'state_map'
 op|'['
 name|'body'
 op|'['
-string|'"reset_state"'
+string|'"os-resetState"'
 op|']'
 op|'['
 string|'"state"'
