@@ -736,13 +736,8 @@ comment|'# relative to this directory. They are copied after the builtin static 
 nl|'\n'
 comment|'# so a file named "default.css" will overwrite the builtin "default.css".'
 nl|'\n'
-DECL|variable|html_static_path
-name|'html_static_path'
-op|'='
-op|'['
-string|"'_static'"
-op|']'
-newline|'\n'
+comment|"#html_static_path = ['_static']"
+nl|'\n'
 nl|'\n'
 comment|"# If not '', a 'Last updated on:' timestamp is inserted at every page bottom,"
 nl|'\n'
