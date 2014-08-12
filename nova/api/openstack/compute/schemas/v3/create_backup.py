@@ -51,7 +51,7 @@ string|"'properties'"
 op|':'
 op|'{'
 nl|'\n'
-string|"'create_backup'"
+string|"'createBackup'"
 op|':'
 op|'{'
 nl|'\n'
@@ -157,7 +157,7 @@ nl|'\n'
 string|"'required'"
 op|':'
 op|'['
-string|"'create_backup'"
+string|"'createBackup'"
 op|']'
 op|','
 nl|'\n'
