@@ -140,7 +140,7 @@ nl|'\n'
 DECL|variable|default
 name|'default'
 op|'='
-string|"'volumev2:cinder:publicURL'"
+string|"'volume:cinder:publicURL'"
 op|','
 nl|'\n'
 DECL|variable|help
