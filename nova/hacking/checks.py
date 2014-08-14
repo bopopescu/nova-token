@@ -1277,13 +1277,13 @@ indent|'        '
 name|'json_funcs'
 op|'='
 op|'['
-string|"'dumps'"
+string|"'dumps('"
 op|','
-string|"'dump'"
+string|"'dump('"
 op|','
-string|"'loads'"
+string|"'loads('"
 op|','
-string|"'load'"
+string|"'load('"
 op|']'
 newline|'\n'
 name|'for'
@@ -1312,7 +1312,7 @@ number|'1'
 op|':'
 newline|'\n'
 indent|'                '
-name|'return'
+name|'yield'
 op|'('
 name|'pos'
 op|','
@@ -1322,6 +1322,11 @@ op|'{'
 string|"'fun'"
 op|':'
 name|'f'
+op|'['
+op|':'
+op|'-'
+number|'1'
+op|']'
 op|'}'
 op|')'
 newline|'\n'
