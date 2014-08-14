@@ -7227,7 +7227,7 @@ op|','
 nl|'\n'
 string|"'AgentList'"
 op|':'
-string|"'1.0-f8b860e1f2ce80e676ba1a37ddf86e4f'"
+string|"'1.0-31f07426a729311a42ff7f6246e76e25'"
 op|','
 nl|'\n'
 string|"'Aggregate'"
@@ -7237,7 +7237,7 @@ op|','
 nl|'\n'
 string|"'AggregateList'"
 op|':'
-string|"'1.2-504137b7ec3855b00d01f165dcebc23e'"
+string|"'1.2-4b02a285b8612bfb86a96ff80052fb0a'"
 op|','
 nl|'\n'
 string|"'BlockDeviceMapping'"
@@ -7247,7 +7247,7 @@ op|','
 nl|'\n'
 string|"'BlockDeviceMappingList'"
 op|':'
-string|"'1.2-d6d7df540ca149dda78b22b4b10bdef3'"
+string|"'1.2-a6df0a8ef84d6bbaba51143499e9bed2'"
 op|','
 nl|'\n'
 string|"'ComputeNode'"
@@ -7257,7 +7257,7 @@ op|','
 nl|'\n'
 string|"'ComputeNodeList'"
 op|':'
-string|"'1.3-ff59187056eaa96f6fd3fb70693d818c'"
+string|"'1.3-1c9c281e02182eabffa6b63ee349996a'"
 op|','
 nl|'\n'
 string|"'DNSDomain'"
@@ -7267,7 +7267,7 @@ op|','
 nl|'\n'
 string|"'DNSDomainList'"
 op|':'
-string|"'1.0-6e3cc498d89dd7e90f9beb021644221c'"
+string|"'1.0-cfb3e7e82be661501c31099523154db4'"
 op|','
 nl|'\n'
 string|"'EC2InstanceMapping'"
@@ -7292,7 +7292,7 @@ op|','
 nl|'\n'
 string|"'FixedIPList'"
 op|':'
-string|"'1.1-8ea5cfca611598f1242fd4095e49e58b'"
+string|"'1.1-c12d1165c88fa721ab8abcf502fa1b29'"
 op|','
 nl|'\n'
 string|"'Flavor'"
@@ -7302,7 +7302,7 @@ op|','
 nl|'\n'
 string|"'FlavorList'"
 op|':'
-string|"'1.1-d559595f55936a6d602721c3bdff6fff'"
+string|"'1.1-a3d5551267cb8f62ff38ded125900721'"
 op|','
 nl|'\n'
 string|"'FloatingIP'"
@@ -7312,7 +7312,7 @@ op|','
 nl|'\n'
 string|"'FloatingIPList'"
 op|':'
-string|"'1.2-1b77acb3523d16e3282624f51fee60d8'"
+string|"'1.2-6c5b0b4d4a4c17575f4d91bae14e5237'"
 op|','
 nl|'\n'
 string|"'Instance'"
@@ -7332,12 +7332,12 @@ op|','
 nl|'\n'
 string|"'InstanceActionEventList'"
 op|':'
-string|"'1.0-937f4ed414ff2354de416834b948fbd6'"
+string|"'1.0-1d5cc958171d6ce07383c2ad6208318e'"
 op|','
 nl|'\n'
 string|"'InstanceActionList'"
 op|':'
-string|"'1.0-d46ade45deeba63c55821e22c164bd1b'"
+string|"'1.0-368410fdb8d69ae20c495308535d6266'"
 op|','
 nl|'\n'
 string|"'InstanceExternalEvent'"
@@ -7352,7 +7352,7 @@ op|','
 nl|'\n'
 string|"'InstanceFaultList'"
 op|':'
-string|"'1.1-bd578be60d045629ca7b3ce1a2493ae4'"
+string|"'1.1-aeb598ffd0cd6aa61fca7adf0f5e900d'"
 op|','
 nl|'\n'
 string|"'InstanceGroup'"
@@ -7362,7 +7362,7 @@ op|','
 nl|'\n'
 string|"'InstanceGroupList'"
 op|':'
-string|"'1.2-bebd07052779ae3b47311efe85428a8b'"
+string|"'1.2-a474822eebc3e090012e581adcc1fa09'"
 op|','
 nl|'\n'
 string|"'InstanceInfoCache'"
@@ -7372,7 +7372,7 @@ op|','
 nl|'\n'
 string|"'InstanceList'"
 op|':'
-string|"'1.6-78800140a5f9818ab00f8c052437655f'"
+string|"'1.6-6891f6f61f8eb0b55c0cefac3f734c24'"
 op|','
 nl|'\n'
 string|"'KeyPair'"
@@ -7382,7 +7382,7 @@ op|','
 nl|'\n'
 string|"'KeyPairList'"
 op|':'
-string|"'1.0-854cfff138dac9d5925c89cf805d1a70'"
+string|"'1.0-71132a568cc5d078ba1748a9c02c87b8'"
 op|','
 nl|'\n'
 string|"'Migration'"
@@ -7392,7 +7392,7 @@ op|','
 nl|'\n'
 string|"'MigrationList'"
 op|':'
-string|"'1.1-6ca2ebb822ebfe1a660bace824b378c6'"
+string|"'1.1-8c5f678edc72a592d591a13b35e54353'"
 op|','
 nl|'\n'
 string|"'MyObj'"
@@ -7412,7 +7412,7 @@ op|','
 nl|'\n'
 string|"'NetworkList'"
 op|':'
-string|"'1.2-16510568c6e64cb8b358cb2b11333196'"
+string|"'1.2-aa4ad23f035b97a41732ea8b3445fc5e'"
 op|','
 nl|'\n'
 string|"'PciDevice'"
@@ -7422,7 +7422,7 @@ op|','
 nl|'\n'
 string|"'PciDeviceList'"
 op|':'
-string|"'1.0-5da7b4748a5a2594bae2cd0bd211cca2'"
+string|"'1.0-43d6c4ea0dd77955e97b23d937a3f925'"
 op|','
 nl|'\n'
 string|"'Quotas'"
@@ -7447,7 +7447,7 @@ op|','
 nl|'\n'
 string|"'SecurityGroupList'"
 op|':'
-string|"'1.0-9513387aabf08c2a7961ac4da4315ed4'"
+string|"'1.0-528e6448adfeeb78921ebeda499ab72f'"
 op|','
 nl|'\n'
 string|"'SecurityGroupRule'"
@@ -7457,7 +7457,7 @@ op|','
 nl|'\n'
 string|"'SecurityGroupRuleList'"
 op|':'
-string|"'1.0-af4deeea8699ee90fb217f77d711d781'"
+string|"'1.0-1052b37dc59a1957ee5b0b9268d03af3'"
 op|','
 nl|'\n'
 string|"'Service'"
@@ -7467,7 +7467,7 @@ op|','
 nl|'\n'
 string|"'ServiceList'"
 op|':'
-string|"'1.0-ae64b4922df28d7cd11c59cddddf926c'"
+string|"'1.0-2c960ac9bc56a12c65b9118bb3a58b44'"
 op|','
 nl|'\n'
 string|"'TestSubclassedObject'"
@@ -7482,7 +7482,7 @@ op|','
 nl|'\n'
 string|"'VirtualInterfaceList'"
 op|':'
-string|"'1.0-dc9e9d5bce522d28f96092c49119b3e0'"
+string|"'1.0-accbf02628a8063c1d885077a2bf49b6'"
 op|','
 nl|'\n'
 op|'}'
@@ -7633,6 +7633,33 @@ comment|'# but many other things may require a version bump (method behavior'
 nl|'\n'
 comment|'# and return value changes, for example).'
 nl|'\n'
+name|'if'
+name|'hasattr'
+op|'('
+name|'obj_class'
+op|','
+string|"'child_versions'"
+op|')'
+op|':'
+newline|'\n'
+indent|'            '
+name|'relevant_data'
+op|'='
+op|'('
+name|'fields'
+op|','
+name|'methods'
+op|','
+name|'obj_class'
+op|'.'
+name|'child_versions'
+op|')'
+newline|'\n'
+dedent|''
+name|'else'
+op|':'
+newline|'\n'
+indent|'            '
 name|'relevant_data'
 op|'='
 op|'('
@@ -7641,6 +7668,7 @@ op|','
 name|'methods'
 op|')'
 newline|'\n'
+dedent|''
 name|'return'
 string|"'%s-%s'"
 op|'%'
