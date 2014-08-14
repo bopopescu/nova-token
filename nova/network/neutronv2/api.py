@@ -2759,9 +2759,8 @@ op|'{'
 string|"'device_id'"
 op|':'
 name|'instance'
-op|'['
-string|"'uuid'"
-op|']'
+op|'.'
+name|'uuid'
 op|'}'
 newline|'\n'
 name|'neutron'
