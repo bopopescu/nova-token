@@ -12788,10 +12788,10 @@ name|'body'
 op|')'
 newline|'\n'
 nl|'\n'
-DECL|member|test_update_server_adminPass_ignored
+DECL|member|test_update_server_admin_password_ignored
 dedent|''
 name|'def'
-name|'test_update_server_adminPass_ignored'
+name|'test_update_server_admin_password_ignored'
 op|'('
 name|'self'
 op|')'
@@ -12806,7 +12806,7 @@ name|'name'
 op|'='
 string|"'server_test'"
 op|','
-name|'adminPass'
+name|'admin_password'
 op|'='
 string|"'bacon'"
 op|')'
@@ -14917,7 +14917,7 @@ name|'len'
 op|'('
 name|'server_dict'
 op|'['
-string|'"admin_password"'
+string|'"adminPass"'
 op|']'
 op|')'
 op|')'
@@ -14941,7 +14941,7 @@ name|'self'
 op|'.'
 name|'assertNotIn'
 op|'('
-string|'"admin_password"'
+string|'"adminPass"'
 op|','
 name|'server_dict'
 op|')'
@@ -18611,7 +18611,7 @@ op|'['
 string|"'server'"
 op|']'
 op|'['
-string|"'admin_password'"
+string|"'adminPass'"
 op|']'
 op|'='
 string|"'testpass'"
@@ -18666,7 +18666,7 @@ name|'assertEqual'
 op|'('
 name|'server'
 op|'['
-string|"'admin_password'"
+string|"'adminPass'"
 op|']'
 op|','
 nl|'\n'
@@ -18677,7 +18677,7 @@ op|'['
 string|"'server'"
 op|']'
 op|'['
-string|"'admin_password'"
+string|"'adminPass'"
 op|']'
 op|')'
 newline|'\n'
@@ -18720,7 +18720,7 @@ op|'['
 string|"'server'"
 op|']'
 op|'['
-string|"'admin_password'"
+string|"'adminPass'"
 op|']'
 op|'='
 string|"'testpass'"
@@ -18775,7 +18775,7 @@ name|'self'
 op|'.'
 name|'assertIn'
 op|'('
-string|"'admin_password'"
+string|"'adminPass'"
 op|','
 name|'self'
 op|'.'
@@ -18815,7 +18815,7 @@ op|'['
 string|"'server'"
 op|']'
 op|'['
-string|"'admin_password'"
+string|"'adminPass'"
 op|']'
 op|'='
 string|"''"

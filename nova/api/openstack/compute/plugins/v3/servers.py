@@ -3499,7 +3499,7 @@ op|'['
 string|"'server'"
 op|']'
 op|'['
-string|"'admin_password'"
+string|"'adminPass'"
 op|']'
 op|'='
 name|'password'
@@ -6069,7 +6069,7 @@ op|'['
 string|"'server'"
 op|']'
 op|'['
-string|"'admin_password'"
+string|"'adminPass'"
 op|']'
 op|'='
 name|'password'
@@ -6554,7 +6554,7 @@ name|'password'
 op|'='
 name|'server'
 op|'['
-string|"'admin_password'"
+string|"'adminPass'"
 op|']'
 newline|'\n'
 name|'self'
@@ -6593,7 +6593,7 @@ name|'explanation'
 op|'='
 name|'_'
 op|'('
-string|'"Invalid admin_password"'
+string|'"Invalid adminPass"'
 op|')'
 op|')'
 newline|'\n'
