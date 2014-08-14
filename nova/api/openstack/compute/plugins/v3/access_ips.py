@@ -140,9 +140,7 @@ op|')'
 newline|'\n'
 name|'server'
 op|'['
-string|"'%s:access_ip_v4'"
-op|'%'
-name|'ALIAS'
+string|"'accessIPv4'"
 op|']'
 op|'='
 op|'('
@@ -162,9 +160,7 @@ op|')'
 newline|'\n'
 name|'server'
 op|'['
-string|"'%s:access_ip_v6'"
-op|'%'
-name|'ALIAS'
+string|"'accessIPv6'"
 op|']'
 op|'='
 op|'('
@@ -529,16 +525,12 @@ newline|'\n'
 DECL|variable|v4_key
 name|'v4_key'
 op|'='
-string|"'%s:access_ip_v4'"
-op|'%'
-name|'ALIAS'
+string|"'accessIPv4'"
 newline|'\n'
 DECL|variable|v6_key
 name|'v6_key'
 op|'='
-string|"'%s:access_ip_v6'"
-op|'%'
-name|'ALIAS'
+string|"'accessIPv6'"
 newline|'\n'
 nl|'\n'
 DECL|member|get_controller_extensions
@@ -764,8 +756,12 @@ name|'expl'
 op|'='
 name|'_'
 op|'('
-string|"'access_ip_v4 is not proper IPv4 format'"
+string|"'%s is not proper IPv4 format'"
 op|')'
+op|'%'
+name|'AccessIPs'
+op|'.'
+name|'v4_key'
 newline|'\n'
 name|'raise'
 name|'exc'
@@ -806,8 +802,12 @@ name|'expl'
 op|'='
 name|'_'
 op|'('
-string|"'access_ip_v6 is not proper IPv6 format'"
+string|"'%s is not proper IPv6 format'"
 op|')'
+op|'%'
+name|'AccessIPs'
+op|'.'
+name|'v6_key'
 newline|'\n'
 name|'raise'
 name|'exc'
