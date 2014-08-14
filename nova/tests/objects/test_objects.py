@@ -7181,6 +7181,11 @@ op|':'
 string|"'1.1-4b06fd721c586b907ddd6543a00d6c2f'"
 op|','
 nl|'\n'
+string|"'S3ImageMapping'"
+op|':'
+string|"'1.0-9225943a44a91ad0349b9fd8bd3f3ce2'"
+op|','
+nl|'\n'
 string|"'SecurityGroup'"
 op|':'
 string|"'1.1-bba0e72865e0953793e796571692453b'"
