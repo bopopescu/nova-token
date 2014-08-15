@@ -339,12 +339,12 @@ op|':'
 string|"'server_test'"
 op|','
 nl|'\n'
-string|"'image_ref'"
+string|"'imageRef'"
 op|':'
 string|"'76fa36fc-c930-4bf3-8c8a-ea2a2420deb6'"
 op|','
 nl|'\n'
-string|"'flavor_ref'"
+string|"'flavorRef'"
 op|':'
 string|"'http://localhost/123/flavors/3'"
 op|','
@@ -383,7 +383,7 @@ op|'['
 string|"'server'"
 op|']'
 op|'['
-string|"'image_ref'"
+string|"'imageRef'"
 op|']'
 newline|'\n'
 nl|'\n'
@@ -627,7 +627,7 @@ name|'self'
 op|'.'
 name|'assertNotIn'
 op|'('
-string|"'image_ref'"
+string|"'imageRef'"
 op|','
 name|'kwargs'
 op|')'

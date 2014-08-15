@@ -3139,12 +3139,12 @@ newline|'\n'
 DECL|variable|_image_ref_parameter
 name|'_image_ref_parameter'
 op|'='
-string|"'image_ref'"
+string|"'imageRef'"
 newline|'\n'
 DECL|variable|_flavor_ref_parameter
 name|'_flavor_ref_parameter'
 op|'='
-string|"'flavor_ref'"
+string|"'flavorRef'"
 newline|'\n'
 DECL|variable|_return_resv_id_parameter
 name|'_return_resv_id_parameter'

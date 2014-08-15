@@ -10491,7 +10491,7 @@ op|':'
 string|"'new_name'"
 op|','
 nl|'\n'
-string|"'image_ref'"
+string|"'imageRef'"
 op|':'
 name|'self'
 op|'.'
@@ -14793,14 +14793,14 @@ op|':'
 string|"'server_test'"
 op|','
 nl|'\n'
-string|"'image_ref'"
+string|"'imageRef'"
 op|':'
 name|'self'
 op|'.'
 name|'image_uuid'
 op|','
 nl|'\n'
-string|"'flavor_ref'"
+string|"'flavorRef'"
 op|':'
 name|'self'
 op|'.'
@@ -14972,7 +14972,7 @@ op|'['
 string|"'server'"
 op|']'
 op|'['
-string|"'image_ref'"
+string|"'imageRef'"
 op|']'
 op|'='
 name|'image_uuid'
@@ -14984,7 +14984,7 @@ op|'['
 string|"'server'"
 op|']'
 op|'['
-string|"'flavor_ref'"
+string|"'flavorRef'"
 op|']'
 op|'='
 name|'flavor'
@@ -15186,7 +15186,7 @@ op|'['
 string|"'server'"
 op|']'
 op|'['
-string|"'image_ref'"
+string|"'imageRef'"
 op|']'
 op|'='
 name|'image_href'
@@ -15356,7 +15356,7 @@ op|'['
 string|"'server'"
 op|']'
 op|'['
-string|"'flavor_ref'"
+string|"'flavorRef'"
 op|']'
 op|'='
 number|'2'
@@ -15524,7 +15524,7 @@ op|'['
 string|"'server'"
 op|']'
 op|'['
-string|"'flavor_ref'"
+string|"'flavorRef'"
 op|']'
 op|'='
 number|'2'
@@ -15607,7 +15607,7 @@ op|'['
 string|"'server'"
 op|']'
 op|'['
-string|"'image_ref'"
+string|"'imageRef'"
 op|']'
 op|'='
 name|'image_href'
@@ -15700,7 +15700,7 @@ op|'['
 string|"'server'"
 op|']'
 op|'['
-string|"'image_ref'"
+string|"'imageRef'"
 op|']'
 op|'='
 name|'image_href'
@@ -15712,7 +15712,7 @@ op|'['
 string|"'server'"
 op|']'
 op|'['
-string|"'flavor_ref'"
+string|"'flavorRef'"
 op|']'
 op|'='
 name|'flavor_ref'
@@ -15814,7 +15814,7 @@ op|'['
 string|"'server'"
 op|']'
 op|'['
-string|"'flavor_ref'"
+string|"'flavorRef'"
 op|']'
 op|'='
 number|'2'
@@ -15833,7 +15833,7 @@ op|']'
 op|'.'
 name|'pop'
 op|'('
-string|"'image_ref'"
+string|"'imageRef'"
 op|','
 name|'None'
 op|')'
@@ -16615,7 +16615,7 @@ op|'['
 string|"'server'"
 op|']'
 op|'['
-string|"'image_ref'"
+string|"'imageRef'"
 op|']'
 op|'='
 name|'image_href'
@@ -16725,7 +16725,7 @@ op|'['
 string|"'server'"
 op|']'
 op|'['
-string|"'image_ref'"
+string|"'imageRef'"
 op|']'
 op|'='
 name|'image_href'
@@ -16937,7 +16937,7 @@ op|'['
 string|"'server'"
 op|']'
 op|'['
-string|"'image_ref'"
+string|"'imageRef'"
 op|']'
 op|'='
 name|'image_href'
@@ -17080,12 +17080,12 @@ op|':'
 string|"'server_test'"
 op|','
 nl|'\n'
-string|"'image_ref'"
+string|"'imageRef'"
 op|':'
 name|'image_href'
 op|','
 nl|'\n'
-string|"'flavor_ref'"
+string|"'flavorRef'"
 op|':'
 name|'flavor_ref'
 op|','
@@ -17211,7 +17211,7 @@ op|'['
 string|"'server'"
 op|']'
 op|'['
-string|"'image_ref'"
+string|"'imageRef'"
 op|']'
 op|'='
 name|'image_href'
@@ -17314,7 +17314,7 @@ op|'['
 string|"'server'"
 op|']'
 op|'['
-string|"'image_ref'"
+string|"'imageRef'"
 op|']'
 op|'='
 name|'image_href'
@@ -17412,7 +17412,7 @@ op|'['
 string|"'server'"
 op|']'
 op|'['
-string|"'image_ref'"
+string|"'imageRef'"
 op|']'
 op|'='
 name|'image_href'
@@ -17516,7 +17516,7 @@ op|'['
 string|"'server'"
 op|']'
 op|'['
-string|"'image_ref'"
+string|"'imageRef'"
 op|']'
 op|'='
 name|'image_href'
@@ -17619,7 +17619,7 @@ op|'['
 string|"'server'"
 op|']'
 op|'['
-string|"'image_ref'"
+string|"'imageRef'"
 op|']'
 op|'='
 name|'image_href'
@@ -17718,7 +17718,7 @@ op|'['
 string|"'server'"
 op|']'
 op|'['
-string|"'image_ref'"
+string|"'imageRef'"
 op|']'
 op|'='
 name|'image_href'
@@ -17813,7 +17813,7 @@ op|'['
 string|"'server'"
 op|']'
 op|'['
-string|"'image_ref'"
+string|"'imageRef'"
 op|']'
 op|'='
 name|'image_href'
@@ -17912,7 +17912,7 @@ op|'['
 string|"'server'"
 op|']'
 op|'['
-string|"'image_ref'"
+string|"'imageRef'"
 op|']'
 op|'='
 name|'image_href'
@@ -18039,7 +18039,7 @@ op|'['
 string|"'server'"
 op|']'
 op|'['
-string|"'image_ref'"
+string|"'imageRef'"
 op|']'
 op|'='
 name|'image_href'
@@ -18210,7 +18210,7 @@ op|'['
 string|"'server'"
 op|']'
 op|'['
-string|"'image_ref'"
+string|"'imageRef'"
 op|']'
 op|'='
 name|'image_href'
@@ -18222,7 +18222,7 @@ op|'['
 string|"'server'"
 op|']'
 op|'['
-string|"'flavor_ref'"
+string|"'flavorRef'"
 op|']'
 op|'='
 name|'flavor_ref'
@@ -18297,7 +18297,7 @@ op|'['
 string|"'server'"
 op|']'
 op|'['
-string|"'image_ref'"
+string|"'imageRef'"
 op|']'
 op|'='
 name|'image_href'
@@ -18309,7 +18309,7 @@ op|'['
 string|"'server'"
 op|']'
 op|'['
-string|"'flavor_ref'"
+string|"'flavorRef'"
 op|']'
 op|'='
 name|'flavor_ref'
@@ -18383,7 +18383,7 @@ op|'['
 string|"'server'"
 op|']'
 op|'['
-string|"'image_ref'"
+string|"'imageRef'"
 op|']'
 op|'='
 name|'image_href'
@@ -18395,7 +18395,7 @@ op|'['
 string|"'server'"
 op|']'
 op|'['
-string|"'flavor_ref'"
+string|"'flavorRef'"
 op|']'
 op|'='
 name|'flavor_ref'
@@ -18465,7 +18465,7 @@ op|'['
 string|"'server'"
 op|']'
 op|'['
-string|"'image_ref'"
+string|"'imageRef'"
 op|']'
 op|'='
 name|'image_href'
@@ -18599,7 +18599,7 @@ op|'['
 string|"'server'"
 op|']'
 op|'['
-string|"'flavor_ref'"
+string|"'flavorRef'"
 op|']'
 op|'='
 number|'3'
@@ -18708,7 +18708,7 @@ op|'['
 string|"'server'"
 op|']'
 op|'['
-string|"'flavor_ref'"
+string|"'flavorRef'"
 op|']'
 op|'='
 number|'3'
@@ -18803,7 +18803,7 @@ op|'['
 string|"'server'"
 op|']'
 op|'['
-string|"'flavor_ref'"
+string|"'flavorRef'"
 op|']'
 op|'='
 number|'3'
@@ -18961,7 +18961,7 @@ op|'['
 string|"'server'"
 op|']'
 op|'['
-string|"'flavor_ref'"
+string|"'flavorRef'"
 op|']'
 op|'='
 number|'3'
@@ -19842,14 +19842,14 @@ op|':'
 string|"'server_test'"
 op|','
 nl|'\n'
-string|"'image_ref'"
+string|"'imageRef'"
 op|':'
 name|'self'
 op|'.'
 name|'image_uuid'
 op|','
 nl|'\n'
-string|"'flavor_ref'"
+string|"'flavorRef'"
 op|':'
 name|'self'
 op|'.'
@@ -19934,7 +19934,7 @@ op|'['
 string|"'server'"
 op|']'
 op|'['
-string|"'flavor_ref'"
+string|"'flavorRef'"
 op|']'
 op|'='
 number|'2'
@@ -19953,7 +19953,7 @@ op|']'
 op|'.'
 name|'pop'
 op|'('
-string|"'image_ref'"
+string|"'imageRef'"
 op|','
 name|'None'
 op|')'
