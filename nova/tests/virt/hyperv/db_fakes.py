@@ -359,7 +359,7 @@ op|','
 nl|'\n'
 string|"'root_device_name'"
 op|':'
-name|'None'
+string|"'fake_root_device_name'"
 op|','
 nl|'\n'
 string|"'ephemerals'"
