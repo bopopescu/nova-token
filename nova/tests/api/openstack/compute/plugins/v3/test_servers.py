@@ -8253,7 +8253,7 @@ newline|'\n'
 nl|'\n'
 name|'params'
 op|'='
-string|"'changes_since=2011-01-24T17:08:01Z'"
+string|"'changes-since=2011-01-24T17:08:01Z'"
 newline|'\n'
 name|'req'
 op|'='
@@ -8323,7 +8323,7 @@ newline|'\n'
 indent|'        '
 name|'params'
 op|'='
-string|"'changes_since=asdf'"
+string|"'changes-since=asdf'"
 newline|'\n'
 name|'req'
 op|'='

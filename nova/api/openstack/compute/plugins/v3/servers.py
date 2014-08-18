@@ -1356,7 +1356,7 @@ nl|'\n'
 dedent|''
 dedent|''
 name|'if'
-string|"'changes_since'"
+string|"'changes-since'"
 name|'in'
 name|'search_opts'
 op|':'
@@ -1374,7 +1374,7 @@ name|'parse_isotime'
 op|'('
 name|'search_opts'
 op|'['
-string|"'changes_since'"
+string|"'changes-since'"
 op|']'
 op|')'
 newline|'\n'
@@ -1388,7 +1388,7 @@ name|'msg'
 op|'='
 name|'_'
 op|'('
-string|"'Invalid changes_since value'"
+string|"'Invalid changes-since value'"
 op|')'
 newline|'\n'
 name|'raise'
@@ -1404,7 +1404,7 @@ newline|'\n'
 dedent|''
 name|'search_opts'
 op|'['
-string|"'changes_since'"
+string|"'changes-since'"
 op|']'
 op|'='
 name|'parsed'
@@ -1416,7 +1416,7 @@ comment|"# If an admin hasn't specified a 'deleted' search option, we need"
 nl|'\n'
 comment|'# to filter out deleted instances by setting the filter ourselves.'
 nl|'\n'
-comment|"# ... Unless 'changes_since' is specified, because 'changes_since'"
+comment|"# ... Unless 'changes-since' is specified, because 'changes-since'"
 nl|'\n'
 comment|'# should return recently deleted images according to the API spec.'
 nl|'\n'
@@ -1431,13 +1431,13 @@ op|':'
 newline|'\n'
 indent|'            '
 name|'if'
-string|"'changes_since'"
+string|"'changes-since'"
 name|'not'
 name|'in'
 name|'search_opts'
 op|':'
 newline|'\n'
-comment|"# No 'changes_since', so we only want non-deleted servers"
+comment|"# No 'changes-since', so we only want non-deleted servers"
 nl|'\n'
 indent|'                '
 name|'search_opts'
@@ -1449,27 +1449,6 @@ name|'False'
 newline|'\n'
 nl|'\n'
 dedent|''
-dedent|''
-name|'if'
-string|"'changes_since'"
-name|'in'
-name|'search_opts'
-op|':'
-newline|'\n'
-indent|'            '
-name|'search_opts'
-op|'['
-string|"'changes-since'"
-op|']'
-op|'='
-name|'search_opts'
-op|'.'
-name|'pop'
-op|'('
-string|"'changes_since'"
-op|')'
-newline|'\n'
-nl|'\n'
 dedent|''
 name|'if'
 name|'search_opts'
@@ -6662,7 +6641,7 @@ op|','
 nl|'\n'
 string|"'ip'"
 op|','
-string|"'changes_since'"
+string|"'changes-since'"
 op|','
 string|"'all_tenants'"
 op|')'
