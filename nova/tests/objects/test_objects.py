@@ -7287,7 +7287,7 @@ op|','
 nl|'\n'
 string|"'ComputeNodeList'"
 op|':'
-string|"'1.4-a993fa58c16f423c72496c7555e99987'"
+string|"'1.5-a1641ab314063538470d57daaa5c7831'"
 op|','
 nl|'\n'
 string|"'DNSDomain'"
@@ -7492,12 +7492,12 @@ op|','
 nl|'\n'
 string|"'Service'"
 op|':'
-string|"'1.3-5a3df338c669e1148251431370b440ef'"
+string|"'1.4-82bbfd46a744a9c89bc44b47a1b81683'"
 op|','
 nl|'\n'
 string|"'ServiceList'"
 op|':'
-string|"'1.1-818bc6a463721e42fbb4fbf6f68c4eeb'"
+string|"'1.2-7529974a2565ec1eda23124a16aebe43'"
 op|','
 nl|'\n'
 string|"'TestSubclassedObject'"
