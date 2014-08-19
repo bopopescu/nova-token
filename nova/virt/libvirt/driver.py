@@ -782,7 +782,9 @@ nl|'\n'
 DECL|variable|default
 name|'default'
 op|'='
-string|"'VIR_MIGRATE_UNDEFINE_SOURCE, VIR_MIGRATE_PEER2PEER'"
+string|"'VIR_MIGRATE_UNDEFINE_SOURCE, VIR_MIGRATE_PEER2PEER, '"
+nl|'\n'
+string|"'VIR_MIGRATE_LIVE, VIR_MIGRATE_TUNNELLED'"
 op|','
 nl|'\n'
 DECL|variable|help
@@ -803,6 +805,8 @@ DECL|variable|default
 name|'default'
 op|'='
 string|"'VIR_MIGRATE_UNDEFINE_SOURCE, VIR_MIGRATE_PEER2PEER, '"
+nl|'\n'
+string|"'VIR_MIGRATE_LIVE, VIR_MIGRATE_TUNNELLED, '"
 nl|'\n'
 string|"'VIR_MIGRATE_NON_SHARED_INC'"
 op|','
