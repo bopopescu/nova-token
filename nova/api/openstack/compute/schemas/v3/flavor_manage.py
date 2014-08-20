@@ -295,12 +295,24 @@ nl|'\n'
 op|'}'
 op|','
 nl|'\n'
+comment|"# TODO(oomichi): 'id' should be required with v2.1+microversions."
+nl|'\n'
+comment|'# On v2.0 API, nova-api generates a flavor-id automatically if'
+nl|'\n'
+comment|"# specifying null as 'id' or not specifying 'id'. Ideally a client"
+nl|'\n'
+comment|"# should specify null as 'id' for requesting auto-generated id"
+nl|'\n'
+comment|'# exactly. However, this strict limitation causes a backwards'
+nl|'\n'
+comment|'# incompatible issue on v2.1. So now here relaxes the requirement'
+nl|'\n'
+comment|"# of 'id'."
+nl|'\n'
 string|"'required'"
 op|':'
 op|'['
 string|"'name'"
-op|','
-string|"'id'"
 op|','
 string|"'ram'"
 op|','
