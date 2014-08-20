@@ -559,6 +559,10 @@ op|'['
 string|"'self'"
 op|','
 string|"'instance'"
+op|','
+string|"'timeout'"
+op|','
+string|"'retry_interval'"
 op|']'
 op|')'
 newline|'\n'
