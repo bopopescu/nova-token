@@ -36,7 +36,7 @@ string|"'properties'"
 op|':'
 op|'{'
 nl|'\n'
-string|"'add_fixed_ip'"
+string|"'addFixedIp'"
 op|':'
 op|'{'
 nl|'\n'
@@ -53,7 +53,7 @@ comment|"# The maxLength is from the column 'uuid' of the"
 nl|'\n'
 comment|"# table 'networks'"
 nl|'\n'
-string|"'network_id'"
+string|"'networkId'"
 op|':'
 op|'{'
 nl|'\n'
@@ -84,7 +84,7 @@ nl|'\n'
 string|"'required'"
 op|':'
 op|'['
-string|"'network_id'"
+string|"'networkId'"
 op|']'
 op|','
 nl|'\n'
@@ -102,7 +102,7 @@ nl|'\n'
 string|"'required'"
 op|':'
 op|'['
-string|"'add_fixed_ip'"
+string|"'addFixedIp'"
 op|']'
 op|','
 nl|'\n'
@@ -129,7 +129,7 @@ string|"'properties'"
 op|':'
 op|'{'
 nl|'\n'
-string|"'remove_fixed_ip'"
+string|"'removeFixedIp'"
 op|':'
 op|'{'
 nl|'\n'
@@ -198,7 +198,7 @@ nl|'\n'
 string|"'required'"
 op|':'
 op|'['
-string|"'remove_fixed_ip'"
+string|"'removeFixedIp'"
 op|']'
 op|','
 nl|'\n'
