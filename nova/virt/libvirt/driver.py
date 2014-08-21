@@ -5916,7 +5916,7 @@ op|':'
 newline|'\n'
 comment|"# Don't block on Volume errors if we're trying to"
 nl|'\n'
-comment|'# delete the instance as we may be patially created'
+comment|'# delete the instance as we may be partially created'
 nl|'\n'
 comment|'# or deleted'
 nl|'\n'
