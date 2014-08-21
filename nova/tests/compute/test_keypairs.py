@@ -804,11 +804,9 @@ name|'msg'
 op|'='
 name|'_'
 op|'('
-string|"'Keypair data is invalid'"
+string|"'Keypair data is invalid: %s'"
 op|')'
-op|'+'
-string|"': '"
-op|'+'
+op|'%'
 name|'expected_message'
 newline|'\n'
 name|'self'
