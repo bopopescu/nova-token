@@ -102,7 +102,7 @@ op|','
 nl|'\n'
 string|"'url'"
 op|':'
-string|"'xxx://xxxx/xxx/xxx'"
+string|"'http://example.com/path/to/resource'"
 op|','
 nl|'\n'
 string|"'md5hash'"
@@ -138,7 +138,7 @@ op|','
 nl|'\n'
 string|"'url'"
 op|':'
-string|"'xxx://xxxx/xxx/xxx1'"
+string|"'http://example.com/path/to/resource1'"
 op|','
 nl|'\n'
 string|"'md5hash'"
@@ -174,7 +174,7 @@ op|','
 nl|'\n'
 string|"'url'"
 op|':'
-string|"'xxx://xxxx/xxx/xxx2'"
+string|"'http://example.com/path/to/resource2'"
 op|','
 nl|'\n'
 string|"'md5hash'"
@@ -210,7 +210,7 @@ op|','
 nl|'\n'
 string|"'url'"
 op|':'
-string|"'xxx://xxxx/xxx/xxx3'"
+string|"'http://example.com/path/to/resource3'"
 op|','
 nl|'\n'
 string|"'md5hash'"
@@ -610,7 +610,7 @@ op|','
 nl|'\n'
 string|"'url'"
 op|':'
-string|"'xxx://xxxx/xxx/xxx'"
+string|"'http://example.com/path/to/resource'"
 op|','
 nl|'\n'
 string|"'md5hash'"
@@ -647,7 +647,7 @@ op|','
 nl|'\n'
 string|"'url'"
 op|':'
-string|"'xxx://xxxx/xxx/xxx'"
+string|"'http://example.com/path/to/resource'"
 op|','
 nl|'\n'
 string|"'md5hash'"
@@ -759,7 +759,7 @@ op|','
 nl|'\n'
 string|"'url'"
 op|':'
-string|"'xxx://xxxx/xxx/xxx'"
+string|"'http://example.com/path/to/resource'"
 op|','
 nl|'\n'
 string|"'md5hash'"
@@ -835,7 +835,7 @@ op|','
 nl|'\n'
 string|"'url'"
 op|':'
-string|"'xxx://xxxx/xxx/xxx'"
+string|"'http://example.com/path/to/resource'"
 op|'}'
 op|'}'
 newline|'\n'
@@ -972,7 +972,7 @@ op|','
 nl|'\n'
 string|"'url'"
 op|':'
-string|"'xxx://xxxx/xxx/xxx'"
+string|"'http://example.com/path/to/resource'"
 op|','
 nl|'\n'
 string|"'md5hash'"
@@ -1043,7 +1043,7 @@ op|','
 nl|'\n'
 string|"'url'"
 op|':'
-string|"'xxx://xxxx/xxx/xxx'"
+string|"'http://example.com/path/to/resource'"
 op|','
 nl|'\n'
 string|"'md5hash'"
@@ -1114,7 +1114,7 @@ op|','
 nl|'\n'
 string|"'url'"
 op|':'
-string|"'xxx://xxxx/xxx/xxx'"
+string|"'http://example.com/path/to/resource'"
 op|','
 nl|'\n'
 string|"'md5hash'"
@@ -1185,7 +1185,7 @@ op|','
 nl|'\n'
 string|"'url'"
 op|':'
-string|"'xxx://xxxx/xxx/xxx'"
+string|"'http://example.com/path/to/resource'"
 op|','
 nl|'\n'
 string|"'md5hash'"
@@ -1354,7 +1354,7 @@ op|','
 nl|'\n'
 string|"'url'"
 op|':'
-string|"'xxx://xxxx/xxx/xxx'"
+string|"'http://example.com/path/to/resource'"
 op|','
 nl|'\n'
 string|"'md5hash'"
@@ -1586,7 +1586,7 @@ op|','
 nl|'\n'
 string|"'url'"
 op|':'
-string|"'xxx://xxxx/xxx/xxx'"
+string|"'http://example.com/path/to/resource'"
 op|','
 nl|'\n'
 string|"'md5hash'"
@@ -1622,7 +1622,7 @@ op|','
 nl|'\n'
 string|"'url'"
 op|':'
-string|"'xxx://xxxx/xxx/xxx1'"
+string|"'http://example.com/path/to/resource1'"
 op|','
 nl|'\n'
 string|"'md5hash'"
@@ -1658,7 +1658,7 @@ op|','
 nl|'\n'
 string|"'url'"
 op|':'
-string|"'xxx://xxxx/xxx/xxx2'"
+string|"'http://example.com/path/to/resource2'"
 op|','
 nl|'\n'
 string|"'md5hash'"
@@ -1694,7 +1694,7 @@ op|','
 nl|'\n'
 string|"'url'"
 op|':'
-string|"'xxx://xxxx/xxx/xxx3'"
+string|"'http://example.com/path/to/resource3'"
 op|','
 nl|'\n'
 string|"'md5hash'"
@@ -1776,7 +1776,7 @@ op|','
 nl|'\n'
 string|"'url'"
 op|':'
-string|"'xxx://xxxx/xxx/xxx'"
+string|"'http://example.com/path/to/resource'"
 op|','
 nl|'\n'
 string|"'md5hash'"
@@ -1812,7 +1812,7 @@ op|','
 nl|'\n'
 string|"'url'"
 op|':'
-string|"'xxx://xxxx/xxx/xxx1'"
+string|"'http://example.com/path/to/resource1'"
 op|','
 nl|'\n'
 string|"'md5hash'"
@@ -1871,7 +1871,7 @@ op|','
 nl|'\n'
 string|"'url'"
 op|':'
-string|"'xxx://xxxx/xxx/xxx'"
+string|"'http://example.com/path/to/resource'"
 op|','
 nl|'\n'
 string|"'md5hash'"
@@ -1898,7 +1898,7 @@ op|','
 nl|'\n'
 string|"'url'"
 op|':'
-string|"'xxx://xxxx/xxx/xxx'"
+string|"'http://example.com/path/to/resource'"
 op|','
 nl|'\n'
 string|"'md5hash'"
@@ -1963,7 +1963,7 @@ op|','
 nl|'\n'
 string|"'url'"
 op|':'
-string|"'xxx://xxxx/xxx/xxx'"
+string|"'http://example.com/path/to/resource'"
 op|'}'
 op|'}'
 newline|'\n'
@@ -2221,7 +2221,7 @@ op|','
 nl|'\n'
 string|"'url'"
 op|':'
-string|"'xxx://xxxx/xxx/xxx'"
+string|"'http://example.com/path/to/resource'"
 op|','
 nl|'\n'
 string|"'md5hash'"
