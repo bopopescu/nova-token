@@ -41,7 +41,7 @@ name|'server_create'
 op|'='
 op|'{'
 nl|'\n'
-string|"'os-config-drive:config_drive'"
+string|"'config_drive'"
 op|':'
 name|'parameter_types'
 op|'.'
