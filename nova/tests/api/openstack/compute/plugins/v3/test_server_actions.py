@@ -1084,7 +1084,7 @@ op|'.'
 name|'image_uuid'
 op|','
 nl|'\n'
-string|"'admin_password'"
+string|"'adminPass'"
 op|':'
 string|"'TNc53Dr8s7vw'"
 op|'}'
@@ -2088,7 +2088,7 @@ op|'['
 string|"'server'"
 op|']'
 op|'['
-string|"'admin_password'"
+string|"'adminPass'"
 op|']'
 op|')'
 op|','
@@ -3136,7 +3136,7 @@ op|'.'
 name|'_image_href'
 op|','
 nl|'\n'
-string|'"admin_password"'
+string|'"adminPass"'
 op|':'
 string|'"asdf"'
 op|','
@@ -3207,7 +3207,7 @@ op|'['
 string|"'server'"
 op|']'
 op|'['
-string|"'admin_password'"
+string|"'adminPass'"
 op|']'
 op|','
 string|"'asdf'"
@@ -3355,7 +3355,7 @@ name|'self'
 op|'.'
 name|'assertNotIn'
 op|'('
-string|"'admin_password'"
+string|"'adminPass'"
 op|','
 name|'body'
 op|'['
