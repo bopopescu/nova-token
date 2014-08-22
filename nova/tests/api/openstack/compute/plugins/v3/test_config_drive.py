@@ -1214,11 +1214,11 @@ name|'name'
 op|'='
 string|"'server_test'"
 op|','
-name|'image_ref'
+name|'imageRef'
 op|'='
 name|'image_uuid'
 op|','
-name|'flavor_ref'
+name|'flavorRef'
 op|'='
 number|'2'
 op|')'
@@ -1232,7 +1232,7 @@ name|'server'
 op|'.'
 name|'pop'
 op|'('
-string|"'image_ref'"
+string|"'imageRef'"
 op|','
 name|'None'
 op|')'
@@ -1524,12 +1524,12 @@ op|':'
 string|"'config_drive_test'"
 op|','
 nl|'\n'
-string|"'image_ref'"
+string|"'imageRef'"
 op|':'
 name|'image_href'
 op|','
 nl|'\n'
-string|"'flavor_ref'"
+string|"'flavorRef'"
 op|':'
 name|'flavor_ref'
 op|','
