@@ -259,7 +259,7 @@ string|"'properties'"
 op|':'
 op|'{'
 nl|'\n'
-string|"'agent'"
+string|"'para'"
 op|':'
 op|'{'
 nl|'\n'
@@ -372,7 +372,7 @@ nl|'\n'
 string|"'required'"
 op|':'
 op|'['
-string|"'agent'"
+string|"'para'"
 op|']'
 op|','
 nl|'\n'
