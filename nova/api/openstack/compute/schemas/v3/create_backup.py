@@ -80,15 +80,6 @@ op|':'
 string|"'string'"
 op|','
 nl|'\n'
-string|"'enum'"
-op|':'
-op|'['
-string|"'daily'"
-op|','
-string|"'weekly'"
-op|']'
-op|','
-nl|'\n'
 op|'}'
 op|','
 nl|'\n'
