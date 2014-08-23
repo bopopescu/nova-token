@@ -23065,7 +23065,7 @@ name|'self'
 op|')'
 op|':'
 newline|'\n'
-comment|'# Test create with malformed body.'
+comment|'# Test update with malformed body.'
 nl|'\n'
 nl|'\n'
 DECL|function|fake_update
@@ -23102,7 +23102,7 @@ name|'compute_api'
 op|'.'
 name|'API'
 op|','
-string|"'create'"
+string|"'update'"
 op|','
 name|'fake_update'
 op|')'
