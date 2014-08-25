@@ -398,7 +398,7 @@ op|','
 nl|'\n'
 string|"'DAY'"
 op|':'
-number|'84400'
+number|'86400'
 nl|'\n'
 op|'}'
 newline|'\n'
