@@ -40,7 +40,7 @@ string|"'properties'"
 op|':'
 op|'{'
 nl|'\n'
-string|"'interface_attachment'"
+string|"'interfaceAttachment'"
 op|':'
 op|'{'
 nl|'\n'

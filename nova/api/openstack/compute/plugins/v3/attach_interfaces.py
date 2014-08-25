@@ -424,7 +424,7 @@ nl|'\n'
 dedent|''
 name|'return'
 op|'{'
-string|"'interface_attachment'"
+string|"'interfaceAttachment'"
 op|':'
 name|'_translate_interface_attachment_view'
 op|'('
@@ -519,7 +519,7 @@ name|'attachment'
 op|'='
 name|'body'
 op|'['
-string|"'interface_attachment'"
+string|"'interfaceAttachment'"
 op|']'
 newline|'\n'
 name|'network_id'
@@ -1190,7 +1190,7 @@ newline|'\n'
 nl|'\n'
 name|'return'
 op|'{'
-string|"'interface_attachments'"
+string|"'interfaceAttachments'"
 op|':'
 name|'results'
 op|'}'
