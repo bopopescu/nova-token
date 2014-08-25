@@ -75,9 +75,7 @@ newline|'\n'
 DECL|variable|ATTRIBUTE_NAME
 name|'ATTRIBUTE_NAME'
 op|'='
-string|'"%s:config_drive"'
-op|'%'
-name|'ALIAS'
+string|'"config_drive"'
 newline|'\n'
 DECL|variable|authorize
 name|'authorize'
