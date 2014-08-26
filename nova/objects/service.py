@@ -948,7 +948,7 @@ comment|'# Version 1.0: Initial version'
 nl|'\n'
 comment|'#              Service <= version 1.2'
 nl|'\n'
-comment|'# Version 1.2  Service version 1.3'
+comment|'# Version 1.1  Service version 1.3'
 nl|'\n'
 DECL|variable|VERSION
 indent|'    '
