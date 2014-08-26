@@ -60681,9 +60681,8 @@ op|'.'
 name|'assertEqual'
 op|'('
 name|'vnc_dict'
-op|'['
-string|"'port'"
-op|']'
+op|'.'
+name|'port'
 op|','
 string|"'5900'"
 op|')'
@@ -60980,9 +60979,8 @@ op|'.'
 name|'assertEqual'
 op|'('
 name|'spice_dict'
-op|'['
-string|"'port'"
-op|']'
+op|'.'
+name|'port'
 op|','
 string|"'5950'"
 op|')'
