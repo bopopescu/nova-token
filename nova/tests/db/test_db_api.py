@@ -45689,6 +45689,10 @@ nl|'\n'
 name|'stats'
 op|'='
 string|"''"
+op|','
+name|'numa_topology'
+op|'='
+string|"''"
 op|')'
 newline|'\n'
 comment|'# add some random stats'
