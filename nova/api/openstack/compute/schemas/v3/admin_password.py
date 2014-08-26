@@ -51,7 +51,7 @@ string|"'properties'"
 op|':'
 op|'{'
 nl|'\n'
-string|"'change_password'"
+string|"'changePassword'"
 op|':'
 op|'{'
 nl|'\n'
@@ -64,7 +64,7 @@ string|"'properties'"
 op|':'
 op|'{'
 nl|'\n'
-string|"'admin_password'"
+string|"'adminPass'"
 op|':'
 name|'parameter_types'
 op|'.'
@@ -77,7 +77,7 @@ nl|'\n'
 string|"'required'"
 op|':'
 op|'['
-string|"'admin_password'"
+string|"'adminPass'"
 op|']'
 op|','
 nl|'\n'
@@ -95,7 +95,7 @@ nl|'\n'
 string|"'required'"
 op|':'
 op|'['
-string|"'change_password'"
+string|"'changePassword'"
 op|']'
 op|','
 nl|'\n'
