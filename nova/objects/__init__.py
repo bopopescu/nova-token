@@ -146,6 +146,11 @@ op|')'
 newline|'\n'
 name|'__import__'
 op|'('
+string|"'nova.objects.network_request'"
+op|')'
+newline|'\n'
+name|'__import__'
+op|'('
 string|"'nova.objects.pci_device'"
 op|')'
 newline|'\n'
