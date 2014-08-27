@@ -345,7 +345,7 @@ name|'wsgi'
 op|'.'
 name|'action'
 op|'('
-string|"'shelve_offload'"
+string|"'shelveOffload'"
 op|')'
 newline|'\n'
 DECL|member|_shelve_offload
@@ -456,7 +456,7 @@ op|'('
 name|'state_error'
 op|','
 nl|'\n'
-string|"'shelve_offload'"
+string|"'shelveOffload'"
 op|')'
 newline|'\n'
 nl|'\n'

@@ -244,7 +244,7 @@ name|'uuid'
 op|','
 string|"'os-shelve-offload'"
 op|','
-string|"'shelve_offload'"
+string|"'shelveOffload'"
 op|')'
 newline|'\n'
 nl|'\n'
