@@ -115,6 +115,11 @@ name|'VIF_TYPE_IVS'
 op|'='
 string|"'ivs'"
 newline|'\n'
+DECL|variable|VIF_TYPE_DVS
+name|'VIF_TYPE_DVS'
+op|'='
+string|"'dvs'"
+newline|'\n'
 DECL|variable|VIF_TYPE_IOVISOR
 name|'VIF_TYPE_IOVISOR'
 op|'='
