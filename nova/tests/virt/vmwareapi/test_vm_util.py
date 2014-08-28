@@ -5350,8 +5350,6 @@ nl|'\n'
 string|"'fake-source'"
 op|','
 string|"'fake-dest'"
-op|','
-string|"'fake-spec'"
 op|')'
 newline|'\n'
 name|'fake_call_method'
@@ -5385,11 +5383,6 @@ nl|'\n'
 name|'destName'
 op|'='
 string|"'fake-dest'"
-op|','
-nl|'\n'
-name|'destSpec'
-op|'='
-string|"'fake-spec'"
 op|')'
 newline|'\n'
 name|'fake_wait_for_task'
