@@ -217,7 +217,7 @@ DECL|variable|base_url
 indent|'    '
 name|'base_url'
 op|'='
-string|"'/v3/servers/'"
+string|"'/v2/fake/servers/'"
 newline|'\n'
 nl|'\n'
 DECL|member|_setup_wsgi
@@ -235,7 +235,7 @@ name|'app'
 op|'='
 name|'fakes'
 op|'.'
-name|'wsgi_app_v3'
+name|'wsgi_app_v21'
 op|'('
 name|'init_only'
 op|'='
@@ -555,14 +555,9 @@ name|'ConfigDriveTestV21'
 op|')'
 op|':'
 newline|'\n'
-DECL|variable|base_url
-indent|'    '
-name|'base_url'
-op|'='
-string|"'/v2/fake/servers/'"
-newline|'\n'
 nl|'\n'
 DECL|member|_get_config_drive_controller
+indent|'    '
 name|'def'
 name|'_get_config_drive_controller'
 op|'('
@@ -643,7 +638,7 @@ DECL|variable|base_url
 indent|'    '
 name|'base_url'
 op|'='
-string|"'/v3/'"
+string|"'/v2/fake/'"
 newline|'\n'
 DECL|variable|bad_request
 name|'bad_request'
@@ -1724,13 +1719,8 @@ name|'ServersControllerCreateTestV21'
 op|')'
 op|':'
 newline|'\n'
-DECL|variable|base_url
-indent|'    '
-name|'base_url'
-op|'='
-string|"'/v2/fake/'"
-newline|'\n'
 DECL|variable|bad_request
+indent|'    '
 name|'bad_request'
 op|'='
 name|'webob'

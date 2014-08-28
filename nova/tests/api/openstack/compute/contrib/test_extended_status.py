@@ -311,7 +311,7 @@ newline|'\n'
 DECL|variable|fake_url
 name|'fake_url'
 op|'='
-string|"'/v3'"
+string|"'/v2/fake'"
 newline|'\n'
 nl|'\n'
 DECL|member|_set_flags
@@ -368,7 +368,7 @@ name|'get_response'
 op|'('
 name|'fakes'
 op|'.'
-name|'wsgi_app_v3'
+name|'wsgi_app_v21'
 op|'('
 nl|'\n'
 name|'init_only'
@@ -870,14 +870,9 @@ name|'ExtendedStatusTestV21'
 op|')'
 op|':'
 newline|'\n'
-DECL|variable|fake_url
-indent|'    '
-name|'fake_url'
-op|'='
-string|"'/v2/fake'"
-newline|'\n'
 nl|'\n'
 DECL|member|_set_flags
+indent|'    '
 name|'def'
 name|'_set_flags'
 op|'('
