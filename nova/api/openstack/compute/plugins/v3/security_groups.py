@@ -124,9 +124,7 @@ newline|'\n'
 DECL|variable|ATTRIBUTE_NAME
 name|'ATTRIBUTE_NAME'
 op|'='
-string|"'%s:security_groups'"
-op|'%'
-name|'ALIAS'
+string|"'security_groups'"
 newline|'\n'
 DECL|variable|authorize
 name|'authorize'

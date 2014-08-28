@@ -41,7 +41,7 @@ name|'server_create'
 op|'='
 op|'{'
 nl|'\n'
-string|"'os-security-groups:security_groups'"
+string|"'security_groups'"
 op|':'
 op|'{'
 nl|'\n'
@@ -62,6 +62,12 @@ nl|'\n'
 string|"'properties'"
 op|':'
 op|'{'
+nl|'\n'
+comment|'# NOTE(oomichi): allocate_for_instance() of neutronv2/api.py'
+nl|'\n'
+comment|'# gets security_group names or UUIDs from this parameter.'
+nl|'\n'
+comment|'# parameter_types.name allows both format.'
 nl|'\n'
 string|"'name'"
 op|':'
