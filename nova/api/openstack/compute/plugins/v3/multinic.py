@@ -181,7 +181,7 @@ name|'wsgi'
 op|'.'
 name|'action'
 op|'('
-string|"'add_fixed_ip'"
+string|"'addFixedIp'"
 op|')'
 newline|'\n'
 op|'@'
@@ -189,7 +189,11 @@ name|'extensions'
 op|'.'
 name|'expected_errors'
 op|'('
+op|'('
+number|'400'
+op|','
 number|'404'
+op|')'
 op|')'
 newline|'\n'
 op|'@'
@@ -258,10 +262,10 @@ name|'network_id'
 op|'='
 name|'body'
 op|'['
-string|"'add_fixed_ip'"
+string|"'addFixedIp'"
 op|']'
 op|'['
-string|"'network_id'"
+string|"'networkId'"
 op|']'
 newline|'\n'
 name|'try'
@@ -324,7 +328,7 @@ name|'wsgi'
 op|'.'
 name|'action'
 op|'('
-string|"'remove_fixed_ip'"
+string|"'removeFixedIp'"
 op|')'
 newline|'\n'
 op|'@'
@@ -405,7 +409,7 @@ name|'address'
 op|'='
 name|'body'
 op|'['
-string|"'remove_fixed_ip'"
+string|"'removeFixedIp'"
 op|']'
 op|'['
 string|"'address'"
