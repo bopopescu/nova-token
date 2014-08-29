@@ -313,7 +313,7 @@ name|'wsgi'
 op|'.'
 name|'action'
 op|'('
-string|"'force_delete'"
+string|"'forceDelete'"
 op|')'
 newline|'\n'
 DECL|member|_force_delete
@@ -399,7 +399,7 @@ op|'('
 name|'state_error'
 op|','
 nl|'\n'
-string|"'force_delete'"
+string|"'forceDelete'"
 op|')'
 newline|'\n'
 dedent|''
