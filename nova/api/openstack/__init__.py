@@ -303,7 +303,7 @@ nl|'\n'
 string|"'ips'"
 op|','
 nl|'\n'
-string|"'keypairs'"
+string|"'os-keypairs'"
 op|','
 nl|'\n'
 string|"'server-metadata'"

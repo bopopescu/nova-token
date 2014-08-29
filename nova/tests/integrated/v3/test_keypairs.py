@@ -121,7 +121,7 @@ name|'self'
 op|'.'
 name|'_do_post'
 op|'('
-string|"'keypairs'"
+string|"'os-keypairs'"
 op|','
 string|"'keypairs-post-req'"
 op|','
@@ -160,7 +160,7 @@ name|'subs'
 op|','
 name|'response'
 op|','
-number|'201'
+number|'200'
 op|')'
 newline|'\n'
 comment|'# NOTE(maurosr): return the key_name is necessary cause the'
@@ -227,7 +227,7 @@ name|'self'
 op|'.'
 name|'_do_post'
 op|'('
-string|"'keypairs'"
+string|"'os-keypairs'"
 op|','
 string|"'keypairs-import-post-req'"
 op|','
@@ -262,7 +262,7 @@ name|'subs'
 op|','
 name|'response'
 op|','
-number|'201'
+number|'200'
 op|')'
 newline|'\n'
 nl|'\n'
@@ -292,7 +292,7 @@ name|'self'
 op|'.'
 name|'_do_get'
 op|'('
-string|"'keypairs'"
+string|"'os-keypairs'"
 op|')'
 newline|'\n'
 name|'subs'
@@ -352,7 +352,7 @@ name|'self'
 op|'.'
 name|'_do_get'
 op|'('
-string|"'keypairs/%s'"
+string|"'os-keypairs/%s'"
 op|'%'
 name|'key_name'
 op|')'
