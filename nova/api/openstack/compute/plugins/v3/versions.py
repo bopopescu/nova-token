@@ -105,7 +105,7 @@ name|'req'
 op|','
 name|'id'
 op|'='
-string|"'v3.0'"
+string|"'v2.1'"
 op|')'
 op|':'
 newline|'\n'
