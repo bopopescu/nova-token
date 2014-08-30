@@ -316,13 +316,8 @@ op|'{'
 nl|'\n'
 string|"'type'"
 op|':'
-op|'['
 string|"'string'"
 op|','
-string|"'number'"
-op|']'
-op|','
-nl|'\n'
 string|"'maxLength'"
 op|':'
 number|'255'
