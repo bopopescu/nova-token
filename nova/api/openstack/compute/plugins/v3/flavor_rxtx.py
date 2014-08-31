@@ -114,11 +114,7 @@ op|')'
 newline|'\n'
 name|'key'
 op|'='
-string|"'%s:rxtx_factor'"
-op|'%'
-name|'FlavorRxtx'
-op|'.'
-name|'alias'
+string|"'rxtx_factor'"
 newline|'\n'
 name|'flavor'
 op|'['

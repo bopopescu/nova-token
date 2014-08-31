@@ -419,7 +419,7 @@ name|'vals'
 op|'.'
 name|'get'
 op|'('
-string|"'os-flavor-rxtx:rxtx_factor'"
+string|"'rxtx_factor'"
 op|','
 number|'1.0'
 op|')'
