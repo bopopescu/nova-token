@@ -45,9 +45,7 @@ newline|'\n'
 DECL|variable|ATTRIBUTE_NAME
 name|'ATTRIBUTE_NAME'
 op|'='
-string|"'%s:user_data'"
-op|'%'
-name|'ALIAS'
+string|"'user_data'"
 newline|'\n'
 nl|'\n'
 nl|'\n'
@@ -73,7 +71,7 @@ newline|'\n'
 DECL|variable|alias
 name|'alias'
 op|'='
-string|'"os-user-data"'
+name|'ALIAS'
 newline|'\n'
 DECL|variable|version
 name|'version'

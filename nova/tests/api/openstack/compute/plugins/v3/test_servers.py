@@ -18181,7 +18181,7 @@ indent|'        '
 name|'params'
 op|'='
 op|'{'
-string|"'os-user-data:user_data'"
+string|"'user_data'"
 op|':'
 string|"'u1234'"
 op|'}'
