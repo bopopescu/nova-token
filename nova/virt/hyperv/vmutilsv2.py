@@ -160,6 +160,11 @@ name|'_SCSI_CTRL_RES_SUB_TYPE'
 op|'='
 string|"'Microsoft:Hyper-V:Synthetic SCSI Controller'"
 newline|'\n'
+DECL|variable|_SERIAL_PORT_RES_SUB_TYPE
+name|'_SERIAL_PORT_RES_SUB_TYPE'
+op|'='
+string|"'Microsoft:Hyper-V:Serial Port'"
+newline|'\n'
 nl|'\n'
 DECL|variable|_VIRTUAL_SYSTEM_TYPE_REALIZED
 name|'_VIRTUAL_SYSTEM_TYPE_REALIZED'
