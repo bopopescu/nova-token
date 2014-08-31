@@ -81,7 +81,7 @@ name|'self'
 op|'.'
 name|'_do_get'
 op|'('
-string|"'servers/%s/os-server-diagnostics'"
+string|"'servers/%s/diagnostics'"
 op|'%'
 name|'uuid'
 op|')'
