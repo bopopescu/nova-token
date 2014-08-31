@@ -6704,7 +6704,7 @@ op|','
 nl|'\n'
 name|'version'
 op|'='
-string|"'3.23'"
+string|"'3.33'"
 op|')'
 newline|'\n'
 dedent|''
