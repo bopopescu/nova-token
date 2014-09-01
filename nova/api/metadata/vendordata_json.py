@@ -93,7 +93,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'File to load json formatted vendor data from'"
+string|"'File to load JSON formatted vendor data from'"
 op|')'
 newline|'\n'
 nl|'\n'
