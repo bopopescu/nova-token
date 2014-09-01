@@ -40,7 +40,7 @@ string|"'properties'"
 op|':'
 op|'{'
 nl|'\n'
-string|"'get_vnc_console'"
+string|"'os-getVNCConsole'"
 op|':'
 op|'{'
 nl|'\n'
@@ -98,7 +98,7 @@ nl|'\n'
 string|"'required'"
 op|':'
 op|'['
-string|"'get_vnc_console'"
+string|"'os-getVNCConsole'"
 op|']'
 op|','
 nl|'\n'
@@ -124,7 +124,7 @@ string|"'properties'"
 op|':'
 op|'{'
 nl|'\n'
-string|"'get_spice_console'"
+string|"'os-getSPICEConsole'"
 op|':'
 op|'{'
 nl|'\n'
@@ -180,7 +180,7 @@ nl|'\n'
 string|"'required'"
 op|':'
 op|'['
-string|"'get_spice_console'"
+string|"'os-getSPICEConsole'"
 op|']'
 op|','
 nl|'\n'
@@ -206,7 +206,7 @@ string|"'properties'"
 op|':'
 op|'{'
 nl|'\n'
-string|"'get_rdp_console'"
+string|"'os-getRDPConsole'"
 op|':'
 op|'{'
 nl|'\n'
@@ -262,7 +262,7 @@ nl|'\n'
 string|"'required'"
 op|':'
 op|'['
-string|"'get_rdp_console'"
+string|"'os-getRDPConsole'"
 op|']'
 op|','
 nl|'\n'

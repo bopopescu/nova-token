@@ -194,7 +194,7 @@ name|'wsgi'
 op|'.'
 name|'action'
 op|'('
-string|"'get_vnc_console'"
+string|"'os-getVNCConsole'"
 op|')'
 newline|'\n'
 op|'@'
@@ -245,7 +245,7 @@ name|'console_type'
 op|'='
 name|'body'
 op|'['
-string|"'get_vnc_console'"
+string|"'os-getVNCConsole'"
 op|']'
 op|'.'
 name|'get'
@@ -441,7 +441,7 @@ name|'wsgi'
 op|'.'
 name|'action'
 op|'('
-string|"'get_spice_console'"
+string|"'os-getSPICEConsole'"
 op|')'
 newline|'\n'
 op|'@'
@@ -492,7 +492,7 @@ name|'console_type'
 op|'='
 name|'body'
 op|'['
-string|"'get_spice_console'"
+string|"'os-getSPICEConsole'"
 op|']'
 op|'.'
 name|'get'
@@ -690,7 +690,7 @@ name|'wsgi'
 op|'.'
 name|'action'
 op|'('
-string|"'get_rdp_console'"
+string|"'os-getRDPConsole'"
 op|')'
 newline|'\n'
 op|'@'
@@ -741,7 +741,7 @@ name|'console_type'
 op|'='
 name|'body'
 op|'['
-string|"'get_rdp_console'"
+string|"'os-getRDPConsole'"
 op|']'
 op|'.'
 name|'get'
