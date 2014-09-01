@@ -89,7 +89,7 @@ DECL|variable|extension_name
 indent|'    '
 name|'extension_name'
 op|'='
-string|"'os-server-actions'"
+string|"'os-instance-actions'"
 newline|'\n'
 nl|'\n'
 DECL|member|setUp
@@ -139,9 +139,9 @@ op|'('
 op|')'
 newline|'\n'
 nl|'\n'
-DECL|function|fake_server_action_get_by_request_id
+DECL|function|fake_instance_action_get_by_request_id
 name|'def'
-name|'fake_server_action_get_by_request_id'
+name|'fake_instance_action_get_by_request_id'
 op|'('
 name|'context'
 op|','
@@ -206,10 +206,10 @@ op|')'
 op|']'
 newline|'\n'
 nl|'\n'
-DECL|function|fake_server_action_events_get
+DECL|function|fake_instance_action_events_get
 dedent|''
 name|'def'
-name|'fake_server_action_events_get'
+name|'fake_instance_action_events_get'
 op|'('
 name|'context'
 op|','
@@ -287,7 +287,7 @@ op|','
 string|"'action_get_by_request_id'"
 op|','
 nl|'\n'
-name|'fake_server_action_get_by_request_id'
+name|'fake_instance_action_get_by_request_id'
 op|')'
 newline|'\n'
 name|'self'
@@ -314,7 +314,7 @@ op|','
 string|"'action_events_get'"
 op|','
 nl|'\n'
-name|'fake_server_action_events_get'
+name|'fake_instance_action_events_get'
 op|')'
 newline|'\n'
 name|'self'
@@ -346,10 +346,10 @@ name|'fake_get'
 op|')'
 newline|'\n'
 nl|'\n'
-DECL|member|test_server_action_get
+DECL|member|test_instance_action_get
 dedent|''
 name|'def'
-name|'test_server_action_get'
+name|'test_instance_action_get'
 op|'('
 name|'self'
 op|')'
@@ -387,7 +387,7 @@ name|'self'
 op|'.'
 name|'_do_get'
 op|'('
-string|"'servers/%s/os-server-actions/%s'"
+string|"'servers/%s/os-instance-actions/%s'"
 op|'%'
 nl|'\n'
 op|'('
@@ -464,7 +464,7 @@ name|'self'
 op|'.'
 name|'_verify_response'
 op|'('
-string|"'server-action-get-resp'"
+string|"'instance-action-get-resp'"
 op|','
 name|'subs'
 op|','
@@ -474,10 +474,10 @@ number|'200'
 op|')'
 newline|'\n'
 nl|'\n'
-DECL|member|test_server_actions_list
+DECL|member|test_instance_actions_list
 dedent|''
 name|'def'
-name|'test_server_actions_list'
+name|'test_instance_actions_list'
 op|'('
 name|'self'
 op|')'
@@ -496,7 +496,7 @@ name|'self'
 op|'.'
 name|'_do_get'
 op|'('
-string|"'servers/%s/os-server-actions'"
+string|"'servers/%s/os-instance-actions'"
 op|'%'
 op|'('
 name|'fake_uuid'
@@ -540,7 +540,7 @@ name|'self'
 op|'.'
 name|'_verify_response'
 op|'('
-string|"'server-actions-list-resp'"
+string|"'instance-actions-list-resp'"
 op|','
 name|'subs'
 op|','
