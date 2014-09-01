@@ -116,7 +116,7 @@ name|'self'
 op|'.'
 name|'_do_get'
 op|'('
-string|"'os-hypervisors/search?query=fake'"
+string|"'os-hypervisors/fake/search'"
 op|')'
 newline|'\n'
 name|'self'
@@ -150,7 +150,7 @@ name|'self'
 op|'.'
 name|'_do_get'
 op|'('
-string|"'os-hypervisors/1/servers'"
+string|"'os-hypervisors/fake/servers'"
 op|')'
 newline|'\n'
 name|'self'
