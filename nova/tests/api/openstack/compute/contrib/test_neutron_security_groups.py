@@ -872,7 +872,7 @@ op|']'
 op|','
 string|"'tenant_id'"
 op|':'
-string|"'fake_tenant'"
+string|"'fake'"
 op|','
 string|"'id'"
 op|':'
@@ -2150,10 +2150,14 @@ op|','
 name|'param'
 op|','
 name|'name'
+op|','
+nl|'\n'
+name|'project_id'
+op|'='
+name|'None'
 op|')'
 op|':'
 newline|'\n'
-nl|'\n'
 indent|'            '
 name|'raise'
 name|'n_exc'
@@ -5148,7 +5152,7 @@ op|','
 nl|'\n'
 string|"'tenant_id'"
 op|':'
-string|"'fake_tenant'"
+string|"'fake'"
 op|','
 string|"'security_group_rules'"
 op|':'
