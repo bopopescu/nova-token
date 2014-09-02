@@ -112,11 +112,13 @@ comment|'# Version 1.2: String attributes updated to support unicode'
 nl|'\n'
 comment|'# Version 1.3: ComputeNode version 1.5'
 nl|'\n'
+comment|'# Version 1.4: Added use_slave to get_by_compute_host'
+nl|'\n'
 DECL|variable|VERSION
 indent|'    '
 name|'VERSION'
 op|'='
-string|"'1.3'"
+string|"'1.4'"
 newline|'\n'
 nl|'\n'
 DECL|variable|fields
@@ -684,6 +686,10 @@ op|','
 name|'context'
 op|','
 name|'host'
+op|','
+name|'use_slave'
+op|'='
+name|'False'
 op|')'
 op|':'
 newline|'\n'
@@ -950,11 +956,13 @@ comment|'#              Service <= version 1.2'
 nl|'\n'
 comment|'# Version 1.1  Service version 1.3'
 nl|'\n'
+comment|'# Version 1.2: Service version 1.4'
+nl|'\n'
 DECL|variable|VERSION
 indent|'    '
 name|'VERSION'
 op|'='
-string|"'1.1'"
+string|"'1.2'"
 newline|'\n'
 nl|'\n'
 DECL|variable|fields
@@ -989,6 +997,11 @@ nl|'\n'
 string|"'1.1'"
 op|':'
 string|"'1.3'"
+op|','
+nl|'\n'
+string|"'1.2'"
+op|':'
+string|"'1.4'"
 op|','
 nl|'\n'
 op|'}'
