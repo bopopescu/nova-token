@@ -266,7 +266,7 @@ name|'self'
 op|'.'
 name|'_do_get'
 op|'('
-string|"'flavors/%s/flavor-access'"
+string|"'flavors/%s/os-flavor-access'"
 op|'%'
 name|'flavor_id'
 op|')'

@@ -40,7 +40,7 @@ string|"'properties'"
 op|':'
 op|'{'
 nl|'\n'
-string|"'add_tenant_access'"
+string|"'addTenantAccess'"
 op|':'
 op|'{'
 nl|'\n'
@@ -53,7 +53,7 @@ string|"'properties'"
 op|':'
 op|'{'
 nl|'\n'
-string|"'tenant_id'"
+string|"'tenant'"
 op|':'
 op|'{'
 nl|'\n'
@@ -81,7 +81,7 @@ nl|'\n'
 string|"'required'"
 op|':'
 op|'['
-string|"'tenant_id'"
+string|"'tenant'"
 op|']'
 op|','
 nl|'\n'
@@ -99,7 +99,7 @@ nl|'\n'
 string|"'required'"
 op|':'
 op|'['
-string|"'add_tenant_access'"
+string|"'addTenantAccess'"
 op|']'
 op|','
 nl|'\n'
@@ -126,7 +126,7 @@ string|"'properties'"
 op|':'
 op|'{'
 nl|'\n'
-string|"'remove_tenant_access'"
+string|"'removeTenantAccess'"
 op|':'
 op|'{'
 nl|'\n'
@@ -139,7 +139,7 @@ string|"'properties'"
 op|':'
 op|'{'
 nl|'\n'
-string|"'tenant_id'"
+string|"'tenant'"
 op|':'
 op|'{'
 nl|'\n'
@@ -167,7 +167,7 @@ nl|'\n'
 string|"'required'"
 op|':'
 op|'['
-string|"'tenant_id'"
+string|"'tenant'"
 op|']'
 op|','
 nl|'\n'
@@ -185,7 +185,7 @@ nl|'\n'
 string|"'required'"
 op|':'
 op|'['
-string|"'remove_tenant_access'"
+string|"'removeTenantAccess'"
 op|']'
 op|','
 nl|'\n'

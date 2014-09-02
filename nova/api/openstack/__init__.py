@@ -288,9 +288,6 @@ nl|'\n'
 string|"'extensions'"
 op|','
 nl|'\n'
-string|"'flavor-access'"
-op|','
-nl|'\n'
 string|"'flavor-extra-specs'"
 op|','
 nl|'\n'
@@ -304,6 +301,9 @@ string|"'ips'"
 op|','
 nl|'\n'
 string|"'os-keypairs'"
+op|','
+nl|'\n'
+string|"'os-flavor-access'"
 op|','
 nl|'\n'
 string|"'server-metadata'"

@@ -266,7 +266,7 @@ nl|'\n'
 op|'}'
 op|','
 nl|'\n'
-string|"'flavor-access:is_public'"
+string|"'os-flavor-access:is_public'"
 op|':'
 name|'parameter_types'
 op|'.'
