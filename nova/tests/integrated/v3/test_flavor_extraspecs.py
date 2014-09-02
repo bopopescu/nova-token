@@ -87,7 +87,7 @@ name|'self'
 op|'.'
 name|'_do_post'
 op|'('
-string|"'flavors/1/flavor-extra-specs'"
+string|"'flavors/1/os-extra_specs'"
 op|','
 nl|'\n'
 string|"'flavor-extra-specs-create-req'"
@@ -106,7 +106,7 @@ name|'subs'
 op|','
 name|'response'
 op|','
-number|'201'
+number|'200'
 op|')'
 newline|'\n'
 nl|'\n'
@@ -140,7 +140,7 @@ name|'self'
 op|'.'
 name|'_do_get'
 op|'('
-string|"'flavors/1/flavor-extra-specs/key1'"
+string|"'flavors/1/os-extra_specs/key1'"
 op|')'
 newline|'\n'
 name|'self'
@@ -194,7 +194,7 @@ name|'self'
 op|'.'
 name|'_do_get'
 op|'('
-string|"'flavors/1/flavor-extra-specs'"
+string|"'flavors/1/os-extra_specs'"
 op|')'
 newline|'\n'
 name|'self'
@@ -259,7 +259,7 @@ name|'self'
 op|'.'
 name|'_do_put'
 op|'('
-string|"'flavors/1/flavor-extra-specs/key1'"
+string|"'flavors/1/os-extra_specs/key1'"
 op|','
 nl|'\n'
 string|"'flavor-extra-specs-update-req'"
@@ -304,7 +304,7 @@ name|'self'
 op|'.'
 name|'_do_delete'
 op|'('
-string|"'flavors/1/flavor-extra-specs/key1'"
+string|"'flavors/1/os-extra_specs/key1'"
 op|')'
 newline|'\n'
 name|'self'
@@ -315,7 +315,7 @@ name|'response'
 op|'.'
 name|'status'
 op|','
-number|'204'
+number|'200'
 op|')'
 newline|'\n'
 name|'self'
