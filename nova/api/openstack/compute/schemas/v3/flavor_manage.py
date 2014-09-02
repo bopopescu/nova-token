@@ -185,7 +185,7 @@ op|','
 nl|'\n'
 comment|'# non-negative ( >= 0) integer'
 nl|'\n'
-string|"'ephemeral'"
+string|"'OS-FLV-EXT-DATA:ephemeral'"
 op|':'
 op|'{'
 nl|'\n'
