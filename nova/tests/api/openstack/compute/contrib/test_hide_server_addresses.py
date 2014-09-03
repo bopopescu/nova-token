@@ -208,7 +208,7 @@ newline|'\n'
 DECL|variable|base_url
 name|'base_url'
 op|'='
-string|"'/v3/servers'"
+string|"'/v2/fake/servers'"
 newline|'\n'
 nl|'\n'
 DECL|member|_setup_wsgi
@@ -226,7 +226,7 @@ name|'wsgi_app'
 op|'='
 name|'fakes'
 op|'.'
-name|'wsgi_app_v3'
+name|'wsgi_app_v21'
 op|'('
 nl|'\n'
 name|'init_only'
@@ -1031,14 +1031,9 @@ name|'HideServerAddressesTestV21'
 op|')'
 op|':'
 newline|'\n'
-DECL|variable|base_url
-indent|'    '
-name|'base_url'
-op|'='
-string|"'/v2/fake/servers'"
-newline|'\n'
 nl|'\n'
 DECL|member|_setup_wsgi
+indent|'    '
 name|'def'
 name|'_setup_wsgi'
 op|'('

@@ -319,7 +319,7 @@ newline|'\n'
 DECL|variable|fake_url
 name|'fake_url'
 op|'='
-string|"'/v3'"
+string|"'/v2/fake'"
 newline|'\n'
 nl|'\n'
 DECL|member|setUp
@@ -442,7 +442,7 @@ op|'('
 nl|'\n'
 name|'fakes'
 op|'.'
-name|'wsgi_app_v3'
+name|'wsgi_app_v21'
 op|'('
 name|'init_only'
 op|'='
@@ -853,14 +853,9 @@ name|'ExtendedServerAttributesTestV21'
 op|')'
 op|':'
 newline|'\n'
-DECL|variable|fake_url
-indent|'    '
-name|'fake_url'
-op|'='
-string|"'/v2/fake'"
-newline|'\n'
 nl|'\n'
 DECL|member|setUp
+indent|'    '
 name|'def'
 name|'setUp'
 op|'('
