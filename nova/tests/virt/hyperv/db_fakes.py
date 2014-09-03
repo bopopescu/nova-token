@@ -837,6 +837,15 @@ string|"'root_gb'"
 op|']'
 op|','
 nl|'\n'
+string|"'system_metadata'"
+op|':'
+op|'{'
+string|"'image_shutdown_timeout'"
+op|':'
+number|'0'
+op|'}'
+op|','
+nl|'\n'
 op|'}'
 newline|'\n'
 name|'return'
