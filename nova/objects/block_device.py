@@ -435,13 +435,9 @@ name|'instance'
 op|'.'
 name|'obj_make_compatible'
 op|'('
-nl|'\n'
 name|'primitive'
 op|'['
 string|"'instance'"
-op|']'
-op|'['
-string|"'nova_object.data'"
 op|']'
 op|','
 string|"'1.13'"
