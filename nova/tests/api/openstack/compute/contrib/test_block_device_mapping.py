@@ -369,11 +369,6 @@ string|"'server'"
 op|':'
 op|'{'
 nl|'\n'
-string|"'min_count'"
-op|':'
-number|'2'
-op|','
-nl|'\n'
 string|"'name'"
 op|':'
 string|"'server_test'"

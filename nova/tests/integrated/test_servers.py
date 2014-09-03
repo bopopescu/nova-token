@@ -3146,16 +3146,6 @@ name|'_flavor_ref_parameter'
 op|'='
 string|"'flavorRef'"
 newline|'\n'
-DECL|variable|_return_resv_id_parameter
-name|'_return_resv_id_parameter'
-op|'='
-string|"'os-multiple-create:return_reservation_id'"
-newline|'\n'
-DECL|variable|_min_count_parameter
-name|'_min_count_parameter'
-op|'='
-string|"'os-multiple-create:min_count'"
-newline|'\n'
 DECL|variable|_access_ipv4_parameter
 name|'_access_ipv4_parameter'
 op|'='
