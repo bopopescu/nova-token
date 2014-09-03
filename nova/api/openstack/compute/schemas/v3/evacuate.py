@@ -71,14 +71,14 @@ op|'.'
 name|'hostname'
 op|','
 nl|'\n'
-string|"'on_shared_storage'"
+string|"'onSharedStorage'"
 op|':'
 name|'parameter_types'
 op|'.'
 name|'boolean'
 op|','
 nl|'\n'
-string|"'admin_password'"
+string|"'adminPass'"
 op|':'
 name|'parameter_types'
 op|'.'
@@ -91,7 +91,7 @@ nl|'\n'
 string|"'required'"
 op|':'
 op|'['
-string|"'on_shared_storage'"
+string|"'onSharedStorage'"
 op|']'
 op|','
 nl|'\n'
