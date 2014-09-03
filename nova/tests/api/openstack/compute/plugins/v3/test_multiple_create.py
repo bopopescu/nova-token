@@ -2517,9 +2517,6 @@ name|'res'
 op|'.'
 name|'obj'
 op|'['
-string|"'servers_reservation'"
-op|']'
-op|'['
 string|"'reservation_id'"
 op|']'
 newline|'\n'
