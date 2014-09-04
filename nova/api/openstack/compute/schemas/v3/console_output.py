@@ -40,7 +40,7 @@ string|"'properties'"
 op|':'
 op|'{'
 nl|'\n'
-string|"'get_console_output'"
+string|"'os-getConsoleOutput'"
 op|':'
 op|'{'
 nl|'\n'
@@ -63,6 +63,8 @@ op|'['
 string|"'integer'"
 op|','
 string|"'string'"
+op|','
+string|"'null'"
 op|']'
 op|','
 nl|'\n'
@@ -72,6 +74,12 @@ string|"'^-?[0-9]+$'"
 op|','
 nl|'\n'
 comment|'# NOTE: -1 means an unlimited length.'
+nl|'\n'
+comment|'# TODO(cyeoh): None also means unlimited length'
+nl|'\n'
+comment|'# and is supported for v2 backwards compatibility'
+nl|'\n'
+comment|'# Should remove in the future with a microversion'
 nl|'\n'
 string|"'minimum'"
 op|':'
@@ -99,7 +107,7 @@ nl|'\n'
 string|"'required'"
 op|':'
 op|'['
-string|"'get_console_output'"
+string|"'os-getConsoleOutput'"
 op|']'
 op|','
 nl|'\n'
