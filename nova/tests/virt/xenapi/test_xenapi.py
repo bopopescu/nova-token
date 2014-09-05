@@ -4392,7 +4392,7 @@ op|','
 nl|'\n'
 string|"'ip'"
 op|':'
-string|"'2001:db8:0:1::1'"
+string|"'2001:db8:0:1:dcad:beff:feef:1'"
 op|','
 nl|'\n'
 string|"'netmask'"
@@ -6501,7 +6501,7 @@ op|')'
 newline|'\n'
 name|'expected'
 op|'='
-string|'"""\\\n# Injected by Nova on instance boot\n#\n# This file describes the network interfaces available on your system\n# and how to activate them. For more information, see interfaces(5).\n\n# The loopback network interface\nauto lo\niface lo inet loopback\n\nauto eth0\niface eth0 inet static\n    address 192.168.1.100\n    netmask 255.255.255.0\n    broadcast 192.168.1.255\n    gateway 192.168.1.1\n    dns-nameservers 192.168.1.3 192.168.1.4\niface eth0 inet6 static\n    address 2001:db8:0:1::1\n    netmask 64\n    gateway 2001:db8:0:1::1\n"""'
+string|'"""\\\n# Injected by Nova on instance boot\n#\n# This file describes the network interfaces available on your system\n# and how to activate them. For more information, see interfaces(5).\n\n# The loopback network interface\nauto lo\niface lo inet loopback\n\nauto eth0\niface eth0 inet static\n    address 192.168.1.100\n    netmask 255.255.255.0\n    broadcast 192.168.1.255\n    gateway 192.168.1.1\n    dns-nameservers 192.168.1.3 192.168.1.4\niface eth0 inet6 static\n    address 2001:db8:0:1:dcad:beff:feef:1\n    netmask 64\n    gateway 2001:db8:0:1::1\n"""'
 newline|'\n'
 name|'self'
 op|'.'
