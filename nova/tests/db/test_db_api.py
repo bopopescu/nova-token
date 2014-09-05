@@ -29477,6 +29477,13 @@ op|','
 string|"'deleted_at'"
 op|','
 string|"'updated_at'"
+op|','
+nl|'\n'
+string|"'virtual_interface'"
+op|','
+string|"'network'"
+op|','
+string|"'floating_ips'"
 op|']'
 newline|'\n'
 name|'fixed_ip_data'

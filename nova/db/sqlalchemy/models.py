@@ -5613,6 +5613,47 @@ nl|'\n'
 string|"'Instance.deleted == 0)'"
 op|')'
 newline|'\n'
+DECL|variable|virtual_interface
+name|'virtual_interface'
+op|'='
+name|'orm'
+op|'.'
+name|'relationship'
+op|'('
+name|'VirtualInterface'
+op|','
+nl|'\n'
+DECL|variable|backref
+name|'backref'
+op|'='
+name|'orm'
+op|'.'
+name|'backref'
+op|'('
+string|"'fixed_ips'"
+op|')'
+op|','
+nl|'\n'
+DECL|variable|foreign_keys
+name|'foreign_keys'
+op|'='
+name|'virtual_interface_id'
+op|','
+nl|'\n'
+DECL|variable|primaryjoin
+name|'primaryjoin'
+op|'='
+string|"'and_('"
+nl|'\n'
+string|"'FixedIp.virtual_interface_id == '"
+nl|'\n'
+string|"'VirtualInterface.id,'"
+nl|'\n'
+string|"'FixedIp.deleted == 0,'"
+nl|'\n'
+string|"'VirtualInterface.deleted == 0)'"
+op|')'
+newline|'\n'
 nl|'\n'
 nl|'\n'
 DECL|class|FloatingIp
