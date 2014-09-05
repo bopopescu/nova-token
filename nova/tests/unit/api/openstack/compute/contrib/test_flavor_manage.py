@@ -1478,7 +1478,7 @@ op|'['
 string|"'name'"
 op|']'
 op|'='
-string|"'bad !@#!$% name'"
+string|"'bad !@#!$%\\x00 name'"
 newline|'\n'
 name|'self'
 op|'.'
