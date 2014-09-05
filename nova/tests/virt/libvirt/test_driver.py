@@ -79053,9 +79053,9 @@ newline|'\n'
 name|'rval'
 op|'='
 op|'('
-string|"''"
+string|"'stdout'"
 op|','
-string|"''"
+name|'None'
 op|')'
 newline|'\n'
 name|'os'
