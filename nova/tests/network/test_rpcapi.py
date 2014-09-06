@@ -505,6 +505,10 @@ nl|'\n'
 string|"'deallocate_for_instance'"
 op|','
 string|"'deallocate_fixed_ip'"
+op|','
+nl|'\n'
+string|"'allocate_for_instance'"
+op|','
 nl|'\n'
 op|']'
 newline|'\n'
@@ -1237,7 +1241,7 @@ op|']'
 op|','
 name|'version'
 op|'='
-string|"'1.9'"
+string|"'1.13'"
 op|')'
 newline|'\n'
 nl|'\n'
