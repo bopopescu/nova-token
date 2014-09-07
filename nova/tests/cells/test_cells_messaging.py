@@ -10584,10 +10584,10 @@ op|')'
 op|')'
 newline|'\n'
 nl|'\n'
-DECL|member|test_instance_update_at_top_doesnt_already_exist
+DECL|member|test_instance_update_at_top_does_not_already_exist
 dedent|''
 name|'def'
-name|'test_instance_update_at_top_doesnt_already_exist'
+name|'test_instance_update_at_top_does_not_already_exist'
 op|'('
 name|'self'
 op|')'

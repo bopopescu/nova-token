@@ -1523,11 +1523,11 @@ name|'uuids'
 op|')'
 newline|'\n'
 nl|'\n'
-DECL|member|test_verify_show_cant_view_other_tenant
+DECL|member|test_verify_show_cannot_view_other_tenant
 dedent|''
 dedent|''
 name|'def'
-name|'test_verify_show_cant_view_other_tenant'
+name|'test_verify_show_cannot_view_other_tenant'
 op|'('
 name|'self'
 op|')'

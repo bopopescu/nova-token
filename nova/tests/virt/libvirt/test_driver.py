@@ -50479,9 +50479,9 @@ op|'('
 string|"'nova.virt.libvirt.LibvirtDriver._destroy'"
 op|')'
 newline|'\n'
-DECL|member|test_hard_reboot_doesnt_call_glance_show
+DECL|member|test_hard_reboot_does_not_call_glance_show
 name|'def'
-name|'test_hard_reboot_doesnt_call_glance_show'
+name|'test_hard_reboot_does_not_call_glance_show'
 op|'('
 name|'self'
 op|','
