@@ -291,11 +291,13 @@ comment|'# Version 1.13: Added delete_metadata_key()'
 nl|'\n'
 comment|'# Version 1.14: Added numa_topology'
 nl|'\n'
+comment|'# Version 1.15: PciDeviceList 1.1'
+nl|'\n'
 DECL|variable|VERSION
 indent|'    '
 name|'VERSION'
 op|'='
-string|"'1.14'"
+string|"'1.15'"
 newline|'\n'
 nl|'\n'
 DECL|variable|fields
@@ -1488,6 +1490,52 @@ string|"'replace'"
 op|')'
 newline|'\n'
 dedent|''
+dedent|''
+name|'if'
+name|'target_version'
+op|'<'
+op|'('
+number|'1'
+op|','
+number|'15'
+op|')'
+name|'and'
+string|"'pci_devices'"
+name|'in'
+name|'primitive'
+op|':'
+newline|'\n'
+comment|'# NOTE(baoli): Instance <= 1.14 (icehouse) had PciDeviceList 1.0'
+nl|'\n'
+indent|'            '
+name|'self'
+op|'.'
+name|'pci_devices'
+op|'.'
+name|'obj_make_compatible'
+op|'('
+nl|'\n'
+name|'primitive'
+op|'['
+string|"'pci_devices'"
+op|']'
+op|'['
+string|"'nova_object.data'"
+op|']'
+op|','
+string|"'1.0'"
+op|')'
+newline|'\n'
+name|'primitive'
+op|'['
+string|"'pci_devices'"
+op|']'
+op|'['
+string|"'nova_object.version'"
+op|']'
+op|'='
+string|"'1.0'"
+newline|'\n'
 dedent|''
 name|'if'
 name|'target_version'
@@ -4175,11 +4223,13 @@ comment|'# Version 1.7: Added use_slave to get_active_by_window_joined'
 nl|'\n'
 comment|'# Version 1.8: Instance <= version 1.14'
 nl|'\n'
+comment|'# Version 1.9: Instance <= version 1.15'
+nl|'\n'
 DECL|variable|VERSION
 indent|'    '
 name|'VERSION'
 op|'='
-string|"'1.8'"
+string|"'1.9'"
 newline|'\n'
 nl|'\n'
 DECL|variable|fields
@@ -4244,6 +4294,11 @@ nl|'\n'
 string|"'1.8'"
 op|':'
 string|"'1.14'"
+op|','
+nl|'\n'
+string|"'1.9'"
+op|':'
+string|"'1.15'"
 op|','
 nl|'\n'
 op|'}'

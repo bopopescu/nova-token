@@ -143,6 +143,11 @@ op|':'
 string|"'69ba1044-0766-4ec0-b60d-09595de034a1'"
 op|','
 nl|'\n'
+string|"'request_id'"
+op|':'
+name|'None'
+op|','
+nl|'\n'
 string|"'extra_info'"
 op|':'
 string|'\'{"key1": "value1", "key2": "value2"}\''
@@ -223,6 +228,11 @@ nl|'\n'
 string|"'instance_uuid'"
 op|':'
 string|"'d5b446a6-a1b4-4d01-b4f0-eac37b3a62fc'"
+op|','
+nl|'\n'
+string|"'request_id'"
+op|':'
+name|'None'
 op|','
 nl|'\n'
 string|"'extra_info'"
