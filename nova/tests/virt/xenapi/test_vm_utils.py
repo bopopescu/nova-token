@@ -3005,10 +3005,10 @@ op|'('
 op|')'
 newline|'\n'
 nl|'\n'
-DECL|member|test_default_handler_doesnt_fallback_to_itself
+DECL|member|test_default_handler_does_not_fallback_to_itself
 dedent|''
 name|'def'
-name|'test_default_handler_doesnt_fallback_to_itself'
+name|'test_default_handler_does_not_fallback_to_itself'
 op|'('
 name|'self'
 op|')'

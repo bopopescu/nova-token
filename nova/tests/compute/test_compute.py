@@ -83432,10 +83432,10 @@ op|')'
 op|')'
 newline|'\n'
 nl|'\n'
-DECL|member|test_driver_doesnt_support_recreate
+DECL|member|test_driver_does_not_support_recreate
 dedent|''
 name|'def'
-name|'test_driver_doesnt_support_recreate'
+name|'test_driver_does_not_support_recreate'
 op|'('
 name|'self'
 op|')'
