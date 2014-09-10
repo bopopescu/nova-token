@@ -140,6 +140,11 @@ name|'VIF_TYPE_802_QBH'
 op|'='
 string|"'802.1qbh'"
 newline|'\n'
+DECL|variable|VIF_TYPE_HW_VEB
+name|'VIF_TYPE_HW_VEB'
+op|'='
+string|"'hw_veb'"
+newline|'\n'
 DECL|variable|VIF_TYPE_MLNX_DIRECT
 name|'VIF_TYPE_MLNX_DIRECT'
 op|'='
@@ -160,13 +165,13 @@ comment|"# Constants for dictionary keys in the 'vif_details' field in the VIF"
 nl|'\n'
 comment|'# class'
 nl|'\n'
-DECL|variable|VIF_DETAIL_PORT_FILTER
-name|'VIF_DETAIL_PORT_FILTER'
+DECL|variable|VIF_DETAILS_PORT_FILTER
+name|'VIF_DETAILS_PORT_FILTER'
 op|'='
 string|"'port_filter'"
 newline|'\n'
-DECL|variable|VIF_DETAIL_OVS_HYBRID_PLUG
-name|'VIF_DETAIL_OVS_HYBRID_PLUG'
+DECL|variable|VIF_DETAILS_OVS_HYBRID_PLUG
+name|'VIF_DETAILS_OVS_HYBRID_PLUG'
 op|'='
 string|"'ovs_hybrid_plug'"
 newline|'\n'
@@ -174,6 +179,43 @@ DECL|variable|VIF_DETAILS_PHYSICAL_NETWORK
 name|'VIF_DETAILS_PHYSICAL_NETWORK'
 op|'='
 string|"'physical_network'"
+newline|'\n'
+nl|'\n'
+comment|'# The following two constants define the SR-IOV related fields in the'
+nl|'\n'
+comment|"# 'vif_details'. 'profileid' should be used for VIF_TYPE_802_QBH,"
+nl|'\n'
+comment|"# 'vlan' for VIF_TYPE_HW_VEB"
+nl|'\n'
+DECL|variable|VIF_DETAILS_PROFILEID
+name|'VIF_DETAILS_PROFILEID'
+op|'='
+string|"'profileid'"
+newline|'\n'
+DECL|variable|VIF_DETAILS_VLAN
+name|'VIF_DETAILS_VLAN'
+op|'='
+string|"'vlan'"
+newline|'\n'
+nl|'\n'
+comment|'# Define supported virtual NIC types. VNIC_TYPE_DIRECT and VNIC_TYPE_MACVTAP'
+nl|'\n'
+comment|'# are used for SR-IOV ports'
+nl|'\n'
+DECL|variable|VNIC_TYPE_NORMAL
+name|'VNIC_TYPE_NORMAL'
+op|'='
+string|"'normal'"
+newline|'\n'
+DECL|variable|VNIC_TYPE_DIRECT
+name|'VNIC_TYPE_DIRECT'
+op|'='
+string|"'direct'"
+newline|'\n'
+DECL|variable|VNIC_TYPE_MACVTAP
+name|'VNIC_TYPE_MACVTAP'
+op|'='
+string|"'macvtap'"
 newline|'\n'
 nl|'\n'
 comment|"# Constants for the 'vif_model' values"
@@ -1902,6 +1944,15 @@ op|'='
 name|'False'
 op|','
 nl|'\n'
+name|'vnic_type'
+op|'='
+name|'VNIC_TYPE_NORMAL'
+op|','
+name|'profile'
+op|'='
+name|'None'
+op|','
+nl|'\n'
 op|'**'
 name|'kwargs'
 op|')'
@@ -1996,6 +2047,20 @@ op|']'
 op|'='
 name|'active'
 newline|'\n'
+name|'self'
+op|'['
+string|"'vnic_type'"
+op|']'
+op|'='
+name|'vnic_type'
+newline|'\n'
+name|'self'
+op|'['
+string|"'profile'"
+op|']'
+op|'='
+name|'profile'
+newline|'\n'
 nl|'\n'
 name|'self'
 op|'.'
@@ -2026,7 +2091,12 @@ string|"'address'"
 op|','
 string|"'network'"
 op|','
+string|"'vnic_type'"
+op|','
+nl|'\n'
 string|"'type'"
+op|','
+string|"'profile'"
 op|','
 string|"'details'"
 op|','
@@ -2280,7 +2350,7 @@ op|']'
 op|'.'
 name|'get'
 op|'('
-name|'VIF_DETAIL_OVS_HYBRID_PLUG'
+name|'VIF_DETAILS_OVS_HYBRID_PLUG'
 op|','
 name|'False'
 op|')'
@@ -2304,7 +2374,7 @@ op|']'
 op|'.'
 name|'get'
 op|'('
-name|'VIF_DETAIL_PORT_FILTER'
+name|'VIF_DETAILS_PORT_FILTER'
 op|','
 name|'False'
 op|')'

@@ -138,6 +138,12 @@ nl|'\n'
 op|']'
 newline|'\n'
 nl|'\n'
+DECL|variable|PCI_NET_TAG
+name|'PCI_NET_TAG'
+op|'='
+string|"'physical_network'"
+newline|'\n'
+nl|'\n'
 DECL|variable|CONF
 name|'CONF'
 op|'='
