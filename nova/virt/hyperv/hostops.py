@@ -733,6 +733,12 @@ string|"'hvm'"
 op|')'
 op|']'
 op|')'
+op|','
+nl|'\n'
+string|"'numa_topology'"
+op|':'
+name|'None'
+op|','
 nl|'\n'
 op|'}'
 newline|'\n'

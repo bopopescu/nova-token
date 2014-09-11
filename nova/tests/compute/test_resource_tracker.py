@@ -589,6 +589,11 @@ op|':'
 string|"''"
 op|','
 nl|'\n'
+string|"'numa_topology'"
+op|':'
+name|'None'
+op|','
+nl|'\n'
 op|'}'
 newline|'\n'
 name|'if'
