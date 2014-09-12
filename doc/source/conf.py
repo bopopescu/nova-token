@@ -109,9 +109,6 @@ op|'['
 string|"'sphinx.ext.autodoc'"
 op|','
 nl|'\n'
-string|"'sphinx.ext.intersphinx'"
-op|','
-nl|'\n'
 string|"'ext.nova_todo'"
 op|','
 nl|'\n'
@@ -911,31 +908,5 @@ comment|'# If false, no module index is generated.'
 nl|'\n'
 comment|'#latex_use_modindex = True'
 nl|'\n'
-nl|'\n'
-nl|'\n'
-comment|'# Example configuration for intersphinx: refer to the Python standard library.'
-nl|'\n'
-DECL|variable|intersphinx_mapping
-name|'intersphinx_mapping'
-op|'='
-op|'{'
-string|"'python'"
-op|':'
-op|'('
-string|"'http://docs.python.org/'"
-op|','
-name|'None'
-op|')'
-op|','
-nl|'\n'
-string|"'swift'"
-op|':'
-op|'('
-string|"'http://swift.openstack.org'"
-op|','
-name|'None'
-op|')'
-op|'}'
-newline|'\n'
 endmarker|''
 end_unit
