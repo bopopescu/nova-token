@@ -152,6 +152,16 @@ op|':'
 name|'common_quota'
 op|','
 nl|'\n'
+string|"'server_groups'"
+op|':'
+name|'common_quota'
+op|','
+nl|'\n'
+string|"'server_group_members'"
+op|':'
+name|'common_quota'
+op|','
+nl|'\n'
 string|"'force'"
 op|':'
 name|'parameter_types'
