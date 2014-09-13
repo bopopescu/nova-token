@@ -141,6 +141,11 @@ op|')'
 newline|'\n'
 name|'__import__'
 op|'('
+string|"'nova.objects.instance_pci_requests'"
+op|')'
+newline|'\n'
+name|'__import__'
+op|'('
 string|"'nova.objects.keypair'"
 op|')'
 newline|'\n'
