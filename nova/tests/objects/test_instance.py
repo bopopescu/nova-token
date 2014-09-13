@@ -451,7 +451,7 @@ op|','
 nl|'\n'
 string|"'nova_object.version'"
 op|':'
-string|"'1.14'"
+string|"'1.15'"
 op|','
 nl|'\n'
 string|"'nova_object.data'"
@@ -576,7 +576,7 @@ op|','
 nl|'\n'
 string|"'nova_object.version'"
 op|':'
-string|"'1.14'"
+string|"'1.15'"
 op|','
 nl|'\n'
 string|"'nova_object.data'"
@@ -4508,6 +4508,11 @@ op|':'
 name|'fake_uuid'
 op|','
 nl|'\n'
+string|"'request_id'"
+op|':'
+name|'None'
+op|','
+nl|'\n'
 string|"'extra_info'"
 op|':'
 string|"'{}'"
@@ -4584,6 +4589,11 @@ nl|'\n'
 string|"'instance_uuid'"
 op|':'
 name|'fake_uuid'
+op|','
+nl|'\n'
+string|"'request_id'"
+op|':'
+name|'None'
 op|','
 nl|'\n'
 string|"'extra_info'"

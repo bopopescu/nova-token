@@ -104,11 +104,13 @@ comment|'# Version 1.1: Added virtual_interface field'
 nl|'\n'
 comment|'# Version 1.2: Instance version 1.14'
 nl|'\n'
+comment|'# Version 1.3: Instance 1.15'
+nl|'\n'
 DECL|variable|VERSION
 indent|'    '
 name|'VERSION'
 op|'='
-string|"'1.2'"
+string|"'1.3'"
 newline|'\n'
 nl|'\n'
 DECL|variable|fields
@@ -293,20 +295,11 @@ name|'primitive'
 op|':'
 newline|'\n'
 indent|'            '
-name|'primitive'
-op|'['
-string|"'instance'"
-op|']'
-op|'='
-op|'('
-nl|'\n'
-name|'objects'
+name|'self'
 op|'.'
-name|'Instance'
-op|'('
-op|')'
+name|'instance'
 op|'.'
-name|'object_make_compatible'
+name|'obj_make_compatible'
 op|'('
 nl|'\n'
 name|'primitive'
@@ -319,7 +312,16 @@ op|']'
 op|','
 string|"'1.13'"
 op|')'
-op|')'
+newline|'\n'
+name|'primitive'
+op|'['
+string|"'instance'"
+op|']'
+op|'['
+string|"'nova_object.version'"
+op|']'
+op|'='
+string|"'1.13'"
 newline|'\n'
 nl|'\n'
 dedent|''
@@ -1271,11 +1273,13 @@ comment|'# Version 1.1: Added get_by_network()'
 nl|'\n'
 comment|'# Version 1.2: FixedIP <= version 1.2'
 nl|'\n'
+comment|'# Version 1.3: FixedIP <= version 1.3'
+nl|'\n'
 DECL|variable|VERSION
 indent|'    '
 name|'VERSION'
 op|'='
-string|"'1.2'"
+string|"'1.3'"
 newline|'\n'
 nl|'\n'
 DECL|variable|fields
@@ -1313,6 +1317,11 @@ nl|'\n'
 string|"'1.2'"
 op|':'
 string|"'1.2'"
+op|','
+nl|'\n'
+string|"'1.3'"
+op|':'
+string|"'1.3'"
 op|','
 nl|'\n'
 op|'}'

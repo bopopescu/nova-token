@@ -127,6 +127,11 @@ op|':'
 string|"'v'"
 op|','
 nl|'\n'
+string|"'request_id'"
+op|':'
+name|'None'
+op|','
+nl|'\n'
 string|"'status'"
 op|':'
 string|"'available'"
@@ -245,6 +250,11 @@ nl|'\n'
 string|"'extra_info'"
 op|':'
 string|"'{}'"
+op|','
+nl|'\n'
+string|"'request_id'"
+op|':'
+name|'None'
 op|','
 nl|'\n'
 op|'}'
