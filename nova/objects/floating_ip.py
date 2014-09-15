@@ -248,17 +248,13 @@ newline|'\n'
 indent|'            '
 name|'self'
 op|'.'
-name|'instance'
+name|'fixed_ip'
 op|'.'
 name|'obj_make_compatible'
 op|'('
-nl|'\n'
 name|'primitive'
 op|'['
 string|"'fixed_ip'"
-op|']'
-op|'['
-string|"'nova_object.data'"
 op|']'
 op|','
 string|"'1.1'"
