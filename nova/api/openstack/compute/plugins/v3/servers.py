@@ -6811,7 +6811,7 @@ name|'wsgi'
 op|'.'
 name|'action'
 op|'('
-string|"'start'"
+string|"'os-start'"
 op|')'
 newline|'\n'
 DECL|member|_start_server
@@ -6953,7 +6953,7 @@ name|'wsgi'
 op|'.'
 name|'action'
 op|'('
-string|"'stop'"
+string|"'os-stop'"
 op|')'
 newline|'\n'
 DECL|member|_stop_server
