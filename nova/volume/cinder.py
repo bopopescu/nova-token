@@ -286,10 +286,6 @@ name|'IntOpt'
 op|'('
 string|"'http_timeout'"
 op|','
-name|'default'
-op|'='
-name|'None'
-op|','
 nl|'\n'
 DECL|variable|help
 name|'help'
