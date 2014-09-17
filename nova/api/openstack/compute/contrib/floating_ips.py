@@ -1750,6 +1750,8 @@ newline|'\n'
 dedent|''
 name|'except'
 name|'Exception'
+name|'as'
+name|'e'
 op|':'
 newline|'\n'
 indent|'            '
@@ -1757,7 +1759,33 @@ name|'msg'
 op|'='
 name|'_'
 op|'('
-string|"'Error. Unable to associate floating ip'"
+string|"'Unable to associate floating ip %(address)s to '"
+nl|'\n'
+string|"'fixed ip %(fixed_address)s for instance %(id)s. '"
+nl|'\n'
+string|"'Error: %(error)s'"
+op|')'
+op|'%'
+op|'('
+nl|'\n'
+op|'{'
+string|"'address'"
+op|':'
+name|'address'
+op|','
+string|"'fixed_address'"
+op|':'
+name|'fixed_address'
+op|','
+nl|'\n'
+string|"'id'"
+op|':'
+name|'id'
+op|','
+string|"'error'"
+op|':'
+name|'e'
+op|'}'
 op|')'
 newline|'\n'
 name|'LOG'
