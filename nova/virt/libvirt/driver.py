@@ -985,7 +985,11 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'Libvirt handlers for remote volumes.'"
+string|"'DEPRECATED. Libvirt handlers for remote volumes. '"
+nl|'\n'
+string|"'This option is deprecated and will be removed in the '"
+nl|'\n'
+string|"'Kilo release.'"
 op|')'
 op|','
 nl|'\n'
