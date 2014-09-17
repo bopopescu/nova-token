@@ -281,6 +281,8 @@ name|'state_error'
 op|','
 nl|'\n'
 string|"'restore'"
+op|','
+name|'id'
 op|')'
 newline|'\n'
 dedent|''
