@@ -3312,7 +3312,7 @@ string|"'supported_instances'"
 op|']'
 op|','
 nl|'\n'
-string|'\'[["x86_64", "baremetal", "baremetal"]]\''
+string|'\'[["x86_64", "baremetal", "hvm"]]\''
 op|')'
 newline|'\n'
 name|'self'
