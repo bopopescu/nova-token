@@ -4501,6 +4501,9 @@ op|'.'
 name|'dhcpbridge'
 op|','
 nl|'\n'
+string|"'--no-hosts'"
+op|','
+nl|'\n'
 string|"'--leasefile-ro'"
 op|']'
 newline|'\n'
@@ -4600,9 +4603,6 @@ name|'expected'
 op|'='
 op|'['
 nl|'\n'
-string|"'--no-hosts'"
-op|','
-nl|'\n'
 string|"'--no-resolv'"
 op|','
 nl|'\n'
@@ -4644,9 +4644,6 @@ newline|'\n'
 name|'expected'
 op|'='
 op|'['
-nl|'\n'
-string|"'--no-hosts'"
-op|','
 nl|'\n'
 string|"'--no-resolv'"
 op|','
