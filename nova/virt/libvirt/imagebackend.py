@@ -2101,9 +2101,9 @@ name|'info'
 op|'('
 name|'_LI'
 op|'('
-string|"'Failed to get image info from %(path)s, '"
+string|"'Failed to get image info from path %(path)s; '"
 nl|'\n'
-string|"'error was %(error)s'"
+string|"'error: %(error)s'"
 op|')'
 op|','
 nl|'\n'
