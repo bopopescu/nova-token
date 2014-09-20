@@ -1325,6 +1325,7 @@ nl|'\n'
 string|"'report_count'"
 op|':'
 number|'0'
+op|','
 nl|'\n'
 op|'}'
 newline|'\n'
