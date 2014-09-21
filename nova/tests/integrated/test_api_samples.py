@@ -25833,7 +25833,7 @@ op|','
 nl|'\n'
 string|"'type'"
 op|':'
-string|"'qcow'"
+string|"'qcow2'"
 op|','
 nl|'\n'
 string|"'new_file'"
