@@ -4990,7 +4990,7 @@ name|'LOG'
 op|'.'
 name|'exception'
 op|'('
-name|'_'
+name|'_LE'
 op|'('
 string|"'Error deleting conntrack entries for %s'"
 op|')'

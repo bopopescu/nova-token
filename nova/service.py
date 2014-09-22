@@ -1746,7 +1746,7 @@ name|'LOG'
 op|'.'
 name|'exception'
 op|'('
-name|'_'
+name|'_LE'
 op|'('
 string|"'Service error occurred during cleanup_host'"
 op|')'

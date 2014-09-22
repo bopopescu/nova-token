@@ -333,11 +333,11 @@ name|'LOG'
 op|'.'
 name|'exception'
 op|'('
-name|'_'
+name|'_LE'
 op|'('
-string|"'Aggregate %(aggregate_id)s: unrecoverable state '"
+string|"'Aggregate %(aggregate_id)s: unrecoverable '"
 nl|'\n'
-string|"'during operation on %(host)s'"
+string|"'state during operation on %(host)s'"
 op|')'
 op|','
 nl|'\n'
