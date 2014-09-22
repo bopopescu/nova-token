@@ -12936,7 +12936,7 @@ op|','
 nl|'\n'
 name|'method'
 op|'='
-string|"'reboot'"
+string|"'soft reboot'"
 op|')'
 newline|'\n'
 dedent|''
