@@ -6032,7 +6032,7 @@ name|'body'
 op|'='
 op|'{'
 nl|'\n'
-string|"'create_image'"
+string|"'createImage'"
 op|':'
 op|'{'
 nl|'\n'
@@ -6120,7 +6120,7 @@ name|'body'
 op|'='
 op|'{'
 nl|'\n'
-string|"'create_image'"
+string|"'createImage'"
 op|':'
 op|'{'
 nl|'\n'
@@ -6223,7 +6223,7 @@ name|'body'
 op|'='
 name|'dict'
 op|'('
-name|'create_image'
+name|'createImage'
 op|'='
 name|'dict'
 op|'('
@@ -6241,7 +6241,7 @@ newline|'\n'
 indent|'            '
 name|'body'
 op|'['
-string|"'create_image'"
+string|"'createImage'"
 op|']'
 op|'['
 string|"'metadata'"
@@ -6991,7 +6991,7 @@ name|'body'
 op|'='
 name|'dict'
 op|'('
-name|'create_image'
+name|'createImage'
 op|'='
 name|'dict'
 op|'('
@@ -7008,7 +7008,7 @@ newline|'\n'
 indent|'            '
 name|'body'
 op|'['
-string|"'create_image'"
+string|"'createImage'"
 op|']'
 op|'['
 string|"'metadata'"
@@ -7514,7 +7514,7 @@ name|'body'
 op|'='
 op|'{'
 nl|'\n'
-string|"'create_image'"
+string|"'createImage'"
 op|':'
 op|'{'
 nl|'\n'
@@ -7581,7 +7581,7 @@ name|'body'
 op|'='
 op|'{'
 nl|'\n'
-string|"'create_image'"
+string|"'createImage'"
 op|':'
 op|'{'
 nl|'\n'
@@ -7672,7 +7672,7 @@ name|'body'
 op|'='
 op|'{'
 nl|'\n'
-string|"'create_image'"
+string|"'createImage'"
 op|':'
 op|'{'
 nl|'\n'
@@ -7708,7 +7708,7 @@ newline|'\n'
 indent|'            '
 name|'body'
 op|'['
-string|"'create_image'"
+string|"'createImage'"
 op|']'
 op|'['
 string|"'metadata'"
@@ -7776,7 +7776,7 @@ name|'body'
 op|'='
 op|'{'
 nl|'\n'
-string|"'create_image'"
+string|"'createImage'"
 op|':'
 op|'{'
 op|'}'
@@ -7837,7 +7837,7 @@ name|'body'
 op|'='
 op|'{'
 nl|'\n'
-string|"'create_image'"
+string|"'createImage'"
 op|':'
 op|'{'
 nl|'\n'
@@ -7903,7 +7903,7 @@ name|'body'
 op|'='
 op|'{'
 nl|'\n'
-string|"'create_image'"
+string|"'createImage'"
 op|':'
 op|'{'
 nl|'\n'
@@ -8029,7 +8029,7 @@ name|'body'
 op|'='
 op|'{'
 nl|'\n'
-string|'"create_image"'
+string|'"createImage"'
 op|':'
 op|'{'
 nl|'\n'
