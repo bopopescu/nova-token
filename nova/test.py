@@ -1626,7 +1626,7 @@ nl|'\n'
 dedent|''
 name|'fs'
 op|'='
-string|"'%(levelname)s [%(name)s] %(message)s'"
+string|"'%(asctime)s %(levelname)s [%(name)s] %(message)s'"
 newline|'\n'
 name|'self'
 op|'.'
