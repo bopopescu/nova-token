@@ -162,7 +162,7 @@ nl|'\n'
 DECL|variable|default
 name|'default'
 op|'='
-string|"'http://127.0.0.1:6083/'"
+string|"'ws://127.0.0.1:6083/'"
 op|','
 nl|'\n'
 DECL|variable|help
