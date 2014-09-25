@@ -30901,7 +30901,7 @@ name|'in'
 name|'db_instances'
 op|':'
 newline|'\n'
-comment|"# We don't want to refersh the cache for instances"
+comment|"# We don't want to refresh the cache for instances"
 nl|'\n'
 comment|"# which are building or deleting so don't put them"
 nl|'\n'
