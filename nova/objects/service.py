@@ -277,6 +277,9 @@ name|'primitive'
 op|'['
 string|"'compute_node'"
 op|']'
+op|'['
+string|"'nova_object.data'"
+op|']'
 op|','
 string|"'1.4'"
 op|')'
