@@ -628,7 +628,7 @@ name|'self'
 op|'.'
 name|'_do_get'
 op|'('
-string|"'servers/%s/os-attach-interfaces'"
+string|"'servers/%s/os-interface'"
 nl|'\n'
 op|'%'
 name|'instance_uuid'
@@ -783,7 +783,7 @@ name|'self'
 op|'.'
 name|'_do_get'
 op|'('
-string|"'servers/%s/os-attach-interfaces/%s'"
+string|"'servers/%s/os-interface/%s'"
 op|'%'
 nl|'\n'
 op|'('
@@ -927,7 +927,7 @@ name|'self'
 op|'.'
 name|'_do_post'
 op|'('
-string|"'servers/%s/os-attach-interfaces'"
+string|"'servers/%s/os-interface'"
 nl|'\n'
 op|'%'
 name|'instance_uuid'
@@ -992,7 +992,7 @@ name|'self'
 op|'.'
 name|'_do_delete'
 op|'('
-string|"'servers/%s/os-attach-interfaces/%s'"
+string|"'servers/%s/os-interface/%s'"
 op|'%'
 nl|'\n'
 op|'('

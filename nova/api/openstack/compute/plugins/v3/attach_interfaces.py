@@ -1245,7 +1245,7 @@ name|'extensions'
 op|'.'
 name|'ResourceExtension'
 op|'('
-name|'ALIAS'
+string|"'os-interface'"
 op|','
 nl|'\n'
 name|'InterfaceAttachmentController'
