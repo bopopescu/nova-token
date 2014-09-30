@@ -948,6 +948,13 @@ name|'fake_instance'
 op|'['
 string|"'uuid'"
 op|']'
+op|','
+nl|'\n'
+name|'columns'
+op|'='
+op|'['
+string|"'numa_topology'"
+op|']'
 nl|'\n'
 op|')'
 op|'.'
