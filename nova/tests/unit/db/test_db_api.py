@@ -12650,6 +12650,9 @@ op|','
 string|"'system_metadata'"
 op|','
 string|"'info_cache'"
+op|','
+nl|'\n'
+string|"'extra'"
 op|']'
 op|')'
 newline|'\n'
@@ -12685,6 +12688,9 @@ op|','
 string|"'system_metadata'"
 op|','
 string|"'info_cache'"
+op|','
+nl|'\n'
+string|"'extra'"
 op|']'
 op|')'
 newline|'\n'
@@ -15362,6 +15368,8 @@ string|"'info_cache'"
 op|','
 nl|'\n'
 string|"'pci_devices'"
+op|','
+string|"'extra'"
 op|']'
 op|')'
 newline|'\n'
@@ -15464,6 +15472,8 @@ string|"'info_cache'"
 op|','
 nl|'\n'
 string|"'pci_devices'"
+op|','
+string|"'extra'"
 op|']'
 op|')'
 newline|'\n'
@@ -15566,6 +15576,9 @@ op|','
 string|"'info_cache'"
 op|','
 string|"'pci_devices'"
+op|','
+nl|'\n'
+string|"'extra'"
 op|']'
 op|')'
 newline|'\n'
@@ -16149,6 +16162,9 @@ op|','
 string|"'system_metadata'"
 op|','
 string|"'pci_devices'"
+op|','
+nl|'\n'
+string|"'extra'"
 op|']'
 op|')'
 newline|'\n'
