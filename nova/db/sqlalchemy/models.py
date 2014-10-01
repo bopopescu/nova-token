@@ -1936,7 +1936,7 @@ name|'orm'
 op|'.'
 name|'backref'
 op|'('
-string|"'numa_topology'"
+string|"'extra'"
 op|','
 nl|'\n'
 DECL|variable|uselist
