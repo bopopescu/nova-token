@@ -14938,9 +14938,8 @@ op|'.'
 name|'synchronized'
 op|'('
 name|'instance'
-op|'['
-string|"'uuid'"
-op|']'
+op|'.'
+name|'uuid'
 op|')'
 newline|'\n'
 DECL|function|do_terminate_instance
