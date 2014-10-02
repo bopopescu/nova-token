@@ -30,89 +30,127 @@ nl|'\n'
 comment|'#    under the License.'
 nl|'\n'
 nl|'\n'
-string|'"""\nMapping of bare metal node states.\n\nA node may have empty {} `properties` and `driver_info` in which case, it is\nsaid to be "initialized" but "not available", and the state is NOSTATE.\n\nWhen updating `properties`,  any data will be rejected if the data fails to be\nvalidated by the driver. Any node with non-empty `properties` is said to be\n"initialized", and the state is INIT.\n\nWhen the driver has received both `properties` and `driver_info`, it will check\nthe power status of the node and update the `power_state` accordingly. If the\ndriver fails to read the power state from the node, it will reject the\n`driver_info` change, and the state will remain as INIT. If the power status\ncheck succeeds, `power_state` will change to one of POWER_ON or POWER_OFF,\naccordingly.\n\nAt this point, the power state may be changed via the API, a console\nmay be started, and a tenant may be associated.\n\nThe `power_state` for a node always represents the current power state. Any\npower operation sets this to the actual state when done (whether successful or\nnot). It is set to ERROR only when unable to get the power state from a node.\n\nWhen `instance_uuid` is set to a non-empty / non-None value, the node is said\nto be "associated" with a tenant.\n\nAn associated node can not be deleted.\n\nThe `instance_uuid` field may be unset only if the node is in POWER_OFF or\nERROR states.\n"""'
+string|'"""\nMapping of bare metal node states.\n\nSetting the node `power_state` is handled by the conductor\'s power\nsynchronization thread. Based on the power state retrieved from the driver\nfor the node, the state is set to POWER_ON or POWER_OFF, accordingly.\nShould this fail, the `power_state` value is left unchanged, and the node\nis placed into maintenance mode.\n\nThe `power_state` can also be set manually via the API. A failure to change\nthe state leaves the current state unchanged. The node is NOT placed into\nmaintenance mode in this case.\n"""'
 newline|'\n'
+nl|'\n'
+nl|'\n'
+comment|'#####################'
+nl|'\n'
+comment|'# Provisioning states'
+nl|'\n'
+comment|'#####################'
+nl|'\n'
 nl|'\n'
 DECL|variable|NOSTATE
 name|'NOSTATE'
 op|'='
 name|'None'
 newline|'\n'
-DECL|variable|INIT
-name|'INIT'
-op|'='
-string|"'initializing'"
+string|'""" No state information.\n\nDefault for the power and provision state of newly created nodes.\n"""'
 newline|'\n'
+nl|'\n'
 DECL|variable|ACTIVE
 name|'ACTIVE'
 op|'='
 string|"'active'"
 newline|'\n'
-DECL|variable|BUILDING
-name|'BUILDING'
-op|'='
-string|"'building'"
+string|'""" Node is successfully deployed and associated with an instance. """'
 newline|'\n'
+nl|'\n'
 DECL|variable|DEPLOYWAIT
 name|'DEPLOYWAIT'
 op|'='
 string|"'wait call-back'"
 newline|'\n'
+string|'""" Node is waiting to be deployed.\n\nThis will be the node `provision_state` while the node is waiting for\nthe driver to finish deployment.\n"""'
+newline|'\n'
+nl|'\n'
 DECL|variable|DEPLOYING
 name|'DEPLOYING'
 op|'='
 string|"'deploying'"
 newline|'\n'
+string|'""" Node is ready to receive a deploy request, or is currently being deployed.\n\nA node will have its `provision_state` set to DEPLOYING briefly before it\nreceives its initial deploy request. It will also move to this state from\nDEPLOYWAIT after the callback is triggered and deployment is continued\n(disk partitioning and image copying).\n"""'
+newline|'\n'
+nl|'\n'
 DECL|variable|DEPLOYFAIL
 name|'DEPLOYFAIL'
 op|'='
 string|"'deploy failed'"
 newline|'\n'
+string|'""" Node deployment failed. """'
+newline|'\n'
+nl|'\n'
 DECL|variable|DEPLOYDONE
 name|'DEPLOYDONE'
 op|'='
 string|"'deploy complete'"
 newline|'\n'
+string|'""" Node was successfully deployed.\n\nThis is mainly a target provision state used during deployment. A successfully\ndeployed node should go to ACTIVE status.\n"""'
+newline|'\n'
+nl|'\n'
 DECL|variable|DELETING
 name|'DELETING'
 op|'='
 string|"'deleting'"
 newline|'\n'
+string|'""" Node is actively being torn down. """'
+newline|'\n'
+nl|'\n'
 DECL|variable|DELETED
 name|'DELETED'
 op|'='
 string|"'deleted'"
 newline|'\n'
+string|'""" Node tear down was successful.\n\nThis is mainly a target provision state used during node tear down. A\nsuccessful tear down leaves the node with a `provision_state` of NOSTATE.\n"""'
+newline|'\n'
+nl|'\n'
 DECL|variable|ERROR
 name|'ERROR'
 op|'='
 string|"'error'"
 newline|'\n'
+string|'""" An error occurred during node processing.\n\nThe `last_error` attribute of the node details should contain an error message.\n"""'
+newline|'\n'
+nl|'\n'
 DECL|variable|REBUILD
 name|'REBUILD'
 op|'='
 string|"'rebuild'"
 newline|'\n'
+string|'""" Node is currently being rebuilt. """'
+newline|'\n'
+nl|'\n'
+nl|'\n'
+comment|'##############'
+nl|'\n'
+comment|'# Power states'
+nl|'\n'
+comment|'##############'
+nl|'\n'
 nl|'\n'
 DECL|variable|POWER_ON
 name|'POWER_ON'
 op|'='
 string|"'power on'"
 newline|'\n'
+string|'""" Node is powered on. """'
+newline|'\n'
+nl|'\n'
 DECL|variable|POWER_OFF
 name|'POWER_OFF'
 op|'='
 string|"'power off'"
 newline|'\n'
+string|'""" Node is powered off. """'
+newline|'\n'
+nl|'\n'
 DECL|variable|REBOOT
 name|'REBOOT'
 op|'='
 string|"'rebooting'"
 newline|'\n'
-DECL|variable|SUSPEND
-name|'SUSPEND'
-op|'='
-string|"'suspended'"
+string|'""" Node is rebooting. """'
 newline|'\n'
 endmarker|''
 end_unit
