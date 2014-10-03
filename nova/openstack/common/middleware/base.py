@@ -27,6 +27,7 @@ comment|'#    License for the specific language governing permissions and limita
 nl|'\n'
 comment|'#    under the License.'
 nl|'\n'
+nl|'\n'
 string|'"""Base class(es) for WSGI Middleware."""'
 newline|'\n'
 nl|'\n'
