@@ -145,6 +145,16 @@ name|'cfg'
 op|'.'
 name|'CONF'
 newline|'\n'
+name|'CONF'
+op|'.'
+name|'import_opt'
+op|'('
+string|"'keys_path'"
+op|','
+string|"'nova.crypto'"
+op|')'
+newline|'\n'
+nl|'\n'
 DECL|variable|authorize
 name|'authorize'
 op|'='
