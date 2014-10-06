@@ -256,6 +256,11 @@ op|':'
 name|'service'
 op|','
 nl|'\n'
+string|"'host'"
+op|':'
+name|'host'
+op|','
+nl|'\n'
 string|"'memory_mb'"
 op|':'
 name|'total_mem'

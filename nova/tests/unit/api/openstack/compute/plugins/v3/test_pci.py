@@ -1401,6 +1401,11 @@ op|'='
 number|'1'
 op|','
 nl|'\n'
+name|'host'
+op|'='
+string|"'fake'"
+op|','
+nl|'\n'
 name|'cpu_info'
 op|'='
 string|"'cpu_info'"

@@ -172,6 +172,11 @@ op|':'
 number|'1'
 op|','
 nl|'\n'
+string|"'host'"
+op|':'
+string|"'fake-host'"
+op|','
+nl|'\n'
 string|"'service'"
 op|':'
 name|'None'
@@ -3575,6 +3580,15 @@ string|"'service_id'"
 op|']'
 op|'='
 number|'1'
+newline|'\n'
+comment|'# NOTE(sbauza): ResourceTracker adds host field'
+nl|'\n'
+name|'expected_resources'
+op|'['
+string|"'host'"
+op|']'
+op|'='
+string|"'fake-host'"
 newline|'\n'
 comment|'# NOTE(jaypipes): The ERT adds a "stats" field, containing a dictionary'
 nl|'\n'

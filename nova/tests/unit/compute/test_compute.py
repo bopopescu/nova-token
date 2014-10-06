@@ -1185,6 +1185,11 @@ op|':'
 number|'2'
 op|','
 nl|'\n'
+string|"'host'"
+op|':'
+string|"'fake_phyp1'"
+op|','
+nl|'\n'
 string|"'host_ip'"
 op|':'
 string|"'127.0.0.1'"

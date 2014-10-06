@@ -2531,6 +2531,14 @@ string|"'id'"
 op|']'
 op|','
 nl|'\n'
+string|"'host'"
+op|':'
+name|'s_ref'
+op|'['
+string|"'host'"
+op|']'
+op|','
+nl|'\n'
 string|"'vcpus'"
 op|':'
 number|'16'
