@@ -67,7 +67,7 @@ DECL|variable|VERSION
 indent|'    '
 name|'VERSION'
 op|'='
-string|"'1.0'"
+string|"'1.1'"
 newline|'\n'
 DECL|variable|fields
 name|'fields'
