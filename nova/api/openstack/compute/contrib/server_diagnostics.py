@@ -341,6 +341,8 @@ name|'state_error'
 op|','
 nl|'\n'
 string|"'get_diagnostics'"
+op|','
+name|'server_id'
 op|')'
 newline|'\n'
 dedent|''
