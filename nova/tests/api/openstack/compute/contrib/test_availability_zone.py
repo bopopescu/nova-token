@@ -737,7 +737,7 @@ newline|'\n'
 DECL|variable|url
 name|'url'
 op|'='
-string|"'/v3/os-availability-zone'"
+string|"'/v2/fake/os-availability-zone'"
 newline|'\n'
 nl|'\n'
 DECL|member|setUp
@@ -822,13 +822,14 @@ indent|'        '
 name|'return'
 name|'fakes'
 op|'.'
-name|'wsgi_app_v3'
+name|'wsgi_app_v21'
 op|'('
 name|'init_only'
 op|'='
 op|'('
 string|"'os-availability-zone'"
 op|','
+nl|'\n'
 string|"'servers'"
 op|')'
 op|')'
@@ -1895,11 +1896,6 @@ name|'availability_zone'
 op|'='
 name|'az_v2'
 newline|'\n'
-DECL|variable|url
-name|'url'
-op|'='
-string|"'/v2/fake/os-availability-zone'"
-newline|'\n'
 nl|'\n'
 DECL|member|_get_wsgi_instance
 name|'def'
@@ -1935,7 +1931,7 @@ DECL|variable|base_url
 indent|'    '
 name|'base_url'
 op|'='
-string|"'/v3/'"
+string|"'/v2/fake/'"
 newline|'\n'
 nl|'\n'
 DECL|member|setUp
@@ -3121,14 +3117,9 @@ name|'ServersControllerCreateTestV21'
 op|')'
 op|':'
 newline|'\n'
-DECL|variable|base_url
-indent|'    '
-name|'base_url'
-op|'='
-string|"'/v2/fake/'"
-newline|'\n'
 nl|'\n'
 DECL|member|_set_up_controller
+indent|'    '
 name|'def'
 name|'_set_up_controller'
 op|'('

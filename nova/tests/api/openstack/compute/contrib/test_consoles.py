@@ -617,7 +617,7 @@ DECL|variable|url
 indent|'    '
 name|'url'
 op|'='
-string|"'/v3/servers/1/action'"
+string|"'/v2/fake/servers/1/action'"
 newline|'\n'
 nl|'\n'
 DECL|member|_setup_wsgi
@@ -635,7 +635,7 @@ name|'app'
 op|'='
 name|'fakes'
 op|'.'
-name|'wsgi_app_v3'
+name|'wsgi_app_v21'
 op|'('
 name|'init_only'
 op|'='
@@ -3425,14 +3425,9 @@ name|'ConsolesExtensionTestV21'
 op|')'
 op|':'
 newline|'\n'
-DECL|variable|url
-indent|'    '
-name|'url'
-op|'='
-string|"'/v2/fake/servers/1/action'"
-newline|'\n'
 nl|'\n'
 DECL|member|_setup_wsgi
+indent|'    '
 name|'def'
 name|'_setup_wsgi'
 op|'('

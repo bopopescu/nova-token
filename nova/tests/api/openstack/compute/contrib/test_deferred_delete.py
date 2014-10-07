@@ -515,11 +515,11 @@ name|'req'
 op|'='
 name|'fakes'
 op|'.'
-name|'HTTPRequestV3'
+name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/servers/fake_uuid/action'"
+string|"'/v2/fake/servers/fake_uuid/action'"
 op|')'
 newline|'\n'
 name|'ex'
