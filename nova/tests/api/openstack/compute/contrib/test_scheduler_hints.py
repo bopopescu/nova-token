@@ -898,10 +898,7 @@ op|','
 nl|'\n'
 string|"'instance_type'"
 op|':'
-name|'dict'
-op|'('
 name|'inst_type'
-op|')'
 op|','
 nl|'\n'
 string|"'access_ip_v4'"
