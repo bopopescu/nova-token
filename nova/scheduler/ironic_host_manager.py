@@ -508,10 +508,10 @@ name|'compute'
 op|'.'
 name|'get'
 op|'('
-string|"'cpu_info'"
+string|"'hypervisor_type'"
 op|')'
 op|'=='
-string|"'baremetal cpu'"
+string|"'ironic'"
 op|':'
 newline|'\n'
 indent|'            '

@@ -1395,9 +1395,17 @@ op|'('
 op|')'
 op|','
 nl|'\n'
+comment|'# The Ironic driver manages multiple hosts, so there are'
+nl|'\n'
+comment|'# likely many different CPU models in use. As such it is'
+nl|'\n'
+comment|'# impossible to provide any meaningful info on the CPU'
+nl|'\n'
+comment|'# model of the "host"'
+nl|'\n'
 string|"'cpu_info'"
 op|':'
-string|"'baremetal cpu'"
+name|'None'
 op|','
 nl|'\n'
 string|"'vcpus'"
