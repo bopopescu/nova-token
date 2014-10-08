@@ -303,7 +303,7 @@ newline|'\n'
 DECL|variable|action_url
 name|'action_url'
 op|'='
-string|"'/v3/servers/1/action'"
+string|"'/v2/fake/servers/1/action'"
 newline|'\n'
 nl|'\n'
 DECL|member|setUp
@@ -381,7 +381,7 @@ indent|'        '
 name|'return'
 name|'fakes'
 op|'.'
-name|'wsgi_app_v3'
+name|'wsgi_app_v21'
 op|'('
 name|'init_only'
 op|'='
@@ -1205,11 +1205,6 @@ indent|'    '
 name|'need_osapi_compute_extension'
 op|'='
 name|'True'
-newline|'\n'
-DECL|variable|action_url
-name|'action_url'
-op|'='
-string|"'/v2/fake/servers/1/action'"
 newline|'\n'
 nl|'\n'
 DECL|member|_get_app

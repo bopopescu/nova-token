@@ -500,11 +500,11 @@ name|'req'
 op|'='
 name|'fakes'
 op|'.'
-name|'HTTPRequestV3'
+name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/servers'"
+string|"'/v2/fake/servers'"
 op|')'
 newline|'\n'
 name|'req'
