@@ -1344,8 +1344,16 @@ op|'('
 op|')'
 newline|'\n'
 nl|'\n'
-DECL|member|host_passes
+comment|"# The hosts the instances are running on doesn't change within a request"
+nl|'\n'
+DECL|variable|run_filter_once_per_request
 dedent|''
+name|'run_filter_once_per_request'
+op|'='
+name|'True'
+newline|'\n'
+nl|'\n'
+DECL|member|host_passes
 name|'def'
 name|'host_passes'
 op|'('
