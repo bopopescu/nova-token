@@ -2686,10 +2686,6 @@ string|"'host_hostname'"
 op|']'
 op|','
 nl|'\n'
-comment|'# Todo(bobba) cpu_info may be in a format not supported by'
-nl|'\n'
-comment|'# arch_filter.py - see libvirt/driver.py get_cpu_info'
-nl|'\n'
 string|"'cpu_info'"
 op|':'
 name|'jsonutils'
@@ -2698,7 +2694,7 @@ name|'dumps'
 op|'('
 name|'host_stats'
 op|'['
-string|"'host_cpu_info'"
+string|"'cpu_model'"
 op|']'
 op|')'
 op|','
