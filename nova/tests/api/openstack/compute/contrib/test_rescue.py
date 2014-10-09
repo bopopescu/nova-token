@@ -184,7 +184,7 @@ DECL|variable|_prefix
 indent|'    '
 name|'_prefix'
 op|'='
-string|'"/v3"'
+string|"'/v2/fake'"
 newline|'\n'
 nl|'\n'
 DECL|member|setUp
@@ -283,7 +283,7 @@ indent|'        '
 name|'return'
 name|'fakes'
 op|'.'
-name|'wsgi_app_v3'
+name|'wsgi_app_v21'
 op|'('
 name|'init_only'
 op|'='
@@ -1935,14 +1935,9 @@ name|'RescueTestV21'
 op|')'
 op|':'
 newline|'\n'
-DECL|variable|_prefix
-indent|'    '
-name|'_prefix'
-op|'='
-string|"'/v2/fake'"
-newline|'\n'
 nl|'\n'
 DECL|member|_get_app
+indent|'    '
 name|'def'
 name|'_get_app'
 op|'('
