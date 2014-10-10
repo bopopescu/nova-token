@@ -4462,7 +4462,7 @@ name|'validate_schema'
 op|'('
 name|'root'
 op|','
-string|"'flavors_index'"
+string|"'flavors'"
 op|')'
 newline|'\n'
 name|'flavor_elems'
@@ -4678,7 +4678,7 @@ name|'validate_schema'
 op|'('
 name|'root'
 op|','
-string|"'flavors_index'"
+string|"'flavors'"
 op|')'
 newline|'\n'
 name|'flavor_elems'

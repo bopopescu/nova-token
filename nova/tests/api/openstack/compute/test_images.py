@@ -6368,7 +6368,7 @@ name|'validate_schema'
 op|'('
 name|'root'
 op|','
-string|"'images_index'"
+string|"'images'"
 op|')'
 newline|'\n'
 name|'image_elems'
@@ -6734,7 +6734,7 @@ name|'validate_schema'
 op|'('
 name|'root'
 op|','
-string|"'images_index'"
+string|"'images'"
 op|')'
 newline|'\n'
 name|'image_elems'
@@ -7014,7 +7014,7 @@ name|'validate_schema'
 op|'('
 name|'root'
 op|','
-string|"'images_index'"
+string|"'images'"
 op|')'
 newline|'\n'
 name|'image_elems'
