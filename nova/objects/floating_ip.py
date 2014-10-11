@@ -96,11 +96,13 @@ comment|'# Version 1.3: FixedIP <= version 1.3'
 nl|'\n'
 comment|'# Version 1.4: FixedIP <= version 1.4'
 nl|'\n'
+comment|'# Version 1.5: FixedIP <= version 1.5'
+nl|'\n'
 DECL|variable|VERSION
 indent|'    '
 name|'VERSION'
 op|'='
-string|"'1.4'"
+string|"'1.5'"
 newline|'\n'
 DECL|variable|fields
 name|'fields'
@@ -369,6 +371,53 @@ string|"'nova_object.version'"
 op|']'
 op|'='
 string|"'1.3'"
+newline|'\n'
+dedent|''
+name|'elif'
+name|'target_version'
+op|'<'
+op|'('
+number|'1'
+op|','
+number|'5'
+op|')'
+name|'and'
+name|'self'
+op|'.'
+name|'obj_attr_is_set'
+op|'('
+string|"'fixed_ip'"
+op|')'
+op|':'
+newline|'\n'
+indent|'            '
+name|'self'
+op|'.'
+name|'fixed_ip'
+op|'.'
+name|'obj_make_compatible'
+op|'('
+nl|'\n'
+name|'primitive'
+op|'['
+string|"'fixed_ip'"
+op|']'
+op|'['
+string|"'nova_object.data'"
+op|']'
+op|','
+string|"'1.4'"
+op|')'
+newline|'\n'
+name|'primitive'
+op|'['
+string|"'fixed_ip'"
+op|']'
+op|'['
+string|"'nova_object.version'"
+op|']'
+op|'='
+string|"'1.4'"
 newline|'\n'
 nl|'\n'
 dedent|''
@@ -1266,6 +1315,8 @@ comment|'# Version 1.4: FloatingIP 1.3'
 nl|'\n'
 comment|'# Version 1.5: FloatingIP 1.4'
 nl|'\n'
+comment|'# Version 1.6: FloatingIP 1.5'
+nl|'\n'
 DECL|variable|fields
 indent|'    '
 name|'fields'
@@ -1319,12 +1370,17 @@ op|':'
 string|"'1.4'"
 op|','
 nl|'\n'
+string|"'1.6'"
+op|':'
+string|"'1.5'"
+op|','
+nl|'\n'
 op|'}'
 newline|'\n'
 DECL|variable|VERSION
 name|'VERSION'
 op|'='
-string|"'1.5'"
+string|"'1.6'"
 newline|'\n'
 nl|'\n'
 op|'@'
