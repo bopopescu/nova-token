@@ -132,5 +132,16 @@ op|','
 string|'"eagerZeroedThick"'
 op|']'
 newline|'\n'
+nl|'\n'
+DECL|variable|EXTENSION_KEY
+name|'EXTENSION_KEY'
+op|'='
+string|"'org.openstack.compute'"
+newline|'\n'
+DECL|variable|EXTENSION_TYPE_INSTANCE
+name|'EXTENSION_TYPE_INSTANCE'
+op|'='
+string|"'instance'"
+newline|'\n'
 endmarker|''
 end_unit
