@@ -111,6 +111,11 @@ op|')'
 newline|'\n'
 name|'__import__'
 op|'('
+string|"'nova.objects.hv_spec'"
+op|')'
+newline|'\n'
+name|'__import__'
+op|'('
 string|"'nova.objects.instance'"
 op|')'
 newline|'\n'
