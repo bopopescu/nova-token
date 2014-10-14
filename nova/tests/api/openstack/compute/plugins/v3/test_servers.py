@@ -120,7 +120,7 @@ name|'plugins'
 op|'.'
 name|'v3'
 name|'import'
-name|'access_ips'
+name|'disk_config'
 newline|'\n'
 name|'from'
 name|'nova'
@@ -24252,12 +24252,12 @@ DECL|variable|name
 indent|'    '
 name|'name'
 op|'='
-string|'"AccessIPs"'
+string|'"DiskConfig"'
 newline|'\n'
 DECL|variable|alias
 name|'alias'
 op|'='
-string|"'os-access-ips'"
+string|"'os-disk-config'"
 newline|'\n'
 DECL|variable|version
 name|'version'
@@ -24354,7 +24354,7 @@ op|'('
 string|"'extensions_whitelist'"
 op|','
 op|'['
-string|"'os-access-ips'"
+string|"'os-disk-config'"
 op|']'
 op|','
 nl|'\n'
@@ -24367,9 +24367,9 @@ name|'stubs'
 op|'.'
 name|'Set'
 op|'('
-name|'access_ips'
+name|'disk_config'
 op|','
-string|"'AccessIPs'"
+string|"'DiskConfig'"
 op|','
 name|'FakeExt'
 op|')'
@@ -24425,7 +24425,7 @@ op|'.'
 name|'assertEqual'
 op|'('
 nl|'\n'
-string|"'os-access-ips'"
+string|"'os-disk-config'"
 op|','
 nl|'\n'
 name|'list'
@@ -24510,6 +24510,24 @@ op|'.'
 name|'_test_load_extension_point'
 op|'('
 string|"'create'"
+op|')'
+newline|'\n'
+nl|'\n'
+DECL|member|test_load_resize_extension_point
+dedent|''
+name|'def'
+name|'test_load_resize_extension_point'
+op|'('
+name|'self'
+op|')'
+op|':'
+newline|'\n'
+indent|'        '
+name|'self'
+op|'.'
+name|'_test_load_extension_point'
+op|'('
+string|"'resize'"
 op|')'
 newline|'\n'
 nl|'\n'
