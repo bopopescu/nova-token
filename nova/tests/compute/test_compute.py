@@ -11681,7 +11681,8 @@ op|'['
 string|"'access_ip_v6'"
 op|']'
 op|','
-string|"'2001:db8:0:1::1'"
+nl|'\n'
+string|"'2001:db8:0:1:dcad:beff:feef:1'"
 op|')'
 newline|'\n'
 dedent|''
