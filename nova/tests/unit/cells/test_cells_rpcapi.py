@@ -4257,6 +4257,11 @@ string|"'fake-instance'"
 op|','
 op|'['
 op|']'
+op|','
+nl|'\n'
+name|'delete_type'
+op|'='
+string|"'delete'"
 op|')'
 newline|'\n'
 name|'expected_args'
@@ -4265,6 +4270,11 @@ op|'{'
 string|"'instance'"
 op|':'
 string|"'fake-instance'"
+op|','
+nl|'\n'
+string|"'delete_type'"
+op|':'
+string|"'delete'"
 op|'}'
 newline|'\n'
 name|'self'
@@ -4280,7 +4290,7 @@ name|'expected_args'
 op|','
 name|'version'
 op|'='
-string|"'1.18'"
+string|"'1.36'"
 op|')'
 newline|'\n'
 nl|'\n'
