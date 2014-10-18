@@ -210,7 +210,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""Manages the address fields of the whitelist.\n\n    This class checks the address fields of the pci_passthrough_whitelist\n    configuration option, validating the address fields.\n    Example config are:\n\n        | pci_passthrough_whitelist = {"address":"*:0a:00.*",\n        |                         "physical_network":"physnet1"}\n        | pci_passthrough_whitelist = {"address":":0a:00.",\n\n    This function class will validate the address fields, check for wildcards,\n    and insert wildcards where the field is left blank.\n    """'
+string|'"""Manages the address fields of the whitelist.\n\n    This class checks the address fields of the pci_passthrough_whitelist\n    configuration option, validating the address fields.\n    Example config are:\n\n        | pci_passthrough_whitelist = {"address":"*:0a:00.*",\n        |                         "physical_network":"physnet1"}\n        | pci_passthrough_whitelist = {"vendor_id":"1137","product_id":"0071"}\n\n    This function class will validate the address fields, check for wildcards,\n    and insert wildcards where the field is left blank.\n    """'
 newline|'\n'
 DECL|member|__init__
 name|'def'
