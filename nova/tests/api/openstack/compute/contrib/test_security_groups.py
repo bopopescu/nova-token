@@ -12568,7 +12568,7 @@ DECL|variable|base_url
 indent|'    '
 name|'base_url'
 op|'='
-string|"'/v3/servers'"
+string|"'/v2/fake/servers'"
 newline|'\n'
 DECL|variable|content_type
 name|'content_type'
@@ -12700,7 +12700,7 @@ indent|'        '
 name|'return'
 name|'fakes'
 op|'.'
-name|'wsgi_app_v3'
+name|'wsgi_app_v21'
 op|'('
 name|'init_only'
 op|'='
@@ -13286,14 +13286,9 @@ name|'SecurityGroupsOutputTestV21'
 op|')'
 op|':'
 newline|'\n'
-DECL|variable|base_url
-indent|'    '
-name|'base_url'
-op|'='
-string|"'/v2/fake/servers'"
-newline|'\n'
 nl|'\n'
 DECL|member|_setup_app
+indent|'    '
 name|'def'
 name|'_setup_app'
 op|'('

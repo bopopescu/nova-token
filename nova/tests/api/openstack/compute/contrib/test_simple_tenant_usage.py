@@ -547,12 +547,12 @@ DECL|variable|url
 indent|'    '
 name|'url'
 op|'='
-string|"'/v3/os-simple-tenant-usage'"
+string|"'/v2/faketenant_0/os-simple-tenant-usage'"
 newline|'\n'
 DECL|variable|alt_url
 name|'alt_url'
 op|'='
-string|"'/v3/os-simple-tenant-usage'"
+string|"'/v2/faketenant_1/os-simple-tenant-usage'"
 newline|'\n'
 DECL|variable|policy_rule_prefix
 name|'policy_rule_prefix'
@@ -653,7 +653,7 @@ indent|'        '
 name|'return'
 name|'fakes'
 op|'.'
-name|'wsgi_app_v3'
+name|'wsgi_app_v21'
 op|'('
 name|'fake_auth_context'
 op|'='
@@ -2008,18 +2008,8 @@ name|'SimpleTenantUsageTestV21'
 op|')'
 op|':'
 newline|'\n'
-DECL|variable|url
-indent|'    '
-name|'url'
-op|'='
-string|"'/v2/faketenant_0/os-simple-tenant-usage'"
-newline|'\n'
-DECL|variable|alt_url
-name|'alt_url'
-op|'='
-string|"'/v2/faketenant_1/os-simple-tenant-usage'"
-newline|'\n'
 DECL|variable|policy_rule_prefix
+indent|'    '
 name|'policy_rule_prefix'
 op|'='
 string|'"compute_extension:simple_tenant_usage"'
