@@ -323,7 +323,7 @@ DECL|variable|base_url
 indent|'    '
 name|'base_url'
 op|'='
-string|"'/v3'"
+string|"'/v2/fake'"
 newline|'\n'
 nl|'\n'
 DECL|member|_setup_app
@@ -341,7 +341,7 @@ name|'app'
 op|'='
 name|'fakes'
 op|'.'
-name|'wsgi_app_v3'
+name|'wsgi_app_v21'
 op|'('
 name|'init_only'
 op|'='
@@ -2317,7 +2317,7 @@ newline|'\n'
 DECL|variable|base_url
 name|'base_url'
 op|'='
-string|"'/v3'"
+string|"'/v2/fake'"
 newline|'\n'
 nl|'\n'
 DECL|member|setUp
@@ -3547,14 +3547,9 @@ name|'KeypairsTestV21'
 op|')'
 op|':'
 newline|'\n'
-DECL|variable|base_url
-indent|'    '
-name|'base_url'
-op|'='
-string|"'/v2/fake'"
-newline|'\n'
 nl|'\n'
 DECL|member|_setup_app
+indent|'    '
 name|'def'
 name|'_setup_app'
 op|'('
@@ -3621,11 +3616,6 @@ DECL|variable|policy_path
 name|'policy_path'
 op|'='
 string|"'compute_extension:keypairs'"
-newline|'\n'
-DECL|variable|base_url
-name|'base_url'
-op|'='
-string|"'/v2/fake'"
 newline|'\n'
 dedent|''
 endmarker|''

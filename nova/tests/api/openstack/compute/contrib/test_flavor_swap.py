@@ -265,7 +265,7 @@ DECL|variable|base_url
 indent|'    '
 name|'base_url'
 op|'='
-string|"'/v3/flavors'"
+string|"'/v2/fake/flavors'"
 newline|'\n'
 DECL|variable|content_type
 name|'content_type'
@@ -398,7 +398,7 @@ name|'get_response'
 op|'('
 name|'fakes'
 op|'.'
-name|'wsgi_app_v3'
+name|'wsgi_app_v21'
 op|'('
 name|'init_only'
 op|'='
@@ -642,14 +642,9 @@ name|'FlavorSwapTestV21'
 op|')'
 op|':'
 newline|'\n'
-DECL|variable|base_url
-indent|'    '
-name|'base_url'
-op|'='
-string|"'/v2/fake/flavors'"
-newline|'\n'
 nl|'\n'
 DECL|member|_make_request
+indent|'    '
 name|'def'
 name|'_make_request'
 op|'('

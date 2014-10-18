@@ -358,7 +358,7 @@ indent|'        '
 name|'return'
 name|'fakes'
 op|'.'
-name|'wsgi_app_v3'
+name|'wsgi_app_v21'
 op|'('
 name|'init_only'
 op|'='
@@ -381,7 +381,7 @@ op|':'
 newline|'\n'
 indent|'        '
 name|'return'
-string|"'/v3'"
+string|"'/v2/fake'"
 newline|'\n'
 nl|'\n'
 DECL|member|test_add_fixed_ip
@@ -1417,20 +1417,6 @@ string|"'servers'"
 op|','
 op|')'
 op|')'
-newline|'\n'
-nl|'\n'
-DECL|member|_get_url
-dedent|''
-name|'def'
-name|'_get_url'
-op|'('
-name|'self'
-op|')'
-op|':'
-newline|'\n'
-indent|'        '
-name|'return'
-string|"'/v2/fake'"
 newline|'\n'
 nl|'\n'
 DECL|member|test_remove_fixed_ip_invalid_address

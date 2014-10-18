@@ -255,7 +255,7 @@ DECL|variable|base_url
 indent|'    '
 name|'base_url'
 op|'='
-string|"'/v3/flavors'"
+string|"'/v2/fake/flavors'"
 newline|'\n'
 nl|'\n'
 DECL|member|setUp
@@ -348,7 +348,7 @@ name|'app'
 op|'='
 name|'fakes'
 op|'.'
-name|'wsgi_app_v3'
+name|'wsgi_app_v21'
 op|'('
 name|'init_only'
 op|'='
@@ -692,14 +692,9 @@ name|'FlavorExtraDataTestV21'
 op|')'
 op|':'
 newline|'\n'
-DECL|variable|base_url
-indent|'    '
-name|'base_url'
-op|'='
-string|"'/v2/fake/flavors'"
-newline|'\n'
 nl|'\n'
 DECL|member|_setup_app
+indent|'    '
 name|'def'
 name|'_setup_app'
 op|'('

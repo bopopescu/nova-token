@@ -582,7 +582,7 @@ newline|'\n'
 DECL|variable|base_url
 name|'base_url'
 op|'='
-string|"'/v3/flavors'"
+string|"'/v2/fake/flavors'"
 newline|'\n'
 nl|'\n'
 DECL|member|setUp
@@ -763,7 +763,7 @@ indent|'        '
 name|'return'
 name|'fakes'
 op|'.'
-name|'wsgi_app_v3'
+name|'wsgi_app_v21'
 op|'('
 name|'init_only'
 op|'='
@@ -2624,7 +2624,7 @@ newline|'\n'
 DECL|variable|base_url
 name|'base_url'
 op|'='
-string|"'/v3/flavors'"
+string|"'/v2/fake/flavors'"
 newline|'\n'
 nl|'\n'
 DECL|member|setUp
@@ -2751,7 +2751,7 @@ indent|'        '
 name|'return'
 name|'fakes'
 op|'.'
-name|'wsgi_app_v3'
+name|'wsgi_app_v21'
 op|'('
 name|'init_only'
 op|'='
@@ -3099,11 +3099,6 @@ name|'exc'
 op|'.'
 name|'HTTPBadRequest'
 newline|'\n'
-DECL|variable|base_url
-name|'base_url'
-op|'='
-string|"'/v2/fake/flavors'"
-newline|'\n'
 nl|'\n'
 DECL|member|setUp
 name|'def'
@@ -3206,11 +3201,6 @@ op|'.'
 name|'FlavorManageController'
 op|'('
 op|')'
-newline|'\n'
-DECL|variable|base_url
-name|'base_url'
-op|'='
-string|"'/v2/fake/flavors'"
 newline|'\n'
 nl|'\n'
 DECL|member|setUp
