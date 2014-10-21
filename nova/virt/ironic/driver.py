@@ -5004,9 +5004,8 @@ name|'context'
 op|','
 nl|'\n'
 name|'instance'
-op|'['
-string|"'instance_type_id'"
-op|']'
+op|'.'
+name|'instance_type_id'
 op|')'
 newline|'\n'
 nl|'\n'
@@ -5090,9 +5089,8 @@ op|'{'
 string|"'inst'"
 op|':'
 name|'instance'
-op|'['
-string|"'uuid'"
-op|']'
+op|'.'
+name|'uuid'
 op|','
 nl|'\n'
 string|"'reason'"
