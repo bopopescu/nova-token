@@ -3166,7 +3166,7 @@ name|'Target'
 op|'('
 name|'version'
 op|'='
-string|"'3.36'"
+string|"'3.37'"
 op|')'
 newline|'\n'
 nl|'\n'

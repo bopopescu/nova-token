@@ -8636,6 +8636,11 @@ op|'{'
 string|"'do_cast'"
 op|':'
 name|'True'
+op|','
+nl|'\n'
+string|"'clean_shutdown'"
+op|':'
+name|'True'
 op|'}'
 op|','
 name|'False'
@@ -8672,6 +8677,11 @@ op|'{'
 string|"'do_cast'"
 op|':'
 name|'False'
+op|','
+nl|'\n'
+string|"'clean_shutdown'"
+op|':'
+name|'True'
 op|'}'
 op|','
 name|'True'

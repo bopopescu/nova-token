@@ -4921,6 +4921,11 @@ nl|'\n'
 name|'do_cast'
 op|'='
 string|"'meow'"
+op|','
+nl|'\n'
+name|'clean_shutdown'
+op|'='
+string|"'purr'"
 op|')'
 newline|'\n'
 name|'self'
@@ -4950,6 +4955,11 @@ nl|'\n'
 name|'do_cast'
 op|'='
 string|"'meow'"
+op|','
+nl|'\n'
+name|'clean_shutdown'
+op|'='
+string|"'purr'"
 op|')'
 newline|'\n'
 nl|'\n'
