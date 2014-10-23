@@ -490,10 +490,10 @@ string|"'1.0'"
 op|')'
 newline|'\n'
 nl|'\n'
-DECL|member|test_delete_tokens_for_instnace
+DECL|member|test_delete_tokens_for_instance
 dedent|''
 name|'def'
-name|'test_delete_tokens_for_instnace'
+name|'test_delete_tokens_for_instance'
 op|'('
 name|'self'
 op|')'
