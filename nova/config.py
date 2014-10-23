@@ -135,6 +135,8 @@ string|"'routes.middleware=WARN'"
 op|','
 nl|'\n'
 string|"'stevedore=WARN'"
+op|','
+string|"'glanceclient=WARN'"
 op|']'
 newline|'\n'
 nl|'\n'
