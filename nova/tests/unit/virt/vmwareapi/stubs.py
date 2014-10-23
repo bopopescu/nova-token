@@ -453,7 +453,7 @@ name|'Set'
 op|'('
 name|'images'
 op|','
-string|"'upload_image'"
+string|"'upload_image_stream_optimized'"
 op|','
 name|'fake'
 op|'.'
