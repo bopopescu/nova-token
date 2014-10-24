@@ -232,7 +232,7 @@ op|'['
 string|"'project_id'"
 op|']'
 op|'='
-string|"'cloudpipe-[0-9a-f-]+'"
+string|"'[0-9a-f-]+'"
 newline|'\n'
 name|'return'
 name|'subs'
@@ -268,8 +268,6 @@ op|'='
 op|'{'
 string|"'project_id'"
 op|':'
-string|"'cloudpipe-'"
-op|'+'
 name|'str'
 op|'('
 name|'uuid_lib'
@@ -277,6 +275,8 @@ op|'.'
 name|'uuid4'
 op|'('
 op|')'
+op|'.'
+name|'hex'
 op|')'
 op|'}'
 newline|'\n'
