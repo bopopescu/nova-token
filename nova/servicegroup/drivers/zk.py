@@ -62,8 +62,6 @@ name|'nova'
 op|'.'
 name|'i18n'
 name|'import'
-name|'_'
-op|','
 name|'_LE'
 newline|'\n'
 name|'from'
@@ -660,13 +658,14 @@ name|'LOG'
 op|'.'
 name|'error'
 op|'('
-name|'_'
+name|'_LE'
 op|'('
-string|"'ZooKeeperDriver.leave: %(id)s has not joined to the '"
+string|"'ZooKeeperDriver.leave: %(id)s has not joined '"
 nl|'\n'
-string|"'%(gr)s group'"
+string|"'to the %(gr)s group'"
 op|')'
 op|','
+nl|'\n'
 op|'{'
 string|"'id'"
 op|':'
