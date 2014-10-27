@@ -1644,9 +1644,8 @@ nl|'\n'
 string|"'value'"
 op|':'
 name|'instance'
-op|'['
-string|"'uuid'"
-op|']'
+op|'.'
+name|'uuid'
 op|'}'
 op|')'
 newline|'\n'
@@ -1698,9 +1697,8 @@ op|','
 string|"'instance'"
 op|':'
 name|'instance'
-op|'['
-string|"'uuid'"
-op|']'
+op|'.'
+name|'uuid'
 op|'}'
 op|')'
 newline|'\n'
