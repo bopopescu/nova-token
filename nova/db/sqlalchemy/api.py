@@ -19395,6 +19395,54 @@ newline|'\n'
 indent|'    '
 string|'"""Generates and raises an OverQuota exception.\n\n    :param project_quotas: dict of resource quotas (limits) for the project.\n    :param user_quotas:    dict of resource quotas (limits) for the user.\n    :param deltas:         dict of resource keys to positive/negative quota\n                           changes for the resources in a given operation.\n    :param overs:          list of resources that are over-quota for the\n                           operation.\n    :param project_usages: dict of resource keys to QuotaUsage records for the\n                           project.\n    :param user_usages:    dict of resource keys to QuotaUsage records for the\n                           user.\n    :raises:               nova.exception.OverQuota\n    """'
 newline|'\n'
+nl|'\n'
+name|'LOG'
+op|'.'
+name|'debug'
+op|'('
+string|"'Raise OverQuota exception because: '"
+nl|'\n'
+string|"'project_quotas: %(project_quotas)s, '"
+nl|'\n'
+string|"'user_quotas: %(user_quotas)s, deltas: %(deltas)s, '"
+nl|'\n'
+string|"'overs: %(overs)s, project_usages: %(project_usages)s, '"
+nl|'\n'
+string|"'user_usages: %(user_usages)s'"
+op|','
+nl|'\n'
+op|'{'
+string|"'project_quotas'"
+op|':'
+name|'project_quotas'
+op|','
+nl|'\n'
+string|"'user_quotas'"
+op|':'
+name|'user_quotas'
+op|','
+nl|'\n'
+string|"'overs'"
+op|':'
+name|'overs'
+op|','
+string|"'deltas'"
+op|':'
+name|'deltas'
+op|','
+nl|'\n'
+string|"'project_usages'"
+op|':'
+name|'project_usages'
+op|','
+nl|'\n'
+string|"'user_usages'"
+op|':'
+name|'user_usages'
+op|'}'
+op|')'
+newline|'\n'
+nl|'\n'
 name|'if'
 name|'project_quotas'
 op|'=='
