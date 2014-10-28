@@ -182,7 +182,7 @@ DECL|variable|_FAKE_URL
 indent|'    '
 name|'_FAKE_URL'
 op|'='
-string|"'/v3/os-console-auth-tokens/1'"
+string|"'/v2/fake/os-console-auth-tokens/1'"
 newline|'\n'
 nl|'\n'
 DECL|variable|_EXPECTED_OUTPUT
@@ -266,7 +266,7 @@ name|'app'
 op|'='
 name|'fakes'
 op|'.'
-name|'wsgi_app_v3'
+name|'wsgi_app_v21'
 op|'('
 name|'init_only'
 op|'='
