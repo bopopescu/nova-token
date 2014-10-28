@@ -967,6 +967,9 @@ nl|'\n'
 string|"'nfs=nova.virt.libvirt.volume.LibvirtNFSVolumeDriver'"
 op|','
 nl|'\n'
+string|"'smbfs=nova.virt.libvirt.volume.LibvirtSMBFSVolumeDriver'"
+op|','
+nl|'\n'
 string|"'aoe=nova.virt.libvirt.volume.LibvirtAOEVolumeDriver'"
 op|','
 nl|'\n'
