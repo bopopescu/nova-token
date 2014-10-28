@@ -6205,9 +6205,9 @@ name|'TestSecurityGroupsV21'
 op|')'
 op|':'
 newline|'\n'
-DECL|variable|controller_cls
+DECL|variable|secgrp_ctl_cls
 indent|'    '
-name|'controller_cls'
+name|'secgrp_ctl_cls'
 op|'='
 name|'secgroups_v2'
 op|'.'
