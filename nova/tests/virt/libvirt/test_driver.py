@@ -2253,8 +2253,14 @@ op|')'
 op|':'
 newline|'\n'
 nl|'\n'
-DECL|member|setUp
+DECL|variable|REQUIRES_LOCKING
 indent|'    '
+name|'REQUIRES_LOCKING'
+op|'='
+name|'True'
+newline|'\n'
+nl|'\n'
+DECL|member|setUp
 name|'def'
 name|'setUp'
 op|'('
