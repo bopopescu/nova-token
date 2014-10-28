@@ -78074,7 +78074,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""Some instance-types are marked \'disabled\' which means that they will not\n    show up in customer-facing listings. We do, however, want those\n    instance-types to be available for emergency migrations and for rebuilding\n    of existing instances.\n\n    One legitimate use of the \'disabled\' field would be when phasing out a\n    particular instance-type. We still want customers to be able to use an\n    instance that of the old type, and we want Ops to be able perform\n    migrations against it, but we *don\'t* want customers building new slices\n    with ths phased-out instance-type.\n    """'
+string|'"""Some instance-types are marked \'disabled\' which means that they will not\n    show up in customer-facing listings. We do, however, want those\n    instance-types to be available for emergency migrations and for rebuilding\n    of existing instances.\n\n    One legitimate use of the \'disabled\' field would be when phasing out a\n    particular instance-type. We still want customers to be able to use an\n    instance that of the old type, and we want Ops to be able perform\n    migrations against it, but we *don\'t* want customers building new\n    instances with the phased-out instance-type.\n    """'
 newline|'\n'
 DECL|member|setUp
 name|'def'
