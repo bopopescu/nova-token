@@ -116,18 +116,6 @@ DECL|variable|help
 name|'help'
 op|'='
 string|"'Host on which to listen for incoming requests'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_group
-name|'deprecated_group'
-op|'='
-string|"'DEFAULT'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_name
-name|'deprecated_name'
-op|'='
-string|"'spicehtml5proxy_host'"
 op|')'
 op|','
 nl|'\n'
@@ -148,18 +136,6 @@ DECL|variable|help
 name|'help'
 op|'='
 string|"'Port on which to listen for incoming requests'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_group
-name|'deprecated_group'
-op|'='
-string|"'DEFAULT'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_name
-name|'deprecated_name'
-op|'='
-string|"'spicehtml5proxy_port'"
 op|')'
 op|','
 nl|'\n'
