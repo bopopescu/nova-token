@@ -20971,7 +20971,7 @@ name|'mock'
 op|'.'
 name|'patch'
 op|'('
-string|"'nova.openstack.common.lockutils.lock'"
+string|"'oslo.concurrency.lockutils.lock'"
 op|')'
 newline|'\n'
 DECL|member|test_get_instance_nw_info_locks_per_instance
