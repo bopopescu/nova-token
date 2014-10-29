@@ -76,13 +76,9 @@ string|"'Number of seconds to wait between runs of the image '"
 nl|'\n'
 string|"'cache manager. Set to -1 to disable. '"
 nl|'\n'
-string|"'Setting this to 0 will disable, but this will change in '"
-nl|'\n'
-string|'\'the K release to mean "run at the default rate".\''
+string|"'Setting this to 0 will run at the default rate.'"
 op|')'
 op|','
-nl|'\n'
-comment|'# TODO(gilliard): Clean the above message after the K release'
 nl|'\n'
 name|'cfg'
 op|'.'
