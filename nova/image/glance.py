@@ -321,7 +321,9 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'Number of retries when downloading an image from glance'"
+string|"'Number of retries when uploading / downloading an image '"
+nl|'\n'
+string|"'to / from glance.'"
 op|','
 nl|'\n'
 DECL|variable|deprecated_group
