@@ -11469,6 +11469,12 @@ indent|'    '
 string|'"""Unit test for verifying migration-related actions."""'
 newline|'\n'
 nl|'\n'
+DECL|variable|REQUIRES_LOCKING
+name|'REQUIRES_LOCKING'
+op|'='
+name|'True'
+newline|'\n'
+nl|'\n'
 DECL|member|setUp
 name|'def'
 name|'setUp'
@@ -18368,8 +18374,14 @@ op|')'
 op|':'
 newline|'\n'
 nl|'\n'
-DECL|variable|_in_rules
+DECL|variable|REQUIRES_LOCKING
 indent|'    '
+name|'REQUIRES_LOCKING'
+op|'='
+name|'True'
+newline|'\n'
+nl|'\n'
+DECL|variable|_in_rules
 name|'_in_rules'
 op|'='
 op|'['

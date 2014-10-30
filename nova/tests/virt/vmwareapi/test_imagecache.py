@@ -130,8 +130,15 @@ name|'NoDBTestCase'
 op|')'
 op|':'
 newline|'\n'
-DECL|member|setUp
+nl|'\n'
+DECL|variable|REQUIRES_LOCKING
 indent|'    '
+name|'REQUIRES_LOCKING'
+op|'='
+name|'True'
+newline|'\n'
+nl|'\n'
+DECL|member|setUp
 name|'def'
 name|'setUp'
 op|'('
