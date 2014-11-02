@@ -8165,6 +8165,11 @@ op|':'
 string|"'1.0-accbf02628a8063c1d885077a2bf49b6'"
 op|','
 nl|'\n'
+string|"'VirtCPUTopology'"
+op|':'
+string|"'1.0-fc694de72e20298f7c6bab1083fd4563'"
+op|','
+nl|'\n'
 op|'}'
 newline|'\n'
 nl|'\n'
