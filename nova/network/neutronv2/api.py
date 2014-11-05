@@ -221,18 +221,6 @@ DECL|variable|help
 name|'help'
 op|'='
 string|"'URL for connecting to neutron'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_group
-name|'deprecated_group'
-op|'='
-string|"'DEFAULT'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_name
-name|'deprecated_name'
-op|'='
-string|"'neutron_url'"
 op|')'
 op|','
 nl|'\n'
@@ -253,18 +241,6 @@ DECL|variable|help
 name|'help'
 op|'='
 string|"'Timeout value for connecting to neutron in seconds'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_group
-name|'deprecated_group'
-op|'='
-string|"'DEFAULT'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_name
-name|'deprecated_name'
-op|'='
-string|"'neutron_url_timeout'"
 op|')'
 op|','
 nl|'\n'
@@ -293,18 +269,6 @@ DECL|variable|help
 name|'help'
 op|'='
 string|"'Username for connecting to neutron in admin context'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_group
-name|'deprecated_group'
-op|'='
-string|"'DEFAULT'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_name
-name|'deprecated_name'
-op|'='
-string|"'neutron_admin_username'"
 op|')'
 op|','
 nl|'\n'
@@ -325,18 +289,6 @@ DECL|variable|secret
 name|'secret'
 op|'='
 name|'True'
-op|','
-nl|'\n'
-DECL|variable|deprecated_group
-name|'deprecated_group'
-op|'='
-string|"'DEFAULT'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_name
-name|'deprecated_name'
-op|'='
-string|"'neutron_admin_password'"
 op|')'
 op|','
 nl|'\n'
@@ -351,18 +303,6 @@ DECL|variable|help
 name|'help'
 op|'='
 string|"'Tenant id for connecting to neutron in admin context'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_group
-name|'deprecated_group'
-op|'='
-string|"'DEFAULT'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_name
-name|'deprecated_name'
-op|'='
-string|"'neutron_admin_tenant_id'"
 op|')'
 op|','
 nl|'\n'
@@ -383,18 +323,6 @@ nl|'\n'
 string|"'is set. Note that with Keystone V3 tenant names are '"
 nl|'\n'
 string|"'only unique within a domain.'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_group
-name|'deprecated_group'
-op|'='
-string|"'DEFAULT'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_name
-name|'deprecated_name'
-op|'='
-string|"'neutron_admin_tenant_name'"
 op|')'
 op|','
 nl|'\n'
@@ -409,18 +337,6 @@ DECL|variable|help
 name|'help'
 op|'='
 string|"'Region name for connecting to neutron in admin context'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_group
-name|'deprecated_group'
-op|'='
-string|"'DEFAULT'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_name
-name|'deprecated_name'
-op|'='
-string|"'neutron_region_name'"
 op|')'
 op|','
 nl|'\n'
@@ -443,18 +359,6 @@ op|'='
 string|"'Authorization URL for connecting to neutron in admin '"
 nl|'\n'
 string|"'context'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_group
-name|'deprecated_group'
-op|'='
-string|"'DEFAULT'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_name
-name|'deprecated_name'
-op|'='
-string|"'neutron_admin_auth_url'"
 op|')'
 op|','
 nl|'\n'
@@ -475,18 +379,6 @@ DECL|variable|help
 name|'help'
 op|'='
 string|"'If set, ignore any SSL validation issues'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_group
-name|'deprecated_group'
-op|'='
-string|"'DEFAULT'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_name
-name|'deprecated_name'
-op|'='
-string|"'neutron_api_insecure'"
 op|')'
 op|','
 nl|'\n'
@@ -509,18 +401,6 @@ op|'='
 string|"'Authorization strategy for connecting to '"
 nl|'\n'
 string|"'neutron in admin context'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_group
-name|'deprecated_group'
-op|'='
-string|"'DEFAULT'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_name
-name|'deprecated_name'
-op|'='
-string|"'neutron_auth_strategy'"
 op|')'
 op|','
 nl|'\n'
@@ -545,18 +425,6 @@ DECL|variable|help
 name|'help'
 op|'='
 string|"'Name of Integration Bridge used by Open vSwitch'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_group
-name|'deprecated_group'
-op|'='
-string|"'DEFAULT'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_name
-name|'deprecated_name'
-op|'='
-string|"'neutron_ovs_bridge'"
 op|')'
 op|','
 nl|'\n'
@@ -579,18 +447,6 @@ op|'='
 string|"'Number of seconds before querying neutron for'"
 nl|'\n'
 string|"' extensions'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_group
-name|'deprecated_group'
-op|'='
-string|"'DEFAULT'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_name
-name|'deprecated_name'
-op|'='
-string|"'neutron_extension_sync_interval'"
 op|')'
 op|','
 nl|'\n'
@@ -607,18 +463,6 @@ op|'='
 string|"'Location of CA certificates file to use for '"
 nl|'\n'
 string|"'neutron client requests.'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_group
-name|'deprecated_group'
-op|'='
-string|"'DEFAULT'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_name
-name|'deprecated_name'
-op|'='
-string|"'neutron_ca_certificates_file'"
 op|')'
 op|','
 nl|'\n'
@@ -654,8 +498,6 @@ name|'cfg'
 op|'.'
 name|'CONF'
 newline|'\n'
-comment|'# neutron_opts options in the DEFAULT group were deprecated in Juno'
-nl|'\n'
 name|'CONF'
 op|'.'
 name|'register_opts'
