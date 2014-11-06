@@ -160,18 +160,6 @@ DECL|variable|help
 name|'help'
 op|'='
 string|"'Default glance hostname or IP address'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_group
-name|'deprecated_group'
-op|'='
-string|"'DEFAULT'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_name
-name|'deprecated_name'
-op|'='
-string|"'glance_host'"
 op|')'
 op|','
 nl|'\n'
@@ -192,18 +180,6 @@ DECL|variable|help
 name|'help'
 op|'='
 string|"'Default glance port'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_group
-name|'deprecated_group'
-op|'='
-string|"'DEFAULT'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_name
-name|'deprecated_name'
-op|'='
-string|"'glance_port'"
 op|')'
 op|','
 nl|'\n'
@@ -226,18 +202,6 @@ op|'='
 string|"'Default protocol to use when connecting to glance. '"
 nl|'\n'
 string|"'Set to https for SSL.'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_group
-name|'deprecated_group'
-op|'='
-string|"'DEFAULT'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_name
-name|'deprecated_name'
-op|'='
-string|"'glance_protocol'"
 op|')'
 op|','
 nl|'\n'
@@ -256,18 +220,6 @@ nl|'\n'
 string|"'Prefix with https:// for ssl-based glance api servers. '"
 nl|'\n'
 string|"'([hostname|ip]:port)'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_group
-name|'deprecated_group'
-op|'='
-string|"'DEFAULT'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_name
-name|'deprecated_name'
-op|'='
-string|"'glance_api_servers'"
 op|')'
 op|','
 nl|'\n'
@@ -290,18 +242,6 @@ op|'='
 string|"'Allow to perform insecure SSL (https) requests to '"
 nl|'\n'
 string|"'glance'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_group
-name|'deprecated_group'
-op|'='
-string|"'DEFAULT'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_name
-name|'deprecated_name'
-op|'='
-string|"'glance_api_insecure'"
 op|')'
 op|','
 nl|'\n'
@@ -324,18 +264,6 @@ op|'='
 string|"'Number of retries when uploading / downloading an image '"
 nl|'\n'
 string|"'to / from glance.'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_group
-name|'deprecated_group'
-op|'='
-string|"'DEFAULT'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_name
-name|'deprecated_name'
-op|'='
-string|"'glance_num_retries'"
 op|')'
 op|','
 nl|'\n'
@@ -361,12 +289,6 @@ nl|'\n'
 string|"'via the direct_url.  Currently supported schemes: '"
 nl|'\n'
 string|"'[file].'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_group
-name|'deprecated_group'
-op|'='
-string|"'DEFAULT'"
 op|')'
 op|','
 nl|'\n'
@@ -390,8 +312,6 @@ name|'cfg'
 op|'.'
 name|'CONF'
 newline|'\n'
-comment|'# glance_opts options in the DEFAULT group were deprecated in Juno'
-nl|'\n'
 name|'CONF'
 op|'.'
 name|'register_opts'
