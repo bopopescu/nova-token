@@ -149,18 +149,6 @@ nl|'\n'
 string|"'catalog. Format is: separated values of the form: '"
 nl|'\n'
 string|"'<service_type>:<service_name>:<endpoint_type>'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_group
-name|'deprecated_group'
-op|'='
-string|"'DEFAULT'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_name
-name|'deprecated_name'
-op|'='
-string|"'cinder_catalog_info'"
 op|')'
 op|','
 nl|'\n'
@@ -177,18 +165,6 @@ op|'='
 string|"'Override service catalog lookup with template for cinder '"
 nl|'\n'
 string|"'endpoint e.g. http://localhost:8776/v1/%(project_id)s'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_group
-name|'deprecated_group'
-op|'='
-string|"'DEFAULT'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_name
-name|'deprecated_name'
-op|'='
-string|"'cinder_endpoint_template'"
 op|')'
 op|','
 nl|'\n'
@@ -203,18 +179,6 @@ DECL|variable|help
 name|'help'
 op|'='
 string|"'Region name of this node'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_group
-name|'deprecated_group'
-op|'='
-string|"'DEFAULT'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_name
-name|'deprecated_name'
-op|'='
-string|"'os_region_name'"
 op|')'
 op|','
 nl|'\n'
@@ -231,18 +195,6 @@ op|'='
 string|"'Location of ca certificates file to use for cinder '"
 nl|'\n'
 string|"'client requests.'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_group
-name|'deprecated_group'
-op|'='
-string|"'DEFAULT'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_name
-name|'deprecated_name'
-op|'='
-string|"'cinder_ca_certificates_file'"
 op|')'
 op|','
 nl|'\n'
@@ -263,18 +215,6 @@ DECL|variable|help
 name|'help'
 op|'='
 string|"'Number of cinderclient retries on failed http calls'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_group
-name|'deprecated_group'
-op|'='
-string|"'DEFAULT'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_name
-name|'deprecated_name'
-op|'='
-string|"'cinder_http_retries'"
 op|')'
 op|','
 nl|'\n'
@@ -289,18 +229,6 @@ DECL|variable|help
 name|'help'
 op|'='
 string|"'HTTP inactivity timeout (in seconds)'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_group
-name|'deprecated_group'
-op|'='
-string|"'DEFAULT'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_name
-name|'deprecated_name'
-op|'='
-string|"'cinder_http_timeout'"
 op|')'
 op|','
 nl|'\n'
@@ -321,18 +249,6 @@ DECL|variable|help
 name|'help'
 op|'='
 string|"'Allow to perform insecure SSL requests to cinder'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_group
-name|'deprecated_group'
-op|'='
-string|"'DEFAULT'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_name
-name|'deprecated_name'
-op|'='
-string|"'cinder_api_insecure'"
 op|')'
 op|','
 nl|'\n'
@@ -355,18 +271,6 @@ op|'='
 string|"'Allow attach between instance and volume in different '"
 nl|'\n'
 string|"'availability zones.'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_group
-name|'deprecated_group'
-op|'='
-string|"'DEFAULT'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_name
-name|'deprecated_name'
-op|'='
-string|"'cinder_cross_az_attach'"
 op|')'
 op|','
 nl|'\n'
@@ -380,8 +284,6 @@ name|'cfg'
 op|'.'
 name|'CONF'
 newline|'\n'
-comment|'# cinder_opts options in the DEFAULT group were deprecated in Juno'
-nl|'\n'
 name|'CONF'
 op|'.'
 name|'register_opts'
