@@ -183,18 +183,6 @@ op|'='
 string|"'Set flag to indicate Neutron will proxy metadata requests and '"
 nl|'\n'
 string|"'resolve instance ids.'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_group
-name|'deprecated_group'
-op|'='
-string|"'DEFAULT'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_name
-name|'deprecated_name'
-op|'='
-string|"'service_neutron_metadata_proxy'"
 op|')'
 op|','
 nl|'\n'
@@ -219,24 +207,11 @@ DECL|variable|help
 name|'help'
 op|'='
 string|"'Shared secret to validate proxies Neutron metadata requests'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_group
-name|'deprecated_group'
-op|'='
-string|"'DEFAULT'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_name
-name|'deprecated_name'
-op|'='
-string|"'neutron_metadata_proxy_shared_secret'"
 op|')'
+op|','
 nl|'\n'
 op|']'
 newline|'\n'
-nl|'\n'
-comment|'# metadata_proxy_opts options in the DEFAULT group were deprecated in Juno'
 nl|'\n'
 name|'CONF'
 op|'.'
