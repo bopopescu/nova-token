@@ -60,7 +60,7 @@ name|'mock'
 op|'.'
 name|'patch'
 op|'('
-string|"'nova.db.aggregate_metadata_get_by_host'"
+string|"'nova.scheduler.filters.utils.aggregate_metadata_get_by_host'"
 op|')'
 newline|'\n'
 DECL|class|TestAggregateMultitenancyIsolationFilter
