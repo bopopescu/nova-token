@@ -7414,12 +7414,12 @@ op|','
 nl|'\n'
 string|"'InstanceNUMACell'"
 op|':'
-string|"'1.0-17e6ee0a24cb6651d1b084efa3027bda'"
+string|"'1.1-8d2a13c8360cc9ea1b68c9c6c4476857'"
 op|','
 nl|'\n'
 string|"'InstanceNUMATopology'"
 op|':'
-string|"'1.0-86b95d263c4c68411d44c6741b8d2bb0'"
+string|"'1.1-86b95d263c4c68411d44c6741b8d2bb0'"
 op|','
 nl|'\n'
 string|"'InstancePCIRequest'"
@@ -7617,7 +7617,7 @@ op|','
 nl|'\n'
 string|"'InstanceNUMATopology'"
 op|':'
-string|"'1.0'"
+string|"'1.1'"
 op|','
 nl|'\n'
 string|"'PciDeviceList'"
