@@ -211,11 +211,9 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-op|'('
 string|"'Number of fixed IPs allowed per project (this should be '"
 nl|'\n'
 string|"'at least the number of instances allowed)'"
-op|')'
 op|')'
 op|','
 nl|'\n'

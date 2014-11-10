@@ -145,11 +145,9 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-op|'('
 string|"'Enables or disables quota checking for tenant '"
 nl|'\n'
 string|"'networks'"
-op|')'
 op|')'
 op|','
 nl|'\n'
@@ -169,9 +167,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-op|'('
 string|"'Control for checking for default networks'"
-op|')'
 op|')'
 op|','
 nl|'\n'
@@ -191,11 +187,9 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-op|'('
 string|"'Default tenant id when creating neutron '"
 nl|'\n'
 string|"'networks'"
-op|')'
 op|')'
 op|','
 nl|'\n'

@@ -375,9 +375,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-op|'('
 string|"'How many retries when a request does conflict.'"
-op|')'
 op|')'
 op|','
 nl|'\n'
@@ -397,11 +395,9 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-op|'('
 string|"'How often to retry in seconds when a request '"
 nl|'\n'
 string|"'does conflict'"
-op|')'
 op|')'
 op|','
 nl|'\n'

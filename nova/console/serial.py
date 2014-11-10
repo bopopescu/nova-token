@@ -188,11 +188,9 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-op|'('
 string|"'IP address on which instance serial console '"
 nl|'\n'
 string|"'should listen'"
-op|')'
 op|')'
 op|','
 nl|'\n'
@@ -212,11 +210,9 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-op|'('
 string|"'The address to which proxy clients '"
 nl|'\n'
 string|"'(like nova-serialproxy) should connect'"
-op|')'
 op|')'
 op|','
 nl|'\n'
