@@ -125,12 +125,6 @@ op|'='
 string|'"os-server-groups"'
 newline|'\n'
 nl|'\n'
-comment|"# NOTE(russellb) There is one other policy, 'legacy', but we don't allow that"
-nl|'\n'
-comment|"# being set via the API.  It's only used when a group gets automatically"
-nl|'\n'
-comment|"# created to support the legacy behavior of the 'group' scheduler hint."
-nl|'\n'
 DECL|variable|SUPPORTED_POLICIES
 name|'SUPPORTED_POLICIES'
 op|'='
