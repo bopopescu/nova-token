@@ -87,7 +87,6 @@ name|'import'
 name|'utils'
 newline|'\n'
 nl|'\n'
-nl|'\n'
 DECL|variable|XMLNS_V10
 name|'XMLNS_V10'
 op|'='
