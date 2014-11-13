@@ -199,21 +199,15 @@ indent|'        '
 string|'"""Join the given service with its group."""'
 newline|'\n'
 nl|'\n'
-name|'msg'
-op|'='
-name|'_'
-op|'('
-string|"'DB_Driver: join new ServiceGroup member %(member_id)s to '"
-nl|'\n'
-string|"'the %(group_id)s group, service = %(service)s'"
-op|')'
-newline|'\n'
 name|'LOG'
 op|'.'
 name|'debug'
 op|'('
-name|'msg'
+string|"'DB_Driver: join new ServiceGroup member %(member_id)s to '"
+nl|'\n'
+string|"'the %(group_id)s group, service = %(service)s'"
 op|','
+nl|'\n'
 op|'{'
 string|"'member_id'"
 op|':'
@@ -390,21 +384,15 @@ name|'is_up'
 op|':'
 newline|'\n'
 indent|'            '
-name|'msg'
-op|'='
-name|'_'
-op|'('
-string|"'Seems service is down. Last heartbeat was %(lhb)s. '"
-nl|'\n'
-string|"'Elapsed time is %(el)s'"
-op|')'
-newline|'\n'
 name|'LOG'
 op|'.'
 name|'debug'
 op|'('
-name|'msg'
+string|"'Seems service is down. Last heartbeat was %(lhb)s. '"
+nl|'\n'
+string|"'Elapsed time is %(el)s'"
 op|','
+nl|'\n'
 op|'{'
 string|"'lhb'"
 op|':'
