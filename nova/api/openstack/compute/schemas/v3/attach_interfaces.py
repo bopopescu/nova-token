@@ -26,6 +26,17 @@ nl|'\n'
 comment|'#    under the License.'
 nl|'\n'
 nl|'\n'
+name|'from'
+name|'nova'
+op|'.'
+name|'api'
+op|'.'
+name|'validation'
+name|'import'
+name|'parameter_types'
+newline|'\n'
+nl|'\n'
+nl|'\n'
 DECL|variable|create
 name|'create'
 op|'='
@@ -53,46 +64,26 @@ string|"'properties'"
 op|':'
 op|'{'
 nl|'\n'
-string|"'net_id'"
-op|':'
-op|'{'
-nl|'\n'
 comment|'# NOTE: This parameter is passed to the search_opts of'
 nl|'\n'
 comment|"# Neutron list_network API: search_opts = {'id': net_id}"
 nl|'\n'
-comment|'# A network id should be uuid.'
-nl|'\n'
-string|"'type'"
+string|"'net_id'"
 op|':'
-string|"'string'"
+name|'parameter_types'
+op|'.'
+name|'network_id'
 op|','
-string|"'format'"
-op|':'
-string|"'uuid'"
-op|','
-nl|'\n'
-op|'}'
-op|','
-nl|'\n'
-string|"'port_id'"
-op|':'
-op|'{'
 nl|'\n'
 comment|'# NOTE: This parameter is passed to Neutron show_port API'
 nl|'\n'
-comment|'# as a port id. A port id should be uuid.'
+comment|'# as a port id.'
 nl|'\n'
-string|"'type'"
+string|"'port_id'"
 op|':'
-string|"'string'"
-op|','
-string|"'format'"
-op|':'
-string|"'uuid'"
-op|','
-nl|'\n'
-op|'}'
+name|'parameter_types'
+op|'.'
+name|'network_port_id'
 op|','
 nl|'\n'
 string|"'fixed_ips'"
