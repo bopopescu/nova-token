@@ -7266,12 +7266,12 @@ op|','
 nl|'\n'
 string|"'BandwidthUsage'"
 op|':'
-string|"'1.1-bdab751673947f0ac7de108540a1a8ce'"
+string|"'1.2-a9d7c2ba54995e48ce38688c51c9416d'"
 op|','
 nl|'\n'
 string|"'BandwidthUsageList'"
 op|':'
-string|"'1.1-76898106a9db393cd5f42c557389c507'"
+string|"'1.2-5b564cbfd5ae6e106443c086938e7602'"
 op|','
 nl|'\n'
 string|"'BlockDeviceMapping'"
