@@ -1303,7 +1303,7 @@ name|'_'
 op|'('
 string|"'Cannot add host %(host)s in aggregate'"
 nl|'\n'
-string|"' %(id)s'"
+string|"' %(id)s: not found'"
 op|')'
 op|'%'
 op|'{'
@@ -1347,7 +1347,7 @@ name|'_'
 op|'('
 string|"'Cannot add host %(host)s in aggregate'"
 nl|'\n'
-string|"' %(id)s'"
+string|"' %(id)s: host exists'"
 op|')'
 op|'%'
 op|'{'
@@ -1457,7 +1457,7 @@ name|'_'
 op|'('
 string|"'Cannot remove host %(host)s in aggregate'"
 nl|'\n'
-string|"' %(id)s'"
+string|"' %(id)s: not found'"
 op|')'
 op|'%'
 op|'{'
@@ -1494,7 +1494,7 @@ name|'_'
 op|'('
 string|"'Cannot remove host %(host)s in aggregate'"
 nl|'\n'
-string|"' %(id)s'"
+string|"' %(id)s: invalid'"
 op|')'
 op|'%'
 op|'{'
