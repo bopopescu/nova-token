@@ -20471,6 +20471,8 @@ op|'['
 string|"'metadata'"
 op|','
 string|"'system_metadata'"
+op|','
+string|"'flavor'"
 op|']'
 newline|'\n'
 name|'try'

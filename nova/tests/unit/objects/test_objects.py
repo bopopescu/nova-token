@@ -8705,12 +8705,12 @@ op|','
 nl|'\n'
 string|"'BlockDeviceMapping'"
 op|':'
-string|"'1.5-9968ffe513e7672484b0f528b034cd0f'"
+string|"'1.6-9968ffe513e7672484b0f528b034cd0f'"
 op|','
 nl|'\n'
 string|"'BlockDeviceMappingList'"
 op|':'
-string|"'1.6-ee2ed2eb3f3f2f54d573ccea0ff2eeaa'"
+string|"'1.7-b67dc6a04cff2cdb53e6f25e146da456'"
 op|','
 nl|'\n'
 string|"'ComputeNode'"
@@ -8750,12 +8750,12 @@ op|','
 nl|'\n'
 string|"'FixedIP'"
 op|':'
-string|"'1.7-2472964d39e50da67202109eb85cd173'"
+string|"'1.8-2472964d39e50da67202109eb85cd173'"
 op|','
 nl|'\n'
 string|"'FixedIPList'"
 op|':'
-string|"'1.7-125de790b58cfb8c84ffc8c34db4a81e'"
+string|"'1.8-6cfaa5b6dd27e9eb8fcf8462dea06077'"
 op|','
 nl|'\n'
 string|"'Flavor'"
@@ -8785,7 +8785,7 @@ op|','
 nl|'\n'
 string|"'Instance'"
 op|':'
-string|"'1.17-972cae223db35e88bb184bdf8c197229'"
+string|"'1.18-7827a9e9846a75f3038bd556e6f530d3'"
 op|','
 nl|'\n'
 string|"'InstanceAction'"
@@ -8840,7 +8840,7 @@ op|','
 nl|'\n'
 string|"'InstanceList'"
 op|':'
-string|"'1.13-179093360c48747a41694cc2f326d75d'"
+string|"'1.14-fe7f3266de1475454b939dee36a2ebcc'"
 op|','
 nl|'\n'
 string|"'InstanceNUMACell'"
@@ -9037,7 +9037,7 @@ op|':'
 op|'{'
 string|"'Instance'"
 op|':'
-string|"'1.17'"
+string|"'1.18'"
 op|'}'
 op|','
 nl|'\n'
@@ -9055,7 +9055,7 @@ op|':'
 op|'{'
 string|"'Instance'"
 op|':'
-string|"'1.17'"
+string|"'1.18'"
 op|','
 string|"'Network'"
 op|':'
@@ -9078,7 +9078,7 @@ op|':'
 op|'{'
 string|"'FixedIP'"
 op|':'
-string|"'1.7'"
+string|"'1.8'"
 op|'}'
 op|','
 nl|'\n'
@@ -9113,6 +9113,11 @@ nl|'\n'
 string|"'SecurityGroupList'"
 op|':'
 string|"'1.0'"
+op|','
+nl|'\n'
+string|"'Flavor'"
+op|':'
+string|"'1.1'"
 op|','
 nl|'\n'
 string|"'InstancePCIRequests'"
