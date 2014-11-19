@@ -293,7 +293,10 @@ name|'self'
 op|'.'
 name|'context'
 op|','
-string|"'fake_uuid'"
+name|'fake_db_topology'
+op|'['
+string|"'instance_uuid'"
+op|']'
 op|')'
 newline|'\n'
 name|'self'
