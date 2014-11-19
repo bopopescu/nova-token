@@ -458,7 +458,7 @@ name|'LOG'
 op|'.'
 name|'exception'
 op|'('
-name|'_'
+name|'_LE'
 op|'('
 string|'"FaultWrapper: %s"'
 op|')'
@@ -936,15 +936,17 @@ newline|'\n'
 indent|'                '
 name|'LOG'
 op|'.'
-name|'warn'
+name|'warning'
 op|'('
 name|'_LW'
 op|'('
-string|"'Access key %(access_key)s has had %(failures)d '"
+string|"'Access key %(access_key)s has had '"
 nl|'\n'
-string|"'failed authentications and will be locked out '"
+string|"'%(failures)d failed authentications and '"
 nl|'\n'
-string|"'for %(lock_mins)d minutes.'"
+string|"'will be locked out for %(lock_mins)d '"
+nl|'\n'
+string|"'minutes.'"
 op|')'
 op|','
 nl|'\n'
