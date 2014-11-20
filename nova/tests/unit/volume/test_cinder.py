@@ -1111,6 +1111,10 @@ indent|'        '
 name|'volume'
 op|'='
 op|'{'
+string|"'id'"
+op|':'
+string|"'fake'"
+op|','
 string|"'status'"
 op|':'
 string|"'error'"
@@ -1152,6 +1156,10 @@ indent|'        '
 name|'volume'
 op|'='
 op|'{'
+string|"'id'"
+op|':'
+string|"'fake'"
+op|','
 string|"'status'"
 op|':'
 string|"'available'"
@@ -1200,6 +1208,10 @@ indent|'        '
 name|'volume'
 op|'='
 op|'{'
+string|"'id'"
+op|':'
+string|"'fake'"
+op|','
 string|"'status'"
 op|':'
 string|"'available'"
@@ -1215,6 +1227,11 @@ newline|'\n'
 name|'instance'
 op|'='
 op|'{'
+string|"'id'"
+op|':'
+string|"'fake'"
+op|','
+nl|'\n'
 string|"'availability_zone'"
 op|':'
 string|"'zone1'"
@@ -1587,6 +1604,10 @@ indent|'        '
 name|'volume'
 op|'='
 op|'{'
+string|"'id'"
+op|':'
+string|"'fake'"
+op|','
 string|"'status'"
 op|':'
 string|"'available'"
