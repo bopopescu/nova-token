@@ -111,6 +111,11 @@ op|':'
 string|"'8086'"
 op|','
 nl|'\n'
+string|"'numa_node'"
+op|':'
+number|'0'
+op|','
+nl|'\n'
 string|"'product_id'"
 op|':'
 string|"'1520'"
@@ -196,6 +201,11 @@ nl|'\n'
 string|"'vendor_id'"
 op|':'
 string|"'8086'"
+op|','
+nl|'\n'
+string|"'numa_node'"
+op|':'
+number|'1'
 op|','
 nl|'\n'
 string|"'product_id'"

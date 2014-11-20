@@ -122,10 +122,12 @@ comment|'# Version 1.1: String attributes updated to support unicode'
 nl|'\n'
 comment|'# Version 1.2: added request_id field'
 nl|'\n'
+comment|'# Version 1.3: Added field to represent PCI device NUMA node'
+nl|'\n'
 DECL|variable|VERSION
 name|'VERSION'
 op|'='
-string|"'1.2'"
+string|"'1.3'"
 newline|'\n'
 nl|'\n'
 DECL|variable|fields
@@ -257,6 +259,18 @@ name|'fields'
 op|'.'
 name|'DictOfStringsField'
 op|'('
+op|')'
+op|','
+nl|'\n'
+string|"'numa_node'"
+op|':'
+name|'fields'
+op|'.'
+name|'IntegerField'
+op|'('
+name|'nullable'
+op|'='
+name|'True'
 op|')'
 op|','
 nl|'\n'
@@ -890,6 +904,11 @@ nl|'\n'
 string|"'1.1'"
 op|':'
 string|"'1.2'"
+op|','
+nl|'\n'
+string|"'1.2'"
+op|':'
+string|"'1.3'"
 op|','
 nl|'\n'
 op|'}'
