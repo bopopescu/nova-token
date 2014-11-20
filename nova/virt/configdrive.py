@@ -977,7 +977,7 @@ newline|'\n'
 indent|'        '
 name|'LOG'
 op|'.'
-name|'warn'
+name|'warning'
 op|'('
 name|'_LW'
 op|'('
@@ -985,7 +985,7 @@ string|"'Image config drive option %(image_prop)s is invalid '"
 nl|'\n'
 string|"'and will be ignored'"
 op|')'
-op|'%'
+op|','
 nl|'\n'
 op|'{'
 string|"'image_prop'"
