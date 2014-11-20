@@ -290,7 +290,7 @@ newline|'\n'
 indent|'        '
 name|'ip_range'
 op|'='
-string|"'192.168.1.0/24'"
+string|"'192.168.1.0/28'"
 newline|'\n'
 name|'self'
 op|'.'
@@ -312,7 +312,7 @@ newline|'\n'
 indent|'        '
 name|'ip_range'
 op|'='
-string|"'10.0.1.0/20'"
+string|"'10.0.1.0/29'"
 newline|'\n'
 name|'pool'
 op|'='
@@ -592,7 +592,7 @@ newline|'\n'
 indent|'        '
 name|'ip_range'
 op|'='
-string|"'192.168.1.0/20'"
+string|"'192.168.1.0/29'"
 newline|'\n'
 name|'self'
 op|'.'
@@ -720,7 +720,7 @@ newline|'\n'
 indent|'        '
 name|'ip_range'
 op|'='
-string|"'192.168.1.0/20'"
+string|"'192.168.1.0/30'"
 newline|'\n'
 name|'self'
 op|'.'
@@ -732,7 +732,7 @@ newline|'\n'
 nl|'\n'
 name|'ip_range'
 op|'='
-string|"'192.168.1.0/28'"
+string|"'192.168.1.0/29'"
 newline|'\n'
 name|'body'
 op|'='
