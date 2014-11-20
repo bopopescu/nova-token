@@ -103,6 +103,8 @@ name|'import'
 name|'_'
 op|','
 name|'_LE'
+op|','
+name|'_LI'
 newline|'\n'
 name|'from'
 name|'nova'
@@ -413,15 +415,17 @@ name|'LOG'
 op|'.'
 name|'info'
 op|'('
-name|'_'
+name|'_LI'
 op|'('
-string|"'Instance %(name)s running on %(host)s'"
+string|"'Instance %(name)s running on '"
 nl|'\n'
-string|"' could not be found in the database:'"
+string|"'%(host)s could not be found in '"
 nl|'\n'
-string|"' assuming it is a worker VM and skip'"
+string|"'the database: assuming it is a '"
 nl|'\n'
-string|"' ping migration to a new host'"
+string|"'worker VM and skip ping migration '"
+nl|'\n'
+string|"'to a new host'"
 op|')'
 op|','
 nl|'\n'
