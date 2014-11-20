@@ -6437,8 +6437,6 @@ name|'self'
 op|'.'
 name|'_instance'
 op|','
-string|"'vda'"
-op|','
 nl|'\n'
 name|'self'
 op|'.'
