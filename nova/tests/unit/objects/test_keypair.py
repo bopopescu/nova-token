@@ -114,6 +114,11 @@ op|':'
 string|"'foo-keypair'"
 op|','
 nl|'\n'
+string|"'type'"
+op|':'
+string|"'ssh'"
+op|','
+nl|'\n'
 string|"'user_id'"
 op|':'
 string|"'fake-user'"
