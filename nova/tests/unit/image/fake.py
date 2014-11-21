@@ -989,7 +989,7 @@ newline|'\n'
 dedent|''
 name|'LOG'
 op|'.'
-name|'warn'
+name|'warning'
 op|'('
 string|"'Unable to find image id %s.  Have images: %s'"
 op|','
