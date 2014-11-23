@@ -8499,6 +8499,12 @@ name|'target_iqn'
 op|','
 nl|'\n'
 name|'target_portal'
+op|','
+nl|'\n'
+string|"'fake_username'"
+op|','
+nl|'\n'
+string|"'fake_password'"
 op|')'
 newline|'\n'
 nl|'\n'
