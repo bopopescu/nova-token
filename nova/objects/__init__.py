@@ -171,6 +171,11 @@ op|')'
 newline|'\n'
 name|'__import__'
 op|'('
+string|"'nova.objects.numa'"
+op|')'
+newline|'\n'
+name|'__import__'
+op|'('
 string|"'nova.objects.pci_device'"
 op|')'
 newline|'\n'
