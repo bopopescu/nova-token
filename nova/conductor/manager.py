@@ -3889,6 +3889,8 @@ op|'.'
 name|'pop'
 op|'('
 string|"'extra_specs'"
+op|','
+name|'None'
 op|')'
 newline|'\n'
 nl|'\n'
