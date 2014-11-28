@@ -9262,6 +9262,11 @@ op|':'
 string|"'1.2-790f6bdff85bf6e5677f409f3a4f1c6a'"
 op|','
 nl|'\n'
+string|"'NUMATopologyLimits'"
+op|':'
+string|"'1.0-201845851897940c0a300e3d14ebf04a'"
+op|','
+nl|'\n'
 string|"'PciDevice'"
 op|':'
 string|"'1.3-e059641df10e85d464672c5183a9473b'"
