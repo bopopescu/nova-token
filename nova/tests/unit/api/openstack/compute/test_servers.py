@@ -18898,7 +18898,7 @@ name|'mock'
 op|'.'
 name|'patch'
 op|'('
-string|"'nova.virt.hardware.VirtNUMAInstanceTopology.get_constraints'"
+string|"'nova.virt.hardware.numa_get_constraints'"
 op|')'
 newline|'\n'
 DECL|member|test_create_instance_numa_topology_wrong
