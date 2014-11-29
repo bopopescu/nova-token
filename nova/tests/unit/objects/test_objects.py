@@ -8541,7 +8541,7 @@ op|','
 nl|'\n'
 string|"'InstanceNUMACell'"
 op|':'
-string|"'1.1-8d2a13c8360cc9ea1b68c9c6c4476857'"
+string|"'1.2-5d2dfa36e9ecca9b63f24bf3bc958ea4'"
 op|','
 nl|'\n'
 string|"'InstanceNUMATopology'"
@@ -8790,6 +8790,15 @@ nl|'\n'
 string|"'InstancePCIRequests'"
 op|':'
 string|"'1.1'"
+op|'}'
+op|','
+nl|'\n'
+string|"'InstanceNUMACell'"
+op|':'
+op|'{'
+string|"'VirtCPUTopology'"
+op|':'
+string|"'1.0'"
 op|'}'
 op|','
 nl|'\n'
