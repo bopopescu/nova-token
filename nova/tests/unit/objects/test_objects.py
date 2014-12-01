@@ -8609,6 +8609,16 @@ op|':'
 string|"'1.1-beeab521ac9450f1f5ef4eaa945a783c'"
 op|','
 nl|'\n'
+string|"'NUMACell'"
+op|':'
+string|"'1.0-8dd39f5bcc4ce44a3490cd0278af54dc'"
+op|','
+nl|'\n'
+string|"'NUMATopology'"
+op|':'
+string|"'1.0-790f6bdff85bf6e5677f409f3a4f1c6a'"
+op|','
+nl|'\n'
 string|"'PciDevice'"
 op|':'
 string|"'1.2-29e35c3199f3b98ce66e5d1212612818'"
