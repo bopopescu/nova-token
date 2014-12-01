@@ -265,10 +265,10 @@ string|"'401 Unauthorized'"
 op|')'
 newline|'\n'
 nl|'\n'
-DECL|member|test_user_only
+DECL|member|test_user_id_only
 dedent|''
 name|'def'
-name|'test_user_only'
+name|'test_user_id_only'
 op|'('
 name|'self'
 op|')'
@@ -324,10 +324,10 @@ string|"'testuserid'"
 op|')'
 newline|'\n'
 nl|'\n'
-DECL|member|test_user_id_only
+DECL|member|test_user_only
 dedent|''
 name|'def'
-name|'test_user_id_only'
+name|'test_user_only'
 op|'('
 name|'self'
 op|')'
