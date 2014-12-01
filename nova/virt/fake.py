@@ -2737,12 +2737,16 @@ name|'return'
 op|'{'
 string|"'ip'"
 op|':'
-string|"'127.0.0.1'"
+name|'CONF'
+op|'.'
+name|'my_block_storage_ip'
 op|','
+nl|'\n'
 string|"'initiator'"
 op|':'
 string|"'fake'"
 op|','
+nl|'\n'
 string|"'host'"
 op|':'
 string|"'fakehost'"
