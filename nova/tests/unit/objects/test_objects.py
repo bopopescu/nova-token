@@ -8631,12 +8631,12 @@ op|','
 nl|'\n'
 string|"'Quotas'"
 op|':'
-string|"'1.1-7897deef00e6cd3095c8916f68d24418'"
+string|"'1.2-36098cf2143e6535873c3fa3d6fe56f7'"
 op|','
 nl|'\n'
 string|"'QuotasNoOp'"
 op|':'
-string|"'1.1-4b06fd721c586b907ddd6543a00d6c2f'"
+string|"'1.2-164c628906b170fd946a7672e85e4935'"
 op|','
 nl|'\n'
 string|"'S3ImageMapping'"
