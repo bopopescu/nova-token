@@ -512,12 +512,12 @@ op|','
 nl|'\n'
 string|"'status'"
 op|':'
-string|"'creating'"
+string|"'available'"
 op|','
 nl|'\n'
 string|"'progress'"
 op|':'
-string|"'0%'"
+string|"'100%'"
 op|','
 nl|'\n'
 string|"'volume_size'"
