@@ -446,6 +446,9 @@ op|','
 string|"'integer'"
 op|']'
 op|','
+string|"'minLength'"
+op|':'
+number|'1'
 nl|'\n'
 op|'}'
 newline|'\n'
