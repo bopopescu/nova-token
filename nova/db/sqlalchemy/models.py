@@ -4491,9 +4491,11 @@ name|'Index'
 op|'('
 string|"'migrations_instance_uuid_and_status_idx'"
 op|','
-string|"'instance_uuid'"
+string|"'deleted'"
 op|','
 nl|'\n'
+string|"'instance_uuid'"
+op|','
 string|"'status'"
 op|')'
 op|','
