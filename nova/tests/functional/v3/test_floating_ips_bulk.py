@@ -151,6 +151,11 @@ nl|'\n'
 string|"'interface'"
 op|':'
 name|'interface'
+op|','
+nl|'\n'
+string|"'host'"
+op|':'
+name|'None'
 nl|'\n'
 op|'}'
 op|','
@@ -170,6 +175,11 @@ nl|'\n'
 string|"'interface'"
 op|':'
 name|'interface'
+op|','
+nl|'\n'
+string|"'host'"
+op|':'
+name|'None'
 nl|'\n'
 op|'}'
 op|','
