@@ -8611,12 +8611,12 @@ op|','
 nl|'\n'
 string|"'NUMACell'"
 op|':'
-string|"'1.0-8dd39f5bcc4ce44a3490cd0278af54dc'"
+string|"'1.1-e77e87a1fb75fdb4f46c331372d3332c'"
 op|','
 nl|'\n'
 string|"'NUMATopology'"
 op|':'
-string|"'1.0-790f6bdff85bf6e5677f409f3a4f1c6a'"
+string|"'1.1-790f6bdff85bf6e5677f409f3a4f1c6a'"
 op|','
 nl|'\n'
 string|"'PciDevice'"
