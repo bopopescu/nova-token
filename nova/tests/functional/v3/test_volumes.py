@@ -2032,11 +2032,6 @@ nl|'\n'
 string|"'volume_id'"
 op|':'
 string|"'a26887c6-c47b-4654-abb5-dfadf7d3f805'"
-op|','
-nl|'\n'
-string|"'device'"
-op|':'
-string|"'/dev/sdd'"
 nl|'\n'
 op|'}'
 newline|'\n'
