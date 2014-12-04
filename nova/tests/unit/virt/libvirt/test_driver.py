@@ -59070,7 +59070,7 @@ name|'service_mock'
 op|'.'
 name|'disabled_reason'
 name|'is'
-string|"'None'"
+name|'None'
 op|')'
 newline|'\n'
 nl|'\n'
