@@ -551,10 +551,6 @@ indent|'        '
 name|'actions'
 op|'='
 op|'['
-string|"'pause'"
-op|','
-string|"'unpause'"
-op|','
 string|"'suspend'"
 op|','
 string|"'resume'"
@@ -609,10 +605,6 @@ indent|'        '
 name|'actions'
 op|'='
 op|'['
-string|"'pause'"
-op|','
-string|"'unpause'"
-op|','
 string|"'suspend'"
 op|','
 string|"'resume'"
@@ -715,10 +707,6 @@ indent|'        '
 name|'actions'
 op|'='
 op|'['
-string|"'pause'"
-op|','
-string|"'unpause'"
-op|','
 string|"'suspend'"
 op|','
 string|"'resume'"
@@ -795,10 +783,6 @@ indent|'        '
 name|'actions'
 op|'='
 op|'['
-string|"'pause'"
-op|','
-string|"'unpause'"
-op|','
 string|"'suspend'"
 op|','
 string|"'resume'"
