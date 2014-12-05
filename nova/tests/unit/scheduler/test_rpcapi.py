@@ -375,6 +375,11 @@ nl|'\n'
 name|'filter_properties'
 op|'='
 string|"'fake_prop'"
+op|','
+nl|'\n'
+name|'version'
+op|'='
+string|"'3.1'"
 op|')'
 newline|'\n'
 dedent|''

@@ -285,7 +285,7 @@ name|'Target'
 op|'('
 name|'version'
 op|'='
-string|"'1.29'"
+string|"'1.30'"
 op|')'
 newline|'\n'
 nl|'\n'

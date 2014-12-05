@@ -883,7 +883,7 @@ name|'expected_args'
 op|','
 name|'version'
 op|'='
-string|"'1.8'"
+string|"'1.30'"
 op|')'
 newline|'\n'
 nl|'\n'
