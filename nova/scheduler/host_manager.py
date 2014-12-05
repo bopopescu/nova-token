@@ -164,7 +164,7 @@ string|"'Filter classes available to the scheduler which may '"
 nl|'\n'
 string|"'be specified more than once.  An entry of '"
 nl|'\n'
-string|'\'"nova.scheduler.filters.standard_filters" \''
+string|'\'"nova.scheduler.filters.all_filters" \''
 nl|'\n'
 string|"'maps to all filters included with nova.'"
 op|')'
