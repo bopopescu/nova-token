@@ -20533,7 +20533,7 @@ comment|"# We can't contain the instance in a cell - do nothing for"
 nl|'\n'
 comment|'# now.'
 nl|'\n'
-comment|'# TODO(ndipanov): Attempt to spread the instance accross'
+comment|'# TODO(ndipanov): Attempt to spread the instance across'
 nl|'\n'
 comment|'# NUMA nodes and expose the topology to the instance as an'
 nl|'\n'
