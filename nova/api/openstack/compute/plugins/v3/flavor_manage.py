@@ -97,7 +97,7 @@ nl|'\n'
 DECL|variable|ALIAS
 name|'ALIAS'
 op|'='
-string|'"flavor-manage"'
+string|'"os-flavor-manage"'
 newline|'\n'
 nl|'\n'
 DECL|variable|authorize

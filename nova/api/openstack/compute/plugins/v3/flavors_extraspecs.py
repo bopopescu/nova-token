@@ -101,7 +101,7 @@ nl|'\n'
 DECL|variable|ALIAS
 name|'ALIAS'
 op|'='
-string|"'flavor-extra-specs'"
+string|"'os-flavor-extra-specs'"
 newline|'\n'
 DECL|variable|authorize
 name|'authorize'
