@@ -100,6 +100,12 @@ name|'False'
 op|')'
 op|','
 nl|'\n'
+DECL|variable|host
+name|'host'
+op|'='
+string|"'host1'"
+op|','
+nl|'\n'
 name|'hypervisor_hostname'
 op|'='
 string|"'node1uuid'"
@@ -211,6 +217,12 @@ name|'disabled'
 op|'='
 name|'True'
 op|')'
+op|','
+nl|'\n'
+DECL|variable|host
+name|'host'
+op|'='
+string|"'host2'"
 op|','
 nl|'\n'
 name|'hypervisor_hostname'
@@ -326,6 +338,12 @@ name|'False'
 op|')'
 op|','
 nl|'\n'
+DECL|variable|host
+name|'host'
+op|'='
+string|"'host3'"
+op|','
+nl|'\n'
 name|'hypervisor_hostname'
 op|'='
 string|"'node3uuid'"
@@ -439,6 +457,12 @@ name|'False'
 op|')'
 op|','
 nl|'\n'
+DECL|variable|host
+name|'host'
+op|'='
+string|"'host4'"
+op|','
+nl|'\n'
 name|'hypervisor_hostname'
 op|'='
 string|"'node4uuid'"
@@ -521,7 +545,10 @@ op|'='
 name|'None'
 op|','
 nl|'\n'
-DECL|variable|cpu_info
+name|'host'
+op|'='
+string|"'fake'"
+op|','
 name|'cpu_info'
 op|'='
 string|"'baremetal cpu'"

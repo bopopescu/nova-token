@@ -23481,6 +23481,14 @@ name|'service_ref'
 op|'['
 string|"'id'"
 op|']'
+op|','
+nl|'\n'
+string|"'host'"
+op|':'
+name|'service_ref'
+op|'['
+string|"'host'"
+op|']'
 nl|'\n'
 op|'}'
 newline|'\n'
