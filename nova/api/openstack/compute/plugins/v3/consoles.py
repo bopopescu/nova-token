@@ -68,6 +68,13 @@ name|'exception'
 newline|'\n'
 nl|'\n'
 nl|'\n'
+DECL|variable|ALIAS
+name|'ALIAS'
+op|'='
+string|"'os-consoles'"
+newline|'\n'
+nl|'\n'
+nl|'\n'
 DECL|function|_translate_keys
 name|'def'
 name|'_translate_keys'
@@ -572,7 +579,7 @@ newline|'\n'
 DECL|variable|alias
 name|'alias'
 op|'='
-string|'"consoles"'
+name|'ALIAS'
 newline|'\n'
 DECL|variable|version
 name|'version'

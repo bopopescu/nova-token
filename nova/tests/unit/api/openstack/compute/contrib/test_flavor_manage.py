@@ -770,8 +770,9 @@ op|'('
 name|'init_only'
 op|'='
 op|'('
-string|"'flavor-manage'"
+string|"'os-flavor-manage'"
 op|','
+nl|'\n'
 string|"'os-flavor-rxtx'"
 op|','
 nl|'\n'
@@ -2798,7 +2799,7 @@ op|'('
 name|'init_only'
 op|'='
 op|'('
-string|"'flavor-manage'"
+string|"'os-flavor-manage'"
 op|','
 nl|'\n'
 string|"'os-flavor-access'"
