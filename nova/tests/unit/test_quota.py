@@ -801,6 +801,11 @@ op|':'
 name|'address'
 op|','
 nl|'\n'
+string|"'pool'"
+op|':'
+string|"'nova'"
+op|','
+nl|'\n'
 string|"'project_id'"
 op|':'
 name|'self'
@@ -878,6 +883,11 @@ op|'{'
 string|"'address'"
 op|':'
 name|'address'
+op|','
+nl|'\n'
+string|"'pool'"
+op|':'
+string|"'nova'"
 op|','
 nl|'\n'
 string|"'project_id'"
