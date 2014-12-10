@@ -1984,6 +1984,14 @@ newline|'\n'
 nl|'\n'
 comment|"# Update the list of directories we'll explore..."
 nl|'\n'
+comment|"# using os.walk 'the caller can modify the dirnames list in-place,"
+nl|'\n'
+comment|'# and walk() will only recurse into the subdirectories whose names'
+nl|'\n'
+comment|"# remain in dirnames'"
+nl|'\n'
+comment|'# https://docs.python.org/2/library/os.html#os.walk'
+nl|'\n'
 dedent|''
 dedent|''
 dedent|''
