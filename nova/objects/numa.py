@@ -580,7 +580,7 @@ comment|'# Version 1.0: Initial version'
 nl|'\n'
 comment|'# Version 1.1: Update NUMACell to 1.1'
 nl|'\n'
-comment|'# Version 1.1: Update NUMACell to 1.2'
+comment|'# Version 1.2: Update NUMACell to 1.2'
 nl|'\n'
 DECL|variable|VERSION
 indent|'    '
