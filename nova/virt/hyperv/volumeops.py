@@ -1896,11 +1896,16 @@ name|'NotFound'
 op|'('
 name|'_'
 op|'('
-string|"'Unable to find a mounted disk '"
+string|"'Unable to find a mounted disk for '"
 nl|'\n'
-string|"'for target_iqn: %s'"
+string|"'target_iqn: %s. Please ensure that '"
+nl|'\n'
+string|"'the host\\'s SAN policy is set to '"
+nl|'\n'
+string|'\'"OfflineAll" or "OfflineShared"\''
 op|')'
 op|'%'
+nl|'\n'
 name|'target_iqn'
 op|')'
 newline|'\n'
