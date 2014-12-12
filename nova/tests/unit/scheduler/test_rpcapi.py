@@ -379,7 +379,7 @@ op|','
 nl|'\n'
 name|'version'
 op|'='
-string|"'3.1'"
+string|"'4.0'"
 op|')'
 newline|'\n'
 dedent|''
