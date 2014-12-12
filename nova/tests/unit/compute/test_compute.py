@@ -45737,10 +45737,7 @@ nl|'\n'
 name|'columns_to_join'
 op|'='
 op|'['
-string|"'info_cache'"
-op|','
-nl|'\n'
-string|"'security_groups'"
+string|"'system_metadata'"
 op|']'
 op|','
 nl|'\n'
