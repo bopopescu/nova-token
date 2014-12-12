@@ -69,11 +69,6 @@ name|'DISK_TYPE_SPARSE'
 op|'='
 string|"'sparse'"
 newline|'\n'
-DECL|variable|DISK_TYPE_THIN
-name|'DISK_TYPE_THIN'
-op|'='
-string|"'thin'"
-newline|'\n'
 DECL|variable|DISK_TYPE_PREALLOCATED
 name|'DISK_TYPE_PREALLOCATED'
 op|'='
