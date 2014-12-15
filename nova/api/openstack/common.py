@@ -510,6 +510,13 @@ op|':'
 string|"'PAUSED'"
 op|','
 nl|'\n'
+name|'task_states'
+op|'.'
+name|'MIGRATING'
+op|':'
+string|"'MIGRATING'"
+op|','
+nl|'\n'
 op|'}'
 op|','
 nl|'\n'
