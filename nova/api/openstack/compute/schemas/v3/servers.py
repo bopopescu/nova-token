@@ -446,11 +446,10 @@ string|"'flavorRef'"
 op|']'
 op|','
 nl|'\n'
-comment|'# TODO(gmann): enable here after all extension schema'
-nl|'\n'
-comment|'# patches are merged.'
-nl|'\n'
-comment|"# 'additionalProperties': False,"
+string|"'additionalProperties'"
+op|':'
+name|'False'
+op|','
 nl|'\n'
 op|'}'
 op|','
