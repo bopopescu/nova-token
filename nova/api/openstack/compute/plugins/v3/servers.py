@@ -218,6 +218,11 @@ name|'import'
 name|'utils'
 newline|'\n'
 nl|'\n'
+DECL|variable|ALIAS
+name|'ALIAS'
+op|'='
+string|"'servers'"
+newline|'\n'
 nl|'\n'
 DECL|variable|CONF
 name|'CONF'
@@ -7467,7 +7472,7 @@ newline|'\n'
 DECL|variable|alias
 name|'alias'
 op|'='
-string|'"servers"'
+name|'ALIAS'
 newline|'\n'
 DECL|variable|version
 name|'version'
@@ -7509,7 +7514,7 @@ op|'.'
 name|'ResourceExtension'
 op|'('
 nl|'\n'
-string|"'servers'"
+name|'ALIAS'
 op|','
 nl|'\n'
 name|'ServersController'

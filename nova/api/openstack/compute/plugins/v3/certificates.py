@@ -459,7 +459,7 @@ name|'extensions'
 op|'.'
 name|'ResourceExtension'
 op|'('
-string|"'os-certificates'"
+name|'ALIAS'
 op|','
 nl|'\n'
 name|'CertificatesController'

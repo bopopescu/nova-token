@@ -384,7 +384,7 @@ name|'extensions'
 op|'.'
 name|'ResourceExtension'
 op|'('
-string|"'os-console-auth-tokens'"
+name|'ALIAS'
 op|','
 nl|'\n'
 name|'controller'

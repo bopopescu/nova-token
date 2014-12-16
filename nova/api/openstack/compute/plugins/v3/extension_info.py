@@ -62,7 +62,11 @@ name|'as'
 name|'logging'
 newline|'\n'
 nl|'\n'
-nl|'\n'
+DECL|variable|ALIAS
+name|'ALIAS'
+op|'='
+string|"'extensions'"
+newline|'\n'
 DECL|variable|LOG
 name|'LOG'
 op|'='
@@ -527,7 +531,7 @@ newline|'\n'
 DECL|variable|alias
 name|'alias'
 op|'='
-string|'"extensions"'
+name|'ALIAS'
 newline|'\n'
 DECL|variable|version
 name|'version'
@@ -553,7 +557,7 @@ op|'.'
 name|'ResourceExtension'
 op|'('
 nl|'\n'
-string|"'extensions'"
+name|'ALIAS'
 op|','
 name|'ExtensionInfoController'
 op|'('

@@ -1410,7 +1410,7 @@ op|'.'
 name|'ResourceExtension'
 op|'('
 nl|'\n'
-string|"'os-networks'"
+name|'ALIAS'
 op|','
 name|'NetworkController'
 op|'('

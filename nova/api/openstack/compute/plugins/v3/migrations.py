@@ -295,7 +295,7 @@ name|'extensions'
 op|'.'
 name|'ResourceExtension'
 op|'('
-string|"'os-migrations'"
+name|'ALIAS'
 op|','
 nl|'\n'
 name|'MigrationsController'
