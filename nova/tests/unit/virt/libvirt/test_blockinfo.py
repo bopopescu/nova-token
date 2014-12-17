@@ -339,7 +339,7 @@ string|"'disk'"
 op|','
 string|"'guest_format'"
 op|':'
-string|"'ext3'"
+string|"'ext4'"
 op|','
 nl|'\n'
 string|"'device_name'"
@@ -2362,7 +2362,7 @@ string|"'disk'"
 op|','
 string|"'guest_format'"
 op|':'
-string|"'ext3'"
+string|"'ext4'"
 op|','
 nl|'\n'
 string|"'device_name'"
@@ -2482,7 +2482,7 @@ string|"'disk'"
 op|','
 string|"'format'"
 op|':'
-string|"'ext3'"
+string|"'ext4'"
 op|'}'
 op|','
 nl|'\n'
@@ -3358,7 +3358,7 @@ string|"'disk'"
 op|','
 string|"'guest_format'"
 op|':'
-string|"'ext3'"
+string|"'ext4'"
 op|','
 nl|'\n'
 string|"'device_name'"
@@ -3513,7 +3513,7 @@ string|"'disk'"
 op|','
 string|"'format'"
 op|':'
-string|"'ext3'"
+string|"'ext4'"
 op|'}'
 op|','
 nl|'\n'
@@ -4435,7 +4435,7 @@ string|"'disk'"
 op|','
 string|"'guest_format'"
 op|':'
-string|"'ext3'"
+string|"'ext4'"
 op|','
 nl|'\n'
 string|"'device_name'"
@@ -4566,7 +4566,7 @@ string|"'virtio'"
 op|','
 string|"'format'"
 op|':'
-string|"'ext3'"
+string|"'ext4'"
 op|'}'
 op|','
 nl|'\n'
@@ -5538,7 +5538,7 @@ string|"'disk'"
 op|','
 string|"'format'"
 op|':'
-string|"'ext3'"
+string|"'ext4'"
 op|'}'
 op|','
 nl|'\n'
