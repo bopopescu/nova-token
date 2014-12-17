@@ -167,7 +167,7 @@ op|':'
 newline|'\n'
 indent|'                '
 name|'return'
-string|"'*******'"
+string|"'***'"
 newline|'\n'
 dedent|''
 name|'else'
