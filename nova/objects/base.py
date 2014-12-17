@@ -157,8 +157,8 @@ indent|'    '
 string|'"""Return the mangled name of the attribute\'s underlying storage."""'
 newline|'\n'
 name|'return'
-string|"'_%s'"
-op|'%'
+string|"'_'"
+op|'+'
 name|'name'
 newline|'\n'
 nl|'\n'
