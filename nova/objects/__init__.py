@@ -181,6 +181,11 @@ op|')'
 newline|'\n'
 name|'__import__'
 op|'('
+string|"'nova.objects.pci_device_pool'"
+op|')'
+newline|'\n'
+name|'__import__'
+op|'('
 string|"'nova.objects.tag'"
 op|')'
 newline|'\n'
