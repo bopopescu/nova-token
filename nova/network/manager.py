@@ -2201,6 +2201,8 @@ name|'group_ids'
 op|')'
 newline|'\n'
 nl|'\n'
+comment|'# NOTE(hanlind): This method can be removed in version 2.0 of the RPC API'
+nl|'\n'
 DECL|member|get_instance_uuids_by_ip_filter
 dedent|''
 name|'def'
