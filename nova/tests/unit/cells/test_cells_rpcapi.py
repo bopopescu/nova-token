@@ -4429,6 +4429,11 @@ string|"'fake-flavor'"
 op|','
 nl|'\n'
 string|"'fake-reservations'"
+op|','
+nl|'\n'
+name|'clean_shutdown'
+op|'='
+name|'True'
 op|')'
 newline|'\n'
 name|'expected_args'
@@ -4452,6 +4457,11 @@ name|'cow'
 op|'='
 string|"'moo'"
 op|')'
+op|','
+nl|'\n'
+string|"'clean_shutdown'"
+op|':'
+name|'True'
 op|'}'
 newline|'\n'
 name|'self'
@@ -4467,7 +4477,7 @@ name|'expected_args'
 op|','
 name|'version'
 op|'='
-string|"'1.20'"
+string|"'1.33'"
 op|')'
 newline|'\n'
 nl|'\n'
