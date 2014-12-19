@@ -1782,7 +1782,7 @@ name|'extensions'
 op|'.'
 name|'ResourceExtension'
 op|'('
-string|"'os-hosts'"
+name|'ALIAS'
 op|','
 nl|'\n'
 name|'HostController'
