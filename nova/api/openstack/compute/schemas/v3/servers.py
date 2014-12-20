@@ -68,7 +68,7 @@ string|"'name'"
 op|':'
 name|'parameter_types'
 op|'.'
-name|'name'
+name|'hostname'
 op|','
 nl|'\n'
 string|"'imageRef'"
@@ -270,7 +270,7 @@ string|"'name'"
 op|':'
 name|'parameter_types'
 op|'.'
-name|'name'
+name|'hostname'
 op|','
 nl|'\n'
 op|'}'
@@ -333,7 +333,7 @@ string|"'name'"
 op|':'
 name|'parameter_types'
 op|'.'
-name|'name'
+name|'hostname'
 op|','
 nl|'\n'
 string|"'imageRef'"
