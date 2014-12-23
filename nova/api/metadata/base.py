@@ -174,11 +174,9 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-op|'('
 string|"'List of metadata versions to skip placing into the '"
 nl|'\n'
 string|"'config drive'"
-op|')'
 op|')'
 op|','
 nl|'\n'

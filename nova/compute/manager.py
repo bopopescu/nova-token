@@ -820,13 +820,11 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-op|'('
 string|"'Interval in seconds for retrying failed instance file '"
 nl|'\n'
 string|"'deletes. Set to -1 to disable. '"
 nl|'\n'
 string|"'Setting this to 0 will run at the default rate.'"
-op|')'
 op|')'
 op|','
 nl|'\n'
@@ -1073,11 +1071,9 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-op|'('
 string|"'The number of times to attempt to reap an instance\\'s '"
 nl|'\n'
 string|"'files.'"
-op|')'
 op|')'
 op|','
 nl|'\n'

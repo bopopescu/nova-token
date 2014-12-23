@@ -647,11 +647,9 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-op|'('
 string|"'The table that iptables to jump to when a packet is '"
 nl|'\n'
 string|"'to be dropped.'"
-op|')'
 op|')'
 op|','
 nl|'\n'
