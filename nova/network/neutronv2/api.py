@@ -4135,7 +4135,7 @@ name|'LOG'
 op|'.'
 name|'debug'
 op|'('
-string|"'get_instance_nw_info()'"
+string|"'_get_instance_nw_info()'"
 op|','
 name|'instance'
 op|'='
@@ -5195,7 +5195,6 @@ name|'debug'
 op|'('
 string|"'validate_networks() for %s'"
 op|','
-nl|'\n'
 name|'requested_networks'
 op|')'
 newline|'\n'
