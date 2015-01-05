@@ -209,13 +209,10 @@ string|"'flavorRef'"
 op|']'
 op|','
 nl|'\n'
-comment|'# TODO(oomichi): After all extension schema patches are merged,'
-nl|'\n'
-comment|'# this code should be enabled. If enabling before merger, API'
-nl|'\n'
-comment|'# extension parameters would be considered as bad parameters.'
-nl|'\n'
-comment|"# 'additionalProperties': False,"
+string|"'additionalProperties'"
+op|':'
+name|'False'
+op|','
 nl|'\n'
 op|'}'
 op|','
@@ -230,11 +227,10 @@ string|"'server'"
 op|']'
 op|','
 nl|'\n'
-comment|'# TODO(oomichi): Now v3 code will be used for v2.1 only and v2.1 needs'
-nl|'\n'
-comment|'# to allow additionalProperties for some extensions.'
-nl|'\n'
-comment|"# 'additionalProperties': False,"
+string|"'additionalProperties'"
+op|':'
+name|'False'
+op|','
 nl|'\n'
 op|'}'
 newline|'\n'
