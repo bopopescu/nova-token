@@ -138,17 +138,6 @@ name|'wsgi'
 newline|'\n'
 nl|'\n'
 nl|'\n'
-DECL|variable|XMLNS_V10
-name|'XMLNS_V10'
-op|'='
-string|"'http://docs.rackspacecloud.com/servers/api/v1.0'"
-newline|'\n'
-DECL|variable|XMLNS_V11
-name|'XMLNS_V11'
-op|'='
-string|"'http://docs.openstack.org/compute/api/v1.1'"
-newline|'\n'
-nl|'\n'
 DECL|variable|LOG
 name|'LOG'
 op|'='
