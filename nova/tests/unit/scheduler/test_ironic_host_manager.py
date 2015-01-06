@@ -655,9 +655,9 @@ newline|'\n'
 name|'compute'
 op|'='
 op|'{'
-string|"'cpu_info'"
+string|"'hypervisor_type'"
 op|':'
-string|"'baremetal cpu'"
+string|"'ironic'"
 op|'}'
 newline|'\n'
 name|'host_state'
