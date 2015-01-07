@@ -786,6 +786,7 @@ DECL|variable|certificate_create_extension
 name|'certificate_create_extension'
 op|'='
 string|"'compute_extension:certificates'"
+newline|'\n'
 dedent|''
 endmarker|''
 end_unit

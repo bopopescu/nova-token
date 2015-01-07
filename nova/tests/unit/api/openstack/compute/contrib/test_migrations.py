@@ -725,6 +725,7 @@ indent|'    '
 name|'migrations'
 op|'='
 name|'migrations_v2'
+newline|'\n'
 dedent|''
 endmarker|''
 end_unit

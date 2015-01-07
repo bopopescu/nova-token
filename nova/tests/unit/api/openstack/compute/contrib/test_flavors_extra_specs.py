@@ -2819,6 +2819,7 @@ DECL|variable|flavorextraspecs
 name|'flavorextraspecs'
 op|'='
 name|'flavorextraspecs_v2'
+newline|'\n'
 dedent|''
 endmarker|''
 end_unit

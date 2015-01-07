@@ -650,6 +650,7 @@ op|','
 string|"'diagnostics'"
 op|')'
 op|')'
+newline|'\n'
 dedent|''
 dedent|''
 endmarker|''

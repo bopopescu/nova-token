@@ -11614,6 +11614,7 @@ string|"'servers'"
 op|','
 op|')'
 op|')'
+newline|'\n'
 dedent|''
 dedent|''
 endmarker|''
