@@ -4171,6 +4171,18 @@ op|'='
 string|"'{}'"
 newline|'\n'
 nl|'\n'
+comment|'# TODO(sbauza): Remove this once RT is using ComputeNode.save() for'
+nl|'\n'
+comment|'# updating the resources'
+nl|'\n'
+name|'expected_resources'
+op|'['
+string|"'host'"
+op|']'
+op|'='
+string|"'fake-host'"
+newline|'\n'
+nl|'\n'
 name|'self'
 op|'.'
 name|'rt'
