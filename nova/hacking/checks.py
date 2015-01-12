@@ -39,7 +39,7 @@ name|'import'
 name|'pep8'
 newline|'\n'
 nl|'\n'
-string|'"""\nGuidelines for writing new hacking checks\n\n - Use only for Nova specific tests. OpenStack general tests\n   should be submitted to the common \'hacking\' module.\n - Pick numbers in the range N3xx. Find the current test with\n   the highest allocated number and then pick the next value.\n - Keep the test method code in the source file ordered based\n   on the N3xx value.\n - List the new rule in the top level HACKING.rst file\n - Add test cases for each new rule to nova/tests/test_hacking.py\n\n"""'
+string|'"""\nGuidelines for writing new hacking checks\n\n - Use only for Nova specific tests. OpenStack general tests\n   should be submitted to the common \'hacking\' module.\n - Pick numbers in the range N3xx. Find the current test with\n   the highest allocated number and then pick the next value.\n - Keep the test method code in the source file ordered based\n   on the N3xx value.\n - List the new rule in the top level HACKING.rst file\n - Add test cases for each new rule to nova/tests/unit/test_hacking.py\n\n"""'
 newline|'\n'
 nl|'\n'
 DECL|variable|UNDERSCORE_IMPORT_FILES
