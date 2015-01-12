@@ -263,12 +263,6 @@ name|'__name__'
 op|')'
 newline|'\n'
 nl|'\n'
-DECL|variable|XML_WARNING
-name|'XML_WARNING'
-op|'='
-name|'False'
-newline|'\n'
-nl|'\n'
 nl|'\n'
 DECL|class|Controller
 name|'class'
