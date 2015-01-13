@@ -161,6 +161,11 @@ name|'VIF_TYPE_OTHER'
 op|'='
 string|"'other'"
 newline|'\n'
+DECL|variable|VIF_TYPE_TAP
+name|'VIF_TYPE_TAP'
+op|'='
+string|"'tap'"
+newline|'\n'
 nl|'\n'
 comment|"# Constants for dictionary keys in the 'vif_details' field in the VIF"
 nl|'\n'
@@ -225,6 +230,16 @@ DECL|variable|VIF_DETAILS_VHOSTUSER_OVS_PLUG
 name|'VIF_DETAILS_VHOSTUSER_OVS_PLUG'
 op|'='
 string|"'vhostuser_ovs_plug'"
+newline|'\n'
+nl|'\n'
+comment|"# Constants for dictionary keys in the 'vif_details' field that are"
+nl|'\n'
+comment|'# valid for VIF_TYPE_TAP.'
+nl|'\n'
+DECL|variable|VIF_DETAILS_TAP_MAC_ADDRESS
+name|'VIF_DETAILS_TAP_MAC_ADDRESS'
+op|'='
+string|"'mac_address'"
 newline|'\n'
 nl|'\n'
 comment|'# Define supported virtual NIC types. VNIC_TYPE_DIRECT and VNIC_TYPE_MACVTAP'
