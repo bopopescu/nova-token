@@ -374,6 +374,7 @@ indent|'    '
 name|'floating_ip_pools'
 op|'='
 name|'fipp_v2'
+newline|'\n'
 dedent|''
 endmarker|''
 end_unit

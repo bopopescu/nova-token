@@ -1890,6 +1890,7 @@ DECL|variable|include_server_group_quotas
 name|'include_server_group_quotas'
 op|'='
 name|'False'
+newline|'\n'
 dedent|''
 endmarker|''
 end_unit
