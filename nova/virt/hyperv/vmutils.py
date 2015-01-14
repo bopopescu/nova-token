@@ -2057,7 +2057,7 @@ op|':'
 nl|'\n'
 name|'self'
 op|'.'
-name|'_DISK_RES_SUB_TYPE'
+name|'_DISK_DRIVE_RES_SUB_TYPE'
 op|','
 nl|'\n'
 string|"'parent'"
