@@ -262,7 +262,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""This decorator wraps a method to catch any exceptions that may\n    get thrown. It logs the exception as well as optionally sending\n    it to the notification system.\n    """'
+string|'"""This decorator wraps a method to catch any exceptions that may\n    get thrown. It also optionally sends the exception to the notification\n    system.\n    """'
 newline|'\n'
 DECL|function|inner
 name|'def'
