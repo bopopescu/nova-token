@@ -980,10 +980,10 @@ op|'=='
 name|'other'
 newline|'\n'
 nl|'\n'
-DECL|member|__str__
+DECL|member|__repr__
 dedent|''
 name|'def'
-name|'__str__'
+name|'__repr__'
 op|'('
 name|'self'
 op|')'
