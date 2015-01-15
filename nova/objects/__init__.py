@@ -211,6 +211,11 @@ op|')'
 newline|'\n'
 name|'__import__'
 op|'('
+string|"'nova.objects.vcpu_model'"
+op|')'
+newline|'\n'
+name|'__import__'
+op|'('
 string|"'nova.objects.virt_cpu_topology'"
 op|')'
 newline|'\n'
