@@ -611,7 +611,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""Enable admin-only server actions\n\n    Actions include: pause, unpause, suspend, resume, migrate,\n    reset_network, inject_network_info, lock, unlock, create_backup\n    """'
+string|'"""Enable admin-only server actions\n\n    Actions include: resetNetwork, injectNetworkInfo, os-resetState\n    """'
 newline|'\n'
 nl|'\n'
 DECL|variable|name
