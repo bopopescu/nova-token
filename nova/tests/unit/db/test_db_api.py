@@ -63070,6 +63070,11 @@ op|':'
 string|"'1520'"
 op|','
 nl|'\n'
+string|"'numa_node'"
+op|':'
+number|'1'
+op|','
+nl|'\n'
 string|"'dev_type'"
 op|':'
 string|"'type-VF'"
@@ -63131,6 +63136,11 @@ nl|'\n'
 string|"'product_id'"
 op|':'
 string|"'1523'"
+op|','
+nl|'\n'
+string|"'numa_node'"
+op|':'
+number|'0'
 op|','
 nl|'\n'
 string|"'dev_type'"

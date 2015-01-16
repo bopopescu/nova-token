@@ -107,6 +107,11 @@ op|':'
 string|"'p'"
 op|','
 nl|'\n'
+string|"'numa_node'"
+op|':'
+number|'1'
+op|','
+nl|'\n'
 string|"'dev_type'"
 op|':'
 string|"'t'"

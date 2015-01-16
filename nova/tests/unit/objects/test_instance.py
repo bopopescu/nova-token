@@ -4847,6 +4847,11 @@ op|':'
 string|"'v1'"
 op|','
 nl|'\n'
+string|"'numa_node'"
+op|':'
+number|'0'
+op|','
+nl|'\n'
 string|"'product_id'"
 op|':'
 string|"'p1'"
@@ -4928,6 +4933,11 @@ nl|'\n'
 string|"'vendor_id'"
 op|':'
 string|"'v'"
+op|','
+nl|'\n'
+string|"'numa_node'"
+op|':'
+number|'1'
 op|','
 nl|'\n'
 string|"'product_id'"
