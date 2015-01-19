@@ -610,7 +610,12 @@ name|'wsgi_app_v21'
 op|'('
 name|'init_only'
 op|'='
-name|'None'
+op|'('
+nl|'\n'
+string|"'servers'"
+op|','
+string|"'os-extended-availability-zone'"
+op|')'
 op|')'
 op|')'
 newline|'\n'
