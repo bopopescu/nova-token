@@ -375,7 +375,7 @@ name|'warn'
 op|'('
 name|'_LW'
 op|'('
-string|"'task %(func_name)s run outlasted '"
+string|"'task %(func_name)r run outlasted '"
 nl|'\n'
 string|"'interval by %(delay).2f sec'"
 op|')'
@@ -384,12 +384,9 @@ nl|'\n'
 op|'{'
 string|"'func_name'"
 op|':'
-name|'repr'
-op|'('
 name|'self'
 op|'.'
 name|'f'
-op|')'
 op|','
 string|"'delay'"
 op|':'
@@ -632,7 +629,7 @@ name|'LOG'
 op|'.'
 name|'debug'
 op|'('
-string|"'Dynamic looping call %(func_name)s sleeping '"
+string|"'Dynamic looping call %(func_name)r sleeping '"
 nl|'\n'
 string|"'for %(idle).02f seconds'"
 op|','
@@ -640,12 +637,9 @@ nl|'\n'
 op|'{'
 string|"'func_name'"
 op|':'
-name|'repr'
-op|'('
 name|'self'
 op|'.'
 name|'f'
-op|')'
 op|','
 string|"'idle'"
 op|':'
