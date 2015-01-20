@@ -124,11 +124,13 @@ comment|'# Version 1.7: ComputeNode version 1.8'
 nl|'\n'
 comment|'# Version 1.8: ComputeNode version 1.9'
 nl|'\n'
+comment|'# Version 1.9: ComputeNode version 1.10'
+nl|'\n'
 DECL|variable|VERSION
 indent|'    '
 name|'VERSION'
 op|'='
-string|"'1.8'"
+string|"'1.9'"
 newline|'\n'
 nl|'\n'
 DECL|variable|fields
@@ -276,6 +278,12 @@ op|'('
 string|"'1.8'"
 op|','
 string|"'1.9'"
+op|')'
+op|','
+op|'('
+string|"'1.9'"
+op|','
+string|"'1.10'"
 op|')'
 op|']'
 op|','
@@ -958,11 +966,13 @@ comment|'# Version 1.5: Service version 1.7'
 nl|'\n'
 comment|'# Version 1.6: Service version 1.8'
 nl|'\n'
+comment|'# Version 1.7: Service version 1.9'
+nl|'\n'
 DECL|variable|VERSION
 indent|'    '
 name|'VERSION'
 op|'='
-string|"'1.6'"
+string|"'1.7'"
 newline|'\n'
 nl|'\n'
 DECL|variable|fields
@@ -1022,6 +1032,11 @@ nl|'\n'
 string|"'1.6'"
 op|':'
 string|"'1.8'"
+op|','
+nl|'\n'
+string|"'1.7'"
+op|':'
+string|"'1.9'"
 op|','
 nl|'\n'
 op|'}'
