@@ -256,6 +256,9 @@ nl|'\n'
 DECL|class|FakeDB
 name|'class'
 name|'FakeDB'
+op|'('
+name|'object'
+op|')'
 op|':'
 newline|'\n'
 DECL|variable|vifs

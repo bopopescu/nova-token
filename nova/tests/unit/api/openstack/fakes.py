@@ -1518,6 +1518,9 @@ DECL|class|Fake
 dedent|''
 name|'class'
 name|'Fake'
+op|'('
+name|'object'
+op|')'
 op|':'
 newline|'\n'
 DECL|member|get_instance_nw_info

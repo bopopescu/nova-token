@@ -197,6 +197,9 @@ nl|'\n'
 DECL|class|NWFilterFakes
 name|'class'
 name|'NWFilterFakes'
+op|'('
+name|'object'
+op|')'
 op|':'
 newline|'\n'
 DECL|member|__init__
@@ -271,6 +274,9 @@ DECL|class|FakeNWFilterInternal
 indent|'        '
 name|'class'
 name|'FakeNWFilterInternal'
+op|'('
+name|'object'
+op|')'
 op|':'
 newline|'\n'
 DECL|member|__init__
