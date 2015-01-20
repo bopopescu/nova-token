@@ -107,34 +107,6 @@ op|','
 string|"'enum'"
 op|':'
 name|'SUPPORTED_POLICIES'
-op|','
-nl|'\n'
-string|"'not'"
-op|':'
-op|'{'
-string|"'allOf'"
-op|':'
-op|'['
-nl|'\n'
-comment|'# NOTE: Clients cannot specify both affinity and'
-nl|'\n'
-comment|'# anti-affinity in a single request.'
-nl|'\n'
-op|'{'
-string|"'enum'"
-op|':'
-string|"'affinity'"
-op|'}'
-op|','
-nl|'\n'
-op|'{'
-string|"'enum'"
-op|':'
-string|"'anti-affinity'"
-op|'}'
-nl|'\n'
-op|']'
-op|'}'
 nl|'\n'
 op|'}'
 op|','
