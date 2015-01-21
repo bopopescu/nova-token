@@ -83844,6 +83844,13 @@ op|'='
 op|'{'
 op|'}'
 newline|'\n'
+name|'inst'
+op|'['
+string|"'vm_mode'"
+op|']'
+op|'='
+string|"'hvm'"
+newline|'\n'
 nl|'\n'
 name|'inst'
 op|'.'
