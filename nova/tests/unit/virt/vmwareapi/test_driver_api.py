@@ -19144,8 +19144,6 @@ op|'.'
 name|'conn'
 op|'.'
 name|'get_host_uptime'
-op|','
-string|"'host'"
 op|')'
 newline|'\n'
 nl|'\n'
