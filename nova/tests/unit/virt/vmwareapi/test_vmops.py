@@ -224,6 +224,9 @@ nl|'\n'
 DECL|class|DsPathMatcher
 name|'class'
 name|'DsPathMatcher'
+op|'('
+name|'object'
+op|')'
 op|':'
 newline|'\n'
 DECL|member|__init__

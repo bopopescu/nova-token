@@ -392,6 +392,9 @@ DECL|class|ObjectLikeThing
 indent|'        '
 name|'class'
 name|'ObjectLikeThing'
+op|'('
+name|'object'
+op|')'
 op|':'
 newline|'\n'
 DECL|variable|_context

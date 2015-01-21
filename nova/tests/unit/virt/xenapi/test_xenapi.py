@@ -9370,6 +9370,7 @@ DECL|class|VMOpsMock
 name|'class'
 name|'VMOpsMock'
 op|'('
+name|'object'
 op|')'
 op|':'
 newline|'\n'

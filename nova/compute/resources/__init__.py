@@ -73,6 +73,7 @@ DECL|class|ResourceHandler
 name|'class'
 name|'ResourceHandler'
 op|'('
+name|'object'
 op|')'
 op|':'
 newline|'\n'

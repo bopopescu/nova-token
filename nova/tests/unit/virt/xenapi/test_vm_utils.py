@@ -7341,6 +7341,7 @@ DECL|class|_FakeSession
 name|'class'
 name|'_FakeSession'
 op|'('
+name|'object'
 op|')'
 op|':'
 newline|'\n'
