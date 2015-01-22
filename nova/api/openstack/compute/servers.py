@@ -6103,10 +6103,13 @@ op|']'
 newline|'\n'
 name|'if'
 op|'('
-string|"'changePassword'"
 name|'not'
-name|'in'
 name|'body'
+op|'.'
+name|'get'
+op|'('
+string|"'changePassword'"
+op|')'
 nl|'\n'
 name|'or'
 string|"'adminPass'"
