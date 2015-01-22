@@ -301,7 +301,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'Mount options passedf to the NFS client. See section '"
+string|"'Mount options passed to the NFS client. See section '"
 nl|'\n'
 string|"'of the nfs man page for details'"
 op|')'
