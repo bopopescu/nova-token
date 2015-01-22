@@ -134,6 +134,11 @@ name|'IMAGE_VM_PREFIX'
 op|'='
 string|'"OSTACK_IMG"'
 newline|'\n'
+DECL|variable|SNAPSHOT_VM_PREFIX
+name|'SNAPSHOT_VM_PREFIX'
+op|'='
+string|'"OSTACK_SNAP"'
+newline|'\n'
 nl|'\n'
 DECL|variable|ADAPTER_TYPE_BUSLOGIC
 name|'ADAPTER_TYPE_BUSLOGIC'
