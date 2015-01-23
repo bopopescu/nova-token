@@ -14949,6 +14949,8 @@ op|'['
 string|"'numa_topology'"
 op|','
 string|"'pci_requests'"
+op|','
+string|"'flavor'"
 op|']'
 newline|'\n'
 dedent|''
