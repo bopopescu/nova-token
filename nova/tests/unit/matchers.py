@@ -1316,9 +1316,13 @@ indent|'        '
 name|'return'
 string|'"%(path)s: XML does not match"'
 op|'%'
+op|'{'
+string|"'path'"
+op|':'
 name|'self'
 op|'.'
 name|'path'
+op|'}'
 newline|'\n'
 nl|'\n'
 DECL|member|get_details
