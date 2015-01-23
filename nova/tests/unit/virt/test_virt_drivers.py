@@ -4402,7 +4402,6 @@ name|'connection'
 op|'.'
 name|'get_host_uptime'
 op|'('
-string|"'a useless argument?'"
 op|')'
 newline|'\n'
 nl|'\n'
