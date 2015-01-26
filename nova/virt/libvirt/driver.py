@@ -18078,7 +18078,7 @@ name|'warn'
 op|'('
 name|'_LW'
 op|'('
-string|"'Cannot update service status on host: %s,'"
+string|'\'Cannot update service status on host "%s" \''
 nl|'\n'
 string|"'since it is not registered.'"
 op|')'
@@ -18100,7 +18100,7 @@ name|'warn'
 op|'('
 name|'_LW'
 op|'('
-string|"'Cannot update service status on host: %s,'"
+string|'\'Cannot update service status on host "%s" \''
 nl|'\n'
 string|"'due to an unexpected exception.'"
 op|')'
