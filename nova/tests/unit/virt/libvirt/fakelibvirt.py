@@ -3319,8 +3319,13 @@ nl|'\n'
 string|"'qemu:///session'"
 op|','
 nl|'\n'
-string|"'xen:///system'"
+string|"'lxc:///'"
 op|','
+comment|'# from LibvirtDriver.uri()'
+nl|'\n'
+string|"'xen:///'"
+op|','
+comment|'# from LibvirtDriver.uri()'
 nl|'\n'
 string|"'uml:///system'"
 op|','
