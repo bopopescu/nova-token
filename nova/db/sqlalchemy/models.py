@@ -5252,7 +5252,7 @@ op|','
 nl|'\n'
 name|'Index'
 op|'('
-string|"'network_id'"
+string|"'virtual_interfaces_network_id_idx'"
 op|','
 string|"'network_id'"
 op|')'
@@ -5918,7 +5918,7 @@ op|'('
 nl|'\n'
 name|'Index'
 op|'('
-string|"'project_id'"
+string|"'dns_domains_project_id_idx'"
 op|','
 string|"'project_id'"
 op|')'
