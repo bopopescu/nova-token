@@ -46,7 +46,15 @@ name|'NOSTATE'
 op|'='
 name|'None'
 newline|'\n'
-string|'""" No state information.\n\nDefault for the power and provision state of newly created nodes.\n"""'
+string|'""" No state information.\n\nThis state is used with power_state to represent a lack of knowledge of\npower state, and in target_*_state fields when there is no target.\n\nPrior to the Kilo release, Ironic set node.provision_state to NOSTATE\nwhen the node was available for provisioning. During Kilo cycle, this was\nchanged to the AVAILABLE state.\n"""'
+newline|'\n'
+nl|'\n'
+DECL|variable|AVAILABLE
+name|'AVAILABLE'
+op|'='
+string|"'available'"
+newline|'\n'
+string|'""" Node is available for use and scheduling.\n\nThis state is replacing the NOSTATE state used prior to Kilo.\n"""'
 newline|'\n'
 nl|'\n'
 DECL|variable|ACTIVE
