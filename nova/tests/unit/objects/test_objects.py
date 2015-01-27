@@ -8865,12 +8865,12 @@ op|','
 nl|'\n'
 string|"'KeyPair'"
 op|':'
-string|"'1.2-adf0be7b68e0b9f1ec011e23a9761354'"
+string|"'1.1-3410f51950d052d861c11946a6ae621a'"
 op|','
 nl|'\n'
 string|"'KeyPairList'"
 op|':'
-string|"'1.1-152dc1efcc46014cc10656a0d0ac5bb0'"
+string|"'1.0-71132a568cc5d078ba1748a9c02c87b8'"
 op|','
 nl|'\n'
 string|"'Migration'"
