@@ -118,7 +118,7 @@ comment|'# Version 1.8: Added get_by_host_and_nodename()'
 nl|'\n'
 comment|'# Version 1.9: Added pci_device_pools'
 nl|'\n'
-comment|'# Version 1.10: Added get_first_node_per_host_for_old_compat()'
+comment|'# Version 1.10: Added get_first_node_by_host_for_old_compat()'
 nl|'\n'
 DECL|variable|VERSION
 indent|'    '
