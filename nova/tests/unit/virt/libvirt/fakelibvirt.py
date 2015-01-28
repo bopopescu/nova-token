@@ -3326,6 +3326,9 @@ string|"'uml:///system'"
 op|','
 nl|'\n'
 string|"'test:///default'"
+op|','
+nl|'\n'
+string|"'parallels:///system'"
 op|']'
 newline|'\n'
 nl|'\n'
