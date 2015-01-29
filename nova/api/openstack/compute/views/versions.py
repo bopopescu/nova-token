@@ -458,7 +458,7 @@ name|'version'
 op|'.'
 name|'find'
 op|'('
-string|"'v3.'"
+string|"'v2.1'"
 op|')'
 op|'=='
 number|'0'
@@ -467,7 +467,7 @@ newline|'\n'
 indent|'            '
 name|'version_number'
 op|'='
-string|"'v3'"
+string|"'v2.1'"
 newline|'\n'
 dedent|''
 name|'else'
