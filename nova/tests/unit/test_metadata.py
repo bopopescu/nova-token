@@ -4702,6 +4702,15 @@ name|'req'
 op|'.'
 name|'headers'
 op|'['
+string|"'X-Instance-ID-Signature'"
+op|']'
+op|'='
+string|"'fake-sig'"
+newline|'\n'
+name|'req'
+op|'.'
+name|'headers'
+op|'['
 string|"'X-Tenant-ID'"
 op|']'
 op|'='
