@@ -555,7 +555,7 @@ nl|'\n'
 DECL|variable|default
 name|'default'
 op|'='
-string|"'%(name)s-%(uuid)s'"
+string|"'%(name)s-%(count)d'"
 op|','
 nl|'\n'
 DECL|variable|help
