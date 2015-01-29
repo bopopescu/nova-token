@@ -56,12 +56,6 @@ name|'import'
 name|'fields'
 newline|'\n'
 nl|'\n'
-DECL|variable|KEYPAIR_TYPE_SSH
-name|'KEYPAIR_TYPE_SSH'
-op|'='
-string|"'ssh'"
-newline|'\n'
-nl|'\n'
 nl|'\n'
 comment|'# TODO(berrange): Remove NovaObjectDictCompat'
 nl|'\n'
@@ -88,13 +82,11 @@ comment|'# Version 1.0: Initial version'
 nl|'\n'
 comment|'# Version 1.1: String attributes updated to support unicode'
 nl|'\n'
-comment|'# Version 1.2: Added keypair type'
-nl|'\n'
 DECL|variable|VERSION
 indent|'    '
 name|'VERSION'
 op|'='
-string|"'1.2'"
+string|"'1.1'"
 newline|'\n'
 nl|'\n'
 DECL|variable|fields
@@ -156,18 +148,6 @@ op|'('
 name|'nullable'
 op|'='
 name|'True'
-op|')'
-op|','
-nl|'\n'
-string|"'type'"
-op|':'
-name|'fields'
-op|'.'
-name|'StringField'
-op|'('
-name|'nullable'
-op|'='
-name|'False'
 op|')'
 op|','
 nl|'\n'
@@ -436,13 +416,11 @@ comment|'# Version 1.0: Initial version'
 nl|'\n'
 comment|'#              KeyPair <= version 1.1'
 nl|'\n'
-comment|'# Version 1.1: KeyPair <= version 1.2'
-nl|'\n'
 DECL|variable|VERSION
 indent|'    '
 name|'VERSION'
 op|'='
-string|"'1.1'"
+string|"'1.0'"
 newline|'\n'
 nl|'\n'
 DECL|variable|fields
@@ -473,11 +451,6 @@ string|"'1.1'"
 op|','
 nl|'\n'
 comment|'# NOTE(danms): KeyPair was at 1.1 before we added this'
-nl|'\n'
-string|"'1.1'"
-op|':'
-string|"'1.2'"
-op|','
 nl|'\n'
 op|'}'
 newline|'\n'
