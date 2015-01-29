@@ -18715,7 +18715,7 @@ name|'self'
 op|'.'
 name|'assertEqual'
 op|'('
-string|"'foo-net-id'"
+string|"'net-id'"
 op|','
 name|'net'
 op|'['
