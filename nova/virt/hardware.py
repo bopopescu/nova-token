@@ -3160,7 +3160,7 @@ comment|"# We build up a data structure 'can_pack' that answers the question:"
 nl|'\n'
 comment|"# 'Given the number of threads I want to pack, give me a list of all"
 nl|'\n'
-comment|"# the available sibling sets that can accomodate it'"
+comment|"# the available sibling sets that can accommodate it'"
 nl|'\n'
 name|'can_pack'
 op|'='
