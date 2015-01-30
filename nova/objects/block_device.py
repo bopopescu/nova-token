@@ -187,11 +187,13 @@ comment|'# Version 1.6: Instance version 1.18'
 nl|'\n'
 comment|'# Version 1.7: Add update_or_create method'
 nl|'\n'
+comment|'# Version 1.8: Instance version 1.19'
+nl|'\n'
 DECL|variable|VERSION
 indent|'    '
 name|'VERSION'
 op|'='
-string|"'1.7'"
+string|"'1.8'"
 newline|'\n'
 nl|'\n'
 DECL|variable|fields
@@ -445,6 +447,13 @@ op|'('
 string|"'1.6'"
 op|','
 string|"'1.18'"
+op|')'
+op|','
+nl|'\n'
+op|'('
+string|"'1.8'"
+op|','
+string|"'1.19'"
 op|')'
 op|']'
 op|','
@@ -1451,11 +1460,13 @@ comment|'# Version 1.7: BlockDeviceMapping <= version 1.6'
 nl|'\n'
 comment|'# Version 1.8: BlockDeviceMapping <= version 1.7'
 nl|'\n'
+comment|'# Version 1.9: BlockDeviceMapping <= version 1.8'
+nl|'\n'
 DECL|variable|VERSION
 indent|'    '
 name|'VERSION'
 op|'='
-string|"'1.8'"
+string|"'1.9'"
 newline|'\n'
 nl|'\n'
 DECL|variable|fields
@@ -1523,6 +1534,11 @@ nl|'\n'
 string|"'1.8'"
 op|':'
 string|"'1.7'"
+op|','
+nl|'\n'
+string|"'1.9'"
+op|':'
+string|"'1.8'"
 op|','
 nl|'\n'
 op|'}'
