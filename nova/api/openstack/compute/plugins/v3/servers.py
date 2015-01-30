@@ -2276,6 +2276,9 @@ name|'expected_attrs'
 op|'='
 op|'['
 string|"'pci_devices'"
+op|','
+nl|'\n'
+string|"'flavor'"
 op|']'
 op|')'
 newline|'\n'
@@ -2903,6 +2906,9 @@ name|'expected_attrs'
 op|'='
 op|'['
 string|"'pci_devices'"
+op|','
+nl|'\n'
+string|"'flavor'"
 op|']'
 op|')'
 newline|'\n'
