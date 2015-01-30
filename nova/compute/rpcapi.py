@@ -427,7 +427,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'        '
-string|"'''Add aggregate host.\n\n        :param ctxt: request context\n        :param aggregate_id:\n        :param host_param: This value is placed in the message to be the 'host'\n                           parameter for the remote method.\n        :param host: This is the host to send the message to.\n        '''"
+string|"'''Add aggregate host.\n\n        :param ctxt: request context\n        :param aggregate:\n        :param host_param: This value is placed in the message to be the 'host'\n                           parameter for the remote method.\n        :param host: This is the host to send the message to.\n        '''"
 newline|'\n'
 name|'version'
 op|'='
@@ -3090,7 +3090,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'        '
-string|"'''Remove aggregate host.\n\n        :param ctxt: request context\n        :param aggregate_id:\n        :param host_param: This value is placed in the message to be the 'host'\n                           parameter for the remote method.\n        :param host: This is the host to send the message to.\n        '''"
+string|"'''Remove aggregate host.\n\n        :param ctxt: request context\n        :param aggregate:\n        :param host_param: This value is placed in the message to be the 'host'\n                           parameter for the remote method.\n        :param host: This is the host to send the message to.\n        '''"
 newline|'\n'
 name|'version'
 op|'='

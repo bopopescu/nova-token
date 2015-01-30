@@ -14637,7 +14637,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'        '
-string|'"""Calculate any quota adjustment required at a particular point\n        in the resize cycle.\n\n        :param context: the request context\n        :param new_instance_type: the target instance type\n        :param old_instance_type: the original instance type\n        :param sense: the sense of the adjustment, 1 indicates a\n                      forward adjustment, whereas -1 indicates a\n                      reversal of a prior adjustment\n        :param compare: the direction of the comparison, 1 indicates\n                        we\'re checking for positive deltas, whereas\n                        -1 indicates negative deltas\n        """'
+string|'"""Calculate any quota adjustment required at a particular point\n        in the resize cycle.\n\n        :param context: the request context\n        :param new_flavor: the target instance type\n        :param old_flavor: the original instance type\n        :param sense: the sense of the adjustment, 1 indicates a\n                      forward adjustment, whereas -1 indicates a\n                      reversal of a prior adjustment\n        :param compare: the direction of the comparison, 1 indicates\n                        we\'re checking for positive deltas, whereas\n                        -1 indicates negative deltas\n        """'
 newline|'\n'
 DECL|function|_quota_delta
 name|'def'
