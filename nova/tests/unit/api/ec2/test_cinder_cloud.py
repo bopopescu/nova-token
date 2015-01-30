@@ -4736,7 +4736,7 @@ name|'self'
 op|')'
 op|':'
 newline|'\n'
-comment|'# NOTE(ft): Since instance bdm is deleted immediatly by detach'
+comment|'# NOTE(ft): Since instance bdm is deleted immediately by detach'
 nl|'\n'
 comment|"# operation call, no test for 'detaching' stage is required"
 nl|'\n'
