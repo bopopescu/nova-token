@@ -19096,9 +19096,7 @@ name|'_msg'
 op|'='
 name|'_'
 op|'('
-string|"'Failed to set admin password. Instance %s is not'"
-nl|'\n'
-string|"' running'"
+string|"'instance %s is not running'"
 op|')'
 op|'%'
 name|'instance'
