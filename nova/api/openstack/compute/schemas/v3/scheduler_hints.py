@@ -165,40 +165,9 @@ op|','
 nl|'\n'
 string|"'build_near_host_ip'"
 op|':'
-op|'{'
-nl|'\n'
-comment|"# NOTE: The combination string of 'build_near_host_ip' and 'cidr'"
-nl|'\n'
-comment|'# is passed to netaddr.IPNetwork().'
-nl|'\n'
-comment|'# This covers both ipv4 and ipv6.'
-nl|'\n'
-string|"'type'"
-op|':'
-string|"'string'"
-op|','
-nl|'\n'
-string|"'oneOf'"
-op|':'
-op|'['
-nl|'\n'
-op|'{'
-string|"'format'"
-op|':'
-string|"'ipv4'"
-op|'}'
-op|','
-nl|'\n'
-op|'{'
-string|"'format'"
-op|':'
-string|"'ipv6'"
-op|'}'
-nl|'\n'
-op|']'
-op|','
-nl|'\n'
-op|'}'
+name|'parameter_types'
+op|'.'
+name|'ip_address'
 op|','
 nl|'\n'
 string|"'cidr'"
