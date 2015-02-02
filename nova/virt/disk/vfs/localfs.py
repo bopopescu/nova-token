@@ -432,7 +432,7 @@ name|'LOG'
 op|'.'
 name|'debug'
 op|'('
-string|'"Failed to mount image %(ex)s)"'
+string|'"Failed to mount image: %(ex)s"'
 op|','
 op|'{'
 string|"'ex'"
