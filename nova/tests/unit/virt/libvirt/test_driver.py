@@ -81057,6 +81057,12 @@ op|','
 string|"'vdb'"
 op|')'
 newline|'\n'
+name|'volume_save'
+op|'.'
+name|'assert_called_once_with'
+op|'('
+op|')'
+newline|'\n'
 nl|'\n'
 DECL|function|test_live_snapshot
 dedent|''
