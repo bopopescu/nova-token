@@ -990,9 +990,12 @@ op|','
 nl|'\n'
 name|'Index'
 op|'('
+string|"'instances_project_id_deleted_idx'"
+op|','
+nl|'\n'
 string|"'project_id'"
 op|','
-string|"'project_id'"
+string|"'deleted'"
 op|')'
 op|','
 nl|'\n'
