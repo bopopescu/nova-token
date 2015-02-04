@@ -7385,12 +7385,12 @@ string|"'--cell_type'"
 op|','
 name|'metavar'
 op|'='
-string|"'<parent|child>'"
+string|"'<parent|api|child|compute>'"
 op|','
 nl|'\n'
 name|'help'
 op|'='
-string|"'Whether the cell is a parent or child'"
+string|"'Whether the cell is parent/api or child/compute'"
 op|')'
 newline|'\n'
 op|'@'
@@ -7567,13 +7567,19 @@ op|'['
 string|"'parent'"
 op|','
 string|"'child'"
+op|','
+string|"'api'"
+op|','
+string|"'compute'"
 op|']'
 op|':'
 newline|'\n'
 indent|'            '
 name|'print'
 op|'('
-string|'"Error: cell type must be \'parent\' or \'child\'"'
+string|'"Error: cell type must be \'parent\'/\'api\' or "'
+nl|'\n'
+string|'"\'child\'/\'compute\'"'
 op|')'
 newline|'\n'
 name|'return'
@@ -7631,10 +7637,24 @@ newline|'\n'
 nl|'\n'
 name|'is_parent'
 op|'='
-name|'cell_type'
-op|'=='
-string|"'parent'"
+name|'False'
 newline|'\n'
+name|'if'
+name|'cell_type'
+name|'in'
+op|'['
+string|"'api'"
+op|','
+string|"'parent'"
+op|']'
+op|':'
+newline|'\n'
+indent|'            '
+name|'is_parent'
+op|'='
+name|'True'
+newline|'\n'
+dedent|''
 name|'values'
 op|'='
 op|'{'
