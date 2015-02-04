@@ -127,6 +127,9 @@ nl|'\n'
 string|"'oslosphinx'"
 op|','
 nl|'\n'
+string|'"ext.support_matrix"'
+op|','
+nl|'\n'
 op|']'
 newline|'\n'
 nl|'\n'
@@ -749,8 +752,13 @@ comment|'# relative to this directory. They are copied after the builtin static 
 nl|'\n'
 comment|'# so a file named "default.css" will overwrite the builtin "default.css".'
 nl|'\n'
-comment|"#html_static_path = ['_static']"
-nl|'\n'
+DECL|variable|html_static_path
+name|'html_static_path'
+op|'='
+op|'['
+string|"'_static'"
+op|']'
+newline|'\n'
 nl|'\n'
 comment|"# If not '', a 'Last updated on:' timestamp is inserted at every page bottom,"
 nl|'\n'
