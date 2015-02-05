@@ -476,11 +476,13 @@ string|"'host'"
 op|','
 string|"'hypervisor_hostname'"
 op|','
+string|"'deleted'"
+op|','
 nl|'\n'
 DECL|variable|name
 name|'name'
 op|'='
-string|'"uniq_compute_nodes0host0hypervisor_hostname"'
+string|'"uniq_compute_nodes0host0hypervisor_hostname0deleted"'
 op|')'
 op|','
 nl|'\n'
