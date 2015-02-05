@@ -77,7 +77,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""Add user_data to the Create Server v1.1 API."""'
+string|'"""Add user_data to the Create Server API."""'
 newline|'\n'
 nl|'\n'
 DECL|variable|name
