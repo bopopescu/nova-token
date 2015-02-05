@@ -1187,6 +1187,8 @@ string|"'warning'"
 op|','
 string|"'critical'"
 op|','
+string|"'warn'"
+op|','
 nl|'\n'
 string|"'exception'"
 op|']'
