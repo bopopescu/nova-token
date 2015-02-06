@@ -347,6 +347,34 @@ string|"'https://bugs.launchpad.net/nova/+bug/1415106'"
 op|')'
 op|','
 nl|'\n'
+name|'cfg'
+op|'.'
+name|'BoolOpt'
+op|'('
+string|"'disable_libvirt_livesnapshot'"
+op|','
+nl|'\n'
+DECL|variable|default
+name|'default'
+op|'='
+name|'True'
+op|','
+nl|'\n'
+DECL|variable|help
+name|'help'
+op|'='
+string|"'When using libvirt 1.2.2 fails live snapshots '"
+nl|'\n'
+string|"'intermittently under load.  This config option provides '"
+nl|'\n'
+string|"'mechanism to disable livesnapshot while this is '"
+nl|'\n'
+string|"'resolved.  See '"
+nl|'\n'
+string|"'https://bugs.launchpad.net/nova/+bug/1334398'"
+op|')'
+op|','
+nl|'\n'
 op|']'
 newline|'\n'
 DECL|variable|CONF
