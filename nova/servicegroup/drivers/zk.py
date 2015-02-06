@@ -455,7 +455,27 @@ newline|'\n'
 indent|'            '
 name|'pass'
 newline|'\n'
+comment|'# Log a warning about quality for this driver.'
+nl|'\n'
 dedent|''
+name|'LOG'
+op|'.'
+name|'warning'
+op|'('
+name|'_LW'
+op|'('
+string|"'The ZooKeeper service group driver in Nova is not '"
+nl|'\n'
+string|"'tested by the OpenStack project and thus its quality '"
+nl|'\n'
+string|"'can not be ensured. This may change in the future, '"
+nl|'\n'
+string|"'but current deployers should be aware that the use '"
+nl|'\n'
+string|"'of it in production right now may be risky.'"
+op|')'
+op|')'
+newline|'\n'
 name|'return'
 name|'session'
 newline|'\n'
