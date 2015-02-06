@@ -1200,7 +1200,7 @@ newline|'\n'
 DECL|variable|name
 name|'name'
 op|'='
-string|'"RemoteConsoles"'
+string|'"Consoles"'
 newline|'\n'
 DECL|variable|alias
 name|'alias'

@@ -1374,7 +1374,7 @@ nl|'\n'
 DECL|variable|name
 name|'name'
 op|'='
-string|'"TenantNetworks"'
+string|'"OSTenantNetworks"'
 newline|'\n'
 DECL|variable|alias
 name|'alias'
