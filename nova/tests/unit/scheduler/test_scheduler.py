@@ -398,6 +398,8 @@ op|'('
 name|'self'
 op|'.'
 name|'manager'
+op|'.'
+name|'driver'
 op|','
 string|"'select_destinations'"
 nl|'\n'
