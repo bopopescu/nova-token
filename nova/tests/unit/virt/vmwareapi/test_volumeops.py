@@ -751,6 +751,9 @@ op|','
 string|"'preallocated'"
 op|','
 number|'1024'
+op|','
+nl|'\n'
+string|"'fake-device'"
 op|')'
 newline|'\n'
 name|'with'
@@ -941,6 +944,9 @@ op|','
 string|"'preallocated'"
 op|','
 number|'1024'
+op|','
+nl|'\n'
+string|"'fake-device'"
 op|')'
 newline|'\n'
 name|'with'
