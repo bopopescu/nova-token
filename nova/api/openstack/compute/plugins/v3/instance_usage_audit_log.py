@@ -755,7 +755,7 @@ newline|'\n'
 DECL|variable|name
 name|'name'
 op|'='
-string|'"InstanceUsageAuditLog"'
+string|'"OSInstanceUsageAuditLog"'
 newline|'\n'
 DECL|variable|alias
 name|'alias'
