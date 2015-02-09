@@ -142,7 +142,7 @@ name|'mock'
 op|'.'
 name|'patch'
 op|'('
-string|"'nova.db.compute_node_get_all'"
+string|"'nova.objects.ComputeNodeList.get_all'"
 op|','
 nl|'\n'
 DECL|variable|return_value
@@ -675,7 +675,7 @@ name|'mock'
 op|'.'
 name|'patch'
 op|'('
-string|"'nova.db.compute_node_get_all'"
+string|"'nova.objects.ComputeNodeList.get_all'"
 op|','
 nl|'\n'
 name|'return_value'
@@ -860,7 +860,7 @@ name|'mock'
 op|'.'
 name|'patch'
 op|'('
-string|"'nova.db.compute_node_get_all'"
+string|"'nova.objects.ComputeNodeList.get_all'"
 op|','
 nl|'\n'
 name|'return_value'
@@ -1044,7 +1044,7 @@ name|'mock'
 op|'.'
 name|'patch'
 op|'('
-string|"'nova.db.compute_node_get_all'"
+string|"'nova.objects.ComputeNodeList.get_all'"
 op|','
 nl|'\n'
 name|'return_value'
@@ -1317,7 +1317,7 @@ name|'mock'
 op|'.'
 name|'patch'
 op|'('
-string|"'nova.db.compute_node_get_all'"
+string|"'nova.objects.ComputeNodeList.get_all'"
 op|','
 nl|'\n'
 name|'return_value'
