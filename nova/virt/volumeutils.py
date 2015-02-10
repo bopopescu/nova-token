@@ -78,7 +78,7 @@ op|':'
 newline|'\n'
 indent|'        '
 name|'return'
-name|'None'
+string|"''"
 newline|'\n'
 nl|'\n'
 dedent|''
@@ -124,6 +124,9 @@ op|')'
 newline|'\n'
 dedent|''
 dedent|''
+name|'return'
+string|"''"
+newline|'\n'
 dedent|''
 endmarker|''
 end_unit
