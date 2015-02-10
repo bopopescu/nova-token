@@ -916,6 +916,11 @@ nl|'\n'
 string|"'nova.virt.libvirt.volume.LibvirtGPFSVolumeDriver'"
 op|','
 nl|'\n'
+string|"'quobyte='"
+nl|'\n'
+string|"'nova.virt.libvirt.volume.LibvirtQuobyteVolumeDriver'"
+op|','
+nl|'\n'
 op|']'
 op|','
 nl|'\n'
