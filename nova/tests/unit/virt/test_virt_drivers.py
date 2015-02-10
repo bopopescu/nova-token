@@ -779,7 +779,7 @@ op|'.'
 name|'LibvirtDriver'
 op|','
 nl|'\n'
-string|"'_delete_instance_files'"
+string|"'delete_instance_files'"
 op|','
 nl|'\n'
 name|'fake_delete_instance_files'
