@@ -360,7 +360,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'A list of dmz range that should be accepted'"
+string|"'A list of dmz ranges that should be accepted'"
 op|')'
 op|','
 nl|'\n'
@@ -593,9 +593,9 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'Regular expression to match iptables rule that should '"
+string|"'Regular expression to match the iptables rule that '"
 nl|'\n'
-string|"'always be on the top.'"
+string|"'should always be on the top.'"
 op|')'
 op|','
 nl|'\n'
@@ -615,9 +615,9 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'Regular expression to match iptables rule that should '"
+string|"'Regular expression to match the iptables rule that '"
 nl|'\n'
-string|"'always be on the bottom.'"
+string|"'should always be on the bottom.'"
 op|')'
 op|','
 nl|'\n'
