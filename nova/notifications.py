@@ -257,7 +257,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""Decorator for notify which is used from utils.monkey_patch().\n\n        :param name: name of the function\n        :param function: - object of the function\n        :returns: function -- decorated function\n\n    """'
+string|'"""Decorator for notify which is used from utils.monkey_patch().\n\n        :param name: name of the function\n        :param fn: - object of the function\n        :returns: fn -- decorated function\n\n    """'
 newline|'\n'
 DECL|function|wrapped_func
 name|'def'
