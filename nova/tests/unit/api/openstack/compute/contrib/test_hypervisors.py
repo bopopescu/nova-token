@@ -1041,9 +1041,8 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v2/fake/os-hypervisors/statistics'"
+string|"''"
 op|','
-nl|'\n'
 name|'use_admin_context'
 op|'='
 name|'use_admin_context'
