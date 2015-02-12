@@ -31514,7 +31514,7 @@ name|'LOG'
 op|'.'
 name|'warn'
 op|'('
-name|'_'
+name|'_LW'
 op|'('
 string|"'Your libvirt version does not support the'"
 nl|'\n'
