@@ -186,6 +186,11 @@ name|'_METRIC_AGGR_CPU_AVG'
 op|'='
 string|"'Aggregated Average CPU Utilization'"
 newline|'\n'
+DECL|variable|_METRIC_AGGR_MEMORY_AVG
+name|'_METRIC_AGGR_MEMORY_AVG'
+op|'='
+string|"'Aggregated Average Memory Utilization'"
+newline|'\n'
 DECL|variable|_METRIC_ENABLED
 name|'_METRIC_ENABLED'
 op|'='
@@ -1662,6 +1667,11 @@ op|'['
 name|'self'
 op|'.'
 name|'_METRIC_AGGR_CPU_AVG'
+op|','
+nl|'\n'
+name|'self'
+op|'.'
+name|'_METRIC_AGGR_MEMORY_AVG'
 op|']'
 newline|'\n'
 nl|'\n'
