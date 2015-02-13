@@ -3848,11 +3848,11 @@ op|','
 nl|'\n'
 string|"'lxc:///'"
 op|','
-comment|'# from LibvirtDriver.uri()'
+comment|'# from LibvirtDriver._uri()'
 nl|'\n'
 string|"'xen:///'"
 op|','
-comment|'# from LibvirtDriver.uri()'
+comment|'# from LibvirtDriver._uri()'
 nl|'\n'
 string|"'uml:///system'"
 op|','
