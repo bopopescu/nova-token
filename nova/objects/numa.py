@@ -185,7 +185,7 @@ name|'obj_relationships'
 op|'='
 op|'{'
 nl|'\n'
-string|"'NUMAPagesTopology'"
+string|"'mempages'"
 op|':'
 op|'['
 op|'('
@@ -845,7 +845,7 @@ name|'obj_relationships'
 op|'='
 op|'{'
 nl|'\n'
-string|"'NUMACell'"
+string|"'cells'"
 op|':'
 op|'['
 op|'('
