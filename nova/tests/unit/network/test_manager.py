@@ -20137,7 +20137,7 @@ name|'mock'
 op|'.'
 name|'patch'
 op|'('
-string|"'nova.db.service_get_by_host_and_topic'"
+string|"'nova.db.service_get_by_host_and_binary'"
 op|')'
 newline|'\n'
 op|'@'
