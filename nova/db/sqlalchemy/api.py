@@ -9512,6 +9512,11 @@ op|':'
 name|'None'
 op|','
 nl|'\n'
+string|"'vcpu_model'"
+op|':'
+name|'None'
+op|','
+nl|'\n'
 op|'}'
 op|')'
 newline|'\n'
@@ -15150,6 +15155,8 @@ op|','
 string|"'pci_requests'"
 op|','
 string|"'flavor'"
+op|','
+string|"'vcpu_model'"
 op|']'
 newline|'\n'
 dedent|''

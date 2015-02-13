@@ -392,6 +392,13 @@ nl|'\n'
 string|"'numa_topology'"
 op|':'
 name|'None'
+op|','
+nl|'\n'
+string|"'vcpu_model'"
+op|':'
+name|'None'
+op|','
+nl|'\n'
 op|'}'
 op|','
 nl|'\n'
