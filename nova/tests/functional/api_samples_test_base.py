@@ -1858,7 +1858,7 @@ newline|'\n'
 indent|'            '
 name|'headers'
 op|'['
-string|"'X-OpenStack-Compute-API-Version'"
+string|"'X-OpenStack-Nova-API-Version'"
 op|']'
 op|'='
 name|'api_version'

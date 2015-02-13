@@ -242,7 +242,7 @@ nl|'\n'
 DECL|variable|API_VERSION_REQUEST_HEADER
 name|'API_VERSION_REQUEST_HEADER'
 op|'='
-string|"'X-OpenStack-Compute-API-Version'"
+string|"'X-OpenStack-Nova-API-Version'"
 newline|'\n'
 nl|'\n'
 nl|'\n'
