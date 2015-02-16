@@ -5985,7 +5985,7 @@ name|'self'
 op|'.'
 name|'_verify_response'
 op|'('
-string|"'floating-ips-create-resp'"
+string|"'floating-ips-get-resp'"
 op|','
 name|'subs'
 op|','
