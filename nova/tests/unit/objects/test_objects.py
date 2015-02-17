@@ -9579,14 +9579,6 @@ string|"'1.0'"
 op|'}'
 op|','
 nl|'\n'
-string|"'TestSubclassedObject'"
-op|':'
-op|'{'
-string|"'MyOwnedObject'"
-op|':'
-string|"'1.0'"
-op|'}'
-nl|'\n'
 op|'}'
 newline|'\n'
 nl|'\n'
