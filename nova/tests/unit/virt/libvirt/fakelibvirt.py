@@ -215,6 +215,8 @@ op|'='
 number|'6'
 newline|'\n'
 nl|'\n'
+comment|'# NOTE(mriedem): These values come from include/libvirt/libvirt-domain.h'
+nl|'\n'
 DECL|variable|VIR_DOMAIN_XML_SECURE
 name|'VIR_DOMAIN_XML_SECURE'
 op|'='
@@ -224,6 +226,16 @@ DECL|variable|VIR_DOMAIN_XML_INACTIVE
 name|'VIR_DOMAIN_XML_INACTIVE'
 op|'='
 number|'2'
+newline|'\n'
+DECL|variable|VIR_DOMAIN_XML_UPDATE_CPU
+name|'VIR_DOMAIN_XML_UPDATE_CPU'
+op|'='
+number|'4'
+newline|'\n'
+DECL|variable|VIR_DOMAIN_XML_MIGRATABLE
+name|'VIR_DOMAIN_XML_MIGRATABLE'
+op|'='
+number|'8'
 newline|'\n'
 nl|'\n'
 DECL|variable|VIR_DOMAIN_BLOCK_REBASE_SHALLOW
