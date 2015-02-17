@@ -146,6 +146,11 @@ name|'VIF_TYPE_MIDONET'
 op|'='
 string|"'midonet'"
 newline|'\n'
+DECL|variable|VIF_TYPE_VHOSTUSER
+name|'VIF_TYPE_VHOSTUSER'
+op|'='
+string|"'vhostuser'"
+newline|'\n'
 DECL|variable|VIF_TYPE_OTHER
 name|'VIF_TYPE_OTHER'
 op|'='
@@ -187,6 +192,25 @@ DECL|variable|VIF_DETAILS_VLAN
 name|'VIF_DETAILS_VLAN'
 op|'='
 string|"'vlan'"
+newline|'\n'
+nl|'\n'
+comment|"# Constants for vhost-user related fields in 'vif_details'."
+nl|'\n'
+comment|"# Sets mode on vhost-user socket, valid values are 'client'"
+nl|'\n'
+comment|"# and 'server'"
+nl|'\n'
+DECL|variable|VIF_DETAILS_VHOSTUSER_MODE
+name|'VIF_DETAILS_VHOSTUSER_MODE'
+op|'='
+string|"'vhostuser_mode'"
+newline|'\n'
+comment|'# Location of the directory to store vhost-user sockets'
+nl|'\n'
+DECL|variable|VIF_DETAILS_VHOSTUSER_DIR
+name|'VIF_DETAILS_VHOSTUSER_DIR'
+op|'='
+string|"'vhostuser_sock_dir'"
 newline|'\n'
 nl|'\n'
 comment|'# Define supported virtual NIC types. VNIC_TYPE_DIRECT and VNIC_TYPE_MACVTAP'
