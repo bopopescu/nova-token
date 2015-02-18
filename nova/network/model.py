@@ -151,6 +151,11 @@ name|'VIF_TYPE_VHOSTUSER'
 op|'='
 string|"'vhostuser'"
 newline|'\n'
+DECL|variable|VIF_TYPE_VROUTER
+name|'VIF_TYPE_VROUTER'
+op|'='
+string|"'vrouter'"
+newline|'\n'
 DECL|variable|VIF_TYPE_OTHER
 name|'VIF_TYPE_OTHER'
 op|'='
