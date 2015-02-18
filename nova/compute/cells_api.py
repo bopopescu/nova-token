@@ -1237,10 +1237,10 @@ name|'kwargs'
 op|')'
 newline|'\n'
 nl|'\n'
-DECL|member|_update_block_device_mapping
+DECL|member|_create_block_device_mapping
 dedent|''
 name|'def'
-name|'_update_block_device_mapping'
+name|'_create_block_device_mapping'
 op|'('
 name|'self'
 op|','
