@@ -210,12 +210,21 @@ name|'VIF_DETAILS_VHOSTUSER_MODE'
 op|'='
 string|"'vhostuser_mode'"
 newline|'\n'
-comment|'# Location of the directory to store vhost-user sockets'
+comment|'# vhost-user socket path'
 nl|'\n'
-DECL|variable|VIF_DETAILS_VHOSTUSER_DIR
-name|'VIF_DETAILS_VHOSTUSER_DIR'
+DECL|variable|VIF_DETAILS_VHOSTUSER_SOCKET
+name|'VIF_DETAILS_VHOSTUSER_SOCKET'
 op|'='
-string|"'vhostuser_sock_dir'"
+string|"'vhostuser_socket'"
+newline|'\n'
+comment|'# Specifies whether vhost-user socket should be plugged'
+nl|'\n'
+comment|'# into ovs bridge. Valid values are True and False'
+nl|'\n'
+DECL|variable|VIF_DETAILS_VHOSTUSER_OVS_PLUG
+name|'VIF_DETAILS_VHOSTUSER_OVS_PLUG'
+op|'='
+string|"'vhostuser_ovs_plug'"
 newline|'\n'
 nl|'\n'
 comment|'# Define supported virtual NIC types. VNIC_TYPE_DIRECT and VNIC_TYPE_MACVTAP'
