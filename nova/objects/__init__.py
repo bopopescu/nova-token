@@ -226,6 +226,11 @@ op|')'
 newline|'\n'
 name|'__import__'
 op|'('
+string|"'nova.objects.task_log'"
+op|')'
+newline|'\n'
+name|'__import__'
+op|'('
 string|"'nova.objects.vcpu_model'"
 op|')'
 newline|'\n'
