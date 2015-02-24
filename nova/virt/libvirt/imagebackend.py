@@ -211,14 +211,30 @@ op|'='
 string|"'default'"
 op|','
 nl|'\n'
+DECL|variable|choices
+name|'choices'
+op|'='
+op|'('
+string|"'raw'"
+op|','
+string|"'qcow2'"
+op|','
+string|"'lvm'"
+op|','
+string|"'rbd'"
+op|','
+string|"'ploop'"
+op|','
+string|"'default'"
+op|')'
+op|','
+nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'VM Images format. Acceptable values are: raw, qcow2, lvm,'"
+string|"'VM Images format. If default is specified, then'"
 nl|'\n'
-string|"' rbd, default. If default is specified,'"
-nl|'\n'
-string|"' then use_cow_images flag is used instead of this one.'"
+string|"' use_cow_images flag is used instead of this one.'"
 op|')'
 op|','
 nl|'\n'
@@ -308,14 +324,24 @@ op|'('
 string|"'hw_disk_discard'"
 op|','
 nl|'\n'
+DECL|variable|choices
+name|'choices'
+op|'='
+op|'('
+string|"'ignore'"
+op|','
+string|"'unmap'"
+op|')'
+op|','
+nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'Discard option for nova managed disks (valid options '"
+string|"'Discard option for nova managed disks. Need'"
 nl|'\n'
-string|"'are: ignore, unmap). Need Libvirt(1.0.6) Qemu1.5 '"
+string|"' Libvirt(1.0.6) Qemu1.5 (raw format) Qemu1.6(qcow2'"
 nl|'\n'
-string|"'(raw format) Qemu1.6(qcow2 format)'"
+string|"' format)'"
 op|')'
 op|','
 nl|'\n'
@@ -546,14 +572,11 @@ name|'self'
 op|'.'
 name|'discard_mode'
 op|'='
-name|'get_hw_disk_discard'
-op|'('
 name|'CONF'
 op|'.'
 name|'libvirt'
 op|'.'
 name|'hw_disk_discard'
-op|')'
 newline|'\n'
 name|'self'
 op|'.'
@@ -4285,15 +4308,11 @@ name|'self'
 op|'.'
 name|'discard_mode'
 op|'='
-name|'get_hw_disk_discard'
-op|'('
-nl|'\n'
 name|'CONF'
 op|'.'
 name|'libvirt'
 op|'.'
 name|'hw_disk_discard'
-op|')'
 newline|'\n'
 name|'self'
 op|'.'
@@ -5728,50 +5747,7 @@ op|'='
 name|'disk_path'
 op|')'
 newline|'\n'
-nl|'\n'
-nl|'\n'
-DECL|function|get_hw_disk_discard
 dedent|''
-dedent|''
-name|'def'
-name|'get_hw_disk_discard'
-op|'('
-name|'hw_disk_discard'
-op|')'
-op|':'
-newline|'\n'
-indent|'    '
-string|'"""Check valid and get hw_disk_discard value from Conf.\n    """'
-newline|'\n'
-name|'if'
-name|'hw_disk_discard'
-name|'and'
-name|'hw_disk_discard'
-name|'not'
-name|'in'
-op|'('
-string|"'unmap'"
-op|','
-string|"'ignore'"
-op|')'
-op|':'
-newline|'\n'
-indent|'        '
-name|'raise'
-name|'RuntimeError'
-op|'('
-name|'_'
-op|'('
-string|"'Unknown hw_disk_discard=%s'"
-op|')'
-op|'%'
-name|'hw_disk_discard'
-op|')'
-newline|'\n'
-dedent|''
-name|'return'
-name|'hw_disk_discard'
-newline|'\n'
 dedent|''
 endmarker|''
 end_unit

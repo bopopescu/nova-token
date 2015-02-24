@@ -122,10 +122,20 @@ op|'='
 string|"'iso9660'"
 op|','
 nl|'\n'
+DECL|variable|choices
+name|'choices'
+op|'='
+op|'('
+string|"'iso9660'"
+op|','
+string|"'vfat'"
+op|')'
+op|','
+nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'Config drive format. One of iso9660 (default) or vfat'"
+string|"'Config drive format.'"
 op|')'
 op|','
 nl|'\n'

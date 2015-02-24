@@ -310,6 +310,18 @@ op|'='
 string|"'all'"
 op|','
 nl|'\n'
+DECL|variable|choices
+name|'choices'
+op|'='
+op|'('
+string|"'all'"
+op|','
+string|"'some'"
+op|','
+string|"'none'"
+op|')'
+op|','
+nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
@@ -499,12 +511,22 @@ op|'='
 string|"'none'"
 op|','
 nl|'\n'
+DECL|variable|choices
+name|'choices'
+op|'='
+op|'('
+string|"'all'"
+op|','
+string|"'some'"
+op|','
+string|"'none'"
+op|')'
+op|','
+nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'Whether or not to download images via Bit Torrent '"
-nl|'\n'
-string|"'(all|some|none).'"
+string|"'Whether or not to download images via Bit Torrent.'"
 op|')'
 op|','
 nl|'\n'
