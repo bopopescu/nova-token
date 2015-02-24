@@ -1158,7 +1158,7 @@ op|'.'
 name|'headers'
 op|'='
 op|'{'
-string|"'X-OpenStack-Compute-API-Version'"
+string|"'X-OpenStack-Nova-API-Version'"
 op|':'
 string|"'2.14'"
 op|'}'
@@ -1235,7 +1235,7 @@ op|'.'
 name|'headers'
 op|'='
 op|'{'
-string|"'X-OpenStack-Compute-API-Version'"
+string|"'X-OpenStack-Nova-API-Version'"
 op|':'
 string|"'latest'"
 op|'}'
@@ -1290,7 +1290,7 @@ op|'.'
 name|'headers'
 op|'='
 op|'{'
-string|"'X-OpenStack-Compute-API-Version'"
+string|"'X-OpenStack-Nova-API-Version'"
 op|':'
 string|"'2.1.3'"
 op|'}'
@@ -2189,7 +2189,7 @@ op|'.'
 name|'headers'
 op|'='
 op|'{'
-string|"'X-OpenStack-Compute-API-Version'"
+string|"'X-OpenStack-Nova-API-Version'"
 op|':'
 name|'version'
 op|'}'
@@ -2294,7 +2294,7 @@ op|'.'
 name|'headers'
 op|'='
 op|'{'
-string|"'X-OpenStack-Compute-API-Version'"
+string|"'X-OpenStack-Nova-API-Version'"
 op|':'
 name|'invalid_version'
 op|'}'
