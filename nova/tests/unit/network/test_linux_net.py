@@ -514,7 +514,7 @@ op|','
 nl|'\n'
 string|"'dhcp_server'"
 op|':'
-string|"'0.0.0.0'"
+string|"'192.168.0.1'"
 op|','
 nl|'\n'
 string|"'dhcp_start'"
@@ -545,11 +545,6 @@ nl|'\n'
 string|"'mtu'"
 op|':'
 name|'None'
-op|','
-nl|'\n'
-string|"'dhcp_server'"
-op|':'
-string|"'192.168.0.1'"
 op|','
 nl|'\n'
 string|"'enable_dhcp'"
@@ -646,7 +641,7 @@ op|','
 nl|'\n'
 string|"'dhcp_server'"
 op|':'
-string|"'0.0.0.0'"
+string|"'192.168.1.1'"
 op|','
 nl|'\n'
 string|"'dhcp_start'"
@@ -677,11 +672,6 @@ nl|'\n'
 string|"'mtu'"
 op|':'
 name|'None'
-op|','
-nl|'\n'
-string|"'dhcp_server'"
-op|':'
-string|"'192.168.1.1'"
 op|','
 nl|'\n'
 string|"'enable_dhcp'"
@@ -778,7 +768,7 @@ op|','
 nl|'\n'
 string|"'dhcp_server'"
 op|':'
-string|"'0.0.0.0'"
+string|"'192.168.2.1'"
 op|','
 nl|'\n'
 string|"'dhcp_start'"
@@ -809,11 +799,6 @@ nl|'\n'
 string|"'mtu'"
 op|':'
 name|'None'
-op|','
-nl|'\n'
-string|"'dhcp_server'"
-op|':'
-string|"'192.168.2.1'"
 op|','
 nl|'\n'
 string|"'enable_dhcp'"
