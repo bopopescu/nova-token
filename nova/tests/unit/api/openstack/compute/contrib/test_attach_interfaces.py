@@ -1155,10 +1155,10 @@ name|'result'
 op|')'
 newline|'\n'
 nl|'\n'
-DECL|member|test_show_invalid
+DECL|member|test_show_with_port_not_found
 dedent|''
 name|'def'
-name|'test_show_invalid'
+name|'test_show_with_port_not_found'
 op|'('
 name|'self'
 op|')'
