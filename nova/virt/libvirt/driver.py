@@ -20851,7 +20851,7 @@ comment|"# or we can't find a single cell to acomodate the instance"
 nl|'\n'
 comment|'# TODO(ndipanov): Attempt to spread the instance'
 nl|'\n'
-comment|'# accross NUMA nodes and expose the topology to the'
+comment|'# across NUMA nodes and expose the topology to the'
 nl|'\n'
 comment|'# instance as an optimisation'
 nl|'\n'
