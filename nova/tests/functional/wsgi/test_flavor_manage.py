@@ -119,6 +119,8 @@ op|'('
 number|'2'
 op|')'
 op|')'
+op|'+'
+number|'1'
 op|','
 nl|'\n'
 string|"'disk'"
