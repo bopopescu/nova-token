@@ -125,6 +125,12 @@ name|'instance'
 op|')'
 op|':'
 newline|'\n'
+comment|"# Note(gmann): Removed 'locked_by' from extended status"
+nl|'\n'
+comment|'# to make it same as V2. If needed it can be added with'
+nl|'\n'
+comment|'# microversion.'
+nl|'\n'
 indent|'        '
 name|'for'
 name|'state'
@@ -135,8 +141,6 @@ op|','
 string|"'vm_state'"
 op|','
 string|"'power_state'"
-op|','
-string|"'locked_by'"
 op|']'
 op|':'
 newline|'\n'
