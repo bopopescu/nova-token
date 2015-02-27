@@ -77,8 +77,13 @@ name|'ApiSampleTestBaseV3'
 op|')'
 op|':'
 newline|'\n'
-DECL|variable|extension_name
+DECL|variable|ADMIN_API
 indent|'    '
+name|'ADMIN_API'
+op|'='
+name|'True'
+newline|'\n'
+DECL|variable|extension_name
 name|'extension_name'
 op|'='
 string|'"os-networks"'

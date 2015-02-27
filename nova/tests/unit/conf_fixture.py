@@ -347,7 +347,7 @@ name|'set_default'
 op|'('
 string|"'auth_strategy'"
 op|','
-string|"'noauth'"
+string|"'noauth2'"
 op|')'
 newline|'\n'
 name|'config'
