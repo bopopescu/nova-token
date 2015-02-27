@@ -371,6 +371,32 @@ string|"'https://bugs.launchpad.net/nova/+bug/1334398'"
 op|')'
 op|','
 nl|'\n'
+name|'cfg'
+op|'.'
+name|'BoolOpt'
+op|'('
+string|"'destroy_after_evacuate'"
+op|','
+nl|'\n'
+DECL|variable|default
+name|'default'
+op|'='
+name|'True'
+op|','
+nl|'\n'
+DECL|variable|help
+name|'help'
+op|'='
+string|"'Whether to destroy instances on startup when we suspect '"
+nl|'\n'
+string|"'they have previously been evacuated. This can result in '"
+nl|'\n'
+string|"'data loss if undesired. See '"
+nl|'\n'
+string|"'https://launchpad.net/bugs/1419785'"
+op|')'
+op|','
+nl|'\n'
 op|']'
 newline|'\n'
 DECL|variable|CONF
