@@ -1325,19 +1325,12 @@ name|'error'
 op|'('
 name|'_LE'
 op|'('
-string|"'Unable to preallocate_images=%(imgs)s at path: '"
+string|"'Unable to preallocate image at path: '"
 nl|'\n'
 string|"'%(path)s'"
 op|')'
 op|','
 op|'{'
-string|"'imgs'"
-op|':'
-name|'CONF'
-op|'.'
-name|'preallocate_images'
-op|','
-nl|'\n'
 string|"'path'"
 op|':'
 name|'self'
