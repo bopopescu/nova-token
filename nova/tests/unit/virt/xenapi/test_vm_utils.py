@@ -17298,7 +17298,7 @@ newline|'\n'
 nl|'\n'
 name|'self'
 op|'.'
-name|'assertEqual'
+name|'assertJsonEqual'
 op|'('
 op|'['
 string|"'uuid-child'"
