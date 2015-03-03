@@ -5485,7 +5485,7 @@ newline|'\n'
 indent|'        '
 name|'msg'
 op|'='
-name|'_'
+name|'_LW'
 op|'('
 string|"'Attempted auto_configure_disk failed because: %s'"
 op|')'
