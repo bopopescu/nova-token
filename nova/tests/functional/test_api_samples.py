@@ -1076,8 +1076,14 @@ name|'ApiSampleTestBaseV2'
 op|')'
 op|':'
 newline|'\n'
-DECL|member|test_versions_get
+DECL|variable|sample_dir
 indent|'    '
+name|'sample_dir'
+op|'='
+string|"'versions'"
+newline|'\n'
+nl|'\n'
+DECL|member|test_versions_get
 name|'def'
 name|'test_versions_get'
 op|'('
@@ -1269,8 +1275,14 @@ name|'ServersSampleBase'
 op|')'
 op|':'
 newline|'\n'
-DECL|member|test_servers_post
+DECL|variable|sample_dir
 indent|'    '
+name|'sample_dir'
+op|'='
+string|"'servers'"
+newline|'\n'
+nl|'\n'
+DECL|member|test_servers_post
 name|'def'
 name|'test_servers_post'
 op|'('
@@ -1527,8 +1539,13 @@ name|'ServersSampleJsonTest'
 op|')'
 op|':'
 newline|'\n'
-DECL|variable|extension_name
+DECL|variable|sample_dir
 indent|'    '
+name|'sample_dir'
+op|'='
+name|'None'
+newline|'\n'
+DECL|variable|extension_name
 name|'extension_name'
 op|'='
 string|"'.'"
@@ -1643,8 +1660,14 @@ name|'ServersSampleBase'
 op|')'
 op|':'
 newline|'\n'
-DECL|member|_create_and_set
+DECL|variable|sample_dir
 indent|'    '
+name|'sample_dir'
+op|'='
+string|"'servers'"
+newline|'\n'
+nl|'\n'
+DECL|member|_create_and_set
 name|'def'
 name|'_create_and_set'
 op|'('
@@ -2066,8 +2089,14 @@ name|'ServersSampleBase'
 op|')'
 op|':'
 newline|'\n'
-DECL|member|test_get
+DECL|variable|sample_dir
 indent|'    '
+name|'sample_dir'
+op|'='
+string|"'servers'"
+newline|'\n'
+nl|'\n'
+DECL|member|test_get
 name|'def'
 name|'test_get'
 op|'('
@@ -2241,9 +2270,14 @@ name|'ApiSampleTestBaseV2'
 op|')'
 op|':'
 newline|'\n'
+DECL|variable|sample_dir
+indent|'    '
+name|'sample_dir'
+op|'='
+string|"'flavors'"
+newline|'\n'
 nl|'\n'
 DECL|member|test_flavors_get
-indent|'    '
 name|'def'
 name|'test_flavors_get'
 op|'('
@@ -2656,8 +2690,14 @@ name|'ApiSampleTestBaseV2'
 op|')'
 op|':'
 newline|'\n'
-DECL|member|test_images_list
+DECL|variable|sample_dir
 indent|'    '
+name|'sample_dir'
+op|'='
+string|"'images'"
+newline|'\n'
+nl|'\n'
+DECL|member|test_images_list
 name|'def'
 name|'test_images_list'
 op|'('
@@ -3120,8 +3160,14 @@ name|'ApiSampleTestBaseV2'
 op|')'
 op|':'
 newline|'\n'
-DECL|member|test_limits_get
+DECL|variable|sample_dir
 indent|'    '
+name|'sample_dir'
+op|'='
+string|"'limits'"
+newline|'\n'
+nl|'\n'
+DECL|member|test_limits_get
 name|'def'
 name|'test_limits_get'
 op|'('
@@ -3172,8 +3218,14 @@ name|'ServersSampleBase'
 op|')'
 op|':'
 newline|'\n'
-DECL|member|_test_server_action
+DECL|variable|sample_dir
 indent|'    '
+name|'sample_dir'
+op|'='
+string|"'servers'"
+newline|'\n'
+nl|'\n'
+DECL|member|_test_server_action
 name|'def'
 name|'_test_server_action'
 op|'('
@@ -26845,8 +26897,13 @@ name|'LimitsSampleJsonTest'
 op|')'
 op|':'
 newline|'\n'
-DECL|variable|extension_name
+DECL|variable|sample_dir
 indent|'    '
+name|'sample_dir'
+op|'='
+name|'None'
+newline|'\n'
+DECL|variable|extension_name
 name|'extension_name'
 op|'='
 op|'('
