@@ -3394,9 +3394,8 @@ string|"'%s_%s'"
 op|'%'
 op|'('
 name|'instance'
-op|'['
-string|"'uuid'"
-op|']'
+op|'.'
+name|'uuid'
 op|','
 nl|'\n'
 name|'self'
@@ -4228,9 +4227,8 @@ string|"'%s_%s'"
 op|'%'
 op|'('
 name|'instance'
-op|'['
-string|"'uuid'"
-op|']'
+op|'.'
+name|'uuid'
 op|','
 name|'disk_name'
 op|')'
