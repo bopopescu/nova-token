@@ -141,6 +141,11 @@ op|')'
 newline|'\n'
 name|'__import__'
 op|'('
+string|"'nova.objects.instance_mapping'"
+op|')'
+newline|'\n'
+name|'__import__'
+op|'('
 string|"'nova.objects.instance_numa_topology'"
 op|')'
 newline|'\n'

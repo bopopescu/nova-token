@@ -9487,6 +9487,16 @@ op|':'
 string|"'1.16-8594a8f95e717e57ee57b4aba59c688e'"
 op|','
 nl|'\n'
+string|"'InstanceMapping'"
+op|':'
+string|"'1.0-d7cfc251f16c93df612af2b9de59e5b7'"
+op|','
+nl|'\n'
+string|"'InstanceMappingList'"
+op|':'
+string|"'1.0-3523d501c591640b483c5c1971ef9fd0'"
+op|','
+nl|'\n'
 string|"'InstanceNUMACell'"
 op|':'
 string|"'1.2-5d2dfa36e9ecca9b63f24bf3bc958ea4'"
