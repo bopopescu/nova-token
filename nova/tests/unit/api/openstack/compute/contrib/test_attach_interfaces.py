@@ -2840,13 +2840,6 @@ name|'exc'
 op|'.'
 name|'HTTPBadRequest'
 newline|'\n'
-DECL|variable|not_found_exc
-name|'not_found_exc'
-op|'='
-name|'exc'
-op|'.'
-name|'HTTPBadRequest'
-newline|'\n'
 nl|'\n'
 DECL|member|test_attach_interface_instance_with_non_uuid_net_id
 name|'def'
