@@ -1720,6 +1720,11 @@ nl|'\n'
 string|"'(\\.\\d{6})?(\\+00:00)?'"
 op|')'
 newline|'\n'
+nl|'\n'
+comment|'# NOTE(claudiub): the x509 keypairs are different from the'
+nl|'\n'
+comment|'# ssh keypairs. For example, the x509 fingerprint has 40 bytes.'
+nl|'\n'
 name|'return'
 op|'{'
 nl|'\n'
@@ -1781,23 +1786,27 @@ op|','
 nl|'\n'
 string|"'private_key'"
 op|':'
-string|"'-----BEGIN RSA PRIVATE KEY-----'"
+string|"'(-----BEGIN RSA PRIVATE KEY-----|)'"
 nl|'\n'
 string|"'[a-zA-Z0-9\\n/+=]*'"
 nl|'\n'
-string|"'-----END RSA PRIVATE KEY-----'"
+string|"'(-----END RSA PRIVATE KEY-----|)'"
 op|','
 nl|'\n'
 string|"'public_key'"
 op|':'
-string|"'ssh-rsa[ a-zA-Z0-9/+=]*'"
+string|"'(ssh-rsa|-----BEGIN CERTIFICATE-----)'"
 nl|'\n'
-string|"'Generated-by-Nova'"
+string|"'[ a-zA-Z0-9\\n/+=]*'"
+nl|'\n'
+string|"'(Generated-by-Nova|-----END CERTIFICATE-----)'"
 op|','
 nl|'\n'
 string|"'fingerprint'"
 op|':'
-string|"'([0-9a-f]{2}:){15}[0-9a-f]{2}'"
+string|"'(([0-9a-f]{2}:){19}|([0-9a-f]{2}:){15})'"
+nl|'\n'
+string|"'[0-9a-f]{2}'"
 op|','
 nl|'\n'
 string|"'keypair_type'"
