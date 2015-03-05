@@ -1752,6 +1752,11 @@ op|':'
 string|"'([0-9a-f]{2}:){15}[0-9a-f]{2}'"
 op|','
 nl|'\n'
+string|"'keypair_type'"
+op|':'
+string|"'ssh|x509'"
+op|','
+nl|'\n'
 string|"'host'"
 op|':'
 name|'self'
