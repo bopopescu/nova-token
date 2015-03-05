@@ -150,6 +150,12 @@ op|','
 name|'topic'
 op|'='
 string|"'compute'"
+op|','
+nl|'\n'
+DECL|variable|binary
+name|'binary'
+op|'='
+string|"'nova-compute'"
 op|')'
 op|','
 nl|'\n'
@@ -164,6 +170,12 @@ op|','
 name|'topic'
 op|'='
 string|"'compute'"
+op|','
+nl|'\n'
+DECL|variable|binary
+name|'binary'
+op|'='
+string|"'nova-compute'"
 op|')'
 op|']'
 newline|'\n'
