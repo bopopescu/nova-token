@@ -1034,10 +1034,10 @@ number|'0'
 op|']'
 newline|'\n'
 nl|'\n'
-DECL|member|service_get_by_args
+DECL|member|service_get_by_host_and_binary
 dedent|''
 name|'def'
-name|'service_get_by_args'
+name|'service_get_by_host_and_binary'
 op|'('
 name|'self'
 op|','

@@ -3944,7 +3944,7 @@ name|'self'
 op|'.'
 name|'_test_stubbed'
 op|'('
-string|"'service_get_by_args'"
+string|"'service_get_by_host_and_binary'"
 op|','
 nl|'\n'
 op|'('
@@ -4037,7 +4037,7 @@ name|'self'
 op|'.'
 name|'_test_stubbed'
 op|'('
-string|"'service_get_by_args'"
+string|"'service_get_by_host_and_binary'"
 op|','
 nl|'\n'
 op|'('
@@ -6656,7 +6656,7 @@ name|'self'
 op|'.'
 name|'_test_stubbed'
 op|'('
-string|"'service_get_by_args'"
+string|"'service_get_by_host_and_binary'"
 op|','
 nl|'\n'
 op|'('
@@ -6749,7 +6749,7 @@ name|'self'
 op|'.'
 name|'_test_stubbed'
 op|'('
-string|"'service_get_by_args'"
+string|"'service_get_by_host_and_binary'"
 op|','
 nl|'\n'
 op|'('
@@ -7543,6 +7543,7 @@ name|'kwargs'
 op|')'
 op|':'
 newline|'\n'
+nl|'\n'
 indent|'        '
 name|'if'
 name|'args'
@@ -7887,7 +7888,7 @@ name|'self'
 op|'.'
 name|'_test_stubbed'
 op|'('
-string|"'service_get_by_args'"
+string|"'service_get_by_host_and_binary'"
 op|','
 string|"'host'"
 op|','
@@ -7941,7 +7942,7 @@ name|'self'
 op|'.'
 name|'_test_stubbed'
 op|'('
-string|"'service_get_by_args'"
+string|"'service_get_by_host_and_binary'"
 op|','
 string|"'host'"
 op|','
