@@ -66,6 +66,11 @@ name|'KEYPAIR_TYPE_SSH'
 op|'='
 string|"'ssh'"
 newline|'\n'
+DECL|variable|KEYPAIR_TYPE_X509
+name|'KEYPAIR_TYPE_X509'
+op|'='
+string|"'x509'"
+newline|'\n'
 nl|'\n'
 nl|'\n'
 comment|'# TODO(berrange): Remove NovaObjectDictCompat'
