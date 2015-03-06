@@ -216,7 +216,7 @@ op|'('
 op|')'
 op|')'
 op|'.'
-name|'api'
+name|'admin_api'
 newline|'\n'
 nl|'\n'
 DECL|member|assertFlavorDbEqual
