@@ -10158,7 +10158,7 @@ name|'Set'
 op|'('
 name|'db'
 op|','
-string|'"service_get_by_args"'
+string|'"service_get_by_host_and_binary"'
 op|','
 nl|'\n'
 name|'test_services'
@@ -10673,7 +10673,7 @@ name|'object'
 op|'('
 name|'db'
 op|','
-string|"'service_get_by_args'"
+string|"'service_get_by_host_and_binary'"
 op|','
 nl|'\n'
 DECL|variable|side_effect
