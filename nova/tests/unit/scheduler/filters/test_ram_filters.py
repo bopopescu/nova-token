@@ -328,7 +328,7 @@ name|'mock'
 op|'.'
 name|'patch'
 op|'('
-string|"'nova.scheduler.filters.utils.aggregate_values_from_db'"
+string|"'nova.scheduler.filters.utils.aggregate_values_from_key'"
 op|')'
 newline|'\n'
 DECL|class|TestAggregateRamFilter

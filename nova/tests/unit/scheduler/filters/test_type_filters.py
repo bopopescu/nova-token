@@ -210,7 +210,7 @@ name|'mock'
 op|'.'
 name|'patch'
 op|'('
-string|"'nova.scheduler.filters.utils.aggregate_values_from_db'"
+string|"'nova.scheduler.filters.utils.aggregate_values_from_key'"
 op|')'
 newline|'\n'
 DECL|member|test_aggregate_type_filter
@@ -324,15 +324,8 @@ name|'agg_mock'
 op|'.'
 name|'assert_called_once_with'
 op|'('
-name|'mock'
-op|'.'
-name|'sentinel'
-op|'.'
-name|'ctx'
+name|'host'
 op|','
-string|"'fake_host'"
-op|','
-nl|'\n'
 string|"'instance_type'"
 op|')'
 newline|'\n'
