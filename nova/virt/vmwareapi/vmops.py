@@ -11290,8 +11290,6 @@ nl|'\n'
 string|"'error'"
 op|':'
 name|'e'
-op|'.'
-name|'message'
 op|'}'
 op|')'
 newline|'\n'
