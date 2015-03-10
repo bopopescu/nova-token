@@ -9524,12 +9524,12 @@ op|','
 nl|'\n'
 string|"'KeyPair'"
 op|':'
-string|"'1.2-b476e480f85d307711c89d0aa78b3a3f'"
+string|"'1.3-2d7c9ccade5532f7cd185110a9367e6a'"
 op|','
 nl|'\n'
 string|"'KeyPairList'"
 op|':'
-string|"'1.1-152dc1efcc46014cc10656a0d0ac5bb0'"
+string|"'1.2-1f84680a0a533374db8a9fac7bd7bbc7'"
 op|','
 nl|'\n'
 string|"'Migration'"
