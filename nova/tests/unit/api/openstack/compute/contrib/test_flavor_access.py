@@ -786,7 +786,7 @@ newline|'\n'
 DECL|variable|_prefix
 name|'_prefix'
 op|'='
-string|'"/v3"'
+string|'"/v2/fake"'
 newline|'\n'
 DECL|variable|validation_ex
 name|'validation_ex'
@@ -1124,7 +1124,7 @@ name|'self'
 op|'.'
 name|'_prefix'
 op|'+'
-string|"'/fake/flavors'"
+string|"'/flavors'"
 op|','
 nl|'\n'
 name|'use_admin_context'
@@ -2798,11 +2798,6 @@ op|'='
 name|'flavor_access_v2'
 op|'.'
 name|'FlavorActionController'
-newline|'\n'
-DECL|variable|_prefix
-name|'_prefix'
-op|'='
-string|'"/v2/fake"'
 newline|'\n'
 DECL|variable|validation_ex
 name|'validation_ex'
