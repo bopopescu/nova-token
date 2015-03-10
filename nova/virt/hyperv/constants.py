@@ -46,6 +46,11 @@ name|'import'
 name|'power_state'
 newline|'\n'
 nl|'\n'
+DECL|variable|HYPERV_VM_STATE_OTHER
+name|'HYPERV_VM_STATE_OTHER'
+op|'='
+number|'1'
+newline|'\n'
 DECL|variable|HYPERV_VM_STATE_ENABLED
 name|'HYPERV_VM_STATE_ENABLED'
 op|'='
