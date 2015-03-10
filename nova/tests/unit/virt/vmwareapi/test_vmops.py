@@ -2979,7 +2979,7 @@ name|'patch'
 op|'.'
 name|'object'
 op|'('
-name|'ds_util'
+name|'ds_obj'
 op|','
 string|"'get_datastore_by_ref'"
 op|')'
