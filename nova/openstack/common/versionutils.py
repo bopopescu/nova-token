@@ -195,6 +195,11 @@ name|'KILO'
 op|'='
 string|"'K'"
 newline|'\n'
+DECL|variable|LIBERTY
+name|'LIBERTY'
+op|'='
+string|"'L'"
+newline|'\n'
 nl|'\n'
 DECL|variable|_RELEASES
 name|'_RELEASES'
@@ -238,6 +243,11 @@ nl|'\n'
 string|"'K'"
 op|':'
 string|"'Kilo'"
+op|','
+nl|'\n'
+string|"'L'"
+op|':'
+string|"'Liberty'"
 op|','
 nl|'\n'
 op|'}'

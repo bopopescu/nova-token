@@ -61,7 +61,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""A Configuration Data Generator\n\n    This generator returns\n    :class:`openstack.common.report.models.conf.ConfigModel`,\n    by default using the configuration options stored\n    in :attr:`oslo.config.cfg.CONF`, which is where\n    OpenStack stores everything.\n\n    :param cnf: the configuration option object\n    :type cnf: :class:`oslo.config.cfg.ConfigOpts`\n    """'
+string|'"""A Configuration Data Generator\n\n    This generator returns\n    :class:`openstack.common.report.models.conf.ConfigModel`,\n    by default using the configuration options stored\n    in :attr:`oslo_config.cfg.CONF`, which is where\n    OpenStack stores everything.\n\n    :param cnf: the configuration option object\n    :type cnf: :class:`oslo_config.cfg.ConfigOpts`\n    """'
 newline|'\n'
 nl|'\n'
 DECL|member|__init__
