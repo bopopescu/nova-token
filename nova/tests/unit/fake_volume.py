@@ -1983,7 +1983,7 @@ name|'LOG'
 op|'.'
 name|'info'
 op|'('
-string|"'beging detaching volume %s'"
+string|"'begin detaching volume %s'"
 op|','
 name|'volume_id'
 op|')'
