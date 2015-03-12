@@ -111,12 +111,8 @@ name|'authorize'
 op|'='
 name|'extensions'
 op|'.'
-name|'extension_authorizer'
+name|'os_compute_authorizer'
 op|'('
-string|"'compute'"
-op|','
-string|"'v3:'"
-op|'+'
 name|'ALIAS'
 op|')'
 newline|'\n'

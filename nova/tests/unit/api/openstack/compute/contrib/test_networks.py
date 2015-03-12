@@ -5262,7 +5262,7 @@ newline|'\n'
 indent|'        '
 name|'rule_name'
 op|'='
-string|"'compute_extension:v3:os-networks:view'"
+string|"'os_compute_api:os-networks:view'"
 newline|'\n'
 name|'self'
 op|'.'
@@ -5334,7 +5334,7 @@ newline|'\n'
 indent|'        '
 name|'rule_name'
 op|'='
-string|"'compute_extension:v3:os-networks:view'"
+string|"'os_compute_api:os-networks:view'"
 newline|'\n'
 name|'self'
 op|'.'
@@ -5402,7 +5402,7 @@ newline|'\n'
 indent|'        '
 name|'rule_name'
 op|'='
-string|"'compute_extension:v3:os-networks'"
+string|"'os_compute_api:os-networks'"
 newline|'\n'
 name|'self'
 op|'.'
@@ -5474,7 +5474,7 @@ newline|'\n'
 indent|'        '
 name|'rule_name'
 op|'='
-string|"'compute_extension:v3:os-networks'"
+string|"'os_compute_api:os-networks'"
 newline|'\n'
 name|'self'
 op|'.'
@@ -5546,7 +5546,7 @@ newline|'\n'
 indent|'        '
 name|'rule_name'
 op|'='
-string|"'compute_extension:v3:os-networks'"
+string|"'os_compute_api:os-networks'"
 newline|'\n'
 name|'self'
 op|'.'
@@ -5625,7 +5625,7 @@ newline|'\n'
 indent|'        '
 name|'rule_name'
 op|'='
-string|"'compute_extension:v3:os-networks'"
+string|"'os_compute_api:os-networks'"
 newline|'\n'
 name|'self'
 op|'.'
@@ -5769,7 +5769,7 @@ newline|'\n'
 indent|'        '
 name|'rule_name'
 op|'='
-string|"'compute_extension:v3:os-networks-associate'"
+string|"'os_compute_api:os-networks-associate'"
 newline|'\n'
 name|'self'
 op|'.'
@@ -5851,7 +5851,7 @@ newline|'\n'
 indent|'        '
 name|'rule_name'
 op|'='
-string|"'compute_extension:v3:os-networks-associate'"
+string|"'os_compute_api:os-networks-associate'"
 newline|'\n'
 name|'self'
 op|'.'
@@ -5933,7 +5933,7 @@ newline|'\n'
 indent|'        '
 name|'rule_name'
 op|'='
-string|"'compute_extension:v3:os-networks-associate'"
+string|"'os_compute_api:os-networks-associate'"
 newline|'\n'
 name|'self'
 op|'.'

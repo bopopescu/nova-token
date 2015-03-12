@@ -153,12 +153,12 @@ newline|'\n'
 DECL|variable|certificate_show_extension
 name|'certificate_show_extension'
 op|'='
-string|"'compute_extension:v3:os-certificates:show'"
+string|"'os_compute_api:os-certificates:show'"
 newline|'\n'
 name|'certificate_create_extension'
 op|'='
 DECL|variable|certificate_create_extension
-string|"'compute_extension:v3:os-certificates:create'"
+string|"'os_compute_api:os-certificates:create'"
 newline|'\n'
 nl|'\n'
 DECL|member|setUp

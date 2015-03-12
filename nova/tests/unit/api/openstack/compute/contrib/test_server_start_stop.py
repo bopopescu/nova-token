@@ -322,12 +322,12 @@ DECL|variable|start_policy
 indent|'    '
 name|'start_policy'
 op|'='
-string|'"compute:v3:servers:start"'
+string|'"os_compute_api:servers:start"'
 newline|'\n'
 DECL|variable|stop_policy
 name|'stop_policy'
 op|'='
-string|'"compute:v3:servers:stop"'
+string|'"os_compute_api:servers:stop"'
 newline|'\n'
 nl|'\n'
 DECL|member|setUp
