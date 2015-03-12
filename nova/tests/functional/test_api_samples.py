@@ -10123,6 +10123,11 @@ name|'extension_name'
 op|'='
 string|'"nova.api.openstack.compute.contrib.services.Services"'
 newline|'\n'
+DECL|variable|ADMIN_API
+name|'ADMIN_API'
+op|'='
+name|'True'
+newline|'\n'
 nl|'\n'
 DECL|member|setUp
 name|'def'
