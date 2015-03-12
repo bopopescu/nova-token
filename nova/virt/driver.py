@@ -98,7 +98,7 @@ string|"'Driver to use for controlling virtualization. Options '"
 nl|'\n'
 string|"'include: libvirt.LibvirtDriver, xenapi.XenAPIDriver, '"
 nl|'\n'
-string|"'fake.FakeDriver, baremetal.BareMetalDriver, '"
+string|"'fake.FakeDriver, ironic.IronicDriver, '"
 nl|'\n'
 string|"'vmwareapi.VMwareVCDriver, hyperv.HyperVDriver'"
 op|')'
