@@ -465,9 +465,23 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'Allow an instance to have multiple vNICs attached to '"
+string|"'DEPRECATED: Allow an instance to have multiple vNICs '"
 nl|'\n'
-string|"'the same Neutron network.'"
+string|"'attached to the same Neutron network. This option is '"
+nl|'\n'
+string|"'deprecated in the 2015.1 release and will be removed '"
+nl|'\n'
+string|"'in the 2015.2 release where the default behavior will '"
+nl|'\n'
+string|"'be to always allow multiple ports from the same network '"
+nl|'\n'
+string|"'to be attached to an instance.'"
+op|','
+nl|'\n'
+DECL|variable|deprecated_for_removal
+name|'deprecated_for_removal'
+op|'='
+name|'True'
 op|')'
 op|','
 nl|'\n'
