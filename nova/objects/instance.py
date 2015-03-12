@@ -1429,6 +1429,12 @@ string|"'1.0'"
 op|','
 string|"'1.0'"
 op|')'
+op|','
+op|'('
+string|"'1.13'"
+op|','
+string|"'1.2'"
+op|')'
 op|']'
 op|','
 nl|'\n'
@@ -1490,6 +1496,12 @@ op|'('
 string|"'1.14'"
 op|','
 string|"'1.0'"
+op|')'
+op|','
+op|'('
+string|"'1.16'"
+op|','
+string|"'1.1'"
 op|')'
 op|']'
 op|','
