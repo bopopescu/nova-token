@@ -30094,7 +30094,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'        '
-string|'"""Determine whether disks or intance path need to be cleaned up after\n        live migration (at source on success, at destination on rollback)\n\n        Block migration needs empty image at destination host before migration\n        starts, so if any failure occurs, any empty images has to be deleted.\n\n        Also Volume backed live migration w/o shared storage needs to delete\n        newly created instance-xxx dir on the destination as a part of its\n        rollback process\n\n        :param block_migration: if true, it was a block migration\n        :param migrate_data: implementation specific data\n        :returns: (bool, bool) -- do_cleanup, destroy_disks\n        """'
+string|'"""Determine whether disks or instance path need to be cleaned up after\n        live migration (at source on success, at destination on rollback)\n\n        Block migration needs empty image at destination host before migration\n        starts, so if any failure occurs, any empty images has to be deleted.\n\n        Also Volume backed live migration w/o shared storage needs to delete\n        newly created instance-xxx dir on the destination as a part of its\n        rollback process\n\n        :param block_migration: if true, it was a block migration\n        :param migrate_data: implementation specific data\n        :returns: (bool, bool) -- do_cleanup, destroy_disks\n        """'
 newline|'\n'
 comment|"# NOTE(angdraug): block migration wouldn't have been allowed if either"
 nl|'\n'
