@@ -1849,12 +1849,12 @@ name|'module'
 op|'=='
 name|'ds_util'
 op|'.'
-name|'vim_util'
+name|'vutil'
 name|'and'
 nl|'\n'
 name|'method'
 op|'=='
-string|"'get_dynamic_property'"
+string|"'get_object_property'"
 name|'and'
 nl|'\n'
 name|'args'
@@ -1862,9 +1862,6 @@ op|'=='
 op|'('
 string|"'fake-cluster'"
 op|','
-string|"'ClusterComputeResource'"
-op|','
-nl|'\n'
 string|"'datastore'"
 op|')'
 op|')'
