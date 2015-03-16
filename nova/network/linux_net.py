@@ -6911,7 +6911,7 @@ name|'error'
 op|'('
 name|'_LE'
 op|'('
-string|"'Hupping dnsmasq threw %s'"
+string|"'kill -HUP dnsmasq threw %s'"
 op|')'
 op|','
 name|'exc'
