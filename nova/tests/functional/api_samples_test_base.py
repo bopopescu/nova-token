@@ -112,6 +112,11 @@ name|'request_api_version'
 op|'='
 name|'None'
 newline|'\n'
+DECL|variable|_use_common_server_api_samples
+name|'_use_common_server_api_samples'
+op|'='
+name|'False'
+newline|'\n'
 nl|'\n'
 DECL|member|_pretty_data
 name|'def'
