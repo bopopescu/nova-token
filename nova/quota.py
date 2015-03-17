@@ -425,7 +425,13 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'Count of reservations until usage is refreshed'"
+string|"'Count of reservations until usage is refreshed. This '"
+nl|'\n'
+string|"'defaults to 0(off) to avoid additional load but it is '"
+nl|'\n'
+string|"'useful to turn on to help keep quota usage up to date '"
+nl|'\n'
+string|"'and reduce the impact of out of sync usage issues.'"
 op|')'
 op|','
 nl|'\n'
@@ -445,7 +451,19 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'Number of seconds between subsequent usage refreshes'"
+string|"'Number of seconds between subsequent usage refreshes. '"
+nl|'\n'
+string|"'This defaults to 0(off) to avoid additional load but it '"
+nl|'\n'
+string|"'is useful to turn on to help keep quota usage up to date '"
+nl|'\n'
+string|"'and reduce the impact of out of sync usage issues. '"
+nl|'\n'
+string|"'Note that quotas are not updated on a periodic task, '"
+nl|'\n'
+string|"'they will update on a new reservation if max_age has '"
+nl|'\n'
+string|"'passed since the last reservation'"
 op|')'
 op|','
 nl|'\n'
