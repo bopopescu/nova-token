@@ -188,9 +188,9 @@ name|'join'
 op|'('
 name|'self'
 op|','
-name|'member_id'
+name|'member'
 op|','
-name|'group_id'
+name|'group'
 op|','
 name|'service'
 op|'='
@@ -199,26 +199,25 @@ op|')'
 op|':'
 newline|'\n'
 indent|'        '
-string|'"""Join the given service with its group."""'
+string|'"""Add a new member to a service group.\n\n        :param member: the joined member ID/name\n        :param group: the group ID/name, of the joined member\n        :param service: a `nova.service.Service` object\n        """'
 newline|'\n'
-nl|'\n'
 name|'LOG'
 op|'.'
 name|'debug'
 op|'('
-string|"'DB_Driver: join new ServiceGroup member %(member_id)s to '"
+string|"'DB_Driver: join new ServiceGroup member %(member)s to '"
 nl|'\n'
-string|"'the %(group_id)s group, service = %(service)s'"
+string|"'the %(group)s group, service = %(service)s'"
 op|','
 nl|'\n'
 op|'{'
-string|"'member_id'"
+string|"'member'"
 op|':'
-name|'member_id'
+name|'member'
 op|','
-string|"'group_id'"
+string|"'group'"
 op|':'
-name|'group_id'
+name|'group'
 op|','
 nl|'\n'
 string|"'service'"
