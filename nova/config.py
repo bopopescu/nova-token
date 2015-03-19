@@ -108,7 +108,7 @@ op|','
 string|"'suds=INFO'"
 op|','
 nl|'\n'
-string|"'oslo.messaging=INFO'"
+string|"'oslo_messaging=INFO'"
 op|','
 string|"'iso8601=WARN'"
 op|','
