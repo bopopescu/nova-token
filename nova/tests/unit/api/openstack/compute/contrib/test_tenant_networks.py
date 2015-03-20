@@ -1889,7 +1889,7 @@ newline|'\n'
 indent|'        '
 name|'rule_name'
 op|'='
-string|"'compute_extension:v3:os-tenant-networks'"
+string|"'os_compute_api:os-tenant-networks'"
 newline|'\n'
 name|'self'
 op|'.'
@@ -1975,7 +1975,7 @@ newline|'\n'
 indent|'        '
 name|'rule_name'
 op|'='
-string|"'compute_extension:v3:os-tenant-networks'"
+string|"'os_compute_api:os-tenant-networks'"
 newline|'\n'
 name|'self'
 op|'.'
@@ -2044,7 +2044,7 @@ newline|'\n'
 indent|'        '
 name|'rule_name'
 op|'='
-string|"'compute_extension:v3:os-tenant-networks'"
+string|"'os_compute_api:os-tenant-networks'"
 newline|'\n'
 name|'self'
 op|'.'
@@ -2117,7 +2117,7 @@ newline|'\n'
 indent|'        '
 name|'rule_name'
 op|'='
-string|"'compute_extension:v3:os-tenant-networks'"
+string|"'os_compute_api:os-tenant-networks'"
 newline|'\n'
 name|'self'
 op|'.'

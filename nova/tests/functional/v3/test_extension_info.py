@@ -60,9 +60,11 @@ DECL|function|fake_soft_extension_authorizer
 name|'def'
 name|'fake_soft_extension_authorizer'
 op|'('
-name|'api_name'
-op|','
 name|'extension_name'
+op|','
+name|'core'
+op|'='
+name|'False'
 op|')'
 op|':'
 newline|'\n'
@@ -116,7 +118,7 @@ name|'object'
 op|'('
 name|'api_extensions'
 op|','
-string|"'soft_extension_authorizer'"
+string|"'os_compute_soft_authorizer'"
 op|')'
 newline|'\n'
 DECL|member|test_list_extensions
@@ -203,7 +205,7 @@ name|'object'
 op|'('
 name|'api_extensions'
 op|','
-string|"'soft_extension_authorizer'"
+string|"'os_compute_soft_authorizer'"
 op|')'
 newline|'\n'
 DECL|member|test_get_extensions

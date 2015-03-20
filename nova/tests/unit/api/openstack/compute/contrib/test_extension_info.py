@@ -327,7 +327,7 @@ indent|'    '
 name|'if'
 name|'action'
 op|'=='
-string|"'compute_extension:v3:ext1-alias:discoverable'"
+string|"'os_compute_api:ext1-alias:discoverable'"
 op|':'
 newline|'\n'
 indent|'        '

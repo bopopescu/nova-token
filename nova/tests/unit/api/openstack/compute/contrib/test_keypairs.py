@@ -1969,7 +1969,7 @@ newline|'\n'
 DECL|variable|policy_path
 name|'policy_path'
 op|'='
-string|"'compute_extension:v3:os-keypairs'"
+string|"'os_compute_api:os-keypairs'"
 newline|'\n'
 nl|'\n'
 DECL|member|setUp

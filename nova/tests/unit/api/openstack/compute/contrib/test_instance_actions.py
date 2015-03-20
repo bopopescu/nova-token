@@ -504,7 +504,7 @@ string|"''"
 op|')'
 op|','
 nl|'\n'
-string|"'compute_extension:v3:os-instance-actions'"
+string|"'os_compute_api:os-instance-actions'"
 op|':'
 nl|'\n'
 name|'common_policy'
@@ -1052,7 +1052,7 @@ string|"''"
 op|')'
 op|','
 nl|'\n'
-string|"'compute_extension:v3:os-instance-actions'"
+string|"'os_compute_api:os-instance-actions'"
 op|':'
 nl|'\n'
 name|'common_policy'
@@ -1063,7 +1063,7 @@ string|"''"
 op|')'
 op|','
 nl|'\n'
-string|"'compute_extension:v3:os-instance-actions:events'"
+string|"'os_compute_api:os-instance-actions:events'"
 op|':'
 nl|'\n'
 name|'common_policy'
