@@ -7014,7 +7014,7 @@ name|'mock'
 op|'.'
 name|'patch'
 op|'('
-string|"'oslo.messaging.RPCClient.prepare'"
+string|"'oslo_messaging.RPCClient.prepare'"
 op|')'
 newline|'\n'
 DECL|member|test_service_update_time_big
@@ -7091,7 +7091,7 @@ name|'mock'
 op|'.'
 name|'patch'
 op|'('
-string|"'oslo.messaging.RPCClient.prepare'"
+string|"'oslo_messaging.RPCClient.prepare'"
 op|')'
 newline|'\n'
 DECL|member|test_service_update_time_small
@@ -7168,7 +7168,7 @@ name|'mock'
 op|'.'
 name|'patch'
 op|'('
-string|"'oslo.messaging.RPCClient.prepare'"
+string|"'oslo_messaging.RPCClient.prepare'"
 op|')'
 newline|'\n'
 DECL|member|test_service_update_no_time
