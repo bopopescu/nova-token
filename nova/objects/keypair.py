@@ -100,11 +100,13 @@ comment|'# Version 1.1: String attributes updated to support unicode'
 nl|'\n'
 comment|'# Version 1.2: Added keypair type'
 nl|'\n'
+comment|'# Version 1.3: Name field is non-null'
+nl|'\n'
 DECL|variable|VERSION
 indent|'    '
 name|'VERSION'
 op|'='
-string|"'1.2'"
+string|"'1.3'"
 newline|'\n'
 nl|'\n'
 DECL|variable|fields
@@ -129,7 +131,7 @@ name|'StringField'
 op|'('
 name|'nullable'
 op|'='
-name|'True'
+name|'False'
 op|')'
 op|','
 nl|'\n'
@@ -510,11 +512,13 @@ comment|'#              KeyPair <= version 1.1'
 nl|'\n'
 comment|'# Version 1.1: KeyPair <= version 1.2'
 nl|'\n'
+comment|'# Version 1.2: KeyPair <= version 1.3'
+nl|'\n'
 DECL|variable|VERSION
 indent|'    '
 name|'VERSION'
 op|'='
-string|"'1.1'"
+string|"'1.2'"
 newline|'\n'
 nl|'\n'
 DECL|variable|fields
@@ -549,6 +553,11 @@ nl|'\n'
 string|"'1.1'"
 op|':'
 string|"'1.2'"
+op|','
+nl|'\n'
+string|"'1.2'"
+op|':'
+string|"'1.3'"
 op|','
 nl|'\n'
 op|'}'
