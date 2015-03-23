@@ -1358,7 +1358,24 @@ string|"'_'"
 op|']'
 op|':'
 newline|'\n'
+comment|"# NOTE(gmann): Skip attribute 'id' because if tests are being"
+nl|'\n'
+comment|"# generated using testscenarios then, 'id' attribute is being"
+nl|'\n'
+comment|"# added during cloning the tests. And later that 'id' attribute"
+nl|'\n'
+comment|'# is being used by test suite to generate the results for each'
+nl|'\n'
+comment|'# newly generated tests by testscenarios.'
+nl|'\n'
 indent|'            '
+name|'if'
+name|'key'
+op|'!='
+string|"'id'"
+op|':'
+newline|'\n'
+indent|'                '
 name|'del'
 name|'self'
 op|'.'
@@ -1369,6 +1386,7 @@ op|']'
 newline|'\n'
 nl|'\n'
 DECL|member|flags
+dedent|''
 dedent|''
 dedent|''
 name|'def'
