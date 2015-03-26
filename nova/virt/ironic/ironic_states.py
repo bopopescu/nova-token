@@ -49,6 +49,14 @@ newline|'\n'
 string|'""" No state information.\n\nThis state is used with power_state to represent a lack of knowledge of\npower state, and in target_*_state fields when there is no target.\n\nPrior to the Kilo release, Ironic set node.provision_state to NOSTATE\nwhen the node was available for provisioning. During Kilo cycle, this was\nchanged to the AVAILABLE state.\n"""'
 newline|'\n'
 nl|'\n'
+DECL|variable|MANAGEABLE
+name|'MANAGEABLE'
+op|'='
+string|"'manageable'"
+newline|'\n'
+string|'""" Node is in a manageable state.\nThis state indicates that Ironic has verified, at least once, that it had\nsufficient information to manage the hardware. While in this state, the node\nis not available for provisioning (it must be in the AVAILABLE state for that).\n"""'
+newline|'\n'
+nl|'\n'
 DECL|variable|AVAILABLE
 name|'AVAILABLE'
 op|'='
@@ -110,7 +118,23 @@ name|'DELETED'
 op|'='
 string|"'deleted'"
 newline|'\n'
-string|'""" Node tear down was successful.\n\nThis is mainly a target provision state used during node tear down. A\nsuccessful tear down leaves the node with a `provision_state` of NOSTATE.\n"""'
+string|'""" Node tear down was successful.\n\nIn Juno, target_provision_state was set to this value during node tear down.\nIn Kilo, this will be a transitory value of provision_state, and never\nrepresented in target_provision_state.\n"""'
+newline|'\n'
+nl|'\n'
+DECL|variable|CLEANING
+name|'CLEANING'
+op|'='
+string|"'cleaning'"
+newline|'\n'
+string|'""" Node is being automatically cleaned to prepare it for provisioning. """'
+newline|'\n'
+nl|'\n'
+DECL|variable|CLEANFAIL
+name|'CLEANFAIL'
+op|'='
+string|"'clean failed'"
+newline|'\n'
+string|'""" Node failed cleaning. This requires operator intervention to resolve. """'
 newline|'\n'
 nl|'\n'
 DECL|variable|ERROR
@@ -126,7 +150,24 @@ name|'REBUILD'
 op|'='
 string|"'rebuild'"
 newline|'\n'
-string|'""" Node is currently being rebuilt. """'
+string|'""" Node is to be rebuilt.\nThis is not used as a state, but rather as a "verb" when changing the node\'s\nprovision_state via the REST API.\n"""'
+newline|'\n'
+nl|'\n'
+DECL|variable|INSPECTING
+name|'INSPECTING'
+op|'='
+string|"'inspecting'"
+newline|'\n'
+string|'""" Node is under inspection.\nThis is the provision state used when inspection is started. A successfully\ninspected node shall transition to MANAGEABLE status.\n"""'
+newline|'\n'
+nl|'\n'
+nl|'\n'
+DECL|variable|INSPECTFAIL
+name|'INSPECTFAIL'
+op|'='
+string|"'inspect failed'"
+newline|'\n'
+string|'""" Node inspection failed. """'
 newline|'\n'
 nl|'\n'
 nl|'\n'
