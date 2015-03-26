@@ -2340,9 +2340,10 @@ op|':'
 number|'0'
 op|','
 nl|'\n'
-string|"'pci_stats'"
+string|"'pci_device_pools'"
 op|':'
-string|"'[]'"
+op|'['
+op|']'
 op|','
 nl|'\n'
 string|"'vcpus_used'"
@@ -2529,9 +2530,10 @@ number|'512'
 op|','
 comment|'# 0MB used + 512MB reserved'
 nl|'\n'
-string|"'pci_stats'"
+string|"'pci_device_pools'"
 op|':'
-string|"'[]'"
+op|'['
+op|']'
 op|','
 nl|'\n'
 string|"'vcpus_used'"
@@ -2716,9 +2718,10 @@ op|':'
 number|'128'
 op|','
 nl|'\n'
-string|"'pci_stats'"
+string|"'pci_device_pools'"
 op|':'
-string|"'[]'"
+op|'['
+op|']'
 op|','
 nl|'\n'
 comment|'# NOTE(jaypipes): Due to the design of the ERT, which now is used'
@@ -2983,9 +2986,10 @@ op|':'
 number|'64'
 op|','
 nl|'\n'
-string|"'pci_stats'"
+string|"'pci_device_pools'"
 op|':'
-string|"'[]'"
+op|'['
+op|']'
 op|','
 nl|'\n'
 string|"'vcpus_used'"
@@ -3232,9 +3236,10 @@ number|'128'
 op|','
 comment|'# 128 possible revert amount'
 nl|'\n'
-string|"'pci_stats'"
+string|"'pci_device_pools'"
 op|':'
-string|"'[]'"
+op|'['
+op|']'
 op|','
 nl|'\n'
 string|"'vcpus_used'"
@@ -3471,9 +3476,10 @@ number|'256'
 op|','
 comment|'# 256 possible confirmed amount'
 nl|'\n'
-string|"'pci_stats'"
+string|"'pci_device_pools'"
 op|':'
-string|"'[]'"
+op|'['
+op|']'
 op|','
 nl|'\n'
 string|"'vcpus_used'"
@@ -3726,9 +3732,10 @@ number|'512'
 op|','
 comment|'# 128 exist + 256 new flav + 128 old flav'
 nl|'\n'
-string|"'pci_stats'"
+string|"'pci_device_pools'"
 op|':'
-string|"'[]'"
+op|'['
+op|']'
 op|','
 nl|'\n'
 comment|"# See NOTE(jaypipes) above for reason why this isn't accurate until"
@@ -4041,9 +4048,10 @@ op|':'
 number|'0'
 op|','
 nl|'\n'
-string|"'pci_stats'"
+string|"'pci_device_pools'"
 op|':'
-string|"'[]'"
+op|'['
+op|']'
 op|','
 nl|'\n'
 string|"'vcpus_used'"
@@ -4390,9 +4398,10 @@ op|':'
 number|'0'
 op|','
 nl|'\n'
-string|"'pci_stats'"
+string|"'pci_device_pools'"
 op|':'
-string|"'[]'"
+op|'['
+op|']'
 op|','
 nl|'\n'
 string|"'vcpus_used'"
@@ -4655,9 +4664,10 @@ op|':'
 number|'128'
 op|','
 nl|'\n'
-string|"'pci_stats'"
+string|"'pci_device_pools'"
 op|':'
-string|"'[]'"
+op|'['
+op|']'
 op|','
 nl|'\n'
 string|"'vcpus_used'"
@@ -5378,9 +5388,10 @@ op|','
 nl|'\n'
 comment|"# 'vcpus_used': 0,  # vcpus are not claimed"
 nl|'\n'
-string|"'pci_stats'"
+string|"'pci_device_pools'"
 op|':'
-string|"'[]'"
+op|'['
+op|']'
 op|','
 nl|'\n'
 op|'}'
