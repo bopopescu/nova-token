@@ -915,7 +915,15 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'Maximum bandwidth to be used during migration, in Mbps'"
+string|"'Maximum bandwidth(in MiB/s) to be used during migration. '"
+nl|'\n'
+string|"'If set to 0, will choose a suitable default. Some '"
+nl|'\n'
+string|"'hypervisors do not support this feature and will return '"
+nl|'\n'
+string|"'an error if bandwidth is not 0. Please refer to the '"
+nl|'\n'
+string|"'libvirt documentation for further details'"
 op|')'
 op|','
 nl|'\n'
