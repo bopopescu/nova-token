@@ -6585,9 +6585,9 @@ op|'.'
 name|'get'
 op|'('
 string|"'options'"
-op|','
-string|"''"
 op|')'
+name|'or'
+string|"''"
 op|','
 nl|'\n'
 name|'CONF'
