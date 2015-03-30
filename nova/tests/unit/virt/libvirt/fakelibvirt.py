@@ -486,6 +486,11 @@ name|'VIR_ERR_NO_DOMAIN'
 op|'='
 number|'420'
 newline|'\n'
+DECL|variable|VIR_ERR_OPERATION_FAILED
+name|'VIR_ERR_OPERATION_FAILED'
+op|'='
+number|'510'
+newline|'\n'
 DECL|variable|VIR_ERR_OPERATION_INVALID
 name|'VIR_ERR_OPERATION_INVALID'
 op|'='
