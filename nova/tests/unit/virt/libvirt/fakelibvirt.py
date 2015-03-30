@@ -501,6 +501,13 @@ name|'VIR_DOMAIN_BLOCK_COMMIT_RELATIVE'
 op|'='
 number|'4'
 newline|'\n'
+comment|'# blockRebase flags'
+nl|'\n'
+DECL|variable|VIR_DOMAIN_BLOCK_REBASE_RELATIVE
+name|'VIR_DOMAIN_BLOCK_REBASE_RELATIVE'
+op|'='
+number|'8'
+newline|'\n'
 nl|'\n'
 nl|'\n'
 DECL|variable|VIR_CONNECT_LIST_DOMAINS_ACTIVE
