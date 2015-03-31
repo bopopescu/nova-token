@@ -610,7 +610,7 @@ DECL|variable|cell_extension
 indent|'    '
 name|'cell_extension'
 op|'='
-string|"'compute_extension:v3:os-cells'"
+string|"'os_compute_api:os-cells'"
 newline|'\n'
 DECL|variable|bad_request
 name|'bad_request'

@@ -173,7 +173,7 @@ DECL|variable|used_limit_extension
 indent|'    '
 name|'used_limit_extension'
 op|'='
-string|'"compute_extension:v3:os-used-limits:used_limits"'
+string|'"os_compute_api:os-used-limits"'
 newline|'\n'
 DECL|variable|include_server_group_quotas
 name|'include_server_group_quotas'

@@ -542,7 +542,7 @@ DECL|variable|policy_rule_prefix
 indent|'    '
 name|'policy_rule_prefix'
 op|'='
-string|'"compute_extension:v3:os-simple-tenant-usage"'
+string|'"os_compute_api:os-simple-tenant-usage"'
 newline|'\n'
 DECL|variable|controller
 name|'controller'
