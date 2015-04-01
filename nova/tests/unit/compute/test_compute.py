@@ -66810,6 +66810,11 @@ op|','
 string|"'fake_access_path'"
 op|','
 string|"'fake_uuid'"
+op|','
+nl|'\n'
+name|'access_url'
+op|'='
+string|"'fake_console_url'"
 op|')'
 newline|'\n'
 nl|'\n'
@@ -67065,6 +67070,11 @@ op|','
 string|"'fake_access_path'"
 op|','
 string|"'fake_uuid'"
+op|','
+nl|'\n'
+name|'access_url'
+op|'='
+string|"'fake_console_url'"
 op|')'
 newline|'\n'
 nl|'\n'
@@ -67320,6 +67330,11 @@ op|','
 string|"'fake_access_path'"
 op|','
 string|"'fake_uuid'"
+op|','
+nl|'\n'
+name|'access_url'
+op|'='
+string|"'fake_console_url'"
 op|')'
 newline|'\n'
 nl|'\n'
@@ -67574,6 +67589,11 @@ nl|'\n'
 string|"'fake_access_path'"
 op|','
 string|"'fake_uuid'"
+op|','
+nl|'\n'
+name|'access_url'
+op|'='
+string|"'fake_access_url'"
 op|')'
 newline|'\n'
 nl|'\n'
