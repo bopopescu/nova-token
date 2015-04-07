@@ -56,6 +56,11 @@ op|':'
 string|"'fake-vendor'"
 op|','
 nl|'\n'
+string|"'numa_node'"
+op|':'
+number|'1'
+op|','
+nl|'\n'
 string|"'t1'"
 op|':'
 string|"'v1'"
@@ -96,6 +101,12 @@ DECL|variable|vendor_id
 name|'vendor_id'
 op|'='
 string|"'bar'"
+op|','
+nl|'\n'
+DECL|variable|numa_node
+name|'numa_node'
+op|'='
+number|'0'
 op|','
 nl|'\n'
 DECL|variable|tags
