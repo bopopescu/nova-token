@@ -279,6 +279,11 @@ op|':'
 string|"'3.35'"
 op|','
 nl|'\n'
+string|"'kilo'"
+op|':'
+string|"'3.40'"
+op|','
+nl|'\n'
 op|'}'
 newline|'\n'
 nl|'\n'
