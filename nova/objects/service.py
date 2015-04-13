@@ -132,11 +132,13 @@ comment|'# Version 1.10: Changes behaviour of loading compute_node'
 nl|'\n'
 comment|'# Version 1.11: Added get_by_host_and_binary'
 nl|'\n'
+comment|'# Version 1.12: ComputeNode version 1.11'
+nl|'\n'
 DECL|variable|VERSION
 indent|'    '
 name|'VERSION'
 op|'='
-string|"'1.11'"
+string|"'1.12'"
 newline|'\n'
 nl|'\n'
 DECL|variable|fields
@@ -290,6 +292,13 @@ op|'('
 string|"'1.9'"
 op|','
 string|"'1.10'"
+op|')'
+op|','
+nl|'\n'
+op|'('
+string|"'1.12'"
+op|','
+string|"'1.11'"
 op|')'
 op|']'
 op|','
@@ -1173,11 +1182,13 @@ comment|'# Version 1.8: Service version 1.10'
 nl|'\n'
 comment|'# Version 1.9: Added get_by_binary() and Service version 1.11'
 nl|'\n'
+comment|'# Version 1.10: Service version 1.12'
+nl|'\n'
 DECL|variable|VERSION
 indent|'    '
 name|'VERSION'
 op|'='
-string|"'1.9'"
+string|"'1.10'"
 newline|'\n'
 nl|'\n'
 DECL|variable|fields
@@ -1252,6 +1263,11 @@ nl|'\n'
 string|"'1.9'"
 op|':'
 string|"'1.11'"
+op|','
+nl|'\n'
+string|"'1.10'"
+op|':'
+string|"'1.12'"
 op|','
 nl|'\n'
 op|'}'
