@@ -478,6 +478,8 @@ name|'name'
 name|'in'
 op|'['
 string|"'flavor'"
+op|','
+string|"'ec2_ids'"
 op|']'
 op|':'
 newline|'\n'
