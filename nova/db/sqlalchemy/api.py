@@ -15819,8 +15819,11 @@ op|')'
 newline|'\n'
 nl|'\n'
 nl|'\n'
-DECL|function|key_pair_count_by_user
 dedent|''
+op|'@'
+name|'require_context'
+newline|'\n'
+DECL|function|key_pair_count_by_user
 name|'def'
 name|'key_pair_count_by_user'
 op|'('
