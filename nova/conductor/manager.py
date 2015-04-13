@@ -2855,6 +2855,8 @@ name|'user_id'
 op|')'
 newline|'\n'
 nl|'\n'
+comment|'# NOTE(hanlind): This method can be removed in version 3.0 of the RPC API'
+nl|'\n'
 DECL|member|get_ec2_ids
 dedent|''
 name|'def'
