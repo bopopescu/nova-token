@@ -5026,7 +5026,7 @@ op|']'
 op|'='
 string|"'{}'"
 newline|'\n'
-comment|'# NOTE(pmurray): no intial values are calculated before the initial'
+comment|'# NOTE(pmurray): no initial values are calculated before the initial'
 nl|'\n'
 comment|'# creation. vcpus is derived from ERT resources, so this means its'
 nl|'\n'
