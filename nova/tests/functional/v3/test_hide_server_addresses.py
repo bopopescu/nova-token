@@ -99,6 +99,17 @@ name|'sample_dir'
 op|'='
 name|'extension_name'
 newline|'\n'
+DECL|variable|extra_extensions_to_load
+name|'extra_extensions_to_load'
+op|'='
+op|'['
+op|']'
+newline|'\n'
+DECL|variable|_api_version
+name|'_api_version'
+op|'='
+string|"'v3'"
+newline|'\n'
 nl|'\n'
 DECL|member|setUp
 name|'def'
