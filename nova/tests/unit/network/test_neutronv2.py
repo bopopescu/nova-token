@@ -5177,10 +5177,10 @@ name|'None'
 op|')'
 newline|'\n'
 nl|'\n'
-DECL|member|test_get_instance_nw_info_ignores_neturon_ports
+DECL|member|test_get_instance_nw_info_ignores_neutron_ports
 dedent|''
 name|'def'
-name|'test_get_instance_nw_info_ignores_neturon_ports'
+name|'test_get_instance_nw_info_ignores_neutron_ports'
 op|'('
 name|'self'
 op|')'

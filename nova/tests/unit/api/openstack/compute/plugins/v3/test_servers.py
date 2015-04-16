@@ -21200,10 +21200,10 @@ name|'params'
 op|')'
 newline|'\n'
 nl|'\n'
-DECL|member|test_create_instance_with_neturonv2_not_found_network
+DECL|member|test_create_instance_with_neutronv2_not_found_network
 dedent|''
 name|'def'
-name|'test_create_instance_with_neturonv2_not_found_network'
+name|'test_create_instance_with_neutronv2_not_found_network'
 op|'('
 name|'self'
 op|')'
