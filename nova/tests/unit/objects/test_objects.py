@@ -26,6 +26,11 @@ nl|'\n'
 comment|'#    under the License.'
 nl|'\n'
 nl|'\n'
+name|'from'
+name|'collections'
+name|'import'
+name|'OrderedDict'
+newline|'\n'
 name|'import'
 name|'contextlib'
 newline|'\n'
@@ -4741,15 +4746,19 @@ op|'}'
 nl|'\n'
 op|'}'
 newline|'\n'
-name|'self'
-op|'.'
-name|'assertEqual'
-op|'('
+name|'actual'
+op|'='
 name|'obj'
 op|'.'
 name|'obj_to_primitive'
 op|'('
 op|')'
+newline|'\n'
+name|'self'
+op|'.'
+name|'assertJsonEqual'
+op|'('
+name|'actual'
 op|','
 name|'expected'
 op|')'
@@ -9480,7 +9489,7 @@ op|','
 nl|'\n'
 string|"'AgentList'"
 op|':'
-string|"'1.0-31f07426a729311a42ff7f6246e76e25'"
+string|"'1.0-3c73cea65e7c938080184ec70a4ee1f7'"
 op|','
 nl|'\n'
 string|"'Aggregate'"
@@ -9490,7 +9499,7 @@ op|','
 nl|'\n'
 string|"'AggregateList'"
 op|':'
-string|"'1.2-4b02a285b8612bfb86a96ff80052fb0a'"
+string|"'1.2-13a2dfb67f9cb9aee815e233bc89f34c'"
 op|','
 nl|'\n'
 string|"'BandwidthUsage'"
@@ -9500,7 +9509,7 @@ op|','
 nl|'\n'
 string|"'BandwidthUsageList'"
 op|':'
-string|"'1.2-5b564cbfd5ae6e106443c086938e7602'"
+string|"'1.2-fe73c30369dd23c41619c9c19f27a562'"
 op|','
 nl|'\n'
 string|"'BlockDeviceMapping'"
@@ -9510,7 +9519,7 @@ op|','
 nl|'\n'
 string|"'BlockDeviceMappingList'"
 op|':'
-string|"'1.10-fb22f945b9f304b8c9fb0c1b9571a52e'"
+string|"'1.10-44b9818d5e90a7396eb807540cbe42c0'"
 op|','
 nl|'\n'
 string|"'CellMapping'"
@@ -9525,7 +9534,7 @@ op|','
 nl|'\n'
 string|"'ComputeNodeList'"
 op|':'
-string|"'1.11-74155f002977bda12e843733c5fe3749'"
+string|"'1.11-f09b7f64339350b4296ac85c07e3a573'"
 op|','
 nl|'\n'
 string|"'DNSDomain'"
@@ -9535,7 +9544,7 @@ op|','
 nl|'\n'
 string|"'DNSDomainList'"
 op|':'
-string|"'1.0-cfb3e7e82be661501c31099523154db4'"
+string|"'1.0-bc58364180c693203ebcf5e5d5775736'"
 op|','
 nl|'\n'
 string|"'EC2Ids'"
@@ -9565,7 +9574,7 @@ op|','
 nl|'\n'
 string|"'FixedIPList'"
 op|':'
-string|"'1.10-114ea67ff69b82d4c07e668b94786f23'"
+string|"'1.10-724a59f2446d917d0bd13d6aa33edf8a'"
 op|','
 nl|'\n'
 string|"'Flavor'"
@@ -9575,7 +9584,7 @@ op|','
 nl|'\n'
 string|"'FlavorList'"
 op|':'
-string|"'1.1-a3d5551267cb8f62ff38ded125900721'"
+string|"'1.1-ab3f242e0db21db87285f2ac2ddc5c72'"
 op|','
 nl|'\n'
 string|"'FloatingIP'"
@@ -9585,7 +9594,7 @@ op|','
 nl|'\n'
 string|"'FloatingIPList'"
 op|':'
-string|"'1.7-f376f63ed99243f9d90841b7f6732bbf'"
+string|"'1.7-e61a470ab21d7422f6bb703f86d99b53'"
 op|','
 nl|'\n'
 string|"'HVSpec'"
@@ -9610,12 +9619,12 @@ op|','
 nl|'\n'
 string|"'InstanceActionEventList'"
 op|':'
-string|"'1.0-1d5cc958171d6ce07383c2ad6208318e'"
+string|"'1.0-3510dc5bc494bcf2468f54249366164f'"
 op|','
 nl|'\n'
 string|"'InstanceActionList'"
 op|':'
-string|"'1.0-368410fdb8d69ae20c495308535d6266'"
+string|"'1.0-7f3f14a6c16fa16113c112a3b2ffffdd'"
 op|','
 nl|'\n'
 string|"'InstanceExternalEvent'"
@@ -9630,7 +9639,7 @@ op|','
 nl|'\n'
 string|"'InstanceFaultList'"
 op|':'
-string|"'1.1-aeb598ffd0cd6aa61fca7adf0f5e900d'"
+string|"'1.1-94f71c64972f25ba5675704bf2087fdb'"
 op|','
 nl|'\n'
 string|"'InstanceGroup'"
@@ -9640,7 +9649,7 @@ op|','
 nl|'\n'
 string|"'InstanceGroupList'"
 op|':'
-string|"'1.6-c6b78f3c9d9080d33c08667e80589817'"
+string|"'1.6-4642a730448b2336dfbf0f410f9c0cab'"
 op|','
 nl|'\n'
 string|"'InstanceInfoCache'"
@@ -9650,7 +9659,7 @@ op|','
 nl|'\n'
 string|"'InstanceList'"
 op|':'
-string|"'1.17-e00aab49bf80f92431072e7128d2fc16'"
+string|"'1.17-d453df4d1e7e1ec3b5b8b089672a870f'"
 op|','
 nl|'\n'
 string|"'InstanceMapping'"
@@ -9660,7 +9669,7 @@ op|','
 nl|'\n'
 string|"'InstanceMappingList'"
 op|':'
-string|"'1.0-3523d501c591640b483c5c1971ef9fd0'"
+string|"'1.0-1e388f466f8a306ab3c0a0bb26479435'"
 op|','
 nl|'\n'
 string|"'InstanceNUMACell'"
@@ -9690,7 +9699,7 @@ op|','
 nl|'\n'
 string|"'KeyPairList'"
 op|':'
-string|"'1.2-1f84680a0a533374db8a9fac7bd7bbc7'"
+string|"'1.2-41b7c9ab5fd2a216be4bbce011a55eff'"
 op|','
 nl|'\n'
 string|"'Migration'"
@@ -9700,7 +9709,7 @@ op|','
 nl|'\n'
 string|"'MigrationList'"
 op|':'
-string|"'1.1-8c5f678edc72a592d591a13b35e54353'"
+string|"'1.1-45a973ee70500f799da67491edabc5d4'"
 op|','
 nl|'\n'
 string|"'MyObj'"
@@ -9740,7 +9749,7 @@ op|','
 nl|'\n'
 string|"'NetworkList'"
 op|':'
-string|"'1.2-aa4ad23f035b97a41732ea8b3445fc5e'"
+string|"'1.2-4997048844f38a920eed0f9e685360e3'"
 op|','
 nl|'\n'
 string|"'NetworkRequest'"
@@ -9750,7 +9759,7 @@ op|','
 nl|'\n'
 string|"'NetworkRequestList'"
 op|':'
-string|"'1.1-beeab521ac9450f1f5ef4eaa945a783c'"
+string|"'1.1-46ff51f691dde5cf96b4c37b0953a516'"
 op|','
 nl|'\n'
 string|"'PciDevice'"
@@ -9760,7 +9769,7 @@ op|','
 nl|'\n'
 string|"'PciDeviceList'"
 op|':'
-string|"'1.1-38cbe2d3c23b9e46f7a74b486abcad85'"
+string|"'1.1-0aedd5a49b4a9f30da37cf275cd98cf7'"
 op|','
 nl|'\n'
 string|"'PciDevicePool'"
@@ -9770,7 +9779,7 @@ op|','
 nl|'\n'
 string|"'PciDevicePoolList'"
 op|':'
-string|"'1.1-beeab521ac9450f1f5ef4eaa945a783c'"
+string|"'1.1-46ff51f691dde5cf96b4c37b0953a516'"
 op|','
 nl|'\n'
 string|"'Quotas'"
@@ -9795,7 +9804,7 @@ op|','
 nl|'\n'
 string|"'SecurityGroupList'"
 op|':'
-string|"'1.0-528e6448adfeeb78921ebeda499ab72f'"
+string|"'1.0-29b93ebda887d1941ec10c8e34644356'"
 op|','
 nl|'\n'
 string|"'SecurityGroupRule'"
@@ -9805,7 +9814,7 @@ op|','
 nl|'\n'
 string|"'SecurityGroupRuleList'"
 op|':'
-string|"'1.1-667fca3a9928f23d2d10e61962c55f3c'"
+string|"'1.1-c98e038da57c3a9e47e62a588e5b3c23'"
 op|','
 nl|'\n'
 string|"'Service'"
@@ -9815,7 +9824,7 @@ op|','
 nl|'\n'
 string|"'ServiceList'"
 op|':'
-string|"'1.10-15338ee1affe868479d2deba306cfd33'"
+string|"'1.10-653f472b965b6ed17235ebd683751be7'"
 op|','
 nl|'\n'
 string|"'Tag'"
@@ -9825,7 +9834,7 @@ op|','
 nl|'\n'
 string|"'TagList'"
 op|':'
-string|"'1.0-e89bf8c8055f1f1d654fb44f0abf1f53'"
+string|"'1.0-698b4e8bd7d818db10b71a6d3c596760'"
 op|','
 nl|'\n'
 string|"'TestSubclassedObject'"
@@ -9835,12 +9844,12 @@ op|','
 nl|'\n'
 string|"'VirtCPUFeature'"
 op|':'
-string|"'1.0-3cac8c77d84a632ba79da01a4b87afb9'"
+string|"'1.0-2304d54127d003cd89afaafcbd186be9'"
 op|','
 nl|'\n'
 string|"'VirtCPUModel'"
 op|':'
-string|"'1.0-ae051080026849eddf7179e353673756'"
+string|"'1.0-57c0149b82c1786dac825a0f86bb049e'"
 op|','
 nl|'\n'
 string|"'VirtCPUTopology'"
@@ -9855,8 +9864,7 @@ op|','
 nl|'\n'
 string|"'VirtualInterfaceList'"
 op|':'
-string|"'1.0-accbf02628a8063c1d885077a2bf49b6'"
-op|','
+string|"'1.0-311365526cc6904e43ace844a794cb6b'"
 nl|'\n'
 op|'}'
 newline|'\n'
@@ -10343,9 +10351,21 @@ name|'fields'
 op|','
 name|'methods'
 op|','
+nl|'\n'
+name|'OrderedDict'
+op|'('
+nl|'\n'
+name|'sorted'
+op|'('
 name|'obj_class'
 op|'.'
 name|'child_versions'
+op|'.'
+name|'items'
+op|'('
+op|')'
+op|')'
+op|')'
 op|')'
 newline|'\n'
 dedent|''
