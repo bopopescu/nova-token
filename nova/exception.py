@@ -7311,7 +7311,9 @@ name|'msg_fmt'
 op|'='
 name|'_'
 op|'('
-string|"'Version %(objver)s of %(objname)s is not supported'"
+string|"'Version %(objver)s of %(objname)s is not supported. The '"
+nl|'\n'
+string|"'maximum supported version is: %(supported)s'"
 op|')'
 newline|'\n'
 nl|'\n'
