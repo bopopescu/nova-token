@@ -1914,6 +1914,11 @@ op|':'
 string|"'[0-9]+'"
 op|','
 nl|'\n'
+string|"'user_id'"
+op|':'
+name|'text'
+op|','
+nl|'\n'
 op|'}'
 newline|'\n'
 nl|'\n'
