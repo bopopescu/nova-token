@@ -174,6 +174,8 @@ string|"'VirtualSriovEthernetCard'"
 op|','
 nl|'\n'
 string|"'VirtualVmxnet'"
+op|','
+string|"'VirtualVmxnet3'"
 op|']'
 newline|'\n'
 nl|'\n'
