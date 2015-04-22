@@ -1179,15 +1179,6 @@ name|'CONF'
 op|'.'
 name|'import_opt'
 op|'('
-string|"'default_ephemeral_format'"
-op|','
-string|"'nova.virt.driver'"
-op|')'
-newline|'\n'
-name|'CONF'
-op|'.'
-name|'import_opt'
-op|'('
 string|"'use_cow_images'"
 op|','
 string|"'nova.virt.driver'"
