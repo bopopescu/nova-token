@@ -6025,7 +6025,7 @@ name|'_'
 op|'('
 string|"'%(total)i instances matched query, %(done)i completed'"
 op|')'
-op|','
+op|'%'
 nl|'\n'
 op|'{'
 string|"'total'"
