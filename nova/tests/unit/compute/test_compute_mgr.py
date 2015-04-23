@@ -7310,8 +7310,6 @@ op|'('
 name|'self'
 op|'.'
 name|'compute'
-op|'.'
-name|'compute_rpcapi'
 op|','
 string|"'reboot_instance'"
 op|')'
