@@ -72,6 +72,17 @@ name|'PATH_CELL_SEP'
 op|'='
 string|"'!'"
 newline|'\n'
+comment|"# Flag prepended to a cell name to indicate data shouldn't be synced during"
+nl|'\n'
+comment|'# an instance save.  There are no illegal chars in a cell name so using the'
+nl|'\n'
+comment|'# meaningful PATH_CELL_SEP in an invalid way will need to suffice.'
+nl|'\n'
+DECL|variable|BLOCK_SYNC_FLAG
+name|'BLOCK_SYNC_FLAG'
+op|'='
+string|"'!!'"
+newline|'\n'
 comment|'# Separator used between cell name and item'
 nl|'\n'
 DECL|variable|_CELL_ITEM_SEP
