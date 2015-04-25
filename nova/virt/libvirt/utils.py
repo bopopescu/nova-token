@@ -960,11 +960,15 @@ name|'base_details'
 op|'='
 name|'None'
 newline|'\n'
-comment|"# This doesn't seem to get inherited so force it to..."
+comment|"# Explicitly inherit the value of 'cluster_size' property of a qcow2"
 nl|'\n'
-comment|'# http://paste.ubuntu.com/1213295/'
+comment|'# overlay image from its backing file. This can be useful in cases'
 nl|'\n'
-comment|'# TODO(harlowja) probably file a bug against qemu-img/qemu'
+comment|"# when people create a base image with a non-default 'cluster_size'"
+nl|'\n'
+comment|'# value or cases when images were created with very old QEMU'
+nl|'\n'
+comment|"# versions which had a different default 'cluster_size'."
 nl|'\n'
 dedent|''
 name|'if'
