@@ -993,14 +993,6 @@ op|'.'
 name|'cluster_size'
 op|']'
 newline|'\n'
-comment|"# For now don't inherit this due the following discussion..."
-nl|'\n'
-comment|'# See: http://www.gossamer-threads.com/lists/openstack/dev/10592'
-nl|'\n'
-comment|"# if 'preallocation' in base_details:"
-nl|'\n'
-comment|"#     cow_opts += ['preallocation=%s' % base_details['preallocation']]"
-nl|'\n'
 dedent|''
 name|'if'
 name|'base_details'
