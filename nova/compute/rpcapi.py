@@ -149,11 +149,15 @@ name|'help'
 op|'='
 string|"'Set a version cap for messages sent to compute services. If you '"
 nl|'\n'
-string|"'plan to do a live upgrade from havana to icehouse, you should '"
+string|"'plan to do a live upgrade from an old version to a newer '"
 nl|'\n'
-string|'\'set this option to "icehouse-compat" before beginning the live \''
+string|"'version, you should set this option to the old version before '"
 nl|'\n'
-string|"'upgrade procedure.'"
+string|"'beginning the live upgrade procedure. Only upgrading to the '"
+nl|'\n'
+string|"'next version is supported, so you cannot skip a release for '"
+nl|'\n'
+string|"'the live upgrade procedure.'"
 op|')'
 newline|'\n'
 name|'CONF'
