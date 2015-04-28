@@ -84,8 +84,13 @@ name|'ApiSampleTestBaseV3'
 op|')'
 op|':'
 newline|'\n'
-DECL|variable|extension_name
+DECL|variable|ADMIN_API
 indent|'    '
+name|'ADMIN_API'
+op|'='
+name|'True'
+newline|'\n'
+DECL|variable|extension_name
 name|'extension_name'
 op|'='
 string|'"os-networks-associate"'
@@ -96,6 +101,17 @@ op|'='
 op|'['
 string|'"os-networks"'
 op|']'
+newline|'\n'
+comment|"# TODO(gmann): Overriding '_api_version' till all functional tests"
+nl|'\n'
+comment|'# are merged between v2 and v2.1. After that base class variable'
+nl|'\n'
+comment|"# itself can be changed to 'v2'"
+nl|'\n'
+DECL|variable|_api_version
+name|'_api_version'
+op|'='
+string|"'v2'"
 newline|'\n'
 nl|'\n'
 DECL|variable|_sentinel
@@ -151,6 +167,19 @@ name|'append'
 op|'('
 nl|'\n'
 string|"'nova.api.openstack.compute.contrib.os_networks.Os_networks'"
+op|')'
+newline|'\n'
+name|'f'
+op|'['
+string|"'osapi_compute_extension'"
+op|']'
+op|'.'
+name|'append'
+op|'('
+nl|'\n'
+string|"'nova.api.openstack.compute.contrib.networks_associate.'"
+nl|'\n'
+string|"'Networks_associate'"
 op|')'
 newline|'\n'
 name|'return'
