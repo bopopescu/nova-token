@@ -3004,8 +3004,6 @@ name|'availability_zone'
 op|'='
 string|"'zone1:host1'"
 newline|'\n'
-name|'result'
-op|'='
 name|'self'
 op|'.'
 name|'cloud'
