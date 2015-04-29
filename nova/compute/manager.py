@@ -4835,16 +4835,13 @@ newline|'\n'
 indent|'            '
 name|'LOG'
 op|'.'
-name|'warning'
-op|'('
-name|'_LW'
+name|'debug'
 op|'('
 string|"'Hypervisor driver does not support '"
 nl|'\n'
 string|"'instance shared storage check, '"
 nl|'\n'
 string|"'assuming it\\'s not on shared storage'"
-op|')'
 op|','
 nl|'\n'
 name|'instance'
