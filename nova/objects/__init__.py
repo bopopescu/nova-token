@@ -259,6 +259,11 @@ op|'('
 string|"'nova.objects.virtual_interface'"
 op|')'
 newline|'\n'
+name|'__import__'
+op|'('
+string|"'nova.objects.volume_usage'"
+op|')'
+newline|'\n'
 dedent|''
 endmarker|''
 end_unit
