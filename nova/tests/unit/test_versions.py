@@ -87,8 +87,11 @@ name|'version'
 op|'.'
 name|'version_info'
 op|','
-string|"'version'"
+string|"'version_string'"
 op|','
+nl|'\n'
+name|'lambda'
+op|':'
 string|"'5.5.5.5'"
 op|')'
 newline|'\n'
