@@ -89,7 +89,7 @@ nl|'\n'
 DECL|variable|_FAKE_BLOCK_SIZE
 name|'_FAKE_BLOCK_SIZE'
 op|'='
-number|'33554432L'
+number|'33554432'
 newline|'\n'
 DECL|variable|_FAKE_LOG_SIZE
 name|'_FAKE_LOG_SIZE'
@@ -109,7 +109,7 @@ newline|'\n'
 DECL|variable|_FAKE_PHYSICAL_SECTOR_SIZE
 name|'_FAKE_PHYSICAL_SECTOR_SIZE'
 op|'='
-number|'4096L'
+number|'4096'
 newline|'\n'
 nl|'\n'
 DECL|member|setUp

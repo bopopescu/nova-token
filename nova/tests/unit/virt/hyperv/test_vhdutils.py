@@ -113,7 +113,7 @@ newline|'\n'
 DECL|variable|_FAKE_DYNAMIC_BLK_SIZE
 name|'_FAKE_DYNAMIC_BLK_SIZE'
 op|'='
-number|'2097152L'
+number|'2097152'
 newline|'\n'
 DECL|variable|_FAKE_BAD_TYPE
 name|'_FAKE_BAD_TYPE'
