@@ -232,7 +232,7 @@ op|'='
 number|'15'
 newline|'\n'
 nl|'\n'
-comment|'# This list was extracted from the installation iso image for ESX 5.5 Update 1.'
+comment|'# This list was extracted from the installation iso image for ESX 6.0.'
 nl|'\n'
 comment|'# It is contained in s.v00, which is gzipped. The list was obtained by'
 nl|'\n'
@@ -263,10 +263,16 @@ nl|'\n'
 string|"'asianux4Guest'"
 op|','
 nl|'\n'
+string|"'asianux5_64Guest'"
+op|','
+nl|'\n'
 string|"'centos64Guest'"
 op|','
 nl|'\n'
 string|"'centosGuest'"
+op|','
+nl|'\n'
+string|"'coreos64Guest'"
 op|','
 nl|'\n'
 string|"'darwin10_64Guest'"
@@ -285,6 +291,9 @@ string|"'darwin12_64Guest'"
 op|','
 nl|'\n'
 string|"'darwin13_64Guest'"
+op|','
+nl|'\n'
+string|"'darwin14_64Guest'"
 op|','
 nl|'\n'
 string|"'darwin64Guest'"
@@ -315,6 +324,12 @@ string|"'debian7_64Guest'"
 op|','
 nl|'\n'
 string|"'debian7Guest'"
+op|','
+nl|'\n'
+string|"'debian8_64Guest'"
+op|','
+nl|'\n'
+string|"'debian8Guest'"
 op|','
 nl|'\n'
 string|"'dosGuest'"
@@ -518,6 +533,9 @@ nl|'\n'
 string|"'vmkernel5Guest'"
 op|','
 nl|'\n'
+string|"'vmkernel6Guest'"
+op|','
+nl|'\n'
 string|"'vmkernelGuest'"
 op|','
 nl|'\n'
@@ -555,6 +573,15 @@ string|"'windows8Guest'"
 op|','
 nl|'\n'
 string|"'windows8Server64Guest'"
+op|','
+nl|'\n'
+string|"'windows9_64Guest'"
+op|','
+nl|'\n'
+string|"'windows9Guest'"
+op|','
+nl|'\n'
+string|"'windows9Server64Guest'"
 op|','
 nl|'\n'
 string|"'windowsHyperVGuest'"
