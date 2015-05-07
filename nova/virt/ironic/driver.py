@@ -324,6 +324,12 @@ op|'('
 string|"'admin_password'"
 op|','
 nl|'\n'
+DECL|variable|secret
+name|'secret'
+op|'='
+name|'True'
+op|','
+nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
@@ -336,6 +342,12 @@ op|'.'
 name|'StrOpt'
 op|'('
 string|"'admin_auth_token'"
+op|','
+nl|'\n'
+DECL|variable|secret
+name|'secret'
+op|'='
+name|'True'
 op|','
 nl|'\n'
 DECL|variable|help
