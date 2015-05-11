@@ -568,7 +568,7 @@ string|"'release, and Nova is still configured to use it. '"
 nl|'\n'
 string|"'Enable the V2 API in Cinder and set '"
 nl|'\n'
-string|"'cinder_catalog_info in nova.conf to use it.'"
+string|"'cinder.catalog_info in nova.conf to use it.'"
 op|')'
 newline|'\n'
 name|'LOG'
