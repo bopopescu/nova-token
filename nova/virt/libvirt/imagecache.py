@@ -176,19 +176,27 @@ nl|'\n'
 DECL|variable|default
 name|'default'
 op|'='
-name|'False'
+name|'True'
+op|','
+nl|'\n'
+DECL|variable|deprecated_for_removal
+name|'deprecated_for_removal'
+op|'='
+name|'True'
 op|','
 nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'Should unused kernel images be removed? This is only '"
+string|"'DEPRECATED: Should unused kernel images be removed? '"
 nl|'\n'
-string|"'safe to enable if all compute nodes have been updated '"
+string|"'This is only safe to enable if all compute nodes have '"
 nl|'\n'
-string|"'to support this option. This will be enabled by default '"
+string|"'been updated to support this option (running Grizzly or '"
 nl|'\n'
-string|"'in future.'"
+string|"'newer level compute). This will be the default behavior '"
+nl|'\n'
+string|"'in the 2016.1 release.'"
 op|')'
 op|','
 nl|'\n'
