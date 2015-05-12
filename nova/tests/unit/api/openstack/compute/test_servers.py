@@ -16007,7 +16007,7 @@ name|'image_uuid'
 op|'='
 string|"'76fa36fc-c930-4bf3-8c8a-ea2a2420deb6'"
 newline|'\n'
-comment|'# Get the fake image service so we can set the status to deleted'
+comment|'# Get the fake image service so we can update the size of the image'
 nl|'\n'
 op|'('
 name|'image_service'
