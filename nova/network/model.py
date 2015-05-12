@@ -167,6 +167,11 @@ name|'VIF_TYPE_TAP'
 op|'='
 string|"'tap'"
 newline|'\n'
+DECL|variable|VIF_TYPE_MACVTAP
+name|'VIF_TYPE_MACVTAP'
+op|'='
+string|"'macvtap'"
+newline|'\n'
 nl|'\n'
 comment|"# Constants for dictionary keys in the 'vif_details' field in the VIF"
 nl|'\n'
@@ -188,21 +193,46 @@ op|'='
 string|"'physical_network'"
 newline|'\n'
 nl|'\n'
-comment|'# The following two constants define the SR-IOV related fields in the'
+comment|'# The following constant defines an SR-IOV related parameter in the'
 nl|'\n'
-comment|"# 'vif_details'. 'profileid' should be used for VIF_TYPE_802_QBH,"
-nl|'\n'
-comment|"# 'vlan' for VIF_TYPE_HW_VEB"
+comment|"# 'vif_details'. 'profileid' should be used for VIF_TYPE_802_QBH"
 nl|'\n'
 DECL|variable|VIF_DETAILS_PROFILEID
 name|'VIF_DETAILS_PROFILEID'
 op|'='
 string|"'profileid'"
 newline|'\n'
+nl|'\n'
+comment|'# The following constant defines an SR-IOV and macvtap related parameter in'
+nl|'\n'
+comment|"# the 'vif_details'. 'vlan' should be used for VIF_TYPE_HW_VEB or"
+nl|'\n'
+comment|'# VIF_TYPE_MACVTAP'
+nl|'\n'
 DECL|variable|VIF_DETAILS_VLAN
 name|'VIF_DETAILS_VLAN'
 op|'='
 string|"'vlan'"
+newline|'\n'
+nl|'\n'
+comment|'# The following three constants define the macvtap related fields in'
+nl|'\n'
+comment|"# the 'vif_details'."
+nl|'\n'
+DECL|variable|VIF_DETAILS_MACVTAP_SOURCE
+name|'VIF_DETAILS_MACVTAP_SOURCE'
+op|'='
+string|"'macvtap_source'"
+newline|'\n'
+DECL|variable|VIF_DETAILS_MACVTAP_MODE
+name|'VIF_DETAILS_MACVTAP_MODE'
+op|'='
+string|"'macvtap_mode'"
+newline|'\n'
+DECL|variable|VIF_DETAILS_PHYS_INTERFACE
+name|'VIF_DETAILS_PHYS_INTERFACE'
+op|'='
+string|"'physical_interface'"
 newline|'\n'
 nl|'\n'
 comment|"# Constants for vhost-user related fields in 'vif_details'."
