@@ -350,10 +350,20 @@ op|'='
 name|'True'
 op|','
 nl|'\n'
+DECL|variable|deprecated_for_removal
+name|'deprecated_for_removal'
+op|'='
+name|'True'
+op|','
+nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
 string|"'Ironic keystone auth token.'"
+nl|'\n'
+string|"'DEPRECATED: use admin_username, admin_password, and '"
+nl|'\n'
+string|"'admin_tenant_name instead'"
 op|')'
 op|','
 nl|'\n'
