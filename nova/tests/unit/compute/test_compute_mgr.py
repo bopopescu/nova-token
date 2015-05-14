@@ -12421,7 +12421,7 @@ string|"'foo'"
 op|':'
 op|'{'
 nl|'\n'
-string|"'test-event'"
+string|"'network-vif-plugged'"
 op|':'
 name|'event'
 op|','
@@ -12449,7 +12449,7 @@ name|'InstanceExternalEvent'
 op|'('
 name|'name'
 op|'='
-string|"'test-event'"
+string|"'network-vif-plugged'"
 op|','
 nl|'\n'
 name|'tag'
@@ -12788,7 +12788,7 @@ string|"'foo'"
 op|':'
 op|'{'
 nl|'\n'
-string|"'test-event'"
+string|"'network-vif-plugged'"
 op|':'
 name|'event'
 op|','
@@ -12816,8 +12816,9 @@ name|'InstanceExternalEvent'
 op|'('
 name|'name'
 op|'='
-string|"'test-event'"
+string|"'network-vif-plugged'"
 op|','
+nl|'\n'
 name|'tag'
 op|'='
 name|'None'
@@ -12947,8 +12948,9 @@ name|'InstanceExternalEvent'
 op|'('
 name|'name'
 op|'='
-string|"'foo'"
+string|"'network-vif-plugged'"
 op|','
+nl|'\n'
 name|'instance_uuid'
 op|'='
 string|"'uuid2'"
