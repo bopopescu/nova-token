@@ -3050,7 +3050,7 @@ name|'tag'
 op|'='
 name|'event_name'
 op|'.'
-name|'split'
+name|'rsplit'
 op|'('
 string|"'-'"
 op|','

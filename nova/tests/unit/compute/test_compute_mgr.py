@@ -13087,7 +13087,7 @@ name|'uuid'
 op|':'
 op|'{'
 nl|'\n'
-string|"'foo-bar'"
+string|"'network-vif-plugged-bar'"
 op|':'
 name|'fake_eventlet_event'
 op|','
@@ -13138,7 +13138,7 @@ name|'self'
 op|'.'
 name|'assertEqual'
 op|'('
-string|"'foo'"
+string|"'network-vif-plugged'"
 op|','
 name|'event'
 op|'.'
@@ -13274,9 +13274,10 @@ nl|'\n'
 name|'instance'
 op|','
 op|'['
-string|"'foo-bar'"
+string|"'network-vif-plugged-bar'"
 op|']'
 op|','
+nl|'\n'
 name|'error_callback'
 op|'='
 name|'callback'
@@ -13302,7 +13303,7 @@ name|'callback'
 op|'.'
 name|'assert_called_once_with'
 op|'('
-string|"'foo-bar'"
+string|"'network-vif-plugged-bar'"
 op|','
 name|'instance'
 op|')'
