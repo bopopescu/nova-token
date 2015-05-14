@@ -51394,6 +51394,12 @@ string|"'finished'"
 newline|'\n'
 name|'migration'
 op|'.'
+name|'migration_type'
+op|'='
+string|"'resize'"
+newline|'\n'
+name|'migration'
+op|'.'
 name|'create'
 op|'('
 op|')'
