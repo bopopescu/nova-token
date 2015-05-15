@@ -8810,12 +8810,12 @@ op|','
 nl|'\n'
 string|"'Migration'"
 op|':'
-string|"'1.1-dc2db9e6e625bd3444a5a114438b298d'"
+string|"'1.2-0554a9f061ec0e9fefe43773bc426fcf'"
 op|','
 nl|'\n'
 string|"'MigrationList'"
 op|':'
-string|"'1.1-45a973ee70500f799da67491edabc5d4'"
+string|"'1.2-e772d7d6ae0581ec72042d50c6bdf6ec'"
 op|','
 nl|'\n'
 string|"'MyObj'"
