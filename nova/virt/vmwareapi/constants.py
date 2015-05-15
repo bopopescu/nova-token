@@ -115,6 +115,11 @@ name|'DATASTORE_TYPE_NFS'
 op|'='
 string|"'NFS'"
 newline|'\n'
+DECL|variable|DATASTORE_TYPE_NFS41
+name|'DATASTORE_TYPE_NFS41'
+op|'='
+string|"'NFS41'"
+newline|'\n'
 DECL|variable|DATASTORE_TYPE_VSAN
 name|'DATASTORE_TYPE_VSAN'
 op|'='
