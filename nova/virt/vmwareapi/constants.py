@@ -39,6 +39,12 @@ name|'as'
 name|'network_model'
 newline|'\n'
 nl|'\n'
+DECL|variable|MIN_VC_VERSION
+name|'MIN_VC_VERSION'
+op|'='
+string|"'5.1.0'"
+newline|'\n'
+nl|'\n'
 DECL|variable|DISK_FORMAT_ISO
 name|'DISK_FORMAT_ISO'
 op|'='
