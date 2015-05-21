@@ -30924,7 +30924,7 @@ string|"'uri'"
 op|':'
 name|'self'
 op|'.'
-name|'uri'
+name|'_uri'
 op|'('
 op|')'
 op|','
