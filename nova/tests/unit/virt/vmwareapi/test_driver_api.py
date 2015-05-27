@@ -4553,7 +4553,9 @@ op|','
 nl|'\n'
 string|"'disk_bus'"
 op|':'
-string|"'lsiLogic'"
+name|'constants'
+op|'.'
+name|'DEFAULT_ADAPTER_TYPE'
 op|','
 nl|'\n'
 string|"'size'"
@@ -4570,7 +4572,9 @@ op|','
 nl|'\n'
 string|"'disk_bus'"
 op|':'
-string|"'lsiLogic'"
+name|'constants'
+op|'.'
+name|'DEFAULT_ADAPTER_TYPE'
 op|','
 nl|'\n'
 string|"'size'"

@@ -1544,7 +1544,9 @@ name|'create_spec'
 op|'.'
 name|'guestId'
 op|'='
-string|"'otherGuest'"
+name|'constants'
+op|'.'
+name|'DEFAULT_OS_TYPE'
 newline|'\n'
 name|'create_spec'
 op|'.'
@@ -2450,7 +2452,9 @@ op|'='
 op|'{'
 string|"'disk_format'"
 op|':'
-string|"'vmdk'"
+name|'constants'
+op|'.'
+name|'DISK_FORMAT_VMDK'
 op|','
 nl|'\n'
 string|"'is_public'"
@@ -2476,7 +2480,9 @@ op|','
 nl|'\n'
 string|"'container_format'"
 op|':'
-string|"'bare'"
+name|'constants'
+op|'.'
+name|'CONTAINER_FORMAT_BARE'
 op|','
 nl|'\n'
 string|"'size'"
