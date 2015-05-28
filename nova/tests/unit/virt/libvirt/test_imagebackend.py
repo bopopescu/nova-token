@@ -11023,7 +11023,7 @@ op|','
 nl|'\n'
 name|'rbd_name'
 op|','
-string|"'--new-format'"
+string|"'--image-format=2'"
 op|','
 string|"'--id'"
 op|','
@@ -11221,7 +11221,7 @@ op|','
 nl|'\n'
 name|'rbd_name'
 op|','
-string|"'--new-format'"
+string|"'--image-format=2'"
 op|','
 string|"'--id'"
 op|','
