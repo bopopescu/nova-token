@@ -207,6 +207,12 @@ name|'__name__'
 op|')'
 newline|'\n'
 nl|'\n'
+DECL|variable|RESIZE_SNAPSHOT_NAME
+name|'RESIZE_SNAPSHOT_NAME'
+op|'='
+string|"'nova-resize'"
+newline|'\n'
+nl|'\n'
 nl|'\n'
 DECL|function|execute
 name|'def'
