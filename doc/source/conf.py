@@ -283,15 +283,6 @@ name|'unused_docs'
 op|'='
 op|'['
 nl|'\n'
-string|"'api_ext/rst_extension_template'"
-op|','
-nl|'\n'
-string|"'vmwareapi_readme'"
-op|','
-nl|'\n'
-string|"'installer'"
-op|','
-nl|'\n'
 op|']'
 newline|'\n'
 nl|'\n'
