@@ -2463,7 +2463,7 @@ string|"'instance'"
 op|':'
 name|'self'
 op|'.'
-name|'fake_instance'
+name|'fake_instance_obj'
 op|'}'
 newline|'\n'
 name|'self'
@@ -2490,7 +2490,7 @@ name|'fake_instance_obj'
 op|','
 name|'version'
 op|'='
-string|"'4.0'"
+string|"'4.4'"
 op|')'
 newline|'\n'
 nl|'\n'
