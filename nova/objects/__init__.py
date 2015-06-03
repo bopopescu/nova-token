@@ -121,6 +121,11 @@ op|')'
 newline|'\n'
 name|'__import__'
 op|'('
+string|"'nova.objects.image_meta'"
+op|')'
+newline|'\n'
+name|'__import__'
+op|'('
 string|"'nova.objects.instance'"
 op|')'
 newline|'\n'
