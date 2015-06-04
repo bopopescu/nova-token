@@ -145,11 +145,13 @@ comment|'# Version 1.13: Added last_seen_up'
 nl|'\n'
 comment|'# Version 1.14: Added forced_down'
 nl|'\n'
+comment|'# Version 1.15: ComputeNode version 1.12'
+nl|'\n'
 DECL|variable|VERSION
 indent|'    '
 name|'VERSION'
 op|'='
-string|"'1.14'"
+string|"'1.15'"
 newline|'\n'
 nl|'\n'
 DECL|variable|fields
@@ -331,6 +333,12 @@ op|'('
 string|"'1.12'"
 op|','
 string|"'1.11'"
+op|')'
+op|','
+op|'('
+string|"'1.15'"
+op|','
+string|"'1.12'"
 op|')'
 op|']'
 op|','
@@ -1271,11 +1279,13 @@ comment|'# Version 1.11: Service version 1.13'
 nl|'\n'
 comment|'# Version 1.12: Service version 1.14'
 nl|'\n'
+comment|'# Version 1.13: Service version 1.15'
+nl|'\n'
 DECL|variable|VERSION
 indent|'    '
 name|'VERSION'
 op|'='
-string|"'1.12'"
+string|"'1.13'"
 newline|'\n'
 nl|'\n'
 DECL|variable|fields
@@ -1365,6 +1375,11 @@ nl|'\n'
 string|"'1.12'"
 op|':'
 string|"'1.14'"
+op|','
+nl|'\n'
+string|"'1.13'"
+op|':'
+string|"'1.15'"
 op|','
 nl|'\n'
 op|'}'
