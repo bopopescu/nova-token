@@ -624,12 +624,28 @@ op|'='
 string|"'kvm'"
 op|','
 nl|'\n'
+DECL|variable|choices
+name|'choices'
+op|'='
+op|'('
+string|"'kvm'"
+op|','
+string|"'lxc'"
+op|','
+string|"'qemu'"
+op|','
+string|"'uml'"
+op|','
+string|"'xen'"
+op|','
+string|"'parallels'"
+op|')'
+op|','
+nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'Libvirt domain type (valid options are: '"
-nl|'\n'
-string|"'kvm, lxc, qemu, uml, xen and parallels)'"
+string|"'Libvirt domain type'"
 op|')'
 op|','
 nl|'\n'
@@ -839,14 +855,24 @@ op|'('
 string|"'snapshot_image_format'"
 op|','
 nl|'\n'
+DECL|variable|choices
+name|'choices'
+op|'='
+op|'('
+string|"'raw'"
+op|','
+string|"'qcow2'"
+op|','
+string|"'vmdk'"
+op|','
+string|"'vdi'"
+op|')'
+op|','
+nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'Snapshot image format (valid options are : '"
-nl|'\n'
-string|"'raw, qcow2, vmdk, vdi). '"
-nl|'\n'
-string|"'Defaults to same as source image'"
+string|"'Snapshot image format. Defaults to same as source image'"
 op|')'
 op|','
 nl|'\n'
@@ -897,6 +923,20 @@ op|'.'
 name|'StrOpt'
 op|'('
 string|"'cpu_mode'"
+op|','
+nl|'\n'
+DECL|variable|choices
+name|'choices'
+op|'='
+op|'('
+string|"'host-model'"
+op|','
+string|"'host-passthrough'"
+op|','
+string|"'custom'"
+op|','
+string|"'none'"
+op|')'
 op|','
 nl|'\n'
 DECL|variable|help
@@ -1056,16 +1096,26 @@ op|'='
 string|"'auto'"
 op|','
 nl|'\n'
+DECL|variable|choices
+name|'choices'
+op|'='
+op|'('
+string|"'none'"
+op|','
+string|"'os'"
+op|','
+string|"'hardware'"
+op|','
+string|"'auto'"
+op|')'
+op|','
+nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
 string|'\'The data source used to the populate the host "serial" \''
 nl|'\n'
-string|"'UUID exposed to guest in the virtual BIOS. Permitted '"
-nl|'\n'
-string|'\'options are "hardware", "os", "none" or "auto" \''
-nl|'\n'
-string|"'(default).'"
+string|"'UUID exposed to guest in the virtual BIOS.'"
 op|')'
 op|','
 nl|'\n'

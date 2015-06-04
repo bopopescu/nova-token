@@ -581,18 +581,35 @@ op|'='
 string|"'iscsi_transport'"
 op|','
 nl|'\n'
+DECL|variable|choices
+name|'choices'
+op|'='
+op|'('
+string|"'be2iscsi'"
+op|','
+string|"'bnx2i'"
+op|','
+string|"'cxgb3i'"
+op|','
+string|"'cxgb4i'"
+op|','
+string|"'qla4xxx'"
+op|','
+nl|'\n'
+string|"'ocs'"
+op|')'
+op|','
+nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
 string|"'The iSCSI transport iface to use to connect to target in '"
 nl|'\n'
-string|"'case offload support is desired. Supported transports '"
+string|"'case offload support is desired. Default format is '"
 nl|'\n'
-string|"'are be2iscsi, bnx2i, cxgb3i, cxgb4i, qla4xxx and ocs. '"
+string|"'transport_name.hwaddress and can be generated manually '"
 nl|'\n'
-string|"'Default format is transport_name.hwaddress and can be '"
-nl|'\n'
-string|"'generated manually or via iscsiadm -m iface'"
+string|"'or via iscsiadm -m iface'"
 op|')'
 op|','
 nl|'\n'

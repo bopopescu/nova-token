@@ -199,10 +199,20 @@ op|'='
 string|"'compute'"
 op|','
 nl|'\n'
+DECL|variable|choices
+name|'choices'
+op|'='
+op|'('
+string|"'api'"
+op|','
+string|"'compute'"
+op|')'
+op|','
+nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'Type of cell: api or compute'"
+string|"'Type of cell'"
 op|')'
 op|','
 nl|'\n'

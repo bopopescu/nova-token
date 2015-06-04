@@ -133,6 +133,16 @@ op|'='
 string|"'none'"
 op|','
 nl|'\n'
+DECL|variable|choices
+name|'choices'
+op|'='
+op|'('
+string|"'none'"
+op|','
+string|"'space'"
+op|')'
+op|','
+nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='

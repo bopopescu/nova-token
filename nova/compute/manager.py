@@ -1067,12 +1067,24 @@ op|'='
 string|'"reap"'
 op|','
 nl|'\n'
+DECL|variable|choices
+name|'choices'
+op|'='
+op|'('
+string|"'noop'"
+op|','
+string|"'log'"
+op|','
+string|"'shutdown'"
+op|','
+string|"'reap'"
+op|')'
+op|','
+nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
 string|'"Action to take if a running deleted instance is detected."'
-nl|'\n'
-string|'" Valid options are \'noop\', \'log\', \'shutdown\', or \'reap\'. "'
 nl|'\n'
 string|'"Set to \'noop\' to take no action."'
 op|')'

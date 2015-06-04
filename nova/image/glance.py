@@ -193,6 +193,16 @@ op|'='
 string|"'http'"
 op|','
 nl|'\n'
+DECL|variable|choices
+name|'choices'
+op|'='
+op|'('
+string|"'http'"
+op|','
+string|"'https'"
+op|')'
+op|','
+nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='

@@ -311,12 +311,22 @@ op|'='
 string|"'http'"
 op|','
 nl|'\n'
+DECL|variable|choices
+name|'choices'
+op|'='
+op|'('
+string|"'http'"
+op|','
+string|"'https'"
+op|')'
+op|','
+nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
 string|"'The protocol to use when connecting to the EC2 API '"
 nl|'\n'
-string|"'server (http, https)'"
+string|"'server'"
 op|')'
 op|','
 nl|'\n'
