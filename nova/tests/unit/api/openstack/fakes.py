@@ -1797,7 +1797,6 @@ op|','
 string|"'fake_auth_token'"
 op|')'
 newline|'\n'
-name|'return'
 name|'super'
 op|'('
 name|'FakeRequestContext'
