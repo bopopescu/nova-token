@@ -62,6 +62,9 @@ nl|'\n'
 string|"'network-vif-unplugged'"
 op|','
 nl|'\n'
+string|"'network-vif-deleted'"
+op|','
+nl|'\n'
 nl|'\n'
 op|']'
 newline|'\n'
@@ -107,11 +110,13 @@ comment|'# Version 1.0: Initial version'
 nl|'\n'
 comment|'#              Supports network-changed and vif-plugged'
 nl|'\n'
+comment|'# Version 1.1: adds network-vif-deleted event'
+nl|'\n'
 DECL|variable|VERSION
 indent|'    '
 name|'VERSION'
 op|'='
-string|"'1.0'"
+string|"'1.1'"
 newline|'\n'
 nl|'\n'
 DECL|variable|fields
