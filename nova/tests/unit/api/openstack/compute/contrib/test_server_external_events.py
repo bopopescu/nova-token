@@ -344,11 +344,6 @@ name|'fake_instance_uuids'
 op|'['
 number|'1'
 op|']'
-op|','
-nl|'\n'
-string|"'status'"
-op|':'
-string|"'completed'"
 op|'}'
 newline|'\n'
 name|'self'
@@ -408,6 +403,15 @@ string|"'code'"
 op|']'
 op|'='
 number|'200'
+newline|'\n'
+name|'self'
+op|'.'
+name|'resp_event_2'
+op|'['
+string|"'status'"
+op|']'
+op|'='
+string|"'completed'"
 newline|'\n'
 name|'self'
 op|'.'

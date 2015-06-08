@@ -295,6 +295,8 @@ op|'.'
 name|'get'
 op|'('
 string|"'status'"
+op|','
+string|"'completed'"
 op|')'
 newline|'\n'
 name|'if'
