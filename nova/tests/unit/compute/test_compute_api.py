@@ -14808,6 +14808,11 @@ op|':'
 string|"'1-snapshot'"
 op|','
 nl|'\n'
+string|"'device_name'"
+op|':'
+string|"'/dev/vda'"
+op|','
+nl|'\n'
 string|"'destination_type'"
 op|':'
 string|"'volume'"

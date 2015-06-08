@@ -1397,8 +1397,6 @@ name|'set'
 op|'('
 op|'['
 string|"'connection_info'"
-op|','
-string|"'device_name'"
 op|']'
 op|')'
 op|'|'
@@ -1616,6 +1614,9 @@ nl|'\n'
 string|"'delete_on_termination'"
 op|','
 string|"'volume_size'"
+op|','
+nl|'\n'
+string|"'device_name'"
 op|')'
 newline|'\n'
 name|'snapshot_dict'
