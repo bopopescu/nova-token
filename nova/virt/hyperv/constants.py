@@ -382,11 +382,6 @@ op|'='
 string|'"startup"'
 newline|'\n'
 nl|'\n'
-DECL|variable|IMAGE_PROP_VM_GEN
-name|'IMAGE_PROP_VM_GEN'
-op|'='
-string|'"hw_machine_type"'
-newline|'\n'
 DECL|variable|IMAGE_PROP_VM_GEN_1
 name|'IMAGE_PROP_VM_GEN_1'
 op|'='
