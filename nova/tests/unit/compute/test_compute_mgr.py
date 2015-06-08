@@ -18006,7 +18006,7 @@ op|'.'
 name|'return_value'
 op|'='
 op|'{'
-string|"'instance_uuid'"
+string|"'uuid'"
 op|':'
 string|"''"
 op|','
