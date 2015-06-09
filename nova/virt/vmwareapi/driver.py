@@ -216,9 +216,9 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'Hostname or IP address for connection to VMware VC '"
+string|"'Hostname or IP address for connection to VMware '"
 nl|'\n'
-string|"'host.'"
+string|"'vCenter host.'"
 op|')'
 op|','
 nl|'\n'
@@ -238,7 +238,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'Port for connection to VMware VC host.'"
+string|"'Port for connection to VMware vCenter host.'"
 op|')'
 op|','
 nl|'\n'
@@ -252,7 +252,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'Username for connection to VMware VC host.'"
+string|"'Username for connection to VMware vCenter host.'"
 op|')'
 op|','
 nl|'\n'
@@ -266,7 +266,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'Password for connection to VMware VC host.'"
+string|"'Password for connection to VMware vCenter host.'"
 op|','
 nl|'\n'
 DECL|variable|secret
@@ -1100,7 +1100,7 @@ name|'info'
 op|'('
 name|'_LI'
 op|'('
-string|'"VMware VC version: %s"'
+string|'"VMware vCenter version: %s"'
 op|')'
 op|','
 name|'vc_version'
@@ -1126,13 +1126,13 @@ name|'warning'
 op|'('
 name|'_LW'
 op|'('
-string|"'Running Nova with a VMware VC version less than '"
+string|"'Running Nova with a VMware vCenter version less '"
 nl|'\n'
-string|"'%(version)s is deprecated. The required minimum '"
+string|"'than %(version)s is deprecated. The required '"
 nl|'\n'
-string|"'version of VC will be raised to %(version)s '"
+string|"'minimum version of vCenter will be raised to '"
 nl|'\n'
-string|"'in the 2016.1 release.'"
+string|"'%(version)s in the 2016.1 release.'"
 op|')'
 op|','
 nl|'\n'
