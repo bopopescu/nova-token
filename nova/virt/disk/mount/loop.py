@@ -116,9 +116,12 @@ string|"'--find'"
 op|','
 string|"'--show'"
 op|','
+nl|'\n'
 name|'self'
 op|'.'
 name|'image'
+op|'.'
+name|'path'
 op|','
 nl|'\n'
 name|'run_as_root'
