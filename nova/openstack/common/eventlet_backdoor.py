@@ -728,7 +728,7 @@ name|'_LI'
 op|'('
 string|"'Eventlet backdoor listening on %(port)s for process %(pid)d'"
 op|')'
-op|'%'
+op|','
 nl|'\n'
 op|'{'
 string|"'port'"
