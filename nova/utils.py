@@ -383,11 +383,11 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'When using libvirt 1.2.2 fails live snapshots '"
+string|"'When using libvirt 1.2.2 live snapshots fail '"
 nl|'\n'
 string|"'intermittently under load.  This config option provides '"
 nl|'\n'
-string|"'mechanism to disable livesnapshot while this is '"
+string|"'a mechanism to enable live snapshot while this is '"
 nl|'\n'
 string|"'resolved.  See '"
 nl|'\n'
