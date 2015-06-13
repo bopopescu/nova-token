@@ -762,15 +762,18 @@ name|'testtools'
 op|'.'
 name|'skipIf'
 op|'('
+name|'not'
 name|'utils'
 op|'.'
-name|'is_osx'
+name|'is_linux'
 op|'('
 op|')'
 op|','
 string|"'SO_REUSEADDR behaves differently'"
 nl|'\n'
-string|"' on OSX, see bug 1436895'"
+string|"' on OSX and BSD, see bugs '"
+nl|'\n'
+string|"' 1436895 and 1467145'"
 op|')'
 newline|'\n'
 DECL|member|test_socket_options_for_simple_server
@@ -1949,15 +1952,18 @@ name|'testtools'
 op|'.'
 name|'skipIf'
 op|'('
+name|'not'
 name|'utils'
 op|'.'
-name|'is_osx'
+name|'is_linux'
 op|'('
 op|')'
 op|','
 string|"'SO_REUSEADDR behaves differently'"
 nl|'\n'
-string|"' on OSX, see bug 1436895'"
+string|"' on OSX and BSD, see bugs '"
+nl|'\n'
+string|"' 1436895 and 1467145'"
 op|')'
 newline|'\n'
 DECL|member|test_socket_options_for_ssl_server
