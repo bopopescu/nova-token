@@ -105,8 +105,6 @@ string|"'qpid=WARN'"
 op|','
 string|"'sqlalchemy=WARN'"
 op|','
-string|"'suds=INFO'"
-op|','
 nl|'\n'
 string|"'oslo_messaging=INFO'"
 op|','
