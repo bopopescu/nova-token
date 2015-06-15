@@ -12224,7 +12224,7 @@ string|"'uuid'"
 op|':'
 name|'instance'
 op|'.'
-name|'name'
+name|'uuid'
 op|','
 string|"'host_name'"
 op|':'
