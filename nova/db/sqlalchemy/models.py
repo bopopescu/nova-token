@@ -4917,6 +4917,14 @@ string|"'instance_uuid'"
 op|')'
 op|','
 nl|'\n'
+name|'Index'
+op|'('
+string|"'virtual_interfaces_uuid_idx'"
+op|','
+string|"'uuid'"
+op|')'
+op|','
+nl|'\n'
 op|')'
 newline|'\n'
 DECL|variable|id
