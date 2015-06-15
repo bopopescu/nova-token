@@ -301,7 +301,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'The prefix for Where cached images are stored. This is '"
+string|"'The prefix for where cached images are stored. This is '"
 nl|'\n'
 string|"'NOT the full path - just a folder prefix. '"
 nl|'\n'
