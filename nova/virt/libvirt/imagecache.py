@@ -196,7 +196,7 @@ string|"'been updated to support this option (running Grizzly or '"
 nl|'\n'
 string|"'newer level compute). This will be the default behavior '"
 nl|'\n'
-string|"'in the 2016.1 release.'"
+string|"'in the 13.0.0 release.'"
 op|')'
 op|','
 nl|'\n'

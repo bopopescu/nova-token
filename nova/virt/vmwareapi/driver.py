@@ -1191,7 +1191,7 @@ string|"'than %(version)s is deprecated. The required '"
 nl|'\n'
 string|"'minimum version of vCenter will be raised to '"
 nl|'\n'
-string|"'%(version)s in the 2016.1 release.'"
+string|"'%(version)s in the 13.0.0 release.'"
 op|')'
 op|','
 nl|'\n'
