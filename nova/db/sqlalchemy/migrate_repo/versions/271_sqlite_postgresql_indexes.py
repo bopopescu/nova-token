@@ -279,6 +279,8 @@ op|'('
 string|"'sqlite'"
 op|','
 string|"'postgresql'"
+op|','
+string|"'ibm_db_sa'"
 op|')'
 op|':'
 newline|'\n'
