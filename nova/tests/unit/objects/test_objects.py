@@ -8421,6 +8421,11 @@ op|':'
 string|"'1.8-9a9fe191dc694ea4ff08946be9460718'"
 op|','
 nl|'\n'
+string|"'HostMapping'"
+op|':'
+string|"'1.0-1a3390a696792a552ab7bd31a77ba9ac'"
+op|','
+nl|'\n'
 string|"'HVSpec'"
 op|':'
 string|"'1.0-3999ff70698fc472c2d4d60359949f6b'"
@@ -8847,6 +8852,15 @@ op|'{'
 string|"'FloatingIP'"
 op|':'
 string|"'1.7'"
+op|'}'
+op|','
+nl|'\n'
+string|"'HostMapping'"
+op|':'
+op|'{'
+string|"'CellMapping'"
+op|':'
+string|"'1.0'"
 op|'}'
 op|','
 nl|'\n'

@@ -116,6 +116,11 @@ op|')'
 newline|'\n'
 name|'__import__'
 op|'('
+string|"'nova.objects.host_mapping'"
+op|')'
+newline|'\n'
+name|'__import__'
+op|'('
 string|"'nova.objects.hv_spec'"
 op|')'
 newline|'\n'
