@@ -507,17 +507,6 @@ op|','
 string|"'_untranslate_snapshot_summary_view'"
 op|')'
 newline|'\n'
-name|'self'
-op|'.'
-name|'mox'
-op|'.'
-name|'StubOutWithMock'
-op|'('
-name|'cinder'
-op|','
-string|"'get_cinder_client_version'"
-op|')'
-newline|'\n'
 nl|'\n'
 DECL|member|test_get
 dedent|''
