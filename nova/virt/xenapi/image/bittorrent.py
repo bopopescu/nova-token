@@ -61,6 +61,8 @@ op|'.'
 name|'i18n'
 name|'import'
 name|'_'
+op|','
+name|'_LW'
 newline|'\n'
 name|'from'
 name|'nova'
@@ -98,7 +100,9 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'Base URL for torrent files.'"
+string|"'Base URL for torrent files; must contain a slash'"
+nl|'\n'
+string|"' character (see RFC 1808, step 6)'"
 op|')'
 op|','
 nl|'\n'
@@ -303,8 +307,40 @@ op|'.'
 name|'torrent_base_url'
 op|':'
 newline|'\n'
-DECL|function|_default_torrent_url_fn
 indent|'            '
+name|'if'
+string|"'/'"
+name|'not'
+name|'in'
+name|'CONF'
+op|'.'
+name|'xenserver'
+op|'.'
+name|'torrent_base_url'
+op|':'
+newline|'\n'
+indent|'                '
+name|'LOG'
+op|'.'
+name|'warn'
+op|'('
+name|'_LW'
+op|'('
+string|"'Value specified in conf file for'"
+nl|'\n'
+string|"' xenserver.torrent_base_url does not contain a'"
+nl|'\n'
+string|"' slash character, therefore it will not be used'"
+nl|'\n'
+string|"' as part of the torrent URL. Specify a valid'"
+nl|'\n'
+string|"' base URL as defined by RFC 1808 (see step 6).'"
+op|')'
+op|')'
+newline|'\n'
+nl|'\n'
+DECL|function|_default_torrent_url_fn
+dedent|''
 name|'def'
 name|'_default_torrent_url_fn'
 op|'('
