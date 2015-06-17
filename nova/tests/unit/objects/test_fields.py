@@ -2236,13 +2236,6 @@ string|"'xapi'"
 op|','
 string|"'xen'"
 op|')'
-op|','
-nl|'\n'
-op|'('
-string|"'powervm'"
-op|','
-string|"'phyp'"
-op|')'
 op|']'
 newline|'\n'
 name|'self'
