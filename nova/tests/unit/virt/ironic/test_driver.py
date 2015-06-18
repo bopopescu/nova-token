@@ -2080,7 +2080,7 @@ op|'['
 string|"'capabilities'"
 op|']'
 op|'='
-string|"'test:capability'"
+string|"'test:capability, test2:value2'"
 newline|'\n'
 name|'node'
 op|'='
@@ -2139,6 +2139,20 @@ op|'.'
 name|'get'
 op|'('
 string|"'test'"
+op|')'
+op|')'
+newline|'\n'
+name|'self'
+op|'.'
+name|'assertEqual'
+op|'('
+string|"'value2'"
+op|','
+name|'stats'
+op|'.'
+name|'get'
+op|'('
+string|"'test2'"
 op|')'
 op|')'
 newline|'\n'
