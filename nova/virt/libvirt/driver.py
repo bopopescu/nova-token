@@ -1755,7 +1755,7 @@ op|','
 number|'1'
 op|')'
 newline|'\n'
-comment|"# TODO(mriedem): Change MIN_LIB_VERSION to this in the 2016.1 'M' release."
+comment|"# TODO(mriedem): Change MIN_LIB_VERSION to this in the 13.0.0 'M' release."
 nl|'\n'
 DECL|variable|NEXT_MIN_LIBVIRT_VERSION
 name|'NEXT_MIN_LIBVIRT_VERSION'
@@ -3020,7 +3020,7 @@ newline|'\n'
 nl|'\n'
 comment|'# TODO(mriedem): We plan to move to a minimum required version of'
 nl|'\n'
-comment|"# libvirt 0.10.2 in the 2016.1 'M' release so if we're running with"
+comment|"# libvirt 0.10.2 in the 13.0.0 'M' release so if we're running with"
 nl|'\n'
 comment|'# less than that now, log a warning.'
 nl|'\n'
@@ -3050,7 +3050,7 @@ string|"'%(version)s is deprecated. The required minimum '"
 nl|'\n'
 string|"'version of libvirt will be raised to %(version)s '"
 nl|'\n'
-string|"'in the 2016.1 release.'"
+string|"'in the 13.0.0 release.'"
 op|')'
 op|','
 nl|'\n'
