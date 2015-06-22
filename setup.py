@@ -1,6 +1,4 @@
 begin_unit
-comment|'#!/usr/bin/env python'
-nl|'\n'
 comment|'# Copyright (c) 2013 Hewlett-Packard Development Company, L.P.'
 nl|'\n'
 comment|'#'
