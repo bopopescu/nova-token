@@ -64,6 +64,18 @@ op|'='
 string|"'Location of VNC console proxy, in the form '"
 nl|'\n'
 string|'\'"http://127.0.0.1:6080/vnc_auto.html"\''
+op|','
+nl|'\n'
+DECL|variable|deprecated_group
+name|'deprecated_group'
+op|'='
+string|"'DEFAULT'"
+op|','
+nl|'\n'
+DECL|variable|deprecated_name
+name|'deprecated_name'
+op|'='
+string|"'novncproxy_base_url'"
 op|')'
 op|','
 nl|'\n'
@@ -86,6 +98,18 @@ op|'='
 string|"'Location of nova xvp VNC console proxy, in the form '"
 nl|'\n'
 string|'\'"http://127.0.0.1:6081/console"\''
+op|','
+nl|'\n'
+DECL|variable|deprecated_group
+name|'deprecated_group'
+op|'='
+string|"'DEFAULT'"
+op|','
+nl|'\n'
+DECL|variable|deprecated_name
+name|'deprecated_name'
+op|'='
+string|"'xvpvncproxy_base_url'"
 op|')'
 op|','
 nl|'\n'
@@ -106,6 +130,18 @@ DECL|variable|help
 name|'help'
 op|'='
 string|"'IP address on which instance vncservers should listen'"
+op|','
+nl|'\n'
+DECL|variable|deprecated_group
+name|'deprecated_group'
+op|'='
+string|"'DEFAULT'"
+op|','
+nl|'\n'
+DECL|variable|deprecated_name
+name|'deprecated_name'
+op|'='
+string|"'vncserver_listen'"
 op|')'
 op|','
 nl|'\n'
@@ -128,6 +164,18 @@ op|'='
 string|"'The address to which proxy clients '"
 nl|'\n'
 string|"'(like nova-xvpvncproxy) should connect'"
+op|','
+nl|'\n'
+DECL|variable|deprecated_group
+name|'deprecated_group'
+op|'='
+string|"'DEFAULT'"
+op|','
+nl|'\n'
+DECL|variable|deprecated_name
+name|'deprecated_name'
+op|'='
+string|"'vncserver_proxyclient_address'"
 op|')'
 op|','
 nl|'\n'
@@ -135,7 +183,7 @@ name|'cfg'
 op|'.'
 name|'BoolOpt'
 op|'('
-string|"'vnc_enabled'"
+string|"'enabled'"
 op|','
 nl|'\n'
 DECL|variable|default
@@ -148,6 +196,18 @@ DECL|variable|help
 name|'help'
 op|'='
 string|"'Enable VNC related features'"
+op|','
+nl|'\n'
+DECL|variable|deprecated_group
+name|'deprecated_group'
+op|'='
+string|"'DEFAULT'"
+op|','
+nl|'\n'
+DECL|variable|deprecated_name
+name|'deprecated_name'
+op|'='
+string|"'vnc_enabled'"
 op|')'
 op|','
 nl|'\n'
@@ -155,7 +215,7 @@ name|'cfg'
 op|'.'
 name|'StrOpt'
 op|'('
-string|"'vnc_keymap'"
+string|"'keymap'"
 op|','
 nl|'\n'
 DECL|variable|default
@@ -168,6 +228,18 @@ DECL|variable|help
 name|'help'
 op|'='
 string|"'Keymap for VNC'"
+op|','
+nl|'\n'
+DECL|variable|deprecated_group
+name|'deprecated_group'
+op|'='
+string|"'DEFAULT'"
+op|','
+nl|'\n'
+DECL|variable|deprecated_name
+name|'deprecated_name'
+op|'='
+string|"'vnc_keymap'"
 op|')'
 op|','
 nl|'\n'
@@ -186,6 +258,10 @@ op|'.'
 name|'register_opts'
 op|'('
 name|'vnc_opts'
+op|','
+name|'group'
+op|'='
+string|"'vnc'"
 op|')'
 newline|'\n'
 endmarker|''
