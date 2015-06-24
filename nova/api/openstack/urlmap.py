@@ -1629,8 +1629,9 @@ op|'('
 string|"'Could not find application for %s'"
 op|','
 name|'environ'
-op|'.'
-name|'PATH_INFO'
+op|'['
+string|"'PATH_INFO'"
+op|']'
 op|')'
 newline|'\n'
 name|'environ'
