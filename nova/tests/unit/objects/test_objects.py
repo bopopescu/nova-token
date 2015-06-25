@@ -8656,6 +8656,16 @@ op|':'
 string|"'1.0-e16d65894484b7530b720792ffbbbd02'"
 op|','
 nl|'\n'
+string|"'TaskLog'"
+op|':'
+string|"'1.0-78b0534366f29aa3eebb01860fbe18fe'"
+op|','
+nl|'\n'
+string|"'TaskLogList'"
+op|':'
+string|"'1.0-2378c0e2afdbbfaf392f31c1dffa4d25'"
+op|','
+nl|'\n'
 string|"'VirtCPUFeature'"
 op|':'
 string|"'1.0-3310718d8c72309259a6e39bdefe83ee'"
