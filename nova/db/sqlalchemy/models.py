@@ -6171,15 +6171,6 @@ name|'False'
 op|')'
 newline|'\n'
 nl|'\n'
-DECL|variable|primary_join
-name|'primary_join'
-op|'='
-op|'('
-string|"'and_(InstanceSystemMetadata.instance_uuid == '"
-nl|'\n'
-string|"'Instance.uuid, InstanceSystemMetadata.deleted == 0)'"
-op|')'
-newline|'\n'
 DECL|variable|instance
 name|'instance'
 op|'='
@@ -6198,12 +6189,6 @@ DECL|variable|foreign_keys
 name|'foreign_keys'
 op|'='
 name|'instance_uuid'
-op|','
-nl|'\n'
-DECL|variable|primaryjoin
-name|'primaryjoin'
-op|'='
-name|'primary_join'
 op|')'
 newline|'\n'
 nl|'\n'
