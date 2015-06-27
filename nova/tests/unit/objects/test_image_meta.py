@@ -577,10 +577,10 @@ op|')'
 op|')'
 newline|'\n'
 nl|'\n'
-DECL|member|test_non_existant_prop
+DECL|member|test_non_existent_prop
 dedent|''
 name|'def'
-name|'test_non_existant_prop'
+name|'test_non_existent_prop'
 op|'('
 name|'self'
 op|')'
