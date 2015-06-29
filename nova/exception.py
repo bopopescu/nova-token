@@ -8672,9 +8672,27 @@ name|'msg_fmt'
 op|'='
 name|'_'
 op|'('
-string|"'Quiescing is not supported in instance %(instance_id)s: '"
+string|"'Quiescing is not supported in instance %(instance_id)s'"
+op|')'
+newline|'\n'
 nl|'\n'
-string|"'%(reason)s'"
+nl|'\n'
+DECL|class|QemuGuestAgentNotEnabled
+dedent|''
+name|'class'
+name|'QemuGuestAgentNotEnabled'
+op|'('
+name|'Invalid'
+op|')'
+op|':'
+newline|'\n'
+DECL|variable|msg_fmt
+indent|'    '
+name|'msg_fmt'
+op|'='
+name|'_'
+op|'('
+string|"'QEMU guest agent is not enabled'"
 op|')'
 newline|'\n'
 nl|'\n'
