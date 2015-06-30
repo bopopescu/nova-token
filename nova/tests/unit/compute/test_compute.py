@@ -51709,9 +51709,9 @@ op|'('
 op|')'
 newline|'\n'
 nl|'\n'
-DECL|function|fake_drop_resize_claim
+DECL|function|fake_drop_move_claim
 name|'def'
-name|'fake_drop_resize_claim'
+name|'fake_drop_move_claim'
 op|'('
 op|'*'
 name|'args'
@@ -51767,9 +51767,9 @@ name|'Set'
 op|'('
 name|'fake_rt'
 op|','
-string|"'drop_resize_claim'"
+string|"'drop_move_claim'"
 op|','
-name|'fake_drop_resize_claim'
+name|'fake_drop_move_claim'
 op|')'
 newline|'\n'
 name|'self'
