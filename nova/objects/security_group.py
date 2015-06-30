@@ -484,17 +484,23 @@ op|','
 nl|'\n'
 op|'}'
 newline|'\n'
-DECL|variable|child_versions
-name|'child_versions'
+comment|'# NOTE(danms): SecurityGroup was at 1.1 before we added this'
+nl|'\n'
+DECL|variable|obj_relationships
+name|'obj_relationships'
 op|'='
 op|'{'
 nl|'\n'
-string|"'1.0'"
+string|"'objects'"
 op|':'
-string|"'1.1'"
+op|'['
+op|'('
+string|"'1.0'"
 op|','
-nl|'\n'
-comment|'# NOTE(danms): SecurityGroup was at 1.1 before we added this'
+string|"'1.1'"
+op|')'
+op|']'
+op|','
 nl|'\n'
 op|'}'
 newline|'\n'
