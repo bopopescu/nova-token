@@ -1282,7 +1282,7 @@ string|"'e2label'"
 op|','
 name|'image'
 op|'.'
-name|'file'
+name|'path'
 op|')'
 newline|'\n'
 dedent|''
