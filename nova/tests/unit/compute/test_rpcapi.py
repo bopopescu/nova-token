@@ -1737,6 +1737,11 @@ op|'='
 string|"'tsoh'"
 op|','
 nl|'\n'
+name|'migration'
+op|'='
+string|"'migration'"
+op|','
+nl|'\n'
 name|'migrate_data'
 op|'='
 op|'{'
@@ -1744,7 +1749,7 @@ op|'}'
 op|','
 name|'version'
 op|'='
-string|"'4.0'"
+string|"'4.2'"
 op|')'
 newline|'\n'
 nl|'\n'
