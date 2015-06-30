@@ -195,11 +195,13 @@ comment|'# Version 1.8: Instance version 1.19'
 nl|'\n'
 comment|'# Version 1.9: Instance version 1.20'
 nl|'\n'
+comment|'# Version 1.10: Changed source_type field to BlockDeviceSourceTypeField.'
+nl|'\n'
 DECL|variable|VERSION
 indent|'    '
 name|'VERSION'
 op|'='
-string|"'1.9'"
+string|"'1.10'"
 newline|'\n'
 nl|'\n'
 DECL|variable|fields
@@ -243,7 +245,7 @@ string|"'source_type'"
 op|':'
 name|'fields'
 op|'.'
-name|'StringField'
+name|'BlockDeviceSourceTypeField'
 op|'('
 name|'nullable'
 op|'='
@@ -1320,7 +1322,11 @@ name|'self'
 op|'.'
 name|'source_type'
 op|'=='
-string|"'image'"
+name|'fields'
+op|'.'
+name|'BlockDeviceSourceType'
+op|'.'
+name|'IMAGE'
 newline|'\n'
 nl|'\n'
 DECL|member|get_image_mapping
@@ -1524,11 +1530,13 @@ comment|'# Version 1.9: BlockDeviceMapping <= version 1.8'
 nl|'\n'
 comment|'# Version 1.10: BlockDeviceMapping <= version 1.9'
 nl|'\n'
+comment|'# Version 1.11: BlockDeviceMapping <= version 1.10'
+nl|'\n'
 DECL|variable|VERSION
 indent|'    '
 name|'VERSION'
 op|'='
-string|"'1.10'"
+string|"'1.11'"
 newline|'\n'
 nl|'\n'
 DECL|variable|fields
@@ -1606,6 +1614,11 @@ nl|'\n'
 string|"'1.10'"
 op|':'
 string|"'1.9'"
+op|','
+nl|'\n'
+string|"'1.11'"
+op|':'
+string|"'1.10'"
 op|','
 nl|'\n'
 op|'}'
