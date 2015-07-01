@@ -10006,7 +10006,11 @@ string|"'parent objects and provide a rule in their '"
 nl|'\n'
 string|"'obj_make_compatible() routines to backlevel '"
 nl|'\n'
-string|"'the child object.'"
+string|"'the child object. Also remember to update versions '"
+nl|'\n'
+string|"'of child objects as necessary in the '"
+nl|'\n'
+string|"'object_relationships mapping used in this test.'"
 op|')'
 newline|'\n'
 nl|'\n'
