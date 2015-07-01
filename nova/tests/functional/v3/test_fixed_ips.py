@@ -688,16 +688,34 @@ name|'FixedIpTest'
 op|')'
 op|':'
 newline|'\n'
-DECL|variable|_api_version
-indent|'    '
-name|'_api_version'
-op|'='
-string|"'v3'"
-newline|'\n'
 DECL|variable|request_api_version
+indent|'    '
 name|'request_api_version'
 op|'='
 string|"'2.4'"
+newline|'\n'
+comment|'# NOTE(gmann): microversion tests do not need to run for v2 API'
+nl|'\n'
+comment|'# so defining scenarios only for v2.4 which will run the original tests'
+nl|'\n'
+comment|"# by appending '(v2_4)' in test_id."
+nl|'\n'
+DECL|variable|scenarios
+name|'scenarios'
+op|'='
+op|'['
+op|'('
+string|"'v2_4'"
+op|','
+op|'{'
+op|'}'
+op|')'
+op|']'
+newline|'\n'
+DECL|variable|_api_version
+name|'_api_version'
+op|'='
+string|"'v2'"
 newline|'\n'
 nl|'\n'
 DECL|member|test_get_fixed_ip
