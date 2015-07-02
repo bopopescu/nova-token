@@ -97181,6 +97181,10 @@ string|"'policy_dirs'"
 op|','
 op|'['
 op|']'
+op|','
+name|'group'
+op|'='
+string|"'oslo_policy'"
 op|')'
 newline|'\n'
 name|'ins_ref'
@@ -97336,6 +97340,10 @@ string|"'policy_dirs'"
 op|','
 op|'['
 op|']'
+op|','
+name|'group'
+op|'='
+string|"'oslo_policy'"
 op|')'
 newline|'\n'
 name|'host'
