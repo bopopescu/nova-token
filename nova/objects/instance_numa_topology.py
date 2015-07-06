@@ -695,11 +695,13 @@ comment|'# Version 1.0: Initial version'
 nl|'\n'
 comment|'# Version 1.1: Takes into account pagesize'
 nl|'\n'
+comment|'# Version 1.2: InstanceNUMACell 1.2'
+nl|'\n'
 DECL|variable|VERSION
 indent|'    '
 name|'VERSION'
 op|'='
-string|"'1.1'"
+string|"'1.2'"
 newline|'\n'
 nl|'\n'
 DECL|variable|fields
@@ -754,6 +756,12 @@ op|'('
 string|"'1.0'"
 op|','
 string|"'1.0'"
+op|')'
+op|','
+op|'('
+string|"'1.2'"
+op|','
+string|"'1.2'"
 op|')'
 op|']'
 op|','
