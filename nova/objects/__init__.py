@@ -176,6 +176,11 @@ op|')'
 newline|'\n'
 name|'__import__'
 op|'('
+string|"'nova.objects.monitor_metric'"
+op|')'
+newline|'\n'
+name|'__import__'
+op|'('
 string|"'nova.objects.network'"
 op|')'
 newline|'\n'
