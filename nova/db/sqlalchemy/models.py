@@ -4407,7 +4407,7 @@ op|','
 string|"'live-migration'"
 op|','
 nl|'\n'
-string|"'evacuate'"
+string|"'evacuation'"
 op|')'
 op|','
 nl|'\n'

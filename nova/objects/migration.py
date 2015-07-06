@@ -276,7 +276,7 @@ op|','
 nl|'\n'
 string|"'live-migration'"
 op|','
-string|"'evacuate'"
+string|"'evacuation'"
 op|']'
 op|','
 nl|'\n'
