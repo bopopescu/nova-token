@@ -408,10 +408,18 @@ op|'='
 name|'True'
 op|','
 nl|'\n'
+DECL|variable|deprecated_for_removal
+name|'deprecated_for_removal'
+op|'='
+name|'True'
+op|','
+nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'Whether to destroy instances on startup when we suspect '"
+string|"'DEPRECATED: Whether to destroy '"
+nl|'\n'
+string|"'instances on startup when we suspect '"
 nl|'\n'
 string|"'they have previously been evacuated. This can result in '"
 nl|'\n'
