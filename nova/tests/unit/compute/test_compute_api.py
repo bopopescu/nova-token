@@ -14769,6 +14769,11 @@ op|':'
 string|"'[]'"
 op|','
 nl|'\n'
+string|"'image_cache_in_nova'"
+op|':'
+string|"'True'"
+op|','
+nl|'\n'
 op|'}'
 op|')'
 newline|'\n'
