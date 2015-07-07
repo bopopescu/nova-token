@@ -8553,12 +8553,12 @@ op|','
 nl|'\n'
 string|"'MonitorMetric'"
 op|':'
-string|"'1.0-4fe7f3fb1777567883ac842120ec5800'"
+string|"'1.1-53b1db7c4ae2c531db79761e7acc52ba'"
 op|','
 nl|'\n'
 string|"'MonitorMetricList'"
 op|':'
-string|"'1.0-1b54e51ad0fc1f3a8878f5010e7e16dc'"
+string|"'1.1-ea2a8e1c1ecf3608af2956e657adeb4c'"
 op|','
 nl|'\n'
 string|"'NUMACell'"
@@ -9033,7 +9033,7 @@ op|':'
 op|'{'
 string|"'MonitorMetric'"
 op|':'
-string|"'1.0'"
+string|"'1.1'"
 op|'}'
 op|','
 nl|'\n'
