@@ -5171,10 +5171,10 @@ name|'DateTime'
 op|')'
 newline|'\n'
 nl|'\n'
-DECL|member|_pre_upgrade_294
+DECL|member|_pre_upgrade_295
 dedent|''
 name|'def'
-name|'_pre_upgrade_294'
+name|'_pre_upgrade_295'
 op|'('
 name|'self'
 op|','
