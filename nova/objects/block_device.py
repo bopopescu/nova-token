@@ -197,11 +197,15 @@ comment|'# Version 1.9: Instance version 1.20'
 nl|'\n'
 comment|'# Version 1.10: Changed source_type field to BlockDeviceSourceTypeField.'
 nl|'\n'
+comment|'# Version 1.11: Changed destination_type field to'
+nl|'\n'
+comment|'#               BlockDeviceDestinationTypeField.'
+nl|'\n'
 DECL|variable|VERSION
 indent|'    '
 name|'VERSION'
 op|'='
-string|"'1.10'"
+string|"'1.11'"
 newline|'\n'
 nl|'\n'
 DECL|variable|fields
@@ -257,8 +261,10 @@ string|"'destination_type'"
 op|':'
 name|'fields'
 op|'.'
-name|'StringField'
+name|'BlockDeviceDestinationTypeField'
 op|'('
+nl|'\n'
+DECL|variable|nullable
 name|'nullable'
 op|'='
 name|'True'
@@ -1297,11 +1303,18 @@ op|':'
 newline|'\n'
 indent|'        '
 name|'return'
+op|'('
 name|'self'
 op|'.'
 name|'destination_type'
 op|'=='
-string|"'volume'"
+nl|'\n'
+name|'fields'
+op|'.'
+name|'BlockDeviceDestinationType'
+op|'.'
+name|'VOLUME'
+op|')'
 newline|'\n'
 nl|'\n'
 dedent|''
@@ -1532,11 +1545,13 @@ comment|'# Version 1.10: BlockDeviceMapping <= version 1.9'
 nl|'\n'
 comment|'# Version 1.11: BlockDeviceMapping <= version 1.10'
 nl|'\n'
+comment|'# Version 1.12: BlockDeviceMapping <= version 1.11'
+nl|'\n'
 DECL|variable|VERSION
 indent|'    '
 name|'VERSION'
 op|'='
-string|"'1.11'"
+string|"'1.12'"
 newline|'\n'
 nl|'\n'
 DECL|variable|fields
@@ -1619,6 +1634,11 @@ nl|'\n'
 string|"'1.11'"
 op|':'
 string|"'1.10'"
+op|','
+nl|'\n'
+string|"'1.12'"
+op|':'
+string|"'1.11'"
 op|','
 nl|'\n'
 op|'}'
