@@ -8333,12 +8333,12 @@ op|','
 nl|'\n'
 string|"'BlockDeviceMapping'"
 op|':'
-string|"'1.11-1cc5bc1cc18afa69efee1c3953d0788a'"
+string|"'1.12-d44d8d694619e79c172a99b3c1d6261d'"
 op|','
 nl|'\n'
 string|"'BlockDeviceMappingList'"
 op|':'
-string|"'1.12-f90a3435c82f015a54ef2145908fc525'"
+string|"'1.13-99f482330b68a3b1591610b91a5cd6a4'"
 op|','
 nl|'\n'
 string|"'CellMapping'"
@@ -8751,7 +8751,7 @@ op|':'
 op|'{'
 string|"'BlockDeviceMapping'"
 op|':'
-string|"'1.11'"
+string|"'1.12'"
 op|'}'
 op|','
 nl|'\n'

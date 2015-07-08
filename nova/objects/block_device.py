@@ -201,11 +201,13 @@ comment|'# Version 1.11: Changed destination_type field to'
 nl|'\n'
 comment|'#               BlockDeviceDestinationTypeField.'
 nl|'\n'
+comment|'# Version 1.12: Changed device_type field to BlockDeviceTypeField.'
+nl|'\n'
 DECL|variable|VERSION
 indent|'    '
 name|'VERSION'
 op|'='
-string|"'1.11'"
+string|"'1.12'"
 newline|'\n'
 nl|'\n'
 DECL|variable|fields
@@ -287,7 +289,7 @@ string|"'device_type'"
 op|':'
 name|'fields'
 op|'.'
-name|'StringField'
+name|'BlockDeviceTypeField'
 op|'('
 name|'nullable'
 op|'='
@@ -1547,11 +1549,13 @@ comment|'# Version 1.11: BlockDeviceMapping <= version 1.10'
 nl|'\n'
 comment|'# Version 1.12: BlockDeviceMapping <= version 1.11'
 nl|'\n'
+comment|'# Version 1.13: BlockDeviceMapping <= version 1.12'
+nl|'\n'
 DECL|variable|VERSION
 indent|'    '
 name|'VERSION'
 op|'='
-string|"'1.12'"
+string|"'1.13'"
 newline|'\n'
 nl|'\n'
 DECL|variable|fields
@@ -1639,6 +1643,11 @@ nl|'\n'
 string|"'1.12'"
 op|':'
 string|"'1.11'"
+op|','
+nl|'\n'
+string|"'1.13'"
+op|':'
+string|"'1.12'"
 op|','
 nl|'\n'
 op|'}'
