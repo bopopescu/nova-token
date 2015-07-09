@@ -499,11 +499,13 @@ comment|'# Version 1.19: Added vcpu_model'
 nl|'\n'
 comment|'# Version 1.20: Added ec2_ids'
 nl|'\n'
+comment|'# Version 1.21: TagList 1.1'
+nl|'\n'
 DECL|variable|VERSION
 indent|'    '
 name|'VERSION'
 op|'='
-string|"'1.20'"
+string|"'1.21'"
 newline|'\n'
 nl|'\n'
 DECL|variable|fields
@@ -1406,6 +1408,12 @@ op|'('
 string|"'1.17'"
 op|','
 string|"'1.0'"
+op|')'
+op|','
+op|'('
+string|"'1.21'"
+op|','
+string|"'1.1'"
 op|')'
 op|']'
 op|','
@@ -7355,11 +7363,13 @@ comment|'# Version 1.16: Added get_all() method'
 nl|'\n'
 comment|'# Version 1.17: Instance <= version 1.20'
 nl|'\n'
+comment|'# Version 1.18: Instance <= version 1.21'
+nl|'\n'
 DECL|variable|VERSION
 indent|'    '
 name|'VERSION'
 op|'='
-string|"'1.17'"
+string|"'1.18'"
 newline|'\n'
 nl|'\n'
 DECL|variable|fields
@@ -7469,6 +7479,11 @@ nl|'\n'
 string|"'1.17'"
 op|':'
 string|"'1.20'"
+op|','
+nl|'\n'
+string|"'1.18'"
+op|':'
+string|"'1.21'"
 op|','
 nl|'\n'
 op|'}'
