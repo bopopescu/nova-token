@@ -331,7 +331,7 @@ name|'return'
 name|'False'
 newline|'\n'
 nl|'\n'
-comment|'# make sure the image path if rfc3986 compliant'
+comment|'# make sure the image path is rfc3986 compliant'
 nl|'\n'
 comment|"# prepend '/' to make input validate"
 nl|'\n'
