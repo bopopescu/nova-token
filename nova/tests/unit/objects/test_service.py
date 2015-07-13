@@ -160,6 +160,11 @@ op|':'
 number|'1'
 op|','
 nl|'\n'
+string|"'forced_down'"
+op|':'
+name|'False'
+op|','
+nl|'\n'
 string|"'disabled'"
 op|':'
 name|'False'
