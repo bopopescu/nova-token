@@ -160,7 +160,7 @@ op|','
 nl|'\n'
 string|"'database_connection'"
 op|':'
-string|"'mysql:///'"
+string|"'mysql+pymysql:///'"
 op|'}'
 newline|'\n'
 nl|'\n'

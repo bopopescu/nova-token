@@ -359,7 +359,7 @@ op|','
 nl|'\n'
 name|'database_connection'
 op|'='
-string|"'mysql:///'"
+string|"'mysql+pymysql:///'"
 op|')'
 newline|'\n'
 name|'create_in_db'
@@ -395,7 +395,7 @@ name|'mapping_obj'
 op|'.'
 name|'database_connection'
 op|'='
-string|"'mysql:///'"
+string|"'mysql+pymysql:///'"
 newline|'\n'
 nl|'\n'
 name|'mapping_obj'
@@ -426,7 +426,7 @@ op|','
 nl|'\n'
 string|"'database_connection'"
 op|':'
-string|"'mysql:///'"
+string|"'mysql+pymysql:///'"
 op|'}'
 op|')'
 newline|'\n'
@@ -480,7 +480,7 @@ name|'get_db_mapping'
 op|'('
 name|'database_connection'
 op|'='
-string|"'mysql:///'"
+string|"'mysql+pymysql:///'"
 op|')'
 newline|'\n'
 name|'save_in_db'
@@ -510,7 +510,7 @@ name|'mapping_obj'
 op|'.'
 name|'database_connection'
 op|'='
-string|"'mysql:///'"
+string|"'mysql+pymysql:///'"
 newline|'\n'
 nl|'\n'
 name|'mapping_obj'
@@ -538,7 +538,7 @@ op|','
 nl|'\n'
 string|"'database_connection'"
 op|':'
-string|"'mysql:///'"
+string|"'mysql+pymysql:///'"
 op|'}'
 op|')'
 newline|'\n'

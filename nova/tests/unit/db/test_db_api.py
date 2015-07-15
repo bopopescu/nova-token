@@ -7286,7 +7286,7 @@ op|'.'
 name|'_get_regexp_op_for_connection'
 op|'('
 nl|'\n'
-string|"'mysql://root@localhost'"
+string|"'mysql+pymysql://root@localhost'"
 op|')'
 newline|'\n'
 name|'self'
