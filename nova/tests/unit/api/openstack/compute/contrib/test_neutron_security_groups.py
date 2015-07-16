@@ -2956,9 +2956,9 @@ name|'TestNeutronSecurityGroupsV21'
 op|')'
 op|':'
 newline|'\n'
-DECL|variable|controller_cls
+DECL|variable|secgrp_ctl_cls
 indent|'    '
-name|'controller_cls'
+name|'secgrp_ctl_cls'
 op|'='
 name|'security_groups'
 op|'.'
