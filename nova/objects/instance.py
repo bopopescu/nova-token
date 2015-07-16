@@ -1373,19 +1373,8 @@ op|','
 string|"'1.1'"
 op|')'
 op|','
-nl|'\n'
-comment|"# FIXME(ndipanov): Currently we don't want to send 1.2"
-nl|'\n'
-comment|"# to Kilo nodes - they can't handle it and will fail"
-nl|'\n'
-comment|'# due to'
-nl|'\n'
-comment|'# https://bugs.launchpad.net/nova/+bug/1474074'
-nl|'\n'
-comment|'# Kilo Instance is at 1.19'
-nl|'\n'
 op|'('
-string|"'1.20'"
+string|"'1.18'"
 op|','
 string|"'1.2'"
 op|')'
