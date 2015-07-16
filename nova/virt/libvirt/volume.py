@@ -581,35 +581,26 @@ op|'='
 string|"'iscsi_transport'"
 op|','
 nl|'\n'
-DECL|variable|choices
-name|'choices'
-op|'='
-op|'('
-string|"'be2iscsi'"
-op|','
-string|"'bnx2i'"
-op|','
-string|"'cxgb3i'"
-op|','
-string|"'cxgb4i'"
-op|','
-string|"'qla4xxx'"
-op|','
-nl|'\n'
-string|"'ocs'"
-op|')'
-op|','
-nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
 string|"'The iSCSI transport iface to use to connect to target in '"
 nl|'\n'
-string|"'case offload support is desired. Default format is '"
+string|"'case offload support is desired. Default format is of '"
 nl|'\n'
-string|"'transport_name.hwaddress and can be generated manually '"
+string|"'the form <transport_name>.<hwaddress> where '"
 nl|'\n'
-string|"'or via iscsiadm -m iface'"
+string|"'<transport_name> is one of (be2iscsi, bnx2i, cxgb3i, '"
+nl|'\n'
+string|"'cxgb4i, qla4xxx, ocs) and <hwadress> is the MAC address '"
+nl|'\n'
+string|"'of the interface and can be generated via the '"
+nl|'\n'
+string|"'iscsiadm -m iface command. Do not confuse the '"
+nl|'\n'
+string|"'iscsi_iface parameter to be provided here with the '"
+nl|'\n'
+string|"'actual transport name.'"
 op|')'
 op|','
 nl|'\n'
