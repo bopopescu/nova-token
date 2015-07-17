@@ -1026,11 +1026,13 @@ comment|'#              PciDevice <= 1.1'
 nl|'\n'
 comment|'# Version 1.1: PciDevice 1.2'
 nl|'\n'
+comment|'# Version 1.2: PciDevice 1.3'
+nl|'\n'
 DECL|variable|VERSION
 indent|'    '
 name|'VERSION'
 op|'='
-string|"'1.1'"
+string|"'1.2'"
 newline|'\n'
 nl|'\n'
 DECL|variable|fields

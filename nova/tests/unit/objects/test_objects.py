@@ -8608,7 +8608,7 @@ op|','
 nl|'\n'
 string|"'PciDeviceList'"
 op|':'
-string|"'1.1-2b8b6d0cf622c58543c5dec50c7e877c'"
+string|"'1.2-2b8b6d0cf622c58543c5dec50c7e877c'"
 op|','
 nl|'\n'
 string|"'PciDevicePool'"
@@ -8893,7 +8893,7 @@ op|','
 nl|'\n'
 string|"'PciDeviceList'"
 op|':'
-string|"'1.1'"
+string|"'1.2'"
 op|','
 nl|'\n'
 string|"'TagList'"
