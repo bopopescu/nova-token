@@ -63,11 +63,10 @@ op|'.'
 name|'setup'
 op|'('
 nl|'\n'
-DECL|variable|setup_requires
 name|'setup_requires'
 op|'='
 op|'['
-string|"'pbr'"
+string|"'pbr>=1.3'"
 op|']'
 op|','
 nl|'\n'
