@@ -211,6 +211,11 @@ op|')'
 newline|'\n'
 name|'__import__'
 op|'('
+string|"'nova.objects.request_spec'"
+op|')'
+newline|'\n'
+name|'__import__'
+op|'('
 string|"'nova.objects.tag'"
 op|')'
 newline|'\n'
