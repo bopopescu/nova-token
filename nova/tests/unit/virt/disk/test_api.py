@@ -361,7 +361,7 @@ op|'.'
 name|'MonkeyPatch'
 op|'('
 nl|'\n'
-string|"'oslo.utils.import_module'"
+string|"'oslo_utils.import_module'"
 op|','
 nl|'\n'
 name|'fake_import_fails'
