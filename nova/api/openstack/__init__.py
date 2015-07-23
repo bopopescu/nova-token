@@ -164,13 +164,21 @@ nl|'\n'
 DECL|variable|default
 name|'default'
 op|'='
-name|'False'
+name|'True'
 op|','
 nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'Whether the V3 API is enabled or not'"
+string|"'DEPRECATED: Whether the V3 API is enabled or not. '"
+nl|'\n'
+string|'\'This option will be removed in the 14.0.0 "N" release.\''
+op|','
+nl|'\n'
+DECL|variable|deprecated_for_removal
+name|'deprecated_for_removal'
+op|'='
+name|'True'
 op|')'
 op|','
 nl|'\n'
