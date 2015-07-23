@@ -634,15 +634,6 @@ op|'='
 string|"'api_database'"
 op|')'
 newline|'\n'
-name|'CONF'
-op|'.'
-name|'import_opt'
-op|'('
-string|"'compute_topic'"
-op|','
-string|"'nova.compute.rpcapi'"
-op|')'
-newline|'\n'
 nl|'\n'
 DECL|variable|LOG
 name|'LOG'
