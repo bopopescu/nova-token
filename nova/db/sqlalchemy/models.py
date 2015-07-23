@@ -6384,6 +6384,13 @@ nl|'\n'
 op|')'
 op|','
 nl|'\n'
+op|'{'
+string|"'mysql_collate'"
+op|':'
+string|"'utf8_bin'"
+op|'}'
+op|','
+nl|'\n'
 op|')'
 newline|'\n'
 DECL|variable|id
