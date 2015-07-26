@@ -505,16 +505,46 @@ name|'ServersSampleBase'
 op|')'
 op|':'
 newline|'\n'
-DECL|variable|extension_name
+DECL|variable|extra_extensions_to_load
 indent|'    '
+name|'extra_extensions_to_load'
+op|'='
+op|'['
+string|'"os-access-ips"'
+op|']'
+newline|'\n'
+DECL|variable|request_api_version
+name|'request_api_version'
+op|'='
+string|"'2.6'"
+newline|'\n'
+DECL|variable|extension_name
 name|'extension_name'
 op|'='
 string|'"os-remote-consoles"'
 newline|'\n'
+comment|'# NOTE(gmann): microversion tests do not need to run for v2 API'
+nl|'\n'
+comment|'# so defining scenarios only for v2.6 which will run the original tests'
+nl|'\n'
+comment|"# by appending '(v2_6)' in test_id."
+nl|'\n'
+DECL|variable|scenarios
+name|'scenarios'
+op|'='
+op|'['
+op|'('
+string|"'v2_6'"
+op|','
+op|'{'
+op|'}'
+op|')'
+op|']'
+newline|'\n'
 DECL|variable|_api_version
 name|'_api_version'
 op|'='
-string|"'v3'"
+string|"'v2'"
 newline|'\n'
 nl|'\n'
 DECL|member|setUp
