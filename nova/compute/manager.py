@@ -1232,15 +1232,6 @@ name|'CONF'
 op|'.'
 name|'import_opt'
 op|'('
-string|"'my_ip'"
-op|','
-string|"'nova.netconf'"
-op|')'
-newline|'\n'
-name|'CONF'
-op|'.'
-name|'import_opt'
-op|'('
 string|"'enabled'"
 op|','
 string|"'nova.vnc'"
