@@ -3002,7 +3002,7 @@ string|"'has_imagecache'"
 op|']'
 op|','
 nl|'\n'
-string|"'Driver capabilities for \\'has_imagecache\\''"
+string|"'Driver capabilities for \\'has_imagecache\\' '"
 nl|'\n'
 string|"'is invalid'"
 op|')'
@@ -3019,9 +3019,26 @@ string|"'supports_recreate'"
 op|']'
 op|','
 nl|'\n'
-string|"'Driver capabilities for \\'supports_recreate\\''"
+string|"'Driver capabilities for \\'supports_recreate\\' '"
 nl|'\n'
 string|"'is invalid'"
+op|')'
+newline|'\n'
+name|'self'
+op|'.'
+name|'assertFalse'
+op|'('
+name|'drvr'
+op|'.'
+name|'capabilities'
+op|'['
+string|"'supports_migrate_to_same_host'"
+op|']'
+op|','
+nl|'\n'
+string|"'Driver capabilities for '"
+nl|'\n'
+string|"'\\'supports_migrate_to_same_host\\' is invalid'"
 op|')'
 newline|'\n'
 nl|'\n'
