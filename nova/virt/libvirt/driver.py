@@ -1555,7 +1555,9 @@ op|','
 nl|'\n'
 string|"'fibre_channel='"
 nl|'\n'
-string|"'nova.virt.libvirt.volume.volume.LibvirtFibreChannelVolumeDriver'"
+string|"'nova.virt.libvirt.volume.fibrechannel.'"
+nl|'\n'
+string|"'LibvirtFibreChannelVolumeDriver'"
 op|','
 nl|'\n'
 string|"'scality=nova.virt.libvirt.volume.scality.LibvirtScalityVolumeDriver'"
