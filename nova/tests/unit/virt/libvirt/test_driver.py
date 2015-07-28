@@ -649,17 +649,6 @@ op|','
 string|"'nova.compute.manager'"
 op|')'
 newline|'\n'
-name|'CONF'
-op|'.'
-name|'import_opt'
-op|'('
-string|"'iscsi_use_multipath'"
-op|','
-string|"'nova.virt.libvirt.volume'"
-op|','
-string|"'libvirt'"
-op|')'
-newline|'\n'
 nl|'\n'
 DECL|variable|_fake_network_info
 name|'_fake_network_info'

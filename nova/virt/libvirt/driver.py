@@ -1434,7 +1434,7 @@ name|'import_opt'
 op|'('
 string|"'iscsi_use_multipath'"
 op|','
-string|"'nova.virt.libvirt.volume'"
+string|"'nova.virt.libvirt.volume.iscsi'"
 op|','
 nl|'\n'
 DECL|variable|group
@@ -1523,7 +1523,7 @@ name|'libvirt_volume_drivers'
 op|'='
 op|'['
 nl|'\n'
-string|"'iscsi=nova.virt.libvirt.volume.volume.LibvirtISCSIVolumeDriver'"
+string|"'iscsi=nova.virt.libvirt.volume.iscsi.LibvirtISCSIVolumeDriver'"
 op|','
 nl|'\n'
 string|"'iser=nova.virt.libvirt.volume.iser.LibvirtISERVolumeDriver'"
