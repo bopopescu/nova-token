@@ -1535,10 +1535,10 @@ nl|'\n'
 string|"'fake=nova.virt.libvirt.volume.volume.LibvirtFakeVolumeDriver'"
 op|','
 nl|'\n'
-string|"'rbd=nova.virt.libvirt.volume.volume.LibvirtNetVolumeDriver'"
+string|"'rbd=nova.virt.libvirt.volume.net.LibvirtNetVolumeDriver'"
 op|','
 nl|'\n'
-string|"'sheepdog=nova.virt.libvirt.volume.volume.LibvirtNetVolumeDriver'"
+string|"'sheepdog=nova.virt.libvirt.volume.net.LibvirtNetVolumeDriver'"
 op|','
 nl|'\n'
 string|"'nfs=nova.virt.libvirt.volume.nfs.LibvirtNFSVolumeDriver'"
