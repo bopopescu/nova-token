@@ -1544,7 +1544,7 @@ nl|'\n'
 string|"'nfs=nova.virt.libvirt.volume.volume.LibvirtNFSVolumeDriver'"
 op|','
 nl|'\n'
-string|"'smbfs=nova.virt.libvirt.volume.volume.LibvirtSMBFSVolumeDriver'"
+string|"'smbfs=nova.virt.libvirt.volume.smbfs.LibvirtSMBFSVolumeDriver'"
 op|','
 nl|'\n'
 string|"'aoe=nova.virt.libvirt.volume.aoe.LibvirtAOEVolumeDriver'"
