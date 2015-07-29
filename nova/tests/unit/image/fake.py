@@ -367,12 +367,12 @@ op|','
 nl|'\n'
 string|"'container_format'"
 op|':'
-name|'None'
+string|"'bare'"
 op|','
 nl|'\n'
 string|"'disk_format'"
 op|':'
-name|'None'
+string|"'raw'"
 op|','
 nl|'\n'
 string|"'size'"
