@@ -129,6 +129,14 @@ newline|'\n'
 string|'""" Node is being automatically cleaned to prepare it for provisioning. """'
 newline|'\n'
 nl|'\n'
+DECL|variable|CLEANWAIT
+name|'CLEANWAIT'
+op|'='
+string|"'clean wait'"
+newline|'\n'
+string|'""" Node is waiting for a clean step to be finished.\n\nThis will be the node\'s `provision_state` while the node is waiting for\nthe driver to finish a cleaning step.\n"""'
+newline|'\n'
+nl|'\n'
 DECL|variable|CLEANFAIL
 name|'CLEANFAIL'
 op|'='
