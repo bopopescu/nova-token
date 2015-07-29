@@ -321,7 +321,13 @@ string|"'in the future, but current deployers should be aware '"
 nl|'\n'
 string|"'that the use of it in production right now may be '"
 nl|'\n'
-string|"'risky.'"
+string|"'risky. Also note that cells does not currently '"
+nl|'\n'
+string|"'support rolling upgrades, it is assumed that cells '"
+nl|'\n'
+string|"'deployments are upgraded lockstep so n-1 cells '"
+nl|'\n'
+string|"'compatibility does not work.'"
 op|')'
 op|')'
 newline|'\n'
