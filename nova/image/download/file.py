@@ -331,10 +331,16 @@ name|'msg'
 op|'='
 name|'_'
 op|'('
-string|"'The group %s(group_name) must be configured with '"
+string|"'The group %(group_name)s must be configured with '"
 nl|'\n'
 string|"'an id.'"
 op|')'
+op|'%'
+op|'{'
+string|"'group_name'"
+op|':'
+name|'group_name'
+op|'}'
 newline|'\n'
 name|'raise'
 name|'exception'
