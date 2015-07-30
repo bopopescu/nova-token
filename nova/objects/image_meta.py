@@ -86,11 +86,13 @@ comment|'# Version 1.1: updated ImageMetaProps'
 nl|'\n'
 comment|'# Version 1.2: ImageMetaProps version 1.2'
 nl|'\n'
+comment|'# Version 1.3: ImageMetaProps version 1.3'
+nl|'\n'
 DECL|variable|VERSION
 indent|'    '
 name|'VERSION'
 op|'='
-string|"'1.2'"
+string|"'1.3'"
 newline|'\n'
 nl|'\n'
 comment|'# These are driven by what the image client API returns'
@@ -317,6 +319,13 @@ string|"'1.2'"
 op|')'
 op|','
 nl|'\n'
+op|'('
+string|"'1.3'"
+op|','
+string|"'1.3'"
+op|')'
+op|','
+nl|'\n'
 op|']'
 op|','
 nl|'\n'
@@ -467,6 +476,8 @@ nl|'\n'
 comment|'# Version 1.1: added os_require_quiesce field'
 nl|'\n'
 comment|'# Version 1.2: added img_hv_type and img_hv_requested_version fields'
+nl|'\n'
+comment|'# Version 1.3: HVSpec version 1.1'
 nl|'\n'
 DECL|variable|VERSION
 indent|'    '

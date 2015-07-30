@@ -130,11 +130,13 @@ comment|'# Version 1.10: Added get_first_node_by_host_for_old_compat()'
 nl|'\n'
 comment|'# Version 1.11: PciDevicePoolList version 1.1'
 nl|'\n'
+comment|'# Version 1.12: HVSpec version 1.1'
+nl|'\n'
 DECL|variable|VERSION
 indent|'    '
 name|'VERSION'
 op|'='
-string|"'1.11'"
+string|"'1.12'"
 newline|'\n'
 nl|'\n'
 DECL|variable|fields
@@ -445,6 +447,12 @@ op|'('
 string|"'1.6'"
 op|','
 string|"'1.0'"
+op|')'
+op|','
+op|'('
+string|"'1.12'"
+op|','
+string|"'1.1'"
 op|')'
 op|']'
 op|','
@@ -1962,11 +1970,13 @@ comment|'# Version 1.10 ComputeNode version 1.10'
 nl|'\n'
 comment|'# Version 1.11 ComputeNode version 1.11'
 nl|'\n'
+comment|'# Version 1.12 ComputeNode version 1.12'
+nl|'\n'
 DECL|variable|VERSION
 indent|'    '
 name|'VERSION'
 op|'='
-string|"'1.11'"
+string|"'1.12'"
 newline|'\n'
 DECL|variable|fields
 name|'fields'
@@ -2050,6 +2060,11 @@ nl|'\n'
 string|"'1.11'"
 op|':'
 string|"'1.11'"
+op|','
+nl|'\n'
+string|"'1.12'"
+op|':'
+string|"'1.12'"
 op|','
 nl|'\n'
 op|'}'
