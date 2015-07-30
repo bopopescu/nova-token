@@ -1555,7 +1555,7 @@ nl|'\n'
 string|"'gpfs=nova.virt.libvirt.volume.volume.LibvirtGPFSVolumeDriver'"
 op|','
 nl|'\n'
-string|"'quobyte=nova.virt.libvirt.volume.volume.LibvirtQuobyteVolumeDriver'"
+string|"'quobyte=nova.virt.libvirt.volume.quobyte.LibvirtQuobyteVolumeDriver'"
 op|','
 nl|'\n'
 op|']'
