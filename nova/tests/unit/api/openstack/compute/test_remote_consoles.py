@@ -202,7 +202,7 @@ name|'return'
 op|'{'
 string|"'url'"
 op|':'
-string|"'http://fake'"
+string|"'ws://fake'"
 op|'}'
 newline|'\n'
 nl|'\n'
@@ -2336,7 +2336,7 @@ op|':'
 op|'{'
 string|"u'url'"
 op|':'
-string|"u'http://fake'"
+string|"u'ws://fake'"
 op|','
 nl|'\n'
 string|"u'type'"
@@ -3530,7 +3530,7 @@ op|'='
 op|'{'
 string|"'url'"
 op|':'
-string|'"http://fake"'
+string|'"ws://fake"'
 op|'}'
 newline|'\n'
 name|'self'
@@ -3602,7 +3602,7 @@ op|','
 nl|'\n'
 string|"'url'"
 op|':'
-string|"'http://fake'"
+string|"'ws://fake'"
 op|'}'
 op|'}'
 op|','
