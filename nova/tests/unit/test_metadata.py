@@ -248,7 +248,7 @@ DECL|variable|USER_DATA_STRING
 name|'USER_DATA_STRING'
 op|'='
 op|'('
-string|'"This is an encoded string"'
+string|'b"This is an encoded string"'
 op|')'
 newline|'\n'
 DECL|variable|ENCODE_USER_DATA_STRING
