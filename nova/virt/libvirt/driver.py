@@ -1558,7 +1558,7 @@ nl|'\n'
 string|"'nova.virt.libvirt.volume.volume.LibvirtFibreChannelVolumeDriver'"
 op|','
 nl|'\n'
-string|"'scality=nova.virt.libvirt.volume.volume.LibvirtScalityVolumeDriver'"
+string|"'scality=nova.virt.libvirt.volume.scality.LibvirtScalityVolumeDriver'"
 op|','
 nl|'\n'
 string|"'gpfs=nova.virt.libvirt.volume.gpfs.LibvirtGPFSVolumeDriver'"
