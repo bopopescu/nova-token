@@ -115,12 +115,6 @@ nl|'\n'
 string|"'sphinx.ext.coverage'"
 op|','
 nl|'\n'
-string|"'sphinx.ext.pngmath'"
-op|','
-nl|'\n'
-string|"'sphinx.ext.ifconfig'"
-op|','
-nl|'\n'
 string|"'sphinx.ext.graphviz'"
 op|','
 nl|'\n'
@@ -232,24 +226,23 @@ nl|'\n'
 comment|"#today_fmt = '%B %d, %Y'"
 nl|'\n'
 nl|'\n'
-comment|"# List of documents that shouldn't be included in the build."
+comment|'# A list of glob-style patterns that should be excluded when looking for'
 nl|'\n'
-DECL|variable|unused_docs
-name|'unused_docs'
+comment|'# source files. They are matched against the source file names relative to the'
+nl|'\n'
+comment|'# source directory, using slashes as directory separators on all platforms.'
+nl|'\n'
+DECL|variable|exclude_patterns
+name|'exclude_patterns'
 op|'='
 op|'['
 nl|'\n'
-op|']'
-newline|'\n'
+string|"'api/nova.wsgi.nova-*'"
+op|','
 nl|'\n'
-comment|"# List of directories, relative to source directory, that shouldn't be searched"
+string|"'api/nova.tests.*'"
+op|','
 nl|'\n'
-comment|'# for source files.'
-nl|'\n'
-DECL|variable|exclude_trees
-name|'exclude_trees'
-op|'='
-op|'['
 op|']'
 newline|'\n'
 nl|'\n'
