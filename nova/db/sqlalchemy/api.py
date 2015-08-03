@@ -9555,8 +9555,6 @@ nl|'\n'
 string|"'launched_at'"
 op|','
 string|"'terminated_at'"
-op|','
-string|"'scheduled_at'"
 op|')'
 newline|'\n'
 name|'convert_objects_related_datetimes'
