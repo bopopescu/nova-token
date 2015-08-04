@@ -1550,7 +1550,9 @@ nl|'\n'
 string|"'aoe=nova.virt.libvirt.volume.volume.LibvirtAOEVolumeDriver'"
 op|','
 nl|'\n'
-string|"'glusterfs=nova.virt.libvirt.volume.volume.LibvirtGlusterfsVolumeDriver'"
+string|"'glusterfs='"
+nl|'\n'
+string|"'nova.virt.libvirt.volume.glusterfs.LibvirtGlusterfsVolumeDriver'"
 op|','
 nl|'\n'
 string|"'fibre_channel='"
