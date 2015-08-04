@@ -297,9 +297,8 @@ name|'fake_vcpumodel_dict'
 op|'['
 string|"'topology'"
 op|']'
-op|'['
-string|"'sockets'"
-op|']'
+op|'.'
+name|'sockets'
 op|','
 nl|'\n'
 name|'model'
