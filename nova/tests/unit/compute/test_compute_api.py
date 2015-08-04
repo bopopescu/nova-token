@@ -9165,10 +9165,10 @@ op|'('
 op|')'
 newline|'\n'
 nl|'\n'
-DECL|member|test_revert_resize_concurent_fail
+DECL|member|test_revert_resize_concurrent_fail
 dedent|''
 name|'def'
-name|'test_revert_resize_concurent_fail'
+name|'test_revert_resize_concurrent_fail'
 op|'('
 name|'self'
 op|')'

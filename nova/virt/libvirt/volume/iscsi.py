@@ -143,7 +143,7 @@ string|"'the form <transport_name>.<hwaddress> where '"
 nl|'\n'
 string|"'<transport_name> is one of (be2iscsi, bnx2i, cxgb3i, '"
 nl|'\n'
-string|"'cxgb4i, qla4xxx, ocs) and <hwadress> is the MAC address '"
+string|"'cxgb4i, qla4xxx, ocs) and <hwaddress> is the MAC address '"
 nl|'\n'
 string|"'of the interface and can be generated via the '"
 nl|'\n'
