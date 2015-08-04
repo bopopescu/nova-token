@@ -43,5 +43,10 @@ name|'PORTBINDING_EXT'
 op|'='
 string|"'Port Binding'"
 newline|'\n'
+DECL|variable|VNIC_INDEX_EXT
+name|'VNIC_INDEX_EXT'
+op|'='
+string|"'VNIC Index'"
+newline|'\n'
 endmarker|''
 end_unit
