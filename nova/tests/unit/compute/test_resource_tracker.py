@@ -1842,11 +1842,6 @@ op|':'
 name|'None'
 op|','
 nl|'\n'
-string|"'scheduled_at'"
-op|':'
-name|'None'
-op|','
-nl|'\n'
 string|"'access_ip_v6'"
 op|':'
 name|'None'
