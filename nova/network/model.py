@@ -142,6 +142,11 @@ name|'VIF_TYPE_MLNX_DIRECT'
 op|'='
 string|"'mlnx_direct'"
 newline|'\n'
+DECL|variable|VIF_TYPE_IB_HOSTDEV
+name|'VIF_TYPE_IB_HOSTDEV'
+op|'='
+string|"'ib_hostdev'"
+newline|'\n'
 DECL|variable|VIF_TYPE_MIDONET
 name|'VIF_TYPE_MIDONET'
 op|'='
