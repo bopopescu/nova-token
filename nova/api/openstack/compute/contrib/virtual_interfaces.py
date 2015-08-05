@@ -99,9 +99,8 @@ string|"'id'"
 op|']'
 op|'='
 name|'vif'
-op|'['
-string|"'uuid'"
-op|']'
+op|'.'
+name|'uuid'
 newline|'\n'
 name|'d'
 op|'['
@@ -109,9 +108,8 @@ string|"'mac_address'"
 op|']'
 op|'='
 name|'vif'
-op|'['
-string|"'address'"
-op|']'
+op|'.'
+name|'address'
 newline|'\n'
 name|'return'
 name|'d'
