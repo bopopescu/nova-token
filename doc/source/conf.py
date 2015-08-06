@@ -390,6 +390,22 @@ op|')'
 op|','
 nl|'\n'
 op|'('
+string|"'man/nova-cells'"
+op|','
+string|"'nova-cells'"
+op|','
+string|"u'Cloud controller fabric'"
+op|','
+nl|'\n'
+op|'['
+string|"u'OpenStack'"
+op|']'
+op|','
+number|'1'
+op|')'
+op|','
+nl|'\n'
+op|'('
 string|"'man/nova-cert'"
 op|','
 string|"'nova-cert'"
