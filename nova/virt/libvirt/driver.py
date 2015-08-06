@@ -1571,6 +1571,9 @@ nl|'\n'
 string|"'quobyte=nova.virt.libvirt.volume.quobyte.LibvirtQuobyteVolumeDriver'"
 op|','
 nl|'\n'
+string|"'hgst=nova.virt.libvirt.volume.hgst.LibvirtHGSTVolumeDriver'"
+op|','
+nl|'\n'
 op|']'
 newline|'\n'
 nl|'\n'
