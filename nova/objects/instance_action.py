@@ -684,7 +684,6 @@ op|','
 string|"'1.1'"
 op|')'
 op|']'
-op|','
 nl|'\n'
 op|'}'
 newline|'\n'
@@ -1468,8 +1467,13 @@ name|'NovaObject'
 op|')'
 op|':'
 newline|'\n'
-DECL|variable|fields
+DECL|variable|VERSION
 indent|'    '
+name|'VERSION'
+op|'='
+string|"'1.1'"
+newline|'\n'
+DECL|variable|fields
 name|'fields'
 op|'='
 op|'{'
