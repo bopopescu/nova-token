@@ -10871,9 +10871,15 @@ name|'self'
 op|')'
 op|':'
 newline|'\n'
+comment|"# Test to make sure obj_make_compatible works with no 'objects'"
+nl|'\n'
+comment|'# If a List object ever has a version that did not contain the'
+nl|'\n'
+comment|"# 'objects' key, we need to make sure converting back to that version"
+nl|'\n'
+comment|"# doesn't cause backporting problems."
+nl|'\n'
 indent|'        '
-string|'"""Test to make sure obj_make_compatible works with no \'objects\'\n\n        If a List object ever has a version that did not contain the \'objects\'\n        key, we need to make sure converting back to that version doesn\'t\n        cause backporting problems.\n        """'
-newline|'\n'
 op|'@'
 name|'base'
 op|'.'
