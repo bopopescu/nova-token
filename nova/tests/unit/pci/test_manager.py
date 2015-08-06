@@ -964,7 +964,7 @@ name|'mock'
 op|'.'
 name|'patch'
 op|'('
-string|"'nova.pci.whitelist.PciHostDevicesWhiteList.device_assignable'"
+string|"'nova.pci.whitelist.Whitelist.device_assignable'"
 op|','
 nl|'\n'
 name|'return_value'
