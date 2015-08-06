@@ -1541,7 +1541,7 @@ nl|'\n'
 string|"'sheepdog=nova.virt.libvirt.volume.volume.LibvirtNetVolumeDriver'"
 op|','
 nl|'\n'
-string|"'nfs=nova.virt.libvirt.volume.volume.LibvirtNFSVolumeDriver'"
+string|"'nfs=nova.virt.libvirt.volume.nfs.LibvirtNFSVolumeDriver'"
 op|','
 nl|'\n'
 string|"'smbfs=nova.virt.libvirt.volume.smbfs.LibvirtSMBFSVolumeDriver'"
