@@ -449,7 +449,7 @@ name|'import_opt'
 op|'('
 string|"'rbd_user'"
 op|','
-string|"'nova.virt.libvirt.volume.volume'"
+string|"'nova.virt.libvirt.volume.net'"
 op|','
 name|'group'
 op|'='
@@ -462,7 +462,7 @@ name|'import_opt'
 op|'('
 string|"'rbd_secret_uuid'"
 op|','
-string|"'nova.virt.libvirt.volume.volume'"
+string|"'nova.virt.libvirt.volume.net'"
 op|','
 nl|'\n'
 DECL|variable|group
