@@ -8657,12 +8657,12 @@ op|','
 nl|'\n'
 string|"'ImageMeta'"
 op|':'
-string|"'1.4-642d1b2eb3e880a367f37d72dd76162d'"
+string|"'1.5-642d1b2eb3e880a367f37d72dd76162d'"
 op|','
 nl|'\n'
 string|"'ImageMetaProps'"
 op|':'
-string|"'1.4-ae965c3b7a0ce2dc0f714cfec554ca76'"
+string|"'1.5-93a74996a8d3c2aa821fddab301a9b1a'"
 op|','
 nl|'\n'
 string|"'Instance'"
@@ -9093,7 +9093,7 @@ op|':'
 op|'{'
 string|"'ImageMetaProps'"
 op|':'
-string|"'1.4'"
+string|"'1.5'"
 op|'}'
 op|','
 nl|'\n'
