@@ -360,11 +360,6 @@ nl|'\n'
 string|"'extra_headers'"
 op|':'
 op|'{'
-string|"'X-Service-Catalog'"
-op|':'
-string|"'[]'"
-op|','
-nl|'\n'
 string|"'X-Auth-Token'"
 op|':'
 string|"'foobar'"
