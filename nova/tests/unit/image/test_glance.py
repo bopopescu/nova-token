@@ -1267,11 +1267,6 @@ op|':'
 string|"'fake'"
 op|','
 nl|'\n'
-string|"'X-Service-Catalog'"
-op|':'
-string|"'[]'"
-op|','
-nl|'\n'
 string|"'X-Identity-Status'"
 op|':'
 string|"'Confirmed'"
@@ -1357,11 +1352,6 @@ nl|'\n'
 string|"'X-Tenant-Id'"
 op|':'
 string|"'fake'"
-op|','
-nl|'\n'
-string|"'X-Service-Catalog'"
-op|':'
-string|"'[]'"
 op|','
 nl|'\n'
 string|"'X-Identity-Status'"
