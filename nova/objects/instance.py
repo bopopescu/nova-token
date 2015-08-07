@@ -498,11 +498,13 @@ comment|'# Version 1.20: Added ec2_ids'
 nl|'\n'
 comment|'# Version 1.21: TagList 1.1'
 nl|'\n'
+comment|'# Version 1.22: InstanceNUMATopology 1.2'
+nl|'\n'
 DECL|variable|VERSION
 indent|'    '
 name|'VERSION'
 op|'='
-string|"'1.21'"
+string|"'1.22'"
 newline|'\n'
 nl|'\n'
 DECL|variable|fields
@@ -1393,6 +1395,12 @@ op|'('
 string|"'1.16'"
 op|','
 string|"'1.1'"
+op|')'
+op|','
+op|'('
+string|"'1.22'"
+op|','
+string|"'1.2'"
 op|')'
 op|']'
 op|','
@@ -6695,11 +6703,13 @@ comment|'# Version 1.18: Instance <= version 1.21'
 nl|'\n'
 comment|'# Version 1.19: Erronenous removal of get_hung_in_rebooting(). Reverted.'
 nl|'\n'
+comment|'# Version 1.20: Instance <= version 1.22'
+nl|'\n'
 DECL|variable|VERSION
 indent|'    '
 name|'VERSION'
 op|'='
-string|"'1.19'"
+string|"'1.20'"
 newline|'\n'
 nl|'\n'
 DECL|variable|fields
@@ -6848,6 +6858,12 @@ op|'('
 string|"'1.19'"
 op|','
 string|"'1.21'"
+op|')'
+op|','
+op|'('
+string|"'1.20'"
+op|','
+string|"'1.22'"
 op|')'
 op|']'
 op|','
