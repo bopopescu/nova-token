@@ -62,6 +62,7 @@ name|'cfg'
 op|'.'
 name|'MultiStrOpt'
 op|'('
+nl|'\n'
 string|"'osapi_compute_extension'"
 op|','
 nl|'\n'
@@ -69,9 +70,9 @@ DECL|variable|default
 name|'default'
 op|'='
 op|'['
+string|"'nova.api.openstack.compute.legacy_v2.contrib.'"
 nl|'\n'
-string|"'nova.api.openstack.compute.contrib.standard_extensions'"
-nl|'\n'
+string|"'standard_extensions'"
 op|']'
 op|','
 nl|'\n'

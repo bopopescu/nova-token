@@ -80,7 +80,7 @@ string|"'Specify list of extensions to load when using osapi_'"
 nl|'\n'
 string|"'compute_extension option with nova.api.openstack.'"
 nl|'\n'
-string|"'compute.contrib.select_extensions'"
+string|"'compute.legacy_v2.contrib.select_extensions'"
 op|')'
 op|','
 nl|'\n'

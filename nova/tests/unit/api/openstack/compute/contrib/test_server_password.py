@@ -56,6 +56,8 @@ name|'openstack'
 op|'.'
 name|'compute'
 op|'.'
+name|'legacy_v2'
+op|'.'
 name|'contrib'
 name|'import'
 name|'server_password'
@@ -131,7 +133,8 @@ name|'import_opt'
 op|'('
 string|"'osapi_compute_ext_list'"
 op|','
-string|"'nova.api.openstack.compute.contrib'"
+nl|'\n'
+string|"'nova.api.openstack.compute.legacy_v2.contrib'"
 op|')'
 newline|'\n'
 nl|'\n'
