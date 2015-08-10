@@ -70,11 +70,13 @@ op|':'
 newline|'\n'
 comment|'# Version 1.0: Initial version'
 nl|'\n'
+comment|'# Version 1.1: ImageMeta version 1.6'
+nl|'\n'
 DECL|variable|VERSION
 indent|'    '
 name|'VERSION'
 op|'='
-string|"'1.0'"
+string|"'1.1'"
 newline|'\n'
 nl|'\n'
 DECL|variable|fields
@@ -307,6 +309,12 @@ op|'('
 string|"'1.0'"
 op|','
 string|"'1.5'"
+op|')'
+op|','
+op|'('
+string|"'1.1'"
+op|','
+string|"'1.6'"
 op|')'
 op|']'
 op|','
