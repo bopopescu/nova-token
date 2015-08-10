@@ -125,7 +125,7 @@ op|'('
 string|"'enable_instance_password'"
 op|','
 nl|'\n'
-string|"'nova.api.openstack.compute.servers'"
+string|"'nova.api.openstack.compute.legacy_v2.servers'"
 op|')'
 newline|'\n'
 nl|'\n'

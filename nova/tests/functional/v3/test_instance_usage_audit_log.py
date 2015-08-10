@@ -64,7 +64,7 @@ op|'('
 string|"'osapi_compute_extension'"
 op|','
 nl|'\n'
-string|"'nova.api.openstack.compute.extensions'"
+string|"'nova.api.openstack.compute.legacy_v2.extensions'"
 op|')'
 newline|'\n'
 nl|'\n'
