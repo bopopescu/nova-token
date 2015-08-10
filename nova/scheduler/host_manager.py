@@ -225,6 +225,9 @@ nl|'\n'
 string|"'RamFilter'"
 op|','
 nl|'\n'
+string|"'DiskFilter'"
+op|','
+nl|'\n'
 string|"'ComputeFilter'"
 op|','
 nl|'\n'
