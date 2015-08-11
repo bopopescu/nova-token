@@ -193,6 +193,12 @@ op|'='
 name|'False'
 op|','
 nl|'\n'
+DECL|variable|deprecated_for_removal
+name|'deprecated_for_removal'
+op|'='
+name|'True'
+op|','
+nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
