@@ -5947,7 +5947,11 @@ op|','
 nl|'\n'
 string|"'dev_type'"
 op|':'
-string|"'t'"
+name|'fields'
+op|'.'
+name|'PciDeviceType'
+op|'.'
+name|'STANDARD'
 op|','
 nl|'\n'
 string|"'status'"
@@ -6039,7 +6043,11 @@ op|','
 nl|'\n'
 string|"'dev_type'"
 op|':'
-string|"'t'"
+name|'fields'
+op|'.'
+name|'PciDeviceType'
+op|'.'
+name|'STANDARD'
 op|','
 nl|'\n'
 string|"'status'"

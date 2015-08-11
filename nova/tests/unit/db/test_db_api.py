@@ -68753,7 +68753,11 @@ op|','
 nl|'\n'
 string|"'dev_type'"
 op|':'
-string|"'type-VF'"
+name|'fields'
+op|'.'
+name|'PciDeviceType'
+op|'.'
+name|'SRIOV_VF'
 op|','
 nl|'\n'
 string|"'dev_id'"
@@ -68825,7 +68829,11 @@ op|','
 nl|'\n'
 string|"'dev_type'"
 op|':'
-string|"'type-VF'"
+name|'fields'
+op|'.'
+name|'PciDeviceType'
+op|'.'
+name|'SRIOV_VF'
 op|','
 nl|'\n'
 string|"'dev_id'"

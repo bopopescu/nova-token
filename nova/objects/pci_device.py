@@ -290,7 +290,7 @@ string|"'dev_type'"
 op|':'
 name|'fields'
 op|'.'
-name|'StringField'
+name|'PciDeviceTypeField'
 op|'('
 op|')'
 op|','
