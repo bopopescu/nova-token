@@ -204,6 +204,12 @@ DECL|variable|_ETHERNET_PORT_ALLOCATION_SETTING_DATA_CLASS
 string|"'Msvm_EthernetPortAllocationSettingData'"
 newline|'\n'
 nl|'\n'
+DECL|variable|_VIRT_DISK_CONNECTION_ATTR
+name|'_VIRT_DISK_CONNECTION_ATTR'
+op|'='
+string|'"HostResource"'
+newline|'\n'
+nl|'\n'
 DECL|variable|_AUTOMATIC_STARTUP_ACTION_NONE
 name|'_AUTOMATIC_STARTUP_ACTION_NONE'
 op|'='
