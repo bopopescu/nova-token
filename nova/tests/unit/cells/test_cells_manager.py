@@ -6030,6 +6030,11 @@ op|'.'
 name|'ctxt'
 op|','
 string|"'fake-instance'"
+op|','
+nl|'\n'
+name|'delete_type'
+op|'='
+string|"'delete'"
 op|')'
 newline|'\n'
 name|'self'
@@ -6054,6 +6059,11 @@ nl|'\n'
 name|'instance'
 op|'='
 string|"'fake-instance'"
+op|','
+nl|'\n'
+name|'delete_type'
+op|'='
+string|"'delete'"
 op|')'
 newline|'\n'
 nl|'\n'
