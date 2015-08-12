@@ -126,7 +126,9 @@ name|'import_opt'
 op|'('
 string|"'fping_path'"
 op|','
-string|"'nova.api.openstack.compute.contrib.fping'"
+string|"'nova.api.openstack.compute.legacy_v2.contrib.'"
+nl|'\n'
+string|"'fping'"
 op|')'
 newline|'\n'
 nl|'\n'

@@ -153,8 +153,9 @@ name|'import_opt'
 op|'('
 string|"'enable_network_quota'"
 op|','
+string|"'nova.api.openstack.compute.'"
 nl|'\n'
-string|"'nova.api.openstack.compute.contrib.os_tenant_networks'"
+string|"'legacy_v2.contrib.os_tenant_networks'"
 op|')'
 newline|'\n'
 name|'CONF'
@@ -163,8 +164,9 @@ name|'import_opt'
 op|'('
 string|"'use_neutron_default_nets'"
 op|','
+string|"'nova.api.openstack.compute.'"
 nl|'\n'
-string|"'nova.api.openstack.compute.contrib.os_tenant_networks'"
+string|"'legacy_v2.contrib.os_tenant_networks'"
 op|')'
 newline|'\n'
 name|'CONF'
@@ -173,8 +175,9 @@ name|'import_opt'
 op|'('
 string|"'neutron_default_tenant_id'"
 op|','
+string|"'nova.api.openstack.compute.'"
 nl|'\n'
-string|"'nova.api.openstack.compute.contrib.os_tenant_networks'"
+string|"'legacy_v2.contrib.os_tenant_networks'"
 op|')'
 newline|'\n'
 name|'CONF'
@@ -183,8 +186,9 @@ name|'import_opt'
 op|'('
 string|"'quota_networks'"
 op|','
+string|"'nova.api.openstack.compute.'"
 nl|'\n'
-string|"'nova.api.openstack.compute.contrib.os_tenant_networks'"
+string|"'legacy_v2.contrib.os_tenant_networks'"
 op|')'
 newline|'\n'
 nl|'\n'

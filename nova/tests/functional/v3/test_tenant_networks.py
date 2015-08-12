@@ -71,7 +71,9 @@ op|'('
 string|"'enable_network_quota'"
 op|','
 nl|'\n'
-string|"'nova.api.openstack.compute.contrib.os_tenant_networks'"
+string|"'nova.api.openstack.compute.legacy_v2.contrib.'"
+nl|'\n'
+string|"'os_tenant_networks'"
 op|')'
 newline|'\n'
 name|'CONF'
