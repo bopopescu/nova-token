@@ -109,7 +109,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""Manage pci devices in a compute node.\n\n    This class fetches pci passthrough information from hypervisor\n    and trackes the usage of these devices.\n\n    It\'s called by compute node resource tracker to allocate and free\n    devices to/from instances, and to update the available pci passthrough\n    devices information from hypervisor periodically. The devices\n    information is updated to DB when devices information is changed.\n    """'
+string|'"""Manage pci devices in a compute node.\n\n    This class fetches pci passthrough information from hypervisor\n    and tracks the usage of these devices.\n\n    It\'s called by compute node resource tracker to allocate and free\n    devices to/from instances, and to update the available pci passthrough\n    devices information from hypervisor periodically. The devices\n    information is updated to DB when devices information is changed.\n    """'
 newline|'\n'
 nl|'\n'
 DECL|member|__init__

@@ -109,7 +109,7 @@ string|"'all the PCI property requirements. For example: '"
 nl|'\n'
 string|"'pci_alias = '"
 nl|'\n'
-string|'\'{ "name": "QuicAssist", \''
+string|'\'{ "name": "QuickAssist", \''
 nl|'\n'
 string|'\'  "product_id": "0443", \''
 nl|'\n'
