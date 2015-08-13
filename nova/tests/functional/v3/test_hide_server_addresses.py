@@ -67,7 +67,7 @@ op|'('
 string|"'osapi_hide_server_address_states'"
 op|','
 nl|'\n'
-string|"'nova.api.openstack.compute.plugins.v3.hide_server_addresses'"
+string|"'nova.api.openstack.compute.hide_server_addresses'"
 op|')'
 newline|'\n'
 name|'CONF'
