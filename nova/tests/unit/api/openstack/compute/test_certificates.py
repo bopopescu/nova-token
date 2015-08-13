@@ -146,7 +146,7 @@ newline|'\n'
 DECL|variable|url
 name|'url'
 op|'='
-string|"'/v3/os-certificates'"
+string|"'/v2/fake/os-certificates'"
 newline|'\n'
 DECL|variable|certificate_show_extension
 name|'certificate_show_extension'
@@ -721,11 +721,6 @@ indent|'    '
 name|'certificates'
 op|'='
 name|'certificates_v2'
-newline|'\n'
-DECL|variable|url
-name|'url'
-op|'='
-string|"'/v2/fake/os-certificates'"
 newline|'\n'
 DECL|variable|certificate_show_extension
 name|'certificate_show_extension'
