@@ -177,6 +177,11 @@ name|'VIF_TYPE_MACVTAP'
 op|'='
 string|"'macvtap'"
 newline|'\n'
+DECL|variable|VIF_TYPE_BINDING_FAILED
+name|'VIF_TYPE_BINDING_FAILED'
+op|'='
+string|"'binding_failed'"
+newline|'\n'
 nl|'\n'
 comment|"# Constants for dictionary keys in the 'vif_details' field in the VIF"
 nl|'\n'
