@@ -1640,6 +1640,12 @@ nl|'\n'
 string|"'forced_down'"
 op|':'
 name|'False'
+op|','
+nl|'\n'
+string|"'version'"
+op|':'
+number|'0'
+op|','
 nl|'\n'
 op|'}'
 newline|'\n'
