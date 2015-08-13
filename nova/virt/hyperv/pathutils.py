@@ -1646,7 +1646,7 @@ string|"'Unable to mount SMBFS share: %(smbfs_share)s '"
 nl|'\n'
 string|"'WMI exception: %(wmi_exc)s'"
 op|')'
-op|','
+op|'%'
 op|'{'
 string|"'smbfs_share'"
 op|':'
@@ -1779,7 +1779,7 @@ name|'_'
 op|'('
 string|'"Could not unmount share: %s"'
 op|')'
-op|','
+op|'%'
 name|'smbfs_share'
 op|')'
 newline|'\n'
