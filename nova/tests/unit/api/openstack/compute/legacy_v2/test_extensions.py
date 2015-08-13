@@ -786,7 +786,7 @@ newline|'\n'
 name|'fox'
 op|'='
 op|'('
-string|"'nova.tests.unit.api.openstack.compute.extensions.'"
+string|"'nova.tests.unit.api.openstack.compute.legacy_v2.extensions.'"
 nl|'\n'
 string|"'foxinsocks.Foxinsocks'"
 op|')'
