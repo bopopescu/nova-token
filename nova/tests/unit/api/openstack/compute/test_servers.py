@@ -2149,7 +2149,7 @@ indent|'        '
 name|'cls'
 op|'='
 op|'('
-string|"'nova.tests.unit.api.openstack.compute.plugins.v3'"
+string|"'nova.tests.unit.api.openstack.compute'"
 nl|'\n'
 string|"'.test_servers.NeutronV2Subclass'"
 op|')'
