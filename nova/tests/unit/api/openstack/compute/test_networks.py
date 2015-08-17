@@ -3392,7 +3392,7 @@ name|'mock'
 op|'.'
 name|'patch'
 op|'('
-string|"'nova.tests.unit.api.openstack.compute.contrib.test_networks.'"
+string|"'nova.tests.unit.api.openstack.compute.test_networks.'"
 nl|'\n'
 string|"'FakeNetworkAPI.add_network_to_project'"
 op|','
@@ -3462,7 +3462,7 @@ name|'mock'
 op|'.'
 name|'patch'
 op|'('
-string|"'nova.tests.unit.api.openstack.compute.contrib.test_networks.'"
+string|"'nova.tests.unit.api.openstack.compute.test_networks.'"
 nl|'\n'
 string|"'FakeNetworkAPI.add_network_to_project'"
 op|','
