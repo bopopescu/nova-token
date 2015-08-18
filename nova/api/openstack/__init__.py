@@ -1873,13 +1873,9 @@ op|'('
 op|')'
 op|':'
 newline|'\n'
-comment|'# TODO(oomichi): This namespaces will be changed after moving all v3'
-nl|'\n'
-comment|'# APIs to v2.1.'
-nl|'\n'
 indent|'        '
 name|'return'
-string|"'nova.api.v3.extensions'"
+string|"'nova.api.v21.extensions'"
 newline|'\n'
 nl|'\n'
 DECL|member|__init__
