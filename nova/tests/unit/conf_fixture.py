@@ -445,7 +445,7 @@ string|"'enabled'"
 op|','
 name|'True'
 op|','
-string|"'osapi_v3'"
+string|"'osapi_v21'"
 op|')'
 newline|'\n'
 name|'self'

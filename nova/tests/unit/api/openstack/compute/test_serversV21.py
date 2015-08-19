@@ -26786,7 +26786,7 @@ string|"'os-disk-config'"
 op|']'
 op|','
 nl|'\n'
-string|"'osapi_v3'"
+string|"'osapi_v21'"
 op|')'
 newline|'\n'
 name|'self'
@@ -27003,7 +27003,7 @@ op|'['
 string|"'disk_config'"
 op|']'
 op|','
-string|"'osapi_v3'"
+string|"'osapi_v21'"
 op|')'
 newline|'\n'
 nl|'\n'

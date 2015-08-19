@@ -424,7 +424,7 @@ op|'['
 string|"'os-hosts'"
 op|']'
 op|','
-string|"'osapi_v3'"
+string|"'osapi_v21'"
 op|')'
 newline|'\n'
 name|'app'
@@ -673,7 +673,7 @@ string|"'os-hosts'"
 op|']'
 op|','
 nl|'\n'
-string|"'osapi_v3'"
+string|"'osapi_v21'"
 op|')'
 newline|'\n'
 name|'app'
@@ -772,7 +772,7 @@ op|'['
 string|"'servers'"
 op|']'
 op|','
-string|"'osapi_v3'"
+string|"'osapi_v21'"
 op|')'
 newline|'\n'
 name|'app'
@@ -874,7 +874,7 @@ string|"'os-hosts'"
 op|']'
 op|','
 nl|'\n'
-string|"'osapi_v3'"
+string|"'osapi_v21'"
 op|')'
 newline|'\n'
 name|'CONF'
@@ -887,7 +887,7 @@ op|'['
 string|"'os-hosts'"
 op|']'
 op|','
-string|"'osapi_v3'"
+string|"'osapi_v21'"
 op|')'
 newline|'\n'
 name|'app'

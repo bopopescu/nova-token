@@ -305,7 +305,7 @@ op|','
 string|"'os-user-data'"
 op|','
 nl|'\n'
-string|"'osapi_v3'"
+string|"'osapi_v21'"
 op|')'
 newline|'\n'
 name|'self'

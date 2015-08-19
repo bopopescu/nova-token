@@ -348,7 +348,7 @@ op|','
 string|"'os-multiple-create'"
 op|','
 nl|'\n'
-string|"'osapi_v3'"
+string|"'osapi_v21'"
 op|')'
 newline|'\n'
 name|'self'

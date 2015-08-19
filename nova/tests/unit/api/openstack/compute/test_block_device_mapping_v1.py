@@ -215,7 +215,7 @@ op|','
 string|"'os-block-device-mapping'"
 op|','
 nl|'\n'
-string|"'osapi_v3'"
+string|"'osapi_v21'"
 op|')'
 newline|'\n'
 name|'self'
@@ -247,7 +247,7 @@ string|"'os-block-device-mapping'"
 op|']'
 op|','
 nl|'\n'
-string|"'osapi_v3'"
+string|"'osapi_v21'"
 op|')'
 newline|'\n'
 name|'self'
@@ -272,7 +272,7 @@ string|"'extensions_blacklist'"
 op|','
 string|"''"
 op|','
-string|"'osapi_v3'"
+string|"'osapi_v21'"
 op|')'
 newline|'\n'
 nl|'\n'
@@ -2207,7 +2207,7 @@ string|"'os-block-device-mapping-v1'"
 op|']'
 op|','
 nl|'\n'
-string|"'osapi_v3'"
+string|"'osapi_v21'"
 op|')'
 newline|'\n'
 name|'controller'
@@ -2411,7 +2411,7 @@ string|"'extensions_blacklist'"
 op|','
 string|"''"
 op|','
-string|"'osapi_v3'"
+string|"'osapi_v21'"
 op|')'
 newline|'\n'
 name|'both_controllers'

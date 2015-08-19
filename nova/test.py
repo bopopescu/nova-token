@@ -207,7 +207,7 @@ string|"'nova.api.openstack'"
 op|','
 name|'group'
 op|'='
-string|"'osapi_v3'"
+string|"'osapi_v21'"
 op|')'
 newline|'\n'
 nl|'\n'

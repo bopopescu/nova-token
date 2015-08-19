@@ -253,7 +253,7 @@ op|','
 string|"'os-block-device-mapping'"
 op|','
 nl|'\n'
-string|"'osapi_v3'"
+string|"'osapi_v21'"
 op|')'
 newline|'\n'
 name|'self'
@@ -278,7 +278,7 @@ string|"'extensions_blacklist'"
 op|','
 string|"''"
 op|','
-string|"'osapi_v3'"
+string|"'osapi_v21'"
 op|')'
 newline|'\n'
 nl|'\n'
