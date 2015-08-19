@@ -92,7 +92,7 @@ nl|'\n'
 DECL|variable|SERVICE_VERSION
 name|'SERVICE_VERSION'
 op|'='
-number|'1'
+number|'2'
 newline|'\n'
 nl|'\n'
 nl|'\n'
@@ -147,6 +147,15 @@ op|'{'
 string|"'compute_rpc'"
 op|':'
 string|"'4.4'"
+op|'}'
+op|','
+nl|'\n'
+comment|'# Version 2: Changes to rebuild_instance signature in the compute_rpc'
+nl|'\n'
+op|'{'
+string|"'compute_rpc'"
+op|':'
+string|"'4.5'"
 op|'}'
 op|','
 nl|'\n'
