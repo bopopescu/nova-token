@@ -2106,9 +2106,9 @@ op|'.'
 name|'ABCMeta'
 op|')'
 newline|'\n'
-DECL|class|V3APIExtensionBase
+DECL|class|V21APIExtensionBase
 name|'class'
-name|'V3APIExtensionBase'
+name|'V21APIExtensionBase'
 op|'('
 name|'object'
 op|')'

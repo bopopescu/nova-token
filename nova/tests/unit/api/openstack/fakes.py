@@ -1971,11 +1971,11 @@ name|'out'
 newline|'\n'
 nl|'\n'
 nl|'\n'
-DECL|class|HTTPRequestV3
+DECL|class|HTTPRequestV21
 dedent|''
 dedent|''
 name|'class'
-name|'HTTPRequestV3'
+name|'HTTPRequestV21'
 op|'('
 name|'os_wsgi'
 op|'.'
