@@ -20350,12 +20350,6 @@ name|'columns_to_join'
 op|'='
 op|'['
 string|"'system_metadata'"
-op|','
-nl|'\n'
-string|"'extra'"
-op|','
-nl|'\n'
-string|"'extra.flavor'"
 op|']'
 nl|'\n'
 op|')'
@@ -20608,10 +20602,6 @@ name|'columns_to_join'
 op|'='
 op|'['
 string|"'system_metadata'"
-op|','
-string|"'extra'"
-op|','
-string|"'extra.flavor'"
 op|']'
 op|','
 nl|'\n'
@@ -20673,10 +20663,6 @@ name|'columns_to_join'
 op|'='
 op|'['
 string|"'system_metadata'"
-op|','
-string|"'extra'"
-op|','
-string|"'extra.flavor'"
 op|']'
 op|','
 nl|'\n'
@@ -20728,10 +20714,6 @@ name|'columns_to_join'
 op|'='
 op|'['
 string|"'system_metadata'"
-op|','
-string|"'extra'"
-op|','
-string|"'extra.flavor'"
 op|']'
 op|','
 nl|'\n'
@@ -46409,11 +46391,6 @@ op|'['
 string|"'system_metadata'"
 op|','
 string|"'info_cache'"
-op|','
-nl|'\n'
-string|"'extra'"
-op|','
-string|"'extra.flavor'"
 op|']'
 op|','
 nl|'\n'
