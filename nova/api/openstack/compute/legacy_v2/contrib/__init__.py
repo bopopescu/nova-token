@@ -76,11 +76,21 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'Specify list of extensions to load when using osapi_'"
+string|"'DEPRECATED: Specify list of extensions to load when '"
 nl|'\n'
-string|"'compute_extension option with nova.api.openstack.'"
+string|"'using osapi_compute_extension option with nova.api.'"
 nl|'\n'
-string|"'compute.legacy_v2.contrib.select_extensions'"
+string|"'openstack.compute.legacy_v2.contrib.select_extensions '"
+nl|'\n'
+string|"'This option will be removed in the near future. '"
+nl|'\n'
+string|"'After that point you have to run all of the API.'"
+op|','
+nl|'\n'
+DECL|variable|deprecated_for_removal
+name|'deprecated_for_removal'
+op|'='
+name|'True'
 op|')'
 op|','
 nl|'\n'
