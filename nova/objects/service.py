@@ -216,11 +216,13 @@ comment|'# Version 1.15: ComputeNode version 1.12'
 nl|'\n'
 comment|'# Version 1.16: Added version'
 nl|'\n'
+comment|'# Version 1.17: ComputeNode version 1.13'
+nl|'\n'
 DECL|variable|VERSION
 indent|'    '
 name|'VERSION'
 op|'='
-string|"'1.16'"
+string|"'1.17'"
 newline|'\n'
 nl|'\n'
 DECL|variable|fields
@@ -417,6 +419,12 @@ op|'('
 string|"'1.15'"
 op|','
 string|"'1.12'"
+op|')'
+op|','
+op|'('
+string|"'1.17'"
+op|','
+string|"'1.13'"
 op|')'
 op|']'
 op|','
@@ -1519,11 +1527,13 @@ comment|'# Version 1.13: Service version 1.15'
 nl|'\n'
 comment|'# Version 1.14: Service version 1.16'
 nl|'\n'
+comment|'# Version 1.15: Service version 1.17'
+nl|'\n'
 DECL|variable|VERSION
 indent|'    '
 name|'VERSION'
 op|'='
-string|"'1.14'"
+string|"'1.15'"
 newline|'\n'
 nl|'\n'
 DECL|variable|fields
@@ -1645,6 +1655,13 @@ op|'('
 string|"'1.14'"
 op|','
 string|"'1.16'"
+op|')'
+op|','
+nl|'\n'
+op|'('
+string|"'1.15'"
+op|','
+string|"'1.17'"
 op|')'
 op|']'
 op|','
