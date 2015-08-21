@@ -573,7 +573,10 @@ op|'('
 nl|'\n'
 name|'reason'
 op|'='
-string|"'The backlog must be more than 1'"
+name|'_'
+op|'('
+string|"'The backlog must be more than 0'"
+op|')'
 op|')'
 newline|'\n'
 nl|'\n'
