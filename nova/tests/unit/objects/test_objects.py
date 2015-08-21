@@ -8525,12 +8525,12 @@ op|','
 nl|'\n'
 string|"'ComputeNode'"
 op|':'
-string|"'1.13-1e370701d1d10a88d94c02c34098d2a9'"
+string|"'1.14-a396975707b66281c5f404a68fccd395'"
 op|','
 nl|'\n'
 string|"'ComputeNodeList'"
 op|':'
-string|"'1.13-3b6f4f5ade621c40e70cb116db237844'"
+string|"'1.14-3b6f4f5ade621c40e70cb116db237844'"
 op|','
 nl|'\n'
 string|"'DNSDomain'"
@@ -8805,7 +8805,7 @@ op|','
 nl|'\n'
 string|"'RequestSpec'"
 op|':'
-string|"'1.1-6922fe208b5d1186bdd825513f677921'"
+string|"'1.2-6922fe208b5d1186bdd825513f677921'"
 op|','
 nl|'\n'
 string|"'S3ImageMapping'"
@@ -8820,7 +8820,7 @@ op|','
 nl|'\n'
 string|"'SchedulerRetries'"
 op|':'
-string|"'1.0-3c9c8b16143ebbb6ad7030e999d14cc0'"
+string|"'1.1-3c9c8b16143ebbb6ad7030e999d14cc0'"
 op|','
 nl|'\n'
 string|"'SecurityGroup'"
@@ -8845,12 +8845,12 @@ op|','
 nl|'\n'
 string|"'Service'"
 op|':'
-string|"'1.17-f1c6e82b5479f63e35970fe7625c3878'"
+string|"'1.18-f1c6e82b5479f63e35970fe7625c3878'"
 op|','
 nl|'\n'
 string|"'ServiceList'"
 op|':'
-string|"'1.15-b767102cba7cbed290e396114c3f86b3'"
+string|"'1.16-b767102cba7cbed290e396114c3f86b3'"
 op|','
 nl|'\n'
 string|"'TaskLog'"

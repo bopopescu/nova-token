@@ -591,6 +591,16 @@ op|':'
 string|"'fake_phyp1'"
 op|','
 nl|'\n'
+string|"'cpu_allocation_ratio'"
+op|':'
+name|'None'
+op|','
+nl|'\n'
+string|"'ram_allocation_ratio'"
+op|':'
+name|'None'
+op|','
+nl|'\n'
 string|"'host_ip'"
 op|':'
 string|"'127.0.0.1'"

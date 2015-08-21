@@ -72,11 +72,13 @@ comment|'# Version 1.0: Initial version'
 nl|'\n'
 comment|'# Version 1.1: ImageMeta version 1.6'
 nl|'\n'
+comment|'# Version 1.2: SchedulerRetries version 1.1'
+nl|'\n'
 DECL|variable|VERSION
 indent|'    '
 name|'VERSION'
 op|'='
-string|"'1.1'"
+string|"'1.2'"
 newline|'\n'
 nl|'\n'
 DECL|variable|fields
@@ -359,6 +361,12 @@ op|'('
 string|"'1.0'"
 op|','
 string|"'1.0'"
+op|')'
+op|','
+op|'('
+string|"'1.2'"
+op|','
+string|"'1.1'"
 op|')'
 op|']'
 op|','
@@ -1307,11 +1315,13 @@ op|':'
 newline|'\n'
 comment|'# Version 1.0: Initial version'
 nl|'\n'
+comment|'# Version 1.1: ComputeNodeList version 1.14'
+nl|'\n'
 DECL|variable|VERSION
 indent|'    '
 name|'VERSION'
 op|'='
-string|"'1.0'"
+string|"'1.1'"
 newline|'\n'
 nl|'\n'
 DECL|variable|fields
@@ -1357,6 +1367,12 @@ op|'('
 string|"'1.0'"
 op|','
 string|"'1.13'"
+op|')'
+op|','
+op|'('
+string|"'1.1'"
+op|','
+string|"'1.14'"
 op|')'
 op|']'
 op|','
