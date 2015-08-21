@@ -242,7 +242,7 @@ string|"'ISCSI'"
 op|','
 name|'utils'
 op|'.'
-name|'_get_root_helper'
+name|'get_root_helper'
 op|'('
 op|')'
 op|','
