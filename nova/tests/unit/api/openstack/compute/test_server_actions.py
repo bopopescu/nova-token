@@ -886,9 +886,9 @@ nl|'\n'
 name|'expected_attrs'
 op|'='
 op|'['
-string|"'pci_devices'"
-op|','
 string|"'flavor'"
+op|','
+string|"'pci_devices'"
 op|']'
 op|','
 nl|'\n'
