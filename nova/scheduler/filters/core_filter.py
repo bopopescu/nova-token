@@ -80,35 +80,6 @@ name|'__name__'
 op|')'
 newline|'\n'
 nl|'\n'
-DECL|variable|cpu_allocation_ratio_opt
-name|'cpu_allocation_ratio_opt'
-op|'='
-name|'cfg'
-op|'.'
-name|'FloatOpt'
-op|'('
-string|"'cpu_allocation_ratio'"
-op|','
-nl|'\n'
-DECL|variable|default
-name|'default'
-op|'='
-number|'16.0'
-op|','
-nl|'\n'
-DECL|variable|help
-name|'help'
-op|'='
-string|"'Virtual CPU to physical CPU allocation ratio which affects '"
-nl|'\n'
-string|"'all CPU filters. This configuration specifies a global ratio '"
-nl|'\n'
-string|"'for CoreFilter. For AggregateCoreFilter, it will fall back to '"
-nl|'\n'
-string|"'this configuration value if no per-aggregate setting found.'"
-op|')'
-newline|'\n'
-nl|'\n'
 DECL|variable|CONF
 name|'CONF'
 op|'='
@@ -116,11 +87,18 @@ name|'cfg'
 op|'.'
 name|'CONF'
 newline|'\n'
+nl|'\n'
+comment|'# TODO(sbauza): Remove the import once all compute nodes are reporting the'
+nl|'\n'
+comment|'# allocation ratio to the HostState'
+nl|'\n'
 name|'CONF'
 op|'.'
-name|'register_opt'
+name|'import_opt'
 op|'('
-name|'cpu_allocation_ratio_opt'
+string|"'cpu_allocation_ratio'"
+op|','
+string|"'nova.compute.resource_tracker'"
 op|')'
 newline|'\n'
 nl|'\n'

@@ -78,35 +78,6 @@ name|'__name__'
 op|')'
 newline|'\n'
 nl|'\n'
-DECL|variable|ram_allocation_ratio_opt
-name|'ram_allocation_ratio_opt'
-op|'='
-name|'cfg'
-op|'.'
-name|'FloatOpt'
-op|'('
-string|"'ram_allocation_ratio'"
-op|','
-nl|'\n'
-DECL|variable|default
-name|'default'
-op|'='
-number|'1.5'
-op|','
-nl|'\n'
-DECL|variable|help
-name|'help'
-op|'='
-string|"'Virtual ram to physical ram allocation ratio which affects '"
-nl|'\n'
-string|"'all ram filters. This configuration specifies a global ratio '"
-nl|'\n'
-string|"'for RamFilter. For AggregateRamFilter, it will fall back to '"
-nl|'\n'
-string|"'this configuration value if no per-aggregate setting found.'"
-op|')'
-newline|'\n'
-nl|'\n'
 DECL|variable|CONF
 name|'CONF'
 op|'='
@@ -114,11 +85,18 @@ name|'cfg'
 op|'.'
 name|'CONF'
 newline|'\n'
+nl|'\n'
+comment|'# TODO(sbauza): Remove the import once all compute nodes are reporting the'
+nl|'\n'
+comment|'# allocation ratio to the HostState'
+nl|'\n'
 name|'CONF'
 op|'.'
-name|'register_opt'
+name|'import_opt'
 op|'('
-name|'ram_allocation_ratio_opt'
+string|"'ram_allocation_ratio'"
+op|','
+string|"'nova.compute.resource_tracker'"
 op|')'
 newline|'\n'
 nl|'\n'

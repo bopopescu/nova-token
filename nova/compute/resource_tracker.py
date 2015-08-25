@@ -246,6 +246,67 @@ nl|'\n'
 op|']'
 newline|'\n'
 nl|'\n'
+DECL|variable|allocation_ratio_opts
+name|'allocation_ratio_opts'
+op|'='
+op|'['
+nl|'\n'
+name|'cfg'
+op|'.'
+name|'FloatOpt'
+op|'('
+string|"'cpu_allocation_ratio'"
+op|','
+nl|'\n'
+DECL|variable|default
+name|'default'
+op|'='
+number|'16.0'
+op|','
+nl|'\n'
+DECL|variable|help
+name|'help'
+op|'='
+string|"'Virtual CPU to physical CPU allocation ratio which affects '"
+nl|'\n'
+string|"'all CPU filters. This configuration specifies a global ratio '"
+nl|'\n'
+string|"'for CoreFilter. For AggregateCoreFilter, it will fall back to '"
+nl|'\n'
+string|"'this configuration value if no per-aggregate setting found.'"
+op|')'
+op|','
+nl|'\n'
+name|'cfg'
+op|'.'
+name|'FloatOpt'
+op|'('
+string|"'ram_allocation_ratio'"
+op|','
+nl|'\n'
+DECL|variable|default
+name|'default'
+op|'='
+number|'1.5'
+op|','
+nl|'\n'
+DECL|variable|help
+name|'help'
+op|'='
+string|"'Virtual ram to physical ram allocation ratio which affects '"
+nl|'\n'
+string|"'all ram filters. This configuration specifies a global ratio '"
+nl|'\n'
+string|"'for RamFilter. For AggregateRamFilter, it will fall back to '"
+nl|'\n'
+string|"'this configuration value if no per-aggregate setting found.'"
+op|')'
+op|','
+nl|'\n'
+op|']'
+newline|'\n'
+nl|'\n'
+nl|'\n'
 DECL|variable|CONF
 name|'CONF'
 op|'='
@@ -258,6 +319,13 @@ op|'.'
 name|'register_opts'
 op|'('
 name|'resource_tracker_opts'
+op|')'
+newline|'\n'
+name|'CONF'
+op|'.'
+name|'register_opts'
+op|'('
+name|'allocation_ratio_opts'
 op|')'
 newline|'\n'
 nl|'\n'
