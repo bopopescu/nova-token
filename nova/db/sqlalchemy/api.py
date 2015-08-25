@@ -15924,6 +15924,9 @@ op|','
 string|"'flavor'"
 op|','
 string|"'vcpu_model'"
+op|','
+nl|'\n'
+string|"'migration_context'"
 op|']'
 newline|'\n'
 dedent|''
