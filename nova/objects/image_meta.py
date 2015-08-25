@@ -119,11 +119,13 @@ comment|'# Version 1.4: ImageMetaProps version 1.4'
 nl|'\n'
 comment|'# Version 1.5: ImageMetaProps version 1.5'
 nl|'\n'
+comment|'# Version 1.6: ImageMetaProps version 1.6'
+nl|'\n'
 DECL|variable|VERSION
 indent|'    '
 name|'VERSION'
 op|'='
-string|"'1.5'"
+string|"'1.6'"
 newline|'\n'
 nl|'\n'
 comment|'# These are driven by what the image client API returns'
@@ -377,6 +379,13 @@ string|"'1.5'"
 op|')'
 op|','
 nl|'\n'
+op|'('
+string|"'1.6'"
+op|','
+string|"'1.6'"
+op|')'
+op|','
+nl|'\n'
 op|']'
 op|','
 nl|'\n'
@@ -604,6 +613,8 @@ nl|'\n'
 comment|'# Version 1.4: added hw_vif_multiqueue_enabled field'
 nl|'\n'
 comment|'# Version 1.5: added os_admin_user field'
+nl|'\n'
+comment|"# Version 1.6: Added 'lxc' and 'uml' enum types to DiskBusField"
 nl|'\n'
 DECL|variable|VERSION
 indent|'    '
