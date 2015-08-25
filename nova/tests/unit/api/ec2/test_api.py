@@ -1095,10 +1095,10 @@ op|')'
 op|')'
 newline|'\n'
 nl|'\n'
-DECL|member|test_properties_root_defice_name
+DECL|member|test_properties_root_device_name
 dedent|''
 name|'def'
-name|'test_properties_root_defice_name'
+name|'test_properties_root_device_name'
 op|'('
 name|'self'
 op|')'
