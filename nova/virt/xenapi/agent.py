@@ -833,7 +833,7 @@ name|'error'
 op|'('
 name|'_LE'
 op|'('
-string|"'The agent call to %(method)s returned an '"
+string|"'The agent call to %(method)s returned '"
 nl|'\n'
 string|"'an error: %(ret)r. args=%(args)r'"
 op|')'
