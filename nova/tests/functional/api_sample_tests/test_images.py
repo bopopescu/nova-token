@@ -99,17 +99,6 @@ op|'['
 string|'"image-metadata"'
 op|']'
 newline|'\n'
-comment|"# TODO(gmann): Overriding '_api_version' till all functional tests"
-nl|'\n'
-comment|'# are merged between v2 and v2.1. After that base class variable'
-nl|'\n'
-comment|"# itself can be changed to 'v2'"
-nl|'\n'
-DECL|variable|_api_version
-name|'_api_version'
-op|'='
-string|"'v2'"
-newline|'\n'
 nl|'\n'
 DECL|member|test_images_list
 name|'def'

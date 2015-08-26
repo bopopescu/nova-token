@@ -92,11 +92,6 @@ name|'extension_name'
 op|'='
 string|'"os-multiple-create"'
 newline|'\n'
-DECL|variable|_api_version
-name|'_api_version'
-op|'='
-string|"'v2'"
-newline|'\n'
 nl|'\n'
 DECL|member|_get_flags
 name|'def'

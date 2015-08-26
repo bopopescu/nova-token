@@ -131,17 +131,6 @@ name|'all_extensions'
 op|'='
 name|'True'
 newline|'\n'
-comment|"# TODO(park): Overriding '_api_version' till all functional tests"
-nl|'\n'
-comment|'# are merged between v2 and v2.1. After that base class variable'
-nl|'\n'
-comment|"# itself can be changed to 'v2'"
-nl|'\n'
-DECL|variable|_api_version
-name|'_api_version'
-op|'='
-string|"'v2'"
-newline|'\n'
 nl|'\n'
 op|'@'
 name|'mock'
@@ -245,6 +234,36 @@ name|'extra_extensions_to_load'
 op|'='
 op|'['
 string|'"os-create-backup"'
+op|']'
+newline|'\n'
+comment|'# NOTE (gmann): run this tests for v21. and v2.1 compatible mode only'
+nl|'\n'
+comment|"# as there is no 'extensions/*' API in v2."
+nl|'\n'
+DECL|variable|scenarios
+name|'scenarios'
+op|'='
+op|'['
+op|'('
+string|"'v2_1'"
+op|','
+op|'{'
+string|"'_test'"
+op|':'
+string|"'v2.1'"
+op|'}'
+op|')'
+op|','
+nl|'\n'
+op|'('
+string|"'v2_1_compatible'"
+op|','
+op|'{'
+string|"'_test'"
+op|':'
+string|"'v2.1_compatible'"
+op|'}'
+op|')'
 op|']'
 newline|'\n'
 nl|'\n'

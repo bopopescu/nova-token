@@ -145,7 +145,7 @@ DECL|variable|_api_version
 indent|'    '
 name|'_api_version'
 op|'='
-string|"'v3'"
+string|"'v2.1'"
 newline|'\n'
 dedent|''
 endmarker|''
