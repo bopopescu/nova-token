@@ -72,11 +72,6 @@ op|'}'
 op|')'
 op|']'
 newline|'\n'
-DECL|variable|_api_version
-name|'_api_version'
-op|'='
-string|"'v2'"
-newline|'\n'
 nl|'\n'
 DECL|member|test_versions_get
 name|'def'

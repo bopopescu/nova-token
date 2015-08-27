@@ -167,17 +167,6 @@ name|'extension_name'
 op|'='
 string|'"os-volumes"'
 newline|'\n'
-comment|"# TODO(park): Overriding '_api_version' till all functional tests"
-nl|'\n'
-comment|'# are merged between v2 and v2.1. After that base class variable'
-nl|'\n'
-comment|"# itself can be changed to 'v2'"
-nl|'\n'
-DECL|variable|_api_version
-name|'_api_version'
-op|'='
-string|"'v2'"
-newline|'\n'
 nl|'\n'
 DECL|variable|create_subs
 name|'create_subs'
@@ -630,17 +619,6 @@ indent|'    '
 name|'extension_name'
 op|'='
 string|'"os-volumes"'
-newline|'\n'
-comment|"# TODO(park): Overriding '_api_version' till all functional tests"
-nl|'\n'
-comment|'# are merged between v2 and v2.1. After that base class variable'
-nl|'\n'
-comment|"# itself can be changed to 'v2'"
-nl|'\n'
-DECL|variable|_api_version
-name|'_api_version'
-op|'='
-string|"'v2'"
 newline|'\n'
 nl|'\n'
 DECL|member|_get_flags
@@ -1636,29 +1614,11 @@ name|'VolumeAttachmentsSampleBase'
 op|')'
 op|':'
 newline|'\n'
-DECL|variable|extra_extensions_to_load
-indent|'    '
-name|'extra_extensions_to_load'
-op|'='
-op|'['
-string|'"os-access-ips"'
-op|']'
-newline|'\n'
 DECL|variable|extension_name
+indent|'    '
 name|'extension_name'
 op|'='
 string|'"os-volumes"'
-newline|'\n'
-comment|"# TODO(park): Overriding '_api_version' till all functional tests"
-nl|'\n'
-comment|'# are merged between v2 and v2.1. After that base class variable'
-nl|'\n'
-comment|"# itself can be changed to 'v2'"
-nl|'\n'
-DECL|variable|_api_version
-name|'_api_version'
-op|'='
-string|"'v2'"
 newline|'\n'
 nl|'\n'
 DECL|member|_get_flags
