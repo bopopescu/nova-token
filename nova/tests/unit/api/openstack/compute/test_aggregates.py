@@ -321,7 +321,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v3/os-aggregates'"
+string|"'/v2/os-aggregates'"
 op|','
 nl|'\n'
 name|'use_admin_context'
@@ -339,7 +339,7 @@ name|'HTTPRequest'
 op|'.'
 name|'blank'
 op|'('
-string|"'/v3/os-aggregates'"
+string|"'/v2/os-aggregates'"
 op|')'
 newline|'\n'
 name|'self'

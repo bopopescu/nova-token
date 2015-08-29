@@ -2006,7 +2006,7 @@ op|'['
 string|"'base_url'"
 op|']'
 op|'='
-string|"'http://localhost/v3'"
+string|"'http://localhost/v2'"
 newline|'\n'
 name|'use_admin_context'
 op|'='

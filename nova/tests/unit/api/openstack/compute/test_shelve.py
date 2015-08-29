@@ -192,7 +192,7 @@ newline|'\n'
 DECL|variable|prefix
 name|'prefix'
 op|'='
-string|"'v3:os-shelve:'"
+string|"'os_compute_api:os-shelve'"
 newline|'\n'
 DECL|variable|offload
 name|'offload'
