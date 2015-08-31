@@ -1059,7 +1059,7 @@ op|')'
 op|','
 nl|'\n'
 op|'('
-string|"'osapi_v3'"
+string|"'osapi_v21'"
 op|','
 name|'nova'
 op|'.'

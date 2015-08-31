@@ -86,7 +86,7 @@ string|"'nova.api.openstack'"
 op|','
 name|'group'
 op|'='
-string|"'osapi_v3'"
+string|"'osapi_v21'"
 op|')'
 newline|'\n'
 nl|'\n'
@@ -341,7 +341,7 @@ name|'if'
 name|'not'
 name|'CONF'
 op|'.'
-name|'osapi_v3'
+name|'osapi_v21'
 op|'.'
 name|'enabled'
 op|':'
