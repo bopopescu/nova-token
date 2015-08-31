@@ -8655,12 +8655,12 @@ op|','
 nl|'\n'
 string|"'InstanceGroup'"
 op|':'
-string|"'1.9-a413a4ec0ff391e3ef0faa4e3e2a96d0'"
+string|"'1.10-1a0c8c7447dc7ecb9da53849430c4a5f'"
 op|','
 nl|'\n'
 string|"'InstanceGroupList'"
 op|':'
-string|"'1.6-be18078220513316abd0ae1b2d916873'"
+string|"'1.7-be18078220513316abd0ae1b2d916873'"
 op|','
 nl|'\n'
 string|"'InstanceInfoCache'"
@@ -8810,7 +8810,7 @@ op|','
 nl|'\n'
 string|"'RequestSpec'"
 op|':'
-string|"'1.2-6922fe208b5d1186bdd825513f677921'"
+string|"'1.3-6922fe208b5d1186bdd825513f677921'"
 op|','
 nl|'\n'
 string|"'S3ImageMapping'"
