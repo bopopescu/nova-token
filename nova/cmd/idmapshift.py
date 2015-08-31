@@ -32,6 +32,13 @@ nl|'\n'
 name|'import'
 name|'argparse'
 newline|'\n'
+name|'from'
+name|'nova'
+op|'.'
+name|'i18n'
+name|'import'
+name|'_'
+newline|'\n'
 name|'import'
 name|'os'
 newline|'\n'
@@ -898,7 +905,23 @@ name|'argparse'
 op|'.'
 name|'ArgumentParser'
 op|'('
-string|"'User Namespace FS Owner Shift'"
+nl|'\n'
+name|'description'
+op|'='
+name|'_'
+op|'('
+string|"'nova-idmapshift is a tool that properly '"
+nl|'\n'
+string|"'sets the ownership of a filesystem for '"
+nl|'\n'
+string|"'use with linux user namespaces.  '"
+nl|'\n'
+string|"'This tool can only be used with linux '"
+nl|'\n'
+string|"'lxc containers.  See the man page for '"
+nl|'\n'
+string|"'details.'"
+op|')'
 op|')'
 newline|'\n'
 name|'parser'
