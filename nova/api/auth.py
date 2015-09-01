@@ -105,7 +105,7 @@ string|"'Whether to use per-user rate limiting for the api. '"
 nl|'\n'
 string|"'This option is only used by v2 api. Rate limiting '"
 nl|'\n'
-string|"'is removed from v3 api.'"
+string|"'is removed from v2.1 api.'"
 op|')'
 op|','
 nl|'\n'
