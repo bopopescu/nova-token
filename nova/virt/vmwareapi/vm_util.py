@@ -144,13 +144,6 @@ name|'import'
 name|'vim_util'
 newline|'\n'
 nl|'\n'
-DECL|variable|CONF
-name|'CONF'
-op|'='
-name|'cfg'
-op|'.'
-name|'CONF'
-newline|'\n'
 DECL|variable|LOG
 name|'LOG'
 op|'='
