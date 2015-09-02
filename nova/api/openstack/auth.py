@@ -413,6 +413,8 @@ op|')'
 newline|'\n'
 nl|'\n'
 nl|'\n'
+comment|'# TODO(johnthetubaguy) this should be removed in the M release'
+nl|'\n'
 DECL|class|NoAuthMiddlewareV3
 dedent|''
 dedent|''
