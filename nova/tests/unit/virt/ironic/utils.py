@@ -244,6 +244,16 @@ string|"'instance_uuid'"
 op|')'
 op|','
 nl|'\n'
+string|"'instance_info'"
+op|':'
+name|'kw'
+op|'.'
+name|'get'
+op|'('
+string|"'instance_info'"
+op|')'
+op|','
+nl|'\n'
 string|"'driver'"
 op|':'
 name|'kw'
