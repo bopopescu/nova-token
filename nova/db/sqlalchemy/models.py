@@ -6168,6 +6168,15 @@ DECL|variable|__table_args__
 name|'__table_args__'
 op|'='
 op|'('
+nl|'\n'
+name|'Index'
+op|'('
+string|"'instance_uuid'"
+op|','
+string|"'instance_uuid'"
+op|')'
+op|','
+nl|'\n'
 op|')'
 newline|'\n'
 DECL|variable|id
