@@ -207,11 +207,13 @@ comment|'# Version 1.13: Instance version 1.21'
 nl|'\n'
 comment|'# Version 1.14: Instance version 1.22'
 nl|'\n'
+comment|'# Version 1.15: Instance version 1.23'
+nl|'\n'
 DECL|variable|VERSION
 indent|'    '
 name|'VERSION'
 op|'='
-string|"'1.14'"
+string|"'1.15'"
 newline|'\n'
 nl|'\n'
 DECL|variable|fields
@@ -493,6 +495,12 @@ op|'('
 string|"'1.14'"
 op|','
 string|"'1.22'"
+op|')'
+op|','
+op|'('
+string|"'1.15'"
+op|','
+string|"'1.23'"
 op|')'
 op|']'
 op|','
@@ -1601,11 +1609,13 @@ comment|'# Version 1.14: BlockDeviceMapping <= version 1.13'
 nl|'\n'
 comment|'# Version 1.15: BlockDeviceMapping <= version 1.14'
 nl|'\n'
+comment|'# Version 1.16: BlockDeviceMapping <= version 1.15'
+nl|'\n'
 DECL|variable|VERSION
 indent|'    '
 name|'VERSION'
 op|'='
-string|"'1.15'"
+string|"'1.16'"
 newline|'\n'
 nl|'\n'
 DECL|variable|fields
@@ -1732,6 +1742,12 @@ op|'('
 string|"'1.15'"
 op|','
 string|"'1.14'"
+op|')'
+op|','
+op|'('
+string|"'1.16'"
+op|','
+string|"'1.15'"
 op|')'
 op|']'
 op|','

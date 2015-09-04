@@ -113,11 +113,13 @@ comment|'# Version 1.7: FixedIP <= version 1.11'
 nl|'\n'
 comment|'# Version 1.8: FixedIP <= version 1.12'
 nl|'\n'
+comment|'# Version 1.9: FixedIP <= version 1.13'
+nl|'\n'
 DECL|variable|VERSION
 indent|'    '
 name|'VERSION'
 op|'='
-string|"'1.8'"
+string|"'1.9'"
 newline|'\n'
 DECL|variable|fields
 name|'fields'
@@ -284,6 +286,12 @@ op|'('
 string|"'1.8'"
 op|','
 string|"'1.12'"
+op|')'
+op|','
+op|'('
+string|"'1.9'"
+op|','
+string|"'1.13'"
 op|')'
 op|']'
 op|','
@@ -1201,6 +1209,8 @@ comment|'# Version 1.8: FloatingIP 1.7'
 nl|'\n'
 comment|'# Version 1.9: FloatingIP 1.8'
 nl|'\n'
+comment|'# Version 1.10: FloatingIP 1.9'
+nl|'\n'
 DECL|variable|fields
 indent|'    '
 name|'fields'
@@ -1289,6 +1299,12 @@ string|"'1.9'"
 op|','
 string|"'1.8'"
 op|')'
+op|','
+op|'('
+string|"'1.10'"
+op|','
+string|"'1.9'"
+op|')'
 op|']'
 op|','
 nl|'\n'
@@ -1297,7 +1313,7 @@ newline|'\n'
 DECL|variable|VERSION
 name|'VERSION'
 op|'='
-string|"'1.9'"
+string|"'1.10'"
 newline|'\n'
 nl|'\n'
 op|'@'
