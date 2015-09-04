@@ -313,7 +313,11 @@ op|'{'
 nl|'\n'
 string|"'type'"
 op|':'
+op|'['
 string|"'string'"
+op|','
+string|"'null'"
+op|']'
 op|','
 nl|'\n'
 comment|'# NOTE: The validation pattern from match_device() in'
