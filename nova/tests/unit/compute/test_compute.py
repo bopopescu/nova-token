@@ -67401,7 +67401,7 @@ number|'1'
 op|','
 string|"'attach_status'"
 op|':'
-string|"'in-use'"
+string|"'attached'"
 op|','
 nl|'\n'
 string|"'instance_uuid'"
@@ -70583,6 +70583,8 @@ name|'_create_fake_instance_obj'
 op|'('
 op|')'
 newline|'\n'
+comment|"# Set attach_status to 'fake' as nothing is reading the value."
+nl|'\n'
 name|'volume'
 op|'='
 op|'{'
@@ -70592,7 +70594,7 @@ number|'1'
 op|','
 string|"'attach_status'"
 op|':'
-string|"'in-use'"
+string|"'fake'"
 op|','
 nl|'\n'
 string|"'instance_uuid'"
@@ -70923,7 +70925,7 @@ number|'1'
 op|','
 string|"'attach_status'"
 op|':'
-string|"'in-use'"
+string|"'attached'"
 op|','
 nl|'\n'
 string|"'instance_uuid'"
@@ -71007,21 +71009,11 @@ name|'None'
 op|'}'
 op|')'
 newline|'\n'
+comment|'# Unused'
+nl|'\n'
 name|'volume'
 op|'='
 op|'{'
-string|"'id'"
-op|':'
-number|'1'
-op|','
-string|"'attach_status'"
-op|':'
-string|"'in-use'"
-op|','
-nl|'\n'
-string|"'instance_uuid'"
-op|':'
-string|"'uuid2'"
 op|'}'
 newline|'\n'
 nl|'\n'
