@@ -68,7 +68,7 @@ string|"'name'"
 op|':'
 name|'parameter_types'
 op|'.'
-name|'name'
+name|'cell_name'
 op|','
 nl|'\n'
 string|"'type'"
@@ -234,7 +234,7 @@ string|"'name'"
 op|':'
 name|'parameter_types'
 op|'.'
-name|'name'
+name|'cell_name'
 op|','
 nl|'\n'
 string|"'type'"
