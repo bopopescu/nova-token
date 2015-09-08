@@ -9017,12 +9017,12 @@ op|','
 nl|'\n'
 string|"'ImageMeta'"
 op|':'
-string|"'1.6-642d1b2eb3e880a367f37d72dd76162d'"
+string|"'1.7-642d1b2eb3e880a367f37d72dd76162d'"
 op|','
 nl|'\n'
 string|"'ImageMetaProps'"
 op|':'
-string|"'1.6-07a6d9f3576c4927220331584661ce45'"
+string|"'1.7-f12fc4cf3e25d616f69a66fb9d2a7aa6'"
 op|','
 nl|'\n'
 string|"'Instance'"
@@ -9244,7 +9244,7 @@ op|','
 nl|'\n'
 string|"'RequestSpec'"
 op|':'
-string|"'1.3-6922fe208b5d1186bdd825513f677921'"
+string|"'1.4-6922fe208b5d1186bdd825513f677921'"
 op|','
 nl|'\n'
 string|"'S3ImageMapping'"

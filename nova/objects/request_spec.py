@@ -76,11 +76,13 @@ comment|'# Version 1.2: SchedulerRetries version 1.1'
 nl|'\n'
 comment|'# Version 1.3: InstanceGroup version 1.10'
 nl|'\n'
+comment|'# Version 1.4: ImageMeta version 1.7'
+nl|'\n'
 DECL|variable|VERSION
 indent|'    '
 name|'VERSION'
 op|'='
-string|"'1.3'"
+string|"'1.4'"
 newline|'\n'
 nl|'\n'
 DECL|variable|fields
@@ -319,6 +321,13 @@ op|'('
 string|"'1.1'"
 op|','
 string|"'1.6'"
+op|')'
+op|','
+nl|'\n'
+op|'('
+string|"'1.4'"
+op|','
+string|"'1.7'"
 op|')'
 op|']'
 op|','
