@@ -2187,6 +2187,8 @@ name|'service_id'
 op|')'
 newline|'\n'
 nl|'\n'
+comment|'# NOTE(hanlind): This method can be removed in version 3.0 of the RPC API'
+nl|'\n'
 DECL|member|compute_node_create
 dedent|''
 name|'def'
