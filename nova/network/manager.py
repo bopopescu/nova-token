@@ -6559,6 +6559,9 @@ string|"'Explicitly disassociating fixed IP %s from '"
 nl|'\n'
 string|"'instance.'"
 op|','
+name|'address'
+op|','
+nl|'\n'
 name|'instance_uuid'
 op|'='
 name|'instance_uuid'
