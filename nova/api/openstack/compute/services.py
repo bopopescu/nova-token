@@ -1268,7 +1268,7 @@ name|'services'
 op|'.'
 name|'service_update'
 op|','
-string|"'2.1'"
+string|"'2.0'"
 op|','
 string|"'2.10'"
 op|')'
