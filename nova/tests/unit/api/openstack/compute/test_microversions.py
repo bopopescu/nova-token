@@ -184,7 +184,7 @@ op|','
 nl|'\n'
 name|'return_value'
 op|'='
-string|"'nova.api.v3.test_extensions'"
+string|"'nova.api.v21.test_extensions'"
 op|')'
 newline|'\n'
 DECL|member|test_microversions_no_header
@@ -275,7 +275,7 @@ op|','
 nl|'\n'
 name|'return_value'
 op|'='
-string|"'nova.api.v3.test_extensions'"
+string|"'nova.api.v21.test_extensions'"
 op|')'
 newline|'\n'
 DECL|member|test_microversions_return_header
@@ -406,7 +406,7 @@ op|','
 nl|'\n'
 name|'return_value'
 op|'='
-string|"'nova.api.v3.test_extensions'"
+string|"'nova.api.v21.test_extensions'"
 op|')'
 newline|'\n'
 DECL|member|test_microversions_return_header_non_default
@@ -564,7 +564,7 @@ op|','
 nl|'\n'
 name|'return_value'
 op|'='
-string|"'nova.api.v3.test_extensions'"
+string|"'nova.api.v21.test_extensions'"
 op|')'
 newline|'\n'
 DECL|member|test_microversions_return_header_fault
@@ -699,7 +699,7 @@ op|','
 nl|'\n'
 name|'return_value'
 op|'='
-string|"'nova.api.v3.test_extensions'"
+string|"'nova.api.v21.test_extensions'"
 op|')'
 newline|'\n'
 DECL|member|_check_microversion_response
@@ -900,7 +900,7 @@ op|','
 nl|'\n'
 name|'return_value'
 op|'='
-string|"'nova.api.v3.test_extensions'"
+string|"'nova.api.v21.test_extensions'"
 op|')'
 newline|'\n'
 DECL|member|test_microversions2_later_version
@@ -1025,7 +1025,7 @@ op|','
 nl|'\n'
 name|'return_value'
 op|'='
-string|"'nova.api.v3.test_extensions'"
+string|"'nova.api.v21.test_extensions'"
 op|')'
 newline|'\n'
 DECL|member|test_microversions2_version_too_high
@@ -1120,7 +1120,7 @@ op|','
 nl|'\n'
 name|'return_value'
 op|'='
-string|"'nova.api.v3.test_extensions'"
+string|"'nova.api.v21.test_extensions'"
 op|')'
 newline|'\n'
 DECL|member|test_microversions2_version_too_low
@@ -1208,7 +1208,7 @@ op|','
 nl|'\n'
 name|'return_value'
 op|'='
-string|"'nova.api.v3.test_extensions'"
+string|"'nova.api.v21.test_extensions'"
 op|')'
 newline|'\n'
 DECL|member|test_microversions_global_version_too_high
@@ -1340,7 +1340,7 @@ op|','
 nl|'\n'
 name|'return_value'
 op|'='
-string|"'nova.api.v3.test_extensions'"
+string|"'nova.api.v21.test_extensions'"
 op|')'
 newline|'\n'
 DECL|member|test_microversions_schema
@@ -1532,7 +1532,7 @@ op|','
 nl|'\n'
 name|'return_value'
 op|'='
-string|"'nova.api.v3.test_extensions'"
+string|"'nova.api.v21.test_extensions'"
 op|')'
 newline|'\n'
 DECL|member|test_microversions_schema_fail
@@ -1699,7 +1699,7 @@ op|','
 nl|'\n'
 name|'return_value'
 op|'='
-string|"'nova.api.v3.test_extensions'"
+string|"'nova.api.v21.test_extensions'"
 op|')'
 newline|'\n'
 DECL|member|test_microversions_schema_out_of_version_check
@@ -1876,7 +1876,7 @@ op|','
 nl|'\n'
 name|'return_value'
 op|'='
-string|"'nova.api.v3.test_extensions'"
+string|"'nova.api.v21.test_extensions'"
 op|')'
 newline|'\n'
 DECL|member|test_microversions_schema_second_version
@@ -2053,7 +2053,7 @@ op|','
 nl|'\n'
 name|'return_value'
 op|'='
-string|"'nova.api.v3.test_extensions'"
+string|"'nova.api.v21.test_extensions'"
 op|')'
 newline|'\n'
 DECL|member|_test_microversions_inner_function
@@ -2255,7 +2255,7 @@ op|','
 nl|'\n'
 name|'return_value'
 op|'='
-string|"'nova.api.v3.test_extensions'"
+string|"'nova.api.v21.test_extensions'"
 op|')'
 newline|'\n'
 DECL|member|test_with_extends_decorator
@@ -2431,7 +2431,7 @@ op|','
 nl|'\n'
 name|'return_value'
 op|'='
-string|"'nova.api.v3.test_extensions'"
+string|"'nova.api.v21.test_extensions'"
 op|')'
 newline|'\n'
 DECL|member|_test_microversions_actions

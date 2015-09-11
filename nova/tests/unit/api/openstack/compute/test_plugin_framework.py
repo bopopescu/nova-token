@@ -103,7 +103,7 @@ name|'mock_namespace'
 op|'.'
 name|'return_value'
 op|'='
-string|"'nova.api.v3.test_extensions'"
+string|"'nova.api.v21.test_extensions'"
 newline|'\n'
 nl|'\n'
 name|'app'

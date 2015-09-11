@@ -70,7 +70,7 @@ nl|'\n'
 DECL|class|SecurityGroupDefaultRulesSampleJsonTest
 name|'api_sample_base'
 op|'.'
-name|'ApiSampleTestBaseV3'
+name|'ApiSampleTestBaseV21'
 op|')'
 op|':'
 newline|'\n'
