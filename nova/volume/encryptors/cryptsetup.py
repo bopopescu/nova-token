@@ -241,6 +241,8 @@ op|')'
 op|':'
 newline|'\n'
 indent|'        '
+string|'"""Convert raw key to string."""'
+newline|'\n'
 name|'return'
 string|"''"
 op|'.'
