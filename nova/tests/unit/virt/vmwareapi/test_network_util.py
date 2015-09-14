@@ -434,7 +434,7 @@ dedent|''
 name|'if'
 name|'method'
 op|'=='
-string|"'get_dynamic_property'"
+string|"'get_object_property'"
 op|':'
 newline|'\n'
 indent|'                '
@@ -597,7 +597,7 @@ dedent|''
 name|'if'
 name|'method'
 op|'=='
-string|"'get_dynamic_property'"
+string|"'get_object_property'"
 op|':'
 newline|'\n'
 indent|'                '
@@ -920,7 +920,7 @@ dedent|''
 name|'if'
 name|'method'
 op|'=='
-string|"'get_dynamic_property'"
+string|"'get_object_property'"
 op|':'
 newline|'\n'
 indent|'                '
