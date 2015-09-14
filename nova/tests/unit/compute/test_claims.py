@@ -455,9 +455,8 @@ nl|'\n'
 string|"'instance_uuid'"
 op|':'
 name|'instance'
-op|'['
-string|"'uuid'"
-op|']'
+op|'.'
+name|'uuid'
 op|','
 nl|'\n'
 string|"'numa_topology'"
