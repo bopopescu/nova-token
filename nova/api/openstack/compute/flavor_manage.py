@@ -128,7 +128,7 @@ name|'_view_builder_class'
 op|'='
 name|'flavors_view'
 op|'.'
-name|'V3ViewBuilder'
+name|'ViewBuilderV21'
 newline|'\n'
 nl|'\n'
 DECL|member|__init__

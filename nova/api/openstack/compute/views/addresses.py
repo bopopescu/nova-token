@@ -236,11 +236,11 @@ op|')'
 newline|'\n'
 nl|'\n'
 nl|'\n'
-DECL|class|ViewBuilderV3
+DECL|class|ViewBuilderV21
 dedent|''
 dedent|''
 name|'class'
-name|'ViewBuilderV3'
+name|'ViewBuilderV21'
 op|'('
 name|'ViewBuilder'
 op|')'
