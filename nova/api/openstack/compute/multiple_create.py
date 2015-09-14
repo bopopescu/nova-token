@@ -98,7 +98,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""Allow multiple create in the Create Server v3 API."""'
+string|'"""Allow multiple create in the Create Server v2.1 API."""'
 newline|'\n'
 nl|'\n'
 DECL|variable|name

@@ -488,9 +488,9 @@ comment|"# create/index actions. But parameter 'id' is string type that parsed"
 nl|'\n'
 comment|"# from url. This is a bug, but because back-compatibility, it can't be"
 nl|'\n'
-comment|'# fixed for v2 API. This will be fixed after v3 API feature exposed by'
+comment|'# fixed for v2 API. This will be fixed in v2.1 API by Microversions in'
 nl|'\n'
-comment|'# v2.1+microversions in the future. lp bug #1333494'
+comment|'# the future. lp bug #1333494'
 nl|'\n'
 dedent|''
 name|'return'

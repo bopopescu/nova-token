@@ -500,7 +500,7 @@ name|'name'
 op|'='
 op|'{'
 nl|'\n'
-comment|"# NOTE: Nova v3 API contains some 'name' parameters such"
+comment|"# NOTE: Nova v2.1 API contains some 'name' parameters such"
 nl|'\n'
 comment|'# as keypair, server, flavor, aggregate and so on. They are'
 nl|'\n'
