@@ -107,7 +107,7 @@ comment|'# States usable in resetState action'
 nl|'\n'
 comment|'# NOTE: It is necessary to update the schema of nova/api/openstack/compute/'
 nl|'\n'
-comment|'# schemas/v3/reset_server_state.py, when updating this state_map.'
+comment|'# schemas/reset_server_state.py, when updating this state_map.'
 nl|'\n'
 DECL|variable|state_map
 name|'state_map'
