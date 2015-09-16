@@ -123,7 +123,7 @@ comment|'# server ips response same as V2 which does not include "OS-EXT-IPS:typ
 nl|'\n'
 comment|'# & "OS-EXT-IPS-MAC:mac_addr". If needed those can be added with'
 nl|'\n'
-comment|'# microversion by using V3 view builder.'
+comment|'# microversion by using V2.1 view builder.'
 nl|'\n'
 DECL|variable|_view_builder_class
 name|'_view_builder_class'

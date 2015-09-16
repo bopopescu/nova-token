@@ -359,7 +359,7 @@ name|'_view_builder_class'
 op|'='
 name|'views_servers'
 op|'.'
-name|'ViewBuilderV3'
+name|'ViewBuilderV21'
 newline|'\n'
 nl|'\n'
 DECL|variable|schema_server_create
