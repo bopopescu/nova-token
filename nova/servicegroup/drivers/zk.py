@@ -901,7 +901,7 @@ string|"'Problem with acquiring the list of '"
 nl|'\n'
 string|"'children of %(path)r within a given '"
 nl|'\n'
-string|"'timeout=%(timeout)rs'"
+string|"'timeout=%(timeout)d seconds'"
 op|')'
 op|','
 nl|'\n'
