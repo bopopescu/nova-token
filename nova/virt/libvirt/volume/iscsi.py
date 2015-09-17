@@ -115,7 +115,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'Use multipath connection of the iSCSI volume'"
+string|"'Use multipath connection of the iSCSI or FC volume'"
 op|')'
 op|','
 nl|'\n'
