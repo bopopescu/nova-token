@@ -578,9 +578,23 @@ string|"'Maximum number of devices that will result '"
 nl|'\n'
 string|"'in a local image being created on the hypervisor node. '"
 nl|'\n'
-string|"'Setting this to 0 means nova will allow only '"
+string|"'A negative number means unlimited. Setting '"
 nl|'\n'
-string|"'boot from volume. A negative number means unlimited.'"
+string|"'max_local_block_devices to 0 means that any request that '"
+nl|'\n'
+string|"'attempts to create a local disk will fail. This option '"
+nl|'\n'
+string|"'is meant to limit the number of local discs (so root '"
+nl|'\n'
+string|"'local disc that is the result of --image being used, and '"
+nl|'\n'
+string|"'any other ephemeral and swap disks). 0 does not mean '"
+nl|'\n'
+string|"'that images will be automatically converted to volumes '"
+nl|'\n'
+string|"'and boot instances from volumes - it just means that all '"
+nl|'\n'
+string|"'requests that attempt to create a local disk will fail.'"
 op|')'
 op|','
 nl|'\n'
