@@ -66,7 +66,7 @@ nl|'\n'
 name|'setup_requires'
 op|'='
 op|'['
-string|"'pbr>=1.3'"
+string|"'pbr>=1.8'"
 op|']'
 op|','
 nl|'\n'
