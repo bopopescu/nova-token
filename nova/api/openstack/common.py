@@ -507,7 +507,7 @@ comment|"# Note(maoy): the OS API spec 1.1 doesn't have CONFIRMING_RESIZE"
 nl|'\n'
 comment|'# state so we comment that out for future reference only.'
 nl|'\n'
-comment|"#task_states.RESIZE_CONFIRMING: 'CONFIRMING_RESIZE',"
+comment|"# task_states.RESIZE_CONFIRMING: 'CONFIRMING_RESIZE',"
 nl|'\n'
 name|'task_states'
 op|'.'
