@@ -1094,7 +1094,7 @@ name|'msg'
 op|'='
 name|'_'
 op|'('
-string|"'%s is not a valid ip network'"
+string|"'%s is not a valid IP network'"
 op|')'
 op|'%'
 name|'cidr'
