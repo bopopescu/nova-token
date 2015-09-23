@@ -269,6 +269,30 @@ string|"'Seconds between bandwidth updates for cells.'"
 op|')'
 op|','
 nl|'\n'
+name|'cfg'
+op|'.'
+name|'IntOpt'
+op|'('
+string|"'instance_update_sync_database_limit'"
+op|','
+nl|'\n'
+DECL|variable|default
+name|'default'
+op|'='
+number|'100'
+op|','
+nl|'\n'
+DECL|variable|help
+name|'help'
+op|'='
+string|"'Number of instances to pull from the database at one '"
+nl|'\n'
+string|"'time for a sync.  If there are more instances to update '"
+nl|'\n'
+string|"'the results will be paged through'"
+op|')'
+op|','
+nl|'\n'
 op|']'
 newline|'\n'
 nl|'\n'
