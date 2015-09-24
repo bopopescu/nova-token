@@ -215,22 +215,12 @@ op|'='
 name|'True'
 op|','
 nl|'\n'
-DECL|variable|deprecated_for_removal
-name|'deprecated_for_removal'
-op|'='
-name|'True'
-op|','
-nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'DEPRECATED: Allow attach between instance and volume '"
+string|"'Allow attach between instance and volume in different '"
 nl|'\n'
-string|"'in different availability zones. This option is '"
-nl|'\n'
-string|"'deprecated in the 13.0.0 release and will be removed '"
-nl|'\n'
-string|"'in the 14.0.0 release.'"
+string|"'availability zones.'"
 op|')'
 op|','
 nl|'\n'
