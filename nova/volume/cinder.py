@@ -220,7 +220,27 @@ name|'help'
 op|'='
 string|"'Allow attach between instance and volume in different '"
 nl|'\n'
-string|"'availability zones.'"
+string|"'availability zones. If False, volumes attached to an '"
+nl|'\n'
+string|"'instance must be in the same availability zone in '"
+nl|'\n'
+string|"'Cinder as the instance availability zone in Nova. '"
+nl|'\n'
+string|"'This also means care should be taken when booting an '"
+nl|'\n'
+string|'\'instance from a volume where source is not "volume" \''
+nl|'\n'
+string|"'because Nova will attempt to create a volume using '"
+nl|'\n'
+string|"'the same availability zone as what is assigned to the '"
+nl|'\n'
+string|"'instance. If that AZ is not in Cinder (or '"
+nl|'\n'
+string|"'allow_availability_zone_fallback=False in cinder.conf), '"
+nl|'\n'
+string|"'the volume create request will fail and the instance '"
+nl|'\n'
+string|"'will fail the build request.'"
 op|')'
 op|','
 nl|'\n'
