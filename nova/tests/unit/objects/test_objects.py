@@ -8946,7 +8946,7 @@ op|','
 nl|'\n'
 string|"'BlockDeviceMappingList'"
 op|':'
-string|"'1.16-6fa262c059dad1d519b9fe05b9e4f404'"
+string|"'1.17-1e568eecb91d06d4112db9fd656de235'"
 op|','
 nl|'\n'
 string|"'CellMapping'"
