@@ -255,7 +255,7 @@ string|"'Insufficient Space on Volume Group %(vg)s.'"
 nl|'\n'
 string|"' Only %(free_space)db available,'"
 nl|'\n'
-string|"' but %(size)db required'"
+string|"' but %(size)d bytes required'"
 nl|'\n'
 string|"' by volume %(lv)s.'"
 op|')'
@@ -325,7 +325,7 @@ string|"'Volume group %(vg)s will not be able'"
 nl|'\n'
 string|"' to hold sparse volume %(lv)s.'"
 nl|'\n'
-string|"' Virtual volume size is %(size)db,'"
+string|"' Virtual volume size is %(size)d bytes,'"
 nl|'\n'
 string|"' but free space on volume group is'"
 nl|'\n'
