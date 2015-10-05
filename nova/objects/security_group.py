@@ -484,26 +484,6 @@ op|','
 nl|'\n'
 op|'}'
 newline|'\n'
-comment|'# NOTE(danms): SecurityGroup was at 1.1 before we added this'
-nl|'\n'
-DECL|variable|obj_relationships
-name|'obj_relationships'
-op|'='
-op|'{'
-nl|'\n'
-string|"'objects'"
-op|':'
-op|'['
-op|'('
-string|"'1.0'"
-op|','
-string|"'1.1'"
-op|')'
-op|']'
-op|','
-nl|'\n'
-op|'}'
-newline|'\n'
 nl|'\n'
 DECL|member|__init__
 name|'def'
