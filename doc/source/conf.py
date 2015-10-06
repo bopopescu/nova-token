@@ -124,9 +124,6 @@ nl|'\n'
 string|'"ext.support_matrix"'
 op|','
 nl|'\n'
-string|"'sphinxcontrib.seqdiag'"
-op|','
-nl|'\n'
 string|"'oslo_config.sphinxconfiggen'"
 op|','
 nl|'\n'
