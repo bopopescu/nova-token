@@ -122,6 +122,16 @@ op|'='
 string|"'keystone'"
 op|','
 nl|'\n'
+DECL|variable|choices
+name|'choices'
+op|'='
+op|'('
+string|"'keystone'"
+op|','
+string|"'noauth2'"
+op|')'
+op|','
+nl|'\n'
 name|'help'
 op|'='
 string|"'''\nThe strategy to use for auth: keystone or noauth2. noauth2 is designed for\ntesting only, as it does no actual credential checking. noauth2 provides\nadministrative credentials only if 'admin' is specified as the username.\n'''"
