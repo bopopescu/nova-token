@@ -84,6 +84,16 @@ op|'.'
 name|'CONF'
 newline|'\n'
 nl|'\n'
+name|'CONF'
+op|'.'
+name|'import_opt'
+op|'('
+string|"'consoleauth_topic'"
+op|','
+string|"'nova.consoleauth'"
+op|')'
+newline|'\n'
+nl|'\n'
 nl|'\n'
 DECL|function|main
 name|'def'
