@@ -154,6 +154,12 @@ DECL|variable|help
 name|'help'
 op|'='
 string|"'Port that the XCP VNC proxy should bind to'"
+op|','
+nl|'\n'
+DECL|variable|deprecated_group
+name|'deprecated_group'
+op|'='
+string|"'DEFAULT'"
 op|')'
 op|','
 nl|'\n'
@@ -174,6 +180,12 @@ DECL|variable|help
 name|'help'
 op|'='
 string|"'Address that the XCP VNC proxy should bind to'"
+op|','
+nl|'\n'
+DECL|variable|deprecated_group
+name|'deprecated_group'
+op|'='
+string|"'DEFAULT'"
 op|')'
 op|','
 nl|'\n'
@@ -192,6 +204,10 @@ op|'.'
 name|'register_opts'
 op|'('
 name|'xvp_proxy_opts'
+op|','
+name|'group'
+op|'='
+string|"'vnc'"
 op|')'
 newline|'\n'
 nl|'\n'
