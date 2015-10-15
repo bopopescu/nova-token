@@ -439,7 +439,7 @@ name|'get_admin_context'
 op|'('
 op|')'
 op|','
-string|"'compute'"
+string|"'nova-compute'"
 op|')'
 newline|'\n'
 name|'history'

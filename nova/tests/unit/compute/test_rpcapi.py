@@ -346,7 +346,7 @@ name|'mock'
 op|'.'
 name|'ANY'
 op|','
-string|"'compute'"
+string|"'nova-compute'"
 op|')'
 newline|'\n'
 nl|'\n'
@@ -472,7 +472,7 @@ name|'mock'
 op|'.'
 name|'ANY'
 op|','
-string|"'compute'"
+string|"'nova-compute'"
 op|')'
 newline|'\n'
 nl|'\n'
