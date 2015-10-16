@@ -26361,11 +26361,13 @@ op|'.'
 name|'in_'
 op|'('
 op|'['
+string|"'accepted'"
+op|','
 string|"'confirmed'"
 op|','
+nl|'\n'
 string|"'reverted'"
 op|','
-nl|'\n'
 string|"'error'"
 op|']'
 op|')'
