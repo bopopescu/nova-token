@@ -1678,7 +1678,7 @@ name|'migration'
 op|'.'
 name|'status'
 op|'='
-string|"'pre-migrating'"
+string|"'accepted'"
 newline|'\n'
 name|'migration'
 op|'.'

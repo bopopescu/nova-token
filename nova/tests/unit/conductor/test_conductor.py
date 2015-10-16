@@ -2401,7 +2401,7 @@ name|'self'
 op|'.'
 name|'assertEqual'
 op|'('
-string|"'pre-migrating'"
+string|"'accepted'"
 op|','
 name|'migration'
 op|'.'
