@@ -11592,7 +11592,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|'"""Return instances that match all filters sorted the the given keys.\n    Deleted instances will be returned by default, unless there\'s a filter that\n    says otherwise.\n\n    Depending on the name of a filter, matching for that filter is\n    performed using either exact matching or as regular expression\n    matching. Exact matching is applied for the following filters::\n\n    |   [\'project_id\', \'user_id\', \'image_ref\',\n    |    \'vm_state\', \'instance_type_id\', \'uuid\',\n    |    \'metadata\', \'host\', \'system_metadata\']\n\n\n    A third type of filter (also using exact matching), filters\n    based on instance metadata tags when supplied under a special\n    key named \'filter\'::\n\n    |   filters = {\n    |       \'filter\': [\n    |           {\'name\': \'tag-key\', \'value\': \'<metakey>\'},\n    |           {\'name\': \'tag-value\', \'value\': \'<metaval>\'},\n    |           {\'name\': \'tag:<metakey>\', \'value\': \'<metaval>\'}\n    |       ]\n    |   }\n\n    Special keys are used to tweek the query further::\n\n    |   \'changes-since\' - only return instances updated after\n    |   \'deleted\' - only return (or exclude) deleted instances\n    |   \'soft_deleted\' - modify behavior of \'deleted\' to either\n    |                    include or exclude instances whose\n    |                    vm_state is SOFT_DELETED.\n\n    A fourth type of filter (also using exact matching), filters\n    based on instance tags (not metadata tags). There are two types\n    of these tags:\n\n    `tag` -- One or more strings that will be used to filter results\n            in an AND expression.\n\n    `tag-any` -- One or more strings that will be used to filter results in\n            an OR expression.\n\n    Tags should be represented as list::\n\n    |    filters = {\n    |        \'tag\': [some-tag, some-another-tag],\n    |        \'tag-any: [some-any-tag, some-another-any-tag]\n    |    }\n\n    """'
+string|'"""Return instances that match all filters sorted the the given keys.\n    Deleted instances will be returned by default, unless there\'s a filter that\n    says otherwise.\n\n    Depending on the name of a filter, matching for that filter is\n    performed using either exact matching or as regular expression\n    matching. Exact matching is applied for the following filters::\n\n    |   [\'project_id\', \'user_id\', \'image_ref\',\n    |    \'vm_state\', \'instance_type_id\', \'uuid\',\n    |    \'metadata\', \'host\', \'system_metadata\']\n\n\n    A third type of filter (also using exact matching), filters\n    based on instance metadata tags when supplied under a special\n    key named \'filter\'::\n\n    |   filters = {\n    |       \'filter\': [\n    |           {\'name\': \'tag-key\', \'value\': \'<metakey>\'},\n    |           {\'name\': \'tag-value\', \'value\': \'<metaval>\'},\n    |           {\'name\': \'tag:<metakey>\', \'value\': \'<metaval>\'}\n    |       ]\n    |   }\n\n    Special keys are used to tweek the query further::\n\n    |   \'changes-since\' - only return instances updated after\n    |   \'deleted\' - only return (or exclude) deleted instances\n    |   \'soft_deleted\' - modify behavior of \'deleted\' to either\n    |                    include or exclude instances whose\n    |                    vm_state is SOFT_DELETED.\n\n    A fourth type of filter (also using exact matching), filters\n    based on instance tags (not metadata tags). There are two types\n    of these tags:\n\n    `tags` -- One or more strings that will be used to filter results\n            in an AND expression.\n\n    `tags-any` -- One or more strings that will be used to filter results in\n            an OR expression.\n\n    Tags should be represented as list::\n\n    |    filters = {\n    |        \'tags\': [some-tag, some-another-tag],\n    |        \'tags-any: [some-any-tag, some-another-any-tag]\n    |    }\n\n    """'
 newline|'\n'
 comment|'# NOTE(mriedem): If the limit is 0 there is no point in even going'
 nl|'\n'
@@ -12044,7 +12044,7 @@ nl|'\n'
 dedent|''
 dedent|''
 name|'if'
-string|"'tag'"
+string|"'tags'"
 name|'in'
 name|'filters'
 op|':'
@@ -12056,7 +12056,7 @@ name|'filters'
 op|'.'
 name|'pop'
 op|'('
-string|"'tag'"
+string|"'tags'"
 op|')'
 newline|'\n'
 comment|"# We build a JOIN ladder expression for each tag, JOIN'ing"
@@ -12152,7 +12152,7 @@ nl|'\n'
 dedent|''
 dedent|''
 name|'if'
-string|"'tag-any'"
+string|"'tags-any'"
 name|'in'
 name|'filters'
 op|':'
@@ -12164,7 +12164,7 @@ name|'filters'
 op|'.'
 name|'pop'
 op|'('
-string|"'tag-any'"
+string|"'tags-any'"
 op|')'
 newline|'\n'
 name|'tag_alias'
