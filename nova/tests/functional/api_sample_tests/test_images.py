@@ -86,18 +86,20 @@ name|'ApiSampleTestBaseV21'
 op|')'
 op|':'
 newline|'\n'
-DECL|variable|extension_name
+DECL|variable|sample_dir
 indent|'    '
-name|'extension_name'
+name|'sample_dir'
 op|'='
 string|"'images'"
 newline|'\n'
-DECL|variable|extra_extensions_to_load
-name|'extra_extensions_to_load'
+comment|'# TODO(gmann): This will be removed once all API tests runs for'
+nl|'\n'
+comment|'# all extension enable.'
+nl|'\n'
+DECL|variable|all_extensions
+name|'all_extensions'
 op|'='
-op|'['
-string|'"image-metadata"'
-op|']'
+name|'True'
 newline|'\n'
 nl|'\n'
 DECL|member|test_images_list
