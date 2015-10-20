@@ -548,7 +548,7 @@ name|'self'
 op|'.'
 name|'assertEqual'
 op|'('
-string|"'xen'"
+string|"'XenServer'"
 op|','
 name|'resources'
 op|'['

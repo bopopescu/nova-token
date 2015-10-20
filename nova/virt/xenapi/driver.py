@@ -2692,7 +2692,7 @@ op|','
 nl|'\n'
 string|"'hypervisor_type'"
 op|':'
-string|"'xen'"
+string|"'XenServer'"
 op|','
 nl|'\n'
 string|"'hypervisor_version'"
