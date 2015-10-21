@@ -1319,9 +1319,9 @@ name|'_LW'
 op|'('
 string|"'The in tree EC2 API is deprecated as of Kilo release and may '"
 nl|'\n'
-string|"'be removed in a future release. The stackforge ec2-api '"
+string|"'be removed in a future release. The openstack ec2-api '"
 nl|'\n'
-string|"'project http://git.openstack.org/cgit/stackforge/ec2-api/ '"
+string|"'project http://git.openstack.org/cgit/openstack/ec2-api/ '"
 nl|'\n'
 string|"'is the target replacement for this functionality.'"
 op|')'
