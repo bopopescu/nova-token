@@ -132,7 +132,7 @@ op|','
 nl|'\n'
 string|"'long'"
 op|':'
-name|'long'
+name|'int'
 op|'('
 number|'1'
 op|')'
