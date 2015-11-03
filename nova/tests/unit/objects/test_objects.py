@@ -9049,17 +9049,6 @@ op|':'
 string|"'2.0-ff56804dce87d81d9a04834d4bd1e3d2'"
 op|','
 nl|'\n'
-comment|'# NOTE(danms): Reviewers: do not approve changes to the Instance1'
-nl|'\n'
-comment|'# object schema. It is frozen for Liberty and will be removed in'
-nl|'\n'
-comment|'# Mitaka.'
-nl|'\n'
-string|"'Instance1'"
-op|':'
-string|"'1.23-4e68422207667f4abff5fa730a5edc98'"
-op|','
-nl|'\n'
 string|"'InstanceAction'"
 op|':'
 string|"'1.1-f9f293e526b66fca0d05c3b3a2d13914'"
@@ -9113,17 +9102,6 @@ nl|'\n'
 string|"'InstanceList'"
 op|':'
 string|"'2.0-6c8ba6147cca3082b1e4643f795068bf'"
-op|','
-nl|'\n'
-comment|'# NOTE(danms): Reviewers: do not approve changes to the InstanceList1'
-nl|'\n'
-comment|'# object schema. It is frozen for Liberty and will be removed in'
-nl|'\n'
-comment|'# Mitaka.'
-nl|'\n'
-string|"'InstanceList1'"
-op|':'
-string|"'1.22-6c8ba6147cca3082b1e4643f795068bf'"
 op|','
 nl|'\n'
 string|"'InstanceMapping'"
