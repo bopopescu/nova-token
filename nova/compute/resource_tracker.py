@@ -247,7 +247,27 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'The names of the extra resources to track.'"
+string|"'DEPRECATED: The names of the extra resources to track. '"
+nl|'\n'
+string|"'The Extensible Resource Tracker is deprecated and will '"
+nl|'\n'
+string|"'be removed in the 14.0.0 release. If you '"
+nl|'\n'
+string|"'use this functionality and have custom resources that '"
+nl|'\n'
+string|"'are managed by the Extensible Resource Tracker, please '"
+nl|'\n'
+string|"'contact the Nova development team by posting to the '"
+nl|'\n'
+string|"'openstack-dev mailing list. There is no future planned '"
+nl|'\n'
+string|"'support for the tracking of custom resources.'"
+op|','
+nl|'\n'
+DECL|variable|deprecated_for_removal
+name|'deprecated_for_removal'
+op|'='
+name|'True'
 op|')'
 op|','
 nl|'\n'
