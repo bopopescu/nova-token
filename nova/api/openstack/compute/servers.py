@@ -1903,7 +1903,7 @@ comment|'# to filter out deleted instances by setting the filter ourselves.'
 nl|'\n'
 comment|"# ... Unless 'changes-since' is specified, because 'changes-since'"
 nl|'\n'
-comment|'# should return recently deleted images according to the API spec.'
+comment|'# should return recently deleted instances according to the API spec.'
 nl|'\n'
 nl|'\n'
 dedent|''
