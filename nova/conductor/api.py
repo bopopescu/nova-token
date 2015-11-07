@@ -109,7 +109,21 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'Perform nova-conductor operations locally'"
+string|"'DEPRECATED: Perform nova-conductor operations locally. '"
+nl|'\n'
+string|"'This legacy mode was introduced to bridge a gap during '"
+nl|'\n'
+string|"'the transition to the conductor service. It no longer '"
+nl|'\n'
+string|"'represents a reasonable alternative for deployers. '"
+nl|'\n'
+string|"'Removal may be as early as 14.0'"
+op|','
+nl|'\n'
+DECL|variable|deprecated_for_removal
+name|'deprecated_for_removal'
+op|'='
+name|'True'
 op|')'
 op|','
 nl|'\n'
