@@ -2120,7 +2120,9 @@ op|'='
 op|'{'
 string|"'driver_volume_type'"
 op|':'
-string|"'iscsi'"
+name|'constants'
+op|'.'
+name|'DISK_FORMAT_ISCSI'
 op|','
 nl|'\n'
 string|"'serial'"
