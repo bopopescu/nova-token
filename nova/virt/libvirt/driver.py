@@ -32833,7 +32833,7 @@ name|'_LW'
 op|'('
 string|"'Your libvirt version does not support the'"
 nl|'\n'
-string|"' VIR_DOMAIN_XML_MIGRATABLE flag, and the '"
+string|"' VIR_DOMAIN_XML_MIGRATABLE flag, and the'"
 nl|'\n'
 string|"' graphics (VNC and/or SPICE) listen'"
 nl|'\n'

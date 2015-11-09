@@ -11223,7 +11223,7 @@ name|'_LE'
 op|'('
 string|"'Attaching network adapter failed. Exception: '"
 nl|'\n'
-string|"' %s'"
+string|"'%s'"
 op|')'
 op|','
 nl|'\n'
