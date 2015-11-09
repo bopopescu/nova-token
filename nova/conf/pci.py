@@ -54,28 +54,9 @@ op|'['
 op|']'
 op|','
 nl|'\n'
-DECL|variable|help
 name|'help'
 op|'='
-string|"'An alias for a PCI passthrough device requirement. This allows '"
-nl|'\n'
-string|"'users to specify the alias in the extra_spec for a flavor, '"
-nl|'\n'
-string|"'without needing to repeat all the PCI property requirements. For '"
-nl|'\n'
-string|"'example: pci_alias = { '"
-nl|'\n'
-string|'\'"name": "QuickAssist", \''
-nl|'\n'
-string|'\'"product_id": "0443", \''
-nl|'\n'
-string|'\'"vendor_id": "8086", \''
-nl|'\n'
-string|'\'"device_type": "type-PCI" \''
-nl|'\n'
-string|"'} defines an alias for the Intel QuickAssist card. (multi '"
-nl|'\n'
-string|"'valued).'"
+string|'"""\nAn alias for a PCI passthrough device requirement.\n\nThis allows users to specify the alias in the extra_spec for a flavor, without\nneeding to repeat all the PCI property requirements.\n\nPossible Values:\n\n* A list of JSON values which describe the aliases. For example:\n\n    pci_alias = {\n      "name": "QuickAssist",\n      "product_id": "0443",\n      "vendor_id": "8086",\n      "device_type": "type-PCI"\n    }\n\n  defines an alias for the Intel QuickAssist card. (multi valued). Valid key\n  values are :\n\n  * "name"\n  * "product_id"\n  * "vendor_id"\n  * "device_type"\n\nServices which consume this:\n\n* nova-compute\n\nRelated options:\n\n* None"""'
 op|')'
 newline|'\n'
 nl|'\n'
@@ -97,14 +78,9 @@ op|'['
 op|']'
 op|','
 nl|'\n'
-DECL|variable|help
 name|'help'
 op|'='
-string|"'White list of PCI devices available to VMs. For example: '"
-nl|'\n'
-string|"'pci_passthrough_whitelist = '"
-nl|'\n'
-string|'\'[{"vendor_id": "8086", "product_id": "0443"}]\''
+string|'"""\nWhite list of PCI devices available to VMs.\n\nPossible values:\n\n* A JSON dictionary which describe a whitelisted PCI device. It should take\n  the following format:\n\n    ["device_id": "<id>",] ["product_id": "<id>",]\n    ["address": "[[[[<domain>]:]<bus>]:][<slot>][.[<function>]]" |\n     "devname": "PCI Device Name",]\n    {"tag": "<tag_value>",}\n\n  where \'[\' indicates zero or one occurrences, \'{\' indicates zero or multiple\n  occurrences, and \'|\' mutually exclusive options. Note that any missing\n  fields are automatically wildcarded. Valid examples are:\n\n    pci_passthrough_whitelist = {"devname":"eth0",\n                                 "physical_network":"physnet"}\n    pci_passthrough_whitelist = {"address":"*:0a:00.*"}\n    pci_passthrough_whitelist = {"address":":0a:00.",\n                                 "physical_network":"physnet1"}\n    pci_passthrough_whitelist = {"vendor_id":"1137",\n                                 "product_id":"0071"}\n    pci_passthrough_whitelist = {"vendor_id":"1137",\n                                 "product_id":"0071",\n                                 "address": "0000:0a:00.1",\n                                 "physical_network":"physnet1"}\n\n  The following are invalid, as they specify mutually exclusive options:\n\n    pci_passthrough_whitelist = {"devname":"eth0",\n                                 "physical_network":"physnet",\n                                 "address":"*:0a:00.*"}\n\n* A JSON list of JSON dictionaries corresponding to the above format. For\n  example:\n\n    pci_passthrough_whitelist = [{"product_id":"0001", "vendor_id":"8086"},\n                                 {"product_id":"0002", "vendor_id":"8086"}]\n\nServices which consume this:\n\n* nova-compute\n\nRelated options:\n\n* None"""'
 op|')'
 newline|'\n'
 nl|'\n'
