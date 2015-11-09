@@ -342,7 +342,7 @@ comment|"# Check that lazy loading isn't happening"
 nl|'\n'
 name|'self'
 op|'.'
-name|'failIf'
+name|'assertFalse'
 op|'('
 name|'mock_load'
 op|'.'
