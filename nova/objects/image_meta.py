@@ -561,9 +561,7 @@ DECL|variable|VERSION
 indent|'    '
 name|'VERSION'
 op|'='
-name|'ImageMeta'
-op|'.'
-name|'VERSION'
+string|"'1.7'"
 newline|'\n'
 nl|'\n'
 comment|'# Maximum number of NUMA nodes permitted for the guest topology'

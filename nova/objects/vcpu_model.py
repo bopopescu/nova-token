@@ -343,9 +343,7 @@ DECL|variable|VERSION
 indent|'    '
 name|'VERSION'
 op|'='
-name|'VirtCPUModel'
-op|'.'
-name|'VERSION'
+string|"'1.0'"
 newline|'\n'
 nl|'\n'
 DECL|variable|fields
