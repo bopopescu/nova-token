@@ -1021,10 +1021,7 @@ name|'return'
 op|'('
 name|'instance'
 op|'.'
-name|'get'
-op|'('
-string|"'config_drive'"
-op|')'
+name|'config_drive'
 name|'or'
 nl|'\n'
 string|"'always'"
