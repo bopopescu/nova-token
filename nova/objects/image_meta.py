@@ -566,9 +566,7 @@ DECL|variable|VERSION
 indent|'    '
 name|'VERSION'
 op|'='
-name|'ImageMeta'
-op|'.'
-name|'VERSION'
+string|"'1.7'"
 newline|'\n'
 nl|'\n'
 DECL|member|obj_make_compatible
