@@ -644,7 +644,7 @@ name|'host_state'
 op|'.'
 name|'limits'
 op|'['
-string|"'vcpus'"
+string|"'vcpu'"
 op|']'
 op|'='
 number|'5'
@@ -689,7 +689,7 @@ op|'.'
 name|'assertEqual'
 op|'('
 op|'{'
-string|"'vcpus'"
+string|"'vcpu'"
 op|':'
 number|'5'
 op|'}'
