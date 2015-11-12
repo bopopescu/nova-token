@@ -229,7 +229,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'Whether to log monkey patching'"
+string|"'Whether to apply monkey patching'"
 op|')'
 op|','
 nl|'\n'
