@@ -66134,6 +66134,11 @@ op|':'
 string|"'fake_volume_id'"
 op|','
 nl|'\n'
+string|"'instance_uuid'"
+op|':'
+string|"'some_instance_uuid'"
+op|','
+nl|'\n'
 string|"'boot_index'"
 op|':'
 number|'0'
@@ -66232,6 +66237,11 @@ op|':'
 string|"'local'"
 op|','
 nl|'\n'
+string|"'instance_uuid'"
+op|':'
+string|"'some_instance_uuid'"
+op|','
+nl|'\n'
 string|"'boot_index'"
 op|':'
 number|'0'
@@ -66258,6 +66268,11 @@ nl|'\n'
 string|"'device_name'"
 op|':'
 string|"'/dev/vdb'"
+op|','
+nl|'\n'
+string|"'instance_uuid'"
+op|':'
+string|"'some_instance_uuid'"
 op|','
 nl|'\n'
 string|"'boot_index'"
@@ -66361,6 +66376,11 @@ nl|'\n'
 string|"'snapshot_id'"
 op|':'
 string|"'de8836ac-d75e-11e2-8271-5254009297d6'"
+op|','
+nl|'\n'
+string|"'instance_uuid'"
+op|':'
+string|"'some_instance_uuid'"
 op|','
 nl|'\n'
 string|"'destination_type'"
