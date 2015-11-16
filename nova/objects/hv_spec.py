@@ -77,11 +77,13 @@ comment|'# Version 1.0: Initial version'
 nl|'\n'
 comment|"# Version 1.1: Added 'vz' hypervisor"
 nl|'\n'
+comment|"# Version 1.2: Added 'lxd' hypervisor"
+nl|'\n'
 DECL|variable|VERSION
 indent|'    '
 name|'VERSION'
 op|'='
-string|"'1.1'"
+string|"'1.2'"
 newline|'\n'
 nl|'\n'
 DECL|variable|fields
