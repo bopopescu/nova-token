@@ -97,15 +97,6 @@ name|'CONF'
 op|'.'
 name|'import_opt'
 op|'('
-string|"'scheduler_driver'"
-op|','
-string|"'nova.scheduler.manager'"
-op|')'
-newline|'\n'
-name|'CONF'
-op|'.'
-name|'import_opt'
-op|'('
 string|"'fake_network'"
 op|','
 string|"'nova.network.linux_net'"
