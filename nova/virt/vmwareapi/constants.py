@@ -44,6 +44,13 @@ name|'MIN_VC_VERSION'
 op|'='
 string|"'5.1.0'"
 newline|'\n'
+comment|"# The minimum VC version for Neutron 'ovs' port type support"
+nl|'\n'
+DECL|variable|MIN_VC_OVS_VERSION
+name|'MIN_VC_OVS_VERSION'
+op|'='
+string|"'5.5.0'"
+newline|'\n'
 nl|'\n'
 DECL|variable|DISK_FORMAT_ISO
 name|'DISK_FORMAT_ISO'
