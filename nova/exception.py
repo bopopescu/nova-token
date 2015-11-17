@@ -6362,15 +6362,6 @@ name|'code'
 op|'='
 number|'413'
 newline|'\n'
-DECL|variable|headers
-name|'headers'
-op|'='
-op|'{'
-string|"'Retry-After'"
-op|':'
-number|'0'
-op|'}'
-newline|'\n'
 DECL|variable|safe
 name|'safe'
 op|'='
