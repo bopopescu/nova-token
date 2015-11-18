@@ -9008,6 +9008,16 @@ op|':'
 string|"'1.17-b767102cba7cbed290e396114c3f86b3'"
 op|','
 nl|'\n'
+string|"'ServiceStatusNotification'"
+op|':'
+string|"'1.0-a73147b93b520ff0061865849d3dfa56'"
+op|','
+nl|'\n'
+string|"'ServiceStatusPayload'"
+op|':'
+string|"'1.0-b13764918aaa0e29acc868cf38a0c39b'"
+op|','
+nl|'\n'
 string|"'TaskLog'"
 op|':'
 string|"'1.0-78b0534366f29aa3eebb01860fbe18fe'"
