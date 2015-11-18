@@ -769,11 +769,11 @@ name|'is_linux'
 op|'('
 op|')'
 op|','
-string|"'SO_REUSEADDR behaves differently'"
+string|"'SO_REUSEADDR behaves differently '"
 nl|'\n'
-string|"' on OSX and BSD, see bugs '"
+string|"'on OSX and BSD, see bugs '"
 nl|'\n'
-string|"' 1436895 and 1467145'"
+string|"'1436895 and 1467145'"
 op|')'
 newline|'\n'
 DECL|member|test_socket_options_for_simple_server
@@ -1959,11 +1959,11 @@ name|'is_linux'
 op|'('
 op|')'
 op|','
-string|"'SO_REUSEADDR behaves differently'"
+string|"'SO_REUSEADDR behaves differently '"
 nl|'\n'
-string|"' on OSX and BSD, see bugs '"
+string|"'on OSX and BSD, see bugs '"
 nl|'\n'
-string|"' 1436895 and 1467145'"
+string|"'1436895 and 1467145'"
 op|')'
 newline|'\n'
 DECL|member|test_socket_options_for_ssl_server

@@ -2100,7 +2100,7 @@ name|'_LE'
 op|'('
 string|"'Requested VM Generation %s is not supported on '"
 nl|'\n'
-string|"' this OS.'"
+string|"'this OS.'"
 op|')'
 op|','
 name|'image_prop_vm'
