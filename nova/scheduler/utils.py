@@ -875,13 +875,13 @@ op|','
 name|'retry'
 op|')'
 newline|'\n'
-name|'exc'
+name|'exc_reason'
 op|'='
 name|'retry'
 op|'.'
 name|'pop'
 op|'('
-string|"'exc'"
+string|"'exc_reason'"
 op|','
 name|'None'
 op|')'
@@ -906,7 +906,7 @@ string|"'Exceeded max scheduling attempts %(max_attempts)d '"
 nl|'\n'
 string|"'for instance %(instance_uuid)s. '"
 nl|'\n'
-string|"'Last exception: %(exc)s'"
+string|"'Last exception: %(exc_reason)s'"
 op|')'
 nl|'\n'
 op|'%'
@@ -921,9 +921,9 @@ op|':'
 name|'instance_uuid'
 op|','
 nl|'\n'
-string|"'exc'"
+string|"'exc_reason'"
 op|':'
-name|'exc'
+name|'exc_reason'
 op|'}'
 op|')'
 newline|'\n'
