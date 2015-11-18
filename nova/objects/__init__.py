@@ -201,6 +201,11 @@ op|')'
 newline|'\n'
 name|'__import__'
 op|'('
+string|"'nova.objects.notification'"
+op|')'
+newline|'\n'
+name|'__import__'
+op|'('
 string|"'nova.objects.numa'"
 op|')'
 newline|'\n'
