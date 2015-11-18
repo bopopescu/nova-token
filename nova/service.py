@@ -788,7 +788,7 @@ name|'LOG'
 op|'.'
 name|'error'
 op|'('
-name|'_'
+name|'_LE'
 op|'('
 string|"'Unable to find a service record to update for '"
 nl|'\n'
@@ -796,6 +796,7 @@ string|"'%(binary)s on %(host)s'"
 op|')'
 op|'%'
 op|'{'
+nl|'\n'
 string|"'binary'"
 op|':'
 name|'this_service'
