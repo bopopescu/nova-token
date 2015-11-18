@@ -132,11 +132,18 @@ op|'('
 string|"'instance_type'"
 op|')'
 newline|'\n'
+comment|"# If 'extra_specs' is not present or extra_specs are empty then we"
+nl|'\n'
+comment|'# need not proceed further'
+nl|'\n'
 name|'if'
-string|"'extra_specs'"
 name|'not'
-name|'in'
 name|'instance_type'
+op|'.'
+name|'get'
+op|'('
+string|"'extra_specs'"
+op|')'
 op|':'
 newline|'\n'
 indent|'            '
