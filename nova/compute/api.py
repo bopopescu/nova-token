@@ -7190,7 +7190,7 @@ op|'('
 string|"'volume_size'"
 op|')'
 newline|'\n'
-comment|'# NOTE (ndipanov): inherit flavour size only for swap and ephemeral'
+comment|'# NOTE (ndipanov): inherit flavor size only for swap and ephemeral'
 nl|'\n'
 name|'if'
 op|'('
