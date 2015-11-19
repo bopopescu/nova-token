@@ -9038,6 +9038,11 @@ op|':'
 string|"'1.0-6c8190c46ce1469bb3286a1f21c2e475'"
 op|','
 nl|'\n'
+string|"'XenapiLiveMigrateData'"
+op|':'
+string|"'1.0-5f982bec68f066e194cd9ce53a24ac4c'"
+op|','
+nl|'\n'
 op|'}'
 newline|'\n'
 nl|'\n'
