@@ -1990,10 +1990,7 @@ name|'instance_relative_path'
 op|'='
 name|'migrate_data'
 op|'.'
-name|'get'
-op|'('
-string|"'instance_relative_path'"
-op|')'
+name|'instance_relative_path'
 newline|'\n'
 comment|"# NOTE(mikal): this doesn't use libvirt_utils.get_instance_path"
 nl|'\n'
