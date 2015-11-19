@@ -128,11 +128,13 @@ comment|'# Version 1.6: ImageMetaProps version 1.6'
 nl|'\n'
 comment|'# Version 1.7: ImageMetaProps version 1.7'
 nl|'\n'
+comment|'# Version 1.8: ImageMetaProps version 1.8'
+nl|'\n'
 DECL|variable|VERSION
 indent|'    '
 name|'VERSION'
 op|'='
-string|"'1.7'"
+string|"'1.8'"
 newline|'\n'
 nl|'\n'
 comment|'# These are driven by what the image client API returns'
@@ -562,11 +564,13 @@ comment|"# Version 1.6: Added 'lxc' and 'uml' enum types to DiskBusField"
 nl|'\n'
 comment|'# Version 1.7: added img_config_drive field'
 nl|'\n'
+comment|"# Version 1.8: Added 'lxd' to hypervisor types"
+nl|'\n'
 DECL|variable|VERSION
 indent|'    '
 name|'VERSION'
 op|'='
-string|"'1.7'"
+string|"'1.8'"
 newline|'\n'
 nl|'\n'
 DECL|member|obj_make_compatible
