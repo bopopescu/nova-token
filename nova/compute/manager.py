@@ -791,6 +791,12 @@ op|'('
 string|"'reclaim_instance_interval'"
 op|','
 nl|'\n'
+DECL|variable|min
+name|'min'
+op|'='
+number|'0'
+op|','
+nl|'\n'
 DECL|variable|default
 name|'default'
 op|'='
@@ -800,7 +806,9 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'Interval in seconds for reclaiming deleted instances'"
+string|"'Interval in seconds for reclaiming deleted instances. '"
+nl|'\n'
+string|"'It takes effect only when value is greater than 0.'"
 op|')'
 op|','
 nl|'\n'
