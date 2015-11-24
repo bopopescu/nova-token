@@ -2770,6 +2770,11 @@ nl|'\n'
 string|"'teardown'"
 op|':'
 name|'teardown'
+op|','
+nl|'\n'
+string|"'instance'"
+op|':'
+name|'instance'
 op|'}'
 newline|'\n'
 nl|'\n'
