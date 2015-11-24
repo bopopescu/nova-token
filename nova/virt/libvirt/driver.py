@@ -28698,7 +28698,7 @@ op|'.'
 name|'SRIOV_VF'
 op|','
 nl|'\n'
-string|"'phys_function'"
+string|"'parent_addr'"
 op|':'
 name|'phys_address'
 op|','
