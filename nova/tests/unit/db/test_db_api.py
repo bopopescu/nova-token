@@ -19433,7 +19433,7 @@ name|'ctxt'
 op|','
 nl|'\n'
 op|'{'
-string|"'tag-any'"
+string|"'tags-any'"
 op|':'
 op|'['
 name|'t1'
@@ -19570,7 +19570,7 @@ name|'ctxt'
 op|','
 nl|'\n'
 op|'{'
-string|"'tag-any'"
+string|"'tags-any'"
 op|':'
 op|'['
 name|'t3'
@@ -19711,7 +19711,7 @@ name|'ctxt'
 op|','
 nl|'\n'
 op|'{'
-string|"'tag'"
+string|"'tags'"
 op|':'
 op|'['
 name|'t1'
@@ -19844,7 +19844,7 @@ name|'ctxt'
 op|','
 nl|'\n'
 op|'{'
-string|"'tag'"
+string|"'tags'"
 op|':'
 op|'['
 name|'t3'
@@ -19987,7 +19987,7 @@ name|'ctxt'
 op|','
 nl|'\n'
 op|'{'
-string|"'tag'"
+string|"'tags'"
 op|':'
 op|'['
 name|'t1'
@@ -19996,7 +19996,7 @@ name|'t2'
 op|']'
 op|','
 nl|'\n'
-string|"'tag-any'"
+string|"'tags-any'"
 op|':'
 op|'['
 name|'t3'
