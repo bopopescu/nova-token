@@ -173,7 +173,7 @@ newline|'\n'
 nl|'\n'
 comment|'# A cache for datastore/datacenter mappings. The key will be'
 nl|'\n'
-comment|'# the datastore moref. The value will the the DcInfo object.'
+comment|'# the datastore moref. The value will be the DcInfo object.'
 nl|'\n'
 DECL|variable|_DS_DC_MAPPING
 name|'_DS_DC_MAPPING'
