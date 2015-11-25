@@ -300,6 +300,16 @@ op|'='
 string|"'macvtap'"
 newline|'\n'
 nl|'\n'
+DECL|variable|VNIC_TYPES_SRIOV
+name|'VNIC_TYPES_SRIOV'
+op|'='
+op|'('
+name|'VNIC_TYPE_DIRECT'
+op|','
+name|'VNIC_TYPE_MACVTAP'
+op|')'
+newline|'\n'
+nl|'\n'
 comment|"# Constants for the 'vif_model' values"
 nl|'\n'
 DECL|variable|VIF_MODEL_VIRTIO
