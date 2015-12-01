@@ -106,7 +106,7 @@ nl|'\n'
 DECL|variable|SERVICE_VERSION
 name|'SERVICE_VERSION'
 op|'='
-number|'5'
+number|'6'
 newline|'\n'
 nl|'\n'
 nl|'\n'
@@ -201,6 +201,15 @@ op|'{'
 string|"'compute_rpc'"
 op|':'
 string|"'4.7'"
+op|'}'
+op|','
+nl|'\n'
+comment|'# Version 6: Compute RPC version 4.8'
+nl|'\n'
+op|'{'
+string|"'compute_rpc'"
+op|':'
+string|"'4.8'"
 op|'}'
 op|','
 nl|'\n'

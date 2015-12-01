@@ -8845,7 +8845,7 @@ op|','
 nl|'\n'
 string|"'LibvirtLiveMigrateData'"
 op|':'
-string|"'1.0-eb8b5f6c49ae3858213a7012558a2f3d'"
+string|"'1.0-7d257257e7f98198b2e4982c33cf3fa5'"
 op|','
 nl|'\n'
 string|"'KeyPair'"
