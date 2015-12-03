@@ -5700,11 +5700,11 @@ op|')'
 op|')'
 newline|'\n'
 nl|'\n'
-DECL|member|test_compute_manager
+DECL|member|test_run_image_cache_manager_pass
 dedent|''
 dedent|''
 name|'def'
-name|'test_compute_manager'
+name|'test_run_image_cache_manager_pass'
 op|'('
 name|'self'
 op|')'
