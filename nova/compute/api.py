@@ -4504,7 +4504,7 @@ name|'bdm'
 op|'.'
 name|'get'
 op|'('
-string|"'source_type'"
+string|"'destination_type'"
 op|')'
 op|'=='
 string|"'volume'"
