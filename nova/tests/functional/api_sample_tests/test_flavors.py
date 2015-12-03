@@ -307,6 +307,11 @@ name|'all_extensions'
 op|'='
 name|'True'
 newline|'\n'
+DECL|variable|sample_dir
+name|'sample_dir'
+op|'='
+name|'None'
+newline|'\n'
 nl|'\n'
 DECL|member|_get_flags
 name|'def'
