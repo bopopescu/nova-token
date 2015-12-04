@@ -1906,12 +1906,7 @@ op|','
 nl|'\n'
 string|"'stats'"
 op|':'
-name|'jsonutils'
-op|'.'
-name|'dumps'
-op|'('
 name|'nodes_extra_specs'
-op|')'
 op|','
 nl|'\n'
 string|"'numa_topology'"
