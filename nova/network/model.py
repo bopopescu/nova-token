@@ -299,6 +299,11 @@ name|'VNIC_TYPE_MACVTAP'
 op|'='
 string|"'macvtap'"
 newline|'\n'
+DECL|variable|VNIC_TYPE_BAREMETAL
+name|'VNIC_TYPE_BAREMETAL'
+op|'='
+string|"'baremetal'"
+newline|'\n'
 nl|'\n'
 DECL|variable|VNIC_TYPES_SRIOV
 name|'VNIC_TYPES_SRIOV'
