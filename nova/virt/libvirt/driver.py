@@ -1796,6 +1796,9 @@ nl|'\n'
 string|"'scaleio=nova.virt.libvirt.volume.scaleio.LibvirtScaleIOVolumeDriver'"
 op|','
 nl|'\n'
+string|"'disco=nova.virt.libvirt.volume.disco.LibvirtDISCOVolumeDriver'"
+op|','
+nl|'\n'
 op|']'
 newline|'\n'
 nl|'\n'
