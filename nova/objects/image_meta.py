@@ -1623,6 +1623,11 @@ op|':'
 string|"'img_hv_requested_version'"
 op|','
 nl|'\n'
+string|"'hypervisor_type'"
+op|':'
+string|"'img_hv_type'"
+op|','
+nl|'\n'
 op|'}'
 newline|'\n'
 nl|'\n'
