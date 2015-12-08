@@ -5361,8 +5361,6 @@ nl|'\n'
 string|"'display_description'"
 op|':'
 name|'display_description'
-name|'or'
-string|"''"
 op|','
 nl|'\n'
 string|"'user_data'"
