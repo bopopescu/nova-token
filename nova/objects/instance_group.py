@@ -705,7 +705,7 @@ comment|'# table entries.'
 nl|'\n'
 comment|'# So, since the only way to have hosts in the updates is to set that'
 nl|'\n'
-comment|'# field explicitely, we prefer to raise an Exception so the developer'
+comment|'# field explicitly, we prefer to raise an Exception so the developer'
 nl|'\n'
 comment|"# knows he has to call obj_reset_changes(['hosts']) right after setting"
 nl|'\n'
