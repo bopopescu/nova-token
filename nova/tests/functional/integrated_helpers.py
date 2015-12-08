@@ -500,9 +500,7 @@ name|'flags'
 op|'('
 name|'scheduler_driver'
 op|'='
-string|"'nova.scheduler.'"
-nl|'\n'
-string|"'chance.ChanceScheduler'"
+string|"'chance_scheduler'"
 op|')'
 newline|'\n'
 name|'return'
