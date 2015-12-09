@@ -156,19 +156,29 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'Set a version cap for messages sent to compute services. If you '"
+string|"'Set a version cap for messages sent to compute services. '"
 nl|'\n'
-string|"'plan to do a live upgrade from an old version to a newer '"
+string|'\'Set this option to "auto" if you want to let the compute RPC \''
 nl|'\n'
-string|"'version, you should set this option to the old version before '"
+string|"'module automatically determine what version to use based on '"
 nl|'\n'
-string|"'beginning the live upgrade procedure. Only upgrading to the '"
+string|"'the service versions in the deployment. '"
 nl|'\n'
-string|"'next version is supported, so you cannot skip a release for '"
+string|"'Otherwise, you can set this to a specific version to pin this '"
 nl|'\n'
-string|"'the live upgrade procedure.'"
+string|"'service to messages at a particular level. '"
+nl|'\n'
+string|"'All services of a single type (i.e. compute) should be '"
+nl|'\n'
+string|"'configured to use the same version, and it should be set '"
+nl|'\n'
+string|"'to the minimum commonly-supported version of all those '"
+nl|'\n'
+string|"'services in the deployment.'"
 op|')'
 newline|'\n'
+nl|'\n'
+nl|'\n'
 name|'CONF'
 op|'.'
 name|'register_opt'
