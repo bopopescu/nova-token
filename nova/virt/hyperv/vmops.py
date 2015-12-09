@@ -83,11 +83,6 @@ name|'import'
 name|'processutils'
 newline|'\n'
 name|'from'
-name|'oslo_config'
-name|'import'
-name|'cfg'
-newline|'\n'
-name|'from'
 name|'oslo_log'
 name|'import'
 name|'log'
@@ -229,179 +224,6 @@ name|'__name__'
 op|')'
 newline|'\n'
 nl|'\n'
-DECL|variable|hyperv_opts
-name|'hyperv_opts'
-op|'='
-op|'['
-nl|'\n'
-name|'cfg'
-op|'.'
-name|'BoolOpt'
-op|'('
-string|"'limit_cpu_features'"
-op|','
-nl|'\n'
-DECL|variable|default
-name|'default'
-op|'='
-name|'False'
-op|','
-nl|'\n'
-DECL|variable|help
-name|'help'
-op|'='
-string|"'Required for live migration among '"
-nl|'\n'
-string|"'hosts with different CPU features'"
-op|')'
-op|','
-nl|'\n'
-name|'cfg'
-op|'.'
-name|'BoolOpt'
-op|'('
-string|"'config_drive_inject_password'"
-op|','
-nl|'\n'
-DECL|variable|default
-name|'default'
-op|'='
-name|'False'
-op|','
-nl|'\n'
-DECL|variable|help
-name|'help'
-op|'='
-string|"'Sets the admin password in the config drive image'"
-op|')'
-op|','
-nl|'\n'
-name|'cfg'
-op|'.'
-name|'StrOpt'
-op|'('
-string|"'qemu_img_cmd'"
-op|','
-nl|'\n'
-DECL|variable|default
-name|'default'
-op|'='
-string|'"qemu-img.exe"'
-op|','
-nl|'\n'
-DECL|variable|help
-name|'help'
-op|'='
-string|"'Path of qemu-img command which is used to convert '"
-nl|'\n'
-string|"'between different image types'"
-op|')'
-op|','
-nl|'\n'
-name|'cfg'
-op|'.'
-name|'BoolOpt'
-op|'('
-string|"'config_drive_cdrom'"
-op|','
-nl|'\n'
-DECL|variable|default
-name|'default'
-op|'='
-name|'False'
-op|','
-nl|'\n'
-DECL|variable|help
-name|'help'
-op|'='
-string|"'Attaches the Config Drive image as a cdrom drive '"
-nl|'\n'
-string|"'instead of a disk drive'"
-op|')'
-op|','
-nl|'\n'
-name|'cfg'
-op|'.'
-name|'BoolOpt'
-op|'('
-string|"'enable_instance_metrics_collection'"
-op|','
-nl|'\n'
-DECL|variable|default
-name|'default'
-op|'='
-name|'False'
-op|','
-nl|'\n'
-DECL|variable|help
-name|'help'
-op|'='
-string|"'Enables metrics collections for an instance by using '"
-nl|'\n'
-string|"'Hyper-V\\'s metric APIs. Collected data can by retrieved '"
-nl|'\n'
-string|"'by other apps and services, e.g.: Ceilometer. '"
-nl|'\n'
-string|"'Requires Hyper-V / Windows Server 2012 and above'"
-op|')'
-op|','
-nl|'\n'
-name|'cfg'
-op|'.'
-name|'FloatOpt'
-op|'('
-string|"'dynamic_memory_ratio'"
-op|','
-nl|'\n'
-DECL|variable|default
-name|'default'
-op|'='
-number|'1.0'
-op|','
-nl|'\n'
-DECL|variable|help
-name|'help'
-op|'='
-string|"'Enables dynamic memory allocation (ballooning) when '"
-nl|'\n'
-string|"'set to a value greater than 1. The value expresses '"
-nl|'\n'
-string|"'the ratio between the total RAM assigned to an '"
-nl|'\n'
-string|"'instance and its startup RAM amount. For example a '"
-nl|'\n'
-string|"'ratio of 2.0 for an instance with 1024MB of RAM '"
-nl|'\n'
-string|"'implies 512MB of RAM allocated at startup'"
-op|')'
-op|','
-nl|'\n'
-name|'cfg'
-op|'.'
-name|'IntOpt'
-op|'('
-string|"'wait_soft_reboot_seconds'"
-op|','
-nl|'\n'
-DECL|variable|default
-name|'default'
-op|'='
-number|'60'
-op|','
-nl|'\n'
-DECL|variable|help
-name|'help'
-op|'='
-string|"'Number of seconds to wait for instance to shut down after'"
-nl|'\n'
-string|"' soft reboot request is made. We fall back to hard reboot'"
-nl|'\n'
-string|"' if instance does not shutdown within this window.'"
-op|')'
-op|','
-nl|'\n'
-op|']'
-newline|'\n'
 nl|'\n'
 DECL|variable|CONF
 name|'CONF'
@@ -411,15 +233,6 @@ op|'.'
 name|'conf'
 op|'.'
 name|'CONF'
-newline|'\n'
-name|'CONF'
-op|'.'
-name|'register_opts'
-op|'('
-name|'hyperv_opts'
-op|','
-string|"'hyperv'"
-op|')'
 newline|'\n'
 nl|'\n'
 DECL|variable|SHUTDOWN_TIME_INCREMENT
