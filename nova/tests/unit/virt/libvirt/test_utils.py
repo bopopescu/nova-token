@@ -4303,6 +4303,11 @@ nl|'\n'
 string|"'t.qcow2.part'"
 op|','
 string|"'t.qcow2.converted'"
+op|','
+nl|'\n'
+string|"'-f'"
+op|','
+string|"'qcow2'"
 op|')'
 op|','
 nl|'\n'
