@@ -911,7 +911,7 @@ name|'exception'
 op|'('
 name|'_LE'
 op|'('
-string|"'Failed to get metadata for ip: %s'"
+string|"'Failed to get metadata for IP: %s'"
 op|')'
 op|','
 nl|'\n'
@@ -960,7 +960,7 @@ name|'error'
 op|'('
 name|'_LE'
 op|'('
-string|"'Failed to get metadata for ip: %s'"
+string|"'Failed to get metadata for IP: %s'"
 op|')'
 op|','
 nl|'\n'
