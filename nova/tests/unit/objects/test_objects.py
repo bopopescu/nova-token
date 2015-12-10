@@ -8930,7 +8930,7 @@ op|','
 nl|'\n'
 string|"'RequestSpec'"
 op|':'
-string|"'1.4-6922fe208b5d1186bdd825513f677921'"
+string|"'1.5-576a249869c161e17b7cd6d55f9d85f3'"
 op|','
 nl|'\n'
 string|"'S3ImageMapping'"
