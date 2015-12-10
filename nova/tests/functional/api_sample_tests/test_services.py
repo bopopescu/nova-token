@@ -658,7 +658,7 @@ string|"'2.11'"
 newline|'\n'
 comment|'# NOTE(gryf): There is no need to run those tests on v2 API. Only'
 nl|'\n'
-comment|'# scenarios for v2_9 will be run.'
+comment|'# scenarios for v2_11 will be run.'
 nl|'\n'
 DECL|variable|scenarios
 name|'scenarios'
@@ -668,6 +668,9 @@ op|'('
 string|"'v2_11'"
 op|','
 op|'{'
+string|"'_api_version'"
+op|':'
+string|"'v2.1'"
 op|'}'
 op|')'
 op|']'
