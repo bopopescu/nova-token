@@ -164,15 +164,6 @@ op|','
 string|"'nova.netconf'"
 op|')'
 newline|'\n'
-name|'CONF'
-op|'.'
-name|'import_opt'
-op|'('
-string|"'network_manager'"
-op|','
-string|"'nova.service'"
-op|')'
-newline|'\n'
 DECL|variable|LOG
 name|'LOG'
 op|'='

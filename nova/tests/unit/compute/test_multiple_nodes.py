@@ -81,15 +81,6 @@ name|'conf'
 op|'.'
 name|'CONF'
 newline|'\n'
-name|'CONF'
-op|'.'
-name|'import_opt'
-op|'('
-string|"'compute_manager'"
-op|','
-string|"'nova.service'"
-op|')'
-newline|'\n'
 nl|'\n'
 nl|'\n'
 DECL|class|BaseTestCase
