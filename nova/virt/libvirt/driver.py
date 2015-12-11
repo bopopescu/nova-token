@@ -1548,7 +1548,7 @@ name|'import_opt'
 op|'('
 string|"'vcpu_pin_set'"
 op|','
-string|"'nova.virt.hardware'"
+string|"'nova.conf.virt'"
 op|')'
 newline|'\n'
 name|'CONF'
