@@ -2034,7 +2034,7 @@ op|','
 nl|'\n'
 string|"'host_name'"
 op|':'
-string|"'[0-9a-z]{32}'"
+string|"r'\\w+'"
 op|','
 nl|'\n'
 string|"'glance_host'"
