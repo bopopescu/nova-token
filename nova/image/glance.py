@@ -172,10 +172,18 @@ op|'='
 string|"'$my_ip'"
 op|','
 nl|'\n'
+comment|'# TODO(sdague): remove in N'
+nl|'\n'
+DECL|variable|deprecated_for_removal
+name|'deprecated_for_removal'
+op|'='
+name|'True'
+op|','
+nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'Default glance hostname or IP address'"
+string|"'Glance server hostname or IP address'"
 op|')'
 op|','
 nl|'\n'
@@ -204,10 +212,18 @@ op|'='
 number|'65535'
 op|','
 nl|'\n'
+comment|'# TODO(sdague): remove in N'
+nl|'\n'
+DECL|variable|deprecated_for_removal
+name|'deprecated_for_removal'
+op|'='
+name|'True'
+op|','
+nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'Default glance port'"
+string|"'Glance server port'"
 op|')'
 op|','
 nl|'\n'
@@ -234,10 +250,18 @@ string|"'https'"
 op|')'
 op|','
 nl|'\n'
+comment|'# TODO(sdague): remove in N'
+nl|'\n'
+DECL|variable|deprecated_for_removal
+name|'deprecated_for_removal'
+op|'='
+name|'True'
+op|','
+nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'Default protocol to use when connecting to glance. '"
+string|"'Protocol to use when connecting to glance. '"
 nl|'\n'
 string|"'Set to https for SSL.'"
 op|')'
@@ -250,14 +274,9 @@ op|'('
 string|"'api_servers'"
 op|','
 nl|'\n'
-DECL|variable|help
 name|'help'
 op|'='
-string|"'A list of the glance api servers available to nova. '"
-nl|'\n'
-string|"'Prefix with https:// for ssl-based glance api servers. '"
-nl|'\n'
-string|"'([hostname|ip]:port)'"
+string|'\'\'\'\nA list of the glance api servers endpoints available to nova. These\nshould be fully qualified urls of the form\n"scheme://hostname:port[/path]" (i.e. "http://10.0.1.0:9292" or\n"https://my.glance.server/image")\'\'\''
 op|')'
 op|','
 nl|'\n'
