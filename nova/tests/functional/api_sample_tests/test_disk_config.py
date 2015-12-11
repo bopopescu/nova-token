@@ -530,11 +530,11 @@ op|'('
 op|')'
 op|','
 nl|'\n'
-string|"'host'"
+string|"'compute_endpoint'"
 op|':'
 name|'self'
 op|'.'
-name|'_get_host'
+name|'_get_compute_endpoint'
 op|'('
 op|')'
 op|','
