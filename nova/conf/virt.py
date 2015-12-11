@@ -43,12 +43,9 @@ nl|'\n'
 string|"'vcpu_pin_set'"
 op|','
 nl|'\n'
-DECL|variable|help
 name|'help'
 op|'='
-string|"'Defines which pcpus that instance vcpus can use. For example, '"
-nl|'\n'
-string|'\'"4-12,^8,15"\''
+string|'"""Defines which physical CPUs (pCPUs) can be used by instance\nvirtual CPUs (vCPUs).\n\nPossible values:\n\n* A comma-separated list of physical CPU numbers that virtual CPUs can be\n  allocated to by default. Each element should be either a single CPU number,\n  a range of CPU numbers, or a caret followed by a CPU number to be\n  excluded from a previous range. For example:\n\n    vcpu_pin_set = "4-12,^8,15"\n\nServices which consume this:\n\n* nova-scheduler\n* nova-compute\n\nRelated options:\n\n* None"""'
 op|')'
 newline|'\n'
 nl|'\n'
