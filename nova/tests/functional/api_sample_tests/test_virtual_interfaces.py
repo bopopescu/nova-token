@@ -109,25 +109,11 @@ op|'='
 string|"'vifs-list-resp'"
 newline|'\n'
 name|'if'
-op|'('
-name|'hasattr'
-op|'('
-name|'self'
-op|','
-string|"'_test'"
-op|')'
-name|'and'
 name|'self'
 op|'.'
-name|'_test'
-name|'in'
-op|'('
+name|'_api_version'
+op|'=='
 string|"'v2'"
-op|','
-nl|'\n'
-string|"'v2.1_compatible'"
-op|')'
-op|')'
 op|':'
 newline|'\n'
 indent|'            '
@@ -297,6 +283,9 @@ op|'('
 string|"'v2_12'"
 op|','
 op|'{'
+string|"'_api_version'"
+op|':'
+string|"'v2.1'"
 op|'}'
 op|')'
 op|']'
