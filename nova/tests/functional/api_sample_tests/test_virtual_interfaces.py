@@ -111,7 +111,7 @@ newline|'\n'
 name|'if'
 name|'self'
 op|'.'
-name|'_api_version'
+name|'api_major_version'
 op|'=='
 string|"'v2'"
 op|':'
@@ -263,9 +263,9 @@ name|'VirtualInterfacesJsonTest'
 op|')'
 op|':'
 newline|'\n'
-DECL|variable|request_api_version
+DECL|variable|microversion
 indent|'    '
-name|'request_api_version'
+name|'microversion'
 op|'='
 string|"'2.12'"
 newline|'\n'
@@ -283,7 +283,7 @@ op|'('
 string|"'v2_12'"
 op|','
 op|'{'
-string|"'_api_version'"
+string|"'api_major_version'"
 op|':'
 string|"'v2.1'"
 op|'}'

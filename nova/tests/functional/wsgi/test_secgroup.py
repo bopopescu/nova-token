@@ -133,7 +133,7 @@ string|"'v2'"
 op|','
 op|'{'
 nl|'\n'
-string|"'_api_version'"
+string|"'api_major_version'"
 op|':'
 string|"'v2'"
 op|'}'
@@ -147,7 +147,7 @@ string|"'v2_1'"
 op|','
 op|'{'
 nl|'\n'
-string|"'_api_version'"
+string|"'api_major_version'"
 op|':'
 string|"'v2.1'"
 op|'}'

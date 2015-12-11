@@ -94,9 +94,9 @@ name|'ServersTestBase'
 op|')'
 op|':'
 newline|'\n'
-DECL|variable|_api_version
+DECL|variable|api_major_version
 indent|'    '
-name|'_api_version'
+name|'api_major_version'
 op|'='
 string|"'v2'"
 newline|'\n'

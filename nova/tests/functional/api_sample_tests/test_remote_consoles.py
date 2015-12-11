@@ -493,9 +493,9 @@ name|'ServersSampleBase'
 op|')'
 op|':'
 newline|'\n'
-DECL|variable|request_api_version
+DECL|variable|microversion
 indent|'    '
-name|'request_api_version'
+name|'microversion'
 op|'='
 string|"'2.6'"
 newline|'\n'
@@ -518,7 +518,7 @@ op|'('
 string|"'v2_6'"
 op|','
 op|'{'
-string|"'_api_version'"
+string|"'api_major_version'"
 op|':'
 string|"'v2.1'"
 op|'}'
@@ -655,8 +655,8 @@ name|'extension_name'
 op|'='
 string|'"os-remote-consoles"'
 newline|'\n'
-DECL|variable|request_api_version
-name|'request_api_version'
+DECL|variable|microversion
+name|'microversion'
 op|'='
 string|"'2.8'"
 newline|'\n'
@@ -668,15 +668,15 @@ op|'('
 string|"'v2_8'"
 op|','
 op|'{'
-string|"'_api_version'"
+string|"'api_major_version'"
 op|':'
 string|"'v2.1'"
 op|'}'
 op|')'
 op|']'
 newline|'\n'
-DECL|variable|_api_version
-name|'_api_version'
+DECL|variable|api_major_version
+name|'api_major_version'
 op|'='
 string|"'v2'"
 newline|'\n'

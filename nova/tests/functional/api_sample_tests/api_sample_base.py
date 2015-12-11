@@ -137,11 +137,11 @@ comment|'# Things we need to set:'
 nl|'\n'
 comment|'#'
 nl|'\n'
-comment|'# - _api_version - what version of the API we should be hitting'
+comment|'# - api_major_version - what version of the API we should be hitting'
 nl|'\n'
 comment|'#'
 nl|'\n'
-comment|'# - request_api_version - what API microversion should be used'
+comment|'# - microversion - what API microversion should be used'
 nl|'\n'
 comment|'#'
 nl|'\n'
@@ -163,7 +163,7 @@ comment|'# test class with something like:'
 nl|'\n'
 comment|'#'
 nl|'\n'
-comment|'# [("v2_11", {\'_api_version\': \'v2.1\', \'request_api_version\', \'2.11\'})]'
+comment|'# [("v2_11", {\'api_major_version\': \'v2.1\', \'microversion\', \'2.11\'})]'
 nl|'\n'
 nl|'\n'
 nl|'\n'
@@ -182,9 +182,9 @@ name|'ApiSampleTestBase'
 op|')'
 op|':'
 newline|'\n'
-DECL|variable|_api_version
+DECL|variable|api_major_version
 indent|'    '
-name|'_api_version'
+name|'api_major_version'
 op|'='
 string|"'v2'"
 newline|'\n'
@@ -224,7 +224,7 @@ string|"'v2'"
 op|','
 op|'{'
 nl|'\n'
-string|"'_api_version'"
+string|"'api_major_version'"
 op|':'
 string|"'v2'"
 op|'}'
@@ -238,7 +238,7 @@ string|"'v2_1'"
 op|','
 op|'{'
 nl|'\n'
-string|"'_api_version'"
+string|"'api_major_version'"
 op|':'
 string|"'v2.1'"
 op|'}'
@@ -252,7 +252,7 @@ string|"'v2legacy'"
 op|','
 op|'{'
 nl|'\n'
-string|"'_api_version'"
+string|"'api_major_version'"
 op|':'
 string|"'v2'"
 op|','
