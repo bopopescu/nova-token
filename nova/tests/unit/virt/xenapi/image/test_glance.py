@@ -694,10 +694,11 @@ name|'mock'
 op|'.'
 name|'ANY'
 op|','
+nl|'\n'
 op|'{'
 string|"'callback_result'"
 op|':'
-string|"'10.0.1.1'"
+string|"'http://10.0.1.1:9292'"
 op|','
 nl|'\n'
 string|"'attempts'"
@@ -729,10 +730,11 @@ name|'mock'
 op|'.'
 name|'ANY'
 op|','
+nl|'\n'
 op|'{'
 string|"'callback_result'"
 op|':'
-string|"'10.0.0.1'"
+string|"'http://10.0.0.1:9293'"
 op|','
 nl|'\n'
 string|"'attempts'"
