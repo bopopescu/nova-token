@@ -57,11 +57,6 @@ name|'uuid'
 newline|'\n'
 nl|'\n'
 name|'from'
-name|'oslo_config'
-name|'import'
-name|'cfg'
-newline|'\n'
-name|'from'
 name|'oslo_log'
 name|'import'
 name|'log'
@@ -185,6 +180,11 @@ name|'from'
 name|'nova'
 name|'import'
 name|'conductor'
+newline|'\n'
+name|'import'
+name|'nova'
+op|'.'
+name|'conf'
 newline|'\n'
 name|'from'
 name|'nova'
@@ -439,305 +439,16 @@ name|'get_notifier'
 op|')'
 newline|'\n'
 nl|'\n'
-DECL|variable|compute_opts
-name|'compute_opts'
-op|'='
-op|'['
-nl|'\n'
-name|'cfg'
-op|'.'
-name|'BoolOpt'
-op|'('
-string|"'allow_resize_to_same_host'"
-op|','
-nl|'\n'
-DECL|variable|default
-name|'default'
-op|'='
-name|'False'
-op|','
-nl|'\n'
-DECL|variable|help
-name|'help'
-op|'='
-string|"'Allow destination machine to match source for resize. '"
-nl|'\n'
-string|"'Useful when testing in single-host environments.'"
-op|')'
-op|','
-nl|'\n'
-name|'cfg'
-op|'.'
-name|'StrOpt'
-op|'('
-string|"'default_schedule_zone'"
-op|','
-nl|'\n'
-DECL|variable|help
-name|'help'
-op|'='
-string|"'Availability zone to use when user doesn\\'t specify one'"
-op|')'
-op|','
-nl|'\n'
-name|'cfg'
-op|'.'
-name|'ListOpt'
-op|'('
-string|"'non_inheritable_image_properties'"
-op|','
-nl|'\n'
-DECL|variable|default
-name|'default'
-op|'='
-op|'['
-string|"'cache_in_nova'"
-op|','
-nl|'\n'
-string|"'bittorrent'"
-op|']'
-op|','
-nl|'\n'
-DECL|variable|help
-name|'help'
-op|'='
-string|"'These are image properties which a snapshot should not'"
-nl|'\n'
-string|"' inherit from an instance'"
-op|')'
-op|','
-nl|'\n'
-name|'cfg'
-op|'.'
-name|'StrOpt'
-op|'('
-string|"'null_kernel'"
-op|','
-nl|'\n'
-DECL|variable|default
-name|'default'
-op|'='
-string|"'nokernel'"
-op|','
-nl|'\n'
-DECL|variable|help
-name|'help'
-op|'='
-string|"'Kernel image that indicates not to use a kernel, but to '"
-nl|'\n'
-string|"'use a raw disk image instead'"
-op|')'
-op|','
-nl|'\n'
-name|'cfg'
-op|'.'
-name|'StrOpt'
-op|'('
-string|"'multi_instance_display_name_template'"
-op|','
-nl|'\n'
-DECL|variable|default
-name|'default'
-op|'='
-string|"'%(name)s-%(count)d'"
-op|','
-nl|'\n'
-DECL|variable|help
-name|'help'
-op|'='
-string|"'When creating multiple instances with a single request '"
-nl|'\n'
-string|"'using the os-multiple-create API extension, this '"
-nl|'\n'
-string|"'template will be used to build the display name for '"
-nl|'\n'
-string|"'each instance. The benefit is that the instances '"
-nl|'\n'
-string|"'end up with different hostnames. To restore legacy '"
-nl|'\n'
-string|"'behavior of every instance having the same name, set '"
-nl|'\n'
-string|'\'this option to "%(name)s".  Valid keys for the \''
-nl|'\n'
-string|"'template are: name, uuid, count.'"
-op|')'
-op|','
-nl|'\n'
-name|'cfg'
-op|'.'
-name|'IntOpt'
-op|'('
-string|"'max_local_block_devices'"
-op|','
-nl|'\n'
-DECL|variable|default
-name|'default'
-op|'='
-number|'3'
-op|','
-nl|'\n'
-DECL|variable|help
-name|'help'
-op|'='
-string|"'Maximum number of devices that will result '"
-nl|'\n'
-string|"'in a local image being created on the hypervisor node. '"
-nl|'\n'
-string|"'A negative number means unlimited. Setting '"
-nl|'\n'
-string|"'max_local_block_devices to 0 means that any request that '"
-nl|'\n'
-string|"'attempts to create a local disk will fail. This option '"
-nl|'\n'
-string|"'is meant to limit the number of local discs (so root '"
-nl|'\n'
-string|"'local disc that is the result of --image being used, and '"
-nl|'\n'
-string|"'any other ephemeral and swap disks). 0 does not mean '"
-nl|'\n'
-string|"'that images will be automatically converted to volumes '"
-nl|'\n'
-string|"'and boot instances from volumes - it just means that all '"
-nl|'\n'
-string|"'requests that attempt to create a local disk will fail.'"
-op|')'
-op|','
-nl|'\n'
-op|']'
-newline|'\n'
-nl|'\n'
-DECL|variable|ephemeral_storage_encryption_group
-name|'ephemeral_storage_encryption_group'
-op|'='
-name|'cfg'
-op|'.'
-name|'OptGroup'
-op|'('
-nl|'\n'
-DECL|variable|name
-name|'name'
-op|'='
-string|"'ephemeral_storage_encryption'"
-op|','
-nl|'\n'
-DECL|variable|title
-name|'title'
-op|'='
-string|"'Ephemeral storage encryption options'"
-op|')'
-newline|'\n'
-nl|'\n'
-DECL|variable|ephemeral_storage_encryption_opts
-name|'ephemeral_storage_encryption_opts'
-op|'='
-op|'['
-nl|'\n'
-name|'cfg'
-op|'.'
-name|'BoolOpt'
-op|'('
-string|"'enabled'"
-op|','
-nl|'\n'
-DECL|variable|default
-name|'default'
-op|'='
-name|'False'
-op|','
-nl|'\n'
-DECL|variable|help
-name|'help'
-op|'='
-string|"'Whether to encrypt ephemeral storage'"
-op|')'
-op|','
-nl|'\n'
-name|'cfg'
-op|'.'
-name|'StrOpt'
-op|'('
-string|"'cipher'"
-op|','
-nl|'\n'
-DECL|variable|default
-name|'default'
-op|'='
-string|"'aes-xts-plain64'"
-op|','
-nl|'\n'
-DECL|variable|help
-name|'help'
-op|'='
-string|"'The cipher and mode to be used to encrypt ephemeral '"
-nl|'\n'
-string|"'storage. Which ciphers are available ciphers depends '"
-nl|'\n'
-string|"'on kernel support. See /proc/crypto for the list of '"
-nl|'\n'
-string|"'available options.'"
-op|')'
-op|','
-nl|'\n'
-name|'cfg'
-op|'.'
-name|'IntOpt'
-op|'('
-string|"'key_size'"
-op|','
-nl|'\n'
-DECL|variable|default
-name|'default'
-op|'='
-number|'512'
-op|','
-nl|'\n'
-DECL|variable|help
-name|'help'
-op|'='
-string|"'The bit length of the encryption key to be used to '"
-nl|'\n'
-string|"'encrypt ephemeral storage (in XTS mode only half of '"
-nl|'\n'
-string|"'the bits are used for encryption key)'"
-op|')'
-nl|'\n'
-op|']'
-newline|'\n'
-nl|'\n'
 DECL|variable|CONF
 name|'CONF'
 op|'='
-name|'cfg'
+name|'nova'
+op|'.'
+name|'conf'
 op|'.'
 name|'CONF'
 newline|'\n'
-name|'CONF'
-op|'.'
-name|'register_opts'
-op|'('
-name|'compute_opts'
-op|')'
-newline|'\n'
-name|'CONF'
-op|'.'
-name|'register_group'
-op|'('
-name|'ephemeral_storage_encryption_group'
-op|')'
-newline|'\n'
-name|'CONF'
-op|'.'
-name|'register_opts'
-op|'('
-name|'ephemeral_storage_encryption_opts'
-op|','
 nl|'\n'
-DECL|variable|group
-name|'group'
-op|'='
-string|"'ephemeral_storage_encryption'"
-op|')'
-newline|'\n'
 name|'CONF'
 op|'.'
 name|'import_opt'
