@@ -103,11 +103,6 @@ name|'extension_name'
 op|'='
 string|'"os-migrate-server"'
 newline|'\n'
-DECL|variable|ctype
-name|'ctype'
-op|'='
-string|"'json'"
-newline|'\n'
 nl|'\n'
 DECL|member|_get_flags
 name|'def'
