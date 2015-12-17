@@ -72204,6 +72204,10 @@ op|':'
 name|'volume_id'
 op|','
 nl|'\n'
+string|"'destination_type'"
+op|':'
+string|"'volume'"
+nl|'\n'
 op|'}'
 newline|'\n'
 name|'db'
