@@ -406,7 +406,6 @@ DECL|variable|VMWARE_POWER_STATES
 name|'VMWARE_POWER_STATES'
 op|'='
 op|'{'
-nl|'\n'
 string|"'poweredOff'"
 op|':'
 name|'power_state'
