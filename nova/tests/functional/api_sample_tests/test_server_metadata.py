@@ -75,13 +75,8 @@ name|'ServersSampleBase'
 op|')'
 op|':'
 newline|'\n'
-DECL|variable|extends_name
-indent|'    '
-name|'extends_name'
-op|'='
-string|"'core_only'"
-newline|'\n'
 DECL|variable|sample_dir
+indent|'    '
 name|'sample_dir'
 op|'='
 string|"'server-metadata'"
