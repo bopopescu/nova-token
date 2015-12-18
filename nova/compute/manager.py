@@ -713,9 +713,17 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'Number of times to retry block device'"
+string|"'Number of times to retry block device '"
 nl|'\n'
-string|"' allocation on failures'"
+string|"'allocation on failures.\\n'"
+nl|'\n'
+string|"'Starting with Liberty, Cinder can use image volume '"
+nl|'\n'
+string|"'cache. This may help with block device allocation '"
+nl|'\n'
+string|"'performance. Look at the cinder '"
+nl|'\n'
+string|"'image_volume_cache_enabled configuration option.'"
 op|')'
 nl|'\n'
 op|']'
