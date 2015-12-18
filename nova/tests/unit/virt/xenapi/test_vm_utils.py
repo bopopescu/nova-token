@@ -1924,7 +1924,7 @@ op|'('
 nl|'\n'
 string|"'glance'"
 op|','
-string|"'download_vhd'"
+string|"'download_vhd2'"
 op|','
 number|'0'
 op|','

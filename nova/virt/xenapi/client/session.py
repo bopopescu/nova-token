@@ -415,7 +415,7 @@ nl|'\n'
 DECL|variable|PLUGIN_REQUIRED_VERSION
 name|'PLUGIN_REQUIRED_VERSION'
 op|'='
-string|"'1.2'"
+string|"'1.3'"
 newline|'\n'
 nl|'\n'
 DECL|member|__init__
