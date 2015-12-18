@@ -510,7 +510,7 @@ op|','
 nl|'\n'
 string|"'size'"
 op|':'
-name|'None'
+number|'0'
 op|','
 nl|'\n'
 string|"'min_disk'"
