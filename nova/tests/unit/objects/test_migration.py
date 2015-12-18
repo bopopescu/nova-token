@@ -1002,11 +1002,6 @@ op|','
 string|"'window'"
 op|','
 string|"'foo'"
-op|','
-nl|'\n'
-name|'use_slave'
-op|'='
-name|'False'
 op|')'
 op|'.'
 name|'AndReturn'
