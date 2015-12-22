@@ -62,6 +62,11 @@ name|'DISK_FORMAT_VMDK'
 op|'='
 string|"'vmdk'"
 newline|'\n'
+DECL|variable|DISK_FORMAT_ISCSI
+name|'DISK_FORMAT_ISCSI'
+op|'='
+string|"'iscsi'"
+newline|'\n'
 DECL|variable|DISK_FORMATS_ALL
 name|'DISK_FORMATS_ALL'
 op|'='
