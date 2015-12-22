@@ -199,6 +199,11 @@ name|'VIF_DETAILS_PHYSICAL_NETWORK'
 op|'='
 string|"'physical_network'"
 newline|'\n'
+DECL|variable|VIF_DETAILS_BRIDGE_NAME
+name|'VIF_DETAILS_BRIDGE_NAME'
+op|'='
+string|"'bridge_name'"
+newline|'\n'
 nl|'\n'
 comment|'# The following constant defines an SR-IOV related parameter in the'
 nl|'\n'
