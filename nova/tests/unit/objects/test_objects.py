@@ -8823,6 +8823,16 @@ op|':'
 string|"'1.1-65e38083177726d806684cb1cc0136d2'"
 op|','
 nl|'\n'
+string|"'LibvirtLiveMigrateBDMInfo'"
+op|':'
+string|"'1.0-252aabb723ca79d5469fa56f64b57811'"
+op|','
+nl|'\n'
+string|"'LibvirtLiveMigrateData'"
+op|':'
+string|"'1.0-eb8b5f6c49ae3858213a7012558a2f3d'"
+op|','
+nl|'\n'
 string|"'KeyPair'"
 op|':'
 string|"'1.3-bfaa2a8b148cdf11e0c72435d9dd097a'"
