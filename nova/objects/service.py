@@ -99,7 +99,7 @@ nl|'\n'
 DECL|variable|SERVICE_VERSION
 name|'SERVICE_VERSION'
 op|'='
-number|'2'
+number|'3'
 newline|'\n'
 nl|'\n'
 nl|'\n'
@@ -167,6 +167,15 @@ op|'{'
 string|"'compute_rpc'"
 op|':'
 string|"'4.5'"
+op|'}'
+op|','
+nl|'\n'
+comment|'# Version 3: Changes to trigger_crash_dump signature in the compute_rpc'
+nl|'\n'
+op|'{'
+string|"'compute_rpc'"
+op|':'
+string|"'4.6'"
 op|'}'
 op|','
 nl|'\n'

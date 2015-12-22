@@ -28,7 +28,7 @@ nl|'\n'
 comment|'#    under the License.'
 nl|'\n'
 nl|'\n'
-string|'"""Possible actions on an instance.\n\nActions should probably match a user intention at the API level.  Because they\ncan be user visible that should help to avoid confusion.  For that reason they\ntend to maintain the casing sent to the API.\n\nMaintaining a list of actions here should protect against inconsistencies when\nthey are used.\n"""'
+string|'"""Possible actions on an instance.\n\nActions should probably match a user intention at the API level.  Because they\ncan be user visible that should help to avoid confusion.  For that reason they\ntend to maintain the casing sent to the API.\n\nMaintaining a list of actions here should protect against inconsistencies when\nthey are used.\n\nThe naming style of instance actions should be snake_case, as it will\nconsistent with the API names. Do not modify the old ones because they have\nbeen exposed to users.\n"""'
 newline|'\n'
 nl|'\n'
 DECL|variable|CREATE
@@ -140,6 +140,11 @@ DECL|variable|LIVE_MIGRATION
 name|'LIVE_MIGRATION'
 op|'='
 string|"'live-migration'"
+newline|'\n'
+DECL|variable|TRIGGER_CRASH_DUMP
+name|'TRIGGER_CRASH_DUMP'
+op|'='
+string|"'trigger_crash_dump'"
 newline|'\n'
 endmarker|''
 end_unit
