@@ -170,7 +170,7 @@ string|"'4.5'"
 op|'}'
 op|','
 nl|'\n'
-comment|'# Version 3: Changes to trigger_crash_dump signature in the compute_rpc'
+comment|'# Version 3: Add trigger_crash_dump method to compute rpc api'
 nl|'\n'
 op|'{'
 string|"'compute_rpc'"
