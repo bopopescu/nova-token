@@ -190,7 +190,7 @@ name|'req'
 op|'.'
 name|'body'
 op|'='
-string|"'{'"
+string|"b'{'"
 newline|'\n'
 name|'req'
 op|'.'
@@ -256,7 +256,7 @@ name|'req'
 op|'.'
 name|'body'
 op|'='
-string|"'<hi im not xml>'"
+string|"b'<hi im not xml>'"
 newline|'\n'
 name|'req'
 op|'.'
