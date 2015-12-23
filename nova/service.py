@@ -256,8 +256,6 @@ DECL|variable|default
 name|'default'
 op|'='
 op|'['
-string|"'ec2'"
-op|','
 string|"'osapi_compute'"
 op|','
 string|"'metadata'"
