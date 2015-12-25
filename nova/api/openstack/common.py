@@ -255,13 +255,6 @@ op|')'
 newline|'\n'
 nl|'\n'
 nl|'\n'
-DECL|variable|XML_NS_V11
-name|'XML_NS_V11'
-op|'='
-string|"'http://docs.openstack.org/compute/api/v1.1'"
-newline|'\n'
-nl|'\n'
-nl|'\n'
 DECL|variable|_STATE_MAP
 name|'_STATE_MAP'
 op|'='
