@@ -71592,6 +71592,11 @@ op|':'
 name|'None'
 op|','
 nl|'\n'
+string|"'parent_addr'"
+op|':'
+string|"'0000:0f:00.1'"
+op|','
+nl|'\n'
 op|'}'
 op|','
 op|'{'
@@ -71608,6 +71613,11 @@ nl|'\n'
 string|"'address'"
 op|':'
 string|"'0000:0f:03.7'"
+op|','
+nl|'\n'
+string|"'parent_addr'"
+op|':'
+string|"'0000:0f:03.0'"
 op|','
 nl|'\n'
 string|"'vendor_id'"
