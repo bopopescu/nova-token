@@ -894,6 +894,26 @@ DECL|variable|help
 name|'help'
 op|'='
 string|"'Migration flags to be set for live migration'"
+op|','
+nl|'\n'
+DECL|variable|deprecated_for_removal
+name|'deprecated_for_removal'
+op|'='
+name|'True'
+op|','
+nl|'\n'
+DECL|variable|deprecated_reason
+name|'deprecated_reason'
+op|'='
+string|"'The correct live migration flags can be '"
+nl|'\n'
+string|"'inferred from the new '"
+nl|'\n'
+string|"'live_migration_tunnelled config option. '"
+nl|'\n'
+string|"'live_migration_flag will be removed to '"
+nl|'\n'
+string|"'avoid potential misconfiguration.'"
 op|')'
 op|','
 nl|'\n'
@@ -918,6 +938,26 @@ DECL|variable|help
 name|'help'
 op|'='
 string|"'Migration flags to be set for block migration'"
+op|','
+nl|'\n'
+DECL|variable|deprecated_for_removal
+name|'deprecated_for_removal'
+op|'='
+name|'True'
+op|','
+nl|'\n'
+DECL|variable|deprecated_reason
+name|'deprecated_reason'
+op|'='
+string|"'The correct block migration flags can be '"
+nl|'\n'
+string|"'inferred from the new '"
+nl|'\n'
+string|"'live_migration_tunnelled config option. '"
+nl|'\n'
+string|"'block_migration_flag will be removed to '"
+nl|'\n'
+string|"'avoid potential misconfiguration.'"
 op|')'
 op|','
 nl|'\n'
