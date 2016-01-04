@@ -483,13 +483,6 @@ name|'api_v2'
 newline|'\n'
 name|'mapper'
 op|'['
-string|"'/v1.1'"
-op|']'
-op|'='
-name|'api_v2'
-newline|'\n'
-name|'mapper'
-op|'['
 string|"'/'"
 op|']'
 op|'='
