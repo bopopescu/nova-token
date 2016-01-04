@@ -1568,11 +1568,6 @@ op|'['
 string|'"os-access-ips"'
 op|']'
 newline|'\n'
-DECL|variable|api_major_version
-name|'api_major_version'
-op|'='
-string|"'v2'"
-newline|'\n'
 nl|'\n'
 DECL|member|_get_flags
 name|'def'

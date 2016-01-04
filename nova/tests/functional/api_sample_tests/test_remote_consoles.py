@@ -675,11 +675,6 @@ op|'}'
 op|')'
 op|']'
 newline|'\n'
-DECL|variable|api_major_version
-name|'api_major_version'
-op|'='
-string|"'v2'"
-newline|'\n'
 nl|'\n'
 DECL|member|setUp
 name|'def'
