@@ -250,13 +250,6 @@ name|'default'
 op|'='
 op|'['
 nl|'\n'
-string|"'nova.api.ec2.cloud:%s'"
-op|'%'
-op|'('
-name|'notify_decorator'
-op|')'
-op|','
-nl|'\n'
 string|"'nova.compute.api:%s'"
 op|'%'
 op|'('
