@@ -3400,17 +3400,22 @@ name|'warning'
 op|'('
 name|'_LW'
 op|'('
-string|"'Running Nova with a live_migration_flag config '"
+string|"'Removing the VIR_MIGRATE_NON_SHARED_INC flag '"
 nl|'\n'
-string|"'option which contains VIR_MIGRATE_NON_SHARED_INC '"
+string|"'from the live_migration_flag config option '"
 nl|'\n'
-string|"'will cause all live-migrations to be block-'"
+string|"'because it will cause all live-migrations to be '"
 nl|'\n'
-string|"'migrations instead. This setting should only be '"
-nl|'\n'
-string|"'on the block_migration_flag instead.'"
+string|"'block-migrations instead.'"
 op|')'
 op|')'
+newline|'\n'
+name|'live_migration_flags'
+op|'&='
+op|'~'
+name|'libvirt'
+op|'.'
+name|'VIR_MIGRATE_NON_SHARED_INC'
 newline|'\n'
 nl|'\n'
 dedent|''
@@ -3433,23 +3438,33 @@ name|'warning'
 op|'('
 name|'_LW'
 op|'('
-string|"'Running Nova with a block_migration_flag config '"
+string|"'Adding the VIR_MIGRATE_NON_SHARED_INC flag to '"
 nl|'\n'
-string|"'option which does not contain '"
+string|"'the block_migration_flag config option, '"
 nl|'\n'
-string|"'VIR_MIGRATE_NON_SHARED_INC '"
+string|"'otherwise all block-migrations will be '"
 nl|'\n'
-string|"'will cause all block-migrations to be live-'"
-nl|'\n'
-string|"'migrations instead. This setting should be '"
-nl|'\n'
-string|"'on the block_migration_flag.'"
+string|"'live-migrations instead.'"
 op|')'
+op|')'
+newline|'\n'
+name|'block_migration_flags'
+op|'|='
+name|'libvirt'
+op|'.'
+name|'VIR_MIGRATE_NON_SHARED_INC'
+newline|'\n'
+nl|'\n'
+dedent|''
+name|'return'
+op|'('
+name|'live_migration_flags'
+op|','
+name|'block_migration_flags'
 op|')'
 newline|'\n'
 nl|'\n'
 DECL|member|_parse_migration_flags
-dedent|''
 dedent|''
 name|'def'
 name|'_parse_migration_flags'
@@ -3563,13 +3578,20 @@ name|'block_migration_flag'
 op|')'
 newline|'\n'
 nl|'\n'
-name|'self'
-op|'.'
-name|'_check_block_migration_flags'
 op|'('
 name|'live_migration_flags'
 op|','
 nl|'\n'
+name|'block_migration_flags'
+op|')'
+op|'='
+name|'self'
+op|'.'
+name|'_check_block_migration_flags'
+op|'('
+nl|'\n'
+name|'live_migration_flags'
+op|','
 name|'block_migration_flags'
 op|')'
 newline|'\n'
