@@ -195,6 +195,8 @@ string|"'no_device'"
 op|','
 nl|'\n'
 string|"'connection_info'"
+op|','
+string|"'tag'"
 op|']'
 op|')'
 newline|'\n'

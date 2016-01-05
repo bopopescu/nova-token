@@ -795,6 +795,11 @@ nl|'\n'
 string|"'instance_uuid'"
 op|':'
 number|'0'
+op|','
+nl|'\n'
+string|"'tag'"
+op|':'
+string|"'fake-tag1'"
 op|'}'
 op|','
 nl|'\n'
@@ -842,6 +847,11 @@ nl|'\n'
 string|"'instance_uuid'"
 op|':'
 number|'0'
+op|','
+nl|'\n'
+string|"'tag'"
+op|':'
+string|"'fake-tag2'"
 op|'}'
 op|','
 nl|'\n'
@@ -889,6 +899,11 @@ nl|'\n'
 string|"'instance_uuid'"
 op|':'
 number|'0'
+op|','
+nl|'\n'
+string|"'tag'"
+op|':'
+string|"'fake-tag3'"
 op|'}'
 op|']'
 newline|'\n'

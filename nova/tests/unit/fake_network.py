@@ -317,6 +317,11 @@ nl|'\n'
 string|"'address'"
 op|':'
 string|"'DC:AD:BE:FF:EF:01'"
+op|','
+nl|'\n'
+string|"'tag'"
+op|':'
+string|"'fake-tag1'"
 op|'}'
 op|','
 nl|'\n'
@@ -368,6 +373,11 @@ nl|'\n'
 string|"'address'"
 op|':'
 string|"'DC:AD:BE:FF:EF:02'"
+op|','
+nl|'\n'
+string|"'tag'"
+op|':'
+string|"'fake-tag2'"
 op|'}'
 op|','
 nl|'\n'
@@ -419,6 +429,11 @@ nl|'\n'
 string|"'address'"
 op|':'
 string|"'DC:AD:BE:FF:EF:03'"
+op|','
+nl|'\n'
+string|"'tag'"
+op|':'
+name|'None'
 op|'}'
 op|']'
 newline|'\n'
@@ -1413,6 +1428,11 @@ op|':'
 name|'uuids'
 op|'.'
 name|'vifs_1'
+op|','
+nl|'\n'
+string|"'tag'"
+op|':'
+string|"'fake-tag'"
 op|'}'
 newline|'\n'
 nl|'\n'
