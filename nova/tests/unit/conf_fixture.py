@@ -197,6 +197,11 @@ name|'state_path_def'
 op|'('
 string|"'etc/nova/api-paste.ini'"
 op|')'
+op|','
+nl|'\n'
+name|'group'
+op|'='
+string|"'wsgi'"
 op|')'
 newline|'\n'
 name|'self'
