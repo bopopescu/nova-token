@@ -149,6 +149,13 @@ nl|'\n'
 op|'}'
 op|','
 nl|'\n'
+string|"'required'"
+op|':'
+op|'['
+string|"'size'"
+op|']'
+op|','
+nl|'\n'
 string|"'additionalProperties'"
 op|':'
 name|'False'
