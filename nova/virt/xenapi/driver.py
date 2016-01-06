@@ -2731,16 +2731,10 @@ op|','
 nl|'\n'
 string|"'supported_instances'"
 op|':'
-name|'jsonutils'
-op|'.'
-name|'dumps'
-op|'('
-nl|'\n'
 name|'host_stats'
 op|'['
 string|"'supported_instances'"
 op|']'
-op|')'
 op|','
 nl|'\n'
 string|"'pci_passthrough_devices'"
