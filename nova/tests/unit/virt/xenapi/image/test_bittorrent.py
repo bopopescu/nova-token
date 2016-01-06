@@ -699,7 +699,7 @@ name|'bittorrent'
 op|'.'
 name|'LOG'
 op|','
-string|"'warn'"
+string|"'warning'"
 op|','
 name|'fake_warn'
 op|')'
