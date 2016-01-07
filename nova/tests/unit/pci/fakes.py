@@ -78,8 +78,10 @@ op|'.'
 name|'object'
 op|'('
 name|'whitelist'
+op|'.'
+name|'Whitelist'
 op|','
-string|"'get_pci_device_devspec'"
+string|"'get_devspec'"
 op|','
 nl|'\n'
 name|'return_value'
