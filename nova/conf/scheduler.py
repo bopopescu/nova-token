@@ -941,6 +941,69 @@ string|'"Maximum number of attempts to schedule an instance"'
 op|')'
 newline|'\n'
 nl|'\n'
+DECL|variable|soft_affinity_weight_opt
+name|'soft_affinity_weight_opt'
+op|'='
+name|'cfg'
+op|'.'
+name|'FloatOpt'
+op|'('
+string|"'soft_affinity_weight_multiplier'"
+op|','
+nl|'\n'
+DECL|variable|default
+name|'default'
+op|'='
+number|'1.0'
+op|','
+nl|'\n'
+DECL|variable|help
+name|'help'
+op|'='
+string|"'Multiplier used for weighing hosts '"
+nl|'\n'
+string|"'for group soft-affinity. Only a '"
+nl|'\n'
+string|"'positive value is meaningful. Negative '"
+nl|'\n'
+string|"'means that the behavior will change to '"
+nl|'\n'
+string|"'the opposite, which is soft-anti-affinity.'"
+op|')'
+newline|'\n'
+nl|'\n'
+DECL|variable|soft_anti_affinity_weight_opt
+name|'soft_anti_affinity_weight_opt'
+op|'='
+name|'cfg'
+op|'.'
+name|'FloatOpt'
+op|'('
+nl|'\n'
+string|"'soft_anti_affinity_weight_multiplier'"
+op|','
+nl|'\n'
+DECL|variable|default
+name|'default'
+op|'='
+number|'1.0'
+op|','
+nl|'\n'
+DECL|variable|help
+name|'help'
+op|'='
+string|"'Multiplier used for weighing hosts '"
+nl|'\n'
+string|"'for group soft-anti-affinity. Only a '"
+nl|'\n'
+string|"'positive value is meaningful. Negative '"
+nl|'\n'
+string|"'means that the behavior will change to '"
+nl|'\n'
+string|"'the opposite, which is soft-affinity.'"
+op|')'
+newline|'\n'
+nl|'\n'
 nl|'\n'
 DECL|variable|SIMPLE_OPTS
 name|'SIMPLE_OPTS'
@@ -1013,6 +1076,12 @@ name|'io_ops_weight_mult_opt'
 op|','
 nl|'\n'
 name|'scheduler_max_att_opt'
+op|','
+nl|'\n'
+name|'soft_affinity_weight_opt'
+op|','
+nl|'\n'
+name|'soft_anti_affinity_weight_opt'
 op|','
 nl|'\n'
 op|']'
