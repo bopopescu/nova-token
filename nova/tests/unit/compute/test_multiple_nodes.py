@@ -1106,9 +1106,8 @@ name|'fake_compute_nodes'
 op|'['
 number|'0'
 op|']'
-op|'['
-string|"'hypervisor_hostname'"
-op|']'
+op|'.'
+name|'hypervisor_hostname'
 op|','
 string|"'A'"
 op|')'
