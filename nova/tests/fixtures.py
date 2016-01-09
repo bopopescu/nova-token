@@ -1641,11 +1641,6 @@ name|'conf_overrides'
 op|'='
 op|'{'
 nl|'\n'
-string|"'ec2_listen'"
-op|':'
-string|"'127.0.0.1'"
-op|','
-nl|'\n'
 string|"'osapi_compute_listen'"
 op|':'
 string|"'127.0.0.1'"
@@ -1654,11 +1649,6 @@ nl|'\n'
 string|"'metadata_listen'"
 op|':'
 string|"'127.0.0.1'"
-op|','
-nl|'\n'
-string|"'ec2_listen_port'"
-op|':'
-number|'0'
 op|','
 nl|'\n'
 string|"'osapi_compute_listen_port'"

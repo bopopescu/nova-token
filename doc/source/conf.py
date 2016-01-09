@@ -337,22 +337,6 @@ op|')'
 op|','
 nl|'\n'
 op|'('
-string|"'man/nova-api-ec2'"
-op|','
-string|"'nova-api-ec2'"
-op|','
-string|"u'Cloud controller fabric'"
-op|','
-nl|'\n'
-op|'['
-string|"u'OpenStack'"
-op|']'
-op|','
-number|'1'
-op|')'
-op|','
-nl|'\n'
-op|'('
 string|"'man/nova-api-metadata'"
 op|','
 string|"'nova-api-metadata'"
@@ -580,22 +564,6 @@ op|'('
 string|"'man/nova-serialproxy'"
 op|','
 string|"'nova-serialproxy'"
-op|','
-string|"u'Cloud controller fabric'"
-op|','
-nl|'\n'
-op|'['
-string|"u'OpenStack'"
-op|']'
-op|','
-number|'1'
-op|')'
-op|','
-nl|'\n'
-op|'('
-string|"'man/nova-objectstore'"
-op|','
-string|"'nova-objectstore'"
 op|','
 string|"u'Cloud controller fabric'"
 op|','
