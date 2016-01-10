@@ -934,6 +934,12 @@ op|'='
 number|'3'
 op|','
 nl|'\n'
+DECL|variable|min
+name|'min'
+op|'='
+number|'1'
+op|','
+nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
