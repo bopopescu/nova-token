@@ -173,7 +173,7 @@ name|'session'
 op|'.'
 name|'XenAPISession'
 op|'('
-string|"'url'"
+string|"'http://someserver'"
 op|','
 string|"'username'"
 op|','
@@ -336,7 +336,7 @@ name|'session'
 op|'.'
 name|'XenAPISession'
 op|'('
-string|"'url'"
+string|"'http://someserver'"
 op|','
 string|"'username'"
 op|','
@@ -543,7 +543,7 @@ name|'session'
 op|'.'
 name|'XenAPISession'
 op|'('
-string|"'url'"
+string|"'http://slave'"
 op|','
 string|"'username'"
 op|','
