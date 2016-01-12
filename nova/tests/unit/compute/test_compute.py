@@ -81853,7 +81853,11 @@ op|','
 nl|'\n'
 name|'availability_zone'
 op|'='
-string|"'1:1'"
+string|"'1'"
+op|','
+name|'forced_host'
+op|'='
+string|"'1'"
 op|')'
 newline|'\n'
 nl|'\n'
@@ -81920,7 +81924,11 @@ op|','
 nl|'\n'
 name|'availability_zone'
 op|'='
-string|"'1:1'"
+string|"'1'"
+op|','
+name|'forced_host'
+op|'='
+string|"'1'"
 op|')'
 newline|'\n'
 nl|'\n'
