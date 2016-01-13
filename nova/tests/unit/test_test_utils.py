@@ -341,8 +341,9 @@ name|'fixtures'
 op|'.'
 name|'MonkeyPatch'
 op|'('
-string|"'__builtin__.open'"
+string|"'six.moves.builtins.open'"
 op|','
+nl|'\n'
 name|'fake_open'
 op|')'
 op|':'
