@@ -8630,7 +8630,7 @@ op|','
 nl|'\n'
 string|"'BlockDeviceMapping'"
 op|':'
-string|"'1.15-d44d8d694619e79c172a99b3c1d6261d'"
+string|"'1.16-12319f6f47f740a67a88a23f7c7ee6ef'"
 op|','
 nl|'\n'
 string|"'BlockDeviceMappingList'"
