@@ -69,10 +69,18 @@ op|'='
 number|'1'
 op|','
 nl|'\n'
+DECL|variable|deprecated_for_removal
+name|'deprecated_for_removal'
+op|'='
+name|'True'
+op|','
+nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'Version of Ironic API service endpoint.'"
+string|"'Version of Ironic API service endpoint. '"
+nl|'\n'
+string|"'DEPRECATED: Setting the API version is not possible anymore.'"
 op|')'
 newline|'\n'
 nl|'\n'

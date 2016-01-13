@@ -494,6 +494,11 @@ op|'.'
 name|'ironic'
 op|'.'
 name|'api_retry_interval'
+op|','
+nl|'\n'
+string|"'os_ironic_api_version'"
+op|':'
+string|"'1.8'"
 op|'}'
 newline|'\n'
 name|'mock_ir_cli'
@@ -599,6 +604,11 @@ op|'.'
 name|'ironic'
 op|'.'
 name|'api_retry_interval'
+op|','
+nl|'\n'
+string|"'os_ironic_api_version'"
+op|':'
+string|"'1.8'"
 op|'}'
 newline|'\n'
 name|'mock_ir_cli'
