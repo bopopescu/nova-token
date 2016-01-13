@@ -1116,6 +1116,11 @@ name|'if'
 string|"'parent_addr'"
 name|'in'
 name|'updates'
+name|'and'
+name|'updates'
+op|'['
+string|"'parent_addr'"
+op|']'
 op|':'
 newline|'\n'
 indent|'                    '
