@@ -22281,9 +22281,8 @@ op|'{'
 string|"'name'"
 op|':'
 name|'aggregate'
-op|'['
-string|"'name'"
-op|']'
+op|'.'
+name|'name'
 op|'}'
 op|')'
 newline|'\n'
