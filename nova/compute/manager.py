@@ -27371,8 +27371,6 @@ nl|'\n'
 name|'volume_id'
 op|'='
 name|'volume_id'
-name|'or'
-string|"'reserved'"
 op|','
 nl|'\n'
 name|'device_name'
