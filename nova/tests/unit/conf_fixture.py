@@ -147,15 +147,6 @@ op|','
 string|"'nova.network.floating_ips'"
 op|')'
 newline|'\n'
-name|'CONF'
-op|'.'
-name|'import_opt'
-op|'('
-string|"'compute_driver'"
-op|','
-string|"'nova.virt.driver'"
-op|')'
-newline|'\n'
 nl|'\n'
 nl|'\n'
 DECL|class|ConfFixture
