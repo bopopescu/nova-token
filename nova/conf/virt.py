@@ -202,10 +202,9 @@ op|'='
 name|'True'
 op|','
 nl|'\n'
-DECL|variable|help
 name|'help'
 op|'='
-string|"'Force backing images to raw format'"
+string|'"""Force conversion of backing images to raw format.\n\nPossible values:\n\n* True: Backing image files will be converted to raw image format\n* False: Backing image files will not be converted\n\nServices which consume this:\n\n* nova-compute\n\nInterdependencies to other options:\n\n* ``compute_driver``: Only the libvirt driver uses this option.\n"""'
 op|')'
 newline|'\n'
 nl|'\n'
