@@ -1326,15 +1326,6 @@ name|'CONF'
 op|'.'
 name|'import_opt'
 op|'('
-string|"'image_cache_manager_interval'"
-op|','
-string|"'nova.virt.imagecache'"
-op|')'
-newline|'\n'
-name|'CONF'
-op|'.'
-name|'import_opt'
-op|'('
 string|"'enabled'"
 op|','
 string|"'nova.mks'"
