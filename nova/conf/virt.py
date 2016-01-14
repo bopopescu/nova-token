@@ -283,6 +283,107 @@ string|"'Template file for injected network'"
 op|')'
 newline|'\n'
 nl|'\n'
+comment|"# NOTE(yamahata): ListOpt won't work because the command may include a comma."
+nl|'\n'
+comment|'# For example:'
+nl|'\n'
+comment|'#'
+nl|'\n'
+comment|'#     mkfs.ext4 -O dir_index,extent -E stride=8,stripe-width=16'
+nl|'\n'
+comment|'#       --label %(fs_label)s %(target)s'
+nl|'\n'
+comment|'#'
+nl|'\n'
+comment|'# list arguments are comma separated and there is no way to escape such'
+nl|'\n'
+comment|'# commas.'
+nl|'\n'
+DECL|variable|virt_mkfs
+name|'virt_mkfs'
+op|'='
+name|'cfg'
+op|'.'
+name|'MultiStrOpt'
+op|'('
+nl|'\n'
+string|"'virt_mkfs'"
+op|','
+nl|'\n'
+DECL|variable|default
+name|'default'
+op|'='
+op|'['
+op|']'
+op|','
+nl|'\n'
+DECL|variable|help
+name|'help'
+op|'='
+string|"'Name of the mkfs commands for ephemeral device. '"
+nl|'\n'
+string|"'The format is <os_type>=<mkfs command>'"
+op|')'
+newline|'\n'
+nl|'\n'
+DECL|variable|resize_fs_using_block_device
+name|'resize_fs_using_block_device'
+op|'='
+name|'cfg'
+op|'.'
+name|'BoolOpt'
+op|'('
+nl|'\n'
+string|"'resize_fs_using_block_device'"
+op|','
+nl|'\n'
+DECL|variable|default
+name|'default'
+op|'='
+name|'False'
+op|','
+nl|'\n'
+DECL|variable|help
+name|'help'
+op|'='
+string|"'Attempt to resize the filesystem by accessing the '"
+nl|'\n'
+string|"'image over a block device. This is done by the host '"
+nl|'\n'
+string|"'and may not be necessary if the image contains a recent '"
+nl|'\n'
+string|"'version of cloud-init. Possible mechanisms require '"
+nl|'\n'
+string|"'the nbd driver (for qcow and raw), or loop (for raw).'"
+op|')'
+newline|'\n'
+nl|'\n'
+DECL|variable|timeout_nbd
+name|'timeout_nbd'
+op|'='
+name|'cfg'
+op|'.'
+name|'IntOpt'
+op|'('
+nl|'\n'
+string|"'timeout_nbd'"
+op|','
+nl|'\n'
+DECL|variable|default
+name|'default'
+op|'='
+number|'10'
+op|','
+nl|'\n'
+DECL|variable|help
+name|'help'
+op|'='
+string|"'Amount of time, in seconds, to wait for NBD '"
+nl|'\n'
+string|"'device start up.'"
+op|')'
+newline|'\n'
+nl|'\n'
 DECL|variable|ALL_OPTS
 name|'ALL_OPTS'
 op|'='
@@ -318,6 +419,15 @@ name|'force_raw_images'
 op|','
 nl|'\n'
 name|'injected_network_template'
+op|','
+nl|'\n'
+name|'virt_mkfs'
+op|','
+nl|'\n'
+name|'resize_fs_using_block_device'
+op|','
+nl|'\n'
+name|'timeout_nbd'
 op|']'
 newline|'\n'
 nl|'\n'
