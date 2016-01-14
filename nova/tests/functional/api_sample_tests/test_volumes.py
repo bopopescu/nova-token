@@ -1617,7 +1617,7 @@ op|'.'
 name|'stub_out'
 op|'('
 nl|'\n'
-string|"'nova.objects.BlockDeviceMapping.get_by_volume_id'"
+string|"'nova.objects.BlockDeviceMapping.get_by_volume_and_instance'"
 op|','
 nl|'\n'
 name|'classmethod'
