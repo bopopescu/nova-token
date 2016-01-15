@@ -251,6 +251,14 @@ string|"'security_groups'"
 op|']'
 newline|'\n'
 nl|'\n'
+comment|'# Maximum count of tags to one instance'
+nl|'\n'
+DECL|variable|MAX_TAG_COUNT
+name|'MAX_TAG_COUNT'
+op|'='
+number|'50'
+newline|'\n'
+nl|'\n'
 nl|'\n'
 DECL|function|_expected_cols
 name|'def'
