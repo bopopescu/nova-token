@@ -533,6 +533,9 @@ nl|'\n'
 string|"'server-metadata'"
 op|','
 string|"'server-migrations'"
+op|','
+nl|'\n'
+string|"'os-server-tags'"
 nl|'\n'
 op|']'
 newline|'\n'
