@@ -8730,7 +8730,7 @@ op|','
 nl|'\n'
 string|"'ImageMetaProps'"
 op|':'
-string|"'1.10-0f1c0f7d7d4cca0facd47524633ca9d1'"
+string|"'1.11-96aa14a8ba226701bbd22e63557a63ea'"
 op|','
 nl|'\n'
 string|"'Instance'"
