@@ -406,6 +406,12 @@ string|"'tags'"
 op|':'
 op|'['
 op|']'
+op|','
+nl|'\n'
+string|"'services'"
+op|':'
+op|'['
+op|']'
 nl|'\n'
 op|'}'
 newline|'\n'

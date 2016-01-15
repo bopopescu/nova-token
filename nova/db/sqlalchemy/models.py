@@ -476,6 +476,42 @@ number|'0'
 op|')'
 newline|'\n'
 nl|'\n'
+DECL|variable|instance
+name|'instance'
+op|'='
+name|'orm'
+op|'.'
+name|'relationship'
+op|'('
+nl|'\n'
+string|'"Instance"'
+op|','
+nl|'\n'
+DECL|variable|backref
+name|'backref'
+op|'='
+string|"'services'"
+op|','
+nl|'\n'
+DECL|variable|primaryjoin
+name|'primaryjoin'
+op|'='
+string|"'and_(Service.host == Instance.host,'"
+nl|'\n'
+string|'\'Service.binary == "nova-compute",\''
+nl|'\n'
+string|"'Instance.deleted == 0)'"
+op|','
+nl|'\n'
+DECL|variable|foreign_keys
+name|'foreign_keys'
+op|'='
+name|'host'
+op|','
+nl|'\n'
+op|')'
+newline|'\n'
+nl|'\n'
 nl|'\n'
 DECL|class|ComputeNode
 dedent|''
