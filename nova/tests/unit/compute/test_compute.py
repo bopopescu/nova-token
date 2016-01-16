@@ -49407,7 +49407,11 @@ op|','
 nl|'\n'
 string|"'status'"
 op|':'
+op|'['
 string|"'accepted'"
+op|','
+string|"'done'"
+op|']'
 op|','
 nl|'\n'
 string|"'migration_type'"
