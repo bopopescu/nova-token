@@ -314,6 +314,16 @@ name|'False'
 op|')'
 op|','
 nl|'\n'
+string|"'network_provider'"
+op|':'
+name|'kw'
+op|'.'
+name|'get'
+op|'('
+string|"'network_provider'"
+op|')'
+op|','
+nl|'\n'
 string|"'extra'"
 op|':'
 name|'kw'
