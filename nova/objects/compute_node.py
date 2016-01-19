@@ -404,6 +404,12 @@ name|'True'
 op|')'
 op|','
 nl|'\n'
+comment|'# TODO(rlrossit): because of history, numa_topology is held here as a'
+nl|'\n'
+comment|'# StringField, not a NUMATopology object. In version 2 of ComputeNode'
+nl|'\n'
+comment|"# this will be converted over to a fields.ObjectField('NUMATopology')"
+nl|'\n'
 string|"'numa_topology'"
 op|':'
 name|'fields'
