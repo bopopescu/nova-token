@@ -279,15 +279,6 @@ op|','
 string|"'nova.network.rpcapi'"
 op|')'
 newline|'\n'
-name|'CONF'
-op|'.'
-name|'import_opt'
-op|'('
-string|"'fake_network'"
-op|','
-string|"'nova.network.linux_net'"
-op|')'
-newline|'\n'
 nl|'\n'
 nl|'\n'
 DECL|class|RPCAllocateFixedIP
