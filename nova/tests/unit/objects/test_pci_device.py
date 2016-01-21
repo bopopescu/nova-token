@@ -653,6 +653,9 @@ op|','
 string|"'address'"
 op|','
 string|"'extra_info'"
+op|','
+nl|'\n'
+string|"'parent_addr'"
 op|']'
 op|')'
 op|')'
@@ -787,6 +790,8 @@ op|','
 string|"'status'"
 op|','
 nl|'\n'
+string|"'parent_addr'"
+op|','
 string|"'extra_info'"
 op|']'
 op|')'
@@ -877,6 +882,8 @@ op|'['
 string|"'vendor_id'"
 op|','
 string|"'product_id'"
+op|','
+string|"'parent_addr'"
 op|']'
 op|')'
 op|')'
@@ -979,6 +986,8 @@ op|'['
 string|"'vendor_id'"
 op|','
 string|"'product_id'"
+op|','
+string|"'parent_addr'"
 op|']'
 op|')'
 op|')'
