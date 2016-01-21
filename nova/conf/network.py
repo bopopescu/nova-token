@@ -569,10 +569,9 @@ string|"'/etc/nova/nova-dhcpbridge.conf'"
 op|']'
 op|','
 nl|'\n'
-DECL|variable|help
 name|'help'
 op|'='
-string|"'Location of flagfiles for dhcpbridge'"
+string|'"""\nThis option is a list of full paths to one or more configuration files for\ndhcpbridge. In most cases the default path of \'/etc/nova/nova-dhcpbridge.conf\'\nshould be sufficient, but if you have special needs for configuring dhcpbridge,\nyou can change or add to this list.\n\n* Possible values\n\n    A list of strings, where each string is the full path to a dhcpbridge\n    configuration file.\n\n* Services that use this:\n\n    ``nova-network``\n\n* Related options:\n\n    None\n"""'
 op|')'
 op|','
 nl|'\n'
@@ -594,10 +593,9 @@ string|"'networks'"
 op|')'
 op|','
 nl|'\n'
-DECL|variable|help
 name|'help'
 op|'='
-string|"'Location to keep network config files'"
+string|'"""\nThe location where the network configuration files will be kept. The default is\nthe \'networks\' directory off of the location where nova\'s Python module is\ninstalled.\n\n* Possible values\n\n    A string containing the full path to the desired configuration directory\n\n* Services that use this:\n\n    ``nova-network``\n\n* Related options:\n\n    None\n"""'
 op|')'
 op|','
 nl|'\n'
@@ -614,10 +612,9 @@ op|'='
 string|"'eth0'"
 op|','
 nl|'\n'
-DECL|variable|help
 name|'help'
 op|'='
-string|"'Interface for public IP addresses'"
+string|'"""\nThis is the name of the network interface for public IP addresses. The default\nis \'eth0\'.\n\n* Possible values:\n\n    Any string representing a network interface name\n\n* Services that use this:\n\n    ``nova-network``\n\n* Related options:\n\n    None\n"""'
 op|')'
 op|','
 nl|'\n'
@@ -639,10 +636,9 @@ string|"'nova-dhcpbridge'"
 op|')'
 op|','
 nl|'\n'
-DECL|variable|help
 name|'help'
 op|'='
-string|"'Location of nova-dhcpbridge'"
+string|'"""\nThe location of the binary nova-dhcpbridge. By default it is the binary named\n\'nova-dhcpbridge\' that is installed with all the other nova binaries.\n\n* Possible values:\n\n    Any string representing the full path to the binary for dhcpbridge\n\n* Services that use this:\n\n    ``nova-network``\n\n* Related options:\n\n    None\n"""'
 op|')'
 op|','
 nl|'\n'
@@ -659,10 +655,9 @@ op|'='
 string|"'$my_ip'"
 op|','
 nl|'\n'
-DECL|variable|help
 name|'help'
 op|'='
-string|"'Public IP of network host'"
+string|'"""\nThis is the public IP address of the network host. It is used when creating a\nSNAT rule.\n\n* Possible values:\n\n    Any valid IP address\n\n* Services that use this:\n\n    ``nova-network``\n\n* Related options:\n\n    force_snat_range\n"""'
 op|')'
 op|','
 nl|'\n'
@@ -679,10 +674,9 @@ op|'='
 number|'86400'
 op|','
 nl|'\n'
-DECL|variable|help
 name|'help'
 op|'='
-string|"'Lifetime of a DHCP lease in seconds'"
+string|'"""\nThe lifetime of a DHCP lease, in seconds. The default is 86400 (one day).\n\nPossible values:\n\n    Any positive integer value.\n\n* Services that use this:\n\n    ``nova-network``\n\n* Related options:\n\n    None\n"""'
 op|')'
 op|','
 nl|'\n'
