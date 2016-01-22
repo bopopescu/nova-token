@@ -99,7 +99,7 @@ nl|'\n'
 DECL|variable|SERVICE_VERSION
 name|'SERVICE_VERSION'
 op|'='
-number|'4'
+number|'5'
 newline|'\n'
 nl|'\n'
 nl|'\n'
@@ -185,6 +185,15 @@ op|'{'
 string|"'compute_rpc'"
 op|':'
 string|"'4.6'"
+op|'}'
+op|','
+nl|'\n'
+comment|'# Version 5: Add attachment_id kwarg to detach_volume()'
+nl|'\n'
+op|'{'
+string|"'compute_rpc'"
+op|':'
+string|"'4.7'"
 op|'}'
 op|','
 nl|'\n'
