@@ -269,6 +269,15 @@ name|'VIF_DETAILS_VHOSTUSER_OVS_PLUG'
 op|'='
 string|"'vhostuser_ovs_plug'"
 newline|'\n'
+comment|'# Specifies whether vhost-user socket should be used to'
+nl|'\n'
+comment|'# create a fp netdevice interface.'
+nl|'\n'
+DECL|variable|VIF_DETAILS_VHOSTUSER_FP_PLUG
+name|'VIF_DETAILS_VHOSTUSER_FP_PLUG'
+op|'='
+string|"'vhostuser_fp_plug'"
+newline|'\n'
 nl|'\n'
 comment|"# Constants for dictionary keys in the 'vif_details' field that are"
 nl|'\n'
