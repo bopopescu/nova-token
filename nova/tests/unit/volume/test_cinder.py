@@ -2121,6 +2121,10 @@ op|','
 string|"'uuid'"
 op|','
 string|"'point'"
+op|','
+name|'host'
+op|'='
+string|"'fake_host'"
 op|')'
 newline|'\n'
 nl|'\n'
@@ -2149,6 +2153,11 @@ nl|'\n'
 name|'mode'
 op|'='
 string|"'rw'"
+op|','
+nl|'\n'
+name|'host_name'
+op|'='
+string|"'fake_host'"
 op|')'
 newline|'\n'
 nl|'\n'
@@ -2241,6 +2250,10 @@ nl|'\n'
 name|'mode'
 op|'='
 string|"'ro'"
+op|','
+name|'host_name'
+op|'='
+name|'None'
 op|')'
 newline|'\n'
 nl|'\n'
