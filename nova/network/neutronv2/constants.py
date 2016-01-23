@@ -48,5 +48,10 @@ name|'VNIC_INDEX_EXT'
 op|'='
 string|"'VNIC Index'"
 newline|'\n'
+DECL|variable|DNS_INTEGRATION
+name|'DNS_INTEGRATION'
+op|'='
+string|"'DNS Integration'"
+newline|'\n'
 endmarker|''
 end_unit
