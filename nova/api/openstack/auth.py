@@ -413,11 +413,11 @@ op|')'
 newline|'\n'
 nl|'\n'
 nl|'\n'
-DECL|class|NoAuthMiddlewareV2_17
+DECL|class|NoAuthMiddlewareV2_18
 dedent|''
 dedent|''
 name|'class'
-name|'NoAuthMiddlewareV2_17'
+name|'NoAuthMiddlewareV2_18'
 op|'('
 name|'NoAuthMiddlewareBase'
 op|')'
