@@ -443,6 +443,26 @@ op|','
 string|"'osapi_v21'"
 op|')'
 newline|'\n'
+comment|"# TODO(sdague): this makes our project_id match 'fake' and"
+nl|'\n'
+comment|"# 'openstack' as well. We should fix the tests to use real"
+nl|'\n'
+comment|'# UUIDs then drop this work around.'
+nl|'\n'
+name|'self'
+op|'.'
+name|'conf'
+op|'.'
+name|'set_default'
+op|'('
+string|"'project_id_regex'"
+op|','
+nl|'\n'
+string|"'[0-9a-fopnstk\\-]+'"
+op|','
+string|"'osapi_v21'"
+op|')'
+newline|'\n'
 name|'self'
 op|'.'
 name|'conf'
