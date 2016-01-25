@@ -782,19 +782,18 @@ name|'cfg'
 op|'.'
 name|'StrOpt'
 op|'('
-string|"'linuxnet_interface_driver'"
+string|'"linuxnet_interface_driver"'
 op|','
 nl|'\n'
 DECL|variable|default
 name|'default'
 op|'='
-string|"'nova.network.linux_net.LinuxBridgeInterfaceDriver'"
+string|'"nova.network.linux_net.LinuxBridgeInterfaceDriver"'
 op|','
 nl|'\n'
-DECL|variable|help
 name|'help'
 op|'='
-string|"'Driver used to create ethernet devices.'"
+string|'"""\nThis is the class used as the ethernet device driver for linuxnet bridge\noperations. The default value should be all you need for most cases, but if you\nwish to use a customized class, set this option to the full dot-separated\nimport path for that class.\n\nPossible values:\n\n    Any string representing a dot-separated class path that Nova can import.\n\n* Services that use this:\n\n    ``nova-network``\n\n* Related options:\n\n    None\n"""'
 op|')'
 op|','
 nl|'\n'
@@ -802,19 +801,18 @@ name|'cfg'
 op|'.'
 name|'StrOpt'
 op|'('
-string|"'linuxnet_ovs_integration_bridge'"
+string|'"linuxnet_ovs_integration_bridge"'
 op|','
 nl|'\n'
 DECL|variable|default
 name|'default'
 op|'='
-string|"'br-int'"
+string|'"br-int"'
 op|','
 nl|'\n'
-DECL|variable|help
 name|'help'
 op|'='
-string|"'Name of Open vSwitch bridge used with linuxnet'"
+string|'"""\nThe name of the Open vSwitch bridge that is used with linuxnet when connecting\nwith Open vSwitch."\n\nPossible values:\n\n    Any string representing a valid bridge name.\n\n* Services that use this:\n\n    ``nova-network``\n\n* Related options:\n\n    None\n"""'
 op|')'
 op|','
 nl|'\n'
@@ -822,7 +820,7 @@ name|'cfg'
 op|'.'
 name|'BoolOpt'
 op|'('
-string|"'send_arp_for_ha'"
+string|'"send_arp_for_ha"'
 op|','
 nl|'\n'
 DECL|variable|default
@@ -831,10 +829,9 @@ op|'='
 name|'False'
 op|','
 nl|'\n'
-DECL|variable|help
 name|'help'
 op|'='
-string|"'Send gratuitous ARPs for HA setup'"
+string|'"""\nWhen True, when a device starts up, and upon binding floating IP addresses, arp\nmessages will be sent to ensure that the arp caches on the compute hosts are\nup-to-date.\n\nPossible values:\n\n    True, False (default)\n\n* Services that use this:\n\n    ``nova-network``\n\n* Related options:\n\n    send_arp_for_ha_count\n"""'
 op|')'
 op|','
 nl|'\n'
@@ -842,7 +839,7 @@ name|'cfg'
 op|'.'
 name|'IntOpt'
 op|'('
-string|"'send_arp_for_ha_count'"
+string|'"send_arp_for_ha_count"'
 op|','
 nl|'\n'
 DECL|variable|default
@@ -851,10 +848,9 @@ op|'='
 number|'3'
 op|','
 nl|'\n'
-DECL|variable|help
 name|'help'
 op|'='
-string|"'Send this many gratuitous ARPs for HA setup'"
+string|'"""\nWhen arp messages are configured to be sent, they will be sent with the count\nset to the value of this option. Of course, if this is set to zero, no arp\nmessages will be sent.\n\nPossible values:\n\n    Any integer greater than or equal to 0\n\n* Services that use this:\n\n    ``nova-network``\n\n* Related options:\n\n    send_arp_for_ha\n"""'
 op|')'
 op|','
 nl|'\n'
@@ -862,7 +858,7 @@ name|'cfg'
 op|'.'
 name|'BoolOpt'
 op|'('
-string|"'use_single_default_gateway'"
+string|'"use_single_default_gateway"'
 op|','
 nl|'\n'
 DECL|variable|default
@@ -871,12 +867,9 @@ op|'='
 name|'False'
 op|','
 nl|'\n'
-DECL|variable|help
 name|'help'
 op|'='
-string|"'Use single default gateway. Only first nic of vm will '"
-nl|'\n'
-string|"'get default gateway from dhcp server'"
+string|'"""\nWhen set to True, only the firt nic of a VM will get its default gateway from\nthe DHCP server.\n\nPossible values:\n\n    True, False (default)\n\n* Services that use this:\n\n    ``nova-network``\n\n* Related options:\n\n    None\n"""'
 op|')'
 op|','
 nl|'\n'
@@ -884,25 +877,20 @@ name|'cfg'
 op|'.'
 name|'MultiStrOpt'
 op|'('
-string|"'forward_bridge_interface'"
+string|'"forward_bridge_interface"'
 op|','
 nl|'\n'
 DECL|variable|default
 name|'default'
 op|'='
 op|'['
-string|"'all'"
+string|'"all"'
 op|']'
 op|','
 nl|'\n'
-DECL|variable|help
 name|'help'
 op|'='
-string|"'An interface that bridges can forward to. If this '"
-nl|'\n'
-string|"'is set to all then all traffic will be forwarded. '"
-nl|'\n'
-string|"'Can be specified multiple times.'"
+string|'"""\nOne or more interfaces that bridges can forward traffic to. If any of the items\nin this list is the special keyword \'all\', then all traffic will be forwarded.\n\nPossible values:\n\n    A list of zero or more interface names, or the word \'all\'.\n\n* Services that use this:\n\n    ``nova-network``\n\n* Related options:\n\n    None\n"""'
 op|')'
 op|','
 nl|'\n'
