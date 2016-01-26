@@ -55,18 +55,14 @@ string|"'group'"
 op|':'
 op|'{'
 nl|'\n'
-comment|"# NOTE: The value of 'group' is stored to value which is"
-nl|'\n'
-comment|'# defined as varchar(255) in instance_system_metadata table.'
-nl|'\n'
 string|"'type'"
 op|':'
 string|"'string'"
 op|','
-string|"'maxLength'"
+nl|'\n'
+string|"'format'"
 op|':'
-number|'255'
-op|','
+string|"'uuid'"
 nl|'\n'
 op|'}'
 op|','
