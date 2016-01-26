@@ -279,7 +279,7 @@ op|'}'
 op|')'
 op|','
 nl|'\n'
-comment|'# test v2.16 code without project id'
+comment|'# test v2.18 code without project id'
 nl|'\n'
 op|'('
 string|"'v2_1_noproject_id'"
