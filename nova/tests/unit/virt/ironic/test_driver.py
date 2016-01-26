@@ -708,6 +708,48 @@ nl|'\n'
 string|"'is invalid'"
 op|')'
 newline|'\n'
+name|'self'
+op|'.'
+name|'assertFalse'
+op|'('
+name|'self'
+op|'.'
+name|'driver'
+op|'.'
+name|'capabilities'
+op|'['
+nl|'\n'
+string|"'supports_migrate_to_same_host'"
+op|']'
+op|','
+nl|'\n'
+string|"'Driver capabilities for '"
+nl|'\n'
+string|"'\\'supports_migrate_to_same_host\\' is invalid'"
+op|')'
+newline|'\n'
+name|'self'
+op|'.'
+name|'assertFalse'
+op|'('
+name|'self'
+op|'.'
+name|'driver'
+op|'.'
+name|'capabilities'
+op|'['
+nl|'\n'
+string|"'supports_attach_interface'"
+op|']'
+op|','
+nl|'\n'
+string|"'Driver capabilities for '"
+nl|'\n'
+string|"'\\'supports_attach_interface\\' '"
+nl|'\n'
+string|"'is invalid'"
+op|')'
+newline|'\n'
 nl|'\n'
 DECL|member|test__get_hypervisor_type
 dedent|''

@@ -3100,6 +3100,25 @@ nl|'\n'
 string|"'\\'supports_migrate_to_same_host\\' is invalid'"
 op|')'
 newline|'\n'
+name|'self'
+op|'.'
+name|'assertTrue'
+op|'('
+name|'drvr'
+op|'.'
+name|'capabilities'
+op|'['
+string|"'supports_attach_interface'"
+op|']'
+op|','
+nl|'\n'
+string|"'Driver capabilities for '"
+nl|'\n'
+string|"'\\'supports_attach_interface\\' '"
+nl|'\n'
+string|"'is invalid'"
+op|')'
+newline|'\n'
 nl|'\n'
 DECL|member|create_fake_libvirt_mock
 dedent|''
