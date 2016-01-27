@@ -244,12 +244,8 @@ op|'.'
 name|'lower'
 op|'('
 op|')'
-name|'in'
-op|'('
+op|'=='
 string|"'neutron'"
-op|','
-string|"'quantum'"
-op|')'
 newline|'\n'
 dedent|''
 endmarker|''
