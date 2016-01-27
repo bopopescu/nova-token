@@ -835,7 +835,7 @@ newline|'\n'
 nl|'\n'
 comment|'# Note(yongli): json string PCI Stats'
 nl|'\n'
-comment|'# \'{"vendor_id":"8086", "product_id":"1234", "count":3 }\''
+comment|'# \'[{"vendor_id":"8086", "product_id":"1234", "count":3 }, ...]\''
 nl|'\n'
 DECL|variable|pci_stats
 name|'pci_stats'
