@@ -130,6 +130,8 @@ nl|'\n'
 string|"'oslo_config.sphinxconfiggen'"
 op|','
 nl|'\n'
+string|"'ext.versioned_notifications'"
+nl|'\n'
 op|']'
 newline|'\n'
 nl|'\n'
