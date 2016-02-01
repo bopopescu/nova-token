@@ -57,10 +57,9 @@ op|'='
 name|'False'
 op|','
 nl|'\n'
-DECL|variable|help
 name|'help'
 op|'='
-string|"'Enable cell functionality'"
+string|'"""\nEnable cell functionality\n\nWhen this functionality is enabled, it lets you to scale an OpenStack\nCompute cloud in a more distributed fashion without having to use\ncomplicated technologies like database and message queue clustering.\nCells are configured as a tree. The top-level cell should have a host\nthat runs a nova-api service, but no nova-compute services. Each\nchild cell should run all of the typical nova-* services in a regular\nCompute cloud except for nova-api. You can think of cells as a normal\nCompute deployment in that each cell has its own database server and\nmessage queue broker.\n\nPossible values:\n\n* True: Enables the feature\n* False: Disables the feature\n\nServices which consume this:\n\n* nova-api\n* nova-cells\n* nova-compute\n\nRelated options:\n\n* name: A unique cell name must be given when this functionality\n  is enabled.\n* cell_type: Cell type should be defined for all cells.\n"""'
 op|')'
 op|','
 nl|'\n'
@@ -77,10 +76,9 @@ op|'='
 string|"'cells'"
 op|','
 nl|'\n'
-DECL|variable|help
 name|'help'
 op|'='
-string|"'The topic cells nodes listen on'"
+string|'"""\nTopic\n\nThis is the message queue topic that cells nodes listen on. It is\nused when the cells service is started up to configure the queue,\nand whenever an RPC call to the scheduler is made.\n\nPossible values:\n\n* cells: This is the recommended and the default value.\n\nServices which consume this:\n\n* nova-cells\n\nRelated options:\n\n* None\n"""'
 op|')'
 op|','
 nl|'\n'
@@ -97,10 +95,9 @@ op|'='
 string|"'nova.cells.manager.CellsManager'"
 op|','
 nl|'\n'
-DECL|variable|help
 name|'help'
 op|'='
-string|"'Manager for cells'"
+string|'"""\nManager for cells\n\nThe nova-cells manager class. This class defines RPC methods that\nthe local cell may call. This class is NOT used for messages coming\nfrom other cells. That communication is driver-specific.\n\nCommunication to other cells happens via the nova.cells.messaging module.\nThe MessageRunner from that module will handle routing the message to\nthe correct cell via the communication driver. Most methods below\ncreate \'targeted\' (where we want to route a message to a specific cell)\nor \'broadcast\' (where we want a message to go to multiple cells)\nmessages.\n\nScheduling requests get passed to the scheduler class.\n\nPossible values:\n\n* \'nova.cells.manager.CellsManager\' is the only possible value for\n  this option as of the Mitaka release\n\nServices which consume this:\n\n* nova-cells\n\nRelated options:\n\n* None\n"""'
 op|')'
 op|','
 nl|'\n'
@@ -117,10 +114,9 @@ op|'='
 string|"'nova'"
 op|','
 nl|'\n'
-DECL|variable|help
 name|'help'
 op|'='
-string|"'Name of this cell'"
+string|'"""\nName of the current cell\n\nThis value must be unique for each cell. Name of a cell is used as\nits id, leaving this option unset or setting the same name for\ntwo or more cells may cause unexpected behaviour.\n\nPossible values:\n\n* Unique name string\n\nServices which consume this:\n\n* nova-cells\n\nRelated options:\n\n* enabled: This option is meaningful only when cells service\n  is enabled\n"""'
 op|')'
 op|','
 nl|'\n'
@@ -140,10 +136,9 @@ string|"'os=linux;windows'"
 op|']'
 op|','
 nl|'\n'
-DECL|variable|help
 name|'help'
 op|'='
-string|"'Key/Multi-value list with the capabilities of the cell'"
+string|'"""\nCell capabilities\n\nList of arbitrary key=value pairs defining capabilities of the\ncurrent cell to be sent to the parent cells. These capabilities\nare intended to be used in cells scheduler filters/weighers.\n\nPossible values:\n\n* key=value pairs list for example;\n  ``hypervisor=xenserver;kvm,os=linux;windows``\n\nServices which consume this:\n\n* nova-cells\n\nRelated options:\n\n* None\n"""'
 op|')'
 op|','
 nl|'\n'
@@ -160,10 +155,9 @@ op|'='
 number|'60'
 op|','
 nl|'\n'
-DECL|variable|help
 name|'help'
 op|'='
-string|"'Seconds to wait for response from a call to a cell.'"
+string|'"""\nCall timeout\n\nCell messaging module waits for response(s) to be put into the\neventlet queue. This option defines the seconds waited for\nresponse from a call to a cell.\n\nPossible values:\n\n* Time in seconds.\n\nServices which consume this:\n\n* nova-cells\n\nRelated options:\n\n* None\n"""'
 op|')'
 op|','
 nl|'\n'
