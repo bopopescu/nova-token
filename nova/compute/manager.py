@@ -32698,6 +32698,9 @@ op|'['
 string|"'system_metadata'"
 op|','
 string|"'info_cache'"
+op|','
+nl|'\n'
+string|"'flavor'"
 op|']'
 op|','
 nl|'\n'
