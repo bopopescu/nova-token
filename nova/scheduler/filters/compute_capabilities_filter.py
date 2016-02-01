@@ -361,7 +361,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'        '
-string|'"""Check that the host_state provided by the compute service\n        satisfy the extra specs associated with the instance type.\n        """'
+string|'"""Check that the host_state provided by the compute service\n        satisfies the extra specs associated with the instance type.\n        """'
 newline|'\n'
 name|'if'
 string|"'extra_specs'"
