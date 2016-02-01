@@ -434,9 +434,7 @@ name|'flags'
 op|'('
 name|'scheduler_driver'
 op|'='
-string|"'nova.scheduler.'"
-nl|'\n'
-string|"'filter_scheduler.FilterScheduler'"
+string|"'filter_scheduler'"
 op|')'
 newline|'\n'
 name|'self'
