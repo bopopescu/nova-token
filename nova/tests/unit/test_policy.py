@@ -3400,7 +3400,7 @@ op|')'
 newline|'\n'
 comment|'# eliqiao os_compute_api:os-quota-class-sets:show requires'
 nl|'\n'
-comment|"# admin=True or quota_class match, this rule wont' belone to"
+comment|"# admin=True or quota_class match, this rule won't belong to"
 nl|'\n'
 comment|'# admin_only, non_admin, admin_or_user, empty_rule'
 nl|'\n'
