@@ -93,6 +93,12 @@ op|'='
 string|"'1.0'"
 newline|'\n'
 nl|'\n'
+DECL|variable|CELL0_UUID
+name|'CELL0_UUID'
+op|'='
+string|"'00000000-0000-0000-0000-000000000000'"
+newline|'\n'
+nl|'\n'
 DECL|variable|fields
 name|'fields'
 op|'='
