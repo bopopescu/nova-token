@@ -340,6 +340,11 @@ name|'VIR_MIGRATE_TUNNELLED'
 op|'='
 number|'4'
 newline|'\n'
+DECL|variable|VIR_MIGRATE_PERSIST_DEST
+name|'VIR_MIGRATE_PERSIST_DEST'
+op|'='
+number|'8'
+newline|'\n'
 DECL|variable|VIR_MIGRATE_UNDEFINE_SOURCE
 name|'VIR_MIGRATE_UNDEFINE_SOURCE'
 op|'='
