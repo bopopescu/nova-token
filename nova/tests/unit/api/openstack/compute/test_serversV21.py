@@ -2379,6 +2379,8 @@ op|','
 string|"'metadata'"
 op|','
 nl|'\n'
+string|"'numa_topology'"
+op|','
 string|"'pci_devices'"
 op|']'
 op|','

@@ -881,6 +881,9 @@ op|'['
 string|"'flavor'"
 op|','
 string|"'pci_devices'"
+op|','
+nl|'\n'
+string|"'numa_topology'"
 op|']'
 op|','
 nl|'\n'
