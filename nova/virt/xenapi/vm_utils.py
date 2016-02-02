@@ -12701,7 +12701,7 @@ op|':'
 newline|'\n'
 indent|'    '
 name|'with'
-name|'file'
+name|'open'
 op|'('
 string|"'/sys/hypervisor/uuid'"
 op|')'
