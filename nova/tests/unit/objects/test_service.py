@@ -2769,7 +2769,9 @@ op|','
 nl|'\n'
 string|"'Changes detected that require a SERVICE_VERSION change. Please '"
 nl|'\n'
-string|"'increment nova.objects.service.SERVICE_VERSION'"
+string|"'increment nova.objects.service.SERVICE_VERSION, and make sure it'"
+nl|'\n'
+string|"'is equal to nova.compute.manager.ComputeManager.target.version.'"
 op|')'
 newline|'\n'
 nl|'\n'
