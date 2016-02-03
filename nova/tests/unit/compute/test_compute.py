@@ -46870,6 +46870,11 @@ op|'['
 string|"'system_metadata'"
 op|','
 string|"'info_cache'"
+op|','
+string|"'extra'"
+op|','
+nl|'\n'
+string|"'extra.flavor'"
 op|']'
 op|','
 nl|'\n'
