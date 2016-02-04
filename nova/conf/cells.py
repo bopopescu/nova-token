@@ -174,12 +174,9 @@ op|'='
 number|'10.0'
 op|','
 nl|'\n'
-DECL|variable|help
 name|'help'
 op|'='
-string|"'Percentage of cell capacity to hold in reserve. '"
-nl|'\n'
-string|"'Affects both memory and disk utilization'"
+string|'"""\nReserve percentage\n\nPercentage of cell capacity to hold in reserve, so the minimum\namount of free resource is considered to be;\n  min_free = total * (reserve_percent / 100.0)\nThis option affects both memory and disk utilization.\nThe primary purpose of this reserve is to ensure some space is\navailable for users who want to resize their instance to be larger.\nNote that currently once the capacity expands into this reserve\nspace this option is ignored.\n\nPossible values:\n\n* Float percentage value\n\nServices which consume this:\n\n* nova-cells\n\nRelated options:\n\n* None\n"""'
 op|')'
 op|','
 nl|'\n'
@@ -206,10 +203,9 @@ string|"'compute'"
 op|')'
 op|','
 nl|'\n'
-DECL|variable|help
 name|'help'
 op|'='
-string|"'Type of cell'"
+string|'"""\nType of cell\n\nWhen cells feature is enabled the hosts in the OpenStack Compute\ncloud are partitioned into groups. Cells are configured as a tree.\nThe top-level cell\'s cell_type must be set to ``api``. All other\ncells are defined as a ``compute cell`` by default.\n\nPossible values:\n\n* api: Cell type of top-level cell.\n* compute: Cell type of all child cells. (Default)\n\nServices which consume this:\n\n* nova-cells\n\nRelated options:\n\n* compute_api_class: This option must be set to cells api driver\n  for the top-level cell (nova.compute.cells_api.ComputeCellsAPI)\n* quota_driver: Disable quota checking for the child cells.\n  (nova.quota.NoopQuotaDriver)\n"""'
 op|')'
 op|','
 nl|'\n'
@@ -226,14 +222,9 @@ op|'='
 number|'300'
 op|','
 nl|'\n'
-DECL|variable|help
 name|'help'
 op|'='
-string|"'Number of seconds after which a lack of capability and '"
-nl|'\n'
-string|"'capacity updates signals the child cell is to be '"
-nl|'\n'
-string|"'treated as a mute.'"
+string|'"""\nMute child interval\n\nNumber of seconds after which a lack of capability and capacity\nupdate the child cell is to be treated as a mute cell. Then the\nchild cell will be weighed as recommend highly that it be skipped.\n\nPossible values:\n\n* Time in seconds.\n\nServices which consume this:\n\n* nova-cells\n\nRelated options:\n\n* None\n"""'
 op|')'
 op|','
 nl|'\n'
@@ -250,10 +241,9 @@ op|'='
 number|'600'
 op|','
 nl|'\n'
-DECL|variable|help
 name|'help'
 op|'='
-string|"'Seconds between bandwidth updates for cells.'"
+string|'"""\nBandwidth update interval\n\nSeconds between bandwidth usage cache updates for cells.\n\nPossible values:\n\n* Time in seconds.\n\nServices which consume this:\n\n* nova-compute\n\nRelated options:\n\n* None\n"""'
 op|')'
 op|','
 nl|'\n'
@@ -270,14 +260,9 @@ op|'='
 number|'100'
 op|','
 nl|'\n'
-DECL|variable|help
 name|'help'
 op|'='
-string|"'Number of instances to pull from the database at one '"
-nl|'\n'
-string|"'time for a sync.  If there are more instances to update '"
-nl|'\n'
-string|"'the results will be paged through'"
+string|'"""\nInstance update sync database limit\n\nNumber of instances to pull from the database at one time for\na sync. If there are more instances to update the results will\nbe paged through.\n\nPossible values:\n\n* Number of instances.\n\nServices which consume this:\n\n* nova-cells\n\nRelated options:\n\n* None\n"""'
 op|')'
 op|','
 nl|'\n'
