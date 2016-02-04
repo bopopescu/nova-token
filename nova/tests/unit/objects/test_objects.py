@@ -9044,7 +9044,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'            '
-name|'file'
+name|'open'
 op|'('
 string|"'object_hashes.txt'"
 op|','
