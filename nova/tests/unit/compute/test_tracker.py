@@ -2882,6 +2882,12 @@ string|"'system_metadata'"
 op|','
 nl|'\n'
 string|"'numa_topology'"
+op|','
+nl|'\n'
+string|"'flavor'"
+op|','
+nl|'\n'
+string|"'migration_context'"
 op|']'
 op|')'
 newline|'\n'
