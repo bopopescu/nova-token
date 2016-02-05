@@ -999,6 +999,11 @@ name|'None'
 op|'}'
 op|','
 nl|'\n'
+string|"'target_connect_addr'"
+op|':'
+name|'None'
+op|','
+nl|'\n'
 string|"'serial_listen_addr'"
 op|':'
 string|"'127.0.0.1'"
