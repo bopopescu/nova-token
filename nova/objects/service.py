@@ -106,7 +106,7 @@ nl|'\n'
 DECL|variable|SERVICE_VERSION
 name|'SERVICE_VERSION'
 op|'='
-number|'7'
+number|'8'
 newline|'\n'
 nl|'\n'
 nl|'\n'
@@ -219,6 +219,15 @@ op|'{'
 string|"'compute_rpc'"
 op|':'
 string|"'4.9'"
+op|'}'
+op|','
+nl|'\n'
+comment|'# Version 8: Add live_migration_abort in the compute_rpc'
+nl|'\n'
+op|'{'
+string|"'compute_rpc'"
+op|':'
+string|"'4.10'"
 op|'}'
 op|','
 nl|'\n'
