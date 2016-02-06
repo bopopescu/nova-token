@@ -2489,6 +2489,8 @@ op|'['
 string|"'flavor'"
 op|','
 string|"'pci_devices'"
+op|','
+string|"'numa_topology'"
 op|']'
 newline|'\n'
 name|'if'
