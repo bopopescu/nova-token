@@ -231,6 +231,11 @@ op|')'
 newline|'\n'
 name|'__import__'
 op|'('
+string|"'nova.objects.resource_provider'"
+op|')'
+newline|'\n'
+name|'__import__'
+op|'('
 string|"'nova.objects.tag'"
 op|')'
 newline|'\n'
