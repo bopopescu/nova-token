@@ -531,6 +531,8 @@ string|"'limits'"
 op|','
 nl|'\n'
 string|"'server-metadata'"
+op|','
+string|"'server-migrations'"
 nl|'\n'
 op|']'
 newline|'\n'
