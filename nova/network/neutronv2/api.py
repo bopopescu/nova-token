@@ -2161,9 +2161,11 @@ name|'port_id'
 op|')'
 newline|'\n'
 nl|'\n'
-comment|"# Make sure the user didn't assign a value to the port's"
+comment|"# Make sure that if the user assigned a value to the port's"
 nl|'\n'
-comment|'# dns_name attribute.'
+comment|"# dns_name attribute, it is equal to the instance's"
+nl|'\n'
+comment|'# hostname'
 nl|'\n'
 dedent|''
 name|'if'
