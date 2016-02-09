@@ -81,6 +81,14 @@ string|"'DEFAULT'"
 op|')'
 newline|'\n'
 nl|'\n'
+comment|"# TODO(sfinucan): It is not possible to rename this to 'log_format'"
+nl|'\n'
+comment|"# yet, as doing so would cause a conflict if '[DEFAULT] log_format'"
+nl|'\n'
+comment|"# were used. When 'deprecated_group' is removed after Ocata, this"
+nl|'\n'
+comment|'# should be changed.'
+nl|'\n'
 DECL|variable|wsgi_log_format_opt
 name|'wsgi_log_format_opt'
 op|'='
@@ -249,14 +257,14 @@ string|"'DEFAULT'"
 op|')'
 newline|'\n'
 nl|'\n'
-DECL|variable|wsgi_default_pool_size_opt
-name|'wsgi_default_pool_size_opt'
+DECL|variable|default_pool_size_opt
+name|'default_pool_size_opt'
 op|'='
 name|'cfg'
 op|'.'
 name|'IntOpt'
 op|'('
-string|"'wsgi_default_pool_size'"
+string|"'default_pool_size'"
 op|','
 nl|'\n'
 DECL|variable|default
@@ -275,6 +283,12 @@ DECL|variable|deprecated_group
 name|'deprecated_group'
 op|'='
 string|"'DEFAULT'"
+op|','
+nl|'\n'
+DECL|variable|deprecated_name
+name|'deprecated_name'
+op|'='
+string|"'wsgi_default_pool_size'"
 op|')'
 newline|'\n'
 nl|'\n'
@@ -313,14 +327,14 @@ string|"'DEFAULT'"
 op|')'
 newline|'\n'
 nl|'\n'
-DECL|variable|wsgi_keep_alive_opt
-name|'wsgi_keep_alive_opt'
+DECL|variable|keep_alive_opt
+name|'keep_alive_opt'
 op|'='
 name|'cfg'
 op|'.'
 name|'BoolOpt'
 op|'('
-string|"'wsgi_keep_alive'"
+string|"'keep_alive'"
 op|','
 nl|'\n'
 DECL|variable|default
@@ -341,6 +355,12 @@ DECL|variable|deprecated_group
 name|'deprecated_group'
 op|'='
 string|"'DEFAULT'"
+op|','
+nl|'\n'
+DECL|variable|deprecated_name
+name|'deprecated_name'
+op|'='
+string|"'wsgi_keep_alive'"
 op|')'
 newline|'\n'
 nl|'\n'
@@ -402,13 +422,13 @@ nl|'\n'
 name|'tcp_keepidle_opt'
 op|','
 nl|'\n'
-name|'wsgi_default_pool_size_opt'
+name|'default_pool_size_opt'
 op|','
 nl|'\n'
 name|'max_header_line_opt'
 op|','
 nl|'\n'
-name|'wsgi_keep_alive_opt'
+name|'keep_alive_opt'
 op|','
 nl|'\n'
 name|'client_socket_timeout_opt'
