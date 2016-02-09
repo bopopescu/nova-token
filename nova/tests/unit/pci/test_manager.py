@@ -2433,7 +2433,7 @@ name|'objects'
 op|'.'
 name|'PciDevice'
 op|','
-string|"'_migrate_parent_addr'"
+string|"'should_migrate_data'"
 op|','
 nl|'\n'
 name|'return_value'
