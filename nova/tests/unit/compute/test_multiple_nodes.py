@@ -603,6 +603,11 @@ op|':'
 name|'None'
 op|','
 nl|'\n'
+string|"'disk_allocation_ratio'"
+op|':'
+name|'None'
+op|','
+nl|'\n'
 string|"'host_ip'"
 op|':'
 string|"'127.0.0.1'"

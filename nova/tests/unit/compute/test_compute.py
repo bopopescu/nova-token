@@ -1134,6 +1134,11 @@ op|':'
 number|'1.5'
 op|','
 nl|'\n'
+string|"'disk_allocation_ratio'"
+op|':'
+number|'1.0'
+op|','
+nl|'\n'
 string|"'host_ip'"
 op|':'
 string|"'127.0.0.1'"
