@@ -106,7 +106,7 @@ nl|'\n'
 DECL|variable|SERVICE_VERSION
 name|'SERVICE_VERSION'
 op|'='
-number|'6'
+number|'7'
 newline|'\n'
 nl|'\n'
 nl|'\n'
@@ -210,6 +210,15 @@ op|'{'
 string|"'compute_rpc'"
 op|':'
 string|"'4.8'"
+op|'}'
+op|','
+nl|'\n'
+comment|'# Version 7: Add live_migration_force_complete in the compute_rpc'
+nl|'\n'
+op|'{'
+string|"'compute_rpc'"
+op|':'
+string|"'4.9'"
 op|'}'
 op|','
 nl|'\n'
