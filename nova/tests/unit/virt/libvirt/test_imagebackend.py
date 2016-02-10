@@ -766,7 +766,7 @@ op|')'
 op|','
 nl|'\n'
 op|'['
-string|"'fallocate -n -l 1 %s.fallocate_test'"
+string|"'fallocate -l 1 %s.fallocate_test'"
 op|'%'
 name|'self'
 op|'.'
