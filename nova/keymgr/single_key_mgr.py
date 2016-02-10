@@ -182,11 +182,11 @@ number|'256'
 op|')'
 newline|'\n'
 name|'return'
-string|"'0'"
+string|"b'0'"
 op|'*'
 op|'('
 name|'key_length'
-op|'/'
+op|'//'
 number|'4'
 op|')'
 comment|'# hex digit => 4 bits'
