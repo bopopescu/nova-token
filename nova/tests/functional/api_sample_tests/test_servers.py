@@ -1435,7 +1435,7 @@ nl|'\n'
 op|'{'
 string|'"id"'
 op|':'
-number|'2'
+string|"'2'"
 op|','
 nl|'\n'
 string|'"host"'

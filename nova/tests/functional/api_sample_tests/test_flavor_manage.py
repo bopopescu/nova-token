@@ -208,7 +208,7 @@ op|'{'
 nl|'\n'
 string|"'flavor_id'"
 op|':'
-number|'10'
+string|"'10'"
 op|','
 nl|'\n'
 string|"'flavor_name'"

@@ -443,7 +443,7 @@ op|','
 nl|'\n'
 string|"'vpn_port'"
 op|':'
-number|'2000'
+string|"'2000'"
 op|'}'
 newline|'\n'
 name|'response'

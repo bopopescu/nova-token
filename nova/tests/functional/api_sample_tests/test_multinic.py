@@ -216,7 +216,7 @@ op|'='
 op|'{'
 string|'"networkId"'
 op|':'
-number|'1'
+string|"'1'"
 op|'}'
 newline|'\n'
 name|'response'

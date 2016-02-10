@@ -211,7 +211,7 @@ op|','
 nl|'\n'
 string|"'flavor_id'"
 op|':'
-number|'10'
+string|"'10'"
 op|','
 nl|'\n'
 op|'}'
@@ -262,7 +262,7 @@ op|'{'
 nl|'\n'
 string|"'flavor_id'"
 op|':'
-number|'10'
+string|"'10'"
 op|','
 nl|'\n'
 string|"'flavor_name'"
@@ -377,7 +377,7 @@ op|')'
 newline|'\n'
 name|'flavor_id'
 op|'='
-number|'10'
+string|"'10'"
 newline|'\n'
 name|'response'
 op|'='
@@ -432,7 +432,7 @@ newline|'\n'
 indent|'        '
 name|'flavor_id'
 op|'='
-number|'1'
+string|"'1'"
 newline|'\n'
 name|'response'
 op|'='
