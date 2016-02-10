@@ -177,7 +177,7 @@ name|'column'
 newline|'\n'
 nl|'\n'
 nl|'\n'
-comment|"# NOTE(guochbo): some verions of MySQL doesn't yet support subquery with"
+comment|"# NOTE(guochbo): some versions of MySQL doesn't yet support subquery with"
 nl|'\n'
 comment|"# 'LIMIT & IN/ALL/ANY/SOME' We need work around this with nesting select ."
 nl|'\n'
