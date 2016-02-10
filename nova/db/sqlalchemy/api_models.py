@@ -336,7 +336,7 @@ nl|'\n'
 DECL|variable|nullable
 name|'nullable'
 op|'='
-name|'False'
+name|'True'
 op|')'
 newline|'\n'
 DECL|variable|project_id
