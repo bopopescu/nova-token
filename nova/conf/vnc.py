@@ -49,6 +49,11 @@ DECL|variable|title
 name|'title'
 op|'='
 string|"'VNC options'"
+op|','
+nl|'\n'
+name|'help'
+op|'='
+string|'"""\nVirtual Network Computer (VNC) can be used to provide remote desktop\nconsole access to instances for tenants and/or administrators."""'
 op|')'
 newline|'\n'
 nl|'\n'
@@ -69,12 +74,6 @@ op|'='
 name|'True'
 op|','
 nl|'\n'
-DECL|variable|help
-name|'help'
-op|'='
-string|"'Enable VNC related features'"
-op|','
-nl|'\n'
 DECL|variable|deprecated_group
 name|'deprecated_group'
 op|'='
@@ -85,6 +84,11 @@ DECL|variable|deprecated_name
 name|'deprecated_name'
 op|'='
 string|"'vnc_enabled'"
+op|','
+nl|'\n'
+name|'help'
+op|'='
+string|'"""Enable VNC related features.\n\nGuests will get created with graphical devices to support this. Clients\n(for example Horizon) can then establish a VNC connection to the guest.\n\nPossible values:\n\n* True: Enables the feature\n* False: Disables the feature\n\nServices which consume this:\n\n* ``nova-compute``\n\nRelated options:\n\n* None\n"""'
 op|')'
 newline|'\n'
 nl|'\n'
@@ -105,12 +109,6 @@ op|'='
 string|"'en-us'"
 op|','
 nl|'\n'
-DECL|variable|help
-name|'help'
-op|'='
-string|"'Keymap for VNC'"
-op|','
-nl|'\n'
 DECL|variable|deprecated_group
 name|'deprecated_group'
 op|'='
@@ -121,8 +119,15 @@ DECL|variable|deprecated_name
 name|'deprecated_name'
 op|'='
 string|"'vnc_keymap'"
+op|','
+nl|'\n'
+name|'help'
+op|'='
+string|'"""Keymap for VNC.\n\nThe keyboard mapping (keymap) determines which keyboard layout a VNC\nsession should use by default.\n\nPossible values:\n\n* A keyboard layout which is supported by the underlying hypervisor on\n  this node. This is usually an \'IETF language tag\' (for example\n  \'en-us\').  If you use QEMU as hypervisor, you should find the  list\n  of supported keyboard layouts at ``/usr/share/qemu/keymaps``.\n\nServices which consume this:\n\n* ``nova-compute``\n\nRelated options:\n\n* None\n"""'
 op|')'
 newline|'\n'
+nl|'\n'
+comment|'# TODO(sfinucan): This should be an IPOpt'
 nl|'\n'
 DECL|variable|vncserver_listen
 name|'vncserver_listen'
@@ -141,18 +146,19 @@ op|'='
 string|"'127.0.0.1'"
 op|','
 nl|'\n'
-DECL|variable|help
-name|'help'
-op|'='
-string|"'IP address on which instance vncservers should listen'"
-op|','
-nl|'\n'
 DECL|variable|deprecated_group
 name|'deprecated_group'
 op|'='
 string|"'DEFAULT'"
+op|','
+nl|'\n'
+name|'help'
+op|'='
+string|'"""\nThe IP address on which an instance should listen to for incoming VNC\nconnection requests on this node.\n\nPossible values:\n\n* An IP address\n\nServices which consume this:\n\n* ``nova-compute``\n\nRelated options:\n\n* None\n"""'
 op|')'
 newline|'\n'
+nl|'\n'
+comment|'# TODO(sfinucan): This should be an IPOpt'
 nl|'\n'
 DECL|variable|vncserver_proxyclient_address
 name|'vncserver_proxyclient_address'
@@ -171,20 +177,19 @@ op|'='
 string|"'127.0.0.1'"
 op|','
 nl|'\n'
-DECL|variable|help
-name|'help'
-op|'='
-string|"'The address to which proxy clients '"
-nl|'\n'
-string|"'(like nova-xvpvncproxy) should connect'"
-op|','
-nl|'\n'
 DECL|variable|deprecated_group
 name|'deprecated_group'
 op|'='
 string|"'DEFAULT'"
+op|','
+nl|'\n'
+name|'help'
+op|'='
+string|'"""\nPrivate, internal address of VNC console proxy.\n\nThe VNC proxy is an OpenStack component that enables compute service\nusers to access their instances through VNC clients.\n\nThis option sets the private address to which proxy clients, such as\n``nova-xvpvncproxy``, should connect to.\n\nPossible values:\n\n* An IP address\n\nServices which consume this:\n\n* ``nova-compute``\n\nRelated options:\n\n* None\n"""'
 op|')'
 newline|'\n'
+nl|'\n'
+comment|'# TODO(sfinucan): This should be an IPOpt'
 nl|'\n'
 DECL|variable|novncproxy_host
 name|'novncproxy_host'
@@ -203,18 +208,19 @@ op|'='
 string|"'0.0.0.0'"
 op|','
 nl|'\n'
-DECL|variable|help
-name|'help'
-op|'='
-string|"'Host on which to listen for incoming requests'"
-op|','
-nl|'\n'
 DECL|variable|deprecated_group
 name|'deprecated_group'
 op|'='
 string|"'DEFAULT'"
+op|','
+nl|'\n'
+name|'help'
+op|'='
+string|'"""\nIP address that the noVNC console proxy should bind to.\n\nThe VNC proxy is an OpenStack component that enables compute service\nusers to access their instances through VNC clients. noVNC provides\nVNC support through a websocket-based client.\n\nThis option sets the private address to which the noVNC console proxy\nservice should bind to.\n\nPossible values:\n\n* An IP address\n\nServices which consume this:\n\n* ``nova-compute``\n\nRelated options:\n\n* novncproxy_port\n* novncproxy_base_url\n"""'
 op|')'
 newline|'\n'
+nl|'\n'
+comment|'# TODO(sfinucan): This should be a PortOpt'
 nl|'\n'
 DECL|variable|novncproxy_port
 name|'novncproxy_port'
@@ -245,18 +251,48 @@ op|'='
 number|'65535'
 op|','
 nl|'\n'
-DECL|variable|help
+DECL|variable|deprecated_group
+name|'deprecated_group'
+op|'='
+string|"'DEFAULT'"
+op|','
+nl|'\n'
 name|'help'
 op|'='
-string|"'Port on which to listen for incoming requests'"
+string|'"""\nPort that the noVNC console proxy should bind to.\n\nThe VNC proxy is an OpenStack component that enables compute service\nusers to access their instances through VNC clients. noVNC provides\nVNC support through a websocket-based client.\n\nThis option sets the private port to which the noVNC console proxy\nservice should bind to.\n\nPossible values:\n\n* A port number\n\nServices which consume this:\n\n* ``nova-compute``\n\nRelated options:\n\n* novncproxy_host\n* novncproxy_base_url\n"""'
+op|')'
+newline|'\n'
+nl|'\n'
+DECL|variable|novncproxy_base_url
+name|'novncproxy_base_url'
+op|'='
+name|'cfg'
+op|'.'
+name|'StrOpt'
+op|'('
+nl|'\n'
+string|"'novncproxy_base_url'"
+op|','
+nl|'\n'
+DECL|variable|default
+name|'default'
+op|'='
+string|"'http://127.0.0.1:6080/vnc_auto.html'"
 op|','
 nl|'\n'
 DECL|variable|deprecated_group
 name|'deprecated_group'
 op|'='
 string|"'DEFAULT'"
+op|','
+nl|'\n'
+name|'help'
+op|'='
+string|'"""\nPublic address of noVNC VNC console proxy.\n\nThe VNC proxy is an OpenStack component that enables compute service\nusers to access their instances through VNC clients. noVNC provides\nVNC support through a websocket-based client.\n\nThis option sets the public base URL to which client systems will\nconnect. noVNC clients can use this address to connect to the noVNC\ninstance and, by extension, the VNC sessions.\n\nPossible values:\n\n* A URL\n\nServices which consume this:\n\n* ``nova-compute``\n\nRelated options:\n\n* novncproxy_host\n* novncproxy_port\n"""'
 op|')'
 newline|'\n'
+nl|'\n'
+comment|'# TODO(sfinucan): This should be an IPOpt'
 nl|'\n'
 DECL|variable|xvpvncproxy_host
 name|'xvpvncproxy_host'
@@ -275,18 +311,19 @@ op|'='
 string|"'0.0.0.0'"
 op|','
 nl|'\n'
-DECL|variable|help
-name|'help'
-op|'='
-string|"'Address that the XVP VNC console proxy should bind to'"
-op|','
-nl|'\n'
 DECL|variable|deprecated_group
 name|'deprecated_group'
 op|'='
 string|"'DEFAULT'"
+op|','
+nl|'\n'
+name|'help'
+op|'='
+string|'"""\nIP address that the XVP VNC console proxy should bind to.\n\nThe VNC proxy is an OpenStack component that enables compute service\nusers to access their instances through VNC clients. Xen provides\nthe Xenserver VNC Proxy, or XVP, as an alternative to the\nwebsocket-based noVNC proxy used by Libvirt. In contrast to noVNC,\nXVP clients are Java-based.\n\nThis option sets the private address to which the XVP VNC console proxy\nservice should bind to.\n\nPossible values:\n\n* An IP address\n\nServices which consume this:\n\n* ``nova-compute``\n\nRelated options:\n\n* xvpvncproxy_port\n* xvpvncproxy_base_url\n"""'
 op|')'
 newline|'\n'
+nl|'\n'
+comment|'# TODO(sfinucan): This should be a PortOpt'
 nl|'\n'
 DECL|variable|xvpvncproxy_port
 name|'xvpvncproxy_port'
@@ -317,48 +354,15 @@ op|'='
 number|'65535'
 op|','
 nl|'\n'
-DECL|variable|help
-name|'help'
-op|'='
-string|"'Port that the XVP VNC console proxy should bind to'"
-op|','
-nl|'\n'
 DECL|variable|deprecated_group
 name|'deprecated_group'
 op|'='
 string|"'DEFAULT'"
-op|')'
-newline|'\n'
-nl|'\n'
-DECL|variable|novncproxy_base_url
-name|'novncproxy_base_url'
-op|'='
-name|'cfg'
-op|'.'
-name|'StrOpt'
-op|'('
-nl|'\n'
-string|"'novncproxy_base_url'"
 op|','
 nl|'\n'
-DECL|variable|default
-name|'default'
-op|'='
-string|"'http://127.0.0.1:6080/vnc_auto.html'"
-op|','
-nl|'\n'
-DECL|variable|help
 name|'help'
 op|'='
-string|"'Location of VNC console proxy, in the form '"
-nl|'\n'
-string|'\'"http://127.0.0.1:6080/vnc_auto.html"\''
-op|','
-nl|'\n'
-DECL|variable|deprecated_group
-name|'deprecated_group'
-op|'='
-string|"'DEFAULT'"
+string|'"""\nPort that the XVP VNC console proxy should bind to.\n\nThe VNC proxy is an OpenStack component that enables compute service\nusers to access their instances through VNC clients. Xen provides\nthe Xenserver VNC Proxy, or XVP, as an alternative to the\nwebsocket-based noVNC proxy used by Libvirt. In contrast to noVNC,\nXVP clients are Java-based.\n\nThis option sets the private port to which the XVP VNC console proxy\nservice should bind to.\n\nPossible values:\n\n* A port number\n\nServices which consume this:\n\n* ``nova-compute``\n\nRelated options:\n\n* xvpvncproxy_host\n* xvpvncproxy_base_url\n"""'
 op|')'
 newline|'\n'
 nl|'\n'
@@ -379,18 +383,15 @@ op|'='
 string|"'http://127.0.0.1:6081/console'"
 op|','
 nl|'\n'
-DECL|variable|help
-name|'help'
-op|'='
-string|"'Location of XVP VNC console proxy, in the form '"
-nl|'\n'
-string|'\'"http://127.0.0.1:6081/console"\''
-op|','
-nl|'\n'
 DECL|variable|deprecated_group
 name|'deprecated_group'
 op|'='
 string|"'DEFAULT'"
+op|','
+nl|'\n'
+name|'help'
+op|'='
+string|'"""\nPublic address of XVP VNC console proxy.\n\nThe VNC proxy is an OpenStack component that enables compute service\nusers to access their instances through VNC clients. Xen provides\nthe Xenserver VNC Proxy, or XVP, as an alternative to the\nwebsocket-based noVNC proxy used by Libvirt. In contrast to noVNC,\nXVP clients are Java-based.\n\nThis option sets the public base URL to which client systems will\nconnect. XVP clients can use this address to connect to the XVP\ninstance and, by extension, the VNC sessions.\n\nPossible values:\n\n* A URL\n\nServices which consume this:\n\n* ``nova-compute``\n\nRelated options:\n\n* xvpvncproxy_host\n* xvpvncproxy_port\n"""'
 op|')'
 newline|'\n'
 nl|'\n'
@@ -417,13 +418,13 @@ nl|'\n'
 name|'novncproxy_port'
 op|','
 nl|'\n'
+name|'novncproxy_base_url'
+op|','
+nl|'\n'
 name|'xvpvncproxy_host'
 op|','
 nl|'\n'
 name|'xvpvncproxy_port'
-op|','
-nl|'\n'
-name|'novncproxy_base_url'
 op|','
 nl|'\n'
 name|'xvpvncproxy_base_url'
