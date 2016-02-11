@@ -3410,6 +3410,11 @@ op|','
 string|"'flavor'"
 op|','
 string|"'info_cache'"
+op|','
+nl|'\n'
+string|"'metadata'"
+op|','
+string|"'system_metadata'"
 op|']'
 op|')'
 newline|'\n'
