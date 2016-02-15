@@ -1906,11 +1906,9 @@ name|'patch'
 op|'.'
 name|'object'
 op|'('
-name|'paramiko'
-op|'.'
-name|'RSAKey'
+name|'crypto'
 op|','
-string|"'generate'"
+string|"'generate_key'"
 op|')'
 name|'as'
 name|'mock_generate'
