@@ -345,6 +345,44 @@ string|"'and defaulted to 1.5'"
 op|')'
 op|','
 nl|'\n'
+name|'cfg'
+op|'.'
+name|'FloatOpt'
+op|'('
+string|"'disk_allocation_ratio'"
+op|','
+nl|'\n'
+DECL|variable|default
+name|'default'
+op|'='
+number|'1.0'
+op|','
+nl|'\n'
+DECL|variable|help
+name|'help'
+op|'='
+string|"'This is the virtual disk to physical disk allocation ratio used '"
+nl|'\n'
+string|"'by the disk_filter.py script to determine if a host has '"
+nl|'\n'
+string|"'sufficient disk space to fit a requested instance. A ratio '"
+nl|'\n'
+string|"'greater than 1.0 will result in over-subscription of the '"
+nl|'\n'
+string|"'available physical disk, which can be useful for more '"
+nl|'\n'
+string|"'efficiently packing instances created with images that do not '"
+nl|'\n'
+string|"'use the entire virtual disk,such as sparse or compressed '"
+nl|'\n'
+string|"'images. It can be set to a value between 0.0 and 1.0 in order '"
+nl|'\n'
+string|"'to preserve a percentage of the disk for uses other than '"
+nl|'\n'
+string|"'instances'"
+op|')'
+op|','
+nl|'\n'
 op|']'
 newline|'\n'
 nl|'\n'
