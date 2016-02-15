@@ -997,6 +997,13 @@ op|':'
 number|'259'
 op|','
 nl|'\n'
+string|"'uuid'"
+op|':'
+name|'uuids'
+op|'.'
+name|'fake_compute_node'
+op|','
+nl|'\n'
 string|"'vcpus_used'"
 op|':'
 number|'0'
