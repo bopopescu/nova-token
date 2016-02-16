@@ -529,11 +529,6 @@ name|'_instance_values'
 op|'='
 op|'{'
 nl|'\n'
-string|"'display_name'"
-op|':'
-string|"'fake_display_name'"
-op|','
-nl|'\n'
 string|"'name'"
 op|':'
 string|"'fake_name'"
