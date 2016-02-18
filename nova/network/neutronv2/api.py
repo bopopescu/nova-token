@@ -1609,7 +1609,7 @@ string|"'Neutron error: MAC address %(mac)s is already '"
 nl|'\n'
 string|"'in use on network %(network)s.'"
 op|')'
-op|'%'
+op|','
 nl|'\n'
 op|'{'
 string|"'mac'"

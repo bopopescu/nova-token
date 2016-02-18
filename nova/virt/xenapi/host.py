@@ -1493,7 +1493,7 @@ string|"'Hostname has changed from %(old)s to %(new)s. '"
 nl|'\n'
 string|"'A restart is required to take effect.'"
 op|')'
-op|'%'
+op|','
 nl|'\n'
 op|'{'
 string|"'old'"

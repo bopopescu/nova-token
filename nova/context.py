@@ -532,7 +532,7 @@ name|'_LW'
 op|'('
 string|"'Arguments dropped when creating context: %s'"
 op|')'
-op|'%'
+op|','
 nl|'\n'
 name|'str'
 op|'('
