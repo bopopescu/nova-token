@@ -17068,7 +17068,7 @@ name|'side_effect'
 op|'='
 name|'exception'
 op|'.'
-name|'NMINotSupported'
+name|'TriggerCrashDumpNotSupported'
 op|')'
 newline|'\n'
 DECL|member|test_trigger_crash_dump_not_supported
