@@ -467,15 +467,6 @@ name|'CONF'
 op|'.'
 name|'import_opt'
 op|'('
-string|"'default_availability_zone'"
-op|','
-string|"'nova.availability_zones'"
-op|')'
-newline|'\n'
-name|'CONF'
-op|'.'
-name|'import_opt'
-op|'('
 string|"'login_timeout'"
 op|','
 string|"'nova.virt.xenapi.client.session'"
