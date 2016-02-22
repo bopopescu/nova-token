@@ -506,14 +506,9 @@ string|"'nova.cells.filters.all_filters'"
 op|']'
 op|','
 nl|'\n'
-DECL|variable|help
 name|'help'
 op|'='
-string|"'Filter classes the cells scheduler should use.  '"
-nl|'\n'
-string|'\'An entry of "nova.cells.filters.all_filters" \''
-nl|'\n'
-string|"'maps to all cells filters included with nova.'"
+string|'"""\nScheduler filter classes\n\nFilter classes the cells scheduler should use. An entry of\n"nova.cells.filters.all_filters" maps to all cells filters\nincluded with nova. As of the Mitaka release the following\nfilter classes are available:\n\nDifferent cell filter: A scheduler hint of \'different_cell\'\nwith a value of a full cell name may be specified to route\na build away from a particular cell.\n\nImage properties filter: Image metadata named\n\'hypervisor_version_requires\' with a version specification\nmay be specified to ensure the build goes to a cell which\nhas hypervisors of the required version. If either the version\nrequirement on the image or the hypervisor capability of the\ncell is not present, this filter returns without filtering out\nthe cells.\n\nTarget cell filter: A scheduler hint of \'target_cell\' with a\nvalue of a full cell name may be specified to route a build to\na particular cell. No error handling is done as there\'s no way\nto know whether the full path is a valid.\n\nAs an admin user, you can also add a filter that directs builds\nto a particular cell.\n\n\nPossible values:\n\n* \'nova.cells.filters.all_filters\' is the default option\n* Otherwise it should be the full Python path to the class to be used\n\nServices which consume this:\n\n* nova-cells\n\nRelated options:\n\n* None\n"""'
 op|')'
 op|','
 nl|'\n'
@@ -532,14 +527,9 @@ string|"'nova.cells.weights.all_weighers'"
 op|']'
 op|','
 nl|'\n'
-DECL|variable|help
 name|'help'
 op|'='
-string|"'Weigher classes the cells scheduler should use.  '"
-nl|'\n'
-string|'\'An entry of "nova.cells.weights.all_weighers" \''
-nl|'\n'
-string|"'maps to all cell weighers included with nova.'"
+string|'"""\nScheduler weight classes\n\nWeigher classes the cells scheduler should use. An entry of\n"nova.cells.weights.all_weighers" maps to all cell weighers\nincluded with nova. As of the Mitaka release the following\nweight classes are available:\n\nmute_child: Downgrades the likelihood of child cells being\nchosen for scheduling requests, which haven\'t sent capacity\nor capability updates in a while. Options include\nmute_weight_multiplier (multiplier for mute children; value\nshould be negative).\n\nram_by_instance_type: Select cells with the most RAM capacity\nfor the instance type being requested. Because higher weights\nwin, Compute returns the number of available units for the\ninstance type requested. The ram_weight_multiplier option defaults\nto 10.0 that adds to the weight by a factor of 10. Use a negative\nnumber to stack VMs on one host instead of spreading out new VMs\nto more hosts in the cell.\n\nweight_offset: Allows modifying the database to weight a particular\ncell. The highest weight will be the first cell to be scheduled for\nlaunching an instance. When the weight_offset of a cell is set to 0,\nit is unlikely to be picked but it could be picked if other cells\nhave a lower weight, like if they\'re full. And when the weight_offset\nis set to a very high value (for example, \'999999999999999\'), it is\nlikely to be picked if another cell do not have a higher weight.\n\nPossible values:\n\n* \'nova.cells.weights.all_weighers\' is the default option\n* Otherwise it should be the full Python path to the class to be used\n\nServices which consume this:\n\n* nova-cells\n\nRelated options:\n\n* None\n"""'
 op|')'
 op|','
 nl|'\n'
@@ -556,10 +546,9 @@ op|'='
 number|'10'
 op|','
 nl|'\n'
-DECL|variable|help
 name|'help'
 op|'='
-string|"'How many retries when no cells are available.'"
+string|'"""\nScheduler retries\n\nHow many retries when no cells are available. Specifies how many\ntimes the scheduler tries to launch a new instance when no cells\nare available.\n\nPossible values:\n\n* Positive integer value\n\nServices which consume this:\n\n* nova-cells\n\nRelated options:\n\n* This value is used with the ``scheduler_retry_delay`` value\n  while retrying to find a suitable cell.\n"""'
 op|')'
 op|','
 nl|'\n'
@@ -576,12 +565,9 @@ op|'='
 number|'2'
 op|','
 nl|'\n'
-DECL|variable|help
 name|'help'
 op|'='
-string|"'How often to retry in seconds when no cells are '"
-nl|'\n'
-string|"'available.'"
+string|'"""\nScheduler retry delay\n\nSpecifies the delay (in seconds) between scheduling retries when no\ncell can be found to place the new instance on. When the instance\ncould not be scheduled to a cell after ``scheduler_retries`` in\ncombination with ``scheduler_retry_delay``, then the scheduling\nof the instance failed.\n\nPossible values:\n\n* Time in seconds.\n\nServices which consume this:\n\n* nova-cells\n\nRelated options:\n\n* This value is used with the ``scheduler_retries`` value\n  while retrying to find a suitable cell.\n"""'
 op|')'
 nl|'\n'
 op|']'
