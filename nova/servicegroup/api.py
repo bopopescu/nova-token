@@ -80,11 +80,6 @@ op|':'
 string|"'nova.servicegroup.drivers.db.DbDriver'"
 op|','
 nl|'\n'
-string|"'zk'"
-op|':'
-string|"'nova.servicegroup.drivers.zk.ZooKeeperDriver'"
-op|','
-nl|'\n'
 string|"'mc'"
 op|':'
 string|"'nova.servicegroup.drivers.mc.MemcachedDriver'"
