@@ -2328,7 +2328,7 @@ op|')'
 newline|'\n'
 name|'self'
 op|'.'
-name|'assertTrue'
+name|'assertEqual'
 op|'('
 string|"'ext3'"
 op|','
