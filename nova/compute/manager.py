@@ -13547,15 +13547,8 @@ name|'info'
 op|'('
 name|'_LI'
 op|'('
-string|"'%(action_str)s instance'"
+string|"'Terminating instance'"
 op|')'
-op|'%'
-nl|'\n'
-op|'{'
-string|"'action_str'"
-op|':'
-string|"'Terminating'"
-op|'}'
 op|','
 nl|'\n'
 name|'context'
