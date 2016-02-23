@@ -591,12 +591,9 @@ op|'='
 number|'60'
 op|','
 nl|'\n'
-DECL|variable|help
 name|'help'
 op|'='
-string|"'Interval, in seconds, for getting fresh cell '"
-nl|'\n'
-string|"'information from the database.'"
+string|'"""\nDB check interval\n\nCell state manager updates cell status for all cells from the DB\nonly after this particular interval time is passed. Otherwise cached\nstatus are used. If this value is 0 or negative all cell status are\nupdated from the DB whenever a state is needed.\n\nPossible values:\n\n* Interval time, in seconds.\n\nServices which consume this:\n\n* nova-cells\n\nRelated options:\n\n* None\n"""'
 op|')'
 op|','
 nl|'\n'
@@ -607,14 +604,9 @@ op|'('
 string|"'cells_config'"
 op|','
 nl|'\n'
-DECL|variable|help
 name|'help'
 op|'='
-string|"'Configuration file from which to read cells '"
-nl|'\n'
-string|"'configuration.  If given, overrides reading cells '"
-nl|'\n'
-string|"'from the database.'"
+string|'"""\nOptional cells configuration\n\nConfiguration file from which to read cells configuration. If given,\noverrides reading cells from the database.\n\nCells store all inter-cell communication data, including user names\nand passwords, in the database. Because the cells data is not updated\nvery frequently, use this option to specify a JSON file to store\ncells data. With this configuration, the database is no longer\nconsulted when reloading the cells data. The file must have columns\npresent in the Cell model (excluding common database fields and the\nid column). You must specify the queue connection information through\na transport_url field, instead of username, password, and so on.\n\nThe transport_url has the following form:\nrabbit://USERNAME:PASSWORD@HOSTNAME:PORT/VIRTUAL_HOST\n\nPossible values:\n\nThe scheme can be either qpid or rabbit, the following sample shows\nthis optional configuration:\n\n    {\n        "parent": {\n            "name": "parent",\n            "api_url": "http://api.example.com:8774",\n            "transport_url": "rabbit://rabbit.example.com",\n            "weight_offset": 0.0,\n            "weight_scale": 1.0,\n            "is_parent": true\n        },\n        "cell1": {\n            "name": "cell1",\n            "api_url": "http://api.example.com:8774",\n            "transport_url": "rabbit://rabbit1.example.com",\n            "weight_offset": 0.0,\n            "weight_scale": 1.0,\n            "is_parent": false\n        },\n        "cell2": {\n            "name": "cell2",\n            "api_url": "http://api.example.com:8774",\n            "transport_url": "rabbit://rabbit2.example.com",\n            "weight_offset": 0.0,\n            "weight_scale": 1.0,\n            "is_parent": false\n        }\n    }\n\nServices which consume this:\n\n* nova-cells\n\nRelated options:\n\n* None\n"""'
 op|')'
 nl|'\n'
 op|']'
@@ -631,10 +623,9 @@ op|'('
 string|"'intercell'"
 op|','
 nl|'\n'
-DECL|variable|help
 name|'help'
 op|'='
-string|"'Set a version cap for messages sent between cells services'"
+string|'"""\nIntercell version\n\nIntercell RPC API is the client side of the Cell<->Cell RPC API.\nUse this option to set a version cap for messages sent between\ncells services.\n\nPossible values:\n\n* None: This is the default value.\n* grizzly: message version 1.0.\n\nServices which consume this:\n\n* nova-cells\n\nRelated options:\n\n* None\n"""'
 op|')'
 newline|'\n'
 nl|'\n'
@@ -649,10 +640,9 @@ op|'('
 string|"'cells'"
 op|','
 nl|'\n'
-DECL|variable|help
 name|'help'
 op|'='
-string|"'Set a version cap for messages sent to local cells services'"
+string|'"""\nCells version\n\nCells client-side RPC API version. Use this option to set a version\ncap for messages sent to local cells services.\n\nPossible values:\n\n* None: This is the default value.\n* grizzly: message version 1.6.\n* havana: message version 1.24.\n* icehouse: message version 1.27.\n* juno: message version 1.29.\n* kilo: message version 1.34.\n* liberty: message version 1.37.\n\nServices which consume this:\n\n* nova-cells\n\nRelated options:\n\n* None\n"""'
 op|')'
 newline|'\n'
 nl|'\n'
