@@ -196,12 +196,9 @@ nl|'\n'
 string|"'firewall_driver'"
 op|','
 nl|'\n'
-DECL|variable|help
 name|'help'
 op|'='
-string|"'Firewall driver '"
-nl|'\n'
-string|"'(defaults to hypervisor specific iptables driver)'"
+string|'"""Firewall driver to use with ``nova-network`` service.\n\nThis option only applies when using the ``nova-network`` service. When using\nanother networking services, such as Neutron, this should be to set to the\n``NoopFirewallDriver``.\n\nIf unset (the default), this will default to the hypervisor-specified\ndefault driver.\n\nPossible values:\n\n* nova.virt.firewall.IptablesFirewallDriver\n* nova.virt.firewall.NoopFirewallDriver\n* nova.virt.libvirt.firewall.IptablesFirewallDriver\n* [...]\n\nServices which consume this:\n\n* nova-network\n\nInterdependencies to other options:\n\n* ``network_api_class``: This must be set to ``nova.network.api.API`` to\n  enable ``nova-network`` networking\n* ``security_group_api``: This must be set to ``nova`` to enable\n  ``nova-network`` networking\n"""'
 op|')'
 newline|'\n'
 nl|'\n'
@@ -222,10 +219,9 @@ op|'='
 name|'True'
 op|','
 nl|'\n'
-DECL|variable|help
 name|'help'
 op|'='
-string|"'Whether to allow network traffic from same network'"
+string|'"""Determine whether to allow network traffic from same network.\n\nWhen set to true, hosts on the same subnet are not filtered and are allowed\nto pass all types of traffic between them. On a flat network, this allows\nall instances from all projects unfiltered communication. With VLAN\nnetworking, this allows access between instances within the same project.\n\nThis option only applies when using the ``nova-network`` service. When using\nanother networking services, such as Neutron, security groups or other\napproaches should be used.\n\nPossible values:\n\n* True: Network traffic should be allowed pass between all instances on the\n  same network, regardless of their tenant and security policies\n* False: Network traffic should not be allowed pass between instances unless\n  it is unblocked in a security group\n\nServices which consume this:\n\n* nova-network\n\nInterdependencies to other options:\n\n* ``network_api_class``: This must be set to ``nova.network.api.API`` to\n  enable ``nova-network`` networking\n* ``security_group_api``: This must be set to ``nova`` to enable\n  ``nova-network`` networking\n* ``firewall_driver``: This must be set to\n  ``nova.virt.libvirt.firewall.IptablesFirewallDriver`` to ensure the\n  libvirt firewall driver is enabled.\n"""'
 op|')'
 newline|'\n'
 nl|'\n'
