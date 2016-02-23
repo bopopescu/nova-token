@@ -106,7 +106,7 @@ nl|'\n'
 DECL|variable|SERVICE_VERSION
 name|'SERVICE_VERSION'
 op|'='
-number|'8'
+number|'9'
 newline|'\n'
 nl|'\n'
 nl|'\n'
@@ -228,6 +228,15 @@ op|'{'
 string|"'compute_rpc'"
 op|':'
 string|"'4.10'"
+op|'}'
+op|','
+nl|'\n'
+comment|'# Version 9: Allow block_migration and disk_over_commit be None'
+nl|'\n'
+op|'{'
+string|"'compute_rpc'"
+op|':'
+string|"'4.11'"
 op|'}'
 op|','
 nl|'\n'
