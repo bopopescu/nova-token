@@ -34251,6 +34251,9 @@ op|','
 string|"'info_cache'"
 op|','
 string|"'metadata'"
+op|','
+nl|'\n'
+string|"'flavor'"
 op|']'
 op|','
 nl|'\n'
