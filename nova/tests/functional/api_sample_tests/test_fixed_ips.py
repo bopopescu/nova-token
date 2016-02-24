@@ -707,7 +707,7 @@ name|'_test_get_fixed_ip'
 op|'('
 name|'reserved'
 op|'='
-name|'False'
+string|"'False'"
 op|')'
 newline|'\n'
 dedent|''

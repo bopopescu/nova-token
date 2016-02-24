@@ -215,7 +215,7 @@ newline|'\n'
 indent|'        '
 name|'flavor_id'
 op|'='
-number|'1'
+string|"'1'"
 newline|'\n'
 name|'response'
 op|'='
@@ -307,7 +307,7 @@ op|'{'
 nl|'\n'
 string|"'flavor_id'"
 op|':'
-number|'100'
+string|"'100'"
 op|','
 nl|'\n'
 string|"'flavor_name'"
