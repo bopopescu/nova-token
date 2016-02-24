@@ -86,7 +86,7 @@ nl|'\n'
 DECL|variable|deprecated_for_removal
 name|'deprecated_for_removal'
 op|'='
-string|"'True'"
+name|'True'
 op|')'
 newline|'\n'
 nl|'\n'
@@ -134,7 +134,17 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'Full class name for the Manager for conductor'"
+op|'('
+string|"'DEPRECATED: Full class name for the Manager for conductor. '"
+nl|'\n'
+string|"'Removal in 14.0'"
+op|')'
+op|','
+nl|'\n'
+DECL|variable|deprecated_for_removal
+name|'deprecated_for_removal'
+op|'='
+name|'True'
 op|')'
 newline|'\n'
 nl|'\n'
