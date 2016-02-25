@@ -373,12 +373,32 @@ name|'LOG'
 op|'.'
 name|'debug'
 op|'('
-string|"'Seems service is down. Last heartbeat was %(lhb)s. '"
+string|"'Seems service %(binary)s on host %(host)s is down. '"
 nl|'\n'
-string|"'Elapsed time is %(el)s'"
+string|"'Last heartbeat was %(lhb)s. Elapsed time is %(el)s'"
 op|','
 nl|'\n'
 op|'{'
+string|"'binary'"
+op|':'
+name|'service_ref'
+op|'.'
+name|'get'
+op|'('
+string|"'binary'"
+op|')'
+op|','
+nl|'\n'
+string|"'host'"
+op|':'
+name|'service_ref'
+op|'.'
+name|'get'
+op|'('
+string|"'host'"
+op|')'
+op|','
+nl|'\n'
 string|"'lhb'"
 op|':'
 name|'str'
