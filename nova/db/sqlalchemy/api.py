@@ -32083,7 +32083,7 @@ dedent|''
 op|'@'
 name|'main_context_manager'
 op|'.'
-name|'writer'
+name|'reader'
 newline|'\n'
 DECL|function|aggregate_get
 name|'def'
