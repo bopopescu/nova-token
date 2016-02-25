@@ -196,7 +196,9 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'Glance server hostname or IP address'"
+string|"'DEPRECATED: Glance server hostname or IP address. '"
+nl|'\n'
+string|'\'Use the "api_servers" option instead.\''
 op|')'
 op|','
 nl|'\n'
@@ -236,7 +238,9 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'Glance server port'"
+string|'\'DEPRECATED: Glance server port. Use the "api_servers" \''
+nl|'\n'
+string|"'option instead.'"
 op|')'
 op|','
 nl|'\n'
@@ -274,9 +278,11 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'Protocol to use when connecting to glance. '"
+string|"'DEPRECATED: Protocol to use when connecting to glance. '"
 nl|'\n'
-string|"'Set to https for SSL.'"
+string|'\'Set to https for SSL. Use the "api_servers" option \''
+nl|'\n'
+string|"'instead.'"
 op|')'
 op|','
 nl|'\n'
