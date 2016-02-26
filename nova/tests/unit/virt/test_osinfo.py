@@ -205,7 +205,7 @@ op|')'
 newline|'\n'
 name|'self'
 op|'.'
-name|'assertTrue'
+name|'assertEqual'
 op|'('
 string|"'Fedora 22'"
 op|','
