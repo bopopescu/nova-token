@@ -112,11 +112,19 @@ string|"'is only visible to the vms on the same host.'"
 op|')'
 op|','
 nl|'\n'
+comment|'# NOTE(mriedem): Remove network_device_mtu in Newton.'
+nl|'\n'
 name|'cfg'
 op|'.'
 name|'IntOpt'
 op|'('
 string|"'network_device_mtu'"
+op|','
+nl|'\n'
+DECL|variable|deprecated_for_removal
+name|'deprecated_for_removal'
+op|'='
+name|'True'
 op|','
 nl|'\n'
 DECL|variable|help
