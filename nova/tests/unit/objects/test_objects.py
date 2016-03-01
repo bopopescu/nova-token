@@ -8642,6 +8642,11 @@ op|':'
 string|"'1.0-1a3390a696792a552ab7bd31a77ba9ac'"
 op|','
 nl|'\n'
+string|"'HyperVLiveMigrateData'"
+op|':'
+string|"'1.0-0b868dd6228a09c3f3e47016dddf6a1c'"
+op|','
+nl|'\n'
 string|"'HVSpec'"
 op|':'
 string|"'1.2-db672e73304da86139086d003f3977e7'"
