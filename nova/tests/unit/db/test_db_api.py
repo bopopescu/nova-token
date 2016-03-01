@@ -67650,6 +67650,8 @@ comment|"# ('resource_providers', 'allocations' and 'inventories')"
 nl|'\n'
 comment|"# with no shadow table and it's OK, so skip."
 nl|'\n'
+comment|"# 318 adds one more: 'resource_provider_aggregates'."
+nl|'\n'
 dedent|''
 name|'if'
 name|'table_name'
@@ -67663,6 +67665,8 @@ string|"'allocations'"
 op|','
 nl|'\n'
 string|"'inventories'"
+op|','
+string|"'resource_provider_aggregates'"
 op|']'
 op|':'
 newline|'\n'
