@@ -527,6 +527,12 @@ nl|'\n'
 string|"'solaris9Guest'"
 op|','
 nl|'\n'
+string|"'suse64Guest'"
+op|','
+nl|'\n'
+string|"'suseGuest'"
+op|','
+nl|'\n'
 string|"'turboLinux64Guest'"
 op|','
 nl|'\n'
