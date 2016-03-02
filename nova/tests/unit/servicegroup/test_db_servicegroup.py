@@ -171,6 +171,11 @@ op|'='
 string|"'compute'"
 op|','
 nl|'\n'
+name|'binary'
+op|'='
+string|"'nova-compute'"
+op|','
+nl|'\n'
 name|'created_at'
 op|'='
 name|'now'
