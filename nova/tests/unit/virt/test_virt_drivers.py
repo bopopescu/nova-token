@@ -667,6 +667,11 @@ op|'='
 string|"'./'"
 op|','
 nl|'\n'
+name|'sysinfo_serial'
+op|'='
+string|"'none'"
+op|','
+nl|'\n'
 name|'group'
 op|'='
 string|"'libvirt'"
