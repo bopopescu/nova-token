@@ -5944,7 +5944,7 @@ name|'mock'
 op|'.'
 name|'patch'
 op|'('
-string|"'nova.utils.constant_time_compare'"
+string|"'oslo_utils.secretutils.constant_time_compare'"
 op|')'
 newline|'\n'
 DECL|member|test_by_instance_id_uses_constant_time_compare
