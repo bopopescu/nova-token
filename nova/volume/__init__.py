@@ -52,6 +52,7 @@ name|'cfg'
 op|'.'
 name|'StrOpt'
 op|'('
+nl|'\n'
 string|"'volume_api_class'"
 op|','
 nl|'\n'
@@ -64,11 +65,14 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'The full class name of the '"
-nl|'\n'
-string|"'volume API class to use'"
-op|')'
+string|"'DEPRECATED: The full class name of the volume API class to use'"
 op|','
+nl|'\n'
+DECL|variable|deprecated_for_removal
+name|'deprecated_for_removal'
+op|'='
+name|'True'
+op|')'
 nl|'\n'
 op|']'
 newline|'\n'
