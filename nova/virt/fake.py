@@ -1297,10 +1297,10 @@ indent|'        '
 name|'pass'
 newline|'\n'
 nl|'\n'
-DECL|member|inject_nmi
+DECL|member|trigger_crash_dump
 dedent|''
 name|'def'
-name|'inject_nmi'
+name|'trigger_crash_dump'
 op|'('
 name|'self'
 op|','
