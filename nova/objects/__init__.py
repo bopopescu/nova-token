@@ -76,6 +76,11 @@ op|')'
 newline|'\n'
 name|'__import__'
 op|'('
+string|"'nova.objects.build_request'"
+op|')'
+newline|'\n'
+name|'__import__'
+op|'('
 string|"'nova.objects.cell_mapping'"
 op|')'
 newline|'\n'
