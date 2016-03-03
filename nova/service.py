@@ -374,7 +374,13 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'OpenStack metadata service manager'"
+string|"'DEPRECATED: OpenStack metadata service manager'"
+op|','
+nl|'\n'
+DECL|variable|deprecated_for_removal
+name|'deprecated_for_removal'
+op|'='
+name|'True'
 op|')'
 op|','
 nl|'\n'
@@ -446,6 +452,10 @@ string|"'be the number of CPUs available.'"
 op|')'
 op|','
 nl|'\n'
+comment|'# NOTE(sdague): Ironic is still using this facility for their HA'
+nl|'\n'
+comment|'# manager. Ensure they are sorted before removing this.'
+nl|'\n'
 name|'cfg'
 op|'.'
 name|'StrOpt'
@@ -462,7 +472,13 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'Full class name for the Manager for compute'"
+string|"'DEPRECATED: Full class name for the Manager for compute'"
+op|','
+nl|'\n'
+DECL|variable|deprecated_for_removal
+name|'deprecated_for_removal'
+op|'='
+name|'True'
 op|')'
 op|','
 nl|'\n'
@@ -482,7 +498,15 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'Full class name for the Manager for console proxy'"
+string|"'DEPRECATED: Full class name for the Manager for '"
+nl|'\n'
+string|"'console proxy'"
+op|','
+nl|'\n'
+DECL|variable|deprecated_for_removal
+name|'deprecated_for_removal'
+op|'='
+name|'True'
 op|')'
 op|','
 nl|'\n'
@@ -502,7 +526,13 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'Manager for console auth'"
+string|"'DEPRECATED: Manager for console auth'"
+op|','
+nl|'\n'
+DECL|variable|deprecated_for_removal
+name|'deprecated_for_removal'
+op|'='
+name|'True'
 op|')'
 op|','
 nl|'\n'
@@ -522,9 +552,21 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'Full class name for the Manager for cert'"
+string|"'DEPRECATED: Full class name for the Manager for cert'"
+op|','
+nl|'\n'
+DECL|variable|deprecated_for_removal
+name|'deprecated_for_removal'
+op|'='
+name|'True'
 op|')'
 op|','
+nl|'\n'
+comment|'# NOTE(sdague): the network_manager has a bunch of different in'
+nl|'\n'
+comment|'# tree classes that are still legit options. In Newton we should'
+nl|'\n'
+comment|'# turn this into a selector.'
 nl|'\n'
 name|'cfg'
 op|'.'
@@ -562,7 +604,15 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'Full class name for the Manager for scheduler'"
+string|"'DEPRECATED: Full class name for the Manager for '"
+nl|'\n'
+string|"'scheduler'"
+op|','
+nl|'\n'
+DECL|variable|deprecated_for_removal
+name|'deprecated_for_removal'
+op|'='
+name|'True'
 op|')'
 op|','
 nl|'\n'
