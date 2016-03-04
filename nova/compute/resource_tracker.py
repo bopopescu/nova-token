@@ -228,7 +228,15 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'Class that will manage stats for the local compute host'"
+string|"'DEPRECATED: Class that will manage stats for the '"
+nl|'\n'
+string|"'local compute host'"
+op|','
+nl|'\n'
+DECL|variable|deprecated_for_removal
+name|'deprecated_for_removal'
+op|'='
+name|'True'
 op|')'
 op|','
 nl|'\n'
