@@ -29563,11 +29563,6 @@ name|'new_cinfo'
 op|')'
 op|','
 nl|'\n'
-string|"'delete_on_termination'"
-op|':'
-name|'False'
-op|','
-nl|'\n'
 string|"'source_type'"
 op|':'
 string|"'volume'"
