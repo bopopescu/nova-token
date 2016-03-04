@@ -216,7 +216,13 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'Driver to use for vendor data'"
+string|"'DEPRECATED: Driver to use for vendor data'"
+op|','
+nl|'\n'
+DECL|variable|deprecated_for_removal
+name|'deprecated_for_removal'
+op|'='
+name|'True'
 op|')'
 op|','
 nl|'\n'
