@@ -221,15 +221,6 @@ name|'CONF'
 op|'.'
 name|'import_opt'
 op|'('
-string|"'network_api_class'"
-op|','
-string|"'nova.network'"
-op|')'
-newline|'\n'
-name|'CONF'
-op|'.'
-name|'import_opt'
-op|'('
 string|"'reclaim_instance_interval'"
 op|','
 string|"'nova.compute.manager'"
