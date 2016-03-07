@@ -868,9 +868,9 @@ name|'help'
 op|'='
 string|"'Live migration target ip or hostname '"
 nl|'\n'
-string|"'(if this option is set to be None,'"
+string|"'(if this option is set to None, which is the default, '"
 nl|'\n'
-string|"'the hostname of the migration target'"
+string|"'the hostname of the migration target '"
 nl|'\n'
 string|"'compute node will be used)'"
 op|')'
