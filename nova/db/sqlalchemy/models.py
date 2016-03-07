@@ -1102,6 +1102,17 @@ string|"'cleaned'"
 op|')'
 op|','
 nl|'\n'
+name|'Index'
+op|'('
+string|"'instances_deleted_created_at_idx'"
+op|','
+nl|'\n'
+string|"'deleted'"
+op|','
+string|"'created_at'"
+op|')'
+op|','
+nl|'\n'
 name|'schema'
 op|'.'
 name|'UniqueConstraint'
