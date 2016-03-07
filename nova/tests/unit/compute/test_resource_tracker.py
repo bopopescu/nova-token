@@ -8535,7 +8535,7 @@ op|'.'
 name|'assert_called_once_with'
 op|'('
 nl|'\n'
-string|"u'Cannot get the metrics from %s.'"
+string|"u'Cannot get the metrics from %(mon)s; error: %(exc)s'"
 op|','
 name|'mock'
 op|'.'
