@@ -1428,7 +1428,7 @@ op|'.'
 name|'debug'
 op|'('
 string|"'href %s does not contain version'"
-op|'%'
+op|','
 name|'href'
 op|')'
 newline|'\n'

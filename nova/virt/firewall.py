@@ -2431,7 +2431,7 @@ string|"'instance chain %s disappeared during refresh, '"
 nl|'\n'
 string|"'skipping'"
 op|')'
-op|'%'
+op|','
 name|'chain_name'
 op|','
 nl|'\n'

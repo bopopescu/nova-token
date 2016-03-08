@@ -1261,7 +1261,7 @@ name|'_LW'
 op|'('
 string|"'Info cache is %r during associate'"
 op|')'
-op|'%'
+op|','
 name|'instance'
 op|'.'
 name|'info_cache'
