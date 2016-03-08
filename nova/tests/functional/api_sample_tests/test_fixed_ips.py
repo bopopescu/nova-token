@@ -206,7 +206,7 @@ op|','
 nl|'\n'
 name|'hostname'
 op|'='
-string|"'openstack'"
+string|"'compute.host.pvt'"
 op|','
 name|'host'
 op|'='
@@ -596,7 +596,7 @@ op|','
 nl|'\n'
 string|"'hostname'"
 op|':'
-string|"'openstack'"
+string|"'compute.host.pvt'"
 op|','
 nl|'\n'
 string|"'host'"

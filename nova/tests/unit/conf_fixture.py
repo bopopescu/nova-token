@@ -430,9 +430,9 @@ op|','
 string|"'osapi_v21'"
 op|')'
 newline|'\n'
-comment|"# TODO(sdague): this makes our project_id match 'fake' and"
+comment|"# TODO(sdague): this makes our project_id match 'fake' as well."
 nl|'\n'
-comment|"# 'openstack' as well. We should fix the tests to use real"
+comment|'# We should fix the tests to use real'
 nl|'\n'
 comment|'# UUIDs then drop this work around.'
 nl|'\n'
@@ -445,7 +445,7 @@ op|'('
 string|"'project_id_regex'"
 op|','
 nl|'\n'
-string|"'[0-9a-fopnstk\\-]+'"
+string|"'[0-9a-fk\\-]+'"
 op|','
 string|"'osapi_v21'"
 op|')'
