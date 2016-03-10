@@ -421,7 +421,7 @@ string|"'connection_info'"
 op|':'
 name|'fields'
 op|'.'
-name|'StringField'
+name|'SensitiveStringField'
 op|'('
 name|'nullable'
 op|'='

@@ -8549,7 +8549,7 @@ op|','
 nl|'\n'
 string|"'BlockDeviceMapping'"
 op|':'
-string|"'1.16-12319f6f47f740a67a88a23f7c7ee6ef'"
+string|"'1.16-f0c172e902bc62f1cac05b17d7be7688'"
 op|','
 nl|'\n'
 string|"'BlockDeviceMappingList'"

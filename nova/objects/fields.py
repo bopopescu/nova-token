@@ -165,6 +165,13 @@ name|'fields'
 op|'.'
 name|'StringField'
 newline|'\n'
+DECL|variable|SensitiveStringField
+name|'SensitiveStringField'
+op|'='
+name|'fields'
+op|'.'
+name|'SensitiveStringField'
+newline|'\n'
 DECL|variable|EnumField
 name|'EnumField'
 op|'='
