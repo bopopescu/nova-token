@@ -5202,6 +5202,7 @@ name|'migration_type'
 name|'in'
 op|'('
 string|"'resize'"
+op|','
 op|')'
 newline|'\n'
 name|'if'
