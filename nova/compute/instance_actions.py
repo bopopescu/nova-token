@@ -146,6 +146,11 @@ name|'LIVE_MIGRATION_CANCEL'
 op|'='
 string|"'live_migration_cancel'"
 newline|'\n'
+DECL|variable|LIVE_MIGRATION_FORCE_COMPLETE
+name|'LIVE_MIGRATION_FORCE_COMPLETE'
+op|'='
+string|"'live_migration_force_complete'"
+newline|'\n'
 DECL|variable|TRIGGER_CRASH_DUMP
 name|'TRIGGER_CRASH_DUMP'
 op|'='
