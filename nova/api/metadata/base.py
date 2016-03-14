@@ -549,8 +549,6 @@ nl|'\n'
 name|'ctxt'
 op|','
 name|'instance'
-op|'.'
-name|'uuid'
 op|')'
 newline|'\n'
 nl|'\n'
@@ -3421,6 +3419,9 @@ nl|'\n'
 string|"'metadata'"
 op|','
 string|"'system_metadata'"
+op|','
+nl|'\n'
+string|"'security_groups'"
 op|']'
 op|')'
 newline|'\n'
