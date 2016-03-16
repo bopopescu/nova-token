@@ -66,7 +66,7 @@ op|')'
 op|':'
 newline|'\n'
 indent|'    '
-string|"'''Client side of the cert rpc API.\n\n    API version history:\n\n        1.0 - Initial version.\n        1.1 - Added get_backdoor_port()\n\n        ... Grizzly and Havana support message version 1.1.  So, any changes to\n        existing methods in 1.x after that point should be done such that they\n        can handle the version_cap being set to 1.1.\n\n        2.0 - Major API rev for Icehouse\n\n        ... Icehouse, Juno, Kilo, and Liberty support message version\n        2.0.  So, any changes to existing methods in 2.x after that\n        point should be done such that they can handle the version_cap\n        being set to 2.0.\n\n    '''"
+string|"'''Client side of the cert rpc API.\n\n    API version history:\n\n        1.0 - Initial version.\n        1.1 - Added get_backdoor_port()\n\n        ... Grizzly and Havana support message version 1.1.  So, any changes to\n        existing methods in 1.x after that point should be done such that they\n        can handle the version_cap being set to 1.1.\n\n        2.0 - Major API rev for Icehouse\n\n        ... Icehouse, Juno, Kilo, Liberty, and Mitaka support message version\n        2.0.  So, any changes to existing methods in 2.x after that\n        point should be done such that they can handle the version_cap\n        being set to 2.0.\n\n    '''"
 newline|'\n'
 nl|'\n'
 DECL|variable|VERSION_ALIASES
@@ -100,6 +100,11 @@ string|"'2.0'"
 op|','
 nl|'\n'
 string|"'liberty'"
+op|':'
+string|"'2.0'"
+op|','
+nl|'\n'
+string|"'mitaka'"
 op|':'
 string|"'2.0'"
 op|','
