@@ -340,10 +340,11 @@ newline|'\n'
 indent|'                '
 name|'LOG'
 op|'.'
-name|'warn'
+name|'warning'
 op|'('
 name|'_LW'
 op|'('
+nl|'\n'
 string|"'Volume %s should be encrypted but there is no '"
 nl|'\n'
 string|"'encryption metadata.'"

@@ -879,7 +879,7 @@ name|'self'
 op|'.'
 name|'stub_out'
 op|'('
-string|"'nova.context.LOG.warn'"
+string|"'nova.context.LOG.warning'"
 op|','
 name|'stub_warn'
 op|')'
