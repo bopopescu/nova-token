@@ -13439,7 +13439,7 @@ name|'libvirt_driver'
 op|'.'
 name|'LOG'
 op|','
-string|"'warn'"
+string|"'warning'"
 op|')'
 newline|'\n'
 DECL|member|test_has_numa_support_bad_version_libvirt_log
@@ -71613,7 +71613,7 @@ name|'libvirt_driver'
 op|'.'
 name|'LOG'
 op|','
-string|"'warn'"
+string|"'warning'"
 op|')'
 newline|'\n'
 op|'@'
