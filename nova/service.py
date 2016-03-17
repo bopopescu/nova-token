@@ -185,15 +185,6 @@ name|'conf'
 op|'.'
 name|'CONF'
 newline|'\n'
-name|'CONF'
-op|'.'
-name|'import_opt'
-op|'('
-string|"'host'"
-op|','
-string|"'nova.netconf'"
-op|')'
-newline|'\n'
 nl|'\n'
 nl|'\n'
 DECL|function|_create_service_ref

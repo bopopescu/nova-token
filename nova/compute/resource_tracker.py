@@ -188,16 +188,6 @@ op|'='
 string|'"compute_resources"'
 newline|'\n'
 nl|'\n'
-name|'CONF'
-op|'.'
-name|'import_opt'
-op|'('
-string|"'my_ip'"
-op|','
-string|"'nova.netconf'"
-op|')'
-newline|'\n'
-nl|'\n'
 nl|'\n'
 DECL|function|_instance_in_resize_state
 name|'def'
