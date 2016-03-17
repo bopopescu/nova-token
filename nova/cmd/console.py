@@ -83,15 +83,6 @@ name|'cfg'
 op|'.'
 name|'CONF'
 newline|'\n'
-name|'CONF'
-op|'.'
-name|'import_opt'
-op|'('
-string|"'console_topic'"
-op|','
-string|"'nova.console.rpcapi'"
-op|')'
-newline|'\n'
 nl|'\n'
 nl|'\n'
 DECL|function|main
