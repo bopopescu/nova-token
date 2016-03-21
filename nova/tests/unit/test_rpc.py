@@ -469,9 +469,11 @@ op|'{'
 op|'}'
 op|','
 op|'{'
-string|"'topic'"
+string|"'topics'"
 op|':'
+op|'['
 string|"'versioned_notifications'"
+op|']'
 op|'}'
 op|']'
 newline|'\n'
@@ -586,10 +588,13 @@ op|':'
 string|"'noop'"
 op|'}'
 op|','
+nl|'\n'
 op|'{'
-string|"'topic'"
+string|"'topics'"
 op|':'
+op|'['
 string|"'versioned_notifications'"
+op|']'
 op|'}'
 op|']'
 newline|'\n'
