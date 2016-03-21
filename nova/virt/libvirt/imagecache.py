@@ -284,15 +284,6 @@ op|','
 string|"'libvirt'"
 op|')'
 newline|'\n'
-name|'CONF'
-op|'.'
-name|'import_opt'
-op|'('
-string|"'instances_path'"
-op|','
-string|"'nova.compute.manager'"
-op|')'
-newline|'\n'
 nl|'\n'
 nl|'\n'
 DECL|function|get_cache_fname

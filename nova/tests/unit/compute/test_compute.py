@@ -600,15 +600,6 @@ op|','
 string|"'nova.netconf'"
 op|')'
 newline|'\n'
-name|'CONF'
-op|'.'
-name|'import_opt'
-op|'('
-string|"'live_migration_retry_count'"
-op|','
-string|"'nova.compute.manager'"
-op|')'
-newline|'\n'
 nl|'\n'
 nl|'\n'
 DECL|variable|FAKE_IMAGE_REF
