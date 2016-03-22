@@ -1396,16 +1396,6 @@ op|'='
 string|"'workarounds'"
 op|')'
 newline|'\n'
-name|'CONF'
-op|'.'
-name|'import_opt'
-op|'('
-string|"'scheduler_tracks_instance_changes'"
-op|','
-nl|'\n'
-string|"'nova.scheduler.host_manager'"
-op|')'
-newline|'\n'
 nl|'\n'
 DECL|variable|LOG
 name|'LOG'
