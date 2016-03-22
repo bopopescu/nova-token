@@ -283,6 +283,13 @@ name|'VIF_DETAILS_VHOSTUSER_FP_PLUG'
 op|'='
 string|"'vhostuser_fp_plug'"
 newline|'\n'
+comment|'# ovs vhost user interface type name'
+nl|'\n'
+DECL|variable|OVS_VHOSTUSER_INTERFACE_TYPE
+name|'OVS_VHOSTUSER_INTERFACE_TYPE'
+op|'='
+string|"'dpdkvhostuser'"
+newline|'\n'
 nl|'\n'
 comment|"# Constants for dictionary keys in the 'vif_details' field that are"
 nl|'\n'
