@@ -2640,7 +2640,7 @@ name|'debug'
 op|'('
 string|"'vif_type=%(vif_type)s instance=%(instance)s '"
 nl|'\n'
-string|"'vif=%(vif)s virt_type%(virt_type)s'"
+string|"'vif=%(vif)s virt_type=%(virt_type)s'"
 op|','
 nl|'\n'
 op|'{'
