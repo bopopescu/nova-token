@@ -71,8 +71,13 @@ name|'NoDBTestCase'
 op|')'
 op|':'
 newline|'\n'
-DECL|variable|test_filename
+DECL|variable|USES_DB_SELF
 indent|'    '
+name|'USES_DB_SELF'
+op|'='
+name|'True'
+newline|'\n'
+DECL|variable|test_filename
 name|'test_filename'
 op|'='
 string|"'foo.db'"

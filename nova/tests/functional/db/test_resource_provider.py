@@ -123,6 +123,12 @@ indent|'    '
 string|'"""Test resource-provider objects\' lifecycles."""'
 newline|'\n'
 nl|'\n'
+DECL|variable|USES_DB_SELF
+name|'USES_DB_SELF'
+op|'='
+name|'True'
+newline|'\n'
+nl|'\n'
 DECL|member|setUp
 name|'def'
 name|'setUp'
