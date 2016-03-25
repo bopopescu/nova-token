@@ -196,6 +196,26 @@ string|"'Keystone public API endpoint.'"
 op|')'
 newline|'\n'
 nl|'\n'
+DECL|variable|cafile
+name|'cafile'
+op|'='
+name|'cfg'
+op|'.'
+name|'StrOpt'
+op|'('
+nl|'\n'
+string|"'cafile'"
+op|','
+nl|'\n'
+DECL|variable|help
+name|'help'
+op|'='
+string|"'PEM encoded Certificate Authority to use when verifying HTTPs '"
+nl|'\n'
+string|"'connections.'"
+op|')'
+newline|'\n'
+nl|'\n'
 DECL|variable|client_log_level
 name|'client_log_level'
 op|'='
@@ -318,6 +338,9 @@ name|'admin_auth_token'
 op|','
 nl|'\n'
 name|'admin_url'
+op|','
+nl|'\n'
+name|'cafile'
 op|','
 nl|'\n'
 name|'client_log_level'
