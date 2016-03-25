@@ -2861,6 +2861,11 @@ op|'('
 name|'secure_proxy_ssl_header'
 op|'='
 string|"'HTTP_X_FORWARDED_PROTO'"
+op|','
+nl|'\n'
+name|'group'
+op|'='
+string|"'wsgi'"
 op|')'
 newline|'\n'
 nl|'\n'

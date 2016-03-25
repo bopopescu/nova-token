@@ -152,6 +152,8 @@ string|"'api-paste.ini'"
 op|','
 name|'CONF'
 op|'.'
+name|'wsgi'
+op|'.'
 name|'api_paste_config'
 op|')'
 newline|'\n'
@@ -182,6 +184,10 @@ op|'('
 string|"'api_paste_config'"
 op|','
 string|"'foo'"
+op|','
+name|'group'
+op|'='
+string|"'wsgi'"
 op|')'
 newline|'\n'
 name|'self'
