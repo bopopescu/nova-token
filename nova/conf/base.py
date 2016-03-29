@@ -179,10 +179,9 @@ op|'='
 name|'False'
 op|','
 nl|'\n'
-DECL|variable|help
 name|'help'
 op|'='
-string|"'Whether to apply monkey patching'"
+string|'"""Determine if monkey patching should be applied.\n\nPossible values:\n\n* True: Functions specified in ``monkey_patch_modules`` will be patched.\n* False: No monkey patching will occur.\n\nServices which consume this:\n\n* All\n\nInterdependencies to other options:\n\n* ``monkey_patch_modules``: This must have values set for this option to have\n  any effect\n"""'
 op|')'
 newline|'\n'
 nl|'\n'
@@ -217,10 +216,9 @@ nl|'\n'
 op|']'
 op|','
 nl|'\n'
-DECL|variable|help
 name|'help'
 op|'='
-string|"'List of modules/decorators to monkey patch'"
+string|'"""List of modules/decorators to monkey patch.\n\nThis option allows you to patch a decorator for all functions in specified\nmodules.\n\nPossible values:\n\n* nova.compute.api:nova.notifications.notify_decorator\n* nova.api.ec2.cloud:nova.notifications.notify_decorator\n* [...]\n\nInterdependencies to other options:\n\n* ``monkey_patch``: This must be set to ``True`` for this option to\n  have any effect\n"""'
 op|')'
 newline|'\n'
 nl|'\n'
