@@ -139,6 +139,11 @@ name|'VIF_TYPE_HW_VEB'
 op|'='
 string|"'hw_veb'"
 newline|'\n'
+DECL|variable|VIF_TYPE_HOSTDEV
+name|'VIF_TYPE_HOSTDEV'
+op|'='
+string|"'hostdev_physical'"
+newline|'\n'
 DECL|variable|VIF_TYPE_IB_HOSTDEV
 name|'VIF_TYPE_IB_HOSTDEV'
 op|'='
@@ -319,6 +324,11 @@ DECL|variable|VNIC_TYPE_MACVTAP
 name|'VNIC_TYPE_MACVTAP'
 op|'='
 string|"'macvtap'"
+newline|'\n'
+DECL|variable|VNIC_TYPE_DIRECT_PHYSICAL
+name|'VNIC_TYPE_DIRECT_PHYSICAL'
+op|'='
+string|"'direct-physical'"
 newline|'\n'
 DECL|variable|VNIC_TYPE_BAREMETAL
 name|'VNIC_TYPE_BAREMETAL'
