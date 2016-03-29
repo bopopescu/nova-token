@@ -2882,7 +2882,7 @@ name|'self'
 op|'.'
 name|'_block_migration_flags'
 op|'='
-name|'None'
+number|'0'
 newline|'\n'
 nl|'\n'
 DECL|member|_get_volume_drivers
