@@ -200,6 +200,69 @@ string|"'requests that attempt to create a local disk will fail.'"
 op|')'
 op|','
 nl|'\n'
+name|'cfg'
+op|'.'
+name|'MultiStrOpt'
+op|'('
+string|"'compute_available_monitors'"
+op|','
+nl|'\n'
+DECL|variable|deprecated_for_removal
+name|'deprecated_for_removal'
+op|'='
+name|'True'
+op|','
+nl|'\n'
+DECL|variable|help
+name|'help'
+op|'='
+string|"'Monitor classes available to the compute which may '"
+nl|'\n'
+string|"'be specified more than once. This option is '"
+nl|'\n'
+string|"'DEPRECATED and no longer used. Use setuptools entry '"
+nl|'\n'
+string|"'points to list available monitor plugins.'"
+op|')'
+op|','
+nl|'\n'
+name|'cfg'
+op|'.'
+name|'ListOpt'
+op|'('
+string|"'compute_monitors'"
+op|','
+nl|'\n'
+DECL|variable|default
+name|'default'
+op|'='
+op|'['
+op|']'
+op|','
+nl|'\n'
+DECL|variable|help
+name|'help'
+op|'='
+string|"'A list of monitors that can be used for getting '"
+nl|'\n'
+string|"'compute metrics. You can use the alias/name from '"
+nl|'\n'
+string|"'the setuptools entry points for nova.compute.monitors.* '"
+nl|'\n'
+string|'\'namespaces. If no namespace is supplied, the "cpu." \''
+nl|'\n'
+string|"'namespace is assumed for backwards-compatibility. '"
+nl|'\n'
+string|"'An example value that would enable both the CPU and '"
+nl|'\n'
+string|"'NUMA memory bandwidth monitors that used the virt '"
+nl|'\n'
+string|"'driver variant: '"
+nl|'\n'
+string|'\'["cpu.virt_driver", "numa_mem_bw.virt_driver"]\''
+op|')'
+op|','
+nl|'\n'
 op|']'
 newline|'\n'
 nl|'\n'
