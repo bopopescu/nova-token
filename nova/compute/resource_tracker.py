@@ -35,11 +35,6 @@ name|'copy'
 newline|'\n'
 nl|'\n'
 name|'from'
-name|'oslo_config'
-name|'import'
-name|'cfg'
-newline|'\n'
-name|'from'
 name|'oslo_log'
 name|'import'
 name|'log'
@@ -93,6 +88,11 @@ op|'.'
 name|'compute'
 name|'import'
 name|'vm_states'
+newline|'\n'
+name|'import'
+name|'nova'
+op|'.'
+name|'conf'
 newline|'\n'
 name|'from'
 name|'nova'
@@ -171,256 +171,14 @@ name|'import'
 name|'hardware'
 newline|'\n'
 nl|'\n'
-DECL|variable|resource_tracker_opts
-name|'resource_tracker_opts'
-op|'='
-op|'['
-nl|'\n'
-name|'cfg'
-op|'.'
-name|'IntOpt'
-op|'('
-string|"'reserved_host_disk_mb'"
-op|','
-name|'default'
-op|'='
-number|'0'
-op|','
-nl|'\n'
-DECL|variable|help
-name|'help'
-op|'='
-string|"'Amount of disk in MB to reserve for the host'"
-op|')'
-op|','
-nl|'\n'
-name|'cfg'
-op|'.'
-name|'IntOpt'
-op|'('
-string|"'reserved_host_memory_mb'"
-op|','
-name|'default'
-op|'='
-number|'512'
-op|','
-nl|'\n'
-DECL|variable|help
-name|'help'
-op|'='
-string|"'Amount of memory in MB to reserve for the host'"
-op|')'
-op|','
-nl|'\n'
-name|'cfg'
-op|'.'
-name|'StrOpt'
-op|'('
-string|"'compute_stats_class'"
-op|','
-nl|'\n'
-DECL|variable|default
-name|'default'
-op|'='
-string|"'nova.compute.stats.Stats'"
-op|','
-nl|'\n'
-DECL|variable|help
-name|'help'
-op|'='
-string|"'DEPRECATED: Class that will manage stats for the '"
-nl|'\n'
-string|"'local compute host'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_for_removal
-name|'deprecated_for_removal'
-op|'='
-name|'True'
-op|')'
-op|','
-nl|'\n'
-name|'cfg'
-op|'.'
-name|'ListOpt'
-op|'('
-string|"'compute_resources'"
-op|','
-nl|'\n'
-DECL|variable|default
-name|'default'
-op|'='
-op|'['
-op|']'
-op|','
-nl|'\n'
-DECL|variable|help
-name|'help'
-op|'='
-string|"'DEPRECATED: The names of the extra resources to track. '"
-nl|'\n'
-string|"'The Extensible Resource Tracker is deprecated and will '"
-nl|'\n'
-string|"'be removed in the 14.0.0 release. If you '"
-nl|'\n'
-string|"'use this functionality and have custom resources that '"
-nl|'\n'
-string|"'are managed by the Extensible Resource Tracker, please '"
-nl|'\n'
-string|"'contact the Nova development team by posting to the '"
-nl|'\n'
-string|"'openstack-dev mailing list. There is no future planned '"
-nl|'\n'
-string|"'support for the tracking of custom resources.'"
-op|','
-nl|'\n'
-DECL|variable|deprecated_for_removal
-name|'deprecated_for_removal'
-op|'='
-name|'True'
-op|')'
-op|','
-nl|'\n'
-op|']'
-newline|'\n'
-nl|'\n'
-DECL|variable|allocation_ratio_opts
-name|'allocation_ratio_opts'
-op|'='
-op|'['
-nl|'\n'
-name|'cfg'
-op|'.'
-name|'FloatOpt'
-op|'('
-string|"'cpu_allocation_ratio'"
-op|','
-nl|'\n'
-DECL|variable|default
-name|'default'
-op|'='
-number|'0.0'
-op|','
-nl|'\n'
-DECL|variable|help
-name|'help'
-op|'='
-string|"'Virtual CPU to physical CPU allocation ratio which affects '"
-nl|'\n'
-string|"'all CPU filters. This configuration specifies a global ratio '"
-nl|'\n'
-string|"'for CoreFilter. For AggregateCoreFilter, it will fall back to '"
-nl|'\n'
-string|"'this configuration value if no per-aggregate setting found. '"
-nl|'\n'
-string|"'NOTE: This can be set per-compute, or if set to 0.0, the value '"
-nl|'\n'
-string|"'set on the scheduler node(s) will be used '"
-nl|'\n'
-string|"'and defaulted to 16.0'"
-op|')'
-op|','
-nl|'\n'
-name|'cfg'
-op|'.'
-name|'FloatOpt'
-op|'('
-string|"'ram_allocation_ratio'"
-op|','
-nl|'\n'
-DECL|variable|default
-name|'default'
-op|'='
-number|'0.0'
-op|','
-nl|'\n'
-DECL|variable|help
-name|'help'
-op|'='
-string|"'Virtual ram to physical ram allocation ratio which affects '"
-nl|'\n'
-string|"'all ram filters. This configuration specifies a global ratio '"
-nl|'\n'
-string|"'for RamFilter. For AggregateRamFilter, it will fall back to '"
-nl|'\n'
-string|"'this configuration value if no per-aggregate setting found. '"
-nl|'\n'
-string|"'NOTE: This can be set per-compute, or if set to 0.0, the value '"
-nl|'\n'
-string|"'set on the scheduler node(s) will be used '"
-nl|'\n'
-string|"'and defaulted to 1.5'"
-op|')'
-op|','
-nl|'\n'
-name|'cfg'
-op|'.'
-name|'FloatOpt'
-op|'('
-string|"'disk_allocation_ratio'"
-op|','
-nl|'\n'
-DECL|variable|default
-name|'default'
-op|'='
-number|'0.0'
-op|','
-nl|'\n'
-DECL|variable|help
-name|'help'
-op|'='
-string|"'This is the virtual disk to physical disk allocation ratio used '"
-nl|'\n'
-string|"'by the disk_filter.py script to determine if a host has '"
-nl|'\n'
-string|"'sufficient disk space to fit a requested instance. A ratio '"
-nl|'\n'
-string|"'greater than 1.0 will result in over-subscription of the '"
-nl|'\n'
-string|"'available physical disk, which can be useful for more '"
-nl|'\n'
-string|"'efficiently packing instances created with images that do not '"
-nl|'\n'
-string|"'use the entire virtual disk,such as sparse or compressed '"
-nl|'\n'
-string|"'images. It can be set to a value between 0.0 and 1.0 in order '"
-nl|'\n'
-string|"'to preserve a percentage of the disk for uses other than '"
-nl|'\n'
-string|"'instances.'"
-nl|'\n'
-string|"'NOTE: This can be set per-compute, or if set to 0.0, the value '"
-nl|'\n'
-string|"'set on the scheduler node(s) will be used '"
-nl|'\n'
-string|"'and defaulted to 1.0'"
-op|')'
-op|','
-nl|'\n'
-op|']'
-newline|'\n'
-nl|'\n'
-nl|'\n'
 DECL|variable|CONF
 name|'CONF'
 op|'='
-name|'cfg'
+name|'nova'
+op|'.'
+name|'conf'
 op|'.'
 name|'CONF'
-newline|'\n'
-name|'CONF'
-op|'.'
-name|'register_opts'
-op|'('
-name|'resource_tracker_opts'
-op|')'
-newline|'\n'
-name|'CONF'
-op|'.'
-name|'register_opts'
-op|'('
-name|'allocation_ratio_opts'
-op|')'
 newline|'\n'
 nl|'\n'
 DECL|variable|LOG
