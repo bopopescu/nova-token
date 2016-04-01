@@ -393,15 +393,6 @@ name|'CONF'
 op|'.'
 name|'import_opt'
 op|'('
-string|"'image_cache_subdirectory_name'"
-op|','
-string|"'nova.virt.imagecache'"
-op|')'
-newline|'\n'
-name|'CONF'
-op|'.'
-name|'import_opt'
-op|'('
 string|"'rbd_user'"
 op|','
 string|"'nova.virt.libvirt.volume.net'"

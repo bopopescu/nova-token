@@ -110,16 +110,6 @@ name|'cfg'
 op|'.'
 name|'CONF'
 newline|'\n'
-name|'CONF'
-op|'.'
-name|'import_opt'
-op|'('
-string|"'remove_unused_original_minimum_age_seconds'"
-op|','
-nl|'\n'
-string|"'nova.virt.imagecache'"
-op|')'
-newline|'\n'
 nl|'\n'
 DECL|variable|TIMESTAMP_PREFIX
 name|'TIMESTAMP_PREFIX'
