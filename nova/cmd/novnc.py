@@ -41,21 +41,21 @@ op|'['
 nl|'\n'
 name|'cfg'
 op|'.'
-name|'BoolOpt'
+name|'StrOpt'
 op|'('
 string|"'record'"
-op|','
-nl|'\n'
-DECL|variable|default
-name|'default'
-op|'='
-name|'False'
 op|','
 nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'Record sessions to FILE.[session_number]'"
+string|"'This is the filename that will be used for storing '"
+nl|'\n'
+string|"'websocket frames received and sent by a proxy service '"
+nl|'\n'
+string|"'(like VNC, spice, serial) running on this host. If this '"
+nl|'\n'
+string|"'is not set (default), no recording will be done.'"
 op|')'
 op|','
 nl|'\n'
