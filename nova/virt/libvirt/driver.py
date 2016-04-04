@@ -1622,15 +1622,6 @@ op|')'
 newline|'\n'
 name|'CONF'
 op|'.'
-name|'import_group'
-op|'('
-string|"'workarounds'"
-op|','
-string|"'nova.utils'"
-op|')'
-newline|'\n'
-name|'CONF'
-op|'.'
 name|'import_opt'
 op|'('
 string|"'iscsi_use_multipath'"
