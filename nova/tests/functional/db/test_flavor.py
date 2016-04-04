@@ -2060,8 +2060,14 @@ name|'NoDBTestCase'
 op|')'
 op|':'
 newline|'\n'
-DECL|member|setUp
+DECL|variable|USES_DB_SELF
 indent|'    '
+name|'USES_DB_SELF'
+op|'='
+name|'True'
+newline|'\n'
+nl|'\n'
+DECL|member|setUp
 name|'def'
 name|'setUp'
 op|'('
