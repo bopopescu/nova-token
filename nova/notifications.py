@@ -154,18 +154,36 @@ op|'('
 string|"'notify_on_state_change'"
 op|','
 nl|'\n'
+DECL|variable|default
+name|'default'
+op|'='
+name|'None'
+op|','
+nl|'\n'
+DECL|variable|choices
+name|'choices'
+op|'='
+op|'('
+name|'None'
+op|','
+string|"'vm_state'"
+op|','
+string|"'vm_and_task_state'"
+op|')'
+op|','
+nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'If set, send compute.instance.update notifications on instance '"
+string|"'If set, send compute.instance.update notifications on '"
 nl|'\n'
-string|"'state changes.  Valid values are None for no notifications, '"
+string|"'instance state changes.  Valid values are None for no '"
 nl|'\n'
-string|'\'"vm_state" for notifications on VM state changes, or \''
+string|'\'notifications, "vm_state" for notifications on VM state \''
 nl|'\n'
-string|'\'"vm_and_task_state" for notifications on VM and task state \''
+string|'\'changes, or "vm_and_task_state" for notifications on VM \''
 nl|'\n'
-string|"'changes.'"
+string|"'and task state changes.'"
 op|')'
 op|','
 nl|'\n'
@@ -628,10 +646,6 @@ op|'('
 name|'CONF'
 op|'.'
 name|'notify_on_state_change'
-op|'.'
-name|'lower'
-op|'('
-op|')'
 op|'=='
 string|'"vm_and_task_state"'
 name|'and'
@@ -878,10 +892,6 @@ op|'('
 name|'CONF'
 op|'.'
 name|'notify_on_state_change'
-op|'.'
-name|'lower'
-op|'('
-op|')'
 op|'=='
 string|'"vm_and_task_state"'
 name|'and'
