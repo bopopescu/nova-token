@@ -352,7 +352,7 @@ name|'spec_obj'
 op|')'
 op|':'
 newline|'\n'
-comment|"# Only invoke the filter is 'anti-affinity' is configured"
+comment|"# Only invoke the filter if 'anti-affinity' is configured"
 nl|'\n'
 indent|'        '
 name|'policies'
@@ -516,7 +516,7 @@ name|'spec_obj'
 op|')'
 op|':'
 newline|'\n'
-comment|"# Only invoke the filter is 'affinity' is configured"
+comment|"# Only invoke the filter if 'affinity' is configured"
 nl|'\n'
 indent|'        '
 name|'policies'
