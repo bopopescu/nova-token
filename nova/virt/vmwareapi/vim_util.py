@@ -32,11 +32,6 @@ string|'"""\nThe VMware API utility module.\n"""'
 newline|'\n'
 nl|'\n'
 name|'from'
-name|'oslo_config'
-name|'import'
-name|'cfg'
-newline|'\n'
-name|'from'
 name|'oslo_log'
 name|'import'
 name|'log'
@@ -54,57 +49,20 @@ name|'import'
 name|'six'
 newline|'\n'
 nl|'\n'
-DECL|variable|vmware_opts
-name|'vmware_opts'
-op|'='
-name|'cfg'
+name|'import'
+name|'nova'
 op|'.'
-name|'IntOpt'
-op|'('
-string|"'maximum_objects'"
-op|','
-name|'default'
-op|'='
-number|'100'
-op|','
-nl|'\n'
-DECL|variable|help
-name|'help'
-op|'='
-string|"'The maximum number of ObjectContent data '"
-nl|'\n'
-string|"'objects that should be returned in a single '"
-nl|'\n'
-string|"'result. A positive value will cause the '"
-nl|'\n'
-string|"'operation to suspend the retrieval when the '"
-nl|'\n'
-string|"'count of objects reaches the specified '"
-nl|'\n'
-string|"'maximum. The server may still limit the count '"
-nl|'\n'
-string|"'to something less than the configured value. '"
-nl|'\n'
-string|"'Any remaining objects may be retrieved with '"
-nl|'\n'
-string|"'additional requests.'"
-op|')'
+name|'conf'
 newline|'\n'
+nl|'\n'
 DECL|variable|CONF
 name|'CONF'
 op|'='
-name|'cfg'
+name|'nova'
+op|'.'
+name|'conf'
 op|'.'
 name|'CONF'
-newline|'\n'
-name|'CONF'
-op|'.'
-name|'register_opt'
-op|'('
-name|'vmware_opts'
-op|','
-string|"'vmware'"
-op|')'
 newline|'\n'
 DECL|variable|LOG
 name|'LOG'
