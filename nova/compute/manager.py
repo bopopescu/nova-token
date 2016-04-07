@@ -1295,15 +1295,6 @@ name|'CONF'
 op|'.'
 name|'import_opt'
 op|'('
-string|"'console_topic'"
-op|','
-string|"'nova.console.rpcapi'"
-op|')'
-newline|'\n'
-name|'CONF'
-op|'.'
-name|'import_opt'
-op|'('
 string|"'host'"
 op|','
 string|"'nova.netconf'"

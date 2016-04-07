@@ -100,15 +100,6 @@ name|'conf'
 op|'.'
 name|'CONF'
 newline|'\n'
-name|'CONF'
-op|'.'
-name|'import_opt'
-op|'('
-string|"'console_driver'"
-op|','
-string|"'nova.console.manager'"
-op|')'
-newline|'\n'
 nl|'\n'
 nl|'\n'
 DECL|class|ConsoleTestCase
