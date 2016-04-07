@@ -106,15 +106,6 @@ name|'CONF'
 op|'.'
 name|'import_opt'
 op|'('
-string|"'fake_network'"
-op|','
-string|"'nova.network.linux_net'"
-op|')'
-newline|'\n'
-name|'CONF'
-op|'.'
-name|'import_opt'
-op|'('
 string|"'floating_ip_dns_manager'"
 op|','
 string|"'nova.network.floating_ips'"

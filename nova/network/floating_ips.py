@@ -168,15 +168,6 @@ name|'CONF'
 op|'.'
 name|'import_opt'
 op|'('
-string|"'public_interface'"
-op|','
-string|"'nova.network.linux_net'"
-op|')'
-newline|'\n'
-name|'CONF'
-op|'.'
-name|'import_opt'
-op|'('
 string|"'network_topic'"
 op|','
 string|"'nova.network.rpcapi'"
