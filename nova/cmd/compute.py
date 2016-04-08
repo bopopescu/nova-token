@@ -134,15 +134,6 @@ name|'conf'
 op|'.'
 name|'CONF'
 newline|'\n'
-name|'CONF'
-op|'.'
-name|'import_opt'
-op|'('
-string|"'compute_topic'"
-op|','
-string|"'nova.compute.rpcapi'"
-op|')'
-newline|'\n'
 DECL|variable|LOG
 name|'LOG'
 op|'='
