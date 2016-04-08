@@ -186,6 +186,11 @@ op|')'
 newline|'\n'
 name|'__import__'
 op|'('
+string|"'nova.objects.virt_device_metadata'"
+op|')'
+newline|'\n'
+name|'__import__'
+op|'('
 string|"'nova.objects.migration'"
 op|')'
 newline|'\n'

@@ -130,6 +130,13 @@ name|'notification'
 newline|'\n'
 name|'from'
 name|'nova'
+op|'.'
+name|'objects'
+name|'import'
+name|'virt_device_metadata'
+newline|'\n'
+name|'from'
+name|'nova'
 name|'import'
 name|'test'
 newline|'\n'
@@ -8587,6 +8594,21 @@ op|':'
 string|"'1.0-4ee0d9efdfd681fed822da88376e04d2'"
 op|','
 nl|'\n'
+string|"'DeviceMetadata'"
+op|':'
+string|"'1.0-04eb8fd218a49cbc3b1e54b774d179f7'"
+op|','
+nl|'\n'
+string|"'DeviceMetadataList'"
+op|':'
+string|"'1.0-15ecf022a68ddbb8c2a6739cfc9f8f5e'"
+op|','
+nl|'\n'
+string|"'DiskMetadata'"
+op|':'
+string|"'1.0-e7a0f1ccccf10d26a76b28e7492f3788'"
+op|','
+nl|'\n'
 string|"'EC2Ids'"
 op|':'
 string|"'1.0-474ee1094c7ec16f8ce657595d8c49d9'"
@@ -8655,6 +8677,11 @@ nl|'\n'
 string|"'HVSpec'"
 op|':'
 string|"'1.2-db672e73304da86139086d003f3977e7'"
+op|','
+nl|'\n'
+string|"'IDEDeviceBus'"
+op|':'
+string|"'1.0-29d4c9f27ac44197f01b6ac1b7e16502'"
 op|','
 nl|'\n'
 string|"'ImageMeta'"
@@ -8842,6 +8869,11 @@ op|':'
 string|"'1.2-a977ab383aa462a479b2fae8211a5dde'"
 op|','
 nl|'\n'
+string|"'NetworkInterfaceMetadata'"
+op|':'
+string|"'1.0-99a9574d086feb5ad45cd04a34855647'"
+op|','
+nl|'\n'
 string|"'NetworkList'"
 op|':'
 string|"'1.2-69eca910d8fa035dfecd8ba10877ee59'"
@@ -8860,6 +8892,11 @@ nl|'\n'
 string|"'PciDevice'"
 op|':'
 string|"'1.5-0d5abe5c91645b8469eb2a93fc53f932'"
+op|','
+nl|'\n'
+string|"'PCIDeviceBus'"
+op|':'
+string|"'1.0-2b891cb77e42961044689f3dc2718995'"
 op|','
 nl|'\n'
 string|"'PciDeviceList'"
@@ -8910,6 +8947,11 @@ nl|'\n'
 string|"'SchedulerRetries'"
 op|':'
 string|"'1.1-3c9c8b16143ebbb6ad7030e999d14cc0'"
+op|','
+nl|'\n'
+string|"'SCSIDeviceBus'"
+op|':'
+string|"'1.0-61c1e89a00901069ab1cf2991681533b'"
 op|','
 nl|'\n'
 string|"'SecurityGroup'"
@@ -8970,6 +9012,11 @@ nl|'\n'
 string|"'TagList'"
 op|':'
 string|"'1.1-55231bdb671ecf7641d6a2e9109b5d8e'"
+op|','
+nl|'\n'
+string|"'USBDeviceBus'"
+op|':'
+string|"'1.0-e4c7dd6032e46cd74b027df5eb2d4750'"
 op|','
 nl|'\n'
 string|"'VirtCPUFeature'"
@@ -9302,6 +9349,29 @@ name|'self'
 op|')'
 op|':'
 newline|'\n'
+comment|'# NOTE(danms): This is normally not registered because it is just a'
+nl|'\n'
+comment|'# base class. However, the test fixture below requires it to be'
+nl|'\n'
+comment|'# in the registry so that it can verify backports based on its'
+nl|'\n'
+comment|'# children. So, register it here, which will be reverted after the'
+nl|'\n'
+comment|'# cleanUp for this (and all) tests is run.'
+nl|'\n'
+indent|'        '
+name|'base'
+op|'.'
+name|'NovaObjectRegistry'
+op|'.'
+name|'register'
+op|'('
+name|'virt_device_metadata'
+op|'.'
+name|'DeviceBus'
+op|')'
+newline|'\n'
+nl|'\n'
 comment|'# Iterate all object classes and verify that we can run'
 nl|'\n'
 comment|'# obj_make_compatible with every older version than current.'
@@ -9312,7 +9382,6 @@ comment|"# makes sure the method doesn't blow up on something basic like"
 nl|'\n'
 comment|'# expecting the wrong version format.'
 nl|'\n'
-indent|'        '
 name|'obj_classes'
 op|'='
 name|'base'
