@@ -8549,7 +8549,7 @@ op|','
 nl|'\n'
 string|"'BlockDeviceMapping'"
 op|':'
-string|"'1.16-f0c172e902bc62f1cac05b17d7be7688'"
+string|"'1.17-5e094927f1251770dcada6ab05adfcdb'"
 op|','
 nl|'\n'
 string|"'BlockDeviceMappingList'"
@@ -8989,7 +8989,7 @@ op|','
 nl|'\n'
 string|"'VirtualInterface'"
 op|':'
-string|"'1.0-19921e38cba320f355d56ecbf8f29587'"
+string|"'1.1-422f46c1eaa24a1f63d3360c199cc7c0'"
 op|','
 nl|'\n'
 string|"'VirtualInterfaceList'"

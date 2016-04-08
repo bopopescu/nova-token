@@ -50270,6 +50270,12 @@ name|'uuid4'
 op|'('
 op|')'
 op|')'
+op|','
+nl|'\n'
+string|"'tag'"
+op|':'
+string|"'fake-tag'"
+op|','
 nl|'\n'
 op|'}'
 newline|'\n'

@@ -17165,6 +17165,11 @@ op|','
 string|"'destination_type'"
 op|':'
 string|"'volume'"
+op|','
+nl|'\n'
+string|"'tag'"
+op|':'
+name|'None'
 op|'}'
 op|')'
 newline|'\n'
@@ -17265,6 +17270,11 @@ op|','
 string|"'delete_on_termination'"
 op|':'
 name|'False'
+op|','
+nl|'\n'
+string|"'tag'"
+op|':'
+name|'None'
 op|'}'
 op|')'
 newline|'\n'
@@ -17504,6 +17514,11 @@ op|','
 string|"'delete_on_termination'"
 op|':'
 name|'True'
+op|','
+nl|'\n'
+string|"'tag'"
+op|':'
+name|'None'
 op|'}'
 op|')'
 newline|'\n'
@@ -17583,6 +17598,11 @@ op|','
 string|"'delete_on_termination'"
 op|':'
 name|'True'
+op|','
+nl|'\n'
+string|"'tag'"
+op|':'
+name|'None'
 op|'}'
 op|')'
 newline|'\n'
