@@ -872,6 +872,22 @@ string|"'x-auth-token'"
 op|']'
 newline|'\n'
 name|'if'
+string|"'X-OpenStack-Nova-API-Version'"
+name|'in'
+name|'headers'
+op|':'
+newline|'\n'
+indent|'            '
+name|'raise'
+name|'Exception'
+op|'('
+string|"'X-OpenStack-Nova-API-Version should be set on '"
+nl|'\n'
+string|"'microversion attribute in API client.'"
+op|')'
+newline|'\n'
+dedent|''
+name|'elif'
 name|'self'
 op|'.'
 name|'microversion'
