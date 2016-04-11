@@ -391,6 +391,11 @@ name|'PROGRESS_INTERVAL_SECONDS'
 op|'='
 number|'300'
 newline|'\n'
+DECL|variable|DD_BLOCKSIZE
+name|'DD_BLOCKSIZE'
+op|'='
+number|'65536'
+newline|'\n'
 nl|'\n'
 comment|'# Fudge factor to allow for the VHD chain to be slightly larger than'
 nl|'\n'
@@ -6256,6 +6261,11 @@ nl|'\n'
 string|"'of=%s'"
 op|'%'
 name|'dev_path'
+op|','
+nl|'\n'
+string|"'bs=%d'"
+op|'%'
+name|'DD_BLOCKSIZE'
 op|','
 nl|'\n'
 string|"'oflag=direct,sync'"
@@ -13802,6 +13812,11 @@ nl|'\n'
 string|"'of=%s'"
 op|'%'
 name|'dst_path'
+op|','
+nl|'\n'
+string|"'bs=%d'"
+op|'%'
+name|'DD_BLOCKSIZE'
 op|','
 nl|'\n'
 string|"'count=%d'"
