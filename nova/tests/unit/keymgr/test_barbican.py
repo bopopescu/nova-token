@@ -1255,7 +1255,7 @@ op|'('
 string|"'Nova Compute Key'"
 op|','
 nl|'\n'
-string|"'AQKgsw=='"
+string|"b'AQKgsw=='"
 op|','
 nl|'\n'
 string|"'application/octet-stream'"
