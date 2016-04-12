@@ -289,6 +289,11 @@ name|'FAKE_PROJECT_ID'
 op|'='
 string|"'6a6a9c9eee154e9cb8cec487b98d36ab'"
 newline|'\n'
+DECL|variable|FAKE_USER_ID
+name|'FAKE_USER_ID'
+op|'='
+string|"'5fae60f5cf4642609ddd31f71748beac'"
+newline|'\n'
 DECL|variable|FAKE_UUIDS
 name|'FAKE_UUIDS'
 op|'='
