@@ -88,7 +88,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'The libvirt UUID of the secret for the rbd_user'"
+string|"'The libvirt UUID of the secret for the rbd_user '"
 nl|'\n'
 string|"'volumes'"
 op|')'
