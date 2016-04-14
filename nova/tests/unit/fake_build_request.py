@@ -221,6 +221,11 @@ op|':'
 string|"'fake-project'"
 op|','
 nl|'\n'
+string|"'instance_uuid'"
+op|':'
+name|'None'
+op|','
+nl|'\n'
 string|"'user_id'"
 op|':'
 string|"'fake-user'"
@@ -333,6 +338,11 @@ name|'_req_spec_to_db_format'
 op|'('
 name|'req_spec'
 op|')'
+op|','
+nl|'\n'
+string|"'instance'"
+op|':'
+name|'None'
 op|','
 nl|'\n'
 string|"'created_at'"
