@@ -109,26 +109,6 @@ op|','
 nl|'\n'
 name|'cfg'
 op|'.'
-name|'BoolOpt'
-op|'('
-string|"'stub_compute'"
-op|','
-nl|'\n'
-DECL|variable|default
-name|'default'
-op|'='
-name|'False'
-op|','
-nl|'\n'
-DECL|variable|help
-name|'help'
-op|'='
-string|"'Stub calls to compute worker for tests'"
-op|')'
-op|','
-nl|'\n'
-name|'cfg'
-op|'.'
 name|'StrOpt'
 op|'('
 string|"'console_public_hostname'"
