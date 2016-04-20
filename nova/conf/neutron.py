@@ -167,7 +167,7 @@ op|'.'
 name|'BoolOpt'
 op|'('
 nl|'\n'
-string|"'service_metadata_proxy'"
+string|'"service_metadata_proxy"'
 op|','
 nl|'\n'
 DECL|variable|default
@@ -176,12 +176,9 @@ op|'='
 name|'False'
 op|','
 nl|'\n'
-DECL|variable|help
 name|'help'
 op|'='
-string|"'Set flag to indicate Neutron will proxy metadata requests and '"
-nl|'\n'
-string|"'resolve instance ids.'"
+string|'"""\nWhen set to True, this option indicates that Neutron will be used to proxy\nmetadata requests and resolve instance ids. Otherwise, the instance ID must be\npassed to the metadata request in the \'X-Instance-ID\' header.\n\nPossible values:\n\n    True, False (default)\n\n* Services which consume this:\n\n    ``nova-api``\n\n* Related options:\n\n    metadata_proxy_shared_secret\n"""'
 op|')'
 op|','
 nl|'\n'
@@ -190,22 +187,24 @@ op|'.'
 name|'StrOpt'
 op|'('
 nl|'\n'
-string|"'metadata_proxy_shared_secret'"
+string|'"metadata_proxy_shared_secret"'
 op|','
 nl|'\n'
+DECL|variable|default
 name|'default'
 op|'='
-string|"''"
+string|'""'
 op|','
+nl|'\n'
+DECL|variable|secret
 name|'secret'
 op|'='
 name|'True'
 op|','
 nl|'\n'
-DECL|variable|help
 name|'help'
 op|'='
-string|"'Shared secret to validate proxies Neutron metadata requests'"
+string|'"""\nThis option holds the shared secret string used to validate proxy requests to\nNeutron metadata requests. In order to be used, the\n\'X-Metadata-Provider-Signature\' header must be supplied in the request.\n\nPossible values:\n\n    Any string\n\n* Services which consume this:\n\n    ``nova-api``\n\n* Related options:\n\n    service_metadata_proxy\n"""'
 op|')'
 op|','
 nl|'\n'

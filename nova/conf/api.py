@@ -44,7 +44,7 @@ name|'cfg'
 op|'.'
 name|'BoolOpt'
 op|'('
-string|"'api_rate_limit'"
+string|'"api_rate_limit"'
 op|','
 nl|'\n'
 DECL|variable|default
@@ -53,14 +53,9 @@ op|'='
 name|'False'
 op|','
 nl|'\n'
-DECL|variable|help
 name|'help'
 op|'='
-string|"'Whether to use per-user rate limiting for the api. '"
-nl|'\n'
-string|"'This option is only used by v2 api. Rate limiting '"
-nl|'\n'
-string|"'is removed from v2.1 api.'"
+string|'"""\nDetermines whether rate limiting for the API is per-user. This option is only\nused by v2 API. Rate limiting is removed from v2.1 API.\n\n* Possible values:\n\n    True, False (default)\n\n* Services that use this:\n\n    ``nova-api``\n\n* Related options:\n\n    None\n"""'
 op|')'
 op|','
 nl|'\n'
@@ -68,28 +63,28 @@ name|'cfg'
 op|'.'
 name|'StrOpt'
 op|'('
-string|"'auth_strategy'"
+string|'"auth_strategy"'
 op|','
 nl|'\n'
 DECL|variable|default
 name|'default'
 op|'='
-string|"'keystone'"
+string|'"keystone"'
 op|','
 nl|'\n'
 DECL|variable|choices
 name|'choices'
 op|'='
 op|'('
-string|"'keystone'"
+string|'"keystone"'
 op|','
-string|"'noauth2'"
+string|'"noauth2"'
 op|')'
 op|','
 nl|'\n'
 name|'help'
 op|'='
-string|"'''\nThe strategy to use for auth: keystone or noauth2. noauth2 is designed for\ntesting only, as it does no actual credential checking. noauth2 provides\nadministrative credentials only if 'admin' is specified as the username.\n'''"
+string|'"""\nThis determines the strategy to use for authentication: keystone or noauth2.\n\'noauth2\' is designed for testing only, as it does no actual credential\nchecking. \'noauth2\' provides administrative credentials only if \'admin\' is\nspecified as the username.\n\n* Possible values:\n\n    Either \'keystone\' (default) or \'noauth2\'.\n\n* Services that use this:\n\n    ``nova-api``\n\n* Related options:\n\n    None\n"""'
 op|')'
 op|','
 nl|'\n'
@@ -97,7 +92,7 @@ name|'cfg'
 op|'.'
 name|'BoolOpt'
 op|'('
-string|"'use_forwarded_for'"
+string|'"use_forwarded_for"'
 op|','
 nl|'\n'
 DECL|variable|default
@@ -106,12 +101,9 @@ op|'='
 name|'False'
 op|','
 nl|'\n'
-DECL|variable|help
 name|'help'
 op|'='
-string|"'Treat X-Forwarded-For as the canonical remote address. '"
-nl|'\n'
-string|"'Only enable this if you have a sanitizing proxy.'"
+string|'"""\nWhen True, the \'X-Forwarded-For\' header is treated as the canonical remote\naddress. When False (the default), the \'remote_address\' header is used.\n\nYou should only enable this if you have an HTML sanitizing proxy.\n\n* Possible values:\n\n    True, False (default)\n\n* Services that use this:\n\n    ``nova-api``\n\n* Related options:\n\n    None\n"""'
 op|')'
 op|','
 nl|'\n'
@@ -127,25 +119,22 @@ name|'cfg'
 op|'.'
 name|'StrOpt'
 op|'('
-string|"'config_drive_skip_versions'"
+string|'"config_drive_skip_versions"'
 op|','
 nl|'\n'
 DECL|variable|default
 name|'default'
 op|'='
 op|'('
-string|"'1.0 2007-01-19 2007-03-01 2007-08-29 2007-10-10 '"
+string|'"1.0 2007-01-19 2007-03-01 2007-08-29 2007-10-10 "'
 nl|'\n'
-string|"'2007-12-15 2008-02-01 2008-09-01'"
+string|'"2007-12-15 2008-02-01 2008-09-01"'
 op|')'
 op|','
 nl|'\n'
-DECL|variable|help
 name|'help'
 op|'='
-string|"'List of metadata versions to skip placing into the '"
-nl|'\n'
-string|"'config drive'"
+string|'"""\nWhen gathering the existing metadata for a config drive, the EC2-style metadata\nis returned for all versions that don\'t appear in this option. As of the\nLiberty release, the available versions are:\n\n    1.0\n    2007-01-19\n    2007-03-01\n    2007-08-29\n    2007-10-10\n    2007-12-15\n    2008-02-01\n    2008-09-01\n    2009-04-04\n\nThe option is in the format of a single string, with each version separated by\na space.\n\n* Possible values:\n\n    Any string that represents zero or more versions, separated by spaces. The\n    default is "1.0 2007-01-19 2007-03-01 2007-08-29 2007-10-10 2007-12-15\n    2008-02-01 2008-09-01".\n\n* Services that use this:\n\n    ``nova-api``\n\n* Related options:\n\n    None\n"""'
 op|')'
 op|','
 nl|'\n'
@@ -153,25 +142,24 @@ name|'cfg'
 op|'.'
 name|'StrOpt'
 op|'('
-string|"'vendordata_driver'"
+string|'"vendordata_driver"'
 op|','
 nl|'\n'
 DECL|variable|default
 name|'default'
 op|'='
-string|"'nova.api.metadata.vendordata_json.JsonFileVendorData'"
-op|','
-nl|'\n'
-DECL|variable|help
-name|'help'
-op|'='
-string|"'DEPRECATED: Driver to use for vendor data'"
+string|'"nova.api.metadata.vendordata_json.JsonFileVendorData"'
 op|','
 nl|'\n'
 DECL|variable|deprecated_for_removal
 name|'deprecated_for_removal'
 op|'='
 name|'True'
+op|','
+nl|'\n'
+name|'help'
+op|'='
+string|'"""\nDEPRECATED: When returning instance metadata, this is the class that is used\nfor getting vendor metadata when that class isn\'t specified in the individual\nrequest. The value should be the full dot-separated path to the class to use.\n\n* Possible values:\n\n    Any valid dot-separated class path that can be imported. The default is\n    \'nova.api.metadata.vendordata_json.JsonFileVendorData\'.\n\n* Services that use this:\n\n    ``nova-api``\n\n* Related options:\n\n    None\n"""'
 op|')'
 op|','
 nl|'\n'
@@ -179,7 +167,7 @@ name|'cfg'
 op|'.'
 name|'IntOpt'
 op|'('
-string|"'metadata_cache_expiration'"
+string|'"metadata_cache_expiration"'
 op|','
 nl|'\n'
 DECL|variable|default
@@ -188,20 +176,9 @@ op|'='
 number|'15'
 op|','
 nl|'\n'
-DECL|variable|help
 name|'help'
 op|'='
-string|"'Time in seconds to cache metadata; 0 to disable '"
-nl|'\n'
-string|"'metadata caching entirely (not recommended). Increasing'"
-nl|'\n'
-string|"'this should improve response times of the metadata API '"
-nl|'\n'
-string|"'when under heavy load. Higher values may increase memory'"
-nl|'\n'
-string|"'usage and result in longer times for host metadata '"
-nl|'\n'
-string|"'changes to take effect.'"
+string|'"""\nThis option is the time (in seconds) to cache metadata. When set to 0, metadata\ncaching is disabled entirely; this is generally not recommended for performance\nreasons. Increasing this setting should improve response times of the metadata\nAPI when under heavy load. Higher values may increase memory usage, and result\nin longer times for host metadata changes to take effect.\n\n* Possible values:\n\n    Zero or any positive integer. The default is 15.\n\n* Services that use this:\n\n    ``nova-api``\n\n* Related options:\n\n    None\n"""'
 op|')'
 op|','
 nl|'\n'
@@ -215,13 +192,12 @@ name|'cfg'
 op|'.'
 name|'StrOpt'
 op|'('
-string|"'vendordata_jsonfile_path'"
+string|'"vendordata_jsonfile_path"'
 op|','
 nl|'\n'
-DECL|variable|help
 name|'help'
 op|'='
-string|"'File to load JSON formatted vendor data from'"
+string|'"""\nCloud providers may store custom data in vendor data file that will then be\navailable to the instances via the metadata service, and to the rendering of\nconfig-drive. The default class for this, JsonFileVendorData, loads this\ninformation from a JSON file, whose path is configured by this option. If there\nis no path set by this option, the class returns an empty dictionary.\n\n* Possible values:\n\n    Any string representing the path to the data file, or an empty string\n    (default).\n\n* Services that use this:\n\n    ``nova-api``\n\n* Related options:\n\n    None\n"""'
 op|')'
 newline|'\n'
 nl|'\n'
