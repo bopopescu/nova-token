@@ -234,16 +234,6 @@ name|'conf'
 op|'.'
 name|'CONF'
 newline|'\n'
-name|'CONF'
-op|'.'
-name|'import_opt'
-op|'('
-string|"'enable_instance_password'"
-op|','
-nl|'\n'
-string|"'nova.api.openstack.compute.legacy_v2.servers'"
-op|')'
-newline|'\n'
 nl|'\n'
 DECL|variable|LOG
 name|'LOG'
