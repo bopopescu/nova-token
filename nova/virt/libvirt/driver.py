@@ -1595,15 +1595,6 @@ name|'CONF'
 op|'.'
 name|'import_opt'
 op|'('
-string|"'live_migration_retry_count'"
-op|','
-string|"'nova.compute.manager'"
-op|')'
-newline|'\n'
-name|'CONF'
-op|'.'
-name|'import_opt'
-op|'('
 string|"'hw_disk_discard'"
 op|','
 string|"'nova.virt.libvirt.imagebackend'"

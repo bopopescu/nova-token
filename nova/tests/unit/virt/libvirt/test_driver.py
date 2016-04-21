@@ -672,15 +672,6 @@ op|','
 string|"'nova.netconf'"
 op|')'
 newline|'\n'
-name|'CONF'
-op|'.'
-name|'import_opt'
-op|'('
-string|"'instances_path'"
-op|','
-string|"'nova.compute.manager'"
-op|')'
-newline|'\n'
 nl|'\n'
 DECL|variable|_fake_network_info
 name|'_fake_network_info'

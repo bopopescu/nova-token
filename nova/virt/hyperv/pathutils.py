@@ -76,15 +76,6 @@ name|'conf'
 op|'.'
 name|'CONF'
 newline|'\n'
-name|'CONF'
-op|'.'
-name|'import_opt'
-op|'('
-string|"'instances_path'"
-op|','
-string|"'nova.compute.manager'"
-op|')'
-newline|'\n'
 nl|'\n'
 DECL|variable|ERROR_INVALID_NAME
 name|'ERROR_INVALID_NAME'
