@@ -352,12 +352,9 @@ op|'='
 name|'False'
 op|','
 nl|'\n'
-DECL|variable|help
 name|'help'
 op|'='
-string|"'Enables or disables quota checking for tenant '"
-nl|'\n'
-string|"'networks'"
+string|'"""\nThis option is used to enable or disable quota checking for tenant networks.\n\n* Services that use this:\n\n    ``nova-api``\n\nPossible values:\n\n    True, False (default)\n\n* Related options:\n\n    quota_networks\n"""'
 op|')'
 op|','
 nl|'\n'
@@ -374,10 +371,9 @@ op|'='
 string|'"False"'
 op|','
 nl|'\n'
-DECL|variable|help
 name|'help'
 op|'='
-string|"'Control for checking for default networks'"
+string|'"""\nWhen "True" (note that this is a string value, not a boolean), the\nTenantNetworkController will query the Neutron API to get the default networks\nto use.\n\n* Services that use this:\n\n    ``nova-api``\n\nPossible values:\n\n    Either "True" or "False" (default)\n\n* Related options:\n\n    neutron_default_tenant_id\n"""'
 op|')'
 op|','
 nl|'\n'
@@ -394,12 +390,9 @@ op|'='
 string|'"default"'
 op|','
 nl|'\n'
-DECL|variable|help
 name|'help'
 op|'='
-string|"'Default tenant id when creating neutron '"
-nl|'\n'
-string|"'networks'"
+string|'"""\nWhen getting the default network from the Neutron API, this is the tenant ID\n(also referred in some places as the \'project ID\') to use. The default is the\nstring \'default\'.\n\n* Services that use this:\n\n    ``nova-api``\n\nPossible values:\n\n    A string representing a valid tenant ID\n\n* Related options:\n\n    use_neutron_default_nets\n"""'
 op|')'
 op|','
 nl|'\n'
@@ -416,10 +409,9 @@ op|'='
 number|'3'
 op|','
 nl|'\n'
-DECL|variable|help
 name|'help'
 op|'='
-string|"'Number of private networks allowed per project'"
+string|'"""\nThis option controls the number of private networks that can be created per\nproject (or per tenant).\n\n* Services that use this:\n\n    ``nova-api``\n\nPossible values:\n\n    Any positive integer. The default is 3.\n\n* Related options:\n\n    enable_network_quota\n"""'
 op|')'
 op|','
 nl|'\n'
@@ -442,18 +434,9 @@ op|'='
 name|'True'
 op|','
 nl|'\n'
-DECL|variable|help
 name|'help'
 op|'='
-string|"'Enables returning of the instance password by the'"
-nl|'\n'
-string|"' relevant server API calls such as create, rebuild'"
-nl|'\n'
-string|"' or rescue, If the hypervisor does not support'"
-nl|'\n'
-string|"' password injection then the password returned will'"
-nl|'\n'
-string|"' not be correct'"
+string|'"""\nEnables returning of the instance password by the relevant server API calls\nsuch as create, rebuild, evacuate, or rescue. If the hypervisor does not\nsupport password injection, then the password returned will not be correct, so\nif your hypervisor does not support password injection, set this to False.\n\n* Services that use this:\n\n    ``nova-api``\n\nPossible values:\n\n    True (default), False\n\n* Related options:\n\n    None\n"""'
 op|')'
 newline|'\n'
 nl|'\n'
