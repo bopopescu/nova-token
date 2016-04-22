@@ -27624,6 +27624,10 @@ op|','
 string|"'device_owner'"
 op|':'
 string|"''"
+op|','
+string|"'dns_name'"
+op|':'
+string|"''"
 op|'}'
 op|'}'
 newline|'\n'
