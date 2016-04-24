@@ -138,16 +138,6 @@ name|'conf'
 op|'.'
 name|'CONF'
 newline|'\n'
-name|'CONF'
-op|'.'
-name|'import_opt'
-op|'('
-string|"'compute_topic'"
-op|','
-string|"'nova.compute.rpcapi'"
-op|')'
-newline|'\n'
-nl|'\n'
 nl|'\n'
 DECL|variable|FAKE_COMPUTE_NODES
 name|'FAKE_COMPUTE_NODES'

@@ -473,15 +473,6 @@ name|'conf'
 op|'.'
 name|'CONF'
 newline|'\n'
-name|'CONF'
-op|'.'
-name|'import_opt'
-op|'('
-string|"'compute_topic'"
-op|','
-string|"'nova.compute.rpcapi'"
-op|')'
-newline|'\n'
 nl|'\n'
 DECL|variable|MAX_USERDATA_SIZE
 name|'MAX_USERDATA_SIZE'
