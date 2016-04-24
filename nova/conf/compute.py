@@ -1260,19 +1260,18 @@ name|'cfg'
 op|'.'
 name|'StrOpt'
 op|'('
-string|"'compute_topic'"
+string|'"compute_topic"'
 op|','
 nl|'\n'
 DECL|variable|default
 name|'default'
 op|'='
-string|"'compute'"
+string|'"compute"'
 op|','
 nl|'\n'
-DECL|variable|help
 name|'help'
 op|'='
-string|"'The topic compute nodes listen on'"
+string|'"""\nThis is the message queue topic that the compute service \'listens\' on. It is\nused when the compute service is started up to configure the queue, and\nwhenever an RPC call to the compute service is made.\n\n* Possible values:\n\n    Any string, but there is almost never any reason to ever change this value\n    from its default of \'compute\'.\n\n* Services that use this:\n\n    ``nova-compute``\n\n* Related options:\n\n    None\n"""'
 op|')'
 op|','
 nl|'\n'
