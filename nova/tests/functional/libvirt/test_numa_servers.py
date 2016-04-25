@@ -424,7 +424,7 @@ name|'flags'
 op|'('
 name|'compute_driver'
 op|'='
-string|"'nova.virt.libvirt.LibvirtDriver'"
+string|"'libvirt.LibvirtDriver'"
 op|')'
 newline|'\n'
 nl|'\n'

@@ -2866,7 +2866,7 @@ name|'flags'
 op|'('
 name|'compute_driver'
 op|'='
-string|"'nova.virt.fake.FakeDriver'"
+string|"'fake.FakeDriver'"
 op|','
 nl|'\n'
 name|'network_manager'

@@ -198,8 +198,7 @@ name|'set_default'
 op|'('
 string|"'compute_driver'"
 op|','
-nl|'\n'
-string|"'nova.virt.fake.SmallFakeDriver'"
+string|"'fake.SmallFakeDriver'"
 op|')'
 newline|'\n'
 name|'self'
