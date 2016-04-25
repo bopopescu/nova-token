@@ -738,7 +738,7 @@ name|'cfg'
 op|'.'
 name|'MultiStrOpt'
 op|'('
-string|"'dns_server'"
+string|'"dns_server"'
 op|','
 nl|'\n'
 DECL|variable|default
@@ -748,12 +748,9 @@ op|'['
 op|']'
 op|','
 nl|'\n'
-DECL|variable|help
 name|'help'
 op|'='
-string|"'If set, uses specific DNS server for dnsmasq. Can'"
-nl|'\n'
-string|"' be specified multiple times.'"
+string|'"""\nDespite the singular form of the name of this option, it is actually a list of\nzero or more server addresses that dnsmasq will use for DNS nameservers. If\nthis is not empty, dnsmasq will not read /etc/resolv.conf, but will only use\nthe servers specified in this option. If the option use_network_dns_servers is\nTrue, the dns1 and dns2 servers from the network will be appended to this list,\nand will be used as DNS servers, too.\n\nPossible values:\n\n    A list of strings, where each string is etiher an IP address or a FQDN.\n\n* Services that use this:\n\n    ``nova-network``\n\n* Related options:\n\n    use_network_dns_servers\n"""'
 op|')'
 op|','
 nl|'\n'
@@ -761,7 +758,7 @@ name|'cfg'
 op|'.'
 name|'BoolOpt'
 op|'('
-string|"'use_network_dns_servers'"
+string|'"use_network_dns_servers"'
 op|','
 nl|'\n'
 DECL|variable|default
@@ -770,12 +767,9 @@ op|'='
 name|'False'
 op|','
 nl|'\n'
-DECL|variable|help
 name|'help'
 op|'='
-string|"'If set, uses the dns1 and dns2 from the network ref.'"
-nl|'\n'
-string|"' as dns servers.'"
+string|'"""\nWhen this option is set to True, the dns1 and dns2 servers for the network\nspecified by the user on boot will be used for DNS, as well as any specified in\nthe `dns_server` option.\n\nPossible values:\n\n    True, False (default)\n\n* Services that use this:\n\n    ``nova-network``\n\n* Related options:\n\n    dns_server\n"""'
 op|')'
 op|','
 nl|'\n'
@@ -783,7 +777,7 @@ name|'cfg'
 op|'.'
 name|'ListOpt'
 op|'('
-string|"'dmz_cidr'"
+string|'"dmz_cidr"'
 op|','
 nl|'\n'
 DECL|variable|default
@@ -793,10 +787,9 @@ op|'['
 op|']'
 op|','
 nl|'\n'
-DECL|variable|help
 name|'help'
 op|'='
-string|"'A list of dmz ranges that should be accepted'"
+string|'"""\nThis option is a list of zero or more IP address ranges in your network\'s DMZ\nthat should be accepted.\n\nPossible values:\n\n    A list of strings, each of which should be a valid CIDR.\n\n* Services that use this:\n\n    ``nova-network``\n\n* Related options:\n\n    None\n"""'
 op|')'
 op|','
 nl|'\n'
@@ -804,7 +797,7 @@ name|'cfg'
 op|'.'
 name|'MultiStrOpt'
 op|'('
-string|"'force_snat_range'"
+string|'"force_snat_range"'
 op|','
 nl|'\n'
 DECL|variable|default
@@ -814,14 +807,9 @@ op|'['
 op|']'
 op|','
 nl|'\n'
-DECL|variable|help
 name|'help'
 op|'='
-string|"'Traffic to this range will always be snatted to the '"
-nl|'\n'
-string|"'fallback IP, even if it would normally be bridged out '"
-nl|'\n'
-string|"'of the node. Can be specified multiple times.'"
+string|'"""\nThis is a list of zero or more IP ranges that traffic from the\n`routing_source_ip` will be SNATted to. If the list is empty, then no SNAT\nrules are created.\n\nPossible values:\n\n    A list of strings, each of which should be a valid CIDR.\n\n* Services that use this:\n\n    ``nova-network``\n\n* Related options:\n\n    routing_source_ip\n"""'
 op|')'
 op|','
 nl|'\n'
@@ -829,19 +817,18 @@ name|'cfg'
 op|'.'
 name|'StrOpt'
 op|'('
-string|"'dnsmasq_config_file'"
+string|'"dnsmasq_config_file"'
 op|','
 nl|'\n'
 DECL|variable|default
 name|'default'
 op|'='
-string|"''"
+string|'""'
 op|','
 nl|'\n'
-DECL|variable|help
 name|'help'
 op|'='
-string|"'Override the default dnsmasq settings with this file'"
+string|'"""\nThe path to the custom dnsmasq configuration file, if any.\n\nPossible values:\n\n    The full path to the configuration file, or an empty string if there is no\n    custom dnsmasq configuration file.\n\n* Services that use this:\n\n    ``nova-network``\n\n* Related options:\n\n    None\n"""'
 op|')'
 op|','
 nl|'\n'
