@@ -33754,6 +33754,9 @@ op|'.'
 name|'return_value'
 op|'='
 op|'['
+string|"'default-uuid'"
+op|','
+nl|'\n'
 string|"'secgrp-uuid1'"
 op|','
 nl|'\n'
@@ -33801,6 +33804,8 @@ op|'.'
 name|'ANY'
 op|','
 op|'['
+string|"'default'"
+op|','
 string|"'secgrp1'"
 op|','
 string|"'secgrp2'"
@@ -33849,11 +33854,14 @@ nl|'\n'
 name|'None'
 op|','
 op|'['
+string|"'default-uuid'"
+op|','
 string|"'secgrp-uuid1'"
 op|','
 string|"'secgrp-uuid2'"
 op|']'
 op|','
+nl|'\n'
 name|'None'
 op|','
 name|'None'
@@ -33896,11 +33904,14 @@ nl|'\n'
 name|'None'
 op|','
 op|'['
+string|"'default-uuid'"
+op|','
 string|"'secgrp-uuid1'"
 op|','
 string|"'secgrp-uuid2'"
 op|']'
 op|','
+nl|'\n'
 name|'None'
 op|','
 name|'None'
@@ -34688,6 +34699,9 @@ op|'.'
 name|'return_value'
 op|'='
 op|'['
+string|"'default-uuid'"
+op|','
+nl|'\n'
 string|"'secgrp-uuid1'"
 op|','
 nl|'\n'
@@ -34745,6 +34759,8 @@ op|'.'
 name|'ANY'
 op|','
 op|'['
+string|"'default'"
+op|','
 string|"'secgrp1'"
 op|','
 string|"'secgrp2'"
