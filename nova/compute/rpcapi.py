@@ -2652,6 +2652,13 @@ name|'version'
 op|'='
 string|"'4.0'"
 newline|'\n'
+name|'args'
+op|'.'
+name|'pop'
+op|'('
+string|"'migration'"
+op|')'
+newline|'\n'
 dedent|''
 name|'cctxt'
 op|'='
