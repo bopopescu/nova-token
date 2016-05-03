@@ -84,7 +84,7 @@ string|"'volume_size'"
 op|':'
 name|'parameter_types'
 op|'.'
-name|'non_negative_integer'
+name|'volume_size'
 op|','
 nl|'\n'
 comment|'# Do not allow empty device names and number values and'
