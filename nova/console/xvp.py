@@ -99,15 +99,6 @@ name|'conf'
 op|'.'
 name|'CONF'
 newline|'\n'
-name|'CONF'
-op|'.'
-name|'import_opt'
-op|'('
-string|"'host'"
-op|','
-string|"'nova.netconf'"
-op|')'
-newline|'\n'
 DECL|variable|LOG
 name|'LOG'
 op|'='
