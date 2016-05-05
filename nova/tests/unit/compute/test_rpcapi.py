@@ -4800,11 +4800,6 @@ op|':'
 name|'False'
 op|','
 nl|'\n'
-string|"'migration'"
-op|':'
-name|'None'
-op|','
-nl|'\n'
 string|"'migrate_data'"
 op|':'
 op|'{'
