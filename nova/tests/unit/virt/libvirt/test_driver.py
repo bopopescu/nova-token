@@ -91759,7 +91759,7 @@ op|':'
 string|"'image'"
 op|','
 nl|'\n'
-string|"'detination_type'"
+string|"'destination_type'"
 op|':'
 string|"'volume'"
 op|','
