@@ -1471,6 +1471,94 @@ nl|'\n'
 op|']'
 newline|'\n'
 nl|'\n'
+DECL|variable|libvirt_volume_iscsi_opts
+name|'libvirt_volume_iscsi_opts'
+op|'='
+op|'['
+nl|'\n'
+name|'cfg'
+op|'.'
+name|'IntOpt'
+op|'('
+string|"'num_iscsi_scan_tries'"
+op|','
+nl|'\n'
+DECL|variable|default
+name|'default'
+op|'='
+number|'5'
+op|','
+nl|'\n'
+DECL|variable|help
+name|'help'
+op|'='
+string|"'Number of times to rescan iSCSI target to find volume'"
+op|')'
+op|','
+nl|'\n'
+name|'cfg'
+op|'.'
+name|'BoolOpt'
+op|'('
+string|"'iscsi_use_multipath'"
+op|','
+nl|'\n'
+DECL|variable|default
+name|'default'
+op|'='
+name|'False'
+op|','
+nl|'\n'
+DECL|variable|help
+name|'help'
+op|'='
+string|"'Use multipath connection of the iSCSI or FC volume'"
+op|')'
+op|','
+nl|'\n'
+name|'cfg'
+op|'.'
+name|'StrOpt'
+op|'('
+string|"'iscsi_iface'"
+op|','
+nl|'\n'
+DECL|variable|deprecated_name
+name|'deprecated_name'
+op|'='
+string|"'iscsi_transport'"
+op|','
+nl|'\n'
+DECL|variable|help
+name|'help'
+op|'='
+string|"'The iSCSI transport iface to use to connect to target in '"
+nl|'\n'
+string|"'case offload support is desired. Default format is of '"
+nl|'\n'
+string|"'the form <transport_name>.<hwaddress> where '"
+nl|'\n'
+string|"'<transport_name> is one of (be2iscsi, bnx2i, cxgb3i, '"
+nl|'\n'
+string|"'cxgb4i, qla4xxx, ocs) and <hwaddress> is the MAC address '"
+nl|'\n'
+string|"'of the interface and can be generated via the '"
+nl|'\n'
+string|"'iscsiadm -m iface command. Do not confuse the '"
+nl|'\n'
+string|"'iscsi_iface parameter to be provided here with the '"
+nl|'\n'
+string|"'actual transport name.'"
+op|')'
+op|','
+nl|'\n'
+comment|'# iser is also supported, but use LibvirtISERVolumeDriver'
+nl|'\n'
+comment|'# instead'
+nl|'\n'
+op|']'
+newline|'\n'
+nl|'\n'
 DECL|variable|ALL_OPTS
 name|'ALL_OPTS'
 op|'='
@@ -1506,6 +1594,9 @@ name|'libvirt_volume_aoe_opts'
 op|','
 nl|'\n'
 name|'libvirt_volume_glusterfs_opts'
+op|','
+nl|'\n'
+name|'libvirt_volume_iscsi_opts'
 op|','
 nl|'\n'
 op|')'
