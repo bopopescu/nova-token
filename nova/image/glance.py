@@ -183,15 +183,6 @@ name|'conf'
 op|'.'
 name|'CONF'
 newline|'\n'
-name|'CONF'
-op|'.'
-name|'import_opt'
-op|'('
-string|"'auth_strategy'"
-op|','
-string|"'nova.api.auth'"
-op|')'
-newline|'\n'
 nl|'\n'
 DECL|variable|supported_glance_versions
 name|'supported_glance_versions'
