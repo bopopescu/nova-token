@@ -3320,6 +3320,8 @@ string|"'system_metadata'"
 op|','
 nl|'\n'
 string|"'security_groups'"
+op|','
+string|"'keypairs'"
 op|']'
 op|')'
 newline|'\n'

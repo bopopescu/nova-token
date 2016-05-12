@@ -8489,6 +8489,8 @@ nl|'\n'
 string|"'system_metadata'"
 op|','
 string|"'security_groups'"
+op|','
+string|"'keypairs'"
 op|']'
 op|')'
 newline|'\n'
@@ -8621,6 +8623,8 @@ nl|'\n'
 string|"'system_metadata'"
 op|','
 string|"'security_groups'"
+op|','
+string|"'keypairs'"
 op|']'
 op|')'
 newline|'\n'
