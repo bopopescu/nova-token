@@ -1787,6 +1787,65 @@ nl|'\n'
 op|']'
 newline|'\n'
 nl|'\n'
+DECL|variable|libvirt_volume_smbfs_opts
+name|'libvirt_volume_smbfs_opts'
+op|'='
+op|'['
+nl|'\n'
+name|'cfg'
+op|'.'
+name|'StrOpt'
+op|'('
+string|"'smbfs_mount_point_base'"
+op|','
+nl|'\n'
+DECL|variable|default
+name|'default'
+op|'='
+name|'paths'
+op|'.'
+name|'state_path_def'
+op|'('
+string|"'mnt'"
+op|')'
+op|','
+nl|'\n'
+DECL|variable|help
+name|'help'
+op|'='
+string|"'Directory where the SMBFS shares are mounted on the '"
+nl|'\n'
+string|"'compute node'"
+op|')'
+op|','
+nl|'\n'
+name|'cfg'
+op|'.'
+name|'StrOpt'
+op|'('
+string|"'smbfs_mount_options'"
+op|','
+nl|'\n'
+DECL|variable|default
+name|'default'
+op|'='
+string|"''"
+op|','
+nl|'\n'
+DECL|variable|help
+name|'help'
+op|'='
+string|"'Mount options passed to the SMBFS client. See '"
+nl|'\n'
+string|"'mount.cifs man page for details. Note that the '"
+nl|'\n'
+string|"'libvirt-qemu uid and gid must be specified.'"
+op|')'
+op|','
+nl|'\n'
+op|']'
+newline|'\n'
+nl|'\n'
 DECL|variable|ALL_OPTS
 name|'ALL_OPTS'
 op|'='
@@ -1840,6 +1899,9 @@ name|'libvirt_volume_quobyte_opts'
 op|','
 nl|'\n'
 name|'libvirt_volume_scality_opts'
+op|','
+nl|'\n'
+name|'libvirt_volume_smbfs_opts'
 op|','
 nl|'\n'
 op|')'
