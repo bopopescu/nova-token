@@ -44,7 +44,7 @@ name|'cfg'
 op|'.'
 name|'ListOpt'
 op|'('
-string|"'extensions_blacklist'"
+string|'"extensions_blacklist"'
 op|','
 nl|'\n'
 DECL|variable|default
@@ -54,25 +54,21 @@ op|'['
 op|']'
 op|','
 nl|'\n'
-DECL|variable|help
-name|'help'
-op|'='
-string|"'DEPRECATED: A list of v2.1 API extensions to never '"
-nl|'\n'
-string|"'load. Specify the extension aliases here. '"
-nl|'\n'
-string|"'This option will be removed in the near future. '"
-nl|'\n'
-string|"'After that point you have to run all of the API.'"
-op|','
-nl|'\n'
+DECL|variable|deprecated_for_removal
 name|'deprecated_for_removal'
 op|'='
 name|'True'
 op|','
+nl|'\n'
+DECL|variable|deprecated_group
 name|'deprecated_group'
 op|'='
-string|"'osapi_v21'"
+string|'"osapi_v21"'
+op|','
+nl|'\n'
+name|'help'
+op|'='
+string|'"""\n*DEPRECATED*\n\nThis option is a list of all of the v2.1 API extensions to never load. However,\nit will be removed in the near future, after which point all the API will run.\n\n* Possible values:\n\n    A list of strings, each being the alias of an extension that you do not\n    wish to load.\n\n* Services that use this:\n\n    ``nova-api``\n\n* Related options:\n\n    enabled, extensions_whitelist\n"""'
 op|')'
 op|','
 nl|'\n'
@@ -80,7 +76,7 @@ name|'cfg'
 op|'.'
 name|'ListOpt'
 op|'('
-string|"'extensions_whitelist'"
+string|'"extensions_whitelist"'
 op|','
 nl|'\n'
 DECL|variable|default
@@ -90,27 +86,21 @@ op|'['
 op|']'
 op|','
 nl|'\n'
-DECL|variable|help
-name|'help'
-op|'='
-string|"'DEPRECATED: If the list is not empty then a v2.1 '"
-nl|'\n'
-string|"'API extension will only be loaded if it exists in this '"
-nl|'\n'
-string|"'list. Specify the extension aliases here. '"
-nl|'\n'
-string|"'This option will be removed in the near future. '"
-nl|'\n'
-string|"'After that point you have to run all of the API.'"
-op|','
-nl|'\n'
+DECL|variable|deprecated_for_removal
 name|'deprecated_for_removal'
 op|'='
 name|'True'
 op|','
+nl|'\n'
+DECL|variable|deprecated_group
 name|'deprecated_group'
 op|'='
-string|"'osapi_v21'"
+string|'"osapi_v21"'
+op|','
+nl|'\n'
+name|'help'
+op|'='
+string|'"""\n*DEPRECATED*\n\nThis is a list of extensions. If it is empty, then *all* extensions except\nthose specified in the extensions_blacklist option will be loaded. If it is not\nempty, then only those extensions in this list will be loaded, provided that\nthey are also not in the extensions_blacklist option.\n\n* Possible values:\n\n    A list of strings, each being the alias of an extension that you wish to\n    load, or an empty list, which indicates that all extensions are to be run.\n\n* Services that use this:\n\n    ``nova-api``\n\n* Related options:\n\n    enabled, extensions_blacklist\n"""'
 op|')'
 op|','
 nl|'\n'
@@ -118,7 +108,7 @@ name|'cfg'
 op|'.'
 name|'StrOpt'
 op|'('
-string|"'project_id_regex'"
+string|'"project_id_regex"'
 op|','
 nl|'\n'
 DECL|variable|default
@@ -127,24 +117,23 @@ op|'='
 name|'None'
 op|','
 nl|'\n'
-DECL|variable|help
-name|'help'
-op|'='
-string|"'DEPRECATED: The validation regex for project_ids '"
-nl|'\n'
-string|"'used in urls. This defaults to [0-9a-f\\-]+ if not set, '"
-nl|'\n'
-string|"'which matches normal uuids created by keystone.'"
-op|','
-nl|'\n'
+DECL|variable|deprecated_for_removal
 name|'deprecated_for_removal'
 op|'='
 name|'True'
 op|','
+nl|'\n'
+DECL|variable|deprecated_group
 name|'deprecated_group'
 op|'='
-string|"'osapi_v21'"
+string|'"osapi_v21"'
+op|','
+nl|'\n'
+name|'help'
+op|'='
+string|'"""\n*DEPRECATED*\n\nThis option is a string representing a regular expression (regex) that matches\nthe project_id as contained in URLs. If not set, it will match normal UUIDs\ncreated by keystone.\n\n* Possible values:\n\n    A string representing any legal regular expression\n\n* Services that use this:\n\n    ``nova-api``\n\n* Related options:\n\n    None\n"""'
 op|')'
+op|','
 nl|'\n'
 op|']'
 newline|'\n'

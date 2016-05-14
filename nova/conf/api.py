@@ -210,7 +210,7 @@ name|'cfg'
 op|'.'
 name|'IntOpt'
 op|'('
-string|"'osapi_max_limit'"
+string|'"osapi_max_limit"'
 op|','
 nl|'\n'
 DECL|variable|default
@@ -219,12 +219,9 @@ op|'='
 number|'1000'
 op|','
 nl|'\n'
-DECL|variable|help
 name|'help'
 op|'='
-string|"'The maximum number of items returned in a single '"
-nl|'\n'
-string|"'response from a collection resource'"
+string|'"""\nAs a query can potentially return many thousands of items, you can limit the\nmaximum number of items in a single response by setting this option.\n\n* Possible values:\n\n    Any positive integer. Default is 1000.\n\n* Services that use this:\n\n    ``nova-api``\n\n* Related options:\n\n    None\n"""'
 op|')'
 op|','
 nl|'\n'
@@ -232,15 +229,12 @@ name|'cfg'
 op|'.'
 name|'StrOpt'
 op|'('
-string|"'osapi_compute_link_prefix'"
+string|'"osapi_compute_link_prefix"'
 op|','
 nl|'\n'
-DECL|variable|help
 name|'help'
 op|'='
-string|"'Base URL that will be presented to users in links '"
-nl|'\n'
-string|"'to the OpenStack Compute API'"
+string|'"""\nThis string is prepended to the normal URL that is returned in links to the\nOpenStack Compute API. If it is empty (the default), the URLs are returned\nunchanged.\n\n* Possible values:\n\n    Any string, including an empty string (the default).\n\n* Services that use this:\n\n    ``nova-api``\n\n* Related options:\n\n    None\n"""'
 op|')'
 op|','
 nl|'\n'
@@ -248,15 +242,12 @@ name|'cfg'
 op|'.'
 name|'StrOpt'
 op|'('
-string|"'osapi_glance_link_prefix'"
+string|'"osapi_glance_link_prefix"'
 op|','
 nl|'\n'
-DECL|variable|help
 name|'help'
 op|'='
-string|"'Base URL that will be presented to users in links '"
-nl|'\n'
-string|"'to glance resources'"
+string|'"""\nThis string is prepended to the normal URL that is returned in links to Glance\nresources. If it is empty (the default), the URLs are returned unchanged.\n\n* Possible values:\n\n    Any string, including an empty string (the default).\n\n* Services that use this:\n\n    ``nova-api``\n\n* Related options:\n\n    None\n"""'
 op|')'
 op|','
 nl|'\n'
