@@ -387,10 +387,6 @@ op|','
 string|"'href123'"
 op|','
 string|"'/no/path'"
-op|','
-name|'None'
-op|','
-name|'None'
 op|')'
 newline|'\n'
 dedent|''
