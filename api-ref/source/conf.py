@@ -161,10 +161,10 @@ nl|'\n'
 comment|"# source_encoding = 'utf-8'"
 nl|'\n'
 nl|'\n'
-comment|'# The master toctree document.'
+comment|'# The main toctree document.'
 nl|'\n'
-DECL|variable|master_doc
-name|'master_doc'
+DECL|variable|main_doc
+name|'main_doc'
 op|'='
 string|"'index'"
 newline|'\n'

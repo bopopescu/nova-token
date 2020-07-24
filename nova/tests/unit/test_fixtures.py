@@ -2859,7 +2859,7 @@ string|"'nova-compute'"
 op|']'
 op|','
 nl|'\n'
-name|'use_slave'
+name|'use_subordinate'
 op|'='
 name|'False'
 op|')'

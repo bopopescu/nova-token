@@ -1226,19 +1226,19 @@ name|'cfg'
 op|'.'
 name|'StrOpt'
 op|'('
-string|"'ldap_dns_soa_hostmaster'"
+string|"'ldap_dns_soa_hostmain'"
 op|','
 nl|'\n'
 DECL|variable|default
 name|'default'
 op|'='
-string|"'hostmaster@example.org'"
+string|"'hostmain@example.org'"
 op|','
 nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'Hostmaster for LDAP DNS driver Statement of Authority'"
+string|"'Hostmain for LDAP DNS driver Statement of Authority'"
 op|')'
 op|','
 nl|'\n'

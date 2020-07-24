@@ -144,7 +144,7 @@ nl|'\n'
 DECL|variable|help
 name|'help'
 op|'='
-string|"'XVP master process pid file'"
+string|"'XVP main process pid file'"
 op|')'
 op|','
 nl|'\n'

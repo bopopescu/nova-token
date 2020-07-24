@@ -519,7 +519,7 @@ op|'('
 op|'['
 string|"'HOST_IS_SLAVE'"
 op|','
-string|"'master'"
+string|"'main'"
 op|']'
 op|')'
 op|','
@@ -543,7 +543,7 @@ name|'session'
 op|'.'
 name|'XenAPISession'
 op|'('
-string|"'http://slave'"
+string|"'http://subordinate'"
 op|','
 string|"'username'"
 op|','

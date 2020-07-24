@@ -1269,7 +1269,7 @@ string|"'window'"
 op|','
 string|"'foo'"
 op|','
-name|'use_slave'
+name|'use_subordinate'
 op|'='
 name|'False'
 op|')'

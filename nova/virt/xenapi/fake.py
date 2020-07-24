@@ -408,7 +408,7 @@ op|'['
 name|'pool_ref'
 op|']'
 op|'['
-string|"'master'"
+string|"'main'"
 op|']'
 op|'='
 name|'host_ref'
@@ -5672,7 +5672,7 @@ name|'name'
 op|'.'
 name|'startswith'
 op|'('
-string|"'slave_local'"
+string|"'subordinate_local'"
 op|')'
 op|':'
 newline|'\n'
